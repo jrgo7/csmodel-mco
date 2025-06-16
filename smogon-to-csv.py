@@ -7,6 +7,7 @@ def smogon_to_csv(file_path: str) -> str:
         lines = file_pointer.readlines()
     # Remove everything but the headers and raw data
     lines = [lines[3]] + lines[5:-1]
+    
     # Clean each line
     lines = list(
         map(
