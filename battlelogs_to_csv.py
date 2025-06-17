@@ -5,53 +5,72 @@ import sys
 import os
 import chardet
 
+
 def battlelogs_to_csv(file_path: str):
-    with open(file_path, "r", encoding='utf-8') as file_pointer:
-        print(f"{file_path = }") # ! added this for debugging
+    with open(file_path, "r", encoding="utf-8") as file_pointer:
         lines = file_pointer.readlines()
 
-        # Searches for the player info line. This contains both the player name and the elo.
-        containing_player_info = [x for x in lines if "|player|p1|" in x][0].split("|")
+    player_info = []  # ['', 'player', 'p1', username, elo]
+    player_pokemon = []
+    pokemon_switches = []
+    length = 0
+    outcome = "Tie"
 
-        player_name = containing_player_info[3]
-        player_elo = containing_player_info[-1][:containing_player_info[-1].find("\n")]
+    for line in lines:
+        if "|player|p1|" in line:
+            # Get player info
+            player_info += line.split("|")
+            player_name = player_info[3]
+        elif "|poke|p1|" in line:
+            # Get pokemon info
+            pokemon = (
+                line.removeprefix("|poke|p1|")
+                .split("|")[0]
+                .split(",")[0]
+                .removesuffix("\n")
+            )
+            player_pokemon.append(pokemon)
+        elif "|switch|p1a:" in line:
+            # Get pokemon switching info (1st entry == player lead pokemon)
+            pokemon = line.removeprefix("|switch|p1a: ").split("|")[1].split(",")[0]
+            pokemon_switches.append(pokemon)
+        elif "|turn|" in line:
+            # Increment turn count
+            length += 1
+        elif "|win|" in line:
+            # Determine if winner
+            winner = line.removeprefix("|win|").removesuffix("\n")
+            outcome = "Winner" if winner == player_name else "Loser"
 
-        # Searches list of pokemon of the team.
-        containing_player_pkmn = [x.split("|")[3].split(",")[0].strip() for x in lines if "|poke|p1|" in x]
+    player_elo = player_info[-1].strip("\n")
+    lead_pokemon = (
+        pokemon_switches[0] if len(pokemon_switches) else "None"
+    )  # if lead_pokemon is None, then the battle ended before p1 sent out a Pokemon
 
-        # Searches for the lead pokemon.
-        containing_lead_pkmn = [x.split("|")[3].split(",")[0] for x in lines if "|switch|" in x][0]
-        
-        # Searches for the number of turns
-
-        length = len([x for x in lines if "|turn|" in x])
-
-        # Searches for the winner.
-        if len([x for x in lines if "|win|" in x]) == 0:
-            outcome ="Tie"
-        else:
-            winner = [x for x in lines if "|win|" in x][0].split("|")[2]
-            if winner == player_name:
-                outcome = "Winner"
-            else:
-                outcome = "Loser"
-
-        # Prints info to file
-        print(",".join([player_name,
-                        ""+player_elo,containing_player_pkmn[0],
-                        containing_player_pkmn[1],
-                        containing_player_pkmn[2],
-                        containing_player_pkmn[3],
-                        containing_player_pkmn[4],
-                        containing_player_pkmn[5],
-                        containing_lead_pkmn,
-                        str(length),
-                        outcome]))
+    # Prints info to file
+    return ",".join(
+        [
+            os.path.basename(file_path),
+            player_name,
+            player_elo,
+            *player_pokemon,
+            lead_pokemon,
+            str(length),
+            outcome,
+        ]
+    )
 
 
 def main():
+    out = [
+        "BattleTag,Name,Elo,Pokemon1,Pokemon2,Pokemon3,Pokemon4,Pokemon5,Pokemon6,LeadPokemon,BattleLength,Outcome"
+    ]
     for file_path in os.listdir("./dataset/showdown/raw"):
-        battlelogs_to_csv("./dataset/showdown/raw/" + file_path)
+        out.append(battlelogs_to_csv("./dataset/showdown/raw/" + file_path))
+
+    with open("./dataset/showdown/showdown.csv", "w", encoding="utf-8") as file_pointer:
+        file_pointer.write("\n".join(out))
+
 
 if __name__ == "__main__":
     main()
