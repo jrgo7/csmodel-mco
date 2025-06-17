@@ -1,0 +1,428 @@
+|j|Kidogo
+|j|S52
+|player|p1|Kidogo|2
+|teamsize|p1|6
+|player|p2|S52|169
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|2019,50658,43351,38461
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Terrakion|item
+|poke|p1|Celebi|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Keldeo|item
+|poke|p2|Breloom, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|c|☆Kidogo|hey
+|c|☆Kidogo|gl
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Terrakion|Terrakion|324/324
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|turn|1
+|c|☆S52|hey
+|c|☆S52|oh i remember u
+|c|☆S52|the stall guy
+|choice|move taunt|move earthquake
+|
+|move|p1a: Terrakion|Taunt|p2a: Garchomp
+|-start|p2a: Garchomp|move: Taunt
+|move|p2a: Garchomp|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-enditem|p1a: Terrakion|Focus Sash
+|-damage|p1a: Terrakion|1/324
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|move earthquake
+|
+|move|p1a: Terrakion|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: S52|move: Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Keldeo|Keldeo|324/324
+|turn|3
+|choice|move hiddenpower|move outrage
+|
+|move|p1a: Keldeo|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Yache Berry|[eat]
+|-enditem|p2a: Garchomp|Yache Berry|[weaken]
+|-damage|p2a: Garchomp|169/357
+|move|p2a: Garchomp|Outrage|p1a: Keldeo
+|-damage|p1a: Keldeo|104/324
+|
+|-end|p2a: Garchomp|move: Taunt
+|upkeep
+|turn|4
+|choice|move hiddenpower|move outrage
+|
+|move|p1a: Keldeo|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Tyranitar|Tyranitar, F|358/358
+|-damage|p2a: Tyranitar|314/358|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|5
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Politoed|Politoed, M|331/331
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tyranitar|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Kidogo|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|choice|move hydropump|switch 2
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|-damage|p2a: Keldeo|303/323|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|94/323
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|choice|move hydropump|move secretsword
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Politoed
+|-damage|p1a: Politoed|133/331
+|move|p1a: Politoed|Hydro Pump|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Latios|Latios, M|301/301
+|-damage|p2a: Latios|264/301|[from] Stealth Rock
+|turn|8
+|choice|switch 4|move surf
+|
+|switch|p1a: Jirachi|Jirachi|400/400
+|-damage|p1a: Jirachi|375/400|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|174/400
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|199/400|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 6|switch 2
+|
+|switch|p2a: Tyranitar|Tyranitar, F|314/358
+|-damage|p2a: Tyranitar|270/358|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Celebi|Celebi|400/400
+|-damage|p1a: Celebi|350/400|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|325/400|[from] sandstorm
+|-heal|p1a: Celebi|350/400|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move batonpass|move pursuit
+|
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|choice|switch 5|
+|
+|switch|p1a: Keldeo|Keldeo|104/324
+|-damage|p1a: Keldeo|84/324|[from] Stealth Rock
+|move|p2a: Tyranitar|Pursuit|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|39/324
+|-ability|p1a: Keldeo|Justified|boost
+|-boost|p1a: Keldeo|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|19/324|[from] sandstorm
+|upkeep
+|turn|11
+|choice|move secretsword|switch 2
+|
+|switch|p2a: Latios|Latios, M|264/301
+|-damage|p2a: Latios|227/301|[from] Stealth Rock
+|move|p1a: Keldeo|Secret Sword|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|130/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|0 fnt|[from] sandstorm
+|-damage|p2a: Latios|112/301|[from] sandstorm
+|upkeep
+|faint|p1a: Keldeo
+|choice|switch 6|
+|
+|switch|p1a: Jirachi|Jirachi|199/400
+|-damage|p1a: Jirachi|174/400|[from] Stealth Rock
+|turn|12
+|choice|move uturn|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|13/400
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Jirachi|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|choice|switch 4|
+|
+|switch|p1a: Politoed|Politoed, M|133/331
+|-damage|p1a: Politoed|92/331|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Scizor|Scizor, F|343/343
+|-damage|p2a: Scizor|301/343|[from] Stealth Rock
+|turn|13
+|choice|move hydropump|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Politoed
+|-resisted|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|336/336
+|-damage|p1a: Thundurus|252/336|[from] Stealth Rock
+|turn|14
+|choice|move thunder|switch 3
+|
+|switch|p2a: Breloom|Breloom, M|261/261
+|-damage|p2a: Breloom|245/261|[from] Stealth Rock
+|move|p1a: Thundurus|Thunder|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|68/261
+|-status|p2a: Breloom|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|choice|move hiddenpower|move machpunch
+|
+|move|p2a: Breloom|Mach Punch|p1a: Thundurus
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem|[move] Mach Punch
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|128/336
+|move|p1a: Thundurus|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Tyranitar|Tyranitar, F|270/358
+|-damage|p2a: Tyranitar|226/358|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|16
+|choice|move focusblast|move pursuit
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|107/336|[from] sandstorm
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Scizor|Scizor, F|301/343
+|-damage|p2a: Scizor|259/343|[from] Stealth Rock
+|turn|17
+|choice|move thunder|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Celebi|Celebi|350/400
+|-damage|p1a: Celebi|300/400|[from] Stealth Rock
+|turn|18
+|c|☆Kidogo|gg
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|150/400
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|350/400
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|325/400|[from] sandstorm
+|-heal|p1a: Celebi|350/400|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆S52|gg
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|199/400
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|399/400
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|374/400|[from] sandstorm
+|-heal|p1a: Celebi|399/400|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move nastyplot|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|251/400
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|226/400|[from] sandstorm
+|-heal|p1a: Celebi|251/400|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|101/400
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|301/400
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|276/400|[from] sandstorm
+|-heal|p1a: Celebi|301/400|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|132/400
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|332/400
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|307/400|[from] sandstorm
+|-heal|p1a: Celebi|332/400|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|170/400
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|370/400
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|345/400|[from] sandstorm
+|-heal|p1a: Celebi|370/400|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move psychic|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|208/400
+|move|p1a: Celebi|Psychic|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|126/343
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|183/400|[from] sandstorm
+|-heal|p1a: Celebi|208/400|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|42/400
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|242/400
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|217/400|[from] sandstorm
+|-heal|p1a: Celebi|242/400|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-damage|p1a: Celebi|94/400
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|294/400
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|269/400|[from] sandstorm
+|-heal|p1a: Celebi|294/400|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆S52|gg
+|c|☆Kidogo|o.o
+|c|☆Kidogo|damn
+|c|☆Kidogo|gg
+|choice|switch 4|
+|
+|switch|p1a: Jirachi|Jirachi|13/400
+|-damage|p1a: Jirachi|0 fnt|[from] Stealth Rock
+|faint|p1a: Jirachi
+|
+|win|S52
+|raw|Kidogo's rating: 1403 &rarr; <strong>1381</strong><br />(-22 for losing)
+|raw|S52's rating: 1373 &rarr; <strong>1394</strong><br />(+21 for winning)
+|l|Kidogo

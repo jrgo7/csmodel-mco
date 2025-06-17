@@ -1,0 +1,561 @@
+|j|☆porrompompom
+|j|☆Ar. Layne
+|player|p1|porrompompom|10
+|player|p2|Ar. Layne|256
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Kyurem|item
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Celebi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Politoed, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Donphan, F|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Donphan|Donphan, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Politoed|Hypnosis|p2a: Ferrothorn|[miss]
+|-miss|p1a: Politoed|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Politoed|Hypnosis|p2a: Ferrothorn|[miss]
+|-miss|p1a: Politoed|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Politoed
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Politoed|Hypnosis|p2a: Ferrothorn|[miss]
+|-miss|p1a: Politoed|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Politoed
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Politoed|Hypnosis|p2a: Ferrothorn|[miss]
+|-miss|p1a: Politoed|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Politoed
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|move|p1a: Politoed|Hypnosis|p2a: Politoed|[miss]
+|-miss|p1a: Politoed|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|c|☆Ar. Layne|o.o
+|
+|move|p2a: Politoed|Encore|p1a: Politoed
+|-start|p1a: Politoed|Encore
+|move|p1a: Politoed|Hypnosis|p2a: Politoed|[miss]
+|-miss|p1a: Politoed|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|c|☆porrompompom|not surprised, to be honest
+|
+|move|p2a: Politoed|Encore||[still]
+|-fail|p2a: Politoed
+|move|p1a: Politoed|Hypnosis|p2a: Politoed|[miss]
+|-miss|p1a: Politoed|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|76/100|[from] Spikes
+|move|p2a: Politoed|Encore||[still]
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Jellicent
+|-sidestart|p2: Ar. Layne|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Jellicent
+|-sidestart|p2: Ar. Layne|move: Toxic Spikes
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Tentacruel
+|-status|p1a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100 brn|[from] ability: Rain Dish
+|-damage|p1a: Tentacruel|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|76/100|[from] Spikes
+|move|p2a: Jellicent|Taunt|p1a: Celebi
+|-start|p1a: Celebi|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Magnezone|Magnezone|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|76/100|[from] Spikes
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Tentacruel|Tentacruel, M|88/100 brn
+|-damage|p1a: Tentacruel|63/100 brn|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|69/100 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|75/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|63/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Tentacruel|51/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Kyurem|Kyurem|82/100
+|-damage|p1a: Kyurem|57/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|-status|p2a: Jellicent|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|63/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|38/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|44/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|94/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Kyurem|[miss]
+|-miss|p2a: Ferrothorn|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-status|p2a: Politoed|tox
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-damage|p2a: Politoed|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Politoed|Encore|p1a: Kyurem
+|-start|p1a: Kyurem|Encore
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|-damage|p2a: Politoed|82/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|-end|p1a: Kyurem|Encore
+|upkeep
+|turn|24
+|
+|switch|p2a: Politoed|Politoed, M|82/100 tox
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|81/100|[from] item: Leftovers
+|-damage|p2a: Politoed|76/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Politoed|Encore|p1a: Kyurem
+|-start|p1a: Kyurem|Encore
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|-damage|p2a: Politoed|63/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|-end|p1a: Kyurem|Encore
+|upkeep
+|turn|28
+|j| Adam the First
+|
+|move|p1a: Kyurem|Earth Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Charge Beam|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|-boost|p2a: Magnezone|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|-heal|p2a: Magnezone|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Kyurem|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Politoed|Politoed, M|63/100 tox
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-damage|p2a: Politoed|57/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p2a: Politoed|Encore|p1a: Kyurem
+|-start|p1a: Kyurem|Encore
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|-damage|p2a: Politoed|45/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|51/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|58/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|move|p2a: Ferrothorn|Power Whip|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|-end|p1a: Kyurem|Encore
+|upkeep
+|turn|35
+|
+|switch|p2a: Politoed|Politoed, M|45/100 tox
+|move|p1a: Kyurem|Ice Beam|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|19/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|-damage|p2a: Politoed|12/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p2a: Politoed|Ice Beam|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-damage|p2a: Politoed|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Politoed
+|
+|switch|p2a: Jellicent|Jellicent, F|94/100 tox
+|turn|37
+|
+|move|p1a: Kyurem|Earth Power|p2a: Jellicent
+|-damage|p2a: Jellicent|68/100 tox
+|move|p2a: Jellicent|Taunt|p1a: Kyurem
+|-start|p1a: Kyurem|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|68/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p1a: Kyurem|Earth Power|p2a: Jellicent
+|-damage|p2a: Jellicent|41/100 tox
+|move|p2a: Jellicent|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|47/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|35/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|move|p1a: Kyurem|Earth Power|p2a: Jellicent
+|-damage|p2a: Jellicent|9/100 tox
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|60/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|47/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|26/100 tox
+|move|p2a: Jellicent|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|33/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|8/100 tox|[from] psn
+|-end|p1a: Kyurem|move: Taunt
+|upkeep
+|turn|41
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|move|p2a: Jellicent|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|14/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Jellicent
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|64/100
+|turn|42
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|23/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Donphan|Donphan, F|100/100
+|-status|p2a: Donphan|tox
+|turn|44
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-ability|p2a: Donphan|Sturdy
+|-damage|p2a: Donphan|1/100 tox
+|move|p2a: Donphan|Earthquake|p1a: Kyurem
+|-damage|p1a: Kyurem|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|63/100|[from] item: Leftovers
+|-heal|p2a: Donphan|7/100 tox|[from] item: Leftovers
+|-damage|p2a: Donphan|1/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|move|p2a: Donphan|Ice Shard|p1a: Kyurem
+|-damage|p1a: Kyurem|53/100
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|7/100 tox|[from] item: Leftovers
+|-damage|p2a: Donphan|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Donphan
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|46
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Ar. Layne forfeited.
+|
+|win|porrompompom
+|l|☆Ar. Layne
+|raw|porrompompom's rating: 1486 &rarr; <strong>1497</strong><br />(+11 for winning)
+|raw|Ar. Layne's rating: 1334 &rarr; <strong>1322</strong><br />(-12 for losing)

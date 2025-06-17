@@ -1,0 +1,306 @@
+|j|☆porrompompom
+|j|☆Invisible Enemy
+|player|p1|porrompompom|10
+|player|p2|Invisible Enemy|52
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Lucario, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Breloom, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Reuniclus, F|item
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Celebi|Celebi|100/100
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|move|p2a: Celebi|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|6/100
+|
+|-heal|p1a: Landorus|12/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Celebi|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|57/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Celebi|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|13/100
+|move|p1a: Latios|Draco Meteor|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Celebi
+|
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|12/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hippowdon|atk|1
+|move|p2a: Hippowdon|Stealth Rock|p1a: Landorus
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|18/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: Invisible Enemy|move: Stealth Rock
+|move|p2a: Hippowdon|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|11/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Landorus|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|67/100
+|move|p2a: Hippowdon|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Breloom|Spore|p2a: Hippowdon
+|-status|p2a: Hippowdon|slp
+|cant|p2a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Focus Punch|p2a: Latios
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Focus Punch
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|9
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Reuniclus
+|-damage|p2a: Reuniclus|91/100
+|-damage|p2a: Reuniclus|80/100
+|-hitcount|p2a: Reuniclus|2
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|76/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Lucario|Ice Punch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|69/100
+|-damage|p1a: Lucario|81/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|-damage|p1a: Lucario|71/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Lucario|Ice Punch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|57/100
+|-damage|p1a: Lucario|55/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|-damage|p1a: Lucario|45/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Lucario|Ice Punch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|88/100
+|-damage|p1a: Lucario|29/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|-damage|p1a: Lucario|19/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p1a: Lucario|Ice Punch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|81/100
+|-damage|p1a: Lucario|2/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|-damage|p1a: Lucario|0 fnt|[from] item: Life Orb
+|faint|p1a: Lucario
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|15
+|
+|move|p1a: Excadrill|Iron Head|p2a: Reuniclus
+|-damage|p2a: Reuniclus|89/100
+|-damage|p1a: Excadrill|81/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|cant|p2a: Reuniclus|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Iron Head|p2a: Reuniclus
+|-damage|p2a: Reuniclus|79/100
+|-damage|p1a: Excadrill|64/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|cant|p2a: Reuniclus|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Excadrill|Iron Head|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|21/100
+|-damage|p1a: Excadrill|48/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|cant|p2a: Reuniclus|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Excadrill|Iron Head|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-damage|p1a: Excadrill|31/100|[from] item: Rocky Helmet|[of] p2a: Reuniclus
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Invisible Enemy|wow, that's funny at this point ahah
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|19
+|c|☆porrompompom|it is indeed
+|
+|switch|p1a: Latios|Latios, M|13/100
+|-damage|p1a: Latios|0 fnt|[from] Stealth Rock
+|faint|p1a: Latios
+|move|p2a: Excadrill|Rapid Spin|p1: Latios|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|31/100
+|-damage|p1a: Excadrill|28/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|20
+|
+|move|p1a: Excadrill|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|79/100 slp
+|-damage|p2a: Hippowdon|73/100 slp|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|4/100 slp
+|cant|p2a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|10/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆Invisible Enemy|that's a well trained excadrill
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|turn|23
+|c|☆porrompompom|i always keep my faith on it
+|
+|move|p1a: Excadrill|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|win|porrompompom
+|raw|porrompompom's rating: 1349 &rarr; <strong>1374</strong><br />(+25 for winning)
+|raw|Invisible Enemy's rating: 1442 &rarr; <strong>1417</strong><br />(-25 for losing)
+|l|☆porrompompom

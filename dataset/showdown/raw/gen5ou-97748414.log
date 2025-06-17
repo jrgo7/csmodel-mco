@@ -1,0 +1,461 @@
+|join|Tom AtoeSauce
+|join|dtw
+|player|p1|Tom AtoeSauce|87
+|player|p2|dtw|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Tyranitar, F
+|poke|p1|Stoutland, F
+|poke|p1|Gastrodon, M
+|poke|p1|Terrakion
+|poke|p1|Ferrothorn, F
+|poke|p1|Wobbuffet, F
+|poke|p2|Politoed, M
+|poke|p2|Volcarona, M
+|poke|p2|Ferrothorn, F
+|poke|p2|Gyarados, F
+|poke|p2|Chansey, F
+|poke|p2|Gengar, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Gastrodon|Gastrodon, M|426/426
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|turn|1
+|
+|switch|p1a: Terrakion|Terrakion|323/323
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: Tom AtoeSauce|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Gengar|Gengar, F|262/262
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|
+|turn|3
+|
+|move|p2a: Gengar|Focus Blast|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|25/323
+|move|p1a: Terrakion|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-damage|p1a: Terrakion|0 fnt|[from] item: Life Orb
+|faint|p2a: Gengar
+|faint|p1a: Terrakion
+|
+|
+|switch|p1a: Stoutland|Stoutland, F|311/311
+|-damage|p1a: Stoutland|273/311|[from] Stealth Rock
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|4
+|
+|move|p1a: Stoutland|Return|p2a: Politoed
+|-damage|p2a: Politoed|182/384
+|move|p2a: Politoed|Toxic|p1a: Stoutland|[miss]
+|-miss|p2a: Politoed|p1a: Stoutland
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|206/384|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Wobbuffet|Wobbuffet, F|584/584
+|-damage|p1a: Wobbuffet|511/584|[from] Stealth Rock
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Wobbuffet
+|-start|p1a: Wobbuffet|move: Leech Seed
+|move|p1a: Wobbuffet|Counter|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Wobbuffet|438/584|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|7
+|
+|move|p1a: Wobbuffet|Encore|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Encore
+|move|p2a: Ferrothorn|Leech Seed|p1a: Wobbuffet
+|-fail|p1a: Wobbuffet
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Wobbuffet|365/584|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p1a: Ferrothorn|330/352|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|352/352|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Volcarona|Volcarona, M|312/312
+|move|p1a: Ferrothorn|Leech Seed|p2a: Volcarona
+|-start|p2a: Volcarona|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Volcarona|273/312|[from] Leech Seed|[of] p1a: Ferrothorn
+|turn|10
+|
+|switch|p2a: Gyarados|Gyarados, F|352/352
+|-ability|p2a: Gyarados|Intimidate|[of] p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: dtw|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|switch|p1a: Stoutland|Stoutland, F|273/311
+|-damage|p1a: Stoutland|235/311|[from] Stealth Rock
+|move|p2a: Gyarados|Taunt|p1a: Stoutland
+|-start|p1a: Stoutland|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p2a: Ferrothorn|330/352|[from] Stealth Rock
+|move|p1a: Stoutland|Thunder Fang|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|292/352
+|-damage|p1a: Stoutland|197/311|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Stoutland|146/311|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p1a: Ferrothorn|330/352|[from] Stealth Rock
+|move|p2a: Ferrothorn|Bulldoze|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|305/352
+|-unboost|p1a: Ferrothorn|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|327/352|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Gyarados|Gyarados, F|352/352
+|-damage|p2a: Gyarados|264/352|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|[of] p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Spikes|p2a: Gyarados
+|-sidestart|p2: dtw|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|286/352|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|349/352|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Ferrothorn|Spikes|p2a: Gyarados
+|-sidestart|p2: dtw|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|308/352|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|352/352|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Gyarados|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|move|p1a: Ferrothorn|Power Whip|p2a: Gyarados
+|-damage|p2a: Gyarados|208/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|230/352|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Gastrodon|Gastrodon, M|426/426
+|-damage|p1a: Gastrodon|400/426|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|252/352|[from] item: Leftovers
+|-heal|p1a: Gastrodon|426/426|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Gyarados|Taunt|p1a: Gastrodon
+|-start|p1a: Gastrodon|move: Taunt
+|move|p1a: Gastrodon|Clear Smog|p2a: Gyarados
+|-damage|p2a: Gyarados|216/352
+|-clearboost|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|238/352|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Volcarona|Volcarona, M|273/312
+|-damage|p2a: Volcarona|221/312|[from] Spikes
+|-damage|p2a: Volcarona|65/312|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, M|206/384
+|-damage|p2a: Politoed|158/384|[from] Stealth Rock
+|-damage|p2a: Politoed|94/384|[from] Spikes
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p1a: Ferrothorn|330/352|[from] Stealth Rock
+|move|p2a: Politoed|Toxic|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|118/384|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|352/352|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Politoed|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|296/352
+|move|p1a: Ferrothorn|Leech Seed|p2a: Politoed
+|-start|p2a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|142/384|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|318/352|[from] item: Leftovers
+|-damage|p2a: Politoed|94/384|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|352/352|[silent]
+|turn|22
+|
+|move|p2a: Politoed|Encore|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|Encore
+|move|p1a: Ferrothorn|Leech Seed|p2a: Politoed
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|118/384|[from] item: Leftovers
+|-damage|p2a: Politoed|70/384|[from] Leech Seed|[of] p1a: Ferrothorn
+|turn|23
+|
+|move|p2a: Politoed|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|293/352
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Politoed
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|94/384|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|315/352 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|46/384|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|352/352 brn|[silent]
+|-damage|p1a: Ferrothorn|308/352 brn|[from] brn
+|turn|24
+|
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-fieldactivate|move: Perish Song
+|move|p1a: Ferrothorn|Leech Seed|p2a: Politoed
+|-fail|p2a: Politoed
+|
+|-start|p2a: Politoed|perish3
+|-start|p1a: Ferrothorn|perish3
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|70/384|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|330/352 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|22/384|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|352/352 brn|[silent]
+|-damage|p1a: Ferrothorn|308/352 brn|[from] brn
+|-end|p1a: Ferrothorn|Encore
+|turn|25
+|
+|switch|p1a: Tyranitar|Tyranitar, F|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Politoed|Encore|p1a: Tyranitar
+|-fail|p1a: Tyranitar
+|
+|-start|p2a: Politoed|perish2
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|0 fnt|[from] sandstorm
+|faint|p2a: Politoed
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|292/352
+|-damage|p2a: Ferrothorn|270/352|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|212/352|[from] Spikes
+|turn|26
+|
+|move|p1a: Tyranitar|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|64/404
+|
+|-weather|Sandstorm|[upkeep]
+|turn|27
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|121/352 par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Wobbuffet|Wobbuffet, F|365/584
+|-damage|p1a: Wobbuffet|292/584|[from] Stealth Rock
+|-enditem|p1a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p1a: Wobbuffet|438/584|[from] item: Sitrus Berry
+|turn|28
+|
+|move|p1a: Wobbuffet|Encore|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Encore
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|194/584
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wobbuffet|158/584|[from] sandstorm
+|turn|29
+|
+|move|p1a: Wobbuffet|Destiny Bond|p1a: Wobbuffet
+|-singlemove|p1a: Wobbuffet|Destiny Bond
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|0 fnt
+|faint|p1a: Wobbuffet
+|-activate|p1a: Wobbuffet|Destiny Bond
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Stoutland|Stoutland, F|146/311
+|-damage|p1a: Stoutland|108/311|[from] Stealth Rock
+|switch|p2a: Chansey|Chansey, F|704/704
+|-damage|p2a: Chansey|616/704|[from] Stealth Rock
+|-damage|p2a: Chansey|499/704|[from] Spikes
+|turn|30
+|
+|move|p1a: Stoutland|Superpower|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-unboost|p1a: Stoutland|atk|1
+|-unboost|p1a: Stoutland|def|1
+|faint|p2a: Chansey
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Gyarados|Gyarados, F|238/352
+|-damage|p2a: Gyarados|150/352|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|[of] p1a: Stoutland
+|-unboost|p1a: Stoutland|atk|1
+|turn|31
+|
+|switch|p1a: Gastrodon|Gastrodon, M|426/426
+|-damage|p1a: Gastrodon|400/426|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|128/352|[from] sandstorm
+|-heal|p2a: Gyarados|150/352|[from] item: Leftovers
+|-heal|p1a: Gastrodon|426/426|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Gyarados|Bounce|p1a: Gastrodon|[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Gastrodon
+|move|p1a: Gastrodon|Clear Smog|p2a: Gyarados|[miss]
+|-miss|p1a: Gastrodon|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|128/352|[from] sandstorm
+|-heal|p2a: Gyarados|150/352|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Gyarados|Bounce|p1a: Gastrodon
+|-damage|p1a: Gastrodon|215/426
+|-status|p1a: Gastrodon|par
+|move|p1a: Gastrodon|Clear Smog|p2a: Gyarados
+|-damage|p2a: Gyarados|113/352
+|-clearboost|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|91/352|[from] sandstorm
+|-heal|p2a: Gyarados|113/352|[from] item: Leftovers
+|-heal|p1a: Gastrodon|241/426 par|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Gastrodon|Scald|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|71/352
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|49/352|[from] sandstorm
+|-heal|p2a: Gyarados|71/352|[from] item: Leftovers
+|-heal|p1a: Gastrodon|267/426 par|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Gyarados|Bounce|p1a: Gastrodon|[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Gastrodon
+|cant|p1a: Gastrodon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|49/352|[from] sandstorm
+|-heal|p2a: Gyarados|71/352|[from] item: Leftovers
+|-heal|p1a: Gastrodon|293/426 par|[from] item: Leftovers
+|turn|36
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|308/352 brn
+|-damage|p1a: Ferrothorn|286/352 brn|[from] Stealth Rock
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|145/352 brn
+|-damage|p2a: Gyarados|27/352|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|5/352|[from] sandstorm
+|-heal|p2a: Gyarados|27/352|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|167/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|123/352 brn|[from] brn
+|turn|37
+|
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Gyarados|[miss]
+|-miss|p1a: Ferrothorn|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|5/352|[from] sandstorm
+|-heal|p2a: Gyarados|27/352|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|145/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|101/352 brn|[from] brn
+|turn|38
+|
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Gyarados|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|faint|p2a: Gyarados
+|
+|win|Tom AtoeSauce
+|raw|Ladder updating...
+|raw|Tom AtoeSauce's rating: 1317 &rarr; <strong>1341</strong><br />(+24 for winning)
+|raw|dtw's rating: 1388 &rarr; <strong>1364</strong><br />(-24 for losing)
+|chat|dtw|gg

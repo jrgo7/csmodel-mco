@@ -1,0 +1,633 @@
+|j|☆based carnage
+|j|☆Garchomplte
+|player|p1|based carnage|koga|1389
+|player|p2|Garchomplte|brock|1436
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Scizor, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Starmie|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Slowbro, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Jellicent, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Garchomplte)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|turn|1
+|
+|move|p1a: Landorus|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|73/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p2a: Slowbro|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|86/100
+|
+|-heal|p1a: Rotom|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|80/100
+|
+|switch|p1a: Heatran|Heatran, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Heatran|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Stealth Rock|p1a: Landorus
+|-sidestart|p1: based carnage|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|90/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Wash|93/100
+|-damage|p1a: Rotom|80/100|[from] Stealth Rock
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|74/100|[from] Sandstorm
+|-damage|p2a: Slowbro|94/100|[from] Sandstorm
+|-heal|p1a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Magnezone|Magnezone|80/100
+|move|p1a: Rotom|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|55/100
+|
+|switch|p1a: Heatran|Heatran, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Heatran|Earth Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|90/100
+|-damage|p1a: Landorus|78/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|78/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Landorus|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Garchomplte|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|72/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|74/100
+|-damage|p2a: Landorus|75/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Tyranitar|Tyranitar, F|82/100 tox|[from]move: U-turn
+|-damage|p2a: Tyranitar|70/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|81/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|63/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Starmie|Starmie|88/100
+|-damage|p1a: Starmie|76/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Superpower|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|53/100
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|47/100|[from] Sandstorm
+|-heal|p1a: Starmie|53/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|51/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Starmie|Scald|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100|[from] ability: Water Absorb|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|47/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|53/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|32/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|39/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|81/100
+|-damage|p1a: Ferrothorn|74/100|[from] Stealth Rock
+|move|p2a: Jellicent|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|60/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|82/100 brn|[silent]
+|-damage|p1a: Ferrothorn|69/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100 brn
+|-damage|p2a: Excadrill|75/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-end|p2a: Excadrill|Leech Seed|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: Garchomplte|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|89/100 brn|[silent]
+|-damage|p1a: Ferrothorn|76/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Slowbro
+|-sidestart|p2: Garchomplte|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|94/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|70/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p1a: Starmie|Starmie|39/100
+|-damage|p1a: Starmie|26/100|[from] Stealth Rock
+|move|p2a: Slowbro|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|7/100|[from] Sandstorm
+|-damage|p2a: Slowbro|88/100|[from] Sandstorm
+|-heal|p1a: Starmie|14/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Spikes
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|57/100|[from] Sandstorm
+|-damage|p2a: Jellicent|82/100|[from] Sandstorm
+|-heal|p1a: Starmie|64/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|70/100 brn
+|-damage|p1a: Ferrothorn|64/100 brn|[from] Stealth Rock
+|switch|p2a: Excadrill|Excadrill, M|69/100
+|-damage|p2a: Excadrill|57/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|63/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|57/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|25/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|69/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|56/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|46/100 brn|[silent]
+|-damage|p1a: Ferrothorn|33/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|72/100 tox
+|-damage|p1a: Landorus|59/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|24
+|
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Spikes
+|move|p1a: Landorus|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|56/100|[from] Sandstorm
+|-heal|p1a: Landorus|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|59/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p1a: Rotom|Rotom-Wash|80/100
+|-damage|p1a: Rotom|68/100|[from] Stealth Rock
+|move|p2a: Slowbro|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|46/100|[from] Sandstorm
+|-damage|p2a: Slowbro|50/100|[from] Sandstorm
+|-heal|p1a: Rotom|52/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Landorus|Landorus-Therian, M|75/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|move|p1a: Rotom|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|46/100|[from] Sandstorm
+|-heal|p1a: Rotom|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|63/100
+|-damage|p2a: Excadrill|50/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|27
+|
+|switch|p1a: Landorus|Landorus-Therian, M|59/100 tox
+|-damage|p1a: Landorus|47/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Protect||[still]
+|-fail|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|53/100 tox|[from] item: Leftovers
+|-heal|p2a: Excadrill|56/100|[from] item: Leftovers
+|-damage|p1a: Landorus|47/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p1a: Starmie|Starmie|64/100
+|-damage|p1a: Starmie|51/100|[from] Stealth Rock
+|move|p2a: Excadrill|Protect||[still]
+|-fail|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|45/100|[from] Sandstorm
+|-heal|p1a: Starmie|51/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|62/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|68/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Jellicent|Jellicent, M|88/100
+|-damage|p2a: Jellicent|76/100|[from] Spikes
+|move|p1a: Starmie|Psyshock|p2a: Jellicent
+|-crit|p2a: Jellicent
+|-damage|p2a: Jellicent|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Jellicent|10/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|16/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Tyranitar|Tyranitar, F|51/100 tox
+|-damage|p2a: Tyranitar|39/100 tox|[from] Spikes
+|move|p1a: Starmie|Psyshock|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|32/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Jellicent|Jellicent, M|16/100
+|-damage|p2a: Jellicent|4/100|[from] Spikes
+|move|p1a: Starmie|Scald|p2a: Jellicent
+|-heal|p2a: Jellicent|29/100|[from] ability: Water Absorb|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Jellicent|23/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|29/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Starmie|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Slowbro|Slowbro, F|83/100
+|-damage|p2a: Slowbro|71/100|[from] Spikes
+|turn|34
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Slowbro
+|-damage|p2a: Slowbro|69/100
+|-damage|p1a: Starmie|84/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-sideend|p1: based carnage|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Slowbro|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|61/100|[from] Sandstorm
+|-damage|p2a: Slowbro|63/100|[from] Sandstorm
+|-heal|p1a: Starmie|68/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Starmie|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|47/100
+|move|p2a: Slowbro|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|49/100|[from] Sandstorm
+|-damage|p2a: Slowbro|41/100|[from] Sandstorm
+|-heal|p1a: Starmie|55/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Starmie|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|25/100
+|-status|p2a: Slowbro|brn
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|75/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|49/100|[from] Sandstorm
+|-damage|p2a: Slowbro|69/100 brn|[from] Sandstorm
+|-heal|p1a: Starmie|55/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|57/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|94/100|[from] Sandstorm
+|-damage|p2a: Slowbro|94/100 brn|[from] Sandstorm
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|82/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p1a: Rotom|Rotom-Wash|52/100
+|move|p2a: Slowbro|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|36/100
+|-status|p1a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|30/100 brn|[from] Sandstorm
+|-damage|p2a: Slowbro|76/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|24/100 brn|[from] brn
+|-damage|p2a: Slowbro|63/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: Excadrill|Excadrill, M|68/100
+|-damage|p2a: Excadrill|56/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Rotom|Hydro Pump|p2a: Excadrill|[miss]
+|-miss|p1a: Rotom|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|18/100 brn|[from] Sandstorm
+|-heal|p2a: Excadrill|62/100|[from] item: Leftovers
+|-heal|p1a: Rotom|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|11/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|switch|p1a: Landorus|Landorus-Therian, M|47/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Protect||[still]
+|-fail|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|53/100 tox|[from] item: Leftovers
+|-heal|p2a: Excadrill|68/100|[from] item: Leftovers
+|-damage|p1a: Landorus|47/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|move|p1a: Landorus|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|53/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|41/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Slowbro|Slowbro, F|97/100 brn
+|-damage|p2a: Slowbro|84/100 brn|[from] Spikes
+|turn|42
+|
+|move|p1a: Landorus|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|58/100 brn
+|move|p2a: Slowbro|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|52/100 brn|[from] Sandstorm
+|-damage|p2a: Slowbro|40/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|11/100 brn
+|turn|43
+|
+|switch|p2a: Tyranitar|Tyranitar, F|32/100 tox
+|-damage|p2a: Tyranitar|20/100 tox|[from] Spikes
+|move|p1a: Rotom|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|6/100 tox
+|
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|0 fnt|[from] psn
+|faint|p2a: Tyranitar
+|upkeep
+|
+|switch|p2a: Slowbro|Slowbro, F|73/100 brn
+|-damage|p2a: Slowbro|60/100 brn|[from] Spikes
+|turn|44
+|
+|move|p1a: Scizor|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|faint|p2a: Slowbro
+|
+|win|based carnage
+|l|☆Garchomplte
+|raw|based carnage's rating: 1390 &rarr; <strong>1413</strong><br />(+23 for winning)
+|raw|Garchomplte's rating: 1436 &rarr; <strong>1413</strong><br />(-23 for losing)

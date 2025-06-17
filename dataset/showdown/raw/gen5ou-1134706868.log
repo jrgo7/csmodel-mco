@@ -1,0 +1,180 @@
+|j|☆porrompompom
+|j|☆pizzza dog
+|player|p1|porrompompom|170|1561
+|player|p2|pizzza dog|10|1353
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Ninetales, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Quagsire, M|item
+|poke|p1|Chansey, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Latios, M|item
+|poke|p2|Salamence, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|start
+|switch|p1a: R'hllor|Ninetales, M|100/100
+|switch|p2a: Is this shiny?|Garchomp, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: R'hllor
+|turn|1
+|
+|switch|p1a: Maria|Cresselia, F|100/100
+|move|p2a: Is this shiny?|Earthquake|p1a: Maria
+|-immune|p1a: Maria|[from] ability: Levitate
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: BLM|Kyurem-Black, shiny|100/100
+|-ability|p2a: BLM|Teravolt
+|switch|p1a: Sina|Chansey, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Pollux|Forretress, M|100/100
+|move|p2a: BLM|Outrage|p1a: Pollux
+|-resisted|p1a: Pollux
+|-damage|p1a: Pollux|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Pollux|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: BLM|Outrage|p1a: Pollux|[from]lockedmove
+|-resisted|p1a: Pollux
+|-damage|p1a: Pollux|37/100
+|-start|p2a: BLM|confusion|[fatigue]
+|move|p1a: Pollux|Spikes|p2a: BLM
+|-sidestart|p2: pizzza dog|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Pollux|44/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Negative|Magnezone|100/100
+|-damage|p2a: Negative|88/100|[from] Spikes
+|switch|p1a: R'hllor|Ninetales, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: SR-71|Latios, M|100/100
+|move|p1a: R'hllor|Will-O-Wisp|p2a: SR-71|[miss]
+|-miss|p1a: R'hllor|p2a: SR-71
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: swine?|Mamoswine, F|100/100
+|-damage|p2a: swine?|88/100|[from] Spikes
+|move|p1a: R'hllor|Protect||[still]
+|-fail|p1a: R'hllor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: R'hllor|Will-O-Wisp|p2a: swine?
+|-status|p2a: swine?|brn
+|move|p2a: swine?|Earthquake|p1a: R'hllor
+|-supereffective|p1a: R'hllor
+|-damage|p1a: R'hllor|10/100
+|-damage|p2a: swine?|78/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: R'hllor|16/100|[from] item: Leftovers
+|-damage|p2a: swine?|66/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: R'hllor|Overheat|p2a: swine?
+|-supereffective|p2a: swine?
+|-damage|p2a: swine?|0 fnt
+|-unboost|p1a: R'hllor|spa|2
+|faint|p2a: swine?
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: R'hllor|22/100|[from] item: Leftovers
+|upkeep
+|inactive|pizzza dog has 120 seconds left.
+|
+|switch|p2a: Salame|Salamence, M|100/100
+|-ability|p2a: Salame|Intimidate|boost
+|-unboost|p1a: R'hllor|atk|1
+|turn|10
+|
+|switch|p1a: Maria|Cresselia, F|100/100
+|move|p2a: Salame|Dragon Dance|p2a: Salame
+|-boost|p2a: Salame|atk|1
+|-boost|p2a: Salame|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Salame|Outrage|p1a: Maria
+|-damage|p1a: Maria|53/100
+|move|p1a: Maria|Reflect|p1a: Maria
+|-sidestart|p1: porrompompom|Reflect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Maria|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Salame|Outrage|p1a: Maria|[from]lockedmove
+|-damage|p1a: Maria|37/100
+|-start|p2a: Salame|confusion|[fatigue]
+|-enditem|p2a: Salame|Lum Berry|[eat]
+|-end|p2a: Salame|confusion
+|move|p1a: Maria|Moonlight|p1a: Maria
+|-heal|p1a: Maria|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Is this shiny?|Garchomp, M, shiny|100/100
+|-damage|p2a: Is this shiny?|88/100|[from] Spikes
+|move|p1a: Maria|Ice Beam|p2a: Is this shiny?
+|-supereffective|p2a: Is this shiny?
+|-damage|p2a: Is this shiny?|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|-message|pizzza dog forfeited.
+|
+|win|porrompompom
+|l|☆pizzza dog
+|raw|porrompompom's rating: 1562 &rarr; <strong>1570</strong><br />(+8 for winning)
+|raw|pizzza dog's rating: 1326 &rarr; <strong>1318</strong><br />(-8 for losing)

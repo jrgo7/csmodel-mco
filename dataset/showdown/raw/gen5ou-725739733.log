@@ -1,0 +1,610 @@
+|j|☆The Daisuke
+|j|☆Oro e Diamanti
+|player|p1|The Daisuke|290
+|player|p2|Oro e Diamanti|168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Starmie|item
+|poke|p1|Skarmory, F|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Mamoswine, M|item
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Skarmory|[miss]
+|-miss|p2a: Mamoswine|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Oro e Diamanti|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Skarmory|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Skarmory|Spikes|p2a: Politoed
+|-sidestart|p2: Oro e Diamanti|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Politoed|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Latios|Latios, M|100/100
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Latios|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oro e Diamanti)
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Latios|Surf|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|75/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Latios|Surf|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|65/100
+|move|p1a: Amoonguss|Spore|p2a: Latios
+|-status|p2a: Latios|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|83/100 slp|[from] Sandstorm
+|-damage|p1a: Amoonguss|59/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Oro e Diamanti has 135 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|84/100|[from] Spikes
+|move|p1a: Amoonguss|Hidden Power|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|72/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|59/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|78/100|[from] item: Black Sludge
+|-heal|p1a: Amoonguss|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|The Daisuke has 135 seconds left.
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Amoonguss
+|-damage|p1a: Amoonguss|63/100
+|-sideend|p2: Oro e Diamanti|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Amoonguss|Stun Spore|p2a: Tentacruel|[miss]
+|-miss|p1a: Amoonguss|p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|72/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|56/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|78/100|[from] item: Black Sludge
+|-heal|p1a: Amoonguss|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Oro e Diamanti has 135 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Amoonguss|Stun Spore|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|56/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p2a: Politoed|Politoed, M|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Heatran|Toxic|p2a: Politoed
+|-status|p2a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Latios|Latios, M|83/100 slp
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-fail|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: Tyranitar|Tyranitar, M|64/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|cant|p2a: Latios|slp
+|move|p2a: Latios|Sleep Talk|p2a: Latios
+|move|p2a: Latios|Surf|p1a: Tyranitar|[from]Sleep Talk
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|77/100 slp|[from] Sandstorm
+|-heal|p1a: Tyranitar|24/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|-curestatus|p2a: Latios|slp|[msg]
+|move|p2a: Latios|Sleep Talk|p2a: Latios
+|-fail|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|71/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Skarmory|Spikes|p2a: Thundurus
+|-sidestart|p2: Oro e Diamanti|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|94/100|[from] Sandstorm
+|-heal|p2a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p2a: Politoed|Politoed, M|82/100 tox
+|-damage|p2a: Politoed|70/100 tox|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|switch|p1a: Amoonguss|Amoonguss, F|96/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|100/100|[from] item: Leftovers
+|-damage|p2a: Politoed|64/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100 par
+|-damage|p2a: Ferrothorn|88/100 par|[from] Spikes
+|move|p1a: Amoonguss|Giga Drain|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Tyranitar|Tyranitar, M|24/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Tentacruel|Tentacruel, M|78/100
+|-damage|p2a: Tentacruel|66/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|60/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|66/100|[from] item: Black Sludge
+|-heal|p1a: Tyranitar|30/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|The Daisuke has 135 seconds left.
+|inactive|The Daisuke has 120 seconds left.
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Tentacruel|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|60/100|[from] Sandstorm
+|-damage|p1a: Starmie|81/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|66/100|[from] item: Black Sludge
+|-heal|p1a: Starmie|87/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|90/100 par
+|-damage|p2a: Ferrothorn|78/100 par|[from] Spikes
+|move|p1a: Starmie|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|70/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|81/100|[from] Sandstorm
+|-heal|p1a: Starmie|87/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Heatran
+|-sidestart|p1: The Daisuke|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Politoed|Politoed, M|64/100 tox
+|-damage|p2a: Politoed|52/100 tox|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Heatran|Roar|p2a: Politoed
+|drag|p2a: Ferrothorn|Ferrothorn, M|82/100 par
+|-damage|p2a: Ferrothorn|70/100 par|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Tentacruel|Tentacruel, M|66/100
+|-damage|p2a: Tentacruel|54/100|[from] Spikes
+|move|p1a: Heatran|Lava Plume|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|46/100
+|-status|p2a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|52/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|58/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|46/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Tyranitar|Tyranitar, M|30/100
+|-damage|p1a: Tyranitar|18/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tentacruel|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|18/100
+|-sideend|p2: Oro e Diamanti|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|40/100 brn|[from] Sandstorm
+|-heal|p2a: Tentacruel|46/100 brn|[from] item: Black Sludge
+|-heal|p1a: Tyranitar|24/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|33/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p2a: Latios|Latios, M|71/100
+|switch|p1a: Starmie|Starmie|87/100
+|-damage|p1a: Starmie|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|65/100|[from] Sandstorm
+|-damage|p1a: Starmie|69/100|[from] Sandstorm
+|-heal|p1a: Starmie|75/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Spikes
+|move|p2a: Latios|Draco Meteor|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|56/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|59/100|[from] Sandstorm
+|-heal|p1a: Heatran|62/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p2a: Politoed|Politoed, M|52/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Heatran|Lava Plume|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|44/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|69/100|[from] item: Leftovers
+|-damage|p2a: Politoed|38/100 tox|[from] psn
+|upkeep
+|turn|31
+|j|‽Bluridrache
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Politoed|Scald|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|75/100|[from] item: Leftovers
+|-damage|p2a: Politoed|26/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Latios|Latios, M|59/100
+|switch|p1a: Starmie|Starmie|75/100
+|-damage|p1a: Starmie|63/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|69/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Spikes
+|move|p2a: Latios|Dragon Pulse|p1a: Amoonguss
+|-damage|p1a: Amoonguss|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|41/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Tentacruel|Tentacruel, M|33/100 brn
+|switch|p1a: Heatran|Heatran, M|75/100
+|-damage|p1a: Heatran|62/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|40/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|46/100 brn|[from] item: Black Sludge
+|-heal|p1a: Heatran|69/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|33/100 brn|[from] brn
+|upkeep
+|turn|35
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p1a: Starmie|Starmie|69/100
+|-damage|p1a: Starmie|56/100|[from] Spikes
+|move|p2a: Tentacruel|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|39/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|45/100 brn|[from] item: Black Sludge
+|-heal|p1a: Starmie|43/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|33/100 brn|[from] brn
+|upkeep
+|turn|36
+|j| chroerus
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|76/100 par
+|move|p1a: Starmie|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|75/100 par
+|-damage|p1a: Starmie|31/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: The Daisuke|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|37/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Starmie|Reflect Type|p2a: Mamoswine
+|-start|p1a: Starmie|typechange|[from] move: Reflect Type|[of] p2a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|43/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Mamoswine|Ice Shard|p1a: Skarmory
+|-damage|p1a: Skarmory|80/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|40
+|
+|switch|p1a: Amoonguss|Amoonguss, F|74/100
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|80/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|The Daisuke has 135 seconds left.
+|inactive|The Daisuke has 120 seconds left.
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|24/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|42
+|inactive|The Daisuke has 135 seconds left.
+|
+|switch|p1a: Heatran|Heatran, M|69/100
+|move|p2a: Thundurus|Thunder|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|94/100|[from] Sandstorm
+|-heal|p2a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|turn|43
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Skarmory
+|-damage|p1a: Skarmory|33/100
+|move|p1a: Skarmory|Whirlwind|p2a: Thundurus
+|drag|p2a: Ferrothorn|Ferrothorn, M|81/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|39/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|89/100
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|95/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Skarmory|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Tyranitar|Tyranitar, M|24/100
+|switch|p2a: Politoed|Politoed, M|26/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tyranitar|30/100|[from] item: Leftovers
+|-damage|p2a: Politoed|20/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|switch|p2a: Latios|Latios, M|59/100
+|switch|p1a: Starmie|Starmie|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|50/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|39/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|95/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p1a: Tyranitar|Tyranitar, M|30/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Thundurus|Thunder|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|94/100|[from] Sandstorm
+|-heal|p2a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|-message|The Daisuke forfeited.
+|
+|win|Oro e Diamanti
+|l|☆The Daisuke
+|raw|The Daisuke's rating: 1429 &rarr; <strong>1403</strong><br />(-26 for losing)
+|raw|Oro e Diamanti's rating: 1327 &rarr; <strong>1353</strong><br />(+26 for winning)
+|l|☆Oro e Diamanti
+|l|‽Bluridrache

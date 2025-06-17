@@ -1,0 +1,319 @@
+|j|Smallie Bigs34
+|j|Pablo D.campbell
+|player|p1|Smallie Bigs34|169
+|player|p2|Pablo D.campbell|153
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|28395,62413,11654,25651
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, F, shiny|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Breloom, M, shiny|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Starmie, shiny|item
+|poke|p1|Scizor, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Breloom|Breloom, M, shiny|261/261
+|switch|p2a: Latios|Latios, M|301/301
+|turn|1
+|choice|move lowsweep|move psyshock
+|
+|move|p2a: Latios|Psyshock|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-enditem|p1a: Breloom|Focus Sash
+|-damage|p1a: Breloom|1/261
+|move|p1a: Breloom|Low Sweep|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|188/301
+|-unboost|p2a: Latios|spe|1
+|
+|upkeep
+|turn|2
+|choice|move spore|switch 5
+|
+|switch|p2a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Breloom|Spore|p2a: Politoed
+|-status|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|choice|move bulletseed|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Breloom|Bullet Seed|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|340/352
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|328/352
+|-hitcount|p2a: Ferrothorn|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|350/352|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move lowsweep|move stealthrock
+|
+|move|p1a: Breloom|Low Sweep|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|120/352
+|-damage|p1a: Breloom|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Breloom
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p2a: Ferrothorn|Stealth Rock|p1: Breloom
+|-sidestart|p1: Smallie Bigs34|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|142/352|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Starmie|Starmie, shiny|261/261
+|-damage|p1a: Starmie|229/261|[from] Stealth Rock
+|turn|5
+|choice|move hydropump|move powerwhip
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/352
+|-damage|p1a: Starmie|203/261|[from] item: Life Orb
+|move|p2a: Ferrothorn|Power Whip|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|44/352|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Volcarona|Volcarona, M|329/329
+|-damage|p1a: Volcarona|165/329|[from] Stealth Rock
+|turn|6
+|choice|move quiverdance|move leechseed
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Volcarona
+|-start|p1a: Volcarona|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|66/352|[from] item: Leftovers
+|-damage|p1a: Volcarona|124/329|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|107/352|[silent]
+|upkeep
+|turn|7
+|choice|move fireblast|switch 4
+|
+|switch|p2a: Gyarados|Gyarados, M|353/353
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|move|p1a: Volcarona|Fire Blast|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|278/353
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|300/353|[from] item: Leftovers
+|-damage|p1a: Volcarona|83/329|[from] Leech Seed|[of] p2a: Gyarados
+|-heal|p2a: Gyarados|341/353|[silent]
+|upkeep
+|turn|8
+|choice|move quiverdance|move waterfall
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Gyarados|Waterfall|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-enditem|p1a: Volcarona|Passho Berry|[eat]
+|-enditem|p1a: Volcarona|Passho Berry|[weaken]
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Gyarados|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|353/353 brn|[from] item: Leftovers
+|-damage|p2a: Gyarados|309/353 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Dragonite|Dragonite, M|324/324
+|-damage|p1a: Dragonite|243/324|[from] Stealth Rock
+|turn|9
+|choice|move dragondance|switch 6
+|
+|switch|p2a: Rotom|Rotom-Wash|304/304
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|choice|move dragondance|move willowisp
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dragonite|[miss]
+|-miss|p2a: Rotom|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|choice|move outrage|move willowisp
+|
+|move|p1a: Dragonite|Outrage|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Gyarados|Gyarados, M|309/353 brn
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|12
+|choice|move outrage|switch 4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|107/352
+|move|p1a: Dragonite|Outrage|p2a: Ferrothorn|[from]lockedmove
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Dragonite|203/324|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Gyarados|Gyarados, M|309/353 brn
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|13
+|choice|move outrage|move dragondance
+|
+|move|p1a: Dragonite|Outrage|p2a: Gyarados|[from]lockedmove
+|-damage|p2a: Gyarados|42/353 brn
+|-start|p1a: Dragonite|confusion|[fatigue]
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-end|p1a: Dragonite|confusion
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|64/353 brn|[from] item: Leftovers
+|-damage|p2a: Gyarados|20/353 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move extremespeed|move waterfall
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|turn|15
+|choice|move outrage|move tailwind
+|
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Pablo D.campbell|move: Tailwind
+|move|p1a: Dragonite|Outrage|p2a: Tornadus
+|-damage|p2a: Tornadus|2/299
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|choice|move outrage|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|373/373
+|-damage|p1a: Garchomp|350/373|[from] Stealth Rock
+|turn|17
+|choice|move outrage|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|70/373
+|-start|p1a: Garchomp|confusion
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Outrage|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Latios|Latios, M|188/301
+|turn|18
+|choice|move outrage|move surf
+|
+|move|p2a: Latios|Surf|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Pablo D.campbell|move: Tailwind
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Scizor|Scizor, F|292/292
+|-damage|p1a: Scizor|256/292|[from] Stealth Rock
+|turn|19
+|choice|move bulletpunch|move surf
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|11/301
+|-damage|p1a: Scizor|227/292|[from] item: Life Orb
+|move|p2a: Latios|Surf|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|Pablo D.campbell
+|player|p1
+|player|p2
+|raw|Smallie Bigs34's rating: 1367 &rarr; <strong>1344</strong><br />(-23 for losing)
+|raw|Pablo D.campbell's rating: 1312 &rarr; <strong>1335</strong><br />(+23 for winning)
+|c|☆Smallie Bigs34|that close
+|c|☆Smallie Bigs34|gg
+|c|☆Pablo D.campbell|yea
+|c|☆Pablo D.campbell|gg
+|l|Smallie Bigs34

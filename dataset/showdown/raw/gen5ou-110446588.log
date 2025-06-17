@@ -1,0 +1,225 @@
+|join|joraks
+|join|Pythagorean Python
+|player|p1|joraks|170
+|player|p2|Pythagorean Python|265
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Jirachi
+|poke|p1|Medicham, M
+|poke|p1|Alakazam, M
+|poke|p1|Azelf
+|poke|p1|Latios, M
+|poke|p1|Slowbro, F
+|poke|p2|Ninetales, F
+|poke|p2|Darmanitan, F
+|poke|p2|Victreebel, F
+|poke|p2|Shiftry, M
+|poke|p2|Forretress, F
+|poke|p2|Raikou, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Medicham|Medicham, M|261/261
+|switch|p2a: Ninetales|Ninetales, F|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Darmanitan|Darmanitan, F|351/351
+|turn|2
+|
+|move|p2a: Darmanitan|U-turn|p1a: Medicham
+|-damage|p1a: Medicham|149/261
+|
+|switch|p2a: Forretress|Forretress, F|354/354
+|move|p1a: Medicham|High Jump Kick|p2a: Forretress
+|-damage|p2a: Forretress|191/354
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|213/354|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Forretress
+|-damage|p2a: Forretress|66/354
+|move|p2a: Forretress|Stealth Rock|p1a: Medicham
+|-sidestart|p1: joraks|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|88/354|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Victreebel|Victreebel, F|302/302
+|turn|5
+|
+|move|p2a: Victreebel|Solar Beam|p1a: Medicham|[still]
+|-prepare|p2a: Victreebel|Solar Beam|p1a: Medicham
+|-anim|p2a: Victreebel|Solar Beam|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|-damage|p2a: Victreebel|272/302|[from] item: Life Orb
+|faint|p1a: Medicham
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Alakazam|Alakazam, M|252/252
+|turn|6
+|
+|move|p2a: Victreebel|Solar Beam|p1a: Alakazam|[still]
+|-prepare|p2a: Victreebel|Solar Beam|p1a: Alakazam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/252
+|-damage|p2a: Victreebel|242/302|[from] item: Life Orb
+|move|p1a: Alakazam|Psyshock|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Darmanitan|Darmanitan, F|351/351
+|turn|7
+|
+|switch|p1a: Slowbro|Slowbro, F|394/394
+|-damage|p1a: Slowbro|345/394|[from] Stealth Rock
+|move|p2a: Darmanitan|U-turn|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|225/394
+|
+|switch|p2a: Raikou|Raikou, shiny|322/322
+|-ability|p2a: Raikou|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowbro|249/394|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|379/404|[from] Stealth Rock
+|move|p2a: Raikou|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|230/404
+|-damage|p2a: Raikou|290/322|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|255/404|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Raikou|Weather Ball|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Raikou|258/322|[from] item: Life Orb
+|faint|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Alakazam|Alakazam, M|1/252
+|turn|10
+|
+|move|p1a: Alakazam|Psyshock|p2a: Raikou
+|-damage|p2a: Raikou|69/322
+|move|p2a: Raikou|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p2a: Raikou|37/322|[from] item: Life Orb
+|faint|p1a: Alakazam
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Azelf|Azelf|291/291
+|-damage|p1a: Azelf|255/291|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Azelf|Flamethrower|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Darmanitan|Darmanitan, F|351/351
+|turn|12
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-damage|p2a: Darmanitan|267/351|[from] recoil|[of] p1a: Azelf
+|faint|p1a: Azelf
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Latios|Latios, M|302/302
+|-damage|p1a: Latios|265/302|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Latios|Draco Meteor|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Darmanitan
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Shiftry|Shiftry, M|321/321
+|turn|14
+|
+|switch|p1a: Slowbro|Slowbro, F|380/394
+|-damage|p1a: Slowbro|331/394|[from] Stealth Rock
+|move|p2a: Shiftry|Sucker Punch|p1a: Slowbro
+|-fail|p1a: Slowbro
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowbro|355/394|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Shiftry|Seed Bomb|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|142/394
+|-damage|p2a: Shiftry|289/321|[from] item: Life Orb
+|move|p1a: Slowbro|Fire Blast|p2a: Shiftry|[miss]
+|-miss|p1a: Slowbro|p2a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowbro|166/394|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Shiftry|Seed Bomb|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-damage|p2a: Shiftry|257/321|[from] item: Life Orb
+|faint|p1a: Slowbro
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Latios|Latios, M|265/302
+|-damage|p1a: Latios|228/302|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Shiftry|225/321|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|joraks's rating: 1372 &rarr; <strong>1349</strong><br />(-23 for losing)
+|raw|Pythagorean Python's rating: 1329 &rarr; <strong>1352</strong><br />(+23 for winning)
+|chat|Pythagorean Python|gg
+|chat|joraks|gg

@@ -1,0 +1,355 @@
+|j|☆phosphor
+|j|☆HydreigonSpammer
+|t:|1735979706
+|gametype|singles
+|player|p1|phosphor|#phosphor|1378
+|player|p2|HydreigonSpammer|iris|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Skarmory, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Celebi|item
+|poke|p1|Heatran, F|item
+|poke|p1|Gengar, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Ferrothorn, M|item
+|teampreview
+|c|☆phosphor|gl hf
+|c|☆HydreigonSpammer|gl hf
+|
+|t:|1735979720
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|1
+|
+|t:|1735979730
+|move|p2a: Keldeo|Scald|p1a: Skarmory
+|-ability|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: HydreigonSpammer|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|-enditem|p1a: Skarmory|Custap Berry|[eat]
+|-activate|p1a: Skarmory|item: Custap Berry|[consumed]
+|
+|t:|1735979767
+|move|p1a: Skarmory|Spikes|p2a: Keldeo
+|-sidestart|p2: HydreigonSpammer|Spikes
+|move|p2a: Keldeo|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1735979770
+|switch|p1a: Celebi|Celebi|100/100
+|turn|3
+|
+|t:|1735979789
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|82/100|[from] Spikes
+|move|p1a: Celebi|Leaf Storm|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|-unboost|p1a: Celebi|spa|2
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1735979795
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Landorus
+|-sidestart|p1: phosphor|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1735979833
+|move|p1a: Landorus|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|def|1
+|-damage|p1a: Landorus|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1735979838
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|-item|p2a: Starmie|Air Balloon
+|turn|6
+|
+|t:|1735979842
+|switch|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Starmie|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1735979844
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+|
+|t:|1735979859
+|move|p1a: Tyranitar|Pursuit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|24/100
+|-enditem|p2a: Starmie|Air Balloon
+|move|p2a: Starmie|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|18/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1735979868
+|move|p1a: Tyranitar|Pursuit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1735979886
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1735979890
+|move|p2a: Latios|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1735979895
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1735979914
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|move|p1a: Celebi|Leaf Storm|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100
+|-unboost|p1a: Celebi|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1735979922
+|move|p1a: Celebi|Leaf Storm|p2a: Tyranitar|[miss]
+|-miss|p1a: Celebi|p2a: Tyranitar
+|move|p2a: Tyranitar|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|41/100|[from] Sandstorm
+|-heal|p1a: Celebi|47/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1735979929
+|move|p1a: Celebi|Leaf Storm|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Celebi|spa|2
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|41/100|[from] Sandstorm
+|-heal|p1a: Celebi|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1735979942
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|-damage|p2a: Terrakion|82/100|[from] Spikes
+|turn|13
+|
+|t:|1735979960
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|move|p2a: Terrakion|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1735979972
+|move|p2a: Terrakion|Stone Edge|p1a: Landorus|[miss]
+|-miss|p2a: Terrakion|p1a: Landorus
+|move|p1a: Landorus|Superpower|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-crit|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|def|1
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆phosphor|sry
+|c|☆HydreigonSpammer|np
+|
+|t:|1735979993
+|switch|p2a: Latios|Latios, M|82/100
+|-damage|p2a: Latios|70/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1735979996
+|move|p2a: Latios|Dragon Pulse|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|64/100|[from] Sandstorm
+|upkeep
+|
+|t:|1735980000
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|16
+|
+|t:|1735980011
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|82/100|[from] Spikes
+|move|p1a: Heatran|Overheat|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|40/100
+|-unboost|p1a: Heatran|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|34/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1735980023
+|move|p2a: Keldeo|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|28/100|[from] Sandstorm
+|upkeep
+|
+|t:|1735980025
+|switch|p1a: Celebi|Celebi|47/100
+|-damage|p1a: Celebi|35/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1735980028
+|move|p2a: Keldeo|Surf|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|3/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|22/100|[from] Sandstorm
+|-damage|p1a: Celebi|47/100|[from] Sandstorm
+|-heal|p1a: Celebi|53/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1735980032
+|switch|p2a: Latios|Latios, M|64/100
+|-damage|p2a: Latios|52/100|[from] Stealth Rock
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|46/100|[from] Sandstorm
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1735980038
+|move|p2a: Latios|Trick|p1a: Celebi
+|-activate|p2a: Latios|move: Trick|[of] p1a: Celebi
+|-item|p1a: Celebi|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Celebi|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1735980044
+|switch|p2a: Keldeo|Keldeo|22/100
+|-damage|p2a: Keldeo|15/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|3/100|[from] Spikes
+|turn|21
+|
+|t:|1735980047
+|move|p1a: Celebi|Hidden Power|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|win|phosphor
+|raw|phosphor's rating: 1378 &rarr; <strong>1398</strong><br />(+20 for winning)
+|raw|HydreigonSpammer's rating: 1383 &rarr; <strong>1363</strong><br />(-20 for losing)
+|c|☆phosphor|gg
+|l|☆HydreigonSpammer
+|player|p2|

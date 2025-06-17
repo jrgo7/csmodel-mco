@@ -1,0 +1,305 @@
+|j|☆plsbb420
+|j|☆Volcanionisgood
+|player|p1|plsbb420|169|1321
+|player|p2|Volcanionisgood|burglar-gen1|1456
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Celebi|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Espeon, F|item
+|poke|p2|Donphan, M|item
+|poke|p2|Gastrodon, F|item
+|poke|p2|Heatran, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|switch|p2a: Donphan|Donphan, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Donphan|atk|1
+|move|p2a: Donphan|Stealth Rock|p1a: Landorus
+|-sidestart|p1: plsbb420|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Slowbro|Slowbro, M, shiny|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Donphan|Ice Shard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|80/100|[from] Sandstorm
+|-heal|p1a: Slowbro|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Scizor|Bug Bite|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-item|p2a: Ninetales|Air Balloon
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Landorus|U-turn|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|80/100
+|-enditem|p2a: Ninetales|Air Balloon
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Tyranitar|[miss]
+|-miss|p2a: Ninetales|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ninetales|74/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|-activate|p2a: Ninetales|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Ninetales|[from]Pursuit
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|8
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Tyranitar|Rock Slide|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|turn|9
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|75/100
+|-status|p1a: Celebi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|69/100 brn|[from] Sandstorm
+|-heal|p1a: Celebi|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|63/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|88/100
+|-damage|p1a: Landorus|75/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gastrodon|atk|1
+|switch|p2a: Heatran|Heatran, M|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Donphan
+|-damage|p2a: Donphan|83/100
+|
+|switch|p1a: Scizor|Scizor, F|88/100|[from]move: U-turn
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Heatran|Heatran, M|95/100
+|move|p1a: Scizor|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|80/100
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: U-turn
+|-damage|p1a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|86/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Donphan|Donphan, M|90/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Donphan
+|-damage|p2a: Donphan|85/100
+|-sideend|p1: plsbb420|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Scizor|Scizor, F|76/100
+|move|p2a: Donphan|Stealth Rock|p1a: Scizor
+|-sidestart|p1: plsbb420|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|98/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Scizor|U-turn|p2a: Donphan
+|-damage|p2a: Donphan|65/100
+|j| piyush21
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|75/100|[from]move: U-turn
+|-damage|p1a: Landorus|63/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Donphan|atk|1
+|move|p2a: Donphan|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Scizor|Scizor, F|76/100
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|move|p2a: Donphan|Ice Shard|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|78/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Heatran|Heatran, M|86/100
+|move|p1a: Scizor|Superpower|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Espeon|Espeon, F|100/100
+|turn|18
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|63/100
+|-damage|p1a: Landorus|50/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Espeon|atk|1
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+|
+|switch|p2a: Donphan|Donphan, M|78/100|[from]move: Baton Pass
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Slowbro|Slowbro, M, shiny|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Donphan|Ice Shard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|80/100|[from] Sandstorm
+|-heal|p2a: Donphan|90/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|86/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|switch|p1a: Celebi|Celebi|63/100
+|-damage|p1a: Celebi|51/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|45/100|[from] Sandstorm
+|-heal|p1a: Celebi|51/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Espeon|Espeon, F|100/100
+|move|p1a: Celebi|Giga Drain|p2a: Espeon
+|-damage|p2a: Espeon|67/100
+|-heal|p1a: Celebi|67/100|[from] drain|[of] p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|61/100|[from] Sandstorm
+|-damage|p1a: Celebi|61/100|[from] Sandstorm
+|-heal|p2a: Espeon|67/100|[from] item: Leftovers
+|-heal|p1a: Celebi|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|-message|Volcanionisgood forfeited.
+|
+|win|plsbb420
+|l|☆Volcanionisgood
+|raw|plsbb420's rating: 1321 &rarr; <strong>1349</strong><br />(+28 for winning)
+|raw|Volcanionisgood's rating: 1456 &rarr; <strong>1429</strong><br />(-27 for losing)
+|l| piyush21

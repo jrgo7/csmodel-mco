@@ -1,0 +1,335 @@
+|join|hisataakaa
+|join|noctowl tree
+|player|p1|hisataakaa|5
+|player|p2|noctowl tree|51
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Garchomp, M
+|poke|p1|Starmie
+|poke|p1|Jirachi
+|poke|p1|Latias, F
+|poke|p1|Politoed, M
+|poke|p1|Volcarona, F
+|poke|p2|Dragonite, M
+|poke|p2|Jirachi
+|poke|p2|Starmie
+|poke|p2|Garchomp, F
+|poke|p2|Kyurem-Black
+|poke|p2|Magnezone
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|switch|p2a: Starmie|Starmie|261/261
+|turn|1
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|move|p2a: Starmie|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|342/404
+|-damage|p2a: Starmie|235/261|[from] item: Life Orb
+|
+|-heal|p1a: Jirachi|367/404|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|190/404
+|-damage|p2a: Starmie|209/261|[from] item: Life Orb
+|move|p1a: Jirachi|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|126/261
+|
+|-heal|p1a: Jirachi|215/404|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Magnezone|Magnezone|307/307
+|move|p1a: Jirachi|Body Slam|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|276/307
+|-status|p2a: Magnezone|par
+|
+|-heal|p1a: Jirachi|240/404|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Magnezone|Volt Switch|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p1a: Jirachi|265/404|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Magnezone|par
+|
+|-heal|p1a: Jirachi|290/404|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Jirachi|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|254/307 par
+|move|p2a: Magnezone|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|113/404
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|
+|-heal|p1a: Jirachi|315/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|340/404|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|move|p2a: Jirachi|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: hisataakaa|move: Stealth Rock
+|
+|turn|8
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: noctowl tree|move: Stealth Rock
+|move|p2a: Jirachi|Icy Wind|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|137/357
+|-unboost|p1a: Garchomp|spe|1
+|
+|turn|9
+|
+|switch|p2a: Magnezone|Magnezone|254/307 par
+|-damage|p2a: Magnezone|235/307 par|[from] Stealth Rock
+|switch|p1a: Jirachi|Jirachi|340/404
+|-damage|p1a: Jirachi|315/404|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|340/404|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Magnezone|Volt Switch|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-heal|p1a: Jirachi|365/404|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Magnezone|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|188/404
+|
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|-damage|p2a: Garchomp|335/357|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|213/404|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Politoed|Politoed, M|384/384
+|-damage|p1a: Politoed|336/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Garchomp|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|177/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|379/384|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Politoed|384/384|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|279/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|304/404|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Magnezone|Magnezone|235/307 par
+|-damage|p2a: Magnezone|216/307 par|[from] Stealth Rock
+|switch|p1a: Garchomp|Garchomp, M|137/357
+|-damage|p1a: Garchomp|115/357|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p2a: Garchomp|Garchomp, F|335/357
+|-damage|p2a: Garchomp|313/357|[from] Stealth Rock
+|move|p1a: Garchomp|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|135/357
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p2a: Garchomp|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Starmie|Starmie|261/261
+|-damage|p1a: Starmie|229/261|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Jirachi|Jirachi|304/404
+|-damage|p2a: Jirachi|279/404|[from] Stealth Rock
+|move|p1a: Starmie|Hydro Pump|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Starmie|203/261|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Kyurem-Black|Kyurem-Black|391/391
+|-damage|p2a: Kyurem-Black|294/391|[from] Stealth Rock
+|-ability|p2a: Kyurem-Black|Teravolt
+|turn|18
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Kyurem-Black
+|-damage|p2a: Kyurem-Black|278/391
+|-sideend|p1: hisataakaa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|177/261|[from] item: Life Orb
+|move|p2a: Kyurem-Black|Fusion Bolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Latias|Latias, F|329/329
+|turn|19
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Kyurem-Black
+|-supereffective|p2a: Kyurem-Black
+|-damage|p2a: Kyurem-Black|0 fnt
+|-damage|p1a: Latias|297/329|[from] item: Life Orb
+|faint|p2a: Kyurem-Black
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Starmie|Starmie|126/261
+|-damage|p2a: Starmie|94/261|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Latias
+|-damage|p1a: Latias|281/329
+|-sideend|p2: noctowl tree|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|-damage|p2a: Starmie|68/261|[from] item: Life Orb
+|move|p1a: Latias|Dragon Pulse|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-damage|p1a: Latias|249/329|[from] item: Life Orb
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|21
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|151/323
+|-damage|p1a: Latias|217/329|[from] item: Life Orb
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|move|p2a: Dragonite|Outrage|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Jirachi|Jirachi|213/404
+|turn|23
+|
+|move|p2a: Dragonite|Outrage|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|44/404
+|move|p1a: Jirachi|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|80/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|69/404|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Dragonite|Outrage|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|-start|p2a: Dragonite|confusion|[fatigue]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|94/404|[from] item: Leftovers
+|turn|25
+|
+|-activate|p2a: Dragonite|confusion
+|-damage|p2a: Dragonite|0 fnt|[from] confusion
+|faint|p2a: Dragonite
+|move|p1a: Jirachi|Body Slam|p2: Dragonite|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|119/404|[from] item: Leftovers
+|
+|switch|p2a: Magnezone|Magnezone|216/307 par
+|turn|26
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Magnezone|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Volcarona|Volcarona, F|369/369
+|turn|27
+|
+|switch|p2a: Garchomp|Garchomp, F|135/357
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|28
+|
+|move|p2a: Garchomp|Rock Slide|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Politoed|Politoed, M|384/384
+|turn|29
+|
+|move|p2a: Garchomp|Rock Slide|p1a: Politoed
+|-miss|p2a: Garchomp|p1a: Politoed
+|move|p1a: Politoed|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Magnezone|Magnezone|216/307 par
+|turn|30
+|
+|move|p1a: Politoed|Scald|p2a: Magnezone
+|-damage|p2a: Magnezone|78/307 par
+|move|p2a: Magnezone|Thunderbolt|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|win|noctowl tree
+|raw|Ladder updating...
+|raw|hisataakaa's rating: 1389 &rarr; <strong>1364</strong><br />(-25 for losing)
+|raw|noctowl tree's rating: 1311 &rarr; <strong>1335</strong><br />(+24 for winning)

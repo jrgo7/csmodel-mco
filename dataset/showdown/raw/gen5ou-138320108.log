@@ -1,0 +1,147 @@
+|join|MechaStark
+|join|guelobowler
+|player|p1|MechaStark|164
+|player|p2|guelobowler|220
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, M
+|poke|p1|Rotom-Wash
+|poke|p1|Toxicroak, M
+|poke|p1|Thundurus-Therian, M, shiny
+|poke|p1|Keldeo
+|poke|p1|Ferrothorn, F
+|poke|p2|Hippowdon, F
+|poke|p2|Mandibuzz, F
+|poke|p2|Scizor, F
+|poke|p2|Magnezone
+|poke|p2|Latios, M
+|poke|p2|Haxorus, M, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|switch|p2a: Magnezone|Magnezone|291/291
+|turn|1
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|423/423
+|move|p1a: Keldeo|Hydro Pump|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|224/423
+|-damage|p1a: Keldeo|291/323|[from] item: Life Orb
+|
+|-heal|p2a: Mandibuzz|250/423|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|128/423
+|-unboost|p2a: Mandibuzz|spe|1
+|-damage|p1a: Keldeo|259/323|[from] item: Life Orb
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|340/423
+|
+|-heal|p2a: Mandibuzz|366/423|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Mandibuzz|Toxic|p1a: Politoed|[miss]
+|-miss|p2a: Mandibuzz|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mandibuzz|392/423|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|74/423
+|move|p2a: Mandibuzz|Toxic|p1a: Politoed|[miss]
+|-miss|p2a: Mandibuzz|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mandibuzz|100/423|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Haxorus|Haxorus, M, shiny|323/323
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|7
+|
+|switch|p1a: Keldeo|Keldeo|259/323
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p2a: Haxorus|Outrage|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|299/299
+|turn|9
+|
+|move|p2a: Haxorus|Outrage|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|0 fnt
+|faint|p1a: Rotom-Wash
+|
+|-weather|RainDance|[upkeep]
+|join|testsubjectN1994
+|
+|switch|p1a: Toxicroak|Toxicroak, M|368/368
+|turn|10
+|
+|move|p2a: Haxorus|Outrage|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-end|p2a: Haxorus|rampage
+|-start|p2a: Haxorus|confusion
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M, shiny|331/331
+|-enditem|p2a: Haxorus|Lum Berry|[eat]
+|-end|p2a: Haxorus|confusion
+|turn|11
+|
+|move|p2a: Haxorus|Outrage|p1a: Thundurus-Therian
+|-damage|p1a: Thundurus-Therian|0 fnt
+|faint|p1a: Thundurus-Therian
+|
+|-weather|RainDance|[upkeep]
+|leave|MechaStark
+|player|p1
+|chat|guelobowler|gg
+|-message|mechastark lost due to inactivity.
+|
+|win|guelobowler
+|raw|Ladder updating...
+|raw|MechaStark's rating: 1357 &rarr; <strong>1341</strong><br />(-16 for losing)
+|raw|guelobowler's rating: 1431 &rarr; <strong>1447</strong><br />(+16 for winning)
+|leave|testsubjectN1994

@@ -1,0 +1,441 @@
+|j|☆erme mor 9
+|j|☆chockwayne
+|player|p1|erme mor 9|oak-gen1|1394
+|player|p2|chockwayne|266|1429
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Azelf|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Cloyster, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Latios, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf, shiny|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|
+|move|p2a: Latios|Trick|p1a: Azelf
+|-activate|p2a: Latios|move: Trick|[of] p1a: Azelf
+|-item|p1a: Azelf|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Light Clay|[from] move: Trick
+|move|p1a: Azelf|Light Screen|p1a: Azelf
+|-sidestart|p1: erme mor 9|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Magnezone|Magnezone, shiny|100/100
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: Latios|Trick|p1a: Magnezone
+|-activate|p2a: Latios|move: Trick|[of] p1a: Magnezone
+|-item|p1a: Magnezone|Light Clay|[from] move: Trick
+|-item|p2a: Latios|Air Balloon
+|-item|p2a: Latios|Air Balloon|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|move|p1a: Magnezone|Flash Cannon|p2a: Landorus
+|-damage|p2a: Landorus|51/100
+|
+|-heal|p2a: Landorus|57/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Azelf|Azelf, shiny|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Azelf
+|-sidestart|p1: erme mor 9|move: Stealth Rock
+|
+|-heal|p2a: Landorus|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Azelf|Stealth Rock|p2a: Landorus
+|-sidestart|p2: chockwayne|move: Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|43/100
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100|[from]move: U-turn
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Tentacruel|94/100|[from] item: Black Sludge
+|-sideend|p1: erme mor 9|move: Light Screen
+|upkeep
+|turn|6
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Latios
+|-damage|p1a: Latios|84/100
+|-sideend|p2: chockwayne|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Latios|Dragon Dance|p1a: Latios
+|-boost|p1a: Latios|atk|1
+|-boost|p1a: Latios|spe|1
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Latios|Dragon Dance|p1a: Latios
+|-boost|p1a: Latios|atk|1
+|-boost|p1a: Latios|spe|1
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Latios
+|-damage|p1a: Latios|59/100
+|-status|p1a: Latios|psn
+|
+|-damage|p1a: Latios|47/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Latios|Earthquake|p2a: Tentacruel
+|-enditem|p1a: Latios|Ground Gem|[from] gem
+|-supereffective|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-damage|p1a: Latios|34/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|10
+|j| Albert Kesselring
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latios|Dragon Claw|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|22/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latios|Dragon Claw|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|10/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Landorus|Landorus-Therian, M|63/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|move|p1a: Latios|Dragon Claw|p2a: Landorus
+|-damage|p2a: Landorus|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|33/100|[from] item: Leftovers
+|-damage|p1a: Latios|0 fnt|[from] psn
+|faint|p1a: Latios
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|-damage|p1a: Haxorus|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Landorus|Earthquake|p1a: Haxorus
+|-damage|p1a: Haxorus|23/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|39/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Haxorus|Outrage|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|15
+|
+|move|p1a: Haxorus|Outrage|p2a: Jirachi|[from]lockedmove
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|60/100
+|-start|p1a: Haxorus|confusion|[fatigue]
+|-enditem|p1a: Haxorus|Lum Berry|[eat]
+|-end|p1a: Haxorus|confusion
+|move|p2a: Jirachi|Hidden Power|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone, shiny|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Jirachi|Thunder|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|76/100
+|-status|p1a: Magnezone|par
+|cant|p1a: Magnezone|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|47/100
+|move|p1a: Magnezone|Sunny Day|p1a: Magnezone
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|53/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Magnezone|Thunderbolt|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|59/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|34/100
+|move|p1a: Magnezone|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|41/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Jirachi|Thunder|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|47/100 par
+|move|p1a: Magnezone|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|8/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Jirachi|Thunder|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|19/100 par
+|move|p1a: Magnezone|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|22
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|76/100
+|-status|p2a: Breloom|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Magnezone|Flash Cannon|p2a: Breloom
+|-damage|p2a: Breloom|29/100 par
+|move|p2a: Breloom|Drain Punch|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-heal|p2a: Breloom|37/100 par|[from] drain|[of] p1a: Magnezone
+|faint|p1a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F, shiny|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-item|p2a: Latios|Air Balloon
+|turn|25
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|58/100
+|-enditem|p2a: Latios|Air Balloon
+|move|p2a: Latios|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|10/100
+|move|p2a: Latios|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Azelf|Azelf, shiny|43/100
+|-damage|p1a: Azelf|31/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Azelf|Light Screen|p1a: Azelf
+|-sidestart|p1: erme mor 9|move: Light Screen
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|60/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|-damage|p1a: Metagross|95/100|[from] Stealth Rock
+|move|p2a: Latios|Trick|p1a: Metagross
+|-activate|p2a: Latios|move: Trick|[of] p1a: Metagross
+|-enditem|p1a: Metagross|Life Orb|[silent]|[from] move: Trick
+|-item|p2a: Latios|Life Orb|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p2a: Latios|Surf|p1a: Metagross
+|-damage|p1a: Metagross|57/100
+|-damage|p2a: Latios|50/100|[from] item: Life Orb
+|move|p1a: Metagross|Meteor Mash|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|30
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Metagross|Zen Headbutt|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p1a: Metagross|Zen Headbutt|p2a: Politoed
+|-damage|p2a: Politoed|49/100
+|cant|p2a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|55/100|[from] item: Leftovers
+|-sideend|p1: erme mor 9|move: Light Screen
+|upkeep
+|turn|32
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Metagross|Zen Headbutt|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|61/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Metagross|Zen Headbutt|p2a: Politoed
+|-damage|p2a: Politoed|10/100
+|cant|p2a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|16/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Metagross|Earthquake|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|22/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Politoed|Protect||[still]
+|-fail|p2a: Politoed
+|move|p1a: Metagross|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|win|erme mor 9
+|l|☆chockwayne
+|l|☆erme mor 9
+|raw|erme mor 9's rating: 1410 &rarr; <strong>1431</strong><br />(+21 for winning)
+|raw|chockwayne's rating: 1429 &rarr; <strong>1408</strong><br />(-21 for losing)

@@ -1,0 +1,748 @@
+|j|☆blackkaiser
+|j|☆le mariposa
+|player|p1|blackkaiser|170|1506
+|player|p2|le mariposa|hilbert-dueldisk|1307
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Keldeo-Resolute|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by le mariposa)
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p2a: Politoed|Surf|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|21/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Politoed
+|-sidestart|p2: le mariposa|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|94/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|27/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Politoed|Surf|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|88/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Gliscor
+|-sidestart|p2: le mariposa|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63/100 tox
+|move|p1a: Ferrothorn|Spikes|p2a: Gliscor
+|-sidestart|p2: le mariposa|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|move|p2a: Gliscor|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|44/100
+|move|p1a: Ferrothorn|Spikes|p2a: Gliscor
+|-sidestart|p2: le mariposa|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|move|p2a: Gliscor|Earthquake|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|2/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|75/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Toxic|p1a: Latios|[miss]
+|-miss|p2a: Gliscor|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|switch|p1a: Hippowdon|Hippowdon, F|27/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|70/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|34/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|84/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|50/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|99/100
+|move|p2a: Ferrothorn|Spikes|p1a: Hippowdon
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Gliscor
+|-damage|p2a: Gliscor|56/100 tox
+|-damage|p1a: Garchomp|78/100|[from] item: Life Orb
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|31/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|switch|p1a: Latios|Latios, M, shiny|89/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|83/100|[from] Sandstorm
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|77/100 tox|[from] Sandstorm
+|-damage|p1a: Latios|71/100 tox|[from] psn
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|65/100 tox|[from] Sandstorm
+|-damage|p1a: Latios|53/100 tox|[from] psn
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|63/100|[from] Spikes
+|move|p1a: Latios|Surf|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|47/100 tox|[from] Sandstorm
+|-damage|p2a: Tentacruel|39/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|45/100|[from] item: Black Sludge
+|-damage|p1a: Latios|29/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Spikes
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|39/100|[from] Sandstorm
+|-damage|p1a: Jellicent|82/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|45/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Tentacruel|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Tentacruel
+|-status|p2a: Tentacruel|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|39/100 brn|[from] Sandstorm
+|-damage|p1a: Jellicent|82/100 tox|[from] Sandstorm
+|-heal|p2a: Tentacruel|45/100 brn|[from] item: Black Sludge
+|-heal|p1a: Jellicent|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Tentacruel|33/100 brn|[from] brn
+|-damage|p1a: Jellicent|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|88/100
+|-damage|p2a: Ferrothorn|82/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|57/100|[from] Spikes
+|move|p1a: Jellicent|Shadow Ball|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|76/100 tox|[from] Sandstorm
+|-heal|p1a: Jellicent|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|54/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|69/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Spikes|p1a: Jellicent
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|63/100 tox|[from] Sandstorm
+|-heal|p1a: Jellicent|69/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|51/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|48/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|84/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Hippowdon
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|90/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|41/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Ferrothorn|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|89/100
+|-enditem|p1a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|move|p1a: Hippowdon|Roar|p2a: Ferrothorn
+|drag|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|76/100|[from] Spikes
+|-damage|p2a: Keldeo|70/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|63/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|switch|p1a: Jellicent|Jellicent, M|51/100 tox
+|-damage|p1a: Jellicent|26/100 tox|[from] Spikes
+|move|p2a: Keldeo|Surf|p1a: Jellicent
+|-heal|p1a: Jellicent|51/100 tox|[from] ability: Water Absorb|[of] p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|57/100|[from] Sandstorm
+|-damage|p1a: Jellicent|45/100 tox|[from] Sandstorm
+|-heal|p1a: Jellicent|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|45/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Tentacruel|Tentacruel, M|33/100 brn
+|-damage|p2a: Tentacruel|8/100 brn|[from] Spikes
+|-damage|p2a: Tentacruel|0 fnt|[from] Stealth Rock
+|faint|p2a: Tentacruel
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|95/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|89/100 tox|[from] Sandstorm
+|-heal|p1a: Jellicent|95/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|-damage|p2a: Jirachi|69/100|[from] Spikes
+|turn|26
+|
+|switch|p1a: Hippowdon|Hippowdon, F|89/100
+|-damage|p1a: Hippowdon|64/100|[from] Spikes
+|move|p2a: Jirachi|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Jirachi|Body Slam|p1a: Hippowdon
+|-damage|p1a: Hippowdon|54/100
+|-status|p1a: Hippowdon|par
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Jirachi|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|85/100 par
+|cant|p1a: Hippowdon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Jirachi|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|71/100 par
+|cant|p1a: Hippowdon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Jirachi|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|57/100 par
+|move|p1a: Hippowdon|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|31/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Jirachi|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|43/100 par
+|cant|p1a: Hippowdon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|37/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Jirachi|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|29/100 par
+|cant|p1a: Hippowdon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|43/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Jirachi|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|14/100 par
+|cant|p1a: Hippowdon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|49/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Jirachi|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|78/100
+|-damage|p1a: Garchomp|53/100|[from] Spikes
+|-damage|p1a: Garchomp|47/100|[from] Stealth Rock
+|turn|35
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|41/100 brn
+|-damage|p2a: Ferrothorn|35/100 brn|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|10/100 brn|[from] Spikes
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Garchomp|37/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|88/100
+|-damage|p2a: Politoed|76/100|[from] Stealth Rock
+|-damage|p2a: Politoed|51/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|36
+|
+|switch|p1a: Jellicent|Jellicent, M|82/100 tox
+|-damage|p1a: Jellicent|58/100 tox|[from] Spikes
+|-damage|p1a: Jellicent|45/100 tox|[from] Stealth Rock
+|move|p2a: Politoed|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|31/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|37/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|31/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|move|p2a: Politoed|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|24/100 tox
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|74/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|80/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|67/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Politoed|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|60/100 tox
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|38/100 brn|[from] brn
+|-damage|p1a: Jellicent|48/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|move|p2a: Politoed|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|40/100 tox
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|90/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|96/100 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|26/100 brn|[from] brn
+|-damage|p1a: Jellicent|71/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Politoed|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|64/100 tox
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|13/100 brn|[from] brn
+|-damage|p1a: Jellicent|69/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|move|p2a: Politoed|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|62/100 tox
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|1/100 brn|[from] brn
+|-damage|p1a: Jellicent|63/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p2a: Politoed|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|56/100 tox
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|0 fnt|[from] brn
+|faint|p2a: Politoed
+|-damage|p1a: Jellicent|57/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|55/100
+|-damage|p2a: Jirachi|31/100|[from] Spikes
+|-damage|p2a: Jirachi|24/100|[from] Stealth Rock
+|turn|43
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|2/100
+|-damage|p1a: Ferrothorn|0 fnt|[from] Stealth Rock
+|faint|p1a: Ferrothorn
+|move|p2a: Jirachi|Iron Head|p1: Ferrothorn|[notarget]
+|-fail|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|turn|44
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|8/100
+|move|p2a: Jirachi|Body Slam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|54/100
+|-status|p1a: Scizor|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|14/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|57/100
+|-damage|p2a: Keldeo|51/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|26/100|[from] Spikes
+|turn|46
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|81/100 tox
+|-damage|p2a: Gliscor|69/100 tox|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|48
+|
+|cant|p1a: Scizor|par
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|56/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|49
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|50
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|21/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|51
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|cant|p1a: Scizor|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|52
+|
+|cant|p1a: Scizor|par
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|75/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|53
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|54
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M, shiny|29/100 tox
+|-damage|p1a: Latios|16/100 tox|[from] Stealth Rock
+|turn|55
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|10/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|0 fnt|[from] psn
+|faint|p1a: Latios
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|57/100 tox
+|-damage|p1a: Jellicent|45/100 tox|[from] Stealth Rock
+|-damage|p1a: Jellicent|20/100 tox|[from] Spikes
+|turn|57
+|
+|move|p2a: Gliscor|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|37/100
+|-damage|p1a: Garchomp|13/100|[from] Spikes
+|-damage|p1a: Garchomp|6/100|[from] Stealth Rock
+|turn|58
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Garchomp|Draco Meteor|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|59
+|
+|move|p1a: Garchomp|Draco Meteor|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Gliscor
+|faint|p1a: Garchomp
+|
+|win|blackkaiser
+|c|☆blackkaiser|JUSTICE
+|c|☆le mariposa|gg
+|c|☆blackkaiser|gg
+|l|☆le mariposa
+|raw|blackkaiser's rating: 1519 &rarr; <strong>1528</strong><br />(+9 for winning)
+|raw|le mariposa's rating: 1307 &rarr; <strong>1298</strong><br />(-9 for losing)

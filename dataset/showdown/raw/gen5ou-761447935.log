@@ -1,0 +1,337 @@
+|j|☆refsunpersons
+|j|☆Alpha Kittens
+|player|p1|refsunpersons|34
+|player|p2|Alpha Kittens|238
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Celebi|item
+|poke|p1|Scizor, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Aron, L1, F|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Virizion|item
+|poke|p2|Hydreigon, F|item
+|teampreview
+|c|☆Alpha Kittens|gl hf
+|c|☆refsunpersons|gl hf bro
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Landorus|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|95/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|85/100
+|
+|switch|p1a: Aron|Aron, L1, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|79/100|[from] Sandstorm
+|upkeep
+|turn|3
+|j| porrompompom
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Aron|Endeavor|p2a: Jellicent
+|-immune|p2a: Jellicent|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Aron|Protect|p1a: Aron
+|-singleturn|p1a: Aron|Protect
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Aron
+|-activate|p1a: Aron|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Celebi
+|-status|p1a: Celebi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100 brn|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p1a: Celebi|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|76/100 brn|[from] Sandstorm
+|-damage|p1a: Celebi|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Celebi|Earth Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|17/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|57/100 brn|[from] Sandstorm
+|-heal|p2a: Jirachi|24/100|[from] item: Leftovers
+|-damage|p1a: Celebi|45/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-heal|p1a: Celebi|87/100 brn|[from] drain|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|81/100 brn|[from] Sandstorm
+|-damage|p1a: Celebi|69/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|24/100
+|turn|9
+|
+|move|p1a: Celebi|Earth Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|62/100 brn|[from] Sandstorm
+|-damage|p1a: Celebi|50/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Virizion|Virizion|100/100
+|turn|10
+|
+|move|p2a: Virizion|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|7/100 brn
+|-damage|p2a: Virizion|91/100|[from] item: Life Orb
+|move|p1a: Celebi|Psychic|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|1/100 brn|[from] Sandstorm
+|-damage|p1a: Celebi|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Celebi
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|11
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Jellicent
+|-status|p2a: Jellicent|par
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|95/100 brn|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100 par|[from] Sandstorm
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100 par|[from] item: Leftovers
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Rotom|Volt Switch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|57/100 par
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|cant|p2a: Jellicent|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|51/100 par|[from] Sandstorm
+|-heal|p2a: Jellicent|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Hydreigon|Hydreigon, F|79/100
+|move|p1a: Tyranitar|Crunch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|54/100
+|-unboost|p2a: Hydreigon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|48/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|59/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|38/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Stone Edge|p2a: Hydreigon|[miss]
+|-miss|p1a: Tyranitar|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|32/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Tyranitar|[miss]
+|-miss|p2a: Hydreigon|p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|16
+|
+|switch|p1a: Aron|Aron, L1, F, shiny|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Aron
+|-supereffective|p1a: Aron
+|-damage|p1a: Aron|0 fnt
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|faint|p1a: Aron
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Alpha Kittens|sturdy???
+|c|☆refsunpersons|yes
+|
+|switch|p1a: Rotom|Rotom-Wash|88/100 brn
+|turn|17
+|c|☆Alpha Kittens|oh right mold breaker
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Excadrill|81/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|18
+|
+|switch|p2a: Jellicent|Jellicent, F|57/100 par
+|move|p1a: Scizor|Superpower|p2a: Jellicent
+|-immune|p2a: Jellicent|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|51/100 par|[from] Sandstorm
+|-heal|p2a: Jellicent|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|51/100 par|[from] Sandstorm
+|-heal|p2a: Jellicent|57/100 par|[from] item: Leftovers
+|-damage|p1a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Jellicent|Scald|p1a: Scizor
+|-damage|p1a: Scizor|54/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|51/100 par|[from] Sandstorm
+|-heal|p2a: Jellicent|57/100 par|[from] item: Leftovers
+|-damage|p1a: Scizor|41/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Scizor|Acrobatics|p2a: Jellicent
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scizor|29/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|81/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|22
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|44/100
+|move|p2a: Excadrill|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Excadrill|34/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j| Titan Toxik
+|c|☆Alpha Kittens|gg
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|23
+|
+|move|p1a: Excadrill|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|refsunpersons
+|c|☆refsunpersons|gg
+|raw|refsunpersons's rating: 1310 &rarr; <strong>1330</strong><br />(+20 for winning)
+|raw|Alpha Kittens's rating: 1311 &rarr; <strong>1291</strong><br />(-20 for losing)
+|l| Titan Toxik

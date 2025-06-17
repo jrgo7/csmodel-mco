@@ -1,0 +1,312 @@
+|j|☆phosphor display
+|j|☆Kairak
+|player|p1|phosphor display|128|1346
+|player|p2|Kairak|76|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Tangrowth, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Heatran, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Spore|p1a: Landorus
+|-status|p1a: Landorus|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Tangrowth|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|98/100
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Heatran|Lava Plume|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|51/100
+|-activate|p2a: Garchomp|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Garchomp|45/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: phosphor display|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Garchomp|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|move|p1a: Tangrowth|Sleep Powder|p2a: Garchomp
+|-status|p2a: Garchomp|slp|[from] move: Sleep Powder
+|
+|-damage|p1a: Tangrowth|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Tangrowth|Stun Spore|p2a: Heatran
+|-status|p2a: Heatran|par
+|
+|-heal|p1a: Tangrowth|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangrowth|88/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 tox
+|-damage|p1a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|76/100
+|
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|-heal|p1a: Tangrowth|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangrowth|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Tangrowth|Giga Drain|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|-heal|p1a: Tangrowth|98/100 tox|[from] drain|[of] p2a: Gyarados
+|
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|-heal|p1a: Tangrowth|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangrowth|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|57/100|[from] Sandstorm
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 tox
+|-damage|p1a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p2a: Gyarados|Aqua Tail|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|70/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|57/100|[from] Sandstorm
+|-damage|p1a: Tangrowth|64/100 tox|[from] Sandstorm
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|-heal|p1a: Tangrowth|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangrowth|64/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Tangrowth
+|move|p1a: Tangrowth|Giga Drain|p2a: Gyarados|[miss]
+|-miss|p1a: Tangrowth|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|57/100|[from] Sandstorm
+|-damage|p1a: Tangrowth|57/100 tox|[from] Sandstorm
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|-heal|p1a: Tangrowth|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangrowth|51/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Gyarados|Bounce|p1a: Excadrill|[from]lockedmove
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|61/100
+|-status|p1a: Excadrill|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|57/100|[from] Sandstorm
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Tangrowth|Tangrowth, M|84/100 tox
+|-damage|p1a: Tangrowth|72/100 tox|[from] Stealth Rock
+|move|p2a: Gyarados|Aqua Tail|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|54/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|57/100|[from] Sandstorm
+|-damage|p1a: Tangrowth|48/100 tox|[from] Sandstorm
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|-heal|p1a: Tangrowth|54/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangrowth|48/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Heatran|Heatran, F|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|57/100|[from] Sandstorm
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Gyarados|Bounce|p1a: Heatran|[from]lockedmove
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|44/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Magma Storm|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|57/100|[from] Sandstorm
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Tangrowth|Tangrowth, M|81/100 tox
+|-damage|p1a: Tangrowth|69/100 tox|[from] Stealth Rock
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|32/100|[from] Sandstorm
+|-damage|p1a: Tangrowth|63/100 tox|[from] Sandstorm
+|-heal|p2a: Gyarados|38/100|[from] item: Leftovers
+|-heal|p1a: Tangrowth|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangrowth|63/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Tyranitar|Tyranitar, F|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|32/100|[from] Sandstorm
+|-heal|p2a: Gyarados|38/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Gyarados|Aqua Tail|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|32/100|[from] Sandstorm
+|-heal|p2a: Gyarados|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tangrowth|Tangrowth, M|96/100 tox
+|-damage|p1a: Tangrowth|84/100 tox|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Heatran|Heatran, F|44/100
+|-damage|p1a: Heatran|31/100|[from] Stealth Rock
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|32/100|[from] Sandstorm
+|-heal|p2a: Gyarados|38/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Gyarados|Bounce|p1a: Heatran|[from]lockedmove
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|32/100|[from] Sandstorm
+|-heal|p2a: Gyarados|38/100|[from] item: Leftovers
+|upkeep
+|-message|phosphor display forfeited.
+|
+|win|Kairak
+|l|☆phosphor display
+|raw|phosphor display's rating: 1347 &rarr; <strong>1322</strong><br />(-25 for losing)
+|raw|Kairak's rating: 1259 &rarr; <strong>1291</strong><br />(+32 for winning)

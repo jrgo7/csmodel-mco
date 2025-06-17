@@ -1,0 +1,223 @@
+|join|dtw
+|join|spizzzz
+|player|p1|dtw|1
+|player|p2|spizzzz|2
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Breloom, M
+|poke|p1|Keldeo
+|poke|p1|Machamp, F
+|poke|p1|Scrafty, F
+|poke|p1|Infernape, M
+|poke|p1|Conkeldurr, F
+|poke|p2|Reuniclus, F
+|poke|p2|Weavile, M
+|poke|p2|Conkeldurr, M
+|poke|p2|Sableye, F
+|poke|p2|Latios, M
+|poke|p2|Heatran, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Infernape|Infernape, M|294/294
+|switch|p2a: Sableye|Sableye, F|304/304
+|turn|1
+|
+|switch|p2a: Latios|Latios, M|302/302
+|move|p1a: Infernape|Stealth Rock|p2a: Latios
+|-sidestart|p2: spizzzz|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Latios|Surf|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|10/294
+|move|p1a: Infernape|Close Combat|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|194/302
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|
+|turn|3
+|
+|move|p2a: Latios|Surf|p1a: Infernape
+|-crit|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|
+|switch|p1a: Breloom|Breloom, M|262/262
+|turn|4
+|
+|switch|p2a: Sableye|Sableye, F|304/304
+|-damage|p2a: Sableye|266/304|[from] Stealth Rock
+|move|p1a: Breloom|Spore|p2a: Sableye
+|-status|p2a: Sableye|slp
+|
+|-heal|p2a: Sableye|285/304 slp|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Heatran|Heatran, F|324/324
+|-damage|p2a: Heatran|284/324|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|turn|6
+|
+|switch|p2a: Sableye|Sableye, F|285/304 slp
+|-damage|p2a: Sableye|247/304 slp|[from] Stealth Rock
+|move|p1a: Breloom|Mach Punch|p2a: Sableye
+|-immune|p2a: Sableye|[msg]
+|
+|-heal|p2a: Sableye|266/304 slp|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Latios|Latios, M|194/302
+|-damage|p2a: Latios|157/302|[from] Stealth Rock
+|move|p1a: Breloom|Bullet Seed|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|77/302
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-hitcount|p2a: Latios|2
+|faint|p2a: Latios
+|
+|
+|switch|p2a: Reuniclus|Reuniclus, F|424/424
+|turn|8
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Reuniclus
+|-damage|p2a: Reuniclus|304/424
+|-damage|p2a: Reuniclus|172/424
+|-hitcount|p2a: Reuniclus|2
+|move|p2a: Reuniclus|Psyshock|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-enditem|p1a: Breloom|Focus Sash
+|-damage|p1a: Breloom|1/262
+|
+|turn|9
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Reuniclus
+|-damage|p2a: Reuniclus|43/424
+|-damage|p2a: Reuniclus|0 fnt
+|-hitcount|p2a: Reuniclus|2
+|faint|p2a: Reuniclus
+|
+|
+|switch|p2a: Weavile|Weavile, M|282/282
+|-damage|p2a: Weavile|212/282|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|10
+|
+|move|p2a: Weavile|Ice Shard|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-damage|p2a: Weavile|184/282|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|414/414
+|turn|11
+|
+|switch|p2a: Sableye|Sableye, F|266/304 slp
+|-damage|p2a: Sableye|228/304 slp|[from] Stealth Rock
+|move|p1a: Conkeldurr|Ice Punch|p2a: Sableye
+|-damage|p2a: Sableye|104/304 slp
+|
+|-heal|p2a: Sableye|123/304 slp|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|turn|12
+|
+|cant|p2a: Sableye|slp
+|move|p1a: Conkeldurr|Ice Punch|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-damage|p1a: Conkeldurr|363/414 brn|[from] brn
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|381/381
+|-damage|p2a: Conkeldurr|358/381|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|179/414 brn
+|-heal|p2a: Conkeldurr|381/381|[from] drain|[of] p1a: Conkeldurr
+|move|p1a: Conkeldurr|Drain Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|152/381
+|-heal|p1a: Conkeldurr|294/414 brn|[from] drain|[of] p2a: Conkeldurr
+|
+|-heal|p2a: Conkeldurr|175/381|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|243/414 brn|[from] brn
+|turn|14
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|41/414 brn
+|-heal|p2a: Conkeldurr|276/381|[from] drain|[of] p1a: Conkeldurr
+|move|p1a: Conkeldurr|Drain Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|36/381
+|-heal|p1a: Conkeldurr|161/414 brn|[from] drain|[of] p2a: Conkeldurr
+|
+|-heal|p2a: Conkeldurr|59/381|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|110/414 brn|[from] brn
+|turn|15
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|59/414 brn|[from] brn
+|
+|switch|p2a: Weavile|Weavile, M|184/282
+|-damage|p2a: Weavile|114/282|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|16
+|
+|move|p2a: Weavile|Ice Shard|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-damage|p2a: Weavile|86/282|[from] item: Life Orb
+|faint|p1a: Conkeldurr
+|
+|
+|switch|p1a: Keldeo|Keldeo|324/324
+|turn|17
+|
+|switch|p2a: Heatran|Heatran, F|284/324
+|-damage|p2a: Heatran|244/324|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Keldeo|Secret Sword|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Air Balloon
+|-damage|p1a: Keldeo|292/324|[from] item: Life Orb
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Weavile|Weavile, M|86/282
+|-damage|p2a: Weavile|16/282|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|18
+|
+|move|p2a: Weavile|Fake Out|p1a: Keldeo
+|-damage|p1a: Keldeo|232/324
+|-damage|p2a: Weavile|0 fnt|[from] item: Life Orb
+|faint|p2a: Weavile
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|dtw's rating: 1449 &rarr; <strong>1462</strong><br />(+13 for winning)
+|raw|spizzzz's rating: 1317 &rarr; <strong>1304</strong><br />(-13 for losing)
+|chat|dtw|gg

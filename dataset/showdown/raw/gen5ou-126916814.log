@@ -1,0 +1,444 @@
+|join|Sir Ryan House
+|join|d007
+|player|p1|Sir Ryan House|110
+|player|p2|d007|93
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Heatran, M, shiny
+|poke|p1|Roserade, F, shiny
+|poke|p1|Celebi
+|poke|p1|Gliscor, M
+|poke|p1|Empoleon, F
+|poke|p1|Sableye, F
+|poke|p2|Tornadus, M
+|poke|p2|Bronzong
+|poke|p2|Mismagius, F
+|poke|p2|Cloyster, F
+|poke|p2|Azelf
+|poke|p2|Volcarona, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Sableye|Sableye, F|304/304
+|switch|p2a: Cloyster|Cloyster, F|304/304
+|turn|1
+|
+|move|p1a: Sableye|Taunt|p2a: Cloyster
+|-start|p2a: Cloyster|move: Taunt
+|move|p2a: Cloyster|Icicle Spear|p1a: Sableye
+|-damage|p1a: Sableye|279/304
+|-damage|p1a: Sableye|255/304
+|-damage|p1a: Sableye|231/304
+|-damage|p1a: Sableye|206/304
+|-damage|p1a: Sableye|182/304
+|-hitcount|p1a: Sableye|5
+|
+|-heal|p1a: Sableye|201/304|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Volcarona|Volcarona, M|373/373
+|move|p1a: Sableye|Will-O-Wisp|p2a: Volcarona
+|-fail|p2a: Volcarona
+|
+|-heal|p1a: Sableye|220/304|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Empoleon|Empoleon, F|372/372
+|move|p2a: Volcarona|Fiery Dance|p1a: Empoleon
+|-damage|p1a: Empoleon|279/372
+|
+|-heal|p1a: Empoleon|302/372|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Bronzong|Bronzong|338/338
+|move|p1a: Empoleon|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: d007|move: Stealth Rock
+|
+|-heal|p1a: Empoleon|325/372|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Roserade|Roserade, F, shiny|262/262
+|move|p2a: Bronzong|Stealth Rock|p1a: Roserade
+|-sidestart|p1: Sir Ryan House|move: Stealth Rock
+|
+|turn|6
+|
+|move|p1a: Roserade|Sleep Powder|p2a: Bronzong
+|-status|p2a: Bronzong|slp
+|cant|p2a: Bronzong|slp
+|
+|turn|7
+|
+|switch|p2a: Azelf|Azelf|291/291
+|-damage|p2a: Azelf|255/291|[from] Stealth Rock
+|move|p1a: Roserade|Toxic Spikes|p2a: Azelf
+|-sidestart|p2: d007|move: Toxic Spikes
+|
+|turn|8
+|
+|switch|p1a: Celebi|Celebi|404/404
+|-damage|p1a: Celebi|354/404|[from] Stealth Rock
+|move|p2a: Azelf|Trick|p1a: Celebi
+|-activate|p2a: Azelf|move: Trick|[of] p1a: Celebi
+|-item|p1a: Celebi|Choice Scarf|[from] move: Trick
+|-item|p2a: Azelf|Choice Scarf|[from] move: Trick
+|
+|turn|9
+|
+|move|p2a: Azelf|U-turn|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|142/404
+|
+|switch|p2a: Bronzong|Bronzong|338/338 slp
+|-damage|p2a: Bronzong|317/338 slp|[from] Stealth Rock
+|move|p1a: Celebi|Giga Drain|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|287/338 slp
+|-heal|p1a: Celebi|157/404|[from] drain|[of] p2a: Bronzong
+|
+|-heal|p2a: Bronzong|308/338 slp|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Sableye|Sableye, F|220/304
+|-damage|p1a: Sableye|182/304|[from] Stealth Rock
+|switch|p2a: Azelf|Azelf|255/291
+|-damage|p2a: Azelf|219/291|[from] Stealth Rock
+|
+|-heal|p1a: Sableye|201/304|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Sableye|Taunt|p2a: Azelf
+|-start|p2a: Azelf|move: Taunt
+|move|p2a: Azelf|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|148/304
+|
+|switch|p2a: Tornadus|Tornadus, M|362/362
+|-damage|p2a: Tornadus|272/362|[from] Stealth Rock
+|
+|-heal|p1a: Sableye|167/304|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Empoleon|Empoleon, F|325/372
+|-damage|p1a: Empoleon|302/372|[from] Stealth Rock
+|move|p2a: Tornadus|Substitute|p2a: Tornadus
+|-start|p2a: Tornadus|Substitute
+|-damage|p2a: Tornadus|182/362
+|
+|-heal|p1a: Empoleon|325/372|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Tornadus|Brick Break|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|177/372
+|move|p1a: Empoleon|Roar|p2a: Tornadus
+|drag|p2a: Cloyster|Cloyster, F|304/304
+|-damage|p2a: Cloyster|228/304|[from] Stealth Rock
+|-status|p2a: Cloyster|psn
+|-enditem|p2a: Cloyster|Lum Berry|[eat]
+|-curestatus|p2a: Cloyster|psn
+|
+|-heal|p1a: Empoleon|200/372|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Cloyster|Toxic Spikes|p1a: Empoleon
+|-sidestart|p1: Sir Ryan House|move: Toxic Spikes
+|move|p1a: Empoleon|Roar|p2a: Cloyster
+|drag|p2a: Tornadus|Tornadus, M|182/362
+|-damage|p2a: Tornadus|92/362|[from] Stealth Rock
+|
+|-heal|p1a: Empoleon|223/372|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Bronzong|Bronzong|308/338 slp
+|-damage|p2a: Bronzong|287/338 slp|[from] Stealth Rock
+|move|p1a: Empoleon|Scald|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|163/338 slp
+|
+|-heal|p1a: Empoleon|246/372|[from] item: Leftovers
+|-heal|p2a: Bronzong|184/338 slp|[from] item: Leftovers
+|turn|16
+|
+|cant|p2a: Bronzong|slp
+|move|p1a: Empoleon|Roar|p2a: Bronzong
+|drag|p2a: Volcarona|Volcarona, M|373/373
+|-damage|p2a: Volcarona|187/373|[from] Stealth Rock
+|-status|p2a: Volcarona|psn
+|
+|-heal|p2a: Volcarona|210/373 psn|[from] item: Leftovers
+|-heal|p1a: Empoleon|269/372|[from] item: Leftovers
+|-damage|p2a: Volcarona|164/373 psn|[from] psn
+|turn|17
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Empoleon
+|-damage|p1a: Empoleon|179/372
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: Empoleon|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: Empoleon|202/372|[from] item: Leftovers
+|
+|switch|p2a: Cloyster|Cloyster, F|228/304
+|-status|p2a: Cloyster|psn
+|-damage|p2a: Cloyster|152/304 psn|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Cloyster|Spikes|p1a: Empoleon
+|-sidestart|p1: Sir Ryan House|Spikes
+|move|p1a: Empoleon|Scald|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|58/304 psn
+|
+|-heal|p1a: Empoleon|225/372|[from] item: Leftovers
+|-damage|p2a: Cloyster|20/304 psn|[from] psn
+|turn|19
+|
+|move|p2a: Cloyster|Rapid Spin|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|217/372
+|-sideend|p2: d007|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Cloyster
+|-sideend|p2: d007|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cloyster
+|move|p1a: Empoleon|Roar|p2a: Cloyster
+|drag|p2a: Tornadus|Tornadus, M|92/362
+|
+|-heal|p1a: Empoleon|240/372|[from] item: Leftovers
+|turn|20
+|
+|switch|p2a: Azelf|Azelf|219/291
+|move|p1a: Empoleon|Scald|p2a: Azelf
+|-damage|p2a: Azelf|75/291
+|
+|-heal|p1a: Empoleon|263/372|[from] item: Leftovers
+|turn|21
+|
+|switch|p1a: Celebi|Celebi|157/404
+|-damage|p1a: Celebi|107/404|[from] Stealth Rock
+|-status|p1a: Celebi|psn
+|-damage|p1a: Celebi|57/404 psn|[from] Spikes
+|move|p2a: Azelf|Trick|p1a: Celebi
+|-activate|p2a: Azelf|move: Trick|[of] p1a: Celebi
+|-item|p1a: Celebi|Choice Scarf|[from] move: Trick
+|-item|p2a: Azelf|Choice Scarf|[from] move: Trick
+|
+|-damage|p1a: Celebi|7/404 psn|[from] psn
+|turn|22
+|
+|move|p2a: Azelf|U-turn|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|switch|p2a: Tornadus|Tornadus, M|92/362
+|
+|
+|switch|p1a: Empoleon|Empoleon, F|263/372
+|-damage|p1a: Empoleon|240/372|[from] Stealth Rock
+|-damage|p1a: Empoleon|194/372|[from] Spikes
+|turn|23
+|
+|switch|p2a: Cloyster|Cloyster, F|20/304 psn
+|move|p1a: Empoleon|Stealth Rock|p2a: Cloyster
+|-sidestart|p2: d007|move: Stealth Rock
+|
+|-heal|p1a: Empoleon|217/372|[from] item: Leftovers
+|-damage|p2a: Cloyster|0 fnt|[from] psn
+|faint|p2a: Cloyster
+|
+|switch|p2a: Azelf|Azelf|75/291
+|-damage|p2a: Azelf|39/291|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Azelf|Trick|p1a: Empoleon
+|-activate|p2a: Azelf|move: Trick|[of] p1a: Empoleon
+|-item|p1a: Empoleon|Choice Scarf|[from] move: Trick
+|-item|p2a: Azelf|Leftovers|[from] move: Trick
+|move|p1a: Empoleon|Scald|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|
+|switch|p2a: Mismagius|Mismagius, F|324/324
+|-damage|p2a: Mismagius|284/324|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|move|p1a: Empoleon|Scald|p2a: Mismagius
+|-damage|p2a: Mismagius|223/324
+|
+|-heal|p2a: Mismagius|243/324|[from] item: Leftovers
+|turn|26
+|
+|switch|p1a: Le jeu commence|Heatran, M, shiny|386/386
+|-damage|p1a: Le jeu commence|338/386|[from] Spikes
+|-damage|p1a: Le jeu commence|290/386|[from] Stealth Rock
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|162/324
+|
+|-heal|p2a: Mismagius|182/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|314/386|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Mismagius|Thunderbolt|p1a: Le jeu commence
+|-damage|p1a: Le jeu commence|226/386
+|move|p1a: Le jeu commence|Torment|p2a: Mismagius
+|-start|p2a: Mismagius|Torment
+|
+|-heal|p2a: Mismagius|202/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|250/386|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|move|p1a: Le jeu commence|Substitute|p1a: Le jeu commence
+|-start|p1a: Le jeu commence|Substitute
+|-damage|p1a: Le jeu commence|154/386
+|
+|-heal|p2a: Mismagius|222/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|178/386|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Le jeu commence|Protect|p1a: Le jeu commence
+|-singleturn|p1a: Le jeu commence|Protect
+|move|p2a: Mismagius|Thunderbolt|p1a: Le jeu commence
+|-activate|p1a: Le jeu commence|Protect
+|
+|-heal|p2a: Mismagius|242/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|202/386|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|move|p1a: Le jeu commence|Lava Plume|p2a: Mismagius
+|-activate|p2a: Mismagius|Substitute|[damage]
+|
+|-heal|p2a: Mismagius|262/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|226/386|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Le jeu commence|Protect|p1a: Le jeu commence
+|-singleturn|p1a: Le jeu commence|Protect
+|move|p2a: Mismagius|Shadow Ball|p1a: Le jeu commence
+|-activate|p1a: Le jeu commence|Protect
+|
+|-heal|p2a: Mismagius|282/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|250/386|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Mismagius|Thunderbolt|p1a: Le jeu commence
+|-end|p1a: Le jeu commence|Substitute
+|move|p1a: Le jeu commence|Lava Plume|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-heal|p2a: Mismagius|302/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|274/386|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|221/324
+|move|p1a: Le jeu commence|Lava Plume|p2a: Mismagius
+|-activate|p2a: Mismagius|Substitute|[damage]
+|
+|-heal|p2a: Mismagius|241/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|298/386|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: Le jeu commence|Protect|p1a: Le jeu commence
+|-singleturn|p1a: Le jeu commence|Protect
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|
+|-heal|p2a: Mismagius|261/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|322/386|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Mismagius|Thunderbolt|p1a: Le jeu commence
+|-damage|p1a: Le jeu commence|142/386
+|move|p1a: Le jeu commence|Substitute|p1a: Le jeu commence
+|-start|p1a: Le jeu commence|Substitute
+|-damage|p1a: Le jeu commence|46/386
+|
+|-heal|p2a: Mismagius|281/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|70/386|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|move|p1a: Le jeu commence|Lava Plume|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-heal|p2a: Mismagius|301/324|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|94/386|[from] item: Leftovers
+|turn|37
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Le jeu commence
+|-resisted|p1a: Le jeu commence
+|-end|p1a: Le jeu commence|Substitute
+|move|p1a: Le jeu commence|Lava Plume|p2a: Mismagius
+|-damage|p2a: Mismagius|265/324
+|-status|p2a: Mismagius|brn
+|
+|-heal|p2a: Mismagius|285/324 brn|[from] item: Leftovers
+|-heal|p1a: Le jeu commence|118/386|[from] item: Leftovers
+|-damage|p2a: Mismagius|245/324 brn|[from] brn
+|turn|38
+|
+|switch|p1a: Gliscor|Gliscor, M|352/352
+|-damage|p1a: Gliscor|308/352|[from] Stealth Rock
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|
+|-heal|p2a: Mismagius|265/324 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|225/324 brn|[from] brn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|turn|39
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Mismagius|Shadow Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-heal|p2a: Mismagius|245/324 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|205/324 brn|[from] brn
+|-heal|p1a: Gliscor|352/352 tox|[from] ability: Poison Heal
+|turn|40
+|
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-fail|p2a: Mismagius
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|264/352 tox
+|
+|-heal|p2a: Mismagius|225/324 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|185/324 brn|[from] brn
+|-heal|p1a: Gliscor|308/352 tox|[from] ability: Poison Heal
+|turn|41
+|-message|d007 forfeited.
+|
+|win|Sir Ryan House
+|raw|Ladder updating...
+|raw|Sir Ryan House's rating: 1367 &rarr; <strong>1383</strong><br />(+16 for winning)
+|raw|d007's rating: 1311 &rarr; <strong>1294</strong><br />(-17 for losing)
+|leave|d007
+|player|p2

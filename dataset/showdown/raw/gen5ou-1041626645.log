@@ -1,0 +1,215 @@
+|j|☆sankafola
+|j|☆FiestaFord
+|player|p1|sankafola|juan|1495
+|player|p2|FiestaFord|lucas|1639
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Alakazam, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FiestaFord)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: sankafola|move: Stealth Rock
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Landorus
+|-sidestart|p2: FiestaFord|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: FiestaFord|Spikes
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: FiestaFord|Spikes
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: sankafola|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: FiestaFord|Spikes
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|cant|p2a: Ferrothorn|par
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Spikes
+|-damage|p1a: Politoed|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ferrothorn|Power Whip|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-damage|p2a: Tyranitar|63/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|45/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Thundurus|p2a: Tyranitar
+|move|p2a: Tyranitar|Crunch|p1a: Thundurus
+|-end|p1a: Thundurus|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|39/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Thundurus|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Thundurus
+|-damage|p1a: Thundurus|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|0 fnt|[from] Sandstorm
+|faint|p1a: Thundurus
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|turn|10
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|68/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|57/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100 par|[from]move: U-turn
+|-damage|p2a: Ferrothorn|75/100 par|[from] Spikes
+|-damage|p2a: Ferrothorn|69/100 par|[from] Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn|[miss]
+|-miss|p1a: Rotom|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|50/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|88/100|[from] Spikes
+|-damage|p1a: Toxicroak|82/100|[from] Stealth Rock
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|76/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|-damage|p2a: Jellicent|63/100|[from] Spikes
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|70/100|[from] Sandstorm
+|-damage|p2a: Jellicent|57/100|[from] Sandstorm
+|-heal|p2a: Jellicent|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Toxicroak
+|-status|p1a: Toxicroak|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|63/100 brn|[from] Sandstorm
+|-damage|p2a: Jellicent|57/100|[from] Sandstorm
+|-heal|p2a: Jellicent|63/100|[from] item: Leftovers
+|-damage|p1a: Toxicroak|51/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|sankafola forfeited.
+|
+|win|FiestaFord
+|l|☆sankafola
+|raw|sankafola's rating: 1495 &rarr; <strong>1483</strong><br />(-12 for losing)
+|raw|FiestaFord's rating: 1640 &rarr; <strong>1652</strong><br />(+12 for winning)

@@ -1,0 +1,430 @@
+|j|Stads
+|j|Manson Hart
+|player|p1|Stads|1
+|player|p2|Manson Hart|89
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Politoed|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|choice||
+|
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Stads|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|turn|3
+|choice||
+|
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|choice||
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|turn|4
+|choice||
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Manson Hart|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|-damage|p1a: Landorus|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100|[silent]
+|turn|5
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|-damage|p2a: Ferrothorn|87/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|turn|6
+|choice||
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Stads|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Manson Hart|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|turn|7
+|choice||
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Stads|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Manson Hart|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|turn|8
+|choice||
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Stads|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Manson Hart|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|choice||
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|63/100|[from] Spikes
+|move|p1a: Ferrothorn|Power Whip|p2a: Tentacruel
+|-damage|p2a: Tentacruel|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|7/100|[from] item: Black Sludge
+|turn|10
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|75/100|[from] Spikes
+|-damage|p2a: Ferrothorn|69/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn|[miss]
+|-miss|p1a: Ferrothorn|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|turn|11
+|choice||
+|
+|switch|p1a: Landorus|Landorus-Therian, M|82/100
+|-damage|p1a: Landorus|70/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Landorus
+|-damage|p1a: Landorus|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|56/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|turn|12
+|choice||
+|
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|62/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|-damage|p1a: Landorus|49/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|72/100|[silent]
+|turn|13
+|choice||
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|63/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|turn|14
+|choice||
+|
+|switch|p2a: Tentacruel|Tentacruel, F|7/100
+|-damage|p2a: Tentacruel|0 fnt|[from] Stealth Rock
+|faint|p2a: Tentacruel
+|move|p1a: Thundurus|Thunder|p2: Tentacruel|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|69/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|15
+|choice||
+|
+|move|p2a: Alakazam|Psychic|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|turn|16
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|78/100
+|-damage|p2a: Ferrothorn|72/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|47/100|[from] Spikes
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|-damage|p1a: Scizor|51/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|turn|17
+|choice||
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|76/100|[from] Spikes
+|-damage|p1a: Tentacruel|63/100|[from] Stealth Rock
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|76/100|[from] Spikes
+|-damage|p2a: Terrakion|70/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|69/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|turn|18
+|choice||
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Tentacruel
+|-damage|p1a: Tentacruel|2/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|68/100
+|-sideend|p1: Stads|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: Stads|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|8/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|14/100|[from] item: Black Sludge
+|turn|19
+|choice||
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Terrakion|Stone Edge|p1a: Tentacruel
+|-activate|p1a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|20/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|26/100|[from] item: Black Sludge
+|turn|20
+|choice||
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|21
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|39/100
+|-damage|p2a: Ferrothorn|33/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|8/100|[from] Spikes
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|8/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|turn|22
+|choice||
+|
+|switch|p1a: Landorus|Landorus-Therian, M|49/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Stads|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|55/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|15/100|[from] item: Leftovers
+|turn|23
+|choice||
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|61/100|[from] item: Leftovers
+|turn|24
+|choice||
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Landorus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|67/100|[from] item: Leftovers
+|turn|25
+|choice||
+|
+|move|p2a: Landorus|Stone Edge|p1a: Landorus|[miss]
+|-miss|p2a: Landorus|p1a: Landorus
+|move|p1a: Landorus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|73/100|[from] item: Leftovers
+|c|★Manson Hart|good hax
+|c|★Manson Hart|...
+|choice||
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|26
+|c|★Stads|LOLOL
+|c|★Stads|after the crits on toed
+|c|★Stads|you bitch
+|c|★Stads|A_
+|choice||
+|
+|move|p2a: Alakazam|Psychic|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|94/100
+|-damage|p1a: Ferrothorn|88/100|[from] Stealth Rock
+|turn|27
+|choice||
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|14/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Terrakion|Terrakion|68/100
+|-damage|p2a: Terrakion|43/100|[from] Spikes
+|-damage|p2a: Terrakion|37/100|[from] Stealth Rock
+|turn|28
+|choice||
+|
+|move|p2a: Terrakion|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Terrakion|24/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Scizor|Scizor, M|51/100
+|-damage|p1a: Scizor|39/100|[from] Stealth Rock
+|turn|29
+|choice||
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|30
+|choice||
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Hydreigon
+|-damage|p2a: Hydreigon|29/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Scizor
+|
+|win|Manson Hart
+|player|p1
+|player|p2
+|raw|Stads's rating: 1369 &rarr; <strong>1345</strong><br />(-24 for losing)
+|raw|Manson Hart's rating: 1298 &rarr; <strong>1328</strong><br />(+30 for winning)
+|c|★Manson Hart|z
+|l|Stads
+|c|★Manson Hart|ez

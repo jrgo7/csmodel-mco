@@ -1,0 +1,220 @@
+|j|DireMiralis
+|j|ariel917
+|player|p1|DireMiralis|201
+|player|p2|ariel917|283
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Breloom, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Salamence, M|item
+|poke|p1|Garchomp, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Starmie|item
+|poke|p2|Scizor, F|item
+|poke|p2|Breloom, M|item
+|poke|p2|Garchomp, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|choice||
+|
+|move|p1a: Azelf|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Yache Berry|[eat]
+|-damage|p2a: Garchomp|50/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Azelf
+|-sidestart|p1: DireMiralis|move: Stealth Rock
+|
+|turn|2
+|choice||
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Azelf|Hidden Power|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+|
+|turn|3
+|choice||
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Azelf
+|-damage|p1a: Azelf|31/100
+|-damage|p2a: Scizor|77/100|[from] item: Life Orb
+|move|p1a: Azelf|Fire Blast|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|4
+|choice||
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|choice||
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|5
+|choice||
+|
+|switch|p2a: Garchomp|Garchomp, M|50/100
+|move|p1a: Garchomp|Outrage|p2a: Garchomp
+|-enditem|p1a: Garchomp|Dragon Gem|[from] gem|[move] Outrage
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|82/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|choice||
+|
+|switch|p2a: Starmie|Starmie|100/100
+|turn|6
+|choice||
+|
+|move|p2a: Starmie|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Starmie|91/100|[from] item: Life Orb
+|faint|p1a: Garchomp
+|
+|choice||
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|7
+|choice||
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Scizor|Acrobatics|p2a: Volcarona
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-supereffective|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|choice||
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|8
+|choice||
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Breloom
+|-damage|p2a: Breloom|45/100
+|move|p2a: Breloom|Spore|p1a: Scizor
+|-status|p1a: Scizor|slp
+|
+|turn|9
+|choice||
+|
+|cant|p1a: Scizor|slp
+|move|p2a: Breloom|Low Sweep|p1a: Scizor
+|-damage|p1a: Scizor|29/100 slp
+|-unboost|p1a: Scizor|spe|1
+|
+|turn|10
+|choice||
+|
+|-curestatus|p1a: Scizor|slp
+|move|p1a: Scizor|Bullet Punch|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|choice||
+|
+|switch|p2a: Starmie|Starmie|91/100
+|turn|11
+|choice||
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|65/100
+|move|p2a: Starmie|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Starmie|55/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|choice||
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|12
+|choice||
+|
+|move|p1a: Breloom|Mach Punch|p2a: Starmie
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Mach Punch
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|15/100
+|move|p2a: Starmie|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-damage|p2a: Starmie|5/100|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|choice||
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|13
+|choice||
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|14
+|choice||
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Dragonite
+|-damage|p2a: Dragonite|83/100
+|move|p2a: Dragonite|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|choice||
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|15
+|choice||
+|
+|move|p1a: Salamence|Outrage|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|win|DireMiralis
+|player|p1
+|player|p2
+|raw|DireMiralis's rating: 1407 &rarr; <strong>1426</strong><br />(+19 for winning)
+|raw|ariel917's rating: 1383 &rarr; <strong>1364</strong><br />(-19 for losing)

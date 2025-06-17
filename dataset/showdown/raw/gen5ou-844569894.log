@@ -1,0 +1,524 @@
+|j|☆porrompompom
+|j|☆refsunpersons
+|player|p1|porrompompom|10
+|player|p2|refsunpersons|151
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Virizion|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Slowking, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Starmie|item
+|poke|p2|Heatran, F|item
+|poke|p2|Weavile, M|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Virizion|Virizion|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Latios|Draco Meteor|p1a: Virizion
+|-damage|p1a: Virizion|40/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|
+|-heal|p1a: Virizion|46/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| fire festival
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Virizion|atk|1
+|move|p1a: Virizion|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|6/100
+|-heal|p1a: Virizion|93/100|[from] drain|[of] p2a: Landorus
+|
+|-heal|p1a: Virizion|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Landorus|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|83/100
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|
+|-heal|p1a: Excadrill|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|78/100
+|-activate|p1a: Slowking|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Slowking|84/100|[from] item: Leftovers
+|-damage|p1a: Slowking|78/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|move|p2a: Heatran|Sunny Day|p2a: Heatran
+|-weather|SunnyDay
+|move|p1a: Slowking|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|84/100|[from] item: Leftovers
+|-damage|p1a: Slowking|78/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|move|p1a: Slowking|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|76/100 par
+|-enditem|p2a: Heatran|Air Balloon
+|cant|p2a: Heatran|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|84/100|[from] item: Leftovers
+|-damage|p1a: Slowking|78/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|move|p1a: Slowking|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|51/100 par
+|move|p2a: Heatran|Solar Beam||[still]
+|-prepare|p2a: Heatran|Solar Beam|p1a: Slowking
+|-anim|p2a: Heatran|Solar Beam|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|24/100|[from] item: Leftovers
+|-damage|p1a: Slowking|18/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|11
+|j| H.M.N.I.P
+|
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|68/100
+|move|p2a: Heatran|Solar Beam||[still]
+|-prepare|p2a: Heatran|Solar Beam|p1a: Slowking
+|-anim|p2a: Heatran|Solar Beam|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|21/100|[from] item: Leftovers
+|-damage|p1a: Slowking|15/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|65/100
+|
+|-weather|none
+|-heal|p1a: Slowking|71/100|[from] item: Leftovers
+|-end|p1a: Slowking|Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|move|p1a: Slowking|Protect|p1a: Slowking
+|-singleturn|p1a: Slowking|Protect
+|move|p2a: Weavile|Night Slash|p1a: Slowking
+|-activate|p1a: Slowking|move: Protect
+|
+|-heal|p1a: Slowking|77/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Weavile|Pursuit|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|33/100
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|move|p1a: Slowking|Thunder Wave|p2a: Weavile
+|-status|p2a: Weavile|par
+|
+|-heal|p1a: Slowking|39/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Slowking|Protect|p1a: Slowking
+|-singleturn|p1a: Slowking|Protect
+|move|p2a: Weavile|Night Slash|p1a: Slowking
+|-activate|p1a: Slowking|move: Protect
+|
+|-heal|p1a: Slowking|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|-activate|p1a: Slowking|move: Pursuit
+|move|p2a: Weavile|Pursuit|p1a: Slowking|[from]Pursuit
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-damage|p2a: Weavile|81/100 par|[from] item: Life Orb
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|89/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|17
+|
+|switch|p2a: Landorus|Landorus-Therian, M|6/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Stealth Rock|p2a: Landorus
+|-sidestart|p2: refsunpersons|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Landorus|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Starmie
+|-damage|p2a: Starmie|83/100
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p2a: Starmie|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Starmie|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|99/100
+|-sideend|p2: refsunpersons|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|83/100|[from] Sandstorm
+|-heal|p2a: Starmie|89/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Starmie|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|60/100
+|-status|p1a: Tyranitar|brn
+|move|p1a: Tyranitar|Pursuit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|41/100|[from] Sandstorm
+|-heal|p2a: Starmie|47/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|48/100 brn|[from] brn
+|upkeep
+|turn|22
+|c|☆porrompompom|s i g h
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|98/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|92/100|[from] Sandstorm
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p2a: Starmie|98/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Heatran|Heatran, F|51/100 par
+|move|p1a: Latios|Draco Meteor|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, M|81/100 par
+|-ability|p2a: Weavile|Pressure
+|turn|24
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Weavile|Ice Shard|p1a: Excadrill
+|-damage|p1a: Excadrill|70/100
+|-damage|p2a: Weavile|71/100 par|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|65/100 par|[from] Sandstorm
+|-heal|p1a: Excadrill|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Excadrill|Earthquake|p2a: Weavile
+|-crit|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|6/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|turn|26
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Landorus|Earthquake|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Latios|Latios, M|100/100
+|switch|p1a: Latios|Latios, M|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|-damage|p1a: Latios|83/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Excadrill|Excadrill, M|88/100
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: refsunpersons|move: Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|52/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|j| lugia951
+|
+|switch|p1a: Virizion|Virizion|99/100
+|move|p2a: Ferrothorn|Spikes|p1a: Virizion
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|93/100|[from] Sandstorm
+|-heal|p1a: Virizion|99/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|l| lugia951
+|
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Virizion
+|-damage|p1a: Virizion|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|18/100|[from] Sandstorm
+|-heal|p1a: Virizion|25/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Landorus|Landorus-Therian, M|6/100
+|-damage|p2a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p2a: Landorus
+|move|p1a: Virizion|Hidden Power|p2: Landorus|[notarget]
+|-fail|p1a: Virizion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|18/100|[from] Sandstorm
+|-heal|p1a: Virizion|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|98/100
+|-damage|p2a: Starmie|85/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Starmie|Psyshock|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|79/100|[from] Sandstorm
+|-heal|p2a: Starmie|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|83/100
+|turn|34
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn|[miss]
+|-miss|p1a: Latios|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|77/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Excadrill|Excadrill, M|52/100
+|-damage|p1a: Excadrill|40/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|48/100 brn
+|-damage|p1a: Tyranitar|35/100 brn|[from] Spikes
+|turn|36
+|
+|switch|p2a: Starmie|Starmie|85/100
+|-damage|p2a: Starmie|73/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Superpower|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|52/100
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|46/100|[from] Sandstorm
+|-heal|p2a: Starmie|52/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|23/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p1a: Latios|Latios, M|77/100
+|move|p2a: Starmie|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|46/100|[from] Sandstorm
+|-damage|p1a: Latios|56/100|[from] Sandstorm
+|-heal|p2a: Starmie|52/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|50/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|j| GimmicK1
+|
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|38/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|23/100 brn
+|-damage|p1a: Tyranitar|10/100 brn|[from] Spikes
+|turn|40
+|c|☆porrompompom|“g”g
+|c|☆refsunpersons|gg wp
+|c|☆refsunpersons|TAKE ♂ IT ♂ BOY
+|
+|move|p1a: Tyranitar|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Tyranitar|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Tyranitar
+|-formechange|p1a: Tyranitar|Tyranitar||[from] ability: Iron Barbs
+|faint|p2a: Ferrothorn
+|-formechange|p2a: Ferrothorn|Ferrothorn||[from] ability: Iron Barbs
+|
+|win|refsunpersons
+|l|☆porrompompom
+|l|☆refsunpersons
+|j|☆refsunpersons
+|raw|porrompompom's rating: 1539 &rarr; <strong>1509</strong><br />(-30 for losing)
+|raw|refsunpersons's rating: 1341 &rarr; <strong>1371</strong><br />(+30 for winning)
+|l| fire festival
+|l|☆refsunpersons
+|l| GimmicK1
+|j|☆refsunpersons

@@ -1,0 +1,326 @@
+|j|☆porrompompom
+|j|☆massivedestruction
+|player|p1|porrompompom|266
+|player|p2|massivedestruction|49
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Donphan, M|item
+|poke|p1|Xatu, F|item
+|poke|p1|Terrakion|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|
+|move|p2a: Latios|Draco Meteor|p1a: Donphan
+|-ability|p1a: Donphan|Sturdy
+|-damage|p1a: Donphan|1/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Donphan|Stealth Rock|p2a: Latios
+|-sidestart|p2: massivedestruction|move: Stealth Rock
+|
+|-heal|p1a: Donphan|7/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Donphan|Ice Shard|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|86/100
+|
+|-heal|p1a: Donphan|13/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Xatu
+|-damage|p1a: Xatu|44/100
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Xatu|Reflect|p1a: Xatu
+|-sidestart|p1: porrompompom|Reflect
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Donphan|Donphan, M|13/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Terrakion|atk|1
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Landorus|U-turn|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-crit|p1a: Terrakion
+|-damage|p1a: Terrakion|70/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|99/100
+|-damage|p2a: Ferrothorn|93/100|[from] Stealth Rock
+|move|p1a: Terrakion|Stone Edge|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|-damage|p1a: Terrakion|60/100|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Terrakion|Close Combat|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Terrakion|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Terrakion|48/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-damage|p1a: Terrakion|38/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Xatu|Xatu, F|44/100
+|move|p2a: Latios|Surf|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Outrage|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-sideend|p1: porrompompom|Reflect
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|12
+|
+|move|p1a: Dragonite|Outrage|p2a: Tyranitar|[from]lockedmove
+|-damage|p2a: Tyranitar|31/100
+|-start|p1a: Dragonite|confusion|[fatigue]
+|move|p2a: Tyranitar|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|94/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|-activate|p1a: Dragonite|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Dragonite|[from]Pursuit
+|-damage|p1a: Dragonite|52/100
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Hydreigon|Hydreigon, M|88/100
+|-damage|p2a: Hydreigon|76/100|[from] Stealth Rock
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Hydreigon|[miss]
+|-miss|p1a: Ninetales|p2a: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ninetales
+|-damage|p1a: Ninetales|24/100
+|move|p1a: Ninetales|Hypnosis|p2a: Hydreigon
+|-status|p2a: Hydreigon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|30/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|switch|p1a: Terrakion|Terrakion|38/100
+|-damage|p1a: Terrakion|32/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Reuniclus
+|-damage|p2a: Reuniclus|56/100
+|-damage|p1a: Terrakion|22/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Psyshock|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reuniclus|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Reuniclus|Psyshock|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reuniclus|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, F|30/100
+|-damage|p1a: Ninetales|5/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Reuniclus
+|-damage|p2a: Reuniclus|32/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|11/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Reuniclus
+|-damage|p2a: Reuniclus|52/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|17/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|59/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Reuniclus
+|-damage|p2a: Reuniclus|34/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|23/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|20/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|29/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|76/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Reuniclus
+|-damage|p2a: Reuniclus|51/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|35/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Reuniclus
+|-damage|p2a: Reuniclus|75/100
+|move|p2a: Reuniclus|Psyshock|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reuniclus|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F|52/100
+|-damage|p1a: Dragonite|27/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Reuniclus
+|-damage|p2a: Reuniclus|46/100
+|move|p2a: Reuniclus|Psyshock|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|massivedestruction
+|c|☆massivedestruction|gg
+|raw|porrompompom's rating: 1520 &rarr; <strong>1495</strong><br />(-25 for losing)
+|raw|massivedestruction's rating: 1424 &rarr; <strong>1450</strong><br />(+26 for winning)

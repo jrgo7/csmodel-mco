@@ -1,0 +1,357 @@
+|j|☆emzzf
+|j|☆vusty fans3
+|player|p1|emzzf|184
+|player|p2|vusty fans3|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dragonite, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Starmie|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Magnezone|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Tyranitar, M|item
+|teampreview
+|c|☆emzzf|你好
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|1
+|
+|move|p1a: Garchomp|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|49/100
+|move|p2a: Amoonguss|Spore|p1a: Garchomp
+|-status|p1a: Garchomp|slp|[from] move: Spore
+|
+|-heal|p2a: Amoonguss|55/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p1a: Kyurem|Outrage|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|4
+|
+|move|p1a: Kyurem|Outrage|p2a: Skarmory|[from]lockedmove
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|54/100
+|-damage|p1a: Kyurem|72/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Spikes|p1a: Kyurem
+|-sidestart|p1: emzzf|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|65/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p1a: Kyurem|Outrage|p2a: Skarmory|[from]lockedmove
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|8/100
+|-damage|p1a: Kyurem|49/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-start|p1a: Kyurem|confusion|[fatigue]
+|move|p2a: Skarmory|Spikes|p1a: Kyurem
+|-sidestart|p1: emzzf|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|43/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p1a: 我觉得海星|Starmie|100/100
+|-damage|p1a: 我觉得海星|84/100|[from] Spikes
+|move|p2a: Skarmory|Whirlwind|p1a: 我觉得海星
+|drag|p1a: 铁头娃|Jirachi|100/100
+|-damage|p1a: 铁头娃|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: 铁头娃|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: vusty fans3|move: Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|58/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: 铁头娃|Thunder|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100 slp
+|-damage|p1a: Garchomp|84/100 slp|[from] Spikes
+|move|p2a: Mienshao|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|59/100 slp
+|-damage|p2a: Mienshao|82/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from]move: U-turn
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|cant|p1a: Garchomp|slp
+|move|p2a: Gliscor|Ice Fang|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|7/100 slp
+|-damage|p2a: Gliscor|75/100 tox|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|cant|p1a: Garchomp|slp
+|move|p2a: Gliscor|Ice Fang|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Gliscor|75/100 tox|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: 肥大的小神龙|Dragonite, F, shiny|100/100
+|turn|12
+|
+|move|p2a: Gliscor|Taunt|p1a: 肥大的小神龙
+|-start|p1a: 肥大的小神龙|move: Taunt
+|cant|p1a: 肥大的小神龙|move: Taunt|Dragon Dance
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 肥大的小神龙|94/100|[from] Sandstorm
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|switch|p1a: 我觉得海星|Starmie|84/100
+|-damage|p1a: 我觉得海星|68/100|[from] Spikes
+|move|p2a: Gliscor|Ice Fang|p1a: 我觉得海星
+|-resisted|p1a: 我觉得海星
+|-damage|p1a: 我觉得海星|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 我觉得海星|51/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: 我觉得海星|Rapid Spin|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 我觉得海星|45/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|move|p1a: 我觉得海星|Ice Beam|p2a: Mienshao
+|-damage|p2a: Mienshao|2/100
+|-status|p2a: Mienshao|frz
+|-damage|p1a: 我觉得海星|35/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|0 fnt|[from] Sandstorm
+|-damage|p1a: 我觉得海星|28/100|[from] Sandstorm
+|faint|p2a: Mienshao
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|16
+|
+|move|p2a: Alakazam|Signal Beam|p1a: 我觉得海星
+|-supereffective|p1a: 我觉得海星
+|-damage|p1a: 我觉得海星|0 fnt
+|faint|p1a: 我觉得海星
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: 肥大的小神龙|Dragonite, F, shiny|94/100
+|turn|17
+|
+|move|p2a: Alakazam|Psychic|p1a: 肥大的小神龙
+|-damage|p1a: 肥大的小神龙|41/100
+|move|p1a: 肥大的小神龙|Outrage|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 肥大的小神龙|35/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p2a: Alakazam|Psychic|p1a: 肥大的小神龙
+|-damage|p1a: 肥大的小神龙|0 fnt
+|faint|p1a: 肥大的小神龙
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|l|☆emzzf
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vusty fans3)
+|inactive|emzzf has 30 seconds to reconnect!
+|inactive|emzzf has 20 seconds to reconnect!
+|j|☆emzzf
+|inactive|emzzf reconnected and has 110 seconds left.
+|player|p1|emzzf|184
+|
+|switch|p1a: 铁头娃|Jirachi|84/100
+|-damage|p1a: 铁头娃|67/100|[from] Spikes
+|turn|19
+|
+|switch|p2a: Amoonguss|Amoonguss, M|88/100
+|-damage|p2a: Amoonguss|76/100|[from] Stealth Rock
+|move|p1a: 铁头娃|Icy Wind|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|53/100
+|-unboost|p2a: Amoonguss|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|47/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|53/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: 铁头娃|Iron Head|p2a: Amoonguss
+|-damage|p2a: Amoonguss|25/100
+|move|p2a: Amoonguss|Spore|p1a: 铁头娃
+|-status|p1a: 铁头娃|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|19/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|25/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|cant|p1a: 铁头娃|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|move|p2a: Gliscor|Earthquake|p1a: 铁头娃
+|-supereffective|p1a: 铁头娃
+|-enditem|p1a: 铁头娃|Shuca Berry|[eat]
+|-enditem|p1a: 铁头娃|Shuca Berry|[weaken]
+|-damage|p1a: 铁头娃|33/100 slp
+|cant|p1a: 铁头娃|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Gliscor|Earthquake|p1a: 铁头娃
+|-supereffective|p1a: 铁头娃
+|-damage|p1a: 铁头娃|0 fnt
+|faint|p1a: 铁头娃
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|43/100
+|-damage|p1a: Kyurem|26/100|[from] Spikes
+|-ability|p1a: Kyurem|Teravolt
+|turn|24
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kyurem|Outrage|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|20/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|switch|p2a: Amoonguss|Amoonguss, M|59/100
+|-damage|p2a: Amoonguss|46/100|[from] Stealth Rock
+|move|p1a: Kyurem|Outrage|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|14/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|1/100
+|turn|26
+|
+|move|p2a: Alakazam|Psychic|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|84/100|[from] Spikes
+|turn|27
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|win|vusty fans3
+|raw|emzzf's rating: 1338 &rarr; <strong>1315</strong><br />(-23 for losing)
+|raw|vusty fans3's rating: 1288 &rarr; <strong>1317</strong><br />(+29 for winning)
+|c|☆vusty fans3|gg
+|l|☆emzzf

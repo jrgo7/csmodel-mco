@@ -1,0 +1,430 @@
+|j|☆refsunpersons
+|j|☆Spiritmonger
+|player|p1|refsunpersons|214
+|player|p2|Spiritmonger|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Breloom, F|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Salamence, F|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Toxicroak, F|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spiritmonger)
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: 牛蛙君|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: 牛蛙君
+|turn|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jellicent|atk|1
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Landorus|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|move|p2a: Landorus|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|83/100
+|
+|switch|p2a: 牛蛙君|Politoed, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: 牛蛙君|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|59/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: 基拉祈|Jirachi|100/100
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Spiritmonger|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Landorus|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Jellicent|Jellicent, M|59/100
+|move|p2a: Landorus|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|53/100
+|
+|switch|p2a: 牛蛙君|Politoed, M|100/100
+|-damage|p2a: 牛蛙君|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: 牛蛙君
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|59/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: 牛蛙君|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|11/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: 牛蛙君|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 牛蛙君|82/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|-activate|p2a: 牛蛙君|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: 牛蛙君|[from]Pursuit
+|-damage|p2a: 牛蛙君|33/100
+|switch|p2a: Landorus|Landorus-Therian, M|76/100 brn
+|-damage|p2a: Landorus|64/100 brn|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Landorus|52/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Breloom|Breloom, F|83/100 tox
+|move|p2a: Landorus|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|66/100 tox
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|70/100|[from] Sandstorm
+|-damage|p1a: Breloom|60/100 tox|[from] Sandstorm
+|-heal|p2a: Thundurus|76/100|[from] item: Leftovers
+|-heal|p1a: Breloom|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|11/100 tox
+|move|p1a: Breloom|Spore|p2a: Thundurus
+|-status|p2a: Thundurus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|70/100 slp|[from] Sandstorm
+|-damage|p1a: Breloom|5/100 tox|[from] Sandstorm
+|-heal|p2a: Thundurus|76/100 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|18/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|switch|p2a: 毒骷蛙|Toxicroak, F|100/100
+|-damage|p2a: 毒骷蛙|94/100|[from] Stealth Rock
+|switch|p1a: Tyranitar|Tyranitar, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: 毒骷蛙|88/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p2a: 基拉祈|Jirachi|100/100
+|-damage|p2a: 基拉祈|94/100|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, M|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|61/100|[from] Sandstorm
+|-heal|p2a: 基拉祈|100/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|67/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: 基拉祈|Calm Mind|p2a: 基拉祈
+|-boost|p2a: 基拉祈|spa|1
+|-boost|p2a: 基拉祈|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Landorus|Landorus-Therian, M|52/100 brn
+|-damage|p2a: Landorus|39/100 brn|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Landorus|27/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Landorus|15/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p2a: 牛蛙君|Politoed, M|33/100
+|-damage|p2a: 牛蛙君|21/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: 牛蛙君
+|move|p1a: Skarmory|Spikes|p2a: 牛蛙君
+|-sidestart|p2: Spiritmonger|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p1a: Breloom|Breloom, F|18/100 tox
+|move|p2a: 牛蛙君|Surf|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|67/100
+|turn|19
+|
+|switch|p2a: 基拉祈|Jirachi|100/100
+|-damage|p2a: 基拉祈|88/100|[from] Spikes
+|-damage|p2a: 基拉祈|82/100|[from] Stealth Rock
+|move|p1a: Jellicent|Scald|p2a: 基拉祈
+|-damage|p2a: 基拉祈|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: 基拉祈|57/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|73/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Tyranitar|Tyranitar, M|76/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: 基拉祈|Calm Mind|p2a: 基拉祈
+|-boost|p2a: 基拉祈|spa|1
+|-boost|p2a: 基拉祈|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 基拉祈|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: 基拉祈|Water Pulse|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|move|p1a: Tyranitar|Crunch|p2a: 基拉祈
+|-damage|p2a: 基拉祈|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 基拉祈|36/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: 基拉祈|Water Pulse|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|37/100
+|move|p1a: Tyranitar|Crunch|p2a: 基拉祈
+|-damage|p2a: 基拉祈|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 基拉祈|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: 基拉祈|Thunder|p1a: Tyranitar
+|-damage|p1a: Tyranitar|21/100
+|-status|p1a: Tyranitar|par
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 基拉祈|15/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: 基拉祈|Water Pulse|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|3/100 par
+|-start|p1a: Tyranitar|confusion
+|-activate|p1a: Tyranitar|confusion
+|-damage|p1a: Tyranitar|0 fnt|[from] confusion
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 基拉祈|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|turn|25
+|
+|switch|p2a: 牛蛙君|Politoed, M|21/100
+|-damage|p2a: 牛蛙君|9/100|[from] Stealth Rock
+|-damage|p2a: 牛蛙君|0 fnt|[from] Spikes
+|faint|p2a: 牛蛙君
+|move|p1a: Excadrill|Earthquake|p2: 牛蛙君|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|15/100 brn
+|-damage|p2a: Landorus|3/100 brn|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|turn|26
+|
+|switch|p1a: Jellicent|Jellicent, M|73/100
+|move|p2a: Landorus|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|42/100|[from] Sandstorm
+|-heal|p1a: Jellicent|48/100|[from] item: Leftovers
+|-damage|p2a: Landorus|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Landorus
+|
+|switch|p2a: 坚果哑铃|Ferrothorn, F|100/100
+|-damage|p2a: 坚果哑铃|88/100|[from] Spikes
+|-damage|p2a: 坚果哑铃|82/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: 坚果哑铃|[miss]
+|-miss|p1a: Jellicent|p2a: 坚果哑铃
+|move|p2a: 坚果哑铃|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 坚果哑铃|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|turn|28
+|
+|move|p1a: Excadrill|Earthquake|p2a: 坚果哑铃
+|-damage|p2a: 坚果哑铃|32/100
+|move|p2a: 坚果哑铃|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: 坚果哑铃|39/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: 基拉祈|Jirachi|21/100
+|-damage|p2a: 基拉祈|9/100|[from] Spikes
+|-damage|p2a: 基拉祈|3/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: 基拉祈
+|-supereffective|p2a: 基拉祈
+|-damage|p2a: 基拉祈|0 fnt
+|faint|p2a: 基拉祈
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: 毒骷蛙|Toxicroak, F|88/100
+|-damage|p2a: 毒骷蛙|76/100|[from] Spikes
+|-damage|p2a: 毒骷蛙|70/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: 毒骷蛙|Sucker Punch|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|27/100
+|-damage|p2a: 毒骷蛙|60/100|[from] item: Life Orb
+|move|p1a: Excadrill|Earthquake|p2a: 毒骷蛙
+|-supereffective|p2a: 毒骷蛙
+|-damage|p2a: 毒骷蛙|0 fnt
+|faint|p2a: 毒骷蛙
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactiveoff|Battle timer is now OFF.
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|76/100 slp
+|-damage|p2a: Thundurus|51/100 slp|[from] Stealth Rock
+|turn|31
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|cant|p2a: Thundurus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|45/100 slp|[from] Sandstorm
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Thundurus|51/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|cant|p2a: Thundurus|slp
+|move|p1a: Salamence|Outrage|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|upkeep
+|c|☆refsunpersons|gg wp
+|-message|Spiritmonger forfeited.
+|
+|win|refsunpersons
+|l|☆Spiritmonger
+|raw|refsunpersons's rating: 1319 &rarr; <strong>1339</strong><br />(+20 for winning)
+|raw|Spiritmonger's rating: 1328 &rarr; <strong>1308</strong><br />(-20 for losing)

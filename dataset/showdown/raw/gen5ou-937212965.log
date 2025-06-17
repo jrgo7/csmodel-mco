@@ -1,0 +1,331 @@
+|j|☆doughboy
+|j|☆yoloboy9000
+|player|p1|doughboy|265
+|player|p2|yoloboy9000|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Garchomp, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yoloboy9000)
+|
+|start
+|switch|p1a: Garchampion|Garchomp, F|100/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|
+|move|p1a: Garchampion|Stealth Rock|p2a: Pat Riely
+|-sidestart|p2: yoloboy9000|move: Stealth Rock
+|move|p2a: Pat Riely|Ice Beam|p1a: Garchampion
+|-supereffective|p1a: Garchampion
+|-damage|p1a: Garchampion|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-damage|p2a: Bron Bron|88/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Garchampion|atk|1
+|move|p1a: Garchampion|Outrage|p2a: Bron Bron
+|-enditem|p1a: Garchampion|Dragon Gem|[from] gem|[move] Outrage
+|-damage|p2a: Bron Bron|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Miller|Scizor, M, shiny|100/100
+|-damage|p2a: Miller|88/100|[from] Stealth Rock
+|move|p1a: Garchampion|Outrage|p2a: Miller|[from]lockedmove
+|-resisted|p2a: Miller
+|-damage|p2a: Miller|69/100
+|-start|p1a: Garchampion|confusion|[fatigue]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: MustacheHead|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: MustacheHead
+|move|p2a: Miller|U-turn|p1a: MustacheHead
+|-damage|p1a: MustacheHead|17/100
+|
+|switch|p2a: Pat Riely|Tyranitar, M|100/100|[from]move: U-turn
+|-damage|p2a: Pat Riely|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: MustacheHead|11/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: MustacheHead|Hypnosis|p2a: Pat Riely|[miss]
+|-miss|p1a: MustacheHead|p2a: Pat Riely
+|move|p2a: Pat Riely|Pursuit|p1a: MustacheHead
+|-damage|p1a: MustacheHead|0 fnt
+|faint|p1a: MustacheHead
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Garchampion|Garchomp, F|11/100
+|turn|6
+|
+|move|p1a: Garchampion|Earthquake|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|19/100
+|move|p2a: Pat Riely|Stealth Rock|p1a: Garchampion
+|-sidestart|p1: doughboy|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Garchampion|Outrage|p2a: Pat Riely
+|-damage|p2a: Pat Riely|0 fnt
+|faint|p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Bosh|Latios, M, shiny|100/100
+|-damage|p2a: Bosh|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Bosh|Psyshock|p1a: Garchampion
+|-damage|p1a: Garchampion|0 fnt
+|faint|p1a: Garchampion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: no mustach :(|Ferrothorn, F, shiny|100/100
+|-damage|p1a: no mustach :(|94/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|21/100
+|-damage|p2a: Bron Bron|9/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: no mustach :(|atk|1
+|move|p1a: no mustach :(|Thunder Wave|p2a: Bron Bron
+|-immune|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: no mustach :(|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Bron Bron|U-turn|p1a: no mustach :(
+|-damage|p1a: no mustach :(|81/100
+|-damage|p2a: Bron Bron|0 fnt|[from] ability: Iron Barbs|[of] p1a: no mustach :(
+|faint|p2a: Bron Bron
+|move|p1a: no mustach :(|Spikes|p2: Bron Bron
+|-sidestart|p2: yoloboy9000|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: no mustach :(|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ray Allen|Magnezone|100/100
+|-damage|p2a: Ray Allen|94/100|[from] Stealth Rock
+|-damage|p2a: Ray Allen|82/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|57/100
+|move|p1a: no mustach :(|Thunder Wave||[still]
+|-fail|p1a: no mustach :(
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|63/100|[from] item: Leftovers
+|-heal|p1a: no mustach :(|93/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: no mustach :(
+|-resisted|p1a: no mustach :(
+|-damage|p1a: no mustach :(|85/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: no mustach :(|Spikes|p2a: Ray Allen
+|-sidestart|p2: yoloboy9000|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|69/100|[from] item: Leftovers
+|-heal|p1a: no mustach :(|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: no mustach :(
+|-resisted|p1a: no mustach :(
+|-damage|p1a: no mustach :(|77/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: no mustach :(|Spikes|p2a: Ray Allen
+|-sidestart|p2: yoloboy9000|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|75/100|[from] item: Leftovers
+|-heal|p1a: no mustach :(|84/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: no mustach :(
+|-resisted|p1a: no mustach :(
+|-damage|p1a: no mustach :(|65/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: no mustach :(|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|81/100|[from] item: Leftovers
+|-heal|p1a: no mustach :(|71/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: no mustach :(
+|-resisted|p1a: no mustach :(
+|-damage|p1a: no mustach :(|50/100
+|move|p1a: no mustach :(|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-crit|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|87/100|[from] item: Leftovers
+|-heal|p1a: no mustach :(|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|63/100
+|move|p1a: no mustach :(|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|69/100|[from] item: Leftovers
+|-heal|p1a: no mustach :(|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: no mustach :(
+|-resisted|p1a: no mustach :(
+|-damage|p1a: no mustach :(|41/100
+|move|p1a: no mustach :(|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|75/100|[from] item: Leftovers
+|-heal|p1a: no mustach :(|47/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|50/100
+|move|p1a: no mustach :(|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|56/100|[from] item: Leftovers
+|-heal|p1a: no mustach :(|54/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Ray Allen|Hidden Power|p1a: no mustach :(
+|-supereffective|p1a: no mustach :(
+|-damage|p1a: no mustach :(|0 fnt
+|faint|p1a: no mustach :(
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mustachedurus|Thundurus-Therian, M, shiny|100/100
+|-damage|p1a: Mustachedurus|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Mustachedurus|Nasty Plot|p1a: Mustachedurus
+|-boost|p1a: Mustachedurus|spa|2
+|move|p2a: Ray Allen|Hidden Power|p1a: Mustachedurus
+|-crit|p1a: Mustachedurus
+|-damage|p1a: Mustachedurus|0 fnt
+|faint|p1a: Mustachedurus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mustacheicent|Jellicent, M|100/100
+|-damage|p1a: Mustacheicent|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Mustacheicent
+|-supereffective|p1a: Mustacheicent
+|-damage|p1a: Mustacheicent|0 fnt
+|faint|p1a: Mustacheicent
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mustachezam|Alakazam, M, shiny|100/100
+|turn|22
+|
+|move|p1a: Mustachezam|Psychic|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Flash Cannon|p1a: Mustachezam
+|-enditem|p1a: Mustachezam|Focus Sash
+|-damage|p1a: Mustachezam|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|80/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Mustachezam|Focus Blast|p2a: Ray Allen|[miss]
+|-miss|p1a: Mustachezam|p2a: Ray Allen
+|move|p2a: Ray Allen|Hidden Power|p1a: Mustachezam
+|-damage|p1a: Mustachezam|0 fnt
+|faint|p1a: Mustachezam
+|
+|win|yoloboy9000
+|raw|doughboy's rating: 1486 &rarr; <strong>1459</strong><br />(-27 for losing)
+|raw|yoloboy9000's rating: 1366 &rarr; <strong>1392</strong><br />(+26 for winning)

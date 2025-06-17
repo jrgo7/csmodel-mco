@@ -1,0 +1,432 @@
+|j|☆VM_backup
+|j|☆sankafola
+|player|p1|VM_backup|1|1359
+|player|p2|sankafola|juan|1348
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Porygon2|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Starmie|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Salamence, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VM_backup)
+|
+|start
+|switch|p1a: Porygon2|Porygon2|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-ability|p1a: Porygon2|Thick Fat|[from] ability: Trace|[of] p2a: Mamoswine
+|turn|1
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: Porygon2
+|-sidestart|p1: VM_backup|move: Stealth Rock
+|move|p1a: Porygon2|Toxic|p2a: Mamoswine
+|-status|p2a: Mamoswine|tox
+|
+|-damage|p2a: Mamoswine|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-damage|p2a: Mamoswine|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Skarmory|Spikes|p2a: Magnezone
+|-sidestart|p2: sankafola|Spikes
+|
+|upkeep
+|turn|4
+|inactive|sankafola has 120 seconds left.
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|move|p2a: Magnezone|Volt Switch|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|56/100
+|
+|switch|p2a: Mamoswine|Mamoswine, M|82/100 tox|[from]move: Volt Switch
+|-damage|p2a: Mamoswine|70/100 tox|[from] Spikes
+|
+|-damage|p2a: Mamoswine|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|88/100|[from] Spikes
+|move|p1a: Magnezone|Flash Cannon|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|74/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Magnezone|Flash Cannon|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|49/100
+|move|p2a: Magnezone|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-damage|p1a: Porygon2|88/100|[from] Stealth Rock
+|-ability|p1a: Porygon2|Magnet Pull|[from] ability: Trace|[of] p2a: Magnezone
+|turn|7
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Porygon2
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|50/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|35/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Porygon2
+|-damage|p1a: Porygon2|32/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|82/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Porygon2
+|-damage|p1a: Porygon2|64/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|20/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Porygon2
+|-damage|p1a: Porygon2|44/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|94/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Porygon2
+|-damage|p1a: Porygon2|75/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|5/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Porygon2
+|-damage|p1a: Porygon2|58/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Porygon2
+|-damage|p1a: Porygon2|82/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-damage|p2a: Kyurem|88/100|[from] Spikes
+|-ability|p2a: Kyurem|Teravolt
+|turn|14
+|
+|move|p2a: Kyurem|Fusion Bolt|p1a: Porygon2
+|-damage|p1a: Porygon2|34/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|84/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Kyurem|Fusion Bolt|p1a: Porygon2
+|-damage|p1a: Porygon2|38/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|88/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|94/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|34/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100
+|-damage|p1a: Skarmory|76/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|58/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|28/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|switch|p2a: Kyurem|Kyurem-Black|88/100
+|-damage|p2a: Kyurem|75/100|[from] Spikes
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Skarmory|Spikes|p2a: Kyurem
+|-sidestart|p2: sankafola|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|69/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|switch|p1a: Tyranitar|Tyranitar, M|5/100
+|-damage|p1a: Tyranitar|0 fnt|[from] Stealth Rock
+|faint|p1a: Tyranitar
+|move|p2a: Kyurem|Fusion Bolt|p1: Tyranitar|[notarget]
+|-fail|p2a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|63/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-damage|p1a: Porygon2|88/100|[from] Stealth Rock
+|-ability|p1a: Porygon2|Teravolt|[from] ability: Trace|[of] p2a: Kyurem
+|-ability|p1a: Porygon2|Teravolt
+|turn|22
+|
+|switch|p2a: Mamoswine|Mamoswine, M|64/100 tox
+|-damage|p2a: Mamoswine|47/100 tox|[from] Spikes
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|94/100|[from] Sandstorm
+|-damage|p2a: Mamoswine|41/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Skarmory|Skarmory, M|58/100
+|-damage|p1a: Skarmory|46/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mamoswine|29/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Latios|Latios, M|28/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|96/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|22/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|switch|p1a: Porygon2|Porygon2|94/100
+|-damage|p1a: Porygon2|82/100|[from] Stealth Rock
+|-ability|p1a: Porygon2|Levitate|[from] ability: Trace|[of] p2a: Latios
+|move|p2a: Latios|Hidden Power|p1a: Porygon2
+|-damage|p1a: Porygon2|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|16/100|[from] Sandstorm
+|-damage|p1a: Porygon2|56/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|switch|p2a: Mamoswine|Mamoswine, M|29/100 tox
+|-damage|p2a: Mamoswine|12/100 tox|[from] Spikes
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|94/100|[from] Sandstorm
+|-damage|p2a: Mamoswine|6/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Mamoswine|Endeavor|p1a: Porygon2
+|-damage|p1a: Porygon2|6/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|50/100|[from] Sandstorm
+|-damage|p2a: Mamoswine|0 fnt|[from] psn
+|faint|p2a: Mamoswine
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|84/100|[from] Spikes
+|turn|28
+|
+|move|p2a: Scizor|U-turn|p1a: Porygon2
+|-damage|p1a: Porygon2|11/100
+|
+|switch|p2a: Kyurem|Kyurem-Black|63/100|[from]move: U-turn
+|-damage|p2a: Kyurem|47/100|[from] Spikes
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|41/100|[from] Sandstorm
+|-damage|p1a: Porygon2|55/100|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|move|p2a: Kyurem|Outrage|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|34/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Skarmory|Skarmory, M|96/100
+|-damage|p1a: Skarmory|84/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Kyurem|Outrage|p1a: Skarmory|[from]lockedmove
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|39/100
+|-start|p2a: Kyurem|confusion|[fatigue]
+|move|p1a: Skarmory|Spikes|p2a: Kyurem
+|-sidestart|p2: sankafola|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|28/100|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|-activate|p2a: Kyurem|confusion
+|move|p2a: Kyurem|Outrage|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|22/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|32
+|
+|move|p1a: Starmie|Psyshock|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|33
+|
+|move|p2a: Salamence|Outrage|p1a: Starmie
+|-damage|p1a: Starmie|15/100
+|move|p1a: Starmie|Scald|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|76/100|[from] Sandstorm
+|-damage|p1a: Starmie|9/100|[from] Sandstorm
+|-heal|p1a: Starmie|15/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Salamence|Outrage|p1a: Starmie|[from]lockedmove
+|-damage|p1a: Starmie|0 fnt
+|-start|p2a: Salamence|confusion|[fatigue]
+|faint|p1a: Starmie
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|70/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|35
+|
+|-activate|p2a: Salamence|confusion
+|move|p2a: Salamence|Outrage|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|win|sankafola
+|l|☆VM_backup
+|c|☆sankafola|gg
+|raw|VM_backup's rating: 1369 &rarr; <strong>1348</strong><br />(-21 for losing)
+|raw|sankafola's rating: 1348 &rarr; <strong>1370</strong><br />(+22 for winning)

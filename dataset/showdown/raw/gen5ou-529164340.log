@@ -1,0 +1,308 @@
+|j|gamerno1
+|j|Usatoday
+|player|p1|gamerno1|254
+|player|p2|Usatoday|39
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|14750,47814,17685,58841
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Salamence, M|item
+|poke|p1|Lucario, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Mew|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Uxie|item
+|poke|p2|Jirachi|item
+|poke|p2|Starmie|item
+|poke|p2|Terrakion|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Volcarona, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Uxie|Uxie|354/354
+|switch|p2a: Terrakion|Terrakion|323/323
+|turn|1
+|choice|move psychic|move taunt
+|
+|move|p2a: Terrakion|Taunt|p1a: Uxie
+|-start|p1a: Uxie|move: Taunt
+|move|p1a: Uxie|Psychic|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|143/323
+|
+|upkeep
+|turn|2
+|choice|move psychic|move stealthrock
+|
+|move|p2a: Terrakion|Stealth Rock|p1a: Uxie
+|-sidestart|p1: gamerno1|move: Stealth Rock
+|move|p1a: Uxie|Psychic|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Jirachi|Jirachi|377/377
+|turn|3
+|choice|switch 4|move uturn
+|
+|switch|p1a: Mew|Mew|404/404
+|-damage|p1a: Mew|354/404|[from] Stealth Rock
+|move|p2a: Jirachi|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|210/404
+|choice||switch 6
+|
+|switch|p2a: Volcarona|Volcarona, F|311/311
+|
+|upkeep
+|turn|4
+|choice|move lightscreen|move bugbuzz
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Salamence|Salamence, M|331/331
+|-damage|p1a: Salamence|249/331|[from] Stealth Rock
+|turn|5
+|choice|move outrage|move hiddenpower
+|
+|move|p2a: Volcarona|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|c|★gamerno1|RIP
+|c|★gamerno1|the speed tie
+|choice|switch 3|
+|
+|switch|p1a: Gyarados|Gyarados, F|353/353
+|-damage|p1a: Gyarados|265/353|[from] Stealth Rock
+|turn|6
+|c|★Usatoday|what'd you click
+|c|★gamerno1|outrage
+|choice|move dragondance|move quiverdance
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|287/353|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move waterfall|move bugbuzz
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|164/353
+|move|p1a: Gyarados|Waterfall|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|186/353|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Jirachi|Jirachi|377/377
+|turn|8
+|choice|move waterfall|move thunderpunch
+|
+|move|p1a: Gyarados|Waterfall|p2a: Jirachi
+|-damage|p2a: Jirachi|77/377
+|move|p2a: Jirachi|Thunder Punch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mamoswine|Mamoswine, F|361/361
+|-damage|p1a: Mamoswine|316/361|[from] Stealth Rock
+|turn|9
+|j|nubecita-Chan
+|choice|move iceshard|switch 4
+|
+|switch|p2a: Abomasnow|Abomasnow, F|321/321
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Mamoswine|Ice Shard|p2a: Abomasnow
+|-damage|p2a: Abomasnow|188/321
+|-damage|p1a: Mamoswine|280/361|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|10
+|choice|move iciclecrash|move iceshard
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Mamoswine
+|-damage|p1a: Mamoswine|244/361
+|move|p1a: Mamoswine|Icicle Crash|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-damage|p1a: Mamoswine|208/361|[from] item: Life Orb
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Starmie|Starmie|261/261
+|turn|11
+|choice|switch 4|move psyshock
+|
+|switch|p1a: Uxie|Uxie|354/354
+|-damage|p1a: Uxie|310/354|[from] Stealth Rock
+|move|p2a: Starmie|Psyshock|p1a: Uxie
+|-resisted|p1a: Uxie
+|-damage|p1a: Uxie|236/354
+|-damage|p2a: Starmie|235/261|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Starmie|219/261|[from] hail
+|-damage|p1a: Uxie|214/354|[from] hail
+|upkeep
+|turn|12
+|choice|move lightscreen|switch 5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|381/381
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Uxie|atk|1
+|move|p1a: Uxie|Light Screen|p1a: Uxie
+|-sidestart|p1: gamerno1|move: Light Screen
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|358/381|[from] hail
+|-damage|p1a: Uxie|192/354|[from] hail
+|-heal|p2a: Landorus|381/381|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move reflect|move stoneedge
+|
+|move|p2a: Landorus|Stone Edge|p1a: Uxie|[miss]
+|-miss|p2a: Landorus|p1a: Uxie
+|move|p1a: Uxie|Reflect|p1a: Uxie
+|-sidestart|p1: gamerno1|Reflect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|358/381|[from] hail
+|-damage|p1a: Uxie|170/354|[from] hail
+|-heal|p2a: Landorus|381/381|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move memento|move swordsdance
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Uxie|Memento|p2a: Landorus
+|-unboost|p2a: Landorus|atk|2
+|-unboost|p2a: Landorus|spa|2
+|faint|p1a: Uxie
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|358/381|[from] hail
+|-heal|p2a: Landorus|381/381|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Mamoswine|Mamoswine, F|208/361
+|-damage|p1a: Mamoswine|163/361|[from] Stealth Rock
+|turn|15
+|choice|move iceshard|switch 4
+|
+|switch|p2a: Jirachi|Jirachi|77/377
+|move|p1a: Mamoswine|Ice Shard|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|28/377
+|-damage|p1a: Mamoswine|127/361|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|5/377|[from] hail
+|upkeep
+|turn|16
+|choice|move iceshard|move healingwish
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Mamoswine|91/361|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Starmie|Starmie|219/261
+|turn|17
+|choice|move earthquake|move psyshock
+|
+|move|p2a: Starmie|Psyshock|p1a: Mamoswine
+|-damage|p1a: Mamoswine|7/361
+|-damage|p2a: Starmie|193/261|[from] item: Life Orb
+|move|p1a: Mamoswine|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-damage|p1a: Mamoswine|0 fnt|[from] item: Life Orb
+|faint|p2a: Starmie
+|faint|p1a: Mamoswine
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 2|switch 4
+|
+|switch|p1a: Lucario|Lucario, F|281/281
+|switch|p2a: Landorus|Landorus-Therian, M|381/381
+|-damage|p1a: Lucario|273/281|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lucario|atk|1
+|turn|18
+|c|★Usatoday|gg
+|choice|move swordsdance|move earthquake
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Landorus|Earthquake|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|14/281
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lucario|0 fnt|[from] hail
+|-damage|p2a: Landorus|358/381|[from] hail
+|-heal|p2a: Landorus|381/381|[from] item: Leftovers
+|upkeep
+|faint|p1a: Lucario
+|
+|win|Usatoday
+|player|p1
+|player|p2
+|raw|gamerno1's rating: 1425 &rarr; <strong>1399</strong><br />(-26 for losing)
+|raw|Usatoday's rating: 1318 &rarr; <strong>1344</strong><br />(+26 for winning)
+|c|★gamerno1|gg
+|l|gamerno1

@@ -1,0 +1,503 @@
+|j|☆kung pow pennies
+|j|☆blackkaiser
+|player|p1|kung pow pennies|aromalady|1402
+|player|p2|blackkaiser|266|1352
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Starmie|item
+|poke|p1|Celebi|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Politoed, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|start
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Celebi|Giga Drain|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ferrothorn|Spikes|p1a: Politoed
+|-sidestart|p1: kung pow pennies|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxicroak|Toxicroak, M, shiny|100/100
+|-damage|p1a: Toxicroak|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Toxicroak
+|-status|p1a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100 par|[from] ability: Dry Skin
+|upkeep
+|turn|4
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|cant|p1a: Toxicroak|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|94/100 par|[from] Sandstorm
+|-heal|p1a: Toxicroak|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hippowdon|atk|1
+|move|p2a: Hippowdon|Stealth Rock|p1a: Landorus
+|-sidestart|p1: kung pow pennies|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Latios
+|-sidestart|p2: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p2a: Latios|Trick|p1a: Landorus
+|-activate|p2a: Latios|move: Trick|[of] p1a: Landorus
+|-item|p1a: Landorus|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Landorus|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|36/100
+|
+|switch|p1a: Starmie|Starmie|100/100|[from]move: U-turn
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|-damage|p1a: Starmie|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|70/100|[from] Sandstorm
+|-damage|p2a: Latios|30/100|[from] Sandstorm
+|-heal|p2a: Latios|36/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Starmie|Ice Beam|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|75/100
+|-damage|p1a: Starmie|60/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|54/100|[from] Sandstorm
+|-damage|p2a: Jellicent|69/100|[from] Sandstorm
+|-heal|p2a: Jellicent|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|29/100
+|-damage|p1a: Starmie|44/100|[from] item: Life Orb
+|move|p2a: Jellicent|Shadow Ball|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|23/100|[from] Sandstorm
+|-heal|p2a: Jellicent|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|-damage|p1a: Celebi|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] Stealth Rock
+|move|p1a: Celebi|Giga Drain|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|-heal|p1a: Celebi|79/100|[from] drain|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|73/100|[from] Sandstorm
+|-heal|p1a: Celebi|79/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Celebi|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|73/100|[from] Sandstorm
+|-heal|p1a: Celebi|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Celebi|Heal Bell|p1a: Celebi
+|-activate|p1a: Celebi|move: Heal Bell
+|-curestatus|p1: Toxicroak|par|[msg]
+|move|p2a: Ferrothorn|Spikes|p1a: Celebi
+|-sidestart|p1: kung pow pennies|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|73/100|[from] Sandstorm
+|-heal|p1a: Celebi|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|84/100|[from] Spikes
+|-damage|p1a: Jirachi|78/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Jirachi
+|-sidestart|p1: kung pow pennies|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Latios|Latios, M, shiny|36/100
+|-damage|p2a: Latios|24/100|[from] Stealth Rock
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|18/100|[from] Sandstorm
+|-heal|p2a: Latios|24/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|71/100
+|move|p1a: Jirachi|Flash Cannon|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Fire Blast|p1a: Landorus
+|-damage|p1a: Landorus|46/100
+|-damage|p2a: Garchomp|85/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: Landorus|[miss]
+|-miss|p2a: Garchomp|p1a: Landorus
+|move|p1a: Landorus|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|81/100 par
+|-damage|p2a: Ferrothorn|75/100 par|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Toxicroak|Toxicroak, M, shiny|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|-damage|p1a: Toxicroak|69/100|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Toxicroak
+|-start|p1a: Toxicroak|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|63/100|[from] Sandstorm
+|-heal|p1a: Toxicroak|69/100|[from] item: Black Sludge
+|-damage|p1a: Toxicroak|57/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|88/100 par|[silent]
+|upkeep
+|turn|19
+|
+|switch|p2a: Jellicent|Jellicent, M|29/100
+|-damage|p2a: Jellicent|17/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Drain Punch|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|50/100|[from] Sandstorm
+|-damage|p2a: Jellicent|11/100|[from] Sandstorm
+|-heal|p1a: Toxicroak|57/100|[from] item: Black Sludge
+|-heal|p2a: Jellicent|17/100|[from] item: Leftovers
+|-damage|p1a: Toxicroak|44/100|[from] Leech Seed|[of] p2a: Jellicent
+|-heal|p2a: Jellicent|28/100|[silent]
+|upkeep
+|turn|20
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-damage|p1a: Politoed|63/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|85/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Politoed|Hidden Power|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|47/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Politoed
+|-damage|p1a: Politoed|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|54/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Celebi|Celebi|79/100
+|-damage|p1a: Celebi|54/100|[from] Spikes
+|-damage|p1a: Celebi|42/100|[from] Stealth Rock
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|48/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Celebi|Thunder Wave|p2a: Scizor
+|-status|p2a: Scizor|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|54/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Landorus|Landorus-Therian, M|46/100
+|-damage|p1a: Landorus|33/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|17/100
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100|[from]move: U-turn
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Landorus|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|49/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|88/100 par
+|-damage|p2a: Ferrothorn|82/100 par|[from] Stealth Rock
+|move|p1a: Landorus|Hidden Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p1a: Landorus|Hidden Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100 par
+|move|p2a: Ferrothorn|Power Whip|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, M, shiny|44/100
+|-damage|p1a: Toxicroak|19/100|[from] Spikes
+|-damage|p1a: Toxicroak|13/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Drain Punch|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|7/100|[from] Sandstorm
+|-damage|p2a: Jellicent|82/100|[from] Sandstorm
+|-heal|p1a: Toxicroak|13/100|[from] item: Black Sludge
+|-heal|p2a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Jirachi|Jirachi|77/100
+|-damage|p1a: Jirachi|71/100|[from] Stealth Rock
+|-damage|p1a: Jirachi|46/100|[from] Spikes
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Jirachi
+|-status|p1a: Jirachi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|82/100|[from] Sandstorm
+|-heal|p1a: Jirachi|52/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|88/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|40/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Jirachi|Thunder|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|56/100
+|move|p2a: Jellicent|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|19/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|50/100|[from] Sandstorm
+|-heal|p1a: Jirachi|25/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|56/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|13/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Jirachi|Thunder|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|21/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|65/100|[from] Sandstorm
+|-heal|p1a: Jirachi|19/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|71/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|7/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Jirachi|Thunder|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|38/100
+|-status|p2a: Jellicent|par
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|88/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|82/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|13/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|88/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|1/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Jirachi|Thunder|p2a: Jellicent|[miss]
+|-miss|p1a: Jirachi|p2a: Jellicent
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|7/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|0 fnt|[from] brn
+|faint|p1a: Jirachi
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|54/100
+|-damage|p1a: Celebi|29/100|[from] Spikes
+|-damage|p1a: Celebi|17/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|67/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|23/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100 par|[from] Sandstorm
+|-heal|p1a: Celebi|29/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Scizor|Scizor, F|88/100 par
+|-damage|p2a: Scizor|76/100 par|[from] Stealth Rock
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|73/100|[from] Sandstorm
+|-heal|p1a: Celebi|79/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Celebi|Giga Drain|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|66/100 par
+|-heal|p1a: Celebi|83/100|[from] drain|[of] p2a: Scizor
+|move|p2a: Scizor|U-turn|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|-message|kung pow pennies forfeited.
+|
+|win|blackkaiser
+|l|☆kung pow pennies
+|raw|kung pow pennies's rating: 1402 &rarr; <strong>1379</strong><br />(-23 for losing)
+|raw|blackkaiser's rating: 1353 &rarr; <strong>1376</strong><br />(+23 for winning)

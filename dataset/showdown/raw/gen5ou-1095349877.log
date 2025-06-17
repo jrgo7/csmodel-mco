@@ -1,0 +1,240 @@
+|j|☆Iyeah
+|j|☆porrompompom
+|player|p1|Iyeah|ingo|1289
+|player|p2|porrompompom|2|1471
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Jellicent, M|item
+|poke|p2|Mew|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Porygon2|item
+|poke|p2|Starmie|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jellicent|atk|1
+|turn|1
+|
+|move|p2a: Landorus|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|85/100
+|
+|switch|p2a: Starmie|Starmie|100/100|[from]move: U-turn
+|move|p1a: Jellicent|Scald|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|87/100
+|
+|-heal|p2a: Starmie|93/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Starmie|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|move|p1a: Jellicent|Shadow Ball|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-heal|p1a: Jellicent|98/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|91/100 tox|[from] psn
+|upkeep
+|c|☆porrompompom|could i like, please, stop getting critted by every fucking move
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|3
+|c|☆Iyeah|I got frozen by ice punch last 2 battles, I agree with you
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: Iyeah|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Multiscale|[from] ability: Trace|[of] p1a: Dragonite
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Porygon2
+|-damage|p2a: Porygon2|83/100
+|move|p2a: Porygon2|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|68/100
+|
+|upkeep
+|turn|7
+|
+|cant|p1a: Dragonite|par
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Porygon2|Ice Beam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|76/100
+|-status|p1a: Scizor|frz
+|
+|-heal|p1a: Scizor|82/100 frz|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|-curestatus|p1a: Scizor|frz|[msg]
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p1a: Scizor|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Landorus|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|33/100
+|move|p1a: Scizor|Bug Bite|p2a: Landorus
+|-resisted|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|22/100
+|
+|-heal|p1a: Scizor|39/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Scizor|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|12
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Hydreigon|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|32/100
+|-unboost|p1a: Heatran|spd|1
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Hydreigon|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100 par
+|-damage|p1a: Dragonite|76/100 par|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Mew|Mew|100/100
+|switch|p1a: Scizor|Scizor, M|45/100
+|-damage|p1a: Scizor|32/100|[from] Stealth Rock
+|
+|-heal|p1a: Scizor|39/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Mew|Taunt|p1a: Scizor
+|-start|p1a: Scizor|move: Taunt
+|move|p1a: Scizor|Bug Bite|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|22/100
+|
+|-heal|p2a: Mew|28/100|[from] item: Leftovers
+|-heal|p1a: Scizor|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|-damage|p1a: Scizor|32/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Scizor|38/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Mew|Mew|28/100
+|move|p1a: Scizor|Bug Bite|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-heal|p1a: Scizor|44/100|[from] item: Leftovers
+|-end|p1a: Scizor|move: Taunt
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|18
+|
+|move|p2a: Hydreigon|Focus Blast|p1a: Scizor|[miss]
+|-miss|p2a: Hydreigon|p1a: Scizor
+|move|p1a: Scizor|Bug Bite|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|13/100
+|
+|-heal|p2a: Hydreigon|19/100|[from] item: Leftovers
+|-heal|p1a: Scizor|50/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|-message|porrompompom forfeited.
+|
+|win|Iyeah
+|l|☆porrompompom
+|raw|Iyeah's rating: 1289 &rarr; <strong>1326</strong><br />(+37 for winning)
+|raw|porrompompom's rating: 1471 &rarr; <strong>1442</strong><br />(-29 for losing)
+|j|☆porrompompom
+|player|p2|porrompompom|2

@@ -1,0 +1,250 @@
+|join|DBriggs
+|join|ahobowithanoboe
+|player|p1|DBriggs|169
+|player|p2|ahobowithanoboe|273
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Blissey, F
+|poke|p1|Dusclops, F
+|poke|p1|Vaporeon, F
+|poke|p1|Forretress, M
+|poke|p1|Hippowdon, F
+|poke|p1|Latias, F
+|poke|p2|Swampert, M, shiny
+|poke|p2|Conkeldurr, M
+|poke|p2|Latios, M, shiny
+|poke|p2|Skarmory, F, shiny
+|poke|p2|Espeon, F
+|poke|p2|Salamence, M, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, F|463/463
+|switch|p2a: Psychic PUSSAY|Espeon, F|272/272
+|turn|1
+|
+|move|p2a: Psychic PUSSAY|Trick|p1a: Vaporeon
+|-activate|p2a: Psychic PUSSAY|move: Trick|[of] p1a: Vaporeon
+|-item|p1a: Vaporeon|Choice Scarf|[from] move: Trick
+|-item|p2a: Psychic PUSSAY|Leftovers|[from] move: Trick
+|move|p1a: Vaporeon|Scald|p2a: Psychic PUSSAY
+|-damage|p2a: Psychic PUSSAY|173/272
+|-status|p2a: Psychic PUSSAY|brn
+|
+|-heal|p2a: Psychic PUSSAY|190/272 brn|[from] item: Leftovers
+|-damage|p2a: Psychic PUSSAY|156/272 brn|[from] brn
+|turn|2
+|
+|switch|p2a: HURR DURRR|Conkeldurr, M|414/414
+|switch|p1a: Forretress|Forretress, M|354/354
+|
+|-status|p2a: HURR DURRR|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p2a: HURR DURRR|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|183/354
+|move|p1a: Forretress|Spikes|p2a: HURR DURRR
+|-sidestart|p2: ahobowithanoboe|Spikes
+|
+|-heal|p1a: Forretress|205/354|[from] item: Leftovers
+|-damage|p2a: HURR DURRR|363/414 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Psychic PUSSAY|Espeon, F|156/272 brn
+|-damage|p2a: Psychic PUSSAY|122/272 brn|[from] Spikes
+|switch|p1a: Dusclops|Dusclops, F|284/284
+|-ability|p1a: Dusclops|Pressure
+|
+|-heal|p2a: Psychic PUSSAY|139/272 brn|[from] item: Leftovers
+|-damage|p2a: Psychic PUSSAY|105/272 brn|[from] brn
+|turn|5
+|
+|switch|p2a: F-22|Skarmory, F, shiny|334/334
+|switch|p1a: Blissey|Blissey, F|671/671
+|
+|turn|6
+|
+|switch|p1a: Hippowdon|Hippowdon, F|420/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: F-22|Taunt|p1a: Hippowdon
+|-start|p1a: Hippowdon|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|turn|7
+|
+|switch|p1a: Forretress|Forretress, M|205/354
+|move|p2a: F-22|Stealth Rock|p1a: Forretress
+|-sidestart|p1: DBriggs|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|227/354|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Menced Meat|Salamence, M, shiny|331/331
+|move|p1a: Forretress|Rapid Spin|p2a: Menced Meat
+|-damage|p2a: Menced Meat|312/331
+|-sideend|p1: DBriggs|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|292/331|[from] sandstorm
+|-heal|p1a: Forretress|249/354|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Dusclops|Dusclops, F|284/284
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Menced Meat|Dragon Dance|p2a: Menced Meat
+|-boost|p2a: Menced Meat|atk|1
+|-boost|p2a: Menced Meat|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|272/331|[from] sandstorm
+|-damage|p1a: Dusclops|267/284|[from] sandstorm
+|turn|10
+|
+|move|p2a: Menced Meat|Dragon Dance|p2a: Menced Meat
+|-boost|p2a: Menced Meat|atk|1
+|-boost|p2a: Menced Meat|spe|1
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Menced Meat|[miss]
+|-miss|p1a: Dusclops|p2a: Menced Meat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|252/331|[from] sandstorm
+|-damage|p1a: Dusclops|250/284|[from] sandstorm
+|turn|11
+|
+|move|p2a: Menced Meat|Dragon Dance|p2a: Menced Meat
+|-boost|p2a: Menced Meat|atk|1
+|-boost|p2a: Menced Meat|spe|1
+|move|p1a: Dusclops|Pain Split|p2a: Menced Meat
+|-sethp|p2a: Menced Meat|251/331|p1a: Dusclops|251/284|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|231/331|[from] sandstorm
+|-damage|p1a: Dusclops|234/284|[from] sandstorm
+|turn|12
+|chat|ahobowithanoboe|gg?
+|
+|move|p2a: Menced Meat|Outrage|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|-boost|p2a: Menced Meat|atk|1|[from] ability: Moxie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|211/331|[from] sandstorm
+|
+|switch|p1a: Forretress|Forretress, M|249/354
+|turn|13
+|
+|move|p2a: Menced Meat|Outrage|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|-boost|p2a: Menced Meat|atk|1|[from] ability: Moxie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|191/331|[from] sandstorm
+|
+|switch|p1a: Vaporeon|Vaporeon, F|463/463
+|turn|14
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Menced Meat|Outrage|p1a: Vaporeon
+|-activate|p1a: Vaporeon|Protect
+|
+|-end|p2a: Menced Meat|rampage
+|-start|p2a: Menced Meat|confusion
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|171/331|[from] sandstorm
+|-damage|p1a: Vaporeon|435/463|[from] sandstorm
+|-enditem|p2a: Menced Meat|Lum Berry|[eat]
+|-end|p2a: Menced Meat|confusion
+|turn|15
+|
+|switch|p1a: Blissey|Blissey, F|671/671
+|move|p2a: Menced Meat|Outrage|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|-boost|p2a: Menced Meat|atk|1|[from] ability: Moxie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|151/331|[from] sandstorm
+|
+|switch|p1a: Vaporeon|Vaporeon, F|435/463
+|turn|16
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Menced Meat|Outrage|p1a: Vaporeon
+|-activate|p1a: Vaporeon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|131/331|[from] sandstorm
+|-damage|p1a: Vaporeon|407/463|[from] sandstorm
+|turn|17
+|
+|switch|p1a: Latias|Latias, F|364/364
+|move|p2a: Menced Meat|Outrage|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|111/331|[from] sandstorm
+|
+|switch|p1a: Vaporeon|Vaporeon, F|407/463
+|turn|18
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Menced Meat|Outrage|p1a: Vaporeon
+|-activate|p1a: Vaporeon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|91/331|[from] sandstorm
+|-damage|p1a: Vaporeon|379/463|[from] sandstorm
+|turn|19
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Menced Meat|Outrage|p1a: Vaporeon
+|-activate|p1a: Vaporeon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|71/331|[from] sandstorm
+|-damage|p1a: Vaporeon|351/463|[from] sandstorm
+|turn|20
+|chat|DBriggs|gg
+|chat|ahobowithanoboe|i commemorate your efforts
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-fail|p1a: Vaporeon
+|move|p2a: Menced Meat|Outrage|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Menced Meat|51/331|[from] sandstorm
+|
+|switch|p1a: Hippowdon|Hippowdon, F|420/420
+|turn|21
+|
+|move|p2a: Menced Meat|Outrage|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|win|ahobowithanoboe
+|raw|Ladder updating...
+|raw|DBriggs's rating: 1477 &rarr; <strong>1447</strong><br />(-30 for losing)
+|raw|ahobowithanoboe's rating: 1280 &rarr; <strong>1318</strong><br />(+38 for winning)

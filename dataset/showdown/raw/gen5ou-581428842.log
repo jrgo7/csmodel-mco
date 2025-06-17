@@ -1,0 +1,494 @@
+|j|MoreThan2sec
+|j|L taking Larry
+|player|p1|MoreThan2sec|15
+|teamsize|p1|6
+|player|p2|L taking Larry|114
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|719,57910,32747,27416
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dragonite, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Abomasnow, F|item
+|poke|p1|Starmie|item
+|poke|p1|Kyurem|item
+|poke|p2|Porygon2, shiny|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Starmie|item
+|poke|p2|Salamence, M|item
+|poke|p2|Heatran, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: miama|Garchomp, M|357/357
+|switch|p2a: Landorus|Landorus-Therian, M|380/380
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: miama|atk|1
+|turn|1
+|choice|move swordsdance|move stealthrock
+|
+|move|p1a: miama|Swords Dance|p1a: miama
+|-boost|p1a: miama|atk|2
+|move|p2a: Landorus|Stealth Rock|p1a: miama
+|-sidestart|p1: MoreThan2sec|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move outrage|move hiddenpower
+|
+|move|p1a: miama|Outrage|p2a: Landorus
+|-damage|p2a: Landorus|97/380
+|move|p2a: Landorus|Hidden Power|p1a: miama
+|-supereffective|p1a: miama
+|-enditem|p1a: miama|Yache Berry|[eat]
+|-enditem|p1a: miama|Yache Berry|[weaken]
+|-damage|p1a: miama|225/357
+|
+|-heal|p2a: Landorus|120/380|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move outrage|move hiddenpower
+|
+|move|p1a: miama|Outrage|p2a: Landorus|[from]lockedmove
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Heatran|Heatran, M|385/385
+|turn|4
+|choice|move outrage|move willowisp
+|
+|move|p1a: miama|Outrage|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|105/385
+|-start|p1a: miama|confusion|[fatigue]
+|move|p2a: Heatran|Will-O-Wisp|p1a: miama
+|-status|p1a: miama|brn
+|
+|-heal|p2a: Heatran|129/385|[from] item: Leftovers
+|-damage|p1a: miama|181/357 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move stealthrock|move protect
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|-activate|p1a: miama|confusion
+|-damage|p1a: miama|143/357 brn|[from] confusion
+|
+|-heal|p2a: Heatran|153/385|[from] item: Leftovers
+|-damage|p1a: miama|99/357 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Porygon2|Porygon2, shiny|311/311
+|-ability|p2a: Porygon2|Rough Skin|[from] ability: Trace|[of] p1a: miama
+|-activate|p1a: miama|confusion
+|move|p1a: miama|Stealth Rock|p2a: Porygon2
+|-sidestart|p2: L taking Larry|move: Stealth Rock
+|
+|-damage|p1a: miama|55/357 brn|[from] brn
+|upkeep
+|turn|7
+|choice|switch 3|move icebeam
+|
+|switch|p1a: miame|Magnezone|291/291
+|-damage|p1a: miame|273/291|[from] stealthrock
+|move|p2a: Porygon2|Ice Beam|p1a: miame
+|-resisted|p1a: miame
+|-damage|p1a: miame|233/291
+|
+|upkeep
+|turn|8
+|choice|move thunderwave|move thunderwave
+|
+|move|p1a: miame|Thunder Wave|p2a: Porygon2
+|-status|p2a: Porygon2|par
+|move|p2a: Porygon2|Thunder Wave|p1a: miame
+|-status|p1a: miame|par
+|
+|upkeep
+|turn|9
+|choice|move thunderbolt|move thunderbolt
+|
+|move|p1a: miame|Thunderbolt|p2a: Porygon2
+|-damage|p2a: Porygon2|226/311 par
+|move|p2a: Porygon2|Thunderbolt|p1a: miame
+|-resisted|p1a: miame
+|-damage|p1a: miame|189/291 par
+|
+|upkeep
+|turn|10
+|choice|move thunderbolt|move recover
+|
+|move|p1a: miame|Thunderbolt|p2a: Porygon2
+|-damage|p2a: Porygon2|138/311 par
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|294/311 par
+|
+|upkeep
+|turn|11
+|choice|move thunderbolt|switch 3
+|
+|switch|p2a: Breloom|Breloom, M|262/262
+|-damage|p2a: Breloom|246/262|[from] stealthrock
+|move|p1a: miame|Thunderbolt|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|168/262
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|choice|switch 3|move spore
+|
+|switch|p1a: miama|Garchomp, M|55/357 brn
+|-damage|p1a: miama|33/357 brn|[from] stealthrock
+|move|p2a: Breloom|Spore|p1a: miama
+|-fail|p1a: miama
+|
+|-damage|p1a: miama|0 fnt|[from] brn
+|-heal|p2a: Breloom|200/262 tox|[from] ability: Poison Heal
+|upkeep
+|faint|p1a: miama
+|choice|switch 5|
+|
+|switch|p1a: miamaz|Starmie|261/261
+|-damage|p1a: miamaz|229/261|[from] stealthrock
+|turn|13
+|choice|move icebeam|move protect
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: miamaz|Ice Beam|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-heal|p2a: Breloom|232/262 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|choice|move rapidspin|move spore
+|
+|move|p1a: miamaz|Rapid Spin|p2a: Breloom
+|-damage|p2a: Breloom|218/262 tox
+|-sideend|p1: MoreThan2sec|stealthrock|[from] move: Rapid Spin|[of] p1a: miamaz
+|-damage|p1a: miamaz|203/261|[from] item: Life Orb
+|move|p2a: Breloom|Spore|p1a: miamaz
+|-status|p1a: miamaz|slp
+|
+|-heal|p2a: Breloom|250/262 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|choice|switch 4|move leechseed
+|
+|switch|p1a: miami|Abomasnow, F|321/321
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: miami
+|move|p2a: Breloom|Leech Seed|p1a: miami
+|-immune|p1a: miami|[msg]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Breloom|234/262 tox|[from] hail
+|-heal|p2a: Breloom|262/262 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|choice|move blizzard|move protect
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: miami|Blizzard|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Breloom|246/262 tox|[from] hail
+|-heal|p2a: Breloom|262/262 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|choice|move blizzard|switch 2
+|
+|switch|p2a: Heatran|Heatran, M|153/385
+|-damage|p2a: Heatran|105/385|[from] stealthrock
+|move|p1a: miami|Blizzard|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|82/385
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|58/385|[from] hail
+|-heal|p2a: Heatran|82/385|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 6|move lavaplume
+|
+|switch|p1a: miamu|Kyurem|391/391
+|-ability|p1a: miamu|Pressure
+|move|p2a: Heatran|Lava Plume|p1a: miamu
+|-damage|p1a: miamu|252/391
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|58/385|[from] hail
+|-heal|p2a: Heatran|82/385|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move dracometeor|move protect
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: miamu|Draco Meteor|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|58/385|[from] hail
+|-heal|p2a: Heatran|82/385|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move dracometeor|move lavaplume
+|
+|move|p1a: miamu|Draco Meteor|p2a: Heatran|[miss]
+|-miss|p1a: miamu|p2a: Heatran
+|move|p2a: Heatran|Lava Plume|p1a: miamu
+|-damage|p1a: miamu|116/391
+|-status|p1a: miamu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|58/385|[from] hail
+|-heal|p2a: Heatran|82/385|[from] item: Leftovers
+|-damage|p1a: miamu|68/391 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move dracometeor|move protect
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: miamu|Draco Meteor|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|58/385|[from] hail
+|-heal|p2a: Heatran|82/385|[from] item: Leftovers
+|-damage|p1a: miamu|20/391 brn|[from] brn
+|upkeep
+|turn|22
+|c|☆MoreThan2sec|¨¨
+|choice|move dracometeor|move protect
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: miamu|Draco Meteor|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|58/385|[from] hail
+|-heal|p2a: Heatran|82/385|[from] item: Leftovers
+|-damage|p1a: miamu|0 fnt|[from] brn
+|upkeep
+|faint|p1a: miamu
+|c|☆MoreThan2sec|^^
+|choice|switch 6|
+|
+|switch|p1a: miami|Abomasnow, F|321/321
+|turn|23
+|choice|move earthquake|move protect
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-fail|p2a: Heatran
+|move|p1a: miami|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆MoreThan2sec|oh
+|c|☆MoreThan2sec|ty
+|choice||switch 2
+|
+|switch|p2a: Breloom|Breloom, M|262/262 tox
+|-damage|p2a: Breloom|246/262 tox|[from] stealthrock
+|turn|24
+|choice|switch 4|move drainpunch
+|
+|switch|p1a: miamaz|Starmie|203/261 slp
+|move|p2a: Breloom|Drain Punch|p1a: miamaz
+|-resisted|p1a: miamaz
+|-damage|p1a: miamaz|137/261 slp
+|-heal|p2a: Breloom|262/262 tox|[from] drain|[of] p1a: miamaz
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: miamaz|121/261 slp|[from] hail
+|-damage|p2a: Breloom|246/262 tox|[from] hail
+|-heal|p2a: Breloom|262/262 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|choice|switch 4|move drainpunch
+|
+|switch|p1a: miami|Abomasnow, F|321/321
+|move|p2a: Breloom|Drain Punch|p1a: miami
+|-supereffective|p1a: miami
+|-damage|p1a: miami|27/321
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Breloom|246/262 tox|[from] hail
+|-heal|p2a: Breloom|262/262 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|choice|move blizzard|move protect
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: miami|Blizzard|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Breloom|246/262 tox|[from] hail
+|-heal|p2a: Breloom|262/262 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|choice|move blizzard|switch 4
+|
+|switch|p2a: Starmie|Starmie|261/261
+|-damage|p2a: Starmie|229/261|[from] stealthrock
+|move|p1a: miami|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|157/261
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Starmie|141/261|[from] hail
+|-heal|p2a: Starmie|157/261|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move blizzard|move rapidspin
+|
+|move|p1a: miami|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|79/261
+|move|p2a: Starmie|Rapid Spin|p1a: miami
+|-crit|p1a: miami
+|-damage|p1a: miami|0 fnt
+|-sideend|p2: L taking Larry|stealthrock|[from] move: Rapid Spin|[of] p2a: Starmie
+|faint|p1a: miami
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Starmie|63/261|[from] hail
+|-heal|p2a: Starmie|79/261|[from] item: Leftovers
+|upkeep
+|c|☆MoreThan2sec|rofl pls
+|choice|switch 2|
+|
+|switch|p1a: miam|Dragonite, M|323/323
+|turn|29
+|choice|move extremespeed|switch 3
+|
+|switch|p2a: Porygon2|Porygon2, shiny|294/311 par
+|-ability|p2a: Porygon2|Multiscale|[from] ability: Trace|[of] p1a: miam
+|move|p1a: miam|Extreme Speed|p2a: Porygon2
+|-damage|p2a: Porygon2|221/311 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: miam|303/323|[from] hail
+|-damage|p2a: Porygon2|202/311 par|[from] hail
+|upkeep
+|turn|30
+|choice|switch 3|move icebeam
+|
+|switch|p1a: miame|Magnezone|189/291 par
+|move|p2a: Porygon2|Ice Beam|p1a: miame
+|-resisted|p1a: miame
+|-damage|p1a: miame|145/291 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: miame|127/291 par|[from] hail
+|-damage|p2a: Porygon2|183/311 par|[from] hail
+|upkeep
+|turn|31
+|choice|move flashcannon|move recover
+|
+|cant|p1a: miame|par
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|311/311 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: miame|109/291 par|[from] hail
+|-damage|p2a: Porygon2|292/311 par|[from] hail
+|upkeep
+|turn|32
+|choice|move flashcannon|move thunderbolt
+|
+|cant|p1a: miame|par
+|move|p2a: Porygon2|Thunderbolt|p1a: miame
+|-resisted|p1a: miame
+|-damage|p1a: miame|68/291 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: miame|50/291 par|[from] hail
+|-damage|p2a: Porygon2|273/311 par|[from] hail
+|upkeep
+|turn|33
+|choice|move flashcannon|move thunderbolt
+|
+|move|p1a: miame|Flash Cannon|p2a: Porygon2
+|-damage|p2a: Porygon2|204/311 par
+|move|p2a: Porygon2|Thunderbolt|p1a: miame
+|-resisted|p1a: miame
+|-damage|p1a: miame|7/291 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: miame|0 fnt|[from] hail
+|-damage|p2a: Porygon2|185/311 par|[from] hail
+|upkeep
+|faint|p1a: miame
+|choice|switch 3|
+|
+|switch|p1a: miam|Dragonite, M|303/323
+|turn|34
+|c|☆MoreThan2sec|ahah
+|choice|move dragondance|move icebeam
+|
+|move|p1a: miam|Dragon Dance|p1a: miam
+|-boost|p1a: miam|atk|1
+|-boost|p1a: miam|spe|1
+|cant|p2a: Porygon2|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: miam|283/323|[from] hail
+|-damage|p2a: Porygon2|166/311 par|[from] hail
+|upkeep
+|turn|35
+|choice|move dragondance|move icebeam
+|
+|move|p1a: miam|Dragon Dance|p1a: miam
+|-boost|p1a: miam|atk|1
+|-boost|p1a: miam|spe|1
+|move|p2a: Porygon2|Ice Beam|p1a: miam
+|-supereffective|p1a: miam
+|-damage|p1a: miam|0 fnt
+|faint|p1a: miam
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon2|147/311 par|[from] hail
+|upkeep
+|c|☆MoreThan2sec|no gg
+|-message|MoreThan2sec forfeited.
+|
+|win|L taking Larry
+|l|MoreThan2sec
+|c|☆L taking Larry|ahah
+|raw|MoreThan2sec's rating: 1312 &rarr; <strong>1291</strong><br />(-21 for losing)
+|raw|L taking Larry's rating: 1297 &rarr; <strong>1324</strong><br />(+27 for winning)
+|c|☆L taking Larry|Lmaooooo

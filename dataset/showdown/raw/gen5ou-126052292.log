@@ -1,0 +1,272 @@
+|join|toomanyefforts
+|join|raichushiny
+|player|p1|toomanyefforts|102
+|player|p2|raichushiny|163
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Jirachi
+|poke|p1|Magnezone
+|poke|p1|Mamoswine, F
+|poke|p1|Latios, M
+|poke|p1|Dragonite, M
+|poke|p1|Heatran, M
+|poke|p2|Espeon, M
+|poke|p2|Gorebyss, M
+|poke|p2|Keldeo
+|poke|p2|Terrakion
+|poke|p2|Dragonite, F
+|poke|p2|Jirachi
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|362/362
+|switch|p2a: Great coverage|Terrakion|323/323
+|turn|1
+|
+|move|p2a: Great coverage|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: toomanyefforts|move: Stealth Rock
+|move|p1a: Mamoswine|Earthquake|p2a: Great coverage
+|-supereffective|p2a: Great coverage
+|-enditem|p2a: Great coverage|Focus Sash
+|-damage|p2a: Great coverage|1/323
+|
+|turn|2
+|
+|switch|p2a: Magicpeon|Espeon, M|323/323
+|move|p1a: Mamoswine|Ice Shard|p2a: Magicpeon
+|-damage|p2a: Magicpeon|217/323
+|
+|turn|3
+|
+|move|p2a: Magicpeon|Reflect|p2a: Magicpeon
+|-sidestart|p2: raichushiny|Reflect
+|move|p1a: Mamoswine|Earthquake|p2a: Magicpeon
+|-damage|p2a: Magicpeon|94/323
+|
+|turn|4
+|
+|move|p2a: Magicpeon|Psychic|p1a: Mamoswine
+|-damage|p1a: Mamoswine|173/362
+|move|p1a: Mamoswine|Earthquake|p2a: Magicpeon
+|-damage|p2a: Magicpeon|0 fnt
+|faint|p2a: Magicpeon
+|
+|
+|switch|p2a: Wallbreaker|Keldeo|351/351
+|turn|5
+|
+|move|p2a: Wallbreaker|Surf|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|
+|switch|p1a: Latios|Latios, M|302/302
+|-damage|p1a: Latios|265/302|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Moreused|Jirachi|404/404
+|move|p1a: Latios|Draco Meteor|p2a: Moreused
+|-resisted|p2a: Moreused
+|-damage|p2a: Moreused|202/404
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Moreused|227/404|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Magnezone|Magnezone|318/318
+|-damage|p1a: Magnezone|299/318|[from] Stealth Rock
+|switch|p2a: Great coverage|Terrakion|1/323
+|
+|-heal|p1a: Magnezone|318/318|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Great coverage|Close Combat|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-unboost|p2a: Great coverage|def|1
+|-unboost|p2a: Great coverage|spd|1
+|faint|p1a: Magnezone
+|
+|
+|switch|p1a: Jirachi|Jirachi|341/341
+|-damage|p1a: Jirachi|320/341|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Wallbreaker|Keldeo|351/351
+|move|p1a: Jirachi|U-turn|p2a: Wallbreaker
+|-resisted|p2a: Wallbreaker
+|-damage|p2a: Wallbreaker|331/351
+|
+|switch|p1a: Latios|Latios, M|265/302
+|-damage|p1a: Latios|228/302|[from] Stealth Rock
+|
+|-heal|p2a: Wallbreaker|351/351|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Great coverage|Terrakion|1/323
+|move|p1a: Latios|Draco Meteor|p2a: Great coverage|[miss]
+|-miss|p1a: Latios|p2a: Great coverage
+|
+|-sideend|p2: raichushiny|Reflect
+|turn|11
+|
+|move|p1a: Latios|Draco Meteor|p2a: Great coverage
+|-damage|p2a: Great coverage|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Great coverage
+|
+|
+|switch|p2a: Spashbyss|Gorebyss, M|311/311
+|turn|12
+|
+|move|p1a: Latios|Draco Meteor|p2a: Spashbyss
+|-damage|p2a: Spashbyss|89/311
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Spashbyss|Shell Smash|p2a: Spashbyss
+|-boost|p2a: Spashbyss|atk|2
+|-boost|p2a: Spashbyss|spa|2
+|-boost|p2a: Spashbyss|spe|2
+|-unboost|p2a: Spashbyss|def|1
+|-unboost|p2a: Spashbyss|spd|1
+|-enditem|p2a: Spashbyss|White Herb
+|-restoreboost|p2a: Spashbyss|[silent]
+|
+|turn|13
+|
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|-damage|p1a: Dragonite|243/323|[from] Stealth Rock
+|move|p2a: Spashbyss|Substitute|p2a: Spashbyss
+|-start|p2a: Spashbyss|Substitute
+|-damage|p2a: Spashbyss|12/311
+|
+|turn|14
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Spashbyss
+|-end|p2a: Spashbyss|Substitute
+|move|p2a: Spashbyss|Baton Pass|p2a: Spashbyss
+|
+|switch|p2a: Topnite|Dragonite, F|323/323
+|
+|turn|15
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Topnite
+|-damage|p2a: Topnite|245/323
+|move|p2a: Topnite|Outrage|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Jirachi|Jirachi|320/341
+|-damage|p1a: Jirachi|299/341|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Topnite|Outrage|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|69/341
+|move|p1a: Jirachi|Ice Punch|p2a: Topnite
+|-supereffective|p2a: Topnite
+|-damage|p2a: Topnite|0 fnt
+|faint|p2a: Topnite
+|
+|
+|switch|p2a: Wallbreaker|Keldeo|351/351
+|turn|17
+|
+|move|p1a: Jirachi|Ice Punch|p2a: Wallbreaker
+|-resisted|p2a: Wallbreaker
+|-damage|p2a: Wallbreaker|306/351
+|move|p2a: Wallbreaker|Hidden Power|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: Wallbreaker|327/351|[from] item: Leftovers
+|
+|switch|p1a: Latios|Latios, M|228/302
+|-damage|p1a: Latios|191/302|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Spashbyss|Gorebyss, M|12/311
+|move|p1a: Latios|Trick|p2a: Spashbyss
+|-activate|p1a: Latios|move: Trick|[of] p2a: Spashbyss
+|-item|p2a: Spashbyss|Choice Specs|[from] move: Trick
+|
+|turn|19
+|
+|move|p1a: Latios|Psyshock|p2a: Spashbyss
+|-damage|p2a: Spashbyss|0 fnt
+|faint|p2a: Spashbyss
+|
+|
+|switch|p2a: Moreused|Jirachi|227/404
+|turn|20
+|
+|move|p1a: Latios|Surf|p2a: Moreused
+|-damage|p2a: Moreused|114/404
+|move|p2a: Moreused|Calm Mind|p2a: Moreused
+|-boost|p2a: Moreused|spa|1
+|-boost|p2a: Moreused|spd|1
+|
+|-heal|p2a: Moreused|139/404|[from] item: Leftovers
+|turn|21
+|
+|switch|p1a: Heatran|Heatran, M|323/323
+|-damage|p1a: Heatran|283/323|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Moreused|Psyshock|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|202/323
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Moreused|164/404|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Moreused|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|74/323
+|-status|p1a: Heatran|par
+|move|p1a: Heatran|Fire Blast|p2a: Moreused
+|-supereffective|p2a: Moreused
+|-damage|p2a: Moreused|0 fnt
+|faint|p2a: Moreused
+|
+|
+|switch|p2a: Wallbreaker|Keldeo|327/351
+|turn|23
+|
+|move|p2a: Wallbreaker|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Wallbreaker|348/351|[from] item: Leftovers
+|
+|switch|p1a: Latios|Latios, M|191/302
+|-damage|p1a: Latios|154/302|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Latios|Psyshock|p2a: Wallbreaker
+|-supereffective|p2a: Wallbreaker
+|-damage|p2a: Wallbreaker|18/351
+|move|p2a: Wallbreaker|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|win|raichushiny
+|raw|Ladder updating...
+|raw|toomanyefforts's rating: 1330 &rarr; <strong>1322</strong><br />(-8 for losing)
+|raw|raichushiny's rating: 1566 &rarr; <strong>1574</strong><br />(+8 for winning)
+|chat|raichushiny|gg

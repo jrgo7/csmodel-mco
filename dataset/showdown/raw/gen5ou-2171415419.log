@@ -1,0 +1,275 @@
+|j|☆Master Carbon
+|j|☆Xalvadore
+|t:|1722529729
+|gametype|singles
+|player|p1|Master Carbon|skyla|1331
+|player|p2|Xalvadore|nanu|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Starmie|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Keldeo|item
+|poke|p1|Tyranitar, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Qwilfish, F|item
+|poke|p2|Virizion|item
+|teampreview
+|
+|t:|1722529750
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|
+|t:|1722529787
+|move|p2a: Latios|Trick|p1a: Jirachi
+|-activate|p2a: Latios|move: Trick|[of] p1a: Jirachi
+|-item|p1a: Jirachi|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|
+|upkeep
+|turn|2
+|
+|t:|1722529799
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Latios|Surf|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1722529813
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|21/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Politoed|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|87/100|[from] item: Leftovers
+|-heal|p1a: Politoed|27/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1722529832
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1722529835
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-ability|p1a: Tyranitar|Unnerve
+|turn|5
+|
+|t:|1722529847
+|-activate|p2a: Latios|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Latios|[from]Pursuit
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1722529852
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|6
+|
+|t:|1722529865
+|switch|p1a: Jirachi|Jirachi|75/100
+|move|p2a: Mamoswine|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1722529875
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|7
+|
+|t:|1722529889
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|-ability|p2a: Spiritomb|Pressure
+|move|p1a: Keldeo|Surf|p2a: Spiritomb
+|-crit|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1722529893
+|switch|p2a: Virizion|Virizion|100/100
+|turn|8
+|
+|t:|1722529900
+|move|p2a: Virizion|Leaf Blade|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|-damage|p2a: Virizion|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1722529908
+|switch|p1a: Starmie|Starmie|100/100
+|-item|p1a: Starmie|Air Balloon
+|turn|9
+|
+|t:|1722529913
+|move|p1a: Starmie|Ice Beam|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|42/100
+|move|p2a: Virizion|Leaf Blade|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-enditem|p1a: Starmie|Air Balloon
+|faint|p1a: Starmie
+|-damage|p2a: Virizion|33/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| Kautilya07
+|
+|t:|1722529924
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|10
+|
+|t:|1722529928
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Thundurus|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|97/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1722529932
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|76/100
+|move|p2a: Heatran|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: Master Carbon|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1722529937
+|move|p1a: Thundurus|Focus Blast|p2a: Heatran|[miss]
+|-miss|p1a: Thundurus|p2a: Heatran
+|move|p2a: Heatran|Roar|p1a: Thundurus
+|drag|p1a: Tyranitar|Tyranitar, F|100/100
+|-ability|p1a: Tyranitar|Unnerve
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1722529949
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Stealth Rock|p2a: Qwilfish
+|-sidestart|p2: Xalvadore|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1722529962
+|switch|p1a: Thundurus|Thundurus-Therian, M|82/100
+|-damage|p1a: Thundurus|57/100|[from] Stealth Rock
+|move|p2a: Qwilfish|Waterfall|p1a: Thundurus
+|-damage|p1a: Thundurus|13/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|19/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1722529967
+|move|p1a: Thundurus|Thunder|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1722529970
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1722529977
+|switch|p1a: Tyranitar|Tyranitar, F|88/100
+|-ability|p1a: Tyranitar|Unnerve
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Ice Shard|p1a: Tyranitar
+|-damage|p1a: Tyranitar|55/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1722529983
+|move|p2a: Mamoswine|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1722529985
+|switch|p1a: Thundurus|Thundurus-Therian, M|25/100
+|-damage|p1a: Thundurus|0 fnt|[from] Stealth Rock
+|faint|p1a: Thundurus
+|
+|win|Xalvadore
+|raw|Master Carbon's rating: 1331 &rarr; <strong>1307</strong><br />(-24 for losing)
+|raw|Xalvadore's rating: 1261 &rarr; <strong>1291</strong><br />(+30 for winning)
+|c|☆Xalvadore|gg

@@ -1,0 +1,333 @@
+|join|basco
+|join|Pythagorean Python
+|player|p1|basco|1
+|player|p2|Pythagorean Python|10
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Tyranitar, M
+|poke|p1|Magnezone
+|poke|p1|Terrakion
+|poke|p1|Latios, M, shiny
+|poke|p1|Scizor, M, shiny
+|poke|p1|Landorus-Therian, M
+|poke|p2|Kyurem-Black
+|poke|p2|Landorus-Therian, M
+|poke|p2|Keldeo
+|poke|p2|Thundurus-Therian, M
+|poke|p2|Dusclops, F
+|poke|p2|Conkeldurr, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Pat Riely|Tyranitar, M|403/403
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|319/319
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Pat Riely
+|-unboost|p1a: Pat Riely|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Pat Riely
+|turn|1
+|
+|move|p2a: Landorus-Therian|U-turn|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|235/403
+|
+|switch|p2a: Dusclops|Dusclops, F|222/222
+|-ability|p2a: Dusclops|Pressure
+|move|p1a: Pat Riely|Ice Beam|p2a: Dusclops
+|-damage|p2a: Dusclops|193/222
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusclops|180/222|[from] sandstorm
+|-heal|p1a: Pat Riely|260/403|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Pat Riely|Stealth Rock|p2a: Dusclops
+|-sidestart|p2: Pythagorean Python|move: Stealth Rock
+|move|p2a: Dusclops|Will-O-Wisp|p1a: Pat Riely
+|-status|p1a: Pat Riely|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusclops|167/222|[from] sandstorm
+|-heal|p1a: Pat Riely|285/403 brn|[from] item: Leftovers
+|-damage|p1a: Pat Riely|235/403 brn|[from] brn
+|turn|3
+|
+|move|p1a: Pat Riely|Pursuit|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|149/222
+|move|p2a: Dusclops|Confuse Ray|p1a: Pat Riely
+|-start|p1a: Pat Riely|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusclops|136/222|[from] sandstorm
+|-heal|p1a: Pat Riely|260/403 brn|[from] item: Leftovers
+|-damage|p1a: Pat Riely|210/403 brn|[from] brn
+|turn|4
+|
+|switch|p1a: Bosh|Latios, M, shiny|301/301
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|319/319
+|-damage|p2a: Landorus-Therian|280/319|[from] Stealth Rock
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Bosh
+|-unboost|p1a: Bosh|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|283/301|[from] sandstorm
+|turn|5
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|382/382
+|-ability|p1a: Bron Bron|Intimidate|[of] p2a: Landorus-Therian
+|-unboost|p2a: Landorus-Therian|atk|1
+|move|p2a: Landorus-Therian|U-turn|p1a: Bron Bron
+|-resisted|p1a: Bron Bron
+|-damage|p1a: Bron Bron|352/382
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|-damage|p2a: Keldeo|303/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|283/323|[from] sandstorm
+|turn|6
+|
+|switch|p1a: Pat Riely|Tyranitar, M|210/403 brn
+|move|p2a: Keldeo|Icy Wind|p1a: Pat Riely
+|-damage|p1a: Pat Riely|167/403 brn
+|-unboost|p1a: Pat Riely|spe|1
+|-damage|p2a: Keldeo|251/323|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|231/323|[from] sandstorm
+|-heal|p1a: Pat Riely|192/403 brn|[from] item: Leftovers
+|-damage|p1a: Pat Riely|142/403 brn|[from] brn
+|turn|7
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|0 fnt
+|-damage|p2a: Keldeo|199/323|[from] item: Life Orb
+|faint|p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|179/323|[from] sandstorm
+|
+|switch|p1a: Bosh|Latios, M, shiny|283/301
+|turn|8
+|
+|switch|p2a: Dusclops|Dusclops, F|136/222
+|-damage|p2a: Dusclops|109/222|[from] Stealth Rock
+|-ability|p2a: Dusclops|Pressure
+|move|p1a: Bosh|Psyshock|p2a: Dusclops
+|-damage|p2a: Dusclops|43/222
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|265/301|[from] sandstorm
+|-damage|p2a: Dusclops|30/222|[from] sandstorm
+|turn|9
+|
+|move|p1a: Bosh|Psyshock|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|faint|p2a: Dusclops
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|247/301|[from] sandstorm
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|300/300
+|-damage|p2a: Thundurus-Therian|225/300|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Ray Allen|Magnezone|283/283
+|move|p2a: Thundurus-Therian|Agility|p2a: Thundurus-Therian
+|-boost|p2a: Thundurus-Therian|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus-Therian|207/300|[from] sandstorm
+|turn|11
+|
+|move|p2a: Thundurus-Therian|Focus Blast|p1a: Ray Allen|[miss]
+|-miss|p2a: Thundurus-Therian|p1a: Ray Allen
+|move|p1a: Ray Allen|Hidden Power|p2a: Thundurus-Therian
+|-damage|p2a: Thundurus-Therian|104/300
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus-Therian|86/300|[from] sandstorm
+|turn|12
+|
+|move|p2a: Thundurus-Therian|Focus Blast|p1a: Ray Allen
+|-supereffective|p1a: Ray Allen
+|-damage|p1a: Ray Allen|0 fnt
+|-damage|p2a: Thundurus-Therian|56/300|[from] item: Life Orb
+|faint|p1a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus-Therian|38/300|[from] sandstorm
+|
+|switch|p1a: Miller|Scizor, M, shiny|343/343
+|turn|13
+|
+|move|p1a: Miller|Bullet Punch|p2a: Thundurus-Therian
+|-resisted|p2a: Thundurus-Therian
+|-damage|p2a: Thundurus-Therian|0 fnt
+|faint|p2a: Thundurus-Therian
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|414/414
+|-damage|p2a: Conkeldurr|389/414|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|352/382
+|-ability|p1a: Bron Bron|Intimidate|[of] p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|move|p2a: Conkeldurr|Ice Punch|p1a: Bron Bron
+|-supereffective|p1a: Bron Bron
+|-damage|p1a: Bron Bron|0 fnt
+|-damage|p2a: Conkeldurr|348/414|[from] item: Life Orb
+|faint|p1a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|323/414|[from] sandstorm
+|
+|switch|p1a: Bosh|Latios, M, shiny|247/301
+|turn|15
+|
+|switch|p2a: Kyurem-Black|Kyurem-Black|454/454
+|-damage|p2a: Kyurem-Black|341/454|[from] Stealth Rock
+|-ability|p2a: Kyurem-Black|Teravolt
+|move|p1a: Bosh|Psyshock|p2a: Kyurem-Black
+|-damage|p2a: Kyurem-Black|197/454
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|229/301|[from] sandstorm
+|-damage|p2a: Kyurem-Black|169/454|[from] sandstorm
+|turn|16
+|
+|switch|p1a: Miller|Scizor, M, shiny|343/343
+|move|p2a: Kyurem-Black|Outrage|p1a: Miller
+|-resisted|p1a: Miller
+|-damage|p1a: Miller|139/343
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem-Black|141/454|[from] sandstorm
+|turn|17
+|
+|move|p1a: Miller|Bullet Punch|p2a: Kyurem-Black
+|-supereffective|p2a: Kyurem-Black
+|-damage|p2a: Kyurem-Black|0 fnt
+|faint|p2a: Kyurem-Black
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|323/414
+|-damage|p2a: Conkeldurr|298/414|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Miller|Bullet Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|103/414
+|move|p2a: Conkeldurr|Drain Punch|p1a: Miller
+|-damage|p1a: Miller|0 fnt
+|-heal|p2a: Conkeldurr|173/414|[from] drain|[of] p1a: Miller
+|-damage|p2a: Conkeldurr|132/414|[from] item: Life Orb
+|faint|p1a: Miller
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|107/414|[from] sandstorm
+|
+|switch|p1a: Bosh|Latios, M, shiny|229/301
+|turn|19
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Bosh
+|-resisted|p1a: Bosh
+|-damage|p1a: Bosh|158/301
+|-damage|p2a: Conkeldurr|66/414|[from] item: Life Orb
+|move|p1a: Bosh|Psyshock|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|140/301|[from] sandstorm
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|280/319
+|-damage|p2a: Landorus-Therian|241/319|[from] Stealth Rock
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Bosh
+|-unboost|p1a: Bosh|atk|1
+|turn|20
+|
+|switch|p1a: D.Wade|Terrakion|323/323
+|move|p2a: Landorus-Therian|U-turn|p1a: D.Wade
+|-resisted|p1a: D.Wade
+|-damage|p1a: D.Wade|278/323
+|
+|switch|p2a: Keldeo|Keldeo|179/323
+|-damage|p2a: Keldeo|159/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|139/323|[from] sandstorm
+|turn|21
+|
+|move|p1a: D.Wade|Close Combat|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|241/319
+|-damage|p2a: Landorus-Therian|202/319|[from] Stealth Rock
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: D.Wade
+|-unboost|p1a: D.Wade|atk|1
+|turn|22
+|
+|switch|p1a: Bosh|Latios, M, shiny|140/301
+|move|p2a: Landorus-Therian|Stone Edge|p1a: Bosh
+|-damage|p1a: Bosh|0 fnt
+|faint|p1a: Bosh
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: D.Wade|Terrakion|278/323
+|turn|23
+|
+|move|p1a: D.Wade|Stone Edge|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|19/319
+|move|p2a: Landorus-Therian|Stone Edge|p1a: D.Wade
+|-crit|p1a: D.Wade
+|-resisted|p1a: D.Wade
+|-damage|p1a: D.Wade|140/323
+|
+|-weather|Sandstorm|[upkeep]
+|turn|24
+|
+|move|p1a: D.Wade|Stone Edge|p2a: Landorus-Therian|[miss]
+|-miss|p1a: D.Wade|p2a: Landorus-Therian
+|move|p2a: Landorus-Therian|Stone Edge|p1a: D.Wade
+|-crit|p1a: D.Wade
+|-resisted|p1a: D.Wade
+|-damage|p1a: D.Wade|2/323
+|
+|-weather|Sandstorm|[upkeep]
+|turn|25
+|
+|move|p1a: D.Wade|Stone Edge|p2a: Landorus-Therian
+|-crit|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|0 fnt
+|faint|p2a: Landorus-Therian
+|
+|win|basco
+|raw|Ladder updating...
+|chat|Pythagorean Python|gg
+|raw|basco's rating: 1379 &rarr; <strong>1395</strong><br />(+16 for winning)
+|raw|Pythagorean Python's rating: 1314 &rarr; <strong>1297</strong><br />(-17 for losing)
+|chat|basco|gg
+|leave|Pythagorean Python
+|player|p2

@@ -1,0 +1,526 @@
+|join|JamesH93
+|join|SFNanashi
+|player|p1|JamesH93|48
+|player|p2|SFNanashi|266
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Thundurus-Therian, M, shiny
+|poke|p1|Politoed, F
+|poke|p1|Ferrothorn, M
+|poke|p1|Vaporeon, F
+|poke|p1|Tentacruel, F
+|poke|p1|Haxorus, F
+|poke|p2|Ninetales, M
+|poke|p2|Lilligant, F
+|poke|p2|Victini
+|poke|p2|Arcanine, M
+|poke|p2|Volcarona, M
+|poke|p2|Donphan, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F|322/322
+|switch|p2a: Gaia|Donphan, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p2a: Lilligant|Lilligant, F|281/281
+|move|p1a: Politoed|Scald|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|170/281
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Hemothorn.|Ferrothorn, M|352/352
+|move|p2a: Lilligant|Sleep Powder|p1a: Hemothorn.
+|-status|p1a: Hemothorn.|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Helios|Ninetales, M|287/287
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Helios
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p2a: Helios|Will-O-Wisp|p1a: Tentacruel
+|-status|p1a: Tentacruel|brn
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Helios
+|-sidestart|p2: SFNanashi|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Tentacruel|319/364 brn|[from] brn
+|turn|5
+|
+|move|p2a: Helios|Energy Ball|p1a: Tentacruel
+|-damage|p1a: Tentacruel|270/364 brn
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Helios
+|-sidestart|p2: SFNanashi|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|292/364 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|247/364 brn|[from] brn
+|turn|6
+|
+|switch|p1a: Politoed|Politoed, F|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Helios|Calm Mind|p2a: Helios
+|-boost|p2a: Helios|spa|1
+|-boost|p2a: Helios|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p1a: Haxorus|Haxorus, F|294/294
+|-ability|p1a: Haxorus|Mold Breaker
+|switch|p2a: Lilligant|Lilligant, F|170/281
+|-status|p2a: Lilligant|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Lilligant|153/281 tox|[from] psn
+|turn|8
+|
+|move|p1a: Haxorus|X-Scissor|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Gaia|Donphan, F|384/384
+|-status|p2a: Gaia|tox
+|turn|9
+|
+|switch|p1a: Vaporeon|Vaporeon, F|463/463
+|move|p2a: Gaia|Rapid Spin|p1a: Vaporeon
+|-damage|p1a: Vaporeon|442/463
+|-sideend|p2: SFNanashi|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Gaia
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|463/463|[from] item: Leftovers
+|-damage|p2a: Gaia|360/384 tox|[from] psn
+|turn|10
+|
+|switch|p2a: Helios|Ninetales, M|287/287
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Helios
+|move|p1a: Vaporeon|Scald|p2a: Helios
+|-supereffective|p2a: Helios
+|-damage|p2a: Helios|189/287
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|206/287|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Politoed|Politoed, F|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Helios|Will-O-Wisp|p1a: Politoed
+|-status|p1a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Helios|223/287|[from] item: Leftovers
+|-damage|p1a: Politoed|282/322 brn|[from] brn
+|turn|12
+|
+|switch|p2a: Icarus|Volcarona, M|371/371
+|move|p1a: Politoed|Scald|p2a: Icarus
+|-supereffective|p2a: Icarus
+|-damage|p2a: Icarus|51/371
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|242/322 brn|[from] brn
+|turn|13
+|
+|move|p1a: Politoed|Scald|p2a: Icarus
+|-supereffective|p2a: Icarus
+|-damage|p2a: Icarus|0 fnt
+|faint|p2a: Icarus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|202/322 brn|[from] brn
+|
+|switch|p2a: Helios|Ninetales, M|223/287
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Helios
+|turn|14
+|
+|switch|p1a: Vaporeon|Vaporeon, F|463/463
+|move|p2a: Helios|Energy Ball|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|313/463
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|240/287|[from] item: Leftovers
+|-heal|p1a: Vaporeon|341/463|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Politoed|Politoed, F|202/322 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Helios|Energy Ball|p1a: Politoed
+|-crit|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Helios|257/287|[from] item: Leftovers
+|
+|switch|p1a: Haxorus|Haxorus, F|294/294
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|16
+|
+|switch|p2a: Gaia|Donphan, F|360/384 tox
+|move|p1a: Haxorus|Earthquake|p2a: Gaia
+|-damage|p2a: Gaia|270/384 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gaia|294/384 tox|[from] item: Leftovers
+|-damage|p2a: Gaia|270/384 tox|[from] psn
+|turn|17
+|
+|switch|p1a: Vaporeon|Vaporeon, F|341/463
+|move|p2a: Gaia|Ice Shard|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|322/463
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|350/463|[from] item: Leftovers
+|-heal|p2a: Gaia|294/384 tox|[from] item: Leftovers
+|-damage|p2a: Gaia|246/384 tox|[from] psn
+|turn|18
+|
+|switch|p2a: Helios|Ninetales, M|257/287
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Helios
+|move|p1a: Vaporeon|Scald|p2a: Helios
+|-supereffective|p2a: Helios
+|-damage|p2a: Helios|153/287
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|170/287|[from] item: Leftovers
+|-heal|p1a: Vaporeon|378/463|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Helios|Calm Mind|p2a: Helios
+|-boost|p2a: Helios|spa|1
+|-boost|p2a: Helios|spd|1
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|187/287|[from] item: Leftovers
+|-heal|p1a: Vaporeon|406/463|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Helios|Calm Mind|p2a: Helios
+|-boost|p2a: Helios|spa|1
+|-boost|p2a: Helios|spd|1
+|move|p1a: Vaporeon|Roar|p2a: Helios
+|drag|p2a: Nike|Victini|341/341
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|463/463|[from] move: Wish|[wisher] Vaporeon
+|turn|21
+|
+|switch|p1a: Hemothorn.|Ferrothorn, M|352/352 slp
+|move|p2a: Nike|Bolt Strike|p1a: Hemothorn.
+|-resisted|p1a: Hemothorn.
+|-damage|p1a: Hemothorn.|311/352 slp
+|-damage|p2a: Nike|299/341|[from] ability: Iron Barbs|[of] p1a: Hemothorn.
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hemothorn.|333/352 slp|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Helios|Ninetales, M|187/287
+|cant|p1a: Hemothorn.|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|204/287|[from] item: Leftovers
+|-heal|p1a: Hemothorn.|352/352 slp|[from] item: Leftovers
+|turn|23
+|
+|switch|p1a: Vaporeon|Vaporeon, F|463/463
+|move|p2a: Helios|Flamethrower|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|372/463
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|221/287|[from] item: Leftovers
+|-heal|p1a: Vaporeon|400/463|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Helios|Will-O-Wisp|p1a: Vaporeon|[miss]
+|-miss|p2a: Helios|p1a: Vaporeon
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|238/287|[from] item: Leftovers
+|-heal|p1a: Vaporeon|428/463|[from] item: Leftovers
+|turn|25
+|
+|switch|p1a: Tentacruel|Tentacruel, F|247/364 brn
+|move|p2a: Helios|Will-O-Wisp|p1a: Tentacruel
+|-fail|p1a: Tentacruel|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|364/364 brn|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Helios|255/287|[from] item: Leftovers
+|-damage|p1a: Tentacruel|319/364 brn|[from] brn
+|turn|26
+|
+|move|p2a: Helios|Calm Mind|p2a: Helios
+|-boost|p2a: Helios|spa|1
+|-boost|p2a: Helios|spd|1
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|228/364 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|272/287|[from] item: Leftovers
+|-heal|p1a: Tentacruel|250/364 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|205/364 brn|[from] brn
+|turn|27
+|
+|move|p2a: Helios|Calm Mind|p2a: Helios
+|-boost|p2a: Helios|spa|1
+|-boost|p2a: Helios|spd|1
+|move|p1a: Tentacruel|Scald|p2a: Helios
+|-supereffective|p2a: Helios
+|-damage|p2a: Helios|230/287
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|247/287|[from] item: Leftovers
+|-heal|p1a: Tentacruel|227/364 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|182/364 brn|[from] brn
+|turn|28
+|
+|switch|p1a: Haxorus|Haxorus, F|294/294
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Helios|Calm Mind|p2a: Helios
+|-boost|p2a: Helios|spa|1
+|-boost|p2a: Helios|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Helios|264/287|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Haxorus|Earthquake|p2a: Helios
+|-supereffective|p2a: Helios
+|-damage|p2a: Helios|0 fnt
+|faint|p2a: Helios
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Nike|Victini|299/341
+|turn|30
+|
+|move|p2a: Nike|V-create|p1a: Haxorus
+|-crit|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-unboost|p2a: Nike|def|1
+|-unboost|p2a: Nike|spd|1
+|-unboost|p2a: Nike|spe|1
+|faint|p1a: Haxorus
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M, shiny|300/300
+|turn|31
+|
+|move|p1a: Thundurus-Therian|Agility|p1a: Thundurus-Therian
+|-boost|p1a: Thundurus-Therian|spe|2
+|move|p2a: Nike|V-create|p1a: Thundurus-Therian
+|-damage|p1a: Thundurus-Therian|0 fnt
+|-unboost|p2a: Nike|def|1
+|-unboost|p2a: Nike|spd|1
+|-unboost|p2a: Nike|spe|1
+|faint|p1a: Thundurus-Therian
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Vaporeon|Vaporeon, F|428/463
+|turn|32
+|
+|switch|p2a: Heracles|Arcanine, M|339/339
+|move|p1a: Vaporeon|Scald|p2a: Heracles
+|-supereffective|p2a: Heracles
+|-damage|p2a: Heracles|217/339
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|456/463|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Heracles|Morning Sun|p2a: Heracles
+|-heal|p2a: Heracles|339/339
+|move|p1a: Vaporeon|Scald|p2a: Heracles
+|-supereffective|p2a: Heracles
+|-damage|p2a: Heracles|225/339
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|463/463|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Heracles|Extreme Speed|p1a: Vaporeon
+|-damage|p1a: Vaporeon|354/463
+|-damage|p2a: Heracles|192/339|[from] item: Life Orb
+|move|p1a: Vaporeon|Scald|p2a: Heracles
+|-supereffective|p2a: Heracles
+|-damage|p2a: Heracles|58/339
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|382/463|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Heracles|Morning Sun|p2a: Heracles
+|-heal|p2a: Heracles|284/339
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|410/463|[from] item: Leftovers
+|turn|36
+|
+|switch|p1a: Tentacruel|Tentacruel, F|182/364 brn
+|move|p2a: Heracles|Flare Blitz|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-damage|p2a: Heracles|224/339|[from] recoil|[of] p1a: Tentacruel
+|-damage|p2a: Heracles|191/339|[from] item: Life Orb
+|faint|p1a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Vaporeon|Vaporeon, F|410/463
+|turn|37
+|
+|move|p2a: Heracles|Morning Sun|p2a: Heracles
+|-heal|p2a: Heracles|339/339
+|move|p1a: Vaporeon|Scald|p2a: Heracles
+|-crit|p2a: Heracles
+|-supereffective|p2a: Heracles
+|-damage|p2a: Heracles|109/339
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|438/463|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Heracles|Morning Sun|p2a: Heracles
+|-heal|p2a: Heracles|335/339
+|move|p1a: Vaporeon|Scald|p2a: Heracles
+|-supereffective|p2a: Heracles
+|-damage|p2a: Heracles|207/339
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|463/463|[from] item: Leftovers
+|turn|39
+|
+|move|p2a: Heracles|Flare Blitz|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|280/463
+|-damage|p2a: Heracles|147/339|[from] recoil|[of] p1a: Vaporeon
+|-damage|p2a: Heracles|114/339|[from] item: Life Orb
+|move|p1a: Vaporeon|Scald|p2a: Heracles
+|-supereffective|p2a: Heracles
+|-damage|p2a: Heracles|0 fnt
+|faint|p2a: Heracles
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|308/463|[from] item: Leftovers
+|
+|switch|p2a: Nike|Victini|299/341
+|turn|40
+|
+|switch|p1a: Hemothorn.|Ferrothorn, M|352/352 slp
+|move|p2a: Nike|Bolt Strike|p1a: Hemothorn.
+|-resisted|p1a: Hemothorn.
+|-damage|p1a: Hemothorn.|309/352 slp
+|-damage|p2a: Nike|257/341|[from] ability: Iron Barbs|[of] p1a: Hemothorn.
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hemothorn.|331/352 slp|[from] item: Leftovers
+|turn|41
+|
+|switch|p2a: Gaia|Donphan, F|246/384 tox
+|cant|p1a: Hemothorn.|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gaia|270/384 tox|[from] item: Leftovers
+|-heal|p1a: Hemothorn.|352/352 slp|[from] item: Leftovers
+|-damage|p2a: Gaia|246/384 tox|[from] psn
+|turn|42
+|
+|move|p2a: Gaia|Stealth Rock|p1a: Hemothorn.
+|-sidestart|p1: JamesH93|move: Stealth Rock
+|-curestatus|p1a: Hemothorn.|slp
+|move|p1a: Hemothorn.|Power Whip|p2a: Gaia
+|-supereffective|p2a: Gaia
+|-damage|p2a: Gaia|72/384 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gaia|96/384 tox|[from] item: Leftovers
+|-damage|p2a: Gaia|48/384 tox|[from] psn
+|turn|43
+|
+|move|p2a: Gaia|Ice Shard|p1a: Hemothorn.
+|-damage|p1a: Hemothorn.|327/352
+|move|p1a: Hemothorn.|Thunder Wave|p2a: Gaia
+|-immune|p2a: Gaia|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gaia|72/384 tox|[from] item: Leftovers
+|-heal|p1a: Hemothorn.|349/352|[from] item: Leftovers
+|-damage|p2a: Gaia|0 fnt|[from] psn
+|faint|p2a: Gaia
+|
+|switch|p2a: Nike|Victini|257/341
+|turn|44
+|
+|move|p2a: Nike|V-create|p1a: Hemothorn.
+|-supereffective|p1a: Hemothorn.
+|-damage|p1a: Hemothorn.|0 fnt
+|-damage|p2a: Nike|215/341|[from] ability: Iron Barbs|[of] p1a: Hemothorn.
+|-unboost|p2a: Nike|def|1
+|-unboost|p2a: Nike|spd|1
+|-unboost|p2a: Nike|spe|1
+|faint|p1a: Hemothorn.
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Vaporeon|Vaporeon, F|308/463
+|-damage|p1a: Vaporeon|251/463|[from] Stealth Rock
+|turn|45
+|
+|move|p2a: Nike|V-create|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|53/463
+|-unboost|p2a: Nike|def|1
+|-unboost|p2a: Nike|spd|1
+|-unboost|p2a: Nike|spe|1
+|move|p1a: Vaporeon|Scald|p2a: Nike
+|-crit|p2a: Nike
+|-supereffective|p2a: Nike
+|-damage|p2a: Nike|0 fnt
+|faint|p2a: Nike
+|
+|win|JamesH93
+|raw|Ladder updating...
+|raw|JamesH93's rating: 1367 &rarr; <strong>1390</strong><br />(+23 for winning)
+|raw|SFNanashi's rating: 1423 &rarr; <strong>1400</strong><br />(-23 for losing)
+|chat|JamesH93|YES
+|chat|JamesH93|YES
+|chat|JamesH93|YES
+|chat|JamesH93|YES
+|chat|JamesH93|SCORE
+|leave|SFNanashi
+|player|p2

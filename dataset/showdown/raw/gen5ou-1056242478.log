@@ -1,0 +1,622 @@
+|j|☆Shoka
+|j|☆Erg's Bagel
+|player|p1|Shoka|ninjaboy|1627
+|player|p2|Erg's Bagel|35|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Celebi|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Celebi|item
+|poke|p2|Dragonite, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Celebi|Celebi|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|turn|1
+|
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Erg's Bagel)
+|
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: Baton Pass
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Skarmory|Spikes|p1a: Excadrill
+|-sidestart|p1: Shoka|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|-sideend|p1: Shoka|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Skarmory|Spikes|p1a: Excadrill
+|-sidestart|p1: Shoka|Spikes
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Excadrill|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|92/100
+|-sideend|p1: Shoka|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|j| EfrainGamerTV08
+|l| EfrainGamerTV08
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Celebi|[miss]
+|-miss|p2a: Politoed|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: Baton Pass
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Shoka has 120 seconds left.
+|inactive|Shoka has 90 seconds left.
+|
+|move|p2a: Celebi|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|20/100|[from] Sandstorm
+|-heal|p2a: Celebi|26/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Celebi|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|78/100 par
+|-heal|p2a: Celebi|37/100|[from] drain|[of] p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|92/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|10
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Politoed|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|54/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Tyranitar|Tyranitar, F|78/100 par
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Jirachi|Water Pulse|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|72/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Shoka has 120 seconds left.
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Excadrill|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Gyarados|Waterfall|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|88/100|[from] Sandstorm
+|-damage|p1a: Rotom|70/100|[from] Sandstorm
+|-heal|p1a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Shoka has 120 seconds left.
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Dragonite|[miss]
+|-miss|p1a: Rotom|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-damage|p1a: Rotom|70/100|[from] Sandstorm
+|-heal|p1a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Dragonite|Superpower|p1a: Garchomp
+|-damage|p1a: Garchomp|47/100
+|-damage|p2a: Dragonite|82/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|def|1
+|-damage|p2a: Dragonite|72/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|66/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|switch|p1a: Rotom|Rotom-Wash|76/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|70/100|[from] Sandstorm
+|-heal|p1a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|34/100
+|inactive|Shoka has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M|78/100|[from]move: Volt Switch
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|85/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|84/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|77/100
+|move|p2a: Skarmory|Spikes|p1a: Excadrill
+|-sidestart|p1: Shoka|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|90/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Politoed|Politoed, F|92/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Excadrill|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|84/100
+|-sideend|p1: Shoka|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|96/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|switch|p2a: Gyarados|Gyarados, M|88/100
+|move|p1a: Excadrill|Protect||[still]
+|-fail|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Rotom|Rotom-Wash|76/100
+|move|p2a: Gyarados|Waterfall|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|43/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Jirachi
+|-damage|p2a: Jirachi|80/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: Volt Switch
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Gyarados|Gyarados, M|88/100
+|switch|p1a: Rotom|Rotom-Wash|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|49/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Jirachi|Jirachi|86/100
+|switch|p1a: Tyranitar|Tyranitar, F|78/100 par
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|67/100
+|move|p1a: Tyranitar|Crunch|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|65/100 par
+|-start|p1a: Tyranitar|confusion
+|-activate|p1a: Tyranitar|confusion
+|move|p1a: Tyranitar|Crunch|p2a: Jirachi
+|-damage|p2a: Jirachi|44/100
+|-unboost|p2a: Jirachi|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|50/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|switch|p2a: Politoed|Politoed, F|84/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|switch|p2a: Gyarados|Gyarados, M|88/100
+|move|p1a: Excadrill|Protect||[still]
+|-fail|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Gyarados|Waterfall|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p1a: Garchomp|Garchomp, M|47/100
+|move|p2a: Gyarados|Waterfall|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Gyarados|76/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|turn|32
+|
+|switch|p2a: Skarmory|Skarmory, M|83/100
+|move|p1a: Landorus|Substitute|p1a: Landorus
+|-start|p1a: Landorus|Substitute
+|-damage|p1a: Landorus|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|82/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Landorus|Smack Down|p2a: Skarmory
+|-damage|p2a: Skarmory|79/100
+|-start|p2a: Skarmory|Smack Down
+|move|p2a: Skarmory|Whirlwind|p1a: Landorus
+|drag|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Celebi|Celebi|54/100
+|switch|p2a: Gyarados|Gyarados, M|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|60/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Gyarados|Ice Fang|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|20/100
+|-status|p1a: Celebi|frz
+|cant|p1a: Celebi|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|26/100 frz|[from] item: Leftovers
+|upkeep
+|turn|36
+|j| EfrainGamerTV08
+|l| EfrainGamerTV08
+|
+|switch|p2a: Skarmory|Skarmory, M|85/100
+|cant|p1a: Celebi|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|32/100 frz|[from] item: Leftovers
+|-heal|p2a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆Shoka|of course man
+|c|☆Shoka|im so done
+|c|☆Shoka|with this game
+|
+|cant|p1a: Celebi|frz
+|move|p2a: Skarmory|Brave Bird|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-damage|p2a: Skarmory|78/100|[from] Recoil
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|49/100
+|turn|38
+|c|☆Erg's Bagel|you get hacked once and game isnt even over?
+|c|☆Shoka|i got hacked
+|c|☆Shoka|every 2 games
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|switch|p2a: Jirachi|Jirachi|50/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Jirachi
+|-status|p2a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|56/100 brn|[from] item: Leftovers
+|-heal|p1a: Rotom|55/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|44/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Tyranitar|Tyranitar, F|65/100 par
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|38/100 brn|[from] brn
+|upkeep
+|turn|40
+|c|☆Shoka|now i loose but you are not even good enough to see it
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|46/100 par
+|-start|p1a: Tyranitar|confusion
+|-activate|p1a: Tyranitar|confusion
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|32/100 brn|[from] brn
+|upkeep
+|turn|41
+|c|☆Erg's Bagel|i mean im definitely in a winning position but theres always a chance
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|28/100 par
+|-activate|p1a: Tyranitar|confusion
+|move|p1a: Tyranitar|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: Erg's Bagel|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|25/100 brn|[from] brn
+|upkeep
+|turn|42
+|c|☆Shoka|no, it was finish if i could hit the recover on celebi
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|7/100 par
+|-activate|p1a: Tyranitar|confusion
+|-damage|p1a: Tyranitar|0 fnt|[from] confusion
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|19/100 brn|[from] brn
+|upkeep
+|c|☆Erg's Bagel|ok
+|inactive|Shoka has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|43
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|45/100
+|-start|p1a: Excadrill|confusion
+|-activate|p1a: Excadrill|confusion
+|move|p1a: Excadrill|Iron Head|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|2/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|8/100 brn|[from] item: Leftovers
+|-heal|p1a: Excadrill|51/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|0 fnt|[from] brn
+|faint|p2a: Jirachi
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|84/100
+|-damage|p2a: Politoed|71/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|44
+|inactive|Erg's Bagel has 120 seconds left.
+|
+|-end|p1a: Excadrill|confusion
+|move|p1a: Excadrill|Iron Head|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|46/100
+|move|p2a: Politoed|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|55/100
+|turn|45
+|
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|3/100
+|c|☆Shoka|or if i hit the willowisp on dnite
+|
+|switch|p1a: Landorus|Landorus-Therian, M|82/100|[from]move: Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Politoed|atk|1
+|move|p2a: Politoed|Hydro Pump|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|55/100
+|turn|46
+|
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|66/100
+|-damage|p2a: Dragonite|41/100|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Rotom
+|-damage|p1a: Rotom|24/100
+|-damage|p2a: Dragonite|31/100|[from] item: Life Orb
+|move|p1a: Rotom|Hydro Pump|p2a: Dragonite|[miss]
+|-miss|p1a: Rotom|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|30/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|-message|Shoka forfeited.
+|
+|win|Erg's Bagel
+|l|☆Shoka
+|raw|Shoka's rating: 1627 &rarr; <strong>1595</strong><br />(-32 for losing)
+|raw|Erg&apos;s Bagel's rating: 1375 &rarr; <strong>1407</strong><br />(+32 for winning)

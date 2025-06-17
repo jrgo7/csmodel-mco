@@ -1,0 +1,181 @@
+|j|☆danrdx
+|j|☆rose of geass
+|player|p1|danrdx|265|1392
+|player|p2|rose of geass|lucas|1273
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Gengar, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Gliscor, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Tyranitar|Superpower|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|85/100
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Gliscor|Facade|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|64/100|[from] Sandstorm
+|-heal|p1a: Rotom|71/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|70/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|-heal|p2a: Amoonguss|83/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|77/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|83/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|77/100|[from] Sandstorm
+|-damage|p1a: Gengar|94/100 par|[from] Sandstorm
+|-heal|p2a: Amoonguss|83/100|[from] item: Black Sludge
+|-heal|p1a: Gengar|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|76/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|70/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|76/100 par|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Tyranitar|Crunch|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|move|p1a: Gengar|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|70/100 par|[from] Sandstorm
+|-heal|p1a: Gengar|76/100 par|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|71/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Rotom
+|-sidestart|p1: danrdx|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|64/100|[from] Sandstorm
+|-heal|p1a: Rotom|71/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|76/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|92/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|86/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|92/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Amoonguss|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-enditem|p1a: Garchomp|Yache Berry|[weaken]
+|-damage|p1a: Garchomp|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|86/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|92/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Amoonguss|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|86/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|92/100|[from] item: Black Sludge
+|upkeep
+|-message|danrdx forfeited.
+|
+|win|rose of geass
+|l|☆danrdx
+|raw|danrdx's rating: 1392 &rarr; <strong>1366</strong><br />(-26 for losing)
+|raw|rose of geass's rating: 1273 &rarr; <strong>1306</strong><br />(+33 for winning)
+|c|☆rose of geass|gg

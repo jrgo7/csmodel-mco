@@ -1,0 +1,220 @@
+|j|☆gamerno1
+|j|☆dark web uzi
+|player|p1|gamerno1|39|1554
+|player|p2|dark web uzi|roxie|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Mamoswine, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Lucario, M|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Mew|item
+|poke|p1|Uxie|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Metagross|item
+|poke|p2|Kyurem-Black|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: gamerno1|move: Stealth Rock
+|move|p1a: Mamoswine|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|30/100
+|-damage|p1a: Mamoswine|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gamerno1)
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Yache Berry|[eat]
+|-enditem|p2a: Garchomp|Yache Berry|[weaken]
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Mamoswine|81/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|3
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-damage|p2a: Kyurem|91/100|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Mew|Taunt|p2a: Magnezone
+|-start|p2a: Magnezone|move: Taunt
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Mew|Light Screen|p1a: Mew
+|-sidestart|p1: gamerno1|move: Light Screen
+|move|p2a: Magnezone|Thunderbolt|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lucario|atk|1
+|move|p1a: Lucario|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Lucario|88/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|7
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|move|p2a: Metagross|Zen Headbutt|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Uxie|Uxie|100/100
+|-damage|p1a: Uxie|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Kyurem|Kyurem-Black|91/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Uxie|Thunder Wave|p2a: Kyurem
+|-status|p2a: Kyurem|par
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Uxie|Memento|p2a: Kyurem
+|-unboost|p2a: Kyurem|atk|2
+|-unboost|p2a: Kyurem|spa|2
+|faint|p1a: Uxie
+|cant|p2a: Kyurem|par
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Cloyster|Razor Shell|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|12
+|
+|move|p1a: Cloyster|Razor Shell|p2a: Metagross
+|-damage|p2a: Metagross|56/100
+|move|p2a: Metagross|Meteor Mash|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-sideend|p1: gamerno1|move: Light Screen
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|88/100
+|-damage|p1a: Lucario|85/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Metagross|Meteor Mash|p1a: Lucario|[miss]
+|-miss|p2a: Metagross|p1a: Lucario
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Metagross|Meteor Mash|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|19/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Lucario|Close Combat|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|9/100|[from] item: Life Orb
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem-Black|91/100 par
+|-ability|p2a: Kyurem|Teravolt
+|turn|16
+|
+|move|p1a: Lucario|Close Combat|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|0 fnt|[from] item: Life Orb
+|faint|p2a: Kyurem
+|faint|p1a: Lucario
+|
+|win|dark web uzi
+|raw|gamerno1's rating: 1554 &rarr; <strong>1525</strong><br />(-29 for losing)
+|raw|dark web uzi's rating: 1396 &rarr; <strong>1425</strong><br />(+29 for winning)
+|c|☆gamerno1|gg
+|c|☆dark web uzi|gg
+|l|☆gamerno1

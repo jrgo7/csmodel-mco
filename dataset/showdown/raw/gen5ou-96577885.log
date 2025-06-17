@@ -1,0 +1,155 @@
+|join|Korby
+|join|Ryan House
+|player|p1|Korby|254
+|player|p2|Ryan House|52
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Espeon, F
+|poke|p1|Umbreon, F
+|poke|p1|Vaporeon, M
+|poke|p1|Ninjask, F
+|poke|p1|Mr. Mime, M
+|poke|p1|Scizor, F
+|poke|p2|Tyranitar, M, shiny
+|poke|p2|Regirock
+|poke|p2|Gastrodon, F, shiny
+|poke|p2|Ferrothorn, M, shiny
+|poke|p2|Breloom, M, shiny
+|poke|p2|Alakazam, M, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Ninjask|Ninjask, F|325/325
+|switch|p2a: a shroom just|Ferrothorn, M, shiny|352/352
+|turn|1
+|
+|move|p1a: Ninjask|Substitute|p1a: Ninjask
+|-start|p1a: Ninjask|Substitute
+|-damage|p1a: Ninjask|244/325
+|move|p2a: a shroom just|Power Whip|p1a: Ninjask|[miss]
+|-miss|p2a: a shroom just|p1a: Ninjask
+|
+|-boost|p1a: Ninjask|spe|1|[from] ability: Speed Boost
+|turn|2
+|
+|move|p1a: Ninjask|Baton Pass|p1a: Ninjask
+|
+|switch|p1a: Scizor|Scizor, F|344/344
+|move|p2a: a shroom just|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Korby|move: Stealth Rock
+|
+|turn|3
+|
+|switch|p2a: Regirock|Regirock|364/364
+|move|p1a: Scizor|Iron Defense|p1a: Scizor
+|-boost|p1a: Scizor|def|2
+|
+|turn|4
+|
+|move|p1a: Scizor|Iron Defense|p1a: Scizor
+|-boost|p1a: Scizor|def|2
+|move|p2a: Regirock|Stone Edge|p1a: Scizor
+|-activate|p1a: Scizor|Substitute|[damage]
+|
+|turn|5
+|
+|switch|p2a: Usurpator|Tyranitar, M, shiny|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Usurpator
+|move|p1a: Scizor|Iron Defense|p1a: Scizor
+|-boost|p1a: Scizor|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|turn|6
+|
+|move|p1a: Scizor|Baton Pass|p1a: Scizor
+|
+|switch|p1a: Vaporeon|Vaporeon, M|462/462
+|-damage|p1a: Vaporeon|405/462|[from] Stealth Rock
+|move|p2a: Usurpator|Fire Blast|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-end|p1a: Vaporeon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|377/462|[from] sandstorm
+|-heal|p1a: Vaporeon|405/462|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Vaporeon|Surf|p2a: Usurpator
+|-supereffective|p2a: Usurpator
+|-damage|p2a: Usurpator|254/404
+|move|p2a: Usurpator|Thunder|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|191/462
+|-status|p1a: Vaporeon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|163/462 par|[from] sandstorm
+|-heal|p2a: Usurpator|279/404|[from] item: Leftovers
+|-heal|p1a: Vaporeon|191/462 par|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Usurpator|Thunder|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Usurpator|304/404|[from] item: Leftovers
+|
+|switch|p1a: Ninjask|Ninjask, F|244/325
+|-damage|p1a: Ninjask|82/325|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Ninjask|Protect|p1a: Ninjask
+|-singleturn|p1a: Ninjask|Protect
+|move|p2a: Usurpator|Pursuit|p1a: Ninjask
+|-activate|p1a: Ninjask|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninjask|62/325|[from] sandstorm
+|-heal|p2a: Usurpator|329/404|[from] item: Leftovers
+|-boost|p1a: Ninjask|spe|1|[from] ability: Speed Boost
+|turn|10
+|
+|move|p1a: Ninjask|Baton Pass|p1a: Ninjask
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|284/284
+|-damage|p1a: Mr. Mime|249/284|[from] Stealth Rock
+|move|p2a: Usurpator|Pursuit|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|73/284
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Mime|56/284|[from] sandstorm
+|-heal|p1a: Mr. Mime|73/284|[from] item: Leftovers
+|-heal|p2a: Usurpator|354/404|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Mr. Mime|Barrier|p1a: Mr. Mime
+|-boost|p1a: Mr. Mime|def|2
+|move|p2a: Usurpator|Pursuit|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Usurpator|379/404|[from] item: Leftovers
+|-message|Korby forfeited.
+|
+|win|Ryan House
+|raw|Ladder updating...
+|leave|Korby
+|player|p1
+|raw|Korby's rating: 1487 &rarr; <strong>1463</strong><br />(-24 for losing)
+|raw|Ryan House's rating: 1421 &rarr; <strong>1445</strong><br />(+24 for winning)

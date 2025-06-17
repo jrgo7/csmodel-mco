@@ -1,0 +1,1475 @@
+|j|☆DanThaPan
+|j|☆dpp TTT
+|player|p1|DanThaPan|274
+|player|p2|dpp TTT|70
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Donphan, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Scizor, M|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Mew|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Ditto|item
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DanThaPan)
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Breloom
+|-status|p1a: Breloom|brn
+|move|p1a: Breloom|Spore|p2a: Mew
+|-status|p2a: Mew|slp|[from] move: Spore
+|
+|-damage|p1a: Breloom|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|cant|p2a: Mew|slp
+|
+|upkeep
+|turn|3
+|
+|-curestatus|p2a: Mew|slp|[msg]
+|move|p2a: Mew|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-damage|p1a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-damage|p1a: Scizor|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Scizor|Superpower|p2a: Skarmory
+|-damage|p2a: Skarmory|43/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|66/100 brn|[from] item: Life Orb
+|move|p2a: Skarmory|Whirlwind|p1a: Scizor
+|drag|p1a: Alakazam|Alakazam, M|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Alakazam|Focus Blast|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|81/100
+|
+|upkeep
+|turn|7
+|inactive|dpp TTT has 120 seconds left.
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|28/100
+|move|p2a: Latias|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|49/100
+|-damage|p2a: Latias|19/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|inactive|dpp TTT has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Alakazam|Hidden Power|p2a: Tyranitar
+|-damage|p2a: Tyranitar|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Alakazam|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|88/100 brn
+|turn|10
+|inactive|dpp TTT has 120 seconds left.
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Breloom|Spore|p2a: Mew
+|-status|p2a: Mew|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100 slp|[from] Sandstorm
+|-damage|p1a: Breloom|82/100 brn|[from] Sandstorm
+|-heal|p2a: Mew|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Breloom|70/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Scizor|Scizor, M|66/100 brn
+|cant|p2a: Mew|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100 slp|[from] Sandstorm
+|-heal|p2a: Mew|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Scizor|54/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Skarmory|Skarmory, M|43/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scizor|41/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Scizor|Superpower|p2a: Skarmory
+|-damage|p2a: Skarmory|3/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|32/100 brn|[from] item: Life Orb
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|53/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scizor|19/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|DanThaPan has 120 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|inactive|DanThaPan has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Jirachi|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|78/100
+|-status|p2a: Rotom|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|72/100 par|[from] Sandstorm
+|-heal|p2a: Rotom|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|DanThaPan has 120 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|71/100 par
+|move|p2a: Rotom|Will-O-Wisp|p1a: Jirachi|[miss]
+|-miss|p2a: Rotom|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|65/100 par|[from] Sandstorm
+|-heal|p2a: Rotom|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|DanThaPan has 120 seconds left.
+|
+|switch|p1a: Breloom|Breloom, M|70/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|43/100 brn
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|37/100 brn|[from] Sandstorm
+|-damage|p1a: Breloom|25/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: DanThaPan|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: DanThaPan|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|switch|p1a: Breloom|Breloom, M|25/100 brn
+|-damage|p1a: Breloom|9/100 brn|[from] Spikes
+|move|p2a: Skarmory|Whirlwind|p1a: Breloom
+|drag|p1a: Scizor|Scizor, M|19/100 brn
+|-damage|p1a: Scizor|3/100 brn|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Scizor|70/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Scizor|58/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|84/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: DanThaPan|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Rotom|Rotom-Wash|71/100 par
+|move|p1a: Jirachi|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|51/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|45/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p2a: Rotom|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Jirachi|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|44/100 par
+|cant|p2a: Rotom|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|38/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Rotom|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Jirachi|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|21/100 par
+|move|p2a: Rotom|Pain Split|p1a: Jirachi
+|-sethp|p1a: Jirachi|58/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|77/100 par|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|71/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|64/100|[from] item: Leftovers
+|-heal|p2a: Rotom|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Rotom|Will-O-Wisp|p1a: Jirachi
+|-status|p1a: Jirachi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|71/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|71/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|77/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|58/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Jirachi|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|67/100 par
+|move|p2a: Rotom|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|44/100 brn
+|
+|switch|p2a: Latias|Latias, F|19/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|13/100|[from] Sandstorm
+|-heal|p1a: Jirachi|94/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|63/100
+|-singleturn|p2a: Latias|move: Roost
+|move|p1a: Jirachi|Iron Head|p2a: Latias
+|-damage|p2a: Latias|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|40/100|[from] Sandstorm
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|81/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p2a: Rotom|Rotom-Wash|67/100 par
+|move|p1a: Jirachi|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|56/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|50/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|56/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|75/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Jirachi|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|45/100 par
+|cant|p2a: Rotom|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|39/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|81/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|45/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|69/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Jirachi|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|41/100 par
+|cant|p2a: Rotom|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|35/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|75/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|41/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|63/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Jirachi|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|38/100 par
+|move|p2a: Rotom|Pain Split|p1a: Jirachi
+|-sethp|p1a: Jirachi|46/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|61/100 par|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|55/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|52/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|61/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|39/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p2a: Mew|Mew|100/100 slp
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100 slp|[from] Sandstorm
+|-heal|p2a: Mew|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Jirachi|46/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|33/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|cant|p2a: Mew|slp
+|move|p1a: Jirachi|Body Slam|p2a: Mew
+|-damage|p2a: Mew|93/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|87/100 slp|[from] Sandstorm
+|-heal|p1a: Jirachi|83/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Mew|93/100 slp|[from] item: Leftovers
+|-heal|p1a: Jirachi|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|77/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p1a: Donphan|Donphan, F|100/100
+|-damage|p1a: Donphan|75/100|[from] Spikes
+|-curestatus|p2a: Mew|slp|[msg]
+|move|p2a: Mew|Taunt|p1a: Donphan
+|-start|p1a: Donphan|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|87/100|[from] Sandstorm
+|-heal|p2a: Mew|93/100|[from] item: Leftovers
+|-heal|p1a: Donphan|82/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Donphan
+|-status|p1a: Donphan|brn
+|move|p1a: Donphan|Rapid Spin|p2a: Mew
+|-damage|p2a: Mew|90/100
+|-sideend|p1: DanThaPan|Spikes|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|83/100|[from] Sandstorm
+|-heal|p2a: Mew|90/100|[from] item: Leftovers
+|-heal|p1a: Donphan|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Donphan|75/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Mew|Psychic|p1a: Donphan
+|-damage|p1a: Donphan|33/100 brn
+|move|p1a: Donphan|Earthquake|p2a: Mew
+|-damage|p2a: Mew|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|62/100|[from] Sandstorm
+|-heal|p2a: Mew|68/100|[from] item: Leftovers
+|-heal|p1a: Donphan|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Donphan|26/100 brn|[from] brn
+|-end|p1a: Donphan|move: Taunt
+|upkeep
+|turn|37
+|inactive|DanThaPan has 120 seconds left.
+|
+|move|p1a: Donphan|Ice Shard|p2a: Mew
+|-damage|p2a: Mew|62/100
+|move|p2a: Mew|Psychic|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|56/100|[from] Sandstorm
+|-heal|p2a: Mew|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|38
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Latios|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Tyranitar|Tyranitar, M|90/100
+|move|p1a: Latios|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|75/100
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|-activate|p1a: Latios|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Latios|[from]Pursuit
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|9/100 brn
+|turn|41
+|
+|switch|p2a: Skarmory|Skarmory, M|33/100
+|move|p1a: Breloom|Mach Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|2/100 brn|[from] Sandstorm
+|-damage|p1a: Breloom|0 fnt|[from] brn
+|faint|p1a: Breloom
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|58/100 brn
+|turn|42
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|73/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scizor|46/100 brn|[from] brn
+|upkeep
+|turn|43
+|inactive|DanThaPan has 120 seconds left.
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Skarmory|Brave Bird|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Skarmory|59/100|[from] Recoil
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|DanThaPan has 120 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|77/100 brn
+|turn|44
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|56/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|71/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|97/100
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|55/100 brn
+|-damage|p2a: Skarmory|91/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|49/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p2a: Mew|Mew|62/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|56/100|[from] Sandstorm
+|-heal|p2a: Mew|62/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|43/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Mew|Taunt|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|56/100|[from] Sandstorm
+|-heal|p1a: Jirachi|93/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Mew|62/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|87/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Mew|Taunt|p1a: Jirachi
+|-start|p1a: Jirachi|move: Taunt
+|move|p1a: Jirachi|Body Slam|p2a: Mew
+|-damage|p2a: Mew|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|48/100|[from] Sandstorm
+|-heal|p2a: Mew|54/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|80/100 brn|[from] brn
+|upkeep
+|turn|49
+|c|☆dpp TTT|plz just ff
+|c|☆dpp TTT|you cant winn
+|c|☆dpp TTT|i pp stall
+|
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|100/100
+|-singleturn|p2a: Mew|move: Roost
+|move|p1a: Jirachi|Body Slam||[still]
+|-damage|p2a: Mew|92/100
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-fail|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|86/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|87/100 brn|[from] item: Leftovers
+|-heal|p2a: Mew|92/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|74/100 brn|[from] brn
+|upkeep
+|turn|50
+|c|☆DanThaPan|Dont pp stall
+|c|☆DanThaPan|kill it
+|inactive|DanThaPan has 120 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|81/100 par
+|cant|p2a: Mew|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|75/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|80/100 brn|[from] item: Leftovers
+|-heal|p2a: Mew|81/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|68/100 brn|[from] brn
+|-end|p1a: Jirachi|move: Taunt
+|upkeep
+|turn|51
+|inactive|DanThaPan has 120 seconds left.
+|c|☆dpp TTT|19 iron head
+|inactive|dpp TTT has 120 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, M|91/100
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|88/100
+|-status|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|62/100 brn|[from] brn
+|upkeep
+|turn|52
+|inactive|DanThaPan has 120 seconds left.
+|inactive|dpp TTT has 120 seconds left.
+|c|☆DanThaPan|kill it
+|c|☆dpp TTT|no
+|c|☆DanThaPan|why
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|56/100 brn|[from] brn
+|upkeep
+|turn|53
+|c|☆dpp TTT|pp
+|inactive|dpp TTT has 120 seconds left.
+|c|☆DanThaPan|why
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|83/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|54
+|c|☆dpp TTT|18 ironhead
+|inactive|dpp TTT has 120 seconds left.
+|c|☆DanThaPan|sure
+|c|☆dpp TTT|17
+|c|☆DanThaPan|i can do this all day
+|inactive|DanThaPan has 90 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100 par
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|55
+|c|☆dpp TTT|u strugle
+|inactive|dpp TTT has 120 seconds left.
+|inactive|DanThaPan has 90 seconds left.
+|c|☆DanThaPan|i will waste your to,e
+|c|☆DanThaPan|time
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: DanThaPan|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|56
+|c|☆dpp TTT|sure
+|inactive|DanThaPan has 90 seconds left.
+|c|☆DanThaPan|ok
+|inactive|dpp TTT has 120 seconds left.
+|c|☆dpp TTT|nextflix 2 srean
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|96/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|57
+|c|☆DanThaPan|srean?
+|c|☆dpp TTT|screan
+|c|☆DanThaPan|i like how much urpokemon is flinching
+|c|☆DanThaPan|gives me joy
+|inactive|DanThaPan has 60 seconds left.
+|c|☆dpp TTT|me too
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: DanThaPan|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|58
+|inactive|DanThaPan has 60 seconds left.
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: DanThaPan|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|59
+|inactive|DanThaPan has 60 seconds left.
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|60
+|c|☆DanThaPan|paralyze too
+|c|☆DanThaPan|yum
+|inactive|DanThaPan has 60 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|61
+|c|☆dpp TTT|yea
+|c|☆dpp TTT|i lose less pp
+|inactive|DanThaPan has 60 seconds left.
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|62
+|c|☆DanThaPan|idc
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|87/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|83/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|64
+|c|☆DanThaPan|i will use all my moves
+|c|☆dpp TTT|ok
+|inactive|DanThaPan has 60 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|78/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|65
+|inactive|DanThaPan has 60 seconds left.
+|c|☆DanThaPan|make u work hard for win
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|63/100 brn|[from] brn
+|upkeep
+|turn|66
+|inactive|DanThaPan has 60 seconds left.
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|67
+|c|☆dpp TTT|yea
+|c|☆dpp TTT|i need it in my life
+|c|☆DanThaPan|good
+|inactive|DanThaPan has 60 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|74/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|68
+|inactive|DanThaPan has 60 seconds left.
+|inactive|dpp TTT has 120 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|69/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|69
+|c|☆dpp TTT|u like ur spikes
+|inactive|DanThaPan has 60 seconds left.
+|c|☆DanThaPan|yes
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|70
+|c|☆dpp TTT|so pointi
+|inactive|dpp TTT has 120 seconds left.
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|61/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|63/100 brn|[from] brn
+|upkeep
+|turn|71
+|c|☆DanThaPan|u like ur paralyzed pokemon
+|inactive|DanThaPan has 60 seconds left.
+|c|☆DanThaPan|flinching
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|57/100 brn|[from] brn
+|upkeep
+|turn|72
+|c|☆dpp TTT|yea
+|inactive|DanThaPan has 60 seconds left.
+|c|☆DanThaPan|me too
+|c|☆DanThaPan|thats what it deserves
+|c|☆dpp TTT|makes me turnd on
+|c|☆DanThaPan|nice
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|73
+|c|☆dpp TTT|yea
+|c|☆dpp TTT|yea
+|c|☆dpp TTT|yea
+|c|☆DanThaPan|u like wasting ur time
+|c|☆dpp TTT|------------------------
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|58/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|54/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|75
+|c|☆dpp TTT|u like losing?
+|c|☆DanThaPan|im wasting ur time
+|c|☆DanThaPan|i see this as an absolute win
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|50/100 par
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|99/100 par
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|76
+|c|☆dpp TTT|ur not waisting my time
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|95/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|63/100 brn|[from] brn
+|upkeep
+|turn|77
+|c|☆dpp TTT|i am gainig points
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|57/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|91/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|87/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|82/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|81
+|inactive|DanThaPan has 30 seconds left.
+|c|☆dpp TTT|nice 6-0 btw
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|77/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|82
+|inactive|DanThaPan has 30 seconds left.
+|c|☆DanThaPan|ty
+|c|☆DanThaPan|ikr
+|inactive|DanThaPan has 20 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|73/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|63/100 brn|[from] brn
+|upkeep
+|turn|83
+|inactive|DanThaPan has 30 seconds left this turn.
+|inactive|DanThaPan has 20 seconds left.
+|inactive|DanThaPan has 15 seconds left.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|57/100 brn|[from] brn
+|upkeep
+|turn|84
+|inactive|DanThaPan has 20 seconds left this turn.
+|inactive|DanThaPan has 15 seconds left.
+|inactive|dpp TTT has 120 seconds left.
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|70/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|85
+|inactive|DanThaPan has 25 seconds left this turn.
+|inactive|DanThaPan has 20 seconds left.
+|inactive|DanThaPan has 15 seconds left.
+|inactive|DanThaPan has 10 seconds left.
+|j| lupla
+|inactive|dpp TTT has 90 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|86
+|inactive|DanThaPan has 20 seconds left this turn.
+|inactive|DanThaPan has 15 seconds left.
+|inactive|dpp TTT has 90 seconds left.
+|j| code REDACTED
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|61/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|87
+|inactive|DanThaPan has 20 seconds left this turn.
+|j| sprinkles1
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|58/100 par
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|88
+|inactive|DanThaPan has 30 seconds left this turn.
+|c| lupla|time staller lmao
+|inactive|DanThaPan has 20 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|48/100 par
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|63/100 brn|[from] brn
+|upkeep
+|turn|89
+|inactive|DanThaPan has 30 seconds left this turn.
+|c|☆dpp TTT|yea...
+|l| sprinkles1
+|inactive|DanThaPan has 20 seconds left.
+|l| code REDACTED
+|inactive|DanThaPan has 15 seconds left.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|98/100 par
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|57/100 brn|[from] brn
+|upkeep
+|turn|90
+|inactive|DanThaPan has 20 seconds left this turn.
+|inactive|DanThaPan has 15 seconds left.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Skarmory|Spikes||[still]
+|-fail|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|91
+|inactive|DanThaPan has 20 seconds left this turn.
+|inactive|DanThaPan has 15 seconds left.
+|j| Chidori Kaname
+|c|☆DanThaPan|im loving wasting ur time
+|inactive|DanThaPan has 10 seconds left.
+|c|☆DanThaPan|this is a victory
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|92
+|inactive|DanThaPan has 20 seconds left this turn.
+|l| Chidori Kaname
+|inactive|DanThaPan has 15 seconds left.
+|inactive|dpp TTT has 120 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|94/100 par
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100 brn
+|-damage|p2a: Skarmory|88/100 par|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|61/100 brn|[from] brn
+|upkeep
+|turn|93
+|inactive|DanThaPan has 20 seconds left this turn.
+|inactive|DanThaPan has 15 seconds left.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|47/100 brn
+|-damage|p2a: Skarmory|83/100 par|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|53/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|41/100 brn|[from] brn
+|upkeep
+|turn|94
+|inactive|DanThaPan has 15 seconds left this turn.
+|inactive|DanThaPan has 10 seconds left.
+|inactive|dpp TTT has 120 seconds left.
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|91/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|85/100 brn|[from] brn
+|upkeep
+|turn|95
+|inactive|DanThaPan has 15 seconds left this turn.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|78/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|79/100 brn|[from] brn
+|upkeep
+|turn|96
+|inactive|DanThaPan has 15 seconds left this turn.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|63/100 brn
+|-damage|p2a: Skarmory|72/100 par|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|57/100 brn|[from] brn
+|upkeep
+|turn|97
+|inactive|DanThaPan has 15 seconds left this turn.
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100 par
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|98
+|inactive|DanThaPan has 20 seconds left this turn.
+|inactive|DanThaPan has 15 seconds left.
+|
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|97/100 par
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|75/100 brn
+|-damage|p2a: Skarmory|92/100 par|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|69/100 brn|[from] brn
+|upkeep
+|turn|99
+|inactive|DanThaPan has 20 seconds left this turn.
+|inactive|DanThaPan has 15 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|62/100 brn|[from] brn
+|upkeep
+|turn|100
+|inactive|DanThaPan has 20 seconds left this turn.
+|inactive|DanThaPan has 15 seconds left.
+|c| lupla|i was thinking of sending out ditto
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|101
+|inactive|DanThaPan has 20 seconds left this turn.
+|c| lupla|and spam iron head
+|c| lupla|to flinch
+|inactive|DanThaPan has 15 seconds left.
+|inactive|DanThaPan has 10 seconds left.
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Jirachi|[from] ability: Imposter
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|102
+|inactive|DanThaPan has 15 seconds left this turn.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p2a: Ditto|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|71/100 brn
+|cant|p1a: Jirachi|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|65/100 brn|[from] brn
+|upkeep
+|turn|103
+|inactive|DanThaPan has 15 seconds left this turn.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ditto|Iron Head|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|59/100 brn|[from] brn
+|upkeep
+|turn|104
+|inactive|DanThaPan has 15 seconds left this turn.
+|c| lupla|your welcome dpp
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|move|p2a: Ditto|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|41/100 brn|[from] brn
+|upkeep
+|turn|105
+|inactive|DanThaPan has 15 seconds left this turn.
+|c|☆dpp TTT|ty
+|c|☆DanThaPan|doesnt mater
+|c|☆DanThaPan|wasted
+|inactive|DanThaPan has 10 seconds left.
+|c|☆DanThaPan|his time
+|
+|move|p2a: Ditto|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|30/100 brn
+|cant|p1a: Jirachi|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|24/100 brn|[from] brn
+|upkeep
+|turn|106
+|inactive|DanThaPan has 15 seconds left this turn.
+|inactive|DanThaPan has 10 seconds left.
+|c|☆DanThaPan|what a loser
+|c|☆dpp TTT|is this harasment?
+|c|☆DanThaPan|hahahaha
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ditto|Iron Head|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|30/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|17/100 brn|[from] brn
+|upkeep
+|turn|107
+|inactive|DanThaPan has 15 seconds left this turn.
+|inactive|DanThaPan has 10 seconds left.
+|
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|-activate|p2a: Ditto|move: Struggle
+|move|p2a: Ditto|Struggle|p1a: Jirachi
+|-damage|p1a: Jirachi|8/100 brn
+|-damage|p2a: Ditto|75/100|[from] recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|14/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|2/100 brn|[from] brn
+|upkeep
+|turn|108
+|inactive|DanThaPan has 15 seconds left this turn.
+|inactive|DanThaPan has 10 seconds left.
+|inactive|DanThaPan has 5 seconds left.
+|
+|-activate|p2a: Ditto|move: Struggle
+|move|p2a: Ditto|Struggle|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Ditto|50/100|[from] recoil
+|faint|p1a: Jirachi
+|
+|win|dpp TTT
+|inactive|DanThaPan has 10 seconds left this turn.
+|c|☆DanThaPan|struggle
+|c|☆DanThaPan|lmgaooo
+|c|☆DanThaPan|how u like wasting ur time
+|l|☆DanThaPan
+|raw|DanThaPan's rating: 1318 &rarr; <strong>1301</strong><br />(-17 for losing)
+|raw|dpp TTT's rating: 1367 &rarr; <strong>1384</strong><br />(+17 for winning)
+|l| lupla
+|j| lupla
+|j|@Mitsuki
+|c|@Mitsuki|/log DanThaPan was locked from talking by Mitsuki. (intentionally timerstall)

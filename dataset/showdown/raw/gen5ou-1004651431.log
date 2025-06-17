@@ -1,0 +1,581 @@
+|j|☆Sword8laze
+|j|☆Princess Kisame
+|player|p1|Sword8laze|koga|1355
+|player|p2|Princess Kisame|fantina|1278
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Bronzong|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Reuniclus, F|item
+|poke|p1|Breloom, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Torkoal, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Scizor, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Mew|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sword8laze)
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|51/100
+|move|p1a: Torkoal|Yawn|p2a: Landorus
+|-start|p2a: Landorus|move: Yawn|[of] p1a: Torkoal
+|
+|-heal|p1a: Torkoal|57/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Landorus|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|51/100
+|
+|switch|p2a: Politoed|Politoed, F, shiny|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Torkoal|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Princess Kisame|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Torkoal|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|75/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|81/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Reuniclus|Reuniclus, F, shiny|100/100
+|move|p2a: Tentacruel|Toxic|p1a: Reuniclus
+|-status|p1a: Reuniclus|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|move|p2a: Tentacruel|Scald|p1a: Reuniclus
+|-damage|p1a: Reuniclus|67/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|7
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Psyshock|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scizor|66/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Reuniclus|atk|1
+|turn|9
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: Sword8laze|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Landorus|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|81/100
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100|[from]move: U-turn
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Jellicent|87/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Reuniclus|Reuniclus, F, shiny|67/100 tox
+|move|p2a: Tentacruel|Toxic|p1a: Reuniclus
+|-fail|p1a: Reuniclus|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|12
+|
+|switch|p2a: Mew|Mew, shiny|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Psyshock|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Reuniclus|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|5/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|55/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|62/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Shadow Ball|p2a: Tentacruel
+|-damage|p2a: Tentacruel|54/100
+|-unboost|p2a: Tentacruel|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|60/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|66/100|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Reuniclus
+|-damage|p1a: Reuniclus|63/100 tox
+|-sideend|p2: Princess Kisame|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|72/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|78/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|turn|17
+|
+|switch|p1a: Jellicent|Jellicent, M|87/100
+|-damage|p1a: Jellicent|74/100|[from] Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Jellicent
+|-heal|p1a: Jellicent|99/100|[from] ability: Water Absorb|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Jellicent|Shadow Ball|p2a: Kyurem
+|-damage|p2a: Kyurem|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|83/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Jellicent|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|66/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|47/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|20
+|
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|97/100
+|-singleturn|p2a: Kyurem|move: Roost
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Earth Power|p1a: Jellicent
+|-damage|p1a: Jellicent|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|88/100|[from] item: Leftovers
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Earth Power|p1a: Jellicent
+|-damage|p1a: Jellicent|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-fail|p2a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|25
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-crit|p1a: Bronzong
+|-damage|p1a: Bronzong|53/100
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Bronzong|Gyro Ball|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Ice Beam|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Landorus|Landorus-Therian, M|94/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bronzong|atk|1
+|move|p1a: Bronzong|Gyro Ball|p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Bronzong|Gyro Ball|p2a: Landorus
+|-damage|p2a: Landorus|29/100
+|move|p2a: Landorus|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|12/100
+|
+|switch|p2a: Mew|Mew, shiny|62/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|68/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Bronzong|Explosion|p2a: Mew
+|-damage|p2a: Mew|35/100
+|faint|p1a: Bronzong
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|91/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F, shiny|63/100 tox
+|turn|30
+|
+|move|p2a: Mew|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|cant|p1a: Reuniclus|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|97/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|move|p1a: Reuniclus|Shadow Ball|p2a: Politoed
+|-damage|p2a: Politoed|57/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|switch|p1a: Jellicent|Jellicent, M|71/100
+|-damage|p1a: Jellicent|58/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|65/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|69/100|[from] Sandstorm
+|-heal|p2a: Kyurem|76/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Kyurem|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|move|p1a: Tyranitar|Crunch|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|69/100|[from] Sandstorm
+|-heal|p2a: Kyurem|76/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Landorus|Landorus-Therian, M|29/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Crunch|p2a: Landorus
+|-damage|p2a: Landorus|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|9/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Jellicent|Jellicent, M|65/100
+|-damage|p1a: Jellicent|52/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|2/100|[from] Sandstorm
+|-heal|p2a: Landorus|15/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|8/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Landorus|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F, shiny|63/100 tox
+|turn|38
+|
+|move|p2a: Landorus|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|12/100 tox
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|27/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Mew|Mew, shiny|97/100
+|turn|40
+|
+|move|p1a: Reuniclus|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|27/100
+|-unboost|p2a: Mew|spd|1
+|move|p2a: Mew|Ice Beam|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|21/100|[from] Sandstorm
+|-heal|p2a: Mew|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|57/100
+|-damage|p1a: Tyranitar|45/100|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F, shiny|57/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|42
+|
+|move|p1a: Tyranitar|Superpower|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem, shiny|76/100
+|-ability|p2a: Kyurem|Pressure
+|turn|43
+|
+|switch|p1a: Torkoal|Torkoal, M|57/100
+|-damage|p1a: Torkoal|32/100|[from] Stealth Rock
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|57/100|[from] item: Leftovers
+|-heal|p1a: Torkoal|38/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Kyurem|Earth Power|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|45/100
+|-damage|p1a: Tyranitar|32/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|45
+|
+|move|p2a: Kyurem|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|57/100|[from] Sandstorm
+|-heal|p2a: Kyurem|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|46
+|c|☆Princess Kisame|gg
+|
+|move|p1a: Breloom|Mach Punch|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|win|Princess Kisame
+|l|☆Sword8laze
+|raw|Sword8laze's rating: 1342 &rarr; <strong>1318</strong><br />(-24 for losing)
+|raw|Princess Kisame's rating: 1278 &rarr; <strong>1308</strong><br />(+30 for winning)

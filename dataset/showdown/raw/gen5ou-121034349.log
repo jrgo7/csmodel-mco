@@ -1,0 +1,328 @@
+|join|QuasarUltima
+|join|chrislexatas
+|player|p1|QuasarUltima|266
+|player|p2|chrislexatas|2
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Terrakion
+|poke|p1|Kyurem
+|poke|p1|Breloom, M
+|poke|p1|Forretress, M
+|poke|p1|Salamence, M
+|poke|p1|Scizor, M, shiny
+|poke|p2|Politoed, M
+|poke|p2|Raikou
+|poke|p2|Gyarados, M
+|poke|p2|Tentacruel, F
+|poke|p2|Ferrothorn, M
+|poke|p2|Tornadus, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Beyblade|Forretress, M|354/354
+|switch|p2a: Politoed|Politoed, M|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Scald|p1a: Beyblade
+|-crit|p1a: Beyblade
+|-activate|p1a: Beyblade|Sturdy
+|-damage|p1a: Beyblade|1/354
+|-status|p1a: Beyblade|brn
+|move|p1a: Beyblade|Stealth Rock|p2a: Politoed
+|-sidestart|p2: chrislexatas|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Beyblade|23/354 brn|[from] item: Leftovers
+|-damage|p1a: Beyblade|0 fnt|[from] brn
+|faint|p1a: Beyblade
+|
+|switch|p1a: Goomba|Breloom, M|262/262
+|turn|2
+|
+|move|p2a: Politoed|Scald|p1a: Goomba
+|-resisted|p1a: Goomba
+|-damage|p1a: Goomba|127/262
+|move|p1a: Goomba|Spore|p2a: Politoed
+|-status|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Goomba|tox|[from] item: Toxic Orb
+|turn|3
+|
+|switch|p2a: Tornadus|Tornadus, M|300/300
+|-damage|p2a: Tornadus|225/300|[from] Stealth Rock
+|move|p1a: Goomba|Substitute|p1a: Goomba
+|-start|p1a: Goomba|Substitute
+|-damage|p1a: Goomba|62/262 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goomba|94/262 tox|[from] ability: Poison Heal
+|turn|4
+|
+|move|p2a: Tornadus|Hurricane|p1a: Goomba
+|-supereffective|p1a: Goomba
+|-end|p1a: Goomba|Substitute
+|move|p1a: Goomba|Stone Edge|p2a: Tornadus|[miss]
+|-miss|p1a: Goomba|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goomba|126/262 tox|[from] ability: Poison Heal
+|turn|5
+|
+|switch|p1a: Hyorinmaru|Kyurem|391/391
+|-ability|p1a: Hyorinmaru|Pressure
+|move|p2a: Tornadus|Hurricane|p1a: Hyorinmaru
+|-damage|p1a: Hyorinmaru|63/391
+|-start|p1a: Hyorinmaru|confusion
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|chat|chrislexatas|stone edge?
+|
+|-activate|p1a: Hyorinmaru|confusion
+|move|p1a: Hyorinmaru|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Tentacruel|Tentacruel, F|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Dragluon|Salamence, M|331/331
+|move|p2a: Tentacruel|Rapid Spin|p1a: Dragluon
+|-damage|p1a: Dragluon|318/331
+|-sideend|p2: chrislexatas|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|341/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/364|[from] item: Black Sludge
+|turn|8
+|
+|switch|p2a: Gyarados|Gyarados, M|332/332
+|-ability|p2a: Gyarados|Intimidate|[of] p1a: Dragluon
+|-unboost|p1a: Dragluon|atk|1
+|move|p1a: Dragluon|Dragon Dance|p1a: Dragluon
+|-boost|p1a: Dragluon|atk|1
+|-boost|p1a: Dragluon|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p1a: Dragluon|Outrage|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p1a: Dragluon|285/331|[from] item: Life Orb
+|faint|p2a: Gyarados
+|-boost|p1a: Dragluon|atk|1|[from] ability: Moxie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|352/352
+|turn|10
+|
+|move|p1a: Dragluon|Outrage|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|223/352
+|-damage|p1a: Dragluon|244/331|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dragluon|211/331|[from] item: Life Orb
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragluon
+|-damage|p1a: Dragluon|0 fnt
+|faint|p1a: Dragluon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|245/352|[from] item: Leftovers
+|
+|switch|p1a: Don'tDropMe|Scizor, M, shiny|344/344
+|turn|11
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Don'tDropMe|Swords Dance|p1a: Don'tDropMe
+|-boost|p1a: Don'tDropMe|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|267/352|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Don'tDropMe|Brick Break|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/352
+|-damage|p1a: Don'tDropMe|301/344|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Don'tDropMe
+|-start|p1a: Don'tDropMe|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Don'tDropMe|322/344|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|69/352|[from] item: Leftovers
+|-damage|p1a: Don'tDropMe|279/344|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|112/352|[silent]
+|turn|13
+|
+|switch|p2a: Tentacruel|Tentacruel, F|363/364
+|move|p1a: Don'tDropMe|Brick Break|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|275/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|297/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|319/364|[from] item: Black Sludge
+|-heal|p1a: Don'tDropMe|300/344|[from] item: Leftovers
+|-damage|p1a: Don'tDropMe|257/344|[from] Leech Seed|[of] p2a: Tentacruel
+|-heal|p2a: Tentacruel|362/364|[silent]
+|turn|14
+|
+|switch|p1a: Goomba|Breloom, M|126/262 tox
+|move|p2a: Tentacruel|Scald|p1a: Goomba
+|-resisted|p1a: Goomba
+|-damage|p1a: Goomba|42/262 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|364/364|[from] ability: Rain Dish
+|-heal|p1a: Goomba|74/262 tox|[from] ability: Poison Heal
+|turn|15
+|
+|move|p1a: Goomba|Stone Edge|p2a: Tentacruel
+|-damage|p2a: Tentacruel|245/364
+|move|p2a: Tentacruel|Scald|p1a: Goomba
+|-resisted|p1a: Goomba
+|-damage|p1a: Goomba|0 fnt
+|faint|p1a: Goomba
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|267/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|289/364|[from] item: Black Sludge
+|
+|switch|p1a: Hyorinmaru|Kyurem|63/391
+|-ability|p1a: Hyorinmaru|Pressure
+|turn|16
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Hyorinmaru|Earth Power|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|311/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|333/364|[from] item: Black Sludge
+|turn|17
+|
+|move|p1a: Hyorinmaru|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|161/364
+|move|p2a: Tentacruel|Scald|p1a: Hyorinmaru
+|-resisted|p1a: Hyorinmaru
+|-damage|p1a: Hyorinmaru|3/391
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|183/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|205/364|[from] item: Black Sludge
+|turn|18
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Hyorinmaru|Earth Power|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|227/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|249/364|[from] item: Black Sludge
+|turn|19
+|
+|move|p1a: Hyorinmaru|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|71/364
+|move|p2a: Tentacruel|Scald|p1a: Hyorinmaru
+|-resisted|p1a: Hyorinmaru
+|-damage|p1a: Hyorinmaru|0 fnt
+|faint|p1a: Hyorinmaru
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|93/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|115/364|[from] item: Black Sludge
+|
+|switch|p1a: Benny|Terrakion|323/323
+|turn|20
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Benny|Rock Polish|p1a: Benny
+|-boost|p1a: Benny|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|137/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|159/364|[from] item: Black Sludge
+|turn|21
+|
+|move|p1a: Benny|Stone Edge|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-damage|p1a: Benny|291/323|[from] item: Life Orb
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|112/352
+|turn|22
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Benny|Close Combat|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|134/352|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Benny|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Benny|251/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Benny|def|1
+|-unboost|p1a: Benny|spd|1
+|-damage|p1a: Benny|219/323|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Raikou|Raikou|322/322
+|-ability|p2a: Raikou|Pressure
+|turn|24
+|
+|move|p1a: Benny|Close Combat|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|-unboost|p1a: Benny|def|1
+|-unboost|p1a: Benny|spd|1
+|-damage|p1a: Benny|187/323|[from] item: Life Orb
+|faint|p2a: Raikou
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, M|322/322 slp
+|turn|25
+|
+|move|p1a: Benny|Close Combat|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Benny|def|1
+|-unboost|p1a: Benny|spd|1
+|-damage|p1a: Benny|155/323|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|win|QuasarUltima
+|raw|Ladder updating...
+|raw|QuasarUltima's rating: 1418 &rarr; <strong>1436</strong><br />(+18 for winning)
+|raw|chrislexatas's rating: 1383 &rarr; <strong>1365</strong><br />(-18 for losing)
+|leave|chrislexatas
+|player|p2

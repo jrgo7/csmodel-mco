@@ -1,0 +1,745 @@
+|j|☆volcanionisgood
+|j|☆Coorpp
+|player|p1|volcanionisgood|burglar-gen1
+|player|p2|Coorpp|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Jolteon, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Seismitoad, F|item
+|teampreview
+|
+|start
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Keldeo|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|78/100|[from] Sandstorm
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|84/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by volcanionisgood)
+|
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p1a: Jolteon|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|47/100
+|move|p2a: Tyranitar|Crunch|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|4
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: Coorpp|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|j| wacan gyara
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Amoonguss|Spore|p1a: Politoed
+|-status|p1a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Tentacruel
+|-damage|p1a: Tentacruel|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|91/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|97/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Seismitoad
+|-damage|p2a: Seismitoad|68/100
+|move|p2a: Seismitoad|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|69/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|80/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Tentacruel|Tentacruel, M|97/100
+|move|p2a: Skarmory|Spikes|p1a: Tentacruel
+|-sidestart|p1: volcanionisgood|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Seismitoad|Seismitoad, F|80/100
+|-damage|p2a: Seismitoad|74/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|72/100
+|-sideend|p1: volcanionisgood|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|89/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: volcanionisgood|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|84/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Skarmory|Skarmory, F|95/100
+|-damage|p2a: Skarmory|82/100|[from] Stealth Rock
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Skarmory|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Seismitoad|Seismitoad, F|84/100
+|-damage|p2a: Seismitoad|78/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|76/100
+|-sideend|p1: volcanionisgood|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p2a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|95/100
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Skarmory|Skarmory, F|94/100
+|-damage|p2a: Skarmory|82/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Skarmory|[miss]
+|-miss|p1a: Ferrothorn|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Skarmory|Spikes|p1a: Tentacruel
+|-sidestart|p1: volcanionisgood|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Seismitoad|Seismitoad, F|88/100
+|-damage|p2a: Seismitoad|82/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|80/100
+|-sideend|p1: volcanionisgood|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|86/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|96/100
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|92/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Skarmory|Skarmory, F|94/100
+|-damage|p2a: Skarmory|82/100|[from] Stealth Rock
+|switch|p1a: Keldeo|Keldeo-Resolute|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|75/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|56/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p1a: Keldeo|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|69/100
+|-status|p2a: Amoonguss|brn
+|move|p2a: Amoonguss|Giga Drain|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|-heal|p2a: Amoonguss|79/100 brn|[from] drain|[of] p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|62/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|85/100 brn|[from] item: Black Sludge
+|-damage|p2a: Amoonguss|73/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100
+|switch|p2a: Tyranitar|Tyranitar, M|47/100
+|-damage|p2a: Tyranitar|35/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|inactive|volcanionisgood has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|switch|p1a: Ferrothorn|Ferrothorn, F|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Skarmory|Skarmory, F|88/100
+|-damage|p2a: Skarmory|75/100|[from] Stealth Rock
+|switch|p1a: Skarmory|Skarmory, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|81/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: volcanionisgood|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: Coorpp|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Seismitoad|Seismitoad, F|92/100
+|-damage|p2a: Seismitoad|86/100|[from] Stealth Rock
+|-damage|p2a: Seismitoad|73/100|[from] Spikes
+|switch|p1a: Politoed|Politoed, M|100/100 slp
+|-damage|p1a: Politoed|88/100 slp|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|80/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|97/100
+|-damage|p1a: Ferrothorn|85/100|[from] Spikes
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|86/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Skarmory|Skarmory, F|88/100
+|-damage|p2a: Skarmory|75/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Tentacruel
+|-sidestart|p1: volcanionisgood|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p2a: Skarmory|81/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Seismitoad|Seismitoad, F|86/100
+|-damage|p2a: Seismitoad|73/100|[from] Spikes
+|-damage|p2a: Seismitoad|67/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|63/100
+|-sideend|p1: volcanionisgood|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|85/100
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Skarmory|Skarmory, F|81/100
+|-damage|p2a: Skarmory|69/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Excadrill|Excadrill, F|97/100
+|-damage|p2a: Excadrill|94/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|82/100|[from] Spikes
+|switch|p1a: Keldeo|Keldeo-Resolute|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|69/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Coorpp has 120 seconds left.
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100 brn
+|-damage|p2a: Amoonguss|88/100 brn|[from] Stealth Rock
+|-damage|p2a: Amoonguss|76/100 brn|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, M|88/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Amoonguss|69/100 brn|[from] brn
+|upkeep
+|turn|38
+|inactive|Coorpp has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|82/100
+|-damage|p2a: Excadrill|79/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|66/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Excadrill
+|-sidestart|p2: Coorpp|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|39
+|inactive|Coorpp has 120 seconds left.
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|86/100
+|-damage|p2a: Excadrill|50/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-sideend|p2: Coorpp|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: Coorpp|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Skarmory|Drill Peck|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|40
+|inactive|Coorpp has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|35/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Skarmory|Spikes|p2a: Tyranitar
+|-sidestart|p2: Coorpp|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|41
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|69/100
+|turn|42
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100 brn
+|-damage|p2a: Amoonguss|88/100 brn|[from] Spikes
+|move|p1a: Keldeo|Secret Sword|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|68/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|62/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|62/100 brn|[from] Sandstorm
+|-heal|p1a: Keldeo|69/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|68/100 brn|[from] item: Black Sludge
+|-damage|p2a: Amoonguss|56/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|86/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-heal|p2a: Amoonguss|57/100 brn|[from] drain|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|51/100 brn|[from] Sandstorm
+|-heal|p2a: Amoonguss|57/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|-damage|p2a: Amoonguss|45/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p2a: Tyranitar|Tyranitar, M|35/100
+|-damage|p2a: Tyranitar|22/100|[from] Spikes
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Coorpp|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Tyranitar|Superpower|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Tyranitar|Superpower|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|64/100
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|58/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|64/100|[from] item: Black Sludge
+|upkeep
+|turn|47
+|
+|switch|p1a: Politoed|Politoed, M|88/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Seismitoad|Seismitoad, F|75/100
+|-damage|p2a: Seismitoad|63/100|[from] Spikes
+|-damage|p2a: Seismitoad|56/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|83/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p2a: Skarmory|Skarmory, F|63/100
+|-damage|p2a: Skarmory|50/100|[from] Stealth Rock
+|switch|p1a: Keldeo|Keldeo-Resolute|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|75/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|50/100
+|move|p2a: Skarmory|Taunt|p1a: Keldeo
+|-start|p1a: Keldeo|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|56/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p2a: Amoonguss|Amoonguss, F|78/100 brn
+|-damage|p2a: Amoonguss|65/100 brn|[from] Stealth Rock
+|-damage|p2a: Amoonguss|53/100 brn|[from] Spikes
+|move|p1a: Keldeo|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|28/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|62/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|34/100 brn|[from] item: Black Sludge
+|-damage|p2a: Amoonguss|21/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|3/100 brn
+|move|p2a: Amoonguss|Giga Drain|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|-heal|p2a: Amoonguss|13/100 brn|[from] drain|[of] p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|69/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|19/100 brn|[from] item: Black Sludge
+|-damage|p2a: Amoonguss|6/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|75/100|[from] item: Leftovers
+|-end|p1a: Keldeo|move: Taunt
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|69/100
+|-damage|p2a: Seismitoad|63/100|[from] Stealth Rock
+|-damage|p2a: Seismitoad|50/100|[from] Spikes
+|turn|54
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|83/100 brn
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|62/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|56/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|56/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: volcanionisgood|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|50/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|76/100 brn|[silent]
+|-damage|p1a: Ferrothorn|64/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|switch|p2a: Skarmory|Skarmory, F|62/100
+|-damage|p2a: Skarmory|50/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|56/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|82/100 brn|[silent]
+|-damage|p1a: Ferrothorn|69/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|switch|p1a: Tentacruel|Tentacruel, M|64/100
+|-damage|p1a: Tentacruel|52/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|58/100|[from] ability: Rain Dish
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|64/100|[from] item: Black Sludge
+|upkeep
+|turn|58
+|
+|move|p2a: Landorus|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|75/100
+|-damage|p1a: Keldeo|69/100|[from] Stealth Rock
+|turn|59
+|
+|switch|p2a: Tyranitar|Tyranitar, M|22/100
+|-damage|p2a: Tyranitar|10/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|0 fnt|[from] Spikes
+|faint|p2a: Tyranitar
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|50/100
+|-damage|p2a: Seismitoad|38/100|[from] Spikes
+|-damage|p2a: Seismitoad|31/100|[from] Stealth Rock
+|turn|60
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|56/100|[from] item: Leftovers
+|upkeep
+|-message|Coorpp forfeited.
+|
+|win|volcanionisgood
+|l|☆Coorpp
+|l|☆volcanionisgood
+|raw|volcanionisgood's rating: 1430 &rarr; <strong>1449</strong><br />(+19 for winning)
+|raw|Coorpp's rating: 1424 &rarr; <strong>1404</strong><br />(-20 for losing)

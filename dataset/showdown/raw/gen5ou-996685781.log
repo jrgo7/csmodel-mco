@@ -1,0 +1,341 @@
+|j|☆Wishmence2003
+|j|☆II Armando II
+|player|p1|Wishmence2003|infielder|1291
+|player|p2|II Armando II|169|1464
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Slowking, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Breloom, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by II Armando II)
+|
+|start
+|switch|p1a: Slowking|Slowking, M|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|1
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Breloom|Spore|p1a: Latios
+|-status|p1a: Latios|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn|[from]Sleep Talk
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Wishmence2003|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Landorus|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Tornadus|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|86/100
+|
+|switch|p2a: Breloom|Breloom, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Latios|Latios, M|100/100 slp
+|-damage|p1a: Latios|88/100 slp|[from] Stealth Rock
+|move|p2a: Breloom|Low Sweep|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|57/100 slp
+|-unboost|p1a: Latios|spe|1
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|77/100
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn|[from]Sleep Talk
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|40/100
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Ferrothorn|46/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn|[from]Sleep Talk
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Ferrothorn|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|45/100 slp
+|-enditem|p1a: Latios|Choice Specs|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: Wishmence2003|Spikes
+|
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Excadrill|Excadrill, M|86/100
+|-damage|p1a: Excadrill|74/100|[from] Spikes
+|-damage|p1a: Excadrill|71/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Knock Off|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|68/100
+|-enditem|p1a: Excadrill|Choice Scarf|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|48/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Breloom
+|-sidestart|p2: II Armando II|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Excadrill
+|-damage|p1a: Excadrill|43/100
+|-damage|p1a: Excadrill|14/100
+|-damage|p1a: Excadrill|0 fnt
+|-hitcount|p1a: Excadrill|3
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|75/100|[from] Spikes
+|turn|13
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|73/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100|[from]move: U-turn
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tentacruel|atk|1
+|
+|-heal|p2a: Tentacruel|79/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Landorus|Earthquake|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-heal|p2a: Tentacruel|85/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Landorus|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tornadus|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|4/100
+|
+|switch|p2a: Breloom|Breloom, F|100/100|[from]move: U-turn
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|88/100|[from] Sandstorm
+|upkeep
+|turn|18
+|inactive|Wishmence2003 has 120 seconds left.
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-hitcount|p1a: Tyranitar|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|82/100|[from] Sandstorm
+|upkeep
+|inactive|Wishmence2003 has 120 seconds left.
+|
+|switch|p1a: Scizor|Scizor, M|75/100
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|-damage|p1a: Scizor|50/100|[from] Spikes
+|turn|19
+|
+|switch|p2a: Politoed|Politoed, M|23/100
+|-damage|p2a: Politoed|11/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|85/100
+|-damage|p2a: Tentacruel|73/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|19/100
+|move|p2a: Tentacruel|Scald|p1a: Scizor
+|-damage|p1a: Scizor|23/100
+|-status|p1a: Scizor|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|25/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|31/100|[from] item: Black Sludge
+|-heal|p1a: Scizor|29/100 brn|[from] item: Leftovers
+|-damage|p1a: Scizor|17/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|37/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|43/100|[from] item: Black Sludge
+|-heal|p1a: Scizor|23/100 brn|[from] item: Leftovers
+|-damage|p1a: Scizor|10/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|30/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|9/100 brn
+|-sideend|p2: II Armando II|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|36/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|42/100|[from] item: Black Sludge
+|-heal|p1a: Scizor|15/100 brn|[from] item: Leftovers
+|-damage|p1a: Scizor|3/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|48/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|54/100|[from] item: Black Sludge
+|-heal|p1a: Scizor|9/100 brn|[from] item: Leftovers
+|-damage|p1a: Scizor|0 fnt|[from] brn
+|faint|p1a: Scizor
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-damage|p1a: Landorus|64/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tentacruel|atk|1
+|turn|25
+|-message|Wishmence2003 forfeited.
+|
+|win|II Armando II
+|l|☆Wishmence2003
+|raw|Wishmence2003's rating: 1316 &rarr; <strong>1304</strong><br />(-12 for losing)
+|raw|II Armando II's rating: 1464 &rarr; <strong>1475</strong><br />(+11 for winning)

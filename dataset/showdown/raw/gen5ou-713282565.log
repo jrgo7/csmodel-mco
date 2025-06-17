@@ -1,0 +1,1469 @@
+|j|☆Chimp34
+|j|☆doudrasand
+|player|p1|Chimp34|170
+|player|p2|doudrasand|255
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Politoed, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Weavile, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Feraligatr, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Latias, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Jellicent, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by doudrasand)
+|inactive|Chimp34 has 135 seconds left.
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Breloom|Spore|p2a: Latias
+|-status|p2a: Latias|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|94/100 slp|[from] sandstorm
+|-damage|p1a: Breloom|94/100|[from] sandstorm
+|-heal|p2a: Latias|100/100 slp|[from] item: Leftovers
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|inactive|Chimp34 has 135 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Breloom|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100 tox|[from] sandstorm
+|-damage|p2a: Gliscor|88/100|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|100/100 tox|[silent]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: doudrasand|move: Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Landorus
+|-sidestart|p1: Chimp34|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Landorus|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|97/100
+|inactive|Chimp34 has 135 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Skarmory|Whirlwind|p1a: Politoed
+|drag|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|88/100 tox|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|move|p1a: Breloom|Leech Seed|p2a: Skarmory|[miss]
+|-miss|p1a: Breloom|p2a: Skarmory
+|move|p2a: Skarmory|Spikes|p1a: Breloom
+|-sidestart|p1: Chimp34|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|84/100|[from] Spikes
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|57/100
+|-damage|p2a: Skarmory|90/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Chimp34 has 135 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|70/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Chimp34|move: Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|59/100
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Gliscor|Gliscor, M|88/100 tox
+|-damage|p2a: Gliscor|76/100 tox|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Heatran|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Chimp34 has 135 seconds left.
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran|[miss]
+|-miss|p1a: Jirachi|p2a: Heatran
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Torment|p1a: Jirachi
+|-start|p1a: Jirachi|Torment
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Chimp34 has 135 seconds left.
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-crit|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|79/100
+|-status|p1a: Jirachi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|85/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|71/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|73/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|79/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|53/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|67/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Heatran|59/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|71/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|77/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|65/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|65/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|71/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|71/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|59/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|92/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|98/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|78/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|86/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|92/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|84/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|80/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|65/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Heatran|90/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|96/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|78/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|62/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|69/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|84/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|56/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Heatran|90/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran|[miss]
+|-miss|p1a: Jirachi|p2a: Heatran
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-fail|p2a: Heatran|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|96/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-activate|p2a: Heatran|Substitute|[damage]
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|70/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|63/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|42/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|92/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|99/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|86/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|Chimp34 has 135 seconds left.
+|
+|switch|p1a: Feraligatr|Feraligatr, F|100/100
+|-damage|p1a: Feraligatr|88/100|[from] Stealth Rock
+|-damage|p1a: Feraligatr|72/100|[from] Spikes
+|move|p2a: Heatran|Lava Plume|p1a: Feraligatr
+|-resisted|p1a: Feraligatr
+|-damage|p1a: Feraligatr|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|46/100|[from] sandstorm
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|doudrasand has 135 seconds left.
+|inactive|doudrasand has 120 seconds left.
+|inactive|doudrasand has 105 seconds left.
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Torment|p1a: Feraligatr
+|-start|p1a: Feraligatr|Torment
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|40/100|[from] sandstorm
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Jellicent|Jellicent, F, shiny|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Feraligatr|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|34/100|[from] sandstorm
+|-damage|p2a: Jellicent|46/100|[from] sandstorm
+|-heal|p2a: Jellicent|52/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Feraligatr|Swords Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|2
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|28/100|[from] sandstorm
+|-damage|p2a: Jellicent|94/100|[from] sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Gliscor|Gliscor, M|88/100 tox
+|-damage|p2a: Gliscor|76/100 tox|[from] Stealth Rock
+|move|p1a: Feraligatr|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|22/100|[from] sandstorm
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Feraligatr|Swords Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|15/100|[from] sandstorm
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|38
+|
+|switch|p2a: Latias|Latias, F|100/100 slp
+|-damage|p2a: Latias|88/100 slp|[from] Stealth Rock
+|move|p1a: Feraligatr|Earthquake|p2a: Latias
+|-immune|p2a: Latias|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|82/100 slp|[from] sandstorm
+|-damage|p1a: Feraligatr|9/100|[from] sandstorm
+|-heal|p2a: Latias|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Jellicent|Jellicent, F, shiny|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Feraligatr|Swords Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|3/100|[from] sandstorm
+|-damage|p2a: Jellicent|82/100|[from] sandstorm
+|-heal|p2a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Latias|Latias, F|88/100 slp
+|-damage|p2a: Latias|76/100 slp|[from] Stealth Rock
+|move|p1a: Feraligatr|Waterfall|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|0 fnt|[from] sandstorm
+|upkeep
+|faint|p1a: Feraligatr
+|inactive|Chimp34 has 135 seconds left.
+|inactive|doudrasand has 135 seconds left.
+|inactive|doudrasand has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, F|59/100 par
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|72/100|[from] Spikes
+|-damage|p1a: Politoed|60/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-damage|p2a: Tyranitar|47/100 par|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|41
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|84/100 tox|[from] Spikes
+|-damage|p1a: Breloom|78/100 tox|[from] Stealth Rock
+|switch|p2a: Jellicent|Jellicent, F, shiny|88/100
+|-damage|p2a: Jellicent|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|71/100 tox|[from] sandstorm
+|-damage|p2a: Jellicent|70/100|[from] sandstorm
+|-heal|p2a: Jellicent|76/100|[from] item: Leftovers
+|-heal|p1a: Breloom|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|42
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Breloom|Leech Seed|p2a: Gliscor|[miss]
+|-miss|p1a: Breloom|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|78/100 tox|[from] sandstorm
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-heal|p1a: Breloom|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|43
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|76/100 tox
+|move|p1a: Breloom|Leech Seed|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|84/100 tox|[from] sandstorm
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|-heal|p1a: Breloom|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|44
+|
+|move|p2a: Gliscor|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|74/100 tox
+|move|p1a: Breloom|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-activate|p2a: Gliscor|Substitute|[damage]
+|-heal|p1a: Breloom|80/100 tox|[from] drain|[of] p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|74/100 tox|[from] sandstorm
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-heal|p1a: Breloom|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|45
+|
+|move|p2a: Gliscor|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|66/100 tox
+|move|p1a: Breloom|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-activate|p2a: Gliscor|Substitute|[damage]
+|-heal|p1a: Breloom|72/100 tox|[from] drain|[of] p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|66/100 tox|[from] sandstorm
+|-heal|p1a: Breloom|79/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|46
+|
+|move|p2a: Gliscor|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|56/100 tox
+|move|p1a: Breloom|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-heal|p1a: Breloom|58/100 tox|[from] drain|[of] p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|51/100 tox|[from] sandstorm
+|-heal|p1a: Breloom|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|47
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Toxic|p1a: Landorus|[miss]
+|-miss|p2a: Gliscor|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p2a: Gliscor|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|move|p1a: Landorus|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|93/100 tox
+|inactive|Chimp34 has 135 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|86/100 brn
+|-damage|p1a: Jirachi|70/100 brn|[from] Spikes
+|-damage|p1a: Jirachi|63/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|57/100 brn|[from] brn
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|49
+|inactive|doudrasand has 135 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, F|47/100 par
+|-damage|p2a: Tyranitar|34/100 par|[from] Stealth Rock
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|51/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Tyranitar|Superpower|p1a: Jirachi
+|-damage|p1a: Jirachi|16/100 brn
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|22/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|10/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|60/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|53/100 brn|[from] brn
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|52
+|
+|switch|p2a: Heatran|Heatran, F|94/100
+|-damage|p2a: Heatran|82/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|60/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|47/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-damage|p2a: Heatran|63/100
+|-status|p2a: Heatran|par
+|move|p2a: Heatran|Torment|p1a: Jirachi
+|-start|p1a: Jirachi|Torment
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|97/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|69/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|45/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|51/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|55/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|61/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|57/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|49/100 brn|[from] brn
+|upkeep
+|turn|56
+|inactive|Chimp34 has 135 seconds left.
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|26/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|82/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|63/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|46/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|52/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|69/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|40/100 brn|[from] brn
+|upkeep
+|turn|58
+|inactive|Chimp34 has 135 seconds left.
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|22/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|72/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|78/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|76/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|66/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-activate|p2a: Heatran|Substitute|[damage]
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|55/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|82/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|43/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|24/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|30/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|88/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|18/100 brn|[from] brn
+|upkeep
+|turn|61
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|2/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|52/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|58/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|94/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|46/100 brn|[from] brn
+|upkeep
+|turn|62
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|29/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|35/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|23/100 brn|[from] brn
+|upkeep
+|turn|63
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Torment|p1a: Jirachi
+|-fail|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|73/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|66/100 brn|[from] brn
+|upkeep
+|turn|64
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|60/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|45/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|39/100 brn|[from] brn
+|upkeep
+|turn|66
+|inactive|doudrasand has 135 seconds left.
+|inactive|doudrasand has 120 seconds left.
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-activate|p2a: Heatran|Substitute|[damage]
+|move|p2a: Heatran|Torment|p1a: Jirachi
+|-fail|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|89/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|83/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|68/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|62/100 brn|[from] brn
+|upkeep
+|turn|68
+|inactive|doudrasand has 135 seconds left.
+|inactive|doudrasand has 120 seconds left.
+|inactive|doudrasand has 105 seconds left.
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|0
+|-boost|p1a: Jirachi|spd|0
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-fail|p2a: Heatran|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|76/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|82/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|0
+|-boost|p1a: Jirachi|spd|0
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|68/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|74/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|88/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|62/100 brn|[from] brn
+|upkeep
+|turn|71
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-activate|p2a: Heatran|Substitute|[damage]
+|move|p2a: Heatran|Torment|p1a: Jirachi
+|-fail|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|94/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|56/100 brn|[from] brn
+|upkeep
+|turn|72
+|inactive|Chimp34 has 135 seconds left.
+|inactive|Chimp34 has 120 seconds left.
+|c|☆Chimp34|bro not one full para the whole game?
+|inactive|Chimp34 has 105 seconds left.
+|c|☆Chimp34|there's no fucking way
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Torment|p1a: Jirachi
+|-fail|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|62/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|50/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Heatran|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|43/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|91/100 par
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|66/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|93/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|99/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|72/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|87/100 brn|[from] brn
+|upkeep
+|turn|75
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|93/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|78/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|81/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-activate|p2a: Heatran|Substitute|[damage]
+|move|p2a: Heatran|Torment|p1a: Jirachi
+|-fail|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|87/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|85/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|75/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|0
+|-boost|p1a: Jirachi|spd|0
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|81/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|91/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|69/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|54/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|60/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|97/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|48/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|41/100 brn|[from] brn
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|80
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|35/100 brn|[from] brn
+|upkeep
+|turn|81
+|
+|switch|p2a: Tyranitar|Tyranitar, F|34/100 par
+|-damage|p2a: Tyranitar|22/100 par|[from] Stealth Rock
+|move|p1a: Jirachi|Hidden Power|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|85/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|79/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|82
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|0
+|-boost|p1a: Jirachi|spd|0
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|73/100 brn|[from] brn
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|83
+|
+|switch|p1a: Breloom|Breloom, F|64/100 tox
+|-damage|p1a: Breloom|58/100 tox|[from] Stealth Rock
+|-damage|p1a: Breloom|41/100 tox|[from] Spikes
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|35/100 tox|[from] sandstorm
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|-heal|p1a: Breloom|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|84
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Gliscor|Earthquake|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|41/100 tox|[from] sandstorm
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-heal|p1a: Breloom|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|85
+|
+|move|p2a: Gliscor|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|34/100 tox
+|move|p1a: Breloom|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-activate|p2a: Gliscor|Substitute|[damage]
+|-heal|p1a: Breloom|40/100 tox|[from] drain|[of] p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|33/100 tox|[from] sandstorm
+|-heal|p1a: Breloom|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|86
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Gliscor|Earthquake|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|40/100 tox|[from] sandstorm
+|-heal|p1a: Breloom|52/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|87
+|
+|move|p2a: Gliscor|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|29/100 tox
+|move|p1a: Breloom|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-heal|p1a: Breloom|37/100 tox|[from] drain|[of] p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|31/100 tox|[from] sandstorm
+|-heal|p1a: Breloom|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|88
+|
+|switch|p1a: Landorus|Landorus-Therian, M|94/100 tox
+|-damage|p1a: Landorus|82/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|76/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Landorus|82/100 tox|[from] psn
+|upkeep
+|turn|89
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Landorus|Hidden Power|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|76/100 tox|[from] psn
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|90
+|
+|switch|p2a: Skarmory|Skarmory, M|96/100
+|-damage|p2a: Skarmory|83/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|80/100
+|
+|switch|p1a: Breloom|Breloom, F|44/100 tox
+|-damage|p1a: Breloom|27/100 tox|[from] Spikes
+|-damage|p1a: Breloom|21/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|15/100 tox|[from] sandstorm
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|-heal|p1a: Breloom|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|91
+|
+|move|p1a: Breloom|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|move|p2a: Skarmory|Brave Bird|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-damage|p2a: Skarmory|78/100|[from] Recoil
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|inactive|Chimp34 has 135 seconds left.
+|inactive|Chimp34 has 120 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|60/100
+|-damage|p1a: Politoed|47/100|[from] Stealth Rock
+|-damage|p1a: Politoed|31/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|92
+|inactive|Chimp34 has 135 seconds left.
+|inactive|doudrasand has 135 seconds left.
+|inactive|Chimp34 has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, F, shiny|76/100
+|-damage|p2a: Jellicent|63/100|[from] Stealth Rock
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|42/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|17/100
+|-unboost|p2a: Jellicent|spd|1
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|73/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|35/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|91/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|inactive|doudrasand has 135 seconds left.
+|
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|55/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Politoed|[miss]
+|-miss|p2a: Jellicent|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|61/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|21/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|77/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|35/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|91/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|53/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Politoed
+|-status|p1a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|59/100|[from] item: Leftovers
+|-damage|p1a: Politoed|19/100 brn|[from] brn
+|upkeep
+|turn|99
+|
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|18/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|74/100|[from] item: Leftovers
+|-damage|p1a: Politoed|6/100 brn|[from] brn
+|upkeep
+|turn|100
+|
+|move|p1a: Politoed|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|36/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|92/100|[from] item: Leftovers
+|-damage|p1a: Politoed|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Politoed
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-damage|p1a: Weavile|59/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|turn|101
+|
+|-activate|p2a: Jellicent|move: Pursuit
+|move|p1a: Weavile|Pursuit|p2a: Jellicent|[from]Pursuit
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-damage|p1a: Weavile|49/100|[from] item: Life Orb
+|faint|p2a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, M|84/100
+|-damage|p2a: Skarmory|72/100|[from] Stealth Rock
+|turn|102
+|inactive|Chimp34 has 135 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|73/100 brn
+|-damage|p1a: Jirachi|67/100 brn|[from] Stealth Rock
+|-damage|p1a: Jirachi|50/100 brn|[from] Spikes
+|move|p2a: Skarmory|Whirlwind|p1a: Jirachi
+|drag|p1a: Weavile|Weavile, M|49/100
+|-damage|p1a: Weavile|24/100|[from] Stealth Rock
+|-damage|p1a: Weavile|8/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|
+|move|p1a: Weavile|Night Slash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100
+|-damage|p1a: Weavile|0 fnt|[from] item: Life Orb
+|faint|p1a: Weavile
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|50/100 brn
+|-damage|p1a: Jirachi|33/100 brn|[from] Spikes
+|-damage|p1a: Jirachi|27/100 brn|[from] Stealth Rock
+|turn|104
+|
+|move|p1a: Jirachi|Thunder|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|-status|p2a: Skarmory|par
+|move|p2a: Skarmory|Whirlwind|p1a: Jirachi
+|drag|p1a: Landorus|Landorus-Therian, M|76/100 tox
+|-damage|p1a: Landorus|64/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Skarmory|7/100 par|[from] item: Leftovers
+|-damage|p1a: Landorus|64/100 tox|[from] psn
+|upkeep
+|turn|105
+|inactive|Chimp34 has 135 seconds left.
+|inactive|doudrasand has 135 seconds left.
+|
+|switch|p2a: Heatran|Heatran, F|97/100 par
+|-damage|p2a: Heatran|85/100 par|[from] Stealth Rock
+|move|p1a: Landorus|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|82/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|88/100 par|[from] item: Leftovers
+|-damage|p1a: Landorus|58/100 tox|[from] psn
+|upkeep
+|turn|106
+|
+|switch|p2a: Skarmory|Skarmory, M|7/100 par
+|-damage|p2a: Skarmory|0 fnt|[from] Stealth Rock
+|faint|p2a: Skarmory
+|move|p1a: Landorus|Earthquake|p2: Skarmory|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|46/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|107
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63/100 tox
+|move|p1a: Landorus|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|52/100 tox|[from] item: Leftovers
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Landorus|27/100 tox|[from] psn
+|upkeep
+|turn|108
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|51/100 tox
+|move|p1a: Landorus|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-activate|p2a: Gliscor|Substitute|[damage]
+|-message|Chimp34 forfeited.
+|
+|win|doudrasand
+|l|☆Chimp34
+|raw|Chimp34's rating: 1437 &rarr; <strong>1411</strong><br />(-26 for losing)
+|raw|doudrasand's rating: 1328 &rarr; <strong>1354</strong><br />(+26 for winning)
+|c|☆doudrasand|18 Lava Plume 0 crit

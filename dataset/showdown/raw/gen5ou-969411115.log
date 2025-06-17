@@ -1,0 +1,1567 @@
+|j|☆Felines
+|j|☆Legend Davy
+|player|p1|Felines|plumeria|1407
+|player|p2|Legend Davy|168|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Mamoswine, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Salamence, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Jirachi|item
+|poke|p1|Starmie|item
+|poke|p2|Politoed, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Blissey, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Legend Davy)
+|
+|start
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-item|p1a: Magnezone|Air Balloon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Magnezone|Sunny Day|p1a: Magnezone
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Blissey|Toxic|p1a: Jirachi
+|-immune|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Jirachi|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Jirachi|Body Slam|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|73/100
+|-status|p2a: Politoed|par
+|move|p2a: Politoed|Toxic|p1a: Jirachi|[miss]
+|-miss|p2a: Politoed|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Jirachi|Iron Head|p2a: Politoed
+|-resisted|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|58/100 par
+|move|p2a: Politoed|Scald|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|62/100|[from] item: Leftovers
+|-heal|p2a: Politoed|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|cant|p2a: Politoed|par
+|move|p1a: Jirachi|Iron Head|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|53/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|68/100|[from] item: Leftovers
+|-heal|p2a: Politoed|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-item|p1a: Magnezone|Air Balloon
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Amoonguss|Spore|p1a: Latios
+|-status|p1a: Latios|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Jirachi|[from]Sleep Talk
+|-damage|p2a: Jirachi|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|36/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|-curestatus|p1a: Latios|slp|[msg]
+|move|p1a: Latios|Sleep Talk||[still]
+|-fail|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Jirachi|Jirachi|68/100
+|move|p2a: Blissey|Seismic Toss|p1a: Jirachi
+|-damage|p1a: Jirachi|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|56/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|86/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Slowbro|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|29/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|35/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Jirachi|Iron Head|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|83/100
+|move|p2a: Slowbro|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|11/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|61/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|89/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Slowbro|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|95/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Blissey|Blissey, F|99/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Starmie|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|71/100
+|-damage|p1a: Starmie|62/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Jirachi|Jirachi|67/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Starmie|Starmie|62/100
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Substitute|p1a: Mamoswine
+|-start|p1a: Mamoswine|Substitute
+|-damage|p1a: Mamoswine|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|65/100
+|move|p2a: Slowbro|Scald|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-end|p1a: Mamoswine|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Starmie|Starmie|62/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p2a: Blissey|Blissey, F|94/100
+|-damage|p2a: Blissey|82/100|[from] Stealth Rock
+|move|p1a: Starmie|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|36/100
+|-damage|p1a: Starmie|52/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|42/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Jirachi|Jirachi|73/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|79/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|40/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Latios
+|-damage|p1a: Latios|95/100
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|46/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|52/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p1a: Jirachi|Jirachi|79/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Latios|Latios, M|95/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Latios
+|-status|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|switch|p2a: Blissey|Blissey, F|42/100
+|move|p1a: Latios|Draco Meteor|p2a: Blissey
+|-damage|p2a: Blissey|2/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|8/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Jirachi|Jirachi|86/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|92/100|[from] item: Leftovers
+|-heal|p2a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Tentacruel|Tentacruel, M|52/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|58/100|[from] ability: Rain Dish
+|-heal|p1a: Jirachi|98/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|64/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|53/100
+|cant|p2a: Tentacruel|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|59/100|[from] ability: Rain Dish
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|move|p1a: Jirachi|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|46/100
+|-status|p2a: Tentacruel|par
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|99/100
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|52/100 par|[from] ability: Rain Dish
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|58/100 par|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|move|p2a: Tentacruel|Rest|p2a: Tentacruel
+|-status|p2a: Tentacruel|slp|[from] move: Rest
+|-heal|p2a: Tentacruel|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|35
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-item|p1a: Magnezone|Air Balloon
+|cant|p2a: Tentacruel|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|move|p1a: Magnezone|Sunny Day|p1a: Magnezone
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|switch|p2a: Blissey|Blissey, F|64/100
+|-damage|p2a: Blissey|52/100|[from] Stealth Rock
+|move|p1a: Magnezone|Hidden Power|p2a: Blissey
+|-damage|p2a: Blissey|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|43/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|76/100
+|-status|p2a: Slowbro|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowbro|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Jirachi|Iron Head|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|74/100 par
+|move|p2a: Slowbro|Scald|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|83/100
+|
+|-weather|none
+|-heal|p1a: Jirachi|89/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Jirachi|Iron Head|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|73/100 par
+|cant|p2a: Slowbro|flinch
+|
+|-heal|p1a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Jirachi|Iron Head|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|70/100 par
+|cant|p2a: Slowbro|flinch
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Jirachi|Iron Head|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|69/100 par
+|cant|p2a: Slowbro|flinch
+|
+|-heal|p2a: Slowbro|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Jirachi|Iron Head|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|67/100 par
+|cant|p2a: Slowbro|flinch
+|
+|-heal|p2a: Slowbro|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: Slowbro|Scald|p1a: Magnezone
+|-damage|p1a: Magnezone|65/100
+|-enditem|p1a: Magnezone|Air Balloon
+|
+|-heal|p2a: Slowbro|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Mamoswine|Mamoswine, M|76/100
+|switch|p2a: Blissey|Blissey, F|99/100
+|-damage|p2a: Blissey|86/100|[from] Stealth Rock
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|44/100
+|move|p2a: Blissey|Toxic|p1a: Mamoswine
+|-status|p1a: Mamoswine|tox
+|
+|-heal|p2a: Blissey|50/100|[from] item: Leftovers
+|-damage|p1a: Mamoswine|69/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100 par
+|-damage|p2a: Slowbro|88/100 par|[from] Stealth Rock
+|move|p1a: Mamoswine|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|60/100 par
+|
+|-heal|p2a: Slowbro|66/100 par|[from] item: Leftovers
+|-damage|p1a: Mamoswine|57/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|1/100 par
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|51/100 par
+|
+|-heal|p2a: Slowbro|57/100 par|[from] item: Leftovers
+|-damage|p1a: Mamoswine|39/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|28/100 par
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|78/100 par
+|
+|-heal|p2a: Slowbro|84/100 par|[from] item: Leftovers
+|-damage|p1a: Mamoswine|15/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|50/100 par
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100 par
+|
+|-damage|p1a: Mamoswine|0 fnt|[from] psn
+|faint|p1a: Mamoswine
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|65/100
+|turn|52
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|53
+|
+|switch|p1a: Latios|Latios, M|95/100 par
+|move|p2a: Amoonguss|Stun Spore|p1a: Latios
+|-fail|p1a: Latios|par
+|
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|54
+|
+|switch|p2a: Jirachi|Jirachi|36/100
+|-damage|p2a: Jirachi|30/100|[from] Stealth Rock
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-heal|p2a: Jirachi|36/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|switch|p1a: Magnezone|Magnezone|65/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|42/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Magnezone
+|-sidestart|p1: Felines|move: Stealth Rock
+|move|p1a: Magnezone|Sunny Day|p1a: Magnezone
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|92/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|98/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Magnezone|Hidden Power|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p2a: Jirachi|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|59/100
+|move|p1a: Magnezone|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|39/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Magnezone|Hidden Power|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|46/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p2a: Jirachi|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|52/100
+|move|p1a: Magnezone|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Blissey|Blissey, F|50/100
+|-damage|p2a: Blissey|38/100|[from] Stealth Rock
+|turn|61
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|88/100
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100 par
+|-damage|p2a: Slowbro|88/100 par|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|63/100 par
+|
+|-heal|p2a: Slowbro|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100 par
+|
+|upkeep
+|turn|64
+|
+|switch|p1a: Starmie|Starmie|52/100
+|-damage|p1a: Starmie|40/100|[from] Stealth Rock
+|move|p2a: Slowbro|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|23/100
+|
+|-heal|p1a: Starmie|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|65
+|
+|switch|p2a: Blissey|Blissey, F|94/100
+|-damage|p2a: Blissey|82/100|[from] Stealth Rock
+|move|p1a: Starmie|Rapid Spin|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|-sideend|p1: Felines|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|inactive|Felines has 120 seconds left.
+|inactive|Felines has 90 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Tentacruel|slp|[msg]
+|-curestatus|p2: Politoed|par|[msg]
+|-curestatus|p2: Slowbro|par|[msg]
+|
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|switch|p1a: Latios|Latios, M|95/100 par
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|turn|68
+|
+|move|p2a: Tentacruel|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|85/100 par
+|-enditem|p1a: Latios|Choice Specs|[from] move: Knock Off|[of] p2a: Tentacruel
+|move|p1a: Latios|Draco Meteor|p2a: Tentacruel
+|-damage|p2a: Tentacruel|35/100
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Tentacruel|41/100|[from] item: Black Sludge
+|upkeep
+|turn|69
+|
+|switch|p1a: Starmie|Starmie|91/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Starmie
+|-damage|p1a: Starmie|85/100
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|47/100|[from] item: Black Sludge
+|upkeep
+|turn|70
+|inactive|Felines has 90 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Blissey|Blissey, F|90/100
+|
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|switch|p2a: Tentacruel|Tentacruel, M|47/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|
+|-heal|p2a: Tentacruel|54/100|[from] item: Black Sludge
+|upkeep
+|turn|72
+|
+|move|p1a: Jirachi|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|36/100
+|-status|p2a: Tentacruel|par
+|cant|p2a: Tentacruel|par
+|
+|-heal|p2a: Tentacruel|42/100 par|[from] item: Black Sludge
+|upkeep
+|turn|73
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|31/100 par
+|cant|p2a: Tentacruel|flinch
+|
+|-heal|p2a: Tentacruel|37/100 par|[from] item: Black Sludge
+|upkeep
+|turn|74
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|24/100 par
+|move|p2a: Tentacruel|Rest|p2a: Tentacruel
+|-status|p2a: Tentacruel|slp|[from] move: Rest
+|-heal|p2a: Tentacruel|100/100 slp|[silent]
+|
+|upkeep
+|turn|75
+|
+|switch|p1a: Starmie|Starmie|85/100
+|cant|p2a: Tentacruel|slp
+|
+|upkeep
+|turn|76
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Blissey|Blissey, F|96/100
+|-damage|p2a: Blissey|83/100|[from] Stealth Rock
+|
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|switch|p1a: Magnezone|Magnezone|52/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|78
+|inactive|Felines has 120 seconds left.
+|
+|switch|p1a: Latios|Latios, M|85/100 par
+|move|p2a: Amoonguss|Spore||[still]
+|-fail|p2a: Amoonguss
+|
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|79
+|inactive|Felines has 120 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|94/100
+|
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|switch|p1a: Latios|Latios, M|85/100 par
+|move|p2a: Amoonguss|Stun Spore|p1a: Latios|[miss]
+|-miss|p2a: Amoonguss|p1a: Latios
+|
+|upkeep
+|turn|81
+|
+|switch|p1a: Jirachi|Jirachi|99/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|94/100
+|
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|switch|p1a: Latios|Latios, M|85/100 par
+|move|p2a: Amoonguss|Spore||[still]
+|-fail|p2a: Amoonguss
+|
+|upkeep
+|turn|83
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|73/100 par
+|move|p1a: Latios|Dragon Pulse|p2a: Amoonguss
+|-damage|p2a: Amoonguss|59/100
+|
+|-heal|p2a: Amoonguss|65/100|[from] item: Black Sludge
+|upkeep
+|turn|84
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|61/100 par
+|-heal|p2a: Amoonguss|69/100|[from] drain|[of] p1a: Latios
+|cant|p1a: Latios|par
+|
+|-heal|p2a: Amoonguss|75/100|[from] item: Black Sludge
+|upkeep
+|turn|85
+|
+|move|p2a: Amoonguss|Clear Smog|p1a: Latios
+|-damage|p1a: Latios|46/100 par
+|-clearboost|p1a: Latios
+|move|p1a: Latios|Dragon Pulse|p2a: Amoonguss
+|-damage|p2a: Amoonguss|36/100
+|
+|-heal|p2a: Amoonguss|42/100|[from] item: Black Sludge
+|upkeep
+|turn|86
+|
+|switch|p2a: Blissey|Blissey, F|90/100
+|-damage|p2a: Blissey|77/100|[from] Stealth Rock
+|switch|p1a: Jirachi|Jirachi|99/100
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|79/100
+|
+|-heal|p2a: Slowbro|86/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|switch|p1a: Magnezone|Magnezone|52/100
+|move|p2a: Slowbro|Scald|p1a: Magnezone
+|-damage|p1a: Magnezone|16/100
+|
+|-heal|p2a: Slowbro|92/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|71/100|[from] Stealth Rock
+|move|p1a: Magnezone|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|49/100
+|
+|-heal|p2a: Blissey|56/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|upkeep
+|turn|91
+|
+|switch|p1a: Magnezone|Magnezone|16/100
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Tentacruel|slp|[msg]
+|
+|upkeep
+|turn|92
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Jirachi
+|-damage|p1a: Jirachi|76/100
+|
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|inactive|Felines has 120 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|75/100
+|
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|82/100|[from] item: Black Sludge
+|upkeep
+|turn|94
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tentacruel|atk|1
+|move|p2a: Tentacruel|Knock Off|p1a: Salamence
+|-damage|p1a: Salamence|97/100
+|-enditem|p1a: Salamence|Lum Berry|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|95
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|65/100
+|
+|-heal|p2a: Slowbro|72/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|switch|p1a: Starmie|Starmie|85/100
+|move|p2a: Slowbro|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|69/100
+|
+|-heal|p2a: Slowbro|78/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|inactive|Felines has 120 seconds left.
+|inactive|Felines has 90 seconds left.
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Starmie|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|-damage|p1a: Starmie|60/100|[from] item: Life Orb
+|
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|inactive|Felines has 90 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|88/100
+|move|p2a: Blissey|Seismic Toss|p1a: Jirachi
+|-damage|p1a: Jirachi|63/100
+|
+|-heal|p1a: Jirachi|70/100|[from] item: Leftovers
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|inactive|Felines has 90 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, M|88/100
+|-damage|p2a: Tentacruel|75/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|81/100|[from] item: Black Sludge
+|upkeep
+|turn|100
+|
+|move|p1a: Jirachi|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|65/100
+|-status|p2a: Tentacruel|par
+|move|p2a: Tentacruel|Scald|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|
+|-heal|p1a: Jirachi|99/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|71/100 par|[from] item: Black Sludge
+|upkeep
+|turn|101
+|
+|switch|p1a: Salamence|Salamence, F|97/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tentacruel|atk|1
+|move|p2a: Tentacruel|Rapid Spin|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|89/100
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|77/100 par|[from] item: Black Sludge
+|upkeep
+|turn|102
+|inactive|Felines has 90 seconds left.
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|81/100
+|
+|-heal|p2a: Slowbro|87/100|[from] item: Leftovers
+|upkeep
+|turn|103
+|inactive|Felines has 90 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Slowbro|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|85/100
+|-status|p1a: Jirachi|brn
+|
+|-heal|p1a: Jirachi|91/100 brn|[from] item: Leftovers
+|-heal|p2a: Slowbro|93/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|78/100 brn|[from] brn
+|upkeep
+|turn|104
+|c|☆Legend Davy|xd
+|
+|switch|p2a: Tentacruel|Tentacruel, M|77/100 par
+|move|p1a: Jirachi|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|
+|-heal|p1a: Jirachi|85/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|83/100 par|[from] item: Black Sludge
+|-damage|p1a: Jirachi|72/100 brn|[from] brn
+|upkeep
+|turn|105
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|71/100 brn
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-heal|p1a: Jirachi|77/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|89/100 par|[from] item: Black Sludge
+|-damage|p1a: Jirachi|65/100 brn|[from] brn
+|upkeep
+|turn|106
+|
+|switch|p1a: Magnezone|Magnezone|16/100
+|cant|p2a: Tentacruel|par
+|
+|-heal|p1a: Magnezone|88/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Tentacruel|95/100 par|[from] item: Black Sludge
+|upkeep
+|turn|107
+|
+|switch|p1a: Jirachi|Jirachi|65/100 brn
+|switch|p2a: Blissey|Blissey, F|83/100
+|
+|-heal|p1a: Jirachi|71/100 brn|[from] item: Leftovers
+|-heal|p2a: Blissey|89/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|58/100 brn|[from] brn
+|upkeep
+|turn|108
+|
+|switch|p2a: Tentacruel|Tentacruel, M|95/100 par
+|move|p1a: Jirachi|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|
+|-heal|p1a: Jirachi|65/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100 par|[from] item: Black Sludge
+|-damage|p1a: Jirachi|52/100 brn|[from] brn
+|upkeep
+|turn|109
+|
+|switch|p1a: Salamence|Salamence, F|89/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tentacruel|atk|1
+|move|p2a: Tentacruel|Rapid Spin|p1a: Salamence
+|-damage|p1a: Salamence|86/100
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|110
+|
+|switch|p1a: Magnezone|Magnezone|88/100
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|
+|upkeep
+|turn|111
+|inactive|Felines has 60 seconds left.
+|
+|switch|p1a: Starmie|Starmie|60/100
+|switch|p2a: Blissey|Blissey, F|89/100
+|
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|112
+|
+|switch|p1a: Jirachi|Jirachi|52/100 brn
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Tentacruel|par|[msg]
+|
+|-heal|p1a: Jirachi|58/100 brn|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|46/100 brn|[from] brn
+|upkeep
+|turn|113
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|52/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|40/100 brn|[from] brn
+|upkeep
+|turn|114
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|move|p2a: Tentacruel|Knock Off|p1a: Jirachi
+|-damage|p1a: Jirachi|37/100 brn
+|-enditem|p1a: Jirachi|Leftovers|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-heal|p1a: Jirachi|87/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|74/100 brn|[from] brn
+|upkeep
+|turn|115
+|
+|switch|p1a: Latios|Latios, M|46/100 par
+|move|p2a: Tentacruel|Rapid Spin|p1a: Latios
+|-damage|p1a: Latios|40/100 par
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|116
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Blissey
+|-damage|p2a: Blissey|73/100
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|switch|p1a: Jirachi|Jirachi|74/100 brn
+|move|p2a: Blissey|Seismic Toss|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100 brn
+|
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|37/100 brn|[from] brn
+|upkeep
+|turn|118
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-damage|p1a: Jirachi|25/100 brn|[from] brn
+|upkeep
+|turn|119
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|11/100 brn
+|
+|-heal|p1a: Jirachi|61/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|49/100 brn|[from] brn
+|upkeep
+|turn|120
+|inactive|Felines has 60 seconds left.
+|
+|switch|p1a: Salamence|Salamence, F|86/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Tentacruel|atk|1
+|move|p2a: Tentacruel|Rapid Spin|p1a: Salamence
+|-damage|p1a: Salamence|83/100
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|121
+|inactive|Felines has 60 seconds left.
+|inactive|Felines has 30 seconds left.
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|80/100
+|
+|-heal|p2a: Slowbro|87/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|inactive|Felines has 30 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|49/100 brn
+|move|p2a: Slowbro|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100 brn
+|
+|-heal|p2a: Slowbro|93/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|30/100 brn|[from] brn
+|upkeep
+|turn|123
+|inactive|Felines has 30 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Legend Davy|move: Stealth Rock
+|
+|-damage|p1a: Jirachi|17/100 brn|[from] brn
+|upkeep
+|turn|124
+|inactive|Felines has 30 seconds left.
+|
+|switch|p1a: Latios|Latios, M|40/100 par
+|move|p2a: Tentacruel|Rapid Spin|p1a: Latios
+|-damage|p1a: Latios|35/100 par
+|-sideend|p2: Legend Davy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|125
+|inactive|Felines has 30 seconds left.
+|
+|switch|p2a: Blissey|Blissey, F|86/100
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|126
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|127
+|
+|switch|p1a: Starmie|Starmie|60/100
+|move|p2a: Slowbro|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|42/100
+|
+|upkeep
+|turn|128
+|
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|switch|p2a: Blissey|Blissey, F|92/100
+|
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|129
+|c|☆Legend Davy|no double switch in the world is going to get past this lol
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|130
+|
+|switch|p1a: Starmie|Starmie|42/100
+|move|p2a: Slowbro|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|27/100
+|
+|upkeep
+|turn|131
+|
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|switch|p2a: Blissey|Blissey, F|98/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|132
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|133
+|
+|switch|p1a: Magnezone|Magnezone|88/100
+|move|p2a: Slowbro|Ice Beam|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-damage|p1a: Magnezone|59/100
+|
+|upkeep
+|turn|134
+|
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|135
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|56/100
+|
+|-heal|p2a: Slowbro|62/100|[from] item: Leftovers
+|upkeep
+|turn|136
+|
+|switch|p1a: Magnezone|Magnezone|59/100
+|move|p2a: Slowbro|Ice Beam|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|44/100
+|
+|-heal|p2a: Slowbro|68/100|[from] item: Leftovers
+|upkeep
+|turn|137
+|inactive|Felines has 30 seconds left.
+|
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|138
+|inactive|Felines has 30 seconds left this turn.
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|79/100
+|
+|-heal|p2a: Slowbro|85/100|[from] item: Leftovers
+|upkeep
+|turn|139
+|inactive|Felines has 30 seconds left this turn.
+|
+|switch|p1a: Magnezone|Magnezone|44/100
+|move|p2a: Slowbro|Ice Beam|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|30/100
+|
+|-heal|p2a: Slowbro|91/100|[from] item: Leftovers
+|upkeep
+|turn|140
+|inactive|Felines has 30 seconds left this turn.
+|inactive|Felines has 20 seconds left.
+|
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|141
+|inactive|Felines has 25 seconds left this turn.
+|inactive|Felines has 20 seconds left.
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|81/100
+|
+|-heal|p2a: Slowbro|87/100|[from] item: Leftovers
+|upkeep
+|turn|142
+|inactive|Felines has 25 seconds left this turn.
+|inactive|Felines has 20 seconds left.
+|
+|switch|p1a: Magnezone|Magnezone|30/100
+|move|p2a: Slowbro|Scald|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-heal|p2a: Slowbro|93/100|[from] item: Leftovers
+|upkeep
+|inactive|Felines has 25 seconds left this turn.
+|inactive|Felines has 20 seconds left.
+|
+|switch|p1a: Latios|Latios, M|35/100 par
+|turn|143
+|inactive|Felines has 25 seconds left this turn.
+|inactive|Felines has 20 seconds left.
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|
+|upkeep
+|turn|144
+|inactive|Felines has 25 seconds left this turn.
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|79/100
+|
+|-heal|p2a: Slowbro|85/100|[from] item: Leftovers
+|upkeep
+|turn|145
+|inactive|Felines has 30 seconds left this turn.
+|
+|switch|p1a: Starmie|Starmie|27/100
+|move|p2a: Slowbro|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|12/100
+|-status|p1a: Starmie|frz
+|
+|-heal|p2a: Slowbro|91/100|[from] item: Leftovers
+|upkeep
+|turn|146
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|cant|p1a: Starmie|frz
+|
+|upkeep
+|turn|147
+|c|☆Legend Davy|lol
+|inactive|Felines has 30 seconds left.
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Blissey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|upkeep
+|inactive|Felines has 30 seconds left this turn.
+|
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|turn|148
+|inactive|Felines has 30 seconds left.
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|149
+|inactive|Felines has 30 seconds left this turn.
+|inactive|Felines has 20 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|17/100 brn
+|move|p2a: Slowbro|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|11/100 brn
+|
+|-damage|p1a: Jirachi|0 fnt|[from] brn
+|faint|p1a: Jirachi
+|upkeep
+|inactive|Felines has 25 seconds left this turn.
+|inactive|Felines has 20 seconds left.
+|
+|switch|p1a: Latios|Latios, M|35/100 par
+|turn|150
+|inactive|Felines has 25 seconds left this turn.
+|c|☆Legend Davy|points please
+|c|☆Legend Davy|XD
+|inactive|Felines has 20 seconds left.
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Latios|Dragon Pulse|p2a: Blissey
+|-damage|p2a: Blissey|82/100
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|151
+|inactive|Felines has 25 seconds left this turn.
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Latios
+|-damage|p1a: Latios|2/100 par
+|move|p1a: Latios|Dragon Pulse|p2a: Blissey
+|-damage|p2a: Blissey|72/100
+|
+|-heal|p2a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|152
+|inactive|Felines has 30 seconds left this turn.
+|
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Latios|Dragon Pulse|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|63/100
+|
+|-heal|p2a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|153
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, F|83/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|turn|154
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|155
+|
+|move|p1a: Salamence|Outrage|p2a: Slowbro
+|-damage|p2a: Slowbro|47/100
+|move|p2a: Slowbro|Ice Beam|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|Legend Davy
+|l|☆Felines
+|raw|Felines's rating: 1407 &rarr; <strong>1381</strong><br />(-26 for losing)
+|raw|Legend Davy's rating: 1312 &rarr; <strong>1337</strong><br />(+25 for winning)

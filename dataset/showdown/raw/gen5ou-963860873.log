@@ -1,0 +1,295 @@
+|j|☆OhJoy11
+|j|☆Esurient
+|player|p1|OhJoy11|260|1377
+|player|p2|Esurient|80|1301
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Breloom, F|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Froslass, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Keldeo|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Ferrothorn, F|item
+|teampreview
+|
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|move|p1a: Froslass|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-enditem|p1a: Froslass|Focus Sash
+|-damage|p1a: Froslass|1/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Froslass|atk|1
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|move|p1a: Froslass|Spikes|p2a: Alakazam
+|-sidestart|p2: Esurient|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|-damage|p2a: Magnezone|88/100|[from] Spikes
+|switch|p1a: Scizor|Scizor, F|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|6
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: Esurient|move: Stealth Rock
+|move|p2a: Magnezone|Hidden Power|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|80/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Froslass|Froslass, F|1/100
+|move|p2a: Landorus|Hidden Power|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|9
+|
+|switch|p2a: Magnezone|Magnezone, shiny|88/100
+|-damage|p2a: Magnezone|76/100|[from] Spikes
+|-damage|p2a: Magnezone|70/100|[from] Stealth Rock
+|move|p1a: Keldeo|Hydro Pump|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|10
+|
+|move|p2a: Alakazam|Psychic|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|-damage|p2a: Ferrothorn|82/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Chople Berry|[eat]
+|-enditem|p2a: Ferrothorn|Chople Berry|[weaken]
+|-damage|p2a: Ferrothorn|49/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|14
+|
+|move|p2a: Landorus|U-turn|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|80/100
+|turn|15
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|76/100
+|-damage|p2a: Landorus|63/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Outrage|p2a: Landorus
+|-damage|p2a: Landorus|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Landorus|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-enditem|p1a: Garchomp|Yache Berry|[weaken]
+|-damage|p1a: Garchomp|36/100
+|move|p1a: Garchomp|Outrage|p2a: Landorus|[from]lockedmove
+|-damage|p2a: Landorus|0 fnt
+|-start|p1a: Garchomp|confusion|[fatigue]
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|88/100|[from] Spikes
+|-damage|p2a: Keldeo|82/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Keldeo|Icy Wind|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|18
+|
+|move|p2a: Keldeo|Icy Wind|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|39/100
+|-unboost|p1a: Breloom|spe|1
+|move|p1a: Breloom|Spore|p2a: Keldeo
+|-status|p2a: Keldeo|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|70/100 slp|[from] Sandstorm
+|-damage|p1a: Breloom|33/100|[from] Sandstorm
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|19
+|
+|cant|p2a: Keldeo|slp
+|move|p1a: Breloom|Drain Punch|p2a: Keldeo
+|-damage|p2a: Keldeo|35/100 slp
+|-heal|p1a: Breloom|50/100 tox|[from] drain|[of] p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|29/100 slp|[from] Sandstorm
+|-damage|p1a: Breloom|44/100 tox|[from] Sandstorm
+|-heal|p1a: Breloom|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|cant|p2a: Keldeo|slp
+|move|p1a: Breloom|Drain Punch|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-heal|p1a: Breloom|70/100 tox|[from] drain|[of] p2a: Keldeo
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|64/100 tox|[from] Sandstorm
+|-heal|p1a: Breloom|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|21
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Alakazam|Psychic|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|70/100 tox|[from] Sandstorm
+|-heal|p1a: Breloom|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|c|☆OhJoy11|gg
+|
+|move|p2a: Alakazam|Psychic|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|win|Esurient
+|c|☆Esurient|gg
+|l|☆OhJoy11
+|raw|OhJoy11's rating: 1385 &rarr; <strong>1361</strong><br />(-24 for losing)
+|raw|Esurient's rating: 1324 &rarr; <strong>1348</strong><br />(+24 for winning)

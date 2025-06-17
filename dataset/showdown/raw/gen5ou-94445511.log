@@ -1,0 +1,398 @@
+|join|Muff -
+|join|Ashiemore
+|player|p1|Muff -|166
+|player|p2|Ashiemore|168
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Gliscor, M
+|poke|p1|Jirachi
+|poke|p1|Rotom-Wash
+|poke|p1|Celebi
+|poke|p1|Tyranitar, F
+|poke|p1|Terrakion
+|poke|p2|Politoed, F
+|poke|p2|Chansey, F
+|poke|p2|Keldeo-Resolute
+|poke|p2|Scizor, F
+|poke|p2|Landorus-Therian, M
+|poke|p2|Gyarados, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|Muff -|mog
+|chat|Muff -|again?
+|chat|Ashiemore|yea
+|chat|Ashiemore|I guess
+|
+|start
+|switch|p1a: Gliscor|Gliscor, M|352/352
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|320/320
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|turn|1
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Landorus-Therian|U-turn|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-activate|p1a: Gliscor|item: Toxic Orb
+|-status|p1a: Gliscor|tox
+|turn|2
+|
+|move|p2a: Landorus-Therian|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|317/352 tox
+|
+|switch|p2a: Chansey|Chansey, F|704/704
+|move|p1a: Gliscor|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|608/704
+|
+|-heal|p1a: Gliscor|352/352 tox|[from] ability: Poison Heal
+|turn|3
+|
+|move|p1a: Gliscor|Taunt|p2a: Chansey
+|-start|p2a: Chansey|move: Taunt
+|cant|p2a: Chansey|move: Taunt|Stealth Rock
+|
+|turn|4
+|
+|switch|p1a: Celebi|Celebi|403/403
+|move|p2a: Chansey|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|303/403
+|
+|-heal|p1a: Celebi|328/403|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|320/320
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Celebi
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Stealth Rock|p2a: Landorus-Therian
+|-sidestart|p2: Ashiemore|move: Stealth Rock
+|
+|-heal|p1a: Celebi|353/403|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Gliscor|Gliscor, M|352/352 tox
+|move|p2a: Landorus-Therian|U-turn|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|283/352 tox
+|
+|switch|p2a: Keldeo-Resolute|Keldeo-Resolute|323/323
+|-damage|p2a: Keldeo-Resolute|303/323|[from] Stealth Rock
+|
+|-heal|p2a: Keldeo-Resolute|323/323|[from] item: Leftovers
+|-heal|p1a: Gliscor|327/352 tox|[from] ability: Poison Heal
+|turn|7
+|
+|switch|p1a: Celebi|Celebi|353/403
+|move|p2a: Keldeo-Resolute|Substitute|p2a: Keldeo-Resolute
+|-start|p2a: Keldeo-Resolute|Substitute
+|-damage|p2a: Keldeo-Resolute|243/323
+|
+|-heal|p2a: Keldeo-Resolute|263/323|[from] item: Leftovers
+|-heal|p1a: Celebi|378/403|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Keldeo-Resolute|Calm Mind|p2a: Keldeo-Resolute
+|-boost|p2a: Keldeo-Resolute|spa|1
+|-boost|p2a: Keldeo-Resolute|spd|1
+|move|p1a: Celebi|Psychic|p2a: Keldeo-Resolute
+|-supereffective|p2a: Keldeo-Resolute
+|-end|p2a: Keldeo-Resolute|Substitute
+|
+|-heal|p2a: Keldeo-Resolute|283/323|[from] item: Leftovers
+|-heal|p1a: Celebi|403/403|[from] item: Leftovers
+|turn|9
+|join|Princess Deluks917
+|
+|move|p2a: Keldeo-Resolute|Calm Mind|p2a: Keldeo-Resolute
+|-boost|p2a: Keldeo-Resolute|spa|1
+|-boost|p2a: Keldeo-Resolute|spd|1
+|move|p1a: Celebi|Psychic|p2a: Keldeo-Resolute
+|-supereffective|p2a: Keldeo-Resolute
+|-damage|p2a: Keldeo-Resolute|173/323
+|
+|-heal|p2a: Keldeo-Resolute|193/323|[from] item: Leftovers
+|turn|10
+|chat|Ashiemore|this again
+|
+|move|p2a: Keldeo-Resolute|Calm Mind|p2a: Keldeo-Resolute
+|-boost|p2a: Keldeo-Resolute|spa|1
+|-boost|p2a: Keldeo-Resolute|spd|1
+|move|p1a: Celebi|Psychic|p2a: Keldeo-Resolute
+|-supereffective|p2a: Keldeo-Resolute
+|-damage|p2a: Keldeo-Resolute|109/323
+|
+|-heal|p2a: Keldeo-Resolute|129/323|[from] item: Leftovers
+|turn|11
+|chat|Princess Deluks917|lol playing again
+|chat|Ashiemore|no
+|chat|Ashiemore|me failing again
+|
+|move|p2a: Keldeo-Resolute|Calm Mind|p2a: Keldeo-Resolute
+|-boost|p2a: Keldeo-Resolute|spa|1
+|-boost|p2a: Keldeo-Resolute|spd|1
+|move|p1a: Celebi|Psychic|p2a: Keldeo-Resolute
+|-supereffective|p2a: Keldeo-Resolute
+|-damage|p2a: Keldeo-Resolute|55/323
+|
+|-heal|p2a: Keldeo-Resolute|75/323|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Keldeo-Resolute|Secret Sword|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|186/403
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Terrakion|Terrakion|323/323
+|
+|-heal|p2a: Keldeo-Resolute|95/323|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Terrakion|Close Combat|p2a: Keldeo-Resolute
+|-damage|p2a: Keldeo-Resolute|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Keldeo-Resolute
+|
+|
+|switch|p2a: Politoed|Politoed, F|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|14
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|303/303
+|move|p2a: Politoed|Hidden Power|p1a: Rotom-Wash
+|-supereffective|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|119/303
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom-Wash|137/303|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Chansey|Chansey, F|608/704
+|-damage|p2a: Chansey|520/704|[from] Stealth Rock
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|460/704
+|
+|switch|p1a: Tyranitar|Tyranitar, F|385/385
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|416/704|[from] sandstorm
+|turn|16
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Chansey
+|-damage|p2a: Chansey|46/704
+|move|p2a: Chansey|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|2/704|[from] sandstorm
+|turn|17
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|354/704
+|move|p1a: Tyranitar|Stone Edge|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, F|344/344
+|-damage|p2a: Scizor|301/344|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Gliscor|Gliscor, M|327/352 tox
+|move|p2a: Scizor|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|251/352 tox
+|
+|switch|p2a: Politoed|Politoed, F|336/384
+|-damage|p2a: Politoed|288/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|295/352 tox|[from] ability: Poison Heal
+|turn|19
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|339/352 tox|[from] ability: Poison Heal
+|turn|20
+|
+|switch|p1a: Celebi|Celebi|186/403
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|320/320
+|-damage|p2a: Landorus-Therian|280/320|[from] Stealth Rock
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Celebi
+|-unboost|p1a: Celebi|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|211/403|[from] item: Leftovers
+|turn|21
+|
+|switch|p1a: Gliscor|Gliscor, M|339/352 tox
+|move|p2a: Landorus-Therian|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|306/352 tox
+|
+|switch|p2a: Gyarados|Gyarados, M|332/332
+|-damage|p2a: Gyarados|249/332|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|350/352 tox|[from] ability: Poison Heal
+|turn|22
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|137/303
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom-Wash|155/303|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Gyarados|Waterfall|p1a: Rotom-Wash
+|-resisted|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|11/303
+|cant|p1a: Rotom-Wash|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom-Wash|29/303|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Gyarados|Waterfall|p1a: Rotom-Wash
+|-resisted|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|0 fnt
+|faint|p1a: Rotom-Wash
+|-boost|p2a: Gyarados|atk|1|[from] ability: Moxie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Terrakion|Terrakion|323/323
+|turn|25
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, F|288/384
+|-damage|p2a: Politoed|240/384|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|move|p2a: Politoed|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|354/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|379/404|[from] item: Leftovers
+|turn|27
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|280/320
+|-damage|p2a: Landorus-Therian|240/320|[from] Stealth Rock
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Jirachi
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|turn|28
+|
+|switch|p1a: Gliscor|Gliscor, M|350/352 tox
+|move|p2a: Landorus-Therian|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|317/352 tox
+|
+|switch|p2a: Politoed|Politoed, F|240/384
+|-damage|p2a: Politoed|192/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|352/352 tox|[from] move: Wish|[wisher] Jirachi
+|turn|29
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|30
+|
+|switch|p1a: Celebi|Celebi|211/403
+|move|p2a: Politoed|Hydro Pump|p1a: Celebi|[miss]
+|-miss|p2a: Politoed|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|236/403|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|403/403
+|move|p2a: Politoed|Hydro Pump|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|265/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|290/403|[from] item: Leftovers
+|turn|32
+|
+|switch|p2a: Scizor|Scizor, F|301/344
+|-damage|p2a: Scizor|258/344|[from] Stealth Rock
+|move|p1a: Celebi|Psychic|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|198/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|315/403|[from] item: Leftovers
+|turn|33
+|
+|switch|p1a: Gliscor|Gliscor, M|352/352 tox
+|move|p2a: Scizor|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|279/352 tox
+|
+|switch|p2a: Politoed|Politoed, F|192/384
+|-damage|p2a: Politoed|144/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|323/352 tox|[from] ability: Poison Heal
+|turn|34
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|352/352 tox|[from] ability: Poison Heal
+|turn|35
+|-message|Ashiemore forfeited.
+|leave|Ashiemore
+|
+|win|Muff -
+|raw|Ladder updating...
+|player|p2
+|raw|Muff -'s rating: 1576 &rarr; <strong>1591</strong><br />(+15 for winning)
+|raw|Ashiemore's rating: 1470 &rarr; <strong>1456</strong><br />(-14 for losing)
+|leave|Muff -
+|player|p1
+|leave|Princess Deluks917

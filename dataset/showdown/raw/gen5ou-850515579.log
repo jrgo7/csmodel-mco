@@ -1,0 +1,440 @@
+|j|☆PistachoDulce
+|j|☆porrompompom
+|player|p1|PistachoDulce|17
+|player|p2|porrompompom|10
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Slowbro, F|item
+|poke|p1|Magnezone|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Starmie|item
+|poke|p2|Heatran, F|item
+|poke|p2|Kyurem|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Reuniclus, F|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|move|p1a: Landorus|U-turn|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|25/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Reuniclus|Trick|p1a: Tyranitar
+|-activate|p2a: Reuniclus|move: Trick|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Flame Orb|[from] move: Trick
+|-item|p2a: Reuniclus|Chople Berry|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p1a: Tyranitar|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|porrompompom has 120 seconds left.
+|c|☆PistachoDulce|Hi
+|
+|-activate|p2a: Reuniclus|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Reuniclus|[from]Pursuit
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|3
+|c|☆PistachoDulce|Speaking Spanish?
+|c|☆porrompompom|no, me llamo porrompompom pero soy de noruega
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: PistachoDulce|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|94/100|[from] Sandstorm
+|-heal|p1a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Starmie|Starmie|100/100
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|move|p1a: Magnezone|Flash Cannon|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|6
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Will-O-Wisp|p1a: Slowbro
+|-status|p1a: Slowbro|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|82/100 brn|[from] Sandstorm
+|-heal|p1a: Slowbro|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|76/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Slowbro|Ice Beam|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|55/100|[from] Sandstorm
+|-damage|p1a: Slowbro|70/100 brn|[from] Sandstorm
+|-heal|p1a: Slowbro|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|63/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Kyurem|Focus Blast|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|34/100 brn
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|84/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|49/100|[from] Sandstorm
+|-damage|p1a: Slowbro|78/100 brn|[from] Sandstorm
+|-heal|p1a: Slowbro|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|71/100 brn|[from] brn
+|upkeep
+|turn|9
+|c|☆PistachoDulce|vaaya
+|
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Slowbro|Psychic|p2a: Abomasnow
+|-damage|p2a: Abomasnow|68/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Slowbro|65/100 brn|[from] Hail
+|-heal|p2a: Abomasnow|74/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|59/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Magnezone|Magnezone|94/100
+|-damage|p1a: Magnezone|88/100|[from] Stealth Rock
+|move|p2a: Abomasnow|Leech Seed|p1a: Magnezone
+|-start|p1a: Magnezone|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnezone|82/100|[from] Hail
+|-heal|p2a: Abomasnow|80/100|[from] item: Leftovers
+|-damage|p1a: Magnezone|70/100|[from] Leech Seed|[of] p2a: Abomasnow
+|-heal|p2a: Abomasnow|91/100|[silent]
+|upkeep
+|turn|11
+|
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1a: Magnezone|Flash Cannon|p2a: Abomasnow
+|-activate|p2a: Abomasnow|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnezone|63/100|[from] Hail
+|-heal|p2a: Abomasnow|97/100|[from] item: Leftovers
+|-damage|p1a: Magnezone|51/100|[from] Leech Seed|[of] p2a: Abomasnow
+|-heal|p2a: Abomasnow|100/100|[silent]
+|upkeep
+|turn|12
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, M|88/100 brn
+|-damage|p1a: Tyranitar|76/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|63/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Starmie
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|51/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|50/100 brn
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Tyranitar|Crunch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|37/100 brn|[from] brn
+|upkeep
+|c|☆PistachoDulce|porque me sale tantos criticos
+|c|☆PistachoDulce|....
+|inactive|porrompompom has 120 seconds left.
+|c|☆porrompompom|dicen los cristianos que dios ayuda a quien más lo necesita
+|
+|switch|p2a: Kyurem|Kyurem|49/100
+|-ability|p2a: Kyurem|Pressure
+|turn|15
+|
+|switch|p1a: Slowbro|Slowbro, F|92/100 brn
+|-damage|p1a: Slowbro|80/100 brn|[from] Stealth Rock
+|move|p2a: Kyurem|Draco Meteor|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-unboost|p2a: Kyurem|spa|2
+|faint|p1a: Slowbro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|43/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|turn|16
+|
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Landorus|Stone Edge|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|11/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|82/100|[from] Hail
+|-heal|p2a: Abomasnow|18/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Abomasnow|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|37/100 brn
+|-damage|p1a: Tyranitar|25/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|18
+|
+|move|p2a: Abomasnow|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|move|p1a: Tyranitar|Crunch|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|13/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem|43/100
+|-ability|p2a: Kyurem|Pressure
+|turn|19
+|
+|move|p2a: Kyurem|Blizzard|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|37/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Kyurem|Blizzard|p1a: Amoonguss|[miss]
+|-miss|p2a: Kyurem|p1a: Amoonguss
+|move|p1a: Amoonguss|Spore|p2a: Kyurem
+|-status|p2a: Kyurem|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|30/100 slp|[from] Sandstorm
+|-damage|p1a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|cant|p2a: Kyurem|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|19/100 slp
+|-heal|p1a: Amoonguss|93/100|[from] drain|[of] p2a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|13/100 slp|[from] Sandstorm
+|-damage|p1a: Amoonguss|87/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|93/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|96/100
+|-heal|p1a: Amoonguss|95/100|[from] drain|[of] p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|89/100|[from] Sandstorm
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|95/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p2a: Heatran|Lava Plume|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|50/100
+|move|p1a: Amoonguss|Stun Spore|p2a: Heatran|[miss]
+|-miss|p1a: Amoonguss|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|44/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|50/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p2a: Heatran|Lava Plume|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Heatran|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-curestatus|p1a: Dragonite|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|70/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|move|p1a: Dragonite|Outrage|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|55/100
+|move|p2a: Heatran|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|63/100 brn|[from] Sandstorm
+|-heal|p2a: Heatran|61/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|51/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p2a: Kyurem|Kyurem|13/100 slp
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Dragonite|Outrage|p2a: Kyurem|[from]lockedmove
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-start|p1a: Dragonite|confusion|[fatigue]
+|faint|p2a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|45/100 brn|[from] Sandstorm
+|-damage|p1a: Dragonite|32/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, F|61/100
+|turn|28
+|
+|-activate|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Outrage|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|38/100
+|move|p2a: Heatran|Lava Plume|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|13/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|7/100 brn|[from] Sandstorm
+|-heal|p2a: Heatran|44/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|0 fnt|[from] brn
+|faint|p1a: Dragonite
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|51/100
+|-damage|p1a: Magnezone|45/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Heatran|Lava Plume|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|win|porrompompom
+|c|☆PistachoDulce|jaja
+|raw|PistachoDulce's rating: 1349 &rarr; <strong>1340</strong><br />(-9 for losing)
+|raw|porrompompom's rating: 1556 &rarr; <strong>1565</strong><br />(+9 for winning)
+|c|☆PistachoDulce|gg
+|c|☆porrompompom|lo sé, gracias
+|l|☆porrompompom
+|l|☆PistachoDulce
+|j|☆porrompompom

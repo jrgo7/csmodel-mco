@@ -1,0 +1,521 @@
+|j|☆refsunpersons
+|j|☆Moth fantall.
+|player|p1|refsunpersons|123
+|player|p2|Moth fantall.|168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Porygon2|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Moth fantall.)
+|c|☆refsunpersons|gl hf
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|turn|1
+|
+|move|p2a: Jirachi|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|92/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Moth fantall.|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: refsunpersons|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-damage|p1a: Porygon2|88/100|[from] Stealth Rock
+|-ability|p1a: Porygon2|Drizzle|[from] ability: Trace|[of] p2a: Politoed
+|move|p2a: Politoed|Hydro Pump|p1a: Porygon2
+|-damage|p1a: Porygon2|56/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|63/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Landorus|Landorus-Therian, M|92/100
+|-damage|p1a: Landorus|80/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|Trick|p1a: Landorus
+|-activate|p2a: Jirachi|move: Trick|[of] p1a: Landorus
+|-item|p1a: Landorus|Choice Scarf|[from] move: Trick
+|-item|p2a: Jirachi|Choice Scarf|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Jirachi|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|89/100
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Latios|Surf|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-damage|p1a: Porygon2|88/100|[from] Stealth Rock
+|-ability|p1a: Porygon2|Levitate|[from] ability: Trace|[of] p2a: Latios
+|move|p2a: Latios|Surf|p1a: Porygon2
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|18/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Latios|Surf|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|11
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Latios|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Latios|66/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|94/100
+|-damage|p2a: Jirachi|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Jirachi|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|85/100
+|
+|switch|p2a: Politoed|Politoed, F|63/100 brn
+|-damage|p2a: Politoed|51/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|91/100|[from] item: Leftovers
+|-damage|p2a: Politoed|38/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|move|p1a: Excadrill|Protect||[still]
+|-fail|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|98/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Latios|Surf|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|refsunpersons has 120 seconds left.
+|
+|switch|p1a: Ninetales|Ninetales, F, shiny|76/100
+|-damage|p1a: Ninetales|51/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Latios|Surf|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-enditem|p1a: Ninetales|Passho Berry|[eat]
+|-enditem|p1a: Ninetales|Passho Berry|[weaken]
+|-damage|p1a: Ninetales|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Latios|Latios, M|66/100
+|-damage|p1a: Latios|54/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Jirachi|Jirachi|88/100
+|-damage|p2a: Jirachi|82/100|[from] Stealth Rock
+|move|p1a: Latios|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|19/100
+|-damage|p1a: Latios|31/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p1a: Landorus|Landorus-Therian, M|80/100
+|-damage|p1a: Landorus|68/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|60/100
+|
+|switch|p2a: Politoed|Politoed, F|38/100 brn
+|-damage|p2a: Politoed|26/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|14/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|56/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Thundurus|Focus Blast|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Excadrill|[miss]
+|-miss|p2a: Thundurus|p1a: Excadrill
+|move|p1a: Excadrill|Rapid Spin|p2a: Thundurus
+|-damage|p2a: Thundurus|48/100
+|-sideend|p1: refsunpersons|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|c|☆refsunpersons|sry
+|inactive|refsunpersons has 120 seconds left.
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|switch|p1a: Ninetales|Ninetales, F, shiny|25/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Thundurus|Thunder|p1a: Ninetales|[miss]
+|-miss|p2a: Thundurus|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|26
+|
+|switch|p2a: Politoed|Politoed, F|14/100 brn
+|-damage|p2a: Politoed|1/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Volcarona|Flamethrower|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|69/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tentacruel|Toxic|p1a: Volcarona|[miss]
+|-miss|p2a: Tentacruel|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|81/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tentacruel|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-damage|p1a: Volcarona|94/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-fail|p2a: Tentacruel|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] ability: Rain Dish
+|-damage|p1a: Volcarona|82/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|-damage|p1a: Volcarona|64/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|69/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|75/100|[from] item: Black Sludge
+|-damage|p1a: Volcarona|40/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|move|p1a: Volcarona|Rest|p1a: Volcarona
+|-status|p1a: Volcarona|slp
+|-heal|p1a: Volcarona|100/100 slp|[silent]
+|-status|p1a: Volcarona|slp|[from] move: Rest
+|-enditem|p1a: Volcarona|Chesto Berry|[eat]
+|-curestatus|p1a: Volcarona|slp|[msg]
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-fail|p2a: Tentacruel|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|81/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|87/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|move|p2a: Tentacruel|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|93/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-damage|p1a: Volcarona|94/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|42/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Volcarona
+|-damage|p1a: Volcarona|91/100 tox
+|-status|p2a: Tentacruel|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-sideend|p2: Moth fantall.|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|48/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|54/100 brn|[from] item: Black Sludge
+|-damage|p1a: Volcarona|79/100 tox|[from] psn
+|-damage|p2a: Tentacruel|41/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|48/100
+|move|p1a: Volcarona|Bug Buzz|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Volcarona|60/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|41/100 brn
+|turn|37
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Volcarona|36/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|19/100
+|turn|38
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Volcarona|5/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|76/100
+|turn|39
+|c|☆refsunpersons|gg wp apologies for the hax
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|win|refsunpersons
+|raw|refsunpersons's rating: 1374 &rarr; <strong>1400</strong><br />(+26 for winning)
+|raw|Moth fantall.'s rating: 1484 &rarr; <strong>1458</strong><br />(-26 for losing)
+|l|☆Moth fantall.

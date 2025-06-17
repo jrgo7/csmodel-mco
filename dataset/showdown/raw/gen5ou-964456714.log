@@ -1,0 +1,474 @@
+|j|☆saltmines
+|j|☆Liam ☉ Nee-san
+|player|p1|saltmines|101|1379
+|player|p2|Liam ☉ Nee-san|greta-gen3|1395
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Gastrodon-East, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Breloom, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Donphan, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Hydreigon, F|item
+|teampreview
+|
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Phalus|Breloom, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Liam ☉ Nee-san)
+|
+|switch|p2a: Ain't going nowher|Magnezone, shiny|100/100
+|move|p1a: Tornadus|Hurricane|p2a: Ain't going nowher
+|-resisted|p2a: Ain't going nowher
+|-damage|p2a: Ain't going nowher|69/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|move|p2a: Ain't going nowher|Flash Cannon|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|88/100
+|
+|-heal|p1a: Gastrodon|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Hydrei(3)gon|Hydreigon, F|100/100
+|move|p1a: Gastrodon|Scald|p2a: Hydrei(3)gon
+|-resisted|p2a: Hydrei(3)gon
+|-crit|p2a: Hydrei(3)gon
+|-damage|p2a: Hydrei(3)gon|69/100
+|-status|p2a: Hydrei(3)gon|brn
+|
+|-heal|p1a: Gastrodon|99/100|[from] item: Leftovers
+|-damage|p2a: Hydrei(3)gon|57/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Liam ☉ Nee-san has 120 seconds left.
+|
+|move|p2a: Hydrei(3)gon|Draco Meteor|p1a: Gastrodon
+|-enditem|p2a: Hydrei(3)gon|Dragon Gem|[from] gem|[move] Draco Meteor
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-unboost|p2a: Hydrei(3)gon|spa|2
+|faint|p1a: Gastrodon
+|
+|-damage|p2a: Hydrei(3)gon|44/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|5
+|
+|move|p2a: Hydrei(3)gon|Draco Meteor|p1a: Politoed|[miss]
+|-miss|p2a: Hydrei(3)gon|p1a: Politoed
+|move|p1a: Politoed|Scald|p2a: Hydrei(3)gon
+|-resisted|p2a: Hydrei(3)gon
+|-damage|p2a: Hydrei(3)gon|21/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Hydrei(3)gon|9/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Hydrei(3)gon|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|70/100
+|-unboost|p2a: Hydrei(3)gon|spa|2
+|move|p1a: Politoed|Scald|p2a: Hydrei(3)gon
+|-resisted|p2a: Hydrei(3)gon
+|-damage|p2a: Hydrei(3)gon|0 fnt
+|faint|p2a: Hydrei(3)gon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Phalus|Breloom, F|100/100
+|turn|7
+|
+|move|p2a: Phalus|Spore|p1a: Politoed
+|-status|p1a: Politoed|slp|[from] move: Spore
+|cant|p1a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|83/100 slp|[from] item: Leftovers
+|-status|p2a: Phalus|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|move|p2a: Phalus|Substitute|p2a: Phalus
+|-start|p2a: Phalus|Substitute
+|-damage|p2a: Phalus|76/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Phalus|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|-singleturn|p2a: Phalus|move: Focus Punch
+|move|p1a: Tentacruel|Scald|p2a: Phalus
+|-resisted|p2a: Phalus
+|-end|p2a: Phalus|Substitute
+|move|p2a: Phalus|Focus Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|71/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|77/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|move|p2a: Phalus|Rock Slide|p1a: Tentacruel|[miss]
+|-miss|p2a: Phalus|p1a: Tentacruel
+|move|p1a: Tentacruel|Scald|p2a: Phalus
+|-resisted|p2a: Phalus
+|-damage|p2a: Phalus|64/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|83/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|89/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|move|p2a: Phalus|Rock Slide|p1a: Tentacruel
+|-damage|p1a: Tentacruel|64/100
+|cant|p1a: Tentacruel|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|70/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|76/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Phalus|Substitute|p2a: Phalus
+|-start|p2a: Phalus|Substitute
+|-damage|p2a: Phalus|63/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|88/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|-singleturn|p2a: Phalus|move: Focus Punch
+|move|p1a: Tentacruel|Scald|p2a: Phalus
+|-resisted|p2a: Phalus
+|-end|p2a: Phalus|Substitute
+|move|p2a: Phalus|Focus Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|56/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|62/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|move|p1a: Tentacruel|Scald|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|68/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|74/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Tentacruel|Toxic|p2a: Dragonite|[miss]
+|-miss|p1a: Tentacruel|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|80/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|86/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Dragonite|Outrage|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-damage|p2a: Dragonite|80/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dragonite|Outrage|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|39/100
+|-damage|p2a: Dragonite|67/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-start|p2a: Dragonite|confusion|[fatigue]
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-end|p2a: Dragonite|confusion
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dragonite
+|-start|p2a: Dragonite|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|45/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|55/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|57/100|[silent]
+|upkeep
+|turn|18
+|
+|switch|p2a: Ain't going nowher|Magnezone, shiny|69/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ain't going nowher
+|-sidestart|p2: Liam ☉ Nee-san|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Ain't going nowher|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|28/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ain't going nowher
+|-start|p2a: Ain't going nowher|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|34/100|[from] item: Leftovers
+|-damage|p2a: Ain't going nowher|56/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|44/100|[silent]
+|upkeep
+|turn|20
+|
+|move|p2a: Ain't going nowher|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|13/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Ain't going nowher|[miss]
+|-miss|p1a: Ferrothorn|p2a: Ain't going nowher
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|20/100|[from] item: Leftovers
+|-damage|p2a: Ain't going nowher|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|29/100|[silent]
+|upkeep
+|turn|21
+|
+|move|p2a: Ain't going nowher|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|saltmines has 120 seconds left.
+|
+|switch|p1a: Tentacruel|Tentacruel, F|86/100
+|turn|22
+|
+|switch|p2a: Phalus|Breloom, F|88/100 tox
+|-damage|p2a: Phalus|82/100 tox|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Phalus
+|-resisted|p2a: Phalus
+|-damage|p2a: Phalus|45/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|92/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|98/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|inactive|saltmines has 120 seconds left.
+|
+|move|p2a: Phalus|Rock Slide|p1a: Tentacruel
+|-damage|p1a: Tentacruel|74/100
+|move|p1a: Tentacruel|Scald|p2a: Phalus
+|-resisted|p2a: Phalus
+|-damage|p2a: Phalus|27/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|80/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|86/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|39/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|inactive|saltmines has 120 seconds left.
+|inactive|Liam ☉ Nee-san has 120 seconds left.
+|
+|move|p2a: Phalus|Rock Slide|p1a: Tentacruel
+|-damage|p1a: Tentacruel|60/100
+|move|p1a: Tentacruel|Scald|p2a: Phalus
+|-resisted|p2a: Phalus
+|-damage|p2a: Phalus|5/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|66/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|72/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|17/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|inactive|saltmines has 120 seconds left.
+|inactive|Liam ☉ Nee-san has 120 seconds left.
+|
+|move|p2a: Phalus|Rock Slide|p1a: Tentacruel
+|-damage|p1a: Tentacruel|46/100
+|cant|p1a: Tentacruel|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|52/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|58/100|[from] item: Black Sludge
+|-heal|p2a: Phalus|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|inactive|saltmines has 120 seconds left.
+|
+|move|p2a: Phalus|Rock Slide|p1a: Tentacruel
+|-damage|p1a: Tentacruel|34/100
+|move|p1a: Tentacruel|Scald|p2a: Phalus
+|-resisted|p2a: Phalus
+|-damage|p2a: Phalus|0 fnt
+|faint|p2a: Phalus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|40/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|46/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M, shiny|55/100
+|-damage|p2a: Dragonite|30/100|[from] Stealth Rock
+|turn|27
+|inactive|saltmines has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Dragonite|Outrage|p1a: Rotom
+|-damage|p1a: Rotom|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p1a: Rotom|Volt Switch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ain't going nowher|Magnezone, shiny|44/100
+|-damage|p2a: Ain't going nowher|38/100|[from] Stealth Rock
+|turn|29
+|inactive|saltmines has 120 seconds left.
+|inactive|Liam ☉ Nee-san has 120 seconds left.
+|inactive|saltmines has 90 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|83/100 slp
+|move|p2a: Ain't going nowher|Thunderbolt|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|saltmines has 90 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|13/100
+|turn|30
+|inactive|Liam ☉ Nee-san has 120 seconds left.
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Ain't going nowher
+|-damage|p2a: Ain't going nowher|0 fnt
+|faint|p2a: Ain't going nowher
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Liam ☉ Nee-san has 90 seconds left.
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|31
+|
+|switch|p1a: Tentacruel|Tentacruel, F|46/100
+|move|p2a: Garchomp|Outrage|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|32
+|
+|move|p2a: Garchomp|Outrage|p1a: Tornadus|[from]lockedmove
+|-damage|p1a: Tornadus|1/100
+|move|p1a: Tornadus|Hurricane|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Benjamin Blümchen|Donphan, F|100/100
+|-damage|p2a: Benjamin Blümchen|94/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Benjamin Blümchen|Ice Shard|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Benjamin Blümchen|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|13/100
+|turn|34
+|
+|move|p2a: Benjamin Blümchen|Ice Shard|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|3/100
+|move|p1a: Rotom|Hydro Pump|p2a: Benjamin Blümchen
+|-supereffective|p2a: Benjamin Blümchen
+|-ability|p2a: Benjamin Blümchen|Sturdy
+|-damage|p2a: Benjamin Blümchen|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Benjamin Blümchen|7/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|-message|saltmines forfeited.
+|
+|win|Liam ☉ Nee-san
+|l|☆saltmines
+|raw|saltmines's rating: 1379 &rarr; <strong>1360</strong><br />(-19 for losing)
+|raw|Liam ☉ Nee-san's rating: 1395 &rarr; <strong>1414</strong><br />(+19 for winning)

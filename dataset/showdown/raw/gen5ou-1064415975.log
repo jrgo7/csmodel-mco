@@ -1,0 +1,506 @@
+|j|☆Haxeraresonofbitch
+|j|☆OrionJTK
+|player|p1|Haxeraresonofbitch|249|1488
+|player|p2|OrionJTK|pokemonranger|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Infernape, F|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Reuniclus, F|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OrionJTK)
+|
+|start
+|switch|p1a: Infernape|Infernape, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Infernape|Fire Blast|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Infernape|Stealth Rock|p2a: Heatran
+|-sidestart|p2: OrionJTK|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Infernape|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|5/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Toxic|p1a: Infernape
+|-status|p1a: Infernape|tox
+|
+|-damage|p1a: Infernape|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Infernape|Close Combat|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|55/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|
+|-damage|p1a: Infernape|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: Bronzong|Bronzong|100/100
+|
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|41/100
+|
+|-heal|p1a: Jellicent|47/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Excadrill|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, F|82/100 tox
+|turn|8
+|
+|switch|p2a: Heatran|Heatran, F|5/100
+|-damage|p2a: Heatran|0 fnt|[from] Stealth Rock
+|faint|p2a: Heatran
+|move|p1a: Infernape|Close Combat|p2: Heatran|[notarget]
+|-fail|p1a: Infernape
+|
+|-damage|p1a: Infernape|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|55/100
+|-damage|p2a: Latios|43/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Latios|Draco Meteor|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Infernape
+|
+|upkeep
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|turn|10
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Bronzong|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|20/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|97/100
+|-sideend|p2: OrionJTK|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p2a: Excadrill|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Bronzong|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|13
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Bronzong|Earthquake|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Bronzong|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|48/100
+|move|p2a: Jirachi|Body Slam|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|89/100
+|-status|p1a: Bronzong|par
+|
+|-heal|p2a: Jirachi|54/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p2a: Jirachi|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|76/100 par
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p2a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-heal|p2a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Latios|Latios, M|43/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Conkeldurr|91/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|73/100
+|turn|19
+|
+|switch|p1a: Bronzong|Bronzong|76/100 par
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|79/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|20
+|
+|move|p2a: Jirachi|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|64/100 par
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p2a: Jirachi|85/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|91/100
+|move|p2a: Jirachi|Protect||[still]
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|91/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-heal|p2a: Jirachi|98/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Jirachi
+|-damage|p2a: Jirachi|39/100
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Jirachi
+|-damage|p1a: Conkeldurr|91/100|[from] item: Life Orb
+|move|p2a: Jirachi|Body Slam|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|73/100
+|
+|-heal|p2a: Jirachi|46/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-heal|p2a: Jirachi|52/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|25
+|
+|move|p2a: Jirachi|Iron Head|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|49/100
+|cant|p1a: Conkeldurr|flinch
+|
+|-heal|p2a: Jirachi|58/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Jirachi|Iron Head|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|25/100
+|cant|p1a: Conkeldurr|flinch
+|
+|-heal|p2a: Jirachi|64/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Jirachi|Iron Head|p1a: Conkeldurr
+|-crit|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-heal|p2a: Jirachi|70/100|[from] item: Leftovers
+|upkeep
+|c|☆Haxeraresonofbitch|read my name son of bitch
+|
+|switch|p1a: Bronzong|Bronzong|64/100 par
+|turn|28
+|
+|move|p2a: Jirachi|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|51/100 par
+|cant|p1a: Bronzong|flinch
+|
+|-heal|p2a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Jirachi|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|38/100 par
+|cant|p1a: Bronzong|flinch
+|
+|-heal|p2a: Jirachi|83/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Jirachi|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|27/100 par
+|cant|p1a: Bronzong|flinch
+|
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆OrionJTK|Lul
+|
+|move|p2a: Jirachi|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|15/100 par
+|cant|p1a: Bronzong|flinch
+|
+|-heal|p2a: Jirachi|95/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Jirachi|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|2/100 par
+|cant|p1a: Bronzong|flinch
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆Haxeraresonofbitch|stupidest strat ever
+|c|☆Haxeraresonofbitch|this is made for ret*rd that can't even build a real team
+|c|☆OrionJTK|Ok
+|inactive|Haxeraresonofbitch has 120 seconds left.
+|c|☆Haxeraresonofbitch|"owlol I'll toss a coin to decide by luck if I'll win instead of having a real strat"
+|c|☆Haxeraresonofbitch|go to casino son of bitch
+|
+|move|p2a: Jirachi|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|c|☆OrionJTK|Ok
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|34
+|
+|move|p2a: Jirachi|Iron Head|p1a: Reuniclus
+|-damage|p1a: Reuniclus|72/100
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|upkeep
+|turn|35
+|c|☆Haxeraresonofbitch|or go suicide
+|inactive|Haxeraresonofbitch has 120 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Jirachi|Body Slam|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|84/100
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|36
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Tyranitar|Flamethrower|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|
+|move|p1a: Tyranitar|Flamethrower|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|65/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Tyranitar|Flamethrower|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|34/100
+|move|p2a: Jirachi|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|31/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|84/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|39
+|
+|move|p2a: Jirachi|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|72/100
+|turn|40
+|
+|move|p2a: Jirachi|Body Slam|p1a: Reuniclus
+|-damage|p1a: Reuniclus|50/100
+|-status|p1a: Reuniclus|par
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Jirachi
+|-damage|p2a: Jirachi|64/100
+|move|p2a: Jirachi|Iron Head|p1a: Reuniclus
+|-damage|p1a: Reuniclus|24/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|70/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|c|☆Haxeraresonofbitch|-20 for me because of hax
+|c|☆OrionJTK|Ok
+|c|☆Haxeraresonofbitch|that's why I'm using this name
+|c|☆Haxeraresonofbitch|son of bitch
+|c|☆OrionJTK|Ok
+|c|☆Haxeraresonofbitch|go fuck rself
+|c|☆OrionJTK|Ok
+|c|☆Haxeraresonofbitch|even your mom would like to see you dead
+|inactive|Haxeraresonofbitch has 120 seconds left.
+|c|☆Haxeraresonofbitch|son of bitch
+|c|☆OrionJTK|Ok
+|c|☆Haxeraresonofbitch|learn how to play this game, how to build a team
+|c|☆OrionJTK|Ok
+|c|☆Haxeraresonofbitch|and how to win other way than by hax
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Jirachi
+|-damage|p2a: Jirachi|33/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|39/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|c|☆OrionJTK|You lost though
+|c|☆OrionJTK|So i dont care
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Jirachi
+|-damage|p2a: Jirachi|4/100
+|move|p2a: Jirachi|Iron Head|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|win|OrionJTK
+|raw|Haxeraresonofbitch's rating: 1488 &rarr; <strong>1460</strong><br />(-28 for losing)
+|raw|OrionJTK's rating: 1336 &rarr; <strong>1365</strong><br />(+29 for winning)
+|c|☆Haxeraresonofbitch|yeah gg hax
+|c|☆Haxeraresonofbitch|this isn't even you who won
+|c|☆OrionJTK|Gg :)
+|c|☆Haxeraresonofbitch|just the rng
+|c|☆Haxeraresonofbitch|what a strong rng
+|c|☆Haxeraresonofbitch|wow
+|c|☆Haxeraresonofbitch|no strat
+|c|☆Haxeraresonofbitch|no team
+|c|☆OrionJTK|<3
+|c|☆Haxeraresonofbitch|just a fucking ret*rd
+|c|☆Haxeraresonofbitch|go fuck r fatty mom
+|l|☆Haxeraresonofbitch

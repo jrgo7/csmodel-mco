@@ -1,0 +1,282 @@
+|j|☆choke sunday
+|j|☆senpai noticer
+|player|p1|choke sunday|115|1318
+|player|p2|senpai noticer|bugsy|1562
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Slowking, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Amoonguss, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100 brn
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: senpai noticer|Spikes
+|
+|-heal|p1a: Ferrothorn|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|73/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|100/100
+|move|p2a: Skarmory|Spikes|p1a: Garchomp
+|-sidestart|p1: choke sunday|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|76/100
+|
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Garchomp|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|49/100
+|move|p2a: Amoonguss|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|-heal|p2a: Amoonguss|56/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|move|p2a: Amoonguss|Stun Spore|p1a: Jirachi
+|-status|p1a: Jirachi|par
+|
+|-heal|p2a: Amoonguss|62/100|[from] item: Black Sludge
+|-heal|p1a: Jirachi|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Jirachi|Psychic|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|80/100
+|-unboost|p2a: Skarmory|spd|1
+|
+|-heal|p1a: Jirachi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Skarmory|Spikes|p1a: Jirachi
+|-sidestart|p1: choke sunday|Spikes
+|move|p1a: Jirachi|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|3/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|53/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Jirachi|Thunderbolt|p2a: Skarmory
+|-damage|p2a: Skarmory|9/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|59/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Jirachi|Thunderbolt|p2a: Skarmory
+|-damage|p2a: Skarmory|20/100
+|-status|p2a: Skarmory|par
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|88/100|[from] Spikes
+|move|p1a: Jirachi|Psychic|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|62/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|88/100|[from] Spikes
+|switch|p1a: Ferrothorn|Ferrothorn, M|73/100 brn
+|-damage|p1a: Ferrothorn|57/100 brn|[from] Spikes
+|
+|-heal|p1a: Ferrothorn|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|50/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: choke sunday|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Garchomp
+|-start|p2a: Garchomp|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Garchomp|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|69/100 brn|[silent]
+|-damage|p1a: Ferrothorn|57/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Garchomp|66/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|15
+|
+|switch|p2a: Skarmory|Skarmory, M|20/100 par
+|move|p1a: Landorus|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: senpai noticer|move: Stealth Rock
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Landorus|Hidden Power|p2a: Skarmory
+|-damage|p2a: Skarmory|3/100 par
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|53/100 par
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Landorus|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100 par
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|switch|p1a: Slowking|Slowking, M, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Slowking|84/100|[from] Spikes
+|-damage|p1a: Slowking|72/100|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|99/100 par
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: Slowking|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Slowking|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|76/100
+|
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|-heal|p1a: Slowking|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Jirachi|Jirachi|100/100 par
+|-damage|p1a: Jirachi|94/100 par|[from] Stealth Rock
+|-damage|p1a: Jirachi|78/100 par|[from] Spikes
+|move|p2a: Rotom|Will-O-Wisp|p1a: Jirachi|[miss]
+|-miss|p2a: Rotom|p1a: Jirachi
+|
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Jirachi|[miss]
+|-miss|p2a: Rotom|p1a: Jirachi
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-heal|p2a: Rotom|95/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Rotom|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|75/100 par
+|
+|switch|p2a: Excadrill|Excadrill, M|62/100|[from]move: Volt Switch
+|-damage|p2a: Excadrill|50/100|[from] Spikes
+|-damage|p2a: Excadrill|46/100|[from] Stealth Rock
+|move|p1a: Jirachi|Psychic|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|6/100
+|
+|-heal|p1a: Jirachi|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-damage|p1a: Landorus|71/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|68/100
+|-sideend|p2: senpai noticer|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: senpai noticer|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p1a: Landorus|74/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|-message|choke sunday forfeited.
+|
+|win|senpai noticer
+|l|☆choke sunday
+|raw|choke sunday's rating: 1318 &rarr; <strong>1310</strong><br />(-8 for losing)
+|raw|senpai noticer's rating: 1562 &rarr; <strong>1570</strong><br />(+8 for winning)

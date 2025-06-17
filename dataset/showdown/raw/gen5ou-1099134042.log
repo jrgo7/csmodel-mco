@@ -1,0 +1,358 @@
+|j|☆Salt on me
+|j|☆Mr. Koalaa
+|player|p1|Salt on me|1|1299
+|player|p2|Mr. Koalaa|hiker-gen4|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Starmie|item
+|poke|p1|Magnezone|item
+|poke|p1|Kyurem-Black|item
+|poke|p2|Latias, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Scolipede, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Electrode|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: dar|Terrakion|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr. Koalaa)
+|
+|move|p2a: Latios|Reflect|p2a: Latios
+|-sidestart|p2: Mr. Koalaa|Reflect
+|move|p1a: dar|Stealth Rock|p2a: Latios
+|-sidestart|p2: Mr. Koalaa|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Latios|Light Screen|p2a: Latios
+|-sidestart|p2: Mr. Koalaa|move: Light Screen
+|move|p1a: dar|Stone Edge|p2a: Latios|[miss]
+|-miss|p1a: dar|p2a: Latios
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Latios|Memento|p1a: dar
+|-unboost|p1a: dar|atk|2
+|-unboost|p1a: dar|spa|2
+|faint|p2a: Latios
+|move|p1a: dar|Stone Edge|p2: Latios|[notarget]
+|-fail|p1a: dar
+|
+|upkeep
+|
+|switch|p2a: Scolipede|Scolipede, F|100/100
+|-damage|p2a: Scolipede|75/100|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: dar|Stone Edge|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|47/100
+|move|p2a: Scolipede|Substitute|p2a: Scolipede
+|-start|p2a: Scolipede|Substitute
+|-damage|p2a: Scolipede|22/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: dar|Stone Edge|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-end|p2a: Scolipede|Substitute
+|move|p2a: Scolipede|Iron Defense|p2a: Scolipede
+|-boost|p2a: Scolipede|def|2
+|
+|upkeep
+|turn|6
+|
+|move|p1a: dar|Stone Edge|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|8/100
+|move|p2a: Scolipede|Baton Pass|p2a: Scolipede
+|c|☆Salt on me|oh no
+|
+|switch|p2a: Espeon|Espeon, M|100/100|[from]move: Baton Pass
+|-damage|p2a: Espeon|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Espeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: dar|Taunt|p2a: Espeon
+|move|p2a: Espeon|Taunt|p1a: dar|[from]Magic Bounce
+|-start|p1a: dar|move: Taunt
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-heal|p2a: Espeon|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆Mr. Koalaa|lol
+|c|☆Salt on me|it s my only hope
+|c|☆Mr. Koalaa|magic bounce
+|c|☆Salt on me|if you fail your talent
+|c|☆Salt on me|i have a chance
+|c|☆Salt on me|but now
+|inactive|Salt on me has 120 seconds left.
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-heal|p2a: Espeon|100/100|[from] item: Leftovers
+|-sideend|p2: Mr. Koalaa|Reflect
+|upkeep
+|turn|9
+|c|☆Mr. Koalaa|how can it fail?
+|inactive|Salt on me has 120 seconds left.
+|c|☆Salt on me|it s haven t synchronise in 5g mb
+|
+|move|p1a: Kyurem|Outrage|p2a: Espeon
+|-damage|p2a: Espeon|55/100
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-heal|p2a: Espeon|61/100|[from] item: Leftovers
+|-sideend|p2: Mr. Koalaa|move: Light Screen
+|upkeep
+|turn|10
+|c|☆Salt on me|crit
+|
+|move|p1a: Kyurem|Outrage|p2a: Espeon|[from]lockedmove
+|-damage|p2a: Espeon|11/100
+|-start|p1a: Kyurem|confusion|[fatigue]
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|61/100
+|
+|-heal|p2a: Espeon|67/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Salt on me has 120 seconds left.
+|
+|-activate|p1a: Kyurem|confusion
+|move|p1a: Kyurem|Outrage|p2a: Espeon
+|-damage|p2a: Espeon|16/100
+|move|p2a: Espeon|Stored Power|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-heal|p2a: Espeon|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: dar|Terrakion|100/100
+|turn|12
+|c|☆Mr. Koalaa|you know what crit chance is at?
+|
+|move|p1a: dar|Stone Edge|p2a: Espeon
+|-crit|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Latias|Reflect|p2a: Latias
+|-sidestart|p2: Mr. Koalaa|Reflect
+|move|p1a: dar|Taunt|p2a: Latias
+|-start|p2a: Latias|move: Taunt
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Electrode|Electrode|100/100
+|-damage|p2a: Electrode|88/100|[from] Stealth Rock
+|switch|p1a: Starmie|Starmie|100/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Electrode|Light Screen|p2a: Electrode
+|-sidestart|p2: Mr. Koalaa|move: Light Screen
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Electrode|Explosion|p1a: Garchomp
+|-damage|p1a: Garchomp|66/100
+|faint|p2a: Electrode
+|move|p1a: Garchomp|Earthquake|p2: Electrode|[notarget]
+|-fail|p1a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|88/100
+|-damage|p2a: Latias|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Latias|Healing Wish|p2a: Latias
+|faint|p2a: Latias
+|move|p1a: Garchomp|Outrage|p2: Latias|[notarget]
+|-fail|p1a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Scolipede|Scolipede, F|8/100
+|-heal|p2a: Scolipede|100/100|[from] move: Healing Wish
+|-damage|p2a: Scolipede|75/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Garchomp|Outrage|p2a: Scolipede
+|-damage|p2a: Scolipede|42/100
+|move|p2a: Scolipede|Attract|p1a: Garchomp
+|-start|p1a: Garchomp|Attract
+|
+|upkeep
+|turn|19
+|
+|-activate|p1a: Garchomp|move: Attract|[of] p2a: Scolipede
+|cant|p1a: Garchomp|Attract
+|move|p2a: Scolipede|Iron Defense|p2a: Scolipede
+|-boost|p2a: Scolipede|def|2
+|
+|upkeep
+|turn|20
+|
+|-activate|p1a: Garchomp|move: Attract|[of] p2a: Scolipede
+|cant|p1a: Garchomp|Attract
+|move|p2a: Scolipede|Iron Defense|p2a: Scolipede
+|-boost|p2a: Scolipede|def|2
+|
+|-sideend|p2: Mr. Koalaa|Reflect
+|upkeep
+|turn|21
+|
+|-activate|p1a: Garchomp|move: Attract|[of] p2a: Scolipede
+|move|p1a: Garchomp|Fire Blast|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|21/100
+|move|p2a: Scolipede|Substitute|p2a: Scolipede
+|-fail|p2a: Scolipede|move: Substitute|[weak]
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Scolipede|Baton Pass|p2a: Scolipede
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100|[from]move: Baton Pass
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|-sideend|p2: Mr. Koalaa|move: Light Screen
+|upkeep
+|turn|23
+|
+|move|p1a: Magnezone|Volt Switch|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|28/100
+|
+|switch|p1a: dar|Terrakion|100/100|[from]move: Volt Switch
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|34/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: dar|Stone Edge|p2a: Dragonite|[miss]
+|-miss|p1a: dar|p2a: Dragonite
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|84/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-heal|p2a: Dragonite|91/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: dar|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|60/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|66/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: dar|Taunt|p2a: Dragonite
+|-start|p2a: Dragonite|move: Taunt
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: dar
+|-damage|p1a: dar|25/100
+|move|p1a: dar|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|96/100
+|-unboost|p1a: dar|def|1
+|-unboost|p1a: dar|spd|1
+|
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Garchomp|Garchomp, M|66/100
+|move|p2a: Dragonite|Dragon Claw|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Dragonite|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Dragonite|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|turn|29
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|-end|p2a: Dragonite|move: Taunt
+|upkeep
+|-message|Salt on me forfeited.
+|
+|win|Mr. Koalaa
+|c|☆Mr. Koalaa|double boost strat
+|c|☆Mr. Koalaa|lol
+|c|☆Mr. Koalaa|so dumb
+|c|☆Mr. Koalaa|no idea how it works
+|raw|Salt on me's rating: 1319 &rarr; <strong>1298</strong><br />(-21 for losing)
+|raw|Mr. Koalaa's rating: 1301 &rarr; <strong>1322</strong><br />(+21 for winning)

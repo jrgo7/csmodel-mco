@@ -1,0 +1,379 @@
+|j|☆blackkaiser
+|j|☆JohnnyTwoDicks
+|player|p1|blackkaiser|2|1442
+|player|p2|JohnnyTwoDicks|bruno|1305
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Salamence, M|item
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|move|p1a: Latios|Trick|p2a: Skarmory
+|-activate|p1a: Latios|move: Trick|[of] p2a: Skarmory
+|-item|p2a: Skarmory|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Custap Berry|[from] move: Trick
+|move|p2a: Skarmory|Stealth Rock|p1a: Latios
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|switch|p2a: Scizor|Scizor, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: JohnnyTwoDicks|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Hippowdon
+|-status|p1a: Hippowdon|brn
+|move|p1a: Hippowdon|Roar|p2a: Jellicent
+|drag|p2a: Alakazam|Alakazam, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hippowdon|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|38/100 brn
+|move|p1a: Hippowdon|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|32/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Alakazam|Hidden Power|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|74/100|[from] Sandstorm
+|-heal|p1a: Jellicent|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|47/100
+|-unboost|p1a: Jellicent|spd|1
+|move|p1a: Jellicent|Shadow Ball|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|40/100|[from] Sandstorm
+|-heal|p1a: Jellicent|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: JohnnyTwoDicks|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: JohnnyTwoDicks|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Salamence
+|-sidestart|p2: JohnnyTwoDicks|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|70/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: Salamence|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|64/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Skarmory|Skarmory, M|88/100
+|-damage|p2a: Skarmory|75/100|[from] Stealth Rock
+|move|p1a: Latios|Psyshock|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p1a: Latios|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|64/100
+|-damage|p2a: Salamence|39/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Hippowdon|Hippowdon, F|32/100 brn
+|-damage|p1a: Hippowdon|26/100 brn|[from] Stealth Rock
+|-damage|p1a: Hippowdon|1/100 brn|[from] Spikes
+|move|p2a: Salamence|Dragon Claw|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|33/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|76/100|[from] Spikes
+|-damage|p2a: Scizor|63/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Jellicent|Jellicent, M|47/100
+|-damage|p1a: Jellicent|34/100|[from] Stealth Rock
+|-damage|p1a: Jellicent|9/100|[from] Spikes
+|move|p2a: Scizor|Superpower|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|3/100|[from] Sandstorm
+|-heal|p1a: Jellicent|9/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-damage|p2a: Scizor|53/100|[from] item: Life Orb
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|76/100|[from] Spikes
+|-damage|p1a: Garchomp|69/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|21/100
+|-damage|p2a: Scizor|41/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Scizor|31/100|[from] item: Life Orb
+|move|p1a: Garchomp|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-damage|p1a: Garchomp|11/100|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|-damage|p2a: Jellicent|63/100|[from] Spikes
+|turn|20
+|
+|move|p1a: Garchomp|Draco Meteor|p2a: Jellicent
+|-damage|p2a: Jellicent|7/100
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|1/100|[from] item: Life Orb
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|51/100|[from] Sandstorm
+|-heal|p2a: Jellicent|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Garchomp|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|11/100
+|-damage|p1a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p1a: Garchomp
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|55/100|[from] Sandstorm
+|-heal|p2a: Jellicent|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M, shiny|76/100
+|-damage|p1a: Latios|64/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Latios|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|22/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|58/100|[from] Sandstorm
+|-damage|p2a: Jellicent|66/100|[from] Sandstorm
+|-heal|p2a: Jellicent|72/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Latios|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|34/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|52/100|[from] Sandstorm
+|-damage|p2a: Jellicent|78/100|[from] Sandstorm
+|-heal|p2a: Jellicent|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Latios|Trick|p2a: Jellicent
+|-activate|p1a: Latios|move: Trick|[of] p2a: Jellicent
+|-item|p2a: Jellicent|Custap Berry|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|46/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Latios|52/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Latios|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|59/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Latios
+|-status|p1a: Latios|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|46/100 brn|[from] Sandstorm
+|-damage|p2a: Jellicent|53/100|[from] Sandstorm
+|-heal|p1a: Latios|52/100 brn|[from] item: Leftovers
+|-damage|p1a: Latios|40/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Latios|Draco Meteor|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|34/100 brn|[from] Sandstorm
+|-heal|p1a: Latios|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Latios|27/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|76/100|[from] Spikes
+|-damage|p2a: Garchomp|69/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Latios|Draco Meteor|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Garchomp
+|
+|win|blackkaiser
+|l|☆JohnnyTwoDicks
+|raw|blackkaiser's rating: 1416 &rarr; <strong>1429</strong><br />(+13 for winning)
+|raw|JohnnyTwoDicks's rating: 1306 &rarr; <strong>1292</strong><br />(-14 for losing)

@@ -1,0 +1,178 @@
+|join|dtw
+|join|Blader_X
+|player|p1|dtw|266
+|player|p2|Blader_X|274
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Scizor, F
+|poke|p1|Rotom-Wash
+|poke|p1|Heatran, M
+|poke|p1|Breloom, F
+|poke|p1|Keldeo
+|poke|p1|Espeon, F
+|poke|p2|Politoed, M
+|poke|p2|Ferrothorn, M
+|poke|p2|Rotom-Wash
+|poke|p2|Jirachi
+|poke|p2|Latios, M
+|poke|p2|Keldeo-Resolute
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, M|386/386
+|switch|p2a: Politoed|Politoed, M|322/322
+|-item|p1a: Heatran|Air Balloon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Heatran|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Blader_X|move: Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|18/386
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: Heatran|Earth Power|p2a: Politoed
+|-damage|p2a: Politoed|253/322
+|-unboost|p2a: Politoed|spd|1
+|move|p2a: Politoed|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Breloom|Breloom, F|261/261
+|turn|3
+|
+|move|p1a: Breloom|Spore|p2a: Politoed
+|-status|p2a: Politoed|slp
+|cant|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Breloom|Low Sweep|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: Breloom|235/261|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Latios|Latios, M|302/302
+|-damage|p2a: Latios|265/302|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Espeon|Espeon, F|334/334
+|move|p2a: Latios|Psyshock|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|160/334
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Espeon|Light Screen|p1a: Espeon
+|-sidestart|p1: dtw|move: Light Screen
+|move|p2a: Latios|Psyshock|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|86/334
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Espeon|Reflect|p1a: Espeon
+|-sidestart|p1: dtw|Reflect
+|move|p2a: Latios|Psyshock|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|11/334
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Espeon|Baton Pass|p1a: Espeon
+|
+|switch|p1a: Scizor|Scizor, F|281/281
+|move|p2a: Latios|Psyshock|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|231/281
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|switch|p2a: Keldeo-Resolute|Keldeo-Resolute|324/324
+|-damage|p2a: Keldeo-Resolute|304/324|[from] Stealth Rock
+|move|p1a: Scizor|Acrobatics|p2a: Keldeo-Resolute
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-supereffective|p2a: Keldeo-Resolute
+|-damage|p2a: Keldeo-Resolute|0 fnt
+|faint|p2a: Keldeo-Resolute
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Latios|Latios, M|265/302
+|-damage|p2a: Latios|228/302|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Espeon|Espeon, F|11/334
+|move|p2a: Latios|Surf|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|turn|11
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|move|p1a: Keldeo|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Keldeo|291/323|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Latios|Latios, M|228/302
+|-damage|p2a: Latios|191/302|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|304/304
+|move|p2a: Latios|Psyshock|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|234/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom-Wash|253/304|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Latios|Psyshock|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|182/304
+|move|p1a: Rotom-Wash|Will-O-Wisp|p2a: Latios
+|-status|p2a: Latios|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom-Wash|201/304|[from] item: Leftovers
+|-damage|p2a: Latios|154/302 brn|[from] brn
+|-sideend|p1: dtw|move: Light Screen
+|turn|14
+|-message|Blader_X forfeited.
+|
+|win|dtw
+|raw|Ladder updating...
+|leave|Blader_X
+|player|p2
+|raw|dtw's rating: 1377 &rarr; <strong>1395</strong><br />(+18 for winning)
+|raw|Blader_X's rating: 1355 &rarr; <strong>1336</strong><br />(-19 for losing)

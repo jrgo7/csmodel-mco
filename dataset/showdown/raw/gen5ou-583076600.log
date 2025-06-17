@@ -1,0 +1,366 @@
+|j|rainer123
+|j|chadbro
+|player|p1|rainer123|101
+|teamsize|p1|6
+|player|p2|chadbro|266
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|16287,21211,6213,22698
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Darmanitan, F|item
+|poke|p1|Dugtrio, F|item
+|poke|p1|Porygon2|item
+|poke|p1|Donphan, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M, shiny|item
+|poke|p2|Scizor, M, shiny|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|j|yoloboy9000
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|350/350
+|switch|p2a: Bron Bron|Landorus-Therian, M|382/382
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|turn|1
+|choice|switch 6|move earthquake
+|
+|switch|p1a: Donphan|Donphan, M|383/383
+|move|p2a: Bron Bron|Earthquake|p1a: Donphan
+|-damage|p1a: Donphan|239/383
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Donphan|262/383|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move iceshard|move hiddenpower
+|
+|move|p1a: Donphan|Ice Shard|p2a: Bron Bron
+|-supereffective|p2a: Bron Bron
+|-damage|p2a: Bron Bron|206/382
+|move|p2a: Bron Bron|Hidden Power|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|58/383
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Donphan|81/383|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move iceshard|move earthquake
+|
+|move|p1a: Donphan|Ice Shard|p2a: Bron Bron
+|-supereffective|p2a: Bron Bron
+|-damage|p2a: Bron Bron|26/382
+|move|p2a: Bron Bron|Earthquake|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Darmanitan|Darmanitan, F|351/351
+|turn|4
+|choice|move uturn|move earthquake
+|
+|move|p1a: Darmanitan|U-turn|p2a: Bron Bron
+|-resisted|p2a: Bron Bron
+|-crit|p2a: Bron Bron
+|-damage|p2a: Bron Bron|0 fnt
+|faint|p2a: Bron Bron
+|choice|switch 4|
+|
+|switch|p1a: Dugtrio|Dugtrio, F|213/213
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Bosh|Latios, M, shiny|301/301
+|turn|5
+|choice|switch 5|move surf
+|
+|switch|p1a: Porygon2|Porygon2|373/373
+|-ability|p1a: Porygon2|Levitate|[from] ability: Trace|[of] p2a: Bosh
+|move|p2a: Bosh|Surf|p1a: Porygon2
+|-damage|p1a: Porygon2|338/373
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|choice|move thunderwave|switch 6
+|
+|switch|p2a: Pat Riely|Tyranitar, M|403/403
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|move|p1a: Porygon2|Thunder Wave|p2a: Pat Riely
+|-status|p2a: Pat Riely|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|315/373|[from] sandstorm
+|upkeep
+|turn|7
+|choice|switch 5|switch 5
+|
+|switch|p1a: Dugtrio|Dugtrio, F|213/213
+|switch|p2a: Miller|Scizor, M, shiny|343/343
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|choice|switch 6|move uturn
+|
+|switch|p1a: Ninetales|Ninetales, F|350/350
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Miller|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|221/350
+|choice||switch 5
+|
+|switch|p2a: Pat Riely|Tyranitar, M|403/403 par
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|200/350|[from] sandstorm
+|-heal|p1a: Ninetales|221/350|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 6|switch 5
+|
+|switch|p1a: Dugtrio|Dugtrio, F|213/213
+|switch|p2a: Miller|Scizor, M, shiny|343/343
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|choice|switch 5|move uturn
+|
+|switch|p1a: Porygon2|Porygon2|315/373
+|-ability|p1a: Porygon2|Technician|[from] ability: Trace|[of] p2a: Miller
+|move|p2a: Miller|U-turn|p1a: Porygon2
+|-damage|p1a: Porygon2|180/373
+|choice||switch 6
+|
+|switch|p2a: Bosh|Latios, M, shiny|301/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|283/301|[from] sandstorm
+|-damage|p1a: Porygon2|157/373|[from] sandstorm
+|upkeep
+|turn|11
+|choice|move recover|move dracometeor
+|
+|move|p2a: Bosh|Draco Meteor|p1a: Porygon2|[miss]
+|-miss|p2a: Bosh|p1a: Porygon2
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|344/373
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|265/301|[from] sandstorm
+|-damage|p1a: Porygon2|321/373|[from] sandstorm
+|upkeep
+|turn|12
+|choice|move thunderwave|move dracometeor
+|
+|move|p2a: Bosh|Draco Meteor|p1a: Porygon2
+|-damage|p1a: Porygon2|182/373
+|-unboost|p2a: Bosh|spa|2
+|move|p1a: Porygon2|Thunder Wave|p2a: Bosh
+|-status|p2a: Bosh|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|159/373|[from] sandstorm
+|-damage|p2a: Bosh|247/301 par|[from] sandstorm
+|upkeep
+|turn|13
+|choice|move recover|switch 6
+|
+|switch|p2a: Miller|Scizor, M, shiny|343/343
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|346/373
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|323/373|[from] sandstorm
+|upkeep
+|turn|14
+|choice|switch 2|move superpower
+|
+|switch|p1a: Latios|Latios, M|301/301
+|move|p2a: Miller|Superpower|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|149/301
+|-unboost|p2a: Miller|atk|1
+|-unboost|p2a: Miller|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|131/301|[from] sandstorm
+|upkeep
+|turn|15
+|choice|move dracometeor|switch 5
+|
+|switch|p2a: Pat Riely|Tyranitar, M|403/403 par
+|move|p1a: Latios|Draco Meteor|p2a: Pat Riely
+|-damage|p2a: Pat Riely|277/403 par
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|113/301|[from] sandstorm
+|-heal|p2a: Pat Riely|302/403 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 5|move pursuit
+|
+|-activate|p1a: Latios|move: Pursuit
+|move|p2a: Pat Riely|Pursuit|p1a: Latios|[from]Pursuit
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|327/403 par|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Dugtrio|Dugtrio, F|213/213
+|turn|17
+|choice|move stealthrock|move icebeam
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Pat Riely
+|-sidestart|p2: chadbro|move: Stealth Rock
+|move|p2a: Pat Riely|Ice Beam|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/213
+|-status|p1a: Dugtrio|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|352/403 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move reversal|move stealthrock
+|
+|cant|p1a: Dugtrio|frz
+|cant|p2a: Pat Riely|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|377/403 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move reversal|move stealthrock
+|
+|cant|p1a: Dugtrio|frz
+|cant|p2a: Pat Riely|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|402/403 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move reversal|move stealthrock
+|
+|cant|p1a: Dugtrio|frz
+|cant|p2a: Pat Riely|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|403/403 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move reversal|move stealthrock
+|
+|cant|p1a: Dugtrio|frz
+|move|p2a: Pat Riely|Stealth Rock|p1a: Dugtrio
+|-sidestart|p1: rainer123|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|c| yoloboy9000|holy shit!
+|choice|move reversal|move roar
+|
+|cant|p1a: Dugtrio|frz
+|cant|p2a: Pat Riely|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|c|☆rainer123|lol
+|c|☆rainer123|.......
+|c| yoloboy9000|this match is crazy
+|c|☆rainer123|crazy
+|choice|move reversal|move roar
+|
+|cant|p1a: Dugtrio|frz
+|move|p2a: Pat Riely|Roar|p1a: Dugtrio
+|drag|p1a: Porygon2|Porygon2|323/373
+|-damage|p1a: Porygon2|277/373|[from] Stealth Rock
+|-ability|p1a: Porygon2|Sand Stream|[from] ability: Trace|[of] p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|254/373|[from] sandstorm
+|upkeep
+|turn|24
+|c|☆rainer123|..
+|choice|move icebeam|move roar
+|
+|move|p1a: Porygon2|Ice Beam|p2a: Pat Riely
+|-damage|p2a: Pat Riely|354/403 par
+|move|p2a: Pat Riely|Roar|p1a: Porygon2
+|drag|p1a: Ninetales|Ninetales, F|221/350
+|-damage|p1a: Ninetales|134/350|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|155/350|[from] item: Leftovers
+|-heal|p2a: Pat Riely|379/403 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move protect|move roar
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Pat Riely|Roar|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|176/350|[from] item: Leftovers
+|-heal|p2a: Pat Riely|403/403 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move hiddenpower|move roar
+|
+|move|p1a: Ninetales|Hidden Power|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|335/403 par
+|cant|p2a: Pat Riely|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|197/350|[from] item: Leftovers
+|-heal|p2a: Pat Riely|360/403 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|-message|rainer123 forfeited.
+|
+|win|chadbro
+|l|rainer123
+|raw|rainer123's rating: 1325 &rarr; <strong>1306</strong><br />(-19 for losing)
+|raw|chadbro's rating: 1340 &rarr; <strong>1360</strong><br />(+20 for winning)
+|l|chadbro
+|j|chadbro

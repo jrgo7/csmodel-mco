@@ -1,0 +1,284 @@
+|j|☆Red (Fire Red)
+|j|☆Invisible Enemy
+|player|p1|Red (Fire Red)|163
+|player|p2|Invisible Enemy|52
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, M|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Gothitelle, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Zapdos|item
+|poke|p2|Celebi|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Starmie|item
+|poke|p2|Tyranitar, F|item
+|teampreview
+|
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|1
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Forretress
+|-damage|p1a: Forretress|50/100
+|move|p1a: Forretress|Volt Switch|p2a: Terrakion
+|-damage|p2a: Terrakion|89/100
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Infernape|Close Combat|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|56/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|
+|-heal|p2a: Starmie|62/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|move|p2a: Starmie|Scald|p1a: Gothitelle
+|-damage|p1a: Gothitelle|66/100
+|
+|-heal|p2a: Starmie|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|move|p1a: Gothitelle|Grass Knot|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|19/100
+|
+|-heal|p2a: Starmie|25/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Starmie|Scald|p1a: Gothitelle
+|-damage|p1a: Gothitelle|33/100
+|-status|p1a: Gothitelle|brn
+|move|p1a: Gothitelle|Grass Knot|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-damage|p1a: Gothitelle|21/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|turn|6
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Cresselia
+|-damage|p1a: Cresselia|75/100
+|-status|p1a: Cresselia|par
+|
+|-heal|p1a: Cresselia|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Cresselia|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cresselia|75/100 par|[from] Sandstorm
+|-heal|p1a: Cresselia|81/100 par|[from] item: Leftovers
+|-damage|p2a: Tyranitar|95/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|-activate|p1a: Cresselia|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Cresselia|[from]Pursuit
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|32/100 par
+|switch|p1a: Forretress|Forretress, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|57/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|83/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Forretress|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: Invisible Enemy|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, F|83/100 tox
+|-damage|p2a: Tyranitar|70/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ninetales|Flamethrower|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|63/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|94/100|[from] Sandstorm
+|-heal|p1a: Ninetales|100/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|57/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: Red (Fire Red)|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|94/100|[from] Sandstorm
+|-heal|p1a: Ninetales|100/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|45/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|-activate|p1a: Ninetales|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Ninetales|[from]Pursuit
+|-damage|p1a: Ninetales|55/100
+|switch|p1a: Cresselia|Cresselia, F|32/100 par
+|-damage|p1a: Cresselia|19/100 par|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cresselia|13/100 par|[from] Sandstorm
+|-heal|p1a: Cresselia|19/100 par|[from] item: Leftovers
+|-damage|p2a: Tyranitar|27/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Tyranitar|Crunch|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|3/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|55/100
+|-damage|p1a: Ninetales|30/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|15
+|
+|switch|p2a: Terrakion|Terrakion|89/100
+|-damage|p2a: Terrakion|83/100|[from] Stealth Rock
+|move|p1a: Ninetales|Flamethrower|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|36/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Terrakion|Rock Slide|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|-damage|p1a: Infernape|88/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Tyranitar|Tyranitar, F|3/100 tox
+|-damage|p2a: Tyranitar|0 fnt|[from] Stealth Rock
+|faint|p2a: Tyranitar
+|move|p1a: Infernape|U-turn|p2: Tyranitar|[notarget]
+|-notarget
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|18
+|
+|move|p1a: Infernape|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|56/100
+|
+|switch|p1a: Gothitelle|Gothitelle, M|21/100 brn
+|-damage|p1a: Gothitelle|8/100 brn|[from] Stealth Rock
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|62/100|[from] item: Leftovers
+|-damage|p1a: Gothitelle|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Gothitelle
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Zapdos|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zapdos|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, M|88/100
+|-damage|p1a: Infernape|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|win|Invisible Enemy
+|c|☆Red (Fire Red)|GG!
+|c|☆Invisible Enemy|Gg
+|raw|Red (Fire Red)'s rating: 1304 &rarr; <strong>1294</strong><br />(-10 for losing)
+|raw|Invisible Enemy's rating: 1495 &rarr; <strong>1505</strong><br />(+10 for winning)

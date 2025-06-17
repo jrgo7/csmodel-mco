@@ -1,0 +1,442 @@
+|j|☆MikeyTapsa
+|j|☆fatakat
+|player|p1|MikeyTapsa|sightseer|1323
+|player|p2|fatakat|kimonogirl|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Celebi|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Gengar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Magnezone|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MikeyTapsa)
+|inactive|fatakat has 120 seconds left.
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p1a: Politoed|Scald|p2a: Gengar
+|-damage|p2a: Gengar|17/100
+|-status|p2a: Gengar|brn
+|move|p2a: Gengar|Sludge Wave|p1a: Politoed
+|-damage|p1a: Politoed|48/100
+|-status|p1a: Politoed|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|36/100 psn|[from] psn
+|-damage|p2a: Gengar|4/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Politoed|Scald|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|82/100|[from] item: Leftovers
+|-damage|p1a: Politoed|23/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Celebi|Psychic|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: Baton Pass
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: fatakat|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|23/100
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone
+|-sidestart|p2: fatakat|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|7
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|move|p2a: Magnezone|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Jirachi|Thunder|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|78/100
+|-status|p2a: Magnezone|par
+|move|p2a: Magnezone|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Gengar|Gengar, M|4/100 brn
+|-damage|p2a: Gengar|0 fnt|[from] Stealth Rock
+|faint|p2a: Gengar
+|move|p1a: Jirachi|Water Pulse|p2: Gengar|[notarget]
+|-fail|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|10
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Landorus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|79/100
+|
+|switch|p2a: Magnezone|Magnezone|78/100 par|[from]move: U-turn
+|-damage|p2a: Magnezone|72/100 par|[from] Stealth Rock
+|-damage|p2a: Magnezone|60/100 par|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Tornadus|U-turn|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|50/100 par
+|
+|switch|p1a: Politoed|Politoed, M|23/100 psn|[from]move: U-turn
+|move|p2a: Magnezone|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100|[from]move: Volt Switch
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|79/100
+|turn|12
+|
+|switch|p2a: Magnezone|Magnezone|50/100 par
+|-damage|p2a: Magnezone|37/100 par|[from] Spikes
+|-damage|p2a: Magnezone|32/100 par|[from] Stealth Rock
+|move|p1a: Tornadus|Hurricane|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|4/100 par
+|-start|p2a: Magnezone|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Tornadus|Hurricane|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|88/100|[from] Spikes
+|-damage|p2a: Keldeo|82/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Keldeo|Focus Blast|p1a: Toxicroak|[miss]
+|-miss|p2a: Keldeo|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Celebi|Celebi|88/100
+|-damage|p2a: Celebi|76/100|[from] Stealth Rock
+|-damage|p2a: Celebi|64/100|[from] Spikes
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|88/100|[from] ability: Dry Skin
+|-heal|p2a: Celebi|70/100|[from] item: Leftovers
+|-heal|p1a: Toxicroak|94/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Celebi|Psychic|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-crit|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Ice Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|22/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|-heal|p2a: Celebi|28/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|switch|p2a: Landorus|Landorus-Therian, M|76/100|[from]move: Baton Pass
+|-damage|p2a: Landorus|64/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxicroak|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Landorus|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|79/100
+|turn|19
+|
+|move|p1a: Tornadus|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|82/100
+|-damage|p2a: Keldeo|76/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|63/100|[from] Spikes
+|turn|20
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|switch|p2a: Celebi|Celebi|28/100
+|-damage|p2a: Celebi|16/100|[from] Spikes
+|-damage|p2a: Celebi|3/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|10/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Jirachi|Jirachi|59/100
+|move|p2a: Celebi|Psychic|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|16/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|56/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Celebi|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|40/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|15/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|22/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|21/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Celebi|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|move|p1a: Jirachi|Thunder|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|9/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|27/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Celebi|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Thunder|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|33/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|63/100
+|-damage|p2a: Keldeo|51/100|[from] Spikes
+|-damage|p2a: Keldeo|45/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|turn|26
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Tentacruel|[miss]
+|-miss|p2a: Keldeo|p1a: Tentacruel
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|move|p1a: Tentacruel|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|25/100
+|-status|p2a: Keldeo|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-damage|p2a: Keldeo|13/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|46/100
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|27/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|33/100|[from] item: Black Sludge
+|-damage|p2a: Keldeo|0 fnt|[from] brn
+|faint|p2a: Keldeo
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Tentacruel|Scald|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|40/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|46/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|move|p2a: Dragonite|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|move|p1a: Tentacruel|Scald|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|52/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|58/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|move|p2a: Dragonite|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|79/100
+|turn|32
+|
+|move|p2a: Dragonite|Outrage|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|win|fatakat
+|c|☆MikeyTapsa|...
+|raw|MikeyTapsa's rating: 1323 &rarr; <strong>1302</strong><br />(-21 for losing)
+|raw|fatakat's rating: 1311 &rarr; <strong>1331</strong><br />(+20 for winning)

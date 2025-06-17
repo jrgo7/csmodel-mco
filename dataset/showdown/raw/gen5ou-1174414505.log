@@ -1,0 +1,286 @@
+|join|filipmerda
+|join|Eveling
+|player|p1|filipmerda|283
+|player|p2|Eveling|163
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Scizor, F
+|poke|p1|Garchomp, F
+|poke|p1|Latios, M
+|poke|p1|Tyranitar, M
+|poke|p1|Landorus-Therian, M
+|poke|p1|Keldeo
+|poke|p2|Politoed, F
+|poke|p2|Terrakion
+|poke|p2|Thundurus-Therian, M
+|poke|p2|Dugtrio, M
+|poke|p2|Tornadus, M
+|poke|p2|Forretress, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Keldeo|Keldeo|323/323
+|switch|p2a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|243/323
+|move|p2a: Politoed|Hidden Power|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|263/323|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Politoed|Hidden Power|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|163/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|183/323|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Politoed
+|-damage|p2a: Politoed|96/384
+|move|p2a: Politoed|Hidden Power|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|77/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|97/323|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Keldeo|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|117/323|[from] item: Leftovers
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|299/299
+|turn|5
+|
+|move|p2a: Thundurus-Therian|Volt Switch|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Garchomp|Garchomp, F|358/358
+|turn|6
+|
+|move|p1a: Garchomp|Stone Edge|p2a: Tornadus|[miss]
+|-miss|p1a: Garchomp|p2a: Tornadus
+|move|p2a: Tornadus|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|4/358
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|join|Pyrogon
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|move|p1a: Garchomp|Stone Edge|p2a: Forretress
+|-damage|p2a: Forretress|280/354
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|302/354|[from] item: Leftovers
+|turn|8
+|join|Kekan'
+|
+|switch|p1a: Latios|Latios, M|301/301
+|move|p2a: Forretress|Volt Switch|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|285/301
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|299/299
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Thundurus-Therian|Dark Pulse|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|375/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus-Therian|281/299|[from] sandstorm
+|-heal|p1a: Tyranitar|400/404|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Dugtrio|Dugtrio, M|211/211
+|move|p1a: Tyranitar|Stone Edge|p2a: Dugtrio|[miss]
+|-miss|p1a: Tyranitar|p2a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|404/404|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|186/404
+|move|p1a: Tyranitar|Crunch|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/211
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|211/404|[from] item: Leftovers
+|turn|12
+|join|SH★Thunder631★⚡
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: filipmerda|move: Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|236/404|[from] item: Leftovers
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|turn|13
+|join|Zenadark
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|281/299
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-damage|p1a: Landorus-Therian|334/381|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Thundurus-Therian
+|-unboost|p2a: Thundurus-Therian|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus-Therian|263/299|[from] sandstorm
+|-heal|p1a: Landorus-Therian|357/381|[from] item: Leftovers
+|turn|14
+|leave|SH★Thunder631★⚡
+|
+|move|p2a: Thundurus-Therian|Hidden Power|p1a: Landorus-Therian
+|-supereffective|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|0 fnt
+|faint|p1a: Landorus-Therian
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus-Therian|245/299|[from] sandstorm
+|
+|switch|p1a: Tyranitar|Tyranitar, M|236/404
+|-damage|p1a: Tyranitar|186/404|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Forretress|Forretress, M|302/354
+|move|p1a: Tyranitar|Stone Edge|p2a: Forretress
+|-damage|p2a: Forretress|217/354
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|211/404|[from] item: Leftovers
+|-heal|p2a: Forretress|239/354|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Forretress|[miss]
+|-miss|p1a: Tyranitar|p2a: Forretress
+|move|p2a: Forretress|Gyro Ball|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|19/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|44/404|[from] item: Leftovers
+|-heal|p2a: Forretress|261/354|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|move|p1a: Tyranitar|Fire Blast|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|287/323
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|69/404|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Scizor|Scizor, F|344/344
+|-damage|p1a: Scizor|301/344|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|join|Evuelf
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|turn|20
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Tornadus
+|-damage|p2a: Tornadus|56/299
+|move|p2a: Tornadus|Hurricane|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|38/299|[from] sandstorm
+|
+|switch|p1a: Latios|Latios, M|285/301
+|-damage|p1a: Latios|248/301|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Tornadus|Hurricane|p1a: Latios|[miss]
+|-miss|p2a: Tornadus|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|230/301|[from] sandstorm
+|leave|Evuelf
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|245/299
+|turn|22
+|
+|move|p2a: Thundurus-Therian|Dark Pulse|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|8/301
+|cant|p1a: Latios|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus-Therian|227/299|[from] sandstorm
+|-damage|p1a: Latios|0 fnt|[from] sandstorm
+|faint|p1a: Latios
+|
+|switch|p1a: Garchomp|Garchomp, F|4/358
+|-damage|p1a: Garchomp|0 fnt|[from] Stealth Rock
+|faint|p1a: Garchomp
+|
+|win|Eveling
+|raw|Ladder updating...
+|raw|filipmerda's rating: 1446 &rarr; <strong>1416</strong><br />(-30 for losing)
+|raw|Eveling's rating: 1265 &rarr; <strong>1302</strong><br />(+37 for winning)
+|leave|filipmerda
+|player|p1

@@ -1,0 +1,717 @@
+|j|☆Artemeye
+|j|☆Nalorium ✿
+|player|p1|Artemeye|dahlia|1368
+|player|p2|Nalorium ✿|valerie|1419
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Latias, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Milotic, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Artemeye)
+|
+|start
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|1
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Latias|Trick|p2a: Jirachi
+|-activate|p1a: Latias|move: Trick|[of] p2a: Jirachi
+|-item|p2a: Jirachi|Flame Orb|[from] move: Trick
+|-item|p1a: Latias|Leftovers|[from] move: Trick
+|
+|-status|p2a: Jirachi|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Jirachi|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Artemeye|move: Stealth Rock
+|
+|-damage|p2a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Rotom|Will-O-Wisp|p2a: Jirachi
+|-fail|p2a: Jirachi|brn
+|
+|-damage|p2a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Jirachi|Body Slam|p1a: Rotom
+|-damage|p1a: Rotom|91/100
+|-status|p1a: Rotom|par
+|move|p1a: Rotom|Volt Switch|p2a: Jirachi
+|-damage|p2a: Jirachi|60/100 brn
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|
+|-heal|p2a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: Nalorium ✿|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone
+|-sidestart|p2: Nalorium ✿|Spikes
+|
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|-boost|p2a: Magnezone|spa|1
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone
+|-sidestart|p2: Nalorium ✿|Spikes
+|
+|-heal|p2a: Magnezone|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-boost|p2a: Magnezone|spa|1
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone
+|-sidestart|p2: Nalorium ✿|Spikes
+|
+|-heal|p2a: Magnezone|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|
+|-heal|p2a: Magnezone|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|56/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|
+|-heal|p2a: Magnezone|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|
+|-heal|p1a: Ferrothorn|48/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|36/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|
+|-heal|p2a: Magnezone|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|42/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|22/100
+|-boost|p2a: Magnezone|spa|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|
+|-heal|p2a: Magnezone|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|28/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|3/100
+|-boost|p2a: Magnezone|spa|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|
+|-heal|p2a: Magnezone|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|9/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|75/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|
+|-heal|p2a: Magnezone|81/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Magnezone|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Latias|Surf|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|62/100
+|
+|-heal|p1a: Latias|94/100|[from] item: Leftovers
+|-heal|p2a: Magnezone|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Latias|Surf|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-heal|p2a: Magnezone|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Magnezone|atk|1
+|turn|20
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|80/100
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100|[from]move: U-turn
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|21
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Alakazam|Shadow Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|-damage|p2a: Milotic|76/100|[from] Spikes
+|-damage|p2a: Milotic|63/100|[from] Stealth Rock
+|move|p1a: Alakazam|Hidden Power|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|51/100
+|
+|-heal|p2a: Milotic|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Alakazam|Psyshock|p2a: Milotic
+|-damage|p2a: Milotic|16/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|66/100
+|
+|-heal|p2a: Milotic|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Rotom|Rotom-Wash|91/100 par
+|-damage|p1a: Rotom|79/100 par|[from] Stealth Rock
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-heal|p1a: Rotom|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Magnezone|Magnezone|74/100
+|-damage|p2a: Magnezone|68/100|[from] Stealth Rock
+|-damage|p2a: Magnezone|43/100|[from] Spikes
+|move|p1a: Rotom|Will-O-Wisp|p2a: Magnezone
+|-status|p2a: Magnezone|brn
+|
+|-heal|p2a: Magnezone|49/100 brn|[from] item: Leftovers
+|-heal|p1a: Rotom|91/100 par|[from] item: Leftovers
+|-damage|p2a: Magnezone|37/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|12/100 brn
+|cant|p1a: Rotom|par
+|
+|-heal|p2a: Magnezone|18/100 brn|[from] item: Leftovers
+|-heal|p1a: Rotom|97/100 par|[from] item: Leftovers
+|-damage|p2a: Magnezone|6/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Rotom
+|-damage|p1a: Rotom|60/100 par
+|move|p1a: Rotom|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100|[from]move: Volt Switch
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Magnezone
+|
+|-heal|p2a: Magnezone|12/100 brn|[from] item: Leftovers
+|-damage|p2a: Magnezone|0 fnt|[from] brn
+|faint|p2a: Magnezone
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|93/100 tox
+|-damage|p2a: Gliscor|80/100 tox|[from] Stealth Rock
+|turn|28
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Alakazam|Hidden Power|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Alakazam|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|20/100
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar|[miss]
+|-miss|p2a: Latios|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|14/100|[from] Sandstorm
+|upkeep
+|turn|32
+|
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Tyranitar|Crunch|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|75/100|[from] Spikes
+|-damage|p2a: Terrakion|69/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Terrakion|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|34
+|
+|switch|p2a: Jirachi|Jirachi|88/100 brn
+|-damage|p2a: Jirachi|82/100 brn|[from] Stealth Rock
+|-damage|p2a: Jirachi|57/100 brn|[from] Spikes
+|move|p1a: Alakazam|Psyshock|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|45/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jirachi|32/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p1a: Rotom|Rotom-Wash|60/100 par
+|-damage|p1a: Rotom|48/100 par|[from] Stealth Rock
+|move|p2a: Jirachi|Body Slam|p1a: Rotom
+|-damage|p1a: Rotom|37/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|31/100 par|[from] Sandstorm
+|-heal|p1a: Rotom|37/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|20/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Rotom|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|31/100 par|[from] Sandstorm
+|-heal|p1a: Rotom|37/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|69/100
+|-damage|p2a: Terrakion|44/100|[from] Spikes
+|-damage|p2a: Terrakion|38/100|[from] Stealth Rock
+|turn|37
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-damage|p1a: Landorus|63/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|move|p2a: Terrakion|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|28/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Terrakion|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|38
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|81/100 tox
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Alakazam|Hidden Power|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|75/100|[from] Spikes
+|-damage|p2a: Terrakion|69/100|[from] Stealth Rock
+|move|p1a: Alakazam|Hidden Power|p2a: Terrakion
+|-damage|p2a: Terrakion|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|41
+|
+|move|p1a: Alakazam|Psyshock|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|-damage|p2a: Milotic|76/100|[from] Spikes
+|-damage|p2a: Milotic|63/100|[from] Stealth Rock
+|turn|42
+|
+|move|p1a: Alakazam|Psyshock|p2a: Milotic
+|-damage|p2a: Milotic|20/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|63/100|[from] Sandstorm
+|-heal|p2a: Milotic|70/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p1a: Rotom|Rotom-Wash|37/100 par
+|-damage|p1a: Rotom|25/100 par|[from] Stealth Rock
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Rotom|19/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Rotom|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Milotic|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|13/100 par
+|move|p1a: Rotom|Pain Split|p2a: Milotic
+|-sethp|p2a: Milotic|55/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|72/100 par|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|49/100|[from] Sandstorm
+|-damage|p1a: Rotom|66/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|55/100|[from] item: Leftovers
+|-heal|p1a: Rotom|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|67/100
+|j| Fabianosizour
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|61/100|[from] Sandstorm
+|-heal|p2a: Milotic|67/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Alakazam|Psyshock|p2a: Milotic
+|-damage|p2a: Milotic|28/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|72/100|[from] Sandstorm
+|-heal|p2a: Milotic|78/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Milotic
+|-damage|p2a: Milotic|50/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p1a: Rotom|Rotom-Wash|72/100 par
+|-damage|p1a: Rotom|60/100 par|[from] Stealth Rock
+|move|p2a: Milotic|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|48/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Rotom|42/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Rotom|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p2a: Milotic|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|37/100 par
+|move|p1a: Rotom|Pain Split|p2a: Milotic
+|-sethp|p2a: Milotic|64/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|84/100 par|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|58/100|[from] Sandstorm
+|-damage|p1a: Rotom|78/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|64/100|[from] item: Leftovers
+|-heal|p1a: Rotom|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|cant|p1a: Rotom|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Rotom|78/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Rotom|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Milotic|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|73/100 par
+|move|p1a: Rotom|Will-O-Wisp|p2a: Milotic
+|-status|p2a: Milotic|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 brn|[from] Sandstorm
+|-damage|p1a: Rotom|67/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Rotom|73/100 par|[from] item: Leftovers
+|-damage|p2a: Milotic|88/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p2a: Milotic|Refresh|p2a: Milotic
+|-curestatus|p2a: Milotic|brn|[msg]
+|move|p1a: Rotom|Hydro Pump|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|66/100|[from] Sandstorm
+|-damage|p1a: Rotom|67/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|72/100|[from] item: Leftovers
+|-heal|p1a: Rotom|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|move|p1a: Rotom|Pain Split|p2a: Milotic
+|-sethp|p2a: Milotic|78/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|100/100 par|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|72/100|[from] Sandstorm
+|-damage|p1a: Rotom|95/100 par|[from] Sandstorm
+|-heal|p2a: Milotic|78/100|[from] item: Leftovers
+|-heal|p1a: Rotom|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p2a: Milotic|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|89/100 par
+|move|p1a: Rotom|Volt Switch|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|41/100
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|35/100|[from] Sandstorm
+|-heal|p2a: Milotic|41/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p1a: Alakazam|Psyshock|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|56
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|win|Artemeye
+|raw|Artemeye's rating: 1380 &rarr; <strong>1402</strong><br />(+22 for winning)
+|raw|Nalorium ✿'s rating: 1419 &rarr; <strong>1396</strong><br />(-23 for losing)
+|l| Fabianosizour
+|j| Tace

@@ -1,0 +1,699 @@
+|j|☆RyukTheDarkrai
+|j|☆Mayormaynotbealt
+|player|p1|RyukTheDarkrai|gladion|1365
+|player|p2|Mayormaynotbealt|169|1331
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Hydreigon, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Politoed, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Jumpluff, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Donphan, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RyukTheDarkrai)
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Chansey|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: Mayormaynotbealt|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Ninetales|Sunny Day||[still]
+|-fail|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Superpower|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|33/100
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1a: Hydreigon|def|1
+|-damage|p1a: Hydreigon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Draco Meteor|p2a: Skarmory|[miss]
+|-miss|p1a: Hydreigon|p2a: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Hydreigon|81/100|[from] item: Life Orb
+|faint|p2a: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j| Rheumatoid
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-damage|p2a: Cresselia|88/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100 par
+|move|p2a: Cresselia|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cresselia|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Chansey|Chansey, F|33/100
+|-damage|p2a: Chansey|21/100|[from] Stealth Rock
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Politoed|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|14/100
+|move|p2a: Chansey|Thunder Wave|p1a: Politoed
+|-status|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Chansey|Wish|p2a: Chansey
+|move|p1a: Politoed|Hydro Pump|p2a: Chansey
+|-enditem|p1a: Politoed|Water Gem|[from] gem
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jumpluff|Jumpluff, F|100/100
+|-damage|p2a: Jumpluff|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|51/100
+|cant|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|100/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|12
+|
+|move|p2a: Jumpluff|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|cant|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|88/100 par|[from] Leech Seed|[of] p2a: Jumpluff
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|93/100 par
+|move|p2a: Jumpluff|Bounce||[still]
+|-prepare|p2a: Jumpluff|Bounce|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Jumpluff|Bounce|p1a: Ferrothorn|[from]lockedmove|[miss]
+|-miss|p2a: Jumpluff|p1a: Ferrothorn
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|-damage|p2a: Donphan|94/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Donphan
+|-damage|p2a: Donphan|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|72/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Donphan|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: RyukTheDarkrai|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Donphan|[miss]
+|-miss|p1a: Ferrothorn|p2a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Donphan|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100 par
+|-damage|p2a: Donphan|66/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Mayormaynotbealt|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|move|p1a: Ferrothorn|Leech Seed|p2a: Donphan
+|-start|p2a: Donphan|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|72/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 par|[from] item: Leftovers
+|-damage|p2a: Donphan|60/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|18
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: Mayormaynotbealt|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|inactive|Mayormaynotbealt has 120 seconds left.
+|
+|switch|p1a: Politoed|Politoed, F|88/100 par
+|-damage|p1a: Politoed|76/100 par|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ninetales|Flamethrower|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|70/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|inactive|Mayormaynotbealt has 120 seconds left.
+|
+|move|p2a: Ninetales|Sunny Day|p2a: Ninetales
+|-weather|SunnyDay
+|move|p1a: Politoed|Hydro Pump|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Mayormaynotbealt has 120 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|81/100
+|-damage|p1a: Hydreigon|68/100|[from] Stealth Rock
+|move|p2a: Ninetales|Roar|p1a: Hydreigon
+|drag|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|63/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|inactive|Mayormaynotbealt has 120 seconds left.
+|
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Tentacruel
+|-status|p1a: Tentacruel|brn
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ninetales
+|-damage|p2a: Ninetales|61/100
+|-sideend|p1: RyukTheDarkrai|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|67/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|99/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|inactive|Mayormaynotbealt has 120 seconds left.
+|
+|switch|p2a: Donphan|Donphan, M|60/100
+|-damage|p2a: Donphan|54/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic|p2a: Donphan
+|-status|p2a: Donphan|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|94/100 brn|[from] item: Black Sludge
+|-heal|p2a: Donphan|60/100 tox|[from] item: Leftovers
+|-damage|p1a: Tentacruel|81/100 brn|[from] brn
+|-damage|p2a: Donphan|54/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|Mayormaynotbealt has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100 par
+|move|p2a: Donphan|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100 par
+|
+|-weather|none
+|-heal|p2a: Donphan|60/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|78/100 par|[from] item: Leftovers
+|-damage|p2a: Donphan|47/100 tox|[from] psn
+|upkeep
+|turn|25
+|inactive|Mayormaynotbealt has 120 seconds left.
+|
+|move|p2a: Donphan|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: RyukTheDarkrai|move: Stealth Rock
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p2a: Donphan|54/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|85/100 par|[from] item: Leftovers
+|-damage|p2a: Donphan|35/100 tox|[from] psn
+|upkeep
+|turn|26
+|inactive|Mayormaynotbealt has 120 seconds left.
+|
+|move|p2a: Donphan|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|55/100 par
+|cant|p1a: Ferrothorn|par
+|
+|-heal|p2a: Donphan|41/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|62/100 par|[from] item: Leftovers
+|-damage|p2a: Donphan|16/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Donphan|Rapid Spin|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Donphan|22/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|68/100 par|[from] item: Leftovers
+|-damage|p2a: Donphan|0 fnt|[from] psn
+|faint|p2a: Donphan
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, F|67/100
+|-damage|p2a: Ninetales|42/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|28
+|
+|move|p2a: Ninetales|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M|81/100 brn
+|-damage|p1a: Tentacruel|69/100 brn|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: Jumpluff|Jumpluff, F|100/100
+|-damage|p2a: Jumpluff|76/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jumpluff
+|-damage|p2a: Jumpluff|74/100
+|-sideend|p1: RyukTheDarkrai|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jumpluff|80/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|75/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|63/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Politoed|Politoed, F|70/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|55/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|61/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Jumpluff|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|move|p1a: Politoed|Ice Beam|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|68/100|[from] item: Leftovers
+|-damage|p1a: Politoed|58/100 par|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|83/100|[silent]
+|upkeep
+|turn|32
+|
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|59/100
+|cant|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|65/100|[from] item: Leftovers
+|-damage|p1a: Politoed|46/100 par|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|81/100|[silent]
+|upkeep
+|turn|33
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Jumpluff|Bounce||[still]
+|-prepare|p2a: Jumpluff|Bounce|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|87/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Jumpluff|Bounce|p1a: Thundurus|[from]lockedmove|[miss]
+|-miss|p2a: Jumpluff|p1a: Thundurus
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|93/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Jumpluff|Encore|p1a: Thundurus
+|-start|p1a: Thundurus|Encore
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-fail|p1a: Thundurus|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|99/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Ninetales|Ninetales, F|48/100
+|-damage|p2a: Ninetales|24/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-fail|p1a: Thundurus|move: Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|30/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|94/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Hydreigon|Hydreigon, M|68/100
+|move|p2a: Ninetales|Roar|p1a: Hydreigon
+|drag|p1a: Tentacruel|Tentacruel, M|63/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|36/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|69/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|56/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p2a: Jumpluff|Jumpluff, F|99/100
+|-damage|p2a: Jumpluff|74/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic|p2a: Jumpluff
+|-immune|p2a: Jumpluff|[from] ability: Leaf Guard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jumpluff|81/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|62/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|50/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Politoed|Politoed, F|46/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|62/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Jumpluff|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|move|p1a: Politoed|Ice Beam|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-crit|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|68/100|[from] item: Leftovers
+|-damage|p1a: Politoed|34/100 par|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|84/100|[silent]
+|upkeep
+|turn|41
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|65/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Keldeo|Surf|p2a: Jumpluff
+|-resisted|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|move|p2a: Jumpluff|Leech Seed|p1a: Keldeo
+|-start|p1a: Keldeo|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|72/100|[from] item: Leftovers
+|-damage|p1a: Keldeo|88/100|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|85/100|[silent]
+|upkeep
+|turn|43
+|
+|move|p1a: Keldeo|Surf|p2a: Jumpluff
+|-resisted|p2a: Jumpluff
+|-damage|p2a: Jumpluff|48/100
+|move|p2a: Jumpluff|Bounce||[still]
+|-prepare|p2a: Jumpluff|Bounce|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|54/100|[from] item: Leftovers
+|-damage|p1a: Keldeo|76/100|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|68/100|[silent]
+|upkeep
+|turn|44
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|94/100
+|move|p2a: Jumpluff|Bounce|p1a: Thundurus|[from]lockedmove
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|74/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|92/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|49/100
+|move|p1a: Thundurus|Thunder|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|55/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|98/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p2a: Ninetales|Ninetales, F|36/100
+|-damage|p2a: Ninetales|11/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Thundurus|Thunder|p2a: Ninetales|[miss]
+|-miss|p1a: Thundurus|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|17/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p2a: Ninetales|Flamethrower|p1a: Thundurus
+|-damage|p1a: Thundurus|50/100
+|move|p1a: Thundurus|Focus Blast|p2a: Ninetales|[miss]
+|-miss|p1a: Thundurus|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|23/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|56/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|76/100
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Keldeo
+|-status|p1a: Keldeo|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|29/100|[from] item: Leftovers
+|-damage|p1a: Keldeo|63/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p2a: Cresselia|Cresselia, F|94/100
+|-damage|p2a: Cresselia|82/100|[from] Stealth Rock
+|move|p1a: Keldeo|Hydro Pump|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cresselia|52/100|[from] item: Leftovers
+|-damage|p1a: Keldeo|51/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|switch|p1a: Politoed|Politoed, F|34/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Cresselia|Toxic||[still]
+|-fail|p2a: Cresselia
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cresselia|58/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p1a: Tentacruel|Tentacruel, M|50/100 brn
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|56/100 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|62/100 brn|[from] item: Black Sludge
+|-heal|p2a: Cresselia|89/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|50/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|switch|p2a: Ninetales|Ninetales, F|29/100
+|-damage|p2a: Ninetales|4/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Tentacruel|Toxic|p2a: Ninetales
+|-status|p2a: Ninetales|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|10/100 tox|[from] item: Leftovers
+|-heal|p1a: Tentacruel|56/100 brn|[from] item: Black Sludge
+|-damage|p2a: Ninetales|4/100 tox|[from] psn
+|-damage|p1a: Tentacruel|43/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|switch|p1a: Politoed|Politoed, F|34/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ninetales|Flamethrower|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|28/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ninetales|10/100 tox|[from] item: Leftovers
+|-damage|p2a: Ninetales|0 fnt|[from] psn
+|faint|p2a: Ninetales
+|upkeep
+|
+|switch|p2a: Jumpluff|Jumpluff, F|55/100
+|-damage|p2a: Jumpluff|30/100|[from] Stealth Rock
+|turn|54
+|
+|move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+|-start|p2a: Jumpluff|Substitute
+|-damage|p2a: Jumpluff|6/100
+|move|p1a: Politoed|Ice Beam|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-end|p2a: Jumpluff|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jumpluff|12/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Jumpluff|Leech Seed|p1a: Politoed|[miss]
+|-miss|p2a: Jumpluff|p1a: Politoed
+|move|p1a: Politoed|Ice Beam|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Mayormaynotbealt|gg
+|c|☆RyukTheDarkrai|gg
+|
+|switch|p2a: Cresselia|Cresselia, F|89/100
+|-damage|p2a: Cresselia|77/100|[from] Stealth Rock
+|turn|56
+|
+|move|p2a: Cresselia|Ice Beam|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|20/100 par
+|move|p1a: Politoed|Hydro Pump|p2a: Cresselia
+|-damage|p2a: Cresselia|29/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cresselia|35/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p2a: Cresselia|Ice Beam|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|12/100 par
+|move|p1a: Politoed|Hydro Pump|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|win|RyukTheDarkrai
+|raw|RyukTheDarkrai's rating: 1365 &rarr; <strong>1383</strong><br />(+18 for winning)
+|raw|Mayormaynotbealt's rating: 1331 &rarr; <strong>1313</strong><br />(-18 for losing)

@@ -1,0 +1,285 @@
+|j|☆Goootzinho
+|j|☆sankafola
+|player|p1|Goootzinho|80|1420
+|player|p2|sankafola|juan|1386
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Heatran, M|item
+|poke|p1|Roserade, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Keldeo|item
+|poke|p1|Latias, F|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Jirachi|item
+|poke|p2|Keldeo-Resolute|item
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|76/100
+|move|p1a: Rotom|Will-O-Wisp||[still]
+|-fail|p1a: Rotom
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|51/100
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|26/100
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Garchomp|Outrage|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|6
+|
+|move|p1a: Alakazam|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|7
+|
+|-activate|p1a: Alakazam|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Alakazam|[from]Pursuit
+|-supereffective|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|switch|p1a: Keldeo|Keldeo|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|-damage|p2a: Rotom|53/100|[from] Sandstorm
+|-heal|p2a: Rotom|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Roserade|Roserade, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|90/100
+|
+|switch|p2a: Jirachi|Jirachi|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|84/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Jirachi|Psychic|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|59/100
+|move|p1a: Heatran|Stealth Rock|p2a: Rotom
+|-sidestart|p2: sankafola|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|53/100|[from] Sandstorm
+|-heal|p2a: Rotom|59/100|[from] item: Leftovers
+|-heal|p1a: Heatran|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Roserade|Roserade, F|84/100
+|move|p2a: Rotom|Pain Split|p1a: Roserade
+|-sethp|p1a: Roserade|70/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|74/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|63/100|[from] Sandstorm
+|-damage|p2a: Rotom|68/100|[from] Sandstorm
+|-heal|p2a: Rotom|74/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Roserade|atk|1
+|move|p1a: Roserade|Spikes|p2a: Landorus
+|-sidestart|p2: sankafola|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|57/100|[from] Sandstorm
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Roserade|Rest|p1a: Roserade
+|-status|p1a: Roserade|slp|[from] move: Rest
+|-heal|p1a: Roserade|100/100 slp|[silent]
+|move|p2a: Landorus|Stealth Rock|p1a: Roserade
+|-sidestart|p1: Goootzinho|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|94/100 slp|[from] Sandstorm
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Keldeo|Keldeo|88/100
+|-damage|p1a: Keldeo|82/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|63/100
+|move|p2a: Landorus|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-end|p1a: Latias|Substitute
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|57/100|[from] Sandstorm
+|-heal|p1a: Latias|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Tyranitar|Crunch|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, M|99/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Rotom|Rotom-Wash|74/100
+|-damage|p2a: Rotom|62/100|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|46/100
+|-status|p2a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|40/100 brn|[from] Sandstorm
+|-heal|p2a: Rotom|46/100 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|-damage|p2a: Rotom|33/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p1a: Roserade|Roserade, F|94/100
+|-damage|p1a: Roserade|82/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Roserade
+|-resisted|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|63/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Roserade|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|56/100|[from] Sandstorm
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Roserade|Spikes|p2a: Landorus
+|-sidestart|p2: sankafola|Spikes
+|move|p2a: Landorus|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|1/100
+|turn|21
+|-message|Goootzinho forfeited.
+|
+|win|sankafola
+|l|☆Goootzinho
+|raw|Goootzinho's rating: 1421 &rarr; <strong>1399</strong><br />(-22 for losing)
+|raw|sankafola's rating: 1386 &rarr; <strong>1408</strong><br />(+22 for winning)

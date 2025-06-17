@@ -1,0 +1,652 @@
+|join|bluri
+|join|Kahan
+|player|p1|bluri|291
+|player|p2|Kahan|25
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Starmie
+|poke|p1|Latios, M
+|poke|p1|Keldeo
+|poke|p1|Tornadus, M
+|poke|p1|Jirachi
+|poke|p1|Politoed, F
+|poke|p2|Tyranitar, M
+|poke|p2|Landorus-Therian, M
+|poke|p2|Jellicent, F
+|poke|p2|Jirachi
+|poke|p2|Latios, M
+|poke|p2|Ferrothorn, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|bluri|gl
+|chat|Kahan|Hf
+|
+|start
+|switch|p1a: Keldeo|Keldeo|323/323
+|switch|p2a: Fake Sound|Jirachi|403/403
+|turn|1
+|
+|switch|p1a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Fake Sound|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|337/384
+|
+|switch|p2a: This Dark Day|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: This Dark Day
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|313/384|[from] sandstorm
+|-heal|p1a: Politoed|337/384|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Infected|Jellicent, F|403/403
+|switch|p1a: Keldeo|Keldeo|323/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|303/323|[from] sandstorm
+|-damage|p2a: Infected|378/403|[from] sandstorm
+|-heal|p2a: Infected|403/403|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Jirachi|Jirachi|341/341
+|move|p2a: Infected|Will-O-Wisp|p1a: Jirachi|[miss]
+|-miss|p2a: Infected|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Infected|378/403|[from] sandstorm
+|-heal|p2a: Infected|403/403|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Bring Em' Down|Landorus-Therian, M|319/319
+|-ability|p2a: Bring Em' Down|Intimidate|[of] p1a: Jirachi
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Stealth Rock|p2a: Bring Em' Down
+|-sidestart|p2: Kahan|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|5
+|
+|switch|p1a: Keldeo|Keldeo|303/323
+|move|p2a: Bring Em' Down|Stone Edge|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|141/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|121/323|[from] sandstorm
+|turn|6
+|
+|switch|p2a: Fake Sound|Jirachi|403/403
+|-damage|p2a: Fake Sound|378/403|[from] Stealth Rock
+|move|p1a: Keldeo|Hidden Power|p2a: Fake Sound
+|-damage|p2a: Fake Sound|319/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|101/323|[from] sandstorm
+|-heal|p2a: Fake Sound|344/403|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Politoed|Politoed, F|337/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Fake Sound|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|292/384
+|
+|switch|p2a: This Dark Day|Tyranitar, M|341/341
+|-damage|p2a: This Dark Day|299/341|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: This Dark Day
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|268/384|[from] sandstorm
+|-heal|p1a: Politoed|292/384|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: This Dark Day|Pursuit|p1a: Politoed
+|-damage|p1a: Politoed|232/384
+|move|p1a: Politoed|Toxic|p2a: This Dark Day
+|-status|p2a: This Dark Day|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|208/384|[from] sandstorm
+|-heal|p1a: Politoed|232/384|[from] item: Leftovers
+|-damage|p2a: This Dark Day|278/341 tox|[from] psn
+|turn|9
+|
+|switch|p2a: Trip With Jesus|Ferrothorn, M|351/351
+|-damage|p2a: Trip With Jesus|330/351|[from] Stealth Rock
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-fail|p1a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|208/384|[from] sandstorm
+|-heal|p1a: Politoed|232/384|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|351/351|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: no lo no lefti|Tornadus, M|299/299
+|move|p2a: Trip With Jesus|Stealth Rock|p1a: no lo no lefti
+|-sidestart|p1: bluri|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: no lo no lefti|281/299|[from] sandstorm
+|turn|11
+|
+|move|p2a: Trip With Jesus|Protect|p2a: Trip With Jesus
+|-singleturn|p2a: Trip With Jesus|Protect
+|move|p1a: no lo no lefti|Focus Blast|p2a: Trip With Jesus
+|-activate|p2a: Trip With Jesus|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: no lo no lefti|263/299|[from] sandstorm
+|turn|12
+|
+|switch|p2a: Fake Sound|Jirachi|344/403
+|-damage|p2a: Fake Sound|319/403|[from] Stealth Rock
+|move|p1a: no lo no lefti|Focus Blast|p2a: Fake Sound
+|-damage|p2a: Fake Sound|220/403
+|-unboost|p2a: Fake Sound|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: no lo no lefti|245/299|[from] sandstorm
+|-heal|p2a: Fake Sound|245/403|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Jirachi|Jirachi|341/341
+|-damage|p1a: Jirachi|320/341|[from] Stealth Rock
+|switch|p2a: Infected|Jellicent, F|403/403
+|-damage|p2a: Infected|353/403|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Infected|328/403|[from] sandstorm
+|-heal|p1a: Jirachi|341/341|[from] item: Leftovers
+|-heal|p2a: Infected|353/403|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Jirachi|Thunder|p2a: Infected|[miss]
+|-miss|p1a: Jirachi|p2a: Infected
+|move|p2a: Infected|Will-O-Wisp|p1a: Jirachi|[miss]
+|-miss|p2a: Infected|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Infected|328/403|[from] sandstorm
+|-heal|p2a: Infected|353/403|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Latios|Latios, M|302/302
+|-damage|p1a: Latios|265/302|[from] Stealth Rock
+|switch|p2a: Trip With Jesus|Ferrothorn, M|351/351
+|-damage|p2a: Trip With Jesus|330/351|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|247/302|[from] sandstorm
+|-heal|p2a: Trip With Jesus|351/351|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Trip With Jesus|Protect|p2a: Trip With Jesus
+|-singleturn|p2a: Trip With Jesus|Protect
+|move|p1a: Latios|Trick|p2a: Trip With Jesus
+|-activate|p2a: Trip With Jesus|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|229/302|[from] sandstorm
+|turn|17
+|
+|switch|p1a: Keldeo|Keldeo|101/323
+|-damage|p1a: Keldeo|81/323|[from] Stealth Rock
+|switch|p2a: This Dark Day|Tyranitar, M|278/341 tox
+|-damage|p2a: This Dark Day|236/341 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|61/323|[from] sandstorm
+|-damage|p2a: This Dark Day|215/341 tox|[from] psn
+|turn|18
+|
+|switch|p2a: Infected|Jellicent, F|353/403
+|-damage|p2a: Infected|303/403|[from] Stealth Rock
+|move|p1a: Keldeo|Hidden Power|p2a: Infected
+|-supereffective|p2a: Infected
+|-damage|p2a: Infected|125/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|41/323|[from] sandstorm
+|-damage|p2a: Infected|100/403|[from] sandstorm
+|-heal|p2a: Infected|125/403|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Fake Sound|Jirachi|245/403
+|-damage|p2a: Fake Sound|220/403|[from] Stealth Rock
+|move|p1a: Keldeo|Hydro Pump|p2a: Fake Sound|[miss]
+|-miss|p1a: Keldeo|p2a: Fake Sound
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|21/323|[from] sandstorm
+|-heal|p2a: Fake Sound|245/403|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Fake Sound
+|-damage|p2a: Fake Sound|91/403
+|move|p2a: Fake Sound|Wish|p2a: Fake Sound
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|1/323|[from] sandstorm
+|-heal|p2a: Fake Sound|116/403|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Fake Sound
+|-damage|p2a: Fake Sound|0 fnt
+|faint|p2a: Fake Sound
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|0 fnt|[from] sandstorm
+|faint|p1a: Keldeo
+|
+|switch|p1a: Starmie|Starmie|261/261
+|-damage|p1a: Starmie|229/261|[from] Stealth Rock
+|switch|p2a: Infected|Jellicent, F|125/403
+|-damage|p2a: Infected|75/403|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Trip With Jesus|Ferrothorn, M|351/351
+|-damage|p2a: Trip With Jesus|330/351|[from] Stealth Rock
+|move|p1a: Starmie|Thunder|p2a: Trip With Jesus
+|-resisted|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|267/351
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|213/261|[from] sandstorm
+|-heal|p2a: Trip With Jesus|288/351|[from] item: Leftovers
+|turn|23
+|
+|switch|p1a: Politoed|Politoed, F|232/384
+|-damage|p1a: Politoed|184/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Trip With Jesus|Protect|p2a: Trip With Jesus
+|-fail|p2a: Trip With Jesus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|208/384|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|309/351|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: no lo no lefti|Tornadus, M|245/299
+|-damage|p1a: no lo no lefti|171/299|[from] Stealth Rock
+|move|p2a: Trip With Jesus|Leech Seed|p1a: no lo no lefti
+|-start|p1a: no lo no lefti|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Trip With Jesus|330/351|[from] item: Leftovers
+|-damage|p1a: no lo no lefti|134/299|[from] Leech Seed|[of] p2a: Trip With Jesus
+|-heal|p2a: Trip With Jesus|351/351|[silent]
+|turn|25
+|
+|move|p2a: Trip With Jesus|Protect|p2a: Trip With Jesus
+|-singleturn|p2a: Trip With Jesus|Protect
+|move|p1a: no lo no lefti|Hurricane|p2a: Trip With Jesus
+|-activate|p2a: Trip With Jesus|Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: no lo no lefti|97/299|[from] Leech Seed|[of] p2a: Trip With Jesus
+|turn|26
+|
+|switch|p2a: Infected|Jellicent, F|75/403
+|-damage|p2a: Infected|25/403|[from] Stealth Rock
+|move|p1a: no lo no lefti|U-turn|p2a: Infected
+|-resisted|p2a: Infected
+|-damage|p2a: Infected|0 fnt
+|faint|p2a: Infected
+|
+|switch|p1a: Politoed|Politoed, F|208/384
+|-damage|p1a: Politoed|160/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|184/384|[from] item: Leftovers
+|
+|switch|p2a: Trip With Jesus|Ferrothorn, M|351/351
+|-damage|p2a: Trip With Jesus|330/351|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Trip With Jesus|Leech Seed|p1a: Politoed
+|-activate|p1a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|208/384|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|351/351|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Politoed|Scald|p2a: Trip With Jesus
+|-resisted|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|306/351
+|move|p2a: Trip With Jesus|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|232/384|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|327/351|[from] item: Leftovers
+|-damage|p1a: Politoed|184/384|[from] Leech Seed|[of] p2a: Trip With Jesus
+|-heal|p2a: Trip With Jesus|351/351|[silent]
+|turn|29
+|
+|switch|p1a: Jirachi|Jirachi|341/341
+|-damage|p1a: Jirachi|320/341|[from] Stealth Rock
+|move|p2a: Trip With Jesus|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|341/341|[from] item: Leftovers
+|-damage|p1a: Jirachi|299/341|[from] Leech Seed|[of] p2a: Trip With Jesus
+|turn|30
+|
+|switch|p2a: Bring Em' Down|Landorus-Therian, M|319/319
+|-damage|p2a: Bring Em' Down|280/319|[from] Stealth Rock
+|-ability|p2a: Bring Em' Down|Intimidate|[of] p1a: Jirachi
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Thunder|p2a: Bring Em' Down
+|-immune|p2a: Bring Em' Down|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|320/341|[from] item: Leftovers
+|-heal|p2a: Bring Em' Down|299/319|[from] item: Leftovers
+|-damage|p1a: Jirachi|278/341|[from] Leech Seed|[of] p2a: Bring Em' Down
+|-heal|p2a: Bring Em' Down|319/319|[silent]
+|turn|31
+|
+|switch|p1a: Latios|Latios, M|229/302
+|-damage|p1a: Latios|192/302|[from] Stealth Rock
+|move|p2a: Bring Em' Down|Rock Polish|p2a: Bring Em' Down
+|-boost|p2a: Bring Em' Down|spe|2
+|
+|-weather|RainDance|[upkeep]
+|turn|32
+|
+|move|p2a: Bring Em' Down|Stone Edge|p1a: Latios
+|-damage|p1a: Latios|32/302
+|move|p1a: Latios|Surf|p2a: Bring Em' Down
+|-supereffective|p2a: Bring Em' Down
+|-damage|p2a: Bring Em' Down|0 fnt
+|faint|p2a: Bring Em' Down
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Trip With Jesus|Ferrothorn, M|351/351
+|-damage|p2a: Trip With Jesus|330/351|[from] Stealth Rock
+|turn|33
+|
+|switch|p1a: Starmie|Starmie|213/261
+|-damage|p1a: Starmie|181/261|[from] Stealth Rock
+|move|p2a: Trip With Jesus|Leech Seed|p1a: Starmie
+|-start|p1a: Starmie|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Trip With Jesus|351/351|[from] item: Leftovers
+|-damage|p1a: Starmie|149/261|[from] Leech Seed|[of] p2a: Trip With Jesus
+|turn|34
+|
+|move|p2a: Trip With Jesus|Protect|p2a: Trip With Jesus
+|-singleturn|p2a: Trip With Jesus|Protect
+|move|p1a: Starmie|Rapid Spin|p2a: Trip With Jesus
+|-activate|p2a: Trip With Jesus|Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Starmie|117/261|[from] Leech Seed|[of] p2a: Trip With Jesus
+|turn|35
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Trip With Jesus
+|-resisted|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|347/351
+|-damage|p1a: Starmie|85/261|[from] ability: Iron Barbs|[of] p2a: Trip With Jesus
+|-end|p1a: Starmie|Leech Seed|[from] move: Rapid Spin|[of] p1a: Starmie
+|-sideend|p1: bluri|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Trip With Jesus|Stealth Rock|p1a: Starmie
+|-sidestart|p1: bluri|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Trip With Jesus|351/351|[from] item: Leftovers
+|turn|36
+|
+|switch|p1a: Latios|Latios, M|32/302
+|-damage|p1a: Latios|0 fnt|[from] Stealth Rock
+|faint|p1a: Latios
+|move|p2a: Trip With Jesus|Leech Seed|p1: Latios|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: no lo no lefti|Tornadus, M|97/299
+|-damage|p1a: no lo no lefti|23/299|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Trip With Jesus|Protect|p2a: Trip With Jesus
+|-singleturn|p2a: Trip With Jesus|Protect
+|move|p1a: no lo no lefti|Hurricane|p2a: Trip With Jesus
+|-activate|p2a: Trip With Jesus|Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|38
+|
+|move|p1a: no lo no lefti|Hurricane|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|182/351
+|move|p2a: Trip With Jesus|Power Whip|p1a: no lo no lefti
+|-resisted|p1a: no lo no lefti
+|-damage|p1a: no lo no lefti|0 fnt
+|faint|p1a: no lo no lefti
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Trip With Jesus|203/351|[from] item: Leftovers
+|
+|switch|p1a: Politoed|Politoed, F|184/384
+|-damage|p1a: Politoed|136/384|[from] Stealth Rock
+|turn|39
+|
+|move|p2a: Trip With Jesus|Protect|p2a: Trip With Jesus
+|-singleturn|p2a: Trip With Jesus|Protect
+|move|p1a: Politoed|Scald|p2a: Trip With Jesus
+|-activate|p2a: Trip With Jesus|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|160/384|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|224/351|[from] item: Leftovers
+|turn|40
+|join|derludolf
+|
+|switch|p2a: We Are One|Latios, M|301/301
+|-damage|p2a: We Are One|264/301|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: We Are One
+|-resisted|p2a: We Are One
+|-damage|p2a: We Are One|205/301
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|184/384|[from] item: Leftovers
+|turn|41
+|
+|switch|p2a: This Dark Day|Tyranitar, M|215/341 tox
+|-damage|p2a: This Dark Day|173/341 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: This Dark Day
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-fail|p1a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|160/384|[from] sandstorm
+|-heal|p1a: Politoed|184/384|[from] item: Leftovers
+|-damage|p2a: This Dark Day|152/341 tox|[from] psn
+|turn|42
+|
+|switch|p2a: We Are One|Latios, M|205/301
+|-damage|p2a: We Are One|168/301|[from] Stealth Rock
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-fail|p1a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: We Are One|150/301|[from] sandstorm
+|-damage|p1a: Politoed|160/384|[from] sandstorm
+|-heal|p1a: Politoed|184/384|[from] item: Leftovers
+|turn|43
+|chat|derludolf|hab nen Team um traore gemacht :D
+|chat|derludolf|der kerl ist 2,05 hoch :O
+|
+|move|p2a: We Are One|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|27/384
+|-damage|p2a: We Are One|120/301|[from] item: Life Orb
+|move|p1a: Politoed|Scald|p2a: We Are One
+|-resisted|p2a: We Are One
+|-damage|p2a: We Are One|78/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: We Are One|60/301|[from] sandstorm
+|-damage|p1a: Politoed|3/384|[from] sandstorm
+|-heal|p1a: Politoed|27/384|[from] item: Leftovers
+|turn|44
+|chat|bluri|lol nice :D
+|chat|derludolf|95 strength
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: We Are One|Recover|p2a: We Are One
+|-heal|p2a: We Are One|211/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: We Are One|193/301|[from] sandstorm
+|-damage|p1a: Politoed|3/384|[from] sandstorm
+|-heal|p1a: Politoed|27/384|[from] item: Leftovers
+|turn|45
+|chat|derludolf|mit benteke
+|
+|move|p2a: We Are One|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: We Are One|163/301|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: We Are One|145/301|[from] sandstorm
+|
+|switch|p1a: Starmie|Starmie|85/261
+|-damage|p1a: Starmie|53/261|[from] Stealth Rock
+|turn|46
+|chat|derludolf|auch 1,95
+|chat|derludolf|88 heading
+|
+|switch|p2a: Trip With Jesus|Ferrothorn, M|224/351
+|-damage|p2a: Trip With Jesus|203/351|[from] Stealth Rock
+|move|p1a: Starmie|Rapid Spin|p2a: Trip With Jesus
+|-resisted|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|199/351
+|-damage|p1a: Starmie|21/261|[from] ability: Iron Barbs|[of] p2a: Trip With Jesus
+|-sideend|p1: bluri|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|5/261|[from] sandstorm
+|-heal|p2a: Trip With Jesus|220/351|[from] item: Leftovers
+|turn|47
+|chat|derludolf|als flügel walcott
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Trip With Jesus
+|-resisted|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|216/351
+|-damage|p1a: Starmie|0 fnt|[from] ability: Iron Barbs|[of] p2a: Trip With Jesus
+|faint|p1a: Starmie
+|move|p2a: Trip With Jesus|Stealth Rock|p1: Starmie
+|-sidestart|p1: bluri|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Trip With Jesus|237/351|[from] item: Leftovers
+|
+|switch|p1a: Jirachi|Jirachi|278/341
+|-damage|p1a: Jirachi|257/341|[from] Stealth Rock
+|turn|48
+|chat|derludolf|96 pace
+|
+|move|p1a: Jirachi|Thunder|p2a: Trip With Jesus|[miss]
+|-miss|p1a: Jirachi|p2a: Trip With Jesus
+|move|p2a: Trip With Jesus|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|278/341|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|258/351|[from] item: Leftovers
+|-damage|p1a: Jirachi|236/341|[from] Leech Seed|[of] p2a: Trip With Jesus
+|-heal|p2a: Trip With Jesus|300/351|[silent]
+|turn|49
+|chat|derludolf|alda das geht so ab :D
+|
+|move|p1a: Jirachi|Thunder|p2a: Trip With Jesus
+|-resisted|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|255/351
+|move|p2a: Trip With Jesus|Power Whip|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|164/341
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|185/341|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|276/351|[from] item: Leftovers
+|-damage|p1a: Jirachi|143/341|[from] Leech Seed|[of] p2a: Trip With Jesus
+|-heal|p2a: Trip With Jesus|318/351|[silent]
+|turn|50
+|chat|bluri|96 pace o.O
+|chat|bluri|alter jz echt?
+|
+|move|p1a: Jirachi|Thunder|p2a: Trip With Jesus
+|-resisted|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|272/351
+|-status|p2a: Trip With Jesus|par
+|move|p2a: Trip With Jesus|Power Whip|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|79/341
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/341|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|293/351 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|58/341|[from] Leech Seed|[of] p2a: Trip With Jesus
+|-heal|p2a: Trip With Jesus|335/351 par|[silent]
+|turn|51
+|chat|bluri|gg
+|chat|Kahan|gg
+|chat|derludolf|einfach nur durchpacen und flanken
+|
+|move|p1a: Jirachi|Psychic|p2a: Trip With Jesus
+|-resisted|p2a: Trip With Jesus
+|-damage|p2a: Trip With Jesus|281/351 par
+|cant|p2a: Trip With Jesus|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|79/341|[from] item: Leftovers
+|-heal|p2a: Trip With Jesus|302/351 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|37/341|[from] Leech Seed|[of] p2a: Trip With Jesus
+|-heal|p2a: Trip With Jesus|344/351 par|[silent]
+|turn|52
+|chat|derludolf|jop :D
+|
+|switch|p2a: This Dark Day|Tyranitar, M|152/341 tox
+|-damage|p2a: This Dark Day|110/341 tox|[from] Stealth Rock
+|move|p1a: Jirachi|Psychic|p2a: This Dark Day
+|-immune|p2a: This Dark Day|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|58/341|[from] item: Leftovers
+|-damage|p1a: Jirachi|16/341|[from] Leech Seed|[of] p2a: This Dark Day
+|-heal|p2a: This Dark Day|152/341 tox|[silent]
+|-damage|p2a: This Dark Day|131/341 tox|[from] psn
+|turn|53
+|chat|derludolf|der kann aber sonst nix
+|chat|bluri|lol nice :D
+|chat|derludolf|nur rennen^^
+|
+|move|p2a: This Dark Day|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|win|Kahan
+|raw|Ladder updating...
+|raw|bluri's rating: 1430 &rarr; <strong>1407</strong><br />(-23 for losing)
+|raw|Kahan's rating: 1376 &rarr; <strong>1399</strong><br />(+23 for winning)
+|chat|derludolf|nagut 73 schuss
+|chat|derludolf|und 80 dribbling

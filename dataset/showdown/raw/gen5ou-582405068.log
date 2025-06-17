@@ -1,0 +1,267 @@
+|j|kasabuta
+|j|chadbro
+|player|p1|kasabuta|130
+|teamsize|p1|6
+|player|p2|chadbro|102
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|40233,46796,20644,3445
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Magnezone|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M, shiny|item
+|poke|p2|Scizor, M, shiny|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Keldeo|Keldeo-Resolute|323/323
+|switch|p2a: Pat Riely|Tyranitar, M|403/403
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|choice|move surf|switch 4
+|
+|switch|p2a: Bosh|Latios, M, shiny|301/301
+|move|p1a: Keldeo|Surf|p2a: Bosh
+|-resisted|p2a: Bosh
+|-damage|p2a: Bosh|217/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|303/323|[from] sandstorm
+|-damage|p2a: Bosh|199/301|[from] sandstorm
+|upkeep
+|turn|2
+|choice|switch 4|move psyshock
+|
+|switch|p1a: Jirachi|Jirachi|372/372
+|move|p2a: Bosh|Psyshock|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|335/372
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|181/301|[from] sandstorm
+|upkeep
+|turn|3
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Ray Allen|Magnezone|283/283
+|move|p1a: Jirachi|Stealth Rock|p2a: Ray Allen
+|-sidestart|p2: chadbro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|choice|move uturn|move substitute
+|
+|move|p1a: Jirachi|U-turn|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-damage|p2a: Ray Allen|260/283
+|choice|switch 2|
+|
+|switch|p1a: Garchomp|Garchomp, F|357/357
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|190/283
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|207/283|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move earthquake|move flashcannon
+|
+|move|p1a: Garchomp|Earthquake|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Flash Cannon|p1a: Garchomp
+|-damage|p1a: Garchomp|180/357
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|224/283|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move firefang|switch 6
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|382/382
+|-damage|p2a: Bron Bron|335/382|[from] stealthrock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Fire Fang|p2a: Bron Bron|[miss]
+|-miss|p1a: Garchomp|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|choice|move earthquake|move uturn
+|
+|move|p1a: Garchomp|Earthquake|p2a: Bron Bron
+|-immune|p2a: Bron Bron|[msg]
+|move|p2a: Bron Bron|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|68/357
+|-damage|p2a: Bron Bron|288/382|[from] ability: Rough Skin|[of] p1a: Garchomp
+|choice||switch 2
+|
+|switch|p2a: Bosh|Latios, M, shiny|181/301
+|-damage|p2a: Bosh|144/301|[from] stealthrock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|126/301|[from] sandstorm
+|upkeep
+|turn|8
+|choice|switch 2|move surf
+|
+|switch|p1a: Jirachi|Jirachi|335/372
+|move|p2a: Bosh|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|232/372
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|108/301|[from] sandstorm
+|upkeep
+|turn|9
+|choice|move uturn|move surf
+|
+|move|p2a: Bosh|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|121/372
+|-enditem|p1a: Jirachi|Sitrus Berry|[eat]
+|-heal|p1a: Jirachi|214/372|[from] item: Sitrus Berry
+|move|p1a: Jirachi|U-turn|p2a: Bosh
+|-supereffective|p2a: Bosh
+|-damage|p2a: Bosh|0 fnt
+|faint|p2a: Bosh
+|choice|switch 5|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|319/319
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Pat Riely|Tyranitar, M|403/403
+|-damage|p2a: Pat Riely|353/403|[from] stealthrock
+|turn|10
+|choice|move earthquake|move icebeam
+|
+|move|p1a: Landorus|Earthquake|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|0 fnt
+|faint|p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|288/382
+|-damage|p2a: Bron Bron|241/382|[from] stealthrock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|11
+|choice|switch 5|move hiddenpower
+|
+|switch|p1a: Jirachi|Jirachi|214/372
+|move|p2a: Bron Bron|Hidden Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|189/372
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|choice|move icywind|move earthquake
+|
+|move|p1a: Jirachi|Icy Wind|p2a: Bron Bron|[miss]
+|-miss|p1a: Jirachi|p2a: Bron Bron
+|move|p2a: Bron Bron|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|303/323
+|turn|13
+|choice|move surf|switch 6
+|
+|switch|p2a: Ray Allen|Magnezone|224/283
+|-damage|p2a: Ray Allen|207/283|[from] stealthrock
+|move|p1a: Keldeo|Surf|p2a: Ray Allen
+|-damage|p2a: Ray Allen|18/283
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|283/323|[from] sandstorm
+|-heal|p2a: Ray Allen|35/283|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move surf|move hiddenpower
+|
+|move|p1a: Keldeo|Surf|p2a: Ray Allen
+|-damage|p2a: Ray Allen|0 fnt
+|faint|p2a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|263/323|[from] sandstorm
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Miller|Scizor, M, shiny|343/343
+|-damage|p2a: Miller|301/343|[from] stealthrock
+|turn|15
+|choice|switch 2|move uturn
+|
+|switch|p1a: Garchomp|Garchomp, F|68/357
+|move|p2a: Miller|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Miller|259/343|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|choice||switch 3
+|
+|switch|p2a: D.Wade|Terrakion|323/323
+|-damage|p2a: D.Wade|303/323|[from] stealthrock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Latios|Latios, M|301/301
+|turn|16
+|choice|move psyshock|move xscissor
+|
+|move|p2a: D.Wade|X-Scissor|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|79/301
+|move|p1a: Latios|Psyshock|p2a: D.Wade
+|-supereffective|p2a: D.Wade
+|-damage|p2a: D.Wade|0 fnt
+|faint|p2a: D.Wade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|61/301|[from] sandstorm
+|upkeep
+|l|chadbro
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kasabuta)
+|-message|chadbro lost due to inactivity.
+|
+|win|kasabuta
+|raw|kasabuta's rating: 1412 &rarr; <strong>1427</strong><br />(+15 for winning)
+|raw|chadbro's rating: 1319 &rarr; <strong>1304</strong><br />(-15 for losing)

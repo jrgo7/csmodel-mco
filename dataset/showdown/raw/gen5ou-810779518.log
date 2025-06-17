@@ -1,0 +1,512 @@
+|j|☆Beauty In Tragedy
+|j|☆CroCoeur
+|player|p1|Beauty In Tragedy|261
+|player|p2|CroCoeur|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Terrakion|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Slowbro, F|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Thundurus|Focus Blast|p2a: Celebi
+|-resisted|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|55/100
+|
+|-heal|p2a: Celebi|62/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Celebi|Giga Drain|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|96/100
+|-heal|p2a: Celebi|64/100|[from] drain|[of] p1a: Amoonguss
+|
+|-heal|p2a: Celebi|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Amoonguss|Spore|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Celebi|Celebi|70/100
+|move|p1a: Thundurus|Focus Blast|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|50/100
+|
+|-heal|p2a: Celebi|56/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Celebi|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|71/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Celebi
+|-sidestart|p2: CroCoeur|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Celebi|Giga Drain|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|90/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Celebi|Psychic|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-enditem|p1a: Amoonguss|Payapa Berry|[eat]
+|-enditem|p1a: Amoonguss|Payapa Berry|[weaken]
+|-damage|p1a: Amoonguss|68/100
+|move|p1a: Amoonguss|Stun Spore|p2a: Celebi
+|-status|p2a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|62/100|[from] Sandstorm
+|-damage|p2a: Celebi|94/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Tyranitar|Tyranitar, F|71/100
+|move|p2a: Celebi|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|34/100 par
+|cant|p2a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|27/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Celebi|Celebi|34/100
+|-damage|p2a: Celebi|21/100|[from] Stealth Rock
+|move|p1a: Terrakion|Close Combat|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|14
+|
+|move|p1a: Terrakion|Protect|p1a: Terrakion
+|-singleturn|p1a: Terrakion|Protect
+|move|p2a: Politoed|Ice Beam|p1a: Terrakion
+|-activate|p1a: Terrakion|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Terrakion|Close Combat|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|41/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Terrakion|Protect|p1a: Terrakion
+|-singleturn|p1a: Terrakion|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Terrakion
+|-activate|p1a: Terrakion|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Tyranitar|Tyranitar, F|42/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|2/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|35/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Terrakion
+|-damage|p1a: Terrakion|72/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|29/100|[from] Sandstorm
+|upkeep
+|turn|19
+|j| Rising In OU
+|inactive|CroCoeur has 120 seconds left.
+|inactive|CroCoeur has 90 seconds left.
+|
+|switch|p2a: Politoed|Politoed, M|88/100
+|-damage|p2a: Politoed|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|inactive|Beauty In Tragedy has 120 seconds left.
+|
+|move|p1a: Terrakion|Protect|p1a: Terrakion
+|-singleturn|p1a: Terrakion|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Terrakion
+|-activate|p1a: Terrakion|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Amoonguss|Amoonguss, M|95/100
+|move|p2a: Politoed|Hydro Pump|p1a: Amoonguss|[miss]
+|-miss|p2a: Politoed|p1a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|l| Rising In OU
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p1a: Tyranitar|Tyranitar, F|2/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Tyranitar|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|switch|p2a: Politoed|Politoed, M|76/100
+|-damage|p2a: Politoed|63/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Stun Spore|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Terrakion|Terrakion|72/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: Beauty In Tragedy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p1a: Terrakion|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100 par
+|-damage|p1a: Terrakion|60/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Terrakion|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Terrakion|47/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|CroCoeur has 120 seconds left.
+|
+|switch|p2a: Latios|Latios, M|29/100
+|-damage|p2a: Latios|17/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Terrakion|Protect|p1a: Terrakion
+|-singleturn|p1a: Terrakion|Protect
+|move|p2a: Latios|Psyshock|p1a: Terrakion
+|-activate|p1a: Terrakion|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Latios|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p2a: Politoed|Politoed, M|63/100
+|-damage|p2a: Politoed|51/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|40/100
+|-sideend|p1: Beauty In Tragedy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Terrakion|Terrakion|47/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|2/100
+|move|p1a: Terrakion|Close Combat|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|j| Rising In OU
+|c|☆CroCoeur|I can't believe the game of numbers this is
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|63/100
+|move|p1a: Terrakion|Close Combat|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|37
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100 slp
+|-damage|p2a: Vaporeon|88/100 slp|[from] Stealth Rock
+|move|p1a: Thundurus|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|40/100
+|-damage|p2a: Politoed|28/100|[from] Stealth Rock
+|turn|38
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Slowbro|[miss]
+|-miss|p2a: Politoed|p1a: Slowbro
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|39
+|
+|switch|p2a: Jirachi|Jirachi|75/100
+|-damage|p2a: Jirachi|69/100|[from] Stealth Rock
+|move|p1a: Slowbro|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|23/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Jirachi|Water Pulse|p1a: Thundurus
+|-damage|p1a: Thundurus|72/100
+|-start|p1a: Thundurus|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|29/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|-activate|p1a: Thundurus|confusion
+|move|p1a: Thundurus|Volt Switch|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|switch|p1a: Excadrill|Excadrill, M|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|17/100
+|-damage|p2a: Latios|4/100|[from] Stealth Rock
+|turn|42
+|
+|switch|p1a: Tyranitar|Tyranitar, F|2/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|0 fnt|[from] Sandstorm
+|upkeep
+|faint|p2a: Latios
+|
+|switch|p2a: Politoed|Politoed, M|28/100
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Politoed|15/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|43
+|
+|move|p2a: Politoed|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|68/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-heal|p1a: Amoonguss|73/100|[from] drain|[of] p2a: Politoed
+|faint|p2a: Politoed
+|
+|win|Beauty In Tragedy
+|raw|Beauty In Tragedy's rating: 1394 &rarr; <strong>1411</strong><br />(+17 for winning)
+|raw|CroCoeur's rating: 1334 &rarr; <strong>1317</strong><br />(-17 for losing)

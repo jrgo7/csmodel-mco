@@ -1,0 +1,224 @@
+|j|☆Caster33
+|j|☆awitt 10
+|player|p1|Caster33|153|1287
+|player|p2|awitt 10|266|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Jellicent, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Donphan, M|item
+|poke|p2|Salamence, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Caster33)
+|inactive|awitt 10 has 120 seconds left.
+|inactive|awitt 10 has 90 seconds left.
+|inactive|awitt 10 has 60 seconds left.
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|turn|1
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|move|p1a: Garchomp|Earthquake|p2a: Donphan
+|-crit|p2a: Donphan
+|-damage|p2a: Donphan|17/100
+|
+|-heal|p2a: Donphan|23/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Caster33 has 120 seconds left.
+|inactive|awitt 10 has 120 seconds left.
+|
+|move|p2a: Donphan|Ice Shard|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|41/100
+|move|p1a: Garchomp|Fire Fang|p2a: Donphan
+|-damage|p2a: Donphan|5/100
+|-status|p2a: Donphan|brn
+|
+|-heal|p2a: Donphan|12/100 brn|[from] item: Leftovers
+|-damage|p2a: Donphan|0 fnt|[from] brn
+|faint|p2a: Donphan
+|upkeep
+|inactive|awitt 10 has 120 seconds left.
+|inactive|awitt 10 has 90 seconds left.
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|3
+|inactive|awitt 10 has 90 seconds left.
+|inactive|Caster33 has 120 seconds left.
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|switch|p1a: Forretress|Forretress, M|100/100
+|
+|upkeep
+|turn|4
+|inactive|Caster33 has 120 seconds left.
+|inactive|awitt 10 has 90 seconds left.
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Forretress|Volt Switch|p2a: Volcarona
+|-damage|p2a: Volcarona|94/100
+|inactive|Caster33 has 120 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|88/100|[from] Sandstorm
+|-heal|p2a: Volcarona|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Volcarona|[miss]
+|-miss|p1a: Tyranitar|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|88/100|[from] Sandstorm
+|-heal|p2a: Volcarona|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Caster33 has 120 seconds left.
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|88/100|[from] Sandstorm
+|-heal|p2a: Volcarona|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Volcarona|Hidden Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-enditem|p1a: Heatran|Shuca Berry|[eat]
+|-enditem|p1a: Heatran|Shuca Berry|[weaken]
+|-damage|p1a: Heatran|31/100
+|move|p1a: Heatran|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|23/100|[from] Sandstorm
+|-heal|p2a: Volcarona|29/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|23/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Volcarona|29/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|71/100
+|move|p1a: Jellicent|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|0 fnt|[from] Sandstorm
+|-damage|p1a: Jellicent|65/100|[from] Sandstorm
+|faint|p2a: Volcarona
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, M|31/100
+|move|p2a: Ninetales|Energy Ball|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|26/100
+|-unboost|p1a: Heatran|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|inactive|Caster33 has 120 seconds left.
+|inactive|awitt 10 has 120 seconds left.
+|
+|move|p2a: Ninetales|Hidden Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Caster33 has 90 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|5/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|12
+|inactive|Caster33 has 90 seconds left.
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|13
+|c|☆Caster33|got to love skarf
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|14
+|-message|awitt 10 forfeited.
+|
+|win|Caster33
+|l|☆awitt 10
+|c|☆Caster33|gg
+|raw|Caster33's rating: 1287 &rarr; <strong>1315</strong><br />(+28 for winning)
+|raw|awitt 10's rating: 1323 &rarr; <strong>1301</strong><br />(-22 for losing)

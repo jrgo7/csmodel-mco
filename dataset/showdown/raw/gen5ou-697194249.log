@@ -1,0 +1,428 @@
+|j|☆bmy
+|j|☆Pilif
+|player|p1|bmy|102
+|player|p2|Pilif|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Hydreigon, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bmy)
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|inactive|bmy has 135 seconds left.
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|94/100|[from] sandstorm
+|-damage|p2a: Umbreon|81/100|[from] sandstorm
+|-heal|p2a: Umbreon|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|81/100|[from] sandstorm
+|-heal|p2a: Umbreon|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: Pilif|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, M|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Hippowdon|Stealth Rock|p1a: Politoed
+|-sidestart|p1: bmy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Umbreon|Umbreon, M|87/100
+|-damage|p2a: Umbreon|74/100|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Umbreon
+|-damage|p2a: Umbreon|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|41/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|97/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Scizor|Bug Bite|p2a: Hippowdon
+|-damage|p2a: Hippowdon|26/100
+|move|p2a: Hippowdon|Roar|p1a: Scizor
+|drag|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|32/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Jirachi|Icy Wind|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Jirachi|Flash Cannon|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|49/100
+|move|p2a: Conkeldurr|Substitute|p2a: Conkeldurr
+|-start|p2a: Conkeldurr|Substitute
+|-damage|p2a: Conkeldurr|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|18/100|[from] sandstorm
+|-heal|p2a: Conkeldurr|24/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Jirachi|Flash Cannon|p2a: Conkeldurr
+|-end|p2a: Conkeldurr|Substitute
+|move|p2a: Conkeldurr|Drain Punch|p1a: Jirachi
+|-damage|p1a: Jirachi|41/100
+|-heal|p2a: Conkeldurr|47/100|[from] drain|[of] p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|41/100|[from] sandstorm
+|-heal|p2a: Conkeldurr|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Flash Cannon|p2a: Umbreon
+|-damage|p2a: Umbreon|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|61/100|[from] sandstorm
+|-heal|p2a: Umbreon|67/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|bmy has 135 seconds left.
+|inactive|bmy has 120 seconds left.
+|inactive|bmy has 105 seconds left.
+|inactive|bmy has 90 seconds left.
+|
+|move|p1a: Jirachi|Flash Cannon|p2a: Umbreon
+|-damage|p2a: Umbreon|47/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|41/100|[from] sandstorm
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|94/100
+|-damage|p1a: Politoed|82/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-fail|p2a: Umbreon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|97/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|move|p2a: Umbreon|Toxic|p1a: Toxicroak
+|-immune|p1a: Toxicroak|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|upkeep
+|turn|17
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Forretress
+|-damage|p2a: Forretress|43/100
+|-damage|p1a: Toxicroak|91/100|[from] item: Life Orb
+|move|p2a: Forretress|Counter|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Forretress|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|91/100
+|-damage|p2a: Forretress|36/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-sideend|p2: Pilif|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|43/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Garchomp|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|21
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|47/100
+|move|p1a: Scizor|Superpower|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|5/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Conkeldurr|11/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|24
+|
+|switch|p1a: Jirachi|Jirachi|41/100
+|-damage|p1a: Jirachi|35/100|[from] Stealth Rock
+|move|p2a: Infernape|Close Combat|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|bmy has 135 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|82/100
+|-damage|p1a: Politoed|69/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Umbreon
+|-damage|p2a: Umbreon|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|68/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Scizor|Scizor, M|76/100
+|-damage|p1a: Scizor|64/100|[from] Stealth Rock
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|inactive|bmy has 135 seconds left.
+|inactive|bmy has 120 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|69/100
+|-damage|p1a: Politoed|57/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Fire Blast|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|switch|p2a: Umbreon|Umbreon, M|68/100
+|move|p1a: Politoed|Hydro Pump|p2a: Umbreon
+|-damage|p2a: Umbreon|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|33/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Scizor|Scizor, M|64/100
+|-damage|p1a: Scizor|52/100|[from] Stealth Rock
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|inactive|bmy has 135 seconds left.
+|inactive|bmy has 120 seconds left.
+|inactive|bmy has 105 seconds left.
+|inactive|bmy has 90 seconds left.
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|75/100|[from] Stealth Rock
+|turn|31
+|
+|switch|p2a: Umbreon|Umbreon, M|33/100
+|move|p1a: Dragonite|Outrage|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|32
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Dragonite|[miss]
+|-miss|p2a: Hydreigon|p1a: Dragonite
+|move|p1a: Dragonite|Outrage|p2a: Hydreigon|[from]lockedmove
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-start|p1a: Dragonite|confusion|[fatigue]
+|faint|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|33
+|
+|move|p2a: Infernape|Stone Edge|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|8/100
+|-activate|p1a: Dragonite|confusion
+|-damage|p1a: Dragonite|0 fnt|[from] confusion
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|46/100
+|-damage|p1a: Politoed|34/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Infernape|Stone Edge|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|win|Pilif
+|l|☆bmy
+|raw|bmy's rating: 1397 &rarr; <strong>1369</strong><br />(-28 for losing)
+|raw|Pilif's rating: 1261 &rarr; <strong>1296</strong><br />(+35 for winning)

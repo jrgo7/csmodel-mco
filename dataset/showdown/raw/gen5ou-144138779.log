@@ -1,0 +1,985 @@
+|join|Link867
+|join|BlackKaiser
+|player|p1|Link867|219
+|player|p2|BlackKaiser|266
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Tyranitar, F
+|poke|p1|Skarmory, F
+|poke|p1|Ferrothorn, F
+|poke|p1|Hippowdon, M
+|poke|p1|Landorus-Therian, M
+|poke|p1|Heatran, F
+|poke|p2|Garchomp, M, shiny
+|poke|p2|Latios, M, shiny
+|poke|p2|Scizor, M
+|poke|p2|Ferrothorn, M
+|poke|p2|Hippowdon, M
+|poke|p2|Jellicent, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Charlzard|Hippowdon, M|392/392
+|switch|p2a: Stardust|Latios, M, shiny|301/301
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Charlzard
+|turn|1
+|
+|move|p2a: Stardust|Trick|p1a: Charlzard
+|-activate|p2a: Stardust|move: Trick|[of] p1a: Charlzard
+|-item|p1a: Charlzard|Choice Specs|[from] move: Trick
+|-item|p2a: Stardust|Leftovers|[from] move: Trick
+|move|p1a: Charlzard|Ice Fang|p2a: Stardust
+|-supereffective|p2a: Stardust
+|-damage|p2a: Stardust|155/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Stardust|137/301|[from] sandstorm
+|-heal|p2a: Stardust|155/301|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Don'tTouch|Ferrothorn, M|352/352
+|move|p1a: Charlzard|Ice Fang|p2a: Don'tTouch
+|-damage|p2a: Don'tTouch|314/352
+|-damage|p1a: Charlzard|343/392|[from] ability: Iron Barbs|[of] p2a: Don'tTouch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|336/352|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Charlzard|Ice Fang|p2a: Don'tTouch
+|-crit|p2a: Don'tTouch
+|-damage|p2a: Don'tTouch|268/352
+|-damage|p1a: Charlzard|294/392|[from] ability: Iron Barbs|[of] p2a: Don'tTouch
+|move|p2a: Don'tTouch|Spikes|p1a: Charlzard
+|-sidestart|p1: Link867|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|290/352|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Charlzard|Heatran, F|342/342
+|-item|p1a: Charlzard|Air Balloon
+|move|p2a: Don'tTouch|Spikes|p1a: Charlzard
+|-sidestart|p1: Link867|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|312/352|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: King Jelly|Jellicent, M|401/401
+|move|p1a: Charlzard|Lava Plume|p2a: King Jelly
+|-resisted|p2a: King Jelly
+|-damage|p2a: King Jelly|346/401
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|321/401|[from] sandstorm
+|-heal|p2a: King Jelly|346/401|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Charlzard|Tyranitar, F|342/342
+|-damage|p1a: Charlzard|285/342|[from] Spikes
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-supereffective|p1a: Charlzard
+|-damage|p1a: Charlzard|187/342
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|321/401|[from] sandstorm
+|-heal|p2a: King Jelly|346/401|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Charlzard|Pursuit|p2a: King Jelly
+|-supereffective|p2a: King Jelly
+|-damage|p2a: King Jelly|188/401
+|move|p2a: King Jelly|Will-O-Wisp|p1a: Charlzard
+|-status|p1a: Charlzard|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|163/401|[from] sandstorm
+|-heal|p2a: King Jelly|188/401|[from] item: Leftovers
+|-damage|p1a: Charlzard|145/342 brn|[from] brn
+|turn|8
+|
+|move|p1a: Charlzard|Pursuit|p2a: King Jelly
+|-supereffective|p2a: King Jelly
+|-damage|p2a: King Jelly|114/401
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|315/401
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|290/401|[from] sandstorm
+|-heal|p2a: King Jelly|315/401|[from] item: Leftovers
+|-damage|p1a: Charlzard|103/342 brn|[from] brn
+|turn|9
+|
+|move|p1a: Charlzard|Stone Edge|p2a: King Jelly|[miss]
+|-miss|p1a: Charlzard|p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|401/401
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401|[from] sandstorm
+|-heal|p2a: King Jelly|401/401|[from] item: Leftovers
+|-damage|p1a: Charlzard|61/342 brn|[from] brn
+|turn|10
+|
+|move|p1a: Charlzard|Stone Edge|p2a: King Jelly|[miss]
+|-miss|p1a: Charlzard|p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-fail|p2a: King Jelly
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401|[from] sandstorm
+|-heal|p2a: King Jelly|401/401|[from] item: Leftovers
+|-damage|p1a: Charlzard|19/342 brn|[from] brn
+|turn|11
+|
+|move|p1a: Charlzard|Stone Edge|p2a: King Jelly|[miss]
+|-miss|p1a: Charlzard|p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-fail|p2a: King Jelly
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401|[from] sandstorm
+|-heal|p2a: King Jelly|401/401|[from] item: Leftovers
+|-damage|p1a: Charlzard|0 fnt|[from] brn
+|faint|p1a: Charlzard
+|
+|switch|p1a: Charlzard|Ferrothorn, F|326/326
+|-damage|p1a: Charlzard|272/326|[from] Spikes
+|turn|12
+|
+|move|p2a: King Jelly|Will-O-Wisp|p1a: Charlzard
+|-status|p1a: Charlzard|brn
+|move|p1a: Charlzard|Power Whip|p2a: King Jelly|[miss]
+|-miss|p1a: Charlzard|p2a: King Jelly
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401|[from] sandstorm
+|-heal|p2a: King Jelly|401/401|[from] item: Leftovers
+|-heal|p1a: Charlzard|292/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|252/326 brn|[from] brn
+|turn|13
+|
+|switch|p2a: Discover Hippo|Hippowdon, M|419/419
+|move|p1a: Charlzard|Power Whip|p2a: Discover Hippo
+|-supereffective|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|315/419
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|341/419|[from] item: Leftovers
+|-heal|p1a: Charlzard|272/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|232/326 brn|[from] brn
+|turn|14
+|
+|move|p2a: Discover Hippo|Stealth Rock|p1a: Charlzard
+|-sidestart|p1: Link867|move: Stealth Rock
+|move|p1a: Charlzard|Leech Seed|p2a: Discover Hippo
+|-start|p2a: Discover Hippo|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|367/419|[from] item: Leftovers
+|-heal|p1a: Charlzard|252/326 brn|[from] item: Leftovers
+|-damage|p2a: Discover Hippo|315/419|[from] Leech Seed|[of] p1a: Charlzard
+|-heal|p1a: Charlzard|304/326 brn|[silent]
+|-damage|p1a: Charlzard|264/326 brn|[from] brn
+|turn|15
+|
+|switch|p2a: Don'tTouch|Ferrothorn, M|312/352
+|move|p1a: Charlzard|Curse|p1a: Charlzard
+|-boost|p1a: Charlzard|atk|1
+|-boost|p1a: Charlzard|def|1
+|-unboost|p1a: Charlzard|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|334/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|284/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|244/326 brn|[from] brn
+|turn|16
+|
+|move|p2a: Don'tTouch|Spikes|p1a: Charlzard
+|-sidestart|p1: Link867|Spikes
+|move|p1a: Charlzard|Curse|p1a: Charlzard
+|-boost|p1a: Charlzard|atk|1
+|-boost|p1a: Charlzard|def|1
+|-unboost|p1a: Charlzard|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|352/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|264/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|224/326 brn|[from] brn
+|turn|17
+|
+|move|p2a: Don'tTouch|Power Whip|p1a: Charlzard
+|-resisted|p1a: Charlzard
+|-damage|p1a: Charlzard|212/326 brn
+|-damage|p2a: Don'tTouch|308/352|[from] ability: Iron Barbs|[of] p1a: Charlzard
+|move|p1a: Charlzard|Curse|p1a: Charlzard
+|-boost|p1a: Charlzard|atk|1
+|-boost|p1a: Charlzard|def|1
+|-unboost|p1a: Charlzard|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|330/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|232/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|192/326 brn|[from] brn
+|turn|18
+|
+|move|p2a: Don'tTouch|Power Whip|p1a: Charlzard
+|-resisted|p1a: Charlzard
+|-damage|p1a: Charlzard|182/326 brn
+|-damage|p2a: Don'tTouch|286/352|[from] ability: Iron Barbs|[of] p1a: Charlzard
+|move|p1a: Charlzard|Curse|p1a: Charlzard
+|-boost|p1a: Charlzard|atk|1
+|-boost|p1a: Charlzard|def|1
+|-unboost|p1a: Charlzard|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|308/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|202/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|162/326 brn|[from] brn
+|turn|19
+|
+|move|p2a: Don'tTouch|Leech Seed|p1a: Charlzard
+|-immune|p1a: Charlzard|[msg]
+|move|p1a: Charlzard|Curse|p1a: Charlzard
+|-boost|p1a: Charlzard|atk|1
+|-boost|p1a: Charlzard|def|1
+|-unboost|p1a: Charlzard|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|330/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|182/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|142/326 brn|[from] brn
+|turn|20
+|
+|move|p2a: Don'tTouch|Leech Seed|p1a: Charlzard
+|-immune|p1a: Charlzard|[msg]
+|move|p1a: Charlzard|Curse|p1a: Charlzard
+|-boost|p1a: Charlzard|atk|1
+|-boost|p1a: Charlzard|def|1
+|-unboost|p1a: Charlzard|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|352/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|162/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|122/326 brn|[from] brn
+|turn|21
+|
+|move|p2a: Don'tTouch|Leech Seed|p1a: Charlzard
+|-immune|p1a: Charlzard|[msg]
+|move|p1a: Charlzard|Gyro Ball|p2a: Don'tTouch
+|-resisted|p2a: Don'tTouch
+|-damage|p2a: Don'tTouch|275/352
+|-damage|p1a: Charlzard|82/326 brn|[from] ability: Iron Barbs|[of] p2a: Don'tTouch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|297/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|102/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|62/326 brn|[from] brn
+|turn|22
+|chat|BlackKaiser|lol
+|
+|move|p2a: Don'tTouch|Leech Seed|p1a: Charlzard
+|-immune|p1a: Charlzard|[msg]
+|move|p1a: Charlzard|Power Whip|p2a: Don'tTouch
+|-resisted|p2a: Don'tTouch
+|-damage|p2a: Don'tTouch|254/352
+|-damage|p1a: Charlzard|22/326 brn|[from] ability: Iron Barbs|[of] p2a: Don'tTouch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|276/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|42/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|2/326 brn|[from] brn
+|turn|23
+|
+|move|p2a: Don'tTouch|Gyro Ball|p1a: Charlzard
+|-resisted|p1a: Charlzard
+|-damage|p1a: Charlzard|1/326 brn
+|-damage|p2a: Don'tTouch|232/352|[from] ability: Iron Barbs|[of] p1a: Charlzard
+|move|p1a: Charlzard|Power Whip|p2a: Don'tTouch|[miss]
+|-miss|p1a: Charlzard|p2a: Don'tTouch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Don'tTouch|254/352|[from] item: Leftovers
+|-heal|p1a: Charlzard|21/326 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|0 fnt|[from] brn
+|faint|p1a: Charlzard
+|
+|switch|p1a: Charlzard|Heatran, F|342/342
+|-damage|p1a: Charlzard|300/342|[from] Stealth Rock
+|-item|p1a: Charlzard|Air Balloon
+|turn|24
+|
+|switch|p2a: King Jelly|Jellicent, M|401/401
+|move|p1a: Charlzard|Will-O-Wisp|p2a: King Jelly
+|-status|p2a: King Jelly|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401 brn|[from] sandstorm
+|-heal|p2a: King Jelly|401/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|351/401 brn|[from] brn
+|turn|25
+|
+|move|p1a: Charlzard|Earth Power|p2a: King Jelly
+|-damage|p2a: King Jelly|254/401 brn
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-supereffective|p1a: Charlzard
+|-damage|p1a: Charlzard|144/342
+|-enditem|p1a: Charlzard|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|229/401 brn|[from] sandstorm
+|-heal|p2a: King Jelly|254/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|204/401 brn|[from] brn
+|turn|26
+|
+|switch|p1a: Charlzard|Skarmory, F|321/321
+|-damage|p1a: Charlzard|281/321|[from] Stealth Rock
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|401/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|301/321|[from] item: Leftovers
+|-heal|p2a: King Jelly|401/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|351/401 brn|[from] brn
+|turn|27
+|
+|switch|p2a: Stardust|Latios, M, shiny|155/301
+|move|p1a: Charlzard|Brave Bird|p2a: Stardust
+|-damage|p2a: Stardust|25/301
+|-damage|p1a: Charlzard|258/321|[from] recoil|[of] p2a: Stardust
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Stardust|7/301|[from] sandstorm
+|-heal|p2a: Stardust|25/301|[from] item: Leftovers
+|-heal|p1a: Charlzard|278/321|[from] item: Leftovers
+|turn|28
+|
+|switch|p2a: Don'tTouch|Ferrothorn, M|254/352
+|move|p1a: Charlzard|Brave Bird|p2a: Don'tTouch
+|-damage|p2a: Don'tTouch|178/352
+|-damage|p1a: Charlzard|238/321|[from] ability: Iron Barbs|[of] p2a: Don'tTouch
+|-damage|p1a: Charlzard|213/321|[from] recoil|[of] p2a: Don'tTouch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|233/321|[from] item: Leftovers
+|-heal|p2a: Don'tTouch|200/352|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Charlzard|Brave Bird|p2a: Don'tTouch
+|-crit|p2a: Don'tTouch
+|-damage|p2a: Don'tTouch|56/352
+|-damage|p1a: Charlzard|193/321|[from] ability: Iron Barbs|[of] p2a: Don'tTouch
+|-damage|p1a: Charlzard|145/321|[from] recoil|[of] p2a: Don'tTouch
+|move|p2a: Don'tTouch|Leech Seed|p1a: Charlzard
+|-start|p1a: Charlzard|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|165/321|[from] item: Leftovers
+|-heal|p2a: Don'tTouch|78/352|[from] item: Leftovers
+|-damage|p1a: Charlzard|125/321|[from] Leech Seed|[of] p2a: Don'tTouch
+|-heal|p2a: Don'tTouch|118/352|[silent]
+|turn|30
+|
+|switch|p1a: Charlzard|Heatran, F|144/342
+|-damage|p1a: Charlzard|59/342|[from] Spikes
+|-damage|p1a: Charlzard|17/342|[from] Stealth Rock
+|switch|p2a: King Jelly|Jellicent, M|351/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|326/401 brn|[from] sandstorm
+|-heal|p2a: King Jelly|351/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|301/401 brn|[from] brn
+|turn|31
+|
+|move|p1a: Charlzard|Lava Plume|p2a: King Jelly
+|-resisted|p2a: King Jelly
+|-damage|p2a: King Jelly|244/401 brn
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|401/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401 brn|[from] sandstorm
+|-heal|p2a: King Jelly|401/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|351/401 brn|[from] brn
+|turn|32
+|
+|move|p1a: Charlzard|Lava Plume|p2a: King Jelly
+|-resisted|p2a: King Jelly
+|-damage|p2a: King Jelly|286/401 brn
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-supereffective|p1a: Charlzard
+|-damage|p1a: Charlzard|0 fnt
+|faint|p1a: Charlzard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|261/401 brn|[from] sandstorm
+|-heal|p2a: King Jelly|286/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|236/401 brn|[from] brn
+|
+|switch|p1a: Charlzard|Skarmory, F|125/321
+|-damage|p1a: Charlzard|85/321|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|246/321
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-damage|p1a: Charlzard|164/321
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|211/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|184/321|[from] item: Leftovers
+|-heal|p2a: King Jelly|236/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|186/401 brn|[from] brn
+|turn|34
+|
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|321/321
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|387/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|362/401 brn|[from] sandstorm
+|-heal|p2a: King Jelly|387/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|337/401 brn|[from] brn
+|turn|35
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-damage|p2a: King Jelly|225/401 brn
+|-damage|p1a: Charlzard|284/321|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-damage|p1a: Charlzard|205/321
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|200/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|225/321|[from] item: Leftovers
+|-heal|p2a: King Jelly|225/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|175/401 brn|[from] brn
+|turn|36
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-damage|p2a: King Jelly|66/401 brn
+|-damage|p1a: Charlzard|189/321|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|267/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|242/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|209/321|[from] item: Leftovers
+|-heal|p2a: King Jelly|267/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|217/401 brn|[from] brn
+|turn|37
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-crit|p2a: King Jelly
+|-damage|p2a: King Jelly|1/401 brn
+|-damage|p1a: Charlzard|138/321|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|202/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|177/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|158/321|[from] item: Leftovers
+|-heal|p2a: King Jelly|202/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|152/401 brn|[from] brn
+|turn|38
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-damage|p2a: King Jelly|49/401 brn
+|-damage|p1a: Charlzard|124/321|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|250/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|225/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|144/321|[from] item: Leftovers
+|-heal|p2a: King Jelly|250/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|200/401 brn|[from] brn
+|turn|39
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-damage|p2a: King Jelly|92/401 brn
+|-damage|p1a: Charlzard|108/321|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|293/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|268/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|128/321|[from] item: Leftovers
+|-heal|p2a: King Jelly|293/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|243/401 brn|[from] brn
+|turn|40
+|
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|289/321
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|401/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|309/321|[from] item: Leftovers
+|-heal|p2a: King Jelly|401/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|351/401 brn|[from] brn
+|turn|41
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-crit|p2a: King Jelly
+|-damage|p2a: King Jelly|146/401 brn
+|-damage|p1a: Charlzard|241/321|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Will-O-Wisp|p1a: Charlzard
+|-status|p1a: Charlzard|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|121/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|261/321 brn|[from] item: Leftovers
+|-heal|p2a: King Jelly|146/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|221/321 brn|[from] brn
+|-damage|p2a: King Jelly|96/401 brn|[from] brn
+|turn|42
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-damage|p2a: King Jelly|44/401 brn
+|-damage|p1a: Charlzard|204/321 brn|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|245/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|220/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|224/321 brn|[from] item: Leftovers
+|-heal|p2a: King Jelly|245/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|184/321 brn|[from] brn
+|-damage|p2a: King Jelly|195/401 brn|[from] brn
+|turn|43
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-damage|p2a: King Jelly|137/401 brn
+|-damage|p1a: Charlzard|165/321 brn|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|338/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|313/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|185/321 brn|[from] item: Leftovers
+|-heal|p2a: King Jelly|338/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|145/321 brn|[from] brn
+|-damage|p2a: King Jelly|288/401 brn|[from] brn
+|turn|44
+|
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|306/321 brn
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-damage|p1a: Charlzard|224/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|263/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|244/321 brn|[from] item: Leftovers
+|-heal|p2a: King Jelly|288/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|204/321 brn|[from] brn
+|-damage|p2a: King Jelly|238/401 brn|[from] brn
+|turn|45
+|
+|move|p1a: Charlzard|Brave Bird|p2a: King Jelly
+|-damage|p2a: King Jelly|189/401 brn
+|-damage|p1a: Charlzard|188/321 brn|[from] recoil|[of] p2a: King Jelly
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-damage|p1a: Charlzard|98/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|164/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|118/321 brn|[from] item: Leftovers
+|-heal|p2a: King Jelly|189/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|78/321 brn|[from] brn
+|-damage|p2a: King Jelly|139/401 brn|[from] brn
+|turn|46
+|
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|239/321 brn
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-damage|p1a: Charlzard|152/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|114/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|172/321 brn|[from] item: Leftovers
+|-heal|p2a: King Jelly|139/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|132/321 brn|[from] brn
+|-damage|p2a: King Jelly|89/401 brn|[from] brn
+|turn|47
+|
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|293/321 brn
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|290/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|265/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|313/321 brn|[from] item: Leftovers
+|-heal|p2a: King Jelly|290/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|273/321 brn|[from] brn
+|-damage|p2a: King Jelly|240/401 brn|[from] brn
+|turn|48
+|
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|321/321 brn
+|move|p2a: King Jelly|Recover|p2a: King Jelly
+|-heal|p2a: King Jelly|401/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|376/401 brn|[from] sandstorm
+|-heal|p2a: King Jelly|401/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|281/321 brn|[from] brn
+|-damage|p2a: King Jelly|351/401 brn|[from] brn
+|turn|49
+|
+|switch|p2a: Discover Hippo|Hippowdon, M|315/419
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|321/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|341/419|[from] item: Leftovers
+|-damage|p1a: Charlzard|281/321 brn|[from] brn
+|turn|50
+|
+|move|p1a: Charlzard|Iron Defense|p1a: Charlzard
+|-boost|p1a: Charlzard|def|2
+|move|p2a: Discover Hippo|Earthquake|p1a: Charlzard
+|-immune|p1a: Charlzard|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|301/321 brn|[from] item: Leftovers
+|-heal|p2a: Discover Hippo|367/419|[from] item: Leftovers
+|-damage|p1a: Charlzard|261/321 brn|[from] brn
+|turn|51
+|
+|move|p1a: Charlzard|Toxic|p2a: Discover Hippo
+|-status|p2a: Discover Hippo|tox
+|move|p2a: Discover Hippo|Roar|p1a: Charlzard
+|drag|p1a: Charlzard|Landorus-Therian, M|320/320
+|-damage|p1a: Charlzard|280/320|[from] Stealth Rock
+|-ability|p1a: Charlzard|Intimidate|[of] p2a: Discover Hippo
+|-unboost|p2a: Discover Hippo|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|393/419 tox|[from] item: Leftovers
+|-damage|p2a: Discover Hippo|367/419 tox|[from] psn
+|turn|52
+|
+|move|p1a: Charlzard|U-turn|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|312/419 tox
+|
+|switch|p1a: Charlzard|Skarmory, F|261/321 brn
+|-damage|p1a: Charlzard|221/321 brn|[from] Stealth Rock
+|move|p2a: Discover Hippo|Roar|p1a: Charlzard
+|drag|p1a: Charlzard|Landorus-Therian, M|280/320
+|-damage|p1a: Charlzard|240/320|[from] Stealth Rock
+|-ability|p1a: Charlzard|Intimidate|[of] p2a: Discover Hippo
+|-unboost|p2a: Discover Hippo|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|338/419 tox|[from] item: Leftovers
+|-damage|p2a: Discover Hippo|286/419 tox|[from] psn
+|turn|53
+|
+|move|p1a: Charlzard|U-turn|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|228/419 tox
+|
+|switch|p1a: Charlzard|Skarmory, F|221/321 brn
+|-damage|p1a: Charlzard|181/321 brn|[from] Stealth Rock
+|move|p2a: Discover Hippo|Slack Off|p2a: Discover Hippo
+|-heal|p2a: Discover Hippo|419/419 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|201/321 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|161/321 brn|[from] brn
+|-damage|p2a: Discover Hippo|341/419 tox|[from] psn
+|turn|54
+|
+|switch|p2a: Landshark|Garchomp, M, shiny|357/357
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|321/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charlzard|281/321 brn|[from] brn
+|turn|55
+|
+|move|p2a: Landshark|Fire Fang|p1a: Charlzard
+|-supereffective|p1a: Charlzard
+|-damage|p1a: Charlzard|181/321 brn
+|move|p1a: Charlzard|Toxic|p2a: Landshark
+|-status|p2a: Landshark|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|201/321 brn|[from] item: Leftovers
+|-damage|p2a: Landshark|335/357 tox|[from] psn
+|-damage|p1a: Charlzard|161/321 brn|[from] brn
+|turn|56
+|
+|move|p2a: Landshark|Fire Fang|p1a: Charlzard
+|-supereffective|p1a: Charlzard
+|-damage|p1a: Charlzard|63/321 brn
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|224/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|244/321 brn|[from] item: Leftovers
+|-damage|p2a: Landshark|291/357 tox|[from] psn
+|-damage|p1a: Charlzard|204/321 brn|[from] brn
+|turn|57
+|
+|move|p2a: Landshark|Fire Fang|p1a: Charlzard
+|-supereffective|p1a: Charlzard
+|-damage|p1a: Charlzard|102/321 brn
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|263/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|283/321 brn|[from] item: Leftovers
+|-damage|p2a: Landshark|225/357 tox|[from] psn
+|-damage|p1a: Charlzard|243/321 brn|[from] brn
+|turn|58
+|
+|switch|p2a: Discover Hippo|Hippowdon, M|341/419 tox
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|321/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|367/419 tox|[from] item: Leftovers
+|-damage|p1a: Charlzard|281/321 brn|[from] brn
+|-damage|p2a: Discover Hippo|341/419 tox|[from] psn
+|turn|59
+|
+|move|p1a: Charlzard|Brave Bird|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|304/419 tox
+|-damage|p1a: Charlzard|269/321 brn|[from] recoil|[of] p2a: Discover Hippo
+|move|p2a: Discover Hippo|Roar|p1a: Charlzard
+|drag|p1a: Charlzard|Landorus-Therian, M|240/320
+|-damage|p1a: Charlzard|200/320|[from] Stealth Rock
+|-ability|p1a: Charlzard|Intimidate|[of] p2a: Discover Hippo
+|-unboost|p2a: Discover Hippo|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|330/419 tox|[from] item: Leftovers
+|-damage|p2a: Discover Hippo|278/419 tox|[from] psn
+|turn|60
+|
+|move|p1a: Charlzard|Earthquake|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|148/419 tox
+|move|p2a: Discover Hippo|Slack Off|p2a: Discover Hippo
+|-heal|p2a: Discover Hippo|358/419 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|384/419 tox|[from] item: Leftovers
+|-damage|p2a: Discover Hippo|306/419 tox|[from] psn
+|turn|61
+|
+|move|p1a: Charlzard|Earthquake|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|186/419 tox
+|move|p2a: Discover Hippo|Roar|p1a: Charlzard
+|drag|p1a: Charlzard|Hippowdon, M|294/392
+|-damage|p1a: Charlzard|196/392|[from] Spikes
+|-damage|p1a: Charlzard|172/392|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|212/419 tox|[from] item: Leftovers
+|-damage|p2a: Discover Hippo|108/419 tox|[from] psn
+|turn|62
+|
+|switch|p2a: Sniper|Scizor, M|341/341
+|move|p1a: Charlzard|Ice Fang|p2a: Sniper
+|-resisted|p2a: Sniper
+|-damage|p2a: Sniper|312/341
+|
+|-weather|Sandstorm|[upkeep]
+|turn|63
+|
+|move|p2a: Sniper|U-turn|p1a: Charlzard
+|-crit|p1a: Charlzard
+|-damage|p1a: Charlzard|0 fnt
+|faint|p1a: Charlzard
+|
+|switch|p2a: King Jelly|Jellicent, M|351/401 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|326/401 brn|[from] sandstorm
+|-heal|p2a: King Jelly|351/401 brn|[from] item: Leftovers
+|-damage|p2a: King Jelly|301/401 brn|[from] brn
+|
+|switch|p1a: Charlzard|Landorus-Therian, M|200/320
+|-damage|p1a: Charlzard|160/320|[from] Stealth Rock
+|-ability|p1a: Charlzard|Intimidate|[of] p2a: King Jelly
+|-unboost|p2a: King Jelly|atk|1
+|turn|64
+|
+|move|p1a: Charlzard|U-turn|p2a: King Jelly
+|-resisted|p2a: King Jelly
+|-damage|p2a: King Jelly|259/401 brn
+|
+|switch|p1a: Charlzard|Skarmory, F|269/321 brn
+|-damage|p1a: Charlzard|229/321 brn|[from] Stealth Rock
+|move|p2a: King Jelly|Scald|p1a: Charlzard
+|-damage|p1a: Charlzard|141/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Jelly|234/401 brn|[from] sandstorm
+|-heal|p1a: Charlzard|161/321 brn|[from] item: Leftovers
+|-heal|p2a: King Jelly|259/401 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|121/321 brn|[from] brn
+|-damage|p2a: King Jelly|209/401 brn|[from] brn
+|turn|65
+|
+|switch|p2a: Sniper|Scizor, M|312/341
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|282/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|302/321 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|262/321 brn|[from] brn
+|turn|66
+|
+|move|p1a: Charlzard|Toxic|p2a: Sniper
+|-fail|p2a: Sniper
+|move|p2a: Sniper|Superpower|p1a: Charlzard
+|-damage|p1a: Charlzard|102/321 brn
+|-unboost|p2a: Sniper|atk|1
+|-unboost|p2a: Sniper|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|122/321 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|82/321 brn|[from] brn
+|turn|67
+|
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|243/321 brn
+|move|p2a: Sniper|Superpower|p1a: Charlzard
+|-supereffective|p1a: Charlzard
+|-damage|p1a: Charlzard|29/321 brn
+|-unboost|p2a: Sniper|atk|1
+|-unboost|p2a: Sniper|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|49/321 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|9/321 brn|[from] brn
+|turn|68
+|
+|switch|p2a: Landshark|Garchomp, M, shiny|225/357 tox
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|170/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|190/321 brn|[from] item: Leftovers
+|-damage|p2a: Landshark|203/357 tox|[from] psn
+|-damage|p1a: Charlzard|150/321 brn|[from] brn
+|turn|69
+|
+|move|p2a: Landshark|Fire Fang|p1a: Charlzard
+|-supereffective|p1a: Charlzard
+|-damage|p1a: Charlzard|44/321 brn
+|move|p1a: Charlzard|Iron Defense|p1a: Charlzard
+|-boost|p1a: Charlzard|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|64/321 brn|[from] item: Leftovers
+|-damage|p2a: Landshark|159/357 tox|[from] psn
+|-damage|p1a: Charlzard|24/321 brn|[from] brn
+|turn|70
+|
+|switch|p2a: Discover Hippo|Hippowdon, M|108/419 tox
+|move|p1a: Charlzard|Roost|p1a: Charlzard
+|-heal|p1a: Charlzard|185/321 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|205/321 brn|[from] item: Leftovers
+|-heal|p2a: Discover Hippo|134/419 tox|[from] item: Leftovers
+|-damage|p1a: Charlzard|165/321 brn|[from] brn
+|-damage|p2a: Discover Hippo|108/419 tox|[from] psn
+|turn|71
+|
+|move|p1a: Charlzard|Brave Bird|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|74/419 tox
+|-damage|p1a: Charlzard|154/321 brn|[from] recoil|[of] p2a: Discover Hippo
+|move|p2a: Discover Hippo|Slack Off|p2a: Discover Hippo
+|-heal|p2a: Discover Hippo|284/419 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|174/321 brn|[from] item: Leftovers
+|-heal|p2a: Discover Hippo|310/419 tox|[from] item: Leftovers
+|-damage|p1a: Charlzard|134/321 brn|[from] brn
+|-damage|p2a: Discover Hippo|258/419 tox|[from] psn
+|turn|72
+|
+|move|p1a: Charlzard|Brave Bird|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|218/419 tox
+|-damage|p1a: Charlzard|121/321 brn|[from] recoil|[of] p2a: Discover Hippo
+|move|p2a: Discover Hippo|Slack Off|p2a: Discover Hippo
+|-heal|p2a: Discover Hippo|419/419 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Charlzard|141/321 brn|[from] item: Leftovers
+|-damage|p1a: Charlzard|101/321 brn|[from] brn
+|-damage|p2a: Discover Hippo|341/419 tox|[from] psn
+|turn|73
+|
+|move|p1a: Charlzard|Brave Bird|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|301/419 tox
+|-damage|p1a: Charlzard|88/321 brn|[from] recoil|[of] p2a: Discover Hippo
+|move|p2a: Discover Hippo|Roar|p1a: Charlzard
+|drag|p1a: Charlzard|Landorus-Therian, M|160/320
+|-damage|p1a: Charlzard|120/320|[from] Stealth Rock
+|-ability|p1a: Charlzard|Intimidate|[of] p2a: Discover Hippo
+|-unboost|p2a: Discover Hippo|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|327/419 tox|[from] item: Leftovers
+|-damage|p2a: Discover Hippo|223/419 tox|[from] psn
+|turn|74
+|
+|move|p1a: Charlzard|Earthquake|p2a: Discover Hippo
+|-damage|p2a: Discover Hippo|97/419 tox
+|move|p2a: Discover Hippo|Slack Off|p2a: Discover Hippo
+|-heal|p2a: Discover Hippo|307/419 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Discover Hippo|333/419 tox|[from] item: Leftovers
+|-damage|p2a: Discover Hippo|203/419 tox|[from] psn
+|turn|75
+|
+|switch|p2a: Sniper|Scizor, M|312/341
+|move|p1a: Charlzard|Earthquake|p2a: Sniper
+|-damage|p2a: Sniper|116/341
+|
+|-weather|Sandstorm|[upkeep]
+|turn|76
+|
+|move|p2a: Sniper|Bullet Punch|p1a: Charlzard
+|-damage|p1a: Charlzard|0 fnt
+|faint|p1a: Charlzard
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Charlzard|Skarmory, F|88/321 brn
+|-damage|p1a: Charlzard|48/321 brn|[from] Stealth Rock
+|turn|77
+|
+|switch|p2a: Don'tTouch|Ferrothorn, M|118/352
+|move|p1a: Charlzard|Brave Bird|p2a: Don'tTouch
+|-crit|p2a: Don'tTouch
+|-damage|p2a: Don'tTouch|49/352
+|-damage|p1a: Charlzard|8/321 brn|[from] ability: Iron Barbs|[of] p2a: Don'tTouch
+|-damage|p1a: Charlzard|0 fnt|[from] recoil|[of] p2a: Don'tTouch
+|faint|p1a: Charlzard
+|
+|win|BlackKaiser
+|raw|Ladder updating...
+|raw|Link867's rating: 1315 &rarr; <strong>1304</strong><br />(-11 for losing)
+|raw|BlackKaiser's rating: 1478 &rarr; <strong>1489</strong><br />(+11 for winning)

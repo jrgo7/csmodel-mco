@@ -1,0 +1,400 @@
+|j|☆tjx93
+|j|☆zngtt
+|player|p1|tjx93|2|1506
+|player|p2|zngtt|81|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Xatu, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Terrakion|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Latios|Trick|p2a: Jirachi
+|-activate|p1a: Latios|move: Trick|[of] p2a: Jirachi
+|-item|p2a: Jirachi|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Choice Scarf|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|j| Csizzlesix
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Jirachi|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|-damage|p2a: Jirachi|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Terrakion|Terrakion|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|move|p2a: Terrakion|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|73/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Xatu
+|-damage|p2a: Xatu|78/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|72/100|[from] Sandstorm
+|-heal|p2a: Xatu|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Xatu|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|78/100
+|
+|-activate|p2a: Xatu|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Xatu|[from]Pursuit
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|91/100
+|turn|6
+|
+|switch|p1a: Landorus|Landorus-Therian, M|73/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|move|p2a: Terrakion|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Terrakion|81/100|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j| Evil T-tar
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|92/100
+|switch|p2a: Jirachi|Jirachi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Jirachi|Trick|p1a: Ferrothorn
+|-activate|p2a: Jirachi|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p2a: Jirachi|Leftovers|[from] move: Trick
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Jirachi|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|-damage|p2a: Jirachi|61/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100|[from]move: U-turn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Hippowdon
+|-damage|p2a: Hippowdon|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Latios|Latios, M|95/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Latios
+|-sidestart|p1: tjx93|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Jirachi|Jirachi|61/100
+|move|p1a: Latios|Trick|p2a: Jirachi
+|-activate|p1a: Latios|move: Trick|[of] p2a: Jirachi
+|-item|p2a: Jirachi|Choice Scarf|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|83/100|[from] Sandstorm
+|-heal|p1a: Latios|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Jirachi|Ice Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|29/100
+|move|p1a: Latios|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|23/100|[from] Sandstorm
+|-heal|p1a: Latios|29/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|84/100
+|-damage|p1a: Ferrothorn|78/100|[from] Stealth Rock
+|move|p2a: Jirachi|Ice Punch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|64/100
+|-damage|p2a: Jirachi|19/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Latios
+|-sidestart|p2: zngtt|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|94/100|[from] Sandstorm
+|-heal|p2a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Tyranitar|Tyranitar, M|78/100
+|-damage|p1a: Tyranitar|66/100|[from] Stealth Rock
+|move|p2a: Latios|Hidden Power|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|94/100|[from] Sandstorm
+|-heal|p2a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Latios|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|9/100
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|32/100|[from] Sandstorm
+|-heal|p2a: Latios|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Latios|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|32/100|[from] Sandstorm
+|-heal|p2a: Latios|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|18
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Alakazam|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|46/100
+|move|p2a: Rotom|Volt Switch|p1a: Alakazam
+|-damage|p1a: Alakazam|58/100
+|
+|switch|p2a: Hippowdon|Hippowdon, M|99/100|[from]move: Volt Switch
+|-damage|p2a: Hippowdon|93/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|64/100
+|-damage|p1a: Ferrothorn|58/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Ice Fang|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|-damage|p2a: Hippowdon|87/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|93/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Hippowdon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|20/100
+|move|p1a: Ferrothorn|Spikes|p2a: Hippowdon
+|-sidestart|p2: zngtt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Hippowdon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|29/100
+|-damage|p1a: Latios|16/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|67/100
+|move|p2a: Hippowdon|Ice Fang|p1a: Latios|[miss]
+|-miss|p2a: Hippowdon|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|61/100|[from] Sandstorm
+|-heal|p1a: Latios|67/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Latios|Surf|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|34/100
+|move|p2a: Hippowdon|Ice Fang|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|12/100|[from] Sandstorm
+|-heal|p1a: Latios|18/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|40/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|46/100
+|-damage|p2a: Rotom|34/100|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|12/100|[from] Sandstorm
+|-damage|p2a: Rotom|14/100|[from] Sandstorm
+|-heal|p1a: Latios|18/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Latios|Surf|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|12/100|[from] Sandstorm
+|-heal|p1a: Latios|18/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|19/100
+|-damage|p2a: Jirachi|6/100|[from] Spikes
+|-damage|p2a: Jirachi|0 fnt|[from] Stealth Rock
+|faint|p2a: Jirachi
+|
+|switch|p2a: Terrakion|Terrakion|81/100
+|-damage|p2a: Terrakion|68/100|[from] Spikes
+|-damage|p2a: Terrakion|62/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|94/100|[from] Stealth Rock
+|move|p2a: Terrakion|Quick Attack|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-crit|p1a: Terrakion
+|-damage|p1a: Terrakion|73/100
+|-damage|p2a: Terrakion|52/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p1a: Terrakion|Close Combat|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|zngtt forfeited.
+|
+|win|tjx93
+|l|☆zngtt
+|raw|tjx93's rating: 1506 &rarr; <strong>1518</strong><br />(+12 for winning)
+|raw|zngtt's rating: 1340 &rarr; <strong>1329</strong><br />(-11 for losing)
+|l|☆tjx93
+|j|☆tjx93
+|player|p1|tjx93|2
+|l|☆tjx93
+|player|p1|
+|l| Evil T-tar

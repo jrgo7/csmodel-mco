@@ -1,0 +1,381 @@
+|j|☆sankafola
+|j|☆GrinchsBankAccount
+|player|p1|sankafola|juan|1415
+|player|p2|GrinchsBankAccount|aetherfoundation|1404
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Alakazam, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Absol, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Victini|item
+|poke|p2|Claydol|item
+|poke|p2|Tentacruel, F|item
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Absol|Absol, F|100/100
+|-ability|p2a: Absol|Pressure
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|42/100
+|move|p2a: Claydol|Stealth Rock|p1a: Rotom
+|-sidestart|p1: sankafola|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| Test Guardiola
+|
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Garchomp
+|-sidestart|p1: sankafola|Spikes
+|
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: GrinchsBankAccount|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Tentacruel|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GrinchsBankAccount)
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|7
+|
+|move|p2a: Tentacruel|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|60/100
+|move|p1a: Alakazam|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|12/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Tentacruel|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|17/100
+|move|p1a: Alakazam|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|inactive|GrinchsBankAccount has 120 seconds left.
+|
+|switch|p2a: Absol|Absol, F|100/100
+|-damage|p2a: Absol|88/100|[from] Stealth Rock
+|-ability|p2a: Absol|Pressure
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|82/100|[from] Spikes
+|move|p2a: Absol|Sucker Punch||[still]
+|-fail|p2a: Absol
+|
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Absol|Swords Dance|p2a: Absol
+|-boost|p2a: Absol|atk|2
+|move|p1a: Ferrothorn|Spikes|p2a: Absol
+|-sidestart|p2: GrinchsBankAccount|Spikes
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Absol|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Absol|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Absol|atk|1
+|-unboost|p2a: Absol|def|1
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|12
+|
+|move|p1a: Tyranitar|Superpower|p2a: Absol
+|-supereffective|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Absol
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Claydol|Claydol|42/100
+|-damage|p2a: Claydol|36/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Claydol|Rapid Spin|p1a: Latios
+|-damage|p1a: Latios|84/100
+|-sideend|p2: GrinchsBankAccount|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|-sideend|p2: GrinchsBankAccount|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|78/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|73/100
+|move|p1a: Latios|Trick|p2a: Ferrothorn
+|-activate|p1a: Latios|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|72/100|[from] Sandstorm
+|-heal|p1a: Latios|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|GrinchsBankAccount has 120 seconds left.
+|inactive|sankafola has 120 seconds left.
+|
+|switch|p2a: Claydol|Claydol|36/100
+|move|p1a: Latios|Psyshock|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|72/100|[from] Sandstorm
+|-heal|p1a: Latios|78/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|GrinchsBankAccount has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|73/100
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|72/100|[from] Sandstorm
+|-heal|p1a: Latios|78/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|GrinchsBankAccount has 120 seconds left.
+|
+|switch|p1a: Alakazam|Alakazam, F|17/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Alakazam
+|-start|p1a: Alakazam|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Claydol|Claydol|15/100
+|move|p1a: Alakazam|Focus Blast|p2a: Claydol|[miss]
+|-miss|p1a: Alakazam|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|-enditem|p2a: Claydol|Custap Berry|[eat]
+|-activate|p2a: Claydol|item: Custap Berry|[consumed]
+|
+|move|p2a: Claydol|Earth Power|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|59/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/100 par
+|move|p2a: Ferrothorn|Power Whip|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|5/100|[from] Sandstorm
+|-heal|p1a: Rotom|11/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100 par
+|move|p2a: Ferrothorn|Power Whip|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|78/100
+|-damage|p1a: Latios|66/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p2a: Claydol|Claydol|15/100
+|move|p1a: Latios|Surf|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|60/100|[from] Sandstorm
+|-heal|p1a: Latios|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|turn|25
+|
+|move|p1a: Latios|Draco Meteor|p2a: Gyarados
+|-damage|p2a: Gyarados|29/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Gyarados|Ice Fang|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|23/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|76/100
+|-damage|p1a: Tyranitar|64/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|51/100|[from] Spikes
+|turn|26
+|
+|move|p1a: Tyranitar|Crunch|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|2/100 par
+|turn|27
+|
+|move|p1a: Tyranitar|Crunch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Tyranitar|39/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Victini|Victini|100/100
+|turn|28
+|
+|move|p1a: Tyranitar|Crunch|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|11/100
+|-unboost|p2a: Victini|def|1
+|move|p2a: Victini|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victini|5/100|[from] Sandstorm
+|upkeep
+|turn|29
+|c|☆GrinchsBankAccount|pfft
+|
+|move|p1a: Tyranitar|Crunch|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|win|sankafola
+|l|☆GrinchsBankAccount
+|c|☆sankafola|bro gtfo
+|raw|sankafola's rating: 1429 &rarr; <strong>1446</strong><br />(+17 for winning)
+|raw|GrinchsBankAccount's rating: 1382 &rarr; <strong>1364</strong><br />(-18 for losing)

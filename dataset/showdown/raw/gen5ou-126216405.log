@@ -1,0 +1,597 @@
+|join|ad kassadin
+|join|d007
+|player|p1|ad kassadin|2
+|player|p2|d007|93
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Breloom, F
+|poke|p1|Tentacruel, F
+|poke|p1|Heatran, F
+|poke|p1|Dusclops, M
+|poke|p1|Skarmory, F
+|poke|p1|Tyranitar, F
+|poke|p2|Tornadus, M
+|poke|p2|Bronzong
+|poke|p2|Mismagius, F
+|poke|p2|Cloyster, F
+|poke|p2|Azelf
+|poke|p2|Volcarona, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|404/404
+|switch|p2a: Cloyster|Cloyster, F|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p2a: Cloyster|Spikes|p1a: Tyranitar
+|-sidestart|p1: ad kassadin|Spikes
+|move|p1a: Tyranitar|Stealth Rock|p2a: Cloyster
+|-sidestart|p2: d007|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|285/304|[from] sandstorm
+|turn|2
+|
+|switch|p2a: Bronzong|Bronzong|338/338
+|-damage|p2a: Bronzong|317/338|[from] Stealth Rock
+|switch|p1a: Dusclops|Dusclops, M|284/284
+|-damage|p1a: Dusclops|249/284|[from] Spikes
+|-ability|p1a: Dusclops|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dusclops|232/284|[from] sandstorm
+|-heal|p2a: Bronzong|338/338|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Bronzong|Toxic|p1a: Dusclops
+|-status|p1a: Dusclops|tox
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dusclops|215/284 tox|[from] sandstorm
+|-damage|p1a: Dusclops|198/284 tox|[from] psn
+|turn|4
+|
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Bronzong
+|-status|p2a: Bronzong|brn
+|move|p2a: Bronzong|Stealth Rock|p1a: Dusclops
+|-sidestart|p1: ad kassadin|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dusclops|181/284 tox|[from] sandstorm
+|-damage|p1a: Dusclops|147/284 tox|[from] psn
+|-damage|p2a: Bronzong|317/338 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|-damage|p1a: Tentacruel|319/364|[from] Spikes
+|-damage|p1a: Tentacruel|274/364|[from] Stealth Rock
+|move|p2a: Bronzong|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|214/364
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|192/364|[from] sandstorm
+|-heal|p2a: Bronzong|338/338 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|214/364|[from] item: Black Sludge
+|-damage|p2a: Bronzong|317/338 brn|[from] brn
+|turn|6
+|
+|switch|p2a: Mismagius|Mismagius, F|324/324
+|-damage|p2a: Mismagius|284/324|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Mismagius
+|-sidestart|p2: d007|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|192/364|[from] sandstorm
+|-damage|p2a: Mismagius|264/324|[from] sandstorm
+|-heal|p1a: Tentacruel|214/364|[from] item: Black Sludge
+|-heal|p2a: Mismagius|284/324|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Tentacruel|Scald|p2a: Mismagius
+|-damage|p2a: Mismagius|202/324
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|192/364|[from] sandstorm
+|-damage|p2a: Mismagius|182/324|[from] sandstorm
+|-heal|p1a: Tentacruel|214/364|[from] item: Black Sludge
+|-heal|p2a: Mismagius|202/324|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|8
+|
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|121/324
+|move|p1a: Tentacruel|Scald|p2a: Mismagius
+|-activate|p2a: Mismagius|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mismagius|101/324|[from] sandstorm
+|-damage|p1a: Tentacruel|192/364|[from] sandstorm
+|-heal|p2a: Mismagius|121/324|[from] item: Leftovers
+|-heal|p1a: Tentacruel|214/364|[from] item: Black Sludge
+|turn|9
+|
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|move|p1a: Tentacruel|Scald|p2a: Mismagius
+|-crit|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mismagius|101/324|[from] sandstorm
+|-damage|p1a: Tentacruel|192/364|[from] sandstorm
+|-heal|p2a: Mismagius|121/324|[from] item: Leftovers
+|-heal|p1a: Tentacruel|214/364|[from] item: Black Sludge
+|turn|10
+|
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|40/324
+|move|p1a: Tentacruel|Scald|p2a: Mismagius
+|-activate|p2a: Mismagius|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mismagius|20/324|[from] sandstorm
+|-damage|p1a: Tentacruel|192/364|[from] sandstorm
+|-heal|p2a: Mismagius|40/324|[from] item: Leftovers
+|-heal|p1a: Tentacruel|214/364|[from] item: Black Sludge
+|turn|11
+|
+|move|p2a: Mismagius|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mismagius|20/324|[from] sandstorm
+|-heal|p2a: Mismagius|40/324|[from] item: Leftovers
+|
+|switch|p1a: Tyranitar|Tyranitar, F|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|-damage|p1a: Tyranitar|304/404|[from] Spikes
+|turn|12
+|
+|move|p2a: Mismagius|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|215/404
+|move|p1a: Tyranitar|Pursuit|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mismagius|20/324|[from] sandstorm
+|-heal|p2a: Mismagius|40/324|[from] item: Leftovers
+|-heal|p1a: Tyranitar|240/404|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Mismagius|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|152/404
+|move|p1a: Tyranitar|Pursuit|p2a: Mismagius
+|-crit|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|177/404|[from] item: Leftovers
+|
+|switch|p2a: Cloyster|Cloyster, F|285/304
+|-damage|p2a: Cloyster|209/304|[from] Stealth Rock
+|-status|p2a: Cloyster|psn
+|-enditem|p2a: Cloyster|Lum Berry|[eat]
+|-curestatus|p2a: Cloyster|psn
+|turn|14
+|
+|move|p2a: Cloyster|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|170/404
+|-sideend|p2: d007|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Cloyster
+|-sideend|p2: d007|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cloyster
+|move|p1a: Tyranitar|Superpower|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|93/304
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|74/304|[from] sandstorm
+|-heal|p1a: Tyranitar|195/404|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Tyranitar
+|-damage|p1a: Tyranitar|153/404
+|-damage|p1a: Tyranitar|113/404
+|-damage|p1a: Tyranitar|71/404
+|-damage|p1a: Tyranitar|31/404
+|-damage|p1a: Tyranitar|0 fnt
+|-hitcount|p1a: Tyranitar|5
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|55/304|[from] sandstorm
+|
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|-damage|p1a: Skarmory|293/334|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Skarmory|Brave Bird|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p1a: Skarmory|275/334|[from] recoil|[of] p2a: Cloyster
+|faint|p2a: Cloyster
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|295/334|[from] item: Leftovers
+|
+|switch|p2a: Volcarona|Volcarona, F|373/373
+|turn|17
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Skarmory|Whirlwind|p2a: Volcarona
+|drag|p2a: Azelf|Azelf|291/291
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|273/291|[from] sandstorm
+|-heal|p1a: Skarmory|315/334|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Azelf|Trick|p1a: Skarmory
+|-activate|p2a: Azelf|move: Trick|[of] p1a: Skarmory
+|-item|p1a: Skarmory|Choice Scarf|[from] move: Trick
+|-item|p2a: Azelf|Leftovers|[from] move: Trick
+|move|p1a: Skarmory|Spikes|p2a: Azelf
+|-sidestart|p2: d007|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|255/291|[from] sandstorm
+|-heal|p2a: Azelf|273/291|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Breloom|Breloom, F|262/262
+|-damage|p1a: Breloom|246/262|[from] Stealth Rock
+|-damage|p1a: Breloom|214/262|[from] Spikes
+|move|p2a: Azelf|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|139/262
+|
+|switch|p2a: Tornadus|Tornadus, M|362/362
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|340/362|[from] sandstorm
+|-damage|p1a: Breloom|123/262|[from] sandstorm
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|20
+|
+|move|p2a: Tornadus|Substitute|p2a: Tornadus
+|-start|p2a: Tornadus|Substitute
+|-damage|p2a: Tornadus|250/362
+|move|p1a: Breloom|Spore|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|228/362|[from] sandstorm
+|-damage|p1a: Breloom|107/262 tox|[from] sandstorm
+|-heal|p1a: Breloom|139/262 tox|[from] ability: Poison Heal
+|turn|21
+|
+|move|p2a: Tornadus|Bulk Up|p2a: Tornadus
+|-boost|p2a: Tornadus|atk|1
+|-boost|p2a: Tornadus|def|1
+|move|p1a: Breloom|Drain Punch|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-activate|p2a: Tornadus|Substitute|[damage]
+|-heal|p1a: Breloom|166/262 tox|[from] drain|[of] p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|206/362|[from] sandstorm
+|-damage|p1a: Breloom|150/262 tox|[from] sandstorm
+|-heal|p1a: Breloom|182/262 tox|[from] ability: Poison Heal
+|turn|22
+|
+|switch|p1a: Skarmory|Skarmory, F|315/334
+|-damage|p1a: Skarmory|274/334|[from] Stealth Rock
+|move|p2a: Tornadus|Brick Break|p1a: Skarmory
+|-damage|p1a: Skarmory|213/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|184/362|[from] sandstorm
+|turn|23
+|
+|move|p2a: Tornadus|Acrobatics|p1a: Skarmory
+|-enditem|p2a: Tornadus|Flying Gem|[from] gem|[move] Acrobatics
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|119/334
+|move|p1a: Skarmory|Whirlwind|p2a: Tornadus
+|drag|p2a: Azelf|Azelf|273/291
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|255/291|[from] sandstorm
+|-heal|p2a: Azelf|273/291|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Azelf|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|255/291|[from] sandstorm
+|-heal|p2a: Azelf|273/291|[from] item: Leftovers
+|
+|switch|p1a: Heatran|Heatran, F|386/386
+|-damage|p1a: Heatran|338/386|[from] Spikes
+|-damage|p1a: Heatran|290/386|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Azelf|Psychic|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|230/386
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|134/386
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|255/291|[from] sandstorm
+|-heal|p2a: Azelf|273/291|[from] item: Leftovers
+|-heal|p1a: Heatran|158/386|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Azelf|Psychic|p1a: Heatran
+|-resisted|p1a: Heatran
+|-activate|p1a: Heatran|Substitute|[damage]
+|move|p1a: Heatran|Torment|p2a: Azelf
+|-start|p2a: Azelf|Torment
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|255/291|[from] sandstorm
+|-heal|p2a: Azelf|273/291|[from] item: Leftovers
+|-heal|p1a: Heatran|182/386|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Azelf|U-turn|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|255/291|[from] sandstorm
+|-heal|p2a: Azelf|273/291|[from] item: Leftovers
+|-heal|p1a: Heatran|206/386|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Azelf|Psychic|p1a: Heatran
+|-resisted|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|move|p1a: Heatran|Lava Plume|p2a: Azelf
+|-damage|p2a: Azelf|84/291
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|66/291|[from] sandstorm
+|-heal|p2a: Azelf|84/291|[from] item: Leftovers
+|-heal|p1a: Heatran|230/386|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Azelf|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|215/386
+|
+|switch|p2a: Bronzong|Bronzong|317/338 brn
+|-damage|p2a: Bronzong|275/338 brn|[from] Spikes
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|119/386
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|143/386|[from] item: Leftovers
+|-heal|p2a: Bronzong|296/338 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|275/338 brn|[from] brn
+|turn|30
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Bronzong|Earthquake|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|167/386|[from] item: Leftovers
+|-heal|p2a: Bronzong|296/338 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|275/338 brn|[from] brn
+|turn|31
+|
+|move|p1a: Heatran|Torment|p2a: Bronzong
+|-start|p2a: Bronzong|Torment
+|move|p2a: Bronzong|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|191/386|[from] item: Leftovers
+|-heal|p2a: Bronzong|296/338 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|275/338 brn|[from] brn
+|turn|32
+|
+|switch|p2a: Volcarona|Volcarona, F|373/373
+|-damage|p2a: Volcarona|327/373|[from] Spikes
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|95/386
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|304/373|[from] sandstorm
+|-heal|p2a: Volcarona|327/373|[from] item: Leftovers
+|-heal|p1a: Heatran|119/386|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Heatran|Torment|p2a: Volcarona
+|-start|p2a: Volcarona|Torment
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|304/373|[from] sandstorm
+|-heal|p2a: Volcarona|327/373|[from] item: Leftovers
+|-heal|p1a: Heatran|143/386|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Heatran
+|-resisted|p1a: Heatran
+|-activate|p1a: Heatran|Substitute|[damage]
+|move|p1a: Heatran|Lava Plume|p2a: Volcarona
+|-damage|p2a: Volcarona|251/373
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|228/373|[from] sandstorm
+|-heal|p2a: Volcarona|251/373|[from] item: Leftovers
+|-heal|p1a: Heatran|167/386|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Heatran|Lava Plume|p2a: Volcarona
+|-damage|p2a: Volcarona|185/373
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|162/373|[from] sandstorm
+|-heal|p2a: Volcarona|185/373|[from] item: Leftovers
+|-heal|p1a: Heatran|191/386|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Heatran
+|-resisted|p1a: Heatran
+|-activate|p1a: Heatran|Substitute|[damage]
+|move|p1a: Heatran|Lava Plume|p2a: Volcarona
+|-damage|p2a: Volcarona|121/373
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|98/373|[from] sandstorm
+|-heal|p2a: Volcarona|121/373|[from] item: Leftovers
+|-heal|p1a: Heatran|215/386|[from] item: Leftovers
+|turn|37
+|
+|move|p2a: Volcarona|Hidden Power|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|move|p1a: Heatran|Lava Plume|p2a: Volcarona
+|-damage|p2a: Volcarona|61/373
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|38/373|[from] sandstorm
+|-heal|p2a: Volcarona|61/373|[from] item: Leftovers
+|-heal|p1a: Heatran|239/386|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|143/386
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|38/373|[from] sandstorm
+|-heal|p2a: Volcarona|61/373|[from] item: Leftovers
+|-heal|p1a: Heatran|167/386|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Volcarona|Hidden Power|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|38/373|[from] sandstorm
+|-heal|p2a: Volcarona|61/373|[from] item: Leftovers
+|-heal|p1a: Heatran|191/386|[from] item: Leftovers
+|turn|40
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Heatran|Lava Plume|p2a: Volcarona
+|-damage|p2a: Volcarona|18/373
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|0 fnt|[from] sandstorm
+|-heal|p1a: Heatran|215/386|[from] item: Leftovers
+|faint|p2a: Volcarona
+|
+|switch|p2a: Bronzong|Bronzong|275/338 brn
+|-damage|p2a: Bronzong|233/338 brn|[from] Spikes
+|turn|41
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Bronzong|Earthquake|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|239/386|[from] item: Leftovers
+|-heal|p2a: Bronzong|254/338 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|233/338 brn|[from] brn
+|turn|42
+|
+|move|p1a: Heatran|Torment|p2a: Bronzong
+|-start|p2a: Bronzong|Torment
+|move|p2a: Bronzong|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|263/386|[from] item: Leftovers
+|-heal|p2a: Bronzong|254/338 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|233/338 brn|[from] brn
+|turn|43
+|
+|switch|p2a: Tornadus|Tornadus, M|184/362
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|167/386
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|162/362|[from] sandstorm
+|-heal|p1a: Heatran|191/386|[from] item: Leftovers
+|turn|44
+|chat|ad kassadin|gg
+|
+|move|p2a: Tornadus|Brick Break|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|move|p1a: Heatran|Lava Plume|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|215/386|[from] item: Leftovers
+|chat|d007|gg
+|-message|d007 forfeited.
+|
+|win|ad kassadin
+|raw|Ladder updating...
+|raw|ad kassadin's rating: 1336 &rarr; <strong>1356</strong><br />(+20 for winning)
+|raw|d007's rating: 1333 &rarr; <strong>1313</strong><br />(-20 for losing)
+|leave|d007
+|player|p2

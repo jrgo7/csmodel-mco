@@ -1,0 +1,497 @@
+|join|Ryan House
+|join|annnndz
+|player|p1|Ryan House|52
+|player|p2|annnndz|144
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Hydreigon, M
+|poke|p1|Skarmory, M
+|poke|p1|Gothitelle, M, shiny
+|poke|p1|Heatran, M
+|poke|p1|Alakazam, M
+|poke|p1|Scizor, M
+|poke|p2|Politoed, M
+|poke|p2|Thundurus-Therian, M
+|poke|p2|Espeon, F
+|poke|p2|Tentacruel, F
+|poke|p2|Lapras, M
+|poke|p2|Dragonite, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|join|Master Walt
+|
+|start
+|switch|p1a: Scizor|Scizor, M|282/282
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Scizor|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|216/384
+|
+|switch|p1a: Hydreigon|Hydreigon, M|336/336
+|move|p2a: Politoed|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|262/336
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hydreigon|283/336|[from] item: Leftovers
+|-heal|p2a: Politoed|240/384|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Politoed
+|-damage|p2a: Politoed|9/384
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Politoed|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|131/336
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hydreigon|152/336|[from] item: Leftovers
+|-heal|p2a: Politoed|33/384|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Lapras|Lapras, M|464/464
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|320/336
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hydreigon|336/336|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Gothitelle|Gothitelle, M, shiny|344/344
+|move|p2a: Lapras|Curse|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|def|1
+|-unboost|p2a: Lapras|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p1a: Gothitelle|Trick|p2a: Lapras
+|-activate|p1a: Gothitelle|move: Trick|[of] p2a: Lapras
+|-item|p2a: Lapras|Choice Scarf|[from] move: Trick
+|-item|p1a: Gothitelle|Leftovers|[from] move: Trick
+|move|p2a: Lapras|Avalanche|p1a: Gothitelle
+|-damage|p1a: Gothitelle|259/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|280/344|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Gothitelle|Torment|p2a: Lapras
+|-start|p2a: Lapras|Torment
+|move|p2a: Lapras|Avalanche|p1a: Gothitelle
+|-damage|p1a: Gothitelle|202/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|223/344|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Gothitelle|Torment|p2a: Lapras
+|-fail|p2a: Lapras
+|-activate|p2a: Lapras|move: Struggle
+|move|p2a: Lapras|Struggle|p1a: Gothitelle
+|-damage|p1a: Gothitelle|181/344
+|-damage|p2a: Lapras|348/464
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|202/344|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Lapras|Avalanche|p1a: Gothitelle
+|-activate|p1a: Gothitelle|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|223/344|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Gothitelle|Torment|p2a: Lapras
+|-fail|p2a: Lapras
+|-activate|p2a: Lapras|move: Struggle
+|move|p2a: Lapras|Struggle|p1a: Gothitelle
+|-damage|p1a: Gothitelle|182/344
+|-damage|p2a: Lapras|232/464
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|203/344|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Lapras|Avalanche|p1a: Gothitelle
+|-activate|p1a: Gothitelle|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|224/344|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Gothitelle|Torment|p2a: Lapras
+|-fail|p2a: Lapras
+|-activate|p2a: Lapras|move: Struggle
+|move|p2a: Lapras|Struggle|p1a: Gothitelle
+|-damage|p1a: Gothitelle|177/344
+|-damage|p2a: Lapras|116/464
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|198/344|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Lapras|Avalanche|p1a: Gothitelle
+|-activate|p1a: Gothitelle|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|219/344|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Gothitelle|Trick|p2a: Lapras
+|-activate|p1a: Gothitelle|move: Trick|[of] p2a: Lapras
+|-item|p2a: Lapras|Leftovers|[from] move: Trick
+|-item|p1a: Gothitelle|Choice Scarf|[from] move: Trick
+|-activate|p2a: Lapras|move: Struggle
+|move|p2a: Lapras|Struggle|p1a: Gothitelle
+|-damage|p1a: Gothitelle|172/344
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|300/300
+|turn|14
+|
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Thundurus-Therian|Thunder|p1a: Gothitelle
+|-activate|p1a: Gothitelle|Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p1a: Heatran|Heatran, M|386/386
+|move|p2a: Thundurus-Therian|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|211/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|235/386|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Thundurus-Therian|Superpower|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|36/386
+|-unboost|p2a: Thundurus-Therian|atk|1
+|-unboost|p2a: Thundurus-Therian|def|1
+|move|p1a: Heatran|Will-O-Wisp|p2a: Thundurus-Therian
+|-status|p2a: Thundurus-Therian|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|60/386|[from] item: Leftovers
+|-damage|p2a: Thundurus-Therian|263/300 brn|[from] brn
+|turn|17
+|
+|move|p2a: Thundurus-Therian|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Thundurus-Therian|226/300 brn|[from] brn
+|
+|switch|p1a: Gothitelle|Gothitelle, M, shiny|172/344
+|turn|18
+|
+|move|p2a: Thundurus-Therian|Dark Pulse|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Thundurus-Therian|189/300 brn|[from] brn
+|
+|switch|p1a: Alakazam|Alakazam, M|252/252
+|turn|19
+|
+|move|p1a: Alakazam|Psyshock|p2a: Thundurus-Therian
+|-damage|p2a: Thundurus-Therian|0 fnt
+|faint|p2a: Thundurus-Therian
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, F|324/324
+|turn|20
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/252
+|move|p1a: Alakazam|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|162/324
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|switch|p1a: Scizor|Scizor, M|282/282
+|move|p2a: Dragonite|Dragon Claw|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|210/282
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|switch|p2a: Tentacruel|Tentacruel, F|364/364
+|move|p1a: Scizor|Bullet Punch|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|288/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|310/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|332/364|[from] item: Black Sludge
+|turn|23
+|
+|switch|p1a: Skarmory|Skarmory, M|334/334
+|move|p2a: Tentacruel|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|202/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|354/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|364/364|[from] item: Black Sludge
+|-heal|p1a: Skarmory|222/334|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Tentacruel|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|89/334
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|256/334 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|276/334 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|235/334 brn|[from] brn
+|turn|25
+|
+|move|p2a: Tentacruel|Scald|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Alakazam|Alakazam, M|1/252
+|turn|26
+|
+|move|p1a: Alakazam|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|94/364
+|move|p2a: Tentacruel|Scald|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|116/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|138/364|[from] item: Black Sludge
+|
+|switch|p1a: Scizor|Scizor, M|210/282
+|turn|27
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Scizor|U-turn|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|160/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|182/364|[from] item: Black Sludge
+|turn|28
+|
+|move|p1a: Scizor|U-turn|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|91/364
+|
+|switch|p1a: Hydreigon|Hydreigon, M|336/336
+|move|p2a: Tentacruel|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|268/336
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|113/364|[from] ability: Rain Dish
+|-heal|p1a: Hydreigon|289/336|[from] item: Leftovers
+|-heal|p2a: Tentacruel|135/364|[from] item: Black Sludge
+|turn|29
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|157/364|[from] ability: Rain Dish
+|-heal|p1a: Hydreigon|310/336|[from] item: Leftovers
+|-heal|p2a: Tentacruel|179/364|[from] item: Black Sludge
+|turn|30
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Tentacruel|[miss]
+|-miss|p1a: Hydreigon|p2a: Tentacruel
+|move|p2a: Tentacruel|Toxic|p1a: Hydreigon|[miss]
+|-miss|p2a: Tentacruel|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|201/364|[from] ability: Rain Dish
+|-heal|p1a: Hydreigon|331/336|[from] item: Leftovers
+|-heal|p2a: Tentacruel|223/364|[from] item: Black Sludge
+|turn|31
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|245/364|[from] ability: Rain Dish
+|-heal|p1a: Hydreigon|336/336|[from] item: Leftovers
+|-heal|p2a: Tentacruel|267/364|[from] item: Black Sludge
+|turn|32
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|156/364
+|move|p2a: Tentacruel|Toxic|p1a: Hydreigon|[miss]
+|-miss|p2a: Tentacruel|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|178/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|200/364|[from] item: Black Sludge
+|turn|33
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|222/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|244/364|[from] item: Black Sludge
+|turn|34
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|120/364
+|move|p2a: Tentacruel|Toxic|p1a: Hydreigon
+|-status|p1a: Hydreigon|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|142/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|164/364|[from] item: Black Sludge
+|-damage|p1a: Hydreigon|315/336 tox|[from] psn
+|turn|35
+|
+|switch|p1a: Scizor|Scizor, M|210/282
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|186/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|208/364|[from] item: Black Sludge
+|turn|36
+|
+|move|p1a: Scizor|U-turn|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|122/364
+|
+|switch|p1a: Hydreigon|Hydreigon, M|315/336 tox
+|move|p2a: Tentacruel|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|249/336 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|144/364|[from] ability: Rain Dish
+|-heal|p1a: Hydreigon|270/336 tox|[from] item: Leftovers
+|-heal|p2a: Tentacruel|166/364|[from] item: Black Sludge
+|-damage|p1a: Hydreigon|249/336 tox|[from] psn
+|turn|37
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hydreigon|270/336 tox|[from] item: Leftovers
+|-damage|p1a: Hydreigon|228/336 tox|[from] psn
+|
+|switch|p2a: Espeon|Espeon, F|272/272
+|turn|38
+|
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|336/336 tox
+|move|p2a: Espeon|Hidden Power|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|178/336 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hydreigon|199/336 tox|[from] item: Leftovers
+|-damage|p1a: Hydreigon|136/336 tox|[from] psn
+|turn|39
+|
+|switch|p1a: Scizor|Scizor, M|210/282
+|move|p2a: Espeon|Hidden Power|p1a: Scizor
+|-damage|p1a: Scizor|121/282
+|
+|-weather|RainDance|[upkeep]
+|turn|40
+|
+|move|p2a: Espeon|Hidden Power|p1a: Scizor
+|-damage|p1a: Scizor|37/282
+|move|p1a: Scizor|Pursuit|p2a: Espeon
+|-crit|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, F|162/324
+|turn|41
+|
+|switch|p1a: Hydreigon|Hydreigon, M|136/336 tox
+|move|p2a: Dragonite|Dragon Claw|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Scizor|Scizor, M|37/282
+|turn|42
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, M|33/384
+|turn|43
+|chat|Ryan House|gg
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Politoed
+|-crit|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|win|Ryan House
+|raw|Ladder updating...
+|raw|Ryan House's rating: 1327 &rarr; <strong>1349</strong><br />(+22 for winning)
+|raw|annnndz's rating: 1366 &rarr; <strong>1344</strong><br />(-22 for losing)
+|leave|annnndz
+|player|p2

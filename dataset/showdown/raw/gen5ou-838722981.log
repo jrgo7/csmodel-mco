@@ -1,0 +1,221 @@
+|j|☆fopdoodleSHMACK
+|j|☆Tobbe0007
+|player|p1|fopdoodleSHMACK|124
+|player|p2|Tobbe0007|144
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Mew|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tobbe0007)
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Jira|Jirachi|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Jira|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|-status|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Mew
+|-start|p2a: Mew|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100 par|[from] item: Leftovers
+|-damage|p2a: Mew|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|3
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Tornadus|[miss]
+|-miss|p2a: Mew|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|-damage|p2a: Mew|82/100|[from] Leech Seed|[of] p1a: Tornadus
+|upkeep
+|turn|4
+|
+|switch|p2a: Tyra|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyra
+|move|p1a: Tornadus|Hurricane|p2a: Tyra|[miss]
+|-miss|p1a: Tornadus|p2a: Tyra
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tyra|Stealth Rock|p1a: Politoed
+|-sidestart|p1: fopdoodleSHMACK|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Tios|Latios, M|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Tios|[miss]
+|-miss|p1a: Politoed|p2a: Tios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100 par
+|-damage|p1a: Ferrothorn|94/100 par|[from] Stealth Rock
+|move|p2a: Tios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100 par
+|-unboost|p2a: Tios|spa|2
+|-damage|p2a: Tios|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Mew|Mew|82/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Mew|[miss]
+|-miss|p1a: Ferrothorn|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Mew|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Mew|Ice Beam|p1a: Reuniclus
+|-damage|p1a: Reuniclus|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|79/100 par
+|-damage|p1a: Ferrothorn|73/100 par|[from] Stealth Rock
+|move|p2a: Mew|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Tornadus|Tornadus, M|94/100
+|-damage|p1a: Tornadus|70/100|[from] Stealth Rock
+|move|p2a: Mew|Ice Beam|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Tyra|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyra
+|move|p1a: Tornadus|Focus Blast|p2a: Tyra
+|-supereffective|p2a: Tyra
+|-enditem|p2a: Tyra|Chople Berry|[eat]
+|-enditem|p2a: Tyra|Chople Berry|[weaken]
+|-damage|p2a: Tyra|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|7/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p1a: Tornadus|Focus Blast|p2a: Tyra|[miss]
+|-miss|p1a: Tornadus|p2a: Tyra
+|move|p2a: Tyra|Pursuit|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Toxicroak|Ice Punch|p2a: Tyra
+|-damage|p2a: Tyra|26/100
+|-status|p2a: Tyra|frz
+|-damage|p1a: Toxicroak|85/100|[from] item: Life Orb
+|-curestatus|p2a: Tyra|frz|[msg]
+|move|p2a: Tyra|Crunch|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|46/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p1a: Toxicroak|Ice Punch|p2a: Tyra
+|-damage|p2a: Tyra|2/100
+|-damage|p1a: Toxicroak|36/100|[from] item: Life Orb
+|move|p2a: Tyra|Crunch|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|1/100|[from] Sandstorm
+|upkeep
+|turn|17
+|c|☆fopdoodleSHMACK|lol
+|-message|fopdoodleSHMACK forfeited.
+|
+|win|Tobbe0007
+|l|☆fopdoodleSHMACK
+|raw|fopdoodleSHMACK's rating: 1363 &rarr; <strong>1338</strong><br />(-25 for losing)
+|raw|Tobbe0007's rating: 1276 &rarr; <strong>1307</strong><br />(+31 for winning)

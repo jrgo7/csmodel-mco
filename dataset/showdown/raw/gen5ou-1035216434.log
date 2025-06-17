@@ -1,0 +1,204 @@
+|join|Pythagorean Python
+|join|queefs
+|player|p1|Pythagorean Python|265
+|player|p2|queefs|276
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Ninetales, F
+|poke|p1|Darmanitan, F
+|poke|p1|Victreebel, M
+|poke|p1|Shiftry, M
+|poke|p1|Forretress, M
+|poke|p1|Raikou, shiny
+|poke|p2|Dragonite, F, shiny
+|poke|p2|Mamoswine, F
+|poke|p2|Starmie, shiny
+|poke|p2|Scizor, M
+|poke|p2|Gengar, F, shiny
+|poke|p2|Skarmory, F, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|288/288
+|switch|p2a: Dragonite|Dragonite, F, shiny|324/324
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|brn
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Forretress|Forretress, M|354/354
+|turn|3
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-activate|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/354
+|move|p1a: Forretress|Volt Switch|p2a: Dragonite
+|-damage|p2a: Dragonite|306/324
+|
+|switch|p1a: Victreebel|Victreebel, M|302/302
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Victreebel|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p1a: Victreebel|272/302|[from] item: Life Orb
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Skarmory|Skarmory, F, shiny|327/327
+|turn|5
+|
+|move|p1a: Victreebel|Weather Ball|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-activate|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/327
+|-damage|p1a: Victreebel|242/302|[from] item: Life Orb
+|move|p2a: Skarmory|Stealth Rock|p1a: Victreebel
+|-sidestart|p1: Pythagorean Python|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|Custap Berry
+|
+|move|p2a: Skarmory|Spikes|p1a: Victreebel
+|-sidestart|p1: Pythagorean Python|Spikes
+|move|p1a: Victreebel|Weather Ball|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Victreebel|212/302|[from] item: Life Orb
+|faint|p2a: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Mamoswine|Mamoswine, F|362/362
+|turn|7
+|
+|switch|p1a: Forretress|Forretress, M|1/354
+|-damage|p1a: Forretress|0 fnt|[from] Stealth Rock
+|faint|p1a: Forretress
+|move|p2a: Mamoswine|Ice Shard|p1: Forretress|[notarget]
+|-notarget
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Darmanitan|Darmanitan, F|351/351
+|-damage|p1a: Darmanitan|308/351|[from] Spikes
+|-damage|p1a: Darmanitan|221/351|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Starmie|Starmie, shiny|262/262
+|move|p1a: Darmanitan|Flare Blitz|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-damage|p1a: Darmanitan|135/351|[from] recoil|[of] p2a: Starmie
+|faint|p2a: Starmie
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Gengar|Gengar, F, shiny|262/262
+|turn|9
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Gengar
+|-enditem|p2a: Gengar|Focus Sash
+|-damage|p2a: Gengar|1/262
+|-damage|p1a: Darmanitan|49/351|[from] recoil|[of] p2a: Gengar
+|move|p2a: Gengar|Shadow Ball|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Victreebel|Victreebel, M|212/302
+|-damage|p1a: Victreebel|175/302|[from] Spikes
+|-damage|p1a: Victreebel|138/302|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Victreebel|Solar Beam|p2a: Gengar|[still]
+|-prepare|p1a: Victreebel|Solar Beam|p2a: Gengar
+|-anim|p1a: Victreebel|Solar Beam|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-damage|p1a: Victreebel|108/302|[from] item: Life Orb
+|faint|p2a: Gengar
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, M|282/282
+|turn|11
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Raikou|Raikou, shiny|322/322
+|-damage|p1a: Raikou|282/322|[from] Stealth Rock
+|-damage|p1a: Raikou|242/322|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|turn|12
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|164/322
+|move|p1a: Raikou|Weather Ball|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-damage|p1a: Raikou|132/322|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Mamoswine|Mamoswine, F|362/362
+|turn|13
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Raikou
+|-damage|p1a: Raikou|2/322
+|-damage|p2a: Mamoswine|326/362|[from] item: Life Orb
+|move|p1a: Raikou|Weather Ball|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p1a: Raikou|0 fnt|[from] item: Life Orb
+|faint|p2a: Mamoswine
+|faint|p1a: Raikou
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|Pythagorean Python's rating: 1316 &rarr; <strong>1337</strong><br />(+21 for winning)
+|raw|queefs's rating: 1338 &rarr; <strong>1317</strong><br />(-21 for losing)
+|chat|queefs|fuck off
+|chat|Pythagorean Python|gg
+|leave|queefs
+|player|p2

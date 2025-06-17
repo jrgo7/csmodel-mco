@@ -1,0 +1,193 @@
+|j|☆phosphor
+|j|☆gezellig_ger
+|t:|1735120957
+|gametype|singles
+|player|p1|phosphor|#phosphor|1404
+|player|p2|gezellig_ger|cyclist|1380
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Blissey, F|item
+|poke|p1|Celebi|item
+|poke|p1|Donphan, F|item
+|poke|p1|Milotic, M|item
+|poke|p2|Machamp, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Honchkrow, F|item
+|poke|p2|Espeon, M|item
+|poke|p2|Conkeldurr, M|item
+|teampreview
+|c|☆phosphor|gl hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gezellig_ger)
+|
+|t:|1735120977
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|t:|1735120999
+|switch|p2a: Espeon|Espeon, M, shiny|100/100
+|switch|p1a: Donphan|Donphan, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1735121008
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Espeon|Wish|p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|94/100|[from] Sandstorm
+|-heal|p2a: Espeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1735121018
+|move|p1a: Tyranitar|Pursuit|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|29/100
+|move|p2a: Espeon|Trick Room|p2a: Espeon
+|-fieldstart|move: Trick Room|[of] p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|23/100|[from] Sandstorm
+|-heal|p2a: Espeon|73/100|[from] move: Wish|[wisher] Espeon
+|-heal|p2a: Espeon|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1735121030
+|-activate|p2a: Espeon|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Espeon|[from]Pursuit
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1735121039
+|switch|p2a: Machamp|Machamp, F, shiny|100/100
+|turn|5
+|
+|t:|1735121045
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Machamp|Bulk Up|p2a: Machamp
+|-boost|p2a: Machamp|atk|1
+|-boost|p2a: Machamp|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machamp|94/100|[from] Sandstorm
+|-heal|p2a: Machamp|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1735121055
+|move|p2a: Machamp|Dynamic Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|53/100
+|-start|p1a: Skarmory|confusion
+|-damage|p2a: Machamp|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-activate|p1a: Skarmory|confusion
+|move|p1a: Skarmory|Brave Bird|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|30/100
+|-damage|p1a: Skarmory|33/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machamp|24/100|[from] Sandstorm
+|-heal|p2a: Machamp|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1735121070
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Machamp|Dynamic Punch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|63/100
+|-start|p1a: Celebi|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machamp|24/100|[from] Sandstorm
+|-damage|p1a: Celebi|57/100|[from] Sandstorm
+|-heal|p2a: Machamp|30/100|[from] item: Leftovers
+|-heal|p1a: Celebi|63/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1735121085
+|-activate|p1a: Celebi|confusion
+|-damage|p1a: Celebi|57/100|[from] confusion
+|move|p2a: Machamp|Stone Edge|p1a: Celebi
+|-damage|p1a: Celebi|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|3/100|[from] Sandstorm
+|-damage|p2a: Machamp|24/100|[from] Sandstorm
+|-heal|p1a: Celebi|9/100|[from] item: Leftovers
+|-heal|p2a: Machamp|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1735121097
+|-end|p1a: Celebi|confusion
+|move|p1a: Celebi|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|3/100|[from] Sandstorm
+|-heal|p1a: Celebi|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1735121110
+|switch|p2a: Scizor|Scizor, M, shiny|100/100
+|turn|10
+|
+|t:|1735121113
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|t:|1735121116
+|switch|p1a: Milotic|Milotic, M|100/100|[from] Baton Pass
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Milotic|94/100|[from] Sandstorm
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1735121131
+|move|p1a: Milotic|Scald|p2a: Scizor
+|-damage|p2a: Scizor|65/100
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|U-turn|p1a: Milotic
+|-damage|p1a: Milotic|69/100
+|-message|gezellig_ger forfeited.
+|
+|win|phosphor
+|raw|phosphor's rating: 1404 &rarr; <strong>1423</strong><br />(+19 for winning)
+|raw|gezellig_ger's rating: 1380 &rarr; <strong>1361</strong><br />(-19 for losing)
+|c|☆phosphor|gg

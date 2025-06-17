@@ -1,0 +1,638 @@
+|j|☆Pilif
+|j|☆RoA Zokuru
+|player|p1|Pilif|101
+|player|p2|RoA Zokuru|168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Scizor, M|item
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pilif)
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Gliscor|Toxic|p1a: Forretress
+|-immune|p1a: Forretress|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Forretress|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|93/100
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|94/100|[from] sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Infernape|Close Combat|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|81/100 tox
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|88/100|[from] sandstorm
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|68/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|move|p2a: Gliscor|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|81/100
+|move|p1a: Forretress|Volt Switch|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|87/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|switch|p2a: Magnezone|Magnezone|93/100
+|move|p1a: Forretress|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|86/100
+|
+|switch|p1a: Infernape|Infernape, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|82/100|[from] sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: Gliscor|Gliscor, M|93/100 tox
+|move|p1a: Infernape|Overheat|p2a: Gliscor|[miss]
+|-miss|p1a: Infernape|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|76/100|[from] sandstorm
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p1a: Forretress|Forretress, M|87/100
+|move|p2a: Gliscor|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Gliscor|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|56/100
+|move|p1a: Forretress|Volt Switch|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|75/100 tox
+|move|p1a: Forretress|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|69/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|inactive|Pilif has 135 seconds left.
+|
+|move|p2a: Gliscor|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|52/100
+|move|p1a: Forretress|Spikes|p2a: Gliscor
+|-sidestart|p2: RoA Zokuru|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|58/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|switch|p2a: Magnezone|Magnezone|86/100
+|-damage|p2a: Magnezone|74/100|[from] Spikes
+|move|p1a: Forretress|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|66/100
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|94/100|[from] sandstorm
+|-heal|p1a: Toxicroak|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Spikes
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|69/100|[from] sandstorm
+|-heal|p1a: Toxicroak|75/100|[from] item: Black Sludge
+|-heal|p2a: Scizor|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|64/100
+|-heal|p1a: Toxicroak|93/100|[from] drain|[of] p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|87/100|[from] sandstorm
+|-heal|p1a: Toxicroak|93/100|[from] item: Black Sludge
+|-heal|p2a: Scizor|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|76/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|j| ProfileArtyom_
+|l| ProfileArtyom_
+|
+|move|p2a: Scizor|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|72/100
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Hippowdon|Roar|p2a: Gliscor
+|drag|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|82/100|[from] sandstorm
+|-heal|p1a: Hippowdon|78/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: RoA Zokuru|move: Stealth Rock
+|move|p2a: Amoonguss|Spore|p1a: Hippowdon
+|-status|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|82/100|[from] sandstorm
+|-heal|p1a: Hippowdon|85/100 slp|[from] item: Leftovers
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|88/100
+|-heal|p2a: Amoonguss|93/100|[from] drain|[of] p1a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|81/100|[from] sandstorm
+|-damage|p2a: Amoonguss|87/100|[from] sandstorm
+|-heal|p2a: Amoonguss|93/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|37/100
+|move|p2a: Amoonguss|Hidden Power|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|41/100|[from] sandstorm
+|-damage|p2a: Amoonguss|31/100|[from] sandstorm
+|-heal|p2a: Amoonguss|37/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|35/100|[from] sandstorm
+|upkeep
+|turn|21
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Hippowdon|Hippowdon, F|85/100 slp
+|move|p2a: Tyranitar|Superpower|p1a: Hippowdon
+|-damage|p1a: Hippowdon|62/100 slp
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Pilif has 135 seconds left.
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: Pilif|move: Stealth Rock
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|88/100|[from] Spikes
+|-damage|p2a: Keldeo|82/100|[from] Stealth Rock
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|76/100|[from] sandstorm
+|-heal|p1a: Hippowdon|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Toxicroak|Toxicroak, M|93/100
+|-damage|p1a: Toxicroak|87/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Toxicroak
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin|[of] p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|70/100|[from] sandstorm
+|-damage|p1a: Toxicroak|94/100|[from] sandstorm
+|-heal|p1a: Toxicroak|100/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|j| Teclis
+|
+|switch|p2a: Amoonguss|Amoonguss, M|71/100
+|-damage|p2a: Amoonguss|58/100|[from] Spikes
+|-damage|p2a: Amoonguss|46/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Drain Punch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|94/100|[from] sandstorm
+|-damage|p2a: Amoonguss|23/100|[from] sandstorm
+|-heal|p1a: Toxicroak|100/100|[from] item: Black Sludge
+|-heal|p2a: Amoonguss|30/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|l| Teclis
+|
+|switch|p2a: Scizor|Scizor, M|76/100
+|-damage|p2a: Scizor|64/100|[from] Spikes
+|-damage|p2a: Scizor|52/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Ice Punch|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|94/100|[from] sandstorm
+|-heal|p1a: Toxicroak|100/100|[from] item: Black Sludge
+|-heal|p2a: Scizor|48/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|21/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|94/100|[from] sandstorm
+|-heal|p1a: Toxicroak|100/100|[from] item: Black Sludge
+|-heal|p2a: Scizor|77/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Forretress|Forretress, M|58/100
+|-damage|p1a: Forretress|46/100|[from] Stealth Rock
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|83/100|[from] item: Leftovers
+|-heal|p1a: Forretress|52/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Forretress|Counter|p2a: Scizor
+|-fail|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|89/100|[from] item: Leftovers
+|-heal|p1a: Forretress|58/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Pilif has 135 seconds left.
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Forretress|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|77/100
+|
+|switch|p1a: Hippowdon|Hippowdon, F|81/100 slp
+|-damage|p1a: Hippowdon|75/100 slp|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|83/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|18/100 slp
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|89/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|24/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|95/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Forretress|Forretress, M|58/100
+|-damage|p1a: Forretress|46/100|[from] Stealth Rock
+|turn|33
+|inactive|RoA Zokuru has 135 seconds left.
+|
+|move|p2a: Scizor|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|8/100
+|
+|switch|p2a: Magnezone|Magnezone|66/100
+|-damage|p2a: Magnezone|54/100|[from] Spikes
+|-damage|p2a: Magnezone|48/100|[from] Stealth Rock
+|move|p1a: Forretress|Counter|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|70/100
+|-damage|p2a: Keldeo|57/100|[from] Spikes
+|-damage|p2a: Keldeo|51/100|[from] Stealth Rock
+|turn|34
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|inactive|Pilif has 105 seconds left.
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Secret Sword|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|45/100|[from] sandstorm
+|upkeep
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p1a: Infernape|Infernape, M|76/100
+|-damage|p1a: Infernape|64/100|[from] Stealth Rock
+|turn|35
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Infernape|Close Combat|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|57/100|[from] sandstorm
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|36
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Forretress|Forretress, M|14/100
+|-damage|p1a: Forretress|1/100|[from] Stealth Rock
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Forretress|8/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|move|p2a: Gliscor|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|35/100
+|-damage|p1a: Hydreigon|22/100|[from] Stealth Rock
+|turn|38
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Toxic|p1a: Hydreigon
+|-status|p1a: Hydreigon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|16/100 tox|[from] sandstorm
+|-damage|p1a: Hydreigon|10/100 tox|[from] psn
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|inactive|Pilif has 120 seconds left.
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|4/100 tox|[from] sandstorm
+|-damage|p1a: Hydreigon|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Hydreigon
+|j| DrunkDemon
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|turn|40
+|
+|switch|p2a: Scizor|Scizor, M|95/100
+|-damage|p2a: Scizor|83/100|[from] Stealth Rock
+|-damage|p2a: Scizor|70/100|[from] Spikes
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|88/100|[from] sandstorm
+|-heal|p1a: Toxicroak|94/100|[from] item: Black Sludge
+|-heal|p2a: Scizor|77/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|19/100
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Scizor
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|94/100|[from] sandstorm
+|-heal|p1a: Toxicroak|100/100|[from] item: Black Sludge
+|-heal|p2a: Scizor|25/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Toxicroak
+|-damage|p1a: Toxicroak|11/100
+|move|p1a: Toxicroak|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-heal|p1a: Toxicroak|24/100|[from] drain|[of] p2a: Scizor
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|18/100|[from] sandstorm
+|-heal|p1a: Toxicroak|24/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|66/100
+|-damage|p2a: Tyranitar|53/100|[from] Spikes
+|-damage|p2a: Tyranitar|41/100|[from] Stealth Rock
+|turn|43
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: Toxicroak|50/100|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|44/100|[from] sandstorm
+|-heal|p1a: Toxicroak|50/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|44
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Toxicroak|Ice Punch|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|44/100|[from] sandstorm
+|-heal|p1a: Toxicroak|50/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, M|63/100
+|-damage|p2a: Amoonguss|50/100|[from] Stealth Rock
+|-damage|p2a: Amoonguss|38/100|[from] Spikes
+|turn|45
+|-message|RoA Zokuru forfeited.
+|
+|win|Pilif
+|l|☆RoA Zokuru
+|raw|Pilif's rating: 1328 &rarr; <strong>1351</strong><br />(+23 for winning)
+|raw|RoA Zokuru's rating: 1373 &rarr; <strong>1350</strong><br />(-23 for losing)
+|l| DrunkDemon

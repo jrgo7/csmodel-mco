@@ -1,0 +1,768 @@
+|join|raichushiny
+|join|W2S
+|player|p1|raichushiny|169
+|player|p2|W2S|141
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Skarmory, M
+|poke|p1|Chansey, F
+|poke|p1|Amoonguss, M
+|poke|p1|Starmie
+|poke|p1|Garchomp, F
+|poke|p1|Sableye, F
+|poke|p2|Politoed, M
+|poke|p2|Ferrothorn, M
+|poke|p2|Tentacruel, M
+|poke|p2|Garchomp, M
+|poke|p2|Jirachi
+|poke|p2|Tornadus, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Sofboiled|Chansey, F|641/641
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Toxic|p1a: Sofboiled
+|-status|p1a: Sofboiled|tox
+|move|p1a: Sofboiled|Stealth Rock|p2a: Politoed
+|-sidestart|p2: W2S|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Sofboiled|601/641 tox|[from] psn
+|turn|2
+|
+|switch|p2a: Tentacruel|Tentacruel, M|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|switch|p1a: Regenerator|Amoonguss, M|403/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|341/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/364|[from] item: Black Sludge
+|turn|3
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|-damage|p2a: Tornadus|225/299|[from] Stealth Rock
+|move|p1a: Regenerator|Spore|p2a: Tornadus
+|-status|p2a: Tornadus|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Sofboiled|Chansey, F|601/641
+|cant|p2a: Tornadus|slp
+|move|p2a: Tornadus|Sleep Talk|p2a: Tornadus
+|move|p2a: Tornadus|Focus Blast|p1a: Sofboiled|[from]Sleep Talk
+|-supereffective|p1a: Sofboiled
+|-damage|p1a: Sofboiled|417/641
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Tentacruel|Tentacruel, M|363/364
+|-damage|p2a: Tentacruel|318/364|[from] Stealth Rock
+|move|p1a: Sofboiled|Soft-Boiled|p1a: Sofboiled
+|-heal|p1a: Sofboiled|641/641
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|340/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|362/364|[from] item: Black Sludge
+|turn|6
+|
+|switch|p1a: Recover|Sableye, F|304/304
+|move|p2a: Tentacruel|Scald|p1a: Recover
+|-damage|p1a: Recover|190/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|364/364|[from] ability: Rain Dish
+|-heal|p1a: Recover|209/304|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Recover|Will-O-Wisp|p2a: Tentacruel
+|-status|p2a: Tentacruel|brn
+|move|p2a: Tentacruel|Toxic|p1a: Recover
+|-status|p1a: Recover|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|228/304 tox|[from] item: Leftovers
+|-damage|p2a: Tentacruel|319/364 brn|[from] brn
+|-damage|p1a: Recover|209/304 tox|[from] psn
+|turn|8
+|
+|switch|p1a: OHKO|Garchomp, F|357/357
+|move|p2a: Tentacruel|Scald|p1a: OHKO
+|-damage|p1a: OHKO|227/357
+|-status|p1a: OHKO|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|341/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/364 brn|[from] item: Black Sludge
+|-damage|p1a: OHKO|183/357 brn|[from] brn
+|-damage|p2a: Tentacruel|318/364 brn|[from] brn
+|turn|9
+|join|TsunaBankai
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|move|p1a: OHKO|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|273/351
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|294/351|[from] item: Leftovers
+|-damage|p1a: OHKO|139/357 brn|[from] brn
+|turn|10
+|
+|switch|p1a: Roost|Skarmory, M|334/334
+|move|p2a: Ferrothorn|Leech Seed|p1a: Roost
+|-start|p1a: Roost|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|315/351|[from] item: Leftovers
+|-damage|p1a: Roost|293/334|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|351/351|[silent]
+|turn|11
+|
+|switch|p2a: Tentacruel|Tentacruel, M|318/364 brn
+|-damage|p2a: Tentacruel|273/364 brn|[from] Stealth Rock
+|move|p1a: Roost|Spikes|p2a: Tentacruel
+|-sidestart|p2: W2S|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|295/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|317/364 brn|[from] item: Black Sludge
+|-damage|p1a: Roost|252/334|[from] Leech Seed|[of] p2a: Tentacruel
+|-heal|p2a: Tentacruel|358/364 brn|[silent]
+|-damage|p2a: Tentacruel|313/364 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Recover|Sableye, F|209/304 tox
+|move|p2a: Tentacruel|Scald|p1a: Recover
+|-damage|p1a: Recover|94/304 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|335/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|357/364 brn|[from] item: Black Sludge
+|-heal|p1a: Recover|113/304 tox|[from] item: Leftovers
+|-damage|p2a: Tentacruel|312/364 brn|[from] brn
+|-damage|p1a: Recover|94/304 tox|[from] psn
+|turn|13
+|
+|move|p1a: Recover|Recover|p1a: Recover
+|-heal|p1a: Recover|246/304 tox
+|move|p2a: Tentacruel|Scald|p1a: Recover
+|-damage|p1a: Recover|137/304 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|334/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|356/364 brn|[from] item: Black Sludge
+|-heal|p1a: Recover|156/304 tox|[from] item: Leftovers
+|-damage|p2a: Tentacruel|311/364 brn|[from] brn
+|-damage|p1a: Recover|118/304 tox|[from] psn
+|turn|14
+|
+|switch|p1a: Rapid spin|Starmie|323/323
+|move|p2a: Tentacruel|Rapid Spin|p1a: Rapid spin
+|-damage|p1a: Rapid spin|316/323
+|-sideend|p2: W2S|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: W2S|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|333/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Rapid spin|323/323|[from] item: Leftovers
+|-heal|p2a: Tentacruel|355/364 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|310/364 brn|[from] brn
+|turn|15
+|leave|TsunaBankai
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|351/351
+|move|p1a: Rapid spin|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|294/351
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|315/351|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Sofboiled|Chansey, F|641/641
+|move|p2a: Ferrothorn|Leech Seed|p1a: Sofboiled
+|-start|p1a: Sofboiled|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|336/351|[from] item: Leftovers
+|-damage|p1a: Sofboiled|561/641|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|351/351|[silent]
+|turn|17
+|
+|move|p1a: Sofboiled|Heal Bell|p1a: Sofboiled
+|-cureteam|p1a: Sofboiled|[from] move: HealBell
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Sofboiled
+|-sidestart|p1: raichushiny|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Sofboiled|481/641|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|18
+|
+|move|p1a: Sofboiled|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: W2S|move: Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Sofboiled
+|-damage|p1a: Sofboiled|354/641
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Sofboiled|274/641|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|19
+|
+|move|p1a: Sofboiled|Soft-Boiled|p1a: Sofboiled
+|-heal|p1a: Sofboiled|595/641
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Sofboiled
+|-damage|p1a: Sofboiled|480/641
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Sofboiled|400/641|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|20
+|
+|switch|p1a: Roost|Skarmory, M|252/334
+|-damage|p1a: Roost|211/334|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Roost
+|-sidestart|p1: raichushiny|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|switch|p2a: Tentacruel|Tentacruel, M|310/364 brn
+|-damage|p2a: Tentacruel|265/364 brn|[from] Stealth Rock
+|move|p1a: Roost|Roost|p1a: Roost
+|-heal|p1a: Roost|334/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|287/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|309/364 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|264/364 brn|[from] brn
+|turn|22
+|
+|switch|p1a: Rapid spin|Starmie|323/323
+|-damage|p1a: Rapid spin|283/323|[from] Stealth Rock
+|-damage|p1a: Rapid spin|243/323|[from] Spikes
+|move|p2a: Tentacruel|Scald|p1a: Rapid spin
+|-resisted|p1a: Rapid spin
+|-damage|p1a: Rapid spin|171/323
+|-status|p1a: Rapid spin|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|286/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Rapid spin|191/323 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|308/364 brn|[from] item: Black Sludge
+|-damage|p1a: Rapid spin|151/323 brn|[from] brn
+|-damage|p2a: Tentacruel|263/364 brn|[from] brn
+|turn|23
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Rapid spin|Rapid Spin|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|285/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Rapid spin|171/323 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|307/364 brn|[from] item: Black Sludge
+|-damage|p1a: Rapid spin|131/323 brn|[from] brn
+|-damage|p2a: Tentacruel|262/364 brn|[from] brn
+|turn|24
+|join|ScizordProd
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|move|p1a: Rapid spin|Rapid Spin|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|326/351
+|-damage|p1a: Rapid spin|91/323 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: raichushiny|Spikes|[from] move: Rapid Spin|[of] p1a: Rapid spin
+|-sideend|p1: raichushiny|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Rapid spin
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|111/323 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|347/351|[from] item: Leftovers
+|-damage|p1a: Rapid spin|71/323 brn|[from] brn
+|turn|25
+|leave|ScizordProd
+|
+|move|p1a: Rapid spin|Recover|p1a: Rapid spin
+|-heal|p1a: Rapid spin|233/323 brn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Rapid spin
+|-sidestart|p1: raichushiny|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|253/323 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|351/351|[from] item: Leftovers
+|-damage|p1a: Rapid spin|213/323 brn|[from] brn
+|turn|26
+|
+|move|p1a: Rapid spin|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|300/351
+|move|p2a: Ferrothorn|Leech Seed|p1a: Rapid spin
+|-start|p1a: Rapid spin|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|233/323 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|321/351|[from] item: Leftovers
+|-damage|p1a: Rapid spin|193/323 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|351/351|[silent]
+|-damage|p1a: Rapid spin|153/323 brn|[from] brn
+|turn|27
+|
+|move|p1a: Rapid spin|Recover|p1a: Rapid spin
+|-heal|p1a: Rapid spin|315/323 brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Rapid spin
+|-resisted|p1a: Rapid spin
+|-damage|p1a: Rapid spin|221/323 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|241/323 brn|[from] item: Leftovers
+|-damage|p1a: Rapid spin|201/323 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Rapid spin|161/323 brn|[from] brn
+|turn|28
+|
+|move|p1a: Rapid spin|Recover|p1a: Rapid spin
+|-heal|p1a: Rapid spin|323/323 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Rapid spin
+|-fail|p1a: Rapid spin
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Rapid spin|283/323 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Rapid spin|243/323 brn|[from] brn
+|turn|29
+|
+|move|p1a: Rapid spin|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|349/351
+|-damage|p1a: Rapid spin|203/323 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-end|p1a: Rapid spin|Leech Seed|[from] move: Rapid Spin|[of] p1a: Rapid spin
+|-sideend|p1: raichushiny|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Rapid spin
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Rapid spin
+|-resisted|p1a: Rapid spin
+|-damage|p1a: Rapid spin|104/323 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|124/323 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|351/351|[from] item: Leftovers
+|-damage|p1a: Rapid spin|84/323 brn|[from] brn
+|turn|30
+|
+|move|p1a: Rapid spin|Recover|p1a: Rapid spin
+|-heal|p1a: Rapid spin|246/323 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Rapid spin
+|-start|p1a: Rapid spin|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|266/323 brn|[from] item: Leftovers
+|-damage|p1a: Rapid spin|226/323 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Rapid spin|186/323 brn|[from] brn
+|turn|31
+|
+|switch|p1a: Recover|Sableye, F|118/304
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Recover
+|-sidestart|p1: raichushiny|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|137/304|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Recover|Recover|p1a: Recover
+|-heal|p1a: Recover|289/304
+|move|p2a: Ferrothorn|Leech Seed|p1a: Recover
+|-start|p1a: Recover|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|304/304|[from] item: Leftovers
+|-damage|p1a: Recover|266/304|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|33
+|
+|switch|p2a: Tentacruel|Tentacruel, M|262/364 brn
+|-damage|p2a: Tentacruel|217/364 brn|[from] Stealth Rock
+|move|p1a: Recover|Will-O-Wisp|p2a: Tentacruel|[miss]
+|-miss|p1a: Recover|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|239/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|261/364 brn|[from] item: Black Sludge
+|-heal|p1a: Recover|285/304|[from] item: Leftovers
+|-damage|p1a: Recover|247/304|[from] Leech Seed|[of] p2a: Tentacruel
+|-heal|p2a: Tentacruel|299/364 brn|[silent]
+|-damage|p2a: Tentacruel|254/364 brn|[from] brn
+|turn|34
+|
+|switch|p1a: Rapid spin|Starmie|186/323
+|-damage|p1a: Rapid spin|146/323|[from] Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: Rapid spin
+|-crit|p1a: Rapid spin
+|-resisted|p1a: Rapid spin
+|-damage|p1a: Rapid spin|11/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|276/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Rapid spin|31/323|[from] item: Leftovers
+|-heal|p2a: Tentacruel|298/364 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|253/364 brn|[from] brn
+|turn|35
+|
+|move|p1a: Rapid spin|Recover|p1a: Rapid spin
+|-heal|p1a: Rapid spin|193/323
+|move|p2a: Tentacruel|Toxic|p1a: Rapid spin
+|-status|p1a: Rapid spin|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|275/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Rapid spin|213/323 tox|[from] item: Leftovers
+|-heal|p2a: Tentacruel|297/364 brn|[from] item: Black Sludge
+|-damage|p1a: Rapid spin|193/323 tox|[from] psn
+|-damage|p2a: Tentacruel|252/364 brn|[from] brn
+|turn|36
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|move|p1a: Rapid spin|Psyshock|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|300/351
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|213/323 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|321/351|[from] item: Leftovers
+|-damage|p1a: Rapid spin|173/323 tox|[from] psn
+|turn|37
+|
+|move|p1a: Rapid spin|Recover|p1a: Rapid spin
+|-heal|p1a: Rapid spin|323/323 tox
+|move|p2a: Ferrothorn|Leech Seed|p1a: Rapid spin
+|-start|p1a: Rapid spin|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|342/351|[from] item: Leftovers
+|-damage|p1a: Rapid spin|283/323 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|351/351|[silent]
+|-damage|p1a: Rapid spin|223/323 tox|[from] psn
+|turn|38
+|
+|switch|p1a: Recover|Sableye, F|247/304
+|-damage|p1a: Recover|209/304|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Recover
+|-sidestart|p1: raichushiny|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|228/304|[from] item: Leftovers
+|turn|39
+|
+|switch|p2a: Tornadus|Tornadus, M|225/299 slp
+|-damage|p2a: Tornadus|151/299 slp|[from] Stealth Rock
+|move|p1a: Recover|Taunt|p2a: Tornadus
+|-start|p2a: Tornadus|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|247/304|[from] item: Leftovers
+|turn|40
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|switch|p1a: Rapid spin|Starmie|223/323
+|-damage|p1a: Rapid spin|183/323|[from] Spikes
+|-damage|p1a: Rapid spin|143/323|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|163/323|[from] item: Leftovers
+|-heal|p2a: Politoed|360/384|[from] item: Leftovers
+|turn|41
+|
+|move|p1a: Rapid spin|Recover|p1a: Rapid spin
+|-heal|p1a: Rapid spin|323/323
+|move|p2a: Politoed|Scald|p1a: Rapid spin
+|-resisted|p1a: Rapid spin
+|-damage|p1a: Rapid spin|245/323
+|-status|p1a: Rapid spin|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|265/323 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|384/384|[from] item: Leftovers
+|-damage|p1a: Rapid spin|225/323 brn|[from] brn
+|turn|42
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Rapid spin|Rapid Spin|p2a: Politoed
+|-activate|p2a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|245/323 brn|[from] item: Leftovers
+|-damage|p1a: Rapid spin|205/323 brn|[from] brn
+|turn|43
+|
+|move|p1a: Rapid spin|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|379/384
+|-sideend|p1: raichushiny|Spikes|[from] move: Rapid Spin|[of] p1a: Rapid spin
+|-sideend|p1: raichushiny|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Rapid spin
+|move|p2a: Politoed|Scald|p1a: Rapid spin
+|-resisted|p1a: Rapid spin
+|-damage|p1a: Rapid spin|131/323 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|151/323 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|384/384|[from] item: Leftovers
+|-damage|p1a: Rapid spin|111/323 brn|[from] brn
+|turn|44
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|move|p1a: Rapid spin|Recover|p1a: Rapid spin
+|-heal|p1a: Rapid spin|273/323 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|293/323 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|351/351|[from] item: Leftovers
+|-damage|p1a: Rapid spin|253/323 brn|[from] brn
+|turn|45
+|
+|switch|p1a: Recover|Sableye, F|247/304
+|move|p2a: Ferrothorn|Leech Seed|p1a: Recover|[miss]
+|-miss|p2a: Ferrothorn|p1a: Recover
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|266/304|[from] item: Leftovers
+|turn|46
+|
+|switch|p2a: Tentacruel|Tentacruel, M|252/364 brn
+|-damage|p2a: Tentacruel|207/364 brn|[from] Stealth Rock
+|move|p1a: Recover|Taunt|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|229/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|251/364 brn|[from] item: Black Sludge
+|-heal|p1a: Recover|285/304|[from] item: Leftovers
+|-damage|p2a: Tentacruel|206/364 brn|[from] brn
+|turn|47
+|
+|move|p2a: Tentacruel|Scald|p1a: Recover
+|-damage|p1a: Recover|179/304
+|move|p1a: Recover|Foul Play|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|67/364 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|89/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|111/364 brn|[from] item: Black Sludge
+|-heal|p1a: Recover|198/304|[from] item: Leftovers
+|-damage|p2a: Tentacruel|66/364 brn|[from] brn
+|turn|48
+|
+|move|p2a: Tentacruel|Scald|p1a: Recover
+|-damage|p1a: Recover|89/304
+|-status|p1a: Recover|brn
+|move|p1a: Recover|Foul Play|p2a: Tentacruel
+|-damage|p2a: Tentacruel|32/364 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|54/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|76/364 brn|[from] item: Black Sludge
+|-heal|p1a: Recover|108/304 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|31/364 brn|[from] brn
+|-damage|p1a: Recover|70/304 brn|[from] brn
+|turn|49
+|
+|move|p1a: Recover|Recover|p1a: Recover
+|-heal|p1a: Recover|222/304 brn
+|move|p2a: Tentacruel|Scald|p1a: Recover
+|-damage|p1a: Recover|114/304 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|53/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|75/364 brn|[from] item: Black Sludge
+|-heal|p1a: Recover|133/304 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|30/364 brn|[from] brn
+|-damage|p1a: Recover|95/304 brn|[from] brn
+|-end|p2a: Tentacruel|move: Taunt
+|turn|50
+|
+|switch|p1a: Rapid spin|Starmie|253/323
+|move|p2a: Tentacruel|Scald|p1a: Rapid spin
+|-resisted|p1a: Rapid spin
+|-damage|p1a: Rapid spin|191/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|52/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Rapid spin|211/323|[from] item: Leftovers
+|-heal|p2a: Tentacruel|74/364 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|29/364 brn|[from] brn
+|turn|51
+|
+|move|p1a: Rapid spin|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rapid spin|231/323|[from] item: Leftovers
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|turn|52
+|join|PiggK
+|
+|move|p1a: Rapid spin|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|243/404
+|-status|p2a: Jirachi|brn
+|move|p2a: Jirachi|Thunder|p1a: Rapid spin
+|-crit|p1a: Rapid spin
+|-supereffective|p1a: Rapid spin
+|-damage|p1a: Rapid spin|0 fnt
+|faint|p1a: Rapid spin
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|268/404 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|218/404 brn|[from] brn
+|
+|switch|p1a: OHKO|Garchomp, F|139/357
+|turn|53
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|move|p1a: OHKO|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|221/351
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|242/351|[from] item: Leftovers
+|turn|54
+|leave|PiggK
+|
+|move|p1a: OHKO|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|134/351
+|move|p2a: Ferrothorn|Leech Seed|p1a: OHKO
+|-start|p1a: OHKO|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|155/351|[from] item: Leftovers
+|-damage|p1a: OHKO|95/357|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|199/351|[silent]
+|turn|55
+|
+|switch|p1a: Roost|Skarmory, M|334/334
+|switch|p2a: Politoed|Politoed, M|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|360/384|[from] item: Leftovers
+|turn|56
+|
+|switch|p1a: Sofboiled|Chansey, F|400/641
+|move|p2a: Politoed|Scald|p1a: Sofboiled
+|-damage|p1a: Sofboiled|337/641
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|384/384|[from] item: Leftovers
+|turn|57
+|
+|move|p2a: Politoed|Toxic|p1a: Sofboiled
+|-status|p1a: Sofboiled|tox
+|move|p1a: Sofboiled|Soft-Boiled|p1a: Sofboiled
+|-heal|p1a: Sofboiled|641/641 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Sofboiled|601/641 tox|[from] psn
+|turn|58
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|199/351
+|-damage|p2a: Ferrothorn|178/351|[from] Stealth Rock
+|move|p1a: Sofboiled|Heal Bell|p1a: Sofboiled
+|-cureteam|p1a: Sofboiled|[from] move: HealBell
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|199/351|[from] item: Leftovers
+|turn|59
+|
+|switch|p1a: Recover|Sableye, F|95/304
+|move|p2a: Ferrothorn|Leech Seed|p1a: Recover|[miss]
+|-miss|p2a: Ferrothorn|p1a: Recover
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|114/304|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|220/351|[from] item: Leftovers
+|turn|60
+|
+|move|p1a: Recover|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Recover
+|-damage|p1a: Recover|20/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|39/304|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|241/351|[from] item: Leftovers
+|turn|61
+|
+|switch|p2a: Jirachi|Jirachi|218/404 brn
+|-damage|p2a: Jirachi|193/404 brn|[from] Stealth Rock
+|move|p1a: Recover|Recover|p1a: Recover
+|-heal|p1a: Recover|191/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|218/404 brn|[from] item: Leftovers
+|-heal|p1a: Recover|210/304|[from] item: Leftovers
+|-damage|p2a: Jirachi|168/404 brn|[from] brn
+|turn|62
+|
+|switch|p1a: Sofboiled|Chansey, F|601/641
+|move|p2a: Jirachi|Psychic|p1a: Sofboiled
+|-damage|p1a: Sofboiled|549/641
+|-unboost|p1a: Sofboiled|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|193/404 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|143/404 brn|[from] brn
+|turn|63
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|241/351
+|-damage|p2a: Ferrothorn|220/351|[from] Stealth Rock
+|switch|p1a: Recover|Sableye, F|210/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|229/304|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|241/351|[from] item: Leftovers
+|turn|64
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|move|p1a: Recover|Taunt|p2a: Politoed
+|-start|p2a: Politoed|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|360/384|[from] item: Leftovers
+|-heal|p1a: Recover|248/304|[from] item: Leftovers
+|turn|65
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|241/351
+|-damage|p2a: Ferrothorn|220/351|[from] Stealth Rock
+|move|p1a: Recover|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Recover|267/304|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|241/351 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|198/351 brn|[from] brn
+|turn|66
+|-message|W2S forfeited.
+|
+|win|raichushiny
+|raw|Ladder updating...
+|leave|W2S
+|player|p2
+|raw|raichushiny's rating: 1409 &rarr; <strong>1431</strong><br />(+22 for winning)
+|raw|W2S's rating: 1457 &rarr; <strong>1434</strong><br />(-23 for losing)

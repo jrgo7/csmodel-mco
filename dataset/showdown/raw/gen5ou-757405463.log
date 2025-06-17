@@ -1,0 +1,475 @@
+|j|☆tohki
+|j|☆Seiji 15
+|player|p1|tohki|28
+|player|p2|Seiji 15|183
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Diglett, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Moltres|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|c|☆tohki|gl hf
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Tentacruel|Scald|p1a: Xatu
+|-damage|p1a: Xatu|55/100
+|move|p1a: Xatu|Night Shade|p2a: Tentacruel
+|-damage|p2a: Tentacruel|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|79/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|85/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Tentacruel|Scald|p1a: Xatu
+|-damage|p1a: Xatu|6/100
+|move|p1a: Xatu|U-turn|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|78/100
+|
+|switch|p1a: Diglett|Diglett, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|84/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|90/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Diglett|Earthquake|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|96/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Diglett|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|31/100
+|move|p2a: Tentacruel|Scald|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-enditem|p1a: Diglett|Focus Sash
+|-damage|p1a: Diglett|1/100
+|-status|p1a: Diglett|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|37/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|43/100|[from] item: Black Sludge
+|-damage|p1a: Diglett|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Diglett
+|
+|switch|p1a: Moltres|Moltres|100/100
+|-ability|p1a: Moltres|Pressure
+|turn|6
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|49/100|[from] ability: Rain Dish
+|-heal|p1a: Moltres|82/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|55/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Moltres|Hurricane|p2a: Tentacruel
+|-damage|p2a: Tentacruel|6/100
+|move|p2a: Tentacruel|Scald|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-end|p1a: Moltres|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|12/100|[from] ability: Rain Dish
+|-heal|p1a: Moltres|88/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|18/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Politoed|Encore|p1a: Moltres
+|-start|p1a: Moltres|Encore
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-fail|p1a: Moltres|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Tentacruel|Tentacruel, F|18/100
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-fail|p1a: Moltres|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|24/100|[from] ability: Rain Dish
+|-heal|p1a: Moltres|82/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|30/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-fail|p1a: Moltres|move: Substitute
+|move|p2a: Tentacruel|Scald|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-end|p1a: Moltres|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|36/100|[from] ability: Rain Dish
+|-heal|p1a: Moltres|88/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|43/100|[from] item: Black Sludge
+|-end|p1a: Moltres|Encore
+|upkeep
+|turn|12
+|
+|move|p1a: Moltres|Hurricane|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|13
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Toxicroak|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|81/100|[from] item: Leftovers
+|-start|p2a: Toxicroak|perish3
+|-start|p1a: Politoed|perish3
+|upkeep
+|turn|15
+|
+|-singleturn|p2a: Toxicroak|move: Focus Punch
+|switch|p1a: Xatu|Xatu, M|6/100
+|move|p2a: Toxicroak|Focus Punch|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Toxicroak|84/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|faint|p1a: Xatu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|96/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|100/100|[from] item: Black Sludge
+|-start|p2a: Toxicroak|perish2
+|upkeep
+|
+|switch|p1a: Moltres|Moltres|94/100
+|-ability|p1a: Moltres|Pressure
+|turn|16
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|-damage|p2a: Politoed|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Politoed|Politoed, M|81/100
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed
+|-resisted|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|20/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|26/100|[from] item: Leftovers
+|-damage|p2a: Politoed|76/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|32/100|[from] item: Leftovers
+|-damage|p2a: Politoed|64/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed|[miss]
+|-miss|p2a: Politoed|p1a: Politoed
+|move|p1a: Politoed|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|46/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|38/100|[from] item: Leftovers
+|-damage|p2a: Politoed|34/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Politoed|Scald|p2a: Tornadus
+|-damage|p2a: Tornadus|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Tornadus|Hurricane|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|51/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|move|p1a: Politoed|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|7/100|[from] item: Leftovers
+|-heal|p1a: Politoed|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Moltres|Moltres|100/100
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Landorus|Stealth Rock|p1a: Moltres
+|-sidestart|p1: tohki|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|13/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|76/100
+|move|p2a: Landorus|U-turn|p1a: Moltres
+|-resisted|p1a: Moltres
+|-activate|p1a: Moltres|Substitute|[damage]
+|
+|switch|p2a: Politoed|Politoed, M|34/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|82/100|[from] item: Leftovers
+|-damage|p2a: Politoed|21/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Politoed|Encore|p1a: Moltres
+|-start|p1a: Moltres|Encore
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-fail|p1a: Moltres|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|88/100|[from] item: Leftovers
+|-damage|p2a: Politoed|9/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Tornadus|Tornadus, M|46/100
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-fail|p1a: Moltres|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Tornadus|Hurricane|p1a: Moltres
+|-end|p1a: Moltres|Substitute
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|76/100|[from] item: Leftovers
+|-end|p1a: Moltres|Encore
+|upkeep
+|turn|28
+|
+|move|p2a: Tornadus|Hurricane|p1a: Moltres
+|-end|p1a: Moltres|Substitute
+|move|p1a: Moltres|Hurricane|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|9/100 brn
+|turn|29
+|
+|switch|p1a: Politoed|Politoed, M|57/100
+|-damage|p1a: Politoed|45/100|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|13/100|[from] item: Leftovers
+|-damage|p2a: Politoed|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Politoed
+|
+|switch|p2a: Landorus|Landorus-Therian, M|13/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|turn|30
+|
+|move|p2a: Landorus|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|19/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Moltres|Moltres|82/100
+|-damage|p1a: Moltres|32/100|[from] Stealth Rock
+|-ability|p1a: Moltres|Pressure
+|turn|31
+|
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|7/100
+|move|p2a: Landorus|Hidden Power|p1a: Moltres
+|-activate|p1a: Moltres|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|13/100|[from] item: Leftovers
+|-heal|p2a: Landorus|25/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Moltres|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|20/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|turn|33
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Moltres
+|-end|p1a: Moltres|Substitute
+|move|p1a: Moltres|Hurricane|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|34
+|
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|1/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Moltres
+|-resisted|p1a: Moltres
+|-activate|p1a: Moltres|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|7/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Moltres|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Power Whip|p1a: Moltres
+|-resisted|p1a: Moltres
+|-activate|p1a: Moltres|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|13/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|36
+|c|☆tohki|gg wp
+|-message|Seiji 15 forfeited.
+|
+|win|tohki
+|l|☆Seiji 15
+|raw|tohki's rating: 1326 &rarr; <strong>1346</strong><br />(+20 for winning)
+|raw|Seiji 15's rating: 1328 &rarr; <strong>1308</strong><br />(-20 for losing)

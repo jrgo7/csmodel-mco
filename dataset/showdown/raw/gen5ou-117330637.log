@@ -1,0 +1,318 @@
+|join|dtw
+|join|Draigon
+|player|p1|dtw|265
+|player|p2|Draigon|80
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Dugtrio, M
+|poke|p1|Tyranitar, F
+|poke|p1|Hydreigon, F
+|poke|p1|Skarmory, F
+|poke|p1|Breloom, F
+|poke|p1|Alakazam, F
+|poke|p2|Tyranitar, M
+|poke|p2|Gliscor, F
+|poke|p2|Rotom-Wash
+|poke|p2|Scizor, F
+|poke|p2|Mamoswine, F
+|poke|p2|Garchomp, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|switch|p2a: Rotom-Wash|Rotom-Wash|304/304
+|turn|1
+|
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Stealth Rock|p2a: Rotom-Wash
+|-sidestart|p2: Draigon|move: Stealth Rock
+|
+|-damage|p1a: Skarmory|293/334 brn|[from] brn
+|turn|2
+|
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|143/334 brn
+|
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|-damage|p2a: Tyranitar|354/404|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Skarmory|Spikes|p2a: Tyranitar
+|-sidestart|p2: Draigon|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|379/404|[from] item: Leftovers
+|-damage|p1a: Skarmory|102/334 brn|[from] brn
+|turn|3
+|
+|move|p1a: Skarmory|Spikes|p2a: Tyranitar
+|-sidestart|p2: Draigon|Spikes
+|move|p2a: Tyranitar|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: dtw|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|404/404|[from] item: Leftovers
+|-damage|p1a: Skarmory|61/334 brn|[from] brn
+|turn|4
+|-enditem|p1a: Skarmory|Custap Berry|[eat]
+|-activate|p1a: Skarmory|Custap Berry
+|
+|switch|p2a: Gliscor|Gliscor, F|354/354
+|-damage|p2a: Gliscor|310/354|[from] Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Gliscor
+|-sidestart|p2: Draigon|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skarmory|20/334 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|5
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|turn|6
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Alakazam|Hidden Power|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|turn|7
+|
+|switch|p2a: Scizor|Scizor, F|344/344
+|-damage|p2a: Scizor|301/344|[from] Stealth Rock
+|-damage|p2a: Scizor|215/344|[from] Spikes
+|move|p1a: Alakazam|Hidden Power|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|164/344
+|
+|-weather|Sandstorm|[upkeep]
+|turn|8
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/251
+|move|p1a: Alakazam|Focus Blast|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Mamoswine|Mamoswine, F|424/424
+|-damage|p2a: Mamoswine|318/424|[from] Spikes
+|-damage|p2a: Mamoswine|265/424|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p2a: Mamoswine|223/424|[from] item: Life Orb
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Tyranitar|Tyranitar, F|342/342
+|-damage|p1a: Tyranitar|300/342|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Tyranitar|Aqua Tail|p2a: Mamoswine
+|-crit|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Gliscor|Gliscor, F|354/354 tox
+|-damage|p2a: Gliscor|310/354 tox|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Tyranitar|Aqua Tail|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|12
+|
+|move|p1a: Tyranitar|Aqua Tail|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|214/354 tox
+|move|p2a: Gliscor|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|279/342 tox|[from] psn
+|-heal|p2a: Gliscor|258/354 tox|[from] ability: Poison Heal
+|turn|13
+|
+|switch|p1a: Hydreigon|Hydreigon, F|325/325
+|-damage|p1a: Hydreigon|285/325|[from] Stealth Rock
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|265/325|[from] sandstorm
+|-heal|p2a: Gliscor|302/354 tox|[from] ability: Poison Heal
+|turn|14
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Hydreigon|Taunt|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|245/325|[from] sandstorm
+|-heal|p2a: Gliscor|346/354 tox|[from] ability: Poison Heal
+|turn|15
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|213/325|[from] item: Life Orb
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|193/325|[from] sandstorm
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|304/304
+|-damage|p2a: Rotom-Wash|266/304|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Dugtrio|Dugtrio, M|211/211
+|-damage|p1a: Dugtrio|198/211|[from] Stealth Rock
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Dugtrio|[miss]
+|-miss|p2a: Rotom-Wash|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|247/304|[from] sandstorm
+|-heal|p2a: Rotom-Wash|266/304|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|181/304
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|162/304|[from] sandstorm
+|-heal|p2a: Rotom-Wash|181/304|[from] item: Leftovers
+|
+|switch|p1a: Breloom|Breloom, F|264/264
+|-damage|p1a: Breloom|248/264|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Breloom|Spore|p2a: Rotom-Wash
+|-status|p2a: Rotom-Wash|slp
+|cant|p2a: Rotom-Wash|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|232/264|[from] sandstorm
+|-damage|p2a: Rotom-Wash|162/304 slp|[from] sandstorm
+|-heal|p2a: Rotom-Wash|181/304 slp|[from] item: Leftovers
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|19
+|
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|-damage|p2a: Garchomp|268/357|[from] Spikes
+|-damage|p2a: Garchomp|246/357|[from] Stealth Rock
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|166/264 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|150/264 tox|[from] sandstorm
+|-heal|p1a: Breloom|183/264 tox|[from] ability: Poison Heal
+|turn|20
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Garchomp|Outrage|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|move|p1a: Breloom|Focus Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Breloom|150/264 tox|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|134/264 tox|[from] sandstorm
+|-heal|p1a: Breloom|167/264 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|-damage|p2a: Tyranitar|303/404|[from] Spikes
+|-damage|p2a: Tyranitar|253/404|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Tyranitar|Tyranitar, F|279/342 tox
+|-damage|p1a: Tyranitar|237/342 tox|[from] Stealth Rock
+|move|p2a: Tyranitar|Fire Blast|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|205/342 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|278/404|[from] item: Leftovers
+|-damage|p1a: Tyranitar|184/342 tox|[from] psn
+|turn|22
+|
+|move|p1a: Tyranitar|Aqua Tail|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|64/404
+|move|p2a: Tyranitar|Superpower|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|89/404|[from] item: Leftovers
+|
+|switch|p1a: Hydreigon|Hydreigon, F|193/325
+|-damage|p1a: Hydreigon|153/325|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Hydreigon|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1a: Hydreigon|def|1
+|-damage|p1a: Hydreigon|121/325|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|101/325|[from] sandstorm
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|181/304 slp
+|-damage|p2a: Rotom-Wash|143/304 slp|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|69/325|[from] item: Life Orb
+|faint|p2a: Rotom-Wash
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|dtw's rating: 1430 &rarr; <strong>1455</strong><br />(+25 for winning)
+|raw|Draigon's rating: 1529 &rarr; <strong>1504</strong><br />(-25 for losing)
+|chat|dtw|gg

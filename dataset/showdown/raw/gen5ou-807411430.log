@@ -1,0 +1,678 @@
+|j|☆CroCoeur
+|j|☆refsunpersons
+|player|p1|CroCoeur|161
+|player|p2|refsunpersons|151
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|c|☆CroCoeur|Hf
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|57/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Politoed
+|-sidestart|p1: CroCoeur|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|switch|p2a: Breloom|Breloom, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|-damage|p2a: Breloom|94/100|[from] Sandstorm
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Latios|Psyshock|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|76/100|[from] Sandstorm
+|-heal|p2a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, M|94/100
+|-damage|p1a: Politoed|82/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Tyranitar|Tyranitar, F|57/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|76/100|[from] Sandstorm
+|upkeep
+|turn|5
+|j| Avad21
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|69/100|[from] Sandstorm
+|-damage|p2a: Rotom|74/100|[from] Sandstorm
+|-heal|p2a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Celebi
+|-status|p1a: Celebi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|74/100|[from] Sandstorm
+|-damage|p1a: Celebi|82/100 brn|[from] Sandstorm
+|-heal|p2a: Rotom|80/100|[from] item: Leftovers
+|-heal|p1a: Celebi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|76/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Volt Switch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|61/100 brn
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|64/100
+|-heal|p1a: Celebi|76/100 brn|[from] drain|[of] p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|70/100 brn|[from] Sandstorm
+|-heal|p1a: Celebi|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|64/100 brn|[from] brn
+|upkeep
+|turn|8
+|l| Avad21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|76/100
+|-damage|p2a: Landorus|51/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Breloom|Breloom, M|94/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|88/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|switch|p1a: Celebi|Celebi|64/100
+|-damage|p1a: Celebi|51/100|[from] Stealth Rock
+|move|p2a: Breloom|Drain Punch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|32/100|[from] Sandstorm
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-heal|p1a: Celebi|38/100|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|switch|p2a: Tyranitar|Tyranitar, F|57/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Celebi|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|35/100
+|-heal|p1a: Celebi|99/100|[from] drain|[of] p2a: Tyranitar
+|move|p2a: Tyranitar|Crunch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|26/100|[from] Sandstorm
+|-heal|p1a: Celebi|32/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Celebi|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|-heal|p1a: Celebi|42/100|[from] drain|[of] p2a: Tyranitar
+|move|p2a: Tyranitar|Crunch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|82/100
+|-damage|p1a: Ferrothorn|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|5/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: refsunpersons|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|12/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|CroCoeur has 120 seconds left.
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|69/100
+|-damage|p1a: Politoed|57/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|15
+|
+|switch|p2a: Rotom|Rotom-Wash|80/100
+|-damage|p2a: Rotom|68/100|[from] Stealth Rock
+|move|p1a: Politoed|Ice Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|62/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|CroCoeur has 120 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|73/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|51/100
+|-damage|p2a: Landorus|39/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Landorus|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|56/100
+|
+|switch|p2a: Rotom|Rotom-Wash|62/100
+|-damage|p2a: Rotom|50/100|[from] Stealth Rock
+|move|p1a: Jirachi|Water Pulse|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|-heal|p2a: Rotom|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|38/100
+|move|p2a: Rotom|Hydro Pump|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|44/100|[from] item: Leftovers
+|-heal|p2a: Rotom|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Thunder|p2a: Rotom
+|-damage|p2a: Rotom|26/100
+|-status|p2a: Rotom|par
+|move|p2a: Rotom|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|32/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|76/100
+|-damage|p1a: Latios|64/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Latios|Thunder|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|39/100
+|-damage|p2a: Landorus|27/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|21
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|c|☆CroCoeur|Smart
+|c|☆refsunpersons|thanks
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|c|☆CroCoeur|Except I can survive more struggles
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|c|☆refsunpersons|I sort of need you to struggle just once
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|35
+|
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|
+|-activate|p1a: Latios|move: Struggle
+|move|p1a: Latios|Struggle|p2a: Landorus
+|-damage|p2a: Landorus|20/100
+|-damage|p1a: Latios|39/100|[from] recoil
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|37
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Latios|Psyshock|p1a: Vaporeon
+|-damage|p1a: Vaporeon|27/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|39
+|
+|move|p2a: Latios|Psyshock|p1a: Vaporeon
+|-damage|p1a: Vaporeon|32/100
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|38/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Skarmory|Skarmory, F|91/100
+|-damage|p2a: Skarmory|79/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|41
+|c|☆refsunpersons|lmao get that thing off my screen
+|
+|move|p1a: Vaporeon|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|42/100
+|move|p2a: Skarmory|Whirlwind|p1a: Vaporeon
+|drag|p1a: Latios|Latios, M|39/100
+|-damage|p1a: Latios|27/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|48/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Latios|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|20/100
+|-damage|p2a: Landorus|8/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|43
+|
+|move|p1a: Latios|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆CroCoeur|Why?
+|
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|turn|44
+|c|☆refsunpersons|I didn't know it was scarf
+|c|☆CroCoeur|Are was your Lando not scarfed?
+|
+|move|p1a: Latios|Surf|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|51/100
+|move|p2a: Latios|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆refsunpersons|It was scarfed
+|c|☆CroCoeur|So how could I have been faster than you if I wasn't scarfed?
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|45
+|
+|switch|p2a: Breloom|Breloom, M|100/100 tox
+|-damage|p2a: Breloom|94/100 tox|[from] Stealth Rock
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|46
+|
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|47
+|
+|move|p2a: Breloom|Seed Bomb|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|39/100
+|move|p1a: Vaporeon|Roar|p2a: Breloom
+|drag|p2a: Tyranitar|Tyranitar, F|14/100
+|-damage|p2a: Tyranitar|2/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|33/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|39/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|move|p2a: Tyranitar|Pursuit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|89/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|83/100 slp|[from] Sandstorm
+|-heal|p1a: Vaporeon|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|switch|p1a: Politoed|Politoed, M|57/100
+|-damage|p1a: Politoed|45/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Latios|Latios, M|51/100
+|-damage|p2a: Latios|39/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|50
+|
+|move|p1a: Politoed|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, M|100/100 tox
+|-damage|p2a: Breloom|94/100 tox|[from] Stealth Rock
+|turn|51
+|
+|move|p1a: Politoed|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|35/100 tox
+|move|p2a: Breloom|Seed Bomb|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|89/100 slp
+|-damage|p1a: Vaporeon|77/100 slp|[from] Stealth Rock
+|turn|52
+|
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|cant|p1a: Vaporeon|slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|-heal|p1a: Vaporeon|83/100|[from] item: Leftovers
+|-heal|p2a: Breloom|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|53
+|c|☆CroCoeur|Gg
+|c|☆refsunpersons|gg wp
+|
+|move|p2a: Breloom|Seed Bomb|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|win|refsunpersons
+|raw|CroCoeur's rating: 1390 &rarr; <strong>1368</strong><br />(-22 for losing)
+|raw|refsunpersons's rating: 1364 &rarr; <strong>1385</strong><br />(+21 for winning)

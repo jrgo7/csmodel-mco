@@ -1,0 +1,504 @@
+|j|☆bmy
+|j|☆ccssdcs
+|player|p1|bmy|275
+|player|p2|ccssdcs|25
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Breloom, F|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Starmie|item
+|poke|p1|Gengar, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Dragonite, F|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Gengar, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Ditto|item
+|poke|p2|Liepard, F|item
+|poke|p2|Drapion, F|item
+|teampreview
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-ability|p1a: Aerodactyl|Pressure
+|-transform|p2a: Ditto|p1a: Aerodactyl|[from] ability: Imposter
+|-ability|p2a: Ditto|Pressure
+|turn|1
+|
+|move|p2a: Ditto|Stealth Rock|p1a: Aerodactyl
+|-sidestart|p1: bmy|move: Stealth Rock
+|move|p1a: Aerodactyl|Stealth Rock|p2a: Ditto
+|-sidestart|p2: ccssdcs|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-damage|p2a: Smeargle|88/100|[from] Stealth Rock
+|move|p1a: Aerodactyl|Stone Edge|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|
+|switch|p2a: Liepard|Liepard, F|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|turn|3
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Aerodactyl|[from]Assist
+|drag|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Gengar|[from]Assist
+|drag|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Spore|p1a: Scizor|[from]Assist
+|-status|p1a: Scizor|slp
+|cant|p1a: Scizor|slp
+|
+|-heal|p2a: Liepard|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Liepard|Substitute|p2a: Liepard
+|-start|p2a: Liepard|Substitute
+|-damage|p2a: Liepard|76/100
+|cant|p1a: Scizor|slp
+|
+|-heal|p2a: Liepard|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Liepard|Nasty Plot|p2a: Liepard
+|-boost|p2a: Liepard|spa|2
+|-curestatus|p1a: Scizor|slp|[msg]
+|move|p1a: Scizor|Bullet Punch|p2a: Liepard
+|-end|p2a: Liepard|Substitute
+|
+|-heal|p2a: Liepard|87/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Aerodactyl|Aerodactyl, M|100/100
+|-damage|p1a: Aerodactyl|76/100|[from] Stealth Rock
+|-ability|p1a: Aerodactyl|Pressure
+|
+|-heal|p2a: Liepard|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Aerodactyl|[from]Assist
+|drag|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Drapion|Drapion, F|100/100
+|-damage|p2a: Drapion|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Extreme Speed|p2a: Drapion
+|-damage|p2a: Drapion|66/100
+|-damage|p1a: Dragonite|59/100|[from] item: Rocky Helmet|[of] p2a: Drapion
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|76/100
+|-damage|p1a: Aerodactyl|51/100|[from] Stealth Rock
+|-ability|p1a: Aerodactyl|Pressure
+|move|p2a: Drapion|Whirlwind|p1a: Aerodactyl
+|drag|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Spore|p2a: Skarmory
+|-status|p2a: Skarmory|slp
+|
+|-heal|p2a: Skarmory|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|cant|p2a: Skarmory|slp
+|
+|-heal|p2a: Skarmory|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|move|p1a: Starmie|Psyshock|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-damage|p1a: Starmie|78/100|[from] item: Life Orb
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Liepard|Liepard, F|99/100
+|-damage|p2a: Liepard|87/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Starmie|[from]Assist
+|drag|p1a: Scizor|Scizor, M|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|93/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Breloom|Breloom, F|94/100
+|-damage|p1a: Breloom|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Breloom|[from]Assist
+|drag|p1a: Gengar|Gengar, M|88/100
+|-damage|p1a: Gengar|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Liepard|Substitute|p2a: Liepard
+|-start|p2a: Liepard|Substitute
+|-damage|p2a: Liepard|76/100
+|move|p1a: Gengar|Focus Blast|p2a: Liepard|[miss]
+|-miss|p1a: Gengar|p2a: Liepard
+|
+|-heal|p2a: Liepard|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Gengar|[from]Assist
+|drag|p1a: Starmie|Starmie|78/100
+|-damage|p1a: Starmie|66/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|87/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Starmie|[from]Assist
+|drag|p1a: Scizor|Scizor, M|76/100
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|93/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Dragonite|Dragonite, F|59/100
+|-damage|p1a: Dragonite|35/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Liepard
+|-crit|p2a: Liepard
+|-end|p2a: Liepard|Substitute
+|move|p2a: Liepard|Dark Pulse|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Liepard|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|51/100
+|-damage|p1a: Aerodactyl|26/100|[from] Stealth Rock
+|-ability|p1a: Aerodactyl|Pressure
+|turn|23
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Aerodactyl|[from]Assist
+|drag|p1a: Scizor|Scizor, M|63/100
+|-damage|p1a: Scizor|51/100|[from] Stealth Rock
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Aerodactyl|Aerodactyl, M|26/100
+|-damage|p1a: Aerodactyl|1/100|[from] Stealth Rock
+|-ability|p1a: Aerodactyl|Pressure
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Scizor|Scizor, M|51/100
+|-damage|p1a: Scizor|39/100|[from] Stealth Rock
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Aerodactyl|Aerodactyl, M|1/100
+|-damage|p1a: Aerodactyl|0 fnt|[from] Stealth Rock
+|faint|p1a: Aerodactyl
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|39/100
+|-damage|p1a: Scizor|26/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Scizor|[from]Assist
+|drag|p1a: Starmie|Starmie|66/100
+|-damage|p1a: Starmie|54/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Starmie|[from]Assist
+|drag|p1a: Scizor|Scizor, M|26/100
+|-damage|p1a: Scizor|14/100|[from] Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Starmie|Starmie|54/100
+|-damage|p1a: Starmie|41/100|[from] Stealth Rock
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Starmie|[from]Assist
+|drag|p1a: Breloom|Breloom, F|88/100
+|-damage|p1a: Breloom|82/100|[from] Stealth Rock
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Breloom|[from]Assist
+|drag|p1a: Gengar|Gengar, M|76/100
+|-damage|p1a: Gengar|64/100|[from] Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Gengar|[from]Assist
+|drag|p1a: Scizor|Scizor, M|14/100
+|-damage|p1a: Scizor|2/100|[from] Stealth Rock
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Spore|p1a: Scizor|[from]Assist
+|-status|p1a: Scizor|slp
+|cant|p1a: Scizor|slp
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Liepard|Substitute|p2a: Liepard
+|-start|p2a: Liepard|Substitute
+|-damage|p2a: Liepard|76/100
+|cant|p1a: Scizor|slp
+|
+|-heal|p2a: Liepard|82/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Liepard|Nasty Plot|p2a: Liepard
+|-boost|p2a: Liepard|spa|2
+|-curestatus|p1a: Scizor|slp|[msg]
+|move|p1a: Scizor|Bullet Punch|p2a: Liepard
+|-end|p2a: Liepard|Substitute
+|
+|-heal|p2a: Liepard|87/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Scizor|[from]Assist
+|drag|p1a: Starmie|Starmie|41/100
+|-damage|p1a: Starmie|29/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|93/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Starmie|[from]Assist
+|drag|p1a: Scizor|Scizor, M|2/100
+|-damage|p1a: Scizor|0 fnt|[from] Stealth Rock
+|faint|p1a: Scizor
+|
+|-heal|p2a: Liepard|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|29/100
+|-damage|p1a: Starmie|17/100|[from] Stealth Rock
+|turn|36
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Starmie|[from]Assist
+|drag|p1a: Gengar|Gengar, M|64/100
+|-damage|p1a: Gengar|51/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Liepard|Substitute|p2a: Liepard
+|-start|p2a: Liepard|Substitute
+|-damage|p2a: Liepard|76/100
+|move|p1a: Gengar|Focus Blast|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-end|p2a: Liepard|Substitute
+|
+|-heal|p2a: Liepard|82/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Liepard|Substitute|p2a: Liepard
+|-start|p2a: Liepard|Substitute
+|-damage|p2a: Liepard|57/100
+|move|p1a: Gengar|Focus Blast|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-crit|p2a: Liepard
+|-end|p2a: Liepard|Substitute
+|
+|-heal|p2a: Liepard|63/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Liepard|Substitute|p2a: Liepard
+|-start|p2a: Liepard|Substitute
+|-damage|p2a: Liepard|38/100
+|move|p1a: Gengar|Focus Blast|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-end|p2a: Liepard|Substitute
+|
+|-heal|p2a: Liepard|44/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Liepard|Substitute|p2a: Liepard
+|-start|p2a: Liepard|Substitute
+|-damage|p2a: Liepard|19/100
+|move|p1a: Gengar|Focus Blast|p2a: Liepard|[miss]
+|-miss|p1a: Gengar|p2a: Liepard
+|
+|-heal|p2a: Liepard|25/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Gengar|[from]Assist
+|drag|p1a: Breloom|Breloom, F|82/100
+|-damage|p1a: Breloom|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|31/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Breloom|[from]Assist
+|drag|p1a: Gengar|Gengar, M|51/100
+|-damage|p1a: Gengar|39/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|37/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Gengar|[from]Assist
+|drag|p1a: Starmie|Starmie|17/100
+|-damage|p1a: Starmie|5/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|43/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|c|☆bmy|que hijo de puta
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Whirlwind|p1a: Starmie|[from]Assist
+|drag|p1a: Gengar|Gengar, M|39/100
+|-damage|p1a: Gengar|27/100|[from] Stealth Rock
+|
+|-heal|p2a: Liepard|48/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Spore|p1a: Gengar|[from]Assist
+|-status|p1a: Gengar|slp
+|cant|p1a: Gengar|slp
+|
+|-heal|p2a: Liepard|54/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|cant|p1a: Gengar|slp
+|move|p2a: Liepard|Dark Pulse|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-heal|p2a: Liepard|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|5/100
+|-damage|p1a: Starmie|0 fnt|[from] Stealth Rock
+|faint|p1a: Starmie
+|
+|switch|p1a: Breloom|Breloom, F|76/100
+|-damage|p1a: Breloom|70/100|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Liepard|Dark Pulse|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|win|ccssdcs
+|raw|bmy's rating: 1510 &rarr; <strong>1478</strong><br />(-32 for losing)
+|raw|ccssdcs's rating: 1264 &rarr; <strong>1305</strong><br />(+41 for winning)
+|l|☆bmy

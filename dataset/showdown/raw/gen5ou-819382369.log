@@ -1,0 +1,288 @@
+|j|☆Meloriver ヽ
+|j|☆Aquisz
+|player|p1|Meloriver ヽ|220
+|player|p2|Aquisz|22
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Latias, F|item
+|teampreview
+|
+|start
+|switch|p1a: Puxão|Keldeo|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|move|p1a: Puxão|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|59/100
+|move|p2a: Jirachi|Toxic|p1a: Puxão
+|-status|p1a: Puxão|tox
+|
+|-heal|p2a: Jirachi|65/100|[from] item: Leftovers
+|-damage|p1a: Puxão|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|move|p1a: Rotom|Volt Switch|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|59/100
+|
+|switch|p1a: Latios|Latios, M|100/100
+|
+|-heal|p2a: Keldeo|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|switch|p2a: Jirachi|Jirachi|65/100
+|
+|-heal|p2a: Jirachi|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|88/100
+|
+|switch|p2a: Jirachi|Jirachi|71/100
+|
+|-heal|p2a: Jirachi|77/100|[from] item: Leftovers
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|52/100
+|
+|-heal|p2a: Jirachi|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Jirachi|65/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Jirachi|[msg]
+|turn|9
+|
+|move|p1a: Landorus|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|move|p2a: Jirachi|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|63/100
+|
+|-heal|p2a: Jirachi|71/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|22/100 brn
+|
+|-heal|p2a: Landorus|28/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|16/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Landorus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|65/100
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Wash|94/100
+|move|p2a: Keldeo|Surf|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|75/100
+|
+|-heal|p2a: Keldeo|71/100|[from] item: Leftovers
+|-heal|p1a: Rotom|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Garchomp
+|-immune|p2a: Garchomp|[msg]
+|
+|-heal|p1a: Rotom|87/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|76/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Garchomp
+|-fail|p2a: Garchomp
+|
+|-heal|p1a: Rotom|93/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|
+|-heal|p1a: Rotom|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|51/100
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Garchomp|Outrage|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|18
+|
+|move|p1a: Latios|Draco Meteor|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|19
+|
+|-activate|p1a: Latios|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Latios|[from]Pursuit
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|63/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|turn|20
+|
+|switch|p2a: Jirachi|Jirachi|71/100
+|move|p1a: Landorus|Superpower|p2a: Jirachi
+|-enditem|p1a: Landorus|Fighting Gem|[from] gem|[move] Superpower
+|-damage|p2a: Jirachi|9/100
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|15/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Landorus|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|71/100
+|turn|22
+|
+|move|p2a: Keldeo|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|65/100|[from] Sandstorm
+|-heal|p2a: Keldeo|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Puxão|Keldeo|94/100 tox
+|turn|23
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Keldeo|Secret Sword|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|65/100|[from] Sandstorm
+|-heal|p2a: Keldeo|71/100|[from] item: Leftovers
+|upkeep
+|-message|Meloriver ヽ forfeited.
+|
+|win|Aquisz
+|l|☆Meloriver ヽ
+|raw|Meloriver ヽ's rating: 1512 &rarr; <strong>1481</strong><br />(-31 for losing)
+|raw|Aquisz's rating: 1309 &rarr; <strong>1340</strong><br />(+31 for winning)

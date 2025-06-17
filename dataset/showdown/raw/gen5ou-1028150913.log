@@ -1,0 +1,323 @@
+|j|☆blackkaiser
+|j|☆koumite
+|player|p1|blackkaiser|265|1507
+|player|p2|koumite|2|1386
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: koumite|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Spikes|p2a: Landorus
+|-sidestart|p2: koumite|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Landorus|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|48/100
+|-damage|p2a: Landorus|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Landorus|59/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2a: Landorus|def|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Landorus
+|-start|p2a: Landorus|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Landorus|47/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|59/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: koumite|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|88/100|[from] Spikes
+|move|p2a: Tyranitar|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|78/100|[from] Spikes
+|switch|p1a: Ferrothorn|Ferrothorn, F|59/100
+|-damage|p1a: Ferrothorn|46/100|[from] Spikes
+|-damage|p1a: Ferrothorn|40/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: koumite|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|25/100
+|-damage|p2a: Ferrothorn|88/100 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Ferrothorn|72/100 par|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|76/100|[from] Spikes
+|-damage|p1a: Garchomp|69/100|[from] Stealth Rock
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Garchomp|60/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|25/100
+|-damage|p1a: Ferrothorn|19/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|0 fnt|[from] Spikes
+|faint|p1a: Ferrothorn
+|move|p2a: Alakazam|Hidden Power|p1: Ferrothorn|[notarget]
+|-fail|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Landorus|Landorus-Therian, M|47/100
+|-damage|p2a: Landorus|35/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|move|p1a: Latios|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|17
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|32/100
+|move|p1a: Latios|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|26/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Latios|[miss]
+|-miss|p2a: Alakazam|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|20/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|82/100
+|-damage|p2a: Latios|70/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Latios|Surf|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|46/100
+|move|p2a: Latios|Dragon Pulse|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|40/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|76/100|[from] Spikes
+|-damage|p2a: Excadrill|73/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|-damage|p1a: Jellicent|63/100|[from] Spikes
+|move|p2a: Excadrill|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-damage|p1a: Hippowdon|69/100|[from] Spikes
+|turn|22
+|inactive|koumite has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, F|76/100
+|-damage|p2a: Tyranitar|63/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|38/100|[from] Spikes
+|move|p1a: Hippowdon|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|73/100
+|-damage|p2a: Excadrill|70/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|45/100|[from] Spikes
+|turn|23
+|
+|move|p2a: Excadrill|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|33/100
+|move|p1a: Hippowdon|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|blackkaiser
+|l|☆koumite
+|raw|blackkaiser's rating: 1508 &rarr; <strong>1521</strong><br />(+13 for winning)
+|raw|koumite's rating: 1387 &rarr; <strong>1373</strong><br />(-14 for losing)

@@ -1,0 +1,455 @@
+|j|☆sidis
+|j|☆Piecrumb
+|t:|1707111096
+|gametype|singles
+|player|p1|sidis|iris|1321
+|player|p2|Piecrumb|265|1460
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Starmie|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Salamence, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Jirachi|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sidis)
+|
+|t:|1707111125
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|turn|1
+|
+|t:|1707111136
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rotom|[miss]
+|-miss|p2a: Rotom|p1a: Rotom
+|
+|upkeep
+|turn|2
+|
+|t:|1707111144
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-damage|p2a: Rotom|88/100 brn|[from] brn
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1707111153
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|67/100 brn
+|
+|t:|1707111160
+|switch|p2a: Jirachi|Jirachi|100/100|[from] Volt Switch
+|move|p1a: Rotom|Volt Switch|p2a: Jirachi
+|-damage|p2a: Jirachi|85/100
+|
+|t:|1707111163
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|
+|-heal|p2a: Jirachi|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1707111180
+|switch|p2a: Rotom|Rotom-Wash|88/100 brn
+|move|p1a: Landorus|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Piecrumb|move: Stealth Rock
+|
+|-heal|p2a: Rotom|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1707111187
+|switch|p1a: Rotom|Rotom-Wash|67/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|46/100 brn
+|
+|t:|1707111192
+|switch|p2a: Jirachi|Jirachi|91/100|[from] Volt Switch
+|-damage|p2a: Jirachi|85/100|[from] Stealth Rock
+|
+|-heal|p2a: Jirachi|91/100|[from] item: Leftovers
+|-damage|p1a: Rotom|34/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1707111200
+|move|p2a: Jirachi|Stealth Rock|p1a: Rotom
+|-sidestart|p1: sidis|move: Stealth Rock
+|move|p1a: Rotom|Rest|p1a: Rotom
+|-status|p1a: Rotom|slp|[from] move: Rest
+|-heal|p1a: Rotom|100/100 slp|[silent]
+|-enditem|p1a: Rotom|Chesto Berry|[eat]
+|-curestatus|p1a: Rotom|slp|[msg]
+|
+|-heal|p2a: Jirachi|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1707111213
+|move|p2a: Jirachi|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|84/100
+|
+|t:|1707111219
+|switch|p2a: Rotom|Rotom-Wash|82/100 brn|[from] U-turn
+|-damage|p2a: Rotom|69/100 brn|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Rotom
+|-fail|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|63/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1707111233
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom|[miss]
+|-miss|p1a: Rotom|p2a: Rotom
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-heal|p2a: Rotom|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|72/100 brn|[from] brn
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1707111246
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom|[miss]
+|-miss|p1a: Rotom|p2a: Rotom
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|53/100 brn
+|inactive|Piecrumb has 120 seconds left.
+|
+|t:|1707111300
+|switch|p2a: Magnezone|Magnezone|100/100|[from] Volt Switch
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Magnezone|100/100|[from] item: Leftovers
+|-damage|p1a: Rotom|41/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1707111308
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|move|p1a: Rotom|Rest|p1a: Rotom
+|-status|p1a: Rotom|slp|[from] move: Rest
+|-heal|p1a: Rotom|100/100 slp|[silent]
+|
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1707111319
+|move|p2a: Magnezone|Thunderbolt|p1a: Rotom
+|-damage|p1a: Rotom|60/100 slp
+|cant|p1a: Rotom|slp
+|
+|-heal|p2a: Magnezone|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1707111330
+|move|p2a: Magnezone|Thunderbolt|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Magnezone|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1707111335
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1707111339
+|move|p1a: Starmie|Rapid Spin|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|-sideend|p1: sidis|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|78/100|[from] item: Life Orb
+|move|p2a: Magnezone|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-heal|p2a: Magnezone|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1707111341
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Magnezone
+|turn|14
+|inactive|Piecrumb has 120 seconds left.
+|
+|t:|1707111353
+|move|p1a: Landorus|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Flash Cannon|p1a: Landorus
+|-damage|p1a: Landorus|45/100
+|
+|-heal|p2a: Magnezone|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1707111361
+|switch|p2a: Rotom|Rotom-Wash|57/100 brn
+|-damage|p2a: Rotom|44/100 brn|[from] Stealth Rock
+|move|p1a: Landorus|Gravity|p1a: Landorus
+|-fieldstart|move: Gravity
+|
+|-heal|p2a: Rotom|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|38/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|Piecrumb has 120 seconds left.
+|
+|t:|1707111381
+|move|p1a: Landorus|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|inactive|Piecrumb has 120 seconds left.
+|
+|t:|1707111402
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|turn|17
+|
+|t:|1707111411
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Kyurem|Dragon Claw|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|50/100
+|
+|upkeep
+|turn|18
+|
+|t:|1707111431
+|switch|p2a: Jirachi|Jirachi|97/100
+|-damage|p2a: Jirachi|91/100|[from] Stealth Rock
+|move|p1a: Scizor|Superpower|p2a: Jirachi
+|-damage|p2a: Jirachi|58/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|
+|-heal|p2a: Jirachi|64/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1707111446
+|switch|p1a: Landorus|Landorus-Therian, M|45/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|26/100
+|inactive|Piecrumb has 90 seconds left.
+|
+|t:|1707111473
+|switch|p2a: Kyurem|Kyurem-Black|76/100|[from] U-turn
+|-damage|p2a: Kyurem|51/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|20
+|inactive|Piecrumb has 90 seconds left.
+|
+|t:|1707111486
+|move|p1a: Landorus|Earthquake|p2a: Kyurem
+|-damage|p2a: Kyurem|2/100
+|move|p2a: Kyurem|Dragon Claw|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1707111489
+|switch|p1a: Scizor|Scizor, M|50/100
+|turn|21
+|
+|t:|1707111494
+|move|p1a: Scizor|U-turn|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|t:|1707111497
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] U-turn
+|
+|upkeep
+|inactive|Piecrumb has 90 seconds left.
+|
+|t:|1707111539
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|22
+|inactive|sidis has 120 seconds left.
+|
+|t:|1707111578
+|move|p2a: Scizor|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|48/100
+|-damage|p2a: Scizor|76/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Fire Fang|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1707111586
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1707111590
+|switch|p1a: Scizor|Scizor, M|50/100
+|move|p2a: Salamence|Outrage|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|13/100
+|
+|upkeep
+|turn|24
+|
+|t:|1707111596
+|move|p1a: Scizor|Bullet Punch|p2a: Salamence
+|-damage|p2a: Salamence|36/100
+|move|p2a: Salamence|Outrage|p1a: Scizor|[from]lockedmove
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|-start|p2a: Salamence|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1707111602
+|switch|p1a: Garchomp|Garchomp, M|48/100
+|turn|25
+|
+|t:|1707111612
+|switch|p2a: Jirachi|Jirachi|64/100
+|-damage|p2a: Jirachi|58/100|[from] Stealth Rock
+|move|p1a: Garchomp|Outrage|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|12/100
+|
+|-heal|p2a: Jirachi|18/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1707111624
+|move|p1a: Garchomp|Outrage|p2a: Jirachi|[from]lockedmove
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1707111630
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1707111635
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|70/100
+|
+|-heal|p2a: Magnezone|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1707111643
+|move|p1a: Haxorus|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Flash Cannon|p1a: Haxorus
+|-damage|p1a: Haxorus|35/100
+|
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Piecrumb has 120 seconds left.
+|
+|t:|1707111655
+|switch|p1a: Garchomp|Garchomp, M|48/100
+|switch|p2a: Salamence|Salamence, M|36/100
+|-damage|p2a: Salamence|12/100|[from] Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|t:|1707111663
+|move|p2a: Salamence|Outrage|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Salamence|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p2a: Salamence
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1707111670
+|switch|p2a: Magnezone|Magnezone|82/100
+|switch|p1a: Haxorus|Haxorus, M, shiny|35/100
+|-ability|p1a: Haxorus|Mold Breaker
+|-damage|p2a: Magnezone|76/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1707111676
+|move|p1a: Haxorus|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|win|sidis
+|raw|sidis's rating: 1321 &rarr; <strong>1349</strong><br />(+28 for winning)
+|raw|Piecrumb's rating: 1460 &rarr; <strong>1432</strong><br />(-28 for losing)
+|c|☆Piecrumb|gg
+|l|☆Piecrumb
+|player|p2|

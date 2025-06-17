@@ -1,0 +1,434 @@
+|j|☆TriKiwi
+|j|☆GrinchsBankAccount
+|player|p1|TriKiwi|197
+|player|p2|GrinchsBankAccount|20
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Breloom, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Scizor, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Gastrodon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TriKiwi)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Scizor
+|-sidestart|p2: GrinchsBankAccount|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|
+|-damage|p2a: Scizor|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|3
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|73/100
+|
+|-damage|p2a: Scizor|60/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|4
+|
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|84/100
+|
+|-damage|p2a: Scizor|72/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|5
+|inactive|GrinchsBankAccount has 135 seconds left.
+|inactive|GrinchsBankAccount has 120 seconds left.
+|inactive|GrinchsBankAccount has 105 seconds left.
+|inactive|GrinchsBankAccount has 90 seconds left.
+|inactive|GrinchsBankAccount has 75 seconds left.
+|inactive|GrinchsBankAccount has 60 seconds left.
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|49/100
+|-damage|p2a: Scizor|60/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Scizor|43/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|27/100
+|
+|-damage|p2a: Scizor|15/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|61/100|[silent]
+|upkeep
+|turn|6
+|inactive|TriKiwi has 135 seconds left.
+|inactive|TriKiwi has 120 seconds left.
+|inactive|TriKiwi has 105 seconds left.
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|65/100
+|
+|-damage|p2a: Scizor|53/100|[from] Leech Seed|[of] p1a: Breloom
+|upkeep
+|turn|7
+|
+|move|p1a: Breloom|Mach Punch|p2a: Scizor
+|-damage|p2a: Scizor|15/100
+|-damage|p1a: Breloom|91/100|[from] item: Life Orb
+|move|p2a: Scizor|Bullet Punch|p1a: Breloom
+|-crit|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|61/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|65/100
+|
+|-damage|p2a: Scizor|53/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|73/100|[silent]
+|upkeep
+|turn|9
+|c|☆GrinchsBankAccount|lol
+|
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|85/100
+|
+|-damage|p2a: Scizor|73/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|85/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|85/100
+|
+|-damage|p2a: Scizor|73/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|97/100|[silent]
+|upkeep
+|turn|11
+|
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|91/100
+|
+|-damage|p2a: Scizor|79/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|12
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|-damage|p2a: Scizor|67/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Scizor|50/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|40/100
+|
+|-damage|p2a: Scizor|28/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|59/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|78/100
+|
+|-damage|p2a: Scizor|66/100|[from] Leech Seed|[of] p1a: Keldeo
+|upkeep
+|turn|14
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|9/100
+|move|p1a: Keldeo|Surf|p2a: Scizor
+|-damage|p2a: Scizor|12/100
+|
+|-damage|p2a: Scizor|0 fnt|[from] Leech Seed|[of] p1a: Keldeo
+|-heal|p1a: Keldeo|21/100|[silent]
+|upkeep
+|faint|p2a: Scizor
+|inactive|GrinchsBankAccount has 135 seconds left.
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Keldeo|Surf|p2a: Garchomp
+|-damage|p2a: Garchomp|39/100
+|move|p2a: Garchomp|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|16
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Politoed|Ice Beam|p2a: Gastrodon
+|-damage|p2a: Gastrodon|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|73/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Politoed|Ice Beam|p2a: Gastrodon
+|-damage|p2a: Gastrodon|47/100
+|move|p2a: Gastrodon|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|81/100
+|-status|p1a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|54/100|[from] item: Leftovers
+|-damage|p1a: Politoed|68/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|75/100
+|move|p2a: Gastrodon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Kyurem|Freeze Shock|p2a: Gastrodon|[still]
+|-prepare|p1a: Kyurem|Freeze Shock|p2a: Gastrodon
+|-enditem|p1a: Kyurem|Power Herb
+|-anim|p1a: Kyurem|Freeze Shock|p2a: Gastrodon
+|-damage|p2a: Gastrodon|28/100
+|move|p2a: Gastrodon|Earthquake|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|35/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Kyurem|Outrage|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|GrinchsBankAccount has 135 seconds left.
+|
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Kyurem|Outrage|p2a: Blastoise|[from]lockedmove
+|-damage|p2a: Blastoise|26/100
+|-enditem|p2a: Blastoise|Sitrus Berry|[eat]
+|-heal|p2a: Blastoise|51/100|[from] item: Sitrus Berry
+|-start|p1a: Kyurem|confusion|[fatigue]
+|move|p2a: Blastoise|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|58/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|59/100
+|move|p2a: Blastoise|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p2a: Blastoise|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|35/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|GrinchsBankAccount has 135 seconds left.
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|25
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: TriKiwi|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Heatran
+|-start|p2a: Heatran|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Heatran|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|48/100|[silent]
+|upkeep
+|turn|26
+|j| wh11skey
+|inactive|TriKiwi has 135 seconds left.
+|inactive|GrinchsBankAccount has 135 seconds left.
+|
+|switch|p1a: Politoed|Politoed, F, shiny|68/100 brn
+|-damage|p1a: Politoed|56/100 brn|[from] Stealth Rock
+|move|p2a: Heatran|Lava Plume|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|47/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Heatran|63/100|[from] Leech Seed|[of] p1a: Politoed
+|-heal|p1a: Politoed|62/100 brn|[silent]
+|-damage|p1a: Politoed|50/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Politoed|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Air Balloon
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|37/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|39/100
+|-damage|p2a: Garchomp|33/100|[from] Stealth Rock
+|turn|28
+|inactive|TriKiwi has 135 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|48/100
+|-damage|p1a: Ferrothorn|42/100|[from] Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p2a: Garchomp|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|TriKiwi has 135 seconds left.
+|
+|switch|p1a: Politoed|Politoed, F, shiny|37/100 brn
+|-damage|p1a: Politoed|25/100 brn|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Garchomp|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|58/100
+|-damage|p1a: Kyurem|33/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|turn|31
+|
+|move|p2a: Garchomp|Earthquake|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|25/100
+|move|p1a: Jirachi|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|32/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Gengar|78/100|[from] item: Life Orb
+|faint|p1a: Jirachi
+|
+|win|GrinchsBankAccount
+|raw|TriKiwi's rating: 1402 &rarr; <strong>1374</strong><br />(-28 for losing)
+|raw|GrinchsBankAccount's rating: 1270 &rarr; <strong>1304</strong><br />(+34 for winning)
+|l|☆GrinchsBankAccount
+|l|☆TriKiwi
+|j|☆GrinchsBankAccount

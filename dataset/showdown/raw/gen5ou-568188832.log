@@ -1,0 +1,239 @@
+|j|Dragon Lords
+|j|bmy
+|player|p1|Dragon Lords|1
+|player|p2|bmy|266
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|14016,45982,48784,27964
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Starmie|item
+|poke|p1|Scizor, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Mew|item
+|poke|p2|Dragonite, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Politoed|Politoed, F|321/321
+|switch|p2a: Aerodactyl|Aerodactyl, M|301/301
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|choice|move scald|move stealthrock
+|
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Dragon Lords|move: Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-enditem|p2a: Aerodactyl|Focus Sash
+|-damage|p2a: Aerodactyl|1/301
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|choice|move scald|move stoneedge
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Politoed
+|-damage|p1a: Politoed|129/321
+|move|p1a: Politoed|Scald|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Latios|Latios, M|301/301
+|turn|3
+|choice|move scald|move psyshock
+|
+|move|p1a: Politoed|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|222/301
+|-status|p2a: Latios|brn
+|move|p2a: Latios|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Latios|192/301 brn|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Latios|155/301 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie|261/261
+|-damage|p1a: Starmie|229/261|[from] Stealth Rock
+|turn|4
+|choice|move icebeam|move dracometeor
+|
+|move|p1a: Starmie|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mew|Mew|341/341
+|turn|5
+|l|bmy
+|player|p2|
+|j|bmy
+|player|p2|bmy|266
+|choice|switch 3|move nastyplot
+|
+|switch|p1a: Vaporeon|Vaporeon, F|449/449
+|-damage|p1a: Vaporeon|393/449|[from] Stealth Rock
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|choice|move surf|move psychic
+|
+|move|p2a: Mew|Psychic|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Starmie|Starmie|229/261
+|-damage|p1a: Starmie|197/261|[from] Stealth Rock
+|turn|7
+|choice|move hydropump|move psychic
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|8
+|choice|move hydropump|move dragondance
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|217/323
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|choice|move hydropump|move earthquake
+|
+|move|p2a: Dragonite|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Scizor|Scizor, F|281/281
+|-damage|p1a: Scizor|246/281|[from] Stealth Rock
+|turn|10
+|choice|move acrobatics|move earthquake
+|
+|move|p2a: Dragonite|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|41/281
+|move|p1a: Scizor|Acrobatics|p2a: Dragonite
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Cloyster|Cloyster, F|241/241
+|turn|11
+|choice|move bulletpunch|switch 2
+|
+|switch|p2a: Excadrill|Excadrill, F|361/361
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|272/361
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|choice|move bulletpunch|move earthquake
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|187/361
+|move|p2a: Excadrill|Earthquake|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|326/326
+|-damage|p1a: Thundurus|245/326|[from] Stealth Rock
+|turn|13
+|choice|move focusblast|move earthquake
+|
+|move|p2a: Excadrill|Earthquake|p1a: Thundurus
+|-immune|p1a: Thundurus|[msg]
+|move|p1a: Thundurus|Focus Blast|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|265/326|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Cloyster|Cloyster, F|241/241
+|turn|14
+|choice|move thunder|move iceshard
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|107/326
+|move|p1a: Thundurus|Thunder|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|win|Dragon Lords
+|raw|Dragon Lords's rating: 1313 &rarr; <strong>1336</strong><br />(+23 for winning)
+|raw|bmy's rating: 1355 &rarr; <strong>1333</strong><br />(-22 for losing)
+|c|☆Dragon Lords|gg

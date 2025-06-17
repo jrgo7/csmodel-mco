@@ -1,0 +1,228 @@
+|join|mytns
+|join|Figufgyu
+|player|p1|mytns|238
+|player|p2|Figufgyu|101
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Marowak, M
+|poke|p1|Breloom, M
+|poke|p1|Cloyster, F
+|poke|p1|Ninjask, M
+|poke|p1|Espeon, F
+|poke|p1|Jolteon, M
+|poke|p2|Politoed, M
+|poke|p2|Ferrothorn, F
+|poke|p2|Toxicroak, M
+|poke|p2|Jellicent, F
+|poke|p2|Breloom, F
+|poke|p2|Dragonite, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Tesla|Jolteon, M|272/272
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|turn|1
+|
+|switch|p1a: Salem|Espeon, F|334/334
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Salem
+|move|p1a: Salem|Stealth Rock|p2a: Ferrothorn|[from]Magic Bounce
+|-sidestart|p2: Figufgyu|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Salem|Reflect|p1a: Salem
+|-sidestart|p1: mytns|Reflect
+|move|p2a: Ferrothorn|Power Whip|p1a: Salem
+|-damage|p1a: Salem|229/334
+|
+|turn|3
+|
+|move|p1a: Salem|Light Screen|p1a: Salem
+|-sidestart|p1: mytns|move: Light Screen
+|move|p2a: Ferrothorn|Power Whip|p1a: Salem|[miss]
+|-miss|p2a: Ferrothorn|p1a: Salem
+|
+|turn|4
+|
+|switch|p1a: Heisenberg|Ninjask, M|326/326
+|move|p2a: Ferrothorn|Power Whip|p1a: Heisenberg
+|-resisted|p1a: Heisenberg
+|-damage|p1a: Heisenberg|294/326
+|
+|-heal|p1a: Heisenberg|314/326|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Politoed|Politoed, M|321/321
+|-damage|p2a: Politoed|281/321|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Heisenberg|Substitute|p1a: Heisenberg
+|-start|p1a: Heisenberg|Substitute
+|-damage|p1a: Heisenberg|233/326
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heisenberg|253/326|[from] item: Leftovers
+|-boost|p1a: Heisenberg|spe|1|[from] ability: Speed Boost
+|turn|6
+|
+|move|p1a: Heisenberg|Swords Dance|p1a: Heisenberg
+|-boost|p1a: Heisenberg|atk|2
+|move|p2a: Politoed|Ice Beam|p1a: Heisenberg
+|-supereffective|p1a: Heisenberg
+|-end|p1a: Heisenberg|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heisenberg|273/326|[from] item: Leftovers
+|-boost|p1a: Heisenberg|spe|1|[from] ability: Speed Boost
+|turn|7
+|
+|move|p1a: Heisenberg|Baton Pass|p1a: Heisenberg
+|
+|switch|p1a: MaroWAR!!!|Marowak, M|261/261
+|move|p2a: Politoed|Ice Beam|p1a: MaroWAR!!!
+|-supereffective|p1a: MaroWAR!!!
+|-damage|p1a: MaroWAR!!!|149/261
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: MaroWAR!!!|Double-Edge|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p2a: Ferrothorn|330/352|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: MaroWAR!!!|Fire Punch|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: MaroWAR!!!|117/261|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: mytns|Reflect
+|
+|switch|p2a: Toxicroak|Toxicroak, M|308/308
+|-damage|p2a: Toxicroak|289/308|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: MaroWAR!!!
+|-damage|p1a: MaroWAR!!!|13/261
+|-damage|p2a: Toxicroak|259/308|[from] item: Life Orb
+|move|p1a: MaroWAR!!!|Double-Edge|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: mytns|move: Light Screen
+|
+|switch|p2a: Breloom|Breloom, F|262/262
+|-damage|p2a: Breloom|246/262|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: MaroWAR!!!|Fire Punch|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, F|386/386
+|-damage|p2a: Dragonite|290/386|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: MaroWAR!!!|Stone Edge|p2a: Dragonite|[miss]
+|-miss|p1a: MaroWAR!!!|p2a: Dragonite
+|move|p2a: Dragonite|Hurricane|p1a: MaroWAR!!!
+|-damage|p1a: MaroWAR!!!|0 fnt
+|faint|p1a: MaroWAR!!!
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|314/386|[from] item: Leftovers
+|
+|switch|p1a: Tesla|Jolteon, M|272/272
+|turn|13
+|
+|move|p1a: Tesla|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|114/386
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|307/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|331/386|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Tesla|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|cant|p2a: Dragonite|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|355/386 par|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Tesla|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|131/386 par
+|move|p2a: Dragonite|Hurricane|p1a: Tesla
+|-resisted|p1a: Tesla
+|-damage|p1a: Tesla|199/272
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|155/386 par|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Jellicent|Jellicent, F|404/404
+|-damage|p2a: Jellicent|354/404|[from] Stealth Rock
+|move|p1a: Tesla|Hidden Power|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|330/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|355/404|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Tesla|Thunderbolt|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|155/404
+|move|p2a: Jellicent|Scald|p1a: Tesla
+|-damage|p1a: Tesla|75/272
+|-status|p1a: Tesla|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|180/404|[from] item: Leftovers
+|-damage|p1a: Tesla|41/272 brn|[from] brn
+|turn|18
+|
+|move|p1a: Tesla|Thunderbolt|p2a: Jellicent
+|-crit|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Tesla|7/272 brn|[from] brn
+|
+|switch|p2a: Dragonite|Dragonite, F|155/386 par
+|-damage|p2a: Dragonite|59/386 par|[from] Stealth Rock
+|turn|19
+|-message|Figufgyu forfeited.
+|
+|win|mytns
+|raw|Ladder updating...
+|raw|mytns's rating: 1388 &rarr; <strong>1407</strong><br />(+19 for winning)
+|raw|Figufgyu's rating: 1367 &rarr; <strong>1348</strong><br />(-19 for losing)

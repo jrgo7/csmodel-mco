@@ -1,0 +1,406 @@
+|j|☆Machine Gun Dragon
+|j|☆Goootzinho
+|player|p1|Machine Gun Dragon|ryuki|1489
+|player|p2|Goootzinho|80|1381
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Celebi|item
+|poke|p1|Starmie|item
+|poke|p2|Starmie|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Terrakion|item
+|poke|p2|Latias, F|item
+|poke|p2|Reuniclus, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Machine Gun Dragon)
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Gliscor|Toxic|p2a: Reuniclus
+|-status|p2a: Reuniclus|tox
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|77/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100 tox
+|move|p1a: Gliscor|Toxic|p2a: Reuniclus
+|-fail|p2a: Reuniclus|tox
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Reuniclus|Psychic|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|j| qiyuanfan
+|
+|switch|p2a: Garchomp|Garchomp, F|77/100
+|move|p1a: Tyranitar|Crunch|p2a: Garchomp
+|-damage|p2a: Garchomp|50/100
+|-damage|p1a: Tyranitar|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Tyranitar|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100 tox
+|move|p2a: Garchomp|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: Machine Gun Dragon|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|57/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Starmie|Scald|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|51/100|[from] Sandstorm
+|upkeep
+|turn|9
+|l| qiyuanfan
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Goootzinho has 120 seconds left.
+|j| qiyuanfan
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Starmie|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|99/100
+|-sideend|p1: Machine Gun Dragon|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100 tox
+|move|p2a: Jirachi|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|95/100 tox
+|inactive|Goootzinho has 120 seconds left.
+|l| qiyuanfan
+|j| qiyuanfan
+|
+|switch|p2a: Latias|Latias, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|94/100|[from] Sandstorm
+|-heal|p2a: Latias|100/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|75/100
+|move|p1a: Gliscor|Toxic||[still]
+|-fail|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|69/100|[from] Sandstorm
+|-heal|p2a: Latias|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Goootzinho has 120 seconds left.
+|
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|move|p2a: Latias|Dragon Pulse|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|69/100|[from] Sandstorm
+|-heal|p2a: Latias|75/100|[from] item: Leftovers
+|-heal|p1a: Heatran|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Terrakion
+|-sidestart|p2: Goootzinho|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100 tox
+|move|p2a: Terrakion|Swords Dance|p2a: Terrakion
+|-boost|p2a: Terrakion|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Gliscor
+|-damage|p1a: Gliscor|8/100 tox
+|-damage|p2a: Terrakion|91/100|[from] item: Life Orb
+|move|p1a: Gliscor|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-crit|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|20/100 tox|[from] ability: Poison Heal
+|upkeep
+|c|☆Goootzinho|cool
+|inactive|Goootzinho has 120 seconds left.
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100 tox
+|turn|17
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|33/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|switch|p1a: Heatran|Heatran, M, shiny|91/100
+|move|p2a: Reuniclus|Psychic|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Reuniclus|Psychic|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Reuniclus|Psychic|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|71/100|[from] Sandstorm
+|-heal|p1a: Celebi|77/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Reuniclus|Shadow Ball|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|c|☆Machine Gun Dragon|cool
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|72/100
+|turn|22
+|c|☆Goootzinho|i literraly swept you
+|c|☆Machine Gun Dragon|yeah
+|c|☆Machine Gun Dragon|like me
+|
+|-activate|p2a: Reuniclus|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Reuniclus|[from]Pursuit
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|23/100 tox
+|switch|p2a: Garchomp|Garchomp, F|50/100
+|-damage|p2a: Garchomp|44/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|33/100 tox
+|switch|p2a: Starmie|Starmie|94/100
+|-damage|p2a: Starmie|82/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100|[from] Sandstorm
+|-heal|p1a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Starmie|Scald|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|70/100|[from] Sandstorm
+|-heal|p1a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|72/100
+|move|p2a: Starmie|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|63/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|move|p1a: Tyranitar|Crunch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-enditem|p2a: Starmie|Colbur Berry|[eat]
+|-enditem|p2a: Starmie|Colbur Berry|[weaken]
+|-damage|p2a: Starmie|10/100
+|move|p2a: Starmie|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|31/100
+|-sideend|p2: Goootzinho|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|4/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|move|p1a: Tyranitar|Crunch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|28
+|
+|switch|p1a: Gliscor|Gliscor, M, shiny|58/100 tox
+|move|p2a: Jirachi|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|53/100 tox
+|
+|switch|p2a: Reuniclus|Reuniclus, M|23/100 tox|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|65/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|move|p1a: Gliscor|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|75/100
+|turn|30
+|
+|switch|p1a: Heatran|Heatran, M, shiny|82/100
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|44/100|[from] Sandstorm
+|-heal|p2a: Latias|50/100|[from] item: Leftovers
+|-heal|p1a: Heatran|89/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Latias
+|-sidestart|p2: Goootzinho|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|94/100|[from] Sandstorm
+|-heal|p2a: Latias|100/100|[from] item: Leftovers
+|-heal|p1a: Heatran|95/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Heatran|Roar|p2a: Latias
+|drag|p2a: Garchomp|Garchomp, F|44/100
+|-damage|p2a: Garchomp|37/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|-message|Goootzinho forfeited.
+|
+|win|Machine Gun Dragon
+|l|☆Goootzinho
+|raw|Machine Gun Dragon's rating: 1489 &rarr; <strong>1503</strong><br />(+14 for winning)
+|raw|Goootzinho's rating: 1382 &rarr; <strong>1368</strong><br />(-14 for losing)

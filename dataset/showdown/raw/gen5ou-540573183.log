@@ -1,0 +1,424 @@
+|j|☆MikeyTapsa
+|j|☆Veloir
+|player|p1|MikeyTapsa|266
+|player|p2|Veloir|252
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Scizor, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Vaporeon, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Dragonite, F|item
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MikeyTapsa)
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|82/100
+|
+|-heal|p1a: Lanturn|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Lanturn
+|-status|p1a: Lanturn|brn
+|move|p1a: Lanturn|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Lanturn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|95/100 tox|[from] psn
+|-damage|p1a: Lanturn|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|63/100 brn
+|move|p1a: Lanturn|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|70/100 tox
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|
+|-heal|p2a: Rotom|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|64/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Landorus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|34/100 tox
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Vaporeon
+|-immune|p1a: Vaporeon|[msg]|[from] ability: Water Absorb
+|
+|-heal|p2a: Rotom|40/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|22/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Rotom|Pain Split|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p2a: Rotom|28/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|4/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Lanturn|Lanturn, M|63/100 brn
+|move|p2a: Rotom|Pain Split|p1a: Lanturn
+|-sethp|p1a: Lanturn|33/100 brn|p2a: Rotom|55/100 tox|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|61/100 tox|[from] item: Leftovers
+|-heal|p1a: Lanturn|39/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|31/100 tox|[from] psn
+|-damage|p1a: Lanturn|26/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Lanturn|Heal Bell|p1a: Lanturn
+|-activate|p1a: Lanturn|move: Heal Bell
+|-curestatus|p1a: Lanturn|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lanturn|20/100|[from] Sandstorm
+|-heal|p1a: Lanturn|26/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| 1p0n
+|inactive|Veloir has 135 seconds left.
+|inactive|Veloir has 120 seconds left.
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: MikeyTapsa|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Veloir has 135 seconds left.
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Vaporeon|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Lanturn|Lanturn, M|26/100
+|-damage|p1a: Lanturn|14/100|[from] Stealth Rock
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lanturn|8/100|[from] Sandstorm
+|-heal|p2a: Jirachi|70/100|[from] item: Leftovers
+|-heal|p1a: Lanturn|14/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Jirachi|Psychic|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|12
+|
+|move|p1a: Heatran|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: Veloir|move: Stealth Rock
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|60/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|46/100
+|move|p2a: Jirachi|Psychic|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|47/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|52/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Veloir has 135 seconds left.
+|
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|31/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Veloir has 135 seconds left.
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|18
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Heatran|[miss]
+|-miss|p2a: Alakazam|p1a: Heatran
+|move|p1a: Heatran|Lava Plume|p2a: Alakazam
+|-damage|p2a: Alakazam|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|inactive|Veloir has 135 seconds left.
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Heatran|[miss]
+|-miss|p2a: Alakazam|p1a: Heatran
+|move|p1a: Heatran|Lava Plume|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Heatran|Hidden Power|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|21
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Hidden Power|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Heatran|Lava Plume|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|70/100
+|move|p2a: Tyranitar|Pursuit|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Heatran|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|44/100
+|-unboost|p2a: Tyranitar|spd|1
+|move|p2a: Tyranitar|Low Kick|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p2a: Gliscor|Gliscor, M|88/100 tox
+|-damage|p2a: Gliscor|76/100 tox|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|44/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|82/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Vaporeon|Ice Beam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|82/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|switch|p2a: Rotom|Rotom-Wash|31/100 tox
+|-damage|p2a: Rotom|19/100 tox|[from] Stealth Rock
+|move|p1a: Vaporeon|Ice Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|4/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|0 fnt|[from] Sandstorm
+|-damage|p1a: Vaporeon|82/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|upkeep
+|faint|p2a: Rotom
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Dragonite|Outrage|p1a: Vaporeon
+|-damage|p1a: Vaporeon|7/100
+|move|p1a: Vaporeon|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|0 fnt|[from] Sandstorm
+|upkeep
+|faint|p1a: Vaporeon
+|
+|switch|p2a: Gliscor|Gliscor, M|81/100 tox
+|switch|p1a: Scizor|Scizor, M|88/100
+|-damage|p2a: Gliscor|68/100 tox|[from] Stealth Rock
+|-damage|p1a: Scizor|75/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Veloir has 135 seconds left.
+|inactive|Veloir has 120 seconds left.
+|inactive|Veloir has 105 seconds left.
+|c|☆MikeyTapsa|Come on
+|inactive|Veloir has 90 seconds left.
+|c|☆Veloir|eat my asshole
+|
+|switch|p2a: Tyranitar|Tyranitar, M|44/100
+|-damage|p2a: Tyranitar|32/100|[from] Stealth Rock
+|turn|30
+|c| 1p0n|lol
+|c| 1p0n|kinky
+|inactive|Veloir has 135 seconds left.
+|c| 1p0n|I like that
+|inactive|Veloir has 120 seconds left.
+|inactive|Veloir has 105 seconds left.
+|inactive|Veloir has 90 seconds left.
+|inactive|Veloir has 75 seconds left.
+|inactive|Veloir has 60 seconds left.
+|inactive|Veloir has 45 seconds left.
+|inactive|Veloir has 30 seconds left.
+|inactive|Veloir has 20 seconds left.
+|inactive|Veloir has 15 seconds left.
+|inactive|Veloir has 10 seconds left.
+|inactive|Veloir has 5 seconds left.
+|-message|Veloir lost due to inactivity.
+|
+|win|MikeyTapsa
+|c|☆MikeyTapsa|That was easy
+|raw|MikeyTapsa's rating: 1342 &rarr; <strong>1363</strong><br />(+21 for winning)
+|raw|Veloir's rating: 1356 &rarr; <strong>1335</strong><br />(-21 for losing)
+|l|☆MikeyTapsa

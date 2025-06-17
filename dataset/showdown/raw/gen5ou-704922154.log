@@ -1,0 +1,340 @@
+|j|☆Wonder fg
+|j|☆Bratt Pid
+|player|p1|Wonder fg|170
+|player|p2|Bratt Pid|137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Volcarona, M|item
+|poke|p1|Starmie|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Jirachi|item
+|poke|p1|Dragonite, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Heatran, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bratt Pid)
+|inactive|Wonder fg has 135 seconds left.
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|22/100
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Bratt Pid|move: Stealth Rock
+|
+|-heal|p1a: Landorus|28/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Landorus|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Terrakion|atk|1
+|move|p1a: Terrakion|Stone Edge|p2a: Landorus
+|-enditem|p1a: Terrakion|Rock Gem|[from] gem|[move] Stone Edge
+|-damage|p2a: Landorus|30/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Landorus|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|7
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|move|p2a: Alakazam|Encore|p1a: Dragonite
+|-start|p1a: Dragonite|Encore
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Alakazam|Focus Blast|p1a: Starmie|[miss]
+|-miss|p2a: Alakazam|p1a: Starmie
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Starmie|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Volcarona
+|-status|p1a: Volcarona|par
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|1/100
+|turn|13
+|inactive|Wonder fg has 135 seconds left.
+|
+|move|p2a: Alakazam|Psychic|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|14
+|
+|move|p1a: Jirachi|U-turn|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p1a: Starmie|Starmie|91/100
+|
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|30/100
+|-damage|p2a: Landorus|17/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|turn|15
+|inactive|Wonder fg has 135 seconds left.
+|
+|move|p2a: Landorus|U-turn|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|c|☆Wonder fg|ol
+|c|☆Bratt Pid|oof
+|inactive|Bratt Pid has 135 seconds left.
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Latias|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|16
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|83/100
+|
+|-heal|p2a: Latias|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Wonder fg has 135 seconds left.
+|
+|move|p1a: Jirachi|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|56/100
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|31/100
+|
+|-heal|p2a: Latias|37/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Jirachi|Jirachi|83/100
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|
+|-heal|p2a: Latias|43/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Iron Head|p2a: Latias
+|-crit|p2a: Latias
+|-end|p2a: Latias|Substitute
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100
+|
+|-heal|p2a: Latias|49/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|17/100
+|-damage|p2a: Landorus|5/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Landorus|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|63/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Mamoswine
+|-damage|p2a: Mamoswine|53/100
+|move|p2a: Mamoswine|Ice Shard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|50/100
+|turn|24
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|39/100
+|move|p1a: Jirachi|Iron Head|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|49/100
+|-damage|p2a: Latias|37/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Jirachi|Iron Head|p2a: Latias
+|-damage|p2a: Latias|3/100
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|21/100
+|
+|-heal|p2a: Latias|9/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Jirachi|Iron Head|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|88/100
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|27
+|
+|move|p1a: Jirachi|Iron Head|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|59/100
+|-enditem|p2a: Heatran|Air Balloon
+|cant|p2a: Heatran|flinch
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Jirachi|Iron Head|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|50/100
+|move|p2a: Heatran|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|win|Bratt Pid
+|raw|Wonder fg's rating: 1312 &rarr; <strong>1304</strong><br />(-8 for losing)
+|raw|Bratt Pid's rating: 1546 &rarr; <strong>1555</strong><br />(+9 for winning)

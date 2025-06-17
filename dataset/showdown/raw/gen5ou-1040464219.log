@@ -1,0 +1,1123 @@
+|j|☆CroCoeur
+|j|☆Hadar Centauri
+|player|p1|CroCoeur|161|1472
+|player|p2|Hadar Centauri|124|1241
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Breloom, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Hitmontop, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|turn|1
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Hitmontop
+|-damage|p2a: Hitmontop|21/100
+|move|p2a: Hitmontop|Toxic|p1a: Politoed
+|-status|p1a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hitmontop|27/100|[from] item: Leftovers
+|-damage|p1a: Politoed|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Celebi|Giga Drain|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Hydreigon|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|85/100
+|
+|switch|p2a: Breloom|Breloom, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|91/100|[from] item: Leftovers
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Breloom|Seed Bomb|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Hydreigon|Hydreigon, F|86/100
+|move|p1a: Celebi|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Hydreigon|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|-damage|p2a: Hydreigon|74/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Vaporeon|Vaporeon, F|91/100
+|move|p2a: Heatran|Overheat|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|81/100
+|-unboost|p2a: Heatran|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|97/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Jellicent|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Celebi|Celebi|99/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Celebi
+|-status|p1a: Celebi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Breloom|Breloom, F|100/100 tox
+|move|p1a: Celebi|Giga Drain|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|85/100 tox
+|-heal|p1a: Celebi|94/100 brn|[from] drain|[of] p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|88/100 brn|[from] brn
+|-heal|p2a: Breloom|98/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|switch|p2a: Hydreigon|Hydreigon, F|74/100
+|move|p1a: Celebi|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|82/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Hydreigon|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|24/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Vaporeon|Vaporeon, F|87/100
+|move|p2a: Hydreigon|Focus Blast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|59/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|17
+|
+|switch|p1a: Celebi|Celebi|82/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Celebi
+|-status|p1a: Celebi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|76/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Celebi|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|70/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Heatran|Flash Cannon|p1a: Celebi
+|-damage|p1a: Celebi|43/100 brn
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|93/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Celebi|86/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|-curestatus|p1a: Celebi|brn|[from] ability: Natural Cure
+|switch|p1a: Ferrothorn|Ferrothorn, M|24/100
+|move|p2a: Heatran|Flash Cannon|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|9/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|16/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Breloom|Breloom, F|98/100 tox
+|move|p1a: Ferrothorn|Spikes|p2a: Breloom
+|-sidestart|p2: Hadar Centauri|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|22/100|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|switch|p1a: Celebi|Celebi|86/100
+|move|p2a: Breloom|Drain Punch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|78/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Hydreigon|Hydreigon, F|74/100
+|move|p1a: Celebi|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|-damage|p2a: Jellicent|88/100|[from] Spikes
+|move|p1a: Vaporeon|Roar|p2a: Jellicent
+|drag|p2a: Gliscor|Gliscor, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|81/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|26
+|
+|switch|p2a: Jellicent|Jellicent, F|88/100
+|-damage|p2a: Jellicent|76/100|[from] Spikes
+|switch|p1a: Celebi|Celebi|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|90/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Breloom|Breloom, F|100/100 tox
+|-damage|p2a: Breloom|88/100 tox|[from] Spikes
+|move|p1a: Celebi|Psychic|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|22/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|97/100|[from] item: Leftovers
+|-heal|p2a: Breloom|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Celebi|Psychic|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Breloom|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|switch|p2a: Hydreigon|Hydreigon, F|74/100
+|move|p1a: Celebi|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|switch|p1a: Vaporeon|Vaporeon, F|81/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|26/100
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|32/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|2/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|32
+|
+|switch|p2a: Jellicent|Jellicent, F|82/100
+|-damage|p2a: Jellicent|70/100|[from] Spikes
+|move|p1a: Vaporeon|Roar|p2a: Jellicent
+|drag|p2a: Breloom|Breloom, F|47/100 tox
+|-damage|p2a: Breloom|34/100 tox|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Breloom|Seed Bomb|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|93/100|[from] item: Leftovers
+|-heal|p2a: Breloom|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|22/100
+|switch|p2a: Hydreigon|Hydreigon, F|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|28/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|CroCoeur has 120 seconds left.
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Hydreigon|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|84/100
+|
+|switch|p2a: Hitmontop|Hitmontop, M|27/100|[from]move: U-turn
+|-damage|p2a: Hitmontop|14/100|[from] Spikes
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Vaporeon|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hitmontop|21/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|90/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Hitmontop|Rapid Spin|p1a: Vaporeon
+|-damage|p1a: Vaporeon|85/100
+|-sideend|p2: Hadar Centauri|Spikes|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|move|p1a: Vaporeon|Scald|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|59/100 tox
+|turn|37
+|
+|switch|p2a: Hydreigon|Hydreigon, F|74/100
+|switch|p1a: Celebi|Celebi|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|99/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Vaporeon|Vaporeon, F|91/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|65/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|28/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|13/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Vaporeon|Vaporeon, F|65/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|37/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|2/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|42
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|67/100
+|move|p1a: Vaporeon|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|73/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p2a: Breloom|Breloom, F|59/100 tox
+|move|p1a: Vaporeon|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|35/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|79/100|[from] item: Leftovers
+|-heal|p2a: Breloom|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|44
+|
+|switch|p2a: Hydreigon|Hydreigon, F|48/100
+|switch|p1a: Celebi|Celebi|99/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Hydreigon|U-turn|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|52/100
+|
+|switch|p2a: Heatran|Heatran, M|85/100|[from]move: U-turn
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|46
+|
+|switch|p2a: Hydreigon|Hydreigon, F|48/100
+|move|p1a: Celebi|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|47
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Celebi
+|-damage|p1a: Celebi|38/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|88/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|CroCoeur has 120 seconds left.
+|
+|switch|p2a: Heatran|Heatran, M|85/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|49
+|inactive|CroCoeur has 120 seconds left.
+|
+|move|p2a: Heatran|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|47/100
+|-unboost|p1a: Jirachi|spd|1
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|22/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|28/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|inactive|CroCoeur has 120 seconds left.
+|
+|move|p2a: Heatran|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Water Pulse|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|46/100
+|-start|p2a: Heatran|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|34/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|l|☆Hadar Centauri
+|inactive|Hadar Centauri disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|CroCoeur has 120 seconds left.
+|inactive|Hadar Centauri has 30 seconds to reconnect!
+|inactive|Hadar Centauri has 20 seconds to reconnect!
+|inactive|Hadar Centauri has 15 seconds to reconnect!
+|inactive|Hadar Centauri has 10 seconds to reconnect!
+|inactive|Hadar Centauri has 5 seconds to reconnect!
+|j|☆Hadar Centauri
+|inactive|Hadar Centauri reconnected and has 95 seconds left.
+|player|p2|Hadar Centauri|124
+|inactive|Hadar Centauri has 90 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, F|70/100
+|switch|p1a: Latios|Latios, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|76/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|inactive|CroCoeur has 120 seconds left.
+|
+|move|p1a: Latios|Thunder|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|8/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|64/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Latios|Thunder|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|54
+|
+|switch|p1a: Celebi|Celebi|94/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Gliscor|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Gliscor|Facade|p1a: Celebi
+|-damage|p1a: Celebi|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|54/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish3
+|-start|p2a: Gliscor|perish3
+|upkeep
+|turn|56
+|inactive|Hadar Centauri has 120 seconds left.
+|
+|switch|p2a: Hydreigon|Hydreigon, F|48/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Celebi|perish2
+|upkeep
+|turn|57
+|inactive|Hadar Centauri has 120 seconds left.
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|20/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|76/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish1
+|upkeep
+|turn|58
+|inactive|Hadar Centauri has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, F|64/100
+|switch|p1a: Vaporeon|Vaporeon, F|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|85/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|70/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|inactive|Hadar Centauri has 120 seconds left.
+|
+|switch|p1a: Celebi|Celebi|76/100
+|switch|p2a: Hydreigon|Hydreigon, F|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|83/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|switch|p1a: Vaporeon|Vaporeon, F|85/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|57/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|switch|p2a: Breloom|Breloom, F|48/100 tox
+|move|p1a: Vaporeon|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|22/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|63/100|[from] item: Leftovers
+|-heal|p2a: Breloom|35/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|62
+|
+|switch|p1a: Celebi|Celebi|83/100
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|89/100|[from] item: Leftovers
+|-heal|p2a: Breloom|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|63
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Celebi|Psychic|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|95/100|[from] item: Leftovers
+|-heal|p2a: Breloom|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|64
+|
+|switch|p2a: Hydreigon|Hydreigon, F|48/100
+|move|p1a: Celebi|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|29/100
+|cant|p1a: Celebi|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|35/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|switch|p1a: Vaporeon|Vaporeon, F|63/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|inactive|CroCoeur has 120 seconds left.
+|inactive|CroCoeur has 90 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|94/100 tox
+|move|p2a: Hydreigon|Dark Pulse|p1a: Politoed
+|-damage|p1a: Politoed|24/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|18/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|move|p1a: Politoed|Ice Beam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|6/100 tox|[from] psn
+|upkeep
+|c|☆Hadar Centauri|OMG
+|c|☆CroCoeur|Fuck yea
+|inactive|Hadar Centauri has 120 seconds left.
+|c|☆Hadar Centauri|wtf did I just did
+|c|☆Hadar Centauri|I lost my wincon just like this
+|inactive|Hadar Centauri has 90 seconds left.
+|
+|switch|p2a: Heatran|Heatran, M|46/100
+|turn|69
+|inactive|Hadar Centauri has 90 seconds left.
+|
+|switch|p2a: Breloom|Breloom, F|60/100 tox
+|move|p1a: Politoed|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|3/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|0 fnt|[from] psn
+|faint|p1a: Politoed
+|-heal|p2a: Breloom|15/100 tox|[from] ability: Poison Heal
+|upkeep
+|c|☆Hadar Centauri|NOOOO
+|inactive|CroCoeur has 60 seconds left.
+|
+|switch|p1a: Celebi|Celebi|35/100
+|turn|70
+|c|☆Hadar Centauri|Was trying a triple switch in there
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|92/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|move|p1a: Celebi|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|78/100 tox
+|-heal|p1a: Celebi|100/100|[from] drain|[of] p2a: Gliscor
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|72
+|
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Gliscor|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Gliscor|Facade|p1a: Celebi
+|-damage|p1a: Celebi|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|54/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-start|p1a: Celebi|perish3
+|-start|p2a: Gliscor|perish3
+|upkeep
+|turn|73
+|inactive|Hadar Centauri has 120 seconds left.
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Celebi|perish2
+|-start|p2a: Gliscor|perish2
+|upkeep
+|turn|74
+|inactive|CroCoeur has 60 seconds left.
+|inactive|CroCoeur has 30 seconds left.
+|inactive|CroCoeur has 20 seconds left.
+|
+|switch|p1a: Vaporeon|Vaporeon, F|34/100
+|move|p2a: Gliscor|Facade|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Gliscor|perish1
+|upkeep
+|inactive|CroCoeur has 25 seconds left this turn.
+|inactive|CroCoeur has 20 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|13/100
+|turn|75
+|inactive|CroCoeur has 30 seconds left this turn.
+|inactive|CroCoeur has 20 seconds left.
+|l|☆Hadar Centauri
+|inactive|Hadar Centauri disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Hadar Centauri
+|inactive|Hadar Centauri reconnected and has 120 seconds left.
+|player|p2|Hadar Centauri|124
+|
+|switch|p2a: Breloom|Breloom, F|15/100 tox
+|move|p1a: Ferrothorn|Spikes|p2a: Breloom
+|-sidestart|p2: Hadar Centauri|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|19/100|[from] item: Leftovers
+|-heal|p2a: Breloom|28/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|76
+|inactive|CroCoeur has 30 seconds left this turn.
+|inactive|Hadar Centauri has 120 seconds left.
+|inactive|CroCoeur has 20 seconds left.
+|
+|move|p2a: Breloom|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-heal|p2a: Breloom|38/100 tox|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Breloom|25/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|inactive|CroCoeur has 25 seconds left this turn.
+|inactive|CroCoeur has 20 seconds left.
+|inactive|CroCoeur has 15 seconds left.
+|
+|switch|p1a: Celebi|Celebi|100/100
+|turn|77
+|inactive|CroCoeur has 25 seconds left this turn.
+|inactive|CroCoeur has 20 seconds left.
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Celebi|Psychic|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|78
+|inactive|CroCoeur has 30 seconds left this turn.
+|inactive|CroCoeur has 20 seconds left.
+|
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Heatran|Heatran, M|46/100
+|-damage|p2a: Heatran|34/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|79
+|inactive|CroCoeur has 30 seconds left this turn.
+|
+|switch|p2a: Jellicent|Jellicent, F|70/100
+|-damage|p2a: Jellicent|58/100|[from] Spikes
+|move|p1a: Latios|Surf|p2a: Jellicent
+|-heal|p2a: Jellicent|83/100|[from] ability: Water Absorb|[of] p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|89/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|inactive|CroCoeur has 30 seconds left.
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Jellicent|Taunt|p1a: Celebi
+|-start|p1a: Celebi|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|95/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Celebi|Giga Drain|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|56/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|82
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|83
+|
+|switch|p2a: Jellicent|Jellicent, F|95/100
+|-damage|p2a: Jellicent|83/100|[from] Spikes
+|move|p1a: Latios|Draco Meteor|p2a: Jellicent
+|-damage|p2a: Jellicent|27/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|33/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|switch|p1a: Jirachi|Jirachi|34/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|41/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|89/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|16/100
+|move|p2a: Jellicent|Taunt|p1a: Jirachi
+|-start|p1a: Jirachi|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|22/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|95/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|move|p1a: Jirachi|Thunder|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|52/100
+|move|p2a: Jellicent|Scald|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|28/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|58/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|move|p1a: Jirachi|Thunder|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|13/100
+|-status|p2a: Jellicent|par
+|move|p2a: Jellicent|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|19/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|88
+|inactive|Hadar Centauri has 120 seconds left.
+|inactive|Hadar Centauri has 90 seconds left.
+|
+|switch|p2a: Breloom|Breloom, F|50/100 tox
+|-damage|p2a: Breloom|38/100 tox|[from] Spikes
+|move|p1a: Latios|Psyshock|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|81/100 tox
+|turn|89
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|100/100 tox
+|-singleturn|p2a: Gliscor|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|90
+|inactive|CroCoeur has 60 seconds left.
+|
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Gliscor|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Celebi|perish3
+|-start|p2a: Gliscor|perish3
+|upkeep
+|turn|91
+|inactive|CroCoeur has 60 seconds left.
+|
+|move|p1a: Celebi|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|77/100 tox
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-start|p1a: Celebi|perish2
+|-start|p2a: Gliscor|perish2
+|upkeep
+|turn|92
+|inactive|CroCoeur has 60 seconds left.
+|
+|move|p1a: Celebi|Giga Drain|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|47/100 tox
+|move|p2a: Gliscor|Facade|p1a: Celebi
+|-damage|p1a: Celebi|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|33/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|-start|p1a: Celebi|perish1
+|-start|p2a: Gliscor|perish1
+|upkeep
+|turn|93
+|inactive|Hadar Centauri has 60 seconds left.
+|inactive|Hadar Centauri has 30 seconds left.
+|inactive|Hadar Centauri has 20 seconds left.
+|inactive|Hadar Centauri has 15 seconds left.
+|inactive|Hadar Centauri has 10 seconds left.
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Gliscor|Facade|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|-start|p2a: Gliscor|perish0
+|faint|p2a: Gliscor
+|upkeep
+|inactive|Hadar Centauri has 15 seconds left this turn.
+|inactive|Hadar Centauri has 10 seconds left.
+|c|☆Hadar Centauri|YEEEES
+|c|☆CroCoeur|Good choice
+|
+|switch|p1a: Celebi|Celebi|33/100
+|switch|p2a: Heatran|Heatran, M|34/100
+|-damage|p2a: Heatran|21/100|[from] Spikes
+|turn|94
+|inactive|Hadar Centauri has 15 seconds left this turn.
+|inactive|Hadar Centauri has 10 seconds left.
+|inactive|Hadar Centauri has 5 seconds left.
+|
+|move|p2a: Heatran|Overheat|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-unboost|p2a: Heatran|spa|2
+|faint|p1a: Celebi
+|
+|win|Hadar Centauri
+|inactive|Hadar Centauri has 10 seconds left this turn.
+|c|☆Hadar Centauri|This is by far
+|c|☆CroCoeur|ff
+|c|☆Hadar Centauri|the best battle
+|c|☆Hadar Centauri|I 've ever had in BW
+|raw|CroCoeur's rating: 1472 &rarr; <strong>1441</strong><br />(-31 for losing)
+|raw|Hadar Centauri's rating: 1253 &rarr; <strong>1292</strong><br />(+39 for winning)
+|c|☆Hadar Centauri|good game, my buddy
+|c|☆CroCoeur|Thought I could take that damage
+|c|☆CroCoeur|GG

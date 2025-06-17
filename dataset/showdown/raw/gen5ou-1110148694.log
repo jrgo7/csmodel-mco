@@ -1,0 +1,435 @@
+|j|☆doughboy
+|j|☆LatiGOD
+|player|p1|doughboy|1|1469
+|player|p2|LatiGOD|248|1385
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Garchomp, F|item
+|poke|p1|Victini|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Tangrowth, F|item
+|poke|p1|Slowking, F|item
+|poke|p1|Infernape, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Excadrill, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LatiGOD)
+|
+|start
+|switch|p1a: Infernape|Infernape, F|100/100
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|1
+|j| NikC29
+|
+|move|p1a: Infernape|Fake Out|p2a: Kyurem
+|-damage|p2a: Kyurem|86/100
+|-damage|p1a: Infernape|91/100|[from] item: Life Orb
+|cant|p2a: Kyurem|flinch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Infernape|Stealth Rock|p2a: Latios
+|-sidestart|p2: LatiGOD|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|23/100
+|-unboost|p2a: Latios|spa|2
+|
+|-heal|p1a: Slowking|29/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Latios|Draco Meteor|p1a: Ninetales
+|-damage|p1a: Ninetales|49/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|55/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|switch|p1a: Victini|Victini|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Magnezone|Volt Switch|p1a: Victini
+|-damage|p1a: Victini|64/100
+|
+|switch|p2a: Latios|Latios, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Victini|V-create|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Latios
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆LatiGOD|oh wtf
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|7
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Victini
+|-damage|p1a: Victini|52/100
+|-sideend|p2: LatiGOD|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Victini|V-create|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|8
+|
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tangrowth|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Mamoswine|Icicle Crash|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|13/100
+|cant|p1a: Tangrowth|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tangrowth|19/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Slowking|Slowking, F|62/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Ninetales|Ninetales, M|55/100
+|move|p2a: Mamoswine|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, F|91/100
+|turn|12
+|
+|switch|p2a: Magnezone|Magnezone|94/100
+|move|p1a: Infernape|Fake Out|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|79/100
+|-damage|p1a: Infernape|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p2a: Kyurem|Kyurem-Black|86/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Garchomp|Dual Chop|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|32/100
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-hitcount|p2a: Kyurem|2
+|faint|p2a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|15
+|
+|switch|p1a: Slowking|Slowking, F|84/100
+|move|p2a: Mamoswine|Ice Shard|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: Slowking
+|-sidestart|p1: doughboy|move: Stealth Rock
+|move|p1a: Slowking|Dragon Tail|p2a: Mamoswine
+|-damage|p2a: Mamoswine|90/100
+|drag|p2a: Magnezone|Magnezone|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Magnezone|Volt Switch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|40/100
+|
+|switch|p2a: Mamoswine|Mamoswine, M|90/100|[from]move: Volt Switch
+|move|p1a: Slowking|Scald|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Slowking
+|-damage|p1a: Slowking|2/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|58/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Mamoswine|Icicle Crash|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|40/100
+|move|p1a: Slowking|Dragon Tail|p2a: Mamoswine
+|-damage|p2a: Mamoswine|41/100
+|drag|p2a: Magnezone|Magnezone|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|46/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Magnezone|Flash Cannon|p1a: Garchomp
+|-damage|p1a: Garchomp|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Slowking|Slowking, F|79/100
+|-damage|p1a: Slowking|67/100|[from] Stealth Rock
+|move|p2a: Magnezone|Flash Cannon|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|52/100
+|-unboost|p1a: Slowking|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|58/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|j| lelaleslelaleslela
+|
+|switch|p2a: Mamoswine|Mamoswine, M|41/100
+|move|p1a: Slowking|Thunder Wave|p2a: Mamoswine
+|-immune|p2a: Mamoswine
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|64/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Slowking
+|-damage|p1a: Slowking|21/100
+|move|p1a: Slowking|Scald|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|27/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, F|81/100
+|-damage|p1a: Infernape|68/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Infernape|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: LatiGOD|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|
+|switch|p1a: Tangrowth|Tangrowth, F|52/100
+|-damage|p1a: Tangrowth|40/100|[from] Stealth Rock
+|move|p2a: Dragonite|Extreme Speed|p1a: Tangrowth
+|-damage|p1a: Tangrowth|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tangrowth|21/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Victini|Victini|52/100
+|-damage|p1a: Victini|27/100|[from] Stealth Rock
+|move|p2a: Dragonite|Extreme Speed|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Tangrowth|Tangrowth, F|54/100
+|-damage|p1a: Tangrowth|42/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Mamoswine|Mamoswine, M|1/100
+|-damage|p2a: Mamoswine|0 fnt|[from] Stealth Rock
+|faint|p2a: Mamoswine
+|move|p1a: Tangrowth|Hidden Power|p2: Mamoswine|[notarget]
+|-fail|p1a: Tangrowth
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tangrowth|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|75/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|l|☆doughboy
+|inactive|doughboy disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆doughboy
+|inactive|doughboy reconnected and has 120 seconds left.
+|player|p1|doughboy|1
+|
+|switch|p1a: Garchomp|Garchomp, F|50/100
+|-damage|p1a: Garchomp|43/100|[from] Stealth Rock
+|turn|30
+|inactive|doughboy has 120 seconds left.
+|
+|switch|p2a: Magnezone|Magnezone|79/100
+|-damage|p2a: Magnezone|72/100|[from] Stealth Rock
+|move|p1a: Garchomp|Outrage|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, F|68/100
+|-damage|p1a: Infernape|56/100|[from] Stealth Rock
+|turn|32
+|
+|move|p1a: Infernape|Fake Out|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|12/100
+|-damage|p1a: Infernape|46/100|[from] item: Life Orb
+|cant|p2a: Magnezone|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|33
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|13/100
+|move|p1a: Infernape|Close Combat|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|-damage|p1a: Infernape|4/100|[from] item: Life Orb
+|faint|p2a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|75/100
+|-damage|p2a: Dragonite|50/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|win|LatiGOD
+|c|☆LatiGOD|gg
+|l|☆doughboy
+|l| NikC29
+|raw|doughboy's rating: 1469 &rarr; <strong>1444</strong><br />(-25 for losing)
+|raw|LatiGOD's rating: 1385 &rarr; <strong>1410</strong><br />(+25 for winning)

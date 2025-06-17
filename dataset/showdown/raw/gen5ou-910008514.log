@@ -1,0 +1,279 @@
+|j|‽Smiletoad
+|j|☆dice
+|player|p1|Smiletoad|101
+|player|p2|dice|lance-gen2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Starmie|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Metagross|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Amoonguss, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dice)
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|358/358
+|switch|p2a: Thundurus|Thundurus-Therian, M|299/299
+|turn|1
+|c|☆dice|gl
+|
+|move|p1a: Garchomp|Outrage|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|
+|switch|p2a: Metagross|Metagross|342/342
+|turn|2
+|
+|move|p1a: Garchomp|Outrage|p2a: Metagross|[from]lockedmove
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|252/342
+|-start|p1a: Garchomp|confusion|[fatigue]
+|move|p2a: Metagross|Meteor Mash|p1a: Garchomp
+|-damage|p1a: Garchomp|28/358
+|-damage|p2a: Metagross|210/342|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Scizor|Scizor, M|282/282
+|switch|p2a: Hippowdon|Hippowdon, M|419/419
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Scizor|Bug Bite|p2a: Hippowdon
+|-damage|p2a: Hippowdon|307/419
+|move|p2a: Hippowdon|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Smiletoad|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|333/419|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Hippowdon|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|147/282
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|359/419|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|move|p1a: Scizor|Bug Bite|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|322/322
+|turn|7
+|
+|switch|p1a: Garchomp|Garchomp, M|28/358
+|-damage|p1a: Garchomp|6/358|[from] Stealth Rock
+|move|p2a: Keldeo|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|302/322|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|262/262
+|-damage|p1a: Starmie|230/262|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Amoonguss|Amoonguss, F|419/419
+|move|p1a: Starmie|Rapid Spin|p2a: Amoonguss
+|-damage|p2a: Amoonguss|398/419
+|-sideend|p1: Smiletoad|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|204/262|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|188/262|[from] Sandstorm
+|-damage|p2a: Amoonguss|372/419|[from] Sandstorm
+|-heal|p2a: Amoonguss|398/419|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Amoonguss|Spore|p1a: Politoed
+|-status|p1a: Politoed|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|419/419|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Tornadus|Tornadus, M|300/300
+|switch|p2a: Hippowdon|Hippowdon, M|359/419
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|282/300|[from] Sandstorm
+|-heal|p2a: Hippowdon|385/419|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p2a: Hippowdon|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: Smiletoad|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hippowdon|411/419|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Tornadus|Hurricane|p2a: Hippowdon
+|-damage|p2a: Hippowdon|132/419
+|move|p2a: Hippowdon|Whirlwind|p1a: Tornadus
+|drag|p1a: Starmie|Starmie|188/262
+|-damage|p1a: Starmie|156/262|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hippowdon|158/419|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Keldeo|Keldeo|302/322
+|move|p1a: Starmie|Ice Beam|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|218/322
+|-damage|p1a: Starmie|130/262|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Keldeo|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|10/262
+|move|p1a: Starmie|Hydro Pump|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-damage|p1a: Starmie|0 fnt|[from] item: Life Orb
+|faint|p2a: Keldeo
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|262/262
+|switch|p2a: Metagross|Metagross|210/342
+|-damage|p1a: Breloom|246/262|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Breloom|Mach Punch|p2a: Metagross
+|-damage|p2a: Metagross|85/342
+|-damage|p1a: Breloom|220/262|[from] item: Life Orb
+|move|p2a: Metagross|Meteor Mash|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|147/282
+|-damage|p1a: Scizor|112/282|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Amoonguss|Amoonguss, F|419/419
+|move|p1a: Scizor|Bug Bite|p2a: Amoonguss
+|-damage|p2a: Amoonguss|226/419
+|
+|-heal|p2a: Amoonguss|252/419|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Scizor|Acrobatics|p2a: Amoonguss
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, M|158/419
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|18
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|368/419
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|394/419|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Scizor|Bug Bite|p2a: Hippowdon
+|-damage|p2a: Hippowdon|159/419
+|move|p2a: Hippowdon|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|185/419|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|282/300
+|-damage|p1a: Tornadus|207/300|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Tornadus|Hurricane|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|189/300|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Metagross|Metagross|85/342
+|turn|21
+|
+|move|p1a: Tornadus|Hurricane|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|win|Smiletoad
+|raw|Smiletoad's rating: 1358 &rarr; <strong>1387</strong><br />(+29 for winning)
+|raw|dice's rating: 1532 &rarr; <strong>1503</strong><br />(-29 for losing)
+|c|☆dice|gg
+|l|☆dice

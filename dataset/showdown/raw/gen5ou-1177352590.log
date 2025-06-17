@@ -1,0 +1,453 @@
+|join|Pythagorean Python
+|join|immatureprick
+|player|p1|Pythagorean Python|1
+|player|p2|immatureprick|121
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Ninetales, M
+|poke|p1|Darmanitan, M
+|poke|p1|Victreebel, F
+|poke|p1|Shiftry, F
+|poke|p1|Forretress, F
+|poke|p1|Raikou, shiny
+|poke|p2|Politoed, F, shiny
+|poke|p2|Gliscor, F, shiny
+|poke|p2|Tentacruel, F, shiny
+|poke|p2|Chansey, F
+|poke|p2|Ferrothorn, F, shiny
+|poke|p2|Bronzong, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Shiftry|Shiftry, F|321/321
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Bronzong|Bronzong, shiny|338/338
+|move|p1a: Shiftry|Seed Bomb|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|267/338
+|-damage|p1a: Shiftry|289/321|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bronzong|288/338|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Ninetales|Ninetales, M|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Bronzong|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: Pythagorean Python|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|309/338|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ninetales|Energy Ball|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|206/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|230/384|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Forretress|Forretress, F|354/354
+|-damage|p1a: Forretress|310/354|[from] Stealth Rock
+|switch|p2a: Chansey|Chansey, F|704/704
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|332/354|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Chansey|Wish|p2a: Chansey
+|move|p1a: Forretress|Rapid Spin|p2a: Chansey
+|-damage|p2a: Chansey|683/704
+|-sideend|p1: Pythagorean Python|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|354/354|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Politoed|Politoed, F, shiny|230/384
+|move|p1a: Forretress|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|164/384
+|
+|switch|p1a: Ninetales|Ninetales, M|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Politoed|384/384|[from] move: Wish|[wisher] Chansey
+|turn|7
+|
+|switch|p2a: Chansey|Chansey, F|683/704
+|move|p1a: Ninetales|Fire Blast|p2a: Chansey|[miss]
+|-miss|p1a: Ninetales|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p1a: Darmanitan|Darmanitan, M|351/351
+|move|p2a: Chansey|Toxic|p1a: Darmanitan
+|-status|p1a: Darmanitan|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Darmanitan|330/351 tox|[from] psn
+|turn|9
+|
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Darmanitan|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|295/384
+|
+|switch|p1a: Raikou|Raikou, shiny|322/322
+|-ability|p1a: Raikou|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|319/384|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Raikou|Thunderbolt|p2a: Politoed
+|-activate|p2a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|343/384|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|351/351
+|move|p1a: Raikou|Aura Sphere|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|182/351
+|-damage|p1a: Raikou|290/322|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|203/351|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Chansey|Chansey, F|683/704
+|move|p1a: Raikou|Aura Sphere|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|488/704
+|-damage|p1a: Raikou|258/322|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p1a: Forretress|Forretress, F|354/354
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|203/351
+|move|p1a: Forretress|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|191/351
+|
+|switch|p1a: Ninetales|Ninetales, M|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|351/351|[from] move: Wish|[wisher] Chansey
+|turn|15
+|
+|switch|p2a: Chansey|Chansey, F|488/704
+|move|p1a: Ninetales|Energy Ball|p2a: Chansey
+|-damage|p2a: Chansey|420/704
+|
+|-weather|SunnyDay|[upkeep]
+|turn|16
+|
+|switch|p1a: Forretress|Forretress, F|354/354
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|SunnyDay|[upkeep]
+|turn|17
+|
+|switch|p2a: Politoed|Politoed, F, shiny|343/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Forretress|Stealth Rock|p2a: Politoed
+|-sidestart|p2: immatureprick|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|367/384|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Politoed|Scald|p1a: Forretress
+|-damage|p1a: Forretress|162/354
+|move|p1a: Forretress|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|301/384
+|
+|switch|p1a: Ninetales|Ninetales, M|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Politoed|325/384|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Chansey|Chansey, F|704/704
+|-damage|p2a: Chansey|616/704|[from] Stealth Rock
+|move|p1a: Ninetales|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|394/704
+|
+|-weather|SunnyDay|[upkeep]
+|turn|20
+|
+|switch|p1a: Shiftry|Shiftry, F|289/321
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|SunnyDay|[upkeep]
+|turn|21
+|
+|switch|p2a: Bronzong|Bronzong, shiny|309/338
+|-damage|p2a: Bronzong|288/338|[from] Stealth Rock
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|309/338|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Shiftry|Sucker Punch|p2a: Bronzong
+|-fail|p2a: Bronzong
+|move|p2a: Bronzong|Toxic|p1a: Shiftry
+|-status|p1a: Shiftry|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|330/338|[from] item: Leftovers
+|-damage|p1a: Shiftry|269/321 tox|[from] psn
+|turn|23
+|
+|move|p1a: Shiftry|Low Kick|p2a: Bronzong
+|-damage|p2a: Bronzong|78/338
+|-damage|p1a: Shiftry|237/321 tox|[from] item: Life Orb
+|move|p2a: Bronzong|Stealth Rock|p1a: Shiftry
+|-sidestart|p1: Pythagorean Python|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|99/338|[from] item: Leftovers
+|-damage|p1a: Shiftry|197/321 tox|[from] psn
+|turn|24
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Shiftry|Low Kick|p2a: Bronzong
+|-activate|p2a: Bronzong|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|120/338|[from] item: Leftovers
+|-damage|p1a: Shiftry|137/321 tox|[from] psn
+|turn|25
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|354/354
+|-damage|p2a: Gliscor|310/354|[from] Stealth Rock
+|move|p1a: Shiftry|Seed Bomb|p2a: Gliscor
+|-damage|p2a: Gliscor|86/354
+|-damage|p1a: Shiftry|105/321 tox|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shiftry|25/321 tox|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|26
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Shiftry|Seed Bomb|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shiftry|0 fnt|[from] psn
+|-heal|p2a: Gliscor|130/354 tox|[from] ability: Poison Heal
+|faint|p1a: Shiftry
+|
+|switch|p1a: Victreebel|Victreebel, F|302/302
+|-damage|p1a: Victreebel|265/302|[from] Stealth Rock
+|turn|27
+|
+|switch|p2a: Chansey|Chansey, F|704/704
+|-damage|p2a: Chansey|616/704|[from] Stealth Rock
+|move|p1a: Victreebel|Growth|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|-boost|p1a: Victreebel|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|28
+|
+|move|p1a: Victreebel|Growth|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|-boost|p1a: Victreebel|spa|2
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|turn|29
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|move|p1a: Victreebel|Growth|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|-boost|p1a: Victreebel|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|351/351|[from] move: Wish|[wisher] Chansey
+|turn|30
+|
+|move|p1a: Victreebel|Weather Ball|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Victreebel|235/302|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, F, shiny|325/384
+|-damage|p2a: Politoed|277/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|31
+|
+|move|p1a: Victreebel|Weather Ball|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: Victreebel|205/302|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Tentacruel|Tentacruel, F, shiny|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Tentacruel|Scald|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|123/302
+|-status|p1a: Victreebel|brn
+|move|p1a: Victreebel|Weather Ball|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-damage|p1a: Victreebel|93/302 brn|[from] item: Life Orb
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Victreebel|56/302 brn|[from] brn
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|130/354 tox
+|-damage|p2a: Gliscor|86/354 tox|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Victreebel|Weather Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Victreebel|19/302 brn|[from] brn
+|-heal|p2a: Gliscor|130/354 tox|[from] ability: Poison Heal
+|turn|34
+|
+|move|p1a: Victreebel|Weather Ball|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p1a: Victreebel|0 fnt|[from] item: Life Orb
+|faint|p2a: Gliscor
+|faint|p1a: Victreebel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Ninetales|Ninetales, M|288/288
+|-damage|p1a: Ninetales|216/288|[from] Stealth Rock
+|switch|p2a: Chansey|Chansey, F|616/704
+|-damage|p2a: Chansey|528/704|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|35
+|
+|switch|p1a: Forretress|Forretress, F|162/354
+|-damage|p1a: Forretress|118/354|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|140/354|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Forretress
+|-damage|p1a: Forretress|40/354
+|move|p1a: Forretress|Rapid Spin|p2a: Chansey
+|-damage|p2a: Chansey|685/704
+|-sideend|p1: Pythagorean Python|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|62/354|[from] item: Leftovers
+|turn|37
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Darmanitan|Darmanitan, M|330/351 tox
+|turn|38
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Darmanitan|104/351 tox|[from] recoil|[of] p2a: Chansey
+|faint|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Darmanitan|83/351 tox|[from] psn
+|
+|switch|p2a: Bronzong|Bronzong, shiny|120/338
+|-damage|p2a: Bronzong|99/338|[from] Stealth Rock
+|turn|39
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Darmanitan|Flare Blitz|p2a: Bronzong
+|-activate|p2a: Bronzong|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|120/338|[from] item: Leftovers
+|-damage|p1a: Darmanitan|41/351 tox|[from] psn
+|turn|40
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Darmanitan|Flare Blitz|p2a: Bronzong
+|-activate|p2a: Bronzong|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|141/338|[from] item: Leftovers
+|-damage|p1a: Darmanitan|0 fnt|[from] psn
+|faint|p1a: Darmanitan
+|
+|switch|p1a: Ninetales|Ninetales, M|216/288
+|turn|41
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|Pythagorean Python's rating: 1374 &rarr; <strong>1392</strong><br />(+18 for winning)
+|raw|immatureprick's rating: 1345 &rarr; <strong>1327</strong><br />(-18 for losing)

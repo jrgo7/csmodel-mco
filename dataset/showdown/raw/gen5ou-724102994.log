@@ -1,0 +1,432 @@
+|j|☆Rainish lizard
+|j|☆Nights Blade God
+|player|p1|Rainish lizard|25
+|player|p2|Nights Blade God|6
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Garchomp, M|item
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Rainish lizard|move: Stealth Rock
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Nights Blade God|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Fire Blast|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|78/100
+|-status|p1a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|72/100 brn|[from] sandstorm
+|-damage|p1a: Rotom|60/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|75/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|69/100|[from] sandstorm
+|upkeep
+|turn|4
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|85/100
+|j| Exaliburn88
+|
+|switch|p1a: Rotom|Rotom-Wash|60/100 brn
+|-damage|p1a: Rotom|47/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|41/100 brn|[from] sandstorm
+|-heal|p2a: Skarmory|91/100|[from] item: Leftovers
+|-damage|p1a: Rotom|29/100 brn|[from] brn
+|upkeep
+|turn|5
+|l| Exaliburn88
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Rest|p1a: Rotom
+|-status|p1a: Rotom|slp
+|-heal|p1a: Rotom|100/100 slp|[silent]
+|-status|p1a: Rotom|slp|[from] move: Rest
+|-enditem|p1a: Rotom|Chesto Berry|[eat]
+|-curestatus|p1a: Rotom|slp|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|95/100|[from] sandstorm
+|-damage|p2a: Rotom|82/100|[from] sandstorm
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|89/100 brn|[from] sandstorm
+|-damage|p2a: Rotom|82/100 brn|[from] sandstorm
+|-heal|p2a: Rotom|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|76/100 brn|[from] brn
+|-damage|p2a: Rotom|76/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|57/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|55/100 brn
+|
+|switch|p2a: Latios|Latios, M|69/100
+|-damage|p2a: Latios|57/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|51/100|[from] sandstorm
+|-damage|p1a: Rotom|49/100 brn|[from] sandstorm
+|-damage|p1a: Rotom|37/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] sandstorm
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Latios|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|81/100
+|-damage|p2a: Latios|85/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|87/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn|[miss]
+|-miss|p2a: Latios|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Skarmory|Skarmory, F|91/100
+|-damage|p2a: Skarmory|78/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Politoed|Politoed, M|87/100
+|-damage|p1a: Politoed|74/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Politoed
+|-sidestart|p1: Rainish lizard|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|81/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Rotom|Rotom-Wash|57/100 brn
+|-damage|p2a: Rotom|45/100 brn|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|15/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|21/100 brn|[from] item: Leftovers
+|-heal|p1a: Politoed|87/100|[from] item: Leftovers
+|-damage|p2a: Rotom|9/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Wash|37/100 brn
+|-damage|p1a: Rotom|25/100 brn|[from] Stealth Rock
+|move|p2a: Rotom|Pain Split|p1a: Rotom
+|-sethp|p1a: Rotom|17/100 brn|p2a: Rotom|17/100 brn|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|23/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|4/100 brn|[from] brn
+|-damage|p2a: Rotom|10/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Rotom|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Rotom
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|16
+|j| subjectvortex
+|
+|switch|p2a: Skarmory|Skarmory, F|85/100
+|-damage|p2a: Skarmory|72/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|
+|switch|p1a: Politoed|Politoed, M|87/100
+|-damage|p1a: Politoed|74/100|[from] Spikes
+|-damage|p1a: Politoed|62/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|68/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Politoed|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|39/100
+|move|p2a: Skarmory|Spikes|p1a: Politoed
+|-sidestart|p1: Rainish lizard|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|74/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|80/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|19
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|19/100
+|move|p2a: Tyranitar|Crunch|p1a: Politoed
+|-damage|p1a: Politoed|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|20/100|[from] sandstorm
+|-heal|p1a: Politoed|26/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Latios|Latios, M|85/100
+|-damage|p2a: Latios|72/100|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|40/100|[from] sandstorm
+|-damage|p1a: Politoed|20/100|[from] sandstorm
+|-heal|p1a: Politoed|26/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|30/100|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|24/100|[from] sandstorm
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nights Blade God)
+|
+|switch|p1a: Sharpedo|Sharpedo, M|100/100
+|-damage|p1a: Sharpedo|84/100|[from] Spikes
+|-damage|p1a: Sharpedo|72/100|[from] Stealth Rock
+|turn|22
+|l| subjectvortex
+|inactive|Nights Blade God has 135 seconds left.
+|
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|18/100|[from] sandstorm
+|-damage|p1a: Sharpedo|66/100|[from] sandstorm
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|23
+|
+|move|p1a: Sharpedo|Crunch|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Sharpedo|56/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sharpedo|50/100|[from] sandstorm
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|inactive|Nights Blade God has 135 seconds left.
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Sharpedo|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Sharpedo|40/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sharpedo|34/100|[from] sandstorm
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|25
+|inactive|Nights Blade God has 135 seconds left.
+|
+|move|p1a: Sharpedo|Crunch|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|10/100
+|-damage|p1a: Sharpedo|24/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sharpedo|18/100|[from] sandstorm
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|26
+|inactive|Rainish lizard has 135 seconds left.
+|inactive|Nights Blade God has 135 seconds left.
+|
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Reuniclus|Shadow Ball|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sharpedo|12/100|[from] sandstorm
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|27
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|84/100|[from] Spikes
+|-damage|p1a: Ferrothorn|78/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Shadow Ball|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|49/100
+|-unboost|p1a: Ferrothorn|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆Rainish lizard|gg
+|
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|-message|Nights Blade God forfeited.
+|
+|win|Rainish lizard
+|l|☆Nights Blade God
+|raw|Rainish lizard's rating: 1312 &rarr; <strong>1336</strong><br />(+24 for winning)
+|raw|Nights Blade God's rating: 1381 &rarr; <strong>1357</strong><br />(-24 for losing)

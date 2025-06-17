@@ -1,0 +1,459 @@
+|j|☆blackkaiser
+|j|☆scumfuckflower
+|player|p1|blackkaiser|101|1557
+|player|p2|scumfuckflower|23|1315
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Politoed, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|move|p2a: Politoed|Toxic|p1a: Hippowdon
+|-status|p1a: Hippowdon|tox
+|move|p1a: Hippowdon|Stealth Rock|p2a: Politoed
+|-sidestart|p2: scumfuckflower|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|94/100|[from] Sandstorm
+|-heal|p2a: Politoed|100/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Politoed|Protect||[still]
+|-fail|p2a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|94/100|[from] Sandstorm
+|-heal|p2a: Politoed|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: scumfuckflower|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: scumfuckflower|Spikes
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: scumfuckflower|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p1a: Garchomp|82/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Garchomp
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Garchomp|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Garchomp
+|-start|p1a: Garchomp|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garchomp|70/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|8
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|1/100
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|60/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garchomp|48/100|[from] Leech Seed|[of] p2a: Landorus
+|-heal|p2a: Landorus|15/100|[silent]
+|upkeep
+|turn|9
+|
+|switch|p1a: Hippowdon|Hippowdon, M|94/100 tox
+|-damage|p1a: Hippowdon|88/100 tox|[from] Stealth Rock
+|-damage|p1a: Hippowdon|72/100 tox|[from] Spikes
+|move|p2a: Landorus|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|44/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|44/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Landorus|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|13/100 tox
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|63/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|57/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|69/100|[from] Spikes
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|76/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|-damage|p1a: Jellicent|71/100|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jellicent|[miss]
+|-miss|p2a: Ferrothorn|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|65/100|[from] Sandstorm
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Power Whip|p1a: Jellicent|[miss]
+|-miss|p2a: Ferrothorn|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|65/100|[from] Sandstorm
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|59/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|50/100 brn
+|move|p2a: Ferrothorn|Spikes|p1a: Jellicent
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|65/100|[from] Sandstorm
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|43/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jellicent
+|-start|p1a: Jellicent|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|65/100|[from] Sandstorm
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|59/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100 brn|[silent]
+|-damage|p2a: Ferrothorn|43/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|54/100|[from] Sandstorm
+|-heal|p1a: Jellicent|60/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|49/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|48/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|63/100 brn|[silent]
+|-damage|p2a: Ferrothorn|51/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|76/100|[from] Spikes
+|-damage|p1a: Ferrothorn|70/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|45/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|75/100|[from] Spikes
+|-damage|p2a: Politoed|63/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ferrothorn|Leech Seed|p2a: Politoed
+|-start|p2a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|69/100|[from] item: Leftovers
+|-damage|p2a: Politoed|57/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|83/100|[silent]
+|upkeep
+|turn|20
+|
+|move|p2a: Politoed|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|65/100
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|32/100|[from] item: Leftovers
+|-damage|p2a: Politoed|20/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|79/100 brn|[silent]
+|-damage|p1a: Ferrothorn|67/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|63/100|[from] Spikes
+|move|p1a: Ferrothorn|Power Whip|p2a: Tentacruel
+|-damage|p2a: Tentacruel|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|50/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|56/100|[from] item: Black Sludge
+|-damage|p1a: Ferrothorn|55/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Jellicent|Jellicent, F|48/100
+|-damage|p1a: Jellicent|23/100|[from] Spikes
+|-damage|p1a: Jellicent|10/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Jellicent
+|-sidestart|p1: blackkaiser|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|62/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|68/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|17/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Landorus|Landorus-Therian, M|15/100
+|-damage|p2a: Landorus|3/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jellicent|atk|1
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Hippowdon|Hippowdon, M|57/100 tox
+|-damage|p1a: Hippowdon|32/100 tox|[from] Spikes
+|-damage|p1a: Hippowdon|26/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Landorus|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M, shiny|76/100
+|-damage|p1a: Latios|64/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|45/100 brn
+|-damage|p2a: Ferrothorn|38/100 brn|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|13/100 brn|[from] Spikes
+|move|p1a: Latios|Psyshock|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|58/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|55/100 brn
+|-damage|p1a: Ferrothorn|49/100 brn|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|24/100 brn|[from] Spikes
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|63/100|[from] Spikes
+|turn|27
+|
+|move|p2a: Latios|Draco Meteor|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|28/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Scizor|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, M|68/100
+|-damage|p2a: Tentacruel|43/100|[from] Spikes
+|-damage|p2a: Tentacruel|31/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p1a: Jellicent|Jellicent, F|73/100
+|-status|p1a: Jellicent|psn
+|-damage|p1a: Jellicent|61/100 psn|[from] Stealth Rock
+|-damage|p1a: Jellicent|36/100 psn|[from] Spikes
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|24/100|[from] Sandstorm
+|-damage|p1a: Jellicent|30/100 psn|[from] Sandstorm
+|-heal|p2a: Tentacruel|31/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|36/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|23/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|73/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|24/100|[from] Sandstorm
+|-damage|p1a: Jellicent|67/100 psn|[from] Sandstorm
+|-heal|p2a: Tentacruel|31/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|73/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|61/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p2a: Landorus|Landorus-Therian, M|3/100
+|-damage|p2a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p2a: Landorus
+|move|p1a: Jellicent|Shadow Ball|p2: Landorus|[notarget]
+|-fail|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|55/100 psn|[from] Sandstorm
+|-heal|p1a: Jellicent|61/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|49/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|-damage|p2a: Volcarona|76/100|[from] Spikes
+|-damage|p2a: Volcarona|26/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Jellicent|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|42/100 psn|[from] Sandstorm
+|-heal|p1a: Jellicent|49/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|36/100 psn|[from] psn
+|upkeep
+|-message|scumfuckflower forfeited.
+|
+|win|blackkaiser
+|l|☆scumfuckflower
+|raw|blackkaiser's rating: 1576 &rarr; <strong>1583</strong><br />(+7 for winning)
+|raw|scumfuckflower's rating: 1315 &rarr; <strong>1308</strong><br />(-7 for losing)

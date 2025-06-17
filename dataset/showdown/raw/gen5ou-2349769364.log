@@ -1,0 +1,661 @@
+|j|☆Gym DG
+|j|☆stonya
+|player|p1|Gym DG|238
+|player|p2|stonya|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Donphan, F|item
+|poke|p1|Gastrodon, M|item
+|poke|p1|Politoed, M|item
+|poke|p1|Lapras, M|item
+|poke|p1|Dragonite, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by stonya)
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|U-turn|p2a: Bron Bron
+|-resisted|p2a: Bron Bron
+|-damage|p2a: Bron Bron|94/100
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|move|p1a: Politoed|Scald|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|94/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Donphan|Donphan, F|100/100
+|move|p2a: Pat Riely|Stealth Rock|p1a: Donphan
+|-sidestart|p1: Gym DG|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|94/100
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Donphan|atk|1
+|move|p1a: Donphan|Rapid Spin|p2a: Bron Bron
+|-damage|p2a: Bron Bron|91/100
+|-sideend|p1: Gym DG|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Bron Bron|Earthquake|p1a: Donphan
+|-damage|p1a: Donphan|67/100
+|move|p1a: Donphan|Stealth Rock|p2a: Bron Bron
+|-sidestart|p2: stonya|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Donphan|Ice Shard|p2a: Bron Bron
+|-supereffective|p2a: Bron Bron
+|-damage|p2a: Bron Bron|63/100
+|move|p2a: Bron Bron|U-turn|p1a: Donphan
+|-damage|p1a: Donphan|56/100
+|
+|switch|p2a: Bosh|Latios, M, shiny|100/100
+|-damage|p2a: Bosh|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|82/100|[from] Sandstorm
+|-heal|p1a: Donphan|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Bosh|Energy Ball|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|76/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Jirachi|U-turn|p2a: Bosh
+|-supereffective|p2a: Bosh
+|-crit|p2a: Bosh
+|-damage|p2a: Bosh|0 fnt
+|faint|p2a: Bosh
+|
+|switch|p1a: Politoed|Politoed, M|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Pat Riely|Tyranitar, M|89/100
+|-damage|p2a: Pat Riely|77/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|9
+|
+|switch|p1a: Donphan|Donphan, F|62/100
+|move|p2a: Pat Riely|Stealth Rock|p1a: Donphan
+|-sidestart|p1: Gym DG|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|83/100|[from] item: Leftovers
+|-heal|p1a: Donphan|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Pat Riely|Ice Beam|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|5/100
+|move|p1a: Donphan|Earthquake|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|30/100|[from] item: Leftovers
+|-heal|p1a: Donphan|11/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Donphan|Ice Shard|p2a: Pat Riely
+|-damage|p2a: Pat Riely|21/100
+|move|p2a: Pat Riely|Pursuit|p1a: Donphan
+|-damage|p1a: Donphan|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|27/100|[from] item: Leftovers
+|-heal|p1a: Donphan|7/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Pat Riely|Pursuit|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|86/100
+|-damage|p1a: Jirachi|80/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|63/100
+|-damage|p2a: Bron Bron|51/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|U-turn|p2a: Bron Bron
+|-resisted|p2a: Bron Bron
+|-damage|p2a: Bron Bron|44/100
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Bron Bron|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|move|p1a: Gastrodon|Scald|p2a: Bron Bron
+|-supereffective|p2a: Bron Bron
+|-damage|p2a: Bron Bron|0 fnt
+|faint|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Ray Allen|Magnezone|100/100
+|-damage|p2a: Ray Allen|94/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|70/100
+|move|p1a: Gastrodon|Earthquake|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|76/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|51/100
+|move|p1a: Gastrodon|Earthquake|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|57/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|76/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|70/100|[from] Sandstorm
+|-heal|p1a: Dragonite|76/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|38/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Dragonite|Superpower|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|-unboost|p1a: Dragonite|atk|1
+|-unboost|p1a: Dragonite|def|1
+|move|p2a: Ray Allen|Flash Cannon|p1a: Dragonite
+|-damage|p1a: Dragonite|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|29/100|[from] Sandstorm
+|-heal|p1a: Dragonite|35/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|44/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Dragonite|Hurricane|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-damage|p2a: Ray Allen|28/100
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|29/100|[from] Sandstorm
+|-heal|p1a: Dragonite|35/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|9/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|85/100
+|move|p2a: Ray Allen|Flash Cannon|p1a: Dragonite
+|-damage|p1a: Dragonite|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|35/100|[from] Sandstorm
+|-heal|p1a: Dragonite|41/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|15/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|92/100
+|move|p2a: Ray Allen|Charge Beam|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|72/100|[from] Sandstorm
+|-heal|p1a: Dragonite|78/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|21/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Gastrodon|Gastrodon, M|76/100 tox
+|-damage|p1a: Gastrodon|69/100 tox|[from] Stealth Rock
+|move|p2a: Ray Allen|Flash Cannon|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|51/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|27/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|51/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|33/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Ray Allen|Flash Cannon|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|69/100 tox
+|move|p1a: Gastrodon|Earthquake|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|39/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|57/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|14/100
+|move|p1a: Gastrodon|Earthquake|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|20/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|38/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Jirachi|Jirachi|80/100
+|-damage|p1a: Jirachi|74/100|[from] Stealth Rock
+|move|p2a: Ray Allen|Flash Cannon|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|26/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Jirachi|Trick|p2a: Ray Allen
+|-activate|p1a: Jirachi|move: Trick|[of] p2a: Ray Allen
+|-item|p2a: Ray Allen|Choice Scarf|[from] move: Trick
+|-item|p1a: Jirachi|Leftovers|[from] move: Trick
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, M|38/100 tox
+|-damage|p1a: Gastrodon|32/100 tox|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Miller|Scizor, M, shiny|100/100
+|-damage|p2a: Miller|88/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|82/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gastrodon|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|82/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|move|p2a: Miller|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|29/100 tox
+|
+|switch|p2a: Pat Riely|Tyranitar, M|34/100
+|-damage|p2a: Pat Riely|21/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|0 fnt
+|faint|p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gastrodon|35/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|23/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Ray Allen|Magnezone|26/100
+|-damage|p2a: Ray Allen|20/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Politoed|Politoed, M|94/100
+|-damage|p1a: Politoed|82/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ray Allen|Flash Cannon|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p2a: Ray Allen|Flash Cannon|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|47/100
+|move|p1a: Politoed|Scald|p2a: Ray Allen
+|-damage|p2a: Ray Allen|0 fnt
+|faint|p2a: Ray Allen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|-damage|p2a: D.Wade|94/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: D.Wade|Close Combat|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F|78/100
+|-damage|p1a: Dragonite|53/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p2a: Miller|Scizor, M, shiny|88/100
+|-damage|p2a: Miller|76/100|[from] Stealth Rock
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p2a: Miller|Bullet Punch|p1a: Dragonite
+|-damage|p1a: Dragonite|74/100
+|move|p1a: Dragonite|Hurricane|p2a: Miller
+|-damage|p2a: Miller|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|80/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Miller|Bullet Punch|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Lapras|Lapras, M|100/100
+|-damage|p1a: Lapras|76/100|[from] Stealth Rock
+|turn|36
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|28/100
+|move|p1a: Lapras|Curse|p1a: Lapras
+|-unboost|p1a: Lapras|spe|1
+|-boost|p1a: Lapras|atk|1
+|-boost|p1a: Lapras|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lapras|34/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|3/100
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|100/100 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Lapras|ability: Hydration
+|-curestatus|p1a: Lapras|slp|[msg]
+|upkeep
+|turn|38
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|68/100
+|move|p1a: Lapras|Curse|p1a: Lapras
+|-unboost|p1a: Lapras|spe|1
+|-boost|p1a: Lapras|atk|1
+|-boost|p1a: Lapras|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lapras|74/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|53/100
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|100/100 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Lapras|ability: Hydration
+|-curestatus|p1a: Lapras|slp|[msg]
+|upkeep
+|turn|40
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|79/100
+|move|p1a: Lapras|Curse|p1a: Lapras
+|-unboost|p1a: Lapras|spe|1
+|-boost|p1a: Lapras|atk|1
+|-boost|p1a: Lapras|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lapras|85/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|66/100
+|move|p1a: Lapras|Curse|p1a: Lapras
+|-unboost|p1a: Lapras|spe|1
+|-boost|p1a: Lapras|atk|1
+|-boost|p1a: Lapras|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lapras|72/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|56/100
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|100/100 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Lapras|ability: Hydration
+|-curestatus|p1a: Lapras|slp|[msg]
+|upkeep
+|turn|43
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|84/100
+|move|p1a: Lapras|Curse|p1a: Lapras
+|-unboost|p1a: Lapras|spe|1
+|-boost|p1a: Lapras|atk|1
+|-boost|p1a: Lapras|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lapras|91/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|79/100
+|move|p1a: Lapras|Curse|p1a: Lapras
+|-unboost|p1a: Lapras|spe|1
+|-boost|p1a: Lapras|atk|1
+|-boost|p1a: Lapras|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lapras|85/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|73/100
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|100/100 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Lapras|ability: Hydration
+|-curestatus|p1a: Lapras|slp|[msg]
+|upkeep
+|turn|46
+|
+|move|p2a: Miller|Bullet Punch|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|16/100
+|move|p1a: Lapras|Ice Shard|p2a: Miller
+|-resisted|p2a: Miller
+|-damage|p2a: Miller|0 fnt
+|faint|p2a: Miller
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lapras|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|94/100
+|-damage|p2a: D.Wade|88/100|[from] Stealth Rock
+|turn|47
+|
+|move|p1a: Lapras|Ice Shard|p2a: D.Wade
+|-damage|p2a: D.Wade|2/100
+|move|p2a: D.Wade|Close Combat|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|faint|p1a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, M|23/100 tox
+|-damage|p1a: Gastrodon|17/100 tox|[from] Stealth Rock
+|turn|48
+|c|☆Gym DG|FDP
+|l|☆Gym DG
+|inactive|Gym DG disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Gym DG has 60 seconds to reconnect!
+|c|☆stonya|=D
+|inactive|Gym DG has 30 seconds to reconnect!
+|inactive|Gym DG has 20 seconds to reconnect!
+|inactive|Gym DG has 15 seconds to reconnect!
+|inactive|Gym DG has 10 seconds to reconnect!
+|inactive|Gym DG has 5 seconds to reconnect!
+|-message|Gym DG lost due to inactivity.
+|
+|win|stonya
+|raw|Gym DG's rating: 1320 &rarr; <strong>1302</strong><br />(-18 for losing)
+|raw|stonya's rating: 1357 &rarr; <strong>1375</strong><br />(+18 for winning)

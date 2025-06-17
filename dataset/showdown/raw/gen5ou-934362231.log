@@ -1,0 +1,571 @@
+|j|☆dnite56
+|j|☆Deckline
+|player|p1|dnite56|169
+|player|p2|Deckline|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Kingdra, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Mew|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Magnezone|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dnite56)
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Rod|Mew, shiny|100/100
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rod|atk|1
+|move|p2a: Rod|Roost||[still]
+|-fail|p2a: Rod
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|move|p2a: Rod|Will-O-Wisp|p1a: Kingdra
+|-status|p1a: Kingdra|brn
+|
+|-damage|p1a: Kingdra|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Rod|Taunt|p1a: Kingdra
+|-start|p1a: Kingdra|move: Taunt
+|move|p1a: Kingdra|Hydro Pump|p2a: Rod
+|-damage|p2a: Rod|34/100
+|
+|-heal|p2a: Rod|40/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Kingdra|Hydro Pump|p2a: Rod|[miss]
+|-miss|p1a: Kingdra|p2a: Rod
+|move|p2a: Rod|Roost|p2a: Rod
+|-heal|p2a: Rod|90/100
+|-singleturn|p2a: Rod|move: Roost
+|
+|-heal|p2a: Rod|96/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Omutnitsa|Starmie|100/100
+|move|p1a: Kingdra|Hydro Pump|p2a: Omutnitsa
+|-resisted|p2a: Omutnitsa
+|-damage|p2a: Omutnitsa|50/100
+|
+|-heal|p2a: Omutnitsa|56/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|52/100 brn|[from] brn
+|-end|p1a: Kingdra|move: Taunt
+|upkeep
+|turn|6
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Omutnitsa|Recover|p2a: Omutnitsa
+|-heal|p2a: Omutnitsa|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Omutnitsa|94/100|[from] Sandstorm
+|-heal|p2a: Omutnitsa|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Kupula|Keldeo|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Kupula
+|-resisted|p2a: Kupula
+|-damage|p2a: Kupula|74/100
+|-ability|p2a: Kupula|Justified|boost
+|-boost|p2a: Kupula|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kupula|68/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Koschei|Tyranitar, M|100/100
+|switch|p1a: Latios|Latios, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Latios|Surf|p2a: Koschei
+|-supereffective|p2a: Koschei
+|-damage|p2a: Koschei|52/100
+|move|p2a: Koschei|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|30/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p1a: Latios|Surf|p2a: Koschei
+|-supereffective|p2a: Koschei
+|-damage|p2a: Koschei|0 fnt
+|faint|p2a: Koschei
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|24/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Kupula|Keldeo|68/100
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kupula|atk|1
+|move|p2a: Kupula|Secret Sword|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kupula|62/100|[from] Sandstorm
+|-heal|p1a: Landorus|92/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Ipabog|Gliscor, M, shiny|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Ipabog
+|-sidestart|p2: Deckline|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|98/100|[from] item: Leftovers
+|-status|p2a: Ipabog|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|move|p2a: Ipabog|Substitute|p2a: Ipabog
+|-start|p2a: Ipabog|Substitute
+|-damage|p2a: Ipabog|75/100 tox
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-supereffective|p2a: Ipabog
+|-end|p2a: Ipabog|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|-heal|p2a: Ipabog|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|move|p2a: Ipabog|Protect|p2a: Ipabog
+|-singleturn|p2a: Ipabog|Protect
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-activate|p2a: Ipabog|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|move|p2a: Ipabog|Substitute|p2a: Ipabog
+|-start|p2a: Ipabog|Substitute
+|-damage|p2a: Ipabog|75/100 tox
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-supereffective|p2a: Ipabog
+|-end|p2a: Ipabog|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|move|p2a: Ipabog|Protect|p2a: Ipabog
+|-singleturn|p2a: Ipabog|Protect
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-activate|p2a: Ipabog|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|move|p2a: Ipabog|Toxic|p1a: Landorus|[miss]
+|-miss|p2a: Ipabog|p1a: Landorus
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-supereffective|p2a: Ipabog
+|-damage|p2a: Ipabog|18/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|move|p2a: Ipabog|Protect|p2a: Ipabog
+|-singleturn|p2a: Ipabog|Protect
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-activate|p2a: Ipabog|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|c|☆Deckline|lol
+|
+|move|p2a: Ipabog|Substitute|p2a: Ipabog
+|-start|p2a: Ipabog|Substitute
+|-damage|p2a: Ipabog|18/100 tox
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-supereffective|p2a: Ipabog
+|-end|p2a: Ipabog|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|move|p2a: Ipabog|Protect|p2a: Ipabog
+|-singleturn|p2a: Ipabog|Protect
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-activate|p2a: Ipabog|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|switch|p2a: Omutnitsa|Starmie|100/100
+|-damage|p2a: Omutnitsa|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Hidden Power|p2a: Omutnitsa
+|-resisted|p2a: Omutnitsa
+|-damage|p2a: Omutnitsa|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Omutnitsa|71/100|[from] Sandstorm
+|-heal|p2a: Omutnitsa|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Omutnitsa|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|63/100
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Omutnitsa|71/100|[from] Sandstorm
+|-heal|p2a: Omutnitsa|77/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|51/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Tyranitar|Crunch|p2a: Omutnitsa
+|-supereffective|p2a: Omutnitsa
+|-damage|p2a: Omutnitsa|31/100
+|move|p2a: Omutnitsa|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|49/100 brn
+|-sideend|p2: Deckline|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Omutnitsa
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Omutnitsa|24/100|[from] Sandstorm
+|-heal|p2a: Omutnitsa|31/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|37/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Ipabog|Gliscor, M, shiny|43/100 tox
+|move|p1a: Tyranitar|Crunch|p2a: Ipabog
+|-damage|p2a: Ipabog|28/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|25/100 brn|[from] brn
+|-heal|p2a: Ipabog|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ipabog|atk|1
+|move|p2a: Ipabog|Substitute|p2a: Ipabog
+|-start|p2a: Ipabog|Substitute
+|-damage|p2a: Ipabog|15/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|28/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|move|p2a: Ipabog|Protect|p2a: Ipabog
+|-singleturn|p2a: Ipabog|Protect
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-activate|p2a: Ipabog|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|move|p2a: Ipabog|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|move|p1a: Landorus|Hidden Power|p2a: Ipabog
+|-supereffective|p2a: Ipabog
+|-end|p2a: Ipabog|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|53/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Ipabog|Substitute|p2a: Ipabog
+|-start|p2a: Ipabog|Substitute
+|-damage|p2a: Ipabog|28/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ipabog|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|move|p2a: Ipabog|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|58/100
+|move|p1a: Jirachi|Psychic|p2a: Ipabog
+|-end|p2a: Ipabog|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|64/100|[from] item: Leftovers
+|-heal|p2a: Ipabog|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|move|p2a: Ipabog|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|20/100
+|move|p1a: Jirachi|Psychic|p2a: Ipabog
+|-damage|p2a: Ipabog|0 fnt
+|faint|p2a: Ipabog
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Likho|Magnezone|100/100
+|turn|31
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Likho
+|-supereffective|p2a: Likho
+|-damage|p2a: Likho|53/100
+|move|p2a: Likho|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|switch|p2a: Omutnitsa|Starmie|31/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Omutnitsa|24/100|[from] Sandstorm
+|-heal|p2a: Omutnitsa|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|25/100 brn
+|turn|32
+|
+|switch|p2a: Likho|Magnezone|53/100
+|move|p1a: Tyranitar|Crunch|p2a: Likho
+|-resisted|p2a: Likho
+|-damage|p2a: Likho|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|12/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: Landorus|Landorus-Therian, M|94/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Likho|atk|1
+|move|p2a: Likho|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p1a: Landorus|U-turn|p2a: Likho
+|-resisted|p2a: Likho
+|-damage|p2a: Likho|32/100
+|
+|switch|p1a: Kingdra|Kingdra, M|52/100 brn|[from]move: U-turn
+|move|p2a: Likho|Flash Cannon|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|24/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|18/100 brn|[from] Sandstorm
+|-damage|p1a: Kingdra|6/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Kingdra|Dragon Pulse|p2a: Likho
+|-resisted|p2a: Likho
+|-damage|p2a: Likho|0 fnt
+|faint|p2a: Likho
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|0 fnt|[from] Sandstorm
+|faint|p1a: Kingdra
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Rod|Mew, shiny|96/100
+|turn|36
+|
+|switch|p1a: Landorus|Landorus-Therian, M|94/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rod|atk|1
+|move|p2a: Rod|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rod|90/100|[from] Sandstorm
+|-heal|p2a: Rod|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|24/100
+|turn|37
+|
+|switch|p2a: Omutnitsa|Starmie|31/100
+|move|p1a: Latios|Draco Meteor|p2a: Omutnitsa
+|-damage|p2a: Omutnitsa|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Omutnitsa
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|18/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Rod|Mew, shiny|96/100
+|turn|38
+|
+|switch|p1a: Tyranitar|Tyranitar, M|12/100 brn
+|move|p2a: Rod|Roost|p2a: Rod
+|-heal|p2a: Rod|100/100
+|-singleturn|p2a: Rod|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rod|94/100|[from] Sandstorm
+|-heal|p2a: Rod|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] brn
+|faint|p1a: Tyranitar
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|18/100
+|turn|39
+|
+|move|p1a: Latios|Draco Meteor|p2a: Rod
+|-damage|p2a: Rod|2/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Rod|Roost|p2a: Rod
+|-heal|p2a: Rod|52/100
+|-singleturn|p2a: Rod|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|12/100|[from] Sandstorm
+|-damage|p2a: Rod|46/100|[from] Sandstorm
+|-heal|p2a: Rod|52/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Latios|Draco Meteor|p2a: Rod
+|-damage|p2a: Rod|5/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Rod|Roost|p2a: Rod
+|-heal|p2a: Rod|55/100
+|-singleturn|p2a: Rod|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|6/100|[from] Sandstorm
+|-damage|p2a: Rod|49/100|[from] Sandstorm
+|-heal|p2a: Rod|55/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Rod|Roost|p2a: Rod
+|-heal|p2a: Rod|100/100
+|-singleturn|p2a: Rod|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rod|94/100|[from] Sandstorm
+|-heal|p2a: Rod|100/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Rod|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-enditem|p1a: Garchomp|Yache Berry|[weaken]
+|-damage|p1a: Garchomp|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rod|94/100|[from] Sandstorm
+|-heal|p2a: Rod|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Garchomp|Outrage|p2a: Rod
+|-damage|p2a: Rod|16/100
+|move|p2a: Rod|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rod|9/100|[from] Sandstorm
+|-heal|p2a: Rod|16/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|6/100
+|turn|44
+|
+|move|p1a: Latios|Psyshock|p2a: Rod
+|-resisted|p2a: Rod
+|-damage|p2a: Rod|0 fnt
+|faint|p2a: Rod
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|0 fnt|[from] Sandstorm
+|faint|p1a: Latios
+|
+|win|Deckline
+|upkeep
+|l|☆dnite56
+|raw|dnite56's rating: 1376 &rarr; <strong>1363</strong><br />(-13 for losing)
+|raw|Deckline's rating: 1506 &rarr; <strong>1519</strong><br />(+13 for winning)

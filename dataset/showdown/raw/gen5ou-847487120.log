@@ -1,0 +1,472 @@
+|j|☆vincentdo
+|j|☆Moth fantall.
+|player|p1|vincentdo|283
+|player|p2|Moth fantall.|168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Mew|item
+|poke|p1|Keldeo|item
+|poke|p2|Gengar, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Starmie|item
+|poke|p2|Salamence, M|item
+|poke|p2|Scizor, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vincentdo)
+|inactive|Moth fantall. has 120 seconds left.
+|
+|start
+|switch|p1a: Mew|Mew, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|
+|move|p1a: Mew|Taunt|p2a: Skarmory
+|-start|p2a: Skarmory|move: Taunt
+|cant|p2a: Skarmory|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Mew|Will-O-Wisp|p2a: Gengar|[miss]
+|-miss|p1a: Mew|p2a: Gengar
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|70/100|[from] Sandstorm
+|-heal|p2a: Gengar|76/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Gengar|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|57/100
+|move|p1a: Tyranitar|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|70/100|[from] Sandstorm
+|-heal|p2a: Gengar|76/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p2a: Gengar|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|70/100|[from] Sandstorm
+|-heal|p2a: Gengar|76/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|6
+|
+|move|p2a: Gengar|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|59/100
+|move|p1a: Heatran|Lava Plume|p2a: Gengar
+|-damage|p2a: Gengar|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|22/100|[from] Sandstorm
+|-heal|p2a: Gengar|28/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Gengar|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|24/100
+|move|p1a: Heatran|Lava Plume|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|100/100
+|turn|8
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Heatran|Protect||[still]
+|-fail|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|37/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Skarmory|Stealth Rock|p1a: Heatran
+|-sidestart|p1: vincentdo|move: Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|43/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|item: Custap Berry|[consumed]
+|
+|move|p2a: Skarmory|Spikes|p1a: Heatran
+|-sidestart|p1: vincentdo|Spikes
+|move|p1a: Heatran|Lava Plume|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|100/100
+|turn|11
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Starmie|Hydro Pump|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-heal|p1a: Heatran|55/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Amoonguss|Amoonguss, M, shiny|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|-damage|p1a: Amoonguss|76/100|[from] Spikes
+|move|p2a: Starmie|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|11/100
+|-damage|p2a: Starmie|84/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|78/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|5/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|11/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p2a: Starmie|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Starmie|68/100|[from] item: Life Orb
+|faint|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|62/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Mew|Mew, shiny|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|-damage|p1a: Mew|76/100|[from] Spikes
+|turn|14
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Mew
+|-damage|p1a: Mew|25/100
+|-damage|p2a: Starmie|52/100|[from] item: Life Orb
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|46/100|[from] Sandstorm
+|-damage|p1a: Mew|69/100|[from] Sandstorm
+|-heal|p1a: Mew|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|94/100|[from] Sandstorm
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|88/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|25/100
+|-damage|p2a: Dragonite|72/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|66/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|16/100
+|-damage|p2a: Dragonite|49/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Dragonite
+|drag|p2a: Starmie|Starmie|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|40/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|move|p2a: Starmie|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Starmie|30/100|[from] item: Life Orb
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|24/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Mew|Mew, shiny|100/100
+|-damage|p1a: Mew|88/100|[from] Spikes
+|-damage|p1a: Mew|76/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Dragonite|Dragonite, M|49/100
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|94/100|[from] Sandstorm
+|-damage|p2a: Dragonite|43/100|[from] Sandstorm
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Mew|Taunt|p2a: Dragonite
+|-start|p2a: Dragonite|move: Taunt
+|cant|p2a: Dragonite|move: Taunt|Dragon Dance
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|94/100|[from] Sandstorm
+|-damage|p2a: Dragonite|37/100|[from] Sandstorm
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|brn|[msg]
+|move|p2a: Dragonite|Outrage|p1a: Mew
+|-damage|p1a: Mew|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|46/100|[from] Sandstorm
+|-damage|p2a: Dragonite|31/100|[from] Sandstorm
+|-heal|p1a: Mew|53/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|move|p2a: Dragonite|Outrage|p1a: Mew|[from]lockedmove
+|-damage|p1a: Mew|51/100
+|-start|p2a: Dragonite|confusion|[fatigue]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|45/100|[from] Sandstorm
+|-damage|p2a: Dragonite|24/100|[from] Sandstorm
+|-heal|p1a: Mew|51/100|[from] item: Leftovers
+|-end|p2a: Dragonite|move: Taunt
+|upkeep
+|turn|24
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Outrage|p1a: Mew
+|-damage|p1a: Mew|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|22/100|[from] Sandstorm
+|-damage|p2a: Dragonite|18/100 brn|[from] Sandstorm
+|-heal|p1a: Mew|28/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|6/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|78/100
+|-activate|p2a: Dragonite|confusion
+|-damage|p2a: Dragonite|0 fnt|[from] confusion
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|72/100|[from] Sandstorm
+|-heal|p1a: Mew|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|26
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|72/100|[from] Sandstorm
+|-heal|p1a: Mew|78/100|[from] item: Leftovers
+|-damage|p2a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Mew|Taunt|p2a: Scizor
+|-start|p2a: Scizor|move: Taunt
+|cant|p2a: Scizor|move: Taunt|Swords Dance
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|72/100|[from] Sandstorm
+|-heal|p1a: Mew|78/100|[from] item: Leftovers
+|-damage|p2a: Scizor|76/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Mew
+|-damage|p1a: Mew|55/100
+|move|p1a: Mew|Earthquake|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|23/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|49/100|[from] Sandstorm
+|-heal|p1a: Mew|55/100|[from] item: Leftovers
+|-damage|p2a: Scizor|10/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|move|p2a: Scizor|Acrobatics|p1a: Mew
+|-enditem|p2a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p1a: Mew|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|48/100|[from] Sandstorm
+|-heal|p1a: Mew|55/100|[from] item: Leftovers
+|-damage|p2a: Scizor|0 fnt|[from] brn
+|faint|p2a: Scizor
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|30
+|inactive|vincentdo has 120 seconds left.
+|inactive|vincentdo has 90 seconds left.
+|
+|move|p2a: Salamence|Outrage|p1a: Mew
+|-damage|p1a: Mew|6/100
+|move|p1a: Mew|Taunt|p2a: Salamence
+|-start|p2a: Salamence|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Mew|0 fnt|[from] Sandstorm
+|faint|p1a: Mew
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|-damage|p1a: Keldeo|82/100|[from] Spikes
+|turn|31
+|
+|move|p1a: Keldeo|Hidden Power|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|24/100
+|turn|32
+|
+|switch|p1a: Heatran|Heatran, F|55/100
+|-damage|p1a: Heatran|43/100|[from] Stealth Rock
+|-damage|p1a: Heatran|30/100|[from] Spikes
+|move|p2a: Starmie|Thunder|p1a: Heatran|[miss]
+|-miss|p2a: Starmie|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|18/100|[from] Sandstorm
+|-heal|p1a: Heatran|37/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Starmie|8/100|[from] item: Life Orb
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|2/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|76/100
+|-damage|p1a: Keldeo|70/100|[from] Stealth Rock
+|-damage|p1a: Keldeo|57/100|[from] Spikes
+|turn|34
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|vincentdo
+|l|☆Moth fantall.
+|raw|vincentdo's rating: 1501 &rarr; <strong>1519</strong><br />(+18 for winning)
+|raw|Moth fantall.'s rating: 1477 &rarr; <strong>1458</strong><br />(-19 for losing)

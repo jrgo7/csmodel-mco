@@ -1,0 +1,598 @@
+|j|☆Rheumatoid
+|j|☆XXOO For Ever
+|player|p1|Rheumatoid|skyla|1545
+|player|p2|XXOO For Ever|170|1418
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Politoed, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Keldeo|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|76/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: Rheumatoid|move: Stealth Rock
+|
+|-heal|p1a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Thundurus|Focus Blast|p2a: Thundurus|[miss]
+|-miss|p1a: Thundurus|p2a: Thundurus
+|
+|-heal|p1a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-end|p1a: Thundurus|Substitute
+|move|p1a: Thundurus|Hidden Power|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|28/100
+|
+|-heal|p1a: Thundurus|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|19/100
+|move|p1a: Thundurus|Hidden Power|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-heal|p1a: Thundurus|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Landorus|Earthquake|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Landorus|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p1a: Tentacruel|Tentacruel, M|99/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: XXOO For Ever|move: Toxic Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|-damage|p1a: Tentacruel|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|10
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|99/100
+|-end|p1a: Tentacruel|Leech Seed|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: Rheumatoid|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|move|p1a: Jirachi|Thunder|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Jirachi|Thunder|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Jirachi|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|58/100
+|-status|p1a: Jirachi|par
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100 par
+|-start|p1a: Jirachi|confusion
+|-activate|p1a: Jirachi|confusion
+|-damage|p1a: Jirachi|42/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Jirachi|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|27/100 par
+|-activate|p1a: Jirachi|confusion
+|move|p1a: Jirachi|Thunder|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|-activate|p1a: Jirachi|confusion
+|move|p1a: Jirachi|Thunder|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|22/100 par
+|-activate|p1a: Jirachi|confusion
+|move|p1a: Jirachi|Thunder|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|63/100
+|-end|p1a: Jirachi|confusion
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Jirachi|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|17/100 par
+|cant|p1a: Jirachi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|23/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Jirachi|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|3/100 par
+|cant|p1a: Jirachi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|24
+|
+|move|p2a: Jirachi|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Jirachi|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Politoed|Politoed, F|53/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|-heal|p1a: Politoed|59/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|25/100
+|move|p2a: Jirachi|Thunder|p1a: Thundurus
+|-heal|p1a: Thundurus|50/100|[from] ability: Volt Absorb|[of] p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|56/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|78/100
+|move|p2a: Jirachi|Water Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|65/100
+|-start|p1a: Ferrothorn|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|56/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|62/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Politoed|Politoed, F|59/100
+|move|p2a: Jirachi|Water Pulse|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Politoed|43/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Jirachi|Thunder|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|49/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Tentacruel|Tentacruel, M|99/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|33
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by XXOO For Ever)
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|71/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|27/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: XXOO For Ever|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|34/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|9/100
+|move|p1a: Ferrothorn|Spikes|p2a: Jirachi
+|-sidestart|p2: XXOO For Ever|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Jirachi|Water Pulse|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|70/100
+|-start|p1a: Tentacruel|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|76/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|82/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|15/100
+|move|p2a: Jirachi|Water Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F|49/100
+|turn|39
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Jirachi|Water Pulse|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|56/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|18/100
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Jirachi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|24/100|[from] item: Leftovers
+|-start|p2a: Jirachi|perish3
+|-start|p1a: Politoed|perish3
+|upkeep
+|turn|41
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Jirachi|Water Pulse|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|31/100|[from] item: Leftovers
+|-start|p2a: Jirachi|perish2
+|-start|p1a: Politoed|perish2
+|upkeep
+|turn|42
+|
+|move|p2a: Jirachi|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Jirachi|perish1
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|62/100
+|turn|43
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Jirachi|perish0
+|upkeep
+|faint|p2a: Jirachi
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|switch|p1a: Keldeo|Keldeo|100/100
+|-status|p2a: Politoed|psn
+|-damage|p2a: Politoed|88/100 psn|[from] Spikes
+|-damage|p2a: Politoed|76/100 psn|[from] Stealth Rock
+|turn|44
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Politoed
+|-damage|p2a: Politoed|21/100 psn
+|move|p2a: Politoed|Psychic|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|4/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|8/100 psn|[from] psn
+|upkeep
+|turn|45
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Keldeo|atk|1
+|turn|46
+|c|☆XXOO For Ever|gg
+|
+|switch|p1a: Tentacruel|Tentacruel, M|82/100
+|move|p2a: Landorus|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|4/100
+|turn|47
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|88/100|[from] Spikes
+|-status|p2a: Keldeo|psn
+|-damage|p2a: Keldeo|82/100 psn|[from] Stealth Rock
+|turn|48
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|27/100 psn
+|move|p2a: Keldeo|Hidden Power|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|win|XXOO For Ever
+|c|☆Rheumatoid|gg
+|l|☆Rheumatoid
+|raw|Rheumatoid's rating: 1559 &rarr; <strong>1531</strong><br />(-28 for losing)
+|raw|XXOO For Ever's rating: 1418 &rarr; <strong>1446</strong><br />(+28 for winning)

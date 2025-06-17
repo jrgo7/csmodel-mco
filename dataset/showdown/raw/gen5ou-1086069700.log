@@ -1,0 +1,216 @@
+|j|☆hgfjhds
+|j|☆next levels
+|player|p1|hgfjhds|ash|1680
+|player|p2|next levels|170|1431
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Froslass, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Alakazam, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Keldeo|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hgfjhds)
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: Politoed
+|-sidestart|p2: next levels|move: Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|-status|p1a: Mamoswine|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mamoswine|0 fnt|[from] brn
+|faint|p1a: Mamoswine
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|2
+|
+|move|p1a: Alakazam|Psychic|p2a: Politoed
+|-damage|p2a: Politoed|42/100
+|move|p2a: Politoed|Scald|p1a: Alakazam
+|-damage|p1a: Alakazam|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|48/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Alakazam|Substitute|p1a: Alakazam
+|-start|p1a: Alakazam|Substitute
+|-damage|p1a: Alakazam|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Alakazam|Psychic|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-activate|p1a: Alakazam|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|27/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Alakazam|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-end|p1a: Alakazam|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|33/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Keldeo|Surf|p1a: Jellicent
+|-immune|p1a: Jellicent|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Tentacruel
+|-status|p2a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Tentacruel|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Latios|Psyshock|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|58/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Latios|Draco Meteor|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|48/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|13
+|
+|-activate|p2a: Latios|move: Pursuit
+|move|p1a: Scizor|Pursuit|p2a: Latios|[from]Pursuit
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Tornadus|Hurricane|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, F|18/100
+|turn|15
+|
+|move|p1a: Alakazam|Psychic|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|next levels forfeited.
+|
+|win|hgfjhds
+|l|☆next levels
+|raw|hgfjhds's rating: 1680 &rarr; <strong>1688</strong><br />(+8 for winning)
+|raw|next levels's rating: 1431 &rarr; <strong>1423</strong><br />(-8 for losing)

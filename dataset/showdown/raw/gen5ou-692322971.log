@@ -1,0 +1,618 @@
+|j|☆D e c k l i n e
+|j|☆MCDTeach
+|player|p1|D e c k l i n e|25
+|teamsize|p1|6
+|player|p2|MCDTeach|87
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Starmie|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Tyranitar, M|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Politoed|Hypnosis|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|94/100|[from] sandstorm
+|upkeep
+|turn|2
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|44/100|[from] sandstorm
+|-damage|p1a: Politoed|88/100|[from] sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100 slp
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|cant|p2a: Ferrothorn|slp
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: MCDTeach|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|cant|p2a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Politoed|Focus Blast|p2a: Ferrothorn
+|-enditem|p1a: Politoed|Fighting Gem|[from] gem|[move] Focus Blast
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100 slp
+|-unboost|p2a: Ferrothorn|spd|1
+|cant|p2a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|30/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|-curestatus|p2a: Ferrothorn|slp|[msg]
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Politoed|Hydro Pump|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Latias|[miss]
+|-miss|p1a: Politoed|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latias
+|-end|p2a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|63/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latias
+|-end|p2a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latias
+|-damage|p2a: Latias|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|60/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|35/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latias
+|-end|p2a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|41/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|91/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Latias
+|-start|p2a: Latias|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|97/100|[from] item: Leftovers
+|-damage|p2a: Latias|85/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|15
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|36/100
+|-damage|p2a: Ferrothorn|24/100|[from] Spikes
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|25/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: D e c k l i n e|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|31/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: MCDTeach|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|37/100|[from] item: Leftovers
+|-damage|p1a: Landorus|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|50/100|[silent]
+|upkeep
+|turn|18
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|57/100|[from] item: Leftovers
+|-damage|p1a: Landorus|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|70/100|[silent]
+|upkeep
+|turn|19
+|
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: D e c k l i n e|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|-damage|p1a: Landorus|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|53/100|[silent]
+|upkeep
+|turn|20
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|84/100|[from] Spikes
+|move|p2a: Ferrothorn|Power Whip|p1a: Keldeo|[miss]
+|-miss|p2a: Ferrothorn|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Keldeo|Secret Sword|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Gengar|Gengar, M|44/100
+|-damage|p2a: Gengar|32/100|[from] Stealth Rock
+|move|p1a: Keldeo|Secret Sword|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|move|p2a: Gengar|Focus Blast|p1a: Landorus|[miss]
+|-miss|p2a: Gengar|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Gengar|Will-O-Wisp|p1a: Landorus|[miss]
+|-miss|p2a: Gengar|p1a: Landorus
+|move|p1a: Landorus|Hidden Power|p2a: Gengar
+|-damage|p2a: Gengar|4/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Gengar|Will-O-Wisp|p1a: Landorus|[miss]
+|-miss|p2a: Gengar|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|c|☆MCDTeach|thanks game
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|88/100|[from] Spikes
+|-damage|p2a: Keldeo|82/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|94/100
+|-damage|p1a: Ferrothorn|78/100|[from] Spikes
+|move|p2a: Keldeo|Hydro Pump|p1a: Ferrothorn|[miss]
+|-miss|p2a: Keldeo|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|2/100
+|move|p1a: Ferrothorn|Spikes|p2a: Keldeo
+|-sidestart|p2: MCDTeach|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|8/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Keldeo|Secret Sword|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|84/100|[from] Spikes
+|turn|30
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|72/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Starmie|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Starmie|74/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|68/100|[from] sandstorm
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|65/100
+|-damage|p2a: Ferrothorn|49/100|[from] Spikes
+|-damage|p2a: Ferrothorn|43/100|[from] Stealth Rock
+|turn|31
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Landorus
+|-damage|p1a: Landorus|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|72/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|78/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p1a: Landorus|66/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|37/100|[silent]
+|upkeep
+|turn|33
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] sandstorm
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|44/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Thundurus|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Thundurus
+|-start|p1a: Thundurus|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] sandstorm
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|60/100|[silent]
+|upkeep
+|turn|35
+|
+|switch|p2a: Latias|Latias, F|85/100
+|-damage|p2a: Latias|73/100|[from] Stealth Rock
+|move|p1a: Thundurus|Focus Blast|p2a: Latias|[miss]
+|-miss|p1a: Thundurus|p2a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|82/100|[from] sandstorm
+|-damage|p2a: Latias|67/100|[from] sandstorm
+|-heal|p1a: Thundurus|88/100|[from] item: Leftovers
+|-heal|p2a: Latias|73/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|76/100|[from] Leech Seed|[of] p2a: Latias
+|-heal|p2a: Latias|83/100|[silent]
+|upkeep
+|turn|36
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|72/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|89/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|64/100
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-end|p2a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|70/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|45/100
+|move|p1a: Politoed|Hypnosis|p2a: Latias|[miss]
+|-miss|p1a: Politoed|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|51/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-activate|p2a: Latias|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|58/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-end|p2a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|76/100
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-activate|p2a: Latias|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|82/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-end|p2a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|88/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|63/100
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-activate|p2a: Latias|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|69/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-end|p2a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|75/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|50/100
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-activate|p2a: Latias|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|56/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-end|p2a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|47
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|76/100
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-activate|p2a: Latias|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|82/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|68/100
+|-damage|p1a: Starmie|51/100|[from] Spikes
+|turn|49
+|
+|move|p1a: Starmie|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-end|p2a: Latias|Substitute
+|-damage|p1a: Starmie|41/100|[from] item: Life Orb
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|69/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Starmie|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-activate|p2a: Latias|Substitute|[damage]
+|-damage|p1a: Starmie|32/100|[from] item: Life Orb
+|move|p2a: Latias|Dragon Pulse|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|75/100|[from] item: Leftovers
+|upkeep
+|-message|D e c k l i n e forfeited.
+|
+|win|MCDTeach
+|c|☆D e c k l i n e|gg
+|c|☆MCDTeach|gg
+|raw|D e c k l i n e's rating: 1398 &rarr; <strong>1385</strong><br />(-13 for losing)
+|raw|MCDTeach's rating: 1520 &rarr; <strong>1534</strong><br />(+14 for winning)

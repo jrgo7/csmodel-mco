@@ -1,0 +1,125 @@
+|join|bossaru2
+|join|SoloDimeAS
+|player|p1|bossaru2|293
+|player|p2|SoloDimeAS|293
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Tyranitar, F
+|poke|p1|Stoutland, M
+|poke|p1|Forretress, M
+|poke|p1|Salamence, F
+|poke|p1|Gliscor, F
+|poke|p1|Breloom, F
+|poke|p2|Sableye, M, shiny
+|poke|p2|Politoed, M, shiny
+|poke|p2|Toxicroak, M, shiny
+|poke|p2|Espeon, F, shiny
+|poke|p2|Dragonite, M
+|poke|p2|Rotom-Wash, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Gliscor|Gliscor, F|337/337
+|switch|p2a: Espeon|Espeon, F, shiny|334/334
+|turn|1
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|turn|2
+|
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Gliscor|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|84/334
+|
+|-heal|p2a: Espeon|104/334|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Forretress|Forretress, M|354/354
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+|
+|switch|p2a: Politoed|Politoed, M, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p2a: Politoed|Scald|p1a: Forretress
+|-activate|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/354
+|move|p1a: Forretress|Explosion|p2a: Politoed
+|-damage|p2a: Politoed|170/384
+|faint|p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|194/384|[from] item: Leftovers
+|
+|switch|p1a: Breloom|Breloom, F|262/262
+|turn|5
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-hitcount|p2a: Politoed|1
+|-damage|p1a: Breloom|236/262|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Sableye|Sableye, M, shiny|302/302
+|turn|6
+|
+|switch|p1a: Gliscor|Gliscor, F|337/337 tox
+|move|p2a: Sableye|Taunt|p1a: Gliscor
+|-start|p1a: Gliscor|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Dragonite|Dragonite, M|383/383
+|move|p1a: Gliscor|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, F|342/342
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragonite|Draco Meteor|p1a: Tyranitar|[miss]
+|-miss|p2a: Dragonite|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|360/383|[from] sandstorm
+|turn|9
+|
+|move|p1a: Tyranitar|Ice Punch|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-message|SoloDimeAS forfeited.
+|
+|win|bossaru2
+|raw|Ladder updating...
+|leave|SoloDimeAS
+|player|p2
+|raw|bossaru2's rating: 1384 &rarr; <strong>1401</strong><br />(+17 for winning)
+|raw|SoloDimeAS's rating: 1323 &rarr; <strong>1306</strong><br />(-17 for losing)

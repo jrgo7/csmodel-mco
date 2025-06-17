@@ -1,0 +1,187 @@
+|j|☆Shamrodia
+|j|☆u1412036
+|player|p1|Shamrodia|170
+|player|p2|u1412036|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Machamp, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Sableye, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Heatran, F|item
+|poke|p1|Forretress, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|teampreview
+|
+|start
+|switch|p1a: Machamp|Machamp, M|100/100
+|switch|p2a: SIU|Aerodactyl, M|100/100
+|-ability|p2a: SIU|Unnerve|p1: Shamrodia
+|turn|1
+|
+|move|p2a: SIU|Stealth Rock|p1a: Machamp
+|-sidestart|p1: Shamrodia|move: Stealth Rock
+|move|p1a: Machamp|Dynamic Punch|p2a: SIU
+|-damage|p2a: SIU|1/100
+|-start|p2a: SIU|confusion
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Machamp|Bullet Punch|p2a: SIU
+|-supereffective|p2a: SIU
+|-damage|p2a: SIU|0 fnt
+|faint|p2a: SIU
+|
+|upkeep
+|
+|switch|p2a: IDM Hugo|Latios, M|100/100
+|turn|3
+|
+|move|p2a: IDM Hugo|Surf|p1a: Machamp
+|-damage|p1a: Machamp|66/100
+|move|p1a: Machamp|Payback|p2a: IDM Hugo
+|-supereffective|p2a: IDM Hugo
+|-damage|p2a: IDM Hugo|0 fnt
+|faint|p2a: IDM Hugo
+|
+|upkeep
+|
+|switch|p2a: Stone_Cold|Dragonite, F|100/100
+|turn|4
+|
+|move|p2a: Stone_Cold|Extreme Speed|p1a: Machamp
+|-damage|p1a: Machamp|29/100
+|move|p1a: Machamp|Ice Punch|p2a: Stone_Cold
+|-supereffective|p2a: Stone_Cold
+|-damage|p2a: Stone_Cold|43/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|88/100|[from] Stealth Rock
+|move|p2a: Stone_Cold|Extreme Speed|p1a: Sableye
+|-immune|p1a: Sableye|[msg]
+|
+|-heal|p1a: Sableye|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Stone_Cold
+|-status|p2a: Stone_Cold|brn
+|-enditem|p2a: Stone_Cold|Lum Berry|[eat]
+|-curestatus|p2a: Stone_Cold|brn|[msg]
+|move|p2a: Stone_Cold|Dragon Dance|p2a: Stone_Cold
+|-boost|p2a: Stone_Cold|atk|1
+|-boost|p2a: Stone_Cold|spe|1
+|
+|-heal|p1a: Sableye|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Stone_Cold
+|-status|p2a: Stone_Cold|brn
+|move|p2a: Stone_Cold|Dragon Dance|p2a: Stone_Cold
+|-boost|p2a: Stone_Cold|atk|1
+|-boost|p2a: Stone_Cold|spe|1
+|
+|-damage|p2a: Stone_Cold|31/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Stone_Cold|Outrage|p1a: Sableye
+|-damage|p1a: Sableye|8/100
+|move|p1a: Sableye|Foul Play|p2a: Stone_Cold
+|-damage|p2a: Stone_Cold|0 fnt
+|faint|p2a: Stone_Cold
+|
+|-heal|p1a: Sableye|15/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: BKC|Kyurem-Black|100/100
+|-ability|p2a: BKC|Teravolt
+|turn|9
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: BKC
+|-status|p2a: BKC|brn
+|move|p2a: BKC|Earth Power|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|-damage|p2a: BKC|91/100 brn|[from] item: Life Orb
+|faint|p1a: Sableye
+|
+|-damage|p2a: BKC|78/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Jirachi|Iron Head|p2a: BKC
+|-supereffective|p2a: BKC
+|-damage|p2a: BKC|12/100 brn
+|cant|p2a: BKC|flinch
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-damage|p2a: BKC|0 fnt|[from] brn
+|upkeep
+|faint|p2a: BKC
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|11
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|switch|p2a: CTC|Magnezone|100/100
+|turn|12
+|
+|move|p1a: Jirachi|Fire Punch|p2a: CTC
+|-supereffective|p2a: CTC
+|-damage|p2a: CTC|56/100
+|move|p2a: CTC|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|13
+|
+|move|p1a: Heatran|Fire Blast|p2a: CTC
+|-supereffective|p2a: CTC
+|-damage|p2a: CTC|0 fnt
+|faint|p2a: CTC
+|
+|win|Shamrodia
+|raw|Shamrodia's rating: 1273 &rarr; <strong>1304</strong><br />(+31 for winning)
+|raw|u1412036's rating: 1369 &rarr; <strong>1344</strong><br />(-25 for losing)
+|l|☆u1412036

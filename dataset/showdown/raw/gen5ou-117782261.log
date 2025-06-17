@@ -1,0 +1,368 @@
+|join|Apedingo
+|join|d007
+|player|p1|Apedingo|242
+|player|p2|d007|61
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Garchomp, F
+|poke|p1|Latios, M
+|poke|p1|Keldeo
+|poke|p1|Scizor, F
+|poke|p1|Tyranitar, M
+|poke|p1|Landorus-Therian, M
+|poke|p2|Cofagrigus, F
+|poke|p2|Slaking, F
+|poke|p2|Reuniclus, F, shiny
+|poke|p2|Tentacruel, M
+|poke|p2|Weavile, M
+|poke|p2|Uxie
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Scizor|Scizor, F|343/343
+|switch|p2a: Uxie|Uxie|354/354
+|turn|1
+|
+|move|p2a: Uxie|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Apedingo|move: Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|turn|2
+|
+|switch|p2a: Cofagrigus|Cofagrigus, F|320/320
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|turn|3
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|79/320
+|-ability|p1a: Scizor|Mummy|[from] Mummy
+|move|p2a: Cofagrigus|Will-O-Wisp|p1a: Scizor|[miss]
+|-miss|p2a: Cofagrigus|p1a: Scizor
+|
+|turn|4
+|chat|d007|ofc
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|
+|switch|p2a: Weavile|Weavile, M|282/282
+|turn|5
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-enditem|p2a: Weavile|Focus Sash
+|-damage|p2a: Weavile|1/282
+|-item|p2a: Weavile|Lum Berry|[from] ability: Pickpocket
+|move|p2a: Weavile|Low Kick|p1a: Scizor
+|-damage|p1a: Scizor|221/343
+|-ability|p2a: Weavile|Mummy|[from] Mummy
+|
+|turn|6
+|
+|move|p2a: Weavile|Ice Shard|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|183/343
+|move|p1a: Scizor|Bullet Punch|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|
+|switch|p2a: Slaking|Slaking, F|504/504
+|turn|7
+|chat|Apedingo|i had lum so the burn wouldnt really matter
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Slaking
+|-damage|p2a: Slaking|275/504
+|move|p2a: Slaking|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-ability|p2a: Slaking|Mummy|[from] Mummy
+|faint|p1a: Scizor
+|
+|chat|d007|yh
+|chat|d007|sry for complaining like that
+|
+|switch|p1a: Latios|Latios, M|301/301
+|-damage|p1a: Latios|264/301|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Uxie|Uxie|354/354
+|move|p1a: Latios|Draco Meteor|p2a: Uxie
+|-damage|p2a: Uxie|126/354
+|-unboost|p1a: Latios|spa|2
+|
+|turn|9
+|
+|move|p1a: Latios|Draco Meteor|p2a: Uxie
+|-damage|p2a: Uxie|9/354
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Uxie|Trick|p1a: Latios
+|-activate|p2a: Uxie|move: Trick|[of] p1a: Latios
+|-item|p1a: Latios|Choice Scarf|[from] move: Trick
+|-item|p2a: Uxie|Choice Specs|[from] move: Trick
+|
+|turn|10
+|chat|Apedingo|no problem, i have the same reaction when it happens to me
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Uxie|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|278/404
+|
+|switch|p2a: Tentacruel|Tentacruel, M|364/364
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|342/364|[from] sandstorm
+|-heal|p2a: Tentacruel|364/364|[from] item: Black Sludge
+|-heal|p1a: Tyranitar|303/404|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Latios|Latios, M|264/301
+|-damage|p1a: Latios|227/301|[from] Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|188/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|170/301|[from] sandstorm
+|-damage|p2a: Tentacruel|342/364|[from] sandstorm
+|-heal|p2a: Tentacruel|364/364|[from] item: Black Sludge
+|turn|12
+|
+|move|p1a: Latios|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|104/364
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Latios
+|-sidestart|p1: Apedingo|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|152/301|[from] sandstorm
+|-damage|p2a: Tentacruel|82/364|[from] sandstorm
+|-heal|p2a: Tentacruel|104/364|[from] item: Black Sludge
+|turn|13
+|
+|switch|p1a: Tyranitar|Tyranitar, M|303/404
+|-status|p1a: Tyranitar|psn
+|-damage|p1a: Tyranitar|253/404 psn|[from] Stealth Rock
+|switch|p2a: Uxie|Uxie|9/354
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Uxie|0 fnt|[from] sandstorm
+|-heal|p1a: Tyranitar|278/404 psn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|228/404 psn|[from] psn
+|faint|p2a: Uxie
+|
+|switch|p2a: Slaking|Slaking, F|275/504
+|turn|14
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-damage|p1a: Landorus-Therian|334/381|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Slaking
+|-unboost|p2a: Slaking|atk|1
+|move|p2a: Slaking|Earthquake|p1a: Landorus-Therian
+|-immune|p1a: Landorus-Therian|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slaking|244/504|[from] sandstorm
+|-heal|p1a: Landorus-Therian|357/381|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Tentacruel|Tentacruel, M|104/364
+|move|p1a: Landorus-Therian|U-turn|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|71/364
+|
+|switch|p1a: Latios|Latios, M|152/301
+|-damage|p1a: Latios|115/301|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|97/301|[from] sandstorm
+|-damage|p2a: Tentacruel|49/364|[from] sandstorm
+|-heal|p2a: Tentacruel|71/364|[from] item: Black Sludge
+|turn|16
+|
+|move|p1a: Latios|Draco Meteor|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|79/301|[from] sandstorm
+|
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|424/424
+|turn|17
+|
+|switch|p1a: Tyranitar|Tyranitar, M|228/404 psn
+|-damage|p1a: Tyranitar|178/404 psn|[from] Stealth Rock
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|203/404 psn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|153/404 psn|[from] psn
+|turn|18
+|
+|move|p1a: Tyranitar|Crunch|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|200/424
+|move|p2a: Reuniclus|Hidden Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|226/424|[from] item: Leftovers
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|357/381
+|-damage|p1a: Landorus-Therian|310/381|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Reuniclus
+|-unboost|p2a: Reuniclus|atk|1
+|turn|19
+|chat|d007|sry
+|chat|d007|wow 
+|chat|d007|not even timer
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|90/424
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|302/424
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|333/381|[from] item: Leftovers
+|-heal|p2a: Reuniclus|328/424|[from] item: Leftovers
+|turn|20
+|chat|d007|you're too nice
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|186/424
+|
+|switch|p1a: Garchomp|Garchomp, F|358/358
+|-damage|p1a: Garchomp|336/358|[from] Stealth Rock
+|-status|p1a: Garchomp|psn
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|398/424
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|424/424|[from] item: Leftovers
+|-damage|p1a: Garchomp|292/358 psn|[from] psn
+|turn|21
+|
+|move|p1a: Garchomp|Outrage|p2a: Reuniclus
+|-damage|p2a: Reuniclus|249/424
+|move|p2a: Reuniclus|Psyshock|p1a: Garchomp
+|-damage|p1a: Garchomp|117/358 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|275/424|[from] item: Leftovers
+|-damage|p1a: Garchomp|73/358 psn|[from] psn
+|turn|22
+|chat|Apedingo|ah tnx :)
+|chat|d007|and now
+|chat|d007|I'm not even sure if I should recover
+|
+|move|p1a: Garchomp|Outrage|p2a: Reuniclus
+|-damage|p2a: Reuniclus|104/424
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|316/424
+|
+|-end|p1a: Garchomp|rampage
+|-start|p1a: Garchomp|confusion
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|342/424|[from] item: Leftovers
+|-damage|p1a: Garchomp|29/358 psn|[from] psn
+|turn|23
+|chat|d007|cuz stall sucks
+|
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Outrage|p2a: Reuniclus
+|-damage|p2a: Reuniclus|159/424
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|371/424
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|397/424|[from] item: Leftovers
+|-damage|p1a: Garchomp|0 fnt|[from] psn
+|faint|p1a: Garchomp
+|chat|d007|kinda like hax
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|333/381
+|-damage|p1a: Landorus-Therian|286/381|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Reuniclus
+|-unboost|p2a: Reuniclus|atk|1
+|turn|24
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|244/424
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|309/381|[from] item: Leftovers
+|-heal|p2a: Reuniclus|270/424|[from] item: Leftovers
+|turn|25
+|chat|Apedingo|yeah i know :P some of those higher players do everything to win. even playing boring stall matches...
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|332/381|[from] item: Leftovers
+|chat|Apedingo|srry the hax...
+|chat|d007|you deserved that
+|chat|d007|g
+|chat|d007|g
+|
+|switch|p2a: Slaking|Slaking, F|244/504
+|turn|26
+|chat|Apedingo|gg
+|
+|switch|p1a: Latios|Latios, M|79/301
+|-damage|p1a: Latios|42/301|[from] Stealth Rock
+|move|p2a: Slaking|Return|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slaking|213/504|[from] sandstorm
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|-damage|p1a: Keldeo|303/323|[from] Stealth Rock
+|-status|p1a: Keldeo|psn
+|turn|27
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Slaking
+|-supereffective|p2a: Slaking
+|-damage|p2a: Slaking|0 fnt
+|faint|p2a: Slaking
+|
+|win|Apedingo
+|raw|Ladder updating...
+|raw|Apedingo's rating: 1560 &rarr; <strong>1569</strong><br />(+9 for winning)
+|raw|d007's rating: 1338 &rarr; <strong>1329</strong><br />(-9 for losing)
+|chat|d007|yh higher players win with stall
+|chat|d007|or stall breakers
+|chat|d007|:/

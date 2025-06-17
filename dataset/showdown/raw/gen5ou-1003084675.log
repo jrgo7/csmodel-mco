@@ -1,0 +1,496 @@
+|j|☆westburger
+|j|☆blackkaiser
+|player|p1|westburger|lucas|1356
+|player|p2|blackkaiser|102|1303
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Jolteon, F|item
+|poke|p1|Scizor, F|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|move|p2a: Hippowdon|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: westburger|move: Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Hippowdon
+|-sidestart|p2: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ferrothorn|Spikes|p1a: Heatran
+|-sidestart|p1: westburger|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|-damage|p2a: Jellicent|84/100|[from] Spikes
+|move|p1a: Heatran|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|78/100|[from] Sandstorm
+|-heal|p2a: Jellicent|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|82/100|[from] Spikes
+|move|p2a: Jellicent|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|78/100|[from] Sandstorm
+|-heal|p2a: Jellicent|84/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|66/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|88/100
+|-damage|p2a: Ferrothorn|72/100|[from] Spikes
+|-damage|p2a: Ferrothorn|66/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100
+|-damage|p1a: Ferrothorn|54/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100 brn|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|31/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: westburger|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|25/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Heatran|Heatran, M|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ferrothorn|Spikes|p1a: Heatran
+|-sidestart|p1: westburger|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Fire Blast|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|47/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p2a: Latios|Psyshock|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|44/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p2a: Garchomp|69/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Garchomp|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Garchomp|60/100|[from] item: Life Orb
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|westburger has 120 seconds left.
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|turn|12
+|inactive|blackkaiser has 120 seconds left.
+|inactive|blackkaiser has 90 seconds left.
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Scizor|51/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Scizor|41/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|blackkaiser has 90 seconds left.
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|76/100|[from] Spikes
+|-damage|p2a: Hippowdon|69/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Hippowdon
+|-damage|p2a: Hippowdon|47/100
+|-damage|p1a: Scizor|31/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|blackkaiser has 90 seconds left.
+|inactive|blackkaiser has 60 seconds left.
+|inactive|blackkaiser has 30 seconds left.
+|inactive|blackkaiser has 20 seconds left.
+|inactive|blackkaiser has 15 seconds left.
+|inactive|blackkaiser has 10 seconds left.
+|inactive|blackkaiser has 5 seconds left.
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|82/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Hippowdon|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|inactive|blackkaiser has 15 seconds left this turn.
+|inactive|westburger has 120 seconds left.
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|96/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Hippowdon|Roar|p1a: Scizor
+|drag|p1a: Jolteon|Jolteon, F|100/100
+|-damage|p1a: Jolteon|88/100|[from] Stealth Rock
+|-damage|p1a: Jolteon|64/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|58/100|[from] Sandstorm
+|upkeep
+|turn|16
+|inactive|blackkaiser has 25 seconds left this turn.
+|inactive|westburger has 120 seconds left.
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|-damage|p1a: Jellicent|76/100|[from] Spikes
+|-damage|p1a: Jellicent|63/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|27/100|[from] Sandstorm
+|-heal|p1a: Jellicent|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|westburger has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, F|84/100
+|-damage|p2a: Jellicent|71/100|[from] Stealth Rock
+|-damage|p2a: Jellicent|47/100|[from] Spikes
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|40/100|[from] Sandstorm
+|-damage|p1a: Jellicent|77/100|[from] Sandstorm
+|-heal|p2a: Jellicent|47/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|westburger has 120 seconds left.
+|
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|97/100
+|move|p1a: Jellicent|Taunt|p2a: Jellicent
+|-start|p2a: Jellicent|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|91/100|[from] Sandstorm
+|-damage|p1a: Jellicent|77/100|[from] Sandstorm
+|-heal|p2a: Jellicent|97/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|westburger has 120 seconds left.
+|
+|move|p2a: Jellicent|Shadow Ball|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|48/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Jellicent
+|-status|p2a: Jellicent|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|91/100 brn|[from] Sandstorm
+|-damage|p1a: Jellicent|42/100|[from] Sandstorm
+|-heal|p2a: Jellicent|97/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|48/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|84/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|westburger has 120 seconds left.
+|
+|move|p2a: Jellicent|Shadow Ball|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|9/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|78/100 brn|[from] Sandstorm
+|-damage|p1a: Jellicent|53/100|[from] Sandstorm
+|-heal|p2a: Jellicent|84/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|59/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|72/100 brn|[from] brn
+|upkeep
+|turn|21
+|inactive|westburger has 120 seconds left.
+|
+|move|p2a: Jellicent|Shadow Ball|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|20/100
+|-unboost|p1a: Jellicent|spd|1
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|66/100 brn|[from] Sandstorm
+|-damage|p1a: Jellicent|64/100|[from] Sandstorm
+|-heal|p2a: Jellicent|72/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|70/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|60/100 brn|[from] brn
+|-end|p2a: Jellicent|move: Taunt
+|upkeep
+|turn|22
+|inactive|westburger has 120 seconds left.
+|
+|switch|p1a: Scizor|Scizor, F|96/100
+|-damage|p1a: Scizor|72/100|[from] Spikes
+|-damage|p1a: Scizor|59/100|[from] Stealth Rock
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|inactive|westburger has 120 seconds left.
+|
+|move|p1a: Scizor|Pursuit|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|25/100 brn
+|-damage|p1a: Scizor|49/100|[from] item: Life Orb
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|19/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|25/100 brn|[from] item: Leftovers
+|-damage|p1a: Scizor|37/100 brn|[from] brn
+|-damage|p2a: Jellicent|12/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|westburger has 120 seconds left.
+|inactive|blackkaiser has 90 seconds left.
+|
+|move|p1a: Scizor|Pursuit|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-damage|p1a: Scizor|27/100 brn|[from] item: Life Orb
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scizor|15/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|76/100|[from] Spikes
+|-damage|p2a: Hippowdon|69/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Scizor|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|57/100
+|-damage|p1a: Scizor|5/100 brn|[from] item: Life Orb
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|25/100 brn|[from]move: U-turn
+|-damage|p1a: Ferrothorn|0 fnt|[from] Spikes
+|faint|p1a: Ferrothorn
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|westburger has 120 seconds left.
+|
+|switch|p1a: Jellicent|Jellicent, F|70/100
+|-damage|p1a: Jellicent|57/100|[from] Stealth Rock
+|-damage|p1a: Jellicent|33/100|[from] Spikes
+|turn|26
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|63/100
+|-damage|p2a: Ferrothorn|38/100|[from] Spikes
+|-damage|p2a: Ferrothorn|32/100|[from] Stealth Rock
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|76/100|[from] Sandstorm
+|-heal|p1a: Jellicent|83/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Jellicent|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|move|p2a: Ferrothorn|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|19/100|[from] Sandstorm
+|-heal|p1a: Jellicent|26/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ferrothorn|20/100 brn|[from] brn
+|upkeep
+|inactive|westburger has 120 seconds left.
+|
+|switch|p1a: Jolteon|Jolteon, F|58/100
+|-damage|p1a: Jolteon|46/100|[from] Stealth Rock
+|-damage|p1a: Jolteon|21/100|[from] Spikes
+|turn|29
+|
+|move|p1a: Jolteon|Shadow Ball|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100 brn
+|move|p2a: Ferrothorn|Power Whip|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ferrothorn|0 fnt|[from] brn
+|faint|p2a: Ferrothorn
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Garchomp|76/100|[from] Spikes
+|-damage|p1a: Garchomp|69/100|[from] Stealth Rock
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-damage|p2a: Hippowdon|69/100|[from] Spikes
+|turn|30
+|
+|move|p1a: Garchomp|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|43/100
+|move|p2a: Hippowdon|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|50/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Garchomp|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|22/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|79/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|westburger has 120 seconds left.
+|
+|move|p1a: Garchomp|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|51/100
+|move|p2a: Hippowdon|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|57/100|[from] item: Leftovers
+|upkeep
+|inactive|westburger has 120 seconds left.
+|
+|switch|p1a: Scizor|Scizor, F|5/100 brn
+|-damage|p1a: Scizor|0 fnt|[from] Stealth Rock
+|faint|p1a: Scizor
+|
+|win|blackkaiser
+|raw|westburger's rating: 1356 &rarr; <strong>1335</strong><br />(-21 for losing)
+|raw|blackkaiser's rating: 1330 &rarr; <strong>1352</strong><br />(+22 for winning)

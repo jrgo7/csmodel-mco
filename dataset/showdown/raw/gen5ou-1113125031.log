@@ -1,0 +1,522 @@
+|j|☆testbwou
+|j|☆Nuage rapide
+|player|p1|testbwou|101|1377
+|player|p2|Nuage rapide|plasmagrunt|1418
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|75/100
+|
+|switch|p2a: Latios|Latios, M|100/100|[from]move: Volt Switch
+|move|p1a: Rotom|Hydro Pump|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|77/100
+|
+|-heal|p1a: Rotom|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|83/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|77/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Tyranitar|[miss]
+|-miss|p2a: Rotom|p1a: Tyranitar
+|move|p1a: Tyranitar|Pursuit|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|48/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash|81/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rotom|[miss]
+|-miss|p2a: Rotom|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|42/100|[from] Sandstorm
+|-damage|p1a: Rotom|75/100|[from] Sandstorm
+|-heal|p1a: Rotom|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|75/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|68/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|6
+|
+|move|p2a: Kyurem|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|14/100 brn
+|-unboost|p2a: Kyurem|spa|2
+|move|p1a: Rotom|Volt Switch|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|86/100
+|
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|80/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|80/100
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|14/100 brn
+|move|p2a: Skarmory|Spikes|p1a: Rotom
+|-sidestart|p1: testbwou|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|8/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|14/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|1/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|35/100
+|
+|switch|p1a: Scizor|Scizor, M|84/100|[from]move: Volt Switch
+|-damage|p1a: Scizor|72/100|[from] Spikes
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|85/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Skarmory|Spikes|p1a: Scizor
+|-sidestart|p1: testbwou|Spikes
+|move|p1a: Scizor|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|73/100
+|-damage|p1a: Scizor|55/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100|[from]move: U-turn
+|-damage|p1a: Jellicent|84/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|78/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|switch|p2a: Kyurem|Kyurem-Black|80/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Jellicent|Water Spout|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|38/100|[from] Sandstorm
+|-damage|p1a: Jellicent|71/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Wash|1/100 brn
+|move|p2a: Kyurem|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Kyurem|spa|2
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|32/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|84/100|[from] Spikes
+|turn|13
+|
+|move|p2a: Kyurem|Draco Meteor|p1a: Tyranitar|[miss]
+|-miss|p2a: Kyurem|p1a: Tyranitar
+|move|p1a: Tyranitar|Pursuit|p2a: Kyurem
+|-damage|p2a: Kyurem|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|11/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Kyurem|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|77/100
+|-unboost|p2a: Kyurem|spa|2
+|move|p1a: Tyranitar|Pursuit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|83/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|15
+|
+|switch|p1a: Jellicent|Jellicent, M|71/100
+|-damage|p1a: Jellicent|55/100|[from] Spikes
+|move|p2a: Mamoswine|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|55/100
+|-damage|p1a: Scizor|38/100|[from] Spikes
+|turn|16
+|
+|switch|p2a: Skarmory|Skarmory, M|73/100
+|move|p1a: Scizor|Superpower|p2a: Skarmory
+|-damage|p2a: Skarmory|20/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|22/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|j| AristToken
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|35/100
+|move|p2a: Hippowdon|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|41/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|83/100
+|-damage|p1a: Tyranitar|67/100|[from] Spikes
+|turn|19
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, M|20/100
+|turn|20
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|70/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|79/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|85/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Skarmory|Spikes|p1a: Tyranitar
+|-sidestart|p1: testbwou|Spikes
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|92/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Skarmory|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|55/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|62/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|68/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|72/100
+|move|p2a: Skarmory|Whirlwind|p1a: Tyranitar
+|drag|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Skarmory|[miss]
+|-miss|p1a: Garchomp|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Garchomp
+|drag|p1a: Scizor|Scizor, M|22/100
+|-damage|p1a: Scizor|0 fnt|[from] Spikes
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|76/100
+|-damage|p1a: Garchomp|51/100|[from] Spikes
+|turn|27
+|c|☆testbwou|gg
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|36/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|86/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|50/100
+|move|p2a: Skarmory|Whirlwind|p1a: Garchomp
+|drag|p1a: Tyranitar|Tyranitar, M|68/100
+|-damage|p1a: Tyranitar|43/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|49/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|55/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|72/100
+|move|p2a: Skarmory|Whirlwind|p1a: Tyranitar
+|drag|p1a: Garchomp|Garchomp, M|51/100
+|-damage|p1a: Garchomp|26/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|36/100
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Whirlwind|p1a: Garchomp
+|drag|p1a: Tyranitar|Tyranitar, M|55/100
+|-damage|p1a: Tyranitar|30/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|36/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|24/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|74/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|64/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|43/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|52/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|92/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|49/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|79/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|60/100 brn
+|move|p2a: Skarmory|Whirlwind|p1a: Tyranitar
+|drag|p1a: Garchomp|Garchomp, M|26/100
+|-damage|p1a: Garchomp|1/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skarmory|48/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Skarmory|[miss]
+|-miss|p1a: Garchomp|p2a: Skarmory
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|98/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skarmory|85/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|48/100 brn
+|move|p2a: Skarmory|Whirlwind|p1a: Garchomp
+|drag|p1a: Tyranitar|Tyranitar, M|49/100
+|-damage|p1a: Tyranitar|24/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|30/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|36/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Skarmory|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|13/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|16/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|19/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|3/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|53/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Tyranitar|Ice Beam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|43/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|25/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|31/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Tyranitar
+|drag|p1a: Garchomp|Garchomp, M|1/100
+|-damage|p1a: Garchomp|0 fnt|[from] Spikes
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skarmory|19/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|25/100
+|-damage|p1a: Tyranitar|0 fnt|[from] Spikes
+|faint|p1a: Tyranitar
+|
+|win|Nuage rapide
+|raw|testbwou's rating: 1377 &rarr; <strong>1360</strong><br />(-17 for losing)
+|raw|Nuage rapide's rating: 1418 &rarr; <strong>1436</strong><br />(+18 for winning)

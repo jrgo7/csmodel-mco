@@ -1,0 +1,332 @@
+|j|☆refsunpersons
+|j|☆Toshayi
+|player|p1|refsunpersons|15
+|player|p2|Toshayi|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Xatu, F|item
+|poke|p1|Diglett, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Toxicroak, M|item
+|poke|p2|Espeon, F|item
+|poke|p2|Forretress, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Breloom, M|item
+|teampreview
+|
+|start
+|switch|p1a: hygogg|Politoed, M|100/100
+|switch|p2a: Espeon|Espeon, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: hygogg
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Toshayi)
+|
+|move|p1a: hygogg|Hydro Pump|p2a: Espeon
+|-damage|p2a: Espeon|16/100
+|move|p2a: Espeon|Light Screen|p2a: Espeon
+|-sidestart|p2: Toshayi|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|move|p1a: hygogg|Hydro Pump|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|82/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: big zam|Ferrothorn, F|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Gyarados|Waterfall|p1a: big zam
+|-resisted|p1a: big zam
+|-damage|p1a: big zam|68/100
+|-damage|p2a: Gyarados|81/100|[from] ability: Iron Barbs|[of] p1a: big zam
+|move|p1a: big zam|Power Whip|p2a: Gyarados
+|-damage|p2a: Gyarados|36/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|42/100|[from] item: Leftovers
+|-heal|p1a: big zam|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Gyarados|Waterfall|p1a: big zam
+|-resisted|p1a: big zam
+|-damage|p1a: big zam|42/100
+|-damage|p2a: Gyarados|30/100|[from] ability: Iron Barbs|[of] p1a: big zam
+|move|p1a: big zam|Leech Seed|p2a: Gyarados
+|-start|p2a: Gyarados|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|36/100|[from] item: Leftovers
+|-heal|p1a: big zam|48/100|[from] item: Leftovers
+|-damage|p2a: Gyarados|23/100|[from] Leech Seed|[of] p1a: big zam
+|-heal|p1a: big zam|60/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p2a: Gyarados|Earthquake|p1a: big zam
+|-damage|p1a: big zam|27/100
+|move|p1a: big zam|Spikes|p2a: Gyarados
+|-sidestart|p2: Toshayi|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|30/100|[from] item: Leftovers
+|-heal|p1a: big zam|33/100|[from] item: Leftovers
+|-damage|p2a: Gyarados|17/100|[from] Leech Seed|[of] p1a: big zam
+|-heal|p1a: big zam|45/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p2a: Gyarados|Earthquake|p1a: big zam
+|-damage|p1a: big zam|11/100
+|move|p1a: big zam|Gyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: big zam|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|88/100|[from] Spikes
+|turn|8
+|
+|switch|p1a: zaku|Xatu, F|100/100
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Toshayi|move: Light Screen
+|upkeep
+|turn|9
+|
+|move|p2a: Breloom|Bullet Seed|p1a: zaku
+|-resisted|p1a: zaku
+|-damage|p1a: zaku|75/100
+|-resisted|p1a: zaku
+|-damage|p1a: zaku|53/100
+|-hitcount|p1a: zaku|2
+|-damage|p2a: Breloom|78/100|[from] item: Life Orb
+|move|p1a: zaku|Night Shade|p2a: Breloom
+|-damage|p2a: Breloom|40/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Breloom|Bullet Seed|p1a: zaku
+|-resisted|p1a: zaku
+|-damage|p1a: zaku|29/100
+|-resisted|p1a: zaku
+|-damage|p1a: zaku|5/100
+|-hitcount|p1a: zaku|2
+|-damage|p2a: Breloom|30/100|[from] item: Life Orb
+|move|p1a: zaku|Night Shade|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Espeon|Espeon, F|16/100
+|-damage|p2a: Espeon|3/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Espeon|Reflect|p2a: Espeon
+|-sidestart|p2: Toshayi|Reflect
+|move|p1a: zaku|U-turn|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|switch|p1a: hygogg|Politoed, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|12
+|
+|switch|p1a: zaku|Xatu, F|5/100
+|move|p2a: Tyranitar|Crunch|p1a: zaku
+|-supereffective|p1a: zaku
+|-damage|p1a: zaku|0 fnt
+|-damage|p2a: Tyranitar|72/100|[from] item: Rocky Helmet|[of] p1a: zaku
+|faint|p1a: zaku
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: acguy|Diglett, F|100/100
+|turn|13
+|
+|move|p1a: acguy|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|45/100
+|move|p2a: Tyranitar|Fire Punch|p1a: acguy
+|-enditem|p1a: acguy|Focus Sash
+|-damage|p1a: acguy|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p1a: acguy|Reversal|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|5/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Tyranitar|Fire Punch|p1a: acguy
+|-damage|p1a: acguy|0 fnt
+|faint|p1a: acguy
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: hygogg|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: hygogg
+|turn|16
+|
+|switch|p1a: big zam|Ferrothorn, F|17/100
+|move|p2a: Tyranitar|Crunch|p1a: big zam
+|-resisted|p1a: big zam
+|-damage|p1a: big zam|0 fnt
+|-damage|p2a: Tyranitar|0 fnt|[from] ability: Iron Barbs|[of] p1a: big zam
+|faint|p2a: Tyranitar
+|-formechange|p2a: Tyranitar|Tyranitar||[from] ability: Iron Barbs
+|faint|p1a: big zam
+|-formechange|p1a: big zam|Ferrothorn||[from] ability: Iron Barbs
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|switch|p1a: hygogg|Politoed, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Spikes
+|turn|17
+|
+|move|p1a: hygogg|Hydro Pump|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|-damage|p2a: Volcarona|88/100|[from] Spikes
+|turn|18
+|
+|move|p1a: hygogg|Hydro Pump|p2a: Volcarona|[miss]
+|-miss|p1a: hygogg|p2a: Volcarona
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Toshayi|Reflect
+|upkeep
+|turn|19
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: hygogg|Hydro Pump|p2a: Volcarona|[miss]
+|-miss|p1a: hygogg|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Volcarona|Giga Drain|p1a: hygogg
+|-supereffective|p1a: hygogg
+|-damage|p1a: hygogg|0 fnt
+|-heal|p2a: Volcarona|100/100|[from] drain|[of] p1a: hygogg
+|faint|p1a: hygogg
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: rx-78-2|Latias, F|100/100
+|turn|21
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: rx-78-2
+|-supereffective|p1a: rx-78-2
+|-crit|p1a: rx-78-2
+|-damage|p1a: rx-78-2|0 fnt
+|faint|p1a: rx-78-2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: zeong|Toxicroak, M|100/100
+|turn|22
+|
+|move|p1a: zeong|Sucker Punch|p2a: Volcarona
+|-damage|p2a: Volcarona|54/100
+|-damage|p1a: zeong|91/100|[from] item: Life Orb
+|move|p2a: Volcarona|Fiery Dance|p1a: zeong
+|-damage|p1a: zeong|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: zeong|16/100|[from] ability: Dry Skin
+|upkeep
+|turn|23
+|
+|move|p1a: zeong|Sucker Punch|p2a: Volcarona
+|-damage|p2a: Volcarona|2/100
+|-damage|p1a: zeong|6/100|[from] item: Life Orb
+|move|p2a: Volcarona|Fiery Dance|p1a: zeong
+|-damage|p1a: zeong|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: zeong
+|
+|win|Toshayi
+|raw|refsunpersons's rating: 1361 &rarr; <strong>1344</strong><br />(-17 for losing)
+|raw|Toshayi's rating: 1410 &rarr; <strong>1427</strong><br />(+17 for winning)
+|l|☆Toshayi

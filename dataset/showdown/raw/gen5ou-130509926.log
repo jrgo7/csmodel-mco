@@ -1,0 +1,420 @@
+|join|professorcaralho
+|join|Captain Evil
+|player|p1|professorcaralho|120
+|player|p2|Captain Evil|110
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, M
+|poke|p1|Latios, M
+|poke|p1|Rotom-Wash
+|poke|p1|Breloom, F
+|poke|p1|Jirachi
+|poke|p1|Scizor, F
+|poke|p2|Jirachi
+|poke|p2|Dragonite, M
+|poke|p2|Cloyster, M
+|poke|p2|Gengar, F
+|poke|p2|Starmie
+|poke|p2|Breloom, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Minicraque|Jirachi|341/341
+|switch|p2a: Pb|Jirachi|404/404
+|turn|1
+|chat|Captain Evil|Good fortune.
+|
+|move|p1a: Minicraque|Body Slam|p2a: Pb
+|-resisted|p2a: Pb
+|-damage|p2a: Pb|357/404
+|-status|p2a: Pb|par
+|move|p2a: Pb|Stealth Rock|p1a: Minicraque
+|-sidestart|p1: professorcaralho|move: Stealth Rock
+|
+|-heal|p2a: Pb|382/404 par|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: SoPedro|Politoed, M|384/384
+|-damage|p1a: SoPedro|336/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: SoPedro
+|move|p2a: Pb|Body Slam|p1a: SoPedro
+|-damage|p1a: SoPedro|256/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pb|404/404 par|[from] item: Leftovers
+|turn|3
+|chat|professorcaralho|ok
+|
+|move|p1a: SoPedro|Hydro Pump|p2a: Pb
+|-damage|p2a: Pb|211/404 par
+|cant|p2a: Pb|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pb|236/404 par|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: SoPedro|Hydro Pump|p2a: Pb
+|-damage|p2a: Pb|49/404 par
+|move|p2a: Pb|Body Slam|p1a: SoPedro
+|-damage|p1a: SoPedro|176/384
+|-status|p1a: SoPedro|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pb|74/404 par|[from] item: Leftovers
+|turn|5
+|
+|cant|p2a: Pb|par
+|move|p1a: SoPedro|Hydro Pump|p2a: Pb
+|-damage|p2a: Pb|0 fnt
+|faint|p2a: Pb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ivar Aasen|Dragonite, M|386/386
+|turn|6
+|
+|switch|p1a: Brastemp|Rotom-Wash|303/303
+|-damage|p1a: Brastemp|266/303|[from] Stealth Rock
+|move|p2a: Ivar Aasen|Substitute|p2a: Ivar Aasen
+|-start|p2a: Ivar Aasen|Substitute
+|-damage|p2a: Ivar Aasen|290/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ivar Aasen|314/386|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Brastemp|Volt Switch|p2a: Ivar Aasen
+|-activate|p2a: Ivar Aasen|Substitute|[damage]
+|
+|switch|p1a: Minicraque|Jirachi|341/341
+|-damage|p1a: Minicraque|320/341|[from] Stealth Rock
+|move|p2a: Ivar Aasen|Thunder Wave|p1a: Minicraque
+|-status|p1a: Minicraque|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ivar Aasen|338/386|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Ivar Aasen|Roost|p2a: Ivar Aasen
+|-heal|p2a: Ivar Aasen|386/386
+|move|p1a: Minicraque|Ice Punch|p2a: Ivar Aasen
+|-supereffective|p2a: Ivar Aasen
+|-end|p2a: Ivar Aasen|Substitute
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|switch|p2a: The Lawyer|Cloyster, M|303/303
+|move|p1a: Minicraque|Ice Punch|p2a: The Lawyer
+|-resisted|p2a: The Lawyer
+|-damage|p2a: The Lawyer|293/303
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The Lawyer|303/303|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Scizor|Scizor, F|282/282
+|-damage|p1a: Scizor|247/282|[from] Stealth Rock
+|move|p2a: The Lawyer|Spikes|p1a: Scizor
+|-sidestart|p1: professorcaralho|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: Scizor|Superpower|p2a: The Lawyer
+|-supereffective|p2a: The Lawyer
+|-damage|p2a: The Lawyer|95/303
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|219/282|[from] item: Life Orb
+|move|p2a: The Lawyer|Spikes|p1a: Scizor
+|-sidestart|p1: professorcaralho|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The Lawyer|113/303|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Miss Focus|Gengar, F|262/262
+|move|p1a: Scizor|Bullet Punch|p2a: Miss Focus
+|-damage|p2a: Miss Focus|120/262
+|-damage|p1a: Scizor|191/282|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Miss Focus|136/262|[from] item: Black Sludge
+|turn|13
+|
+|move|p1a: Scizor|Pursuit|p2a: Miss Focus|[from]Pursuit
+|-supereffective|p2a: Miss Focus
+|-damage|p2a: Miss Focus|0 fnt
+|-damage|p1a: Scizor|163/282|[from] item: Life Orb
+|faint|p2a: Miss Focus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Capablanca|Breloom, M|324/324
+|turn|14
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Capablanca
+|-damage|p2a: Capablanca|203/324
+|-damage|p1a: Scizor|135/282|[from] item: Life Orb
+|move|p2a: Capablanca|Spore|p1a: Scizor
+|-status|p1a: Scizor|slp
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Capablanca|tox|[from] item: Toxic Orb
+|turn|15
+|
+|switch|p1a: Antedeguemon|Latios, M|302/302
+|-damage|p1a: Antedeguemon|265/302|[from] Stealth Rock
+|move|p2a: Capablanca|Substitute|p2a: Capablanca
+|-start|p2a: Capablanca|Substitute
+|-damage|p2a: Capablanca|122/324 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Capablanca|162/324 tox|[from] ability: Poison Heal
+|turn|16
+|
+|move|p1a: Antedeguemon|Psyshock|p2a: Capablanca
+|-supereffective|p2a: Capablanca
+|-end|p2a: Capablanca|Substitute
+|move|p2a: Capablanca|Leech Seed|p1a: Antedeguemon
+|-start|p1a: Antedeguemon|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Antedeguemon|228/302|[from] Leech Seed|[of] p2a: Capablanca
+|-heal|p2a: Capablanca|199/324 tox|[silent]
+|-heal|p2a: Capablanca|239/324 tox|[from] ability: Poison Heal
+|turn|17
+|
+|switch|p2a: Ivar Aasen|Dragonite, M|386/386
+|move|p1a: Antedeguemon|Psyshock|p2a: Ivar Aasen
+|-damage|p2a: Ivar Aasen|306/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ivar Aasen|330/386|[from] item: Leftovers
+|-damage|p1a: Antedeguemon|191/302|[from] Leech Seed|[of] p2a: Ivar Aasen
+|-heal|p2a: Ivar Aasen|367/386|[silent]
+|turn|18
+|
+|switch|p1a: Minicraque|Jirachi|320/341 par
+|-damage|p1a: Minicraque|264/341 par|[from] Spikes
+|-damage|p1a: Minicraque|243/341 par|[from] Stealth Rock
+|switch|p2a: The Lawyer|Cloyster, M|113/303
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The Lawyer|131/303|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: The Lawyer|Spikes|p1a: Minicraque
+|-sidestart|p1: professorcaralho|Spikes
+|move|p1a: Minicraque|Iron Head|p2a: The Lawyer
+|-damage|p2a: The Lawyer|67/303
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The Lawyer|85/303|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: The Lawyer|Icicle Spear|p1a: Minicraque
+|-resisted|p1a: Minicraque
+|-damage|p1a: Minicraque|228/341 par
+|-resisted|p1a: Minicraque
+|-damage|p1a: Minicraque|213/341 par
+|-crit|p1a: Minicraque
+|-resisted|p1a: Minicraque
+|-damage|p1a: Minicraque|182/341 par
+|-resisted|p1a: Minicraque
+|-damage|p1a: Minicraque|167/341 par
+|-resisted|p1a: Minicraque
+|-damage|p1a: Minicraque|152/341 par
+|-hitcount|p1a: Minicraque|5
+|cant|p1a: Minicraque|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The Lawyer|103/303|[from] item: Leftovers
+|turn|21
+|
+|switch|p1a: Brastemp|Rotom-Wash|266/303
+|-damage|p1a: Brastemp|229/303|[from] Stealth Rock
+|move|p2a: The Lawyer|Icicle Spear|p1a: Brastemp
+|-resisted|p1a: Brastemp
+|-damage|p1a: Brastemp|214/303
+|-resisted|p1a: Brastemp
+|-damage|p1a: Brastemp|200/303
+|-resisted|p1a: Brastemp
+|-damage|p1a: Brastemp|185/303
+|-crit|p1a: Brastemp
+|-resisted|p1a: Brastemp
+|-damage|p1a: Brastemp|154/303
+|-resisted|p1a: Brastemp
+|-damage|p1a: Brastemp|140/303
+|-hitcount|p1a: Brastemp|5
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: The Lawyer|121/303|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Brastemp|Volt Switch|p2a: The Lawyer
+|-supereffective|p2a: The Lawyer
+|-damage|p2a: The Lawyer|0 fnt
+|faint|p2a: The Lawyer
+|
+|switch|p1a: Antedeguemon|Latios, M|191/302
+|-damage|p1a: Antedeguemon|154/302|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Eurovision|Starmie|262/262
+|turn|23
+|
+|move|p1a: Antedeguemon|Draco Meteor|p2a: Eurovision|[miss]
+|-miss|p1a: Antedeguemon|p2a: Eurovision
+|move|p2a: Eurovision|Ice Beam|p1a: Antedeguemon
+|-supereffective|p1a: Antedeguemon
+|-damage|p1a: Antedeguemon|0 fnt
+|faint|p1a: Antedeguemon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Brastemp|Rotom-Wash|140/303
+|-damage|p1a: Brastemp|103/303|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Brastemp|Thunder Wave|p2a: Eurovision
+|-status|p2a: Eurovision|par
+|cant|p2a: Eurovision|par
+|
+|-weather|RainDance|[upkeep]
+|turn|25
+|
+|switch|p1a: SoPedro|Politoed, M|176/384 par
+|-damage|p1a: SoPedro|80/384 par|[from] Spikes
+|-damage|p1a: SoPedro|32/384 par|[from] Stealth Rock
+|move|p2a: Eurovision|Psyshock|p1a: SoPedro
+|-damage|p1a: SoPedro|0 fnt
+|faint|p1a: SoPedro
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Minicraque|Jirachi|152/341 par
+|-damage|p1a: Minicraque|67/341 par|[from] Spikes
+|-damage|p1a: Minicraque|46/341 par|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Minicraque|Iron Head|p2a: Eurovision
+|-resisted|p2a: Eurovision
+|-damage|p2a: Eurovision|191/262 par
+|cant|p2a: Eurovision|flinch
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|cant|p1a: Minicraque|par
+|move|p2a: Eurovision|Surf|p1a: Minicraque
+|-damage|p1a: Minicraque|0 fnt
+|faint|p1a: Minicraque
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: RaboGrande|Breloom, F|261/261
+|-damage|p1a: RaboGrande|245/261|[from] Stealth Rock
+|-damage|p1a: RaboGrande|180/261|[from] Spikes
+|turn|28
+|
+|move|p1a: RaboGrande|Substitute|p1a: RaboGrande
+|-start|p1a: RaboGrande|Substitute
+|-damage|p1a: RaboGrande|115/261
+|cant|p2a: Eurovision|par
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: RaboGrande|tox|[from] item: Toxic Orb
+|turn|29
+|
+|move|p1a: RaboGrande|Bullet Seed|p2a: Eurovision
+|-supereffective|p2a: Eurovision
+|-damage|p2a: Eurovision|89/262 par
+|-supereffective|p2a: Eurovision
+|-damage|p2a: Eurovision|0 fnt
+|-hitcount|p2a: Eurovision|2
+|faint|p2a: Eurovision
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: RaboGrande|147/261 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Ivar Aasen|Dragonite, M|367/386
+|turn|30
+|
+|move|p1a: RaboGrande|Spore|p2a: Ivar Aasen
+|-status|p2a: Ivar Aasen|slp
+|cant|p2a: Ivar Aasen|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ivar Aasen|386/386 slp|[from] item: Leftovers
+|-heal|p1a: RaboGrande|179/261 tox|[from] ability: Poison Heal
+|turn|31
+|
+|-singleturn|p1a: RaboGrande|move: Focus Punch
+|switch|p2a: Capablanca|Breloom, M|239/324 tox
+|move|p1a: RaboGrande|Focus Punch|p2a: Capablanca
+|-damage|p2a: Capablanca|0 fnt
+|faint|p2a: Capablanca
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: RaboGrande|211/261 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Ivar Aasen|Dragonite, M|386/386 slp
+|turn|32
+|
+|-singleturn|p1a: RaboGrande|move: Focus Punch
+|cant|p2a: Ivar Aasen|slp
+|move|p1a: RaboGrande|Focus Punch|p2a: Ivar Aasen
+|-resisted|p2a: Ivar Aasen
+|-damage|p2a: Ivar Aasen|321/386 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ivar Aasen|345/386 slp|[from] item: Leftovers
+|-heal|p1a: RaboGrande|243/261 tox|[from] ability: Poison Heal
+|turn|33
+|
+|switch|p1a: Brastemp|Rotom-Wash|103/303
+|-damage|p1a: Brastemp|66/303|[from] Stealth Rock
+|cant|p2a: Ivar Aasen|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ivar Aasen|369/386 slp|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: Brastemp|Trick|p2a: Ivar Aasen
+|-activate|p1a: Brastemp|move: Trick|[of] p2a: Ivar Aasen
+|-item|p2a: Ivar Aasen|Choice Scarf|[from] move: Trick
+|-item|p1a: Brastemp|Leftovers|[from] move: Trick
+|-curestatus|p2a: Ivar Aasen|slp
+|move|p2a: Ivar Aasen|Substitute|p2a: Ivar Aasen
+|-start|p2a: Ivar Aasen|Substitute
+|-damage|p2a: Ivar Aasen|273/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Brastemp|84/303|[from] item: Leftovers
+|turn|35
+|chat|Captain Evil|...
+|chat|Captain Evil|I am disgusted.
+|chat|professorcaralho|lel
+|chat|professorcaralho|bad luck
+|join|UtopiaGreen
+|leave|UtopiaGreen
+|-message|Captain Evil lost due to inactivity.
+|
+|win|professorcaralho
+|raw|Ladder updating...
+|raw|professorcaralho's rating: 1354 &rarr; <strong>1373</strong><br />(+19 for winning)
+|raw|Captain Evil's rating: 1343 &rarr; <strong>1323</strong><br />(-20 for losing)

@@ -1,0 +1,622 @@
+|j|☆little blue heron
+|j|☆Medoroziam
+|player|p1|little blue heron|galacticgruntf|1454
+|player|p2|Medoroziam|plasmagrunt|1333
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Jirachi|item
+|poke|p1|Latias, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Politoed, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Celebi|item
+|poke|p2|Thundurus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Medoroziam)
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Medoroziam|move: Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Jirachi|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|88/100
+|
+|switch|p1a: Reuniclus|Reuniclus, M, shiny|100/100|[from]move: U-turn
+|move|p2a: Politoed|Scald|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|95/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|39/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Politoed|Scald|p1a: Reuniclus
+|-damage|p1a: Reuniclus|7/100
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|100/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|63/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Reuniclus|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Politoed|perish3
+|-start|p1a: Reuniclus|perish3
+|upkeep
+|turn|5
+|
+|move|p2a: Politoed|Toxic|p1a: Reuniclus
+|-status|p1a: Reuniclus|tox
+|move|p1a: Reuniclus|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|38/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|44/100|[from] item: Leftovers
+|-start|p2a: Politoed|perish2
+|-start|p1a: Reuniclus|perish2
+|upkeep
+|turn|6
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Reuniclus|Thunder|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|-start|p1a: Reuniclus|perish1
+|upkeep
+|turn|7
+|inactive|little blue heron has 120 seconds left.
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Latias
+|-sidestart|p1: little blue heron|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Latias|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|move|p1a: Latias|Trick|p2a: Excadrill
+|-activate|p1a: Latias|move: Trick|[of] p2a: Excadrill
+|-item|p2a: Excadrill|Flame Orb|[from] move: Trick
+|-item|p1a: Latias|Leftovers|[from] move: Trick
+|move|p2a: Excadrill|Rapid Spin|p1a: Latias
+|-damage|p1a: Latias|93/100 brn
+|-sideend|p2: Medoroziam|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|87/100 brn|[from] brn
+|-status|p2a: Excadrill|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|inactive|little blue heron has 120 seconds left.
+|inactive|Medoroziam has 120 seconds left.
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Latias|Surf|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|93/100 brn|[from] item: Leftovers
+|-heal|p2a: Celebi|93/100|[from] item: Leftovers
+|-damage|p1a: Latias|80/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|little blue heron has 90 seconds left.
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|switch|p2a: Keldeo|Keldeo|100/100|[from]move: Baton Pass
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|25/100
+|move|p1a: Latios|Draco Meteor|p2a: Keldeo
+|-enditem|p1a: Latios|Dragon Gem|[from] gem
+|-damage|p2a: Keldeo|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|13
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|75/100
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|17/100
+|-damage|p2a: Thundurus|91/100|[from] item: Life Orb
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p1a: Jirachi|Jirachi|84/100
+|-damage|p1a: Jirachi|77/100|[from] Stealth Rock
+|move|p2a: Thundurus|Hidden Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|-damage|p2a: Thundurus|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|25/100
+|-damage|p2a: Thundurus|71/100|[from] item: Life Orb
+|move|p1a: Jirachi|Body Slam|p2a: Thundurus
+|-damage|p2a: Thundurus|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|32/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Medoroziam has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Thundurus|Thunderbolt|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|inactive|Medoroziam has 120 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|32/100
+|-damage|p1a: Jirachi|25/100|[from] Stealth Rock
+|move|p2a: Thundurus|Hidden Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|14/100
+|-damage|p2a: Thundurus|32/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|20/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Medoroziam has 120 seconds left.
+|inactive|little blue heron has 120 seconds left.
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Thundurus|22/100|[from] item: Life Orb
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|-item|p1a: Magnezone|Air Balloon
+|turn|20
+|inactive|Medoroziam has 120 seconds left.
+|
+|switch|p2a: Politoed|Politoed, M|44/100
+|move|p1a: Magnezone|Hidden Power|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Medoroziam has 120 seconds left.
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|22/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Thundurus
+|-heal|p2a: Thundurus|47/100|[from] ability: Volt Absorb|[of] p1a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|48/100
+|-enditem|p1a: Magnezone|Air Balloon
+|-damage|p2a: Thundurus|37/100|[from] item: Life Orb
+|move|p1a: Magnezone|Sunny Day|p1a: Magnezone
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-damage|p2a: Thundurus|27/100|[from] item: Life Orb
+|faint|p1a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|little blue heron has 120 seconds left.
+|
+|switch|p1a: Latios|Latios, M|17/100
+|-damage|p1a: Latios|5/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Latios|Surf|p2a: Thundurus
+|-damage|p2a: Thundurus|6/100
+|move|p2a: Thundurus|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Thundurus|0 fnt|[from] item: Life Orb
+|faint|p1a: Latios
+|faint|p2a: Thundurus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|little blue heron has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|94/100
+|switch|p2a: Politoed|Politoed, M|45/100
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|25
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Garchomp|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Medoroziam|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|51/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Medoroziam has 120 seconds left.
+|
+|switch|p1a: Latias|Latias, F|80/100 brn
+|-damage|p1a: Latias|68/100 brn|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|52/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|58/100 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|58/100|[from] item: Leftovers
+|-damage|p1a: Latias|46/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|96/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|64/100|[from] item: Leftovers
+|-damage|p1a: Latias|88/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Latias|Draco Meteor|p2a: Politoed|[miss]
+|-miss|p1a: Latias|p2a: Politoed
+|move|p2a: Politoed|Scald|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|72/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|78/100 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|70/100|[from] item: Leftovers
+|-damage|p1a: Latias|65/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latias|Draco Meteor|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|71/100 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|76/100|[from] item: Leftovers
+|-damage|p1a: Latias|59/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100 brn
+|-damage|p2a: Excadrill|98/100 brn|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Latias|Draco Meteor|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|68/100 brn
+|-unboost|p1a: Latias|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|53/100 brn|[from] brn
+|-damage|p2a: Excadrill|56/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100/100 brn
+|move|p2a: Excadrill|Rapid Spin|p1a: Latias
+|-damage|p1a: Latias|96/100 brn
+|-sideend|p2: Medoroziam|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|88/100 brn|[from] brn
+|-damage|p2a: Excadrill|44/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|88/100
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|switch|p2a: Celebi|Celebi|99/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Celebi
+|-sidestart|p2: Medoroziam|move: Stealth Rock
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|switch|p1a: Latias|Latias, F|88/100 brn
+|-damage|p1a: Latias|76/100 brn|[from] Stealth Rock
+|move|p2a: Celebi|Giga Drain|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|54/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|48/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|98/100 brn
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|88/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Latias|Draco Meteor|p2a: Celebi
+|-damage|p2a: Celebi|62/100
+|-unboost|p1a: Latias|spa|2
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|82/100 brn|[from] brn
+|upkeep
+|turn|37
+|inactive|little blue heron has 120 seconds left.
+|inactive|little blue heron has 90 seconds left.
+|inactive|little blue heron has 60 seconds left.
+|
+|switch|p1a: Reuniclus|Reuniclus, M, shiny|100/100 tox
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|inactive|little blue heron has 60 seconds left.
+|
+|move|p2a: Celebi|Giga Drain|p1a: Reuniclus
+|-damage|p1a: Reuniclus|12/100 tox
+|move|p1a: Reuniclus|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|83/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|18/100 tox|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|little blue heron has 60 seconds left.
+|
+|move|p2a: Celebi|Giga Drain|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-heal|p2a: Celebi|92/100|[from] drain|[of] p1a: Reuniclus
+|faint|p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|98/100|[from] item: Leftovers
+|upkeep
+|inactive|little blue heron has 60 seconds left.
+|
+|switch|p1a: Latias|Latias, F|82/100 brn
+|-damage|p1a: Latias|70/100 brn|[from] Stealth Rock
+|turn|40
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p1a: Latias|Draco Meteor|p2a: Celebi
+|-damage|p2a: Celebi|62/100
+|-unboost|p1a: Latias|spa|2
+|move|p2a: Celebi|Giga Drain|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|26/100 brn
+|-heal|p2a: Celebi|79/100|[from] drain|[of] p1a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|32/100 brn|[from] item: Leftovers
+|-heal|p2a: Celebi|86/100|[from] item: Leftovers
+|-damage|p1a: Latias|20/100 brn|[from] brn
+|upkeep
+|turn|41
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|70/100 brn
+|move|p2a: Celebi|Giga Drain|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|25/100 brn
+|-heal|p2a: Celebi|100/100|[from] drain|[of] p1a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|18/100 brn|[from] brn
+|upkeep
+|turn|42
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|69/100 brn
+|move|p2a: Celebi|Giga Drain|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|28/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|34/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|22/100 brn|[from] brn
+|upkeep
+|turn|43
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|72/100 brn
+|move|p2a: Celebi|Giga Drain|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|30/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|23/100 brn|[from] brn
+|upkeep
+|turn|44
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|73/100 brn
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|0
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|67/100 brn|[from] brn
+|upkeep
+|turn|45
+|inactive|Medoroziam has 120 seconds left.
+|
+|move|p1a: Latias|Draco Meteor|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|19/100
+|-unboost|p1a: Latias|spa|2
+|move|p2a: Celebi|Giga Drain|p1a: Latias
+|-resisted|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-heal|p2a: Celebi|46/100|[from] drain|[of] p1a: Latias
+|faint|p1a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|82/100
+|-damage|p1a: Garchomp|76/100|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Garchomp|Outrage|p2a: Celebi
+|-damage|p2a: Celebi|2/100
+|move|p2a: Celebi|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-heal|p2a: Celebi|36/100|[from] drain|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|win|Medoroziam
+|l|☆little blue heron
+|raw|little blue heron's rating: 1454 &rarr; <strong>1428</strong><br />(-26 for losing)
+|raw|Medoroziam's rating: 1333 &rarr; <strong>1360</strong><br />(+27 for winning)

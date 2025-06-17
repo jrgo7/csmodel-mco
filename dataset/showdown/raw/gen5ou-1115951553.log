@@ -1,0 +1,419 @@
+|j|☆ewqwerty
+|j|☆Basstard
+|player|p1|ewqwerty|palmer|1438
+|player|p2|Basstard|elio|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tornadus, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Starmie|item
+|poke|p1|Toxicroak, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Basstard)
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Landorus|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|81/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p1a: Politoed|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|-status|p2a: Rotom|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|92/100 brn|[from] item: Leftovers
+|-heal|p1a: Politoed|87/100|[from] item: Leftovers
+|-damage|p2a: Rotom|79/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Rotom|Will-O-Wisp|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|85/100 brn|[from] item: Leftovers
+|-heal|p1a: Politoed|93/100|[from] item: Leftovers
+|-damage|p2a: Rotom|73/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|45/100
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100|[from]move: Volt Switch
+|move|p1a: Politoed|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|88/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|51/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|95/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|73/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|67/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Terrakion|[miss]
+|-miss|p1a: Ferrothorn|p2a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|inactive|ewqwerty has 120 seconds left.
+|
+|switch|p1a: Toxicroak|Toxicroak, F, shiny|100/100
+|move|p2a: Terrakion|Close Combat|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|28/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|41/100|[from] ability: Dry Skin
+|upkeep
+|turn|7
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|71/100
+|-ability|p2a: Terrakion|Justified|boost
+|-boost|p2a: Terrakion|atk|1
+|-damage|p1a: Toxicroak|31/100|[from] item: Life Orb
+|move|p2a: Terrakion|Close Combat|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|8
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|63/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|69/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tornadus|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Tornadus|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|94/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p1a: Tornadus|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|36/100
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|85/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: ewqwerty|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|79/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p2a: Rotom|Rotom-Wash|67/100 brn
+|move|p1a: Tornadus|Focus Blast|p2a: Rotom
+|-damage|p2a: Rotom|28/100 brn
+|-damage|p1a: Tornadus|69/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|63/100|[from] Sandstorm
+|-damage|p2a: Rotom|22/100 brn|[from] Sandstorm
+|-heal|p2a: Rotom|28/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|16/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Tornadus|Superpower|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|53/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|47/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100 par
+|-damage|p1a: Ferrothorn|94/100 par|[from] Stealth Rock
+|move|p2a: Landorus|Stone Edge|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|74/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Politoed|Politoed, M|51/100
+|-damage|p1a: Politoed|39/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Excadrill|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|80/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Starmie|Surf|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Starmie|78/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|turn|19
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|95/100 par
+|-damage|p1a: Ferrothorn|88/100 par|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|69/100 par
+|-damage|p2a: Landorus|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Terrakion|Terrakion|71/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|ewqwerty has 120 seconds left.
+|inactive|ewqwerty has 90 seconds left.
+|inactive|ewqwerty has 60 seconds left.
+|
+|move|p2a: Terrakion|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|59/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|78/100
+|-damage|p1a: Starmie|66/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|56/100
+|-sideend|p1: ewqwerty|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|56/100|[from] item: Life Orb
+|move|p2a: Terrakion|Close Combat|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|47/100
+|turn|22
+|
+|move|p1a: Tornadus|Hurricane|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-damage|p1a: Tornadus|38/100|[from] item: Life Orb
+|faint|p2a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|36/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|23
+|
+|move|p1a: Tornadus|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|28/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|22/100|[from] Sandstorm
+|upkeep
+|inactive|Basstard has 120 seconds left.
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|24
+|inactive|ewqwerty has 90 seconds left.
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Landorus|U-turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|84/100
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|78/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|switch|p1a: Tornadus|Tornadus, M|22/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Tornadus
+|-status|p1a: Tornadus|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|94/100|[from] Sandstorm
+|-damage|p1a: Tornadus|16/100 par|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|inactive|Basstard has 120 seconds left.
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|78/100
+|turn|27
+|inactive|Basstard has 120 seconds left.
+|c|☆ewqwerty|that was a cool trick you pulled
+|c|☆ewqwerty|earlier in the match
+|c|☆Basstard|when?
+|c|☆ewqwerty|where you dodged power whip and focus blast
+|inactive|ewqwerty has 90 seconds left.
+|c|☆ewqwerty|which would have ended the game
+|c|☆Basstard|Salt?
+|c|☆ewqwerty|on the spot
+|c|☆ewqwerty|it's not salt
+|c|☆ewqwerty|it's just obvious fact
+|c|☆Basstard|ok
+|c|☆Basstard|gg
+|inactive|ewqwerty has 60 seconds left.
+|c|☆ewqwerty|but if you want some salt
+|c|☆ewqwerty|look at our respective ranks
+|c|☆Basstard|no im fine
+|c|☆ewqwerty|i'd recommend it
+|c|☆ewqwerty|you'll begin to understand my bafflement
+|c|☆ewqwerty|as to how i lost
+|inactive|ewqwerty has 30 seconds left.
+|c|☆ewqwerty|to a fucking imbecile like you
+|-message|ewqwerty forfeited.
+|
+|win|Basstard
+|inactive|ewqwerty has 30 seconds left this turn.
+|l|☆ewqwerty
+|j| sandwichaufromage
+|raw|ewqwerty's rating: 1439 &rarr; <strong>1411</strong><br />(-28 for losing)
+|raw|Basstard's rating: 1302 &rarr; <strong>1329</strong><br />(+27 for winning)
+|l| sandwichaufromage

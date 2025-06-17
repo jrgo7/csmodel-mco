@@ -1,0 +1,351 @@
+|j|☆refsunpersons
+|j|☆bad big bratt
+|player|p1|refsunpersons|15
+|player|p2|bad big bratt|171
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Latios, M|item
+|poke|p1|Diglett, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Suicune|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bad big bratt)
+|
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|1
+|c|☆refsunpersons|gl hf
+|c|☆bad big bratt|thanks
+|
+|move|p2a: Landorus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|79/100
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tornadus|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p1a: Xatu|Night Shade|p2a: Tyranitar
+|-damage|p2a: Tyranitar|60/100
+|move|p2a: Tyranitar|Crunch|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|13/100
+|-damage|p2a: Tyranitar|43/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|7/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p1a: Xatu|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|25/100
+|
+|switch|p1a: Diglett|Diglett, M|100/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-enditem|p1a: Diglett|Focus Sash
+|-damage|p1a: Diglett|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Diglett|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Diglett|atk|1
+|turn|5
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Landorus|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|70/100
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Xatu|Xatu, M|7/100
+|move|p2a: Amoonguss|Hidden Power|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0
+|faint|p1a: Xatu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F|70/100
+|turn|7
+|
+|move|p1a: Politoed|Hypnosis|p2a: Amoonguss|[miss]
+|-miss|p1a: Politoed|p2a: Amoonguss
+|move|p2a: Amoonguss|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Politoed|Hypnosis|p2a: Amoonguss|[miss]
+|-miss|p1a: Politoed|p2a: Amoonguss
+|move|p2a: Amoonguss|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|79/100
+|turn|9
+|inactive|bad big bratt has 120 seconds left.
+|
+|move|p1a: Tornadus|Hurricane|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0
+|faint|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|10
+|
+|switch|p1a: Diglett|Diglett, M|1/100
+|move|p2a: Landorus|Stone Edge|p1a: Diglett
+|-resisted|p1a: Diglett
+|-crit|p1a: Diglett
+|-damage|p1a: Diglett|0
+|faint|p1a: Diglett
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|11
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|39/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Latios|Hidden Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0
+|-damage|p1a: Latios|81/100|[from] item: Life Orb
+|faint|p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|13
+|
+|move|p2a: Landorus|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|15/100
+|
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Latios|Draco Meteor|p2a: Suicune
+|-damage|p2a: Suicune|65/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|5/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Suicune|72/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|55/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Suicune|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Tornadus|Tornadus, M|79/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Suicune|59/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Tornadus|Hurricane|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|move|p2a: Suicune|Scald|p1a: Tornadus
+|-damage|p1a: Tornadus|8/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Suicune|65/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Tornadus|Hurricane|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|bad big bratt has 120 seconds left.
+|
+|move|p1a: Tornadus|Hurricane|p2a: Suicune
+|-damage|p2a: Suicune|27/100
+|move|p2a: Suicune|Scald|p1a: Tornadus
+|-damage|p1a: Tornadus|0
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Suicune|33/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|55/100
+|turn|19
+|
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Suicune|40/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Latios|Thunder|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0
+|-damage|p1a: Latios|91/100|[from] item: Life Orb
+|faint|p2a: Suicune
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|21
+|
+|move|p2a: Landorus|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|22/100
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Terrakion
+|-crit|p2a: Terrakion
+|-damage|p2a: Terrakion|0
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|12/100|[from] item: Life Orb
+|faint|p2a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|22
+|
+|move|p2a: Landorus|Stone Edge|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|23
+|
+|move|p2a: Landorus|Stone Edge|p1a: Scizor
+|-damage|p1a: Scizor|66/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|72/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|33/100
+|move|p2a: Landorus|Stone Edge|p1a: Scizor
+|-damage|p1a: Scizor|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|38/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|-message|bad big bratt forfeited.
+|
+|win|refsunpersons
+|c|☆refsunpersons|gg wp
+|l|☆bad big bratt
+|raw|refsunpersons's rating: 1315 &rarr; <strong>1342</strong><br />(+27 for winning)
+|raw|bad big bratt's rating: 1443 &rarr; <strong>1416</strong><br />(-27 for losing)

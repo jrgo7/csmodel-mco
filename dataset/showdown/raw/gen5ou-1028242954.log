@@ -1,0 +1,696 @@
+|j|☆mauserisfat
+|j|☆blackkaiser
+|player|p1|mauserisfat|155|1300
+|player|p2|blackkaiser|102|1520
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Reuniclus, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|start
+|switch|p1a: spike spike|Ferrothorn, F, shiny|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|move|p2a: Hippowdon|Stealth Rock|p1a: spike spike
+|-sidestart|p1: mauserisfat|move: Stealth Rock
+|move|p1a: spike spike|Spikes|p2a: Hippowdon
+|-sidestart|p2: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|move|p1a: spike spike|Spikes|p2a: Ferrothorn
+|-sidestart|p2: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: panzer man|Heatran, M, shiny|100/100
+|-damage|p1a: panzer man|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: panzer man
+|-sidestart|p1: mauserisfat|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: panzer man|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|-damage|p2a: Jellicent|84/100|[from] Spikes
+|move|p1a: panzer man|Will-O-Wisp|p2a: Jellicent
+|-status|p2a: Jellicent|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|78/100 brn|[from] Sandstorm
+|-heal|p1a: panzer man|100/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|84/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|71/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: panzer man|Protect|p1a: panzer man
+|-singleturn|p1a: panzer man|Protect
+|move|p2a: Jellicent|Scald|p1a: panzer man
+|-activate|p1a: panzer man|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|65/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|59/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: zug zug|Jellicent, F, shiny|100/100
+|-damage|p1a: zug zug|88/100|[from] Spikes
+|-damage|p1a: zug zug|76/100|[from] Stealth Rock
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: zug zug|70/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100 brn|[from] Sandstorm
+|-heal|p1a: zug zug|76/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: zug zug|Will-O-Wisp|p2a: Jellicent
+|-fail|p2a: Jellicent|brn
+|move|p2a: Jellicent|Shadow Ball|p1a: zug zug
+|-supereffective|p1a: zug zug
+|-damage|p1a: zug zug|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: zug zug|32/100|[from] Sandstorm
+|-damage|p2a: Jellicent|82/100 brn|[from] Sandstorm
+|-heal|p1a: zug zug|38/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|76/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: zug zug|Recover|p1a: zug zug
+|-heal|p1a: zug zug|88/100
+|move|p2a: Jellicent|Shadow Ball|p1a: zug zug
+|-supereffective|p1a: zug zug
+|-damage|p1a: zug zug|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: zug zug|43/100|[from] Sandstorm
+|-damage|p2a: Jellicent|69/100 brn|[from] Sandstorm
+|-heal|p1a: zug zug|49/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|63/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: zug zug|Recover|p1a: zug zug
+|-heal|p1a: zug zug|99/100
+|move|p2a: Jellicent|Shadow Ball|p1a: zug zug
+|-supereffective|p1a: zug zug
+|-damage|p1a: zug zug|63/100
+|-unboost|p1a: zug zug|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: zug zug|57/100|[from] Sandstorm
+|-damage|p2a: Jellicent|57/100 brn|[from] Sandstorm
+|-heal|p1a: zug zug|63/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|51/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: spike spike|Ferrothorn, F, shiny|100/100
+|-damage|p1a: spike spike|88/100|[from] Spikes
+|-damage|p1a: spike spike|82/100|[from] Stealth Rock
+|move|p2a: Jellicent|Will-O-Wisp|p1a: spike spike
+|-status|p1a: spike spike|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|45/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|51/100 brn|[from] item: Leftovers
+|-heal|p1a: spike spike|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|38/100 brn|[from] brn
+|-damage|p1a: spike spike|75/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|89/100 brn
+|move|p1a: spike spike|Spikes|p2a: Jellicent
+|-sidestart|p2: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|82/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|89/100 brn|[from] item: Leftovers
+|-heal|p1a: spike spike|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|76/100 brn|[from] brn
+|-damage|p1a: spike spike|69/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|88/100
+|-damage|p2a: Ferrothorn|63/100|[from] Spikes
+|move|p1a: spike spike|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|61/100
+|-damage|p1a: spike spike|57/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: spike spike|40/100 brn|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: spike spike|47/100 brn|[from] item: Leftovers
+|-damage|p1a: spike spike|34/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: panzer man|Heatran, M, shiny|100/100
+|-damage|p1a: panzer man|88/100|[from] Spikes
+|-damage|p1a: panzer man|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: panzer man
+|-sidestart|p1: mauserisfat|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: panzer man|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Jellicent|Jellicent, F|76/100 brn
+|-damage|p2a: Jellicent|51/100 brn|[from] Spikes
+|move|p1a: panzer man|Earth Power|p2a: Jellicent
+|-damage|p2a: Jellicent|36/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|30/100 brn|[from] Sandstorm
+|-heal|p1a: panzer man|88/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|36/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|24/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: what?|Landorus-Therian, M, shiny|100/100
+|-damage|p1a: what?|88/100|[from] Stealth Rock
+|-ability|p1a: what?|Intimidate|boost
+|-unboost|p2a: Jellicent|atk|1
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|74/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|68/100 brn|[from] Sandstorm
+|-heal|p1a: what?|94/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|62/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|76/100|[from] Spikes
+|move|p1a: what?|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|65/100
+|
+|switch|p1a: zug zug|Jellicent, F, shiny|63/100|[from]move: U-turn
+|-damage|p1a: zug zug|50/100|[from] Stealth Rock
+|-damage|p1a: zug zug|34/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: zug zug|28/100|[from] Sandstorm
+|-heal|p1a: zug zug|34/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|71/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: zug zug|Taunt|p2a: Hippowdon
+|-start|p2a: Hippowdon|move: Taunt
+|move|p2a: Hippowdon|Earthquake|p1a: zug zug
+|-damage|p1a: zug zug|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: zug zug|0 fnt|[from] Sandstorm
+|faint|p1a: zug zug
+|-heal|p2a: Hippowdon|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: what?|Landorus-Therian, M, shiny|94/100
+|-damage|p1a: what?|82/100|[from] Stealth Rock
+|-ability|p1a: what?|Intimidate|boost
+|-unboost|p2a: Hippowdon|atk|1
+|turn|18
+|
+|move|p1a: what?|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: blackkaiser|move: Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: what?
+|-immune|p1a: what?
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|88/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: what?|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|48/100
+|move|p2a: Hippowdon|Earthquake|p1a: what?
+|-immune|p1a: what?
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|94/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|54/100|[from] item: Leftovers
+|-end|p2a: Hippowdon|move: Taunt
+|upkeep
+|turn|20
+|
+|move|p1a: what?|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|16/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|99/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: what?|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|37/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|100/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|93/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: what?|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|58/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: spike spike|Ferrothorn, F, shiny|34/100 brn
+|-damage|p1a: spike spike|28/100 brn|[from] Stealth Rock
+|-damage|p1a: spike spike|11/100 brn|[from] Spikes
+|move|p2a: Hippowdon|Roar|p1a: spike spike
+|drag|p1a: whakarongomai|Reuniclus, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: whakarongomai|Psyshock|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|58/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|move|p2a: Latios|Trick|p1a: whakarongomai
+|-activate|p2a: Latios|move: Trick|[of] p1a: whakarongomai
+|-item|p1a: whakarongomai|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: whakarongomai|Calm Mind|p1a: whakarongomai
+|-boost|p1a: whakarongomai|spa|1
+|-boost|p1a: whakarongomai|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|52/100|[from] Sandstorm
+|-heal|p2a: Latios|58/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: spike spike|Ferrothorn, F, shiny|11/100 brn
+|-damage|p1a: spike spike|0 fnt|[from] Spikes
+|faint|p1a: spike spike
+|move|p2a: Latios|Surf|p1: spike spike|[notarget]
+|-fail|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|52/100|[from] Sandstorm
+|-heal|p2a: Latios|58/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: angerary|Tyranitar, F, shiny|100/100
+|-damage|p1a: angerary|88/100|[from] Stealth Rock
+|-damage|p1a: angerary|72/100|[from] Spikes
+|turn|27
+|
+|move|p1a: angerary|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|3/100
+|move|p2a: Latios|Surf|p1a: angerary
+|-supereffective|p1a: angerary
+|-damage|p1a: angerary|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|0 fnt|[from] Sandstorm
+|faint|p2a: Latios
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|76/100|[from] Spikes
+|-damage|p2a: Hippowdon|69/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p1a: what?|Landorus-Therian, M, shiny|100/100
+|-damage|p1a: what?|88/100|[from] Stealth Rock
+|-ability|p1a: what?|Intimidate|boost
+|-unboost|p2a: Hippowdon|atk|1
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: what?|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|67/100
+|move|p2a: Hippowdon|Roar|p1a: what?
+|drag|p1a: panzer man|Heatran, M, shiny|88/100
+|-damage|p1a: panzer man|76/100|[from] Stealth Rock
+|-damage|p1a: panzer man|59/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: panzer man|65/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|73/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: what?|Landorus-Therian, M, shiny|94/100
+|-damage|p1a: what?|82/100|[from] Stealth Rock
+|-ability|p1a: what?|Intimidate|boost
+|-unboost|p2a: Hippowdon|atk|1
+|move|p2a: Hippowdon|Earthquake|p1a: what?
+|-immune|p1a: what?
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|88/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|79/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: whakarongomai|Reuniclus, M, shiny|100/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|switch|p2a: Jellicent|Jellicent, F|62/100 brn
+|-damage|p2a: Jellicent|49/100 brn|[from] Stealth Rock
+|-damage|p2a: Jellicent|24/100 brn|[from] Spikes
+|move|p1a: whakarongomai|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|-damage|p2a: Scizor|63/100|[from] Spikes
+|turn|33
+|
+|-activate|p1a: whakarongomai|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: whakarongomai|[from]Pursuit
+|-supereffective|p1a: whakarongomai
+|-damage|p1a: whakarongomai|30/100
+|switch|p1a: what?|Landorus-Therian, M, shiny|88/100
+|-damage|p1a: what?|76/100|[from] Stealth Rock
+|-ability|p1a: what?|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|82/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|76/100|[from] Spikes
+|-damage|p2a: Hippowdon|69/100|[from] Stealth Rock
+|move|p1a: what?|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|88/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|51/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: whakarongomai|Reuniclus, M, shiny|30/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|36
+|
+|move|p2a: Hippowdon|Earthquake|p1a: whakarongomai
+|-damage|p1a: whakarongomai|4/100
+|move|p1a: whakarongomai|Recover|p1a: whakarongomai
+|-heal|p1a: whakarongomai|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|
+|switch|p2a: Scizor|Scizor, M|63/100
+|-damage|p2a: Scizor|51/100|[from] Stealth Rock
+|-damage|p2a: Scizor|26/100|[from] Spikes
+|move|p1a: whakarongomai|Recover|p1a: whakarongomai
+|-heal|p1a: whakarongomai|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|38
+|
+|switch|p1a: panzer man|Heatran, M, shiny|65/100
+|-damage|p1a: panzer man|53/100|[from] Stealth Rock
+|-damage|p1a: panzer man|36/100|[from] Spikes
+|move|p2a: Scizor|U-turn|p1a: panzer man
+|-resisted|p1a: panzer man
+|-damage|p1a: panzer man|24/100
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|-damage|p2a: Garchomp|76/100|[from] Spikes
+|-damage|p2a: Garchomp|69/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: panzer man|30/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Garchomp|Earthquake|p1a: panzer man
+|-supereffective|p1a: panzer man
+|-damage|p1a: panzer man|0 fnt
+|-damage|p2a: Garchomp|60/100|[from] item: Life Orb
+|faint|p1a: panzer man
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: angerary|Tyranitar, F, shiny|28/100
+|-damage|p1a: angerary|16/100|[from] Stealth Rock
+|-damage|p1a: angerary|0 fnt|[from] Spikes
+|faint|p1a: angerary
+|
+|switch|p1a: what?|Landorus-Therian, M, shiny|88/100
+|-damage|p1a: what?|75/100|[from] Stealth Rock
+|-ability|p1a: what?|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|40
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: what?
+|-damage|p1a: what?|2/100
+|-unboost|p2a: Garchomp|spa|2
+|-damage|p2a: Garchomp|50/100|[from] item: Life Orb
+|move|p1a: what?|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: what?|8/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|76/100|[from] Spikes
+|-damage|p2a: Hippowdon|69/100|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: what?|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|32/100
+|move|p2a: Hippowdon|Roar|p1a: what?
+|drag|p1a: whakarongomai|Reuniclus, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|38/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|89/100
+|move|p1a: whakarongomai|Focus Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|42/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|92/100
+|move|p1a: whakarongomai|Focus Blast|p2a: Hippowdon|[miss]
+|-miss|p1a: whakarongomai|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|99/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Hippowdon|Earthquake|p1a: whakarongomai
+|-damage|p1a: whakarongomai|75/100
+|move|p1a: whakarongomai|Focus Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|52/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|move|p1a: whakarongomai|Focus Blast|p2a: Hippowdon|[miss]
+|-miss|p1a: whakarongomai|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|46
+|
+|move|p2a: Hippowdon|Earthquake|p1a: whakarongomai
+|-damage|p1a: whakarongomai|47/100
+|move|p1a: whakarongomai|Focus Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|46/100
+|-unboost|p2a: Hippowdon|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|53/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p1a: what?|Landorus-Therian, M, shiny|8/100
+|-damage|p1a: what?|0 fnt|[from] Stealth Rock
+|faint|p1a: what?
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: whakarongomai|Reuniclus, M, shiny|47/100
+|turn|48
+|
+|switch|p2a: Scizor|Scizor, M|26/100
+|-damage|p2a: Scizor|14/100|[from] Stealth Rock
+|-damage|p2a: Scizor|0 fnt|[from] Spikes
+|faint|p2a: Scizor
+|move|p1a: whakarongomai|Psyshock|p2: Scizor|[notarget]
+|-fail|p1a: whakarongomai
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|61/100
+|-damage|p2a: Ferrothorn|55/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|30/100|[from] Spikes
+|turn|49
+|
+|move|p1a: whakarongomai|Psyshock|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|76/100|[from] Spikes
+|-damage|p2a: Hippowdon|69/100|[from] Stealth Rock
+|turn|50
+|
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|move|p1a: whakarongomai|Psyshock|p2a: Hippowdon
+|-damage|p2a: Hippowdon|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|80/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Hippowdon|Earthquake|p1a: whakarongomai
+|-damage|p1a: whakarongomai|20/100
+|move|p1a: whakarongomai|Psyshock|p2a: Hippowdon
+|-damage|p2a: Hippowdon|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|60/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p2a: Hippowdon|Earthquake|p1a: whakarongomai
+|-damage|p1a: whakarongomai|0 fnt
+|faint|p1a: whakarongomai
+|
+|win|blackkaiser
+|l|☆mauserisfat
+|raw|mauserisfat's rating: 1300 &rarr; <strong>1292</strong><br />(-8 for losing)
+|raw|blackkaiser's rating: 1521 &rarr; <strong>1530</strong><br />(+9 for winning)

@@ -1,0 +1,543 @@
+|j|☆refsunpersons
+|j|☆porrompompom
+|player|p1|refsunpersons|34
+|player|p2|porrompompom|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Celebi|item
+|poke|p1|Scizor, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Aron, L1, F|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Forretress, M|item
+|poke|p2|Quagsire, F|item
+|poke|p2|Chansey, F|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|c|☆refsunpersons|I may randomly dc btw
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Chansey|Chansey, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Chansey|Toxic|p1a: Scizor
+|-immune|p1a: Scizor|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ninetales|Flamethrower|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ninetales|94/100|[from] Sandstorm
+|-heal|p2a: Ninetales|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|move|p1a: Tyranitar|Stone Edge|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ninetales|38/100|[from] Sandstorm
+|-heal|p2a: Ninetales|44/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Chansey|Chansey, F|94/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Chansey
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|88/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|70/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Celebi
+|-sidestart|p1: refsunpersons|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-damage|p2a: Chansey|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Chansey|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|88/100 tox|[from] Sandstorm
+|-damage|p2a: Chansey|76/100|[from] Sandstorm
+|-damage|p1a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Chansey|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|56/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|49/100 tox|[from] Sandstorm
+|-damage|p2a: Chansey|69/100|[from] Sandstorm
+|-damage|p1a: Celebi|37/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Celebi|Giga Drain|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|11/100
+|-heal|p1a: Celebi|87/100 tox|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|81/100 tox|[from] Sandstorm
+|-damage|p2a: Chansey|55/100|[from] Sandstorm
+|-damage|p1a: Celebi|63/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|94/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|-heal|p2a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Forretress
+|-status|p2a: Forretress|par
+|move|p2a: Forretress|Rapid Spin|p1a: Rotom
+|-damage|p1a: Rotom|84/100
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|78/100|[from] Sandstorm
+|-heal|p1a: Rotom|84/100|[from] item: Leftovers
+|-heal|p2a: Forretress|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Quagsire|[miss]
+|-miss|p1a: Rotom|p2a: Quagsire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|78/100|[from] Sandstorm
+|-heal|p1a: Rotom|84/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Excadrill|Excadrill, M|97/100
+|-damage|p1a: Excadrill|94/100|[from] Stealth Rock
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-fail|p2a: Quagsire
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Quagsire
+|-damage|p2a: Quagsire|95/100
+|-damage|p1a: Excadrill|78/100|[from] item: Rocky Helmet|[of] p2a: Quagsire
+|-sideend|p1: refsunpersons|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Quagsire|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|63/100
+|turn|16
+|
+|switch|p2a: Chansey|Chansey, F|94/100
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|57/100|[from] Sandstorm
+|-damage|p2a: Chansey|88/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Chansey|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|50/100 tox|[from] Sandstorm
+|-damage|p2a: Chansey|82/100|[from] Sandstorm
+|-damage|p1a: Celebi|44/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Celebi|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|53/100
+|-heal|p1a: Celebi|69/100 tox|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|63/100 tox|[from] Sandstorm
+|-damage|p2a: Chansey|94/100|[from] Sandstorm
+|-damage|p1a: Celebi|50/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Chansey|Stealth Rock|p1a: Celebi
+|-sidestart|p1: refsunpersons|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|44/100 tox|[from] Sandstorm
+|-damage|p2a: Chansey|88/100|[from] Sandstorm
+|-damage|p1a: Celebi|26/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Celebi|Giga Drain|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|78/100
+|-heal|p1a: Celebi|38/100 tox|[from] drain|[of] p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|32/100 tox|[from] Sandstorm
+|-heal|p2a: Heatran|84/100|[from] item: Leftovers
+|-damage|p1a: Celebi|7/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Celebi|Giga Drain|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|1/100 tox|[from] Sandstorm
+|-heal|p2a: Heatran|90/100|[from] item: Leftovers
+|-damage|p1a: Celebi|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Celebi
+|
+|switch|p1a: Rotom|Rotom-Wash|84/100
+|-damage|p1a: Rotom|72/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Rotom|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|72/100
+|
+|switch|p1a: Aron|Aron, L1, F, shiny|100/100
+|-damage|p1a: Aron|92/100|[from] Stealth Rock
+|move|p2a: Heatran|Toxic|p1a: Aron
+|-immune|p1a: Aron|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|78/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Heatran|Earth Power|p1a: Aron
+|-supereffective|p1a: Aron
+|-damage|p1a: Aron|0 fnt
+|faint|p1a: Aron
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|72/100
+|-damage|p1a: Rotom|60/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|54/100|[from] Sandstorm
+|-heal|p1a: Rotom|60/100|[from] item: Leftovers
+|-heal|p2a: Heatran|91/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran|[miss]
+|-miss|p1a: Rotom|p2a: Heatran
+|move|p2a: Heatran|Toxic|p1a: Rotom|[miss]
+|-miss|p2a: Heatran|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|54/100|[from] Sandstorm
+|-heal|p1a: Rotom|60/100|[from] item: Leftovers
+|-heal|p2a: Heatran|97/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|54/100|[from] Sandstorm
+|-heal|p1a: Rotom|60/100|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|47/100
+|move|p2a: Heatran|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|54/100 tox|[from] Sandstorm
+|-heal|p1a: Rotom|60/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|53/100|[from] item: Leftovers
+|-damage|p1a: Rotom|54/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|48/100 tox|[from] Sandstorm
+|-heal|p1a: Rotom|54/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|59/100|[from] item: Leftovers
+|-damage|p1a: Rotom|42/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Rotom|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|43/100
+|
+|switch|p1a: Tyranitar|Tyranitar, F|70/100 brn
+|-damage|p1a: Tyranitar|57/100 brn|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|45/100 brn
+|-activate|p1a: Tyranitar|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|49/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|32/100 brn|[from] brn
+|-damage|p1a: Tyranitar|26/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|switch|p2a: Forretress|Forretress, M|100/100 par
+|move|p1a: Tyranitar|Stealth Rock|p2a: Forretress
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|14/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Forretress
+|-damage|p2a: Forretress|86/100 par
+|move|p2a: Forretress|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|12/100 brn
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|92/100 par|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Tyranitar
+|
+|switch|p1a: Rotom|Rotom-Wash|42/100 tox
+|-damage|p1a: Rotom|30/100 tox|[from] Stealth Rock
+|turn|32
+|
+|switch|p2a: Ninetales|Ninetales, M|44/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Rotom|Hydro Pump|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rotom|36/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|30/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|49/100
+|turn|33
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rotom|36/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|55/100|[from] item: Leftovers
+|-damage|p1a: Rotom|24/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p2a: Chansey|Chansey, F|88/100
+|move|p1a: Rotom|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rotom|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|12/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p2a: Heatran|Heatran, M|55/100
+|move|p1a: Rotom|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|40/100
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|46/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Scizor|Superpower|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|37
+|
+|switch|p1a: Rotom|Rotom-Wash|12/100 tox
+|-damage|p1a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p1a: Rotom
+|move|p2a: Cresselia|Thunder Wave|p1: Rotom|[notarget]
+|-notarget
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Cresselia|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|39
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Cresselia
+|-damage|p2a: Cresselia|66/100
+|move|p2a: Cresselia|Reflect|p2a: Cresselia
+|-sidestart|p2: porrompompom|Reflect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cresselia|72/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Quagsire|Quagsire, F|95/100
+|cant|p1a: Scizor|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|41
+|c|☆refsunpersons|gg wp
+|
+|move|p2a: Quagsire|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|35/100 par
+|move|p1a: Scizor|Acrobatics|p2a: Quagsire
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p2a: Quagsire|73/100
+|-damage|p1a: Scizor|19/100 par|[from] item: Rocky Helmet|[of] p2a: Quagsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|42
+|
+|move|p2a: Quagsire|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|porrompompom
+|raw|refsunpersons's rating: 1330 &rarr; <strong>1322</strong><br />(-8 for losing)
+|raw|porrompompom's rating: 1547 &rarr; <strong>1556</strong><br />(+9 for winning)
+|l|☆porrompompom

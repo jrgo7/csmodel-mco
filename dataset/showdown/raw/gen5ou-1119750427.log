@@ -1,0 +1,293 @@
+|j|☆Pythagorean Python
+|j|☆mellrrowe
+|player|p1|Pythagorean Python|159|1305
+|player|p2|mellrrowe|hilbert|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Toxicroak, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Electivire, M|item
+|poke|p1|Donphan, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Alakazam, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|c|☆mellrrowe|oh no
+|c|☆mellrrowe|you
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mellrrowe)
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Politoed|Surf|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|94/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|72/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|78/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Toxicroak
+|-status|p1a: Toxicroak|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|72/100|[from] Sandstorm
+|-damage|p1a: Toxicroak|94/100 par|[from] Sandstorm
+|-heal|p2a: Amoonguss|78/100|[from] item: Black Sludge
+|-heal|p1a: Toxicroak|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|move|p1a: Toxicroak|Ice Punch|p2a: Alakazam
+|-damage|p2a: Alakazam|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|94/100 par|[from] Sandstorm
+|-heal|p1a: Toxicroak|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Alakazam|Psychic|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|5
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|42/100
+|-status|p2a: Amoonguss|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|49/100 frz|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Politoed|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|7
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Donphan
+|-sidestart|p1: Pythagorean Python|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Donphan|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: mellrrowe|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Skarmory|Spikes|p1a: Donphan
+|-sidestart|p1: Pythagorean Python|Spikes
+|move|p1a: Donphan|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|-damage|p1a: Donphan|84/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-sideend|p1: Pythagorean Python|Spikes|[from] move: Rapid Spin|[of] p1a: Donphan
+|-sideend|p1: Pythagorean Python|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Politoed|Politoed, F|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Skarmory|Spikes|p1a: Politoed
+|-sidestart|p1: Pythagorean Python|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Politoed|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|15/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|65/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Politoed|Surf|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Donphan|Donphan, M|90/100
+|-damage|p1a: Donphan|78/100|[from] Spikes
+|move|p2a: Mienshao|U-turn|p1a: Donphan
+|-damage|p1a: Donphan|60/100
+|
+|switch|p2a: Alakazam|Alakazam, M|44/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Donphan|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Donphan|Ice Shard|p2a: Alakazam
+|-damage|p2a: Alakazam|18/100
+|move|p2a: Alakazam|Psychic|p1a: Donphan
+|-damage|p1a: Donphan|25/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Donphan|31/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Donphan|Ice Shard|p2a: Tyranitar
+|-damage|p2a: Tyranitar|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|37/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Tyranitar|Crunch|p1a: Donphan
+|-damage|p1a: Donphan|6/100
+|move|p1a: Donphan|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|12/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Donphan|Ice Shard|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100
+|move|p2a: Tyranitar|Crunch|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F|94/100
+|-damage|p1a: Politoed|82/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|18
+|
+|switch|p2a: Alakazam|Alakazam, M|18/100
+|move|p1a: Politoed|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|12/100
+|-damage|p2a: Tyranitar|0 fnt|[from] Stealth Rock
+|faint|p2a: Tyranitar
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Mienshao|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|56/100
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from]move: U-turn
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Politoed|Surf|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|turn|20
+|c|☆mellrrowe|gg
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Pythagorean Python|gg
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|21
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|54/100
+|move|p1a: Tornadus|Hurricane|p2a: Mienshao
+|-supereffective|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|-damage|p1a: Tornadus|44/100|[from] item: Life Orb
+|faint|p2a: Mienshao
+|
+|win|Pythagorean Python
+|raw|Pythagorean Python's rating: 1305 &rarr; <strong>1328</strong><br />(+23 for winning)
+|raw|mellrrowe's rating: 1362 &rarr; <strong>1338</strong><br />(-24 for losing)

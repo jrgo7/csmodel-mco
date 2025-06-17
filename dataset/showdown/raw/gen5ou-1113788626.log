@@ -1,0 +1,539 @@
+|j|☆Nuage rapide
+|j|☆Spaintakula
+|player|p1|Nuage rapide|plasmagrunt|1360
+|player|p2|Spaintakula|elesa|1431
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Gastrodon, F|item
+|poke|p2|Gengar, F|item
+|poke|p2|Reuniclus, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|j| iacosta
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spaintakula)
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Nuage rapide|move: Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Garchomp
+|-sidestart|p2: Spaintakula|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|59/100
+|move|p1a: Skarmory|Spikes|p2a: Garchomp
+|-sidestart|p2: Spaintakula|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|4
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Spaintakula|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Rotom
+|-sidestart|p1: Nuage rapide|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|69/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|84/100|[from] Spikes
+|-damage|p2a: Gastrodon|78/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon|[miss]
+|-miss|p1a: Rotom|p2a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|63/100|[from] Sandstorm
+|-heal|p2a: Gastrodon|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|44/100|[from] Sandstorm
+|-heal|p2a: Gastrodon|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|77/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|88/100|[from] Spikes
+|-damage|p1a: Hippowdon|82/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Toxic|p1a: Hippowdon
+|-status|p1a: Hippowdon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|82/100 tox|[from] psn
+|-damage|p2a: Gastrodon|71/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Heat|44/100
+|-damage|p1a: Rotom|20/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gastrodon|77/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|65/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Latios|Dragon Dance|p1a: Latios
+|-boost|p1a: Latios|atk|1
+|-boost|p1a: Latios|spe|1
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Latios|Outrage|p2a: Gastrodon
+|-damage|p2a: Gastrodon|26/100 brn
+|move|p2a: Gastrodon|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|43/100
+|-status|p1a: Latios|frz
+|-enditem|p1a: Latios|Lum Berry|[eat]
+|-curestatus|p1a: Latios|frz|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|37/100|[from] Sandstorm
+|-heal|p2a: Gastrodon|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|20/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Latios|Outrage|p2a: Gastrodon|[from]lockedmove
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|31/100|[from] Sandstorm
+|upkeep
+|inactive|Spaintakula has 120 seconds left.
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p2a: Garchomp|78/100|[from] Spikes
+|turn|13
+|
+|move|p1a: Latios|Outrage|p2a: Garchomp|[from]lockedmove
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Latios|19/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Latios|2/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-start|p1a: Latios|confusion|[fatigue]
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|0 fnt|[from] Sandstorm
+|faint|p1a: Latios
+|upkeep
+|inactive|Spaintakula has 120 seconds left.
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-damage|p1a: Kyurem|63/100|[from] Spikes
+|-ability|p1a: Kyurem|Teravolt
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Gengar
+|-damage|p2a: Gengar|30/100
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|57/100|[from] Sandstorm
+|-damage|p2a: Gengar|0 fnt|[from] Sandstorm
+|faint|p2a: Gengar
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|15
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Reuniclus
+|-damage|p2a: Reuniclus|74/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Kyurem|[miss]
+|-miss|p2a: Reuniclus|p1a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|51/100|[from] Sandstorm
+|-heal|p2a: Reuniclus|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Spaintakula has 120 seconds left.
+|
+|switch|p1a: Hippowdon|Hippowdon, M|82/100 tox
+|-damage|p1a: Hippowdon|76/100 tox|[from] Stealth Rock
+|-damage|p1a: Hippowdon|63/100 tox|[from] Spikes
+|move|p2a: Reuniclus|Psyshock|p1a: Hippowdon
+|-damage|p1a: Hippowdon|47/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|53/100 tox|[from] item: Leftovers
+|-heal|p2a: Reuniclus|87/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|47/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|Spaintakula has 120 seconds left.
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|97/100 tox
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Reuniclus|93/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|66/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Hippowdon|[miss]
+|-miss|p2a: Reuniclus|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Reuniclus|72/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|76/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|44/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Reuniclus|99/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|57/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|Spaintakula has 120 seconds left.
+|inactive|Nuage rapide has 120 seconds left.
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|72/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Hippowdon|[miss]
+|-miss|p2a: Reuniclus|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|63/100 tox|[from] item: Leftovers
+|-heal|p2a: Reuniclus|78/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|32/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|Spaintakula has 120 seconds left.
+|c|☆Spaintakula|...
+|inactive|Nuage rapide has 120 seconds left.
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|-damage|p1a: Mamoswine|76/100|[from] Spikes
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|inactive|Spaintakula has 120 seconds left.
+|inactive|Nuage rapide has 120 seconds left.
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|56/100
+|cant|p2a: Reuniclus|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|62/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆Spaintakula|....
+|inactive|Spaintakula has 120 seconds left.
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|17/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|29/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|85/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆Spaintakula|!dt icicle crash
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://dex.pokemonshowdown.com/moves/iciclecrash">Icicle Crash</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Ice.png" alt="Ice" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Physical.png" alt="Physical" width="32" height="14"></span> <span class="col labelcol"><em>Power</em><br>85</span> <span class="col widelabelcol"><em>Accuracy</em><br>90%</span> <span class="col pplabelcol"><em>PP</em><br>16</span> <span class="col movedesccol">30% chance to flinch the target.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> 0&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 5&nbsp;|&ThickSpace;&#10003; Secondary effect&nbsp;|&ThickSpace;<font color="#686868">Target:</font> One Adjacent Pokémon</font>
+
+|inactive|Spaintakula has 120 seconds left.
+|c|☆Spaintakula|!dt mamoswine
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">OU</span> <span class="col iconcol"><psicon pokemon="mamoswine"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/mamoswine" target="_blank">Mamoswine</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Ice.png" alt="Ice" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Ground.png" alt="Ground" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col twoabilitycol">Oblivious<br />Snow Cloak</span><span class="col abilitycol"><em>Thick Fat</em></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />110</span> <span class="col statcol"><em>Atk</em><br />130</span> <span class="col statcol"><em>Def</em><br />80</span> <span class="col statcol"><em>SpA</em><br />70</span> <span class="col statcol"><em>SpD</em><br />60</span> <span class="col statcol"><em>Spe</em><br />80</span> <span class="col bstcol"><em>BST<br />530</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 473&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 4&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 2.5 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 291 kg <em>(120 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Brown&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Field&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|41/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|97/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Spaintakula has 120 seconds left.
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|50/100
+|cant|p2a: Reuniclus|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|56/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|11/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|67/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|17/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|28/100
+|cant|p2a: Reuniclus|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|34/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆Spaintakula|dear god fucking miss
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|53/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c| iacosta|bad luck
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|17/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|67/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|30/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|80/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|86/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|19/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|69/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|35/100
+|cant|p2a: Skarmory|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|41/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|-damage|p2a: Tyranitar|72/100|[from] Stealth Rock
+|turn|37
+|
+|switch|p1a: Hippowdon|Hippowdon, M|32/100 tox
+|-damage|p1a: Hippowdon|26/100 tox|[from] Stealth Rock
+|-damage|p1a: Hippowdon|14/100 tox|[from] Spikes
+|move|p2a: Tyranitar|Superpower|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, F|76/100
+|-damage|p1a: Mamoswine|63/100|[from] Spikes
+|-damage|p1a: Mamoswine|51/100|[from] Stealth Rock
+|turn|38
+|
+|switch|p2a: Reuniclus|Reuniclus, F|34/100
+|move|p1a: Mamoswine|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|72/100
+|-damage|p2a: Tyranitar|59/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|43/100|[from] Spikes
+|turn|39
+|
+|move|p2a: Tyranitar|Superpower|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|faint|p1a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|51/100
+|-damage|p1a: Kyurem|26/100|[from] Stealth Rock
+|-damage|p1a: Kyurem|14/100|[from] Spikes
+|-ability|p1a: Kyurem|Teravolt
+|turn|40
+|c|☆Spaintakula|bg
+|
+|move|p1a: Kyurem|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Tyranitar
+|
+|win|Nuage rapide
+|raw|Nuage rapide's rating: 1360 &rarr; <strong>1384</strong><br />(+24 for winning)
+|raw|Spaintakula's rating: 1431 &rarr; <strong>1407</strong><br />(-24 for losing)
+|c|☆Nuage rapide|gg
+|c| iacosta|gg
+|l| iacosta

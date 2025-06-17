@@ -1,0 +1,380 @@
+|j|☆porrompompom
+|j|☆buyukabi
+|player|p1|porrompompom|101|1557
+|player|p2|buyukabi|266|1321
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Latias, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Latias, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|move|p1a: Latias|Trick|p2a: Scizor
+|-activate|p1a: Latias|move: Trick|[of] p2a: Scizor
+|-item|p2a: Scizor|Flame Orb|[from] move: Trick
+|-item|p1a: Latias|Choice Band|[from] move: Trick
+|move|p2a: Scizor|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|turn|2
+|
+|move|p2a: Garchomp|Outrage|p1a: Jellicent
+|-damage|p1a: Jellicent|35/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Garchomp|[miss]
+|-miss|p1a: Jellicent|p2a: Garchomp
+|
+|-heal|p1a: Jellicent|41/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Garchomp|Outrage|p1a: Heatran|[from]lockedmove
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|26/100
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Heatran|32/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Garchomp|Outrage|p1a: Heatran|[from]lockedmove
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Garchomp|71/100|[from] item: Life Orb
+|-start|p2a: Garchomp|confusion|[fatigue]
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|41/100
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|91/100
+|
+|-heal|p1a: Jellicent|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ferrothorn|[miss]
+|-miss|p1a: Jellicent|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|
+|-heal|p1a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jellicent
+|-start|p1a: Jellicent|move: Leech Seed
+|
+|-heal|p1a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|88/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Jellicent|76/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|
+|-status|p2a: Scizor|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Scizor|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-damage|p2a: Scizor|88/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Jellicent|Jellicent, M|76/100 tox
+|move|p2a: Tyranitar|Fire Punch|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|65/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|58/100 tox|[from] Sandstorm
+|-heal|p1a: Jellicent|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|58/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Scizor|Scizor, M|88/100 brn
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Scizor
+|-fail|p2a: Scizor|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|52/100 tox|[from] Sandstorm
+|-heal|p1a: Jellicent|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|46/100 tox|[from] psn
+|-damage|p2a: Scizor|76/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|96/100 tox
+|move|p2a: Scizor|Pursuit|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|78/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|72/100 tox|[from] Sandstorm
+|-heal|p1a: Jellicent|78/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|60/100 tox|[from] psn
+|-damage|p2a: Scizor|64/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|-activate|p1a: Jellicent|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Jellicent|[from]Pursuit
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|33/100 tox
+|switch|p1a: Ferrothorn|Ferrothorn, M|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Scizor|52/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Scizor|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|-damage|p2a: Scizor|39/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Scizor
+|-sidestart|p2: buyukabi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|-damage|p2a: Scizor|27/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Scizor|U-turn|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|52/100
+|-damage|p2a: Scizor|15/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: buyukabi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|42/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Fire Punch|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|48/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Scizor|Scizor, M|15/100 brn
+|-damage|p2a: Scizor|0 fnt|[from] Spikes
+|faint|p2a: Scizor
+|move|p1a: Tyranitar|Superpower|p2: Scizor|[notarget]
+|-fail|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|88/100 brn
+|-damage|p2a: Ferrothorn|72/100 brn|[from] Spikes
+|turn|19
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Reuniclus
+|-damage|p1a: Reuniclus|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|65/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Tyranitar|Tyranitar, F|48/100
+|-damage|p2a: Tyranitar|32/100|[from] Spikes
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|38/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|64/100
+|-damage|p1a: Ferrothorn|58/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Crunch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|44/100
+|-damage|p2a: Tyranitar|25/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|32/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|50/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Tyranitar|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Tyranitar|19/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|77/100
+|-damage|p1a: Tyranitar|65/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|18/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Tyranitar
+|-damage|p1a: Tyranitar|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|24/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|30/100|[from] item: Leftovers
+|upkeep
+|c|☆porrompompom|and now i loose the speed tie
+|c|☆buyukabi|yh
+|c|☆buyukabi|sucks
+|c|☆porrompompom|perhaps pokemon is not for me
+|c|☆buyukabi|we can rematch if you want?
+|c|☆buyukabi|haha
+|inactive|porrompompom has 120 seconds left.
+|c|☆porrompompom|why would i win from doing so lol
+|
+|switch|p1a: Jellicent|Jellicent, M|33/100 tox
+|-damage|p1a: Jellicent|21/100 tox|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Tyranitar|[miss]
+|-miss|p1a: Jellicent|p2a: Tyranitar
+|move|p2a: Tyranitar|Crunch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|36/100|[from] item: Leftovers
+|upkeep
+|c|☆buyukabi|what do you mean?
+|c|☆porrompompom|nothing at all
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|26
+|c|☆buyukabi|we can test out teams
+|
+|move|p2a: Tyranitar|Crunch|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|40/100
+|move|p1a: Reuniclus|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|25/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|46/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|porrompompom has 120 seconds left.
+|c|☆porrompompom|not much i can learn from playing against you
+|
+|move|p2a: Tyranitar|Crunch|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|win|buyukabi
+|c|☆buyukabi|u thought i played that bad?
+|raw|porrompompom's rating: 1557 &rarr; <strong>1525</strong><br />(-32 for losing)
+|raw|buyukabi's rating: 1321 &rarr; <strong>1353</strong><br />(+32 for winning)
+|c|☆porrompompom|doesn't matter what a think

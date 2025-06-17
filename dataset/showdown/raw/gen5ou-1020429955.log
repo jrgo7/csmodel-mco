@@ -1,0 +1,299 @@
+|j|☆blackkaiser
+|j|☆dice
+|player|p1|blackkaiser|2|1502
+|player|p2|dice|265|1498
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Starmie|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Ferrothorn, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dice)
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Starmie|Trick|p1a: Jellicent
+|-activate|p2a: Starmie|move: Trick|[of] p1a: Jellicent
+|-item|p1a: Jellicent|Flame Orb|[from] move: Trick
+|-item|p2a: Starmie|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-status|p1a: Jellicent|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|88/100 brn|[from] brn
+|-damage|p1a: Jellicent|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Politoed|Hypnosis|p1a: Hippowdon
+|-status|p1a: Hippowdon|slp|[from] move: Hypnosis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|82/100 brn|[from] Sandstorm
+|-heal|p2a: Politoed|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|75/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: dice|Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Ferrothorn|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: dice|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: dice|Spikes
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100 slp
+|-damage|p1a: Hippowdon|88/100 slp|[from] Spikes
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|94/100 slp|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|76/100|[from] Spikes
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|69/100|[from] Sandstorm
+|-heal|p2a: Starmie|76/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Jellicent|Jellicent, F|82/100 brn
+|-damage|p1a: Jellicent|69/100 brn|[from] Stealth Rock
+|-damage|p1a: Jellicent|57/100 brn|[from] Spikes
+|move|p2a: Starmie|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|69/100|[from] Sandstorm
+|-damage|p1a: Jellicent|51/100 brn|[from] Sandstorm
+|-heal|p2a: Starmie|76/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|38/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Starmie|Thunder|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|69/100|[from] Sandstorm
+|-heal|p2a: Starmie|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Spikes
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|77/100
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|-damage|p2a: Gyarados|71/100|[from] Sandstorm
+|-heal|p2a: Gyarados|77/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100 par
+|-damage|p2a: Ferrothorn|75/100 par|[from] Spikes
+|move|p1a: Latios|Trick|p2a: Ferrothorn
+|-activate|p1a: Latios|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|76/100|[from] Sandstorm
+|-heal|p1a: Latios|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100 slp
+|-damage|p1a: Hippowdon|88/100 slp|[from] Spikes
+|-damage|p1a: Hippowdon|82/100 slp|[from] Stealth Rock
+|cant|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Gyarados|Gyarados, M|77/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Hippowdon|atk|1
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|71/100|[from] Sandstorm
+|-heal|p2a: Gyarados|77/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Starmie|Starmie|76/100
+|-damage|p2a: Starmie|51/100|[from] Spikes
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|44/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Hippowdon
+|-damage|p1a: Hippowdon|99/100 slp
+|-sideend|p2: dice|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|44/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Hippowdon|[miss]
+|-miss|p2a: Starmie|p1a: Hippowdon
+|-curestatus|p1a: Hippowdon|slp|[msg]
+|move|p1a: Hippowdon|Stealth Rock|p2a: Starmie
+|-sidestart|p2: dice|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|44/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|44/100|[from] Sandstorm
+|-heal|p2a: Starmie|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p1a: Garchomp|82/100|[from] Spikes
+|turn|21
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|79/100
+|-damage|p2a: Starmie|38/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-sideend|p2: dice|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Garchomp|Fire Blast|p2a: Starmie|[miss]
+|-miss|p1a: Garchomp|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|32/100|[from] Sandstorm
+|-heal|p2a: Starmie|38/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|-message|blackkaiser forfeited.
+|
+|win|dice
+|l|☆blackkaiser
+|raw|blackkaiser's rating: 1502 &rarr; <strong>1482</strong><br />(-20 for losing)
+|raw|dice's rating: 1498 &rarr; <strong>1518</strong><br />(+20 for winning)

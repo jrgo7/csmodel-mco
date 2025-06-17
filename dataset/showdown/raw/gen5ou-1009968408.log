@@ -1,0 +1,376 @@
+|j|☆blackkaiser
+|j|☆uncertainty of tmr
+|player|p1|blackkaiser|265|1358
+|player|p2|uncertainty of tmr|50|1573
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Gengar, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Mew|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|j| xBroshie
+|inactive|uncertainty of tmr has 120 seconds left.
+|inactive|uncertainty of tmr has 90 seconds left.
+|
+|start
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|
+|move|p1a: Latios|Trick|p2a: Skarmory
+|-activate|p1a: Latios|move: Trick|[of] p2a: Skarmory
+|-item|p2a: Skarmory|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Custap Berry|[from] move: Trick
+|move|p2a: Skarmory|Stealth Rock|p1a: Latios
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|switch|p2a: Mew|Mew|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|move|p1a: Hippowdon|Stealth Rock|p2a: Mew
+|-sidestart|p2: uncertainty of tmr|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Mew|Flamethrower|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|52/100|[from] Sandstorm
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|27/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|46/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p1a: Latios|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|40/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Latios|Trick|p2a: Scizor
+|-activate|p1a: Latios|move: Trick|[of] p2a: Scizor
+|-item|p2a: Scizor|Custap Berry|[from] move: Trick
+|-item|p1a: Latios|Iron Plate|[from] move: Trick
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|34/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|57/100
+|-damage|p2a: Scizor|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Scizor|59/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Scizor|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Scizor|47/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Scizor|30/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Mew
+|-status|p2a: Mew|brn
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Jellicent|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|82/100 brn|[from] Sandstorm
+|-damage|p1a: Jellicent|82/100 brn|[from] Sandstorm
+|-heal|p2a: Mew|88/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Mew|76/100 brn|[from] brn
+|-damage|p1a: Jellicent|76/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|move|p1a: Jellicent|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|32/100 brn
+|-unboost|p2a: Mew|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|26/100 brn|[from] Sandstorm
+|-damage|p1a: Jellicent|69/100 brn|[from] Sandstorm
+|-heal|p2a: Mew|32/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Mew|20/100 brn|[from] brn
+|-damage|p1a: Jellicent|63/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Mew|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|14/100 brn|[from] Sandstorm
+|-heal|p2a: Mew|20/100 brn|[from] item: Leftovers
+|-damage|p2a: Mew|8/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Drain Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|68/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Hippowdon
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|85/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Roar|p2a: Gengar
+|drag|p2a: Scizor|Scizor, M|30/100
+|-damage|p2a: Scizor|17/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|-enditem|p2a: Scizor|Custap Berry|[eat]
+|-activate|p2a: Scizor|item: Custap Berry|[consumed]
+|
+|move|p2a: Scizor|Bug Bite|p1a: Hippowdon
+|-damage|p1a: Hippowdon|53/100
+|move|p1a: Hippowdon|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|88/100
+|-damage|p2a: Gengar|76/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Latios|Latios, M, shiny|34/100
+|-damage|p1a: Latios|22/100|[from] Stealth Rock
+|move|p2a: Gengar|Shadow Ball|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|70/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|85/100
+|-damage|p2a: Toxicroak|78/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Hippowdon|Hippowdon, M|59/100
+|-damage|p1a: Hippowdon|53/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Drain Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|28/100
+|-heal|p2a: Toxicroak|95/100|[from] drain|[of] p1a: Hippowdon
+|-damage|p2a: Toxicroak|86/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|79/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|34/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Toxicroak|Ice Punch|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|2/100
+|-damage|p2a: Toxicroak|70/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|63/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|58/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|70/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|move|p2a: Dragonite|Outrage|p1a: Hippowdon
+|-damage|p1a: Hippowdon|64/100
+|move|p1a: Hippowdon|Roar|p2a: Dragonite
+|drag|p2a: Toxicroak|Toxicroak, M|63/100
+|-damage|p2a: Toxicroak|57/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|51/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|71/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Hippowdon|Earthquake|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|70/100
+|-damage|p2a: Dragonite|45/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|39/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|move|p2a: Dragonite|Outrage|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Dragonite|26/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|20/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|76/100
+|-damage|p1a: Scizor|64/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|blackkaiser
+|l|☆uncertainty of tmr
+|raw|blackkaiser's rating: 1307 &rarr; <strong>1340</strong><br />(+33 for winning)
+|raw|uncertainty of tmr's rating: 1573 &rarr; <strong>1540</strong><br />(-33 for losing)

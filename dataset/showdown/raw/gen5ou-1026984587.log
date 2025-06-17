@@ -1,0 +1,1502 @@
+|j|☆The Mystico
+|j|☆STATS Xavi
+|player|p1|The Mystico|152|1329
+|player|p2|STATS Xavi|backpacker|1312
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Donphan, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Amoonguss, F|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Gastrodon-East, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Sigilyph, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by STATS Xavi)
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|switch|p2a: Headnown|Sigilyph, M|100/100
+|turn|1
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Amoonguss|Spore|p2a: Headnown
+|-status|p2a: Headnown|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|cant|p2a: Headnown|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Headnown
+|-supereffective|p2a: Headnown
+|-damage|p2a: Headnown|76/100 slp
+|-curestatus|p2a: Headnown|slp|[msg]
+|move|p2a: Headnown|Psycho Shift||[still]
+|-fail|p2a: Headnown
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Headnown|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Headnown|Psycho Shift|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|-curestatus|p2a: Headnown|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seismitoad|88/100 brn|[from] brn
+|-status|p2a: Headnown|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Seismitoad|Refresh|p1a: Seismitoad
+|-curestatus|p1a: Seismitoad|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Headnown|Psycho Shift|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|-curestatus|p2a: Headnown|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|-status|p2a: Headnown|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|66/100 brn
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Mafrén|Excadrill, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|59/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|move|p2a: Mafrén|Rock Slide|p1a: Donphan
+|-resisted|p1a: Donphan
+|-damage|p1a: Donphan|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|95/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Headnown|Sigilyph, M|76/100 brn
+|move|p1a: Donphan|Stealth Rock|p2a: Headnown
+|-sidestart|p2: STATS Xavi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Skarmory|Skarmory, M|59/100 brn
+|move|p2a: Headnown|Psycho Shift|p1a: Skarmory
+|-fail|p1a: Skarmory|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|53/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Headnown|Roost|p2a: Headnown
+|-heal|p2a: Headnown|100/100 brn
+|-singleturn|p2a: Headnown|move: Roost
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|78/100 brn
+|move|p1a: Skarmory|Spikes|p2a: Headnown
+|-sidestart|p2: STATS Xavi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|72/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Piupiu|Skarmory, M|100/100
+|-damage|p2a: Piupiu|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|66/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Skarmory|Spikes|p2a: Piupiu
+|-sidestart|p2: STATS Xavi|Spikes
+|move|p2a: Piupiu|Spikes|p1a: Skarmory
+|-sidestart|p1: The Mystico|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|59/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Skarmory|Whirlwind|p2a: Piupiu
+|drag|p2a: Headnown|Sigilyph, M|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|53/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Mafrén|Excadrill, F|100/100
+|-damage|p2a: Mafrén|97/100|[from] Stealth Rock
+|-damage|p2a: Mafrén|81/100|[from] Spikes
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|-damage|p1a: Donphan|88/100|[from] Spikes
+|move|p2a: Mafrén|Rapid Spin|p1a: Donphan
+|-damage|p1a: Donphan|83/100
+|-sideend|p2: STATS Xavi|Spikes|[from] move: Rapid Spin|[of] p2a: Mafrén
+|-sideend|p2: STATS Xavi|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mafrén
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Hattori el ninja|Hippowdon, F|100/100
+|move|p1a: Donphan|Rapid Spin|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|96/100
+|-sideend|p1: The Mystico|Spikes|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|96/100|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|j| ButtH3ad
+|
+|switch|p1a: Seismitoad|Seismitoad, M|94/100
+|move|p2a: Hattori el ninja|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: The Mystico|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|j| Jordan Cybersix
+|
+|switch|p2a: Amu Pinguilí|Gastrodon-East, F|100/100
+|move|p1a: Seismitoad|Toxic|p2a: Amu Pinguilí
+|-status|p2a: Amu Pinguilí|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|-damage|p2a: Amu Pinguilí|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Amu Pinguilí
+|-damage|p2a: Amu Pinguilí|64/100 tox
+|move|p2a: Amu Pinguilí|Hidden Power|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|57/100|[from] item: Leftovers
+|-heal|p2a: Amu Pinguilí|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Amu Pinguilí|58/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|switch|p2a: Headnown|Sigilyph, M|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100 brn
+|-damage|p1a: Skarmory|76/100 brn|[from] Stealth Rock
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|70/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Skarmory|Spikes|p2a: Headnown
+|-sidestart|p2: STATS Xavi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|63/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|57/100 brn
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Amu Pinguilí|Gastrodon-East, F|58/100 tox
+|-damage|p2a: Amu Pinguilí|46/100 tox|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|63/100 brn|[from] item: Leftovers
+|-heal|p2a: Amu Pinguilí|52/100 tox|[from] item: Leftovers
+|-damage|p1a: Skarmory|51/100 brn|[from] brn
+|-damage|p2a: Amu Pinguilí|46/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|move|p2a: Amu Pinguilí|Recover|p2a: Amu Pinguilí
+|-heal|p2a: Amu Pinguilí|96/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Amu Pinguilí|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|-damage|p2a: Amu Pinguilí|88/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p2a: W¡sh & K'3D Shop|Jirachi|100/100
+|-damage|p2a: W¡sh & K'3D Shop|88/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: W¡sh & K'3D Shop
+|-sidestart|p2: STATS Xavi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|94/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|82/100 brn|[from] brn
+|upkeep
+|turn|29
+|l| Jordan Cybersix
+|
+|move|p2a: W¡sh & K'3D Shop|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100 brn
+|move|p1a: Skarmory|Whirlwind|p2a: W¡sh & K'3D Shop
+|drag|p2a: Piupiu|Skarmory, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|64/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Skarmory|Spikes|p2a: Piupiu
+|-sidestart|p2: STATS Xavi|Spikes
+|move|p2a: Piupiu|Spikes|p1a: Skarmory
+|-sidestart|p1: The Mystico|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|57/100 brn|[from] brn
+|upkeep
+|turn|31
+|c|☆STATS Xavi|!stats seismtoad
+No Pokémon, item, move, ability or nature named 'seismtoad' was found in Gen 5. Showing the data of 'Seismitoad' instead.
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">NU</span> <span class="col iconcol"><psicon pokemon="seismitoad"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/seismitoad" target="_blank">Seismitoad</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Water.png" alt="Water" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Ground.png" alt="Ground" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col twoabilitycol">Swift Swim<br />Poison Touch</span><span class="col abilitycol"><em>Water Absorb</em></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />105</span> <span class="col statcol"><em>Atk</em><br />85</span> <span class="col statcol"><em>Def</em><br />75</span> <span class="col statcol"><em>SpA</em><br />85</span> <span class="col statcol"><em>SpD</em><br />75</span> <span class="col statcol"><em>Spe</em><br />74</span> <span class="col bstcol"><em>BST<br />499</em></span> </span></li><li style="clear:both"></li></ul></div>
+
+|
+|move|p2a: Piupiu|Spikes|p1a: Skarmory
+|-sidestart|p1: The Mystico|Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Piupiu
+|drag|p2a: Headnown|Sigilyph, M|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|51/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p2a: Amu Pinguilí|Gastrodon-East, F|88/100 tox
+|-damage|p2a: Amu Pinguilí|63/100 tox|[from] Spikes
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Amu Pinguilí|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|-damage|p2a: Amu Pinguilí|63/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p1a: Seismitoad|Seismitoad, M|57/100
+|-damage|p1a: Seismitoad|51/100|[from] Stealth Rock
+|-damage|p1a: Seismitoad|35/100|[from] Spikes
+|move|p2a: Amu Pinguilí|Scald|p1a: Seismitoad
+|-heal|p1a: Seismitoad|59/100|[from] ability: Water Absorb|[of] p2a: Amu Pinguilí
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|65/100|[from] item: Leftovers
+|-heal|p2a: Amu Pinguilí|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Amu Pinguilí|57/100 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|The Mystico has 120 seconds left.
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|-damage|p1a: Amoonguss|71/100|[from] Spikes
+|move|p2a: Amu Pinguilí|Hidden Power|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|62/100|[from] Sandstorm
+|-heal|p2a: Amu Pinguilí|63/100 tox|[from] item: Leftovers
+|-heal|p1a: Amoonguss|69/100|[from] item: Black Sludge
+|-damage|p2a: Amu Pinguilí|45/100 tox|[from] psn
+|upkeep
+|turn|35
+|c|☆STATS Xavi|i predicted your change but I thought i would overpredict if I follow my prediction
+|c|☆STATS Xavi|<.<
+|inactive|The Mystico has 120 seconds left.
+|
+|switch|p2a: Headnown|Sigilyph, M|100/100 brn
+|move|p1a: Amoonguss|Giga Drain|p2a: Headnown
+|-resisted|p2a: Headnown
+|-crit|p2a: Headnown
+|-damage|p2a: Headnown|73/100 brn
+|-heal|p1a: Amoonguss|80/100|[from] drain|[of] p2a: Headnown
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|73/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|80/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|inactive|The Mystico has 120 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100 brn
+|-damage|p1a: Skarmory|76/100 brn|[from] Stealth Rock
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|70/100 brn|[from] brn
+|upkeep
+|turn|37
+|inactive|The Mystico has 120 seconds left.
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|54/100 brn
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Mafrén|Excadrill, F|81/100
+|-damage|p2a: Mafrén|56/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|48/100 brn|[from] brn
+|upkeep
+|turn|38
+|inactive|The Mystico has 120 seconds left.
+|
+|move|p2a: Mafrén|Rock Slide|p1a: Skarmory
+|-damage|p1a: Skarmory|25/100 brn
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|75/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|69/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: W¡sh & K'3D Shop|Jirachi|94/100
+|-damage|p2a: W¡sh & K'3D Shop|69/100|[from] Spikes
+|switch|p1a: Donphan|Donphan, M|96/100
+|-damage|p1a: Donphan|90/100|[from] Stealth Rock
+|-damage|p1a: Donphan|73/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|75/100|[from] item: Leftovers
+|-heal|p1a: Donphan|79/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: W¡sh & K'3D Shop|Body Slam|p1a: Donphan
+|-damage|p1a: Donphan|69/100
+|move|p1a: Donphan|Rapid Spin|p2a: W¡sh & K'3D Shop
+|-resisted|p2a: W¡sh & K'3D Shop
+|-damage|p2a: W¡sh & K'3D Shop|73/100
+|-sideend|p1: The Mystico|Spikes|[from] move: Rapid Spin|[of] p1a: Donphan
+|-sideend|p1: The Mystico|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|79/100|[from] item: Leftovers
+|-heal|p1a: Donphan|75/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: W¡sh & K'3D Shop|Body Slam|p1a: Donphan
+|-damage|p1a: Donphan|64/100
+|-status|p1a: Donphan|par
+|cant|p1a: Donphan|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|86/100|[from] item: Leftovers
+|-heal|p1a: Donphan|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Donphan
+|-damage|p1a: Donphan|54/100 par
+|cant|p1a: Donphan|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|92/100|[from] item: Leftovers
+|-heal|p1a: Donphan|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Donphan
+|-damage|p1a: Donphan|44/100 par
+|cant|p1a: Donphan|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|98/100|[from] item: Leftovers
+|-heal|p1a: Donphan|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Donphan
+|-damage|p1a: Donphan|36/100 par
+|cant|p1a: Donphan|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|100/100|[from] item: Leftovers
+|-heal|p1a: Donphan|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p1a: Seismitoad|Seismitoad, M|65/100
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|58/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: W¡sh & K'3D Shop|Body Slam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|38/100
+|-status|p1a: Seismitoad|par
+|move|p1a: Seismitoad|Scald|p2a: W¡sh & K'3D Shop
+|-damage|p2a: W¡sh & K'3D Shop|85/100
+|-status|p2a: W¡sh & K'3D Shop|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|91/100 brn|[from] item: Leftovers
+|-heal|p1a: Seismitoad|44/100 par|[from] item: Leftovers
+|-damage|p2a: W¡sh & K'3D Shop|79/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|switch|p1a: Donphan|Donphan, M|42/100 par
+|move|p2a: W¡sh & K'3D Shop|Wish|p2a: W¡sh & K'3D Shop
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|85/100 brn|[from] item: Leftovers
+|-heal|p1a: Donphan|49/100 par|[from] item: Leftovers
+|-damage|p2a: W¡sh & K'3D Shop|73/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Donphan
+|-damage|p1a: Donphan|40/100 par
+|cant|p1a: Donphan|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|100/100 brn|[from] move: Wish|[wisher] W¡sh & K'3D Shop
+|-heal|p1a: Donphan|46/100 par|[from] item: Leftovers
+|-damage|p2a: W¡sh & K'3D Shop|88/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p2a: Hattori el ninja|Hippowdon, F|100/100
+|-damage|p2a: Hattori el ninja|75/100|[from] Spikes
+|move|p1a: Donphan|Earthquake|p2a: Hattori el ninja
+|-crit|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hattori el ninja|22/100|[from] item: Leftovers
+|-heal|p1a: Donphan|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Donphan|Ice Shard|p2a: Hattori el ninja
+|-supereffective|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|6/100
+|move|p2a: Hattori el ninja|Slack Off|p2a: Hattori el ninja
+|-heal|p2a: Hattori el ninja|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hattori el ninja|63/100|[from] item: Leftovers
+|-heal|p1a: Donphan|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Hattori el ninja|Slack Off|p2a: Hattori el ninja
+|-heal|p2a: Hattori el ninja|100/100
+|cant|p1a: Donphan|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p2a: Hattori el ninja|Earthquake|p1a: Donphan
+|-damage|p1a: Donphan|45/100 par
+|move|p1a: Donphan|Stealth Rock|p2a: Hattori el ninja
+|-sidestart|p2: STATS Xavi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Hattori el ninja|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|54
+|
+|move|p1a: Latios|Surf|p2a: Hattori el ninja
+|-supereffective|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|38/100
+|move|p2a: Hattori el ninja|Stealth Rock|p1a: Latios
+|-sidestart|p1: The Mystico|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|-heal|p2a: Hattori el ninja|44/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|switch|p2a: Amu Pinguilí|Gastrodon-East, F|45/100 tox
+|-damage|p2a: Amu Pinguilí|39/100 tox|[from] Stealth Rock
+|-damage|p2a: Amu Pinguilí|14/100 tox|[from] Spikes
+|move|p1a: Latios|Psychic|p2a: Amu Pinguilí
+|-damage|p2a: Amu Pinguilí|0 fnt
+|faint|p2a: Amu Pinguilí
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|83/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: W¡sh & K'3D Shop|Jirachi|88/100 brn
+|-damage|p2a: W¡sh & K'3D Shop|82/100 brn|[from] Stealth Rock
+|-damage|p2a: W¡sh & K'3D Shop|57/100 brn|[from] Spikes
+|turn|56
+|
+|switch|p1a: Donphan|Donphan, M|51/100 par
+|-damage|p1a: Donphan|45/100 par|[from] Stealth Rock
+|move|p2a: W¡sh & K'3D Shop|Wish|p2a: W¡sh & K'3D Shop
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|63/100 brn|[from] item: Leftovers
+|-heal|p1a: Donphan|51/100 par|[from] item: Leftovers
+|-damage|p2a: W¡sh & K'3D Shop|51/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Donphan
+|-damage|p1a: Donphan|42/100 par
+|cant|p1a: Donphan|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|100/100 brn|[from] move: Wish|[wisher] W¡sh & K'3D Shop
+|-heal|p1a: Donphan|49/100 par|[from] item: Leftovers
+|-damage|p2a: W¡sh & K'3D Shop|88/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|33/100 par
+|cant|p1a: Donphan|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|94/100 brn|[from] item: Leftovers
+|-heal|p1a: Donphan|39/100 par|[from] item: Leftovers
+|-damage|p2a: W¡sh & K'3D Shop|82/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Donphan
+|-damage|p1a: Donphan|31/100 par
+|move|p1a: Donphan|Rapid Spin|p2a: W¡sh & K'3D Shop
+|-resisted|p2a: W¡sh & K'3D Shop
+|-damage|p2a: W¡sh & K'3D Shop|79/100 brn
+|-sideend|p1: The Mystico|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: W¡sh & K'3D Shop|86/100 brn|[from] item: Leftovers
+|-heal|p1a: Donphan|37/100 par|[from] item: Leftovers
+|-damage|p2a: W¡sh & K'3D Shop|73/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|move|p2a: W¡sh & K'3D Shop|Iron Head|p1a: Donphan
+|-damage|p1a: Donphan|30/100 par
+|move|p1a: Donphan|Earthquake|p2a: W¡sh & K'3D Shop
+|-supereffective|p2a: W¡sh & K'3D Shop
+|-damage|p2a: W¡sh & K'3D Shop|0 fnt
+|faint|p2a: W¡sh & K'3D Shop
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|36/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mafrén|Excadrill, F|56/100
+|-damage|p2a: Mafrén|53/100|[from] Stealth Rock
+|-damage|p2a: Mafrén|28/100|[from] Spikes
+|turn|61
+|
+|move|p2a: Mafrén|Rapid Spin|p1a: Donphan
+|-damage|p1a: Donphan|31/100 par
+|-sideend|p2: STATS Xavi|Spikes|[from] move: Rapid Spin|[of] p2a: Mafrén
+|-sideend|p2: STATS Xavi|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mafrén
+|cant|p1a: Donphan|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|switch|p2a: Hattori el ninja|Hippowdon, F|44/100
+|move|p1a: Donphan|Stealth Rock|p2a: Hattori el ninja
+|-sidestart|p2: STATS Xavi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hattori el ninja|50/100|[from] item: Leftovers
+|-heal|p1a: Donphan|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|switch|p1a: Skarmory|Skarmory, M|69/100 brn
+|move|p2a: Hattori el ninja|Slack Off|p2a: Hattori el ninja
+|-heal|p2a: Hattori el ninja|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|62/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p1a: Skarmory|Spikes|p2a: Hattori el ninja
+|-sidestart|p2: STATS Xavi|Spikes
+|move|p2a: Hattori el ninja|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: The Mystico|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|56/100 brn|[from] brn
+|upkeep
+|turn|65
+|j| Jordan Cybersix
+|
+|move|p1a: Skarmory|Spikes|p2a: Hattori el ninja
+|-sidestart|p2: STATS Xavi|Spikes
+|move|p2a: Hattori el ninja|Whirlwind|p1a: Skarmory
+|drag|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|66
+|
+|switch|p2a: Headnown|Sigilyph, M|73/100 brn
+|move|p1a: Amoonguss|Spore||[still]
+|-fail|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|67
+|
+|switch|p1a: Skarmory|Skarmory, M|56/100 brn
+|-damage|p1a: Skarmory|44/100 brn|[from] Stealth Rock
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|38/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|24/100 brn
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|74/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|68/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Skarmory|Spikes|p2a: Headnown
+|-sidestart|p2: STATS Xavi|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|62/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|37/100 brn
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|87/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|81/100 brn|[from] brn
+|upkeep
+|turn|71
+|c|☆STATS Xavi|just a crit can save this match
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|57/100 brn
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Mafrén|Excadrill, F|28/100
+|-damage|p2a: Mafrén|3/100|[from] Spikes
+|-damage|p2a: Mafrén|0 fnt|[from] Stealth Rock
+|faint|p2a: Mafrén
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|51/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Piupiu|Skarmory, M|88/100
+|-damage|p2a: Piupiu|76/100|[from] Stealth Rock
+|turn|72
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|move|p2a: Piupiu|Spikes|p1a: Skarmory
+|-sidestart|p1: The Mystico|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|switch|p1a: Donphan|Donphan, M|43/100 par
+|-damage|p1a: Donphan|37/100 par|[from] Stealth Rock
+|-damage|p1a: Donphan|25/100 par|[from] Spikes
+|move|p2a: Piupiu|Spikes|p1a: Donphan
+|-sidestart|p1: The Mystico|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|31/100 par|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|cant|p1a: Donphan|par
+|move|p2a: Piupiu|Whirlwind|p1a: Donphan
+|drag|p1a: Latios|Latios, M|83/100
+|-damage|p1a: Latios|70/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|64/100|[from] Sandstorm
+|upkeep
+|turn|75
+|
+|move|p1a: Latios|Surf|p2a: Piupiu
+|-damage|p2a: Piupiu|34/100
+|move|p2a: Piupiu|Roost|p2a: Piupiu
+|-heal|p2a: Piupiu|84/100
+|-singleturn|p2a: Piupiu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|58/100|[from] Sandstorm
+|upkeep
+|turn|76
+|
+|move|p1a: Latios|Surf|p2a: Piupiu
+|-damage|p2a: Piupiu|41/100
+|move|p2a: Piupiu|Roost|p2a: Piupiu
+|-heal|p2a: Piupiu|91/100
+|-singleturn|p2a: Piupiu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|52/100|[from] Sandstorm
+|upkeep
+|turn|77
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|100/100
+|move|p2a: Piupiu|Roost|p2a: Piupiu
+|-heal|p2a: Piupiu|100/100
+|-singleturn|p2a: Piupiu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|78
+|
+|move|p1a: Latios|Surf|p2a: Piupiu
+|-damage|p2a: Piupiu|53/100
+|move|p2a: Piupiu|Spikes|p1a: Latios
+|-sidestart|p1: The Mystico|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|upkeep
+|turn|79
+|c|☆STATS Xavi|Mystico, are you Spanish?
+|
+|move|p1a: Latios|Surf|p2a: Piupiu
+|-damage|p2a: Piupiu|6/100
+|move|p2a: Piupiu|Roost|p2a: Piupiu
+|-heal|p2a: Piupiu|56/100
+|-singleturn|p2a: Piupiu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|83/100|[from] Sandstorm
+|upkeep
+|turn|80
+|
+|move|p1a: Latios|Surf|p2a: Piupiu
+|-damage|p2a: Piupiu|12/100
+|move|p2a: Piupiu|Roost|p2a: Piupiu
+|-heal|p2a: Piupiu|62/100
+|-singleturn|p2a: Piupiu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|77/100|[from] Sandstorm
+|upkeep
+|turn|81
+|c|☆The Mystico|no, im not spanish
+|c|☆STATS Xavi|Ok
+|
+|move|p1a: Latios|Psychic|p2a: Piupiu
+|-resisted|p2a: Piupiu
+|-damage|p2a: Piupiu|30/100
+|move|p2a: Piupiu|Roost|p2a: Piupiu
+|-heal|p2a: Piupiu|80/100
+|-singleturn|p2a: Piupiu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|71/100|[from] Sandstorm
+|upkeep
+|turn|82
+|c|☆STATS Xavi|'cause your nick sounds familiar to me
+|
+|move|p1a: Latios|Psychic|p2a: Piupiu
+|-resisted|p2a: Piupiu
+|-damage|p2a: Piupiu|47/100
+|move|p2a: Piupiu|Brave Bird|p1a: Latios
+|-damage|p1a: Latios|20/100
+|-damage|p2a: Piupiu|31/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|14/100|[from] Sandstorm
+|upkeep
+|turn|83
+|
+|move|p1a: Latios|Surf|p2a: Piupiu
+|-damage|p2a: Piupiu|0 fnt
+|faint|p2a: Piupiu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|8/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Headnown|Sigilyph, M|73/100 brn
+|turn|84
+|
+|move|p1a: Latios|Draco Meteor|p2a: Headnown|[miss]
+|-miss|p1a: Latios|p2a: Headnown
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|2/100|[from] Sandstorm
+|upkeep
+|turn|85
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|52/100
+|move|p2a: Headnown|Roost|p2a: Headnown
+|-heal|p2a: Headnown|100/100 brn
+|-singleturn|p2a: Headnown|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|46/100|[from] Sandstorm
+|upkeep
+|turn|86
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100 brn
+|-damage|p1a: Skarmory|76/100 brn|[from] Stealth Rock
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|70/100 brn|[from] brn
+|upkeep
+|turn|87
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|46/100 brn
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Hattori el ninja|Hippowdon, F|100/100
+|-damage|p2a: Hattori el ninja|75/100|[from] Spikes
+|-damage|p2a: Hattori el ninja|69/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|52/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|75/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|39/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|89/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|move|p2a: Hattori el ninja|Whirlwind|p1a: Skarmory
+|drag|p1a: Latios|Latios, M|46/100
+|-damage|p1a: Latios|34/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|28/100|[from] Sandstorm
+|-heal|p2a: Hattori el ninja|82/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|move|p1a: Latios|Surf|p2a: Hattori el ninja
+|-supereffective|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|28/100
+|move|p2a: Hattori el ninja|Slack Off|p2a: Hattori el ninja
+|-heal|p2a: Hattori el ninja|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|22/100|[from] Sandstorm
+|-heal|p2a: Hattori el ninja|84/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|72/100
+|move|p2a: Hattori el ninja|Whirlwind|p1a: Latios
+|drag|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-damage|p1a: Tyranitar|63/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hattori el ninja|90/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|switch|p1a: Skarmory|Skarmory, M|89/100 brn
+|-damage|p1a: Skarmory|77/100 brn|[from] Stealth Rock
+|move|p2a: Hattori el ninja|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|83/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|96/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|71/100 brn|[from] brn
+|upkeep
+|turn|92
+|
+|move|p1a: Skarmory|Whirlwind|p2a: Hattori el ninja
+|drag|p2a: Headnown|Sigilyph, M|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|65/100 brn|[from] brn
+|upkeep
+|turn|93
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Hattori el ninja|Hippowdon, F|96/100
+|-damage|p2a: Hattori el ninja|90/100|[from] Stealth Rock
+|-damage|p2a: Hattori el ninja|65/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|71/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|71/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|58/100 brn|[from] brn
+|upkeep
+|turn|94
+|
+|move|p2a: Hattori el ninja|Slack Off|p2a: Hattori el ninja
+|-heal|p2a: Hattori el ninja|100/100
+|move|p1a: Skarmory|Whirlwind|p2a: Hattori el ninja
+|drag|p2a: Headnown|Sigilyph, M|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|52/100 brn|[from] brn
+|upkeep
+|turn|95
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|96
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|75/100 brn
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Hattori el ninja|Hippowdon, F|100/100
+|-damage|p2a: Hattori el ninja|75/100|[from] Spikes
+|-damage|p2a: Hattori el ninja|69/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|81/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|75/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|68/100 brn|[from] brn
+|upkeep
+|turn|97
+|inactive|STATS Xavi has 120 seconds left.
+|inactive|The Mystico has 120 seconds left.
+|
+|switch|p1a: Latios|Latios, M|72/100
+|-damage|p1a: Latios|60/100|[from] Stealth Rock
+|move|p2a: Hattori el ninja|Whirlwind|p1a: Latios
+|drag|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|-damage|p1a: Amoonguss|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|57/100|[from] Sandstorm
+|-heal|p2a: Hattori el ninja|82/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|63/100|[from] item: Black Sludge
+|upkeep
+|turn|98
+|inactive|The Mystico has 120 seconds left.
+|inactive|STATS Xavi has 120 seconds left.
+|
+|switch|p2a: Headnown|Sigilyph, M|100/100 brn
+|move|p1a: Amoonguss|Giga Drain|p2a: Headnown
+|-resisted|p2a: Headnown
+|-damage|p2a: Headnown|88/100 brn
+|-heal|p1a: Amoonguss|68/100|[from] drain|[of] p2a: Headnown
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|62/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|68/100|[from] item: Black Sludge
+|upkeep
+|turn|99
+|
+|switch|p1a: Skarmory|Skarmory, M|68/100 brn
+|-damage|p1a: Skarmory|56/100 brn|[from] Stealth Rock
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|50/100 brn|[from] brn
+|upkeep
+|turn|100
+|inactive|STATS Xavi has 120 seconds left.
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Hattori el ninja|Hippowdon, F|82/100
+|-damage|p2a: Hattori el ninja|57/100|[from] Spikes
+|-damage|p2a: Hattori el ninja|50/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|56/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|57/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|44/100 brn|[from] brn
+|upkeep
+|turn|101
+|inactive|STATS Xavi has 120 seconds left.
+|inactive|The Mystico has 90 seconds left.
+|
+|move|p2a: Hattori el ninja|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Hattori el ninja
+|drag|p2a: Headnown|Sigilyph, M|88/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|37/100 brn|[from] brn
+|upkeep
+|turn|102
+|inactive|The Mystico has 90 seconds left.
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|33/100 brn
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|83/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|76/100 brn|[from] brn
+|upkeep
+|turn|103
+|inactive|The Mystico has 90 seconds left.
+|
+|move|p2a: Headnown|Cosmic Power|p2a: Headnown
+|-boost|p2a: Headnown|def|1
+|-boost|p2a: Headnown|spd|1
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Hattori el ninja|Hippowdon, F|57/100
+|-damage|p2a: Hattori el ninja|50/100|[from] Stealth Rock
+|-damage|p2a: Hattori el ninja|25/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|82/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|32/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|70/100 brn|[from] brn
+|upkeep
+|turn|104
+|
+|switch|p1a: Latios|Latios, M|60/100
+|-damage|p1a: Latios|47/100|[from] Stealth Rock
+|move|p2a: Hattori el ninja|Slack Off|p2a: Hattori el ninja
+|-heal|p2a: Hattori el ninja|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|41/100|[from] Sandstorm
+|-heal|p2a: Hattori el ninja|88/100|[from] item: Leftovers
+|upkeep
+|turn|105
+|
+|move|p1a: Latios|Surf|p2a: Hattori el ninja
+|-supereffective|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|30/100
+|move|p2a: Hattori el ninja|Slack Off|p2a: Hattori el ninja
+|-heal|p2a: Hattori el ninja|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|35/100|[from] Sandstorm
+|-heal|p2a: Hattori el ninja|86/100|[from] item: Leftovers
+|upkeep
+|turn|106
+|
+|move|p1a: Latios|Surf|p2a: Hattori el ninja
+|-supereffective|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|30/100
+|move|p2a: Hattori el ninja|Whirlwind|p1a: Latios
+|drag|p1a: Skarmory|Skarmory, M|70/100 brn
+|-damage|p1a: Skarmory|58/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|64/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|37/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|51/100 brn|[from] brn
+|upkeep
+|turn|107
+|
+|switch|p1a: Latios|Latios, M|35/100
+|-damage|p1a: Latios|23/100|[from] Stealth Rock
+|move|p2a: Hattori el ninja|Slack Off|p2a: Hattori el ninja
+|-heal|p2a: Hattori el ninja|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|17/100|[from] Sandstorm
+|-heal|p2a: Hattori el ninja|93/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|67/100
+|move|p2a: Hattori el ninja|Whirlwind|p1a: Latios
+|drag|p1a: Seismitoad|Seismitoad, M|44/100 par
+|-damage|p1a: Seismitoad|38/100 par|[from] Stealth Rock
+|-damage|p1a: Seismitoad|14/100 par|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hattori el ninja|99/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|109
+|inactive|The Mystico has 60 seconds left.
+|
+|move|p2a: Hattori el ninja|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hattori el ninja|100/100|[from] item: Leftovers
+|upkeep
+|c|☆STATS Xavi|well, at least no 6-0
+|
+|switch|p1a: Latios|Latios, M|67/100
+|-damage|p1a: Latios|55/100|[from] Stealth Rock
+|turn|110
+|
+|move|p1a: Latios|Surf|p2a: Hattori el ninja
+|-supereffective|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|42/100
+|move|p2a: Hattori el ninja|Whirlwind|p1a: Latios
+|drag|p1a: Skarmory|Skarmory, M|51/100 brn
+|-damage|p1a: Skarmory|39/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|45/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|48/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|33/100 brn|[from] brn
+|upkeep
+|turn|111
+|
+|move|p2a: Hattori el ninja|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Hattori el ninja
+|drag|p2a: Headnown|Sigilyph, M|88/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|27/100 brn|[from] brn
+|upkeep
+|turn|112
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|21/100 brn
+|move|p1a: Skarmory|Whirlwind|p2a: Headnown
+|drag|p2a: Hattori el ninja|Hippowdon, F|48/100
+|-damage|p2a: Hattori el ninja|42/100|[from] Stealth Rock
+|-damage|p2a: Hattori el ninja|17/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|27/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|23/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|15/100 brn|[from] brn
+|upkeep
+|turn|113
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|65/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|move|p2a: Hattori el ninja|Earthquake|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|18/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|24/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|29/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|12/100 brn|[from] brn
+|upkeep
+|turn|114
+|inactive|The Mystico has 30 seconds left.
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|62/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|move|p2a: Hattori el ninja|Earthquake|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|16/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|22/100 brn|[from] item: Leftovers
+|-heal|p2a: Hattori el ninja|35/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|10/100 brn|[from] brn
+|upkeep
+|turn|115
+|inactive|The Mystico has 30 seconds left.
+|
+|move|p2a: Hattori el ninja|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Hattori el ninja
+|drag|p2a: Headnown|Sigilyph, M|88/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|16/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|4/100 brn|[from] brn
+|upkeep
+|turn|116
+|inactive|The Mystico has 30 seconds left this turn.
+|inactive|The Mystico has 20 seconds left.
+|
+|move|p2a: Headnown|Stored Power|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|The Mystico has 25 seconds left this turn.
+|inactive|The Mystico has 20 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|63/100
+|-damage|p1a: Tyranitar|38/100|[from] Spikes
+|-damage|p1a: Tyranitar|26/100|[from] Stealth Rock
+|turn|117
+|inactive|The Mystico has 25 seconds left this turn.
+|inactive|The Mystico has 20 seconds left.
+|
+|move|p1a: Tyranitar|Crunch|p2a: Headnown
+|-supereffective|p2a: Headnown
+|-damage|p2a: Headnown|15/100 brn
+|move|p2a: Headnown|Psycho Shift|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|-curestatus|p2a: Headnown|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|14/100 brn|[from] brn
+|-status|p2a: Headnown|brn|[from] item: Flame Orb
+|upkeep
+|turn|118
+|inactive|The Mystico has 25 seconds left this turn.
+|inactive|The Mystico has 20 seconds left.
+|
+|move|p1a: Tyranitar|Crunch|p2a: Headnown
+|-supereffective|p2a: Headnown
+|-damage|p2a: Headnown|0 fnt
+|faint|p2a: Headnown
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|1/100 brn|[from] brn
+|upkeep
+|inactive|The Mystico has 25 seconds left this turn.
+|
+|switch|p2a: Hattori el ninja|Hippowdon, F|35/100
+|-damage|p2a: Hattori el ninja|29/100|[from] Stealth Rock
+|-damage|p2a: Hattori el ninja|4/100|[from] Spikes
+|turn|119
+|inactive|The Mystico has 30 seconds left this turn.
+|c|☆STATS Xavi|GG
+|
+|move|p1a: Tyranitar|Crunch|p2a: Hattori el ninja
+|-damage|p2a: Hattori el ninja|0 fnt
+|faint|p2a: Hattori el ninja
+|
+|win|The Mystico
+|inactive|The Mystico has 30 seconds left this turn.
+|c|☆The Mystico|gg
+|l| Jordan Cybersix
+|l| ButtH3ad
+|c|☆STATS Xavi|It was a nice match
+|c|☆The Mystico|yeah
+|raw|The Mystico's rating: 1329 &rarr; <strong>1348</strong><br />(+19 for winning)
+|raw|STATS Xavi's rating: 1312 &rarr; <strong>1293</strong><br />(-19 for losing)

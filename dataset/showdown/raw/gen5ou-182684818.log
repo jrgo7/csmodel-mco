@@ -1,0 +1,242 @@
+|join|hauntedangel
+|join|Princess Ariel
+|player|p1|hauntedangel|262
+|player|p2|Princess Ariel|102
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Garchomp, F
+|poke|p1|Keldeo
+|poke|p1|Dragonite, M
+|poke|p1|Jirachi
+|poke|p1|Latios, M
+|poke|p1|Landorus-Therian, M
+|poke|p2|Tyranitar, M
+|poke|p2|Forretress, M
+|poke|p2|Slowbro, F
+|poke|p2|Skarmory, F
+|poke|p2|Blissey, F
+|poke|p2|Jellicent, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Princess Ariel|gl
+|
+|start
+|switch|p1a: Keldeo|Keldeo|324/324
+|switch|p2a: Slowbro|Slowbro, F|394/394
+|turn|1
+|
+|move|p1a: Keldeo|Hidden Power|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|104/394
+|move|p2a: Slowbro|Psyshock|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|114/324
+|
+|-heal|p2a: Slowbro|128/394|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Jirachi|Jirachi|353/353
+|switch|p2a: Jellicent|Jellicent, F|404/404
+|
+|turn|3
+|
+|move|p1a: Jirachi|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|372/404
+|
+|switch|p1a: Latios|Latios, M|304/304
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Latios
+|-status|p1a: Latios|brn
+|
+|-heal|p2a: Jellicent|397/404|[from] item: Leftovers
+|-damage|p1a: Latios|266/304 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Blissey|Blissey, F|651/651
+|move|p1a: Latios|Draco Meteor|p2a: Blissey
+|-damage|p2a: Blissey|483/651
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Blissey|523/651|[from] item: Leftovers
+|-damage|p1a: Latios|228/304 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Garchomp|Garchomp, F|373/373
+|move|p2a: Blissey|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: hauntedangel|move: Stealth Rock
+|
+|-heal|p2a: Blissey|563/651|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Skarmory|Skarmory, F|334/334
+|move|p1a: Garchomp|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Princess Ariel|move: Stealth Rock
+|
+|turn|7
+|
+|switch|p1a: Latios|Latios, M|228/304 brn
+|-damage|p1a: Latios|190/304 brn|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Latios
+|-sidestart|p1: hauntedangel|Spikes
+|
+|-damage|p1a: Latios|152/304 brn|[from] brn
+|turn|8
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|-damage|p2a: Forretress|310/354|[from] Stealth Rock
+|move|p1a: Latios|Psyshock|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|258/354
+|
+|-heal|p2a: Forretress|280/354|[from] item: Leftovers
+|-damage|p1a: Latios|114/304 brn|[from] brn
+|turn|9
+|
+|move|p1a: Latios|Hidden Power|p2a: Forretress
+|-crit|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-damage|p1a: Latios|76/304 brn|[from] brn
+|
+|switch|p2a: Tyranitar|Tyranitar, M|384/384
+|-damage|p2a: Tyranitar|336/384|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|move|p1a: Latios|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|173/384
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Tyranitar|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-damage|p1a: Landorus-Therian|334/381|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|turn|11
+|
+|switch|p2a: Skarmory|Skarmory, F|334/334
+|-damage|p2a: Skarmory|293/334|[from] Stealth Rock
+|move|p1a: Landorus-Therian|Swords Dance|p1a: Landorus-Therian
+|-boost|p1a: Landorus-Therian|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|357/381|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Landorus-Therian|Stone Edge|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|380/381|[from] item: Leftovers
+|
+|switch|p2a: Slowbro|Slowbro, F|259/394
+|-damage|p2a: Slowbro|210/394|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Tyranitar|Tyranitar, M|173/384
+|-damage|p2a: Tyranitar|125/384|[from] Stealth Rock
+|move|p1a: Landorus-Therian|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|381/381|[from] item: Leftovers
+|
+|switch|p2a: Slowbro|Slowbro, F|341/394
+|-damage|p2a: Slowbro|292/394|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Jirachi|Jirachi|353/353
+|-damage|p1a: Jirachi|309/353|[from] Spikes
+|-damage|p1a: Jirachi|287/353|[from] Stealth Rock
+|move|p2a: Slowbro|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|252/353
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|268/394|[from] sandstorm
+|-heal|p2a: Slowbro|292/394|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Jellicent|Jellicent, F|397/404
+|-damage|p2a: Jellicent|347/404|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|315/404
+|
+|switch|p1a: Dragonite|Dragonite, M|338/338
+|-damage|p1a: Dragonite|254/338|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|233/338|[from] sandstorm
+|-damage|p2a: Jellicent|290/404|[from] sandstorm
+|-heal|p2a: Jellicent|315/404|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Slowbro|Slowbro, F|394/394
+|-damage|p2a: Slowbro|345/394|[from] Stealth Rock
+|move|p1a: Dragonite|Outrage|p2a: Slowbro
+|-damage|p2a: Slowbro|96/394
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|212/338|[from] sandstorm
+|-damage|p2a: Slowbro|72/394|[from] sandstorm
+|-heal|p2a: Slowbro|96/394|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Blissey|Blissey, F|563/651
+|-damage|p2a: Blissey|482/651|[from] Stealth Rock
+|move|p1a: Dragonite|Outrage|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-end|p1a: Dragonite|rampage
+|-start|p1a: Dragonite|confusion
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|191/338|[from] sandstorm
+|
+|switch|p2a: Slowbro|Slowbro, F|227/394
+|-damage|p2a: Slowbro|178/394|[from] Stealth Rock
+|turn|18
+|
+|-activate|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Outrage|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|170/338|[from] sandstorm
+|
+|switch|p2a: Jellicent|Jellicent, F|315/404
+|-damage|p2a: Jellicent|265/404|[from] Stealth Rock
+|turn|19
+|
+|-end|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Outrage|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|win|hauntedangel
+|raw|Ladder updating...
+|raw|hauntedangel's rating: 1309 &rarr; <strong>1330</strong><br />(+21 for winning)
+|raw|Princess Ariel's rating: 1328 &rarr; <strong>1307</strong><br />(-21 for losing)

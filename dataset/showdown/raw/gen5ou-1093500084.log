@@ -1,0 +1,514 @@
+|j|☆hgfjhds
+|j|☆yuzmv
+|player|p1|hgfjhds|102|1548
+|player|p2|yuzmv|hilbert-dueldisk|1479
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Jirachi|item
+|poke|p1|Latios, M|item
+|poke|p1|Keldeo|item
+|poke|p2|Politoed, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Keldeo-Resolute|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hgfjhds)
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|75/100
+|move|p1a: Rotom|Will-O-Wisp||[still]
+|-fail|p1a: Rotom
+|
+|-heal|p2a: Tentacruel|82/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Tentacruel|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|76/100
+|move|p1a: Rotom|Volt Switch|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|
+|switch|p1a: Latios|Latios, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Latios|Trick|p2a: Ferrothorn
+|-activate|p1a: Latios|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Landorus
+|-sidestart|p1: hgfjhds|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Landorus|Stealth Rock|p2a: Politoed
+|-sidestart|p2: yuzmv|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Rotom|Rotom-Wash|76/100
+|-damage|p1a: Rotom|63/100|[from] Stealth Rock
+|move|p2a: Politoed|Surf|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|37/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Pain Split|p2a: Ferrothorn
+|-sethp|p2a: Ferrothorn|63/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|74/100|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn|[miss]
+|-miss|p1a: Rotom|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: hgfjhds|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: hgfjhds|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: hgfjhds|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, M|94/100
+|-damage|p2a: Tentacruel|81/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|87/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|93/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|68/100
+|move|p1a: Rotom|Will-O-Wisp||[still]
+|-fail|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|74/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|80/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Rotom
+|-damage|p1a: Rotom|97/100
+|-sideend|p2: yuzmv|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Rotom|Volt Switch|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|
+|switch|p1a: Latios|Latios, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|86/100|[from] ability: Rain Dish
+|-heal|p1a: Latios|94/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|93/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Latios|Psyshock|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|99/100|[from] ability: Rain Dish
+|-heal|p1a: Latios|99/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|move|p1a: Latios|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Rotom|Rotom-Wash|97/100
+|-damage|p1a: Rotom|84/100|[from] Stealth Rock
+|move|p2a: Politoed|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Thundurus
+|-immune|p2a: Thundurus|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|83/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Thundurus|Thunder|p1a: Rotom
+|-damage|p1a: Rotom|2/100
+|-status|p1a: Rotom|par
+|move|p1a: Rotom|Hydro Pump|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|8/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|21
+|
+|move|p2a: Scizor|U-turn|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Politoed|Politoed, M|75/100
+|move|p1a: Latios|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Politoed|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|39/100
+|move|p1a: Latios|Psyshock|p2a: Politoed
+|-damage|p2a: Politoed|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|45/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Latios|Surf|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|51/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Latios|Psyshock|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|57/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Latios|Surf|p2a: Scizor
+|-damage|p2a: Scizor|8/100
+|move|p2a: Scizor|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-damage|p1a: Tyranitar|63/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|27
+|
+|switch|p2a: Politoed|Politoed, M|3/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Tyranitar|Superpower|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|71/100
+|turn|28
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|75/100|[from] Spikes
+|-damage|p1a: Keldeo|69/100|[from] Stealth Rock
+|move|p2a: Keldeo|Surf|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|9/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Keldeo|Secret Sword|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|75/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|81/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|53/100
+|move|p2a: Tentacruel|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|59/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|63/100
+|-damage|p1a: Tyranitar|51/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|26/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|31
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Tyranitar|Crunch|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|59/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|move|p2a: Tentacruel|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|59/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|75/100|[from] Spikes
+|-damage|p1a: Jirachi|69/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Tentacruel|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|55/100
+|move|p1a: Jirachi|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|32/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|38/100|[from] item: Black Sludge
+|-heal|p1a: Jirachi|61/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Tentacruel|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|47/100
+|move|p1a: Jirachi|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|11/100
+|-status|p2a: Tentacruel|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|5/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|53/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|11/100 par|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Tentacruel|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|5/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|59/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|11/100 par|[from] item: Black Sludge
+|upkeep
+|turn|36
+|
+|move|p1a: Jirachi|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|8/100
+|turn|37
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|77/100
+|move|p1a: Jirachi|Body Slam|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|71/100
+|turn|38
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|65/100|[from] Sandstorm
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|59/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|turn|40
+|
+|move|p2a: Keldeo|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|yuzmv
+|c|☆yuzmv|ez
+|raw|hgfjhds's rating: 1513 &rarr; <strong>1491</strong><br />(-22 for losing)
+|raw|yuzmv's rating: 1479 &rarr; <strong>1501</strong><br />(+22 for winning)
+|c|☆yuzmv|fucking asshole
+|l|☆yuzmv

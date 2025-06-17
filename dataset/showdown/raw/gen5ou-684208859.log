@@ -1,0 +1,643 @@
+|j|☆CroCoeur
+|j|☆PSL LifeStyle
+|player|p1|CroCoeur|161
+|player|p2|PSL LifeStyle|70
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, F|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Thundurus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Hydreigon|Focus Blast|p1a: Politoed|[miss]
+|-miss|p2a: Hydreigon|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Vaporeon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: CroCoeur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Vaporeon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|75/100
+|move|p2a: Ferrothorn|Spikes|p1a: Vaporeon
+|-sidestart|p1: CroCoeur|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Vaporeon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|move|p2a: Ferrothorn|Spikes|p1a: Vaporeon
+|-sidestart|p1: CroCoeur|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Vaporeon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|57/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Power Whip|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|64/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|51/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|78/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: CroCoeur|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|84/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|45/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: PSL LifeStyle|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|64/100
+|-damage|p1a: Vaporeon|51/100|[from] Stealth Rock
+|-damage|p1a: Vaporeon|27/100|[from] Spikes
+|turn|10
+|
+|move|p2a: Hydreigon|Focus Blast|p1a: Vaporeon|[miss]
+|-miss|p2a: Hydreigon|p1a: Vaporeon
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|11
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|52/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Vaporeon
+|-damage|p1a: Vaporeon|97/100
+|-sideend|p2: PSL LifeStyle|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Vaporeon|Scald|p2a: Starmie
+|-resisted|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|c|☆PSL LifeStyle|lol
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|13
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|-damage|p1a: Celebi|63/100|[from] Spikes
+|move|p2a: Thundurus|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|44/100
+|-status|p1a: Celebi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|45/100 brn
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|39/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Hydreigon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Hydreigon|perish3
+|-start|p1a: Celebi|perish3
+|upkeep
+|turn|16
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Dark Pulse|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Hydreigon|perish2
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|-damage|p1a: Jirachi|69/100|[from] Spikes
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|39/100 brn
+|move|p1a: Jirachi|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|23/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|PSL LifeStyle has 120 seconds left.
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Thundurus|Thunderbolt|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Thundurus
+|-damage|p2a: Thundurus|61/100
+|-start|p2a: Thundurus|confusion
+|-activate|p2a: Thundurus|confusion
+|-damage|p2a: Thundurus|49/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p2a: Thundurus|55/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|44/100
+|-end|p2a: Thundurus|confusion
+|move|p2a: Thundurus|Thunderbolt|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|-heal|p2a: Thundurus|61/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Thundurus
+|-damage|p2a: Thundurus|22/100
+|move|p2a: Thundurus|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|25/100|[from] item: Leftovers
+|-heal|p2a: Thundurus|28/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Jirachi|Water Pulse|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|82/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|31/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|-damage|p1a: Vaporeon|63/100|[from] Spikes
+|turn|25
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|23/100 brn
+|move|p1a: Vaporeon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|7/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|13/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|1/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Vaporeon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|28/100
+|turn|27
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|-damage|p1a: Celebi|63/100|[from] Spikes
+|move|p2a: Thundurus|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|34/100|[from] item: Leftovers
+|-heal|p1a: Celebi|50/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Celebi|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|56/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|76/100|[from] Spikes
+|-damage|p1a: Politoed|63/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Politoed|Ice Beam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|42/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|75/100
+|-damage|p1a: Vaporeon|51/100|[from] Spikes
+|-damage|p1a: Vaporeon|38/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|1/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|32
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|63/100
+|cant|p1a: Vaporeon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|69/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|34/100
+|cant|p1a: Vaporeon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆CroCoeur|lol
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|1/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|35
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|66/100
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|34/100
+|move|p1a: Vaporeon|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|16/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|5/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|38
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|63/100
+|cant|p1a: Vaporeon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|69/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|34/100
+|cant|p1a: Vaporeon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|5/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|41
+|c|☆CroCoeur|What's the flinch rate again?
+|inactive|CroCoeur has 120 seconds left.
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|63/100
+|move|p1a: Vaporeon|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|34/100
+|turn|42
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|9/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|39/100|[from] item: Leftovers
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|43
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|40/100
+|-status|p1a: Vaporeon|par
+|move|p1a: Vaporeon|Scald|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|par|[msg]
+|-heal|p1a: Vaporeon|46/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|82/100
+|turn|44
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|22/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|45
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|76/100
+|move|p1a: Vaporeon|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|55/100
+|-status|p2a: Keldeo|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|82/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|43/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|58/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|-damage|p2a: Keldeo|30/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|76/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|-damage|p2a: Keldeo|18/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|74/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|-damage|p2a: Keldeo|5/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|77/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|-damage|p2a: Keldeo|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Keldeo
+|-message|PSL LifeStyle forfeited.
+|
+|win|CroCoeur
+|l|☆PSL LifeStyle
+|raw|CroCoeur's rating: 1380 &rarr; <strong>1404</strong><br />(+24 for winning)
+|raw|PSL LifeStyle's rating: 1441 &rarr; <strong>1418</strong><br />(-23 for losing)

@@ -1,0 +1,240 @@
+|j|☆lark134
+|j|☆yigo
+|player|p1|lark134|170|1373
+|player|p2|yigo|hilda|1295
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Toxicroak, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Terrakion|item
+|poke|p1|Donphan, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Thundurus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|76/100
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|75/100
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Toxicroak|Drain Punch|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-heal|p1a: Toxicroak|89/100|[from] drain|[of] p2a: Jirachi
+|-damage|p1a: Toxicroak|79/100|[from] item: Life Orb
+|
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Jirachi|Thunder|p1a: Toxicroak|[miss]
+|-miss|p2a: Jirachi|p1a: Toxicroak
+|move|p1a: Toxicroak|Drain Punch|p2a: Jirachi
+|-damage|p2a: Jirachi|43/100
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Jirachi
+|-damage|p1a: Toxicroak|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Jirachi|49/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Jirachi|Icy Wind|p1a: Toxicroak|[miss]
+|-miss|p2a: Jirachi|p1a: Toxicroak
+|move|p1a: Toxicroak|Drain Punch|p2a: Jirachi
+|-damage|p2a: Jirachi|6/100
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Jirachi
+|-damage|p1a: Toxicroak|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Jirachi|12/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Toxicroak|81/100|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|6
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Dragonite|Substitute|p2a: Dragonite
+|-start|p2a: Dragonite|Substitute
+|-damage|p2a: Dragonite|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Dragonite|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|88/100|[from] item: Leftovers
+|-start|p2a: Dragonite|perish3
+|-start|p1a: Politoed|perish3
+|upkeep
+|turn|8
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|94/100|[from] item: Leftovers
+|-start|p2a: Dragonite|perish2
+|-start|p1a: Politoed|perish2
+|upkeep
+|turn|9
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Dragonite|Dragon Claw|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|-start|p2a: Dragonite|perish1
+|upkeep
+|turn|10
+|
+|move|p2a: Dragonite|Superpower|p1a: Jirachi
+|-damage|p1a: Jirachi|1/100
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|def|1
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-fail|p1a: Jirachi|move: Substitute|[weak]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|8/100|[from] item: Leftovers
+|-start|p2a: Dragonite|perish0
+|upkeep
+|faint|p2a: Dragonite
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|11
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Thundurus|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|turn|13
+|
+|move|p1a: Donphan|Ice Shard|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-crit|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|move|p2a: Thundurus|Hidden Power|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|94/100|[from] item: Leftovers
+|-heal|p1a: Donphan|33/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Donphan|Ice Shard|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|50/100
+|move|p2a: Thundurus|Hidden Power|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|15
+|
+|switch|p1a: Toxicroak|Toxicroak, F|81/100
+|move|p2a: Thundurus|Thunder|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|16
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Thundurus|Thunder|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|68/100|[from] item: Leftovers
+|upkeep
+|-message|lark134 forfeited.
+|
+|win|yigo
+|l|☆lark134
+|raw|lark134's rating: 1373 &rarr; <strong>1349</strong><br />(-24 for losing)
+|raw|yigo's rating: 1295 &rarr; <strong>1325</strong><br />(+30 for winning)

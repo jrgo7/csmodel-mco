@@ -1,0 +1,308 @@
+|j|☆refsunpersons
+|j|☆CroCoeur
+|player|p1|refsunpersons|123
+|player|p2|CroCoeur|161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Haxorus, F|item
+|poke|p1|Porygon2|item
+|poke|p1|Donphan, M|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|
+|start
+|switch|p1a: SNIPER NG BETLUG|Jirachi|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: SNIPER NG BETLUG|Calm Mind|p1a: SNIPER NG BETLUG
+|-boost|p1a: SNIPER NG BETLUG|spa|1
+|-boost|p1a: SNIPER NG BETLUG|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: SNIPER NG BETLUG|Thunder|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|82/100
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: SNIPER NG BETLUG|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|-start|p1a: SNIPER NG BETLUG|perish3
+|-start|p2a: Celebi|perish3
+|upkeep
+|turn|3
+|
+|switch|p1a: BAYAG KILLER|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: BAYAG KILLER
+|-item|p1a: BAYAG KILLER|Air Balloon
+|move|p2a: Celebi|Psychic|p1a: BAYAG KILLER
+|-damage|p1a: BAYAG KILLER|63/100
+|-enditem|p1a: BAYAG KILLER|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Celebi|94/100|[from] item: Leftovers
+|-start|p2a: Celebi|perish2
+|upkeep
+|turn|4
+|
+|switch|p1a: DOPPO OROCHI|Haxorus, F, shiny|100/100
+|-ability|p1a: DOPPO OROCHI|Mold Breaker
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: DOPPO OROCHI|Swords Dance|p1a: DOPPO OROCHI
+|-boost|p1a: DOPPO OROCHI|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: DOPPO OROCHI|Substitute|p1a: DOPPO OROCHI
+|-start|p1a: DOPPO OROCHI|Substitute
+|-damage|p1a: DOPPO OROCHI|75/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: DOPPO OROCHI
+|-sidestart|p1: refsunpersons|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: DOPPO OROCHI|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: DOPPO OROCHI|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: DOPPO OROCHI|atk|1
+|-unboost|p1a: DOPPO OROCHI|def|1
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Celebi|Celebi|94/100
+|turn|8
+|
+|move|p1a: DOPPO OROCHI|Swords Dance|p1a: DOPPO OROCHI
+|-boost|p1a: DOPPO OROCHI|atk|2
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: DOPPO OROCHI|Outrage|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|10
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|move|p1a: DOPPO OROCHI|Outrage|p2a: Jirachi|[from]lockedmove
+|-resisted|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Jirachi|Thunder|p1a: DOPPO OROCHI
+|-resisted|p1a: DOPPO OROCHI
+|-activate|p1a: DOPPO OROCHI|Substitute|[damage]
+|move|p1a: DOPPO OROCHI|Outrage|p2a: Jirachi|[from]lockedmove
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|19/100
+|-start|p1a: DOPPO OROCHI|confusion|[fatigue]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|25/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Jirachi|Thunder|p1a: DOPPO OROCHI
+|-resisted|p1a: DOPPO OROCHI
+|-end|p1a: DOPPO OROCHI|Substitute
+|-activate|p1a: DOPPO OROCHI|confusion
+|-damage|p1a: DOPPO OROCHI|8/100|[from] confusion
+|-enditem|p1a: DOPPO OROCHI|Salac Berry|[eat]
+|-boost|p1a: DOPPO OROCHI|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|31/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|-activate|p1a: DOPPO OROCHI|confusion
+|move|p1a: DOPPO OROCHI|Outrage|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|14
+|
+|move|p2a: Latios|Surf|p1a: DOPPO OROCHI
+|-resisted|p1a: DOPPO OROCHI
+|-damage|p1a: DOPPO OROCHI|0 fnt
+|faint|p1a: DOPPO OROCHI
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| NateOrNathan
+|l| NateOrNathan
+|
+|switch|p1a: BOBBY PACQUIAO|Porygon2|100/100
+|-damage|p1a: BOBBY PACQUIAO|88/100|[from] Stealth Rock
+|-ability|p1a: BOBBY PACQUIAO|Levitate|[from] ability: Trace|[of] p2a: Latios
+|turn|15
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|switch|p1a: BAYAG KILLER|Ninetales, M, shiny|63/100
+|-damage|p1a: BAYAG KILLER|38/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: BAYAG KILLER
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: PAMBANSANGBLOWBLOW|Donphan, M|100/100
+|-damage|p1a: PAMBANSANGBLOWBLOW|94/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: PAMBANSANGBLOWBLOW
+|-supereffective|p1a: PAMBANSANGBLOWBLOW
+|-damage|p1a: PAMBANSANGBLOWBLOW|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: PAMBANSANGBLOWBLOW|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Vaporeon|Scald|p1a: PAMBANSANGBLOWBLOW
+|-supereffective|p1a: PAMBANSANGBLOWBLOW
+|-damage|p1a: PAMBANSANGBLOWBLOW|23/100
+|move|p1a: PAMBANSANGBLOWBLOW|Rapid Spin|p2a: Vaporeon
+|-damage|p2a: Vaporeon|94/100
+|-sideend|p1: refsunpersons|Stealth Rock|[from] move: Rapid Spin|[of] p1a: PAMBANSANGBLOWBLOW
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|99/100|[from] item: Leftovers
+|-heal|p1a: PAMBANSANGBLOWBLOW|30/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Vaporeon|Scald|p1a: PAMBANSANGBLOWBLOW
+|-supereffective|p1a: PAMBANSANGBLOWBLOW
+|-crit|p1a: PAMBANSANGBLOWBLOW
+|-damage|p1a: PAMBANSANGBLOWBLOW|0 fnt
+|faint|p1a: PAMBANSANGBLOWBLOW
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: SNIPER NG BETLUG|Jirachi|100/100
+|turn|19
+|
+|move|p1a: SNIPER NG BETLUG|Thunder|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|49/100
+|-status|p2a: Vaporeon|par
+|cant|p2a: Vaporeon|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: SNIPER NG BETLUG|Calm Mind|p1a: SNIPER NG BETLUG
+|-boost|p1a: SNIPER NG BETLUG|spa|1
+|-boost|p1a: SNIPER NG BETLUG|spd|1
+|cant|p2a: Vaporeon|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: SNIPER NG BETLUG|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|22
+|
+|move|p2a: Latios|Surf|p1a: SNIPER NG BETLUG
+|-damage|p1a: SNIPER NG BETLUG|69/100
+|move|p1a: SNIPER NG BETLUG|Thunder|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|72/100
+|-status|p2a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: BAYAG KILLER|Ninetales, M, shiny|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: BAYAG KILLER
+|switch|p2a: Vaporeon|Vaporeon, F|61/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|-message|CroCoeur forfeited.
+|
+|win|refsunpersons
+|l|☆CroCoeur
+|raw|refsunpersons's rating: 1443 &rarr; <strong>1464</strong><br />(+21 for winning)
+|raw|CroCoeur's rating: 1463 &rarr; <strong>1442</strong><br />(-21 for losing)

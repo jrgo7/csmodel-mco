@@ -1,0 +1,166 @@
+|j|☆AWProva
+|j|☆testbwou
+|player|p1|AWProva|blue|1377
+|player|p2|testbwou|101|1407
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Mew|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Terrakion|item
+|poke|p1|Latios, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Rotom-Wash|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AWProva)
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|-ability|p1a: Aerodactyl|Pressure
+|turn|1
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-enditem|p1a: Aerodactyl|Focus Sash
+|-damage|p1a: Aerodactyl|1/100
+|move|p1a: Aerodactyl|Stealth Rock|p2a: Scizor
+|-sidestart|p2: testbwou|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|71/100
+|-status|p2a: Scizor|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|
+|-damage|p2a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Rotom|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|26/100
+|
+|-heal|p2a: Rotom|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Volcarona|75/100|[from] drain|[of] p2a: Rotom
+|-damage|p1a: Volcarona|65/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|88/100 brn
+|-damage|p2a: Scizor|76/100 brn|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|49/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-damage|p1a: Volcarona|39/100|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|7
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Volcarona|29/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|23/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Volcarona|13/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|7/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-heal|p1a: Volcarona|61/100|[from] drain|[of] p2a: Jellicent
+|-damage|p1a: Volcarona|51/100|[from] item: Life Orb
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|45/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|10
+|c|☆testbwou|gg
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-heal|p1a: Volcarona|85/100|[from] drain|[of] p2a: Alakazam
+|-damage|p1a: Volcarona|75/100|[from] item: Life Orb
+|faint|p2a: Alakazam
+|
+|win|AWProva
+|c|☆AWProva|Gg
+|raw|AWProva's rating: 1397 &rarr; <strong>1418</strong><br />(+21 for winning)
+|raw|testbwou's rating: 1407 &rarr; <strong>1386</strong><br />(-21 for losing)

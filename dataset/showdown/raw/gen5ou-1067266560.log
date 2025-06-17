@@ -1,0 +1,184 @@
+|j|☆GrinchsBankAccount
+|j|☆LOP Faus
+|player|p1|GrinchsBankAccount|clemont|1344
+|player|p2|LOP Faus|lucas|1337
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Articuno|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Swampert, M|item
+|poke|p1|Miltank, F|item
+|poke|p1|Alakazam, F|item
+|poke|p2|Salamence, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Donphan, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Celebi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GrinchsBankAccount)
+|j| Kerthorok
+|
+|start
+|switch|p1a: Articuno|Articuno|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|1
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Articuno|Ice Beam|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|56/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Miltank|Miltank, F|100/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Miltank
+|-sidestart|p1: GrinchsBankAccount|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Miltank|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: LOP Faus|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Miltank|Seismic Toss|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|77/100
+|move|p2a: Mandibuzz|Toxic|p1a: Miltank
+|-status|p1a: Miltank|tox
+|
+|-heal|p2a: Mandibuzz|83/100|[from] item: Leftovers
+|-damage|p1a: Miltank|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Miltank|Heal Bell|p1a: Miltank
+|-activate|p1a: Miltank|move: Heal Bell
+|-curestatus|p1a: Miltank|tox|[msg]
+|move|p2a: Mandibuzz|U-turn|p1a: Miltank
+|-damage|p1a: Miltank|88/100
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100|[from]move: U-turn
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Miltank|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Tentacruel
+|-sidestart|p1: GrinchsBankAccount|Spikes
+|
+|-heal|p1a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|87/100
+|-damage|p1a: Tentacruel|78/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-sideend|p1: GrinchsBankAccount|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: GrinchsBankAccount|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Skarmory|Brave Bird|p1a: Tentacruel
+|-damage|p1a: Tentacruel|34/100
+|-damage|p2a: Skarmory|72/100|[from] Recoil
+|
+|-heal|p1a: Tentacruel|40/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Tentacruel|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|39/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|89/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: Tentacruel|47/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Tentacruel|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: GrinchsBankAccount|move: Stealth Rock
+|
+|-heal|p1a: Tentacruel|53/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Celebi
+|-damage|p2a: Celebi|87/100
+|-sideend|p1: GrinchsBankAccount|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-heal|p2a: Celebi|93/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|59/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|
+|-heal|p2a: Celebi|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Articuno|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|25/100
+|move|p2a: Celebi|Calm Mind|p2a: Celebi
+|-boost|p2a: Celebi|spa|1
+|-boost|p2a: Celebi|spd|1
+|
+|-heal|p2a: Celebi|31/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|c| Kerthorok|no switch ins for ice rip
+|
+|switch|p2a: Magnezone|Magnezone|56/100
+|-damage|p2a: Magnezone|50/100|[from] Stealth Rock
+|move|p1a: Articuno|Ice Beam|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|7/100
+|-status|p2a: Magnezone|frz
+|
+|upkeep
+|turn|15
+|-message|LOP Faus forfeited.
+|
+|win|GrinchsBankAccount
+|l|☆LOP Faus
+|raw|GrinchsBankAccount's rating: 1344 &rarr; <strong>1364</strong><br />(+20 for winning)
+|raw|LOP Faus's rating: 1337 &rarr; <strong>1318</strong><br />(-19 for losing)

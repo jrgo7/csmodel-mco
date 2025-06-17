@@ -1,0 +1,655 @@
+|j|☆Chomp29
+|j|☆Nalorium
+|t:|1597452530
+|player|p1|Chomp29|101|1459
+|player|p2|Nalorium|mrfuji-gen3|1439
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tornadus, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Politoed, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Tornadus, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|t:|1597452553
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|1
+|
+|t:|1597452557
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Ferrothorn|Power Whip|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1597452580
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1597452621
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi|[miss]
+|-miss|p1a: Tornadus|p2a: Jirachi
+|
+|upkeep
+|turn|4
+|
+|t:|1597452638
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|71/100
+|-start|p2a: Jirachi|confusion
+|-activate|p2a: Jirachi|confusion
+|-damage|p2a: Jirachi|63/100|[from] confusion
+|
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1597452647
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-end|p2a: Jirachi|confusion
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1597452651
+|move|p1a: Thundurus|Thunder|p2a: Jirachi
+|-damage|p2a: Jirachi|17/100
+|-status|p2a: Jirachi|par
+|-damage|p1a: Thundurus|91/100|[from] item: Life Orb
+|move|p2a: Jirachi|Body Slam|p1a: Thundurus
+|-damage|p1a: Thundurus|65/100
+|-status|p1a: Thundurus|par
+|
+|-heal|p2a: Jirachi|67/100 par|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1597452663
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|cant|p1a: Thundurus|par
+|
+|upkeep
+|turn|8
+|
+|t:|1597452669
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Garchomp|Dragon Claw|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|-damage|p2a: Garchomp|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1597452673
+|move|p2a: Garchomp|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Chomp29|move: Stealth Rock
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Nalorium|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1597452677
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Garchomp|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1597452682
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|57/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1597452689
+|move|p2a: Tentacruel|Rapid Spin|p1a: Politoed
+|-damage|p1a: Politoed|55/100
+|-sideend|p2: Nalorium|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Politoed|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|91/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|97/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|61/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1597452694
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Politoed
+|-damage|p1a: Politoed|40/100
+|move|p1a: Politoed|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|81/100
+|-status|p2a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|87/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|93/100 brn|[from] item: Black Sludge
+|-heal|p1a: Politoed|46/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|81/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1597452701
+|switch|p2a: Breloom|Breloom, F|100/100 tox
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1597452708
+|move|p1a: Tentacruel|Rapid Spin|p2a: Breloom
+|-damage|p2a: Breloom|97/100 tox
+|-sideend|p1: Chomp29|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Breloom|Facade|p1a: Tentacruel
+|-damage|p1a: Tentacruel|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|63/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|69/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1597452716
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Breloom|Facade|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|75/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|81/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|j| IIIFlareIII
+|
+|t:|1597452728
+|switch|p1a: Politoed|Politoed, F|46/100
+|move|p2a: Breloom|Facade|p1a: Politoed
+|-damage|p1a: Politoed|13/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|20/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1597452734
+|move|p2a: Breloom|Facade|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1597452737
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|19
+|
+|t:|1597452740
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Tornadus|Hurricane|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1597452743
+|switch|p2a: Jirachi|Jirachi|73/100 par
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|47/100 par
+|-start|p2a: Jirachi|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1597452746
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|24/100 par
+|-activate|p2a: Jirachi|confusion
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1597452759
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|1/100 par
+|-activate|p2a: Jirachi|confusion
+|-damage|p2a: Jirachi|0 fnt|[from] confusion
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Nalorium|A FUCKING JOKE
+|
+|t:|1597452772
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|23
+|
+|t:|1597452776
+|switch|p1a: Ferrothorn|Ferrothorn, F|85/100
+|move|p2a: Politoed|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|66/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1597452783
+|switch|p2a: Tentacruel|Tentacruel, F|81/100 brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Nalorium|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|87/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|93/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|80/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|59/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1597452786
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|59/100 brn
+|-damage|p2a: Tentacruel|68/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Nalorium|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ferrothorn|Power Whip|p2a: Tentacruel
+|-damage|p2a: Tentacruel|46/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|52/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|58/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|45/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|53/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1597452790
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100 brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Nalorium|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|51/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|58/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|45/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|35/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1597452794
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|35/100 brn
+|-damage|p2a: Tentacruel|33/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Nalorium|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|39/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|45/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|32/100 brn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|54/100 brn|[silent]
+|-damage|p2a: Tentacruel|20/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|41/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1597452797
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100 brn
+|-damage|p2a: Tentacruel|8/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-end|p2a: Tentacruel|Leech Seed|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Nalorium|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|14/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|20/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|7/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|35/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1597452807
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|35/100 brn
+|-damage|p2a: Tentacruel|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Tentacruel
+|move|p1a: Ferrothorn|Spikes|p2: Tentacruel
+|-sidestart|p2: Nalorium|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|28/100 brn|[from] brn
+|upkeep
+|
+|t:|1597452813
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1597452816
+|move|p2a: Tornadus|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Tornadus|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tornadus
+|-start|p2a: Tornadus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tornadus|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Tornadus|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|45/100 brn|[silent]
+|-damage|p1a: Ferrothorn|33/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1597452820
+|move|p2a: Tornadus|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tornadus|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1597452832
+|switch|p1a: Thundurus|Thundurus-Therian, M|65/100 par
+|turn|32
+|
+|t:|1597452837
+|move|p2a: Tornadus|U-turn|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|55/100 par
+|
+|t:|1597452839
+|switch|p2a: Breloom|Breloom, F|100/100 tox|[from]move: U-turn
+|-damage|p2a: Breloom|94/100 tox|[from] Stealth Rock
+|-damage|p2a: Breloom|82/100 tox|[from] Spikes
+|move|p1a: Thundurus|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-damage|p1a: Thundurus|45/100 par|[from] item: Life Orb
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1597452843
+|switch|p2a: Garchomp|Garchomp, M|88/100
+|-damage|p2a: Garchomp|76/100|[from] Spikes
+|-damage|p2a: Garchomp|70/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1597452849
+|switch|p1a: Tentacruel|Tentacruel, F|81/100
+|move|p2a: Garchomp|Dragon Claw|p1a: Tentacruel
+|-damage|p1a: Tentacruel|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|43/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|49/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|t:|1597452851
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Garchomp|Dragon Claw|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|55/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|61/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|t:|1597452857
+|move|p2a: Garchomp|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: Chomp29|move: Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|68/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|74/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|
+|t:|1597452861
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Garchomp|Earthquake|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|80/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|86/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|t:|1597452865
+|move|p2a: Garchomp|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1597452879
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1597452888
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Spikes
+|-damage|p2a: Politoed|76/100|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|9/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|15/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|c|☆Nalorium|A FUCKING JOKE
+|c|☆Nalorium|CAN YOU AT LEAST SAY SORRY
+|
+|t:|1597452901
+|switch|p1a: Thundurus|Thundurus-Therian, M|45/100 par
+|-damage|p1a: Thundurus|20/100 par|[from] Stealth Rock
+|move|p2a: Politoed|Protect||[still]
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|21/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1597452905
+|move|p2a: Politoed|Scald|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1597452907
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|41
+|
+|t:|1597452912
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Chomp29|move: Tailwind
+|move|p2a: Politoed|Scald|p1a: Tornadus
+|-damage|p1a: Tornadus|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|33/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1597452917
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|move|p2a: Politoed|Protect||[still]
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|39/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1597452922
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latios|Surf|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|45/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1597452929
+|move|p1a: Latios|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|12/100
+|move|p2a: Politoed|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|33/100
+|-status|p1a: Latios|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|18/100|[from] item: Leftovers
+|-damage|p1a: Latios|21/100 brn|[from] brn
+|-sideend|p1: Chomp29|move: Tailwind
+|upkeep
+|turn|45
+|
+|t:|1597452932
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latios|Surf|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|24/100|[from] item: Leftovers
+|-damage|p1a: Latios|8/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1597452935
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latios|Surf|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|30/100|[from] item: Leftovers
+|-damage|p1a: Latios|0 fnt|[from] brn
+|faint|p1a: Latios
+|upkeep
+|
+|t:|1597452937
+|switch|p1a: Tornadus|Tornadus, M|21/100
+|-damage|p1a: Tornadus|0 fnt|[from] Stealth Rock
+|faint|p1a: Tornadus
+|
+|win|Nalorium
+|raw|Chomp29's rating: 1460 &rarr; <strong>1437</strong><br />(-23 for losing)
+|raw|Nalorium's rating: 1406 &rarr; <strong>1429</strong><br />(+23 for winning)
+|l|☆Chomp29
+|l|☆Nalorium

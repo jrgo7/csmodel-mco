@@ -1,0 +1,334 @@
+|join|Pythagorean Python
+|join|meekers
+|player|p1|Pythagorean Python|15
+|player|p2|meekers|32
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Dusclops, F
+|poke|p1|Riolu, F
+|poke|p1|Forretress, M
+|poke|p1|Gengar, M
+|poke|p1|Aerodactyl, F
+|poke|p1|Skarmory, M
+|poke|p2|Politoed, M, shiny
+|poke|p2|Ferrothorn, F
+|poke|p2|Rotom-Wash
+|poke|p2|Mamoswine, F
+|poke|p2|Landorus-Therian, M
+|poke|p2|Jirachi
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|join|chico
+|
+|start
+|switch|p1a: Forretress|Forretress, M|354/354
+|switch|p2a: Politoed|Politoed, M, shiny|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|leave|chico
+|
+|move|p2a: Politoed|Scald|p1a: Forretress
+|-crit|p1a: Forretress
+|-activate|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/354
+|move|p1a: Forretress|Stealth Rock|p2a: Politoed
+|-sidestart|p2: meekers|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|23/354|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Forretress|Toxic Spikes|p2a: Politoed
+|-sidestart|p2: meekers|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|45/354|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Politoed|Scald|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Skarmory|Skarmory, M|334/334
+|turn|4
+|
+|move|p1a: Skarmory|Spikes|p2a: Politoed
+|-sidestart|p2: meekers|Spikes
+|move|p2a: Politoed|Scald|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-activate|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1/334
+|-status|p1a: Skarmory|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|21/334 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|0 fnt|[from] brn
+|faint|p1a: Skarmory
+|
+|switch|p1a: Dusclops|Dusclops, F|222/222
+|-ability|p1a: Dusclops|Pressure
+|turn|5
+|
+|move|p2a: Politoed|Toxic|p1a: Dusclops|[miss]
+|-miss|p2a: Politoed|p1a: Dusclops
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|282/322 brn|[from] brn
+|turn|6
+|
+|move|p2a: Politoed|Scald|p1a: Dusclops
+|-damage|p1a: Dusclops|156/222
+|move|p1a: Dusclops|Taunt|p2a: Politoed
+|-start|p2a: Politoed|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|302/322 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|262/322 brn|[from] brn
+|turn|7
+|
+|move|p2a: Politoed|Scald|p1a: Dusclops
+|-damage|p1a: Dusclops|86/222
+|-status|p1a: Dusclops|brn
+|move|p1a: Dusclops|Confuse Ray|p2a: Politoed
+|-start|p2a: Politoed|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|282/322 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|242/322 brn|[from] brn
+|-damage|p1a: Dusclops|59/222 brn|[from] brn
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|290/290
+|-damage|p2a: Ferrothorn|272/290|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|236/290|[from] Spikes
+|move|p1a: Dusclops|Pain Split|p2a: Ferrothorn
+|-sethp|p2a: Ferrothorn|147/290|p1a: Dusclops|147/222 brn|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|165/290|[from] item: Leftovers
+|-damage|p1a: Dusclops|120/222 brn|[from] brn
+|turn|9
+|
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dusclops
+|-start|p1a: Dusclops|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|183/290 brn|[from] item: Leftovers
+|-damage|p1a: Dusclops|93/222 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|210/290 brn|[silent]
+|-damage|p1a: Dusclops|66/222 brn|[from] brn
+|-damage|p2a: Ferrothorn|174/290 brn|[from] brn
+|turn|10
+|
+|move|p1a: Dusclops|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|192/290 brn|[from] item: Leftovers
+|-damage|p1a: Dusclops|39/222 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|219/290 brn|[silent]
+|-damage|p1a: Dusclops|12/222 brn|[from] brn
+|-damage|p2a: Ferrothorn|183/290 brn|[from] brn
+|turn|11
+|
+|switch|p2a: Politoed|Politoed, M, shiny|242/322 brn
+|-damage|p2a: Politoed|202/322 brn|[from] Stealth Rock
+|-damage|p2a: Politoed|162/322 brn|[from] Spikes
+|move|p1a: Dusclops|Pain Split|p2a: Politoed
+|-sethp|p2a: Politoed|87/322 brn|p1a: Dusclops|87/222 brn|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|107/322 brn|[from] item: Leftovers
+|-damage|p1a: Dusclops|60/222 brn|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|134/322 brn|[silent]
+|-damage|p2a: Politoed|94/322 brn|[from] brn
+|-damage|p1a: Dusclops|33/222 brn|[from] brn
+|turn|12
+|
+|move|p2a: Politoed|Scald|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|114/322 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|74/322 brn|[from] brn
+|
+|switch|p1a: Gengar|Gengar, M|262/262
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|183/290 brn
+|-damage|p2a: Ferrothorn|165/290 brn|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|129/290 brn|[from] Spikes
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|197/262
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|213/262|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|147/290 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|111/290 brn|[from] brn
+|turn|14
+|
+|move|p1a: Gengar|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Gengar|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Gengar
+|-resisted|p1a: Gengar
+|-activate|p1a: Gengar|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|229/262|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|129/290 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|93/290 brn|[from] brn
+|turn|15
+|
+|move|p1a: Gengar|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|245/262|[from] item: Black Sludge
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|241/241
+|-damage|p2a: Rotom-Wash|211/241|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|111/241
+|-unboost|p2a: Rotom-Wash|spd|1
+|move|p2a: Rotom-Wash|Thunder|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|261/262|[from] item: Black Sludge
+|turn|17
+|
+|switch|p2a: Jirachi|Jirachi|341/341
+|-damage|p2a: Jirachi|320/341|[from] Stealth Rock
+|-damage|p2a: Jirachi|278/341|[from] Spikes
+|move|p1a: Gengar|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|146/341
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|262/262|[from] item: Black Sludge
+|turn|18
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|2/341
+|move|p2a: Jirachi|Zen Headbutt|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Riolu|Riolu, F|284/284
+|turn|19
+|
+|move|p1a: Riolu|Bullet Punch|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, M, shiny|74/322 brn
+|-damage|p2a: Politoed|34/322 brn|[from] Stealth Rock
+|-damage|p2a: Politoed|0 fnt|[from] Spikes
+|faint|p2a: Politoed
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|111/241
+|-damage|p2a: Rotom-Wash|81/241|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Rotom-Wash|Trick|p1a: Riolu
+|-activate|p2a: Rotom-Wash|move: Trick|[of] p1a: Riolu
+|-item|p1a: Riolu|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom-Wash|Focus Sash|[from] move: Trick
+|move|p1a: Riolu|Roar|p2a: Rotom-Wash
+|drag|p2a: Mamoswine|Mamoswine, F|362/362
+|-status|p2a: Mamoswine|psn
+|-damage|p2a: Mamoswine|317/362 psn|[from] Stealth Rock
+|-damage|p2a: Mamoswine|272/362 psn|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Mamoswine|227/362 psn|[from] psn
+|turn|21
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Riolu
+|-damage|p1a: Riolu|88/284
+|move|p1a: Riolu|Roar|p2a: Mamoswine
+|drag|p2a: Rotom-Wash|Rotom-Wash|81/241
+|-damage|p2a: Rotom-Wash|51/241|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|move|p2a: Rotom-Wash|Thunder|p1a: Riolu
+|-damage|p1a: Riolu|0 fnt
+|faint|p1a: Riolu
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Aerodactyl|Aerodactyl, F|302/302
+|-ability|p1a: Aerodactyl|Pressure
+|turn|23
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|0 fnt
+|-damage|p1a: Aerodactyl|272/302|[from] item: Life Orb
+|faint|p2a: Rotom-Wash
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|320/320
+|-damage|p2a: Landorus-Therian|280/320|[from] Stealth Rock
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Aerodactyl
+|-unboost|p1a: Aerodactyl|atk|1
+|turn|24
+|
+|move|p1a: Aerodactyl|Ice Fang|p2a: Landorus-Therian
+|-supereffective|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|108/320
+|-damage|p1a: Aerodactyl|222/302|[from] item: Rocky Helmet|[of] p2a: Landorus-Therian
+|-damage|p1a: Aerodactyl|192/302|[from] item: Life Orb
+|move|p2a: Landorus-Therian|Hidden Power|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|68/302
+|
+|-weather|RainDance|[upkeep]
+|turn|25
+|
+|move|p1a: Aerodactyl|Ice Fang|p2a: Landorus-Therian
+|-supereffective|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|0 fnt
+|-damage|p1a: Aerodactyl|18/302|[from] item: Rocky Helmet|[of] p2a: Landorus-Therian
+|-damage|p1a: Aerodactyl|0 fnt|[from] item: Life Orb
+|faint|p2a: Landorus-Therian
+|faint|p1a: Aerodactyl
+|
+|win|meekers
+|raw|Ladder updating...
+|raw|Pythagorean Python's rating: 1361 &rarr; <strong>1337</strong><br />(-24 for losing)
+|raw|meekers's rating: 1291 &rarr; <strong>1321</strong><br />(+30 for winning)
+|chat|meekers|gg
+|chat|Pythagorean Python|gg

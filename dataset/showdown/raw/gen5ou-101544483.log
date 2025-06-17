@@ -1,0 +1,311 @@
+|join|kid emulation
+|join|My Nostalgic Past
+|player|p1|kid emulation|20
+|player|p2|My Nostalgic Past|162
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Feraligatr, M
+|poke|p1|Politoed, M
+|poke|p1|Garchomp, M
+|poke|p1|Ferrothorn, F
+|poke|p1|Tornadus, M
+|poke|p1|Alakazam, F
+|poke|p2|Politoed, M
+|poke|p2|Haxorus, M
+|poke|p2|Jolteon, M
+|poke|p2|Ferrothorn, M
+|poke|p2|Gyarados, M
+|poke|p2|Umbreon, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|419/419
+|switch|p2a: Kiltrocity|Jolteon, M|272/272
+|turn|1
+|
+|switch|p2a: Killtacular|Gyarados, M|353/353
+|-ability|p2a: Killtacular|Intimidate|[of] p1a: Garchomp
+|-unboost|p1a: Garchomp|atk|1
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|
+|turn|2
+|
+|move|p2a: Killtacular|Substitute|p2a: Killtacular
+|-start|p2a: Killtacular|Substitute
+|-damage|p2a: Killtacular|265/353
+|move|p1a: Ferrothorn|Spikes|p2a: Killtacular
+|-sidestart|p2: My Nostalgic Past|Spikes
+|
+|-heal|p2a: Killtacular|287/353|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Killtacular|Dragon Dance|p2a: Killtacular
+|-boost|p2a: Killtacular|atk|1
+|-boost|p2a: Killtacular|spe|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Killtacular|[miss]
+|-miss|p1a: Ferrothorn|p2a: Killtacular
+|
+|-heal|p2a: Killtacular|309/353|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Killtacular|Bounce|p1a: Ferrothorn|[still]
+|-prepare|p2a: Killtacular|Bounce|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Killtacular|[miss]
+|-miss|p1a: Ferrothorn|p2a: Killtacular
+|
+|-heal|p2a: Killtacular|331/353|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Killtacular|Bounce|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|172/352
+|-damage|p2a: Killtacular|287/353|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Power Whip|p2a: Killtacular
+|-end|p2a: Killtacular|Substitute
+|
+|-heal|p2a: Killtacular|309/353|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Killtacular|Substitute|p2a: Killtacular
+|-start|p2a: Killtacular|Substitute
+|-damage|p2a: Killtacular|221/353
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Killtacular
+|-resisted|p2a: Killtacular
+|-end|p2a: Killtacular|Substitute
+|
+|-heal|p2a: Killtacular|243/353|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Killtacular|Substitute|p2a: Killtacular
+|-start|p2a: Killtacular|Substitute
+|-damage|p2a: Killtacular|155/353
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Killtacular
+|-resisted|p2a: Killtacular
+|-end|p2a: Killtacular|Substitute
+|
+|-heal|p2a: Killtacular|177/353|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Killtacular|Bounce|p1a: Ferrothorn|[still]
+|-prepare|p2a: Killtacular|Bounce|p1a: Ferrothorn
+|cant|p1a: Ferrothorn|par
+|
+|-heal|p2a: Killtacular|199/353|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Killtacular|Bounce|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Killtacular|155/353|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Killtacular|177/353|[from] item: Leftovers
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|10
+|
+|move|p2a: Killtacular|Substitute|p2a: Killtacular
+|-start|p2a: Killtacular|Substitute
+|-damage|p2a: Killtacular|89/353
+|move|p1a: Politoed|Ice Beam|p2a: Killtacular
+|-end|p2a: Killtacular|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Killtacular|111/353|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Garchomp|Garchomp, M|419/419
+|move|p2a: Killtacular|Waterfall|p1a: Garchomp
+|-damage|p1a: Garchomp|118/419
+|-damage|p2a: Killtacular|67/353|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Killtacular|9/353|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Killtacular|31/353|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Killtacular|Bounce|p1a: Garchomp|[still]
+|-prepare|p2a: Killtacular|Bounce|p1a: Garchomp
+|move|p1a: Garchomp|Stealth Rock|p2a: Killtacular
+|-sidestart|p2: My Nostalgic Past|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Killtacular|53/353|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Killtacular|Bounce|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Killtacular|9/353|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Killtacular|0 fnt|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|faint|p2a: Killtacular
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Kiltrocity|Jolteon, M|272/272
+|-damage|p2a: Kiltrocity|238/272|[from] Stealth Rock
+|-damage|p2a: Kiltrocity|204/272|[from] Spikes
+|switch|p1a: Politoed|Politoed, M|322/322
+|turn|14
+|
+|move|p2a: Kiltrocity|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Alakazam|Alakazam, F|252/252
+|turn|15
+|
+|move|p2a: Kiltrocity|Thunder|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/252
+|-status|p1a: Alakazam|par
+|cant|p1a: Alakazam|par
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p2a: Kiltrocity|Thunder|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Feraligatr|Feraligatr, M|367/367
+|turn|17
+|
+|switch|p2a: Doublekill|Ferrothorn, M|352/352
+|-damage|p2a: Doublekill|308/352|[from] Spikes
+|-damage|p2a: Doublekill|286/352|[from] Stealth Rock
+|move|p1a: Feraligatr|Aqua Jet|p2a: Doublekill
+|-resisted|p2a: Doublekill
+|-damage|p2a: Doublekill|249/352
+|-damage|p1a: Feraligatr|322/367|[from] ability: Iron Barbs|[of] p2a: Doublekill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Doublekill|271/352|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Tornadus|Tornadus, M|299/299
+|move|p2a: Doublekill|Leech Seed|p1a: Tornadus
+|-start|p1a: Tornadus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Doublekill|293/352|[from] item: Leftovers
+|-damage|p1a: Tornadus|262/299|[from] Leech Seed|[of] p2a: Doublekill
+|-heal|p2a: Doublekill|330/352|[silent]
+|turn|19
+|
+|move|p2a: Doublekill|Protect|p2a: Doublekill
+|-singleturn|p2a: Doublekill|Protect
+|move|p1a: Tornadus|Focus Blast|p2a: Doublekill
+|-activate|p2a: Doublekill|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Doublekill|352/352|[from] item: Leftovers
+|-damage|p1a: Tornadus|225/299|[from] Leech Seed|[of] p2a: Doublekill
+|turn|20
+|
+|move|p1a: Tornadus|Hurricane|p2a: Doublekill
+|-damage|p2a: Doublekill|149/352
+|-damage|p1a: Tornadus|196/299|[from] item: Life Orb
+|move|p2a: Doublekill|Power Whip|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|103/299
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Doublekill|171/352|[from] item: Leftovers
+|-damage|p1a: Tornadus|66/299|[from] Leech Seed|[of] p2a: Doublekill
+|-heal|p2a: Doublekill|208/352|[silent]
+|turn|21
+|
+|move|p2a: Doublekill|Protect|p2a: Doublekill
+|-singleturn|p2a: Doublekill|Protect
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: kid emulation|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Doublekill|230/352|[from] item: Leftovers
+|-damage|p1a: Tornadus|29/299|[from] Leech Seed|[of] p2a: Doublekill
+|-heal|p2a: Doublekill|267/352|[silent]
+|turn|22
+|
+|move|p2a: Doublekill|Protect|p2a: Doublekill
+|-fail|p2a: Doublekill
+|move|p1a: Tornadus|Hurricane|p2a: Doublekill
+|-damage|p2a: Doublekill|55/352
+|-start|p2a: Doublekill|confusion
+|-damage|p1a: Tornadus|0 fnt|[from] item: Life Orb
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Doublekill|77/352|[from] item: Leftovers
+|
+|switch|p1a: Feraligatr|Feraligatr, M|322/367
+|turn|23
+|
+|-activate|p2a: Doublekill|confusion
+|move|p2a: Doublekill|Protect|p2a: Doublekill
+|-singleturn|p2a: Doublekill|Protect
+|move|p1a: Feraligatr|Swords Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Doublekill|99/352|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Doublekill
+|-resisted|p2a: Doublekill
+|-damage|p2a: Doublekill|0 fnt
+|-damage|p1a: Feraligatr|277/367|[from] ability: Iron Barbs|[of] p2a: Doublekill
+|faint|p2a: Doublekill
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: kid emulation|move: Tailwind
+|
+|switch|p2a: Tripplekill|Politoed, M|384/384
+|-damage|p2a: Tripplekill|336/384|[from] Spikes
+|-damage|p2a: Tripplekill|288/384|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Feraligatr|Swords Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|2
+|move|p2a: Tripplekill|Encore|p1a: Feraligatr
+|-start|p1a: Feraligatr|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tripplekill|312/384|[from] item: Leftovers
+|turn|26
+|
+|switch|p2a: Kiltrocity|Jolteon, M|204/272
+|-damage|p2a: Kiltrocity|170/272|[from] Spikes
+|-damage|p2a: Kiltrocity|136/272|[from] Stealth Rock
+|move|p1a: Feraligatr|Swords Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|-message|kid emulation forfeited.
+|
+|win|My Nostalgic Past
+|raw|Ladder updating...
+|raw|kid emulation's rating: 1436 &rarr; <strong>1410</strong><br />(-26 for losing)
+|raw|My Nostalgic Past's rating: 1327 &rarr; <strong>1353</strong><br />(+26 for winning)
+|leave|kid emulation
+|player|p1
+|leave|My Nostalgic Past
+|player|p2
+|join|My Nostalgic Past

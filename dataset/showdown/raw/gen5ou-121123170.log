@@ -1,0 +1,247 @@
+|join|quasarultima
+|join|shadowist
+|player|p1|quasarultima|266
+|player|p2|shadowist|269
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Terrakion
+|poke|p1|Kyurem
+|poke|p1|Breloom, M
+|poke|p1|Forretress, M
+|poke|p1|Salamence, M
+|poke|p1|Scizor, M, shiny
+|poke|p2|Politoed, M
+|poke|p2|Volcarona, F
+|poke|p2|Gastrodon, F
+|poke|p2|Toxicroak, M
+|poke|p2|Starmie
+|poke|p2|Ferrothorn, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Hyorinmaru|Kyurem|391/391
+|switch|p2a: Politoed|Politoed, M|384/384
+|-ability|p1a: Hyorinmaru|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Hyorinmaru|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|263/352
+|-unboost|p1a: Hyorinmaru|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|285/352|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Goomba|Breloom, M|262/262
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Goomba
+|-sidestart|p1: quasarultima|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|307/352|[from] item: Leftovers
+|-status|p1a: Goomba|tox|[from] item: Toxic Orb
+|turn|3
+|
+|switch|p2a: Starmie|Starmie|261/261
+|move|p1a: Goomba|Spore|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p2a: Volcarona|Volcarona, F|311/311
+|move|p1a: Goomba|Substitute|p1a: Goomba
+|-start|p1a: Goomba|Substitute
+|-damage|p1a: Goomba|197/262 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goomba|229/262 tox|[from] ability: Poison Heal
+|turn|5
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Goomba
+|-end|p1a: Goomba|Substitute
+|move|p1a: Goomba|Stone Edge|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goomba|261/262 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Toxicroak|Toxicroak, M|314/314
+|turn|6
+|
+|switch|p1a: Beyblade|Forretress, M|354/354
+|-damage|p1a: Beyblade|310/354|[from] Stealth Rock
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Beyblade|332/354|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Beyblade|Rapid Spin|p2a: Toxicroak
+|-damage|p2a: Toxicroak|295/314
+|-sideend|p1: quasarultima|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Beyblade
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|314/314|[from] ability: Dry Skin
+|-heal|p1a: Beyblade|354/354|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Beyblade|Stealth Rock|p2a: Toxicroak
+|-sidestart|p2: shadowist|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Beyblade
+|-crit|p1a: Beyblade
+|-activate|p1a: Beyblade|Sturdy
+|-damage|p1a: Beyblade|1/354
+|-damage|p2a: Toxicroak|283/314|[from] item: Life Orb
+|move|p1a: Beyblade|Explosion|p2a: Toxicroak
+|-damage|p2a: Toxicroak|38/314
+|faint|p1a: Beyblade
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|77/314|[from] ability: Dry Skin
+|join|Chenkster
+|
+|switch|p1a: Don'tDropMe|Scizor, M, shiny|344/344
+|turn|10
+|
+|move|p1a: Don'tDropMe|Bullet Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Gastrodon|Gastrodon, F|426/426
+|-damage|p2a: Gastrodon|400/426|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Don'tDropMe|Swords Dance|p1a: Don'tDropMe
+|-boost|p1a: Don'tDropMe|atk|2
+|move|p2a: Gastrodon|Scald|p1a: Don'tDropMe
+|-damage|p1a: Don'tDropMe|178/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Don'tDropMe|199/344|[from] item: Leftovers
+|-heal|p2a: Gastrodon|426/426|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Don'tDropMe|Bug Bite|p2a: Gastrodon
+|-damage|p2a: Gastrodon|78/426
+|move|p2a: Gastrodon|Scald|p1a: Don'tDropMe
+|-damage|p1a: Don'tDropMe|33/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Don'tDropMe|54/344|[from] item: Leftovers
+|-heal|p2a: Gastrodon|104/426|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|307/352
+|-damage|p2a: Ferrothorn|285/352|[from] Stealth Rock
+|move|p1a: Don'tDropMe|Brick Break|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Don'tDropMe|11/344|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Don'tDropMe|32/344|[from] item: Leftovers
+|
+|switch|p2a: Starmie|Starmie|261/261
+|-damage|p2a: Starmie|229/261|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Don'tDropMe|Bullet Punch|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Don'tDropMe|53/344|[from] item: Leftovers
+|
+|switch|p2a: Gastrodon|Gastrodon, F|104/426
+|-damage|p2a: Gastrodon|78/426|[from] Stealth Rock
+|turn|15
+|chat|shadowist|wow
+|
+|move|p1a: Don'tDropMe|Bug Bite|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Don'tDropMe|74/344|[from] item: Leftovers
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Don'tDropMe|Bullet Punch|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|180/384
+|move|p2a: Politoed|Hydro Pump|p1a: Don'tDropMe
+|-damage|p1a: Don'tDropMe|0 fnt
+|faint|p1a: Don'tDropMe
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Goomba|Breloom, M|261/262 tox
+|turn|17
+|
+|move|p1a: Goomba|Spore|p2a: Politoed
+|-status|p2a: Politoed|slp
+|cant|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goomba|262/262 tox|[from] ability: Poison Heal
+|turn|18
+|
+|move|p1a: Goomba|Substitute|p1a: Goomba
+|-start|p1a: Goomba|Substitute
+|-damage|p1a: Goomba|197/262 tox
+|cant|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goomba|229/262 tox|[from] ability: Poison Heal
+|turn|19
+|
+|-singleturn|p1a: Goomba|move: Focus Punch
+|-curestatus|p2a: Politoed|slp
+|move|p2a: Politoed|Hydro Pump|p1a: Goomba
+|-resisted|p1a: Goomba
+|-end|p1a: Goomba|Substitute
+|move|p1a: Goomba|Focus Punch|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|win|quasarultima
+|raw|Ladder updating...
+|raw|quasarultima's rating: 1472 &rarr; <strong>1488</strong><br />(+16 for winning)
+|raw|shadowist's rating: 1391 &rarr; <strong>1375</strong><br />(-16 for losing)
+|leave|shadowist
+|player|p2
+|leave|quasarultima
+|player|p1

@@ -1,0 +1,809 @@
+|j|☆Spritzalcianuro96
+|j|☆Century Express
+|player|p1|Spritzalcianuro96|n|1399
+|player|p2|Century Express|wattson|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Politoed, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spritzalcianuro96)
+|inactive|Century Express has 120 seconds left.
+|inactive|Century Express has 90 seconds left.
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Puxão|Keldeo|100/100
+|turn|1
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Politoed|Hypnosis|p1a: Jellicent
+|-status|p1a: Jellicent|slp|[from] move: Hypnosis
+|cant|p1a: Jellicent|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Ferrothorn|[miss]
+|-miss|p1a: Hydreigon|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Spritzalcianuro96|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Century Express|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: Spritzalcianuro96|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|-damage|p1a: Ferrothorn|82/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Spritzalcianuro96|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Spritzalcianuro96|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Century Express|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Century Express|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Century Express|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|93/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|63/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ferrothorn|Spikes||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|35
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Hydreigon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|82/100|[from] Sandstorm
+|upkeep
+|turn|36
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Flamethrower|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|65/100
+|-damage|p1a: Hydreigon|72/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|59/100|[from] Sandstorm
+|-damage|p1a: Hydreigon|66/100|[from] Sandstorm
+|upkeep
+|turn|37
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|75/100|[from] Spikes
+|-damage|p1a: Ferrothorn|69/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|35/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|53/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|41/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|75/100|[from] Spikes
+|-damage|p2a: Ferrothorn|69/100|[from] Stealth Rock
+|switch|p1a: Hydreigon|Hydreigon, F|66/100
+|-damage|p1a: Hydreigon|54/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|48/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|Century Express has 120 seconds left.
+|
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|98/100
+|-singleturn|p1a: Hydreigon|move: Roost
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hydreigon
+|-start|p1a: Hydreigon|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|92/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|80/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|93/100|[silent]
+|upkeep
+|turn|40
+|inactive|Century Express has 90 seconds left.
+|
+|switch|p2a: Puxão|Keldeo|100/100
+|-damage|p2a: Puxão|76/100|[from] Spikes
+|-damage|p2a: Puxão|70/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Draco Meteor|p2a: Puxão
+|-damage|p2a: Puxão|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|70/100|[from] item: Life Orb
+|faint|p2a: Puxão
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|64/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|53/100
+|-damage|p2a: Latios|40/100|[from] Stealth Rock
+|turn|41
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|41/100
+|-damage|p1a: Ferrothorn|16/100|[from] Spikes
+|-damage|p1a: Ferrothorn|10/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|34/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|63/100
+|-damage|p1a: Tyranitar|51/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|26/100|[from] Spikes
+|turn|42
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|turn|43
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100 slp
+|-damage|p1a: Jellicent|75/100 slp|[from] Spikes
+|-damage|p1a: Jellicent|63/100 slp|[from] Stealth Rock
+|move|p2a: Excadrill|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|57/100 slp|[from] Sandstorm
+|upkeep
+|turn|44
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|75/100|[from] Spikes
+|-damage|p2a: Politoed|63/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|cant|p1a: Jellicent|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|69/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|-curestatus|p1a: Jellicent|slp|[msg]
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Tyranitar|Tyranitar, M|26/100
+|-damage|p1a: Tyranitar|14/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|0 fnt|[from] Spikes
+|faint|p1a: Tyranitar
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|76/100|[from] Spikes
+|-damage|p1a: Garchomp|70/100|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-enditem|p1a: Garchomp|Yache Berry|[weaken]
+|-damage|p1a: Garchomp|9/100
+|move|p1a: Garchomp|Stone Edge|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|97/100
+|-damage|p2a: Excadrill|94/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|turn|48
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|move|p1a: Garchomp|Outrage|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|46/100
+|-enditem|p2a: Excadrill|Air Balloon
+|move|p2a: Excadrill|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|2/100
+|-damage|p2a: Excadrill|34/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-sideend|p2: Century Express|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: Century Express|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|49
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|93/100
+|move|p1a: Garchomp|Outrage|p2a: Ferrothorn|[from]lockedmove
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|69/100
+|-damage|p1a: Garchomp|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|turn|50
+|inactive|Century Express has 120 seconds left.
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Century Express|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|-damage|p1a: Landorus|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|95/100|[silent]
+|upkeep
+|turn|51
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|-damage|p1a: Jellicent|63/100|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jellicent
+|-start|p1a: Jellicent|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|51/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|52
+|
+|switch|p2a: Politoed|Politoed, F|69/100
+|-damage|p2a: Politoed|57/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|38/100|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|76/100 brn|[silent]
+|-damage|p2a: Politoed|64/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p2a: Politoed|Hypnosis|p1a: Jellicent
+|-status|p1a: Jellicent|slp|[from] move: Hypnosis
+|cant|p1a: Jellicent|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|26/100 slp|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|83/100 brn|[silent]
+|-damage|p2a: Politoed|70/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|switch|p2a: Excadrill|Excadrill, F|34/100
+|-damage|p2a: Excadrill|31/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|-curestatus|p1a: Jellicent|slp|[msg]
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|76/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Jellicent|64/100|[from] Leech Seed|[of] p2a: Excadrill
+|-heal|p2a: Excadrill|45/100|[silent]
+|upkeep
+|turn|55
+|
+|move|p2a: Excadrill|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|24/100
+|move|p1a: Jellicent|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|70/100 brn
+|-damage|p2a: Politoed|58/100 brn|[from] Stealth Rock
+|turn|56
+|
+|move|p2a: Politoed|Encore|p1a: Jellicent
+|-start|p1a: Jellicent|Encore
+|move|p1a: Jellicent|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|42/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|12/100|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|61/100 brn|[silent]
+|-damage|p2a: Politoed|49/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p2a: Politoed|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|43/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|64/100
+|-damage|p1a: Hydreigon|52/100|[from] Stealth Rock
+|turn|58
+|
+|move|p1a: Hydreigon|Superpower|p2a: Politoed
+|-damage|p2a: Politoed|13/100 brn
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1a: Hydreigon|def|1
+|-damage|p1a: Hydreigon|42/100|[from] item: Life Orb
+|move|p2a: Politoed|Hypnosis|p1a: Hydreigon|[miss]
+|-miss|p2a: Politoed|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|7/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p1a: Hydreigon|Superpower|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1a: Hydreigon|def|1
+|-damage|p1a: Hydreigon|32/100|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|60
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-damage|p1a: Landorus|64/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|7/100
+|-damage|p2a: Ferrothorn|78/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|58/100|[from] item: Leftovers
+|-damage|p1a: Landorus|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|65/100|[silent]
+|faint|p1a: Landorus
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|32/100
+|-damage|p1a: Hydreigon|20/100|[from] Stealth Rock
+|turn|62
+|
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|70/100
+|-singleturn|p1a: Hydreigon|move: Roost
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hydreigon
+|-start|p1a: Hydreigon|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|58/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|83/100|[silent]
+|upkeep
+|turn|63
+|
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|100/100
+|-singleturn|p1a: Hydreigon|move: Roost
+|move|p2a: Ferrothorn|Power Whip|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|71/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100|[silent]
+|upkeep
+|turn|64
+|
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|100/100
+|-singleturn|p1a: Hydreigon|move: Roost
+|move|p2a: Ferrothorn|Power Whip|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|72/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|65
+|
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|100/100
+|-singleturn|p1a: Hydreigon|move: Roost
+|move|p2a: Ferrothorn|Power Whip|p1a: Hydreigon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Hydreigon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|66
+|
+|move|p1a: Hydreigon|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|-damage|p1a: Hydreigon|78/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Power Whip|p1a: Hydreigon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|66/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|53/100|[silent]
+|upkeep
+|turn|67
+|-message|Century Express forfeited.
+|
+|win|Spritzalcianuro96
+|l|☆Century Express
+|raw|Spritzalcianuro96's rating: 1399 &rarr; <strong>1423</strong><br />(+24 for winning)
+|raw|Century Express's rating: 1468 &rarr; <strong>1444</strong><br />(-24 for losing)

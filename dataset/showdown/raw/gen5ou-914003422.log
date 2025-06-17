@@ -1,0 +1,588 @@
+|j|☆firelit nights
+|j|☆Infernoss
+|player|p1|firelit nights|26|1570
+|player|p2|Infernoss|173|1386
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Victini|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Azelf|item
+|poke|p2|Breloom, F|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|
+|move|p1a: Victini|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|96/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|78/100
+|-damage|p2a: Skarmory|87/100|[from] Recoil
+|
+|-heal|p1a: Excadrill|85/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Infernoss|move: Stealth Rock
+|move|p2a: Skarmory|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: firelit nights|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|91/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|97/100
+|-sideend|p1: firelit nights|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|71/100
+|-damage|p2a: Skarmory|89/100|[from] Recoil
+|
+|-heal|p1a: Excadrill|77/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Skarmory|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: firelit nights|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|83/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|-sideend|p1: firelit nights|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|63/100
+|-damage|p2a: Skarmory|90/100|[from] Recoil
+|
+|-heal|p1a: Excadrill|70/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Rotom
+|-sidestart|p1: firelit nights|move: Stealth Rock
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Breloom|[miss]
+|-miss|p1a: Rotom|p2a: Breloom
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Volt Switch|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|75/100 tox
+|
+|switch|p1a: Latios|Latios, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|50/100 tox
+|
+|-heal|p2a: Breloom|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|j| Aquaman42
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Spore|p1a: Latios
+|-status|p1a: Latios|slp|[from] move: Spore
+|
+|-heal|p2a: Breloom|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|j| JinxTheJinx
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Breloom|Focus Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Breloom|62/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Breloom|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|88/100 slp
+|-damage|p1a: Latios|76/100 slp|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Dragon Pulse|p2a: Skarmory|[from]Sleep Talk
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|53/100
+|
+|-heal|p2a: Skarmory|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|l| JinxTheJinx
+|
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Skarmory|[from]Sleep Talk
+|-damage|p2a: Skarmory|15/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|65/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Excadrill|Excadrill, M|70/100
+|-damage|p1a: Excadrill|67/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: Excadrill|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|-sideend|p1: firelit nights|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|53/100
+|-damage|p2a: Skarmory|90/100|[from] Recoil
+|
+|-heal|p1a: Excadrill|59/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|96/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Victini
+|-sidestart|p1: firelit nights|move: Stealth Rock
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Victini|Bolt Strike|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|39/100
+|move|p2a: Skarmory|Brave Bird|p1a: Victini
+|-damage|p1a: Victini|68/100
+|-damage|p2a: Skarmory|28/100|[from] Recoil
+|
+|-heal|p2a: Skarmory|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Latios|Latios, M|76/100 slp
+|-damage|p1a: Latios|64/100 slp|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|84/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p2a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Skarmory|[from]Sleep Talk
+|-damage|p2a: Skarmory|46/100
+|move|p2a: Skarmory|Brave Bird|p1a: Latios
+|-damage|p1a: Latios|15/100 slp
+|-damage|p2a: Skarmory|31/100|[from] Recoil
+|
+|-heal|p2a: Skarmory|37/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Dragon Pulse|p2a: Skarmory|[from]Sleep Talk
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|6/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|56/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Skarmory|[from]Sleep Talk
+|-damage|p2a: Skarmory|18/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|68/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Excadrill|Excadrill, M|59/100
+|-damage|p1a: Excadrill|56/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|34/100
+|-damage|p2a: Skarmory|65/100|[from] Recoil
+|
+|-heal|p1a: Excadrill|40/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|l| Aquaman42
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|-sideend|p1: firelit nights|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|22/100
+|-damage|p2a: Skarmory|61/100|[from] Recoil
+|
+|-heal|p1a: Excadrill|28/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Skarmory|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: firelit nights|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|34/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|70/100
+|-sideend|p1: firelit nights|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|13/100
+|-damage|p2a: Skarmory|62/100|[from] Recoil
+|
+|-heal|p1a: Excadrill|19/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|68/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Skarmory|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: firelit nights|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|25/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|-sideend|p1: firelit nights|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|4/100
+|-damage|p2a: Skarmory|63/100|[from] Recoil
+|
+|-heal|p1a: Excadrill|10/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Skarmory|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: firelit nights|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|16/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|72/100
+|-sideend|p1: firelit nights|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Skarmory|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Skarmory|66/100|[from] Recoil
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Victini|Victini|68/100
+|turn|29
+|
+|switch|p2a: Breloom|Breloom, F|75/100 tox
+|-damage|p2a: Breloom|68/100 tox|[from] Stealth Rock
+|move|p1a: Victini|V-create|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|switch|p2a: Lazulis|Azelf|100/100
+|-damage|p2a: Lazulis|88/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Lazulis|Reflect|p2a: Lazulis
+|-sidestart|p2: Infernoss|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lazulis|82/100|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|move|p2a: Lazulis|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|73/100
+|
+|switch|p2a: Skarmory|Skarmory, F|72/100|[from]move: U-turn
+|-damage|p2a: Skarmory|59/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|58/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Victini|Victini|68/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Victini
+|-sidestart|p1: firelit nights|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Victini|62/100|[from] Sandstorm
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Victini|V-create|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|5/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|55/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Victini|56/100|[from] Sandstorm
+|-heal|p2a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Victini|V-create|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|3/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|move|p2a: Skarmory|Brave Bird|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|-damage|p2a: Skarmory|0 fnt|[from] Recoil
+|faint|p1a: Victini
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|15/100 slp
+|switch|p2a: Lazulis|Azelf|82/100
+|-damage|p2a: Lazulis|69/100|[from] Stealth Rock
+|-damage|p1a: Latios|2/100 slp|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Lazulis|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100|[from]move: U-turn
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|45/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|73/100
+|-damage|p1a: Tyranitar|60/100|[from] Stealth Rock
+|turn|36
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|11/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Lazulis|Azelf|69/100
+|-damage|p2a: Lazulis|57/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Lazulis|Light Screen|p2a: Lazulis
+|-sidestart|p2: Infernoss|move: Light Screen
+|move|p1a: Tyranitar|Crunch|p2a: Lazulis
+|-supereffective|p2a: Lazulis
+|-damage|p2a: Lazulis|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lazulis|0 fnt|[from] Sandstorm
+|faint|p2a: Lazulis
+|-sideend|p2: Infernoss|Reflect
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Tyranitar
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|85/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|39
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Rotom|Will-O-Wisp|p2a: Toxicroak
+|-status|p2a: Toxicroak|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|78/100 brn|[from] Sandstorm
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|-damage|p2a: Toxicroak|66/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|51/100
+|-heal|p2a: Toxicroak|85/100 brn|[from] drain|[of] p1a: Rotom
+|-damage|p2a: Toxicroak|75/100 brn|[from] item: Life Orb
+|move|p1a: Rotom|Volt Switch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|53/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|47/100 brn|[from] Sandstorm
+|-damage|p1a: Rotom|45/100|[from] Sandstorm
+|-heal|p1a: Rotom|51/100|[from] item: Leftovers
+|-damage|p2a: Toxicroak|35/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|15/100
+|-heal|p2a: Toxicroak|52/100 brn|[from] drain|[of] p1a: Rotom
+|-damage|p2a: Toxicroak|43/100 brn|[from] item: Life Orb
+|move|p1a: Rotom|Pain Split|p2a: Toxicroak
+|-sethp|p2a: Toxicroak|29/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|29/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|23/100 brn|[from] Sandstorm
+|-damage|p1a: Rotom|23/100|[from] Sandstorm
+|-heal|p1a: Rotom|29/100|[from] item: Leftovers
+|-damage|p2a: Toxicroak|10/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-heal|p2a: Toxicroak|25/100 brn|[from] drain|[of] p1a: Rotom
+|-damage|p2a: Toxicroak|15/100 brn|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|win|Infernoss
+|l|☆firelit nights
+|raw|firelit nights's rating: 1570 &rarr; <strong>1541</strong><br />(-29 for losing)
+|raw|Infernoss's rating: 1386 &rarr; <strong>1416</strong><br />(+30 for winning)

@@ -1,0 +1,1043 @@
+|j|☆porrompompom
+|j|☆crazy sausage
+|player|p1|porrompompom|169|1441
+|player|p2|crazy sausage|169|1238
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, M|item
+|poke|p1|Reuniclus, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Sableye, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Heatran, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Starmie|item
+|teampreview
+|c|☆porrompompom|lol gg
+|c|☆crazy sausage|why?
+|
+|start
+|switch|p1a: Sableye|Sableye, F|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Sableye|Night Shade|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|upkeep
+|turn|4
+|j| pink bow
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Landorus|Hidden Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Tentacruel
+|-sidestart|p1: porrompompom|Spikes
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: crazy sausage|move: Toxic Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Leech Seed
+|
+|-damage|p1a: Tentacruel|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|7
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|100/100
+|-status|p2a: Jellicent|psn
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Jellicent
+|-sidestart|p2: crazy sausage|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|94/100|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|82/100|[from] Leech Seed|[of] p2a: Jellicent
+|-damage|p2a: Jellicent|88/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Spikes
+|move|p2a: Jellicent|Night Shade|p1a: Heatran
+|-damage|p1a: Heatran|62/100
+|
+|-heal|p1a: Heatran|68/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|82/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-status|p2a: Starmie|tox
+|move|p1a: Heatran|Stealth Rock|p2a: Starmie
+|-sidestart|p2: crazy sausage|move: Stealth Rock
+|
+|-heal|p1a: Heatran|75/100|[from] item: Leftovers
+|-damage|p2a: Starmie|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|88/100|[from] Spikes
+|move|p2a: Starmie|Scald|p1a: Sableye
+|-damage|p1a: Sableye|58/100
+|
+|-heal|p2a: Starmie|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Sableye|64/100|[from] item: Leftovers
+|-damage|p2a: Starmie|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Starmie|Scald|p1a: Sableye
+|-damage|p1a: Sableye|69/100
+|
+|-heal|p2a: Starmie|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Sableye|75/100|[from] item: Leftovers
+|-damage|p2a: Starmie|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Starmie|Scald|p1a: Sableye
+|-damage|p1a: Sableye|46/100
+|move|p1a: Sableye|Night Shade|p2a: Starmie
+|-damage|p2a: Starmie|45/100 tox
+|
+|-heal|p2a: Starmie|51/100 tox|[from] item: Leftovers
+|-heal|p1a: Sableye|52/100|[from] item: Leftovers
+|-damage|p2a: Starmie|26/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|76/100 tox
+|
+|-heal|p2a: Starmie|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Starmie|52/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Sableye|Taunt|p2a: Gliscor
+|-start|p2a: Gliscor|move: Taunt
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Ice Fang|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|55/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Landorus|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|92/100 tox
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100|[from]move: U-turn
+|-damage|p1a: Ninetales|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Gliscor|Ice Fang|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|89/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-end|p2a: Gliscor|move: Taunt
+|upkeep
+|turn|17
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|88/100|[from] Spikes
+|switch|p2a: Heatran|Heatran, F, shiny|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-heal|p1a: Sableye|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Sableye|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-heal|p1a: Sableye|41/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|switch|p1a: Heatran|Heatran, F|75/100
+|-damage|p1a: Heatran|62/100|[from] Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Heatran|68/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Reuniclus|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Tentacruel|Tentacruel, M|82/100
+|-damage|p1a: Tentacruel|69/100|[from] Spikes
+|move|p2a: Gliscor|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|switch|p1a: Landorus|Landorus-Therian, M|55/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|switch|p2a: Jellicent|Jellicent, M, shiny|82/100 psn
+|-damage|p2a: Jellicent|70/100 psn|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|76/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|63/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Landorus|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|50/100 psn
+|
+|switch|p1a: Sableye|Sableye, F|41/100|[from]move: U-turn
+|-damage|p1a: Sableye|29/100|[from] Spikes
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|99/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|100/100 psn|[from] item: Leftovers
+|-heal|p1a: Sableye|34/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Sableye|Taunt|p2a: Jellicent
+|-start|p2a: Jellicent|move: Taunt
+|cant|p2a: Jellicent|move: Taunt|Will-O-Wisp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|94/100 psn|[from] item: Leftovers
+|-heal|p1a: Sableye|40/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|82/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Heatran|Heatran, F, shiny|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-heal|p1a: Sableye|97/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Heatran|Heatran, F|68/100
+|-damage|p1a: Heatran|56/100|[from] Spikes
+|move|p2a: Heatran|Stealth Rock|p1a: Heatran
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-heal|p1a: Heatran|62/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Gliscor
+|-damage|p2a: Gliscor|30/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Heatran|68/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|switch|p1a: Landorus|Landorus-Therian, M|55/100
+|-damage|p1a: Landorus|43/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|switch|p1a: Tentacruel|Tentacruel, M|75/100
+|-damage|p1a: Tentacruel|63/100|[from] Spikes
+|-damage|p1a: Tentacruel|51/100|[from] Stealth Rock
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|57/100|[from] item: Black Sludge
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Tentacruel|Ice Beam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|63/100|[from] item: Black Sludge
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|82/100 psn
+|-damage|p2a: Jellicent|70/100 psn|[from] Stealth Rock
+|move|p1a: Tentacruel|Ice Beam|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|63/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|69/100|[from] item: Black Sludge
+|-heal|p2a: Jellicent|69/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|56/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p1a: Sableye|Sableye, F|97/100
+|-damage|p1a: Sableye|84/100|[from] Spikes
+|-damage|p1a: Sableye|72/100|[from] Stealth Rock
+|move|p2a: Jellicent|Taunt|p1a: Sableye
+|-start|p1a: Sableye|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|63/100 psn|[from] item: Leftovers
+|-heal|p1a: Sableye|78/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|50/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|99/100 psn
+|move|p1a: Sableye|Night Shade|p2a: Jellicent
+|-damage|p2a: Jellicent|75/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|82/100 psn|[from] item: Leftovers
+|-heal|p1a: Sableye|84/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|69/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-status|p2a: Tyranitar|tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Heatran|Heatran, F|68/100
+|-damage|p1a: Heatran|56/100|[from] Stealth Rock
+|-damage|p1a: Heatran|43/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|50/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p1a: Sableye|Sableye, F|84/100
+|-damage|p1a: Sableye|72/100|[from] Stealth Rock
+|-damage|p1a: Sableye|60/100|[from] Spikes
+|move|p2a: Tyranitar|Superpower|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sableye|54/100|[from] Sandstorm
+|-heal|p1a: Sableye|60/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|70/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|switch|p2a: Heatran|Heatran, F, shiny|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Sableye|Night Shade|p2a: Heatran
+|-damage|p2a: Heatran|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sableye|54/100|[from] Sandstorm
+|-heal|p2a: Heatran|68/100|[from] item: Leftovers
+|-heal|p1a: Sableye|60/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Ninetales|Ninetales, M|89/100
+|-damage|p1a: Ninetales|64/100|[from] Stealth Rock
+|-damage|p1a: Ninetales|52/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Heatran|Lava Plume|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|32/100|[from] item: Leftovers
+|-heal|p2a: Heatran|75/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Ninetales|Hypnosis|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|38/100|[from] item: Leftovers
+|-heal|p2a: Heatran|81/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Tyranitar|Tyranitar, F|70/100 tox
+|-damage|p2a: Tyranitar|57/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ninetales|Hypnosis||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|32/100|[from] Sandstorm
+|-heal|p1a: Ninetales|38/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|51/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Tyranitar|Crunch|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|32/100|[from] Sandstorm
+|-heal|p1a: Ninetales|38/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|39/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|move|p1a: Ninetales|Protect||[still]
+|-fail|p1a: Ninetales
+|move|p2a: Tyranitar|Crunch|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|20/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|43/100
+|-damage|p1a: Landorus|31/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|turn|42
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|75/100
+|-damage|p1a: Landorus|19/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Reuniclus|Reuniclus, F|83/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|89/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Ferrothorn|Worry Seed|p1a: Reuniclus
+|-endability|p1a: Reuniclus|Magic Guard|[from] move: Worry Seed
+|-ability|p1a: Reuniclus|Insomnia|[from] move: Worry Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuniclus|83/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|89/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuniclus|83/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|89/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|45
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|69/100 psn
+|-damage|p2a: Jellicent|57/100 psn|[from] Stealth Rock
+|move|p1a: Reuniclus|Focus Blast|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|51/100 psn|[from] Sandstorm
+|-damage|p1a: Reuniclus|70/100|[from] Sandstorm
+|-heal|p2a: Jellicent|57/100 psn|[from] item: Leftovers
+|-heal|p1a: Reuniclus|76/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|64/100|[from] Leech Seed|[of] p2a: Jellicent
+|-heal|p2a: Jellicent|70/100 psn|[silent]
+|-damage|p2a: Jellicent|57/100 psn|[from] psn
+|upkeep
+|turn|46
+|l| pink bow
+|
+|switch|p2a: Tyranitar|Tyranitar, F|20/100 tox
+|-damage|p2a: Tyranitar|8/100 tox|[from] Stealth Rock
+|move|p1a: Reuniclus|Psyshock|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuniclus|58/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|64/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|52/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|23/100 tox|[silent]
+|-damage|p2a: Tyranitar|16/100 tox|[from] psn
+|upkeep
+|turn|47
+|j| pink bow
+|
+|move|p2a: Tyranitar|Pursuit|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|23/100
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuniclus|67/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|74/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|61/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|31/100 tox|[silent]
+|-damage|p2a: Tyranitar|19/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p2a: Gliscor|Gliscor, M|80/100 tox
+|-damage|p2a: Gliscor|68/100 tox|[from] Stealth Rock
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuniclus|94/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|100/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|88/100|[from] Leech Seed|[of] p2a: Gliscor
+|-heal|p2a: Gliscor|82/100 tox|[silent]
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|49
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|65/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|51/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuniclus|59/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|65/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|53/100|[from] Leech Seed|[of] p2a: Gliscor
+|-heal|p2a: Gliscor|66/100 tox|[silent]
+|-heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|50
+|
+|switch|p1a: Tentacruel|Tentacruel, M|69/100
+|-damage|p1a: Tentacruel|56/100|[from] Stealth Rock
+|-damage|p1a: Tentacruel|44/100|[from] Spikes
+|move|p2a: Gliscor|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|38/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|44/100|[from] item: Black Sludge
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|51
+|
+|switch|p1a: Landorus|Landorus-Therian, M|19/100
+|-damage|p1a: Landorus|6/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|switch|p2a: Jellicent|Jellicent, M, shiny|57/100 psn
+|-damage|p2a: Jellicent|45/100 psn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|39/100 psn|[from] Sandstorm
+|-heal|p2a: Jellicent|45/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|33/100 psn|[from] psn
+|upkeep
+|turn|52
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p2a: Gliscor|Gliscor, M|91/100 tox
+|-damage|p2a: Gliscor|78/100 tox|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|54
+|l| pink bow
+|
+|move|p1a: Landorus|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|move|p2a: Gliscor|Ice Fang|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M|44/100
+|-damage|p1a: Tentacruel|32/100|[from] Spikes
+|-damage|p1a: Tentacruel|19/100|[from] Stealth Rock
+|turn|55
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|33/100 psn
+|-damage|p2a: Jellicent|20/100 psn|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|13/100|[from] Sandstorm
+|-damage|p2a: Jellicent|14/100 psn|[from] Sandstorm
+|-heal|p1a: Tentacruel|19/100|[from] item: Black Sludge
+|-heal|p2a: Jellicent|20/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|8/100 psn|[from] psn
+|upkeep
+|turn|56
+|
+|move|p1a: Tentacruel|Ice Beam|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|1/100 psn
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|51/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|13/100|[from] Sandstorm
+|-damage|p2a: Jellicent|45/100 psn|[from] Sandstorm
+|-heal|p1a: Tentacruel|19/100|[from] item: Black Sludge
+|-heal|p2a: Jellicent|51/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|39/100 psn|[from] psn
+|upkeep
+|turn|57
+|j| pink bow
+|
+|switch|p1a: Sableye|Sableye, F|60/100
+|-damage|p1a: Sableye|47/100|[from] Stealth Rock
+|-damage|p1a: Sableye|35/100|[from] Spikes
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Sableye
+|-status|p1a: Sableye|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|32/100 psn|[from] Sandstorm
+|-damage|p1a: Sableye|29/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|39/100 psn|[from] item: Leftovers
+|-heal|p1a: Sableye|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|26/100 psn|[from] psn
+|-damage|p1a: Sableye|23/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p1a: Sableye|Taunt|p2a: Jellicent
+|-start|p2a: Jellicent|move: Taunt
+|move|p2a: Jellicent|Night Shade|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|20/100 psn|[from] Sandstorm
+|-heal|p2a: Jellicent|26/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|14/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|53/100
+|turn|59
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|60
+|
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|cant|p1a: Reuniclus|move: Taunt|Calm Mind
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|61
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|79/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|76/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|85/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|62
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|91/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|63
+|
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|cant|p1a: Reuniclus|move: Taunt|Calm Mind
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|97/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Reuniclus
+|-damage|p1a: Reuniclus|87/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|79/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|94/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|65
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Reuniclus
+|-damage|p1a: Reuniclus|84/100
+|move|p1a: Reuniclus|Focus Blast|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|72/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|90/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|66
+|
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|cant|p1a: Reuniclus|move: Taunt|Calm Mind
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|96/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|67
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Reuniclus
+|-damage|p1a: Reuniclus|85/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|72/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|92/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|68
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|98/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|69
+|
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|76/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|70
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|76/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|65/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|83/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|71
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|89/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|72
+|
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|move|p1a: Reuniclus|Focus Blast|p2a: Gliscor|[miss]
+|-miss|p1a: Reuniclus|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|95/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|73
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|74/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|77/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|80/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|74
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|56/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|66/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|62/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|79/100 tox|[from] ability: Poison Heal
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|75
+|
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|cant|p1a: Reuniclus|move: Taunt|Calm Mind
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|68/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|76
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|43/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|68/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|49/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|77
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|55/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|78
+|
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|cant|p1a: Reuniclus|move: Taunt|Calm Mind
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|61/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|79
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|38/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|76/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|44/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|80
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|20/100
+|move|p1a: Reuniclus|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|64/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|26/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|81
+|
+|move|p2a: Gliscor|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|cant|p1a: Reuniclus|move: Taunt|Recover
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|32/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|82
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|11/100
+|move|p1a: Reuniclus|Focus Blast|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|70/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|17/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|83
+|
+|move|p2a: Gliscor|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M|19/100
+|-damage|p1a: Tentacruel|7/100|[from] Spikes
+|-damage|p1a: Tentacruel|0 fnt|[from] Stealth Rock
+|faint|p1a: Tentacruel
+|
+|switch|p1a: Heatran|Heatran, F|50/100
+|-damage|p1a: Heatran|37/100|[from] Spikes
+|-damage|p1a: Heatran|25/100|[from] Stealth Rock
+|turn|84
+|c|☆crazy sausage|gg
+|c|☆porrompompom|why?
+|
+|move|p2a: Gliscor|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|crazy sausage
+|l|☆porrompompom
+|l| pink bow
+|raw|porrompompom's rating: 1457 &rarr; <strong>1427</strong><br />(-30 for losing)
+|raw|crazy sausage's rating: 1276 &rarr; <strong>1313</strong><br />(+37 for winning)

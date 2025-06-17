@@ -1,0 +1,218 @@
+|j|lentero
+|j|man
+|player|p1|lentero|169
+|teamsize|p1|6
+|player|p2|man|1
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|52062,62548,60244,48565
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Salamence, F|item
+|poke|p1|Gengar, F|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Starmie|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Dragonite, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lentero)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Heatran|Heatran, F|385/385
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|choice|move stealthrock|move superpower
+|
+|move|p2a: Dragonite|Superpower|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|def|1
+|faint|p1a: Heatran
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Gengar|Gengar, F|261/261
+|turn|2
+|choice|move substitute|switch 4
+|
+|switch|p2a: Jirachi|Jirachi|403/403
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|196/261
+|
+|upkeep
+|turn|3
+|choice|move shadowball|move ironhead
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|251/403
+|-damage|p1a: Gengar|170/261|[from] item: Life Orb
+|move|p2a: Jirachi|Iron Head|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|-heal|p2a: Jirachi|276/403|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Scizor|Scizor, F|343/343
+|move|p2a: Jirachi|Stealth Rock|p1a: Scizor
+|-sidestart|p1: lentero|move: Stealth Rock
+|
+|-heal|p2a: Jirachi|301/403|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move uturn|move firepunch
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|111/343
+|move|p1a: Scizor|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|108/403
+|choice|switch 4|
+|
+|switch|p1a: Gengar|Gengar, F|170/261
+|-damage|p1a: Gengar|138/261|[from] Stealth Rock
+|
+|-heal|p2a: Jirachi|133/403|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move shadowball|move ironhead
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Gengar|112/261|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Starmie|Starmie|261/261
+|turn|7
+|inactive|lentero has 120 seconds left.
+|choice|move shadowball|move thunderbolt
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-damage|p2a: Starmie|235/261|[from] item: Life Orb
+|faint|p1a: Gengar
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Salamence|Salamence, F|331/331
+|-damage|p1a: Salamence|249/331|[from] Stealth Rock
+|turn|8
+|choice|move outrage|move icebeam
+|
+|move|p1a: Salamence|Outrage|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|323/323
+|turn|9
+|choice|move outrage|move hiddenpower
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|383/383
+|-damage|p1a: Conkeldurr|360/383|[from] Stealth Rock
+|turn|10
+|choice|move icepunch|switch 5
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|331/331
+|move|p1a: Conkeldurr|Ice Punch|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|51/331
+|-status|p2a: Thundurus|frz
+|
+|-heal|p2a: Thundurus|71/331 frz|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|choice|move drainpunch|move thunderbolt
+|
+|cant|p2a: Thundurus|frz
+|move|p1a: Conkeldurr|Drain Punch|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-heal|p1a: Conkeldurr|383/383 brn|[from] drain|[of] p2a: Thundurus
+|faint|p2a: Thundurus
+|
+|-damage|p1a: Conkeldurr|336/383 brn|[from] brn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|12
+|j|butlerrr
+|choice|move machpunch|move outrage
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|290/323
+|move|p2a: Dragonite|Outrage|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Scizor|Scizor, F|111/343
+|-damage|p1a: Scizor|69/343|[from] Stealth Rock
+|turn|13
+|choice|move bulletpunch|move outrage
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|109/323
+|move|p2a: Dragonite|Outrage|p1a: Scizor|[from]lockedmove
+|-resisted|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Rotom|Rotom-Wash|299/299
+|-damage|p1a: Rotom|262/299|[from] Stealth Rock
+|turn|14
+|-message|lentero forfeited.
+|
+|win|man
+|l|lentero
+|raw|lentero's rating: 1411 &rarr; <strong>1390</strong><br />(-21 for losing)
+|raw|man's rating: 1380 &rarr; <strong>1402</strong><br />(+22 for winning)
+|l|butlerrr

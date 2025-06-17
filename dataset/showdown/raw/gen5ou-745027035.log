@@ -1,0 +1,357 @@
+|j|☆tyftest
+|j|☆VelleityKiwi
+|player|p1|tyftest|153
+|player|p2|VelleityKiwi|197
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Cloyster, F|item
+|poke|p1|Gastrodon-East, F|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Starmie|item
+|poke|p1|Keldeo|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Breloom, F|item
+|poke|p2|Jirachi|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Power Whip|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|74/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|74/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gyarados
+|-start|p1a: Gyarados|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Gyarados|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|87/100 brn|[silent]
+|-damage|p2a: Ferrothorn|74/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: tyftest|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ferrothorn|62/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|5
+|
+|switch|p1a: Gastrodon|Gastrodon-East, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Jirachi|Thunder|p1a: Gastrodon
+|-immune|p1a: Gastrodon|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Gastrodon|Earthquake|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Politoed|Politoed, F|74/100
+|-damage|p1a: Politoed|61/100|[from] Stealth Rock
+|move|p2a: Breloom|Bullet Seed|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|25/100
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-hitcount|p1a: Politoed|2
+|-damage|p2a: Breloom|67/100|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Starmie|Psyshock|p2a: Kyurem
+|-damage|p2a: Kyurem|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Gastrodon|Gastrodon-East, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Kyurem|Fusion Bolt|p1a: Gastrodon
+|-immune|p1a: Gastrodon|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|52/100
+|move|p1a: Gastrodon|Toxic|p2a: Kyurem
+|-fail|p2a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Kyurem|Freeze Shock|p1a: Gastrodon|[still]|[miss]
+|-prepare|p2a: Kyurem|Freeze Shock|p1a: Gastrodon
+|-enditem|p2a: Kyurem|Power Herb
+|-anim|p2a: Kyurem|Freeze Shock|p1a: Gastrodon
+|-miss|p2a: Kyurem|p1a: Gastrodon
+|move|p1a: Gastrodon|Earthquake|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Kyurem|Freeze Shock|p1a: Gastrodon|[still]
+|-prepare|p2a: Kyurem|Freeze Shock|p1a: Gastrodon
+|move|p1a: Gastrodon|Earthquake|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|move|p2a: Kyurem|Freeze Shock|p1a: Keldeo|[from]lockedmove
+|-resisted|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M, shiny|88/100
+|-damage|p1a: Gyarados|63/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|turn|14
+|
+|move|p2a: Kyurem|Fusion Bolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon-East, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|27/100
+|move|p1a: Gastrodon|Earthquake|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|2/100
+|move|p1a: Gastrodon|Earthquake|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Kyurem|Outrage|p1a: Gastrodon
+|-damage|p1a: Gastrodon|56/100
+|move|p1a: Gastrodon|Earthquake|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|62/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Kyurem|Outrage|p1a: Gastrodon|[from]lockedmove
+|-damage|p1a: Gastrodon|22/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Kyurem|Outrage|p1a: Gastrodon|[from]lockedmove
+|-damage|p1a: Gastrodon|37/100
+|-start|p2a: Kyurem|confusion|[fatigue]
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|93/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|-activate|p2a: Kyurem|confusion
+|move|p2a: Kyurem|Outrage|p1a: Gastrodon
+|-damage|p1a: Gastrodon|51/100
+|move|p1a: Gastrodon|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|67/100
+|turn|21
+|
+|switch|p1a: Starmie|Starmie|94/100
+|-damage|p1a: Starmie|82/100|[from] Stealth Rock
+|move|p2a: Breloom|Bullet Seed|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|27/100
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-hitcount|p1a: Starmie|2
+|-damage|p2a: Breloom|57/100|[from] item: Life Orb
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F, shiny|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|23
+|
+|switch|p1a: Gastrodon|Gastrodon-East, F|57/100
+|-damage|p1a: Gastrodon|51/100|[from] Stealth Rock
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|57/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Jirachi|Psychic|p1a: Gastrodon
+|-damage|p1a: Gastrodon|27/100
+|move|p1a: Gastrodon|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|33/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Jirachi|Psychic|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|c|☆tyftest|that crit
+|
+|switch|p1a: Cloyster|Cloyster, F, shiny|76/100
+|-damage|p1a: Cloyster|51/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Jirachi|Thunder|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|win|VelleityKiwi
+|raw|tyftest's rating: 1379 &rarr; <strong>1356</strong><br />(-23 for losing)
+|raw|VelleityKiwi's rating: 1319 &rarr; <strong>1343</strong><br />(+24 for winning)
+|l|☆tyftest

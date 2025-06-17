@@ -1,0 +1,209 @@
+|j|☆sken
+|j|☆porrompompom
+|player|p1|sken|98
+|player|p2|porrompompom|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Latios, M|item
+|poke|p1|Mamoswine, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Dugtrio, M|item
+|poke|p2|Forretress, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Gothitelle, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Latios|Dragon Pulse|p2a: Chansey
+|-damage|p2a: Chansey|79/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|switch|p2a: Forretress|Forretress, F|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Forretress|Spikes|p1a: Magnezone
+|-sidestart|p1: sken|Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Magnezone|Thunderbolt|p2a: Forretress
+|-damage|p2a: Forretress|26/100
+|move|p2a: Forretress|Volt Switch|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|94/100
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Spikes
+|turn|6
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Alomomola|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|93/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Forretress|Forretress, F|26/100
+|move|p1a: Alomomola|Toxic|p2a: Forretress
+|-immune|p2a: Forretress|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Alomomola|100/100|[from] item: Leftovers
+|-heal|p2a: Forretress|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Forretress|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|39/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Forretress
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|move|p2a: Forretress|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|81/100 tox
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|45/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|68/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|move|p2a: Forretress|Rapid Spin|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|51/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|j| starmaster
+|
+|switch|p2a: Ninetales|Ninetales, M|93/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Excadrill|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|12
+|
+|move|p1a: Excadrill|Earthquake|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|move|p2a: Dugtrio|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Spikes
+|turn|13
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Mamoswine|Ice Shard|p2a: Cresselia
+|-damage|p2a: Cresselia|85/100
+|-damage|p1a: Mamoswine|78/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cresselia|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|sken has 135 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|68/100 tox
+|-damage|p1a: Tyranitar|56/100 tox|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Dugtrio|Dugtrio, M|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|50/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Dugtrio|Reversal|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆sken|ya gg
+|-message|sken forfeited.
+|
+|win|porrompompom
+|l|☆sken
+|raw|sken's rating: 1360 &rarr; <strong>1346</strong><br />(-14 for losing)
+|raw|porrompompom's rating: 1466 &rarr; <strong>1480</strong><br />(+14 for winning)

@@ -1,0 +1,366 @@
+|j|Princess Deluks917
+|j|Lethal Ammo
+|player|p1|Princess Deluks917|283
+|player|p2|Lethal Ammo|127
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|21233,30806,26235,57439
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Starmie|item
+|poke|p1|Breloom, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Breloom, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Latios|Latios, M|302/302
+|switch|p2a: Ultralight Beam|Latios, M|301/301
+|turn|1
+|choice|switch 6|switch 5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|352/352
+|switch|p2a: I Love Rachee|Jirachi|341/341
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Real Friends|Breloom, M|261/261
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Real Friends
+|-sidestart|p2: Lethal Ammo|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|switch 6|move spore
+|
+|switch|p1a: Latios|Latios, M|302/302
+|move|p2a: Real Friends|Spore|p1a: Latios
+|-status|p1a: Latios|slp
+|
+|upkeep
+|turn|4
+|choice|move sleeptalk|switch 2
+|
+|switch|p2a: I Love Rachee|Jirachi|341/341
+|-damage|p2a: I Love Rachee|320/341|[from] Stealth Rock
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Dragon Pulse|p2a: I Love Rachee|[from]Sleep Talk
+|-resisted|p2a: I Love Rachee
+|-damage|p2a: I Love Rachee|179/341
+|
+|upkeep
+|turn|5
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Breloom|Breloom, F|289/289
+|move|p2a: I Love Rachee|Stealth Rock|p1a: Breloom
+|-sidestart|p1: Princess Deluks917|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|choice|move spore|move ironhead
+|
+|move|p2a: I Love Rachee|Iron Head|p1a: Breloom
+|-damage|p1a: Breloom|169/289
+|cant|p1a: Breloom|flinch
+|
+|upkeep
+|turn|7
+|choice|move machpunch|move icywind
+|
+|move|p1a: Breloom|Mach Punch|p2a: I Love Rachee
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Mach Punch
+|-damage|p2a: I Love Rachee|0 fnt
+|faint|p2a: I Love Rachee
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Ultralight Beam|Latios, M|301/301
+|-damage|p2a: Ultralight Beam|264/301|[from] Stealth Rock
+|turn|8
+|choice|move machpunch|move dracometeor
+|
+|move|p1a: Breloom|Mach Punch|p2a: Ultralight Beam
+|-resisted|p2a: Ultralight Beam
+|-damage|p2a: Ultralight Beam|192/301
+|move|p2a: Ultralight Beam|Draco Meteor|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-unboost|p2a: Ultralight Beam|spa|2
+|-damage|p2a: Ultralight Beam|162/301|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie|262/262
+|-damage|p1a: Starmie|230/262|[from] Stealth Rock
+|turn|9
+|choice|move rapidspin|switch 4
+|
+|switch|p2a: Waves|Keldeo|323/323
+|-damage|p2a: Waves|303/323|[from] Stealth Rock
+|move|p1a: Starmie|Rapid Spin|p2a: Waves
+|-damage|p2a: Waves|284/323
+|-sideend|p1: Princess Deluks917|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|204/262|[from] item: Life Orb
+|
+|-heal|p2a: Waves|304/323|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move grassknot|switch 6
+|
+|switch|p2a: Feedback|Landorus-Therian, M|319/319
+|-damage|p2a: Feedback|280/319|[from] Stealth Rock
+|-ability|p2a: Feedback|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|move|p1a: Starmie|Grass Knot|p2a: Feedback
+|-damage|p2a: Feedback|105/319
+|-damage|p1a: Starmie|178/262|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|choice|switch 6|move earthquake
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|352/352
+|move|p2a: Feedback|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|211/352
+|
+|-heal|p1a: Ferrothorn|233/352|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move spikes|switch 4
+|
+|switch|p2a: Ultralight Beam|Latios, M|162/301
+|-damage|p2a: Ultralight Beam|125/301|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Ultralight Beam
+|-sidestart|p2: Lethal Ammo|Spikes
+|
+|-heal|p1a: Ferrothorn|255/352|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|switch 3|move hiddenpower
+|
+|switch|p1a: Politoed|Politoed, M|374/374
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ultralight Beam|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|345/374
+|-damage|p2a: Ultralight Beam|95/301|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|choice|switch 3|move hiddenpower
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|255/352
+|move|p2a: Ultralight Beam|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/352
+|-damage|p2a: Ultralight Beam|65/301|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|111/352|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move leechseed|move dracometeor
+|
+|move|p2a: Ultralight Beam|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Ultralight Beam|spa|2
+|-damage|p2a: Ultralight Beam|35/301|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Starmie|Starmie|178/262
+|turn|16
+|choice|move icebeam|move dracometeor
+|
+|move|p1a: Starmie|Ice Beam|p2a: Ultralight Beam
+|-supereffective|p2a: Ultralight Beam
+|-damage|p2a: Ultralight Beam|0 fnt
+|-damage|p1a: Starmie|152/262|[from] item: Life Orb
+|faint|p2a: Ultralight Beam
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Feedback|Landorus-Therian, M|105/319
+|-damage|p2a: Feedback|66/319|[from] Stealth Rock
+|-ability|p2a: Feedback|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|turn|17
+|choice|switch 2|move earthquake
+|
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|move|p2a: Feedback|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|167/357
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|choice|move dualchop|move earthquake
+|
+|move|p1a: Garchomp|Dual Chop|p2a: Feedback
+|-damage|p2a: Feedback|0 fnt
+|-hitcount|p2a: Feedback|1
+|faint|p2a: Feedback
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Real Friends|Breloom, M|261/261
+|-damage|p2a: Real Friends|245/261|[from] Stealth Rock
+|-damage|p2a: Real Friends|213/261|[from] Spikes
+|turn|19
+|choice|switch 2|move bulletseed
+|
+|switch|p1a: Starmie|Starmie|152/262
+|move|p2a: Real Friends|Bullet Seed|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-hitcount|p1a: Starmie|1
+|-damage|p2a: Real Friends|187/261|[from] item: Life Orb
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Latios|Latios, M|302/302 slp
+|turn|20
+|choice|move sleeptalk|switch 3
+|
+|switch|p2a: Wolves|Tyranitar, F|341/341
+|-damage|p2a: Wolves|299/341|[from] Spikes
+|-damage|p2a: Wolves|257/341|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Wolves
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Dragon Pulse|p2a: Wolves|[from]Sleep Talk
+|-damage|p2a: Wolves|115/341
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|284/302 slp|[from] sandstorm
+|upkeep
+|turn|21
+|choice|move sleeptalk|move pursuit
+|
+|-curestatus|p1a: Latios|slp|[msg]
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|-fail|p1a: Latios
+|move|p2a: Wolves|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Garchomp|Garchomp, M|167/357
+|turn|22
+|choice|move outrage|move pursuit
+|
+|move|p1a: Garchomp|Outrage|p2a: Wolves
+|-damage|p2a: Wolves|0 fnt
+|faint|p2a: Wolves
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Real Friends|Breloom, M|187/261
+|-damage|p2a: Real Friends|171/261|[from] Stealth Rock
+|-damage|p2a: Real Friends|139/261|[from] Spikes
+|turn|23
+|choice|move outrage|move machpunch
+|
+|move|p2a: Real Friends|Mach Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|19/357
+|-damage|p2a: Real Friends|107/261|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Real Friends|81/261|[from] item: Life Orb
+|move|p1a: Garchomp|Outrage|p2a: Real Friends|[from]lockedmove
+|-damage|p2a: Real Friends|0 fnt
+|-start|p1a: Garchomp|confusion|[fatigue]
+|faint|p2a: Real Friends
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Waves|Keldeo|304/323
+|-damage|p2a: Waves|264/323|[from] Spikes
+|-damage|p2a: Waves|244/323|[from] Stealth Rock
+|turn|24
+|j|Pima
+|choice|move outrage|move substitute
+|
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|0 fnt|[from] confusion
+|faint|p1a: Garchomp
+|move|p2a: Waves|Substitute|p2a: Waves
+|-start|p2a: Waves|Substitute
+|-damage|p2a: Waves|164/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Waves|144/323|[from] sandstorm
+|-heal|p2a: Waves|164/323|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Politoed|Politoed, M|345/374
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|25
+|choice|move hiddenpower|move secretsword
+|
+|move|p2a: Waves|Secret Sword|p1a: Politoed
+|-damage|p1a: Politoed|165/374
+|move|p1a: Politoed|Hidden Power|p2a: Waves
+|-supereffective|p2a: Waves
+|-end|p2a: Waves|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Waves|184/323|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move hiddenpower|move secretsword
+|
+|move|p2a: Waves|Secret Sword|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|win|Lethal Ammo
+|player|p1
+|player|p2
+|c|★Lethal Ammo|gg
+|raw|Princess Deluks917's rating: 1590 &rarr; <strong>1555</strong><br />(-35 for losing)
+|raw|Lethal Ammo's rating: 1255 &rarr; <strong>1298</strong><br />(+43 for winning)

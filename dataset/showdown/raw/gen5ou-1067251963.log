@@ -1,0 +1,319 @@
+|j|☆DRAGONKING JASON
+|j|☆HaxerAreBastards
+|player|p1|DRAGONKING JASON|lucas|1453
+|player|p2|HaxerAreBastards|249|1603
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Mew|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Infernape, F|item
+|poke|p2|Conkeldurr, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Reuniclus, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HaxerAreBastards)
+|
+|start
+|switch|p1a: Reepor|Landorus-Therian, M|100/100
+|switch|p2a: Infernape|Infernape, F|100/100
+|-ability|p1a: Reepor|Intimidate|boost
+|-unboost|p2a: Infernape|atk|1
+|turn|1
+|
+|move|p1a: Reepor|Earthquake|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-enditem|p2a: Infernape|Focus Sash
+|-damage|p2a: Infernape|1/100
+|move|p2a: Infernape|Hidden Power|p1a: Reepor
+|-supereffective|p1a: Reepor
+|-damage|p1a: Reepor|0 fnt
+|faint|p1a: Reepor
+|
+|upkeep
+|
+|switch|p1a: Bowser|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Bowser
+|turn|2
+|
+|switch|p1a: Xespirito|Rotom-Wash|100/100
+|move|p2a: Infernape|Close Combat|p1a: Xespirito
+|-damage|p1a: Xespirito|70/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Infernape|0 fnt|[from] Sandstorm
+|-damage|p1a: Xespirito|64/100|[from] Sandstorm
+|faint|p2a: Infernape
+|-heal|p1a: Xespirito|70/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|3
+|
+|move|p1a: Xespirito|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|78/100
+|
+|switch|p1a: Bowser|Tyranitar, M|100/100|[from]move: Volt Switch
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Reuniclus|Focus Blast|p1a: Bowser|[miss]
+|-miss|p2a: Reuniclus|p1a: Bowser
+|move|p1a: Bowser|Crunch|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|5
+|
+|switch|p1a: Dantopia|Mew|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Dantopia
+|-resisted|p1a: Dantopia
+|-damage|p1a: Dantopia|75/100
+|-damage|p2a: Conkeldurr|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|84/100|[from] Sandstorm
+|-damage|p1a: Dantopia|69/100|[from] Sandstorm
+|-heal|p1a: Dantopia|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Dantopia|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dantopia|69/100|[from] Sandstorm
+|-heal|p1a: Dantopia|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Xespirito|Rotom-Wash|70/100
+|move|p2a: Tyranitar|Crunch|p1a: Xespirito
+|-damage|p1a: Xespirito|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xespirito|25/100|[from] Sandstorm
+|-heal|p1a: Xespirito|31/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|move|p1a: Xespirito|Pain Split|p2a: Tyranitar
+|-sethp|p2a: Tyranitar|64/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Xespirito|72/100|[from] move: Pain Split
+|move|p2a: Tyranitar|Superpower|p1a: Xespirito
+|-damage|p1a: Xespirito|33/100
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xespirito|27/100|[from] Sandstorm
+|-heal|p1a: Xespirito|33/100|[from] item: Leftovers
+|-end|p2a: Tyranitar|move: Taunt
+|upkeep
+|turn|9
+|c|☆HaxerAreBastards|Oh Fuck
+|c|☆HaxerAreBastards|I'll lose on a miss
+|inactive|DRAGONKING JASON has 120 seconds left.
+|c|☆HaxerAreBastards|So Close of top 1
+|c|☆HaxerAreBastards|Ladder
+|c|☆HaxerAreBastards|Fucking rng
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|100/100
+|move|p1a: Xespirito|Hydro Pump|p2a: Jellicent
+|-immune|p2a: Jellicent|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xespirito|27/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Xespirito|33/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Xespirito|Pain Split|p2a: Jellicent
+|-sethp|p2a: Jellicent|63/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Xespirito|83/100|[from] move: Pain Split
+|move|p2a: Jellicent|Trick Room|p2a: Jellicent
+|-fieldstart|move: Trick Room|[of] p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|56/100|[from] Sandstorm
+|-damage|p1a: Xespirito|77/100|[from] Sandstorm
+|-heal|p2a: Jellicent|63/100|[from] item: Leftovers
+|-heal|p1a: Xespirito|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Jellicent|Energy Ball|p1a: Xespirito
+|-supereffective|p1a: Xespirito
+|-damage|p1a: Xespirito|44/100
+|move|p1a: Xespirito|Volt Switch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|21/100
+|inactive|DRAGONKING JASON has 120 seconds left.
+|
+|switch|p1a: Bowser|Tyranitar, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|15/100|[from] Sandstorm
+|-heal|p2a: Jellicent|21/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Jellicent|Scald|p1a: Bowser
+|-supereffective|p1a: Bowser
+|-damage|p1a: Bowser|69/100
+|-status|p1a: Bowser|brn
+|move|p1a: Bowser|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: HaxerAreBastards|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|15/100|[from] Sandstorm
+|-heal|p2a: Jellicent|21/100|[from] item: Leftovers
+|-damage|p1a: Bowser|56/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|DRAGONKING JASON has 120 seconds left.
+|
+|move|p2a: Jellicent|Scald|p1a: Bowser
+|-supereffective|p1a: Bowser
+|-damage|p1a: Bowser|25/100 brn
+|move|p1a: Bowser|Pursuit|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bowser|12/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|84/100
+|-damage|p2a: Conkeldurr|78/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Bowser
+|-supereffective|p1a: Bowser
+|-crit|p1a: Bowser
+|-enditem|p1a: Bowser|Chople Berry|[eat]
+|-enditem|p1a: Bowser|Chople Berry|[weaken]
+|-damage|p1a: Bowser|0 fnt
+|-heal|p2a: Conkeldurr|85/100|[from] drain|[of] p1a: Bowser
+|-damage|p2a: Conkeldurr|75/100|[from] item: Life Orb
+|faint|p1a: Bowser
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|69/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Antedegmon|Hydreigon, F|100/100
+|turn|15
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Antedegmon|Fire Blast|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-damage|p1a: Antedegmon|91/100|[from] item: Life Orb
+|faint|p2a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Antedegmon|84/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|64/100
+|-damage|p2a: Tyranitar|52/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Antedegmon|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Antedegmon|atk|1
+|-unboost|p1a: Antedegmon|def|1
+|-damage|p1a: Antedegmon|75/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Antedegmon|68/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|69/100
+|-damage|p2a: Conkeldurr|63/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Dantopia|Mew|75/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Dantopia
+|-resisted|p1a: Dantopia
+|-damage|p1a: Dantopia|63/100
+|-damage|p2a: Conkeldurr|53/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dantopia|57/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|47/100|[from] Sandstorm
+|-heal|p1a: Dantopia|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Dantopia|Soft-Boiled|p1a: Dantopia
+|-heal|p1a: Dantopia|100/100
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Dantopia
+|-damage|p1a: Dantopia|70/100
+|-damage|p2a: Conkeldurr|37/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dantopia|64/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|31/100|[from] Sandstorm
+|-heal|p1a: Dantopia|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆HaxerAreBastards|Lucky asshole
+|c|☆HaxerAreBastards|-30 pts
+|c|☆HaxerAreBastards|For me
+|c|☆HaxerAreBastards|Because I miss focus blast
+|
+|move|p1a: Dantopia|Ice Beam|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|8/100
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Dantopia
+|-damage|p1a: Dantopia|41/100
+|-damage|p2a: Conkeldurr|0 fnt|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|win|DRAGONKING JASON
+|raw|DRAGONKING JASON's rating: 1454 &rarr; <strong>1482</strong><br />(+28 for winning)
+|raw|HaxerAreBastards's rating: 1603 &rarr; <strong>1575</strong><br />(-28 for losing)

@@ -1,0 +1,628 @@
+|j|☆sinatra518
+|j|☆porrompompom
+|player|p1|sinatra518|102
+|player|p2|porrompompom|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Starmie|item
+|poke|p2|Chansey, F|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Gothitelle, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Donphan, F|item
+|poke|p2|Slowbro, M|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Donphan|Donphan, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Donphan|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sinatra518)
+|
+|move|p1a: Landorus|U-turn|p2a: Donphan
+|-damage|p2a: Donphan|86/100
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Donphan|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: sinatra518|move: Stealth Rock
+|
+|-heal|p2a: Donphan|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|82/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Keldeo|Secret Sword|p2a: Ninetales
+|-damage|p2a: Ninetales|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Slowbro|[miss]
+|-miss|p1a: Keldeo|p2a: Slowbro
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|move|p2a: Slowbro|Psyshock|p1a: Landorus
+|-damage|p1a: Landorus|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Landorus|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|70/100
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Slowbro|Flamethrower|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|63/100
+|-status|p1a: Starmie|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowbro|76/100|[from] item: Leftovers
+|-damage|p1a: Starmie|51/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|move|p1a: Starmie|Rapid Spin|p2a: Gothitelle
+|-damage|p2a: Gothitelle|97/100
+|-sideend|p1: sinatra518|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|41/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Starmie|28/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Chansey|Chansey, F|82/100
+|move|p1a: Starmie|Hydro Pump|p2a: Chansey|[miss]
+|-miss|p1a: Starmie|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Starmie|16/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Heatran
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Starmie|Starmie|16/100 brn
+|move|p2a: Heatran|Magma Storm|p1a: Starmie|[miss]
+|-miss|p2a: Heatran|p1a: Starmie
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Starmie|4/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Starmie|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|75/100
+|-damage|p1a: Starmie|0 fnt|[from] item: Life Orb
+|faint|p1a: Starmie
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|13
+|
+|switch|p2a: Donphan|Donphan, F|92/100
+|-damage|p2a: Donphan|86/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Donphan
+|-crit|p2a: Donphan
+|-damage|p2a: Donphan|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Donphan|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: sinatra518|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|54/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Heatran
+|-sidestart|p2: porrompompom|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Heatran|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Heatran
+|-start|p2a: Heatran|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Heatran|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|17
+|
+|move|p2a: Heatran|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Heatran
+|-sidestart|p2: porrompompom|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-damage|p2a: Heatran|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|18
+|
+|move|p2a: Heatran|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Heatran
+|-sidestart|p2: porrompompom|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|-damage|p2a: Heatran|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|19
+|inactive|sinatra518 has 120 seconds left.
+|
+|move|p2a: Heatran|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|-damage|p2a: Heatran|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|20
+|inactive|sinatra518 has 120 seconds left.
+|
+|switch|p2a: Donphan|Donphan, F|54/100
+|-damage|p2a: Donphan|47/100|[from] Stealth Rock
+|-damage|p2a: Donphan|23/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|29/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|sinatra518 has 120 seconds left.
+|
+|move|p2a: Donphan|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|98/100
+|-damage|p2a: Donphan|16/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: porrompompom|Spikes|[from] move: Rapid Spin|[of] p2a: Donphan
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|move|p1a: Ferrothorn|Leech Seed|p2a: Donphan
+|-start|p2a: Donphan|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|22/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Donphan|10/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|22
+|
+|switch|p2a: Heatran|Heatran, F|69/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Heatran
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|76/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Heatran|Magma Storm|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|57/100
+|-damage|p1a: Landorus|45/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|turn|24
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|47/100|[from] Sandstorm
+|-heal|p2a: Slowbro|53/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Landorus|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|17/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|61/100|[from] Sandstorm
+|-heal|p2a: Slowbro|67/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Landorus|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|34/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|78/100|[from] Sandstorm
+|-heal|p2a: Slowbro|84/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|-damage|p2a: Slowbro|94/100|[from] Sandstorm
+|-heal|p2a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|sinatra518 has 120 seconds left.
+|inactive|sinatra518 has 90 seconds left.
+|
+|move|p1a: Keldeo|Hidden Power|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|39/100
+|move|p2a: Slowbro|Psyshock|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|21/100|[from] Sandstorm
+|-damage|p2a: Slowbro|33/100|[from] Sandstorm
+|-heal|p2a: Slowbro|39/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Ninetales|Ninetales, F|55/100
+|-damage|p2a: Ninetales|30/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Keldeo|Hidden Power|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|11/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1a: Keldeo|Secret Sword|p2a: Ninetales
+|-activate|p2a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|17/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Ninetales|Protect||[still]
+|-fail|p2a: Ninetales
+|move|p1a: Keldeo|Secret Sword|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|porrompompom has 120 seconds left.
+|
+|switch|p2a: Gothitelle|Gothitelle, M|97/100
+|-damage|p2a: Gothitelle|85/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Gothitelle|Thunderbolt|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|45/100
+|-damage|p1a: Landorus|32/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gothitelle|atk|1
+|turn|33
+|
+|switch|p2a: Slowbro|Slowbro, M|73/100
+|-damage|p2a: Slowbro|60/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowbro|33/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|sinatra518 has 120 seconds left.
+|
+|switch|p2a: Heatran|Heatran, F|82/100
+|-damage|p2a: Heatran|69/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, F|75/100
+|-damage|p2a: Chansey|62/100|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: Landorus|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|23/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|36
+|
+|move|p1a: Landorus|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|36/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|37
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|94/100|[from] Sandstorm
+|upkeep
+|turn|38
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Chansey
+|-damage|p2a: Chansey|79/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|94/100|[from] Sandstorm
+|upkeep
+|turn|39
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Chansey|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|88/100|[from] Sandstorm
+|-damage|p1a: Garchomp|88/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|94/100|[from] Sandstorm
+|-damage|p1a: Garchomp|76/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|switch|p2a: Donphan|Donphan, F|10/100
+|-damage|p2a: Donphan|4/100|[from] Stealth Rock
+|move|p1a: Garchomp|Outrage|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garchomp|57/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Gothitelle|Gothitelle, M|85/100
+|-damage|p2a: Gothitelle|72/100|[from] Stealth Rock
+|turn|42
+|
+|move|p2a: Gothitelle|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-enditem|p1a: Garchomp|Yache Berry|[weaken]
+|-damage|p1a: Garchomp|11/100 tox
+|move|p1a: Garchomp|Outrage|p2a: Gothitelle|[from]lockedmove
+|-damage|p2a: Gothitelle|0 fnt
+|-start|p1a: Garchomp|confusion|[fatigue]
+|faint|p2a: Gothitelle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garchomp|0 fnt|[from] psn
+|faint|p1a: Garchomp
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|32/100
+|switch|p2a: Chansey|Chansey, F|94/100
+|-damage|p1a: Landorus|20/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Chansey|atk|1
+|-damage|p2a: Chansey|82/100|[from] Stealth Rock
+|turn|43
+|
+|move|p1a: Landorus|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|18/100
+|faint|p1a: Landorus
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|62/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|turn|44
+|
+|move|p1a: Tyranitar|Crunch|p2a: Chansey
+|-damage|p2a: Chansey|35/100
+|-unboost|p2a: Chansey|def|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|79/100|[from] Sandstorm
+|upkeep
+|turn|45
+|
+|switch|p2a: Slowbro|Slowbro, M|66/100
+|-damage|p2a: Slowbro|54/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, F|79/100
+|-damage|p2a: Chansey|67/100|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Tyranitar|Crunch|p2a: Chansey
+|-damage|p2a: Chansey|41/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|85/100|[from] Sandstorm
+|upkeep
+|turn|47
+|
+|move|p1a: Tyranitar|Crunch|p2a: Chansey
+|-damage|p2a: Chansey|59/100
+|move|p2a: Chansey|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|53/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|70/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|move|p1a: Tyranitar|Crunch|p2a: Chansey
+|-damage|p2a: Chansey|26/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|70/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|58/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|move|p1a: Tyranitar|Crunch|p2a: Chansey
+|-damage|p2a: Chansey|41/100
+|-unboost|p2a: Chansey|def|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|85/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|39/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|move|p1a: Tyranitar|Crunch|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|2/100
+|move|p2a: Chansey|Seismic Toss|p1a: Tyranitar
+|-damage|p1a: Tyranitar|10/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|0 fnt|[from] Sandstorm
+|faint|p2a: Chansey
+|
+|win|sinatra518
+|upkeep
+|l|☆sinatra518
+|raw|sinatra518's rating: 1364 &rarr; <strong>1390</strong><br />(+26 for winning)
+|raw|porrompompom's rating: 1471 &rarr; <strong>1445</strong><br />(-26 for losing)
+|c|☆porrompompom|Enjoy the stolen points

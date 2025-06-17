@@ -1,0 +1,860 @@
+|j|☆sankafola
+|j|☆Pilif
+|player|p1|sankafola|juan|1433
+|player|p2|Pilif|169|1327
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Politoed, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Latios, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Salamence, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pilif)
+|
+|start
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Terrakion|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Pilif|move: Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-enditem|p1a: Terrakion|Focus Sash
+|-damage|p1a: Terrakion|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Terrakion|Rock Slide|p2a: Politoed
+|-damage|p2a: Politoed|67/100
+|cant|p2a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Terrakion|Rock Slide|p2a: Politoed
+|-damage|p2a: Politoed|35/100
+|move|p2a: Politoed|Hydro Pump|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|4
+|
+|move|p1a: Tornadus|Hurricane|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Tornadus|Hurricane|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|60/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Tornadus|Tornadus, M|13/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Tornadus
+|-status|p1a: Tornadus|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tornadus|80/100 par|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|9
+|
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|31/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tornadus
+|-start|p1a: Tornadus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|37/100|[from] item: Leftovers
+|-damage|p1a: Tornadus|68/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|47/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Bronzong|Bronzong|60/100
+|-damage|p2a: Bronzong|53/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Keldeo|Scald|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Jirachi|Jirachi|99/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|99/100
+|-sideend|p2: Pilif|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|47/100
+|move|p1a: Jirachi|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|37/100
+|-status|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Tornadus|Tornadus, M|68/100 par
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: sankafola|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Tornadus|Hurricane|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|16
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|move|p2a: Salamence|Draco Meteor|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-unboost|p2a: Salamence|spa|2
+|-damage|p2a: Salamence|91/100|[from] item: Life Orb
+|faint|p1a: Keldeo
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|50/100 par
+|move|p1a: Jirachi|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|40/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jirachi|[miss]
+|-miss|p2a: Ferrothorn|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Tornadus|Tornadus, M|68/100 par
+|-damage|p1a: Tornadus|43/100 par|[from] Stealth Rock
+|switch|p2a: Salamence|Salamence, M|91/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tornadus|100/100 par|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|20
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Salamence|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|57/100
+|-unboost|p2a: Salamence|spa|2
+|-damage|p2a: Salamence|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|53/100 par
+|switch|p1a: Tornadus|Tornadus, M|100/100 par
+|-damage|p1a: Tornadus|76/100 par|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Tentacruel|Tentacruel, M|99/100
+|move|p1a: Tornadus|Hurricane|p2a: Tentacruel
+|-damage|p2a: Tentacruel|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|32/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|38/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|inactive|sankafola has 120 seconds left.
+|
+|move|p2a: Tentacruel|Scald|p1a: Tornadus
+|-damage|p1a: Tornadus|27/100 par
+|move|p1a: Tornadus|Hurricane|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|81/100
+|turn|24
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Salamence|Hydro Pump|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|59/100
+|-damage|p2a: Salamence|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Salamence|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Salamence|spa|2
+|-damage|p2a: Salamence|61/100|[from] item: Life Orb
+|faint|p1a: Politoed
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|sankafola has 120 seconds left.
+|inactive|sankafola has 90 seconds left.
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|59/100 par
+|move|p1a: Latios|Psyshock|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|41/100 par
+|-damage|p1a: Latios|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|sankafola has 90 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|63/100
+|-damage|p1a: Jirachi|57/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Jirachi
+|-status|p1a: Jirachi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|63/100 par|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|69/100 par|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|60/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|57/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|74/100 par|[silent]
+|upkeep
+|turn|29
+|
+|switch|p2a: Salamence|Salamence, M|61/100
+|move|p1a: Jirachi|Water Pulse|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 par|[from] Leech Seed|[of] p2a: Salamence
+|-heal|p2a: Salamence|62/100|[silent]
+|upkeep
+|turn|30
+|inactive|Pilif has 120 seconds left.
+|
+|move|p2a: Salamence|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|32/100 par
+|-damage|p2a: Salamence|52/100|[from] item: Life Orb
+|move|p1a: Jirachi|Thunder|p2a: Salamence
+|-damage|p2a: Salamence|17/100
+|-status|p2a: Salamence|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|39/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|26/100 par|[from] Leech Seed|[of] p2a: Salamence
+|-heal|p2a: Salamence|32/100 par|[silent]
+|upkeep
+|turn|31
+|inactive|Pilif has 120 seconds left.
+|
+|cant|p2a: Salamence|par
+|cant|p1a: Jirachi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|32/100 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|20/100 par|[from] Leech Seed|[of] p2a: Salamence
+|-heal|p2a: Salamence|47/100 par|[silent]
+|upkeep
+|turn|32
+|inactive|Pilif has 90 seconds left.
+|
+|move|p2a: Salamence|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Salamence|37/100 par|[from] item: Life Orb
+|faint|p1a: Jirachi
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|27/100 par
+|-damage|p1a: Tornadus|2/100 par|[from] Stealth Rock
+|turn|33
+|
+|cant|p1a: Tornadus|par
+|move|p2a: Salamence|Outrage|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p2a: Salamence|27/100 par|[from] item: Life Orb
+|faint|p1a: Tornadus
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|78/100
+|-damage|p1a: Latios|66/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Latios|Psyshock|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|-damage|p1a: Latios|56/100|[from] item: Life Orb
+|faint|p2a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|74/100 par
+|turn|35
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100 par
+|-damage|p1a: Latios|46/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Leech Seed|p1a: Latios
+|-start|p1a: Latios|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|58/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|34/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|69/100 par|[silent]
+|upkeep
+|turn|36
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|84/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Latios
+|-status|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|75/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|72/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|85/100 par|[silent]
+|upkeep
+|turn|37
+|
+|cant|p1a: Latios|par
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|92/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|59/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|38
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100 par
+|-damage|p1a: Latios|49/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|83/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|37/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|94/100 par|[silent]
+|upkeep
+|turn|39
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|87/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|99/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|75/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|40
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100 par
+|-damage|p1a: Latios|65/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|85/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|53/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|95/100 par|[silent]
+|upkeep
+|turn|41
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100 par
+|-damage|p1a: Latios|43/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|79/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|30/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|90/100 par|[silent]
+|upkeep
+|turn|42
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|81/100 par
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|96/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|68/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|43
+|inactive|Pilif has 120 seconds left.
+|
+|cant|p1a: Latios|par
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|56/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|44
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|76/100 par
+|-damage|p1a: Latios|46/100 par|[from] item: Life Orb
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|82/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|34/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|93/100 par|[silent]
+|upkeep
+|turn|45
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|84/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|99/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|72/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|46
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|78/100 par
+|-damage|p1a: Latios|62/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|84/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|49/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|95/100 par|[silent]
+|upkeep
+|turn|47
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|99/100 par
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|87/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|48
+|
+|cant|p1a: Latios|par
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|75/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|49
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100 par
+|-damage|p1a: Latios|65/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|85/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|53/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|96/100 par|[silent]
+|upkeep
+|turn|50
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100 par
+|-damage|p1a: Latios|43/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|79/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|30/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|89/100 par|[silent]
+|upkeep
+|turn|51
+|inactive|Pilif has 120 seconds left.
+|
+|cant|p1a: Latios|par
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|96/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|18/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|52
+|inactive|Pilif has 120 seconds left.
+|inactive|sankafola has 120 seconds left.
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|68/100 par
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|56/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|53
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100 par
+|-damage|p1a: Latios|46/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|83/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|34/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|94/100 par|[silent]
+|upkeep
+|turn|54
+|inactive|sankafola has 120 seconds left.
+|
+|cant|p1a: Latios|par
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|99/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|21/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|55
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|72/100 par
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|59/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|56
+|inactive|sankafola has 120 seconds left.
+|inactive|sankafola has 90 seconds left.
+|
+|cant|p1a: Latios|par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|47/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|57
+|
+|cant|p1a: Latios|par
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|35/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|58
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|85/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|73/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|59
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100 par
+|-damage|p1a: Latios|63/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|83/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|50/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|94/100 par|[silent]
+|upkeep
+|turn|60
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|100/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|99/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|88/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|61
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|78/100 par
+|-damage|p1a: Latios|78/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|84/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|66/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|95/100 par|[silent]
+|upkeep
+|turn|62
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|72/100 par
+|-damage|p1a: Latios|56/100 par|[from] item: Life Orb
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|79/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|44/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|89/100 par|[silent]
+|upkeep
+|turn|63
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|94/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|95/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|82/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|64
+|
+|cant|p1a: Latios|par
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|69/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|65
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100 par
+|-damage|p1a: Latios|59/100 par|[from] item: Life Orb
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|59/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|47/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|69/100 par|[silent]
+|upkeep
+|turn|66
+|
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|37/100 par
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|37/100 par|[from] item: Life Orb
+|move|p2a: Ferrothorn|Bulldoze|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|43/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|25/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|54/100 par|[silent]
+|upkeep
+|turn|67
+|
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|38/100 par
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|15/100 par|[from] item: Life Orb
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|44/100 par|[from] item: Leftovers
+|-damage|p1a: Latios|2/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100 par|[silent]
+|upkeep
+|turn|68
+|inactive|sankafola has 120 seconds left.
+|
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|43/100 par
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|0 fnt|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|win|Pilif
+|l|☆sankafola
+|raw|sankafola's rating: 1434 &rarr; <strong>1408</strong><br />(-26 for losing)
+|raw|Pilif's rating: 1341 &rarr; <strong>1366</strong><br />(+25 for winning)
+|l|☆Pilif
+|j|☆sankafola
+|player|p1|sankafola|juan

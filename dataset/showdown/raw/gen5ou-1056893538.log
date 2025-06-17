@@ -1,0 +1,414 @@
+|j|☆FNH
+|j|☆Pilif
+|player|p1|FNH|acetrainerf-gen4dp|1324
+|player|p2|Pilif|101|1381
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Salamence, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pilif)
+|
+|move|p1a: Latios|Draco Meteor|p2a: Politoed
+|-damage|p2a: Politoed|10/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|91/100|[from] item: Life Orb
+|move|p2a: Politoed|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|25/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Latios|Psyshock|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|92/100
+|-damage|p1a: Latios|15/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|66/100
+|-singleturn|p1a: Latios|move: Roost
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Latios
+|-status|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Excadrill|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|5
+|j| Sombra da Maldade
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Excadrill|Hone Claws|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|1
+|-boost|p1a: Excadrill|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Excadrill|76/100|[from] Leech Seed|[of] p2a: Bronzong
+|upkeep
+|turn|6
+|j| Rex Barbatos Lupus
+|
+|move|p1a: Excadrill|Iron Head|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|73/100
+|cant|p2a: Bronzong|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Excadrill|63/100|[from] Leech Seed|[of] p2a: Bronzong
+|-heal|p2a: Bronzong|86/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p1a: Excadrill|Iron Head|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|61/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|27/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Excadrill|14/100|[from] Leech Seed|[of] p2a: Bronzong
+|-heal|p2a: Bronzong|74/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|14/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|20/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|49/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|55/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Ferrothorn|[miss]
+|-miss|p1a: Keldeo|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Heatran
+|-sidestart|p1: FNH|move: Stealth Rock
+|move|p1a: Heatran|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Pilif|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p2a: Tentacruel|Tentacruel, M|55/100
+|-damage|p2a: Tentacruel|42/100|[from] Stealth Rock
+|cant|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|48/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|54/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|99/100 par
+|-enditem|p1a: Heatran|Air Balloon
+|-sideend|p2: Pilif|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Heatran|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong|74/100
+|turn|16
+|l| Rex Barbatos Lupus
+|
+|move|p2a: Bronzong|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|66/100
+|-damage|p1a: Keldeo|60/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Keldeo|Secret Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, M|53/100
+|turn|18
+|
+|switch|p1a: Latios|Latios, M|66/100 par
+|-damage|p1a: Latios|53/100 par|[from] Stealth Rock
+|move|p2a: Amoonguss|Stun Spore|p1a: Latios
+|-fail|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|60/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Bronzong|Bronzong|74/100
+|cant|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|switch|p2a: Amoonguss|Amoonguss, M|93/100
+|cant|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|99/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p2a: Politoed|Politoed, M|10/100
+|move|p1a: Latios|Psyshock|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: Latios|43/100 par|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|22
+|
+|switch|p1a: Excadrill|Excadrill, F|14/100
+|-damage|p1a: Excadrill|11/100|[from] Stealth Rock
+|move|p2a: Salamence|Draco Meteor|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Salamence|spa|2
+|-damage|p2a: Salamence|91/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Bronzong|Bronzong|74/100
+|move|p1a: Jirachi|Ice Punch|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|switch|p1a: Latios|Latios, M|43/100 par
+|-damage|p1a: Latios|31/100 par|[from] Stealth Rock
+|move|p2a: Bronzong|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|81/100 par
+|-singleturn|p1a: Latios|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|switch|p2a: Bronzong|Bronzong|66/100
+|move|p1a: Latios|Psyshock|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|55/100
+|-damage|p1a: Latios|71/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p1a: Latios|Surf|p2a: Bronzong
+|-damage|p2a: Bronzong|8/100
+|-damage|p1a: Latios|61/100 par|[from] item: Life Orb
+|move|p2a: Bronzong|Trick|p1a: Latios
+|-activate|p2a: Bronzong|move: Trick|[of] p1a: Latios
+|-item|p1a: Latios|Choice Band|[from] move: Trick
+|-item|p2a: Bronzong|Life Orb|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p1a: Latios|Draco Meteor|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|91/100
+|turn|29
+|c| Sombra da Maldade|FNH give me ur team
+|c| Sombra da Maldade|pls
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Amoonguss
+|-damage|p2a: Amoonguss|77/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|84/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|c|☆FNH|why
+|c|☆FNH|its very bad
+|c| Sombra da Maldade|i will made same changes
+|
+|switch|p1a: Keldeo|Keldeo|60/100
+|-damage|p1a: Keldeo|54/100|[from] Stealth Rock
+|move|p2a: Amoonguss|Stun Spore|p1a: Keldeo
+|-status|p1a: Keldeo|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|90/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|c|☆FNH|nio ur retarded
+|inactive|FNH has 120 seconds left.
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-heal|p2a: Amoonguss|100/100|[from] drain|[of] p1a: Keldeo
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|FNH has 120 seconds left.
+|
+|switch|p1a: Latios|Latios, M|61/100 par
+|-damage|p1a: Latios|49/100 par|[from] Stealth Rock
+|turn|32
+|
+|switch|p2a: Salamence|Salamence, M|91/100
+|move|p1a: Latios|Psyshock|p2a: Salamence
+|-damage|p2a: Salamence|38/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|move|p2a: Salamence|Hydro Pump|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|13/100 par
+|-damage|p2a: Salamence|28/100|[from] item: Life Orb
+|move|p1a: Latios|Psyshock|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Pilif forfeited.
+|
+|win|FNH
+|l|☆Pilif
+|raw|FNH's rating: 1324 &rarr; <strong>1348</strong><br />(+24 for winning)
+|raw|Pilif's rating: 1381 &rarr; <strong>1358</strong><br />(-23 for losing)

@@ -1,0 +1,327 @@
+|join|kemonter
+|join|basco
+|player|p1|kemonter|16
+|player|p2|basco|170
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Garchomp, M
+|poke|p1|Dragonite, M
+|poke|p1|Roserade, M
+|poke|p1|Jirachi
+|poke|p1|Hippowdon, M
+|poke|p1|Starmie
+|poke|p2|Tyranitar, M
+|poke|p2|Magnezone
+|poke|p2|Terrakion
+|poke|p2|Latios, M, shiny
+|poke|p2|Scizor, F, shiny
+|poke|p2|Landorus-Therian, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Roserade|Roserade, M|323/323
+|switch|p2a: Bron Bron|Landorus-Therian, M|382/382
+|-ability|p2a: Bron Bron|Intimidate|[of] p1a: Roserade
+|-unboost|p1a: Roserade|atk|1
+|turn|1
+|
+|move|p2a: Bron Bron|U-turn|p1a: Roserade
+|-damage|p1a: Roserade|196/323
+|
+|switch|p2a: Miller|Scizor, F, shiny|343/343
+|move|p1a: Roserade|Sleep Powder|p2a: Miller|[miss]
+|-miss|p1a: Roserade|p2a: Miller
+|
+|-heal|p1a: Roserade|216/323|[from] item: Black Sludge
+|turn|2
+|
+|switch|p1a: Hippowdon|Hippowdon, M|419/419
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Miller|Bullet Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|308/419
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|334/419|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|382/382
+|-ability|p2a: Bron Bron|Intimidate|[of] p1a: Hippowdon
+|-unboost|p1a: Hippowdon|atk|1
+|move|p1a: Hippowdon|Stealth Rock|p2a: Bron Bron
+|-sidestart|p2: basco|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|360/419|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Dragonite|Dragonite, M|339/339
+|move|p2a: Bron Bron|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|318/339 tox|[from] sandstorm
+|-heal|p1a: Dragonite|339/339 tox|[from] item: Leftovers
+|-damage|p1a: Dragonite|318/339 tox|[from] psn
+|turn|5
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Bron Bron
+|-supereffective|p2a: Bron Bron
+|-damage|p2a: Bron Bron|0 fnt
+|faint|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|297/339 tox|[from] sandstorm
+|-heal|p1a: Dragonite|318/339 tox|[from] item: Leftovers
+|-damage|p1a: Dragonite|276/339 tox|[from] psn
+|
+|switch|p2a: Pat Riely|Tyranitar, M|403/403
+|-damage|p2a: Pat Riely|353/403|[from] Stealth Rock
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|move|p2a: Pat Riely|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: kemonter|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|378/403|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Miller|Scizor, F, shiny|343/343
+|-damage|p2a: Miller|301/343|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Miller
+|-resisted|p2a: Miller
+|-damage|p2a: Miller|269/343
+|
+|-weather|Sandstorm|[upkeep]
+|turn|8
+|
+|switch|p1a: Hippowdon|Hippowdon, M|360/419
+|-damage|p1a: Hippowdon|334/419|[from] Stealth Rock
+|move|p2a: Miller|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|190/419
+|
+|switch|p2a: Pat Riely|Tyranitar, M|378/403
+|-damage|p2a: Pat Riely|328/403|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|353/403|[from] item: Leftovers
+|-heal|p1a: Hippowdon|216/419|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|379/404|[from] Stealth Rock
+|move|p2a: Pat Riely|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|351/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|376/404|[from] item: Leftovers
+|-heal|p2a: Pat Riely|378/403|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Ray Allen|Magnezone|283/283
+|-damage|p2a: Ray Allen|266/283|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-damage|p2a: Ray Allen|234/283
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|401/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|251/283|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Jirachi|Body Slam|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-damage|p2a: Ray Allen|220/283
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|150/283
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|167/283|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Jirachi|Body Slam|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|337/404
+|-boost|p2a: Ray Allen|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|362/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|184/283|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Jirachi|Body Slam|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|259/404
+|-boost|p2a: Ray Allen|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|284/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|201/283|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|309/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|218/283|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|334/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|235/283|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-activate|p1a: Jirachi|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Ray Allen|252/283|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|263/404
+|-boost|p2a: Ray Allen|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|288/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|269/283|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Ray Allen|283/283|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Jirachi|Body Slam|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|232/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|257/404|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Jirachi|Body Slam|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-damage|p2a: Ray Allen|254/283
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|184/283
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|282/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|201/283|[from] item: Leftovers
+|turn|21
+|chat|kemonter|rofl nice
+|chat|basco|swag
+|
+|move|p1a: Jirachi|Body Slam|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|117/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|142/404|[from] item: Leftovers
+|-heal|p2a: Ray Allen|218/283|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Jirachi|Body Slam|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|235/283|[from] item: Leftovers
+|join|lwkkazz
+|chat|kemonter|yes tard fuck, swag
+|
+|switch|p1a: Roserade|Roserade, M|216/323
+|-damage|p1a: Roserade|176/323|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Ray Allen|Flash Cannon|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|252/283|[from] item: Leftovers
+|chat|basco|yolo
+|
+|switch|p1a: Starmie|Starmie|323/323
+|-damage|p1a: Starmie|283/323|[from] Stealth Rock
+|turn|24
+|leave|lwkkazz
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|-sideend|p1: kemonter|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Ray Allen|Charge Beam|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-boost|p2a: Ray Allen|spa|1
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|269/283|[from] item: Leftovers
+|
+|switch|p1a: Dragonite|Dragonite, M|276/339 tox
+|turn|25
+|
+|move|p1a: Dragonite|Fire Blast|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Flash Cannon|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|283/283|[from] item: Leftovers
+|-message|kemonter forfeited.
+|
+|win|basco
+|raw|Ladder updating...
+|leave|kemonter
+|player|p1
+|raw|kemonter's rating: 1619 &rarr; <strong>1588</strong><br />(-31 for losing)
+|raw|basco's rating: 1395 &rarr; <strong>1426</strong><br />(+31 for winning)
+|chat|basco|too good

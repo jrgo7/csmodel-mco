@@ -1,0 +1,602 @@
+|join|dtw
+|join|immatureprick
+|player|p1|dtw|1
+|player|p2|immatureprick|214
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Scrafty, M
+|poke|p1|Reuniclus, M
+|poke|p1|Staraptor, F
+|poke|p1|Gengar, M
+|poke|p1|Skarmory, F
+|poke|p1|Volcarona, F
+|poke|p2|Chansey, F
+|poke|p2|Gliscor, F, shiny
+|poke|p2|Ferrothorn, F, shiny
+|poke|p2|Tentacruel, F, shiny
+|poke|p2|Politoed, F, shiny
+|poke|p2|Jirachi, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Skarmory|Stealth Rock|p2a: Politoed
+|-sidestart|p2: immatureprick|move: Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|147/334
+|-enditem|p1a: Skarmory|Red Card|[of] p2a: Politoed
+|drag|p2a: Ferrothorn|Ferrothorn, F, shiny|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|move|p1a: Skarmory|Whirlwind|p2a: Ferrothorn
+|drag|p2a: Tentacruel|Tentacruel, F, shiny|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|341/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/364|[from] item: Black Sludge
+|-damage|p1a: Skarmory|106/334|[from] Leech Seed|[of] p2a: Tentacruel
+|-heal|p2a: Tentacruel|364/364|[silent]
+|turn|3
+|
+|move|p2a: Tentacruel|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|join|Feral Ferrothorn
+|
+|switch|p1a: Reuniclus|Reuniclus, M|406/406
+|turn|4
+|
+|switch|p2a: Jirachi|Jirachi, shiny|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|404/404|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Reuniclus|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|300/404
+|move|p2a: Jirachi|Thunder|p1a: Reuniclus
+|-damage|p1a: Reuniclus|299/406
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|325/404|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Jirachi
+|-damage|p2a: Jirachi|142/404
+|move|p2a: Jirachi|Thunder|p1a: Reuniclus
+|-damage|p1a: Reuniclus|185/406
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|167/404|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Tentacruel|Tentacruel, F, shiny|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|move|p1a: Reuniclus|Focus Blast|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|176/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|198/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|220/364|[from] item: Black Sludge
+|turn|8
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Reuniclus|Psyshock|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|242/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|264/364|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|turn|9
+|
+|move|p2a: Tentacruel|Scald|p1a: Reuniclus
+|-damage|p1a: Reuniclus|46/406
+|-status|p1a: Reuniclus|brn
+|move|p1a: Reuniclus|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Jirachi|Jirachi, shiny|167/404
+|-damage|p2a: Jirachi|142/404|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Jirachi|Thunder|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|167/404|[from] item: Leftovers
+|
+|switch|p1a: Gengar|Gengar, M|261/261
+|turn|11
+|
+|switch|p2a: Chansey|Chansey, F|704/704
+|-damage|p2a: Chansey|616/704|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|196/261
+|move|p2a: Chansey|Stealth Rock|p1a: Gengar
+|-sidestart|p1: dtw|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p1a: Gengar|Focus Blast|p2a: Chansey|[miss]
+|-miss|p1a: Gengar|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p1a: Gengar|Focus Blast|p2a: Chansey|[miss]
+|-miss|p1a: Gengar|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|move|p1a: Gengar|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|483/704
+|-damage|p1a: Gengar|170/261|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p1a: Gengar|Pain Split|p2a: Chansey
+|-sethp|p2a: Chansey|437/704|p1a: Gengar|261/261|[from] move: Pain Split
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|switch|p1a: Scrafty|Scrafty, M|334/334
+|-damage|p1a: Scrafty|314/334|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|334/334|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|354/354
+|-damage|p2a: Gliscor|310/354|[from] Stealth Rock
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|19
+|
+|move|p2a: Gliscor|Earthquake|p1a: Scrafty
+|-damage|p1a: Scrafty|271/334
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|291/334|[from] item: Leftovers
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|20
+|
+|move|p2a: Gliscor|Earthquake|p1a: Scrafty
+|-damage|p1a: Scrafty|242/334
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|262/334|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Scrafty|Crunch|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|282/334|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|266/354 tox
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|302/334|[from] item: Leftovers
+|-heal|p2a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|23
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Scrafty
+|-damage|p1a: Scrafty|288/334
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|308/334|[from] item: Leftovers
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|24
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Scrafty
+|-damage|p1a: Scrafty|295/334
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|315/334|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Scrafty
+|-damage|p1a: Scrafty|304/334
+|cant|p1a: Scrafty|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|324/334|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Scrafty
+|-crit|p1a: Scrafty
+|-damage|p1a: Scrafty|234/334
+|move|p1a: Scrafty|Crunch|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|254/334|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|266/354 tox
+|move|p1a: Scrafty|Crunch|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|274/334|[from] item: Leftovers
+|-heal|p2a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|28
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Scrafty|Drain Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|294/334|[from] item: Leftovers
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|29
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|266/354 tox
+|move|p1a: Scrafty|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-heal|p1a: Scrafty|334/334|[from] drain|[of] p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|30
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Scrafty|Crunch|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|31
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|330/351
+|-damage|p2a: Ferrothorn|309/351|[from] Stealth Rock
+|move|p1a: Scrafty|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Scrafty|293/334|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Scrafty|238/334|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|258/334|[from] item: Leftovers
+|
+|switch|p2a: Jirachi|Jirachi, shiny|167/404
+|-damage|p2a: Jirachi|142/404|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Jirachi|Thunder|p1a: Scrafty
+|-damage|p1a: Scrafty|194/334
+|-status|p1a: Scrafty|par
+|move|p1a: Scrafty|Crunch|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|214/334 par|[from] item: Leftovers
+|
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-fieldactivate|move: Perish Song
+|cant|p1a: Scrafty|par
+|
+|-start|p2a: Politoed|perish3
+|-start|p1a: Scrafty|perish3
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|360/384|[from] item: Leftovers
+|-heal|p1a: Scrafty|234/334 par|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Politoed|Scald|p1a: Scrafty
+|-damage|p1a: Scrafty|149/334 par
+|move|p1a: Scrafty|Crunch|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-start|p1a: Scrafty|perish2
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Scrafty|ability: Shed Skin
+|-curestatus|p1a: Scrafty|par
+|-heal|p1a: Scrafty|169/334|[from] item: Leftovers
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|354/354 tox
+|-damage|p2a: Gliscor|310/354 tox|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Scrafty|Crunch|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-start|p1a: Scrafty|perish1
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|189/334|[from] item: Leftovers
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|36
+|
+|switch|p1a: Gengar|Gengar, M|261/261
+|-damage|p1a: Gengar|229/261|[from] Stealth Rock
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|266/354 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|37
+|
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|164/261
+|move|p2a: Gliscor|Earthquake|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|38
+|
+|switch|p2a: Chansey|Chansey, F|704/704
+|-damage|p2a: Chansey|616/704|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Chansey
+|-immune|p2a: Chansey|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|39
+|
+|move|p1a: Gengar|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|374/704
+|-damage|p1a: Gengar|138/261|[from] item: Life Orb
+|move|p2a: Chansey|Stealth Rock|p1a: Gengar
+|-fail|p1a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|turn|40
+|
+|move|p1a: Gengar|Focus Blast|p2a: Chansey|[miss]
+|-miss|p1a: Gengar|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|RainDance|[upkeep]
+|turn|41
+|
+|move|p1a: Gengar|Focus Blast|p2a: Chansey|[miss]
+|-miss|p1a: Gengar|p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|42
+|
+|move|p1a: Gengar|Focus Blast|p2a: Chansey|[miss]
+|-miss|p1a: Gengar|p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|43
+|
+|move|p1a: Gengar|Focus Blast|p2a: Chansey|[miss]
+|-miss|p1a: Gengar|p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|44
+|
+|move|p1a: Gengar|Pain Split|p2a: Chansey
+|-sethp|p2a: Chansey|421/704|p1a: Gengar|261/261|[from] move: Pain Split
+|move|p2a: Chansey|Seismic Toss|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|45
+|
+|switch|p1a: Staraptor|Staraptor, F|311/311
+|-damage|p1a: Staraptor|234/311|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|RainDance|[upkeep]
+|turn|46
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|354/354 tox
+|-damage|p2a: Gliscor|310/354 tox|[from] Stealth Rock
+|move|p1a: Staraptor|Brave Bird|p2a: Gliscor
+|-damage|p2a: Gliscor|75/354 tox
+|-damage|p1a: Staraptor|156/311|[from] recoil|[of] p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|119/354 tox|[from] ability: Poison Heal
+|turn|47
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Staraptor|Brave Bird|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|163/354 tox|[from] ability: Poison Heal
+|turn|48
+|
+|switch|p2a: Chansey|Chansey, F|704/704
+|-damage|p2a: Chansey|616/704|[from] Stealth Rock
+|move|p1a: Staraptor|Brave Bird|p2a: Chansey
+|-damage|p2a: Chansey|117/704
+|-damage|p1a: Staraptor|0 fnt|[from] recoil|[of] p2a: Chansey
+|faint|p1a: Staraptor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Scrafty|Scrafty, M|189/334
+|-damage|p1a: Scrafty|169/334|[from] Stealth Rock
+|turn|49
+|
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|469/704
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|189/334|[from] item: Leftovers
+|turn|50
+|
+|move|p1a: Scrafty|Drain Punch|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|127/704
+|-heal|p1a: Scrafty|334/334|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Toxic|p1a: Scrafty
+|-status|p1a: Scrafty|tox
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Scrafty|ability: Shed Skin
+|-curestatus|p1a: Scrafty|tox
+|turn|51
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|163/354 tox
+|-damage|p2a: Gliscor|119/354 tox|[from] Stealth Rock
+|move|p1a: Scrafty|Crunch|p2a: Gliscor
+|-damage|p2a: Gliscor|32/354 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|76/354 tox|[from] ability: Poison Heal
+|turn|52
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|120/354 tox|[from] ability: Poison Heal
+|turn|53
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Scrafty
+|-damage|p1a: Scrafty|312/334
+|cant|p1a: Scrafty|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|332/334|[from] item: Leftovers
+|-heal|p2a: Gliscor|164/354 tox|[from] ability: Poison Heal
+|turn|54
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Scrafty
+|-damage|p1a: Scrafty|310/334
+|move|p1a: Scrafty|Crunch|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scrafty|330/334|[from] item: Leftovers
+|
+|switch|p2a: Chansey|Chansey, F|127/704
+|-damage|p2a: Chansey|39/704|[from] Stealth Rock
+|turn|55
+|
+|move|p1a: Scrafty|Drain Punch|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-heal|p1a: Scrafty|334/334|[from] drain|[of] p2a: Chansey
+|faint|p2a: Chansey
+|
+|win|dtw
+|raw|Ladder updating...
+|chat|dtw|gg
+|raw|dtw's rating: 1352 &rarr; <strong>1373</strong><br />(+21 for winning)
+|raw|immatureprick's rating: 1369 &rarr; <strong>1348</strong><br />(-21 for losing)
+|leave|immatureprick
+|player|p2

@@ -1,0 +1,699 @@
+|j|☆kawaii cub
+|j|☆go canada
+|player|p1|kawaii cub|292|1272
+|player|p2|go canada|2|1406
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Mienshao, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Hydreigon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kawaii cub)
+|
+|start
+|switch|p1a: Jellicent|Jellicent, F, shiny|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|move|p1a: Jellicent|Taunt|p2a: Hippowdon
+|-start|p2a: Hippowdon|move: Taunt
+|cant|p2a: Hippowdon|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Jellicent|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|move|p2a: Ferrothorn|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|63/100|[from] Sandstorm
+|-heal|p1a: Jellicent|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Hydreigon|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|88/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Hippowdon|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: kawaii cub|move: Stealth Rock
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|82/100 brn
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: go canada|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: go canada|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: kawaii cub|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|69/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 par
+|-damage|p1a: Tyranitar|88/100 par|[from] Spikes
+|-damage|p1a: Tyranitar|76/100 par|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|63/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|90/100 brn|[silent]
+|-damage|p2a: Ferrothorn|77/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Hydreigon
+|-sidestart|p1: kawaii cub|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|82/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|71/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Hydreigon|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|76/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|77/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|65/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|84/100|[from] Spikes
+|move|p1a: Hydreigon|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|70/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|54/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|64/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|turn|16
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|31/100
+|-enditem|p2a: Excadrill|Air Balloon
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|57/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|51/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|18
+|
+|switch|p1a: Tyranitar|Tyranitar, M|63/100 par
+|-damage|p1a: Tyranitar|47/100 par|[from] Spikes
+|-damage|p1a: Tyranitar|34/100 par|[from] Stealth Rock
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Dragonite|Substitute|p2a: Dragonite
+|-start|p2a: Dragonite|Substitute
+|-damage|p2a: Dragonite|76/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: go canada|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|69/100|[from] Sandstorm
+|-heal|p2a: Dragonite|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|cant|p1a: Tyranitar|par
+|move|p2a: Dragonite|Dragon Tail|p1a: Tyranitar
+|-damage|p1a: Tyranitar|15/100 par
+|drag|p1a: Skarmory|Skarmory, F|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|69/100|[from] Sandstorm
+|-heal|p2a: Dragonite|76/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Dragonite|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|22/100
+|move|p1a: Skarmory|Whirlwind|p2a: Dragonite
+|drag|p2a: Reuniclus|Reuniclus, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|28/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Tyranitar|Tyranitar, M|15/100 par
+|-damage|p1a: Tyranitar|0 fnt|[from] Spikes
+|faint|p1a: Tyranitar
+|move|p2a: Reuniclus|Thunder Wave|p1: Tyranitar|[notarget]
+|-fail|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, F, shiny|100/100
+|-damage|p1a: Jellicent|84/100|[from] Spikes
+|-damage|p1a: Jellicent|71/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Hydreigon|Hydreigon, F|88/100
+|-damage|p2a: Hydreigon|76/100|[from] Stealth Rock
+|move|p1a: Jellicent|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|57/100|[from] Sandstorm
+|-damage|p1a: Jellicent|65/100|[from] Sandstorm
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Skarmory|Skarmory, F|28/100
+|-damage|p1a: Skarmory|15/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|51/100|[from] Sandstorm
+|-heal|p1a: Skarmory|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Skarmory
+|-enditem|p2a: Hydreigon|Dark Gem|[from] gem|[move] Dark Pulse
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|44/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, F, shiny|100/100
+|-damage|p1a: Mienshao|84/100|[from] Spikes
+|-damage|p1a: Mienshao|78/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|65/100 brn
+|-damage|p2a: Ferrothorn|58/100 brn|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|42/100 brn|[from] Spikes
+|move|p1a: Mienshao|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100 brn
+|-damage|p1a: Mienshao|66/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Hydreigon|Hydreigon, M|51/100|[from]move: U-turn
+|-damage|p1a: Hydreigon|39/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|33/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|19/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|27/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|28
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Reuniclus
+|-damage|p2a: Reuniclus|34/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Reuniclus|Thunder Wave|p1a: Hydreigon
+|-status|p1a: Hydreigon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|20/100 par|[from] Sandstorm
+|-heal|p2a: Reuniclus|40/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|96/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Alakazam|Encore|p2a: Reuniclus
+|-start|p2a: Reuniclus|Encore
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p2a: Hydreigon|Hydreigon, F|44/100
+|-damage|p2a: Hydreigon|32/100|[from] Stealth Rock
+|move|p1a: Alakazam|Focus Blast|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|32
+|
+|switch|p1a: Hydreigon|Hydreigon, M|20/100 par
+|-damage|p1a: Hydreigon|8/100 par|[from] Stealth Rock
+|move|p2a: Reuniclus|Thunder Wave|p1a: Hydreigon
+|-fail|p1a: Hydreigon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|2/100 par|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|move|p1a: Hydreigon|Draco Meteor|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|0 fnt|[from] Sandstorm
+|faint|p1a: Hydreigon
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, F, shiny|66/100
+|switch|p2a: Dragonite|Dragonite, F|76/100
+|-damage|p1a: Mienshao|49/100|[from] Spikes
+|-damage|p1a: Mienshao|43/100|[from] Stealth Rock
+|-damage|p2a: Dragonite|51/100|[from] Stealth Rock
+|turn|34
+|c|☆go canada|k
+|
+|move|p1a: Mienshao|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|7/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|57/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|37/100|[from] Sandstorm
+|-damage|p2a: Dragonite|51/100|[from] Sandstorm
+|-heal|p2a: Dragonite|57/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Mienshao|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|13/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|63/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|31/100|[from] Sandstorm
+|-damage|p2a: Dragonite|56/100|[from] Sandstorm
+|-heal|p2a: Dragonite|63/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Mienshao|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|20/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|70/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|26/100|[from] Sandstorm
+|-damage|p2a: Dragonite|64/100|[from] Sandstorm
+|-heal|p2a: Dragonite|70/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Mienshao|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|24/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|74/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|20/100|[from] Sandstorm
+|-damage|p2a: Dragonite|67/100|[from] Sandstorm
+|-heal|p2a: Dragonite|74/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Mienshao|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|33/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|83/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|14/100|[from] Sandstorm
+|-damage|p2a: Dragonite|77/100|[from] Sandstorm
+|-heal|p2a: Dragonite|83/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Mienshao|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|40/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|90/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|8/100|[from] Sandstorm
+|-damage|p2a: Dragonite|83/100|[from] Sandstorm
+|-heal|p2a: Dragonite|90/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Mienshao|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|44/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|94/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|2/100|[from] Sandstorm
+|-damage|p2a: Dragonite|88/100|[from] Sandstorm
+|-heal|p2a: Dragonite|94/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Mienshao|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|49/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|99/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|0 fnt|[from] Sandstorm
+|-damage|p2a: Dragonite|93/100|[from] Sandstorm
+|faint|p1a: Mienshao
+|-heal|p2a: Dragonite|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|42
+|c|☆kawaii cub|gg
+|
+|move|p1a: Alakazam|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Alakazam|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|64/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Alakazam|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|63/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|-end|p2a: Dragonite|Encore
+|upkeep
+|turn|45
+|
+|move|p1a: Alakazam|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|move|p2a: Dragonite|Roost||[still]
+|-fail|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Alakazam|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Alakazam|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|62/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|-end|p2a: Dragonite|Encore
+|upkeep
+|turn|48
+|
+|move|p1a: Alakazam|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|move|p2a: Dragonite|Roost||[still]
+|-fail|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Alakazam|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|-end|p2a: Dragonite|Encore
+|upkeep
+|turn|50
+|
+|move|p1a: Alakazam|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|63/100
+|move|p2a: Dragonite|Dragon Tail|p1a: Alakazam
+|-damage|p1a: Alakazam|42/100
+|drag|p1a: Jellicent|Jellicent, F, shiny|71/100
+|-damage|p1a: Jellicent|55/100|[from] Spikes
+|-damage|p1a: Jellicent|42/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|57/100|[from] Sandstorm
+|-damage|p1a: Jellicent|36/100|[from] Sandstorm
+|-heal|p2a: Dragonite|63/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|42/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|move|p2a: Dragonite|Dragon Tail|p1a: Jellicent
+|-damage|p1a: Jellicent|31/100
+|drag|p1a: Alakazam|Alakazam, M|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|57/100 brn|[from] Sandstorm
+|-heal|p2a: Dragonite|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragonite|51/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Alakazam|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|9/100 brn
+|move|p2a: Dragonite|Dragon Tail|p1a: Alakazam
+|-damage|p1a: Alakazam|11/100
+|drag|p1a: Jellicent|Jellicent, F, shiny|31/100
+|-damage|p1a: Jellicent|15/100|[from] Spikes
+|-damage|p1a: Jellicent|2/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|2/100 brn|[from] Sandstorm
+|-damage|p1a: Jellicent|0 fnt|[from] Sandstorm
+|faint|p1a: Jellicent
+|-heal|p2a: Dragonite|9/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragonite|0 fnt|[from] brn
+|faint|p2a: Dragonite
+|
+|win|kawaii cub
+|upkeep
+|raw|kawaii cub's rating: 1272 &rarr; <strong>1306</strong><br />(+34 for winning)
+|raw|go canada's rating: 1406 &rarr; <strong>1378</strong><br />(-28 for losing)
+|l|☆go canada

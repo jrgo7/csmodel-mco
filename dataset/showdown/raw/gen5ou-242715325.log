@@ -1,0 +1,409 @@
+|join|hisataakaa
+|join|Mustounet
+|player|p1|hisataakaa|5
+|player|p2|Mustounet|146
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Jellicent, F
+|poke|p1|Garchomp, F
+|poke|p1|Skarmory, F
+|poke|p1|Latios, M
+|poke|p1|Heatran, F
+|poke|p1|Tyranitar, F
+|poke|p2|Abomasnow, M
+|poke|p2|Tentacruel, F
+|poke|p2|Heatran, M
+|poke|p2|Kyurem
+|poke|p2|Scizor, M, shiny
+|poke|p2|Gliscor, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|383/383
+|switch|p2a: Scizor|Scizor, M, shiny|281/281
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Jellicent|Jellicent, F|402/402
+|move|p2a: Scizor|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|301/402
+|
+|switch|p2a: Tentacruel|Tentacruel, F|363/363
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|341/363|[from] sandstorm
+|-damage|p1a: Jellicent|276/402|[from] sandstorm
+|-heal|p2a: Tentacruel|363/363|[from] item: Black Sludge
+|-heal|p1a: Jellicent|301/402|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Jellicent
+|-sidestart|p1: hisataakaa|move: Toxic Spikes
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Tentacruel
+|-status|p2a: Tentacruel|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|341/363 brn|[from] sandstorm
+|-damage|p1a: Jellicent|276/402|[from] sandstorm
+|-heal|p2a: Tentacruel|363/363 brn|[from] item: Black Sludge
+|-heal|p1a: Jellicent|301/402|[from] item: Leftovers
+|-damage|p2a: Tentacruel|318/363 brn|[from] brn
+|turn|3
+|
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Skarmory
+|-sidestart|p1: hisataakaa|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|296/363 brn|[from] sandstorm
+|-heal|p2a: Tentacruel|318/363 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|273/363 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Heatran|Heatran, M|385/385
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Skarmory|Spikes|p2a: Heatran
+|-sidestart|p2: Mustounet|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|turn|5
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: hisataakaa|move: Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Heatran
+|-sidestart|p2: Mustounet|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|turn|6
+|
+|switch|p1a: Jellicent|Jellicent, F|301/402
+|-status|p1a: Jellicent|tox
+|-damage|p1a: Jellicent|251/402 tox|[from] Stealth Rock
+|move|p2a: Heatran|Fire Blast|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|161/402 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|136/402 tox|[from] sandstorm
+|-heal|p1a: Jellicent|161/402 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|136/402 tox|[from] psn
+|turn|7
+|
+|switch|p2a: Tentacruel|Tentacruel, F|273/363 brn
+|-damage|p2a: Tentacruel|213/363 brn|[from] Spikes
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|337/402 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|191/363 brn|[from] sandstorm
+|-damage|p1a: Jellicent|312/402 tox|[from] sandstorm
+|-heal|p2a: Tentacruel|213/363 brn|[from] item: Black Sludge
+|-heal|p1a: Jellicent|337/402 tox|[from] item: Leftovers
+|-damage|p2a: Tentacruel|168/363 brn|[from] brn
+|-damage|p1a: Jellicent|287/402 tox|[from] psn
+|turn|8
+|
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|-damage|p1a: Skarmory|293/334|[from] Stealth Rock
+|move|p2a: Tentacruel|Knock Off|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|292/334
+|-enditem|p1a: Skarmory|Leftovers|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|146/363 brn|[from] sandstorm
+|-heal|p2a: Tentacruel|168/363 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|123/363 brn|[from] brn
+|turn|9
+|
+|switch|p1a: Jellicent|Jellicent, F|287/402 tox
+|-damage|p1a: Jellicent|237/402 tox|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|101/363 brn|[from] sandstorm
+|-damage|p1a: Jellicent|212/402 tox|[from] sandstorm
+|-heal|p2a: Tentacruel|123/363 brn|[from] item: Black Sludge
+|-heal|p1a: Jellicent|237/402 tox|[from] item: Leftovers
+|-damage|p2a: Tentacruel|78/363 brn|[from] brn
+|-damage|p1a: Jellicent|212/402 tox|[from] psn
+|turn|10
+|
+|switch|p1a: Skarmory|Skarmory, F|292/334
+|-damage|p1a: Skarmory|251/334|[from] Stealth Rock
+|move|p2a: Tentacruel|Knock Off|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|250/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|56/363 brn|[from] sandstorm
+|-heal|p2a: Tentacruel|78/363 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|33/363 brn|[from] brn
+|turn|11
+|
+|move|p2a: Tentacruel|Knock Off|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|249/334
+|move|p1a: Skarmory|Spikes|p2a: Tentacruel
+|-sidestart|p2: Mustounet|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|11/363 brn|[from] sandstorm
+|-heal|p2a: Tentacruel|33/363 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|0 fnt|[from] brn
+|faint|p2a: Tentacruel
+|join|Rafdu43
+|
+|switch|p2a: Heatran|Heatran, M|385/385
+|-item|p2a: Heatran|Air Balloon
+|turn|12
+|
+|switch|p1a: Garchomp|Garchomp, F|360/360
+|-status|p1a: Garchomp|tox
+|-damage|p1a: Garchomp|338/360 tox|[from] Stealth Rock
+|move|p2a: Heatran|Roar|p1a: Garchomp
+|drag|p1a: Heatran|Heatran, F|324/324
+|-damage|p1a: Heatran|284/324|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|304/324|[from] item: Leftovers
+|turn|13
+|leave|Rafdu43
+|
+|switch|p1a: Garchomp|Garchomp, F|338/360 tox
+|-damage|p1a: Garchomp|316/360 tox|[from] Stealth Rock
+|move|p2a: Heatran|Roar|p1a: Garchomp
+|drag|p1a: Tyranitar|Tyranitar, F|383/383
+|-damage|p1a: Tyranitar|336/383|[from] Stealth Rock
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|313/383 tox|[from] psn
+|turn|14
+|
+|move|p2a: Heatran|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|227/383 tox
+|move|p1a: Tyranitar|Pursuit|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|355/385
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|181/383 tox|[from] psn
+|turn|15
+|
+|move|p2a: Heatran|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|95/383 tox
+|move|p1a: Tyranitar|Stealth Rock|p2a: Heatran
+|-sidestart|p2: Mustounet|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|26/383 tox|[from] psn
+|turn|16
+|
+|move|p2a: Heatran|Fire Blast|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Garchomp|Garchomp, F|316/360 tox
+|-damage|p1a: Garchomp|294/360 tox|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Gliscor|Gliscor, F|353/353
+|-damage|p2a: Gliscor|309/353|[from] Stealth Rock
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garchomp|272/360 tox|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|18
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Garchomp|Dragon Claw|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garchomp|228/360 tox|[from] psn
+|-heal|p2a: Gliscor|353/353 tox|[from] ability: Poison Heal
+|turn|19
+|
+|move|p1a: Garchomp|Dragon Claw|p2a: Gliscor
+|-damage|p2a: Gliscor|176/353 tox
+|move|p2a: Gliscor|Ice Fang|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|20/360 tox
+|-damage|p2a: Gliscor|132/353 tox|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Salac Berry|[eat]
+|-boost|p1a: Garchomp|spe|1|[from] item: Salac Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garchomp|0 fnt|[from] psn
+|-heal|p2a: Gliscor|176/353 tox|[from] ability: Poison Heal
+|faint|p1a: Garchomp
+|
+|switch|p1a: Latios|Latios, M|301/301
+|-damage|p1a: Latios|264/301|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Draco Meteor|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|246/301|[from] sandstorm
+|-heal|p2a: Gliscor|220/353 tox|[from] ability: Poison Heal
+|turn|21
+|
+|switch|p1a: Heatran|Heatran, F|304/324
+|-damage|p1a: Heatran|264/324|[from] Stealth Rock
+|switch|p2a: Scizor|Scizor, M, shiny|281/281
+|-damage|p2a: Scizor|246/281|[from] Stealth Rock
+|-damage|p2a: Scizor|176/281|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|284/324|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Heatran|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|304/324|[from] item: Leftovers
+|
+|switch|p2a: Heatran|Heatran, M|355/385
+|-damage|p2a: Heatran|259/385|[from] Spikes
+|-damage|p2a: Heatran|211/385|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Heatran|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|324/324|[from] item: Leftovers
+|
+|switch|p2a: Gliscor|Gliscor, F|220/353 tox
+|-damage|p2a: Gliscor|176/353 tox|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Heatran|Flamethrower|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Kyurem|Kyurem|391/391
+|-damage|p2a: Kyurem|294/391|[from] Stealth Rock
+|-damage|p2a: Kyurem|197/391|[from] Spikes
+|-ability|p2a: Kyurem|Pressure
+|turn|25
+|
+|switch|p1a: Jellicent|Jellicent, F|212/402 tox
+|-damage|p1a: Jellicent|162/402 tox|[from] Stealth Rock
+|move|p2a: Kyurem|Focus Blast|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|173/391|[from] sandstorm
+|-damage|p1a: Jellicent|137/402 tox|[from] sandstorm
+|-heal|p1a: Jellicent|162/402 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|137/402 tox|[from] psn
+|turn|26
+|
+|switch|p2a: Abomasnow|Abomasnow, M|383/383
+|-damage|p2a: Abomasnow|288/383|[from] Spikes
+|-damage|p2a: Abomasnow|193/383|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|338/402 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jellicent|313/402 tox|[from] hail
+|-heal|p1a: Jellicent|338/402 tox|[from] item: Leftovers
+|-heal|p2a: Abomasnow|216/383|[from] item: Leftovers
+|-damage|p1a: Jellicent|288/402 tox|[from] psn
+|turn|27
+|
+|switch|p1a: Skarmory|Skarmory, F|249/334
+|-damage|p1a: Skarmory|208/334|[from] Stealth Rock
+|move|p2a: Abomasnow|Seed Bomb|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|186/334
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|166/334|[from] hail
+|-heal|p2a: Abomasnow|239/383|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Skarmory|Drill Peck|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|41/383
+|move|p2a: Abomasnow|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|146/334|[from] hail
+|-heal|p2a: Abomasnow|64/383|[from] item: Leftovers
+|-damage|p1a: Skarmory|105/334|[from] Leech Seed|[of] p2a: Abomasnow
+|-heal|p2a: Abomasnow|105/383|[silent]
+|turn|29
+|
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1a: Skarmory|Drill Peck|p2a: Abomasnow
+|-activate|p2a: Abomasnow|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|85/334|[from] hail
+|-heal|p2a: Abomasnow|128/383|[from] item: Leftovers
+|-damage|p1a: Skarmory|44/334|[from] Leech Seed|[of] p2a: Abomasnow
+|-heal|p2a: Abomasnow|169/383|[silent]
+|turn|30
+|
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-fail|p2a: Abomasnow
+|move|p1a: Skarmory|Drill Peck|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|24/334|[from] hail
+|
+|switch|p2a: Kyurem|Kyurem|173/391
+|-damage|p2a: Kyurem|76/391|[from] Spikes
+|-damage|p2a: Kyurem|0 fnt|[from] Stealth Rock
+|faint|p2a: Kyurem
+|
+|win|hisataakaa
+|raw|Ladder updating...
+|raw|hisataakaa's rating: 1355 &rarr; <strong>1379</strong><br />(+24 for winning)
+|raw|Mustounet's rating: 1418 &rarr; <strong>1395</strong><br />(-23 for losing)
+|c|★Mustounet|-23
+|c|★Mustounet|lol
+|leave|Mustounet
+|player|p2

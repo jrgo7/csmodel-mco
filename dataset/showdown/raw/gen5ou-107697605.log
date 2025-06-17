@@ -1,0 +1,244 @@
+|join|Alterana
+|join|professorcaralho
+|player|p1|Alterana|73
+|player|p2|professorcaralho|220
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Alakazam, M
+|poke|p1|Tyranitar, M, shiny
+|poke|p1|Wobbuffet, M
+|poke|p1|Landorus-Therian, M, shiny
+|poke|p1|Heracross, M
+|poke|p1|Salamence, M, shiny
+|poke|p2|Politoed, M
+|poke|p2|Latios, M
+|poke|p2|Rotom-Wash
+|poke|p2|Breloom, F
+|poke|p2|Jirachi
+|poke|p2|Scizor, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Wobbuffet|Wobbuffet, M|584/584
+|switch|p2a: Brastemp|Rotom-Wash|303/303
+|turn|1
+|
+|move|p2a: Brastemp|Trick|p1a: Wobbuffet
+|-activate|p2a: Brastemp|move: Trick|[of] p1a: Wobbuffet
+|-item|p1a: Wobbuffet|Choice Scarf|[from] move: Trick
+|-item|p2a: Brastemp|Leftovers|[from] move: Trick
+|move|p1a: Wobbuffet|Mirror Coat|p2a: Brastemp
+|-fail|p2a: Brastemp
+|
+|turn|2
+|
+|move|p2a: Brastemp|Thunder Wave|p1a: Wobbuffet
+|-status|p1a: Wobbuffet|par
+|move|p1a: Wobbuffet|Mirror Coat|p2a: Brastemp
+|-fail|p2a: Brastemp
+|
+|turn|3
+|
+|move|p2a: Brastemp|Volt Switch|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|502/584 par
+|
+|switch|p2a: RaboGrande|Breloom, F|261/261
+|move|p1a: Wobbuffet|Mirror Coat|p2a: RaboGrande
+|-damage|p2a: RaboGrande|97/261
+|
+|-status|p2a: RaboGrande|tox|[from] item: Toxic Orb
+|turn|4
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M, shiny|319/319
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: RaboGrande
+|-unboost|p2a: RaboGrande|atk|1
+|move|p2a: RaboGrande|Substitute|p2a: RaboGrande
+|-start|p2a: RaboGrande|Substitute
+|-damage|p2a: RaboGrande|32/261 tox
+|
+|-heal|p2a: RaboGrande|64/261 tox|[from] ability: Poison Heal
+|turn|5
+|
+|move|p1a: Landorus-Therian|Hidden Power|p2a: RaboGrande
+|-supereffective|p2a: RaboGrande
+|-end|p2a: RaboGrande|Substitute
+|move|p2a: RaboGrande|Spore|p1a: Landorus-Therian
+|-status|p1a: Landorus-Therian|slp
+|
+|-heal|p2a: RaboGrande|96/261 tox|[from] ability: Poison Heal
+|turn|6
+|
+|switch|p1a: Alakazam|Alakazam, M|252/252
+|switch|p2a: SãoPedro|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: SãoPedro
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Minicraque|Jirachi|341/341
+|move|p1a: Alakazam|Psychic|p2a: Minicraque
+|-resisted|p2a: Minicraque
+|-damage|p2a: Minicraque|303/341
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Minicraque|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|188/404
+|
+|-weather|Sandstorm|[upkeep]
+|turn|9
+|
+|move|p2a: Minicraque|Iron Head|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M, shiny|319/319 slp
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Minicraque
+|-unboost|p2a: Minicraque|atk|1
+|turn|10
+|
+|switch|p2a: SãoPedro|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: SãoPedro
+|cant|p1a: Landorus-Therian|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|cant|p1a: Landorus-Therian|slp
+|move|p2a: SãoPedro|Hydro Pump|p1a: Landorus-Therian
+|-supereffective|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|0 fnt
+|faint|p1a: Landorus-Therian
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Wobbuffet|Wobbuffet, M|502/584 par
+|turn|12
+|
+|move|p2a: SãoPedro|Hydro Pump|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|214/584 par
+|move|p1a: Wobbuffet|Mirror Coat|p2a: SãoPedro
+|-damage|p2a: SãoPedro|0 fnt
+|faint|p2a: SãoPedro
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chapolin|Scizor, M|281/281
+|turn|13
+|
+|switch|p1a: Alakazam|Alakazam, M|252/252
+|move|p2a: Chapolin|Swords Dance|p2a: Chapolin
+|-boost|p2a: Chapolin|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p2a: Chapolin|Bullet Punch|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/252
+|-damage|p2a: Chapolin|253/281|[from] item: Life Orb
+|move|p1a: Alakazam|Hidden Power|p2a: Chapolin
+|-supereffective|p2a: Chapolin
+|-damage|p2a: Chapolin|45/281
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p1a: Wobbuffet|Wobbuffet, M|214/584 par
+|move|p2a: Chapolin|Bullet Punch|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|0 fnt
+|-damage|p2a: Chapolin|17/281|[from] item: Life Orb
+|faint|p1a: Wobbuffet
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Salamence|Salamence, M, shiny|331/331
+|turn|16
+|
+|switch|p1a: Alakazam|Alakazam, M|1/252
+|move|p2a: Chapolin|Bullet Punch|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p2a: Chapolin|0 fnt|[from] item: Life Orb
+|faint|p1a: Alakazam
+|faint|p2a: Chapolin
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Heracross|Heracross, M|302/302
+|switch|p2a: Brastemp|Rotom-Wash|303/303
+|turn|17
+|
+|move|p1a: Heracross|Close Combat|p2a: Brastemp
+|-damage|p2a: Brastemp|113/303
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|move|p2a: Brastemp|Thunder Wave|p1a: Heracross
+|-status|p1a: Heracross|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Brastemp|131/303|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Brastemp|Hydro Pump|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Brastemp|149/303|[from] item: Leftovers
+|
+|switch|p1a: Salamence|Salamence, M, shiny|331/331
+|turn|19
+|
+|move|p1a: Salamence|Aqua Tail|p2a: Brastemp
+|-resisted|p2a: Brastemp
+|-damage|p2a: Brastemp|66/303
+|move|p2a: Brastemp|Thunder Wave|p1a: Salamence
+|-status|p1a: Salamence|par
+|-enditem|p1a: Salamence|Lum Berry|[eat]
+|-curestatus|p1a: Salamence|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Brastemp|84/303|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Salamence|Outrage|p2a: Brastemp
+|-damage|p2a: Brastemp|0 fnt
+|faint|p2a: Brastemp
+|-boost|p1a: Salamence|atk|1|[from] ability: Moxie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Minicraque|Jirachi|303/341
+|turn|21
+|
+|move|p2a: Minicraque|Ice Punch|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|professorcaralho
+|raw|Ladder updating...
+|raw|Alterana's rating: 1341 &rarr; <strong>1322</strong><br />(-19 for losing)
+|raw|professorcaralho's rating: 1369 &rarr; <strong>1387</strong><br />(+18 for winning)
+|leave|Alterana
+|player|p1

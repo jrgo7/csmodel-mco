@@ -1,0 +1,402 @@
+|j|☆RawrMX
+|j|☆The Daisuke
+|player|p1|RawrMX|101
+|player|p2|The Daisuke|152
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Chansey, F|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Sableye, F|item
+|poke|p1|Cresselia, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Keldeo-Resolute|item
+|teampreview
+|
+|start
+|switch|p1a: Joy|Chansey, F|100/100
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|1
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Joy
+|-damage|p1a: Joy|72/100
+|move|p1a: Joy|Seismic Toss|p2a: Dragonite
+|-damage|p2a: Dragonite|70/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Joy|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: The Daisuke|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Taiga|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Taiga
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Taiga
+|-sidestart|p1: RawrMX|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Politoed|Politoed, M, shiny|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Taiga|Substitute|p1a: Taiga
+|-start|p1a: Taiga|Substitute
+|-damage|p1a: Taiga|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Taiga|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Daisuke)
+|
+|move|p1a: Taiga|Will-O-Wisp|p2a: Politoed|[miss]
+|-miss|p1a: Taiga|p2a: Politoed
+|move|p2a: Politoed|Hydro Pump|p1a: Taiga|[miss]
+|-miss|p2a: Politoed|p1a: Taiga
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Taiga|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|move|p1a: Taiga|Hypnosis|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Taiga|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Taiga|Fire Blast|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|47/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Taiga|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Taiga|Fire Blast|p2a: Alakazam
+|-damage|p2a: Alakazam|19/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Taiga|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Taiga|Fire Blast|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|The Daisuke has 120 seconds left.
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Keldeo|Surf|p1a: Taiga
+|-supereffective|p1a: Taiga
+|-end|p1a: Taiga|Substitute
+|move|p1a: Taiga|Will-O-Wisp|p2a: Keldeo|[miss]
+|-miss|p1a: Taiga|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Moonwalker|Cresselia, F|100/100
+|-damage|p1a: Moonwalker|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Surf|p1a: Moonwalker
+|-damage|p1a: Moonwalker|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moonwalker|49/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Keldeo|Surf|p1a: Moonwalker
+|-damage|p1a: Moonwalker|5/100
+|move|p1a: Moonwalker|Psyshock|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|42/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moonwalker|11/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Keldeo|Surf|p1a: Moonwalker
+|-damage|p1a: Moonwalker|0 fnt
+|faint|p1a: Moonwalker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Joy|Chansey, F|72/100
+|-damage|p1a: Joy|59/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Joy|Soft-Boiled|p1a: Joy
+|-heal|p1a: Joy|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Taiga|Ninetales, F|100/100
+|-damage|p1a: Taiga|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Taiga
+|move|p2a: Ferrothorn|Leech Seed|p1a: Taiga
+|-start|p1a: Taiga|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Taiga|82/100|[from] item: Leftovers
+|-damage|p1a: Taiga|69/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|16
+|
+|switch|p2a: Politoed|Politoed, M, shiny|88/100
+|-damage|p2a: Politoed|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Taiga|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Taiga|75/100|[from] item: Leftovers
+|-damage|p1a: Taiga|63/100|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|89/100 brn|[silent]
+|-damage|p2a: Politoed|77/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Joy|Chansey, F|100/100
+|-damage|p1a: Joy|88/100|[from] Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Joy
+|-damage|p1a: Joy|53/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|64/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Joy|Soft-Boiled|p1a: Joy
+|-heal|p1a: Joy|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p1a: Helmaroc|Skarmory, M|100/100
+|-damage|p1a: Helmaroc|88/100|[from] Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Helmaroc
+|-resisted|p1a: Helmaroc
+|-damage|p1a: Helmaroc|79/100
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|42/100
+|-damage|p2a: Keldeo|35/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Helmaroc|85/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Joy|Chansey, F|100/100
+|-damage|p1a: Joy|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Joy
+|-damage|p1a: Joy|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Joy|Soft-Boiled|p1a: Joy
+|-heal|p1a: Joy|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Tripler|Hitmontop, M|100/100
+|-damage|p1a: Tripler|94/100|[from] Stealth Rock
+|-ability|p1a: Tripler|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tripler
+|-start|p1a: Tripler|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tripler|100/100|[from] item: Leftovers
+|-damage|p1a: Tripler|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|23
+|
+|switch|p1a: Helmaroc|Skarmory, M|85/100
+|-damage|p1a: Helmaroc|73/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Helmaroc
+|-sidestart|p1: RawrMX|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Helmaroc|79/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Helmaroc|Spikes|p2a: Ferrothorn
+|-sidestart|p2: The Daisuke|Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Helmaroc
+|-start|p1a: Helmaroc|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Helmaroc|85/100|[from] item: Leftovers
+|-damage|p1a: Helmaroc|73/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|25
+|
+|switch|p1a: Taiga|Ninetales, F|63/100
+|-damage|p1a: Taiga|51/100|[from] Spikes
+|-damage|p1a: Taiga|26/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Taiga
+|switch|p2a: Keldeo|Keldeo-Resolute|35/100
+|-damage|p2a: Keldeo|29/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|17/100|[from] Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Taiga|32/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Umbra|Sableye, F|100/100
+|-damage|p1a: Umbra|88/100|[from] Stealth Rock
+|-damage|p1a: Umbra|75/100|[from] Spikes
+|move|p2a: Keldeo|Secret Sword|p1a: Umbra
+|-immune|p1a: Umbra|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Umbra|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|82/100|[from] Spikes
+|move|p1a: Umbra|Night Shade|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Umbra|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Umbra|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|move|p2a: Ferrothorn|Power Whip|p1a: Umbra|[miss]
+|-miss|p2a: Ferrothorn|p1a: Umbra
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Umbra|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|17/100
+|-damage|p2a: Keldeo|5/100|[from] Spikes
+|-damage|p2a: Keldeo|0 fnt|[from] Stealth Rock
+|faint|p2a: Keldeo
+|move|p1a: Umbra|Night Shade|p2: Keldeo|[notarget]
+|-notarget
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Umbra|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M, shiny|64/100 brn
+|-damage|p2a: Politoed|52/100 brn|[from] Stealth Rock
+|-damage|p2a: Politoed|39/100 brn|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|30
+|
+|switch|p1a: Joy|Chansey, F|100/100
+|-damage|p1a: Joy|88/100|[from] Spikes
+|-damage|p1a: Joy|75/100|[from] Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Joy
+|-damage|p1a: Joy|42/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|27/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Joy|[miss]
+|-miss|p2a: Politoed|p1a: Joy
+|move|p1a: Joy|Soft-Boiled|p1a: Joy
+|-heal|p1a: Joy|92/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|14/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Joy
+|-damage|p1a: Joy|59/100
+|move|p1a: Joy|Soft-Boiled|p1a: Joy
+|-heal|p1a: Joy|100/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|2/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Joy
+|-damage|p1a: Joy|69/100
+|move|p1a: Joy|Soft-Boiled|p1a: Joy
+|-heal|p1a: Joy|100/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Politoed
+|-message|The Daisuke forfeited.
+|
+|win|RawrMX
+|l|☆The Daisuke
+|raw|RawrMX's rating: 1357 &rarr; <strong>1383</strong><br />(+26 for winning)
+|raw|The Daisuke's rating: 1457 &rarr; <strong>1432</strong><br />(-25 for losing)

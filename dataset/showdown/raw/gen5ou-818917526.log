@@ -1,0 +1,698 @@
+|j|☆porrompompom
+|j|☆Invisible Enemy
+|player|p1|porrompompom|10
+|player|p2|Invisible Enemy|52
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Mew|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Starmie|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Breloom, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Snorlax, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|1
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|88/100
+|
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|91/100
+|
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Skarmory|Spikes|p2a: Magnezone
+|-sidestart|p2: Invisible Enemy|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Magnezone|Flash Cannon|p1a: Hippowdon
+|-damage|p1a: Hippowdon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|-damage|p2a: Breloom|88/100|[from] Spikes
+|move|p1a: Hippowdon|Stealth Rock|p2a: Breloom
+|-sidestart|p2: Invisible Enemy|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|82/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|79/100|[from] item: Leftovers
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Breloom|Leech Seed|p1a: Amoonguss
+|-immune|p1a: Amoonguss|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|75/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|100/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|move|p1a: Amoonguss|Sleep Talk|p1a: Amoonguss
+|-fail|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|82/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|100/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|move|p2a: Breloom|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|53/100
+|-heal|p2a: Breloom|100/100 tox|[from] drain|[of] p1a: Amoonguss
+|move|p1a: Amoonguss|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|69/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|63/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|47/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|53/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|switch|p1a: Skarmory|Skarmory, M|91/100
+|move|p2a: Breloom|Drain Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|62/100
+|-heal|p2a: Breloom|90/100 tox|[from] drain|[of] p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|84/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|j| Tezile
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|90/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|move|p2a: Breloom|Drain Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|61/100
+|move|p1a: Skarmory|Whirlwind|p2a: Breloom
+|drag|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-damage|p1a: Skarmory|56/100
+|move|p1a: Skarmory|Whirlwind|p2a: Landorus
+|drag|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Hippowdon|Hippowdon, F|79/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Breloom|Breloom, F|100/100 tox
+|-damage|p2a: Breloom|88/100 tox|[from] Spikes
+|-damage|p2a: Breloom|82/100 tox|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Breloom
+|drag|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|88/100|[from] Spikes
+|-damage|p2a: Magnezone|82/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|91/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Breloom|Breloom, F|82/100 tox
+|-damage|p2a: Breloom|69/100 tox|[from] Spikes
+|-damage|p2a: Breloom|63/100 tox|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Breloom
+|drag|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|75/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hippowdon|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|97/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Hippowdon|Whirlwind|p2a: Landorus
+|drag|p2a: Magnezone|Magnezone|82/100
+|-damage|p2a: Magnezone|70/100|[from] Spikes
+|-damage|p2a: Magnezone|64/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Hippowdon
+|-damage|p1a: Hippowdon|69/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Magnezone
+|drag|p2a: Snorlax|Snorlax, M|99/100
+|-damage|p2a: Snorlax|88/100|[from] Spikes
+|-damage|p2a: Snorlax|75/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|69/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|76/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Skarmory|Skarmory, M|56/100
+|-damage|p1a: Skarmory|43/100|[from] Stealth Rock
+|move|p2a: Snorlax|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|34/100
+|-status|p1a: Skarmory|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|69/100|[from] Sandstorm
+|-heal|p2a: Snorlax|75/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|82/100|[from] Spikes
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|84/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|76/100|[from] Sandstorm
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|67/100
+|-status|p1a: Starmie|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|61/100 brn|[from] Sandstorm
+|-damage|p2a: Keldeo|76/100|[from] Sandstorm
+|-heal|p1a: Starmie|67/100 brn|[from] item: Leftovers
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|-damage|p1a: Starmie|54/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Tyranitar|Tyranitar, F|76/100
+|-damage|p2a: Tyranitar|64/100|[from] Spikes
+|-damage|p2a: Tyranitar|51/100|[from] Stealth Rock
+|move|p1a: Starmie|Rapid Spin|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|51/100
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|48/100 brn|[from] Sandstorm
+|-heal|p1a: Starmie|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Starmie|42/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Starmie|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|23/100
+|move|p2a: Tyranitar|Pursuit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|turn|24
+|
+|move|p1a: Tyranitar|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|63/100 tox
+|-damage|p2a: Breloom|57/100 tox|[from] Stealth Rock
+|-damage|p2a: Breloom|44/100 tox|[from] Spikes
+|turn|25
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Breloom|Leech Seed|p1a: Mew
+|-start|p1a: Mew|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|94/100|[from] Sandstorm
+|-damage|p2a: Breloom|38/100 tox|[from] Sandstorm
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|-damage|p1a: Mew|88/100|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|54/100 tox|[silent]
+|-heal|p2a: Breloom|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Mew|Ice Beam|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|82/100|[from] Sandstorm
+|-damage|p2a: Breloom|60/100 tox|[from] Sandstorm
+|-heal|p1a: Mew|88/100|[from] item: Leftovers
+|-damage|p1a: Mew|76/100|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|75/100 tox|[silent]
+|-heal|p2a: Breloom|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|switch|p1a: Skarmory|Skarmory, M|84/100 par
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|82/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|move|p2a: Breloom|Drain Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|55/100 par
+|-heal|p2a: Breloom|100/100 tox|[from] drain|[of] p1a: Skarmory
+|move|p1a: Skarmory|Spikes|p2a: Breloom
+|-sidestart|p2: Invisible Enemy|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|move|p2a: Breloom|Drain Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|23/100 par
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|73/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|move|p2a: Breloom|Drain Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|45/100 par
+|move|p1a: Skarmory|Whirlwind|p2a: Breloom
+|drag|p2a: Landorus|Landorus-Therian, M|75/100
+|-damage|p2a: Landorus|63/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|95/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|9/100 par
+|move|p1a: Skarmory|Whirlwind|p2a: Landorus
+|drag|p2a: Keldeo|Keldeo-Resolute|82/100
+|-damage|p2a: Keldeo|76/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|60/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|54/100|[from] Sandstorm
+|-heal|p2a: Keldeo|60/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Amoonguss|Amoonguss, F|86/100
+|move|p2a: Keldeo|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|72/100
+|-status|p1a: Amoonguss|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|54/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|66/100 brn|[from] Sandstorm
+|-heal|p2a: Keldeo|60/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|72/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|60/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p2a: Breloom|Breloom, F|100/100 tox
+|-damage|p2a: Breloom|84/100 tox|[from] Spikes
+|-damage|p2a: Breloom|78/100 tox|[from] Stealth Rock
+|move|p1a: Amoonguss|Giga Drain|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|65/100 tox
+|-heal|p1a: Amoonguss|65/100 brn|[from] drain|[of] p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|59/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|59/100 brn|[from] Sandstorm
+|-heal|p1a: Amoonguss|65/100 brn|[from] item: Black Sludge
+|-heal|p2a: Breloom|72/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Amoonguss|52/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p1a: Mew|Mew|76/100
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|70/100|[from] Sandstorm
+|-damage|p2a: Breloom|65/100 tox|[from] Sandstorm
+|-heal|p1a: Mew|76/100|[from] item: Leftovers
+|-heal|p2a: Breloom|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|
+|move|p1a: Mew|Taunt|p2a: Breloom
+|-start|p2a: Breloom|move: Taunt
+|cant|p2a: Breloom|move: Taunt|Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|70/100|[from] Sandstorm
+|-damage|p2a: Breloom|72/100 tox|[from] Sandstorm
+|-heal|p1a: Mew|76/100|[from] item: Leftovers
+|-heal|p2a: Breloom|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|
+|move|p1a: Mew|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|70/100|[from] Sandstorm
+|-heal|p1a: Mew|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|75/100
+|-damage|p2a: Snorlax|59/100|[from] Spikes
+|-damage|p2a: Snorlax|46/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Mew|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|move|p2a: Snorlax|Body Slam|p1a: Mew
+|-damage|p1a: Mew|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|49/100|[from] Sandstorm
+|-damage|p2a: Snorlax|40/100|[from] Sandstorm
+|-heal|p1a: Mew|55/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|46/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Skarmory|Skarmory, M|9/100 par
+|move|p2a: Snorlax|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|40/100|[from] Sandstorm
+|-heal|p2a: Snorlax|46/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|turn|40
+|
+|move|p1a: Tyranitar|Superpower|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Snorlax
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|63/100
+|-damage|p2a: Landorus|50/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|41
+|
+|switch|p1a: Hippowdon|Hippowdon, F|76/100
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|82/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Landorus|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|11/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Landorus
+|drag|p2a: Magnezone|Magnezone|64/100
+|-damage|p2a: Magnezone|58/100|[from] Stealth Rock
+|-damage|p2a: Magnezone|41/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|17/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p1a: Amoonguss|Amoonguss, F|86/100 brn
+|move|p2a: Magnezone|Flash Cannon|p1a: Amoonguss
+|-damage|p1a: Amoonguss|53/100 brn
+|-unboost|p1a: Amoonguss|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|47/100 brn|[from] Sandstorm
+|-heal|p1a: Amoonguss|53/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|41/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p1a: Hippowdon|Hippowdon, F|17/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, F|74/100 brn
+|turn|45
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Amoonguss
+|-damage|p1a: Amoonguss|46/100 brn
+|move|p1a: Amoonguss|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|40/100 brn|[from] Sandstorm
+|-heal|p1a: Amoonguss|46/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|34/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|cant|p2a: Magnezone|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|47
+|
+|move|p1a: Tyranitar|Superpower|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-enditem|p2a: Magnezone|Chople Berry|[eat]
+|-enditem|p2a: Magnezone|Chople Berry|[weaken]
+|-damage|p2a: Magnezone|1/100 slp
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|cant|p2a: Magnezone|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|48
+|
+|move|p1a: Tyranitar|Superpower|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|50/100
+|-damage|p2a: Landorus|38/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|49
+|
+|switch|p1a: Mew|Mew|55/100
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-start|p2a: Landorus|Substitute
+|-damage|p2a: Landorus|13/100
+|-enditem|p2a: Landorus|Salac Berry|[eat]
+|-boost|p2a: Landorus|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|49/100|[from] Sandstorm
+|-heal|p1a: Mew|55/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|c|☆porrompompom|enough internet for today
+|c|☆Invisible Enemy|sry my man, ridiculous game
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Mew|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-end|p2a: Landorus|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|49/100|[from] Sandstorm
+|-heal|p1a: Mew|55/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Landorus|Earthquake|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, F|67/100 brn
+|turn|52
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Landorus|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, F|99/100 brn
+|turn|53
+|
+|move|p2a: Landorus|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|win|Invisible Enemy
+|raw|porrompompom's rating: 1415 &rarr; <strong>1397</strong><br />(-18 for losing)
+|raw|Invisible Enemy's rating: 1451 &rarr; <strong>1469</strong><br />(+18 for winning)
+|l|☆porrompompom

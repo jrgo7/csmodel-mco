@@ -1,0 +1,477 @@
+|j|☆porrompompom
+|j|☆PistachoDulce
+|player|p1|porrompompom|10
+|player|p2|PistachoDulce|161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|56/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Politoed|Toxic|p2a: Latios
+|-status|p2a: Latios|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|62/100|[from] item: Leftovers
+|-damage|p2a: Latios|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Latios|Psyshock|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|68/100|[from] item: Leftovers
+|-damage|p2a: Latios|83/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|73/100 tox|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Latios|55/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|4
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: PistachoDulce|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Tyranitar|Superpower|p1a: Keldeo
+|-damage|p1a: Keldeo|23/100
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|17/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Latios|Latios, M|55/100 tox
+|-damage|p2a: Latios|42/100 tox|[from] Stealth Rock
+|move|p1a: Keldeo|Secret Sword|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|11/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Jirachi|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Jirachi|Fire Punch|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|31/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|87/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|11/100
+|move|p2a: Landorus|Hidden Power|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|0 fnt|[from] Sandstorm
+|faint|p1a: Keldeo
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|13
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Landorus
+|-sidestart|p2: PistachoDulce|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: PistachoDulce|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p1a: Jirachi|Jirachi|93/100
+|-damage|p1a: Jirachi|87/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|32/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|j| mawwwwp
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|28/100
+|cant|p2a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|44/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|51/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Landorus|Hidden Power|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|90/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Landorus|Hidden Power|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|96/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|80/100
+|-damage|p2a: Landorus|84/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|82/100|[from] Sandstorm
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|86/100|[from] item: Leftovers
+|-damage|p2a: Rotom|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|97/100|[silent]
+|upkeep
+|turn|23
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Tentacruel
+|-status|p1a: Tentacruel|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|82/100 brn|[from] Sandstorm
+|-damage|p2a: Rotom|70/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|88/100 brn|[from] item: Black Sludge
+|-heal|p2a: Rotom|76/100|[from] item: Leftovers
+|-damage|p2a: Rotom|64/100|[from] Leech Seed|[of] p1a: Tentacruel
+|-heal|p1a: Tentacruel|98/100 brn|[silent]
+|-damage|p1a: Tentacruel|86/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Tentacruel|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|move|p2a: Rotom|Volt Switch|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|43/100 brn
+|
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-damage|p2a: Landorus|71/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tentacruel|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|37/100 brn|[from] Sandstorm
+|-heal|p1a: Tentacruel|43/100 brn|[from] item: Black Sludge
+|-heal|p2a: Landorus|77/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|30/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Tentacruel|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|-status|p2a: Landorus|brn
+|move|p2a: Landorus|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|30/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|17/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|97/100
+|-damage|p1a: Ferrothorn|91/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Landorus|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100
+|move|p1a: Ferrothorn|Spikes|p2a: Landorus
+|-sidestart|p2: PistachoDulce|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|23/100 brn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|81/100|[from] item: Leftovers
+|-damage|p2a: Landorus|11/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Landorus|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Landorus
+|-start|p2a: Landorus|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|17/100 brn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|-damage|p2a: Landorus|5/100 brn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|87/100|[silent]
+|-damage|p2a: Landorus|0 fnt|[from] brn
+|faint|p2a: Landorus
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|94/100
+|-damage|p2a: Jirachi|69/100|[from] Spikes
+|-damage|p2a: Jirachi|63/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|44/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Landorus|U-turn|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|switch|p1a: Jirachi|Jirachi|57/100
+|-damage|p1a: Jirachi|51/100|[from] Stealth Rock
+|move|p2a: Jirachi|Toxic|p1a: Jirachi
+|-immune|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|50/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|25/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|31/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|38/100|[from] item: Leftovers
+|upkeep
+|c|☆porrompompom|heheh
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-damage|p1a: Landorus|64/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Jirachi
+|turn|32
+|
+|move|p1a: Landorus|U-turn|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|87/100
+|-damage|p1a: Ferrothorn|81/100|[from] Stealth Rock
+|move|p2a: Jirachi|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|44/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Jirachi|31/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|38/100|[from] item: Leftovers
+|upkeep
+|-message|porrompompom forfeited.
+|
+|win|PistachoDulce
+|l|☆porrompompom
+|raw|porrompompom's rating: 1603 &rarr; <strong>1569</strong><br />(-34 for losing)
+|raw|PistachoDulce's rating: 1302 &rarr; <strong>1336</strong><br />(+34 for winning)

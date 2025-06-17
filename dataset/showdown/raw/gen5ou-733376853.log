@@ -1,0 +1,717 @@
+|j|☆pasch
+|j|☆meroz
+|player|p1|pasch|187
+|player|p2|meroz|92
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Lapras, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Politoed, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p2|Infernape, F|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Donphan, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by meroz)
+|inactive|pasch has 135 seconds left.
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|90/100
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|71/100
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Latias|[miss]
+|-miss|p2a: Ninetales|p1a: Latias
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Ninetales|Roar|p1a: Latias
+|drag|p1a: Tentacruel|Tentacruel, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Lapras|Lapras, M|100/100
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Lapras
+|-status|p1a: Lapras|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Lapras|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Lapras|Whirlpool|p2a: Rotom|[miss]
+|-miss|p1a: Lapras|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lapras|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Lapras|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Volt Switch|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|45/100 brn
+|
+|switch|p2a: Infernape|Infernape, F|100/100
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|100/100 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|pasch has 135 seconds left.
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Infernape|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|74/100
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Lapras|Lapras, M|100/100 slp
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|cant|p1a: Lapras|slp
+|move|p2a: Hydreigon|Draco Meteor|p1a: Lapras
+|-damage|p1a: Lapras|35/100 slp
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lapras|42/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Lapras
+|-damage|p1a: Lapras|8/100 slp
+|-unboost|p2a: Hydreigon|spa|2
+|cant|p1a: Lapras|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lapras|14/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|move|p2a: Hydreigon|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|61/100
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Donphan|Donphan, F|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Donphan
+|-sidestart|p2: meroz|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Landorus|Hidden Power|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|52/100
+|move|p2a: Donphan|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|69/100
+|-sideend|p2: meroz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|75/100|[from] item: Leftovers
+|-heal|p2a: Donphan|58/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Politoed|Politoed, F|74/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Donphan|Stealth Rock|p1a: Politoed
+|-sidestart|p1: pasch|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Landorus|Landorus-Therian, M|75/100
+|-damage|p1a: Landorus|63/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Donphan|atk|1
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Ninetales|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|21/100
+|move|p1a: Landorus|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|17
+|
+|switch|p1a: Politoed|Politoed, F|74/100
+|-damage|p1a: Politoed|62/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Hydreigon|Dark Pulse|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|55/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Hydreigon
+|-damage|p2a: Hydreigon|97/100
+|-sideend|p1: pasch|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|61/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|68/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|74/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|80/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|32/100
+|move|p1a: Tentacruel|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|79/100
+|-status|p2a: Hydreigon|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|38/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|44/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|66/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|50/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|56/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|54/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|10/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Hydreigon
+|-sidestart|p2: meroz|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|16/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|22/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|42/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|28/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|34/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|29/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|17/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|9/100
+|cant|p1a: Jirachi|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|15/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|5/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Hydreigon|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Hydreigon
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Tentacruel|Tentacruel, M|34/100
+|turn|28
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|40/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|46/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|switch|p1a: Landorus|Landorus-Therian, M|27/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|move|p2a: Rotom|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|33/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Donphan|Donphan, F|64/100
+|-status|p2a: Donphan|psn
+|move|p1a: Landorus|Stealth Rock|p2a: Donphan
+|-sidestart|p2: meroz|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|39/100|[from] item: Leftovers
+|-heal|p2a: Donphan|70/100 psn|[from] item: Leftovers
+|-damage|p2a: Donphan|58/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Lapras|Lapras, M|14/100 slp
+|move|p2a: Donphan|Rapid Spin|p1a: Lapras
+|-damage|p1a: Lapras|9/100 slp
+|-sideend|p2: meroz|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Donphan
+|-sideend|p2: meroz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Lapras|ability: Hydration
+|-curestatus|p1a: Lapras|slp|[msg]
+|-heal|p1a: Lapras|15/100|[from] item: Leftovers
+|-heal|p2a: Donphan|64/100 psn|[from] item: Leftovers
+|-damage|p2a: Donphan|52/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|100/100 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|move|p2a: Donphan|Stealth Rock|p1a: Lapras
+|-sidestart|p1: pasch|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Lapras|ability: Hydration
+|-curestatus|p1a: Lapras|slp|[msg]
+|-heal|p2a: Donphan|58/100 psn|[from] item: Leftovers
+|-damage|p2a: Donphan|45/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p1a: Landorus|Landorus-Therian, M|39/100
+|-damage|p1a: Landorus|27/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Donphan|atk|1
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|33/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Rotom|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|move|p1a: Landorus|Stealth Rock|p2a: Rotom
+|-sidestart|p2: meroz|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|39/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Tentacruel|Tentacruel, M|46/100
+|-damage|p1a: Tentacruel|33/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|switch|p2a: Infernape|Infernape, F|100/100
+|-damage|p2a: Infernape|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Lapras|Lapras, M|100/100
+|-damage|p1a: Lapras|76/100|[from] Stealth Rock
+|turn|36
+|inactive|meroz has 135 seconds left.
+|
+|move|p2a: Infernape|U-turn|p1a: Lapras
+|-damage|p1a: Lapras|58/100
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Lapras|Whirlpool|p2a: Heatran|[miss]
+|-miss|p1a: Lapras|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-heal|p1a: Lapras|64/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Heatran|Toxic|p1a: Lapras
+|-status|p1a: Lapras|tox
+|move|p1a: Lapras|Whirlpool|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|78/100
+|-activate|p2a: Heatran|move: Whirlpool|[of] p1a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|84/100|[from] item: Leftovers
+|-activate|p1a: Lapras|ability: Hydration
+|-curestatus|p1a: Lapras|tox|[msg]
+|-heal|p1a: Lapras|70/100|[from] item: Leftovers
+|-damage|p2a: Heatran|78/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|38
+|
+|move|p1a: Lapras|Perish Song|p1a: Lapras
+|-start|p1a: Lapras|perish3|[silent]
+|-start|p2a: Heatran|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Heatran|Roar|p1a: Lapras
+|drag|p1a: Latias|Latias, F|77/100
+|-damage|p1a: Latias|65/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|71/100|[from] item: Leftovers
+|-heal|p2a: Heatran|84/100|[from] item: Leftovers
+|-start|p2a: Heatran|perish3
+|upkeep
+|turn|39
+|
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|46/100
+|move|p2a: Heatran|Roar|p1a: Latias
+|drag|p1a: Landorus|Landorus-Therian, M|39/100
+|-damage|p1a: Landorus|27/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|33/100|[from] item: Leftovers
+|-heal|p2a: Heatran|91/100|[from] item: Leftovers
+|-start|p2a: Heatran|perish2
+|upkeep
+|turn|40
+|
+|switch|p2a: Donphan|Donphan, F|45/100 psn
+|-damage|p2a: Donphan|39/100 psn|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Donphan
+|-damage|p2a: Donphan|27/100 psn
+|
+|switch|p1a: Latias|Latias, F|46/100
+|-damage|p1a: Latias|34/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|40/100|[from] item: Leftovers
+|-heal|p2a: Donphan|33/100 psn|[from] item: Leftovers
+|-damage|p2a: Donphan|20/100 psn|[from] psn
+|upkeep
+|turn|41
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|90/100
+|move|p2a: Donphan|Rapid Spin|p1a: Latias
+|-damage|p1a: Latias|85/100
+|-sideend|p2: meroz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|91/100|[from] item: Leftovers
+|-heal|p2a: Donphan|27/100 psn|[from] item: Leftovers
+|-damage|p2a: Donphan|14/100 psn|[from] psn
+|upkeep
+|turn|42
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|100/100
+|move|p2a: Donphan|Stone Edge|p1a: Latias
+|-damage|p1a: Latias|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|78/100|[from] item: Leftovers
+|-heal|p2a: Donphan|20/100 psn|[from] item: Leftovers
+|-damage|p2a: Donphan|8/100 psn|[from] psn
+|upkeep
+|turn|43
+|
+|switch|p2a: Heatran|Heatran, F|91/100
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|97/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Landorus|Landorus-Therian, M|33/100
+|-damage|p1a: Landorus|20/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|26/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Landorus|20/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|switch|p2a: Donphan|Donphan, F|8/100 psn
+|move|p1a: Landorus|Stealth Rock|p2a: Donphan
+|-sidestart|p2: meroz|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|26/100 tox|[from] item: Leftovers
+|-heal|p2a: Donphan|14/100 psn|[from] item: Leftovers
+|-damage|p1a: Landorus|14/100 tox|[from] psn
+|-damage|p2a: Donphan|2/100 psn|[from] psn
+|upkeep
+|turn|46
+|
+|move|p1a: Landorus|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|20/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|2/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Infernape|Infernape, F|88/100
+|-damage|p2a: Infernape|76/100|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Infernape|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Lapras|Lapras, M|70/100
+|-damage|p1a: Lapras|45/100|[from] Stealth Rock
+|turn|48
+|
+|move|p2a: Rotom|Volt Switch|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|7/100
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Lapras|Whirlpool|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|69/100
+|-activate|p2a: Heatran|move: Whirlpool|[of] p1a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|75/100|[from] item: Leftovers
+|-heal|p1a: Lapras|13/100|[from] item: Leftovers
+|-damage|p2a: Heatran|69/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|49
+|
+|move|p2a: Heatran|Lava Plume|p1a: Lapras
+|-damage|p1a: Lapras|1/100
+|move|p1a: Lapras|Perish Song|p1a: Lapras
+|-start|p1a: Lapras|perish3|[silent]
+|-start|p2a: Heatran|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|75/100|[from] item: Leftovers
+|-heal|p1a: Lapras|7/100|[from] item: Leftovers
+|-damage|p2a: Heatran|69/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Heatran|perish3
+|-start|p1a: Lapras|perish3
+|upkeep
+|turn|50
+|
+|move|p1a: Lapras|Ice Shard|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|66/100
+|move|p2a: Heatran|Lava Plume|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|73/100|[from] item: Leftovers
+|-start|p2a: Heatran|perish2
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|51
+|
+|switch|p2a: Infernape|Infernape, F|76/100
+|-damage|p2a: Infernape|64/100|[from] Stealth Rock
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|69/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p2a: Infernape|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-end|p1a: Latias|Substitute
+|
+|switch|p2a: Rotom|Rotom-Wash|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|75/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p2a: Rotom|Trick|p1a: Latias
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Latias
+|-item|p1a: Latias|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|c|☆pasch|LOL
+|-message|pasch forfeited.
+|
+|win|meroz
+|c|☆pasch|im out
+|raw|pasch's rating: 1336 &rarr; <strong>1312</strong><br />(-24 for losing)
+|raw|meroz's rating: 1271 &rarr; <strong>1301</strong><br />(+30 for winning)
+|c|☆meroz|gg
+|c|☆pasch|that was
+|c|☆pasch|a counter
+|c|☆pasch|ass

@@ -1,0 +1,292 @@
+|join|ferwara
+|join|dickshlicker
+|player|p1|ferwara|266
+|player|p2|dickshlicker|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, F
+|poke|p1|Vaporeon, F
+|poke|p1|Gengar, M, shiny
+|poke|p1|Jolteon, M
+|poke|p1|Landorus-Therian, M
+|poke|p1|Toxicroak, F
+|poke|p2|Dragonite, M
+|poke|p2|Salamence, M
+|poke|p2|Latios, M
+|poke|p2|Garchomp, F
+|poke|p2|Jirachi
+|poke|p2|Hydreigon, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|319/319
+|switch|p2a: Latios|Latios, M|301/301
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Latios
+|-unboost|p2a: Latios|atk|1
+|turn|1
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|89/301
+|
+|switch|p1a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|42/384
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Vaporeon|Vaporeon, F|463/463
+|move|p2a: Latios|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|259/463
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|287/463|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|move|p1a: Vaporeon|Toxic|p2a: Jirachi
+|-fail|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|315/463|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Jirachi|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|259/463
+|
+|switch|p2a: Hydreigon|Hydreigon, F|326/326
+|move|p1a: Vaporeon|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|241/326
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|287/463|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|209/326|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Toxicroak|Toxicroak, F|368/368
+|turn|6
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|276/368
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|322/368|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|345/368|[from] item: Black Sludge
+|turn|7
+|
+|move|p2a: Jirachi|Iron Head|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Bulk Up|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|1
+|-boost|p1a: Toxicroak|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|368/368|[from] ability: Dry Skin
+|turn|8
+|
+|move|p2a: Jirachi|Iron Head|p1a: Toxicroak
+|-damage|p1a: Toxicroak|299/368
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|207/368
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|253/368|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|276/368|[from] item: Black Sludge
+|turn|9
+|
+|move|p2a: Jirachi|Iron Head|p1a: Toxicroak
+|-activate|p1a: Toxicroak|Substitute|[damage]
+|move|p1a: Toxicroak|Bulk Up|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|1
+|-boost|p1a: Toxicroak|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|322/368|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|345/368|[from] item: Black Sludge
+|turn|10
+|
+|move|p2a: Jirachi|Iron Head|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|253/368
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|299/368|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|322/368|[from] item: Black Sludge
+|turn|11
+|
+|move|p2a: Jirachi|Iron Head|p1a: Toxicroak
+|-activate|p1a: Toxicroak|Substitute|[damage]
+|move|p1a: Toxicroak|Bulk Up|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|1
+|-boost|p1a: Toxicroak|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|368/368|[from] ability: Dry Skin
+|turn|12
+|
+|move|p2a: Jirachi|Iron Head|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|276/368
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|322/368|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|345/368|[from] item: Black Sludge
+|turn|13
+|
+|move|p2a: Jirachi|Iron Head|p1a: Toxicroak
+|-activate|p1a: Toxicroak|Substitute|[damage]
+|move|p1a: Toxicroak|Bulk Up|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|1
+|-boost|p1a: Toxicroak|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|368/368|[from] ability: Dry Skin
+|turn|14
+|
+|move|p2a: Jirachi|Iron Head|p1a: Toxicroak
+|-activate|p1a: Toxicroak|Substitute|[damage]
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-fail|p1a: Toxicroak|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p2a: Latios|Latios, M|89/301
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-fail|p1a: Toxicroak|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Hydreigon|Hydreigon, F|209/326
+|turn|17
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|-damage|p2a: Hydreigon|177/326|[from] item: Life Orb
+|move|p1a: Toxicroak|Drain Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|turn|18
+|
+|move|p2a: Jirachi|Thunder Wave|p1a: Toxicroak
+|-status|p1a: Toxicroak|par
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|276/368 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|322/368 par|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|345/368 par|[from] item: Black Sludge
+|turn|19
+|
+|move|p2a: Jirachi|U-turn|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-activate|p1a: Toxicroak|Substitute|[damage]
+|
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|move|p1a: Toxicroak|Drain Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|236/323
+|-heal|p1a: Toxicroak|368/368 par|[from] drain|[of] p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Toxicroak|Drain Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|71/323
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p2a: Dragonite|Outrage|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Drain Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Garchomp|Garchomp, F|358/358
+|turn|22
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Toxicroak|[miss]
+|-miss|p2a: Garchomp|p1a: Toxicroak
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|276/368 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|322/368 par|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|345/368 par|[from] item: Black Sludge
+|turn|23
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Toxicroak
+|-activate|p1a: Toxicroak|Substitute|[damage]
+|-damage|p2a: Garchomp|323/358|[from] item: Life Orb
+|move|p1a: Toxicroak|Drain Punch|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-heal|p1a: Toxicroak|368/368 par|[from] drain|[of] p2a: Garchomp
+|-damage|p1a: Toxicroak|322/368 par|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|368/368 par|[from] ability: Dry Skin
+|chat|dickshlicker|gg
+|-message|dickshlicker forfeited.
+|
+|win|ferwara
+|raw|Ladder updating...
+|leave|dickshlicker
+|player|p2
+|raw|ferwara's rating: 1353 &rarr; <strong>1373</strong><br />(+20 for winning)
+|raw|dickshlicker's rating: 1352 &rarr; <strong>1332</strong><br />(-20 for losing)

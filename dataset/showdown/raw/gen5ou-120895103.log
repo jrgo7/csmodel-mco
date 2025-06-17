@@ -1,0 +1,414 @@
+|join|Nightkiller
+|join|Geertos
+|player|p1|Nightkiller|109
+|player|p2|Geertos|274
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Tyranitar, M
+|poke|p1|Breloom, M
+|poke|p1|Landorus-Therian, M
+|poke|p1|Heatran, M
+|poke|p1|Jellicent, F
+|poke|p1|Jirachi
+|poke|p2|Breloom, M
+|poke|p2|Jirachi
+|poke|p2|Rotom-Wash
+|poke|p2|Salamence, M
+|poke|p2|Mamoswine, M
+|poke|p2|Terrakion
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|320/320
+|switch|p2a: Breloom|Breloom, M|262/262
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Breloom
+|-unboost|p2a: Breloom|atk|1
+|turn|1
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Breloom
+|-damage|p2a: Breloom|144/262
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Breloom|Spore|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|128/262|[from] sandstorm
+|turn|2
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|297/297
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|320/320
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Rotom-Wash
+|-unboost|p2a: Rotom-Wash|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|279/297|[from] sandstorm
+|-heal|p2a: Rotom-Wash|297/297|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|205/297
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404 slp
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Tyranitar|[miss]
+|-miss|p2a: Rotom-Wash|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|187/297|[from] sandstorm
+|-heal|p2a: Rotom-Wash|205/297|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Breloom|Breloom, M|262/262
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|186/262
+|
+|switch|p2a: Salamence|Salamence, M|331/331
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|311/331|[from] sandstorm
+|-damage|p1a: Breloom|170/262|[from] sandstorm
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|5
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|320/320
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Salamence
+|-unboost|p2a: Salamence|atk|1
+|move|p2a: Salamence|Dragon Claw|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|217/320
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|291/331|[from] sandstorm
+|turn|6
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|205/297
+|move|p1a: Landorus-Therian|U-turn|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|121/297
+|
+|switch|p1a: Breloom|Breloom, M|170/262 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|103/297|[from] sandstorm
+|-damage|p1a: Breloom|154/262 tox|[from] sandstorm
+|-heal|p2a: Rotom-Wash|121/297|[from] item: Leftovers
+|-heal|p1a: Breloom|186/262 tox|[from] ability: Poison Heal
+|turn|7
+|
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|69/262 tox
+|move|p1a: Breloom|Spore|p2a: Rotom-Wash
+|-status|p2a: Rotom-Wash|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|103/297 slp|[from] sandstorm
+|-damage|p1a: Breloom|53/262 tox|[from] sandstorm
+|-heal|p2a: Rotom-Wash|121/297 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|85/262 tox|[from] ability: Poison Heal
+|turn|8
+|
+|switch|p2a: Breloom|Breloom, M|128/262
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|20/262 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|4/262 tox|[from] sandstorm
+|-damage|p2a: Breloom|112/262|[from] sandstorm
+|-heal|p1a: Breloom|36/262 tox|[from] ability: Poison Heal
+|turn|9
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Breloom|Mach Punch|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|move|p1a: Breloom|Focus Punch|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|20/262 tox|[from] sandstorm
+|-heal|p1a: Breloom|52/262 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Mamoswine|Mamoswine, M|361/361
+|turn|10
+|
+|switch|p1a: Jirachi|Jirachi|341/341
+|move|p2a: Mamoswine|Ice Shard|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|292/341
+|-damage|p2a: Mamoswine|325/361|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|turn|11
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|move|p1a: Jirachi|Iron Head|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|344/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|369/404|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Heatran|Heatran, M|323/323
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Jirachi|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Nightkiller|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|394/404|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Heatran|Fire Blast|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|88/404
+|move|p2a: Jirachi|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|299/323
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|113/404|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Heatran|Fire Blast|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Mamoswine|Mamoswine, M|325/361
+|turn|15
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|217/320
+|-damage|p1a: Landorus-Therian|177/320|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Mamoswine
+|-unboost|p2a: Mamoswine|atk|1
+|move|p2a: Mamoswine|Earthquake|p1a: Landorus-Therian
+|-immune|p1a: Landorus-Therian|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|turn|16
+|
+|switch|p1a: Jirachi|Jirachi|292/341
+|-damage|p1a: Jirachi|271/341|[from] Stealth Rock
+|move|p2a: Mamoswine|Ice Shard|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|240/341
+|-damage|p2a: Mamoswine|289/361|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|turn|17
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|121/297 slp
+|move|p1a: Jirachi|Iron Head|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|93/297 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|75/297 slp|[from] sandstorm
+|-heal|p2a: Rotom-Wash|93/297 slp|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Breloom|Breloom, M|52/262 tox
+|-damage|p1a: Breloom|36/262 tox|[from] Stealth Rock
+|cant|p2a: Rotom-Wash|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|75/297 slp|[from] sandstorm
+|-damage|p1a: Breloom|20/262 tox|[from] sandstorm
+|-heal|p2a: Rotom-Wash|93/297 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|52/262 tox|[from] ability: Poison Heal
+|turn|19
+|
+|-curestatus|p2a: Rotom-Wash|slp
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Breloom|[miss]
+|-miss|p2a: Rotom-Wash|p1a: Breloom
+|move|p1a: Breloom|Seed Bomb|p2a: Rotom-Wash
+|-supereffective|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|0 fnt
+|faint|p2a: Rotom-Wash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|36/262 tox|[from] sandstorm
+|-heal|p1a: Breloom|68/262 tox|[from] ability: Poison Heal
+|chat|Geertos|WOWWOWOW
+|
+|switch|p2a: Mamoswine|Mamoswine, M|289/361
+|turn|20
+|
+|switch|p1a: Jellicent|Jellicent, F|403/403
+|-damage|p1a: Jellicent|353/403|[from] Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|161/403
+|-damage|p2a: Mamoswine|253/361|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|136/403|[from] sandstorm
+|-heal|p1a: Jellicent|161/403|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-damage|p2a: Mamoswine|217/361|[from] item: Life Orb
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Jirachi|Jirachi|240/341
+|-damage|p1a: Jirachi|219/341|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Salamence|Salamence, M|291/331
+|move|p1a: Jirachi|Iron Head|p2a: Salamence
+|-damage|p2a: Salamence|137/331
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|117/331|[from] sandstorm
+|turn|23
+|
+|move|p1a: Jirachi|Iron Head|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|-item|p2a: Terrakion|Air Balloon
+|turn|24
+|
+|move|p1a: Jirachi|Iron Head|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|69/323
+|-enditem|p2a: Terrakion|Air Balloon
+|move|p2a: Terrakion|Close Combat|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|177/320
+|-damage|p1a: Landorus-Therian|137/320|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Terrakion
+|-unboost|p2a: Terrakion|atk|1
+|turn|25
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Mamoswine|Mamoswine, M|217/361
+|turn|26
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404 slp
+|-damage|p1a: Tyranitar|354/404 slp|[from] Stealth Rock
+|move|p2a: Mamoswine|Ice Shard|p1a: Tyranitar
+|-damage|p1a: Tyranitar|271/404 slp
+|-damage|p2a: Mamoswine|181/361|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|296/404 slp|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|137/320
+|-damage|p1a: Landorus-Therian|97/320|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Mamoswine
+|-unboost|p2a: Mamoswine|atk|1
+|move|p2a: Mamoswine|Earthquake|p1a: Landorus-Therian
+|-immune|p1a: Landorus-Therian|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|turn|28
+|
+|switch|p1a: Tyranitar|Tyranitar, M|296/404 slp
+|-damage|p1a: Tyranitar|246/404 slp|[from] Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Mamoswine|145/361|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|97/320
+|-damage|p1a: Landorus-Therian|57/320|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Mamoswine
+|-unboost|p2a: Mamoswine|atk|1
+|turn|29
+|
+|switch|p1a: Heatran|Heatran, M|299/323
+|-damage|p1a: Heatran|259/323|[from] Stealth Rock
+|move|p2a: Mamoswine|Ice Shard|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|247/323
+|-damage|p2a: Mamoswine|109/361|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|turn|30
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|57/320
+|-damage|p1a: Landorus-Therian|17/320|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Mamoswine
+|-unboost|p2a: Mamoswine|atk|1
+|move|p2a: Mamoswine|Earthquake|p1a: Landorus-Therian
+|-immune|p1a: Landorus-Therian|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|turn|31
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Landorus-Therian
+|-supereffective|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|0 fnt
+|-damage|p2a: Mamoswine|73/361|[from] item: Life Orb
+|faint|p1a: Landorus-Therian
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Heatran|Heatran, M|247/323
+|-damage|p1a: Heatran|207/323|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Mamoswine|37/361|[from] item: Life Orb
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Breloom|Breloom, M|68/262 tox
+|-damage|p1a: Breloom|52/262 tox|[from] Stealth Rock
+|turn|33
+|chat|Nightkiller|gg
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-damage|p2a: Mamoswine|1/361|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|win|Geertos
+|raw|Ladder updating...
+|raw|Nightkiller's rating: 1370 &rarr; <strong>1355</strong><br />(-15 for losing)
+|raw|Geertos's rating: 1464 &rarr; <strong>1479</strong><br />(+15 for winning)
+|chat|Geertos|gg
+|chat|Geertos|1 go
+|chat|Geertos|hp

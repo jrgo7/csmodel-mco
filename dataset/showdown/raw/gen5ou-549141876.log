@@ -1,0 +1,390 @@
+|j|SerFaustus
+|j|fluffygravy
+|player|p1|SerFaustus|238
+|player|p2|fluffygravy|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|3624,36218,36292,49078
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Politoed, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Starmie|item
+|poke|p1|Gyarados, M|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Crobat, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, M|item
+|poke|p2|Alakazam, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|switch|p2a: Crobat|Crobat, M|330/330
+|turn|1
+|choice|move stealthrock|move taunt
+|
+|move|p2a: Crobat|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move gyroball|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|299/299
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|264/299
+|
+|-heal|p2a: Rotom|282/299|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Latios|Latios, M|301/301
+|move|p2a: Rotom|Hidden Power|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|270/301
+|
+|-heal|p2a: Rotom|299/299|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move dracometeor|move thunderwave
+|
+|move|p1a: Latios|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|80/299
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Rotom|Thunder Wave|p1a: Latios
+|-status|p1a: Latios|par
+|
+|-heal|p2a: Rotom|98/299|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move dracometeor|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|222/301 par
+|choice||switch 2
+|
+|switch|p2a: Amoonguss|Amoonguss, F|432/432
+|move|p1a: Latios|Draco Meteor|p2a: Amoonguss|[miss]
+|-miss|p1a: Latios|p2a: Amoonguss
+|
+|upkeep
+|turn|6
+|choice|switch 3|move spore
+|
+|switch|p1a: Volcarona|Volcarona, M|311/311
+|move|p2a: Amoonguss|Spore|p1a: Volcarona
+|-status|p1a: Volcarona|slp
+|
+|upkeep
+|turn|7
+|choice|switch 4|switch 4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|switch|p2a: Crobat|Crobat, M|330/330
+|
+|upkeep
+|turn|8
+|choice|move stealthrock|move taunt
+|
+|move|p2a: Crobat|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|switch 2|move uturn
+|
+|switch|p1a: Politoed|Politoed, F|383/383
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Crobat|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|306/383
+|choice||switch 3
+|
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|283/383|[from] sandstorm
+|upkeep
+|turn|10
+|choice|move icebeam|switch 4
+|
+|switch|p2a: Amoonguss|Amoonguss, F|432/432
+|move|p1a: Politoed|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|206/432
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|260/383|[from] sandstorm
+|-damage|p2a: Amoonguss|179/432|[from] sandstorm
+|-heal|p2a: Amoonguss|206/432|[from] item: Black Sludge
+|upkeep
+|turn|11
+|choice|move icebeam|switch 5
+|
+|switch|p2a: Scizor|Scizor, M|343/343
+|move|p1a: Politoed|Ice Beam|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|275/343
+|-status|p2a: Scizor|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|237/383|[from] sandstorm
+|-heal|p2a: Scizor|296/343 frz|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 6|move swordsdance
+|
+|switch|p1a: Gyarados|Gyarados, M|394/394
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|-curestatus|p2a: Scizor|frz|[msg]
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|370/394|[from] sandstorm
+|-heal|p1a: Gyarados|394/394|[from] item: Leftovers
+|-heal|p2a: Scizor|317/343|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move waterfall|move uturn
+|
+|move|p1a: Gyarados|Waterfall|p2a: Scizor
+|-damage|p2a: Scizor|202/343
+|move|p2a: Scizor|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|296/394
+|choice||switch 5
+|
+|switch|p2a: Amoonguss|Amoonguss, F|350/432
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|272/394|[from] sandstorm
+|-damage|p2a: Amoonguss|323/432|[from] sandstorm
+|-heal|p1a: Gyarados|296/394|[from] item: Leftovers
+|-heal|p2a: Amoonguss|350/432|[from] item: Black Sludge
+|upkeep
+|turn|14
+|choice|move substitute|move stunspore
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|198/394
+|move|p2a: Amoonguss|Stun Spore|p1a: Gyarados|[miss]
+|-miss|p2a: Amoonguss|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|174/394|[from] sandstorm
+|-damage|p2a: Amoonguss|323/432|[from] sandstorm
+|-heal|p1a: Gyarados|198/394|[from] item: Leftovers
+|-heal|p2a: Amoonguss|350/432|[from] item: Black Sludge
+|upkeep
+|turn|15
+|choice|move dragondance|move gigadrain
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Amoonguss|Giga Drain|p1a: Gyarados
+|-activate|p1a: Gyarados|Substitute|[damage]
+|-heal|p2a: Amoonguss|387/432|[from] drain|[of] p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|174/394|[from] sandstorm
+|-damage|p2a: Amoonguss|360/432|[from] sandstorm
+|-heal|p1a: Gyarados|198/394|[from] item: Leftovers
+|-heal|p2a: Amoonguss|387/432|[from] item: Black Sludge
+|upkeep
+|turn|16
+|choice|move earthquake|move gigadrain
+|
+|move|p1a: Gyarados|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|207/432
+|move|p2a: Amoonguss|Giga Drain|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|-heal|p2a: Amoonguss|220/432|[from] drain|[of] p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|174/394|[from] sandstorm
+|-damage|p2a: Amoonguss|193/432|[from] sandstorm
+|-heal|p1a: Gyarados|198/394|[from] item: Leftovers
+|-heal|p2a: Amoonguss|220/432|[from] item: Black Sludge
+|upkeep
+|turn|17
+|choice|move substitute|move gigadrain
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|100/394
+|move|p2a: Amoonguss|Giga Drain|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|-heal|p2a: Amoonguss|269/432|[from] drain|[of] p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|76/394|[from] sandstorm
+|-damage|p2a: Amoonguss|242/432|[from] sandstorm
+|-heal|p1a: Gyarados|100/394|[from] item: Leftovers
+|-heal|p2a: Amoonguss|269/432|[from] item: Black Sludge
+|upkeep
+|turn|18
+|choice|move earthquake|move stunspore
+|
+|move|p1a: Gyarados|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|91/432
+|move|p2a: Amoonguss|Stun Spore|p1a: Gyarados
+|-status|p1a: Gyarados|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|76/394 par|[from] sandstorm
+|-damage|p2a: Amoonguss|64/432|[from] sandstorm
+|-heal|p1a: Gyarados|100/394 par|[from] item: Leftovers
+|-heal|p2a: Amoonguss|91/432|[from] item: Black Sludge
+|upkeep
+|turn|19
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Rotom|Rotom-Wash|98/299
+|move|p1a: Gyarados|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|80/299|[from] sandstorm
+|-damage|p1a: Gyarados|76/394 par|[from] sandstorm
+|-heal|p2a: Rotom|98/299|[from] item: Leftovers
+|-heal|p1a: Gyarados|100/394 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|switch 2|move voltswitch
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|303/352
+|choice||switch 6
+|
+|switch|p2a: Alakazam|Alakazam, M|251/251
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|choice|move gyroball|move focusblast
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Politoed|Politoed, F|237/383
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|22
+|choice|switch 5|move psyshock
+|
+|switch|p1a: Starmie|Starmie|261/261
+|move|p2a: Alakazam|Psyshock|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|145/261
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|choice|move scald|move shadowball
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Politoed|Politoed, F|237/383
+|turn|24
+|choice|move hydropump|move psyshock
+|
+|move|p2a: Alakazam|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆SerFaustus|gg
+|choice|switch 3|
+|
+|switch|p1a: Latios|Latios, M|222/301 par
+|turn|25
+|choice|move surf|move shadowball
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Volcarona|Volcarona, M|311/311 slp
+|turn|26
+|choice|move bugbuzz|move psyshock
+|
+|move|p2a: Alakazam|Psyshock|p1a: Volcarona
+|-damage|p1a: Volcarona|48/311 slp
+|cant|p1a: Volcarona|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|choice|switch 2|move psyshock
+|
+|switch|p1a: Gyarados|Gyarados, M|100/394 par
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Alakazam|atk|1
+|move|p2a: Alakazam|Psyshock|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Volcarona|Volcarona, M|48/311 slp
+|turn|28
+|choice|move bugbuzz|move psyshock
+|
+|move|p2a: Alakazam|Psyshock|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|fluffygravy
+|player|p1
+|player|p2
+|raw|SerFaustus's rating: 1335 &rarr; <strong>1312</strong><br />(-23 for losing)
+|raw|fluffygravy's rating: 1293 &rarr; <strong>1321</strong><br />(+28 for winning)
+|l|SerFaustus

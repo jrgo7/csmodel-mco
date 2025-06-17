@@ -1,0 +1,346 @@
+|j|☆Space bound monkey
+|j|☆Attb
+|player|p1|Space bound monkey|1|1480
+|player|p2|Attb|247|1439
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Alakazam, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Latios, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Space bound monkey)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Space bound monkey|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Attb|move: Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Space bound monkey|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Attb|Spikes
+|move|p2a: Ferrothorn|Power Whip|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|81/100
+|-damage|p2a: Ferrothorn|87/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Attb|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Space bound monkey|Spikes
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Alakazam
+|-sidestart|p1: Space bound monkey|Spikes
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|7/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Alakazam|Hidden Power|p2a: Latios
+|-resisted|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|60/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|72/100|[from] Spikes
+|move|p1a: Alakazam|Shadow Ball|p2a: Tentacruel
+|-damage|p2a: Tentacruel|46/100
+|
+|-heal|p2a: Tentacruel|53/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Latios|Latios, M|60/100
+|-damage|p2a: Latios|47/100|[from] Stealth Rock
+|move|p1a: Alakazam|Psychic|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|24/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Latios|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|63/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|11
+|
+|move|p2a: Latios|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|18/100|[from] Sandstorm
+|upkeep
+|c|☆Space bound monkey|Nice crit
+|c|☆Space bound monkey|you’re so ass
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|81/100
+|-damage|p1a: Ferrothorn|75/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|50/100|[from] Spikes
+|turn|12
+|c|☆Attb|kk
+|
+|switch|p2a: Politoed|Politoed, M, shiny|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-damage|p2a: Politoed|72/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ferrothorn|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, M|53/100
+|-damage|p2a: Tentacruel|40/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|24/100|[from] Spikes
+|turn|13
+|c|☆Space bound monkey|“Kk” loser
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|49/100
+|-damage|p2a: Tentacruel|11/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Attb|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: Attb|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Attb|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|17/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|24/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|36/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Tentacruel
+|-damage|p2a: Tentacruel|19/100
+|-enditem|p2a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|25/100|[from] ability: Rain Dish
+|upkeep
+|turn|15
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Ferrothorn
+|-sidestart|p1: Space bound monkey|move: Toxic Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Tentacruel
+|-sidestart|p2: Attb|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|31/100|[from] ability: Rain Dish
+|upkeep
+|turn|16
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|35/100
+|-damage|p2a: Tentacruel|19/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Attb|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: Attb|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Attb|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|25/100|[from] ability: Rain Dish
+|upkeep
+|turn|17
+|
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|24/100
+|move|p1a: Ferrothorn|Spikes|p2a: Tentacruel
+|-sidestart|p2: Attb|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|31/100|[from] ability: Rain Dish
+|upkeep
+|turn|18
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|23/100
+|-damage|p2a: Tentacruel|19/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Attb|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: Attb|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Attb|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|25/100|[from] ability: Rain Dish
+|upkeep
+|turn|19
+|
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|11/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Tornadus|Hurricane|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|-status|p1a: Garchomp|psn
+|-damage|p1a: Garchomp|69/100 psn|[from] Spikes
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|7/100
+|-damage|p2a: Ferrothorn|1/100|[from] Stealth Rock
+|move|p1a: Garchomp|Outrage|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Garchomp|57/100 psn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Garchomp|45/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|18/100
+|-damage|p2a: Latios|6/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Latios|Draco Meteor|p1a: Garchomp|[miss]
+|-miss|p2a: Latios|p1a: Garchomp
+|move|p1a: Garchomp|Outrage|p2a: Latios|[from]lockedmove
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Garchomp|33/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Garchomp|Outrage|p2a: Thundurus|[from]lockedmove
+|-damage|p2a: Thundurus|0 fnt
+|-start|p1a: Garchomp|confusion|[fatigue]
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Garchomp|20/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|76/100
+|-damage|p2a: Tornadus|51/100|[from] Stealth Rock
+|turn|24
+|
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|6/100 psn|[from] confusion
+|move|p2a: Tornadus|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Tornadus|Hurricane|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Space bound monkey|1000% you’re an idiot
+|c|☆Attb|ez
+|-message|Space bound monkey forfeited.
+|
+|win|Attb
+|l|☆Space bound monkey
+|raw|Space bound monkey's rating: 1453 &rarr; <strong>1432</strong><br />(-21 for losing)
+|raw|Attb's rating: 1440 &rarr; <strong>1461</strong><br />(+21 for winning)

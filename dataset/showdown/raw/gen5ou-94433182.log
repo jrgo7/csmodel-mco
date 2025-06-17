@@ -1,0 +1,337 @@
+|join|Ashiemore
+|join|Montbreton
+|player|p1|Ashiemore|168
+|player|p2|Montbreton|123
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, F
+|poke|p1|Chansey, F
+|poke|p1|Keldeo-Resolute
+|poke|p1|Scizor, F
+|poke|p1|Landorus-Therian, M
+|poke|p1|Gyarados, M
+|poke|p2|Reuniclus, F
+|poke|p2|Landorus-Therian, M
+|poke|p2|Forretress, F
+|poke|p2|Tyranitar, F
+|poke|p2|Rotom-Wash, shiny
+|poke|p2|Keldeo
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|Montbreton|hi
+|chat|Montbreton|gl hf
+|
+|start
+|switch|p1a: Chansey|Chansey, F|704/704
+|switch|p2a: Ap Tchagui|Rotom-Wash, shiny|304/304
+|turn|1
+|
+|move|p2a: Ap Tchagui|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|646/704
+|
+|switch|p2a: Duit Tchagui|Reuniclus, F|424/424
+|move|p1a: Chansey|Thunder Wave|p2a: Duit Tchagui
+|-status|p2a: Duit Tchagui|par
+|
+|turn|2
+|
+|switch|p1a: Scizor|Scizor, F|344/344
+|cant|p2a: Duit Tchagui|par
+|
+|turn|3
+|
+|switch|p2a: Yop Tchagui|Landorus-Therian, M|381/381
+|-ability|p2a: Yop Tchagui|Intimidate|[of] p1a: Scizor
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Yop Tchagui
+|-resisted|p2a: Yop Tchagui
+|-damage|p2a: Yop Tchagui|314/381
+|
+|switch|p1a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Yop Tchagui|337/381|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Ap Tchagui|Rotom-Wash, shiny|304/304
+|move|p1a: Politoed|Hydro Pump|p2a: Ap Tchagui
+|-resisted|p2a: Ap Tchagui
+|-damage|p2a: Ap Tchagui|167/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ap Tchagui|186/304|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Ap Tchagui|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|202/384
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|move|p1a: Politoed|Hydro Pump|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|119/323
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|320/320
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Keldeo
+|-unboost|p2a: Keldeo|atk|1
+|move|p2a: Keldeo|Hidden Power|p1a: Landorus-Therian
+|-immune|p1a: Landorus-Therian|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|73/323
+|
+|switch|p1a: Chansey|Chansey, F|646/704
+|move|p2a: Keldeo|Hydro Pump|p1a: Chansey|[miss]
+|-miss|p2a: Keldeo|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|178/704
+|move|p1a: Chansey|Seismic Toss|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Mom dolyeu tchagui|Tyranitar, F|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Mom dolyeu tchagui
+|turn|9
+|
+|move|p2a: Mom dolyeu tchagui|Pursuit|p1a: Chansey
+|-damage|p1a: Chansey|88/704
+|move|p1a: Chansey|Thunder Wave|p2a: Mom dolyeu tchagui
+|-status|p2a: Mom dolyeu tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|44/704|[from] sandstorm
+|turn|10
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|396/704
+|move|p2a: Mom dolyeu tchagui|Pursuit|p1a: Chansey
+|-damage|p1a: Chansey|305/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|261/704|[from] sandstorm
+|turn|11
+|
+|switch|p2a: Nelyeu tchagui|Forretress, F|354/354
+|move|p1a: Chansey|Stealth Rock|p2a: Nelyeu tchagui
+|-sidestart|p2: Montbreton|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|217/704|[from] sandstorm
+|turn|12
+|
+|switch|p1a: Politoed|Politoed, F|202/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Nelyeu tchagui|Spikes|p1a: Politoed
+|-sidestart|p1: Ashiemore|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Ap Tchagui|Rotom-Wash, shiny|186/304
+|-damage|p2a: Ap Tchagui|148/304|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Ap Tchagui
+|-resisted|p2a: Ap Tchagui
+|-damage|p2a: Ap Tchagui|13/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ap Tchagui|32/304|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|320/320
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Ap Tchagui
+|-unboost|p2a: Ap Tchagui|atk|1
+|move|p2a: Ap Tchagui|Hydro Pump|p1a: Landorus-Therian
+|-supereffective|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|0 fnt
+|faint|p1a: Landorus-Therian
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ap Tchagui|51/304|[from] item: Leftovers
+|
+|switch|p1a: Chansey|Chansey, F|217/704
+|-damage|p1a: Chansey|129/704|[from] Spikes
+|turn|15
+|
+|move|p2a: Ap Tchagui|Hydro Pump|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ap Tchagui|70/304|[from] item: Leftovers
+|
+|switch|p1a: Keldeo-Resolute|Keldeo-Resolute|323/323
+|-damage|p1a: Keldeo-Resolute|283/323|[from] Spikes
+|turn|16
+|
+|switch|p2a: Mom dolyeu tchagui|Tyranitar, F|341/341 par
+|-damage|p2a: Mom dolyeu tchagui|299/341 par|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Mom dolyeu tchagui
+|move|p1a: Keldeo-Resolute|Secret Sword|p2a: Mom dolyeu tchagui
+|-supereffective|p2a: Mom dolyeu tchagui
+|-damage|p2a: Mom dolyeu tchagui|0 fnt
+|faint|p2a: Mom dolyeu tchagui
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo-Resolute|263/323|[from] sandstorm
+|-heal|p1a: Keldeo-Resolute|283/323|[from] item: Leftovers
+|
+|switch|p2a: Duit Tchagui|Reuniclus, F|424/424 par
+|turn|17
+|
+|switch|p1a: Politoed|Politoed, F|202/384
+|-damage|p1a: Politoed|154/384|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Duit Tchagui|Focus Blast|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Scizor|Scizor, F|344/344
+|-damage|p1a: Scizor|301/344|[from] Spikes
+|turn|18
+|
+|switch|p2a: Yop Tchagui|Landorus-Therian, M|337/381
+|-damage|p2a: Yop Tchagui|290/381|[from] Stealth Rock
+|-ability|p2a: Yop Tchagui|Intimidate|[of] p1a: Scizor
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Yop Tchagui
+|-resisted|p2a: Yop Tchagui
+|-damage|p2a: Yop Tchagui|227/381
+|
+|switch|p1a: Keldeo-Resolute|Keldeo-Resolute|283/323
+|-damage|p1a: Keldeo-Resolute|243/323|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|263/323|[from] item: Leftovers
+|-heal|p2a: Yop Tchagui|250/381|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Nelyeu tchagui|Forretress, F|354/354
+|-damage|p2a: Nelyeu tchagui|310/354|[from] Stealth Rock
+|move|p1a: Keldeo-Resolute|Substitute|p1a: Keldeo-Resolute
+|-start|p1a: Keldeo-Resolute|Substitute
+|-damage|p1a: Keldeo-Resolute|183/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|203/323|[from] item: Leftovers
+|-heal|p2a: Nelyeu tchagui|332/354|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Keldeo-Resolute|Surf|p2a: Nelyeu tchagui
+|-damage|p2a: Nelyeu tchagui|0 fnt
+|faint|p2a: Nelyeu tchagui
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|223/323|[from] item: Leftovers
+|
+|switch|p2a: Duit Tchagui|Reuniclus, F|424/424 par
+|turn|21
+|
+|move|p1a: Keldeo-Resolute|Calm Mind|p1a: Keldeo-Resolute
+|-boost|p1a: Keldeo-Resolute|spa|1
+|-boost|p1a: Keldeo-Resolute|spd|1
+|move|p2a: Duit Tchagui|Psyshock|p1a: Keldeo-Resolute
+|-supereffective|p1a: Keldeo-Resolute
+|-end|p1a: Keldeo-Resolute|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|243/323|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Keldeo-Resolute|Substitute|p1a: Keldeo-Resolute
+|-start|p1a: Keldeo-Resolute|Substitute
+|-damage|p1a: Keldeo-Resolute|163/323
+|move|p2a: Duit Tchagui|Psyshock|p1a: Keldeo-Resolute
+|-supereffective|p1a: Keldeo-Resolute
+|-end|p1a: Keldeo-Resolute|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|183/323|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Keldeo-Resolute|Substitute|p1a: Keldeo-Resolute
+|-start|p1a: Keldeo-Resolute|Substitute
+|-damage|p1a: Keldeo-Resolute|103/323
+|move|p2a: Duit Tchagui|Psyshock|p1a: Keldeo-Resolute
+|-supereffective|p1a: Keldeo-Resolute
+|-end|p1a: Keldeo-Resolute|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|123/323|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Keldeo-Resolute|Substitute|p1a: Keldeo-Resolute
+|-start|p1a: Keldeo-Resolute|Substitute
+|-damage|p1a: Keldeo-Resolute|43/323
+|move|p2a: Duit Tchagui|Psyshock|p1a: Keldeo-Resolute
+|-supereffective|p1a: Keldeo-Resolute
+|-end|p1a: Keldeo-Resolute|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|63/323|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Keldeo-Resolute|Surf|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|0 fnt
+|faint|p2a: Duit Tchagui
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|83/323|[from] item: Leftovers
+|
+|switch|p2a: Ap Tchagui|Rotom-Wash, shiny|70/304
+|-damage|p2a: Ap Tchagui|32/304|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Keldeo-Resolute|Secret Sword|p2a: Ap Tchagui
+|-damage|p2a: Ap Tchagui|0 fnt
+|faint|p2a: Ap Tchagui
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|103/323|[from] item: Leftovers
+|
+|switch|p2a: Yop Tchagui|Landorus-Therian, M|250/381
+|-damage|p2a: Yop Tchagui|203/381|[from] Stealth Rock
+|-ability|p2a: Yop Tchagui|Intimidate|[of] p1a: Keldeo-Resolute
+|-unboost|p1a: Keldeo-Resolute|atk|1
+|turn|27
+|
+|move|p1a: Keldeo-Resolute|Surf|p2a: Yop Tchagui
+|-supereffective|p2a: Yop Tchagui
+|-damage|p2a: Yop Tchagui|0 fnt
+|faint|p2a: Yop Tchagui
+|
+|win|Ashiemore
+|raw|Ladder updating...
+|raw|Ashiemore's rating: 1503 &rarr; <strong>1517</strong><br />(+14 for winning)
+|raw|Montbreton's rating: 1391 &rarr; <strong>1377</strong><br />(-14 for losing)
+|leave|Ashiemore
+|player|p1
+|chat|Montbreton|gg

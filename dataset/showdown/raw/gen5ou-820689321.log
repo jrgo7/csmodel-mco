@@ -1,0 +1,410 @@
+|j|☆CroCoeur
+|j|☆Gabyy
+|player|p1|CroCoeur|161
+|player|p2|Gabyy|166
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Gothitelle, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Latias, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Sir Jorah|Skarmory, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Sir Jorah
+|-ability|p2a: Sir Jorah|Sturdy
+|-damage|p2a: Sir Jorah|1/100
+|move|p2a: Sir Jorah|Stealth Rock|p1a: Politoed
+|-sidestart|p1: CroCoeur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|-enditem|p2a: Sir Jorah|Custap Berry|[eat]
+|-activate|p2a: Sir Jorah|item: Custap Berry|[consumed]
+|
+|move|p2a: Sir Jorah|Brave Bird|p1a: Politoed
+|-damage|p1a: Politoed|43/100
+|-damage|p2a: Sir Jorah|0 fnt|[from] Recoil
+|faint|p2a: Sir Jorah
+|move|p1a: Politoed|Hydro Pump|p2: Sir Jorah|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Viserion|Kyurem-Black|100/100
+|-ability|p2a: Viserion|Teravolt
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Viserion|Outrage|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|59/100
+|-damage|p2a: Viserion|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Viserion|Outrage|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|26/100
+|-damage|p2a: Viserion|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Viserion
+|-sidestart|p2: Gabyy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|32/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Viserion|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|-start|p2a: Viserion|confusion|[fatigue]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|55/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Torgo Nudho|Magnezone, shiny|100/100
+|-damage|p2a: Torgo Nudho|94/100|[from] Stealth Rock
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|36/100|[from] item: Leftovers
+|-heal|p2a: Torgo Nudho|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Torgo Nudho|Thunderbolt|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Jirachi|Thunder|p2a: Torgo Nudho
+|-resisted|p2a: Torgo Nudho
+|-damage|p2a: Torgo Nudho|77/100
+|-status|p2a: Torgo Nudho|par
+|move|p2a: Torgo Nudho|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|11/100
+|-status|p1a: Jirachi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|17/100 par|[from] item: Leftovers
+|-heal|p2a: Torgo Nudho|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Torgo Nudho
+|-damage|p2a: Torgo Nudho|49/100 par
+|move|p2a: Torgo Nudho|Substitute|p2a: Torgo Nudho
+|-start|p2a: Torgo Nudho|Substitute
+|-damage|p2a: Torgo Nudho|24/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|23/100 par|[from] item: Leftovers
+|-heal|p2a: Torgo Nudho|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Torgo Nudho
+|-end|p2a: Torgo Nudho|Substitute
+|move|p2a: Torgo Nudho|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Torgo Nudho|36/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Latios|Surf|p2a: Torgo Nudho
+|-damage|p2a: Torgo Nudho|0 fnt
+|faint|p2a: Torgo Nudho
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Rhaegal|Latias, F|100/100
+|-damage|p2a: Rhaegal|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|32/100
+|-damage|p1a: Ferrothorn|26/100|[from] Stealth Rock
+|move|p2a: Rhaegal|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|2/100
+|-unboost|p2a: Rhaegal|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|8/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Rhaegal|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Rhaegal|spa|2
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Latios|Draco Meteor|p2a: Rhaegal
+|-supereffective|p2a: Rhaegal
+|-damage|p2a: Rhaegal|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Rhaegal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Daenerys|Gothitelle, M|100/100
+|-damage|p2a: Daenerys|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Latios|Draco Meteor|p2a: Daenerys
+|-damage|p2a: Daenerys|47/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Daenerys|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Latios|Draco Meteor|p2a: Daenerys
+|-damage|p2a: Daenerys|23/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Daenerys|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|10/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Latios|Draco Meteor|p2a: Daenerys
+|-damage|p2a: Daenerys|4/100
+|move|p2a: Daenerys|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Daenerys|Psyshock|p1a: Vaporeon
+|-damage|p1a: Vaporeon|31/100
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|37/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Viserion|Kyurem-Black|76/100
+|-damage|p2a: Viserion|51/100|[from] Stealth Rock
+|-ability|p2a: Viserion|Teravolt
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|20
+|
+|move|p2a: Viserion|Outrage|p1a: Vaporeon
+|-damage|p1a: Vaporeon|42/100
+|move|p1a: Vaporeon|Roar|p2a: Viserion
+|drag|p2a: Drogon|Dragonite, F|100/100
+|-damage|p2a: Drogon|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|48/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Drogon|Dragon Dance|p2a: Drogon
+|-boost|p2a: Drogon|atk|1
+|-boost|p2a: Drogon|spe|1
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|22
+|
+|move|p2a: Drogon|Outrage|p1a: Vaporeon
+|-damage|p1a: Vaporeon|40/100
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|46/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Drogon|Outrage|p1a: Vaporeon|[from]lockedmove
+|-damage|p1a: Vaporeon|10/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|24
+|
+|move|p2a: Drogon|Outrage|p1a: Vaporeon|[from]lockedmove
+|-damage|p1a: Vaporeon|64/100
+|-start|p2a: Drogon|confusion|[fatigue]
+|-enditem|p2a: Drogon|Lum Berry|[eat]
+|-end|p2a: Drogon|confusion
+|move|p1a: Vaporeon|Roar|p2a: Drogon
+|drag|p2a: Viserion|Kyurem-Black|51/100
+|-damage|p2a: Viserion|26/100|[from] Stealth Rock
+|-ability|p2a: Viserion|Teravolt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|70/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Viserion|Fusion Bolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|26/100
+|move|p1a: Vaporeon|Roar|p2a: Viserion
+|drag|p2a: Daenerys|Gothitelle, M|4/100
+|-damage|p2a: Daenerys|0 fnt|[from] Stealth Rock
+|faint|p2a: Daenerys
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|32/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Viserion|Kyurem-Black|26/100
+|-damage|p2a: Viserion|2/100|[from] Stealth Rock
+|-ability|p2a: Viserion|Teravolt
+|turn|26
+|
+|move|p2a: Viserion|Outrage|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|43/100
+|-damage|p1a: Politoed|30/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Politoed|Ice Beam|p2a: Viserion
+|-damage|p2a: Viserion|0 fnt
+|faint|p2a: Viserion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Drogon|Dragonite, F|76/100
+|-damage|p2a: Drogon|51/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Drogon|Extreme Speed|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Drogon|Dragon Dance|p2a: Drogon
+|-boost|p2a: Drogon|atk|1
+|-boost|p2a: Drogon|spe|1
+|move|p1a: Celebi|Psychic|p2a: Drogon
+|-damage|p2a: Drogon|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Drogon|Outrage|p1a: Celebi
+|-damage|p1a: Celebi|4/100
+|move|p1a: Celebi|Psychic|p2a: Drogon
+|-damage|p2a: Drogon|0 fnt
+|faint|p2a: Drogon
+|
+|win|CroCoeur
+|raw|CroCoeur's rating: 1389 &rarr; <strong>1410</strong><br />(+21 for winning)
+|raw|Gabyy's rating: 1399 &rarr; <strong>1379</strong><br />(-20 for losing)
+|l|☆Gabyy

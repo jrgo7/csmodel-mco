@@ -1,0 +1,338 @@
+|j|‽BrainWash
+|j|☆KobePayne
+|player|p1|BrainWash|169|1516
+|player|p2|KobePayne|100|1431
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Gengar, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Mew|item
+|poke|p1|Toxicroak, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Scizor, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KobePayne)
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Skarmory|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: KobePayne|move: Stealth Rock
+|move|p2a: Tyranitar|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|-enditem|p1a: Skarmory|Custap Berry|[eat]
+|-activate|p1a: Skarmory|item: Custap Berry|[consumed]
+|
+|move|p1a: Skarmory|Brave Bird|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|-damage|p1a: Skarmory|8/100|[from] Recoil
+|move|p2a: Tyranitar|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: BrainWash|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Skarmory|Spikes|p2a: Tyranitar
+|-sidestart|p2: KobePayne|Spikes
+|move|p2a: Tyranitar|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxicroak|atk|1
+|move|p1a: Toxicroak|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|71/100
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Landorus
+|-damage|p1a: Toxicroak|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|85/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|76/100
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|70/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|move|p2a: Alakazam|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|-damage|p2a: Ferrothorn|82/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|-damage|p1a: Scizor|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Landorus|Landorus-Therian, M|71/100
+|-damage|p2a: Landorus|59/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Superpower|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|41/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|61/100
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from]move: U-turn
+|-damage|p2a: Excadrill|88/100|[from] Spikes
+|-damage|p2a: Excadrill|85/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|55/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|76/100
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Scizor
+|-damage|p1a: Scizor|23/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|24/100
+|move|p2a: Excadrill|Rock Slide|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, F|85/100
+|-damage|p1a: Toxicroak|78/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Toxicroak|[miss]
+|-miss|p2a: Excadrill|p1a: Toxicroak
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|72/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|switch|p2a: Landorus|Landorus-Therian, M|41/100
+|-damage|p2a: Landorus|28/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxicroak|atk|1
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|66/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Toxicroak|56/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|50/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|1/100
+|turn|16
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Alakazam|Encore|p1a: Toxicroak
+|-start|p1a: Toxicroak|Encore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|44/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|74/100
+|-damage|p2a: Ferrothorn|61/100|[from] Spikes
+|-damage|p2a: Ferrothorn|55/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|38/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|37/100|[from] Sandstorm
+|-heal|p1a: Mew|43/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Excadrill|Excadrill, F|24/100
+|-damage|p2a: Excadrill|22/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|9/100|[from] Spikes
+|move|p1a: Mew|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|37/100|[from] Sandstorm
+|-heal|p1a: Mew|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|1/100
+|turn|20
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, F|38/100
+|-damage|p1a: Toxicroak|31/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Drain Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|57/100
+|-heal|p1a: Toxicroak|47/100|[from] drain|[of] p2a: Latios
+|-damage|p1a: Toxicroak|37/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|51/100|[from] Sandstorm
+|-damage|p1a: Toxicroak|31/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Toxicroak|21/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|15/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|1/100
+|turn|23
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Alakazam|Encore|p1a: Toxicroak
+|-start|p1a: Toxicroak|Encore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|9/100|[from] Sandstorm
+|upkeep
+|turn|24
+|-message|BrainWash forfeited.
+|
+|win|KobePayne
+|l|‽BrainWash
+|raw|BrainWash's rating: 1519 &rarr; <strong>1494</strong><br />(-25 for losing)
+|raw|KobePayne's rating: 1431 &rarr; <strong>1456</strong><br />(+25 for winning)

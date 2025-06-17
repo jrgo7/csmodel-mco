@@ -1,0 +1,180 @@
+|j|☆BUMBACLAAT
+|j|‽initialoffense
+|player|p1|BUMBACLAAT|200|1440
+|player|p2|initialoffense|aromalady|1549
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Heracross, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Skarmory, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Jirachi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by initialoffense)
+|
+|start
+|switch|p1a: HERCULES|Heracross, F, shiny|100/100
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|turn|1
+|
+|move|p1a: HERCULES|Megahorn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|2
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: BUMBACLAAT|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: BUMBACLAAT|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: initialoffense|Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: BUMBACLAAT|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: initialoffense|Spikes
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|84/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Skarmory|Spikes|p2a: Politoed
+|-sidestart|p2: initialoffense|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Politoed|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Politoed
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|75/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Skarmory|Whirlwind|p1a: Tyranitar
+|drag|p1a: Latios|Latios, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|j|+cz
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|76/100|[from] Spikes
+|move|p1a: Latios|Trick|p2a: Jirachi
+|-activate|p1a: Latios|move: Trick|[of] p2a: Jirachi
+|-item|p2a: Jirachi|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|88/100|[from] Sandstorm
+|-heal|p1a: Latios|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|76/100|[from] Spikes
+|move|p1a: Rotom|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|69/100
+|
+|switch|p1a: HERCULES|Heracross, F, shiny|100/100|[from]move: Volt Switch
+|-damage|p1a: HERCULES|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: HERCULES|70/100|[from] Sandstorm
+|-damage|p2a: Chansey|63/100|[from] Sandstorm
+|-heal|p2a: Chansey|94/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|11
+|
+|switch|p2a: Jirachi|Jirachi|76/100
+|-damage|p2a: Jirachi|51/100|[from] Spikes
+|move|p1a: HERCULES|Close Combat|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-unboost|p1a: HERCULES|def|1
+|-unboost|p1a: HERCULES|spd|1
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: HERCULES|64/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|75/100|[from] Spikes
+|turn|12
+|
+|move|p1a: HERCULES|Close Combat|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|33/100
+|-unboost|p1a: HERCULES|def|1
+|-unboost|p1a: HERCULES|spd|1
+|move|p2a: Tentacruel|Rapid Spin|p1a: HERCULES
+|-damage|p1a: HERCULES|57/100
+|-sideend|p2: initialoffense|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: HERCULES|51/100|[from] Sandstorm
+|-damage|p2a: Tentacruel|26/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|33/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|-message|initialoffense forfeited.
+|
+|win|BUMBACLAAT
+|l|‽initialoffense
+|raw|BUMBACLAAT's rating: 1474 &rarr; <strong>1498</strong><br />(+24 for winning)
+|raw|initialoffense's rating: 1549 &rarr; <strong>1524</strong><br />(-25 for losing)
+|l|+cz

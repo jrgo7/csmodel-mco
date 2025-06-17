@@ -1,0 +1,459 @@
+|j|☆Internal Cannon
+|j|☆GerMoj
+|player|p1|Internal Cannon|261
+|player|p2|GerMoj|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Celebi|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Gyarados, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Tentacruel, F|item
+|teampreview
+|
+|start
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|1
+|
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|move|p2a: Breloom|Spore|p1a: Celebi
+|-status|p1a: Celebi|slp
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|cant|p1a: Celebi|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1a: Celebi|slp
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Politoed|perish3
+|-start|p1a: Celebi|perish3
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-curestatus|p1a: Celebi|slp|[msg]
+|move|p1a: Celebi|Seed Bomb|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish2
+|upkeep
+|turn|5
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Internal Cannon|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Garchomp
+|-start|p1a: Garchomp|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Garchomp|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|7
+|
+|move|p1a: Garchomp|Dragon Claw|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|75/100
+|-damage|p1a: Garchomp|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|30/100
+|-damage|p2a: Ferrothorn|62/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|69/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|17/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|81/100|[silent]
+|upkeep
+|turn|8
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|5/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|faint|p1a: Garchomp
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Celebi|Swords Dance|p1a: Celebi
+|-boost|p1a: Celebi|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Latios|Trick|p1a: Celebi
+|-activate|p2a: Latios|move: Trick|[of] p1a: Celebi
+|-item|p1a: Celebi|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Jirachi|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|90/100
+|-damage|p1a: Jirachi|37/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Mamoswine|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100
+|-damage|p1a: Mamoswine|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Mamoswine|atk|1
+|-unboost|p1a: Mamoswine|def|1
+|-damage|p1a: Mamoswine|66/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-crit|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Politoed|Hydro Pump|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|73/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Jirachi|Jirachi|37/100
+|-damage|p1a: Jirachi|31/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Toxic|p1a: Jirachi
+|-immune|p1a: Jirachi|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|85/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|91/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Jirachi|U-turn|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|82/100
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|63/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Celebi|Seed Bomb|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|move|p2a: Tentacruel|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|75/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|82/100|[from] item: Leftovers
+|-damage|p1a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|76/100|[from] Stealth Rock
+|switch|p2a: Ferrothorn|Ferrothorn, F|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Politoed|Hydro Pump|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|45/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Tentacruel|Tentacruel, F|82/100
+|move|p1a: Politoed|Focus Blast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|74/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|80/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|55/100
+|move|p1a: Politoed|Hydro Pump|p2a: Tentacruel|[miss]
+|-miss|p1a: Politoed|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|61/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|67/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Tentacruel|Toxic|p1a: Politoed
+|-status|p1a: Politoed|tox
+|move|p1a: Politoed|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|73/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|79/100|[from] item: Leftovers
+|-damage|p1a: Politoed|70/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|54/100
+|move|p1a: Politoed|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|60/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|66/100|[from] item: Leftovers
+|-damage|p1a: Politoed|58/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|41/100
+|move|p1a: Politoed|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|47/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|53/100|[from] item: Leftovers
+|-damage|p1a: Politoed|40/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|28/100
+|move|p1a: Politoed|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|34/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|40/100|[from] item: Leftovers
+|-damage|p1a: Politoed|16/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|15/100
+|move|p1a: Politoed|Hidden Power|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|21/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|27/100|[from] item: Leftovers
+|-damage|p1a: Politoed|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Politoed
+|
+|switch|p1a: Jirachi|Jirachi|31/100
+|-damage|p1a: Jirachi|25/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|move|p2a: Tentacruel|Scald|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|33/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|40/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Tentacruel|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|46/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|52/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|70/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|45/100
+|move|p1a: Gyarados|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|13/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|19/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|57/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Gyarados|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|25/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|39/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|47/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|14/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p1a: Gyarados|Return|p2a: Latios
+|-enditem|p1a: Gyarados|Normal Gem|[from] gem|[move] Return
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Gyarados|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Gyarados
+|-message|Internal Cannon forfeited.
+|
+|win|GerMoj
+|l|☆Internal Cannon
+|raw|Internal Cannon's rating: 1374 &rarr; <strong>1348</strong><br />(-26 for losing)
+|raw|GerMoj's rating: 1272 &rarr; <strong>1304</strong><br />(+32 for winning)

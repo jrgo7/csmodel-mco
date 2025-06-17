@@ -1,0 +1,408 @@
+|j|westmoore
+|j|SubTerraN
+|player|p1|westmoore|244
+|player|p2|SubTerraN|144
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|5158,52653,49989,36773
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Moltres|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Breloom, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Starmie|item
+|poke|p2|Breloom, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Breloom|Breloom, M|324/324
+|switch|p2a: Breloom|Breloom, M|261/261
+|turn|1
+|choice|switch 2|move spore
+|
+|switch|p1a: Moltres|Moltres|321/321
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Breloom|Spore|p1a: Moltres
+|-status|p1a: Moltres|slp
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|choice|switch 2|switch 6
+|
+|switch|p1a: Breloom|Breloom, M|324/324
+|switch|p2a: Politoed|Politoed, F|383/383
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|choice|switch 3|switch 6
+|
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|switch|p2a: Breloom|Breloom, M|261/261 tox
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|choice|move sludgebomb|move seedbomb
+|
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|turn|5
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Seismitoad|Seismitoad, M|391/391
+|move|p2a: Jirachi|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: westmoore|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|move|p1a: Seismitoad|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: SubTerraN|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|choice|switch 4|move hurricane
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|379/404|[from] Stealth Rock
+|move|p2a: Tornadus|Hurricane|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|274/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|299/404|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move uturn|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|182/404
+|move|p1a: Jirachi|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|264/299
+|choice|switch 6|
+|
+|switch|p1a: Politoed|Politoed, F|322/322
+|-damage|p1a: Politoed|282/322|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|choice|move surf|switch 6
+|
+|switch|p2a: Politoed|Politoed, F|383/383
+|-damage|p2a: Politoed|336/383|[from] Stealth Rock
+|move|p1a: Politoed|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|245/383
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|choice|switch 5|move scald
+|
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|-damage|p1a: Tentacruel|319/364|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|211/364
+|-status|p1a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|233/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|255/364 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|210/364 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move rapidspin|move scald
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|240/383
+|-sideend|p1: westmoore|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Politoed|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|105/364 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|127/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|149/364 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|104/364 brn|[from] brn
+|upkeep
+|turn|12
+|choice|switch 3|switch 5
+|
+|switch|p1a: Breloom|Breloom, M|324/324 tox
+|switch|p2a: Starmie|Starmie|261/261
+|-damage|p2a: Starmie|229/261|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|choice|switch 5|move icebeam
+|
+|switch|p1a: Politoed|Politoed, F|282/322
+|move|p2a: Starmie|Ice Beam|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|196/322
+|-damage|p2a: Starmie|203/261|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|choice|move encore|move thunder
+|
+|move|p1a: Politoed|Encore|p2a: Starmie
+|-start|p2a: Starmie|Encore
+|move|p2a: Starmie|Ice Beam|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|110/322
+|-damage|p2a: Starmie|177/261|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|choice|switch 6|switch 6
+|
+|switch|p1a: Jirachi|Jirachi|182/404
+|switch|p2a: Tornadus|Tornadus, M|264/299
+|-damage|p2a: Tornadus|190/299|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|207/404|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move thunder|move focusblast
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Jirachi|[miss]
+|-miss|p2a: Tornadus|p1a: Jirachi
+|move|p1a: Jirachi|Thunder|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|232/404|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Starmie|Starmie|177/261
+|-damage|p2a: Starmie|145/261|[from] Stealth Rock
+|turn|17
+|choice|switch 4|move icebeam
+|
+|switch|p1a: Seismitoad|Seismitoad, M|391/391
+|move|p2a: Starmie|Ice Beam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|177/391
+|-damage|p2a: Starmie|119/261|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|201/391|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 3|move icebeam
+|
+|switch|p1a: Tentacruel|Tentacruel, F|104/364 brn
+|move|p2a: Starmie|Ice Beam|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|39/364 brn
+|-damage|p2a: Starmie|93/261|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|61/364 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|83/364 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|38/364 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move scald|move thunder
+|
+|move|p2a: Starmie|Thunder|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-damage|p2a: Starmie|67/261|[from] item: Life Orb
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Politoed|Politoed, F|110/322
+|turn|20
+|choice|move surf|switch 5
+|
+|switch|p2a: Politoed|Politoed, F|240/383
+|-damage|p2a: Politoed|193/383|[from] Stealth Rock
+|move|p1a: Politoed|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|102/383
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|choice|switch 2|move focusblast
+|
+|switch|p1a: Moltres|Moltres|321/321 slp
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Politoed|Focus Blast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|213/321 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|233/321 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move sleeptalk|switch 4
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|cant|p1a: Moltres|slp
+|move|p1a: Moltres|Sleep Talk|p1a: Moltres
+|move|p1a: Moltres|Roost|p1a: Moltres|[from]Sleep Talk
+|-heal|p1a: Moltres|321/321 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|404/404|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|switch 3|move wish
+|
+|switch|p1a: Seismitoad|Seismitoad, M|201/391
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|225/391|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move earthquake|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|183/391
+|cant|p1a: Seismitoad|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|207/391|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move earthquake|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|167/391
+|move|p1a: Seismitoad|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|191/391|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Starmie|Starmie|67/261
+|-damage|p2a: Starmie|35/261|[from] Stealth Rock
+|turn|26
+|choice|move earthquake|move icebeam
+|
+|move|p2a: Starmie|Ice Beam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|35/391
+|-damage|p2a: Starmie|9/261|[from] item: Life Orb
+|move|p1a: Seismitoad|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|59/391|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gliscor|Gliscor, F|353/353
+|-damage|p2a: Gliscor|309/353|[from] Stealth Rock
+|turn|27
+|choice|move icepunch|move earthquake
+|
+|move|p2a: Gliscor|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Politoed|Politoed, F|110/322
+|turn|28
+|j|Hiper mystery
+|choice|move surf|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Politoed|Surf|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|353/353 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|choice|move surf|move earthquake
+|
+|move|p1a: Politoed|Surf|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Politoed|Politoed, F|102/383
+|-damage|p2a: Politoed|55/383|[from] Stealth Rock
+|turn|30
+|choice|move surf|move hydropump
+|
+|move|p1a: Politoed|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|win|westmoore
+|player|p1
+|player|p2
+|raw|westmoore's rating: 1549 &rarr; <strong>1562</strong><br />(+13 for winning)
+|raw|SubTerraN's rating: 1423 &rarr; <strong>1410</strong><br />(-13 for losing)

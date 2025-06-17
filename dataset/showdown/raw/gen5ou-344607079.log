@@ -1,0 +1,329 @@
+|j|☆MCDTeach
+|j|☆Pleasure
+|player|p1|MCDTeach|#yellow
+|player|p2|Pleasure|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Starmie|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Skarmory, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Xatu, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pleasure)
+|inactive|MCDTeach has 135 seconds left.
+|inactive|MCDTeach has 120 seconds left.
+|inactive|MCDTeach has 105 seconds left.
+|inactive|MCDTeach has 90 seconds left.
+|inactive|MCDTeach has 75 seconds left.
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|83/100
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Xatu
+|-resisted|p2a: Xatu
+|-damage|p2a: Xatu|83/100
+|-heal|p1a: Amoonguss|90/100|[from] drain|[of] p2a: Xatu
+|
+|-heal|p2a: Xatu|89/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|96/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Xatu|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|98/100
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|
+|upkeep
+|turn|3
+|inactive|MCDTeach has 135 seconds left.
+|inactive|Pleasure has 135 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Terrakion|Stone Edge|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|9/100
+|
+|-heal|p1a: Skarmory|15/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| breeding maniac
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Skarmory|[miss]
+|-miss|p2a: Terrakion|p1a: Skarmory
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|65/100
+|
+|-heal|p1a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Pleasure has 135 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|
+|upkeep
+|turn|6
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Amoonguss
+|-status|p1a: Amoonguss|brn
+|
+|-damage|p1a: Amoonguss|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|79/100 brn
+|
+|switch|p2a: Xatu|Xatu, F|89/100
+|move|p1a: Amoonguss|Spore|p2a: Xatu
+|move|p2a: Xatu|Spore|p1a: Amoonguss|[from]Magic Bounce
+|-fail|p1a: Amoonguss
+|
+|-heal|p2a: Xatu|95/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|85/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|73/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p1a: Heatran|Heatran, M|98/100
+|move|p2a: Xatu|Toxic|p1a: Heatran
+|-immune|p1a: Heatran|[msg]
+|
+|-heal|p2a: Xatu|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Pleasure has 135 seconds left.
+|inactive|Pleasure has 120 seconds left.
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Heatran|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|40/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|move|p1a: Heatran|Fire Blast|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|inactive|MCDTeach has 135 seconds left.
+|inactive|Pleasure has 135 seconds left.
+|inactive|Pleasure has 120 seconds left.
+|inactive|Pleasure has 105 seconds left.
+|inactive|MCDTeach has 120 seconds left.
+|inactive|Pleasure has 90 seconds left.
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|move|p2a: Terrakion|Close Combat|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|54/100 brn
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|48/100 brn|[from] Sandstorm
+|-heal|p1a: Amoonguss|54/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|42/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Terrakion|Close Combat|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|50/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|44/100|[from] Sandstorm
+|-status|p1a: Starmie|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|inactive|Pleasure has 135 seconds left.
+|inactive|Pleasure has 120 seconds left.
+|inactive|Pleasure has 105 seconds left.
+|inactive|Pleasure has 90 seconds left.
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|94/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|88/100 brn|[from] Sandstorm
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|-damage|p1a: Starmie|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|Pleasure has 120 seconds left.
+|inactive|MCDTeach has 135 seconds left.
+|inactive|Pleasure has 105 seconds left.
+|
+|move|p1a: Starmie|Trick|p2a: Latios
+|-activate|p1a: Starmie|move: Trick|[of] p2a: Latios
+|-item|p2a: Latios|Flame Orb|[from] move: Trick
+|-item|p1a: Starmie|Choice Specs|[from] move: Trick
+|move|p2a: Latios|Draco Meteor|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Sandstorm
+|-status|p2a: Latios|brn|[from] item: Flame Orb
+|upkeep
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|turn|15
+|inactive|Pleasure has 120 seconds left.
+|inactive|MCDTeach has 135 seconds left.
+|inactive|Pleasure has 105 seconds left.
+|
+|move|p2a: Latios|Trick|p1a: Tyranitar
+|-activate|p2a: Latios|move: Trick|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Flame Orb|[from] move: Trick
+|-item|p2a: Latios|Chople Berry|[from] move: Trick
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|33/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|27/100 brn|[from] Sandstorm
+|-damage|p2a: Latios|14/100 brn|[from] brn
+|-status|p1a: Tyranitar|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|j| weak sleeper
+|inactive|MCDTeach has 135 seconds left.
+|
+|-activate|p2a: Latios|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Latios|[from]Pursuit
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|inactive|Pleasure has 105 seconds left.
+|inactive|Pleasure has 90 seconds left.
+|
+|switch|p2a: Terrakion|Terrakion|77/100
+|turn|17
+|inactive|MCDTeach has 135 seconds left.
+|inactive|MCDTeach has 120 seconds left.
+|
+|move|p2a: Terrakion|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|MCDTeach has 105 seconds left.
+|inactive|MCDTeach has 90 seconds left.
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|18
+|inactive|Pleasure has 105 seconds left.
+|inactive|Pleasure has 90 seconds left.
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Alakazam|Focus Blast|p2a: Jirachi
+|-damage|p2a: Jirachi|75/100
+|-unboost|p2a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|MCDTeach has 90 seconds left.
+|inactive|Pleasure has 90 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Jirachi|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|98/100
+|inactive|Pleasure has 90 seconds left.
+|inactive|Pleasure has 75 seconds left.
+|inactive|Pleasure has 60 seconds left.
+|inactive|Pleasure has 45 seconds left.
+|j| Hiruzen_03
+|inactive|Pleasure has 30 seconds left.
+|l| Hiruzen_03
+|inactive|Pleasure has 20 seconds left.
+|inactive|Pleasure has 15 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Amoonguss|Amoonguss, F|75/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|66/100 brn
+|inactive|Pleasure has 30 seconds left.
+|inactive|Pleasure has 20 seconds left.
+|inactive|Pleasure has 15 seconds left.
+|inactive|Pleasure has 10 seconds left.
+|inactive|Pleasure has 5 seconds left.
+|-message|Pleasure lost due to inactivity.
+|
+|win|MCDTeach
+|raw|MCDTeach's rating: 1500 &rarr; <strong>1513</strong><br />(+13 for winning)
+|raw|Pleasure's rating: 1381 &rarr; <strong>1368</strong><br />(-13 for losing)
+|l|☆Pleasure

@@ -1,0 +1,531 @@
+|j|☆The Daisuke
+|j|☆MC_Invin
+|player|p1|The Daisuke|152
+|player|p2|MC_Invin|290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Donphan, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Metagross|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Gengar, M|item
+|poke|p2|Infernape, M|item
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Amoonguss
+|-sidestart|p1: The Daisuke|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|move|p1a: Amoonguss|Spore|p2a: Infernape
+|-status|p2a: Infernape|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Infernape|94/100 slp|[from] Sandstorm
+|-damage|p1a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-damage|p1a: Slowbro|82/100|[from] Sandstorm
+|-heal|p1a: Slowbro|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Spikes
+|move|p2a: Hydreigon|Draco Meteor|p1a: Amoonguss
+|-damage|p1a: Amoonguss|18/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|84/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|78/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|11/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|18/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Metagross|Metagross|100/100
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|-activate|p1a: Terrakion|move: Pursuit
+|move|p2a: Metagross|Pursuit|p1a: Terrakion|[from]Pursuit
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|59/100
+|-ability|p1a: Terrakion|Justified|boost
+|-boost|p1a: Terrakion|atk|1
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|82/100|[from] Sandstorm
+|-heal|p1a: Slowbro|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Hydreigon|Hydreigon, F|78/100
+|move|p1a: Slowbro|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|57/100|[from] Sandstorm
+|-damage|p1a: Slowbro|82/100|[from] Sandstorm
+|-heal|p1a: Slowbro|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|100/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-damage|p1a: Slowbro|94/100|[from] Sandstorm
+|-heal|p1a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|84/100|[from] item: Life Orb
+|faint|p1a: Slowbro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|78/100|[from] Sandstorm
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Daisuke)
+|
+|switch|p1a: Terrakion|Terrakion|59/100
+|-damage|p1a: Terrakion|47/100|[from] Spikes
+|turn|10
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Terrakion|Stone Edge|p2a: Gliscor
+|-damage|p2a: Gliscor|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Terrakion|Stone Edge|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|52/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Amoonguss|Amoonguss, F|51/100
+|-damage|p1a: Amoonguss|38/100|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|32/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|38/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|58/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Amoonguss|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|16/100
+|move|p2a: Ferrothorn|Spikes|p1a: Amoonguss
+|-sidestart|p1: The Daisuke|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|32/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|38/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|22/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Amoonguss|Stun Spore|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|32/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|38/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Hydreigon|Hydreigon, F|78/100
+|move|p1a: Amoonguss|Hidden Power|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|64/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|32/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|38/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|j| Hiruzen_03
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|84/100|[from] Spikes
+|move|p2a: Hydreigon|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|28/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|55/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|48/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Metagross|[miss]
+|-miss|p1a: Tyranitar|p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Metagross|Meteor Mash|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Donphan|Donphan, F|100/100
+|-damage|p1a: Donphan|84/100|[from] Spikes
+|turn|19
+|
+|move|p2a: Metagross|Meteor Mash|p1a: Donphan|[miss]
+|-miss|p2a: Metagross|p1a: Donphan
+|move|p1a: Donphan|Rapid Spin|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|98/100
+|-sideend|p1: The Daisuke|Spikes|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Donphan|Earthquake|p2a: Gengar
+|-immune|p2a: Gengar|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-heal|p1a: Donphan|96/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Donphan
+|-damage|p1a: Donphan|39/100
+|-unboost|p1a: Donphan|spd|1
+|move|p1a: Donphan|Stealth Rock|p2a: Gengar
+|-sidestart|p2: MC_Invin|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|88/100|[from] Sandstorm
+|-heal|p1a: Donphan|45/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Amoonguss|Amoonguss, F|72/100
+|move|p2a: Gengar|Shadow Ball|p1a: Amoonguss
+|-damage|p1a: Amoonguss|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|82/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|35/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|41/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|switch|p2a: Gliscor|Gliscor, F|48/100 tox
+|-damage|p2a: Gliscor|35/100 tox|[from] Stealth Rock
+|move|p1a: Amoonguss|Stun Spore||[still]
+|-fail|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|35/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|41/100|[from] item: Black Sludge
+|-heal|p2a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|98/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|29/100
+|-damage|p2a: Ferrothorn|22/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Hydreigon|Hydreigon, F|48/100
+|-damage|p2a: Hydreigon|36/100|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|83/100|[from] Sandstorm
+|-damage|p2a: Hydreigon|4/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|move|p1a: Latios|Surf|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|77/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Metagross|Metagross|98/100
+|-damage|p2a: Metagross|92/100|[from] Stealth Rock
+|turn|28
+|inactive|The Daisuke has 120 seconds left.
+|
+|switch|p1a: Donphan|Donphan, F|45/100
+|move|p2a: Metagross|Meteor Mash|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|-boost|p2a: Metagross|atk|1
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|47/100
+|turn|29
+|
+|switch|p2a: Gengar|Gengar, M|82/100
+|-damage|p2a: Gengar|70/100|[from] Stealth Rock
+|move|p1a: Terrakion|Close Combat|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|64/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|switch|p1a: Amoonguss|Amoonguss, F|75/100
+|move|p2a: Gengar|Shadow Ball|p1a: Amoonguss
+|-damage|p1a: Amoonguss|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|58/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|38/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|44/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Amoonguss
+|-damage|p1a: Amoonguss|17/100
+|move|p1a: Amoonguss|Stun Spore|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|51/100 par|[from] Sandstorm
+|-damage|p1a: Amoonguss|10/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|17/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|45/100 par|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|77/100
+|turn|33
+|
+|move|p1a: Latios|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|71/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|22/100
+|-damage|p2a: Ferrothorn|16/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|65/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|22/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Latios
+|-start|p1a: Latios|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|59/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|10/100|[from] item: Leftovers
+|-damage|p1a: Latios|47/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|21/100|[silent]
+|upkeep
+|turn|36
+|
+|switch|p1a: Terrakion|Terrakion|47/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|47/100
+|turn|37
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Latios|Hidden Power|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|41/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|33/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Latios|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|35/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Infernape|Infernape, M|94/100 slp
+|-damage|p2a: Infernape|82/100 slp|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Latios|Hidden Power|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|55/100 slp
+|cant|p2a: Infernape|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|29/100|[from] Sandstorm
+|-damage|p2a: Infernape|49/100 slp|[from] Sandstorm
+|upkeep
+|turn|40
+|
+|move|p1a: Latios|Hidden Power|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|20/100 slp
+|-curestatus|p2a: Infernape|slp|[msg]
+|move|p2a: Infernape|Grass Knot|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|12/100
+|-damage|p2a: Infernape|10/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|6/100|[from] Sandstorm
+|-damage|p2a: Infernape|4/100|[from] Sandstorm
+|upkeep
+|turn|41
+|
+|move|p1a: Latios|Hidden Power|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|0 fnt|[from] Sandstorm
+|faint|p1a: Latios
+|
+|win|MC_Invin
+|upkeep
+|c|☆MC_Invin|gg
+|l|☆The Daisuke
+|raw|The Daisuke's rating: 1445 &rarr; <strong>1417</strong><br />(-28 for losing)
+|raw|MC_Invin's rating: 1292 &rarr; <strong>1327</strong><br />(+35 for winning)
+|l|☆MC_Invin
+|j|☆MC_Invin

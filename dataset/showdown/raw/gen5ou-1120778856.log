@@ -1,0 +1,302 @@
+|j|☆testbwou
+|j|☆Chairman Ma0
+|player|p1|testbwou|2|1350
+|player|p2|Chairman Ma0|swimmer-gen4|1286
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Garchomp, F|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Forretress, F|item
+|poke|p2|Espeon, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Celebi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|c|☆Chairman Ma0|Gl
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chairman Ma0)
+|c|☆testbwou|glhf
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Forretress|Forretress, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Forretress
+|-damage|p2a: Forretress|22/100
+|move|p2a: Forretress|Stealth Rock|p1a: Rotom
+|-sidestart|p1: testbwou|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|-enditem|p2a: Forretress|Custap Berry|[eat]
+|-activate|p2a: Forretress|item: Custap Berry|[consumed]
+|
+|move|p2a: Forretress|Spikes|p1a: Rotom
+|-sidestart|p1: testbwou|Spikes
+|move|p1a: Rotom|Volt Switch|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|3
+|
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|move|p1a: Scizor|U-turn|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|59/100
+|inactive|testbwou has 120 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|53/100|[from] Sandstorm
+|-heal|p2a: Thundurus|59/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|56/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|0 fnt|[from] Sandstorm
+|faint|p2a: Thundurus
+|-heal|p1a: Tyranitar|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|5
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Spikes
+|-damage|p1a: Jellicent|75/100|[from] Stealth Rock
+|move|p2a: Terrakion|Close Combat|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|69/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|move|p1a: Jellicent|Water Spout|p2a: Espeon
+|-damage|p2a: Espeon|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|22/100|[from] Sandstorm
+|-damage|p1a: Jellicent|63/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p2a: Espeon|Light Screen|p2a: Espeon
+|-sidestart|p2: Chairman Ma0|move: Light Screen
+|move|p1a: Jellicent|Water Spout|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|57/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cloyster|94/100|[from] Sandstorm
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Cloyster|Rock Blast|p1a: Rotom
+|-damage|p1a: Rotom|74/100
+|-damage|p1a: Rotom|59/100
+|-damage|p1a: Rotom|44/100
+|-damage|p1a: Rotom|29/100
+|-damage|p1a: Rotom|15/100
+|-hitcount|p1a: Rotom|5
+|move|p1a: Rotom|Volt Switch|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p1a: Scizor|Scizor, M|76/100|[from]move: Volt Switch
+|-damage|p1a: Scizor|64/100|[from] Stealth Rock
+|-damage|p1a: Scizor|52/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Celebi|Celebi|100/100
+|turn|10
+|
+|move|p2a: Celebi|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Celebi|91/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|84/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|62/100
+|-damage|p1a: Tyranitar|50/100|[from] Spikes
+|-damage|p1a: Tyranitar|37/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Celebi|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|2/100
+|-heal|p2a: Celebi|100/100|[from] drain|[of] p1a: Tyranitar
+|-damage|p2a: Celebi|91/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|12/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|9/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Celebi|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Celebi|17/100|[from] drain|[of] p1a: Tyranitar
+|-damage|p2a: Celebi|7/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|1/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|13
+|
+|move|p1a: Alakazam|Psychic|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Wash|15/100
+|-damage|p1a: Rotom|2/100|[from] Stealth Rock
+|move|p2a: Terrakion|Rock Polish|p2a: Terrakion
+|-boost|p2a: Terrakion|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|0 fnt|[from] Sandstorm
+|faint|p1a: Rotom
+|-sideend|p2: Chairman Ma0|move: Light Screen
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|57/100
+|-damage|p1a: Jellicent|44/100|[from] Spikes
+|-damage|p1a: Jellicent|32/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Terrakion|Swords Dance|p2a: Terrakion
+|-boost|p2a: Terrakion|atk|2
+|move|p1a: Jellicent|Shadow Ball|p2a: Terrakion
+|-damage|p2a: Terrakion|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|25/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-damage|p2a: Terrakion|53/100|[from] item: Life Orb
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆testbwou|gg
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Terrakion|Close Combat|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|40/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Terrakion|30/100|[from] item: Life Orb
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|18
+|c|☆Chairman Ma0|!calc
+|html|<div class="infobox">Pok&eacute;mon Showdown! damage calculator. (Courtesy of Honko &amp; Austin)<br />- <a href="https://calc.pokemonshowdown.com/index.html">Damage Calculator</a></div>
+|inactive|Chairman Ma0 has 120 seconds left.
+|
+|move|p2a: Terrakion|Close Combat|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|20/100|[from] item: Life Orb
+|faint|p1a: Alakazam
+|
+|win|Chairman Ma0
+|raw|testbwou's rating: 1350 &rarr; <strong>1326</strong><br />(-24 for losing)
+|raw|Chairman Ma0's rating: 1286 &rarr; <strong>1316</strong><br />(+30 for winning)
+|c|☆Chairman Ma0|Gg
+|c|☆Chairman Ma0|Well played
+|c|☆testbwou|gg
+|l|☆testbwou

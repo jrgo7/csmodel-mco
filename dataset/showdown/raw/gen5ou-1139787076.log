@@ -1,0 +1,325 @@
+|j|☆Pythagorean Python
+|j|☆Garchomplte
+|player|p1|Pythagorean Python|159|1400
+|player|p2|Garchomplte|brock|1482
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Salamence, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Raikou|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, F|item
+|poke|p2|Moltres|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Raikou|Raikou|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-ability|p1a: Raikou|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Raikou|Volt Switch|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Raikou|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|move|p1a: Mienshao|U-turn|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|89/100
+|
+|switch|p1a: Meloetta|Meloetta|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|95/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Tentacruel|Toxic|p1a: Meloetta
+|-status|p1a: Meloetta|tox
+|move|p1a: Meloetta|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|12/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|18/100|[from] item: Black Sludge
+|-damage|p1a: Meloetta|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|24/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|31/100|[from] item: Black Sludge
+|-heal|p1a: Meloetta|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|95/100
+|move|p1a: Meloetta|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Meloetta|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|turn|7
+|
+|move|p2a: Moltres|Hurricane|p1a: Meloetta
+|-damage|p1a: Meloetta|29/100 tox
+|move|p1a: Meloetta|Psyshock|p2a: Moltres
+|-damage|p2a: Moltres|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Meloetta|35/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|10/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Moltres|Hurricane|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|9
+|c|☆Garchomplte|oh shit my tenta has no evs
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Raikou|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|72/100
+|c|☆Pythagorean Python|Took that hit pretty well considering
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆Garchomplte|227 def
+|c|☆Garchomplte|wtf
+|c|☆Garchomplte|is that actually how it is then?
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Mienshao|High Jump Kick|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|49/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|64/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Garchomplte|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Jirachi|Thunder Punch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|65/100
+|move|p2a: Politoed|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|39/100
+|-status|p1a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|45/100 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|71/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|33/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Jirachi|Thunder Punch|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|39/100 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|77/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|27/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Jirachi|Thunder Punch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|43/100
+|-status|p2a: Politoed|par
+|move|p2a: Politoed|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|49/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|16
+|
+|switch|p2a: Moltres|Moltres|24/100
+|-damage|p2a: Moltres|0 fnt|[from] Stealth Rock
+|faint|p2a: Moltres
+|move|p1a: Raikou|Thunderbolt|p2: Moltres|[notarget]
+|-fail|p1a: Raikou
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|78/100
+|-damage|p2a: Rotom|66/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Raikou|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|
+|switch|p1a: Salamence|Salamence, M|100/100|[from]move: Volt Switch
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|move|p2a: Rotom|Hydro Pump|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Politoed|Politoed, F|49/100 par
+|-damage|p2a: Politoed|36/100 par|[from] Stealth Rock
+|move|p1a: Salamence|Draco Meteor|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Salamence|spa|2
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|31/100
+|-damage|p2a: Tentacruel|18/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Tentacruel|Protect||[still]
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|24/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|30/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Raikou|Thunderbolt|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|36/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|42/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|49/100
+|-damage|p2a: Latios|36/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Latios|Draco Meteor|p1a: Raikou
+|-damage|p1a: Raikou|28/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Raikou|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|45/100
+|-damage|p2a: Rotom|33/100|[from] Stealth Rock
+|turn|23
+|c|☆Pythagorean Python|gg
+|-message|Garchomplte forfeited.
+|
+|win|Pythagorean Python
+|l|☆Garchomplte
+|raw|Pythagorean Python's rating: 1400 &rarr; <strong>1424</strong><br />(+24 for winning)
+|raw|Garchomplte's rating: 1461 &rarr; <strong>1438</strong><br />(-23 for losing)

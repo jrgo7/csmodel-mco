@@ -1,0 +1,604 @@
+|j|☆DRAGONKING JASON2
+|j|☆JustinVu
+|player|p1|DRAGONKING JASON2|lucas|1383
+|player|p2|JustinVu|caitlin|1368
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Rotom-Wash|item
+|poke|p1|Reuniclus, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Breloom, M|item
+|poke|p2|Jolteon, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|1
+|
+|move|p2a: Mienshao|Fake Out|p1a: Latios
+|-damage|p1a: Latios|76/100
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|cant|p1a: Latios|flinch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Latios|Trick|p2a: Chansey
+|-activate|p1a: Latios|move: Trick|[of] p2a: Chansey
+|-item|p2a: Chansey|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Chansey|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Bullet Seed|p1a: Landorus
+|-damage|p1a: Landorus|77/100
+|-damage|p1a: Landorus|50/100
+|-damage|p1a: Landorus|27/100
+|-damage|p1a: Landorus|2/100
+|-hitcount|p1a: Landorus|4
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|88/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|94/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|95/100|[from] Sandstorm
+|-damage|p2a: Gyarados|88/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Jolteon|[miss]
+|-miss|p1a: Rotom|p2a: Jolteon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|95/100|[from] Sandstorm
+|-damage|p1a: Rotom|95/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Jolteon|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|67/100
+|-damage|p2a: Jolteon|85/100|[from] item: Life Orb
+|
+|switch|p2a: Chansey|Chansey, F|94/100|[from]move: Volt Switch
+|move|p1a: Rotom|Will-O-Wisp|p2a: Chansey
+|-status|p2a: Chansey|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|61/100|[from] Sandstorm
+|-damage|p2a: Chansey|88/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|67/100|[from] item: Leftovers
+|-damage|p2a: Chansey|75/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|64/100 brn
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 par|[from]move: Volt Switch
+|move|p2a: Chansey|Rain Dance|p2a: Chansey
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Chansey|51/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Gyarados|Gyarados, M|94/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|cant|p1a: Tyranitar|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Wash|67/100
+|move|p2a: Gyarados|Roar|p1a: Rotom
+|drag|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|switch|p1a: Latios|Latios, M|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Mienshao|Fake Out|p1a: Latios
+|-damage|p1a: Latios|51/100
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|cant|p1a: Latios|flinch
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|switch|p2a: Chansey|Chansey, F|51/100
+|move|p1a: Latios|Draco Meteor|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Chansey
+|
+|upkeep
+|
+|switch|p2a: Jolteon|Jolteon, M|85/100
+|turn|15
+|
+|switch|p1a: Landorus|Landorus-Therian, M|2/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jolteon|atk|1
+|move|p2a: Jolteon|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Latios|Latios, M|51/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Latios|Surf|p2a: Forretress
+|-damage|p2a: Forretress|71/100
+|move|p2a: Forretress|Stealth Rock|p1a: Latios
+|-sidestart|p1: DRAGONKING JASON2|move: Stealth Rock
+|
+|-heal|p2a: Forretress|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Latios|Trick|p2a: Forretress
+|-activate|p1a: Latios|move: Trick|[of] p2a: Forretress
+|-item|p2a: Forretress|Eviolite|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|move|p2a: Forretress|Gyro Ball|p1a: Latios
+|-damage|p1a: Latios|12/100
+|
+|-heal|p1a: Latios|18/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Forretress|Gyro Ball|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|-damage|p2a: Forretress|65/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Breloom|Breloom, M|88/100
+|move|p1a: Ferrothorn|Spikes|p2a: Breloom
+|-sidestart|p2: JustinVu|Spikes
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Landorus|Landorus-Therian, M|2/100
+|-damage|p1a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p1a: Landorus
+|move|p2a: Breloom|Low Sweep|p1: Landorus|[notarget]
+|-fail|p2a: Breloom
+|
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|23
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Reuniclus|atk|1
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Reuniclus|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|49/100
+|move|p2a: Gyarados|Roar|p1a: Reuniclus
+|drag|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Gyarados|56/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Forretress|Forretress, M|65/100
+|-damage|p2a: Forretress|52/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Forretress
+|-sidestart|p2: JustinVu|Spikes
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Forretress|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Forretress|40/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: JustinVu|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|move|p1a: Ferrothorn|Leech Seed|p2a: Forretress
+|-start|p2a: Forretress|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Forretress|27/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|27
+|
+|switch|p2a: Breloom|Breloom, M|88/100
+|move|p1a: Ferrothorn|Spikes|p2a: Breloom
+|-sidestart|p2: JustinVu|Spikes
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Rotom|Rotom-Wash|67/100
+|-damage|p1a: Rotom|55/100|[from] Stealth Rock
+|move|p2a: Breloom|Bullet Seed|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-hitcount|p1a: Rotom|1
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|18/100
+|-damage|p1a: Latios|6/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: Forretress|Forretress, M|27/100
+|-damage|p2a: Forretress|15/100|[from] Spikes
+|move|p1a: Latios|Draco Meteor|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Forretress
+|
+|-heal|p1a: Latios|12/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jolteon|Jolteon, M|85/100
+|-damage|p2a: Jolteon|72/100|[from] Spikes
+|turn|30
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 par
+|-damage|p1a: Tyranitar|88/100 par|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Jolteon|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|73/100 par
+|-unboost|p1a: Tyranitar|spd|1
+|-damage|p2a: Jolteon|62/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|57/100|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|move|p2a: Jolteon|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|47/100 par
+|-damage|p2a: Jolteon|47/100|[from] item: Life Orb
+|
+|switch|p2a: Gyarados|Gyarados, M|56/100|[from]move: Volt Switch
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: JustinVu|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|49/100|[from] Sandstorm
+|-heal|p2a: Gyarados|56/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Gyarados|Roar|p1a: Ferrothorn
+|drag|p1a: Latios|Latios, M|12/100
+|-damage|p1a: Latios|0 fnt|[from] Stealth Rock
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|49/100|[from] Sandstorm
+|-heal|p2a: Gyarados|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|94/100
+|-damage|p1a: Ferrothorn|88/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p2a: Breloom|Breloom, M|88/100
+|-damage|p2a: Breloom|76/100|[from] Spikes
+|-damage|p2a: Breloom|69/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|67/100
+|-enditem|p2a: Breloom|Choice Band|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|61/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Tyranitar|Tyranitar, M|47/100 par
+|-damage|p1a: Tyranitar|34/100 par|[from] Stealth Rock
+|move|p2a: Breloom|Low Sweep|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|54/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|35
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Reuniclus
+|-damage|p1a: Reuniclus|85/100
+|-damage|p1a: Reuniclus|71/100
+|-hitcount|p1a: Reuniclus|2
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|48/100|[from] Sandstorm
+|upkeep
+|turn|36
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Reuniclus
+|-damage|p1a: Reuniclus|84/100
+|-damage|p1a: Reuniclus|70/100
+|-damage|p1a: Reuniclus|55/100
+|-damage|p1a: Reuniclus|41/100
+|-damage|p1a: Reuniclus|26/100
+|-hitcount|p1a: Reuniclus|5
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|42/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|82/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Reuniclus
+|-damage|p1a: Reuniclus|66/100
+|-damage|p1a: Reuniclus|50/100
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|19/100
+|-damage|p1a: Reuniclus|5/100
+|-hitcount|p1a: Reuniclus|4
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|36/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|61/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Reuniclus
+|-damage|p1a: Reuniclus|48/100
+|-damage|p1a: Reuniclus|32/100
+|-damage|p1a: Reuniclus|17/100
+|-hitcount|p1a: Reuniclus|3
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|29/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|73/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Reuniclus
+|-damage|p1a: Reuniclus|57/100
+|-damage|p1a: Reuniclus|43/100
+|-hitcount|p1a: Reuniclus|2
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|23/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|99/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|94/100
+|-damage|p1a: Ferrothorn|88/100|[from] Stealth Rock
+|move|p2a: Breloom|Bullet Seed|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|76/100
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|73/100
+|-hitcount|p1a: Ferrothorn|5
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|17/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Breloom|Low Sweep|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|17/100
+|-unboost|p1a: Ferrothorn|spe|1
+|-damage|p2a: Breloom|5/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Breloom
+|-sidestart|p2: JustinVu|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|0 fnt|[from] Sandstorm
+|faint|p2a: Breloom
+|-heal|p1a: Ferrothorn|23/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|-damage|p2a: Mienshao|78/100|[from] Spikes
+|turn|42
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Ferrothorn|[miss]
+|-miss|p2a: Mienshao|p1a: Ferrothorn
+|-damage|p2a: Mienshao|28/100|[from] highjumpkick
+|move|p1a: Ferrothorn|Leech Seed|p2a: Mienshao
+|-start|p2a: Mienshao|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|22/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|29/100|[from] item: Leftovers
+|-damage|p2a: Mienshao|10/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|38/100|[silent]
+|upkeep
+|turn|43
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Mienshao|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Mienshao
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Jolteon|Jolteon, M|47/100
+|switch|p1a: Reuniclus|Reuniclus, F|99/100
+|-damage|p2a: Jolteon|30/100|[from] Spikes
+|-damage|p2a: Jolteon|18/100|[from] Stealth Rock
+|turn|44
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|44/100
+|-unboost|p1a: Reuniclus|spd|1
+|-damage|p2a: Jolteon|8/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|2/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|99/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|18/100
+|-damage|p2a: Jolteon|0 fnt|[from] item: Life Orb
+|faint|p2a: Jolteon
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|56/100
+|-damage|p2a: Gyarados|31/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Reuniclus|atk|1
+|turn|46
+|
+|move|p2a: Gyarados|Waterfall|p1a: Reuniclus
+|-damage|p1a: Reuniclus|51/100
+|move|p1a: Reuniclus|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|DRAGONKING JASON2
+|raw|DRAGONKING JASON2's rating: 1383 &rarr; <strong>1402</strong><br />(+19 for winning)
+|raw|JustinVu's rating: 1368 &rarr; <strong>1349</strong><br />(-19 for losing)

@@ -1,0 +1,128 @@
+|join|swagban
+|join|W2S
+|player|p1|swagban|1
+|player|p2|W2S|153
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Liepard, M
+|poke|p1|Tornadus, M
+|poke|p1|Sableye, F
+|poke|p1|Skarmory, M
+|poke|p1|Amoonguss, F
+|poke|p1|Bronzong
+|poke|p2|Garchomp, F
+|poke|p2|Latios, M
+|poke|p2|Keldeo
+|poke|p2|Scizor, F
+|poke|p2|Tyranitar, F
+|poke|p2|Rotom-Wash
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Skarm|Skarmory, M|271/271
+|switch|p2a: T'AS QUEL DEO|Keldeo|323/323
+|turn|1
+|
+|switch|p2a: LatiosALaMoelle|Latios, M|302/302
+|move|p1a: Skarm|Stealth Rock|p2a: LatiosALaMoelle
+|-sidestart|p2: W2S|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: LatiosALaMoelle|Hidden Power|p1a: Skarm
+|-supereffective|p1a: Skarm
+|-activate|p1a: Skarm|Sturdy
+|-damage|p1a: Skarm|1/271
+|-damage|p2a: LatiosALaMoelle|272/302|[from] item: Life Orb
+|move|p1a: Skarm|Spikes|p2a: LatiosALaMoelle
+|-sidestart|p2: W2S|Spikes
+|
+|turn|3
+|-enditem|p1a: Skarm|Custap Berry|[eat]
+|-activate|p1a: Skarm|Custap Berry
+|
+|move|p1a: Skarm|Brave Bird|p2a: LatiosALaMoelle
+|-damage|p2a: LatiosALaMoelle|85/302
+|-damage|p1a: Skarm|0 fnt|[from] recoil|[of] p2a: LatiosALaMoelle
+|faint|p1a: Skarm
+|move|p2a: LatiosALaMoelle|Hidden Power|p1: Skarm|[notarget]
+|-notarget
+|
+|
+|switch|p1a: Swagger|Liepard, M|331/331
+|turn|4
+|
+|move|p1a: Swagger|Substitute|p1a: Swagger
+|-start|p1a: Swagger|Substitute
+|-damage|p1a: Swagger|249/331
+|move|p2a: LatiosALaMoelle|Draco Meteor|p1a: Swagger
+|-crit|p1a: Swagger
+|-end|p1a: Swagger|Substitute
+|-unboost|p2a: LatiosALaMoelle|spa|2
+|-damage|p2a: LatiosALaMoelle|55/302|[from] item: Life Orb
+|
+|-heal|p1a: Swagger|269/331|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Swagger|Substitute|p1a: Swagger
+|-start|p1a: Swagger|Substitute
+|-damage|p1a: Swagger|187/331
+|move|p2a: LatiosALaMoelle|Recover|p2a: LatiosALaMoelle
+|-heal|p2a: LatiosALaMoelle|206/302
+|
+|-heal|p1a: Swagger|207/331|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Rotom-WESHFDP|Rotom-Wash|304/304
+|-damage|p2a: Rotom-WESHFDP|266/304|[from] Stealth Rock
+|move|p1a: Swagger|Thunder Wave|p2a: Rotom-WESHFDP
+|-status|p2a: Rotom-WESHFDP|par
+|
+|-heal|p1a: Swagger|227/331|[from] item: Leftovers
+|-heal|p2a: Rotom-WESHFDP|285/304 par|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Swagger|Swagger|p2a: Rotom-WESHFDP
+|-boost|p2a: Rotom-WESHFDP|atk|2
+|-start|p2a: Rotom-WESHFDP|confusion
+|-activate|p2a: Rotom-WESHFDP|confusion
+|-damage|p2a: Rotom-WESHFDP|244/304 par|[from] confusion
+|
+|-heal|p1a: Swagger|247/331|[from] item: Leftovers
+|-heal|p2a: Rotom-WESHFDP|263/304 par|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Swagger|Foul Play|p2a: Rotom-WESHFDP
+|-damage|p2a: Rotom-WESHFDP|121/304 par
+|cant|p2a: Rotom-WESHFDP|par
+|
+|-heal|p1a: Swagger|267/331|[from] item: Leftovers
+|-heal|p2a: Rotom-WESHFDP|140/304 par|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Swagger|Swagger|p2a: Rotom-WESHFDP
+|-boost|p2a: Rotom-WESHFDP|atk|2
+|cant|p2a: Rotom-WESHFDP|par
+|
+|-heal|p1a: Swagger|287/331|[from] item: Leftovers
+|-heal|p2a: Rotom-WESHFDP|159/304 par|[from] item: Leftovers
+|turn|10
+|-message|W2S forfeited.
+|
+|win|swagban
+|raw|Ladder updating...
+|raw|swagban's rating: 1288 &rarr; <strong>1317</strong><br />(+29 for winning)
+|raw|W2S's rating: 1348 &rarr; <strong>1324</strong><br />(-24 for losing)
+|leave|W2S
+|player|p2

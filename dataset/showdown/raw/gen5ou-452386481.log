@@ -1,0 +1,174 @@
+|j|raspberryframboise
+|j|peakyblinded
+|player|p1|raspberryframboise|266
+|player|p2|peakyblinded|23
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Quagsire, M, shiny|item
+|poke|p1|Gothitelle, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Latios, M, shiny|item
+|poke|p1|Skarmory, M, shiny|item
+|poke|p1|Tyranitar, M, shiny|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Celebi|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Tyranitar, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|choice||
+|
+|move|p2a: Tyranitar|Superpower|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|choice||
+|
+|switch|p1a: Quagsire|Quagsire, M, shiny|100/100
+|turn|2
+|choice||
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Quagsire
+|-sidestart|p1: raspberryframboise|move: Stealth Rock
+|move|p1a: Quagsire|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|turn|3
+|choice||
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Quagsire|Earthquake|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|82/100|[from] sandstorm
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|turn|4
+|choice||
+|
+|switch|p2a: Tyranitar|Tyranitar, F|52/100
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|82/100|[from] sandstorm
+|turn|5
+|choice||
+|
+|move|p1a: Chansey|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|-enditem|p2a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p2a: Tyranitar|tox|[msg]
+|move|p2a: Tyranitar|Crunch|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|22/100|[from] sandstorm
+|turn|6
+|choice||
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|72/100
+|move|p2a: Tyranitar|Crunch|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|26/100
+|-unboost|p1a: Chansey|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|19/100|[from] sandstorm
+|turn|7
+|choice||
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|69/100
+|move|p2a: Tyranitar|Superpower|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|faint|p1a: Chansey
+|
+|-weather|Sandstorm|[upkeep]
+|choice||
+|
+|switch|p1a: Quagsire|Quagsire, M, shiny|100/100
+|-damage|p1a: Quagsire|94/100|[from] Stealth Rock
+|turn|8
+|choice||
+|
+|switch|p2a: Celebi|Celebi|88/100
+|move|p1a: Quagsire|Ice Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|57/100|[from] sandstorm
+|-heal|p2a: Celebi|63/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|100/100|[from] item: Leftovers
+|turn|9
+|choice||
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Celebi|Giga Drain|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|76/100
+|-heal|p2a: Celebi|68/100|[from] drain|[of] p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|62/100|[from] sandstorm
+|-damage|p1a: Latios|70/100|[from] sandstorm
+|-heal|p2a: Celebi|68/100|[from] item: Leftovers
+|turn|10
+|choice||
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|-damage|p1a: Gothitelle|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gothitelle|82/100|[from] sandstorm
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|11
+|l|raspberryframboise
+|player|p1
+|j|raspberryframboise
+|player|p1|raspberryframboise|266
+|-message|raspberryframboise forfeited.
+|
+|win|peakyblinded
+|player|p1
+|player|p2
+|l|raspberryframboise
+|raw|raspberryframboise's rating: 1502 &rarr; <strong>1480</strong><br />(-22 for losing)
+|raw|peakyblinded's rating: 1457 &rarr; <strong>1480</strong><br />(+23 for winning)

@@ -1,0 +1,268 @@
+|j|☆HIV transmission
+|j|☆Danthemanswagg
+|player|p1|HIV transmission|lady-gen4|1298
+|player|p2|Danthemanswagg|170|1317
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Breloom, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Starmie|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HIV transmission)
+|inactive|Danthemanswagg has 120 seconds left.
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Breloom|Bullet Seed|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|81/100
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|62/100
+|-hitcount|p1a: Thundurus|2
+|-damage|p2a: Breloom|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Thundurus|Hidden Power|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|78/100
+|-damage|p1a: Thundurus|53/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ninetales|Flamethrower|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Ninetales|Sunny Day|p2a: Ninetales
+|-weather|SunnyDay
+|move|p1a: Politoed|Ice Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Politoed|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Politoed
+|-anim|p2a: Ninetales|Solar Beam|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|49/100
+|move|p1a: Politoed|Toxic|p2a: Ninetales
+|-status|p2a: Ninetales|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Politoed|55/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|60/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Politoed
+|-anim|p2a: Ninetales|Solar Beam|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Politoed|61/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|49/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Ferrothorn
+|-anim|p2a: Ninetales|Solar Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|31/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p1a: Politoed|Politoed, F|61/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Volcarona|Bug Buzz|p1a: Politoed
+|-damage|p1a: Politoed|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|32/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Keldeo|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Keldeo|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, M|91/100
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Breloom|Rock Tomb|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-unboost|p1a: Ferrothorn|spe|1
+|-damage|p2a: Breloom|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Heatran
+|-sidestart|p2: Danthemanswagg|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Heatran|Magma Storm|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100
+|-activate|p1a: Ferrothorn|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Ferrothorn|Knock Off|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|98/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|18/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|move|p2a: Heatran|Sunny Day|p2a: Heatran
+|-weather|SunnyDay
+|move|p1a: Ferrothorn|Spikes|p2a: Heatran
+|-sidestart|p2: Danthemanswagg|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|18/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Heatran|Earth Power|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|18/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|move|p2a: Heatran|Earth Power|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F|32/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|19
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Heatran|Sunny Day|p2a: Heatran
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Tornadus|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Danthemanswagg forfeited.
+|
+|win|HIV transmission
+|l|☆Danthemanswagg
+|raw|HIV transmission's rating: 1298 &rarr; <strong>1326</strong><br />(+28 for winning)
+|raw|Danthemanswagg's rating: 1338 &rarr; <strong>1315</strong><br />(-23 for losing)

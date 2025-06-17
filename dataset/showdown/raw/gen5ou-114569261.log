@@ -1,0 +1,288 @@
+|join|16kims1
+|join|Ryan House
+|player|p1|16kims1|169
+|player|p2|Ryan House|266
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, F, shiny
+|poke|p1|Tornadus, M
+|poke|p1|Vaporeon, F, shiny
+|poke|p1|Thundurus-Therian, M
+|poke|p1|Keldeo
+|poke|p1|Azumarill, F
+|poke|p2|Heatran, M, shiny
+|poke|p2|Roserade, F, shiny
+|poke|p2|Celebi
+|poke|p2|Gliscor, M
+|poke|p2|Empoleon, F
+|poke|p2|Sableye, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F, shiny|384/384
+|switch|p2a: Roserade|Roserade, F, shiny|262/262
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Roserade|Sleep Powder|p1a: Politoed
+|-status|p1a: Politoed|slp
+|cant|p1a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Tornadus|Tornadus, M|300/300
+|move|p2a: Roserade|Toxic Spikes|p1a: Tornadus
+|-sidestart|p1: 16kims1|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Empoleon|Empoleon, F|372/372
+|move|p1a: Tornadus|Hurricane|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|303/372
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Empoleon|326/372|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, F, shiny|384/384 slp
+|move|p2a: Empoleon|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|310/384 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Empoleon|349/372|[from] item: Leftovers
+|turn|5
+|
+|cant|p1a: Politoed|slp
+|move|p2a: Empoleon|Stealth Rock|p1a: Politoed
+|-sidestart|p1: 16kims1|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Empoleon|372/372|[from] item: Leftovers
+|turn|6
+|
+|-curestatus|p1a: Politoed|slp
+|move|p1a: Politoed|Focus Blast|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|108/372
+|move|p2a: Empoleon|Roar|p1a: Politoed
+|drag|p1a: Tornadus|Tornadus, M|300/300
+|-damage|p1a: Tornadus|225/300|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Empoleon|131/372|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Gliscor|Gliscor, M|352/352
+|move|p1a: Tornadus|Focus Blast|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|271/352
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|8
+|
+|switch|p1a: Vaporeon|Vaporeon, F, shiny|464/464
+|-status|p1a: Vaporeon|psn
+|-damage|p1a: Vaporeon|406/464 psn|[from] Stealth Rock
+|switch|p2a: Roserade|Roserade, F, shiny|262/262
+|
+|-weather|RainDance|[upkeep]
+|-curestatus|p1a: Vaporeon|psn
+|-heal|p1a: Vaporeon|435/464|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Roserade|Toxic Spikes|p1a: Vaporeon
+|-sidestart|p1: 16kims1|move: Toxic Spikes
+|move|p1a: Vaporeon|Scald|p2a: Roserade
+|-crit|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|110/262
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|464/464|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Roserade|Giga Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|198/464
+|-heal|p2a: Roserade|243/262|[from] drain|[of] p1a: Vaporeon
+|move|p1a: Vaporeon|Scald|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|170/262
+|-status|p2a: Roserade|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|227/464|[from] item: Leftovers
+|-damage|p2a: Roserade|138/262 brn|[from] brn
+|turn|11
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M|299/299
+|-damage|p1a: Thundurus-Therian|225/299|[from] Stealth Rock
+|move|p2a: Roserade|Sleep Powder|p1a: Thundurus-Therian|[miss]
+|-miss|p2a: Roserade|p1a: Thundurus-Therian
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Roserade|106/262 brn|[from] brn
+|turn|12
+|
+|switch|p2a: Celebi|Celebi|404/404
+|move|p1a: Thundurus-Therian|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|218/404
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p1a: Thundurus-Therian|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|42/404
+|move|p2a: Celebi|Psychic|p1a: Thundurus-Therian
+|-damage|p1a: Thundurus-Therian|107/299
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p2a: Empoleon|Empoleon, F|131/372
+|move|p1a: Thundurus-Therian|Hidden Power|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|116/372
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Empoleon|139/372|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Politoed|Politoed, F, shiny|310/384
+|-damage|p1a: Politoed|262/384|[from] Stealth Rock
+|-status|p1a: Politoed|tox
+|switch|p2a: Roserade|Roserade, F, shiny|106/262
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|238/384 tox|[from] psn
+|turn|16
+|
+|switch|p2a: Empoleon|Empoleon, F|139/372
+|move|p1a: Politoed|Ice Beam|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|113/372
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Empoleon|136/372|[from] item: Leftovers
+|-damage|p1a: Politoed|190/384 tox|[from] psn
+|turn|17
+|
+|move|p1a: Politoed|Ice Beam|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|112/372
+|move|p2a: Empoleon|Roar|p1a: Politoed
+|drag|p1a: Thundurus-Therian|Thundurus-Therian, M|107/299
+|-damage|p1a: Thundurus-Therian|33/299|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Empoleon|135/372|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Gliscor|Gliscor, M|271/352 tox
+|move|p1a: Thundurus-Therian|Thunder|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|315/352 tox|[from] ability: Poison Heal
+|turn|19
+|
+|move|p1a: Thundurus-Therian|Thunder|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|227/352 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|271/352 tox|[from] ability: Poison Heal
+|turn|20
+|
+|switch|p1a: Vaporeon|Vaporeon, F, shiny|227/464
+|-status|p1a: Vaporeon|tox
+|-damage|p1a: Vaporeon|169/464 tox|[from] Stealth Rock
+|move|p2a: Gliscor|Toxic|p1a: Vaporeon
+|-fail|p1a: Vaporeon|tox
+|
+|-weather|RainDance|[upkeep]
+|-curestatus|p1a: Vaporeon|tox
+|-heal|p1a: Vaporeon|198/464|[from] item: Leftovers
+|-heal|p2a: Gliscor|315/352 tox|[from] ability: Poison Heal
+|turn|21
+|
+|move|p2a: Gliscor|Earthquake|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|352/352 tox|[from] ability: Poison Heal
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|-damage|p1a: Keldeo|303/323|[from] Stealth Rock
+|-status|p1a: Keldeo|tox
+|turn|22
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Keldeo|Scald|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Keldeo|283/323 tox|[from] psn
+|turn|23
+|
+|move|p1a: Keldeo|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-damage|p1a: Keldeo|251/323 tox|[from] item: Life Orb
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|264/352 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Keldeo|211/323 tox|[from] psn
+|-heal|p2a: Gliscor|308/352 tox|[from] ability: Poison Heal
+|turn|24
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Keldeo|Scald|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Keldeo|151/323 tox|[from] psn
+|-heal|p2a: Gliscor|352/352 tox|[from] ability: Poison Heal
+|turn|25
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M|33/299
+|-damage|p1a: Thundurus-Therian|0 fnt|[from] Stealth Rock
+|faint|p1a: Thundurus-Therian
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-fail|p2a: Gliscor|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-message|16kims1 forfeited.
+|
+|win|Ryan House
+|raw|Ladder updating...
+|leave|16kims1
+|player|p1
+|raw|16kims1's rating: 1491 &rarr; <strong>1464</strong><br />(-27 for losing)
+|raw|Ryan House's rating: 1354 &rarr; <strong>1381</strong><br />(+27 for winning)

@@ -1,0 +1,293 @@
+|j|☆tokiiiiiiii
+|j|☆Chimp34
+|player|p1|tokiiiiiiii|102
+|player|p2|Chimp34|226
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Donphan, F|item
+|poke|p1|Froslass, F|item
+|poke|p1|Haxorus, F|item
+|poke|p1|Breloom, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Metagross|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Alakazam, F|item
+|teampreview
+|
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|c|☆tokiiiiiiii|gl hf
+|c|☆Chimp34|u2
+|
+|move|p1a: Froslass|Taunt|p2a: Metagross
+|-start|p2a: Metagross|move: Taunt
+|move|p2a: Metagross|Thunder Punch|p1a: Froslass
+|-damage|p1a: Froslass|55/100
+|-start|p2a: Metagross|Disable|Thunder Punch|[from] ability: Cursed Body|[of] p1a: Froslass
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Froslass|Spikes|p2a: Metagross
+|-sidestart|p2: Chimp34|Spikes
+|move|p2a: Metagross|Ice Punch|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|32/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Froslass|Spikes|p2a: Metagross
+|-sidestart|p2: Chimp34|Spikes
+|move|p2a: Metagross|Ice Punch|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|9/100
+|
+|-end|p2a: Metagross|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p1a: Froslass|Taunt|p2a: Metagross
+|-start|p2a: Metagross|move: Taunt
+|cant|p2a: Metagross|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Froslass|Spikes|p2a: Metagross
+|-sidestart|p2: Chimp34|Spikes
+|move|p2a: Metagross|Ice Punch|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|-end|p2a: Metagross|Disable
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|6
+|
+|move|p1a: Breloom|Spore|p2a: Metagross
+|-status|p2a: Metagross|slp
+|cant|p2a: Metagross|slp
+|
+|-end|p2a: Metagross|move: Taunt
+|upkeep
+|turn|7
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Breloom|Focus Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|27/100
+|-damage|p1a: Breloom|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Donphan|Donphan, F|100/100
+|move|p2a: Latios|Psyshock|p1a: Donphan
+|-damage|p1a: Donphan|72/100
+|-damage|p2a: Latios|17/100|[from] item: Life Orb
+|
+|-heal|p1a: Donphan|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Donphan|Ice Shard|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-heal|p1a: Donphan|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Donphan|atk|1
+|turn|10
+|
+|move|p2a: Landorus|U-turn|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|53/100
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|75/100|[from] Spikes
+|move|p1a: Donphan|Stealth Rock|p2a: Terrakion
+|-sidestart|p2: Chimp34|move: Stealth Rock
+|
+|-heal|p1a: Donphan|60/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Terrakion|Swords Dance|p2a: Terrakion
+|-boost|p2a: Terrakion|atk|2
+|move|p1a: Donphan|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|14/100
+|
+|-heal|p1a: Donphan|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Donphan|Ice Shard|p2a: Terrakion
+|-crit|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-heal|p1a: Donphan|72/100|[from] item: Leftovers
+|upkeep
+|c|☆tokiiiiiiii|sorry
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|13
+|c|☆Chimp34|happens
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|5/100
+|move|p1a: Donphan|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|37/100
+|
+|-heal|p1a: Donphan|11/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Donphan|Ice Shard|p2a: Alakazam
+|-damage|p2a: Alakazam|19/100
+|move|p2a: Alakazam|Psychic|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|15
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-damage|p2a: Tyranitar|63/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|95/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|turn|17
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-item|p1a: Ninetales|Air Balloon
+|move|p2a: Landorus|Earthquake|p1a: Ninetales
+|-immune|p1a: Ninetales|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Metagross|Metagross|100/100 slp
+|-damage|p2a: Metagross|76/100 slp|[from] Spikes
+|-damage|p2a: Metagross|70/100 slp|[from] Stealth Rock
+|move|p1a: Ninetales|Fire Blast|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|19/100
+|turn|19
+|
+|move|p2a: Alakazam|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|46/100
+|-enditem|p1a: Ninetales|Air Balloon
+|move|p1a: Ninetales|Solar Beam|p2a: Alakazam|[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Alakazam
+|-anim|p1a: Ninetales|Solar Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|turn|20
+|
+|move|p2a: Landorus|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|91/100
+|turn|21
+|
+|move|p2a: Landorus|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|46/100
+|move|p1a: Breloom|Spore|p2a: Landorus
+|-status|p2a: Landorus|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|cant|p2a: Landorus|slp
+|move|p1a: Breloom|Bullet Seed|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|15/100 slp
+|-damage|p2a: Landorus|0 fnt
+|-hitcount|p2a: Landorus|2
+|-damage|p1a: Breloom|36/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|win|tokiiiiiiii
+|raw|tokiiiiiiii's rating: 1336 &rarr; <strong>1360</strong><br />(+24 for winning)
+|raw|Chimp34's rating: 1408 &rarr; <strong>1384</strong><br />(-24 for losing)
+|l|☆Chimp34
+|c|☆tokiiiiiiii|gg wp

@@ -1,0 +1,184 @@
+|join|French_Queen
+|join|immatureprick
+|player|p1|French_Queen|249
+|player|p2|immatureprick|214
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Electrode
+|poke|p1|Glaceon, F, shiny
+|poke|p1|Politoed, F, shiny
+|poke|p1|Swanna, F, shiny
+|poke|p1|Ferrothorn, F, shiny
+|poke|p1|Volbeat, M, shiny
+|poke|p2|Chansey, F
+|poke|p2|Gliscor, F, shiny
+|poke|p2|Ferrothorn, F, shiny
+|poke|p2|Tentacruel, F, shiny
+|poke|p2|Politoed, F, shiny
+|poke|p2|Jirachi, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Queen|Ferrothorn, F, shiny|352/352
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Scald|p1a: Queen
+|-resisted|p1a: Queen
+|-damage|p1a: Queen|291/352
+|-enditem|p1a: Queen|Red Card|[of] p2a: Politoed
+|drag|p2a: Gliscor|Gliscor, F, shiny|354/354
+|move|p1a: Queen|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: immatureprick|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|2
+|
+|switch|p1a: NotQueen|Volbeat, M, shiny|334/334
+|move|p2a: Gliscor|Earthquake|p1a: NotQueen
+|-resisted|p1a: NotQueen
+|-damage|p1a: NotQueen|274/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: NotQueen|294/334|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: NotQueen|Substitute|p1a: NotQueen
+|-start|p1a: NotQueen|Substitute
+|-damage|p1a: NotQueen|211/334
+|move|p2a: Gliscor|Ice Fang|p1a: NotQueen|[miss]
+|-miss|p2a: Gliscor|p1a: NotQueen
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: NotQueen|231/334|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: NotQueen|Tail Glow|p1a: NotQueen
+|-boost|p1a: NotQueen|spa|3
+|move|p2a: Gliscor|Ice Fang|p1a: NotQueen
+|-activate|p1a: NotQueen|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: NotQueen|251/334|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Chansey|Chansey, F|704/704
+|-damage|p2a: Chansey|616/704|[from] Stealth Rock
+|move|p1a: NotQueen|Tail Glow|p1a: NotQueen
+|-boost|p1a: NotQueen|spa|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: NotQueen|271/334|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: NotQueen|Baton Pass|p1a: NotQueen
+|
+|switch|p1a: Queen|Swanna, F, shiny|291/291
+|move|p2a: Chansey|Stealth Rock|p1a: Queen
+|-sidestart|p1: French_Queen|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Queen|Hurricane|p2a: Chansey
+|-damage|p2a: Chansey|93/704
+|-damage|p1a: Queen|262/291|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Queen
+|-end|p1a: Queen|Substitute
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: Jirachi|Jirachi, shiny|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|move|p1a: Queen|Brine|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Queen|233/291|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chansey|Chansey, F|93/704
+|-damage|p2a: Chansey|5/704|[from] Stealth Rock
+|turn|9
+|chat|immatureprick|greece>france yo
+|
+|move|p1a: Queen|Brine|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Queen|204/291|[from] item: Life Orb
+|faint|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|354/354 tox
+|-damage|p2a: Gliscor|310/354 tox|[from] Stealth Rock
+|turn|10
+|chat|French_Queen|calimera ? <3
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Queen|Hurricane|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|11
+|chat|immatureprick|yiasou
+|
+|move|p1a: Queen|Ice Beam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p1a: Queen|175/291|[from] item: Life Orb
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Queen|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Queen|146/291|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Queen|Hurricane|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: Queen|117/291|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Tentacruel|Tentacruel, F, shiny|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Queen|Hurricane|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-damage|p1a: Queen|88/291|[from] item: Life Orb
+|faint|p2a: Tentacruel
+|
+|win|French_Queen
+|raw|Ladder updating...
+|raw|French_Queen's rating: 1312 &rarr; <strong>1334</strong><br />(+22 for winning)
+|raw|immatureprick's rating: 1345 &rarr; <strong>1323</strong><br />(-22 for losing)
+|chat|French_Queen|gg :)

@@ -1,0 +1,238 @@
+|join|Gym Leader Nicki
+|join|C_me
+|player|p1|Gym Leader Nicki|196
+|player|p2|C_me|163
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Nidoking, M
+|poke|p1|Terrakion
+|poke|p1|Keldeo
+|poke|p1|Latios, M
+|poke|p1|Chansey, F
+|poke|p1|Tyranitar, F
+|poke|p2|Starmie, shiny
+|poke|p2|Dugtrio, F
+|poke|p2|Jirachi, shiny
+|poke|p2|Mew, shiny
+|poke|p2|Hydreigon, F, shiny
+|poke|p2|Gengar, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Nidoking|Nidoking, M|304/304
+|switch|p2a: Starmie|Starmie, shiny|262/262
+|turn|1
+|
+|switch|p1a: Chansey|Chansey, F|704/704
+|move|p2a: Starmie|Gravity|p2a: Starmie
+|-fieldstart|move: Gravity
+|
+|turn|2
+|
+|switch|p2a: Dugtrio|Dugtrio, F|212/212
+|move|p1a: Chansey|Thunder Wave|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|3
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|422/704
+|move|p1a: Chansey|Seismic Toss|p2a: Dugtrio
+|-damage|p2a: Dugtrio|112/212
+|
+|turn|4
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|turn|5
+|
+|move|p1a: Keldeo|Surf|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-fieldend|move: Gravity
+|
+|switch|p2a: Starmie|Starmie, shiny|262/262
+|turn|6
+|
+|switch|p1a: Tyranitar|Tyranitar, F|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Starmie|Gravity|p2a: Starmie
+|-fieldstart|move: Gravity
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|246/262|[from] sandstorm
+|turn|7
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|218/404
+|move|p1a: Tyranitar|Pursuit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|106/262
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|90/262|[from] sandstorm
+|-heal|p1a: Tyranitar|243/404|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/404
+|move|p1a: Tyranitar|Stealth Rock|p2a: Starmie
+|-sidestart|p2: C_me|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|74/262|[from] sandstorm
+|-heal|p1a: Tyranitar|92/404|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|58/262|[from] sandstorm
+|
+|switch|p1a: Latios|Latios, M|302/302
+|turn|10
+|
+|move|p2a: Starmie|Blizzard|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|98/302
+|-status|p1a: Latios|frz
+|cant|p1a: Latios|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|42/262|[from] sandstorm
+|-damage|p1a: Latios|80/302 frz|[from] sandstorm
+|-fieldend|move: Gravity
+|turn|11
+|
+|move|p2a: Starmie|Gravity|p2a: Starmie
+|-fieldstart|move: Gravity
+|cant|p1a: Latios|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|26/262|[from] sandstorm
+|-damage|p1a: Latios|62/302 frz|[from] sandstorm
+|turn|12
+|
+|move|p2a: Starmie|Blizzard|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|10/262|[from] sandstorm
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|turn|13
+|
+|switch|p2a: Jirachi|Jirachi, shiny|342/342
+|-damage|p2a: Jirachi|321/342|[from] Stealth Rock
+|move|p1a: Keldeo|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|159/342
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|303/323|[from] sandstorm
+|turn|14
+|
+|move|p1a: Keldeo|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|283/323|[from] sandstorm
+|chat|C_me|damn i wanted starmie back
+|
+|switch|p2a: Gengar|Gengar, M|262/262
+|-damage|p2a: Gengar|230/262|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Keldeo|Surf|p2a: Gengar
+|-damage|p2a: Gengar|26/262
+|move|p2a: Gengar|Thunder|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|10/262|[from] sandstorm
+|-fieldend|move: Gravity
+|
+|switch|p1a: Nidoking|Nidoking, M|304/304
+|turn|16
+|
+|move|p2a: Gengar|Energy Ball|p1a: Nidoking
+|-damage|p1a: Nidoking|180/304
+|move|p1a: Nidoking|Flamethrower|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Hydreigon|Hydreigon, F, shiny|326/326
+|-damage|p2a: Hydreigon|286/326|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Hydreigon|Surf|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|266/326|[from] sandstorm
+|
+|switch|p1a: Terrakion|Terrakion|323/323
+|turn|18
+|
+|move|p2a: Hydreigon|Surf|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|161/323
+|move|p1a: Terrakion|X-Scissor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Mew|Mew, shiny|342/342
+|-damage|p2a: Mew|300/342|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Terrakion|X-Scissor|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|20/342
+|move|p2a: Mew|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|win|C_me
+|raw|Ladder updating...
+|raw|Gym Leader Nicki's rating: 1395 &rarr; <strong>1370</strong><br />(-25 for losing)
+|raw|C_me's rating: 1311 &rarr; <strong>1335</strong><br />(+24 for winning)
+|chat|C_me|you dont know how important killing jirachi
+|chat|C_me|was
+|leave|C_me
+|player|p2

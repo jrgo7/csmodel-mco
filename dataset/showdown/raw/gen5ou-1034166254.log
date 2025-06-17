@@ -1,0 +1,298 @@
+|j|☆DRAGONKING JASON
+|j|‽Gh0st of Perdition
+|player|p1|DRAGONKING JASON|lucas|1419
+|player|p2|Gh0st of Perdition|gentleman-gen1rb|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Kingdra, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|move|p2a: Politoed|Ice Beam|p1a: Kingdra
+|-damage|p1a: Kingdra|75/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Kingdra|Hydro Pump|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|51/100
+|move|p2a: Politoed|Endeavor|p1a: Kingdra
+|-damage|p1a: Kingdra|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Politoed|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|45/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|-activate|p2a: Politoed|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Politoed|[from]Pursuit
+|-damage|p2a: Politoed|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Landorus
+|-sidestart|p1: DRAGONKING JASON|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Gh0st of Perdition|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: DRAGONKING JASON|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: DRAGONKING JASON|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|70/100|[from] Sandstorm
+|-heal|p2a: Tornadus|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Tornadus|Hurricane|p1a: Landorus|[miss]
+|-miss|p2a: Tornadus|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|61/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|86/100|[from]move: U-turn
+|-damage|p1a: Tyranitar|74/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|57/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|55/100|[from] Sandstorm
+|-heal|p2a: Tornadus|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Tyranitar|Crunch|p2a: Tornadus
+|-damage|p2a: Tornadus|6/100
+|-unboost|p2a: Tornadus|def|1
+|move|p2a: Tornadus|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|52/100
+|-enditem|p1a: Tyranitar|Choice Scarf|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|0 fnt|[from] Sandstorm
+|faint|p2a: Tornadus
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Tentacruel|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|20/100
+|move|p1a: Tyranitar|Crunch|p2a: Tentacruel
+|-damage|p2a: Tentacruel|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|25/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|31/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|18/100
+|-sideend|p2: Gh0st of Perdition|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Tyranitar|Crunch|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|13
+|
+|move|p2a: Latios|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Kingdra|Kingdra, M|66/100
+|-damage|p1a: Kingdra|54/100|[from] Stealth Rock
+|-damage|p1a: Kingdra|37/100|[from] Spikes
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|63/100
+|move|p1a: Kingdra|Dragon Pulse|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|31/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p1a: Kingdra|Dragon Pulse|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|25/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|16
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Latios|Draco Meteor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|95/100
+|turn|18
+|
+|move|p2a: Latios|Trick|p1a: Latios
+|-activate|p2a: Latios|move: Trick|[of] p1a: Latios
+|-item|p1a: Latios|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Choice Specs|[from] move: Trick
+|move|p1a: Latios|Draco Meteor|p2a: Latios|[miss]
+|-miss|p1a: Latios|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|76/100|[from] Sandstorm
+|-damage|p2a: Latios|89/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p1a: Garchomp|78/100|[from] Spikes
+|move|p2a: Latios|Dragon Pulse|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|83/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|turn|20
+|
+|move|p2a: Latios|Dragon Pulse|p1a: Landorus
+|-damage|p1a: Landorus|7/100
+|move|p1a: Landorus|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|21/100
+|
+|switch|p1a: Latios|Latios, M|76/100|[from]move: U-turn
+|-damage|p1a: Latios|64/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|58/100|[from] Sandstorm
+|-damage|p2a: Latios|15/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|move|p1a: Latios|Psyshock|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|win|DRAGONKING JASON
+|l|‽Gh0st of Perdition
+|raw|DRAGONKING JASON's rating: 1419 &rarr; <strong>1436</strong><br />(+17 for winning)
+|raw|Gh0st of Perdition's rating: 1360 &rarr; <strong>1344</strong><br />(-16 for losing)

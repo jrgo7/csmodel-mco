@@ -1,0 +1,234 @@
+|j|Alain Sorel
+|j|Resist The Storm
+|player|p1|Alain Sorel|224
+|teamsize|p1|6
+|player|p2|Resist The Storm|170
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|17424,27591,32121,34761
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Jirachi|item
+|poke|p1|Keldeo|item
+|poke|p2|Politoed, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Finkielkraut|Rotom-Wash|304/304
+|switch|p2a: Gliscor|Gliscor, M|354/354
+|turn|1
+|choice|move willowisp|switch 5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Finkielkraut|Will-O-Wisp|p2a: Ferrothorn|[miss]
+|-miss|p1a: Finkielkraut|p2a: Ferrothorn
+|
+|upkeep
+|turn|2
+|choice|move willowisp|move stealthrock
+|
+|move|p1a: Finkielkraut|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Finkielkraut
+|-sidestart|p1: Alain Sorel|move: Stealth Rock
+|
+|-damage|p2a: Ferrothorn|308/352 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move voltswitch|move leechseed
+|
+|move|p1a: Finkielkraut|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|281/352 brn
+|choice|switch 5|
+|
+|switch|p1a: Egalité & Réconcil|Jirachi|377/377
+|-damage|p1a: Egalité & Réconcil|354/377|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Egalité & Réconcil
+|-start|p1a: Egalité & Réconcil|move: Leech Seed
+|
+|-heal|p1a: Egalité & Réconcil|377/377|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|303/352 brn|[from] item: Leftovers
+|-damage|p1a: Egalité & Réconcil|330/377|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|350/352 brn|[silent]
+|-damage|p2a: Ferrothorn|306/352 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move calmmind|switch 5
+|
+|switch|p2a: Gliscor|Gliscor, M|354/354
+|move|p1a: Egalité & Réconcil|Calm Mind|p1a: Egalité & Réconcil
+|-boost|p1a: Egalité & Réconcil|spa|1
+|-boost|p1a: Egalité & Réconcil|spd|1
+|
+|-heal|p1a: Egalité & Réconcil|353/377|[from] item: Leftovers
+|-damage|p1a: Egalité & Réconcil|306/377|[from] Leech Seed|[of] p2a: Gliscor
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|choice|switch 5|switch 3
+|
+|switch|p1a: Finkielkraut|Rotom-Wash|304/304
+|-damage|p1a: Finkielkraut|266/304|[from] Stealth Rock
+|switch|p2a: Chansey|Chansey, F|655/655
+|
+|-heal|p1a: Finkielkraut|285/304|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move voltswitch|move seismictoss
+|
+|move|p1a: Finkielkraut|Volt Switch|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|564/655
+|choice|switch 2|
+|
+|switch|p1a: Dieudonné|Landorus-Therian, M|382/382
+|-damage|p1a: Dieudonné|335/382|[from] Stealth Rock
+|-ability|p1a: Dieudonné|Intimidate|boost
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Seismic Toss|p1a: Dieudonné
+|-damage|p1a: Dieudonné|235/382
+|
+|-heal|p1a: Dieudonné|258/382|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Skarmory|Skarmory, F|334/334
+|move|p1a: Dieudonné|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Resist The Storm|move: Stealth Rock
+|
+|-heal|p1a: Dieudonné|281/382|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move uturn|move spikes
+|
+|move|p1a: Dieudonné|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|323/334
+|choice|switch 6|
+|
+|switch|p1a: Il faut le savoir|Keldeo|323/323
+|-damage|p1a: Il faut le savoir|303/323|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Il faut le savoir
+|-sidestart|p1: Alain Sorel|Spikes
+|
+|upkeep
+|turn|9
+|choice|move hydropump|switch 4
+|
+|switch|p2a: Politoed|Politoed, F|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Il faut le savoir|Hydro Pump|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|171/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|195/384|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move secretsword|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Il faut le savoir|Secret Sword|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|219/384|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move calmmind|switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|move|p1a: Il faut le savoir|Calm Mind|p1a: Il faut le savoir
+|-boost|p1a: Il faut le savoir|spa|1
+|-boost|p1a: Il faut le savoir|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|341/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/364|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move calmmind|move scald
+|
+|move|p1a: Il faut le savoir|Calm Mind|p1a: Il faut le savoir
+|-boost|p1a: Il faut le savoir|spa|1
+|-boost|p1a: Il faut le savoir|spd|1
+|move|p2a: Tentacruel|Scald|p1a: Il faut le savoir
+|-resisted|p1a: Il faut le savoir
+|-damage|p1a: Il faut le savoir|270/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|364/364|[from] ability: Rain Dish
+|upkeep
+|turn|13
+|choice|move hydropump|move scald
+|
+|move|p1a: Il faut le savoir|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|118/364
+|move|p2a: Tentacruel|Scald|p1a: Il faut le savoir
+|-resisted|p1a: Il faut le savoir
+|-damage|p1a: Il faut le savoir|238/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|140/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|162/364|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move calmmind|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Il faut le savoir|Calm Mind|p1a: Il faut le savoir
+|-boost|p1a: Il faut le savoir|spa|1
+|-boost|p1a: Il faut le savoir|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|184/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|206/364|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move hydropump|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|move|p1a: Il faut le savoir|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Resist The Storm forfeited.
+|
+|win|Alain Sorel
+|l|Resist The Storm
+|raw|Alain Sorel's rating: 1334 &rarr; <strong>1353</strong><br />(+19 for winning)
+|raw|Resist The Storm's rating: 1325 &rarr; <strong>1305</strong><br />(-20 for losing)
+|l|Alain Sorel

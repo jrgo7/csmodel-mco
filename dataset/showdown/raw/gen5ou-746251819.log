@@ -1,0 +1,229 @@
+|j|☆Fouge
+|j|☆refsunpersons
+|player|p1|Fouge|224
+|player|p2|refsunpersons|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Heracross, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Gliscor, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Salamence, F|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|1
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Heracross|Heracross, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Jellicent|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|Crunch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|69/100
+|-unboost|p1a: Jellicent|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|63/100|[from] Sandstorm
+|-heal|p1a: Jellicent|69/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Tyranitar|Crunch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|-damage|p2a: Tyranitar|76/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|63/100 brn|[from] brn
+|-end|p2a: Tyranitar|move: Taunt
+|upkeep
+|turn|6
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: refsunpersons|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|51/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|12/100 brn|[from] brn
+|upkeep
+|turn|7
+|c|☆refsunpersons|sorry
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Fouge|move: Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: refsunpersons|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|39/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|6/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|84/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Excadrill
+|-sidestart|p2: refsunpersons|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|12/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Ferrothorn
+|
+|switch|p1a: Jellicent|Jellicent, M|69/100
+|-damage|p1a: Jellicent|57/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, F|39/100 brn
+|-damage|p2a: Tyranitar|14/100 brn|[from] Spikes
+|move|p1a: Heatran|Magma Storm|p2a: Tyranitar|[miss]
+|-miss|p1a: Heatran|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|71/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|1/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Heatran|Sunny Day|p1a: Heatran
+|-weather|SunnyDay
+|move|p2a: Tyranitar|Crunch|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Heatran|67/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Tyranitar
+|
+|switch|p2a: Salamence|Salamence, F|100/100
+|turn|13
+|
+|move|p2a: Salamence|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Gliscor|Gliscor, M|41/100 tox
+|-damage|p1a: Gliscor|28/100 tox|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Salamence|Hydro Pump|p1a: Gliscor
+|-enditem|p2a: Salamence|Water Gem|[from] gem|[move] Hydro Pump
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Heracross|Heracross, M|95/100
+|-damage|p1a: Heracross|82/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Salamence|Outrage|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Fouge forfeited.
+|
+|win|refsunpersons
+|l|☆Fouge
+|raw|Fouge's rating: 1467 &rarr; <strong>1441</strong><br />(-26 for losing)
+|raw|refsunpersons's rating: 1373 &rarr; <strong>1398</strong><br />(+25 for winning)

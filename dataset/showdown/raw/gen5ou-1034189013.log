@@ -1,0 +1,399 @@
+|j|☆Throw Games
+|j|☆NotTruant
+|player|p1|Throw Games|cynthia-gen4|1316
+|player|p2|NotTruant|265|1345
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Heatran, F|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Latias, F|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p2|Mew|item
+|poke|p2|Gengar, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Mamoswine, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Mew|Mew, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Throw Games)
+|
+|move|p2a: Mew|Taunt|p1a: Hippowdon
+|-start|p1a: Hippowdon|move: Taunt
+|cant|p1a: Hippowdon|move: Taunt|Whirlwind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Mamoswine|[miss]
+|-miss|p2a: Mew|p1a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Mamoswine|[miss]
+|-miss|p2a: Mew|p1a: Mamoswine
+|move|p1a: Mamoswine|Earthquake|p2a: Mew
+|-damage|p2a: Mew|39/100
+|-damage|p1a: Mamoswine|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|33/100|[from] Sandstorm
+|-heal|p2a: Mew|39/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Heatran|Heatran, F, shiny|100/100
+|move|p2a: Mew|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Throw Games|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|33/100|[from] Sandstorm
+|-heal|p2a: Mew|39/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆NotTruant|Awesome
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Mew|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|33/100|[from] Sandstorm
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|-heal|p2a: Mew|39/100|[from] item: Leftovers
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆Throw Games|awesome
+|
+|move|p2a: Mew|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|64/100|[from] Sandstorm
+|-heal|p1a: Rotom|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|
+|switch|p1a: Heatran|Heatran, F, shiny|100/100|[from]move: Volt Switch
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Heatran
+|-sidestart|p1: Throw Games|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|94/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Tentacruel|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|move|p1a: Heatran|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|65/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|71/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Heatran
+|-sidestart|p1: Throw Games|move: Toxic Spikes
+|move|p1a: Heatran|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: NotTruant|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|65/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|71/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Heatran
+|-sidestart|p1: Throw Games|move: Toxic Spikes
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|65/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|71/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Tentacruel|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|move|p1a: Heatran|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|36/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|42/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Tentacruel|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|49/100
+|move|p1a: Heatran|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|5/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|11/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|55/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Tentacruel|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|29/100
+|move|p1a: Heatran|Fire Blast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|35/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Mamoswine|Icicle Crash|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|25/100
+|move|p1a: Heatran|Fire Blast|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|32/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Rotom|Rotom-Wash|71/100
+|-damage|p1a: Rotom|58/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|52/100|[from] Sandstorm
+|-heal|p1a: Rotom|58/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Mamoswine|Icicle Crash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|35/100
+|cant|p1a: Rotom|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|29/100|[from] Sandstorm
+|-heal|p1a: Rotom|35/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Mamoswine|Superpower|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Mamoswine|atk|1
+|-unboost|p2a: Mamoswine|def|1
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|61/100
+|move|p1a: Latias|Dragon Pulse|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|55/100|[from] Sandstorm
+|-heal|p1a: Latias|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Heatran|Heatran, F, shiny|32/100
+|-damage|p1a: Heatran|19/100|[from] Spikes
+|-damage|p1a: Heatran|7/100|[from] Stealth Rock
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|57/100|[from] Sandstorm
+|-heal|p1a: Heatran|13/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Gengar|47/100|[from] item: Life Orb
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|41/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-damage|p1a: Kyurem|63/100|[from] Stealth Rock
+|-status|p1a: Kyurem|tox
+|-ability|p1a: Kyurem|Teravolt
+|turn|22
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Gengar
+|-crit|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|move|p2a: Gengar|Focus Blast|p1a: Kyurem|[miss]
+|-miss|p2a: Gengar|p1a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|57/100 tox|[from] Sandstorm
+|-damage|p2a: Gengar|35/100|[from] Sandstorm
+|-damage|p1a: Kyurem|51/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p2a: Mew|Mew, shiny|39/100
+|-damage|p2a: Mew|27/100|[from] Stealth Rock
+|move|p1a: Kyurem|Ice Beam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|45/100 tox|[from] Sandstorm
+|-damage|p1a: Kyurem|33/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-enditem|p2a: Dragonite|Yache Berry|[eat]
+|-enditem|p2a: Dragonite|Yache Berry|[weaken]
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|27/100 tox|[from] Sandstorm
+|-damage|p1a: Kyurem|8/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|73/100
+|-damage|p2a: Ferrothorn|67/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|31/100
+|move|p2a: Ferrothorn|Spikes|p1a: Kyurem
+|-sidestart|p1: Throw Games|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|2/100 tox|[from] Sandstorm
+|-damage|p1a: Kyurem|0 fnt|[from] psn
+|faint|p1a: Kyurem
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, F|91/100
+|-damage|p1a: Mamoswine|74/100|[from] Spikes
+|-status|p1a: Mamoswine|tox
+|-damage|p1a: Mamoswine|61/100 tox|[from] Stealth Rock
+|turn|26
+|c|☆Throw Games|gg
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Mamoswine|51/100 tox|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mamoswine|45/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|35/100
+|-damage|p2a: Gengar|23/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-damage|p1a: Mamoswine|35/100 tox|[from] item: Life Orb
+|faint|p2a: Gengar
+|
+|win|Throw Games
+|raw|Throw Games's rating: 1316 &rarr; <strong>1338</strong><br />(+22 for winning)
+|raw|NotTruant's rating: 1345 &rarr; <strong>1323</strong><br />(-22 for losing)

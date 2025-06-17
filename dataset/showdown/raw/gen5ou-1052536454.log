@@ -1,0 +1,383 @@
+|j|☆Ernilol
+|j|☆OnHigh
+|player|p1|Ernilol|galacticgruntf|1376
+|player|p2|OnHigh|ingo|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Tyranitar, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OnHigh)
+|
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|
+|switch|p1a: Politoed|Politoed, F|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Politoed|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Tentacruel
+|-sidestart|p1: Ernilol|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: OnHigh|move: Toxic Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: Tentacruel
+|-damage|p1a: Tentacruel|96/100
+|-enditem|p1a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|5
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: OnHigh|move: Toxic Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Tentacruel|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|6
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Tentacruel|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-end|p1a: Tentacruel|Leech Seed|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: Ernilol|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Ferrothorn|Spikes|p1a: Tentacruel
+|-sidestart|p1: Ernilol|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Toxicroak
+|-sidestart|p1: Ernilol|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|upkeep
+|turn|8
+|
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|75/100
+|move|p2a: Ferrothorn|Spikes|p1a: Toxicroak
+|-sidestart|p1: Ernilol|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|88/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|94/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|-singleturn|p1a: Toxicroak|move: Focus Punch
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Focus Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|10/100
+|-damage|p1a: Toxicroak|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|94/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|100/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|16/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Toxicroak|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Toxicroak|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|-status|p2a: Alakazam|tox
+|turn|11
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|move|p2a: Alakazam|Focus Blast|p1a: Scizor|[miss]
+|-miss|p2a: Alakazam|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Landorus|Landorus-Therian, M|92/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|77/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Landorus|[miss]
+|-miss|p1a: Rotom|p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|77/100
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-status|p2a: Tyranitar|tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|71/100|[from] Sandstorm
+|-heal|p1a: Rotom|77/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Rotom|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|81/100 tox
+|inactive|Ernilol has 120 seconds left.
+|
+|switch|p1a: Politoed|Politoed, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Politoed|75/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tyranitar|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Ernilol|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|82/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|68/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|Ernilol has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-status|p2a: Jellicent|tox
+|move|p1a: Politoed|Scald|p2a: Jellicent
+|-immune|p2a: Jellicent|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|88/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|Ernilol has 120 seconds left.
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|Ernilol has 120 seconds left.
+|
+|switch|p1a: Tentacruel|Tentacruel, F|82/100
+|-damage|p1a: Tentacruel|69/100|[from] Stealth Rock
+|-damage|p1a: Tentacruel|45/100|[from] Spikes
+|switch|p2a: Tyranitar|Tyranitar, M|68/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|39/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|62/100 tox|[from] psn
+|upkeep
+|turn|18
+|inactive|Ernilol has 120 seconds left.
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Tyranitar|Crunch|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|32/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|50/100 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|Ernilol has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, M|88/100 tox
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|26/100|[from] Sandstorm
+|-damage|p2a: Jellicent|82/100 tox|[from] Sandstorm
+|-heal|p2a: Jellicent|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|Ernilol has 120 seconds left.
+|
+|switch|p1a: Politoed|Politoed, F|94/100
+|-damage|p1a: Politoed|69/100|[from] Spikes
+|-damage|p1a: Politoed|57/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|63/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|Ernilol has 120 seconds left.
+|
+|switch|p1a: Tentacruel|Tentacruel, F|26/100
+|-damage|p1a: Tentacruel|2/100|[from] Spikes
+|-damage|p1a: Tentacruel|0 fnt|[from] Stealth Rock
+|faint|p1a: Tentacruel
+|switch|p2a: Alakazam|Alakazam, M|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|76/100
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|-damage|p1a: Scizor|39/100|[from] Spikes
+|turn|22
+|
+|switch|p2a: Landorus|Landorus-Therian, M|83/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|74/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Rotom|Rotom-Wash|77/100
+|-damage|p1a: Rotom|65/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|71/100|[from] item: Leftovers
+|-heal|p2a: Landorus|80/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Rotom|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|49/100
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100 tox|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|55/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Alakazam|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|39/100
+|-damage|p1a: Scizor|26/100|[from] Stealth Rock
+|-damage|p1a: Scizor|2/100|[from] Spikes
+|turn|26
+|
+|switch|p2a: Landorus|Landorus-Therian, M|80/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|60/100
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100|[from]move: U-turn
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|-damage|p1a: Toxicroak|69/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|82/100|[from] ability: Dry Skin
+|-heal|p2a: Landorus|66/100|[from] item: Leftovers
+|-heal|p1a: Toxicroak|88/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p2a: Landorus|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|72/100|[from] item: Leftovers
+|upkeep
+|-message|Ernilol forfeited.
+|
+|win|OnHigh
+|l|☆Ernilol
+|raw|Ernilol's rating: 1376 &rarr; <strong>1359</strong><br />(-17 for losing)
+|raw|OnHigh's rating: 1421 &rarr; <strong>1438</strong><br />(+17 for winning)

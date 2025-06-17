@@ -1,0 +1,342 @@
+|join|ahobowithanoboe
+|join|ashleigh ketchum
+|player|p1|ahobowithanoboe|114
+|player|p2|ashleigh ketchum|2
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Espeon, F, shiny
+|poke|p1|Hydreigon, M, shiny
+|poke|p1|Dugtrio, M
+|poke|p1|Skarmory, F
+|poke|p1|Jellicent, M
+|poke|p1|Terrakion
+|poke|p2|Victini
+|poke|p2|Infernape, M
+|poke|p2|Rotom-Heat
+|poke|p2|Charizard, M
+|poke|p2|Heatran, F
+|poke|p2|Ninetales, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: F-22|Skarmory, F|334/334
+|switch|p2a: Infernape|Infernape, M|293/293
+|turn|1
+|
+|switch|p1a: U Jella?|Jellicent, M|404/404
+|move|p2a: Infernape|Fake Out|p1a: U Jella?
+|-immune|p1a: U Jella?|[msg]
+|
+|turn|2
+|
+|move|p2a: Infernape|Overheat|p1a: U Jella?
+|-resisted|p1a: U Jella?
+|-damage|p1a: U Jella?|326/404
+|-unboost|p2a: Infernape|spa|2
+|move|p1a: U Jella?|Scald|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|35/293
+|
+|-heal|p1a: U Jella?|351/404|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Infernape|Stealth Rock|p1a: U Jella?
+|-sidestart|p1: ahobowithanoboe|move: Stealth Rock
+|move|p1a: U Jella?|Toxic|p2a: Infernape
+|-status|p2a: Infernape|tox
+|
+|-heal|p1a: U Jella?|376/404|[from] item: Leftovers
+|-damage|p2a: Infernape|17/293 tox|[from] psn
+|turn|4
+|
+|switch|p2a: Heatran|Heatran, F|385/385
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: U Jella?|Recover|p1a: U Jella?
+|-heal|p1a: U Jella?|404/404
+|
+|turn|5
+|
+|move|p2a: Heatran|Toxic|p1a: U Jella?|[miss]
+|-miss|p2a: Heatran|p1a: U Jella?
+|move|p1a: U Jella?|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|271/385
+|-enditem|p2a: Heatran|Air Balloon
+|
+|turn|6
+|
+|switch|p1a: psychic PUSSAY|Espeon, F, shiny|272/272
+|-damage|p1a: psychic PUSSAY|238/272|[from] Stealth Rock
+|move|p2a: Heatran|Lava Plume|p1a: psychic PUSSAY
+|-damage|p1a: psychic PUSSAY|120/272
+|-status|p1a: psychic PUSSAY|brn
+|
+|-damage|p1a: psychic PUSSAY|86/272 brn|[from] brn
+|turn|7
+|
+|move|p1a: psychic PUSSAY|Trick|p2a: Heatran
+|-activate|p1a: psychic PUSSAY|move: Trick|[of] p2a: Heatran
+|-item|p2a: Heatran|Choice Scarf|[from] move: Trick
+|move|p2a: Heatran|Lava Plume|p1a: psychic PUSSAY
+|-damage|p1a: psychic PUSSAY|0 fnt
+|faint|p1a: psychic PUSSAY
+|
+|
+|switch|p1a: U Jella?|Jellicent, M|404/404
+|-damage|p1a: U Jella?|354/404|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Ninetales|Ninetales, M|334/334
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: U Jella?|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|248/334
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: U Jella?|379/404|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Ninetales|Inferno|p1a: U Jella?|[miss]
+|-miss|p2a: Ninetales|p1a: U Jella?
+|move|p1a: U Jella?|Toxic|p2a: Ninetales
+|-status|p2a: Ninetales|tox
+|-enditem|p2a: Ninetales|Lum Berry|[eat]
+|-curestatus|p2a: Ninetales|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: U Jella?|404/404|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, F|271/385
+|move|p1a: U Jella?|Toxic|p2a: Heatran
+|-fail|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|turn|11
+|
+|move|p2a: Heatran|Toxic|p1a: U Jella?
+|-status|p1a: U Jella?|tox
+|move|p1a: U Jella?|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|215/385
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: U Jella?|379/404 tox|[from] psn
+|turn|12
+|
+|switch|p2a: Infernape|Infernape, M|17/293 tox
+|move|p1a: U Jella?|Scald|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: U Jella?|404/404 tox|[from] item: Leftovers
+|-damage|p1a: U Jella?|354/404 tox|[from] psn
+|
+|switch|p2a: Rotom-Heat|Rotom-Heat|303/303
+|turn|13
+|
+|move|p2a: Rotom-Heat|Volt Switch|p1a: U Jella?
+|-supereffective|p1a: U Jella?
+|-damage|p1a: U Jella?|184/404 tox
+|
+|switch|p2a: Heatran|Heatran, F|215/385
+|move|p1a: U Jella?|Toxic|p2a: Heatran
+|-fail|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: U Jella?|209/404 tox|[from] item: Leftovers
+|-damage|p1a: U Jella?|134/404 tox|[from] psn
+|turn|14
+|
+|move|p1a: U Jella?|Scald|p2a: Heatran
+|-crit|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|87/385
+|move|p2a: Heatran|Roar|p1a: U Jella?
+|drag|p1a: F-22|Skarmory, F|334/334
+|-damage|p1a: F-22|293/334|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: F-22|313/334|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Rotom-Heat|Rotom-Heat|303/303
+|move|p1a: F-22|Stealth Rock|p2a: Rotom-Heat
+|-sidestart|p2: ashleigh ketchum|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: F-22|333/334|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Rotom-Heat|Will-O-Wisp|p1a: F-22
+|-status|p1a: F-22|brn
+|move|p1a: F-22|Whirlwind|p2a: Rotom-Heat
+|drag|p2a: Heatran|Heatran, F|87/385
+|-damage|p2a: Heatran|39/385|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: F-22|334/334 brn|[from] item: Leftovers
+|-damage|p1a: F-22|293/334 brn|[from] brn
+|turn|17
+|
+|move|p2a: Heatran|Lava Plume|p1a: F-22
+|-supereffective|p1a: F-22
+|-damage|p1a: F-22|0 fnt
+|faint|p1a: F-22
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: U Jella?|Jellicent, M|134/404 tox
+|-damage|p1a: U Jella?|84/404 tox|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Heatran|Lava Plume|p1a: U Jella?
+|-resisted|p1a: U Jella?
+|-damage|p1a: U Jella?|0 fnt
+|faint|p1a: U Jella?
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: 3Sum|Dugtrio, M|211/211
+|-damage|p1a: 3Sum|198/211|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: 3Sum|Stone Edge|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Charizard|Charizard, M|297/297
+|-damage|p2a: Charizard|149/297|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Charizard|Solar Beam|p1a: 3Sum|[still]
+|-prepare|p2a: Charizard|Solar Beam|p1a: 3Sum
+|-anim|p2a: Charizard|Solar Beam|p1a: 3Sum
+|-supereffective|p1a: 3Sum
+|-damage|p1a: 3Sum|0 fnt
+|faint|p1a: 3Sum
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|112/297|[from] ability: Solar Power
+|
+|switch|p1a: Mr. Kuddles|Hydreigon, M, shiny|325/325
+|-damage|p1a: Mr. Kuddles|285/325|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Charizard|Solar Beam|p1a: Mr. Kuddles|[still]
+|-prepare|p2a: Charizard|Solar Beam|p1a: Mr. Kuddles
+|-anim|p2a: Charizard|Solar Beam|p1a: Mr. Kuddles
+|-resisted|p1a: Mr. Kuddles
+|-damage|p1a: Mr. Kuddles|174/325
+|move|p1a: Mr. Kuddles|Draco Meteor|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-unboost|p1a: Mr. Kuddles|spa|2
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Victini|Victini|341/341
+|-damage|p2a: Victini|256/341|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Victini|V-create|p1a: Mr. Kuddles
+|-resisted|p1a: Mr. Kuddles
+|-damage|p1a: Mr. Kuddles|0 fnt
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|-unboost|p2a: Victini|spe|1
+|faint|p1a: Mr. Kuddles
+|-enditem|p2a: Victini|White Herb
+|-restoreboost|p2a: Victini|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Brony FAG|Terrakion|323/323
+|-damage|p1a: Brony FAG|303/323|[from] Stealth Rock
+|-item|p1a: Brony FAG|Air Balloon
+|turn|23
+|chat|ashleigh ketchum|gg
+|chat|ahobowithanoboe|gg
+|
+|move|p1a: Brony FAG|Rock Slide|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Rotom-Heat|Rotom-Heat|303/303
+|-damage|p2a: Rotom-Heat|228/303|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Brony FAG|Rock Slide|p2a: Rotom-Heat
+|-supereffective|p2a: Rotom-Heat
+|-damage|p2a: Rotom-Heat|54/303
+|move|p2a: Rotom-Heat|Will-O-Wisp|p1a: Brony FAG
+|-status|p1a: Brony FAG|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom-Heat|72/303|[from] item: Leftovers
+|-damage|p1a: Brony FAG|263/323 brn|[from] brn
+|turn|25
+|
+|move|p1a: Brony FAG|Swords Dance|p1a: Brony FAG
+|-boost|p1a: Brony FAG|atk|2
+|move|p2a: Rotom-Heat|Pain Split|p1a: Brony FAG
+|-sethp|p1a: Brony FAG|167/323 brn|p2a: Rotom-Heat|167/303|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom-Heat|185/303|[from] item: Leftovers
+|-damage|p1a: Brony FAG|127/323 brn|[from] brn
+|turn|26
+|
+|move|p1a: Brony FAG|Rock Slide|p2a: Rotom-Heat
+|-crit|p2a: Rotom-Heat
+|-supereffective|p2a: Rotom-Heat
+|-damage|p2a: Rotom-Heat|0 fnt
+|faint|p2a: Rotom-Heat
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Brony FAG|87/323 brn|[from] brn
+|
+|switch|p2a: Ninetales|Ninetales, M|248/334
+|-damage|p2a: Ninetales|165/334|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1a: Brony FAG|Close Combat|p2a: Ninetales
+|-activate|p2a: Ninetales|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Brony FAG|47/323 brn|[from] brn
+|turn|28
+|
+|move|p1a: Brony FAG|Close Combat|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-unboost|p1a: Brony FAG|def|1
+|-unboost|p1a: Brony FAG|spd|1
+|faint|p2a: Ninetales
+|
+|win|ahobowithanoboe
+|raw|Ladder updating...
+|raw|ahobowithanoboe's rating: 1312 &rarr; <strong>1332</strong><br />(+20 for winning)
+|raw|ashleigh ketchum's rating: 1317 &rarr; <strong>1297</strong><br />(-20 for losing)
+|chat|ashleigh ketchum|sigh 
+|leave|ahobowithanoboe
+|player|p1

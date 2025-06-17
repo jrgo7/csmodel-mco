@@ -1,0 +1,310 @@
+|j|☆masg07
+|j|☆A Welcome Guest
+|t:|1708901725
+|gametype|singles
+|player|p1|masg07|1|1344
+|player|p2|A Welcome Guest|scientist|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Magnezone|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Forretress, F|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Ditto|item
+|poke|p2|Breloom, F|item
+|poke|p2|Jirachi|item
+|teampreview
+|
+|t:|1708901735
+|start
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-item|p1a: Magnezone|Air Balloon
+|turn|1
+|
+|t:|1708901744
+|move|p2a: Skarmory|Stealth Rock|p1a: Magnezone
+|-sidestart|p1: masg07|move: Stealth Rock
+|move|p1a: Magnezone|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|
+|upkeep
+|turn|2
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|item: Custap Berry|[consumed]
+|
+|t:|1708901751
+|move|p2a: Skarmory|Spikes|p1a: Magnezone
+|-sidestart|p1: masg07|Spikes
+|move|p1a: Magnezone|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1708901758
+|switch|p1a: Forretress|Forretress, F|100/100|[from] Volt Switch
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|-damage|p1a: Forretress|76/100|[from] Spikes
+|
+|-heal|p1a: Forretress|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1708901762
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|turn|3
+|
+|t:|1708901769
+|move|p1a: Forretress|Protect|p1a: Forretress
+|-singleturn|p1a: Forretress|Protect
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Forretress
+|-activate|p1a: Forretress|move: Protect
+|
+|-heal|p1a: Forretress|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1708901777
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Forretress
+|-status|p1a: Forretress|brn
+|move|p1a: Forretress|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: A Welcome Guest|move: Stealth Rock
+|
+|-heal|p1a: Forretress|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Forretress|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1708901788
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: Jellicent|Scald|p1a: Magnezone
+|-damage|p1a: Magnezone|69/100
+|-enditem|p1a: Magnezone|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|t:|1708901814
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|move|p1a: Magnezone|Volt Switch|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|upkeep
+|turn|7
+|
+|t:|1708901823
+|switch|p1a: Forretress|Forretress, F|82/100 brn
+|-damage|p1a: Forretress|69/100 brn|[from] Stealth Rock
+|-damage|p1a: Forretress|57/100 brn|[from] Spikes
+|move|p2a: Garchomp|Outrage|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|40/100 brn
+|
+|-heal|p1a: Forretress|46/100 brn|[from] item: Leftovers
+|-damage|p1a: Forretress|34/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1708901835
+|move|p2a: Garchomp|Outrage|p1a: Forretress|[from]lockedmove
+|-resisted|p1a: Forretress
+|-crit|p1a: Forretress
+|-damage|p1a: Forretress|2/100 brn
+|-start|p2a: Garchomp|confusion|[fatigue]
+|-enditem|p2a: Garchomp|Lum Berry|[eat]
+|-end|p2a: Garchomp|confusion
+|move|p1a: Forretress|Rapid Spin|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|90/100
+|-damage|p1a: Forretress|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p1a: Forretress
+|
+|upkeep
+|
+|t:|1708901856
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1708901861
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Latios|Ice Beam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|70/100
+|
+|upkeep
+|turn|10
+|
+|t:|1708901872
+|switch|p1a: Magnezone|Magnezone|69/100
+|-damage|p1a: Magnezone|63/100|[from] Stealth Rock
+|-damage|p1a: Magnezone|50/100|[from] Spikes
+|move|p2a: Jirachi|Icy Wind|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|42/100
+|-unboost|p1a: Magnezone|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1708901883
+|move|p2a: Jirachi|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|t:|1708901894
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p1a: Garchomp|82/100|[from] Spikes
+|turn|12
+|
+|t:|1708901901
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Jirachi|Icy Wind|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|8/100
+|-unboost|p1a: Garchomp|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1708901910
+|move|p2a: Jirachi|Icy Wind|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1708901919
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1708901933
+|switch|p2a: Garchomp|Garchomp, F|90/100
+|-damage|p2a: Garchomp|83/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Earth Power|p2a: Garchomp
+|-damage|p2a: Garchomp|50/100
+|
+|upkeep
+|turn|15
+|
+|t:|1708901940
+|move|p1a: Hydreigon|Earth Power|p2a: Garchomp
+|-damage|p2a: Garchomp|17/100
+|move|p2a: Garchomp|Outrage|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|j| ReallyFunTeams
+|
+|t:|1708901948
+|switch|p1a: Latios|Latios, M, shiny|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1708901958
+|move|p1a: Latios|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1708901961
+|switch|p2a: Jirachi|Jirachi|70/100
+|-damage|p2a: Jirachi|64/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1708901966
+|move|p1a: Latios|Ice Beam|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|42/100
+|move|p2a: Jirachi|Icy Wind|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|39/100
+|-unboost|p1a: Latios|spe|1
+|
+|upkeep
+|turn|18
+|
+|t:|1708901973
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|move|p2a: Jirachi|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|13/100
+|-unboost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|19/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1708901982
+|move|p2a: Jirachi|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1708901987
+|switch|p1a: Latios|Latios, M, shiny|39/100
+|-damage|p1a: Latios|27/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1708901993
+|move|p1a: Latios|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|c|☆A Welcome Guest|gg
+|
+|t:|1708901998
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Latios|[from] ability: Imposter
+|turn|21
+|
+|t:|1708902003
+|move|p2a: Ditto|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|win|A Welcome Guest
+|raw|masg07's rating: 1344 &rarr; <strong>1325</strong><br />(-19 for losing)
+|raw|A Welcome Guest's rating: 1361 &rarr; <strong>1380</strong><br />(+19 for winning)

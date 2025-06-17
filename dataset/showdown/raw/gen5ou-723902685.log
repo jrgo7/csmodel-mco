@@ -1,0 +1,330 @@
+|j|☆bw ttt
+|j|☆tyftest
+|player|p1|bw ttt|229
+|player|p2|tyftest|153
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Volcarona, F|item
+|poke|p1|Dugtrio, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Gothitelle, M|item
+|poke|p1|Weavile, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bw ttt)
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|75/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Gothitelle|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Toxic|p1a: Gothitelle
+|-status|p1a: Gothitelle|tox
+|
+|-damage|p1a: Gothitelle|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Gothitelle|Hidden Power|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Gothitelle|82/100 tox|[from] psn
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|inactive|tyftest has 135 seconds left.
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Gothitelle|Hidden Power|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Gothitelle|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Gliscor|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|41/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Weavile|Pursuit|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|
+|upkeep
+|turn|8
+|inactive|tyftest has 135 seconds left.
+|inactive|tyftest has 120 seconds left.
+|inactive|tyftest has 105 seconds left.
+|
+|move|p1a: Xatu|U-turn|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|86/100
+|-damage|p1a: Xatu|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|70/100
+|-enditem|p1a: Ninetales|Eject Button
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Weavile|Weavile, M|41/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Ferrothorn|Leech Seed|p1a: Weavile
+|-start|p1a: Weavile|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p1a: Weavile|28/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p1a: Xatu|Xatu, M|88/100
+|move|p2a: Ferrothorn|Spikes|p1a: Xatu
+|move|p1a: Xatu|Spikes|p2a: Ferrothorn|[from]Magic Bounce
+|-sidestart|p2: tyftest|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|inactive|tyftest has 135 seconds left.
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|88/100|[from] Spikes
+|move|p1a: Xatu|U-turn|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|82/100
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|13
+|
+|switch|p1a: Gothitelle|Gothitelle, M|64/100 tox
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Gothitelle|58/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Xatu|Xatu, M|88/100
+|move|p2a: Dragonite|Substitute|p2a: Dragonite
+|-start|p2a: Dragonite|Substitute
+|-damage|p2a: Dragonite|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Xatu|Heat Wave|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-activate|p2a: Dragonite|Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Xatu|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-activate|p2a: Dragonite|Substitute|[damage]
+|
+|switch|p1a: Gothitelle|Gothitelle, M|58/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|94/100|[from] item: Leftovers
+|-damage|p1a: Gothitelle|52/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|28/100
+|-ability|p1a: Weavile|Pressure
+|turn|18
+|
+|move|p1a: Weavile|Ice Shard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-end|p2a: Dragonite|Substitute
+|move|p2a: Dragonite|Dragon Claw|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆bw ttt|bro ur awful
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|turn|19
+|c|☆tyftest|no u are
+|
+|move|p2a: Dragonite|Substitute|p2a: Dragonite
+|-start|p2a: Dragonite|Substitute
+|-damage|p2a: Dragonite|76/100
+|move|p1a: Dugtrio|Rock Tomb|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-activate|p2a: Dragonite|Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆tyftest|u and ur trap and bounce team
+|c|☆bw ttt|stick to AG
+|inactive|tyftest has 135 seconds left.
+|c|☆bw ttt|fucking awful ass player
+|c|☆bw ttt|who stays in with ferro
+|c|☆bw ttt|on xatu
+|inactive|tyftest has 120 seconds left.
+|c|☆bw ttt|and volcarona
+|inactive|tyftest has 105 seconds left.
+|c|☆tyftest|You are the worst pathetic complaining looser I've ever seen
+|inactive|tyftest has 90 seconds left.
+|c|☆bw ttt|learn to spell loser
+|c|☆bw ttt|illiterate fuck
+|c|☆tyftest|your double switches were so obvious
+|inactive|tyftest has 75 seconds left.
+|c|☆tyftest|I'm not English
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|move|p1a: Dugtrio|Rock Tomb|p2a: Dragonite|[miss]
+|-miss|p1a: Dugtrio|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆bw ttt|i can tell
+|c|☆tyftest|but I'm not an asshole like you
+|c|☆bw ttt|youre pretty retarded
+|c|☆bw ttt|am i
+|inactive|bw ttt has 135 seconds left.
+|c|☆tyftest|u are
+|c|☆bw ttt|at least im not a nobody like
+|c|☆bw ttt|u
+|inactive|bw ttt has 120 seconds left.
+|c|☆bw ttt|irrelevant fuck
+|c|☆bw ttt|youll never go big anywhere
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|22
+|inactive|tyftest has 135 seconds left.
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|10/100
+|move|p1a: Volcarona|Morning Sun|p1a: Volcarona
+|-heal|p1a: Volcarona|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Dragonite|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dragonite|88/100 brn|[from] brn
+|upkeep
+|-message|bw ttt forfeited.
+|
+|win|tyftest
+|l|☆bw ttt
+|raw|bw ttt's rating: 1339 &rarr; <strong>1317</strong><br />(-22 for losing)
+|raw|tyftest's rating: 1295 &rarr; <strong>1323</strong><br />(+28 for winning)

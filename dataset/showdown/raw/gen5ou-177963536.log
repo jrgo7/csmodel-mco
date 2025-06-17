@@ -1,0 +1,247 @@
+|join|MoxieInfinite
+|join|BahaWin
+|player|p1|MoxieInfinite|11
+|player|p2|BahaWin|286
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Garchomp, F
+|poke|p1|Tyranitar, M
+|poke|p1|Latias, F
+|poke|p1|Starmie
+|poke|p1|Skarmory, M
+|poke|p1|Volcarona, F
+|poke|p2|Tyranitar, M
+|poke|p2|Scizor, M
+|poke|p2|Starmie
+|poke|p2|Skarmory, M
+|poke|p2|Amoonguss, M
+|poke|p2|Volcarona, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Volcarona|Volcarona, F|347/347
+|switch|p2a: Starmie|Starmie|320/320
+|turn|1
+|
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Latias|Latias, F|364/364
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|342/364|[from] sandstorm
+|-heal|p1a: Latias|364/364|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Tyranitar|Pursuit|p1a: Latias|[from]Pursuit
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|86/364
+|switch|p1a: Skarmory|Skarmory, M|334/334
+|
+|-weather|Sandstorm|[upkeep]
+|turn|3
+|
+|switch|p2a: Volcarona|Volcarona, M|321/321
+|move|p1a: Skarmory|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: BahaWin|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|301/321|[from] sandstorm
+|turn|4
+|
+|switch|p1a: Garchomp|Garchomp, F|357/357
+|move|p2a: Volcarona|Fiery Dance|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|252/357
+|-boost|p2a: Volcarona|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|281/321|[from] sandstorm
+|turn|5
+|
+|switch|p2a: Skarmory|Skarmory, M|325/325
+|-damage|p2a: Skarmory|285/325|[from] Stealth Rock
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|turn|6
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|141/325
+|move|p2a: Skarmory|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: MoxieInfinite|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|7
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|-damage|p2a: Tyranitar|299/341|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Tyranitar|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-damage|p1a: Garchomp|36/357
+|move|p1a: Garchomp|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, M|319/319
+|-damage|p2a: Scizor|280/319|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Scizor|241/319|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Starmie|Starmie|262/262
+|-damage|p1a: Starmie|230/262|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|233/319
+|-sideend|p1: MoxieInfinite|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|204/262|[from] item: Life Orb
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|188/262|[from] sandstorm
+|turn|11
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-damage|p1a: Starmie|162/262|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|146/262|[from] sandstorm
+|
+|switch|p2a: Amoonguss|Amoonguss, M|432/432
+|-damage|p2a: Amoonguss|378/432|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|282/432
+|-damage|p1a: Starmie|120/262|[from] item: Life Orb
+|move|p2a: Amoonguss|Spore|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|104/262 slp|[from] sandstorm
+|-damage|p2a: Amoonguss|255/432|[from] sandstorm
+|-heal|p2a: Amoonguss|282/432|[from] item: Black Sludge
+|turn|13
+|
+|switch|p1a: Tyranitar|Tyranitar, M|342/342
+|move|p2a: Amoonguss|Stun Spore|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|255/432|[from] sandstorm
+|-heal|p2a: Amoonguss|282/432|[from] item: Black Sludge
+|turn|14
+|
+|switch|p1a: Volcarona|Volcarona, F|347/347
+|switch|p2a: Starmie|Starmie|320/320
+|-damage|p2a: Starmie|280/320|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|260/320|[from] sandstorm
+|-damage|p1a: Volcarona|326/347|[from] sandstorm
+|-heal|p2a: Starmie|280/320|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Starmie|Scald|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|140/347
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|119/347|[from] sandstorm
+|-damage|p2a: Starmie|260/320|[from] sandstorm
+|-heal|p2a: Starmie|280/320|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Amoonguss|Amoonguss, M|426/432
+|-damage|p2a: Amoonguss|372/432|[from] Stealth Rock
+|move|p1a: Volcarona|Giga Drain|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|305/432
+|-heal|p1a: Volcarona|153/347|[from] drain|[of] p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|132/347|[from] sandstorm
+|-damage|p2a: Amoonguss|278/432|[from] sandstorm
+|-heal|p2a: Amoonguss|305/432|[from] item: Black Sludge
+|turn|17
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|111/347|[from] sandstorm
+|
+|switch|p2a: Volcarona|Volcarona, M|281/321
+|-damage|p2a: Volcarona|121/321|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|90/347|[from] sandstorm
+|
+|switch|p2a: Starmie|Starmie|280/320
+|-damage|p2a: Starmie|240/320|[from] Stealth Rock
+|turn|19
+|c|★BahaWin|gg
+|c|★MoxieInfinite|gg
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|MoxieInfinite
+|raw|Ladder updating...
+|raw|MoxieInfinite's rating: 1461 &rarr; <strong>1476</strong><br />(+15 for winning)
+|raw|BahaWin's rating: 1376 &rarr; <strong>1360</strong><br />(-16 for losing)
+|leave|BahaWin
+|player|p2

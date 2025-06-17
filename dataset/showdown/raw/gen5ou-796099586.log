@@ -1,0 +1,313 @@
+|j|☆gamerno1
+|j|☆refsunpersons
+|player|p1|gamerno1|156
+|player|p2|refsunpersons|15
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Salamence, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Lucario, F|item
+|poke|p1|Mew|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Uxie|item
+|poke|p2|Politoed, F|item
+|poke|p2|Diglett, M|item
+|poke|p2|Xatu, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|c|☆gamerno1|u2
+|
+|move|p2a: Jirachi|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|65/100
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Mew|Taunt|p2a: Xatu
+|move|p2a: Xatu|Taunt|p1a: Mew|[from]Magic Bounce
+|-start|p1a: Mew|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|move|p2a: Xatu|U-turn|p1a: Mamoswine
+|-crit|p1a: Mamoswine
+|-damage|p1a: Mamoswine|73/100
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Xatu|Xatu, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Xatu|U-turn|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|81/100
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Uxie|Light Screen|p1a: Uxie
+|-sidestart|p1: gamerno1|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Tornadus|U-turn|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|52/100
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Uxie|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Uxie|Reflect|p1a: Uxie
+|-sidestart|p1: gamerno1|Reflect
+|move|p2a: Jirachi|U-turn|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|37/100
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Uxie|Memento|p2a: Politoed
+|-unboost|p2a: Politoed|atk|2
+|-unboost|p2a: Politoed|spa|2
+|faint|p1a: Uxie
+|move|p2a: Politoed|Hydro Pump|p1: Uxie|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|8
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Politoed|Hypnosis|p1a: Gyarados|[miss]
+|-miss|p2a: Politoed|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|76/100
+|move|p2a: Politoed|Hypnosis|p1a: Gyarados|[miss]
+|-miss|p2a: Politoed|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Politoed|Hydro Pump|p1a: Gyarados
+|-enditem|p2a: Politoed|Water Gem|[from] gem|[move] Hydro Pump
+|-resisted|p1a: Gyarados
+|-activate|p1a: Gyarados|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Gyarados|Waterfall|p2a: Politoed
+|-resisted|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0
+|faint|p2a: Politoed
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|94/100|[from] item: Leftovers
+|-sideend|p1: gamerno1|move: Light Screen
+|upkeep
+|
+|switch|p2a: Diglett|Diglett, M|100/100
+|turn|12
+|
+|move|p1a: Gyarados|Waterfall|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-enditem|p2a: Diglett|Focus Sash
+|-damage|p2a: Diglett|1/100
+|move|p2a: Diglett|Reversal|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Gyarados|Waterfall|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0
+|faint|p2a: Diglett
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: gamerno1|Reflect
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|14
+|
+|move|p1a: Gyarados|Waterfall|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|44/100
+|move|p2a: Dragonite|Thunder|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0
+|-damage|p2a: Dragonite|34/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|15
+|
+|switch|p2a: Jirachi|Jirachi|100/100 par
+|move|p1a: Salamence|Outrage|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|31/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Salamence|Outrage|p2a: Jirachi|[from]lockedmove
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 par
+|-start|p1a: Salamence|confusion|[fatigue]
+|faint|p2a: Jirachi
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-enditem|p1a: Salamence|Lum Berry|[eat]
+|-end|p1a: Salamence|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|17
+|
+|move|p2a: Tornadus|Hurricane|p1a: Salamence
+|-damage|p1a: Salamence|0
+|faint|p1a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|18
+|
+|move|p1a: Lucario|Extreme Speed|p2a: Tornadus
+|-damage|p2a: Tornadus|43/100
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|move|p2a: Tornadus|Hurricane|p1a: Lucario
+|-damage|p1a: Lucario|0
+|faint|p1a: Lucario
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, F|73/100
+|turn|19
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Mamoswine|Ice Shard|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|44/100
+|-damage|p1a: Mamoswine|63/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0
+|-damage|p1a: Mamoswine|53/100|[from] item: Life Orb
+|faint|p2a: Xatu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|34/100
+|turn|21
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Mamoswine
+|-damage|p1a: Mamoswine|19/100
+|-damage|p2a: Dragonite|24/100|[from] item: Life Orb
+|move|p1a: Mamoswine|Ice Shard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0
+|-damage|p1a: Mamoswine|9/100|[from] item: Life Orb
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|43/100
+|turn|22
+|c|☆refsunpersons|gg
+|c|☆gamerno1|gg
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0
+|-damage|p1a: Mamoswine|0|[from] item: Life Orb
+|faint|p2a: Tornadus
+|faint|p1a: Mamoswine
+|
+|win|gamerno1
+|raw|gamerno1's rating: 1387 &rarr; <strong>1409</strong><br />(+22 for winning)
+|raw|refsunpersons's rating: 1409 &rarr; <strong>1388</strong><br />(-21 for losing)
+|l|☆gamerno1

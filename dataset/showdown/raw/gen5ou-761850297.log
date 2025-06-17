@@ -1,0 +1,193 @@
+|j|☆Pilif
+|j|☆MikeyTapsa
+|player|p1|Pilif|101
+|player|p2|MikeyTapsa|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Heracross, M|item
+|poke|p1|Gothitelle, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Vaporeon, M|item
+|poke|p1|Hippowdon, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Lanturn, M|item
+|poke|p2|Vaporeon, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MikeyTapsa)
+|inactive|Pilif has 135 seconds left.
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: Pilif|move: Stealth Rock
+|move|p1a: Hippowdon|Stealth Rock|p2a: Heatran
+|-sidestart|p2: MikeyTapsa|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Lava Plume|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|69/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Pilif has 135 seconds left.
+|
+|move|p2a: Heatran|Lava Plume|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|63/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|57/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|63/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Heatran|Lava Plume|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|57/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|5
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|-damage|p2a: Lanturn|88/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lanturn|72/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p2a: Lanturn|78/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Lanturn|Volt Switch|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lanturn|72/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p2a: Lanturn|78/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Pilif has 135 seconds left.
+|
+|move|p2a: Lanturn|Toxic|p1a: Vaporeon
+|-status|p1a: Vaporeon|tox
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lanturn|72/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|94/100 tox|[from] Sandstorm
+|-heal|p2a: Lanturn|78/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Vaporeon|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|Pilif has 135 seconds left.
+|inactive|MikeyTapsa has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|inactive|MikeyTapsa has 120 seconds left.
+|
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|-damage|p1a: Gothitelle|88/100|[from] Stealth Rock
+|move|p2a: Lanturn|Volt Switch|p1a: Gothitelle
+|-damage|p1a: Gothitelle|68/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gothitelle|61/100|[from] Sandstorm
+|-heal|p1a: Gothitelle|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|9
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|79/100
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Latios|Energy Ball|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|76/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p2a: Latios|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|move|p1a: Jirachi|Body Slam|p2a: Latios
+|-damage|p2a: Latios|51/100
+|-status|p2a: Latios|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|45/100 par|[from] Sandstorm
+|upkeep
+|turn|12
+|-message|MikeyTapsa forfeited.
+|
+|win|Pilif
+|l|☆MikeyTapsa
+|raw|Pilif's rating: 1309 &rarr; <strong>1333</strong><br />(+24 for winning)
+|raw|MikeyTapsa's rating: 1381 &rarr; <strong>1357</strong><br />(-24 for losing)

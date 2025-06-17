@@ -1,0 +1,581 @@
+|j|Meloriver ヽ
+|j|Mohican
+|player|p1|Meloriver ヽ|169
+|teamsize|p1|6
+|player|p2|Mohican|43
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|8033,10189,12061,19486
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Hippowdon, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Blissey, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|432/432
+|switch|p2a: Gliscor|Gliscor, M|354/354
+|turn|1
+|choice|move gigadrain|move substitute
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|266/354
+|move|p1a: Amoonguss|Giga Drain|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|choice|switch 4|move protect
+|
+|switch|p1a: Scizor|Scizor, M|341/341
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|choice|move swordsdance|move earthquake
+|
+|move|p2a: Gliscor|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|227/341
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p1a: Scizor|248/341|[from] item: Leftovers
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|choice|move bugbite|switch 3
+|
+|switch|p2a: Tentacruel|Tentacruel, M|364/364
+|move|p1a: Scizor|Bug Bite|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|217/364
+|
+|-heal|p2a: Tentacruel|239/364|[from] item: Black Sludge
+|-heal|p1a: Scizor|269/341|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 4|move scald
+|
+|switch|p1a: Amoonguss|Amoonguss, F|432/432
+|move|p2a: Tentacruel|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|397/432
+|
+|-heal|p2a: Tentacruel|261/364|[from] item: Black Sludge
+|-heal|p1a: Amoonguss|424/432|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move gigadrain|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Amoonguss|Giga Drain|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-heal|p2a: Tentacruel|283/364|[from] item: Black Sludge
+|-heal|p1a: Amoonguss|432/432|[from] item: Black Sludge
+|upkeep
+|turn|7
+|choice|move gigadrain|move scald
+|
+|move|p2a: Tentacruel|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|397/432
+|move|p1a: Amoonguss|Giga Drain|p2a: Tentacruel
+|-damage|p2a: Tentacruel|217/364
+|-heal|p1a: Amoonguss|430/432|[from] drain|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|239/364|[from] item: Black Sludge
+|-heal|p1a: Amoonguss|432/432|[from] item: Black Sludge
+|upkeep
+|turn|8
+|choice|move gigadrain|switch 4
+|
+|switch|p2a: Blissey|Blissey, F|714/714
+|move|p1a: Amoonguss|Giga Drain|p2a: Blissey
+|-damage|p2a: Blissey|656/714
+|
+|-heal|p2a: Blissey|700/714|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move spore|move stealthrock
+|
+|move|p2a: Blissey|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: Meloriver ヽ|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp
+|
+|-heal|p2a: Blissey|714/714 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 4|switch 5
+|
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Ferrothorn|Ferrothorn, M|351/351
+|switch|p1a: Scizor|Scizor, M|269/341
+|-damage|p1a: Scizor|227/341|[from] Stealth Rock
+|
+|-heal|p1a: Scizor|248/341|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move swordsdance|move leechseed
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Scizor
+|-start|p1a: Scizor|move: Leech Seed
+|
+|-heal|p1a: Scizor|269/341|[from] item: Leftovers
+|-damage|p1a: Scizor|227/341|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|12
+|j|Wilston Lynx
+|choice|move bugbite|move spikes
+|
+|move|p1a: Scizor|Bug Bite|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|101/351
+|-damage|p1a: Scizor|185/341|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Scizor
+|-sidestart|p1: Meloriver ヽ|Spikes
+|
+|-heal|p1a: Scizor|206/341|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|122/351|[from] item: Leftovers
+|-damage|p1a: Scizor|164/341|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|164/351|[silent]
+|upkeep
+|turn|13
+|choice|move roost|switch 3
+|
+|switch|p2a: Gliscor|Gliscor, M|354/354 tox
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|335/341
+|
+|-heal|p1a: Scizor|341/341|[from] item: Leftovers
+|-damage|p1a: Scizor|299/341|[from] Leech Seed|[of] p2a: Gliscor
+|upkeep
+|turn|14
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Hydreigon|Hydreigon, F|325/325
+|-damage|p1a: Hydreigon|285/325|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Hydreigon
+|-immune|p1a: Hydreigon|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|15
+|choice|move fireblast|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Hydreigon|Fire Blast|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|16
+|choice|move dracometeor|switch 2
+|
+|switch|p2a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Hydreigon|Draco Meteor|p2a: Politoed
+|-damage|p2a: Politoed|103/384
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|253/325|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|127/384|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move dracometeor|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|164/351
+|move|p1a: Hydreigon|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|113/351
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|221/325|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|134/351|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move fireblast|move spikes
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/351
+|-damage|p1a: Hydreigon|189/325|[from] item: Life Orb
+|move|p2a: Ferrothorn|Spikes|p1a: Hydreigon
+|-sidestart|p1: Meloriver ヽ|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|77/351|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move fireblast|switch 4
+|
+|switch|p2a: Tentacruel|Tentacruel, M|239/364
+|move|p1a: Hydreigon|Fire Blast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|227/364
+|-status|p2a: Tentacruel|brn
+|-damage|p1a: Hydreigon|157/325|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|249/364 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|271/364 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|226/364 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move roost|switch 6
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|320/325
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|choice|switch 6|move substitute
+|
+|switch|p1a: Hippowdon|Hippowdon, F|420/420
+|-damage|p1a: Hippowdon|394/420|[from] Stealth Rock
+|-damage|p1a: Hippowdon|324/420|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|303/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|328/404|[from] item: Leftovers
+|-heal|p1a: Hippowdon|350/420|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move stealthrock|move waterpulse
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|258/420
+|-start|p1a: Hippowdon|confusion
+|-activate|p1a: Hippowdon|confusion
+|-damage|p1a: Hippowdon|228/420|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|353/404|[from] item: Leftovers
+|-heal|p1a: Hippowdon|254/420|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move slackoff|move calmmind
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|-activate|p1a: Hippowdon|confusion
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|420/420
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|378/404|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move whirlwind|move waterpulse
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|264/420
+|-activate|p1a: Hippowdon|confusion
+|move|p1a: Hippowdon|Whirlwind|p2a: Jirachi
+|drag|p2a: Politoed|Politoed, F|127/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|151/384|[from] item: Leftovers
+|-heal|p1a: Hippowdon|290/420|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|switch 4|move scald
+|
+|switch|p1a: Amoonguss|Amoonguss, F|432/432
+|-damage|p1a: Amoonguss|360/432|[from] Spikes
+|-damage|p1a: Amoonguss|306/432|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|246/432
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|175/384|[from] item: Leftovers
+|-heal|p1a: Amoonguss|273/432|[from] item: Black Sludge
+|upkeep
+|turn|26
+|choice|move spore|switch 5
+|
+|switch|p2a: Blissey|Blissey, F|714/714
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|300/432|[from] item: Black Sludge
+|upkeep
+|turn|27
+|choice|move spore|switch 2
+|
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Gliscor|Gliscor, M|354/354 tox
+|move|p1a: Amoonguss|Spore|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|327/432|[from] item: Black Sludge
+|upkeep
+|turn|28
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Meloriver ヽ)
+|l|Mohican
+|inactive|Meloriver ヽ reconnected.
+|player|p2|
+|inactive|Mohican has 120 seconds left.
+|inactive|Mohican has 90 seconds left.
+|j|Mohican
+|inactive|Meloriver ヽ reconnected.
+|inactive|Mohican reconnected and has 70 seconds left.
+|player|p2|Mohican|43
+|inactive|Mohican has 60 seconds left.
+|choice|move gigadrain|switch 2
+|
+|switch|p2a: Blissey|Blissey, F|714/714
+|move|p1a: Amoonguss|Giga Drain|p2a: Blissey
+|-damage|p2a: Blissey|648/714
+|-heal|p1a: Amoonguss|360/432|[from] drain|[of] p2a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|692/714|[from] item: Leftovers
+|-heal|p1a: Amoonguss|387/432|[from] item: Black Sludge
+|upkeep
+|turn|29
+|choice|move gigadrain|move aromatherapy
+|
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-activate|p2a: Blissey|move: Aromatherapy
+|-curestatus|p2: Gliscor|tox|[msg]
+|-curestatus|p2: Tentacruel|brn|[msg]
+|move|p1a: Amoonguss|Giga Drain|p2a: Blissey
+|-damage|p2a: Blissey|628/714
+|-heal|p1a: Amoonguss|419/432|[from] drain|[of] p2a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|672/714|[from] item: Leftovers
+|-heal|p1a: Amoonguss|432/432|[from] item: Black Sludge
+|upkeep
+|turn|30
+|choice|move spore|move seismictoss
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Amoonguss
+|-damage|p1a: Amoonguss|332/432
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|714/714 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|359/432|[from] item: Black Sludge
+|upkeep
+|turn|31
+|choice|move spore|move seismictoss
+|
+|cant|p2a: Blissey|slp
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-fail|p2a: Blissey|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|386/432|[from] item: Black Sludge
+|upkeep
+|turn|32
+|choice|move spore|switch 2
+|
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Gliscor|Gliscor, M|354/354
+|move|p1a: Amoonguss|Spore|p2a: Gliscor
+|-status|p2a: Gliscor|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|413/432|[from] item: Black Sludge
+|upkeep
+|turn|33
+|choice|switch 5|switch 3
+|
+|switch|p2a: Jirachi|Jirachi|378/404
+|switch|p1a: Keldeo|Keldeo|323/323
+|-damage|p1a: Keldeo|303/323|[from] Stealth Rock
+|-damage|p1a: Keldeo|250/323|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|403/404|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move hydropump|move thunder
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|l|Wilston Lynx
+|choice||switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|226/364
+|turn|35
+|choice|move hydropump|move scald
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|28/364
+|move|p2a: Tentacruel|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|186/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|50/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|72/364|[from] item: Black Sludge
+|upkeep
+|turn|36
+|choice|move hydropump|switch 2
+|
+|switch|p2a: Blissey|Blissey, F|714/714
+|move|p1a: Keldeo|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|317/714
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|361/714|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move hydropump|move softboiled
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|77/351
+|turn|38
+|choice|move hydropump|move powerwhip
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gliscor|Gliscor, M|354/354 slp
+|turn|39
+|choice|move hydropump|move protect
+|
+|cant|p2a: Gliscor|slp
+|move|p1a: Keldeo|Hydro Pump|p2a: Gliscor|[miss]
+|-miss|p1a: Keldeo|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|40
+|choice|move hydropump|switch 2
+|
+|switch|p2a: Tentacruel|Tentacruel, M|72/364
+|move|p1a: Keldeo|Hydro Pump|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Politoed|Politoed, F|175/384
+|turn|41
+|choice|move hydropump|move toxic
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Gliscor|Gliscor, M|354/354 slp
+|turn|42
+|choice|switch 5|move substitute
+|
+|switch|p1a: Amoonguss|Amoonguss, F|432/432
+|-damage|p1a: Amoonguss|378/432|[from] Stealth Rock
+|-damage|p1a: Amoonguss|306/432|[from] Spikes
+|cant|p2a: Gliscor|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|333/432|[from] item: Black Sludge
+|upkeep
+|turn|43
+|choice|switch 5|move icefang
+|
+|switch|p1a: Keldeo|Keldeo|186/323
+|-damage|p1a: Keldeo|166/323|[from] Stealth Rock
+|-damage|p1a: Keldeo|113/323|[from] Spikes
+|cant|p2a: Gliscor|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|44
+|choice|move icywind|move protect
+|
+|-curestatus|p2a: Gliscor|slp|[msg]
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Keldeo|Icy Wind|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|45
+|choice|move icywind|move earthquake
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|win|Meloriver ヽ
+|c|☆Meloriver ヽ|gg
+|raw|Meloriver ヽ's rating: 1503 &rarr; <strong>1522</strong><br />(+19 for winning)
+|raw|Mohican's rating: 1483 &rarr; <strong>1464</strong><br />(-19 for losing)
+|c|☆Mohican|gg

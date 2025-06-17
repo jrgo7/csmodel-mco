@@ -1,0 +1,292 @@
+|j|☆Chimp34
+|j|☆grexagreg
+|player|p1|Chimp34|253
+|player|p2|grexagreg|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Wobbuffet, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Lucario, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Politoed, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Ferrothorn, F|item
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Wobbuffet|Wobbuffet, M|100/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Wobbuffet
+|-status|p1a: Wobbuffet|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Wobbuffet
+|-start|p1a: Wobbuffet|move: Leech Seed
+|move|p1a: Wobbuffet|Encore|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|83/100|[from] item: Leftovers
+|-damage|p1a: Wobbuffet|88/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Terrakion
+|-start|p1a: Terrakion|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Terrakion|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|5
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Terrakion|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: grexagreg|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Terrakion|76/100|[from] Leech Seed|[of] p2a: Vaporeon
+|upkeep
+|turn|6
+|
+|switch|p1a: Wobbuffet|Wobbuffet, M|88/100 par
+|move|p2a: Vaporeon|Scald|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|55/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wobbuffet|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|cant|p1a: Wobbuffet|par
+|move|p2a: Vaporeon|Roar|p1a: Wobbuffet
+|drag|p1a: Latios|Latios, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Latios|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|58/100
+|move|p2a: Vaporeon|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|64/100|[from] item: Leftovers
+|-damage|p1a: Latios|95/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Latios|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|17/100
+|move|p2a: Vaporeon|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|71/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|24/100|[from] item: Leftovers
+|-damage|p1a: Latios|59/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Latios|Psyshock|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|-damage|p1a: Latios|41/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Wobbuffet|Wobbuffet, M|62/100 par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Wobbuffet
+|-start|p1a: Wobbuffet|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|-heal|p1a: Wobbuffet|68/100 par|[from] item: Leftovers
+|-damage|p1a: Wobbuffet|55/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|12
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Wobbuffet
+|-fail|p2a: Ferrothorn
+|move|p1a: Wobbuffet|Encore|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wobbuffet|62/100 par|[from] item: Leftovers
+|-damage|p1a: Wobbuffet|49/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|13
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Lucario
+|-start|p1a: Lucario|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Lucario|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|14
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Lucario|76/100|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|97/100|[silent]
+|upkeep
+|turn|15
+|
+|move|p1a: Lucario|Close Combat|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|66/100|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Lucario|Extreme Speed|p2a: Azumarill
+|-damage|p2a: Azumarill|13/100
+|-damage|p1a: Lucario|57/100|[from] item: Life Orb
+|move|p2a: Azumarill|Aqua Jet|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Haxorus|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|3/100
+|-damage|p1a: Haxorus|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Haxorus|atk|1
+|-unboost|p1a: Haxorus|def|1
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Haxorus
+|-status|p1a: Haxorus|par
+|-enditem|p1a: Haxorus|Lum Berry|[eat]
+|-curestatus|p1a: Haxorus|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|9/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆grexagreg|gg dude
+|
+|move|p1a: Haxorus|Dragon Claw|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Haxorus|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|24/100
+|-damage|p2a: Vaporeon|11/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Haxorus|Dragon Claw|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Haxorus|Outrage|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Azumarill|Azumarill, M|13/100
+|-damage|p2a: Azumarill|1/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|27/100
+|move|p1a: Haxorus|Outrage|p2a: Azumarill|[from]lockedmove
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|grexagreg forfeited.
+|
+|win|Chimp34
+|l|☆grexagreg
+|raw|Chimp34's rating: 1436 &rarr; <strong>1449</strong><br />(+13 for winning)
+|raw|grexagreg's rating: 1308 &rarr; <strong>1295</strong><br />(-13 for losing)

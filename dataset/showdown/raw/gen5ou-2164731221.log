@@ -1,0 +1,299 @@
+|j|☆Invisible Enemy
+|j|☆smurfer
+|player|p1|Invisible Enemy|261
+|player|p2|smurfer|126
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Terrakion|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Wobbuffet, F|item
+|poke|p2|Diglett, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Starmie|item
+|poke|p2|Volcarona, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by smurfer)
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: AWOOGA|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: AWOOGA
+|turn|1
+|
+|move|p2a: AWOOGA|Protect|p2a: AWOOGA
+|-singleturn|p2a: AWOOGA|Protect
+|move|p1a: Thundurus|Volt Switch|p2a: AWOOGA
+|-activate|p2a: AWOOGA|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Thundurus|Volt Switch|p2a: AWOOGA
+|-damage|p2a: AWOOGA|38/100
+|-enditem|p2a: AWOOGA|Eject Button
+|
+|switch|p2a: AWOOGA!|Wobbuffet, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Invisible Enemy has 120 seconds left.
+|
+|move|p1a: Thundurus|Volt Switch|p2a: AWOOGA!
+|-damage|p2a: AWOOGA!|62/100
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: AWOOGA!|Mirror Coat|p1a: Amoonguss
+|-damage|p1a: Amoonguss|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: AWOOGA!|68/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|10/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: AWOOGA!|Encore|p1a: Amoonguss
+|-fail|p2a: AWOOGA!
+|move|p1a: Amoonguss|Spore|p2a: AWOOGA!
+|-status|p2a: AWOOGA!|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: AWOOGA!|74/100 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|16/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|cant|p2a: AWOOGA!|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: AWOOGA!
+|-damage|p2a: AWOOGA!|60/100 slp
+|-heal|p1a: Amoonguss|25/100|[from] drain|[of] p2a: AWOOGA!
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: AWOOGA!|66/100 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|31/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|-curestatus|p2a: AWOOGA!|slp|[msg]
+|move|p2a: AWOOGA!|Encore|p1a: Amoonguss
+|-start|p1a: Amoonguss|Encore
+|move|p1a: Amoonguss|Giga Drain|p2a: AWOOGA!
+|-damage|p2a: AWOOGA!|52/100
+|-heal|p1a: Amoonguss|40/100|[from] drain|[of] p2a: AWOOGA!
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: AWOOGA!|58/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|46/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Amoonguss|Giga Drain|p2a: AWOOGA!
+|-damage|p2a: AWOOGA!|42/100
+|-heal|p1a: Amoonguss|56/100|[from] drain|[of] p2a: AWOOGA!
+|move|p2a: AWOOGA!|Mirror Coat|p1a: Amoonguss
+|-damage|p1a: Amoonguss|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: AWOOGA!|48/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|23/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p1a: Amoonguss|Giga Drain|p2a: AWOOGA!
+|-damage|p2a: AWOOGA!|33/100
+|-heal|p1a: Amoonguss|33/100|[from] drain|[of] p2a: AWOOGA!
+|move|p2a: AWOOGA!|Mirror Coat|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: AWOOGA!|39/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|9
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: AWOOGA!
+|-damage|p2a: AWOOGA!|0 fnt
+|faint|p2a: AWOOGA!
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: AWOOOGA|Heatran, M, shiny|100/100
+|-item|p2a: AWOOOGA|Air Balloon
+|turn|10
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: AWOOOGA
+|-damage|p2a: AWOOOGA|24/100
+|-enditem|p2a: AWOOOGA|Air Balloon
+|move|p2a: AWOOOGA|Magma Storm|p1a: Thundurus|[miss]
+|-miss|p2a: AWOOOGA|p1a: Thundurus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: eyebrows|Diglett, M|100/100
+|move|p1a: Thundurus|Thunderbolt|p2a: eyebrows
+|-immune|p2a: eyebrows|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|c|☆smurfer|oh fucks sake
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: eyebrows|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: Invisible Enemy|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: AWOOOGA!|Starmie, shiny|100/100
+|move|p1a: Slowbro|Scald|p2a: AWOOOGA!
+|-resisted|p2a: AWOOOGA!
+|-crit|p2a: AWOOOGA!
+|-damage|p2a: AWOOOGA!|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: AWOOOGA!|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|87/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: AWOOOGA!|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|47/100
+|move|p1a: Slowbro|Fire Blast|p2a: AWOOOGA!
+|-resisted|p2a: AWOOOGA!
+|-damage|p2a: AWOOOGA!|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowbro|53/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: AWOOOGA|Heatran, M, shiny|24/100
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: AWOOOGA|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: AWOOOGA
+|-sidestart|p2: smurfer|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: AWOOOGA|Magma Storm|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|42/100
+|-activate|p1a: Tyranitar|move: Magma Storm|[of] p2a: AWOOOGA
+|move|p1a: Tyranitar|Crunch|p2a: AWOOOGA
+|-resisted|p2a: AWOOOGA
+|-damage|p2a: AWOOOGA|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|36/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|19
+|
+|move|p2a: AWOOOGA|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Excadrill|Earthquake|p2a: AWOOOGA
+|-supereffective|p2a: AWOOOGA
+|-damage|p2a: AWOOOGA|0 fnt
+|faint|p2a: AWOOOGA
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: AWOOGA|Ninetales, F|38/100
+|-damage|p2a: AWOOGA|13/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: AWOOGA
+|turn|21
+|
+|move|p1a: Excadrill|Earthquake|p2a: AWOOGA
+|-supereffective|p2a: AWOOGA
+|-damage|p2a: AWOOGA|0 fnt
+|faint|p2a: AWOOGA
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: AWOOOGA!|Starmie, shiny|33/100
+|-damage|p2a: AWOOOGA!|21/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Excadrill|Earthquake|p2a: AWOOOGA!
+|-damage|p2a: AWOOOGA!|0 fnt
+|faint|p2a: AWOOOGA!
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: eyebrows|Diglett, M|100/100
+|-damage|p2a: eyebrows|94/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Excadrill|Earthquake|p2a: eyebrows
+|-damage|p2a: eyebrows|0 fnt
+|faint|p2a: eyebrows
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|smurfer forfeited.
+|
+|win|Invisible Enemy
+|l|☆smurfer
+|raw|Invisible Enemy's rating: 1467 &rarr; <strong>1489</strong><br />(+22 for winning)
+|raw|smurfer's rating: 1506 &rarr; <strong>1483</strong><br />(-23 for losing)

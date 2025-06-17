@@ -1,0 +1,351 @@
+|j|☆Sas0
+|j|☆refsunpersons
+|player|p1|Sas0|64
+|player|p2|refsunpersons|15
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Jirachi|item
+|poke|p1|Latios, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Diglett, M|item
+|poke|p2|Xatu, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Scizor, F|item
+|teampreview
+|j| toka-ish-ish
+|l| toka-ish-ish
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Latios|Hidden Power|p1a: Jirachi
+|-damage|p1a: Jirachi|73/100
+|-damage|p2a: Latios|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Jirachi|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Jirachi|Iron Head|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+|
+|-heal|p1a: Jirachi|85/100|[from] item: Leftovers
+|-heal|p2a: Scizor|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Bug Bite|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|84/100
+|
+|-heal|p2a: Scizor|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Landorus|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|68/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Politoed|Hypnosis|p1a: Rotom
+|-status|p1a: Rotom|slp
+|cant|p1a: Rotom|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Rotom|[miss]
+|-miss|p2a: Politoed|p1a: Rotom
+|cant|p1a: Rotom|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Rotom
+|-enditem|p2a: Politoed|Water Gem|[from] gem|[move] Hydro Pump
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|51/100 slp
+|-curestatus|p1a: Rotom|slp|[msg]
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0
+|faint|p2a: Politoed
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|8
+|
+|switch|p1a: Jirachi|Jirachi|85/100
+|move|p2a: Tornadus|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|71/100
+|
+|switch|p2a: Diglett|Diglett, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|77/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|Iron Head|p2a: Diglett
+|-enditem|p2a: Diglett|Focus Sash
+|-damage|p2a: Diglett|1/100
+|move|p2a: Diglett|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|22/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Jirachi|Iron Head|p2a: Xatu
+|-damage|p2a: Xatu|74/100
+|-damage|p1a: Jirachi|6/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|68/100|[from] Sandstorm
+|-heal|p1a: Jirachi|12/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|19/100
+|move|p2a: Xatu|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|0
+|faint|p1a: Jirachi
+|
+|switch|p2a: Scizor|Scizor, F|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|51/100
+|turn|12
+|
+|switch|p2a: Xatu|Xatu, F|19/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Xatu
+|move|p2a: Xatu|Will-O-Wisp|p1a: Rotom|[from]Magic Bounce
+|-status|p1a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|12/100|[from] Sandstorm
+|-damage|p1a: Rotom|45/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|39/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Xatu|Night Shade|p1a: Rotom
+|-damage|p1a: Rotom|6/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0
+|faint|p2a: Xatu
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|14
+|
+|move|p1a: Landorus|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+|
+|switch|p1a: Rotom|Rotom-Wash|6/100 brn
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|0 brn|[from] Sandstorm
+|-heal|p2a: Scizor|93/100|[from] item: Leftovers
+|upkeep
+|faint|p1a: Rotom
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|turn|15
+|
+|move|p1a: Landorus|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|39/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|turn|17
+|
+|switch|p2a: Latios|Latios, M|91/100
+|move|p1a: Landorus|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|84/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Terrakion|[miss]
+|-miss|p2a: Latios|p1a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|78/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|move|p2a: Latios|Surf|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|35/100
+|-damage|p2a: Latios|68/100|[from] item: Life Orb
+|move|p1a: Terrakion|Stone Edge|p2a: Latios
+|-enditem|p1a: Terrakion|Rock Gem|[from] gem|[move] Stone Edge
+|-damage|p2a: Latios|0
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|20
+|
+|move|p2a: Tornadus|Hurricane|p1a: Terrakion
+|-damage|p1a: Terrakion|0
+|faint|p1a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|21
+|
+|switch|p2a: Diglett|Diglett, M|1/100
+|move|p1a: Latios|Draco Meteor|p2a: Diglett
+|-damage|p2a: Diglett|0
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Diglett
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|51/100
+|turn|22
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus
+|-damage|p1a: Landorus|31/100
+|move|p1a: Landorus|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|10/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus
+|-damage|p1a: Landorus|0
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|16/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|95/100
+|turn|25
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Latios
+|-damage|p1a: Latios|39/100
+|move|p1a: Latios|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|33/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|94/100
+|turn|26
+|
+|move|p2a: Tornadus|Hurricane|p1a: Latios
+|-damage|p1a: Latios|0
+|faint|p1a: Latios
+|
+|win|refsunpersons
+|c|☆refsunpersons|gg wp
+|raw|Sas0's rating: 1458 &rarr; <strong>1430</strong><br />(-28 for losing)
+|raw|refsunpersons's rating: 1301 &rarr; <strong>1329</strong><br />(+28 for winning)

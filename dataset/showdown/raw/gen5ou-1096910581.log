@@ -1,0 +1,382 @@
+|j|☆Medoroziam
+|j|☆mellrrowe
+|player|p1|Medoroziam|plasmagrunt|1372
+|player|p2|mellrrowe|hilbert|1303
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Politoed, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Starmie|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Tornadus, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mellrrowe)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Politoed|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Landorus|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|65/100
+|
+|switch|p1a: Latios|Latios, M|100/100|[from]move: U-turn
+|move|p2a: Politoed|Hydro Pump|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Magnezone
+|-start|p1a: Magnezone|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|-damage|p1a: Magnezone|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|92/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Scizor|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Scizor
+|-start|p1a: Scizor|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|10/100|[from] item: Leftovers
+|-damage|p1a: Scizor|75/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|22/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p1a: Magnezone|Magnezone|88/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|28/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|34/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆mellrrowe|fuck
+|
+|move|p1a: Magnezone|Charge Beam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|27/100
+|-boost|p1a: Magnezone|spa|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Magnezone
+|-sidestart|p1: Medoroziam|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|81/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|33/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Magnezone|Charge Beam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/100
+|-boost|p1a: Magnezone|spa|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-activate|p1a: Magnezone|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|87/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|28/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|mellrrowe has 120 seconds left.
+|
+|move|p1a: Magnezone|Charge Beam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|13/100
+|-boost|p1a: Magnezone|spa|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-activate|p1a: Magnezone|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|19/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Magnezone|Charge Beam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|1/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-end|p1a: Magnezone|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|7/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|75/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-activate|p1a: Magnezone|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|81/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|13/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Magnezone|Charge Beam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|turn|14
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-end|p1a: Magnezone|Substitute
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|move|p1a: Magnezone|Thunder|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|15
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: mellrrowe|move: Stealth Rock
+|move|p2a: Garchomp|Aqua Tail|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|20/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|switch|p2a: Politoed|Politoed, M|65/100
+|-damage|p2a: Politoed|53/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Politoed|Hidden Power|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|64/100
+|move|p1a: Politoed|Toxic|p2a: Politoed
+|-status|p2a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|70/100|[from] item: Leftovers
+|-damage|p2a: Politoed|46/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Landorus|Landorus-Therian, M|20/100
+|-damage|p1a: Landorus|7/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Starmie|atk|1
+|move|p2a: Starmie|Thunder|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p2a: Politoed|Politoed, M|46/100 tox
+|-damage|p2a: Politoed|34/100 tox|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|switch|p1a: Scizor|Scizor, F|75/100|[from]move: U-turn
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|88/100
+|-damage|p2a: Starmie|76/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Landorus|Landorus-Therian, M|7/100
+|-damage|p1a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p1a: Landorus
+|move|p2a: Starmie|Rapid Spin|p1: Landorus|[notarget]
+|-fail|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|93/100
+|-damage|p1a: Magnezone|87/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-damage|p2a: Starmie|66/100|[from] item: Life Orb
+|faint|p1a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|69/100
+|-damage|p1a: Latios|57/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Starmie|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Starmie|56/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|63/100
+|-damage|p1a: Scizor|50/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|14/100
+|move|p2a: Starmie|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Starmie|4/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|76/100
+|-damage|p1a: Politoed|64/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Starmie|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Starmie|0 fnt|[from] item: Life Orb
+|faint|p1a: Politoed
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Tornadus|Hurricane|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|win|mellrrowe
+|c|☆mellrrowe|gg
+|l|☆Medoroziam
+|raw|Medoroziam's rating: 1372 &rarr; <strong>1348</strong><br />(-24 for losing)
+|raw|mellrrowe's rating: 1303 &rarr; <strong>1327</strong><br />(+24 for winning)

@@ -1,0 +1,323 @@
+|join|Indytotof
+|join|dtw
+|player|p1|Indytotof|267
+|player|p2|dtw|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Ninetales, M
+|poke|p1|Forretress, F
+|poke|p1|Wobbuffet, F
+|poke|p1|Dugtrio, M
+|poke|p1|Venusaur, M
+|poke|p1|Victini
+|poke|p2|Politoed, M
+|poke|p2|Tornadus, M
+|poke|p2|Ferrothorn, F
+|poke|p2|Gyarados, F
+|poke|p2|Chansey, F
+|poke|p2|Gengar, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Gamester|Victini|341/341
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Gamester|Bolt Strike|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|306/352
+|-damage|p1a: Gamester|299/341|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Gamester|243/341|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Naixin|Ninetales, M|333/333
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Naixin
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Naixin
+|-sidestart|p1: Indytotof|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|chat|Indytotof|stop randomness
+|
+|switch|p2a: Chansey|Chansey, F|704/704
+|move|p1a: Naixin|Sunny Day|p1a: Naixin
+|-fail|p1a: Naixin
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Naixin|Will-O-Wisp|p2a: Chansey|[miss]
+|-miss|p1a: Naixin|p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Naixin
+|-damage|p1a: Naixin|233/333
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Naixin|253/333|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Naixin|Will-O-Wisp|p2a: Chansey
+|-status|p2a: Chansey|brn
+|move|p2a: Chansey|Seismic Toss|p1a: Naixin
+|-damage|p1a: Naixin|153/333
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Naixin|173/333|[from] item: Leftovers
+|-damage|p2a: Chansey|616/704 brn|[from] brn
+|turn|6
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Naixin|Flamethrower|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|359/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Naixin|193/333|[from] item: Leftovers
+|-heal|p2a: Politoed|383/384|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Naixin|Sunny Day|p1a: Naixin
+|-weather|SunnyDay
+|move|p2a: Politoed|Toxic|p1a: Naixin
+|-status|p1a: Naixin|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Naixin|213/333 tox|[from] item: Leftovers
+|-heal|p2a: Politoed|384/384|[from] item: Leftovers
+|-damage|p1a: Naixin|193/333 tox|[from] psn
+|turn|8
+|
+|switch|p2a: Chansey|Chansey, F|616/704
+|move|p1a: Naixin|Will-O-Wisp|p2a: Chansey
+|-status|p2a: Chansey|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Naixin|213/333 tox|[from] item: Leftovers
+|-damage|p1a: Naixin|173/333 tox|[from] psn
+|-damage|p2a: Chansey|528/704 brn|[from] brn
+|turn|9
+|
+|switch|p1a: Gr8astard|Forretress, F|351/351
+|-damage|p1a: Gr8astard|308/351|[from] Stealth Rock
+|move|p2a: Chansey|Seismic Toss|p1a: Gr8astard
+|-damage|p1a: Gr8astard|208/351
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gr8astard|229/351|[from] item: Leftovers
+|-damage|p2a: Chansey|440/704 brn|[from] brn
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|306/352
+|move|p1a: Gr8astard|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|301/352
+|-damage|p1a: Gr8astard|186/351|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Gr8astard|128/351|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-sideend|p1: Indytotof|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Gr8astard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gr8astard|149/351|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Gr8astard|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|288/352
+|
+|switch|p1a: Gamester|Victini|243/341
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Gamester
+|-sidestart|p1: Indytotof|move: Stealth Rock
+|
+|-weather|none
+|turn|12
+|
+|switch|p2a: Chansey|Chansey, F|440/704
+|move|p1a: Gamester|Bolt Strike|p2a: Chansey
+|-damage|p2a: Chansey|268/704
+|-status|p2a: Chansey|par
+|
+|turn|13
+|
+|switch|p1a: Gr8astard|Forretress, F|149/351
+|-damage|p1a: Gr8astard|106/351|[from] Stealth Rock
+|move|p2a: Chansey|Seismic Toss|p1a: Gr8astard
+|-damage|p1a: Gr8astard|6/351
+|
+|-heal|p1a: Gr8astard|27/351|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|288/352
+|move|p1a: Gr8astard|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|283/352
+|-damage|p1a: Gr8astard|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Gr8astard
+|
+|chat|Indytotof|FUCK YOU
+|
+|switch|p1a: Ban Nattorei|Wobbuffet, F|521/521
+|-damage|p1a: Ban Nattorei|456/521|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Ban Nattorei|Tickle|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-unboost|p2a: Ferrothorn|def|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ban Nattorei
+|-start|p1a: Ban Nattorei|move: Leech Seed
+|
+|-heal|p1a: Ban Nattorei|488/521|[from] item: Leftovers
+|-damage|p1a: Ban Nattorei|423/521|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|348/352|[silent]
+|turn|16
+|
+|move|p1a: Ban Nattorei|Tickle|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-unboost|p2a: Ferrothorn|def|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ban Nattorei
+|-fail|p1a: Ban Nattorei
+|
+|-heal|p1a: Ban Nattorei|455/521|[from] item: Leftovers
+|-damage|p1a: Ban Nattorei|390/521|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352|[silent]
+|turn|17
+|chat|dtw|love u 2
+|chat|Indytotof|shut up noob
+|
+|move|p1a: Ban Nattorei|Tickle|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-unboost|p2a: Ferrothorn|def|1
+|move|p2a: Ferrothorn|Bulldoze|p1a: Ban Nattorei
+|-damage|p1a: Ban Nattorei|368/521
+|-unboost|p1a: Ban Nattorei|spe|1
+|
+|-heal|p1a: Ban Nattorei|400/521|[from] item: Leftovers
+|-damage|p1a: Ban Nattorei|335/521|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|18
+|chat|dtw|butthurt much?
+|
+|move|p1a: Ban Nattorei|Tickle|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-unboost|p2a: Ferrothorn|def|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Ban Nattorei
+|-damage|p1a: Ban Nattorei|308/521
+|
+|-heal|p1a: Ban Nattorei|340/521|[from] item: Leftovers
+|-damage|p1a: Ban Nattorei|275/521|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|19
+|chat|Indytotof|shut up
+|
+|move|p2a: Ferrothorn|Bulldoze|p1a: Ban Nattorei
+|-damage|p1a: Ban Nattorei|258/521
+|-unboost|p1a: Ban Nattorei|spe|1
+|move|p1a: Ban Nattorei|Counter|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|318/352
+|-damage|p1a: Ban Nattorei|193/521|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Ban Nattorei|107/521|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Ban Nattorei|139/521|[from] item: Leftovers
+|-damage|p1a: Ban Nattorei|74/521|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352|[silent]
+|turn|20
+|
+|move|p1a: Ban Nattorei|Tickle|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-unboost|p2a: Ferrothorn|def|1
+|move|p2a: Ferrothorn|Bulldoze|p1a: Ban Nattorei
+|-damage|p1a: Ban Nattorei|59/521
+|-unboost|p1a: Ban Nattorei|spe|1
+|
+|-heal|p1a: Ban Nattorei|91/521|[from] item: Leftovers
+|-damage|p1a: Ban Nattorei|26/521|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|21
+|chat|Indytotof|dumbass randoù
+|chat|Indytotof|*random
+|
+|move|p1a: Ban Nattorei|Tickle|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-unboost|p2a: Ferrothorn|def|1
+|move|p2a: Ferrothorn|Bulldoze|p1a: Ban Nattorei
+|-damage|p1a: Ban Nattorei|11/521
+|-unboost|p1a: Ban Nattorei|spe|1
+|
+|-heal|p1a: Ban Nattorei|43/521|[from] item: Leftovers
+|-damage|p1a: Ban Nattorei|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|faint|p1a: Ban Nattorei
+|
+|switch|p1a: Oristeros|Dugtrio, M|199/199
+|-damage|p1a: Oristeros|187/199|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Oristeros|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|28/352
+|move|p2a: Ferrothorn|Leech Seed|p1a: Oristeros
+|-start|p1a: Oristeros|move: Leech Seed
+|
+|-damage|p1a: Oristeros|163/199|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|52/352|[silent]
+|turn|23
+|
+|switch|p1a: Naixin|Ninetales, M|173/333 tox
+|-damage|p1a: Naixin|90/333 tox|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Naixin
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Naixin
+|-resisted|p1a: Naixin
+|-damage|p1a: Naixin|63/333 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Naixin|83/333 tox|[from] item: Leftovers
+|-damage|p1a: Naixin|63/333 tox|[from] psn
+|turn|24
+|
+|switch|p2a: Chansey|Chansey, F|268/704
+|move|p1a: Naixin|Will-O-Wisp|p2a: Chansey
+|-status|p2a: Chansey|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Naixin|83/333 tox|[from] item: Leftovers
+|-damage|p1a: Naixin|43/333 tox|[from] psn
+|-damage|p2a: Chansey|180/704 brn|[from] brn
+|turn|25
+|
+|move|p1a: Naixin|Flamethrower|p2a: Chansey
+|-damage|p2a: Chansey|95/704 brn
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Naixin|63/333 tox|[from] item: Leftovers
+|-damage|p1a: Naixin|3/333 tox|[from] psn
+|-damage|p2a: Chansey|7/704 brn|[from] brn
+|turn|26
+|
+|move|p2a: Chansey|Protect|p2a: Chansey
+|-singleturn|p2a: Chansey|Protect
+|move|p1a: Naixin|Flamethrower|p2a: Chansey
+|-activate|p2a: Chansey|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Chansey|359/704 brn|[from] move: Wish|[wisher] Chansey
+|-heal|p1a: Naixin|23/333 tox|[from] item: Leftovers
+|-damage|p1a: Naixin|0 fnt|[from] psn
+|-damage|p2a: Chansey|271/704 brn|[from] brn
+|faint|p1a: Naixin
+|leave|Indytotof
+|player|p1
+|-message|indytotof lost due to inactivity.
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|Indytotof's rating: 1334 &rarr; <strong>1317</strong><br />(-17 for losing)
+|raw|dtw's rating: 1399 &rarr; <strong>1415</strong><br />(+16 for winning)

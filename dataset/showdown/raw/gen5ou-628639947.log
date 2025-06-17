@@ -1,0 +1,518 @@
+|j|Kidogo
+|j|s52
+|player|p1|Kidogo|2
+|teamsize|p1|6
+|player|p2|s52|2
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|16153,11504,17493,46076
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Quagsire, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Keldeo|item
+|poke|p2|Breloom, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Politoed|Politoed, F|384/384
+|switch|p2a: Breloom|Breloom, M|261/261
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|c|☆Kidogo|gl
+|c|☆s52|u 2
+|choice|move scald|move bulletseed
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|244/384
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|98/384
+|-hitcount|p1a: Politoed|2
+|move|p1a: Politoed|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|154/261
+|-status|p2a: Breloom|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|122/384|[from] item: Leftovers
+|-damage|p2a: Breloom|122/261 brn|[from] brn
+|upkeep
+|turn|2
+|c|☆Kidogo|wow lucky
+|c|☆Kidogo|sorry
+|choice|switch 3|move spore
+|
+|switch|p1a: Dragonite|Dragonite, M|386/386
+|move|p2a: Breloom|Spore|p1a: Dragonite
+|-status|p1a: Dragonite|slp
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Breloom|90/261 brn|[from] brn
+|upkeep
+|turn|3
+|c|☆s52|yeah
+|c|☆s52|badluck
+|choice|switch 3|switch 3
+|
+|switch|p1a: Politoed|Politoed, F|122/384
+|switch|p2a: Tyranitar|Tyranitar, F|358/358
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|98/384|[from] sandstorm
+|-heal|p1a: Politoed|122/384|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 5|move pursuit
+|
+|-activate|p1a: Politoed|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Politoed|[from]Pursuit
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Kidogo|damn
+|c|☆Kidogo|wp
+|choice|switch 6|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|turn|5
+|choice|move spikes|move fireblast
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|12/352
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: s52|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|34/352|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 4|move crunch
+|
+|switch|p1a: Chansey|Chansey, F|704/704
+|move|p2a: Tyranitar|Crunch|p1a: Chansey
+|-damage|p1a: Chansey|502/704
+|-unboost|p1a: Chansey|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|458/704|[from] sandstorm
+|upkeep
+|turn|7
+|choice|move stealthrock|move stealthrock
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Chansey
+|-sidestart|p1: Kidogo|move: Stealth Rock
+|move|p1a: Chansey|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: s52|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|414/704|[from] sandstorm
+|upkeep
+|turn|8
+|choice|move softboiled|move fireblast
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|343/704
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|695/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|651/704|[from] sandstorm
+|upkeep
+|turn|9
+|choice|switch 5|move fireblast
+|
+|switch|p1a: Tentacruel|Tentacruel, M|352/352
+|-damage|p1a: Tentacruel|308/352|[from] Stealth Rock
+|move|p2a: Tyranitar|Fire Blast|p1a: Tentacruel|[miss]
+|-miss|p2a: Tyranitar|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|286/352|[from] sandstorm
+|-heal|p1a: Tentacruel|308/352|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|move rapidspin|move crunch
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|354/358
+|-sideend|p1: Kidogo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Tyranitar|Crunch|p1a: Tentacruel
+|-damage|p1a: Tentacruel|158/352
+|-unboost|p1a: Tentacruel|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|136/352|[from] sandstorm
+|-heal|p1a: Tentacruel|158/352|[from] item: Black Sludge
+|upkeep
+|turn|11
+|choice|move scald|move pursuit
+|
+|move|p1a: Tentacruel|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|252/358
+|move|p2a: Tyranitar|Pursuit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|47/352
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|25/352|[from] sandstorm
+|-heal|p1a: Tentacruel|47/352|[from] item: Black Sludge
+|upkeep
+|turn|12
+|choice|move scald|move pursuit
+|
+|move|p1a: Tentacruel|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|64/358
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|Pursuit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|20/358 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|34/352
+|turn|13
+|choice|move spikes|move stealthrock
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Kidogo|move: Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: s52|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|56/352|[from] item: Leftovers
+|-damage|p2a: Tyranitar|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Tyranitar
+|choice||switch 5
+|
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|-damage|p2a: Garchomp|298/357|[from] Spikes
+|-damage|p2a: Garchomp|276/357|[from] Stealth Rock
+|turn|14
+|choice|move leechseed|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Quagsire|Quagsire, M|393/393
+|-damage|p1a: Quagsire|369/393|[from] Stealth Rock
+|turn|15
+|choice|move toxic|switch 3
+|
+|switch|p2a: Breloom|Breloom, M|90/261 brn
+|-damage|p2a: Breloom|74/261 brn|[from] Stealth Rock
+|-damage|p2a: Breloom|31/261 brn|[from] Spikes
+|move|p1a: Quagsire|Toxic|p2a: Breloom
+|-fail|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|15/261 brn|[from] sandstorm
+|-heal|p1a: Quagsire|393/393|[from] item: Leftovers
+|-damage|p2a: Breloom|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Breloom
+|choice||switch 6
+|
+|switch|p2a: Latios|Latios, M|301/301
+|-damage|p2a: Latios|264/301|[from] Stealth Rock
+|turn|16
+|choice|switch 5|move dracometeor
+|
+|switch|p1a: Chansey|Chansey, F|651/704
+|-damage|p1a: Chansey|563/704|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Chansey
+|-damage|p1a: Chansey|341/704
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|246/301|[from] sandstorm
+|-damage|p1a: Chansey|297/704|[from] sandstorm
+|upkeep
+|turn|17
+|choice|move softboiled|switch 4
+|
+|switch|p2a: Scizor|Scizor, F|343/343
+|-damage|p2a: Scizor|301/343|[from] Stealth Rock
+|-damage|p2a: Scizor|244/343|[from] Spikes
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|649/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|605/704|[from] sandstorm
+|upkeep
+|turn|18
+|choice|switch 3|move pursuit
+|
+|-activate|p1a: Chansey|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Chansey|[from]Pursuit
+|-damage|p1a: Chansey|410/704
+|switch|p1a: Dragonite|Dragonite, M|386/386 slp
+|-damage|p1a: Dragonite|290/386 slp|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|266/386 slp|[from] sandstorm
+|-heal|p1a: Dragonite|290/386 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move substitute|switch 4
+|
+|switch|p2a: Latios|Latios, M|246/301
+|-damage|p2a: Latios|209/301|[from] Stealth Rock
+|cant|p1a: Dragonite|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|191/301|[from] sandstorm
+|-damage|p1a: Dragonite|266/386 slp|[from] sandstorm
+|-heal|p1a: Dragonite|290/386 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move roost|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|173/301|[from] sandstorm
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Chansey|Chansey, F|410/704
+|-damage|p1a: Chansey|322/704|[from] Stealth Rock
+|turn|21
+|choice|move softboiled|switch 4
+|
+|switch|p2a: Scizor|Scizor, F|244/343
+|-damage|p2a: Scizor|202/343|[from] Stealth Rock
+|-damage|p2a: Scizor|145/343|[from] Spikes
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|674/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|630/704|[from] sandstorm
+|upkeep
+|turn|22
+|choice|switch 5|move uturn
+|
+|switch|p1a: Quagsire|Quagsire, M|393/393
+|-damage|p1a: Quagsire|369/393|[from] Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Quagsire
+|-damage|p1a: Quagsire|207/393
+|choice||switch 3
+|
+|switch|p2a: Garchomp|Garchomp, M|276/357
+|-damage|p2a: Garchomp|254/357|[from] Stealth Rock
+|-damage|p2a: Garchomp|195/357|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|231/393|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move recover|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Quagsire
+|-damage|p1a: Quagsire|45/393
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|242/393
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|266/393|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move recover|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Quagsire|[from]lockedmove
+|-damage|p1a: Quagsire|94/393
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|291/393
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|315/393|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move recover|move outrage
+|
+|-activate|p2a: Garchomp|confusion
+|-damage|p2a: Garchomp|144/357|[from] confusion
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|393/393
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|choice|move scald|move outrage
+|
+|-end|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Outrage|p1a: Quagsire
+|-damage|p1a: Quagsire|219/393
+|move|p1a: Quagsire|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|74/357
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|243/393|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move recover|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Quagsire|[from]lockedmove
+|-damage|p1a: Quagsire|72/393
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|269/393
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|293/393|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move recover|move outrage
+|
+|-activate|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Outrage|p1a: Quagsire
+|-damage|p1a: Quagsire|112/393
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|309/393
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|333/393|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move recover|move outrage
+|
+|-end|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Outrage|p1a: Quagsire|[from]lockedmove
+|-damage|p1a: Quagsire|147/393
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|344/393
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|368/393|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move recover|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Quagsire|[from]lockedmove
+|-damage|p1a: Quagsire|209/393
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|393/393
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|choice|move toxic|move outrage
+|
+|-activate|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Outrage|p1a: Quagsire
+|-damage|p1a: Quagsire|221/393
+|move|p1a: Quagsire|Toxic|p2a: Garchomp
+|-status|p2a: Garchomp|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|245/393|[from] item: Leftovers
+|-damage|p2a: Garchomp|52/357 tox|[from] psn
+|upkeep
+|turn|32
+|choice|move recover|move outrage
+|
+|-activate|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Outrage|p1a: Quagsire|[from]lockedmove
+|-damage|p1a: Quagsire|64/393
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|261/393
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|285/393|[from] item: Leftovers
+|-damage|p2a: Garchomp|8/357 tox|[from] psn
+|upkeep
+|turn|33
+|choice|move recover|move outrage
+|
+|-end|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Outrage|p1a: Quagsire|[from]lockedmove
+|-damage|p1a: Quagsire|99/393
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|296/393
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Quagsire|320/393|[from] item: Leftovers
+|-damage|p2a: Garchomp|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Garchomp
+|choice||switch 4
+|
+|switch|p2a: Latios|Latios, M|173/301
+|-damage|p2a: Latios|136/301|[from] Stealth Rock
+|turn|34
+|choice|switch 5|move psyshock
+|
+|switch|p1a: Chansey|Chansey, F|630/704
+|-damage|p1a: Chansey|542/704|[from] Stealth Rock
+|move|p2a: Latios|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|254/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|118/301|[from] sandstorm
+|-damage|p1a: Chansey|210/704|[from] sandstorm
+|upkeep
+|turn|35
+|choice|switch 5|move psyshock
+|
+|switch|p1a: Quagsire|Quagsire, M|320/393
+|-damage|p1a: Quagsire|296/393|[from] Stealth Rock
+|move|p2a: Latios|Psyshock|p1a: Quagsire
+|-damage|p1a: Quagsire|124/393
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|100/301|[from] sandstorm
+|-heal|p1a: Quagsire|148/393|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆Kidogo|gg
+|c|☆s52|gg
+|-message|Kidogo forfeited.
+|
+|win|s52
+|l|Kidogo
+|raw|Kidogo's rating: 1527 &rarr; <strong>1496</strong><br />(-31 for losing)
+|raw|s52's rating: 1310 &rarr; <strong>1341</strong><br />(+31 for winning)

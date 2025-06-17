@@ -1,0 +1,382 @@
+|j|☆Pythagorean Python
+|j|☆Garchomplte
+|player|p1|Pythagorean Python|159|1410
+|player|p2|Garchomplte|brock|1428
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Salamence, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Raikou|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Slowking, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Terrakion|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Raikou|Raikou|100/100
+|switch|p2a: Slowking|Slowking, M|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|1
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Raikou|Volt Switch|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Iron Head|p1a: Salamence
+|-damage|p1a: Salamence|59/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Salamence|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|47/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Salamence|Fire Blast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|88/100
+|
+|-heal|p2a: Slowking|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Slowking|Thunder Wave|p1a: Jirachi
+|-status|p1a: Jirachi|par
+|
+|-heal|p2a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Skarmory|Skarmory, F|47/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Garchomplte|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Salamence|Salamence, F|59/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|97/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Salamence|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|-unboost|p1a: Salamence|spa|2
+|
+|-heal|p2a: Slowking|51/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Meloetta
+|-damage|p1a: Meloetta|92/100
+|-sideend|p2: Garchomplte|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Meloetta|Focus Blast|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Meloetta|98/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|11
+|
+|move|p1a: Meloetta|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Meloetta|p2a: Tyranitar
+|move|p2a: Tyranitar|Crunch|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|12
+|
+|switch|p2a: Slowking|Slowking, M|85/100
+|move|p1a: Mienshao|U-turn|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|
+|switch|p1a: Raikou|Raikou|100/100|[from]move: U-turn
+|-ability|p1a: Raikou|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|94/100|[from] Sandstorm
+|-damage|p2a: Slowking|39/100|[from] Sandstorm
+|-heal|p2a: Slowking|45/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|move|p1a: Raikou|Thunderbolt|p2a: Terrakion
+|-damage|p2a: Terrakion|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|88/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Terrakion|Close Combat|p1a: Raikou
+|-damage|p1a: Raikou|1/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|move|p1a: Raikou|Volt Switch|p2a: Terrakion
+|-damage|p2a: Terrakion|29/100
+|
+|switch|p1a: Jirachi|Jirachi|100/100 par|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Skarmory|Skarmory, F|97/100
+|move|p1a: Jirachi|Thunder Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|-damage|p1a: Jirachi|84/100 par|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Raikou|Raikou|1/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Skarmory|Spikes|p1a: Raikou
+|-sidestart|p1: Pythagorean Python|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|0 fnt|[from] Sandstorm
+|faint|p1a: Raikou
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, F|59/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|turn|17
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Salamence|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|73/100
+|-unboost|p1a: Salamence|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|53/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|switch|p1a: Jirachi|Jirachi|90/100 par
+|-damage|p1a: Jirachi|78/100 par|[from] Spikes
+|move|p2a: Tyranitar|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Pythagorean Python|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100 par
+|move|p1a: Jirachi|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|18/100 par
+|move|p1a: Jirachi|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Garchomplte|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j| The Manassa Mauler
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|-damage|p1a: Mienshao|88/100|[from] Spikes
+|-damage|p1a: Mienshao|82/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|77/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Slowking|Slowking, M|78/100
+|-damage|p2a: Slowking|66/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Mienshao|U-turn|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|26/100
+|
+|switch|p1a: Salamence|Salamence, F|53/100|[from]move: U-turn
+|-damage|p1a: Salamence|28/100|[from] Stealth Rock
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Psyshock|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|20/100|[from] Sandstorm
+|-heal|p2a: Slowking|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, M|77/100
+|-damage|p1a: Mienshao|64/100|[from] Spikes
+|-damage|p1a: Mienshao|58/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p2a: Skarmory|Skarmory, F|71/100
+|-damage|p2a: Skarmory|58/100|[from] Stealth Rock
+|move|p1a: Mienshao|High Jump Kick|p2a: Skarmory
+|-damage|p2a: Skarmory|11/100
+|-damage|p1a: Mienshao|42/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|36/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Mienshao|19/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|13/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|29/100
+|-damage|p2a: Terrakion|22/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Terrakion|Close Combat|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Mienshao
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Terrakion|Close Combat|p1a: Garchomp
+|-damage|p1a: Garchomp|22/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|10/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Outrage|p2a: Terrakion
+|-crit|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Slowking|Slowking, M|59/100
+|-damage|p2a: Slowking|46/100|[from] Stealth Rock
+|turn|28
+|c|☆Pythagorean Python|gg
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Outrage|p2a: Latios|[from]lockedmove
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-start|p1a: Garchomp|confusion|[fatigue]
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Garchomplte|gg
+|
+|switch|p2a: Slowking|Slowking, M|80/100
+|-damage|p2a: Slowking|67/100|[from] Stealth Rock
+|turn|29
+|
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Outrage|p2a: Slowking
+|-damage|p2a: Slowking|12/100
+|move|p2a: Slowking|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|Garchomplte
+|raw|Pythagorean Python's rating: 1410 &rarr; <strong>1391</strong><br />(-19 for losing)
+|raw|Garchomplte's rating: 1428 &rarr; <strong>1447</strong><br />(+19 for winning)
+|l|☆Garchomplte

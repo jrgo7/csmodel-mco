@@ -1,0 +1,389 @@
+|join|Pythagorean Python
+|join|dtw
+|player|p1|Pythagorean Python|15
+|player|p2|dtw|265
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Dusclops, F
+|poke|p1|Riolu, M
+|poke|p1|Forretress, F
+|poke|p1|Skarmory, M
+|poke|p1|Gengar, F
+|poke|p1|Aerodactyl, F
+|poke|p2|Breloom, M
+|poke|p2|Infernape, M
+|poke|p2|Scrafty, M
+|poke|p2|Conkeldurr, F
+|poke|p2|Keldeo
+|poke|p2|Lucario, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Forretress|Forretress, F|354/354
+|switch|p2a: Infernape|Infernape, M|294/294
+|turn|1
+|
+|switch|p1a: Aerodactyl|Aerodactyl, F|302/302
+|-ability|p1a: Aerodactyl|Pressure
+|move|p2a: Infernape|Taunt|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|move: Taunt
+|
+|turn|2
+|
+|move|p1a: Aerodactyl|Earthquake|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-enditem|p2a: Infernape|Focus Sash
+|-damage|p2a: Infernape|1/294
+|-damage|p1a: Aerodactyl|272/302|[from] item: Life Orb
+|move|p2a: Infernape|Stealth Rock|p1a: Aerodactyl
+|-sidestart|p1: Pythagorean Python|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Infernape|Fake Out|p1a: Aerodactyl
+|-message|(Fake Out only works your first turn out.)
+|-fail|p1a: Aerodactyl
+|move|p1a: Aerodactyl|Earthquake|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|-damage|p1a: Aerodactyl|242/302|[from] item: Life Orb
+|faint|p2a: Infernape
+|
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|414/414
+|turn|4
+|
+|move|p1a: Aerodactyl|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|263/414
+|-damage|p1a: Aerodactyl|212/302|[from] item: Life Orb
+|move|p2a: Conkeldurr|Drain Punch|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|10/302
+|-heal|p2a: Conkeldurr|364/414|[from] drain|[of] p1a: Aerodactyl
+|
+|-end|p1a: Aerodactyl|move: Taunt
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|-damage|p2a: Conkeldurr|313/414 brn|[from] brn
+|
+|switch|p1a: Skarmory|Skarmory, M|334/334
+|-damage|p1a: Skarmory|293/334|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|move|p1a: Skarmory|Spikes|p2a: Keldeo
+|-sidestart|p2: dtw|Spikes
+|
+|-heal|p1a: Skarmory|313/334|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Keldeo|291/323|[from] item: Life Orb
+|faint|p1a: Skarmory
+|
+|
+|switch|p1a: Gengar|Gengar, F|262/262
+|-damage|p1a: Gengar|230/262|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|165/262
+|move|p2a: Keldeo|Hidden Power|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|-damage|p2a: Keldeo|259/323|[from] item: Life Orb
+|
+|-heal|p1a: Gengar|181/262|[from] item: Black Sludge
+|turn|9
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|25/323
+|move|p2a: Keldeo|Icy Wind|p1a: Gengar
+|-damage|p1a: Gengar|81/262
+|-unboost|p1a: Gengar|spe|1
+|-damage|p2a: Keldeo|0 fnt|[from] item: Life Orb
+|faint|p2a: Keldeo
+|
+|-heal|p1a: Gengar|97/262|[from] item: Black Sludge
+|
+|switch|p2a: Lucario|Lucario, M|281/281
+|-damage|p2a: Lucario|246/281|[from] Spikes
+|turn|10
+|
+|switch|p1a: Dusclops|Dusclops, F|222/222
+|-damage|p1a: Dusclops|195/222|[from] Stealth Rock
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Lucario|Bullet Punch|p1a: Dusclops
+|-damage|p1a: Dusclops|155/222
+|-damage|p2a: Lucario|218/281|[from] item: Life Orb
+|
+|turn|11
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|313/414 brn
+|-damage|p2a: Conkeldurr|262/414 brn|[from] Spikes
+|move|p1a: Dusclops|Confuse Ray|p2a: Conkeldurr
+|-start|p2a: Conkeldurr|confusion
+|
+|-damage|p2a: Conkeldurr|211/414 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Forretress|Forretress, F|354/354
+|-damage|p1a: Forretress|310/354|[from] Stealth Rock
+|-activate|p2a: Conkeldurr|confusion
+|move|p2a: Conkeldurr|Payback|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|281/354
+|
+|-heal|p1a: Forretress|303/354|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|160/414 brn|[from] brn
+|turn|13
+|
+|-activate|p2a: Conkeldurr|confusion
+|move|p2a: Conkeldurr|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|162/354
+|-heal|p2a: Conkeldurr|231/414 brn|[from] drain|[of] p1a: Forretress
+|move|p1a: Forretress|Gyro Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|186/414 brn
+|
+|-heal|p1a: Forretress|184/354|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|135/414 brn|[from] brn
+|turn|14
+|
+|-activate|p2a: Conkeldurr|confusion
+|-damage|p2a: Conkeldurr|44/414 brn|[from] confusion
+|move|p1a: Forretress|Gyro Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Forretress|206/354|[from] item: Leftovers
+|
+|switch|p2a: Breloom|Breloom, M|261/261
+|-damage|p2a: Breloom|229/261|[from] Spikes
+|turn|15
+|
+|move|p2a: Breloom|Spore|p1a: Forretress
+|-status|p1a: Forretress|slp
+|cant|p1a: Forretress|slp
+|
+|-heal|p1a: Forretress|228/354 slp|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|217/354 slp
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|207/354 slp
+|-hitcount|p1a: Forretress|2
+|-curestatus|p1a: Forretress|slp
+|move|p1a: Forretress|Gyro Ball|p2a: Breloom
+|-damage|p2a: Breloom|123/261
+|
+|-heal|p1a: Forretress|229/354|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Breloom|Spore|p1a: Forretress
+|-status|p1a: Forretress|slp
+|cant|p1a: Forretress|slp
+|
+|-heal|p1a: Forretress|251/354 slp|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|cant|p1a: Forretress|slp
+|
+|-heal|p1a: Forretress|273/354 slp|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|251/354 slp
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|231/354 slp
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|211/354 slp
+|-hitcount|p1a: Forretress|3
+|cant|p1a: Forretress|slp
+|
+|-heal|p1a: Forretress|233/354 slp|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Breloom|Mach Punch|p1a: Forretress
+|-damage|p1a: Forretress|100/354 slp
+|-curestatus|p1a: Forretress|slp
+|move|p1a: Forretress|Gyro Ball|p2a: Breloom
+|-damage|p2a: Breloom|21/261
+|
+|-heal|p1a: Forretress|122/354|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Breloom|Spore|p1a: Forretress
+|-status|p1a: Forretress|slp
+|cant|p1a: Forretress|slp
+|
+|-heal|p1a: Forretress|144/354 slp|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Breloom|Mach Punch|p1a: Forretress
+|-damage|p1a: Forretress|21/354 slp
+|-curestatus|p1a: Forretress|slp
+|move|p1a: Forretress|Gyro Ball|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-heal|p1a: Forretress|43/354|[from] item: Leftovers
+|
+|switch|p2a: Lucario|Lucario, M|218/281
+|-damage|p2a: Lucario|183/281|[from] Spikes
+|turn|23
+|
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|move|p1a: Forretress|Gyro Ball|p2a: Lucario
+|-crit|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|51/281
+|
+|-heal|p1a: Forretress|65/354|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Lucario|Close Combat|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|23/281|[from] item: Life Orb
+|faint|p1a: Forretress
+|
+|
+|switch|p1a: Dusclops|Dusclops, F|155/222
+|-damage|p1a: Dusclops|128/222|[from] Stealth Rock
+|-ability|p1a: Dusclops|Pressure
+|turn|25
+|
+|move|p2a: Lucario|Bullet Punch|p1a: Dusclops
+|-damage|p1a: Dusclops|42/222
+|-damage|p2a: Lucario|0 fnt|[from] item: Life Orb
+|faint|p2a: Lucario
+|move|p1a: Dusclops|Will-O-Wisp|p2: Lucario|[notarget]
+|-notarget
+|
+|
+|switch|p2a: Scrafty|Scrafty, M|334/334
+|-damage|p2a: Scrafty|293/334|[from] Spikes
+|turn|26
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Scrafty|[miss]
+|-miss|p1a: Dusclops|p2a: Scrafty
+|
+|-heal|p2a: Scrafty|313/334|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Scrafty|Crunch|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|-heal|p2a: Scrafty|333/334|[from] item: Leftovers
+|
+|switch|p1a: Gengar|Gengar, F|97/262
+|-damage|p1a: Gengar|65/262|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Gengar|Focus Blast|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|139/334
+|move|p2a: Scrafty|Crunch|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-heal|p2a: Scrafty|159/334|[from] item: Leftovers
+|
+|switch|p1a: Riolu|Riolu, M|284/284
+|-damage|p1a: Riolu|267/284|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Riolu|Drain Punch|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|75/334
+|-heal|p1a: Riolu|284/284|[from] drain|[of] p2a: Scrafty
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|95/334|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Riolu|Drain Punch|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|35/334
+|move|p2a: Scrafty|Rest|p2a: Scrafty
+|-status|p2a: Scrafty|slp
+|-heal|p2a: Scrafty|334/334 slp|[silent]
+|-status|p2a: Scrafty|slp|[from] move: Rest
+|
+|turn|31
+|
+|move|p1a: Riolu|Drain Punch|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|268/334 slp
+|cant|p2a: Scrafty|slp
+|
+|-heal|p2a: Scrafty|288/334 slp|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Riolu|Drain Punch|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|228/334 slp
+|cant|p2a: Scrafty|slp
+|
+|-heal|p2a: Scrafty|248/334 slp|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Riolu|Drain Punch|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|192/334 slp
+|-curestatus|p2a: Scrafty|slp
+|move|p2a: Scrafty|Drain Punch|p1a: Riolu
+|-enditem|p1a: Riolu|Focus Sash
+|-damage|p1a: Riolu|1/284
+|-heal|p2a: Scrafty|334/334|[from] drain|[of] p1a: Riolu
+|
+|turn|34
+|
+|move|p1a: Riolu|Drain Punch|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|272/334
+|-heal|p1a: Riolu|32/284|[from] drain|[of] p2a: Scrafty
+|move|p2a: Scrafty|Drain Punch|p1a: Riolu
+|-damage|p1a: Riolu|0 fnt
+|-heal|p2a: Scrafty|288/334|[from] drain|[of] p1a: Riolu
+|faint|p1a: Riolu
+|
+|win|dtw
+|raw|Ladder updating...
+|chat|dtw|gg
+|raw|Pythagorean Python's rating: 1367 &rarr; <strong>1344</strong><br />(-23 for losing)
+|raw|dtw's rating: 1312 &rarr; <strong>1335</strong><br />(+23 for winning)
+|chat|Pythagorean Python|gg

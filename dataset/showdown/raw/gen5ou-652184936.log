@@ -1,0 +1,565 @@
+|j|randomassmew
+|j|tyfcruio
+|player|p1|randomassmew|292
+|teamsize|p1|6
+|player|p2|tyfcruio|153
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|seed|9398,65203,34797,20536
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Froslass, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Magnezone|item
+|poke|p1|Latios, M|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Celebi|item
+|poke|p2|Espeon, M|item
+|poke|p2|Heatran, F|item
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Froslass|Froslass, F|282/282
+|switch|p2a: Gliscor|Gliscor, F, shiny|352/352
+|turn|1
+|choice|move icebeam|switch 5
+|
+|switch|p2a: Espeon|Espeon, M, shiny|334/334
+|move|p1a: Froslass|Ice Beam|p2a: Espeon
+|-damage|p2a: Espeon|214/334
+|
+|upkeep
+|turn|2
+|choice|switch 5|move lightscreen
+|
+|switch|p1a: Magnezone|Magnezone|321/321
+|move|p2a: Espeon|Light Screen|p2a: Espeon
+|-sidestart|p2: tyfcruio|move: Light Screen
+|
+|upkeep
+|turn|3
+|choice|move hiddenpower|switch 5
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|352/352
+|move|p1a: Magnezone|Hidden Power|p2a: Gliscor
+|-damage|p2a: Gliscor|295/352
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|choice|switch 5|move substitute
+|
+|switch|p1a: Froslass|Froslass, F|282/282
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|207/352 tox
+|
+|-heal|p2a: Gliscor|251/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|choice|move spikes|move toxic
+|
+|move|p1a: Froslass|Spikes|p2a: Gliscor
+|-sidestart|p2: tyfcruio|Spikes
+|move|p2a: Gliscor|Toxic|p1a: Froslass|[miss]
+|-miss|p2a: Gliscor|p1a: Froslass
+|
+|-heal|p2a: Gliscor|295/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|choice|move taunt|switch 5
+|
+|switch|p2a: Espeon|Espeon, M, shiny|214/334
+|-damage|p2a: Espeon|173/334|[from] Spikes
+|move|p1a: Froslass|Taunt|p2a: Espeon
+|move|p2a: Espeon|Taunt|p1a: Froslass|[from]Magic Bounce
+|-start|p1a: Froslass|move: Taunt
+|
+|upkeep
+|turn|7
+|choice|switch 5|move psyshock
+|
+|switch|p1a: Magnezone|Magnezone|321/321
+|move|p2a: Espeon|Psyshock|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|270/321
+|
+|upkeep
+|turn|8
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Jirachi|Jirachi|341/341
+|move|p2a: Espeon|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|203/341
+|
+|upkeep
+|turn|9
+|choice|move uturn|switch 5
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|295/352 tox
+|move|p1a: Jirachi|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|269/352 tox
+|choice|switch 5|
+|
+|switch|p1a: Froslass|Froslass, F|282/282
+|
+|-heal|p2a: Gliscor|313/352 tox|[from] ability: Poison Heal
+|-sideend|p2: tyfcruio|move: Light Screen
+|upkeep
+|turn|10
+|choice|move icebeam|switch 5
+|
+|switch|p2a: Espeon|Espeon, M, shiny|173/334
+|-damage|p2a: Espeon|132/334|[from] Spikes
+|move|p1a: Froslass|Ice Beam|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Heatran|Heatran, F|385/385
+|-damage|p2a: Heatran|337/385|[from] Spikes
+|turn|11
+|choice|move taunt|move lavaplume
+|
+|move|p1a: Froslass|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|move|p2a: Heatran|Lava Plume|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-enditem|p1a: Froslass|Focus Sash
+|-damage|p1a: Froslass|1/282
+|-status|p1a: Froslass|brn
+|
+|-heal|p2a: Heatran|361/385|[from] item: Leftovers
+|-damage|p1a: Froslass|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Froslass
+|choice|switch 2|
+|
+|switch|p1a: Garchomp|Garchomp, F|357/357
+|turn|12
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|313/352 tox
+|move|p1a: Garchomp|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: tyfcruio|move: Stealth Rock
+|
+|-heal|p2a: Gliscor|352/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|choice|switch 6|move substitute
+|
+|switch|p1a: Latios|Latios, M|301/301
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|264/352 tox
+|
+|-heal|p2a: Gliscor|308/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|choice|switch 4|move toxic
+|
+|switch|p1a: Magnezone|Magnezone|270/321
+|move|p2a: Gliscor|Toxic|p1a: Magnezone
+|-immune|p1a: Magnezone|[msg]
+|
+|-heal|p2a: Gliscor|352/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|choice|switch 4|move earthquake
+|
+|switch|p1a: Latios|Latios, M|301/301
+|move|p2a: Gliscor|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|16
+|choice|move surf|move toxic
+|
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-damage|p1a: Latios|271/301|[from] item: Life Orb
+|move|p2a: Gliscor|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-damage|p1a: Latios|253/301 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move roost|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|301/301 tox
+|
+|-damage|p1a: Latios|265/301 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move dracometeor|switch 4
+|
+|switch|p2a: Celebi|Celebi|404/404
+|-damage|p2a: Celebi|354/404|[from] Spikes
+|-damage|p2a: Celebi|304/404|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Celebi
+|-damage|p2a: Celebi|58/404
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|235/301 tox|[from] item: Life Orb
+|
+|-heal|p2a: Celebi|83/404|[from] item: Leftovers
+|-damage|p1a: Latios|181/301 tox|[from] psn
+|upkeep
+|turn|19
+|choice|switch 5|move recover
+|
+|switch|p1a: Jirachi|Jirachi|203/341
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|285/404
+|
+|-heal|p2a: Celebi|310/404|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move uturn|switch 4
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|352/352 tox
+|-damage|p2a: Gliscor|308/352 tox|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|281/352 tox
+|choice|switch 5|
+|
+|switch|p1a: Latios|Latios, M|181/301 tox
+|
+|-damage|p1a: Latios|163/301 tox|[from] psn
+|-heal|p2a: Gliscor|325/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|choice|move surf|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Latios|127/301 tox|[from] psn
+|-heal|p2a: Gliscor|352/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|choice|move surf|switch 4
+|
+|switch|p2a: Celebi|Celebi|310/404
+|-damage|p2a: Celebi|260/404|[from] Stealth Rock
+|-damage|p2a: Celebi|210/404|[from] Spikes
+|move|p1a: Latios|Surf|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|154/404
+|-damage|p1a: Latios|97/301 tox|[from] item: Life Orb
+|
+|-heal|p2a: Celebi|179/404|[from] item: Leftovers
+|-damage|p1a: Latios|43/301 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move roost|switch 5
+|
+|switch|p2a: Heatran|Heatran, F|361/385
+|-damage|p2a: Heatran|313/385|[from] Stealth Rock
+|-damage|p2a: Heatran|265/385|[from] Spikes
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|194/301 tox
+|
+|-heal|p2a: Heatran|289/385|[from] item: Leftovers
+|-damage|p1a: Latios|122/301 tox|[from] psn
+|upkeep
+|turn|24
+|choice|move roost|move protect
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|273/301 tox
+|
+|-heal|p2a: Heatran|313/385|[from] item: Leftovers
+|-damage|p1a: Latios|183/301 tox|[from] psn
+|upkeep
+|turn|25
+|choice|switch 6|switch 2
+|
+|switch|p1a: Garchomp|Garchomp, F|357/357
+|switch|p2a: Gyarados|Gyarados, F|353/353
+|-damage|p2a: Gyarados|265/353|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|
+|-heal|p2a: Gyarados|287/353|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|switch 5|move waterfall
+|
+|switch|p1a: Jirachi|Jirachi|203/341
+|move|p2a: Gyarados|Waterfall|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: Gyarados|309/353|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Garchomp|Garchomp, F|357/357
+|turn|27
+|choice|move swordsdance|move dragondance
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|331/353|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move outrage|move waterfall
+|
+|move|p2a: Gyarados|Waterfall|p1a: Garchomp
+|-damage|p1a: Garchomp|122/357
+|-damage|p2a: Gyarados|287/353|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Outrage|p2a: Gyarados
+|-enditem|p1a: Garchomp|Dragon Gem|[from] gem|[move] Outrage
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Heatran|Heatran, F|313/385
+|-damage|p2a: Heatran|265/385|[from] Stealth Rock
+|-damage|p2a: Heatran|217/385|[from] Spikes
+|turn|29
+|choice|move outrage|move roar
+|
+|move|p1a: Garchomp|Outrage|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|17/385
+|-start|p1a: Garchomp|confusion|[fatigue]
+|move|p2a: Heatran|Roar|p1a: Garchomp
+|drag|p1a: Latios|Latios, M|183/301 tox
+|
+|-heal|p2a: Heatran|41/385|[from] item: Leftovers
+|-damage|p1a: Latios|165/301 tox|[from] psn
+|upkeep
+|turn|30
+|choice|move roost|move stealthrock
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|301/301 tox
+|move|p2a: Heatran|Stealth Rock|p1a: Latios
+|-sidestart|p1: randomassmew|move: Stealth Rock
+|
+|-heal|p2a: Heatran|65/385|[from] item: Leftovers
+|-damage|p1a: Latios|265/301 tox|[from] psn
+|upkeep
+|turn|31
+|choice|switch 6|move protect
+|
+|switch|p1a: Garchomp|Garchomp, F|122/357
+|-damage|p1a: Garchomp|100/357|[from] Stealth Rock
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-fail|p2a: Heatran
+|
+|-heal|p2a: Heatran|89/385|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move outrage|move roar
+|
+|move|p1a: Garchomp|Outrage|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Gliscor|Gliscor, F, shiny|352/352 tox
+|-damage|p2a: Gliscor|308/352 tox|[from] Stealth Rock
+|turn|33
+|choice|move outrage|move toxic
+|
+|move|p1a: Garchomp|Outrage|p2a: Gliscor|[from]lockedmove
+|-damage|p2a: Gliscor|160/352 tox
+|move|p2a: Gliscor|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-damage|p1a: Garchomp|78/357 tox|[from] psn
+|-heal|p2a: Gliscor|204/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|choice|move outrage|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Garchomp|Outrage|p2a: Gliscor|[from]lockedmove
+|-activate|p2a: Gliscor|move: Protect
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|-damage|p1a: Garchomp|34/357 tox|[from] psn
+|-heal|p2a: Gliscor|248/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|35
+|choice|move outrage|move substitute
+|
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|0 fnt|[from] confusion
+|faint|p1a: Garchomp
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|160/352 tox
+|
+|-heal|p2a: Gliscor|204/352 tox|[from] ability: Poison Heal
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Latios|Latios, M|265/301 tox
+|-damage|p1a: Latios|228/301 tox|[from] Stealth Rock
+|turn|36
+|choice|move surf|move substitute
+|
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-damage|p1a: Latios|198/301 tox|[from] item: Life Orb
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|116/352 tox
+|
+|-damage|p1a: Latios|180/301 tox|[from] psn
+|-heal|p2a: Gliscor|160/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|choice|move surf|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Latios|144/301 tox|[from] psn
+|-heal|p2a: Gliscor|204/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|38
+|choice|move surf|move substitute
+|
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-damage|p1a: Latios|114/301 tox|[from] item: Life Orb
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|116/352 tox
+|
+|-damage|p1a: Latios|60/301 tox|[from] psn
+|-heal|p2a: Gliscor|160/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|choice|move surf|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Latios|0 fnt|[from] psn
+|-heal|p2a: Gliscor|204/352 tox|[from] ability: Poison Heal
+|upkeep
+|faint|p1a: Latios
+|choice|switch 3|
+|
+|switch|p1a: Ludicolo|Ludicolo, M|301/301
+|-damage|p1a: Ludicolo|264/301|[from] Stealth Rock
+|turn|40
+|choice|move icebeam|move toxic
+|
+|move|p2a: Gliscor|Toxic|p1a: Ludicolo
+|-status|p1a: Ludicolo|tox
+|move|p1a: Ludicolo|Ice Beam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-damage|p1a: Ludicolo|234/301 tox|[from] item: Life Orb
+|
+|-heal|p2a: Gliscor|248/352 tox|[from] ability: Poison Heal
+|-damage|p1a: Ludicolo|216/301 tox|[from] psn
+|upkeep
+|turn|41
+|choice|move raindance|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|180/301 tox|[from] psn
+|-heal|p2a: Gliscor|292/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|42
+|choice|move hydropump|switch 5
+|
+|switch|p2a: Celebi|Celebi|179/404
+|-damage|p2a: Celebi|129/404|[from] Stealth Rock
+|-damage|p2a: Celebi|79/404|[from] Spikes
+|move|p1a: Ludicolo|Hydro Pump|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|-damage|p1a: Ludicolo|150/301 tox|[from] item: Life Orb
+|faint|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|96/301 tox|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Cloyster|Cloyster, F, shiny|241/241
+|-damage|p2a: Cloyster|211/241|[from] Spikes
+|-damage|p2a: Cloyster|151/241|[from] Stealth Rock
+|turn|43
+|choice|move gigadrain|move iceshard
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Ludicolo
+|-damage|p1a: Ludicolo|24/301 tox
+|move|p1a: Ludicolo|Giga Drain|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-heal|p1a: Ludicolo|100/301 tox|[from] drain|[of] p2a: Cloyster
+|-damage|p1a: Ludicolo|70/301 tox|[from] item: Life Orb
+|faint|p2a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Ludicolo
+|-message|randomassmew forfeited.
+|
+|win|tyfcruio
+|l|randomassmew
+|raw|randomassmew's rating: 1376 &rarr; <strong>1351</strong><br />(-25 for losing)
+|raw|tyfcruio's rating: 1282 &rarr; <strong>1314</strong><br />(+32 for winning)
+|l|tyfcruio

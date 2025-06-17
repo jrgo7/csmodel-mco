@@ -1,0 +1,245 @@
+|j|☆arlae
+|j|☆Let’sgosixers
+|player|p1|arlae|unknown|1557
+|player|p2|Let’sgosixers|oak-gen1rb|1509
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Dragonite, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Slowbro, F|item
+|poke|p1|Latias, F|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Victini|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Xatu, M|item
+|poke|p2|Heatran, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|move|p1a: Latias|Trick|p2a: Ninetales
+|-activate|p1a: Latias|move: Trick|[of] p2a: Ninetales
+|-item|p2a: Ninetales|Choice Scarf|[from] move: Trick
+|-item|p1a: Latias|Leftovers|[from] move: Trick
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Latias
+|-status|p1a: Latias|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Latias|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Latias|Draco Meteor|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|80/100
+|-unboost|p1a: Latias|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|86/100|[from] item: Leftovers
+|-damage|p1a: Latias|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Heatran|Will-O-Wisp|p1a: Gliscor
+|-status|p1a: Gliscor|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|92/100|[from] item: Leftovers
+|-damage|p1a: Gliscor|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Gliscor|U-turn|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|98/100|[from] item: Leftovers
+|-damage|p1a: Gliscor|75/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Gliscor|63/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-heal|p1a: Gliscor|100/100 brn
+|-singleturn|p1a: Gliscor|move: Roost
+|move|p2a: Xatu|U-turn|p1a: Gliscor
+|-damage|p1a: Gliscor|91/100 brn
+|
+|switch|p2a: Latios|Latios, M|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Gliscor|78/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Latios|Hidden Power|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-damage|p2a: Latios|91/100|[from] item: Life Orb
+|faint|p1a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|8
+|
+|switch|p2a: Heatran|Heatran, M|98/100
+|move|p1a: Jirachi|Body Slam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|96/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Latias|Latias, F|82/100 brn
+|move|p2a: Heatran|Magma Storm|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|49/100 brn
+|-activate|p1a: Latias|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|55/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Latias|43/100 brn|[from] brn
+|-damage|p1a: Latias|37/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Latias|Healing Wish|p1a: Latias
+|faint|p1a: Latias
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-heal|p1a: Jirachi|100/100|[from] move: Healing Wish
+|turn|11
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Gastrodon
+|-sidestart|p2: Let’sgosixers|move: Stealth Rock
+|move|p2a: Gastrodon|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Jirachi|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|88/100
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100|[from]move: U-turn
+|move|p2a: Gastrodon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|94/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Gastrodon|Toxic|p1a: Magnezone|[miss]
+|-miss|p2a: Gastrodon|p1a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Gastrodon|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|75/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|57/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragonite|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p1a: Dragonite|Dragonite, F|63/100
+|move|p2a: Gastrodon|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragonite|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Dragonite|63/100 tox|[from] psn
+|upkeep
+|turn|19
+|-message|arlae forfeited.
+|
+|win|Let’sgosixers
+|l|☆arlae
+|raw|arlae's rating: 1557 &rarr; <strong>1534</strong><br />(-23 for losing)
+|raw|Let’sgosixers's rating: 1509 &rarr; <strong>1531</strong><br />(+22 for winning)

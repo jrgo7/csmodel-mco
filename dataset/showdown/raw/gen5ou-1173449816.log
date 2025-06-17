@@ -1,0 +1,649 @@
+|join|lolnoob2
+|join|Lycans
+|player|p1|lolnoob2|1
+|player|p2|Lycans|10
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Salamence, M
+|poke|p1|Slowbro, M, shiny
+|poke|p1|Scizor, F
+|poke|p1|Tyranitar, F
+|poke|p1|Heatran, F
+|poke|p1|Celebi, shiny
+|poke|p2|Politoed, M, shiny
+|poke|p2|Thundurus-Therian, M
+|poke|p2|Scizor, M
+|poke|p2|Latios, M
+|poke|p2|Ferrothorn, F
+|poke|p2|Tentacruel, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Sandstorm|Tyranitar, F|403/403
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Sandstorm
+|turn|1
+|
+|move|p1a: Sandstorm|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Lycans|move: Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Sandstorm
+|-sidestart|p1: lolnoob2|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|2
+|
+|switch|p1a: Special wall|Heatran, F|386/386
+|-damage|p1a: Special wall|338/386|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Special wall
+|-resisted|p1a: Special wall
+|-damage|p1a: Special wall|305/386
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Special wall|329/386|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Politoed|Politoed, M, shiny|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Special wall|Earth Power|p2a: Politoed
+|-damage|p2a: Politoed|239/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Special wall|353/386|[from] item: Leftovers
+|-heal|p2a: Politoed|263/384|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Scizor|Scizor, M|281/281
+|-damage|p2a: Scizor|246/281|[from] Stealth Rock
+|move|p1a: Special wall|Toxic|p2a: Scizor
+|-fail|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Special wall|377/386|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Scizor|U-turn|p1a: Special wall
+|-resisted|p1a: Special wall
+|-damage|p1a: Special wall|350/386
+|
+|switch|p2a: Tentacruel|Tentacruel, M|363/363
+|-damage|p2a: Tentacruel|318/363|[from] Stealth Rock
+|move|p1a: Special wall|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|172/363
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|194/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|216/363|[from] item: Black Sludge
+|-heal|p1a: Special wall|374/386|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Tentacruel|Scald|p1a: Special wall
+|-supereffective|p1a: Special wall
+|-damage|p1a: Special wall|204/386
+|move|p1a: Special wall|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|56/363
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|78/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|100/363|[from] item: Black Sludge
+|-heal|p1a: Special wall|228/386|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Latios|Latios, M|301/301
+|-damage|p2a: Latios|264/301|[from] Stealth Rock
+|move|p1a: Special wall|Earth Power|p2a: Latios
+|-immune|p2a: Latios|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Special wall|252/386|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Traveltime|Celebi, shiny|403/403
+|-damage|p1a: Traveltime|353/403|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Traveltime
+|-resisted|p1a: Traveltime
+|-damage|p1a: Traveltime|266/403
+|-damage|p2a: Latios|234/301|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Traveltime|291/403|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Sandstorm|Tyranitar, F|403/403
+|-damage|p1a: Sandstorm|353/403|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Sandstorm
+|move|p2a: Latios|Draco Meteor|p1a: Sandstorm
+|-damage|p1a: Sandstorm|204/403
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|204/301|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|186/301|[from] sandstorm
+|-heal|p1a: Sandstorm|229/403|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Latios|Surf|p1a: Sandstorm
+|-supereffective|p1a: Sandstorm
+|-damage|p1a: Sandstorm|161/403
+|-damage|p2a: Latios|156/301|[from] item: Life Orb
+|move|p1a: Sandstorm|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sandstorm|186/403|[from] item: Leftovers
+|
+|switch|p2a: Scizor|Scizor, M|246/281
+|-damage|p2a: Scizor|211/281|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Bullet punch|Scizor, F|323/323
+|-damage|p1a: Bullet punch|283/323|[from] Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Bullet punch
+|-resisted|p1a: Bullet punch
+|-damage|p1a: Bullet punch|223/323
+|
+|switch|p2a: Politoed|Politoed, M, shiny|263/384
+|-damage|p2a: Politoed|215/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bullet punch|243/323|[from] item: Leftovers
+|-heal|p2a: Politoed|239/384|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Traveltime|Celebi, shiny|291/403
+|-damage|p1a: Traveltime|241/403|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Traveltime
+|-resisted|p1a: Traveltime
+|-damage|p1a: Traveltime|186/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Traveltime|211/403|[from] item: Leftovers
+|-heal|p2a: Politoed|263/384|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Scizor|Scizor, M|211/281
+|-damage|p2a: Scizor|176/281|[from] Stealth Rock
+|move|p1a: Traveltime|Recover|p1a: Traveltime
+|-heal|p1a: Traveltime|403/403
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p1a: Special wall|Heatran, F|252/386
+|-damage|p1a: Special wall|204/386|[from] Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Special wall
+|-resisted|p1a: Special wall
+|-damage|p1a: Special wall|177/386
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|299/299
+|-damage|p2a: Thundurus-Therian|225/299|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Special wall|201/386|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Thundurus-Therian|Thunder|p1a: Special wall
+|-damage|p1a: Special wall|29/386
+|move|p1a: Special wall|Roar|p2a: Thundurus-Therian
+|drag|p2a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p2a: Ferrothorn|330/352|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Special wall|53/386|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|352/352|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Special wall|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|136/352
+|move|p2a: Ferrothorn|Leech Seed|p1a: Special wall
+|-start|p1a: Special wall|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Special wall|77/386|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|158/352|[from] item: Leftovers
+|-damage|p1a: Special wall|29/386|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|206/352|[silent]
+|turn|17
+|
+|switch|p1a: Traveltime|Celebi, shiny|403/403
+|-damage|p1a: Traveltime|353/403|[from] Stealth Rock
+|switch|p2a: Tentacruel|Tentacruel, M|100/363
+|-damage|p2a: Tentacruel|55/363|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|77/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/363|[from] item: Black Sludge
+|-heal|p1a: Traveltime|378/403|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Traveltime
+|-damage|p1a: Traveltime|367/403
+|-sideend|p2: Lycans|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Traveltime|Swords Dance|p1a: Traveltime
+|-boost|p1a: Traveltime|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|121/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|143/363|[from] item: Black Sludge
+|-heal|p1a: Traveltime|392/403|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Tentacruel|Toxic|p1a: Traveltime
+|-status|p1a: Traveltime|tox
+|move|p1a: Traveltime|Baton Pass|p1a: Traveltime
+|
+|switch|p1a: Bullet punch|Scizor, F|243/323
+|-damage|p1a: Bullet punch|203/323|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|165/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|187/363|[from] item: Black Sludge
+|-heal|p1a: Bullet punch|223/323|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Tentacruel|Scald|p1a: Bullet punch
+|-damage|p1a: Bullet punch|76/323
+|-status|p1a: Bullet punch|brn
+|move|p1a: Bullet punch|Roost|p1a: Bullet punch
+|-heal|p1a: Bullet punch|238/323 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|209/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|231/363|[from] item: Black Sludge
+|-heal|p1a: Bullet punch|258/323 brn|[from] item: Leftovers
+|-damage|p1a: Bullet punch|218/323 brn|[from] brn
+|turn|21
+|
+|move|p2a: Tentacruel|Scald|p1a: Bullet punch
+|-damage|p1a: Bullet punch|91/323 brn
+|move|p1a: Bullet punch|Roost|p1a: Bullet punch
+|-heal|p1a: Bullet punch|253/323 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|253/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|275/363|[from] item: Black Sludge
+|-heal|p1a: Bullet punch|273/323 brn|[from] item: Leftovers
+|-damage|p1a: Bullet punch|233/323 brn|[from] brn
+|turn|22
+|
+|move|p2a: Tentacruel|Scald|p1a: Bullet punch
+|-damage|p1a: Bullet punch|91/323 brn
+|move|p1a: Bullet punch|Roost|p1a: Bullet punch
+|-heal|p1a: Bullet punch|253/323 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|297/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|319/363|[from] item: Black Sludge
+|-heal|p1a: Bullet punch|273/323 brn|[from] item: Leftovers
+|-damage|p1a: Bullet punch|233/323 brn|[from] brn
+|turn|23
+|
+|switch|p1a: I'm random|Slowbro, M, shiny|394/394
+|-damage|p1a: I'm random|345/394|[from] Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: I'm random
+|-resisted|p1a: I'm random
+|-damage|p1a: I'm random|270/394
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|341/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/363|[from] item: Black Sludge
+|-heal|p1a: I'm random|294/394|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Tentacruel|Toxic|p1a: I'm random
+|-status|p1a: I'm random|tox
+|move|p1a: I'm random|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|133/363
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|155/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|177/363|[from] item: Black Sludge
+|-heal|p1a: I'm random|318/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|294/394 tox|[from] psn
+|turn|25
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|206/352
+|move|p1a: I'm random|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|46/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: I'm random|318/394 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|68/352|[from] item: Leftovers
+|-damage|p1a: I'm random|270/394 tox|[from] psn
+|turn|26
+|
+|move|p1a: I'm random|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: I'm random|294/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|222/394 tox|[from] psn
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|225/299
+|turn|27
+|
+|switch|p1a: Special wall|Heatran, F|29/386
+|-damage|p1a: Special wall|0 fnt|[from] Stealth Rock
+|faint|p1a: Special wall
+|move|p2a: Thundurus-Therian|Thunder|p1: Special wall|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Traveltime|Celebi, shiny|392/403
+|-damage|p1a: Traveltime|342/403|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Thundurus-Therian|U-turn|p1a: Traveltime
+|-supereffective|p1a: Traveltime
+|-damage|p1a: Traveltime|92/403
+|
+|switch|p2a: Scizor|Scizor, M|176/281
+|move|p1a: Traveltime|Baton Pass|p1a: Traveltime
+|
+|switch|p1a: Bullet punch|Scizor, F|233/323 brn
+|-damage|p1a: Bullet punch|193/323 brn|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bullet punch|213/323 brn|[from] item: Leftovers
+|-damage|p1a: Bullet punch|173/323 brn|[from] brn
+|turn|29
+|
+|move|p2a: Scizor|U-turn|p1a: Bullet punch
+|-resisted|p1a: Bullet punch
+|-damage|p1a: Bullet punch|106/323 brn
+|
+|switch|p2a: Tentacruel|Tentacruel, M|177/363
+|move|p1a: Bullet punch|Roost|p1a: Bullet punch
+|-heal|p1a: Bullet punch|268/323 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|199/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|221/363|[from] item: Black Sludge
+|-heal|p1a: Bullet punch|288/323 brn|[from] item: Leftovers
+|-damage|p1a: Bullet punch|248/323 brn|[from] brn
+|turn|30
+|
+|switch|p1a: I'm random|Slowbro, M, shiny|353/394 tox
+|-damage|p1a: I'm random|304/394 tox|[from] Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: I'm random
+|-resisted|p1a: I'm random
+|-damage|p1a: I'm random|232/394 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|243/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|265/363|[from] item: Black Sludge
+|-heal|p1a: I'm random|256/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|232/394 tox|[from] psn
+|turn|31
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|175/363
+|move|p1a: I'm random|Scald|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|197/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|219/363|[from] item: Black Sludge
+|-heal|p1a: I'm random|256/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|208/394 tox|[from] psn
+|turn|32
+|
+|switch|p1a: Sandstorm|Tyranitar, F|186/403
+|-damage|p1a: Sandstorm|136/403|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Sandstorm
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|129/363
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|107/363|[from] sandstorm
+|-heal|p2a: Tentacruel|129/363|[from] item: Black Sludge
+|-heal|p1a: Sandstorm|161/403|[from] item: Leftovers
+|turn|33
+|
+|switch|p1a: I'm random|Slowbro, M, shiny|339/394 tox
+|-damage|p1a: I'm random|290/394 tox|[from] Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: I'm random
+|-resisted|p1a: I'm random
+|-damage|p1a: I'm random|244/394 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|107/363|[from] sandstorm
+|-damage|p1a: I'm random|220/394 tox|[from] sandstorm
+|-heal|p2a: Tentacruel|129/363|[from] item: Black Sludge
+|-heal|p1a: I'm random|244/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|220/394 tox|[from] psn
+|turn|34
+|
+|switch|p2a: Politoed|Politoed, M, shiny|263/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: I'm random|Slack Off|p1a: I'm random
+|-heal|p1a: I'm random|394/394 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|287/384|[from] item: Leftovers
+|-damage|p1a: I'm random|346/394 tox|[from] psn
+|turn|35
+|
+|switch|p2a: Scizor|Scizor, M|176/281
+|move|p1a: I'm random|Scald|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: I'm random|370/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|298/394 tox|[from] psn
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|225/299
+|turn|36
+|
+|switch|p1a: Bullet punch|Scizor, F|248/323 brn
+|-damage|p1a: Bullet punch|208/323 brn|[from] Stealth Rock
+|move|p2a: Thundurus-Therian|Thunder|p1a: Bullet punch
+|-damage|p1a: Bullet punch|0 fnt
+|faint|p1a: Bullet punch
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Moxiemence|Salamence, M|331/331
+|-damage|p1a: Moxiemence|249/331|[from] Stealth Rock
+|turn|37
+|
+|move|p1a: Moxiemence|Outrage|p2a: Thundurus-Therian
+|-damage|p2a: Thundurus-Therian|0 fnt
+|faint|p2a: Thundurus-Therian
+|-boost|p1a: Moxiemence|atk|1|[from] ability: Moxie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, M, shiny|287/384
+|turn|38
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Moxiemence|Outrage|p2a: Politoed
+|-activate|p2a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|311/384|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: Moxiemence|Outrage|p2a: Politoed
+|-damage|p2a: Politoed|19/384
+|move|p2a: Politoed|Toxic|p1a: Moxiemence
+|-status|p1a: Moxiemence|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|43/384|[from] item: Leftovers
+|-damage|p1a: Moxiemence|229/331 tox|[from] psn
+|turn|40
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Moxiemence|Outrage|p2a: Politoed
+|-activate|p2a: Politoed|Protect
+|
+|-end|p1a: Moxiemence|rampage
+|-start|p1a: Moxiemence|confusion
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|67/384|[from] item: Leftovers
+|-damage|p1a: Moxiemence|189/331 tox|[from] psn
+|turn|41
+|
+|switch|p1a: I'm random|Slowbro, M, shiny|394/394 tox
+|-damage|p1a: I'm random|345/394 tox|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: I'm random
+|-resisted|p1a: I'm random
+|-damage|p1a: I'm random|274/394 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|91/384|[from] item: Leftovers
+|-heal|p1a: I'm random|298/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|274/394 tox|[from] psn
+|turn|42
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: I'm random|Slack Off|p1a: I'm random
+|-heal|p1a: I'm random|394/394 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|115/384|[from] item: Leftovers
+|-damage|p1a: I'm random|346/394 tox|[from] psn
+|turn|43
+|
+|move|p2a: Politoed|Scald|p1a: I'm random
+|-resisted|p1a: I'm random
+|-damage|p1a: I'm random|270/394 tox
+|move|p1a: I'm random|Psyshock|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: I'm random|294/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|222/394 tox|[from] psn
+|
+|switch|p2a: Tentacruel|Tentacruel, M|129/363
+|turn|44
+|
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|39/363
+|move|p1a: I'm random|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|61/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|83/363|[from] item: Black Sludge
+|-heal|p1a: I'm random|246/394 tox|[from] item: Leftovers
+|-damage|p1a: I'm random|150/394 tox|[from] psn
+|turn|45
+|
+|switch|p1a: Sandstorm|Tyranitar, F|161/403
+|-damage|p1a: Sandstorm|111/403|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Sandstorm
+|move|p2a: Tentacruel|Scald|p1a: Sandstorm
+|-supereffective|p1a: Sandstorm
+|-damage|p1a: Sandstorm|33/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|61/363|[from] sandstorm
+|-heal|p2a: Tentacruel|83/363|[from] item: Black Sludge
+|-heal|p1a: Sandstorm|58/403|[from] item: Leftovers
+|turn|46
+|
+|move|p2a: Tentacruel|Scald|p1a: Sandstorm
+|-crit|p1a: Sandstorm
+|-supereffective|p1a: Sandstorm
+|-damage|p1a: Sandstorm|0 fnt
+|faint|p1a: Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|61/363|[from] sandstorm
+|-heal|p2a: Tentacruel|83/363|[from] item: Black Sludge
+|
+|switch|p1a: Traveltime|Celebi, shiny|92/403
+|-damage|p1a: Traveltime|42/403|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Tentacruel|Scald|p1a: Traveltime
+|-resisted|p1a: Traveltime
+|-damage|p1a: Traveltime|12/403
+|-status|p1a: Traveltime|brn
+|move|p1a: Traveltime|Recover|p1a: Traveltime
+|-heal|p1a: Traveltime|214/403 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|61/363|[from] sandstorm
+|-damage|p1a: Traveltime|189/403 brn|[from] sandstorm
+|-heal|p2a: Tentacruel|83/363|[from] item: Black Sludge
+|-heal|p1a: Traveltime|214/403 brn|[from] item: Leftovers
+|-damage|p1a: Traveltime|164/403 brn|[from] brn
+|turn|48
+|
+|move|p2a: Tentacruel|Scald|p1a: Traveltime
+|-resisted|p1a: Traveltime
+|-damage|p1a: Traveltime|132/403 brn
+|move|p1a: Traveltime|Recover|p1a: Traveltime
+|-heal|p1a: Traveltime|334/403 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|61/363|[from] sandstorm
+|-damage|p1a: Traveltime|309/403 brn|[from] sandstorm
+|-heal|p2a: Tentacruel|83/363|[from] item: Black Sludge
+|-heal|p1a: Traveltime|334/403 brn|[from] item: Leftovers
+|-damage|p1a: Traveltime|284/403 brn|[from] brn
+|turn|49
+|
+|move|p2a: Tentacruel|Scald|p1a: Traveltime
+|-resisted|p1a: Traveltime
+|-damage|p1a: Traveltime|254/403 brn
+|move|p1a: Traveltime|Swords Dance|p1a: Traveltime
+|-boost|p1a: Traveltime|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|61/363|[from] sandstorm
+|-damage|p1a: Traveltime|229/403 brn|[from] sandstorm
+|-heal|p2a: Tentacruel|83/363|[from] item: Black Sludge
+|-heal|p1a: Traveltime|254/403 brn|[from] item: Leftovers
+|-damage|p1a: Traveltime|204/403 brn|[from] brn
+|turn|50
+|
+|move|p2a: Tentacruel|Scald|p1a: Traveltime
+|-resisted|p1a: Traveltime
+|-damage|p1a: Traveltime|175/403 brn
+|move|p1a: Traveltime|Seed Bomb|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|win|lolnoob2
+|raw|Ladder updating...
+|raw|lolnoob2's rating: 1345 &rarr; <strong>1365</strong><br />(+20 for winning)
+|raw|Lycans's rating: 1345 &rarr; <strong>1325</strong><br />(-20 for losing)

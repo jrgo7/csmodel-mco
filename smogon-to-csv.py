@@ -34,7 +34,7 @@ def main():
             in a .csv file.
             
             Sample usage:
-            `python ./smogon-to-csv.py --input ./dataset/raw2016-01-gen1ou-0.txt > ./dataset/2016-01-gen1ou-0.csv`
+            `python ./smogon-to-csv.py --input ./dataset/raw/2016-01-gen1ou-0.txt > ./dataset/2016-01-gen1ou-0.csv`
             """
         ),
     )

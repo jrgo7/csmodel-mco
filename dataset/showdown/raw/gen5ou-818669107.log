@@ -1,0 +1,491 @@
+|j|☆Invisible Enemy
+|j|☆refsunpersons
+|player|p1|Invisible Enemy|52
+|player|p2|refsunpersons|123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Celebi|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Slowking, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Latias, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Xatu, F|item
+|poke|p2|Salamence, M|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|c|☆Invisible Enemy|Hi, u2 :]
+|
+|start
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Slowking|Fire Blast|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|92/100
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|79/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Slowking|Fire Blast|p2a: Xatu
+|-damage|p2a: Xatu|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Xatu|Toxic|p1a: Slowking
+|-status|p1a: Slowking|tox
+|move|p1a: Slowking|Scald|p2a: Xatu
+|-damage|p2a: Xatu|18/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Slowking|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Xatu|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|70/100 tox
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Slowking|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|76/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|-damage|p1a: Slowking|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ferrothorn|Spikes|p1a: Tyranitar
+|-sidestart|p1: Invisible Enemy|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Xatu|Xatu, F|18/100
+|move|p1a: Tyranitar|Crunch|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-damage|p1a: Tyranitar|84/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|faint|p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|7
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Salamence|Brick Break|p1a: Skarmory
+|-damage|p1a: Skarmory|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p2a: Salamence|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|52/100
+|move|p1a: Skarmory|Spikes|p2a: Salamence
+|-sidestart|p2: refsunpersons|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|88/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|88/100|[from] Spikes
+|switch|p1a: Slowking|Slowking, F|97/100 tox
+|-damage|p1a: Slowking|85/100 tox|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|79/100 tox|[from] Sandstorm
+|-heal|p1a: Slowking|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowking|79/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|64/100 tox
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|94/100 tox|[from] Sandstorm
+|-heal|p1a: Slowking|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowking|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Politoed|Politoed, F|79/100 brn
+|-damage|p2a: Politoed|67/100 brn|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Slowking|Ice Beam|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|53/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|41/100 brn|[from] brn
+|-damage|p1a: Slowking|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Magnezone|Magnezone|88/100
+|-damage|p2a: Magnezone|76/100|[from] Spikes
+|switch|p1a: Tyranitar|Tyranitar, M|84/100
+|-damage|p1a: Tyranitar|72/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|move|p2a: Magnezone|Flash Cannon|p1a: Garchomp
+|-damage|p1a: Garchomp|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Skarmory|Skarmory, M|52/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Politoed|Politoed, F|41/100 brn
+|-damage|p2a: Politoed|29/100 brn|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|84/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|16/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Salamence|Salamence, M|88/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|move|p1a: Skarmory|Spikes|p2a: Salamence
+|-sidestart|p2: refsunpersons|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|move|p2a: Salamence|Hydro Pump|p1a: Celebi
+|-resisted|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Celebi|Hidden Power|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-enditem|p2a: Salamence|Yache Berry|[eat]
+|-enditem|p2a: Salamence|Yache Berry|[weaken]
+|-damage|p2a: Salamence|37/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Skarmory|Skarmory, M|84/100
+|move|p2a: Salamence|Outrage|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Salamence|Outrage|p1a: Skarmory|[from]lockedmove
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|2/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|52/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Salamence|Outrage|p1a: Skarmory|[from]lockedmove
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-start|p2a: Salamence|confusion|[fatigue]
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆refsunpersons|sorry
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|88/100|[from] Spikes
+|turn|22
+|c|☆Invisible Enemy|all g
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Magnezone|Magnezone|76/100
+|-damage|p2a: Magnezone|60/100|[from] Spikes
+|turn|23
+|
+|switch|p1a: Slowking|Slowking, F|100/100 tox
+|-damage|p1a: Slowking|88/100 tox|[from] Spikes
+|move|p2a: Magnezone|Volt Switch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|33/100 tox
+|
+|switch|p2a: Latias|Latias, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowking|33/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|93/100
+|-damage|p2a: Ferrothorn|77/100|[from] Spikes
+|switch|p1a: Tyranitar|Tyranitar, M|72/100
+|-damage|p1a: Tyranitar|59/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|10/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Spikes|p1a: Tyranitar
+|-sidestart|p1: Invisible Enemy|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|16/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|4/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|16/100 brn
+|-damage|p2a: Politoed|0 fnt|[from] Spikes
+|faint|p2a: Politoed
+|
+|switch|p2a: Magnezone|Magnezone|60/100
+|-damage|p2a: Magnezone|43/100|[from] Spikes
+|turn|27
+|
+|switch|p1a: Garchomp|Garchomp, M|37/100
+|-damage|p1a: Garchomp|20/100|[from] Spikes
+|move|p2a: Magnezone|Flash Cannon|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|88/100
+|-damage|p1a: Terrakion|71/100|[from] Spikes
+|turn|28
+|
+|move|p1a: Terrakion|Close Combat|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|29
+|
+|switch|p1a: Tyranitar|Tyranitar, M|59/100
+|-damage|p1a: Tyranitar|43/100|[from] Spikes
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|94/100|[from] Sandstorm
+|-heal|p2a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Latias|Grass Knot|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|94/100|[from] Sandstorm
+|-heal|p2a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|71/100
+|-damage|p1a: Terrakion|55/100|[from] Spikes
+|turn|31
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Latias
+|-damage|p2a: Latias|44/100
+|move|p2a: Latias|Grass Knot|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|38/100|[from] Sandstorm
+|-heal|p2a: Latias|44/100|[from] item: Leftovers
+|upkeep
+|c|☆Invisible Enemy|gg!
+|
+|switch|p1a: Slowking|Slowking, F|66/100 tox
+|-damage|p1a: Slowking|50/100 tox|[from] Spikes
+|turn|32
+|c|☆refsunpersons|gg well played
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|94/100
+|move|p1a: Slowking|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|12/100|[from] Sandstorm
+|-damage|p1a: Slowking|43/100 tox|[from] Sandstorm
+|-heal|p2a: Latias|18/100|[from] item: Leftovers
+|-heal|p1a: Slowking|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowking|43/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|68/100
+|move|p1a: Slowking|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|37/100|[from] Sandstorm
+|-damage|p1a: Slowking|37/100 tox|[from] Sandstorm
+|-heal|p2a: Latias|43/100|[from] item: Leftovers
+|-heal|p1a: Slowking|43/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowking|31/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|93/100
+|move|p1a: Slowking|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|59/100|[from] Sandstorm
+|-damage|p1a: Slowking|25/100 tox|[from] Sandstorm
+|-heal|p2a: Latias|65/100|[from] item: Leftovers
+|-heal|p1a: Slowking|31/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowking|13/100 tox|[from] psn
+|upkeep
+|turn|35
+|c|☆refsunpersons|is my current team particularly weak to anything?
+|c|☆refsunpersons|it's an old bw1 team
+|c|☆refsunpersons|without dug
+|
+|move|p2a: Latias|Grass Knot|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|59/100|[from] Sandstorm
+|-heal|p2a: Latias|65/100|[from] item: Leftovers
+|upkeep
+|c|☆refsunpersons|spdef skarm I guess
+|c|☆Invisible Enemy|might be tough against hp ice volc, as it can setup rather easily and sweep the team, kinda annoyed by terrakion as well indeed
+|
+|switch|p1a: Celebi|Celebi|52/100
+|-damage|p1a: Celebi|36/100|[from] Spikes
+|turn|36
+|c|☆refsunpersons|yeah without dug it's unfortunate
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|win|refsunpersons
+|raw|Invisible Enemy's rating: 1490 &rarr; <strong>1459</strong><br />(-31 for losing)
+|raw|refsunpersons's rating: 1283 &rarr; <strong>1321</strong><br />(+38 for winning)
+|c|☆refsunpersons|sorry for shaving off that much

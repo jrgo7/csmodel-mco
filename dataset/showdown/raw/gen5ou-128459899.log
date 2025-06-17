@@ -1,0 +1,421 @@
+|join|BlackAtmosphere
+|join|Ranior
+|player|p1|BlackAtmosphere|266
+|player|p2|Ranior|170
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Garchomp, M, shiny
+|poke|p1|Latios, M, shiny
+|poke|p1|Swampert, M
+|poke|p1|Ferrothorn, M
+|poke|p1|Scizor, M
+|poke|p1|Tyranitar, M
+|poke|p2|Garchomp, M
+|poke|p2|Kyurem-Black
+|poke|p2|Hydreigon, F
+|poke|p2|Jellicent, F
+|poke|p2|Ferrothorn, F
+|poke|p2|Gyarados, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: PartSwamp|Swampert, M|404/404
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|turn|1
+|chat|Ranior|Good luck, have fun
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: PartSwamp|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|306/352
+|
+|-heal|p2a: Ferrothorn|328/352|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: PartSwamp|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Ranior|move: Stealth Rock
+|move|p2a: Ferrothorn|Thunder Wave|p1a: PartSwamp
+|-immune|p1a: PartSwamp|[msg]
+|
+|-heal|p2a: Ferrothorn|350/352|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Don'tTouchMe|Ferrothorn, M|352/352
+|move|p2a: Ferrothorn|Power Whip|p1a: Don'tTouchMe
+|-resisted|p1a: Don'tTouchMe
+|-damage|p1a: Don'tTouchMe|331/352
+|-damage|p2a: Ferrothorn|306/352|[from] ability: Iron Barbs|[of] p1a: Don'tTouchMe
+|
+|-heal|p2a: Ferrothorn|328/352|[from] item: Leftovers
+|-heal|p1a: Don'tTouchMe|352/352|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Don'tTouchMe
+|-status|p1a: Don'tTouchMe|par
+|cant|p1a: Don'tTouchMe|par
+|
+|-heal|p2a: Ferrothorn|350/352|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Hydreigon|Hydreigon, F|325/325
+|-damage|p2a: Hydreigon|285/325|[from] Stealth Rock
+|cant|p1a: Don'tTouchMe|par
+|
+|turn|6
+|
+|switch|p1a: Greymon|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Greymon
+|move|p2a: Hydreigon|Fire Blast|p1a: Greymon|[miss]
+|-miss|p2a: Hydreigon|p1a: Greymon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|265/325|[from] sandstorm
+|turn|7
+|
+|switch|p1a: PartSwamp|Swampert, M|404/404
+|move|p2a: Hydreigon|Superpower|p1a: PartSwamp
+|-damage|p1a: PartSwamp|303/404
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|def|1
+|-damage|p2a: Hydreigon|233/325|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|213/325|[from] sandstorm
+|-heal|p1a: PartSwamp|328/404|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Don'tTouchMe|Ferrothorn, M|352/352 par
+|move|p2a: Hydreigon|Draco Meteor|p1a: Don'tTouchMe
+|-resisted|p1a: Don'tTouchMe
+|-damage|p1a: Don'tTouchMe|209/352 par
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|181/325|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|161/325|[from] sandstorm
+|-heal|p1a: Don'tTouchMe|231/352 par|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: PartSwamp|Swampert, M|328/404
+|move|p2a: Hydreigon|Fire Blast|p1a: PartSwamp
+|-resisted|p1a: PartSwamp
+|-damage|p1a: PartSwamp|276/404
+|-damage|p2a: Hydreigon|129/325|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|109/325|[from] sandstorm
+|-heal|p1a: PartSwamp|301/404|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|350/352
+|-damage|p2a: Ferrothorn|328/352|[from] Stealth Rock
+|move|p1a: PartSwamp|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|283/352
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: PartSwamp|326/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|305/352|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Don'tTouchMe|Ferrothorn, M|231/352 par
+|move|p2a: Ferrothorn|Spikes|p1a: Don'tTouchMe
+|-sidestart|p1: BlackAtmosphere|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|327/352|[from] item: Leftovers
+|-heal|p1a: Don'tTouchMe|253/352 par|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Don'tTouchMe
+|-sidestart|p1: BlackAtmosphere|Spikes
+|cant|p1a: Don'tTouchMe|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|349/352|[from] item: Leftovers
+|-heal|p1a: Don'tTouchMe|275/352 par|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Hydreigon|Hydreigon, F|109/325
+|-damage|p2a: Hydreigon|69/325|[from] Stealth Rock
+|move|p1a: Don'tTouchMe|Spikes|p2a: Hydreigon
+|-sidestart|p2: Ranior|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|49/325|[from] sandstorm
+|-heal|p1a: Don'tTouchMe|297/352 par|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|212/325
+|move|p1a: Don'tTouchMe|Spikes|p2a: Hydreigon
+|-sidestart|p2: Ranior|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|192/325|[from] sandstorm
+|-heal|p1a: Don'tTouchMe|319/352 par|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: PartSwamp|Swampert, M|326/404
+|-damage|p1a: PartSwamp|259/404|[from] Spikes
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|325/325
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|305/325|[from] sandstorm
+|-heal|p1a: PartSwamp|284/404|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Hydreigon|Superpower|p1a: PartSwamp
+|-damage|p1a: PartSwamp|192/404
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|def|1
+|-damage|p2a: Hydreigon|273/325|[from] item: Life Orb
+|move|p1a: PartSwamp|Ice Beam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|131/325
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|111/325|[from] sandstorm
+|-heal|p1a: PartSwamp|217/404|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|274/325
+|move|p1a: PartSwamp|Ice Beam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|136/325
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|116/325|[from] sandstorm
+|-heal|p1a: PartSwamp|242/404|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: PartSwamp
+|-crit|p1a: PartSwamp
+|-damage|p1a: PartSwamp|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|84/325|[from] item: Life Orb
+|faint|p1a: PartSwamp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|64/325|[from] sandstorm
+|
+|switch|p1a: Stardust|Latios, M, shiny|301/301
+|turn|19
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|349/352
+|-damage|p2a: Ferrothorn|327/352|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|269/352|[from] Spikes
+|move|p1a: Stardust|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|122/352
+|-unboost|p1a: Stardust|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Stardust|283/301|[from] sandstorm
+|-heal|p2a: Ferrothorn|144/352|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Don'tTouchMe|Ferrothorn, M|319/352 par
+|-damage|p1a: Don'tTouchMe|261/352 par|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Don'tTouchMe
+|-sidestart|p1: BlackAtmosphere|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|166/352|[from] item: Leftovers
+|-heal|p1a: Don'tTouchMe|283/352 par|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|-damage|p2a: Garchomp|298/357|[from] Spikes
+|-damage|p2a: Garchomp|276/357|[from] Stealth Rock
+|move|p1a: Don'tTouchMe|Gyro Ball|p2a: Garchomp
+|-damage|p2a: Garchomp|116/357
+|-damage|p1a: Don'tTouchMe|239/352 par|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Don'tTouchMe|261/352 par|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Don'tTouchMe
+|-sidestart|p1: BlackAtmosphere|move: Stealth Rock
+|move|p1a: Don'tTouchMe|Leech Seed|p2a: Garchomp
+|-start|p2a: Garchomp|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Don'tTouchMe|283/352 par|[from] item: Leftovers
+|-damage|p2a: Garchomp|72/357|[from] Leech Seed|[of] p1a: Don'tTouchMe
+|-heal|p1a: Don'tTouchMe|327/352 par|[silent]
+|turn|23
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Don'tTouchMe
+|-supereffective|p1a: Don'tTouchMe
+|-damage|p1a: Don'tTouchMe|0 fnt
+|-damage|p2a: Garchomp|37/357|[from] item: Life Orb
+|faint|p1a: Don'tTouchMe
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Stardust|Latios, M, shiny|283/301
+|-damage|p1a: Stardust|246/301|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Stardust|Surf|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Stardust|228/301|[from] sandstorm
+|
+|switch|p2a: Kyurem-Black|Kyurem-Black|391/391
+|-damage|p2a: Kyurem-Black|326/391|[from] Spikes
+|-damage|p2a: Kyurem-Black|229/391|[from] Stealth Rock
+|-ability|p2a: Kyurem-Black|Teravolt
+|turn|25
+|
+|switch|p1a: Greymon|Tyranitar, M|341/341
+|-damage|p1a: Greymon|256/341|[from] Spikes
+|-damage|p1a: Greymon|214/341|[from] Stealth Rock
+|move|p2a: Kyurem-Black|Ice Beam|p1a: Greymon
+|-damage|p1a: Greymon|132/341
+|-status|p1a: Greymon|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem-Black|205/391|[from] sandstorm
+|-heal|p1a: Greymon|153/341 frz|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Kyurem-Black|Ice Beam|p1a: Greymon
+|-damage|p1a: Greymon|66/341 frz
+|cant|p1a: Greymon|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem-Black|181/391|[from] sandstorm
+|-heal|p1a: Greymon|87/341 frz|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Kyurem-Black|Ice Beam|p1a: Greymon
+|-damage|p1a: Greymon|0 fnt
+|faint|p1a: Greymon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem-Black|157/391|[from] sandstorm
+|
+|switch|p1a: Nirvash|Scizor, M|343/343
+|-damage|p1a: Nirvash|301/343|[from] Stealth Rock
+|-damage|p1a: Nirvash|216/343|[from] Spikes
+|turn|28
+|
+|move|p2a: Kyurem-Black|Ice Beam|p1a: Nirvash
+|-resisted|p1a: Nirvash
+|-damage|p1a: Nirvash|143/343
+|move|p1a: Nirvash|U-turn|p2a: Kyurem-Black
+|-damage|p2a: Kyurem-Black|0 fnt
+|faint|p2a: Kyurem-Black
+|
+|switch|p1a: Stardust|Latios, M, shiny|228/301
+|-damage|p1a: Stardust|191/301|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Stardust|173/301|[from] sandstorm
+|
+|switch|p2a: Jellicent|Jellicent, F|403/403
+|-damage|p2a: Jellicent|353/403|[from] Stealth Rock
+|-damage|p2a: Jellicent|286/403|[from] Spikes
+|turn|29
+|
+|move|p1a: Stardust|Draco Meteor|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-unboost|p1a: Stardust|spa|2
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Stardust|155/301|[from] sandstorm
+|
+|switch|p2a: Gyarados|Gyarados, M|353/353
+|-damage|p2a: Gyarados|265/353|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|[of] p1a: Stardust
+|-unboost|p1a: Stardust|atk|1
+|turn|30
+|
+|switch|p1a: Landshark|Garchomp, M, shiny|357/357
+|-damage|p1a: Landshark|335/357|[from] Stealth Rock
+|-damage|p1a: Landshark|246/357|[from] Spikes
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|243/353|[from] sandstorm
+|-heal|p2a: Gyarados|265/353|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Landshark|Outrage|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|166/352
+|-damage|p2a: Ferrothorn|144/352|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|86/352|[from] Spikes
+|turn|32
+|
+|move|p1a: Landshark|Outrage|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|13/352
+|-damage|p1a: Landshark|202/357|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landshark
+|-start|p1a: Landshark|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|35/352|[from] item: Leftovers
+|-damage|p1a: Landshark|158/357|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|79/352|[silent]
+|turn|33
+|
+|move|p1a: Landshark|Outrage|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Landshark|114/357|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-end|p1a: Landshark|rampage
+|-start|p1a: Landshark|confusion
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Hydreigon|Hydreigon, F|64/325
+|-damage|p2a: Hydreigon|24/325|[from] Stealth Rock
+|turn|34
+|
+|switch|p1a: Stardust|Latios, M, shiny|155/301
+|-damage|p1a: Stardust|118/301|[from] Stealth Rock
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|187/325
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Stardust|100/301|[from] sandstorm
+|-damage|p2a: Hydreigon|167/325|[from] sandstorm
+|turn|35
+|
+|move|p1a: Stardust|Draco Meteor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Stardust|spa|2
+|faint|p2a: Hydreigon
+|
+|win|BlackAtmosphere
+|raw|Ladder updating...
+|raw|BlackAtmosphere's rating: 1561 &rarr; <strong>1569</strong><br />(+8 for winning)
+|raw|Ranior's rating: 1321 &rarr; <strong>1313</strong><br />(-8 for losing)
+|chat|Ranior|Good game

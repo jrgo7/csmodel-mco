@@ -1,0 +1,224 @@
+|join|Booodle
+|join|mytns
+|player|p1|Booodle|101
+|player|p2|mytns|238
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Ninetales, F
+|poke|p1|Victini
+|poke|p1|Forretress, M
+|poke|p1|Xatu, F
+|poke|p1|Victreebel, M
+|poke|p1|Entei
+|poke|p2|Marowak, M
+|poke|p2|Breloom, M
+|poke|p2|Cloyster, F
+|poke|p2|Ninjask, M
+|poke|p2|Espeon, F
+|poke|p2|Jolteon, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|350/350
+|switch|p2a: Tesla|Jolteon, M|272/272
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|join|SheWantsTheDeoxysD
+|
+|move|p2a: Tesla|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|cant|p1a: Ninetales|par
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p2a: Tesla|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|203/350 par
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Tesla
+|-status|p2a: Tesla|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|224/350 par|[from] item: Leftovers
+|-damage|p2a: Tesla|238/272 brn|[from] brn
+|turn|3
+|
+|move|p2a: Tesla|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|86/350 par
+|move|p1a: Ninetales|Flamethrower|p2a: Tesla
+|-damage|p2a: Tesla|100/272 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|107/350 par|[from] item: Leftovers
+|-damage|p2a: Tesla|66/272 brn|[from] brn
+|turn|4
+|
+|move|p2a: Tesla|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Tesla|32/272 brn|[from] brn
+|
+|switch|p1a: Victreebel|Victreebel, M|301/301
+|turn|5
+|
+|move|p1a: Victreebel|Weather Ball|p2a: Tesla
+|-damage|p2a: Tesla|0 fnt
+|-damage|p1a: Victreebel|271/301|[from] item: Life Orb
+|faint|p2a: Tesla
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Salem|Espeon, F|334/334
+|turn|6
+|
+|switch|p1a: Forretress|Forretress, M|354/354
+|move|p2a: Salem|Light Screen|p2a: Salem
+|-sidestart|p2: mytns|move: Light Screen
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p2a: Salem|Reflect|p2a: Salem
+|-sidestart|p2: mytns|Reflect
+|move|p1a: Forretress|Gyro Ball|p2a: Salem
+|-damage|p2a: Salem|245/334
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|move|p2a: Salem|Psychic|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|288/354
+|move|p1a: Forretress|Volt Switch|p2a: Salem
+|-damage|p2a: Salem|227/334
+|
+|switch|p1a: Victini|Victini|341/341
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|move|p2a: Salem|Psychic|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|278/341
+|move|p1a: Victini|V-create|p2a: Salem
+|-damage|p2a: Salem|0 fnt
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|-unboost|p1a: Victini|spe|1
+|faint|p2a: Salem
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Heisenberg|Ninjask, M|326/326
+|turn|10
+|
+|switch|p1a: Forretress|Forretress, M|288/354
+|move|p2a: Heisenberg|Substitute|p2a: Heisenberg
+|-start|p2a: Heisenberg|Substitute
+|-damage|p2a: Heisenberg|245/326
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heisenberg|265/326|[from] item: Leftovers
+|-heal|p1a: Forretress|310/354|[from] item: Leftovers
+|-boost|p2a: Heisenberg|spe|1|[from] ability: Speed Boost
+|turn|11
+|
+|move|p2a: Heisenberg|Swords Dance|p2a: Heisenberg
+|-boost|p2a: Heisenberg|atk|2
+|move|p1a: Forretress|Stealth Rock|p2a: Heisenberg
+|-sidestart|p2: mytns|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heisenberg|285/326|[from] item: Leftovers
+|-heal|p1a: Forretress|332/354|[from] item: Leftovers
+|-boost|p2a: Heisenberg|spe|1|[from] ability: Speed Boost
+|turn|12
+|
+|move|p2a: Heisenberg|Protect|p2a: Heisenberg
+|-singleturn|p2a: Heisenberg|Protect
+|move|p1a: Forretress|Gyro Ball|p2a: Heisenberg
+|-activate|p2a: Heisenberg|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heisenberg|305/326|[from] item: Leftovers
+|-heal|p1a: Forretress|354/354|[from] item: Leftovers
+|-boost|p2a: Heisenberg|spe|1|[from] ability: Speed Boost
+|turn|13
+|
+|move|p2a: Heisenberg|Baton Pass|p2a: Heisenberg
+|
+|switch|p2a: MaroWAR!!!|Marowak, M|261/261
+|-damage|p2a: MaroWAR!!!|245/261|[from] Stealth Rock
+|move|p1a: Forretress|Gyro Ball|p2a: MaroWAR!!!
+|-activate|p2a: MaroWAR!!!|Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: mytns|move: Light Screen
+|turn|14
+|
+|switch|p1a: Xatu|Xatu, F|279/279
+|move|p2a: MaroWAR!!!|Bonemerang|p1a: Xatu
+|-immune|p1a: Xatu|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: mytns|Reflect
+|turn|15
+|
+|move|p2a: MaroWAR!!!|Double-Edge|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Victini|Victini|278/341
+|turn|16
+|
+|move|p2a: MaroWAR!!!|Double-Edge|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Victreebel|Victreebel, M|271/301
+|turn|17
+|
+|move|p1a: Victreebel|Leaf Blade|p2a: MaroWAR!!!
+|-supereffective|p2a: MaroWAR!!!
+|-end|p2a: MaroWAR!!!|Substitute
+|-damage|p1a: Victreebel|241/301|[from] item: Life Orb
+|move|p2a: MaroWAR!!!|Fire Punch|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Entei|Entei|372/372
+|-ability|p1a: Entei|Pressure
+|turn|18
+|
+|move|p2a: MaroWAR!!!|Double-Edge|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|
+|-weather|SunnyDay|[upkeep]
+|-message|Booodle forfeited.
+|
+|win|mytns
+|raw|Ladder updating...
+|leave|Booodle
+|player|p1
+|raw|Booodle's rating: 1359 &rarr; <strong>1338</strong><br />(-21 for losing)
+|raw|mytns's rating: 1352 &rarr; <strong>1373</strong><br />(+21 for winning)

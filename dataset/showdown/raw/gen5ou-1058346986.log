@@ -1,0 +1,294 @@
+|j|☆Nalorium
+|j|☆HaxerAreBastards
+|player|p1|Nalorium|265|1437
+|player|p2|HaxerAreBastards|249|1539
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Skarmory, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Breloom, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Dragonite, F|item
+|poke|p2|Infernape, F|item
+|poke|p2|Conkeldurr, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Reuniclus, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|switch|p2a: Infernape|Infernape, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HaxerAreBastards)
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|21/100
+|-damage|p1a: Volcarona|91/100|[from] item: Life Orb
+|move|p2a: Jellicent|Trick Room|p2a: Jellicent
+|-fieldstart|move: Trick Room|[of] p2a: Jellicent
+|
+|-heal|p2a: Jellicent|27/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Jellicent|Scald|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|45/100
+|move|p1a: Volcarona|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-heal|p1a: Volcarona|60/100|[from] drain|[of] p2a: Jellicent
+|-damage|p1a: Volcarona|50/100|[from] item: Life Orb
+|faint|p2a: Jellicent
+|
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|4
+|
+|move|p2a: Reuniclus|Psyshock|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|turn|5
+|
+|move|p2a: Reuniclus|Focus Blast|p1a: Skarmory
+|-ability|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Reuniclus
+|-sidestart|p2: HaxerAreBastards|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|-enditem|p1a: Skarmory|Custap Berry|[eat]
+|-activate|p1a: Skarmory|item: Custap Berry|[consumed]
+|
+|move|p1a: Skarmory|Spikes|p2a: Reuniclus
+|-sidestart|p2: HaxerAreBastards|Spikes
+|move|p2a: Reuniclus|Shadow Ball|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|7
+|
+|switch|p2a: Infernape|Infernape, F|100/100
+|-damage|p2a: Infernape|88/100|[from] Spikes
+|-damage|p2a: Infernape|76/100|[from] Stealth Rock
+|move|p1a: Kyurem|Outrage|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Kyurem|Outrage|p2a: Bronzong|[from]lockedmove
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|39/100
+|-start|p1a: Kyurem|confusion|[fatigue]
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Breloom
+|-damage|p1a: Breloom|19/100
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Bronzong|Gyro Ball|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-heal|p1a: Breloom|31/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Bronzong|Gyro Ball|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-heal|p1a: Breloom|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|move|p2a: Bronzong|Gyro Ball|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|13
+|
+|move|p1a: Kyurem|Outrage|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|14
+|
+|move|p1a: Kyurem|Outrage|p2a: Tyranitar|[from]lockedmove
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|15
+|
+|move|p1a: Kyurem|Outrage|p2a: Reuniclus|[from]lockedmove
+|-damage|p2a: Reuniclus|0 fnt
+|-start|p1a: Kyurem|confusion|[fatigue]
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|88/100|[from] Sandstorm
+|upkeep
+|c|☆Nalorium|Finally
+|c|☆HaxerAreBastards|that's what I call a fucking lucky son of bitch
+|c|☆HaxerAreBastards|shut up
+|c|☆HaxerAreBastards|you just hax
+|c|☆Nalorium|Sorry noob
+|c|☆Nalorium|Just Flame
+|c|☆HaxerAreBastards|LMAO
+|c|☆HaxerAreBastards|1400 pts
+|c|☆HaxerAreBastards|GXE horrible
+|inactive|HaxerAreBastards has 120 seconds left.
+|c|☆HaxerAreBastards|can't win without hax
+|c|☆HaxerAreBastards|and he talks
+|c|☆Nalorium|Yh
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|88/100|[from] Spikes
+|-damage|p2a: Conkeldurr|82/100|[from] Stealth Rock
+|turn|16
+|c|☆Nalorium|Im pretty noob
+|c|☆Nalorium|but you more
+|c|☆HaxerAreBastards|lmap
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|84/100
+|-heal|p2a: Conkeldurr|91/100|[from] drain|[of] p1a: Dragonite
+|-damage|p2a: Conkeldurr|81/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|78/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|75/100|[from] Sandstorm
+|-heal|p1a: Dragonite|84/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆HaxerAreBastards|learn how to play
+|inactive|HaxerAreBastards has 120 seconds left.
+|c|☆Nalorium|I will learn winning you
+|c|☆Nalorium|:3
+|c|☆HaxerAreBastards|without your fucking hax it was already over turn 10
+|c|☆HaxerAreBastards|dude it's 4-1 for me
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|59/100
+|move|p2a: Conkeldurr|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|-damage|p2a: Conkeldurr|65/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|53/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|59/100|[from] Sandstorm
+|-heal|p1a: Dragonite|59/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|34/100
+|move|p2a: Conkeldurr|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|-damage|p2a: Conkeldurr|49/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|28/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|42/100|[from] Sandstorm
+|-heal|p1a: Dragonite|34/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆Nalorium|2-1
+|inactive|HaxerAreBastards has 120 seconds left.
+|c|☆HaxerAreBastards|LMFAO
+|c|☆HaxerAreBastards|76.1 GXE krr krr
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|9/100
+|move|p2a: Conkeldurr|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p2a: Conkeldurr|0 fnt|[from] item: Life Orb
+|faint|p1a: Dragonite
+|faint|p2a: Conkeldurr
+|
+|win|Nalorium
+|l|☆HaxerAreBastards
+|c|☆Nalorium|EZ
+|c|☆Nalorium|AJJAJAXJAHXJ
+|raw|Nalorium's rating: 1437 &rarr; <strong>1463</strong><br />(+26 for winning)
+|raw|HaxerAreBastards's rating: 1539 &rarr; <strong>1513</strong><br />(-26 for losing)

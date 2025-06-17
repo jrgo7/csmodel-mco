@@ -1,0 +1,1195 @@
+|j|☆porrompompom
+|j|☆kland
+|player|p1|porrompompom|102|1574
+|player|p2|kland|#teamrocket|1499
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Abomasnow, F|item
+|poke|p1|Gastrodon, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Forretress, F|item
+|poke|p1|Blissey, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Reuniclus, M|item
+|teampreview
+|j| phosphor display
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|move|p1a: Abomasnow|Protect|p1a: Abomasnow
+|-singleturn|p1a: Abomasnow|Protect
+|move|p2a: Latios|Psyshock|p1a: Abomasnow
+|-activate|p1a: Abomasnow|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Hail
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Forretress|Forretress, F|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|94/100|[from] Hail
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Forretress|Spikes|p2a: Ferrothorn
+|-sidestart|p2: kland|Spikes
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|94/100|[from] Hail
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Forretress|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Forretress|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|move|p2a: Ferrothorn|Spikes|p1a: Forretress
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|93/100|[from] Hail
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Forretress|Spikes|p2a: Ferrothorn
+|-sidestart|p2: kland|Spikes
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|93/100|[from] Hail
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|84/100|[from] Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Tentacruel
+|-damage|p2a: Tentacruel|79/100
+|-sideend|p1: porrompompom|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|73/100|[from] Hail
+|-heal|p2a: Tentacruel|79/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Blissey
+|-damage|p1a: Blissey|98/100
+|-sideend|p2: kland|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|73/100|[from] Hail
+|-damage|p1a: Blissey|92/100|[from] Hail
+|-heal|p2a: Tentacruel|79/100|[from] item: Black Sludge
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|99/100
+|move|p1a: Blissey|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: kland|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blissey|92/100|[from] Hail
+|-damage|p2a: Ferrothorn|93/100|[from] Hail
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|93/100|[from] Hail
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Tentacruel|Tentacruel, F|79/100
+|-damage|p2a: Tentacruel|67/100|[from] Stealth Rock
+|move|p1a: Forretress|Rapid Spin|p2a: Tentacruel
+|-damage|p2a: Tentacruel|62/100
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|56/100|[from] Hail
+|-heal|p2a: Tentacruel|62/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Blissey|Blissey, F|98/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Blissey
+|-damage|p1a: Blissey|96/100
+|-sideend|p2: kland|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|56/100|[from] Hail
+|-damage|p1a: Blissey|90/100|[from] Hail
+|-heal|p2a: Tentacruel|62/100|[from] item: Black Sludge
+|-heal|p1a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Latios|Latios, M|95/100
+|move|p1a: Blissey|Stealth Rock|p2a: Latios
+|-sidestart|p2: kland|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Hail
+|-damage|p1a: Blissey|90/100|[from] Hail
+|-heal|p1a: Blissey|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Latios|Trick|p1a: Blissey
+|-activate|p2a: Latios|move: Trick|[of] p1a: Blissey
+|-item|p1a: Blissey|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|83/100|[from] Hail
+|-damage|p1a: Blissey|94/100|[from] Hail
+|-heal|p2a: Latios|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|83/100|[from] Hail
+|-heal|p2a: Latios|89/100|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|45/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Tentacruel|Tentacruel, F|62/100
+|-damage|p2a: Tentacruel|50/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|95/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|44/100|[from] Hail
+|-heal|p2a: Tentacruel|50/100|[from] item: Black Sludge
+|-heal|p1a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Tentacruel|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|move|p1a: Mandibuzz|Foul Play|p2a: Tentacruel
+|-damage|p2a: Tentacruel|24/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|18/100|[from] Hail
+|-heal|p2a: Tentacruel|24/100|[from] item: Black Sludge
+|-damage|p1a: Mandibuzz|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Mandibuzz|Foul Play|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|18/100|[from] Hail
+|-heal|p2a: Tentacruel|24/100|[from] item: Black Sludge
+|-heal|p1a: Mandibuzz|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100 tox
+|-sideend|p2: kland|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Mandibuzz|Foul Play|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mandibuzz|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|74/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|19
+|
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Politoed|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Blissey|88/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Latios|Latios, M|89/100
+|move|p1a: Blissey|Aromatherapy|p1a: Blissey
+|-activate|p1a: Blissey|move: Aromatherapy
+|-curestatus|p1a: Blissey|tox|[msg]
+|-curestatus|p1: Mandibuzz|tox|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|95/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Latios|Psyshock|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|93/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Latios|Surf|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|82/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Hail
+|-heal|p2a: Latios|100/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Abomasnow|Protect|p1a: Abomasnow
+|-singleturn|p1a: Abomasnow|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Abomasnow
+|-activate|p1a: Abomasnow|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Hail
+|-heal|p2a: Latios|100/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Latios|Draco Meteor|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Hail
+|-damage|p1a: Blissey|56/100|[from] Hail
+|-heal|p2a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|99/100
+|move|p1a: Blissey|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: kland|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blissey|50/100|[from] Hail
+|-damage|p2a: Ferrothorn|93/100|[from] Hail
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Forretress|Forretress, F|93/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|93/100|[from] Hail
+|-heal|p1a: Forretress|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Forretress|Rapid Spin|p2a: Reuniclus
+|-damage|p2a: Reuniclus|98/100
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|94/100|[from] Hail
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latias|atk|1
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|82/100|[from] Hail
+|-damage|p1a: Latias|94/100|[from] Hail
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Landorus|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|90/100
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Forretress|97/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|94/100|[from] Hail
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|94/100|[from] Hail
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|94/100|[from] Hail
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|94/100|[from] Hail
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|move|p1a: Latias|Roar|p2a: Reuniclus
+|drag|p2a: Ferrothorn|Ferrothorn, M|99/100
+|-damage|p2a: Ferrothorn|93/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|94/100|[from] Hail
+|-damage|p2a: Ferrothorn|87/100|[from] Hail
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Forretress|Forretress, F|97/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|89/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|87/100|[from] Hail
+|-heal|p1a: Forretress|95/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Forretress|Spikes|p2a: Ferrothorn
+|-sidestart|p2: kland|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Forretress
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|87/100|[from] Hail
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Forretress|Rapid Spin|p2a: Latios
+|-damage|p2a: Latios|84/100
+|-sideend|p1: porrompompom|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|78/100|[from] Hail
+|-heal|p2a: Latios|84/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Latios|Surf|p1a: Forretress
+|-damage|p1a: Forretress|69/100
+|move|p1a: Forretress|Toxic|p2a: Latios
+|-status|p2a: Latios|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|78/100 tox|[from] Hail
+|-heal|p2a: Latios|84/100 tox|[from] item: Leftovers
+|-heal|p1a: Forretress|75/100|[from] item: Leftovers
+|-damage|p2a: Latios|78/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Gastrodon
+|-damage|p1a: Gastrodon|36/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|72/100 tox|[from] Hail
+|-damage|p1a: Gastrodon|30/100|[from] Hail
+|-heal|p2a: Latios|78/100 tox|[from] item: Leftovers
+|-heal|p1a: Gastrodon|36/100|[from] item: Leftovers
+|-damage|p2a: Latios|66/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|move|p2a: Latios|Draco Meteor|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Gastrodon
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|60/100 tox|[from] Hail
+|-heal|p2a: Latios|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Latios|48/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|74/100
+|turn|42
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|93/100
+|-damage|p2a: Ferrothorn|87/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|74/100|[from] Spikes
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|68/100|[from] Hail
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|68/100|[from] Hail
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Forretress|Forretress, F|75/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-damage|p2a: Politoed|76/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|82/100|[from] item: Leftovers
+|-heal|p1a: Forretress|81/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p1a: Blissey|Blissey, F|50/100
+|move|p2a: Politoed|Scald|p1a: Blissey
+|-damage|p1a: Blissey|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|88/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|74/100
+|-damage|p2a: Ferrothorn|68/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|56/100|[from] Spikes
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p1a: Forretress|Forretress, F|81/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|87/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p2a: Politoed|Politoed, F|88/100
+|-damage|p2a: Politoed|76/100|[from] Stealth Rock
+|-damage|p2a: Politoed|63/100|[from] Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|60/100
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|66/100|[from] item: Leftovers
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|switch|p1a: Abomasnow|Abomasnow, F|94/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Politoed|Toxic|p1a: Abomasnow
+|-status|p1a: Abomasnow|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Politoed|60/100|[from] Hail
+|-heal|p2a: Politoed|66/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Abomasnow|94/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|68/100
+|-damage|p2a: Ferrothorn|62/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|49/100|[from] Spikes
+|switch|p1a: Blissey|Blissey, F|85/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blissey|79/100|[from] Hail
+|-damage|p2a: Ferrothorn|43/100|[from] Hail
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p1a: Forretress|Forretress, F|94/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|43/100|[from] Hail
+|-heal|p1a: Forretress|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Forretress|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|49/100
+|-damage|p1a: Forretress|87/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|move|p2a: Ferrothorn|Spikes|p1a: Forretress
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|42/100|[from] Hail
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p2a: Politoed|Politoed, F|66/100
+|-damage|p2a: Politoed|54/100|[from] Stealth Rock
+|-damage|p2a: Politoed|42/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Forretress|Spikes|p2a: Politoed
+|-sidestart|p2: kland|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|48/100|[from] item: Leftovers
+|-heal|p1a: Forretress|99/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|switch|p1a: Blissey|Blissey, F|79/100
+|-damage|p1a: Blissey|67/100|[from] Spikes
+|move|p2a: Politoed|Scald|p1a: Blissey
+|-damage|p1a: Blissey|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|54/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|60/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|switch|p1a: Abomasnow|Abomasnow, F|94/100 tox
+|-damage|p1a: Abomasnow|82/100 tox|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Politoed|Scald|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|69/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Politoed|54/100|[from] Hail
+|-heal|p2a: Politoed|60/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Abomasnow|69/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|49/100
+|-damage|p2a: Ferrothorn|32/100|[from] Spikes
+|-damage|p2a: Ferrothorn|26/100|[from] Stealth Rock
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blissey|82/100|[from] Hail
+|-damage|p2a: Ferrothorn|20/100|[from] Hail
+|-heal|p2a: Ferrothorn|26/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|switch|p1a: Forretress|Forretress, F|99/100
+|-damage|p1a: Forretress|87/100|[from] Spikes
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|20/100|[from] Hail
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|26/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|switch|p2a: Landorus|Landorus-Therian, M|82/100
+|-damage|p2a: Landorus|70/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Forretress|atk|1
+|move|p1a: Forretress|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|67/100
+|-sideend|p1: porrompompom|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|61/100|[from] Hail
+|-heal|p1a: Forretress|99/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Landorus|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|83/100
+|
+|switch|p2a: Politoed|Politoed, F|60/100|[from]move: U-turn
+|-damage|p2a: Politoed|43/100|[from] Spikes
+|-damage|p2a: Politoed|31/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mandibuzz|89/100|[from] item: Leftovers
+|-heal|p2a: Politoed|37/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|switch|p1a: Abomasnow|Abomasnow, F|69/100 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Politoed|Scald|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|55/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Politoed|31/100|[from] Hail
+|-heal|p2a: Politoed|37/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|61/100 tox|[from] item: Leftovers
+|-damage|p1a: Abomasnow|55/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|26/100
+|-damage|p2a: Ferrothorn|20/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|3/100|[from] Spikes
+|switch|p1a: Blissey|Blissey, F|82/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blissey|76/100|[from] Hail
+|-damage|p2a: Ferrothorn|0 fnt|[from] Hail
+|faint|p2a: Ferrothorn
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|37/100
+|-damage|p2a: Politoed|25/100|[from] Stealth Rock
+|-damage|p2a: Politoed|8/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|63
+|
+|switch|p2a: Landorus|Landorus-Therian, M|61/100
+|-damage|p2a: Landorus|49/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|switch|p1a: Abomasnow|Abomasnow, F|55/100 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|43/100|[from] Hail
+|-heal|p1a: Abomasnow|61/100 tox|[from] item: Leftovers
+|-damage|p1a: Abomasnow|55/100 tox|[from] psn
+|upkeep
+|turn|64
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|89/100
+|move|p2a: Landorus|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|72/100
+|
+|switch|p2a: Latios|Latios, M|48/100 tox|[from]move: U-turn
+|-damage|p2a: Latios|35/100 tox|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|29/100 tox|[from] Hail
+|-heal|p2a: Latios|35/100 tox|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|78/100|[from] item: Leftovers
+|-damage|p2a: Latios|29/100 tox|[from] psn
+|upkeep
+|turn|65
+|
+|move|p2a: Latios|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|18/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|68/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|23/100 tox|[from] Hail
+|-heal|p2a: Latios|29/100 tox|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|74/100|[from] item: Leftovers
+|-damage|p2a: Latios|17/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|switch|p2a: Landorus|Landorus-Therian, M|43/100
+|-damage|p2a: Landorus|31/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mandibuzz|atk|1
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|25/100|[from] Hail
+|upkeep
+|turn|67
+|
+|move|p2a: Landorus|Stone Edge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|53/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|19/100|[from] Hail
+|upkeep
+|turn|68
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Landorus|Stone Edge|p1a: Latias
+|-damage|p1a: Latias|58/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|13/100|[from] Hail
+|-damage|p1a: Latias|52/100|[from] Hail
+|-heal|p1a: Latias|58/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|move|p2a: Landorus|Stone Edge|p1a: Latias|[miss]
+|-miss|p2a: Landorus|p1a: Latias
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|100/100
+|-singleturn|p1a: Latias|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|7/100|[from] Hail
+|-damage|p1a: Latias|94/100|[from] Hail
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|move|p2a: Landorus|Stone Edge|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|17/100
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|1/100|[from] Hail
+|-damage|p1a: Latias|11/100|[from] Hail
+|-heal|p1a: Latias|17/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|c|☆kland|high crit rate
+|c|☆kland|kappa
+|
+|switch|p1a: Abomasnow|Abomasnow, F|55/100 tox
+|move|p2a: Landorus|Stone Edge|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|0 fnt|[from] Hail
+|faint|p2a: Landorus
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|17/100 tox
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Latios|5/100 tox|[from] Stealth Rock
+|turn|72
+|
+|move|p2a: Latios|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|44/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|94/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|0 fnt|[from] Hail
+|faint|p2a: Latios
+|-heal|p1a: Mandibuzz|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|8/100
+|-damage|p2a: Politoed|0 fnt|[from] Stealth Rock
+|faint|p2a: Politoed
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|73
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Taunt
+|move|p2a: Reuniclus|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mandibuzz|45/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|95/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Reuniclus|Hidden Power|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|77/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mandibuzz|83/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|76/100
+|move|p2a: Reuniclus|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|27/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mandibuzz|33/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|83/100|[from] item: Leftovers
+|-end|p2a: Reuniclus|move: Taunt
+|upkeep
+|turn|76
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Taunt
+|move|p2a: Reuniclus|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Reuniclus|89/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|17/100
+|turn|77
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|67/100
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Reuniclus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|39/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|33/100|[from] Hail
+|-heal|p1a: Latias|39/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|95/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|89/100
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Reuniclus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|60/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|54/100|[from] Hail
+|-heal|p1a: Latias|60/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100|[from] item: Leftovers
+|-end|p2a: Reuniclus|move: Taunt
+|upkeep
+|turn|79
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|54/100|[from] Hail
+|-heal|p1a: Latias|60/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|54/100|[from] Hail
+|-heal|p1a: Latias|60/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|54/100|[from] Hail
+|-heal|p1a: Latias|60/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|54/100|[from] Hail
+|-heal|p1a: Latias|60/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|54/100|[from] Hail
+|-heal|p1a: Latias|60/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Reuniclus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|32/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|26/100|[from] Hail
+|-heal|p1a: Latias|32/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|82/100
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Reuniclus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|57/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|51/100|[from] Hail
+|-heal|p1a: Latias|57/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Reuniclus
+|-damage|p2a: Reuniclus|64/100
+|move|p2a: Reuniclus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|31/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|25/100|[from] Hail
+|-heal|p1a: Latias|31/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|71/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|81/100
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Reuniclus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|54/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|48/100|[from] Hail
+|-heal|p1a: Latias|54/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|77/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Reuniclus
+|-damage|p2a: Reuniclus|40/100
+|move|p2a: Reuniclus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|31/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|24/100|[from] Hail
+|-heal|p1a: Latias|31/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|46/100|[from] item: Leftovers
+|upkeep
+|turn|89
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Reuniclus
+|-damage|p2a: Reuniclus|8/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|58/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|24/100|[from] Hail
+|-heal|p1a: Latias|31/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|64/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|81/100
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|75/100|[from] Hail
+|-heal|p1a: Latias|81/100|[from] item: Leftovers
+|upkeep
+|turn|91
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|win|porrompompom
+|raw|porrompompom's rating: 1574 &rarr; <strong>1590</strong><br />(+16 for winning)
+|raw|kland's rating: 1499 &rarr; <strong>1483</strong><br />(-16 for losing)
+|l|☆kland

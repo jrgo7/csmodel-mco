@@ -1,0 +1,338 @@
+|j|☆Glad She's Mine
+|j|☆Commbacckk
+|player|p1|Glad She's Mine|34|1398
+|player|p2|Commbacckk|101|1478
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Azelf|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Glad She's Mine)
+|
+|start
+|switch|p1a: Politoed|Politoed, F, shiny|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Glad She's Mine|move: Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Azelf
+|-damage|p2a: Azelf|44/100
+|-status|p2a: Azelf|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Azelf|32/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Azelf|Explosion|p1a: Politoed
+|-damage|p1a: Politoed|66/100
+|faint|p2a: Azelf
+|move|p1a: Politoed|Scald|p2: Azelf|[notarget]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|72/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|3
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Politoed|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|tox|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|78/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Bronzong|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|48/100
+|move|p1a: Bronzong|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|22/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bronzong|55/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Dragonite|Outrage|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bronzong|61/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Dragonite|Outrage|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Dragonite|Outrage|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|35/100
+|-damage|p2a: Dragonite|9/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-start|p2a: Dragonite|confusion|[fatigue]
+|move|p1a: Ferrothorn|Spikes|p2a: Dragonite
+|-sidestart|p2: Commbacckk|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|41/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|-activate|p2a: Dragonite|confusion
+|-damage|p2a: Dragonite|0 fnt|[from] confusion
+|faint|p2a: Dragonite
+|move|p1a: Ferrothorn|Spikes|p2: Dragonite
+|-sidestart|p2: Commbacckk|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|84/100|[from] Spikes
+|turn|11
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Tentacruel|Scald|p2a: Scizor
+|-damage|p2a: Scizor|35/100
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|Acrobatics|p1a: Tentacruel
+|-enditem|p2a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p1a: Tentacruel|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|12/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|18/100|[from] item: Black Sludge
+|-damage|p2a: Scizor|23/100 brn|[from] brn
+|upkeep
+|turn|14
+|c|☆Glad She's Mine|sry
+|c|☆Glad She's Mine|das lame af
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Scizor|Bullet Punch|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|24/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|30/100|[from] item: Black Sludge
+|-damage|p2a: Scizor|10/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|6/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Scizor
+|-sidestart|p2: Commbacckk|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|12/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|18/100|[from] item: Black Sludge
+|-damage|p2a: Scizor|0 fnt|[from] brn
+|faint|p2a: Scizor
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|84/100|[from] Spikes
+|turn|16
+|
+|move|p2a: Jirachi|Psychic|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|53/100
+|-damage|p1a: Ferrothorn|47/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Jirachi
+|-start|p2a: Jirachi|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|96/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|84/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|65/100|[silent]
+|upkeep
+|turn|18
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|64/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|52/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|83/100|[silent]
+|upkeep
+|turn|19
+|
+|move|p2a: Jirachi|Psychic|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|57/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|32/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|20/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|75/100|[silent]
+|upkeep
+|turn|20
+|
+|move|p2a: Jirachi|Psychic|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-damage|p2a: Cloyster|84/100|[from] Spikes
+|-status|p2a: Cloyster|psn
+|turn|21
+|
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Cloyster
+|-damage|p2a: Cloyster|19/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|-damage|p2a: Cloyster|7/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Cloyster|Icicle Spear|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|-damage|p2a: Cloyster|0 fnt|[from] psn
+|faint|p2a: Cloyster
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|84/100|[from] Spikes
+|-status|p2a: Garchomp|psn
+|turn|23
+|-message|Commbacckk forfeited.
+|
+|win|Glad She's Mine
+|l|☆Commbacckk
+|raw|Glad She&apos;s Mine's rating: 1398 &rarr; <strong>1422</strong><br />(+24 for winning)
+|raw|Commbacckk's rating: 1479 &rarr; <strong>1454</strong><br />(-25 for losing)

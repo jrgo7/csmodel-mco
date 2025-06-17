@@ -1,0 +1,413 @@
+|j|☆Deckline
+|j|☆Spiritmonger
+|player|p1|Deckline|lucas|1620
+|player|p2|Spiritmonger|265|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Breloom, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Celebi|item
+|poke|p2|Keldeo|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spiritmonger)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Politoed|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Landorus|U-turn|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|39/100
+|
+|switch|p1a: Jirachi|Jirachi|100/100|[from]move: U-turn
+|move|p2a: Politoed|Psychic|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|94/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Spiritmonger|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Breloom
+|-sidestart|p1: Deckline|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|76/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|94/100|[from] item: Leftovers
+|-heal|p1a: Breloom|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Baton Pass
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-immune|p1a: Breloom
+|move|p1a: Breloom|Focus Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Landorus|U-turn|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Landorus|U-turn|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|
+|switch|p2a: Celebi|Celebi|94/100|[from]move: U-turn
+|-damage|p2a: Celebi|82/100|[from] Stealth Rock
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|76/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|-heal|p1a: Breloom|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|switch|p2a: Landorus|Landorus-Therian, M|35/100|[from]move: Baton Pass
+|-damage|p2a: Landorus|22/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-immune|p1a: Breloom
+|move|p1a: Breloom|Focus Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|39/100
+|-damage|p2a: Politoed|26/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Politoed|Ice Beam|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Politoed|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|move|p1a: Breloom|Seed Bomb|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Keldeo|Icy Wind|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|6/100 tox
+|-unboost|p1a: Breloom|spe|1
+|move|p1a: Breloom|Seed Bomb|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|19/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Breloom|31/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Jirachi|Thunder|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|move|p1a: Jirachi|Thunder|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Latios|Surf|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|move|p2a: Jirachi|Thunder|p1a: Latios
+|-resisted|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|27/100
+|-status|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|69/100
+|cant|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆Deckline|lol
+|c|☆Deckline|ridiculous
+|
+|move|p2a: Jirachi|Thunder|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Jirachi
+|turn|20
+|
+|move|p1a: Landorus|U-turn|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|switch|p1a: Politoed|Politoed, M|100/100|[from]move: U-turn
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Jirachi|Water Pulse|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Politoed|75/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Jirachi|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Jirachi
+|turn|22
+|
+|move|p1a: Landorus|U-turn|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|switch|p1a: Jirachi|Jirachi|100/100|[from]move: U-turn
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Jirachi|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|66/100
+|-status|p1a: Jirachi|par
+|move|p1a: Jirachi|Iron Head|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|46/100 par
+|-start|p1a: Jirachi|confusion
+|-activate|p1a: Jirachi|confusion
+|-damage|p1a: Jirachi|39/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Jirachi|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|10/100 par
+|-activate|p1a: Jirachi|confusion
+|-damage|p1a: Jirachi|2/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|8/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-damage|p1a: Landorus|64/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Jirachi
+|turn|27
+|
+|move|p1a: Landorus|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Landorus|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|move|p2a: Jirachi|Water Pulse|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|upkeep
+|-message|Deckline forfeited.
+|
+|win|Spiritmonger
+|l|☆Deckline
+|raw|Deckline's rating: 1620 &rarr; <strong>1587</strong><br />(-33 for losing)
+|raw|Spiritmonger's rating: 1363 &rarr; <strong>1396</strong><br />(+33 for winning)

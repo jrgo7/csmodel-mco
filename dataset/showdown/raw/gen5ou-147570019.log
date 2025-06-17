@@ -1,0 +1,330 @@
+|join|Pythagorean Python
+|join|IronBullet93
+|player|p1|Pythagorean Python|176
+|player|p2|IronBullet93|66
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Kyurem-Black
+|poke|p1|Landorus-Therian, M
+|poke|p1|Keldeo
+|poke|p1|Thundurus-Therian, M
+|poke|p1|Dusclops, F
+|poke|p1|Conkeldurr, F
+|poke|p2|Tyranitar, M
+|poke|p2|Virizion
+|poke|p2|Gliscor, M
+|poke|p2|Latias, F
+|poke|p2|Heatran, M
+|poke|p2|Rotom-Wash
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|319/319
+|switch|p2a: Rotom-Wash|Rotom-Wash|303/303
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Rotom-Wash
+|-unboost|p2a: Rotom-Wash|atk|1
+|turn|1
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|222/303
+|
+|switch|p1a: Dusclops|Dusclops, F|222/222
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Dusclops
+|-status|p1a: Dusclops|brn
+|
+|-heal|p2a: Rotom-Wash|240/303|[from] item: Leftovers
+|-damage|p1a: Dusclops|195/222 brn|[from] brn
+|turn|2
+|
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Dusclops
+|-damage|p1a: Dusclops|161/222 brn
+|
+|switch|p2a: Heatran|Heatran, M|324/324
+|move|p1a: Dusclops|Confuse Ray|p2a: Heatran
+|-start|p2a: Heatran|confusion
+|
+|-damage|p1a: Dusclops|134/222 brn|[from] brn
+|turn|3
+|
+|switch|p2a: Gliscor|Gliscor, M|352/352
+|move|p1a: Dusclops|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|243/352|p1a: Dusclops|222/222 brn|[from] move: Pain Split
+|
+|-damage|p1a: Dusclops|195/222 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|4
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M|300/300
+|move|p2a: Gliscor|Taunt|p1a: Thundurus-Therian
+|-start|p1a: Thundurus-Therian|move: Taunt
+|
+|-heal|p2a: Gliscor|287/352 tox|[from] ability: Poison Heal
+|turn|5
+|
+|switch|p2a: Latias|Latias, F|302/302
+|move|p1a: Thundurus-Therian|Hidden Power|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|110/302
+|-damage|p1a: Thundurus-Therian|270/300|[from] item: Life Orb
+|
+|turn|6
+|
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|261/302
+|move|p1a: Thundurus-Therian|Hidden Power|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|69/302
+|-damage|p1a: Thundurus-Therian|240/300|[from] item: Life Orb
+|
+|turn|7
+|
+|move|p2a: Latias|Draco Meteor|p1a: Thundurus-Therian
+|-damage|p1a: Thundurus-Therian|0 fnt
+|-unboost|p2a: Latias|spa|2
+|-damage|p2a: Latias|39/302|[from] item: Life Orb
+|faint|p1a: Thundurus-Therian
+|
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|414/414
+|turn|8
+|
+|switch|p2a: Gliscor|Gliscor, M|287/352 tox
+|move|p1a: Conkeldurr|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|208/352 tox
+|-damage|p1a: Conkeldurr|373/414|[from] item: Life Orb
+|
+|-heal|p2a: Gliscor|252/352 tox|[from] ability: Poison Heal
+|turn|9
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|240/303
+|move|p1a: Conkeldurr|Ice Punch|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|163/303
+|-damage|p1a: Conkeldurr|332/414|[from] item: Life Orb
+|
+|-heal|p2a: Rotom-Wash|181/303|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Dusclops|Dusclops, F|195/222 brn
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Dusclops|[miss]
+|-miss|p2a: Rotom-Wash|p1a: Dusclops
+|
+|-heal|p2a: Rotom-Wash|199/303|[from] item: Leftovers
+|-damage|p1a: Dusclops|168/222 brn|[from] brn
+|turn|11
+|
+|move|p2a: Rotom-Wash|Pain Split|p1a: Dusclops
+|-sethp|p1a: Dusclops|183/222 brn|p2a: Rotom-Wash|183/303|[from] move: Pain Split
+|move|p1a: Dusclops|Confuse Ray|p2a: Rotom-Wash
+|-start|p2a: Rotom-Wash|confusion
+|
+|-heal|p2a: Rotom-Wash|201/303|[from] item: Leftovers
+|-damage|p1a: Dusclops|156/222 brn|[from] brn
+|turn|12
+|
+|switch|p2a: Gliscor|Gliscor, M|252/352 tox
+|move|p1a: Dusclops|Night Shade|p2a: Gliscor
+|-damage|p2a: Gliscor|152/352 tox
+|
+|-heal|p2a: Gliscor|196/352 tox|[from] ability: Poison Heal
+|-damage|p1a: Dusclops|129/222 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|332/414
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|352/352 tox
+|
+|turn|14
+|join|HRPoppNStopp
+|
+|move|p2a: Gliscor|Taunt|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Taunt
+|move|p1a: Conkeldurr|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|271/352 tox
+|-heal|p1a: Conkeldurr|373/414|[from] drain|[of] p2a: Gliscor
+|-damage|p1a: Conkeldurr|332/414|[from] item: Life Orb
+|
+|-heal|p2a: Gliscor|315/352 tox|[from] ability: Poison Heal
+|turn|15
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|201/303
+|move|p1a: Conkeldurr|Drain Punch|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|0 fnt
+|-heal|p1a: Conkeldurr|414/414|[from] drain|[of] p2a: Rotom-Wash
+|-damage|p1a: Conkeldurr|373/414|[from] item: Life Orb
+|faint|p2a: Rotom-Wash
+|
+|
+|switch|p2a: Latias|Latias, F|39/302
+|turn|16
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|-damage|p1a: Conkeldurr|332/414|[from] item: Life Orb
+|faint|p2a: Latias
+|
+|-end|p1a: Conkeldurr|move: Taunt
+|
+|switch|p2a: Heatran|Heatran, M|324/324
+|turn|17
+|
+|switch|p1a: Dusclops|Dusclops, F|129/222 brn
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Heatran|Fire Blast|p1a: Dusclops
+|-damage|p1a: Dusclops|33/222 brn
+|
+|-damage|p1a: Dusclops|6/222 brn|[from] brn
+|turn|18
+|
+|switch|p2a: Gliscor|Gliscor, M|315/352 tox
+|move|p1a: Dusclops|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|160/352 tox|p1a: Dusclops|160/222 brn|[from] move: Pain Split
+|
+|-heal|p2a: Gliscor|204/352 tox|[from] ability: Poison Heal
+|-damage|p1a: Dusclops|133/222 brn|[from] brn
+|turn|19
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|319/319
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Gliscor
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Earthquake|p1a: Landorus-Therian
+|-immune|p1a: Landorus-Therian|[msg]
+|
+|-heal|p2a: Gliscor|248/352 tox|[from] ability: Poison Heal
+|turn|20
+|
+|switch|p2a: Heatran|Heatran, M|324/324
+|move|p1a: Landorus-Therian|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|304/324
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|
+|turn|21
+|
+|switch|p2a: Gliscor|Gliscor, M|248/352 tox
+|move|p1a: Keldeo|Hydro Pump|p2a: Gliscor|[miss]
+|-miss|p1a: Keldeo|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|292/352 tox|[from] ability: Poison Heal
+|turn|22
+|
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Keldeo|Icy Wind|p2a: Tyranitar
+|-miss|p1a: Keldeo|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|303/323|[from] sandstorm
+|turn|23
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Keldeo|271/323|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|251/323|[from] sandstorm
+|
+|switch|p2a: Virizion|Virizion|324/324
+|turn|24
+|
+|switch|p1a: Dusclops|Dusclops, F|133/222 brn
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Virizion|Leaf Blade|p1a: Dusclops
+|-damage|p1a: Dusclops|82/222 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|304/324|[from] sandstorm
+|-damage|p1a: Dusclops|69/222 brn|[from] sandstorm
+|-heal|p2a: Virizion|324/324|[from] item: Leftovers
+|-damage|p1a: Dusclops|42/222 brn|[from] brn
+|turn|25
+|
+|move|p2a: Virizion|Leaf Blade|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|304/324|[from] sandstorm
+|-heal|p2a: Virizion|324/324|[from] item: Leftovers
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|332/414
+|turn|26
+|
+|switch|p2a: Heatran|Heatran, M|304/324
+|move|p1a: Conkeldurr|Drain Punch|p2a: Heatran
+|-crit|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-heal|p1a: Conkeldurr|414/414|[from] drain|[of] p2a: Heatran
+|-damage|p1a: Conkeldurr|373/414|[from] item: Life Orb
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|348/414|[from] sandstorm
+|
+|switch|p2a: Gliscor|Gliscor, M|292/352 tox
+|turn|27
+|
+|move|p2a: Gliscor|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|224/414
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p1a: Conkeldurr|183/414|[from] item: Life Orb
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|158/414|[from] sandstorm
+|
+|switch|p2a: Virizion|Virizion|324/324
+|turn|28
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Virizion
+|-damage|p2a: Virizion|156/324
+|-damage|p1a: Conkeldurr|117/414|[from] item: Life Orb
+|move|p2a: Virizion|Close Combat|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|faint|p1a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|136/324|[from] sandstorm
+|-heal|p2a: Virizion|156/324|[from] item: Leftovers
+|chat|IronBullet93|gg
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|319/319
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Virizion
+|-unboost|p2a: Virizion|atk|1
+|turn|29
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|Pythagorean Python's rating: 1343 &rarr; <strong>1363</strong><br />(+20 for winning)
+|raw|IronBullet93's rating: 1344 &rarr; <strong>1324</strong><br />(-20 for losing)
+|leave|IronBullet93
+|player|p2
+|chat|Pythagorean Python|gg

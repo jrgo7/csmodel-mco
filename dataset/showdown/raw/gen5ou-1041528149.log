@@ -1,0 +1,409 @@
+|j|☆XXSuperNova
+|j|☆II Armando II
+|player|p1|XXSuperNova|medium|1345
+|player|p2|II Armando II|169|1432
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Espeon, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Blissey, F|item
+|poke|p1|Conkeldurr, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Slowking, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Salamence, M|item
+|poke|p2|Terrakion|item
+|teampreview
+|j| Art Imitates Me
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by II Armando II)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|turn|1
+|
+|move|p2a: Salamence|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Salamence|spa|2
+|faint|p1a: Landorus
+|
+|upkeep
+|inactive|XXSuperNova has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|2
+|inactive|XXSuperNova has 120 seconds left.
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|80/100
+|
+|-heal|p2a: Slowking|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|move|p1a: Blissey|Toxic|p2a: Terrakion
+|-status|p2a: Terrakion|tox
+|
+|-damage|p2a: Terrakion|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Terrakion|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-damage|p2a: Terrakion|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|-damage|p1a: Scizor|6/100|[from] item: Life Orb
+|
+|-heal|p2a: Landorus|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|67/100
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|61/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|86/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100|[from]move: Volt Switch
+|move|p2a: Tyranitar|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: XXSuperNova|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|94/100|[from] Sandstorm
+|-heal|p1a: Conkeldurr|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Landorus|Landorus-Therian, M|72/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Conkeldurr|atk|1
+|move|p1a: Conkeldurr|Bulk Up|p1a: Conkeldurr
+|-boost|p1a: Conkeldurr|atk|1
+|-boost|p1a: Conkeldurr|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|94/100|[from] Sandstorm
+|-heal|p2a: Landorus|78/100|[from] item: Leftovers
+|-heal|p1a: Conkeldurr|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Landorus|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|64/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|58/100|[from] Sandstorm
+|-heal|p1a: Conkeldurr|64/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|turn|11
+|inactive|XXSuperNova has 120 seconds left.
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|-damage|p1a: Espeon|88/100|[from] Stealth Rock
+|move|p2a: Slowking|Psyshock|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|62/100|[from] Sandstorm
+|-damage|p2a: Slowking|94/100|[from] Sandstorm
+|-heal|p2a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|II Armando II has 120 seconds left.
+|
+|move|p1a: Espeon|Reflect|p1a: Espeon
+|-sidestart|p1: XXSuperNova|Reflect
+|move|p2a: Slowking|Scald|p1a: Espeon
+|-damage|p1a: Espeon|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|26/100|[from] Sandstorm
+|-damage|p2a: Slowking|94/100|[from] Sandstorm
+|-heal|p2a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|II Armando II has 120 seconds left.
+|l| Art Imitates Me
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|move|p2a: Slowking|Scald|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|74/100|[from] Sandstorm
+|-damage|p2a: Slowking|94/100|[from] Sandstorm
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|-heal|p2a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|II Armando II has 120 seconds left.
+|inactive|XXSuperNova has 90 seconds left.
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|64/100
+|-damage|p1a: Conkeldurr|58/100|[from] Stealth Rock
+|switch|p2a: Terrakion|Terrakion|82/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|51/100|[from] Sandstorm
+|-heal|p1a: Conkeldurr|58/100|[from] item: Leftovers
+|-damage|p2a: Terrakion|76/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|II Armando II has 120 seconds left.
+|inactive|XXSuperNova has 90 seconds left.
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|18/100 tox
+|move|p2a: Terrakion|Close Combat|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|11/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|5/100|[from] Sandstorm
+|-heal|p1a: Conkeldurr|11/100|[from] item: Leftovers
+|-damage|p2a: Terrakion|5/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|II Armando II has 120 seconds left.
+|inactive|XXSuperNova has 90 seconds left.
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|5/100|[from] Sandstorm
+|-damage|p2a: Slowking|86/100|[from] Sandstorm
+|-heal|p1a: Conkeldurr|11/100|[from] item: Leftovers
+|-heal|p2a: Slowking|92/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|XXSuperNova has 90 seconds left.
+|j| Mamutcerdo
+|
+|switch|p1a: Blissey|Blissey, F|80/100
+|-damage|p1a: Blissey|67/100|[from] Stealth Rock
+|move|p2a: Slowking|Scald|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|52/100|[from] Sandstorm
+|-damage|p2a: Slowking|86/100|[from] Sandstorm
+|-heal|p1a: Blissey|59/100|[from] item: Leftovers
+|-heal|p2a: Slowking|92/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|XXSuperNova has 90 seconds left.
+|inactive|II Armando II has 120 seconds left.
+|
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|move|p2a: Slowking|Nasty Plot|p2a: Slowking
+|-boost|p2a: Slowking|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-damage|p2a: Slowking|86/100|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Slowking|92/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|XXSuperNova has 90 seconds left.
+|
+|move|p1a: Blissey|Toxic|p2a: Slowking
+|-status|p2a: Slowking|tox
+|move|p2a: Slowking|Nasty Plot|p2a: Slowking
+|-boost|p2a: Slowking|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] Sandstorm
+|-damage|p2a: Slowking|86/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-heal|p2a: Slowking|92/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowking|86/100 tox|[from] psn
+|-sideend|p1: XXSuperNova|Reflect
+|upkeep
+|turn|20
+|inactive|XXSuperNova has 90 seconds left.
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Slowking
+|-damage|p2a: Slowking|61/100 tox
+|move|p2a: Slowking|Psyshock|p1a: Blissey
+|-damage|p1a: Blissey|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|9/100|[from] Sandstorm
+|-damage|p2a: Slowking|54/100 tox|[from] Sandstorm
+|-heal|p1a: Blissey|15/100|[from] item: Leftovers
+|-heal|p2a: Slowking|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowking|48/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|XXSuperNova has 90 seconds left.
+|
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|65/100
+|move|p2a: Slowking|Psyshock|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|42/100 tox|[from] Sandstorm
+|-heal|p2a: Slowking|48/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowking|30/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Espeon|Espeon, F|26/100
+|-damage|p1a: Espeon|13/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Espeon|Reflect|p1a: Espeon
+|-sidestart|p1: XXSuperNova|Reflect
+|move|p2a: Slowking|Scald|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|24/100 tox|[from] Sandstorm
+|-heal|p2a: Slowking|30/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowking|6/100 tox|[from] psn
+|upkeep
+|inactive|XXSuperNova has 60 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|61/100
+|-damage|p1a: Rotom|48/100|[from] Stealth Rock
+|turn|23
+|inactive|XXSuperNova has 60 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|inactive|XXSuperNova has 60 seconds left.
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|11/100|[from]move: Volt Switch
+|-damage|p1a: Conkeldurr|5/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|0 fnt|[from] Sandstorm
+|faint|p1a: Conkeldurr
+|upkeep
+|inactive|XXSuperNova has 60 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|48/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p1a: Rotom|36/100|[from] Stealth Rock
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|24
+|
+|move|p1a: Rotom|Hidden Power|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|30/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|25
+|
+|switch|p1a: Scizor|Scizor, M|6/100
+|-damage|p1a: Scizor|0 fnt|[from] Stealth Rock
+|faint|p1a: Scizor
+|move|p2a: Excadrill|Iron Head|p1: Scizor|[notarget]
+|-fail|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|30/100
+|-damage|p1a: Rotom|17/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|11/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|5/100 tox
+|turn|27
+|
+|move|p2a: Terrakion|Quick Attack|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|II Armando II
+|c|☆XXSuperNova|ok gg
+|c|☆XXSuperNova|haha
+|l|☆II Armando II
+|raw|XXSuperNova's rating: 1345 &rarr; <strong>1330</strong><br />(-15 for losing)
+|raw|II Armando II's rating: 1432 &rarr; <strong>1447</strong><br />(+15 for winning)

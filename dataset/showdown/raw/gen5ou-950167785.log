@@ -1,0 +1,429 @@
+|j|☆yoloboy9000
+|j|☆porrompompom
+|player|p1|yoloboy9000|2|1397
+|player|p2|porrompompom|102|1594
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Terrakion|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Milotic, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|
+|start
+|switch|p1a: Bron Bron|Landorus-Therian, M|100/100
+|switch|p2a: Milotic|Milotic, F|100/100
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|turn|1
+|
+|move|p1a: Bron Bron|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|80/100
+|
+|switch|p1a: Pat Riely|Tyranitar, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Pat Riely
+|move|p2a: Milotic|Scald|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|78/100
+|-status|p1a: Pat Riely|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|74/100|[from] Sandstorm
+|-heal|p2a: Milotic|80/100|[from] item: Leftovers
+|-heal|p1a: Pat Riely|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Pat Riely|72/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Pat Riely|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Pat Riely|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Pat Riely|66/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|100/100
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rapid Spin|p1a: Bron Bron
+|-damage|p1a: Bron Bron|95/100
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bron Bron|atk|1
+|move|p1a: Bron Bron|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|5
+|
+|switch|p1a: Pat Riely|Tyranitar, M|66/100 brn
+|move|p2a: Tyranitar|Stealth Rock|p1a: Pat Riely
+|-sidestart|p1: yoloboy9000|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Pat Riely|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Pat Riely|60/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Pat Riely|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Pat Riely|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Pat Riely|53/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|95/100
+|-damage|p1a: Bron Bron|83/100|[from] Stealth Rock
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rapid Spin|p1a: Bron Bron
+|-damage|p1a: Bron Bron|78/100
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Bron Bron|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|69/100
+|
+|switch|p1a: Ray Allen|Magnezone|100/100|[from]move: U-turn
+|-damage|p1a: Ray Allen|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|63/100|[from] Sandstorm
+|-heal|p1a: Ray Allen|100/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|69/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Ray Allen|Hidden Power|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|38/100
+|move|p2a: Amoonguss|Spore|p1a: Ray Allen
+|-status|p1a: Ray Allen|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|32/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|38/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Miller|Scizor, F, shiny|100/100
+|-damage|p1a: Miller|88/100|[from] Stealth Rock
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Milotic|Milotic, F|80/100
+|move|p1a: Miller|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|34/100
+|
+|switch|p1a: D.Wade|Terrakion|100/100|[from]move: U-turn
+|-damage|p1a: D.Wade|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|28/100|[from] Sandstorm
+|-heal|p2a: Milotic|34/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: D.Wade|Close Combat|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|faint|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|13
+|
+|switch|p1a: Pat Riely|Tyranitar, M|53/100 brn
+|-damage|p1a: Pat Riely|41/100 brn|[from] Stealth Rock
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Pat Riely|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Pat Riely|35/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Latios|Surf|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|0 fnt
+|faint|p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Miller|Scizor, F, shiny|88/100
+|-damage|p1a: Miller|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Miller|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|21/100
+|move|p2a: Latios|Draco Meteor|p1a: Miller|[miss]
+|-miss|p2a: Latios|p1a: Miller
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|15/100|[from] Sandstorm
+|upkeep
+|turn|16
+|c|☆porrompompom|sigh
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Miller|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|71/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|78/100
+|-damage|p1a: Bron Bron|65/100|[from] Stealth Rock
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Iron Head|p1a: Bron Bron
+|-damage|p1a: Bron Bron|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|77/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Latios|Latios, M|15/100
+|move|p1a: Bron Bron|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|9/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|switch|p1a: Miller|Scizor, F, shiny|76/100
+|-damage|p1a: Miller|64/100|[from] Stealth Rock
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|59/100
+|-singleturn|p2a: Latios|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|53/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|move|p2a: Latios|Draco Meteor|p1a: Miller
+|-enditem|p2a: Latios|Dragon Gem|[from] gem|[move] Draco Meteor
+|-resisted|p1a: Miller
+|-damage|p1a: Miller|4/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Miller|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|switch|p1a: Ray Allen|Magnezone|100/100 slp|[from]move: U-turn
+|-damage|p1a: Ray Allen|94/100 slp|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ray Allen|100/100 slp|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|77/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|21
+|
+|switch|p1a: Miller|Scizor, F, shiny|4/100
+|-damage|p1a: Miller|0 fnt|[from] Stealth Rock
+|faint|p1a: Miller
+|move|p2a: Excadrill|Earthquake|p1: Miller|[notarget]
+|-fail|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|83/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: D.Wade|Terrakion|94/100
+|-damage|p1a: D.Wade|88/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Amoonguss|Amoonguss, M|71/100
+|move|p1a: D.Wade|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|37/100
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|31/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|37/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: D.Wade|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|4/100
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|move|p2a: Amoonguss|Giga Drain|p1a: D.Wade
+|-supereffective|p1a: D.Wade
+|-damage|p1a: D.Wade|10/100
+|-heal|p2a: Amoonguss|33/100|[from] drain|[of] p1a: D.Wade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|27/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|33/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p1a: D.Wade|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|25
+|
+|move|p1a: D.Wade|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|2/100
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|move|p2a: Tyranitar|Pursuit|p1a: D.Wade
+|-resisted|p1a: D.Wade
+|-damage|p1a: D.Wade|0 fnt
+|faint|p1a: D.Wade
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|37/100
+|-damage|p1a: Bron Bron|25/100|[from] Stealth Rock
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|turn|26
+|
+|move|p1a: Bron Bron|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|83/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|27
+|
+|switch|p1a: Ray Allen|Magnezone|100/100 slp
+|-damage|p1a: Ray Allen|94/100 slp|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Ray Allen
+|-resisted|p1a: Ray Allen
+|-crit|p1a: Ray Allen
+|-damage|p1a: Ray Allen|72/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|89/100|[from] item: Leftovers
+|-heal|p1a: Ray Allen|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|25/100
+|-damage|p1a: Bron Bron|12/100|[from] Stealth Rock
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|95/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Excadrill|Iron Head|p1a: Bron Bron
+|-damage|p1a: Bron Bron|0 fnt
+|faint|p1a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bosh|Latios, M, shiny|100/100
+|-damage|p1a: Bosh|88/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Bosh|Surf|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|yoloboy9000
+|c|☆yoloboy9000|yeet?
+|raw|yoloboy9000's rating: 1398 &rarr; <strong>1428</strong><br />(+30 for winning)
+|raw|porrompompom's rating: 1594 &rarr; <strong>1563</strong><br />(-31 for losing)
+|c|☆porrompompom|yummy draco miss
+|c|☆yoloboy9000|lol
+|l|☆porrompompom
+|c|☆yoloboy9000|u sould have stillm lost

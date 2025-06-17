@@ -1,0 +1,688 @@
+|join|dberman1
+|join|reunicluss
+|player|p1|dberman1|266
+|player|p2|reunicluss|163
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Kyurem-Black
+|poke|p1|Vaporeon, F
+|poke|p1|Abomasnow, M
+|poke|p1|Heatran, F
+|poke|p1|Forretress, M
+|poke|p1|Reuniclus, F
+|poke|p2|Liepard, M
+|poke|p2|Whimsicott, M
+|poke|p2|Sableye, F
+|poke|p2|Skarmory, M
+|poke|p2|Tentacruel, F
+|poke|p2|Porygon2
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|321/321
+|switch|p2a: BAN SWAGGER|Skarmory, M|271/271
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|switch|p1a: Heatran|Heatran, F|386/386
+|move|p2a: BAN SWAGGER|Stealth Rock|p1a: Heatran
+|-sidestart|p1: dberman1|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: BAN SWAGGER|255/271|[from] hail
+|-damage|p1a: Heatran|362/386|[from] hail
+|-heal|p1a: Heatran|386/386|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Swagger IMO|Tentacruel, F|363/363
+|move|p1a: Heatran|Lava Plume|p2a: Swagger IMO
+|-resisted|p2a: Swagger IMO
+|-damage|p2a: Swagger IMO|320/363
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|298/363|[from] hail
+|-damage|p1a: Heatran|362/386|[from] hail
+|-heal|p2a: Swagger IMO|320/363|[from] item: Black Sludge
+|-heal|p1a: Heatran|386/386|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Reuniclus|Reuniclus, F|409/409
+|move|p2a: Swagger IMO|Toxic Spikes|p1a: Reuniclus
+|-sidestart|p1: dberman1|move: Toxic Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|298/363|[from] hail
+|-heal|p2a: Swagger IMO|320/363|[from] item: Black Sludge
+|turn|4
+|
+|switch|p2a: Swagger=garbage|Sableye, F|304/304
+|move|p1a: Reuniclus|Focus Blast|p2a: Swagger=garbage
+|-immune|p2a: Swagger=garbage|[msg]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger=garbage|285/304|[from] hail
+|-heal|p2a: Swagger=garbage|304/304|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Heatran|Heatran, F|386/386
+|-damage|p1a: Heatran|338/386|[from] Stealth Rock
+|move|p2a: Swagger=garbage|Swagger|p1a: Heatran
+|-boost|p1a: Heatran|atk|2
+|-start|p1a: Heatran|confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|314/386|[from] hail
+|-damage|p2a: Swagger=garbage|285/304|[from] hail
+|-heal|p1a: Heatran|338/386|[from] item: Leftovers
+|-heal|p2a: Swagger=garbage|304/304|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Swagger IMO|Tentacruel, F|320/363
+|-activate|p1a: Heatran|confusion
+|-damage|p1a: Heatran|296/386|[from] confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|298/363|[from] hail
+|-damage|p1a: Heatran|272/386|[from] hail
+|-heal|p2a: Swagger IMO|320/363|[from] item: Black Sludge
+|-heal|p1a: Heatran|296/386|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Forretress|Forretress, M|354/354
+|-damage|p1a: Forretress|310/354|[from] Stealth Rock
+|move|p2a: Swagger IMO|Toxic Spikes|p1a: Forretress
+|-sidestart|p1: dberman1|move: Toxic Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|298/363|[from] hail
+|-heal|p2a: Swagger IMO|320/363|[from] item: Black Sludge
+|-heal|p1a: Forretress|332/354|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Swagger=garbage|Sableye, F|304/304
+|move|p1a: Forretress|Volt Switch|p2a: Swagger=garbage
+|-damage|p2a: Swagger=garbage|267/304
+|
+|switch|p1a: Heatran|Heatran, F|296/386
+|-damage|p1a: Heatran|248/386|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|224/386|[from] hail
+|-damage|p2a: Swagger=garbage|248/304|[from] hail
+|-heal|p1a: Heatran|248/386|[from] item: Leftovers
+|-heal|p2a: Swagger=garbage|267/304|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Swagger=garbage|Swagger|p1a: Heatran
+|-boost|p1a: Heatran|atk|2
+|-start|p1a: Heatran|confusion
+|-activate|p1a: Heatran|confusion
+|move|p1a: Heatran|Toxic|p2a: Swagger=garbage
+|-status|p2a: Swagger=garbage|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|224/386|[from] hail
+|-damage|p2a: Swagger=garbage|248/304 tox|[from] hail
+|-heal|p1a: Heatran|248/386|[from] item: Leftovers
+|-heal|p2a: Swagger=garbage|267/304 tox|[from] item: Leftovers
+|-damage|p2a: Swagger=garbage|248/304 tox|[from] psn
+|turn|10
+|
+|switch|p1a: Reuniclus|Reuniclus, F|409/409
+|-status|p1a: Reuniclus|tox
+|switch|p2a: Swagger IMO|Tentacruel, F|320/363
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|298/363|[from] hail
+|-heal|p2a: Swagger IMO|320/363|[from] item: Black Sludge
+|turn|11
+|
+|switch|p2a: BAN SWAGGER|Skarmory, M|255/271
+|move|p1a: Reuniclus|Psychic|p2a: BAN SWAGGER
+|-resisted|p2a: BAN SWAGGER
+|-damage|p2a: BAN SWAGGER|94/271
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: BAN SWAGGER|78/271|[from] hail
+|turn|12
+|
+|move|p2a: BAN SWAGGER|Spikes|p1a: Reuniclus
+|-sidestart|p1: dberman1|Spikes
+|move|p1a: Reuniclus|Focus Blast|p2a: BAN SWAGGER
+|-damage|p2a: BAN SWAGGER|0 fnt
+|faint|p2a: BAN SWAGGER
+|
+|-weather|Hail|[upkeep]
+|
+|switch|p2a: SWAGGER|Whimsicott, M|323/323
+|turn|13
+|
+|move|p2a: SWAGGER|Swagger|p1a: Reuniclus
+|-boost|p1a: Reuniclus|atk|2
+|-start|p1a: Reuniclus|confusion
+|-activate|p1a: Reuniclus|confusion
+|-damage|p1a: Reuniclus|358/409 tox|[from] confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|303/323|[from] hail
+|-heal|p2a: SWAGGER|323/323|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: SWAGGER|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|-activate|p1a: Reuniclus|confusion
+|move|p1a: Reuniclus|Psychic|p2a: SWAGGER
+|-damage|p2a: SWAGGER|92/323
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|72/323|[from] hail
+|-heal|p2a: SWAGGER|92/323|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: SWAGGER|Encore|p1a: Reuniclus
+|-start|p1a: Reuniclus|Encore
+|-activate|p1a: Reuniclus|confusion
+|-damage|p1a: Reuniclus|305/409 tox|[from] confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|72/323|[from] hail
+|-heal|p2a: SWAGGER|92/323|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Heatran|Heatran, F|248/386
+|-damage|p1a: Heatran|200/386|[from] Spikes
+|-damage|p1a: Heatran|152/386|[from] Stealth Rock
+|move|p2a: SWAGGER|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|72/323|[from] hail
+|-damage|p1a: Heatran|128/386|[from] hail
+|-heal|p2a: SWAGGER|92/323|[from] item: Leftovers
+|-heal|p1a: Heatran|152/386|[from] item: Leftovers
+|-damage|p1a: Heatran|104/386|[from] Leech Seed|[of] p2a: SWAGGER
+|-heal|p2a: SWAGGER|140/323|[silent]
+|turn|17
+|
+|move|p2a: SWAGGER|Swagger|p1a: Heatran
+|-boost|p1a: Heatran|atk|2
+|-start|p1a: Heatran|confusion
+|-activate|p1a: Heatran|confusion
+|-damage|p1a: Heatran|61/386|[from] confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|120/323|[from] hail
+|-damage|p1a: Heatran|37/386|[from] hail
+|-heal|p2a: SWAGGER|140/323|[from] item: Leftovers
+|-heal|p1a: Heatran|61/386|[from] item: Leftovers
+|-damage|p1a: Heatran|13/386|[from] Leech Seed|[of] p2a: SWAGGER
+|-heal|p2a: SWAGGER|188/323|[silent]
+|turn|18
+|
+|switch|p2a: Swagger IMO|Tentacruel, F|320/363
+|-activate|p1a: Heatran|confusion
+|-damage|p1a: Heatran|0 fnt|[from] confusion
+|faint|p1a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|298/363|[from] hail
+|-heal|p2a: Swagger IMO|320/363|[from] item: Black Sludge
+|
+|switch|p1a: Reuniclus|Reuniclus, F|305/409 tox
+|turn|19
+|
+|switch|p2a: Swagger=garbage|Sableye, F|248/304 tox
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger=garbage|229/304 tox|[from] hail
+|-heal|p2a: Swagger=garbage|248/304 tox|[from] item: Leftovers
+|-damage|p2a: Swagger=garbage|229/304 tox|[from] psn
+|turn|20
+|
+|move|p2a: Swagger=garbage|Swagger|p1a: Reuniclus
+|-boost|p1a: Reuniclus|atk|2
+|-start|p1a: Reuniclus|confusion
+|-activate|p1a: Reuniclus|confusion
+|-damage|p1a: Reuniclus|253/409 tox|[from] confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger=garbage|210/304 tox|[from] hail
+|-heal|p2a: Swagger=garbage|229/304 tox|[from] item: Leftovers
+|-damage|p2a: Swagger=garbage|191/304 tox|[from] psn
+|turn|21
+|
+|-end|p1a: Reuniclus|confusion
+|move|p1a: Reuniclus|Shadow Ball|p2a: Swagger=garbage
+|-damage|p2a: Swagger=garbage|62/304 tox
+|move|p2a: Swagger=garbage|Foul Play|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger=garbage|43/304 tox|[from] hail
+|-heal|p2a: Swagger=garbage|62/304 tox|[from] item: Leftovers
+|-damage|p2a: Swagger=garbage|5/304 tox|[from] psn
+|
+|switch|p1a: Abomasnow|Abomasnow, M|321/321
+|-damage|p1a: Abomasnow|241/321|[from] Stealth Rock
+|-status|p1a: Abomasnow|tox
+|-damage|p1a: Abomasnow|201/321 tox|[from] Spikes
+|turn|22
+|
+|switch|p2a: Swag...Swagger|Porygon2|374/374
+|-ability|p2a: Swag...Swagger|Snow Warning|[from] ability: Trace|[of] p1a: Abomasnow
+|move|p1a: Abomasnow|Ice Shard|p2a: Swag...Swagger
+|-crit|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|310/374
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|287/374|[from] hail
+|-damage|p1a: Abomasnow|181/321 tox|[from] psn
+|turn|23
+|
+|switch|p1a: Forretress|Forretress, M|332/354
+|-damage|p1a: Forretress|288/354|[from] Stealth Rock
+|-damage|p1a: Forretress|244/354|[from] Spikes
+|move|p2a: Swag...Swagger|Swagger|p1a: Forretress
+|-boost|p1a: Forretress|atk|2
+|-start|p1a: Forretress|confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|264/374|[from] hail
+|-heal|p1a: Forretress|266/354|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|24
+|
+|switch|p2a: Swagger=garbage|Sableye, F|5/304 tox
+|-activate|p1a: Forretress|confusion
+|move|p1a: Forretress|Rapid Spin|p2a: Swagger=garbage
+|-immune|p2a: Swagger=garbage|[msg]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger=garbage|0 fnt|[from] hail
+|-heal|p1a: Forretress|288/354|[from] item: Leftovers
+|faint|p2a: Swagger=garbage
+|
+|switch|p2a: Swagger IMO|Tentacruel, F|320/363
+|turn|25
+|
+|move|p2a: Swagger IMO|Scald|p1a: Forretress
+|-damage|p1a: Forretress|170/354
+|-status|p1a: Forretress|brn
+|-activate|p1a: Forretress|confusion
+|-damage|p1a: Forretress|153/354 brn|[from] confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|298/363|[from] hail
+|-heal|p2a: Swagger IMO|320/363|[from] item: Black Sludge
+|-heal|p1a: Forretress|175/354 brn|[from] item: Leftovers
+|-damage|p1a: Forretress|131/354 brn|[from] brn
+|turn|26
+|
+|move|p2a: Swagger IMO|Scald|p1a: Forretress
+|-damage|p1a: Forretress|4/354 brn
+|-activate|p1a: Forretress|confusion
+|move|p1a: Forretress|Rapid Spin|p2a: Swagger IMO
+|-damage|p2a: Swagger IMO|301/363
+|-sideend|p1: dberman1|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: dberman1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: dberman1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|279/363|[from] hail
+|-heal|p2a: Swagger IMO|301/363|[from] item: Black Sludge
+|-heal|p1a: Forretress|26/354 brn|[from] item: Leftovers
+|-damage|p1a: Forretress|0 fnt|[from] brn
+|faint|p1a: Forretress
+|
+|switch|p1a: Kyurem-Black|Kyurem-Black|405/405
+|-ability|p1a: Kyurem-Black|Teravolt
+|turn|27
+|
+|move|p1a: Kyurem-Black|Substitute|p1a: Kyurem-Black
+|-start|p1a: Kyurem-Black|Substitute
+|-damage|p1a: Kyurem-Black|304/405
+|move|p2a: Swagger IMO|Toxic Spikes|p1a: Kyurem-Black
+|-sidestart|p1: dberman1|move: Toxic Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger IMO|279/363|[from] hail
+|-heal|p1a: Kyurem-Black|329/405|[from] item: Leftovers
+|-heal|p2a: Swagger IMO|301/363|[from] item: Black Sludge
+|turn|28
+|
+|move|p1a: Kyurem-Black|Fusion Bolt|p2a: Swagger IMO
+|-supereffective|p2a: Swagger IMO
+|-damage|p2a: Swagger IMO|0 fnt
+|faint|p2a: Swagger IMO
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Kyurem-Black|354/405|[from] item: Leftovers
+|
+|switch|p2a: Swag...Swagger|Porygon2|264/374
+|-ability|p2a: Swag...Swagger|Teravolt|[from] ability: Trace|[of] p1a: Kyurem-Black
+|-ability|p2a: Swag...Swagger|Teravolt
+|turn|29
+|
+|move|p1a: Kyurem-Black|Dragon Claw|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|158/374
+|move|p2a: Swag...Swagger|Recover|p2a: Swag...Swagger
+|-heal|p2a: Swag...Swagger|345/374
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|322/374|[from] hail
+|-heal|p1a: Kyurem-Black|379/405|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Kyurem-Black|Dragon Claw|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|214/374
+|move|p2a: Swag...Swagger|Foul Play|p1a: Kyurem-Black
+|-end|p1a: Kyurem-Black|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|191/374|[from] hail
+|-heal|p1a: Kyurem-Black|404/405|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Kyurem-Black|Substitute|p1a: Kyurem-Black
+|-start|p1a: Kyurem-Black|Substitute
+|-damage|p1a: Kyurem-Black|303/405
+|move|p2a: Swag...Swagger|Recover|p2a: Swag...Swagger
+|-heal|p2a: Swag...Swagger|374/374
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|351/374|[from] hail
+|-heal|p1a: Kyurem-Black|328/405|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Kyurem-Black|Dragon Claw|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|255/374
+|move|p2a: Swag...Swagger|Foul Play|p1a: Kyurem-Black
+|-crit|p1a: Kyurem-Black
+|-end|p1a: Kyurem-Black|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|232/374|[from] hail
+|-heal|p1a: Kyurem-Black|353/405|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Kyurem-Black|Blizzard|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|115/374
+|move|p2a: Swag...Swagger|Recover|p2a: Swag...Swagger
+|-heal|p2a: Swag...Swagger|302/374
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|279/374|[from] hail
+|-heal|p1a: Kyurem-Black|378/405|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: Kyurem-Black|Blizzard|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|162/374
+|move|p2a: Swag...Swagger|Foul Play|p1a: Kyurem-Black
+|-damage|p1a: Kyurem-Black|217/405
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|139/374|[from] hail
+|-heal|p1a: Kyurem-Black|242/405|[from] item: Leftovers
+|turn|35
+|
+|move|p1a: Kyurem-Black|Substitute|p1a: Kyurem-Black
+|-start|p1a: Kyurem-Black|Substitute
+|-damage|p1a: Kyurem-Black|141/405
+|move|p2a: Swag...Swagger|Recover|p2a: Swag...Swagger
+|-heal|p2a: Swag...Swagger|326/374
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|303/374|[from] hail
+|-heal|p1a: Kyurem-Black|166/405|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Kyurem-Black|Blizzard|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|197/374
+|move|p2a: Swag...Swagger|Foul Play|p1a: Kyurem-Black
+|-end|p1a: Kyurem-Black|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|174/374|[from] hail
+|-heal|p1a: Kyurem-Black|191/405|[from] item: Leftovers
+|turn|37
+|
+|move|p1a: Kyurem-Black|Blizzard|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|66/374
+|move|p2a: Swag...Swagger|Recover|p2a: Swag...Swagger
+|-heal|p2a: Swag...Swagger|253/374
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|230/374|[from] hail
+|-heal|p1a: Kyurem-Black|216/405|[from] item: Leftovers
+|turn|38
+|
+|move|p1a: Kyurem-Black|Blizzard|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|118/374
+|move|p2a: Swag...Swagger|Recover|p2a: Swag...Swagger
+|-heal|p2a: Swag...Swagger|305/374
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|282/374|[from] hail
+|-heal|p1a: Kyurem-Black|241/405|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: Kyurem-Black|Blizzard|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|173/374
+|move|p2a: Swag...Swagger|Foul Play|p1a: Kyurem-Black
+|-damage|p1a: Kyurem-Black|71/405
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|150/374|[from] hail
+|-heal|p1a: Kyurem-Black|96/405|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: Kyurem-Black|Blizzard|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|33/374
+|move|p2a: Swag...Swagger|Recover|p2a: Swag...Swagger
+|-heal|p2a: Swag...Swagger|220/374
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|197/374|[from] hail
+|-heal|p1a: Kyurem-Black|121/405|[from] item: Leftovers
+|turn|41
+|
+|move|p1a: Kyurem-Black|Blizzard|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|89/374
+|move|p2a: Swag...Swagger|Foul Play|p1a: Kyurem-Black
+|-damage|p1a: Kyurem-Black|0 fnt
+|faint|p1a: Kyurem-Black
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swag...Swagger|66/374|[from] hail
+|
+|switch|p1a: Abomasnow|Abomasnow, M|181/321 tox
+|turn|42
+|
+|move|p1a: Abomasnow|Wood Hammer|p2a: Swag...Swagger
+|-damage|p2a: Swag...Swagger|0 fnt
+|-damage|p1a: Abomasnow|159/321 tox|[from] recoil|[of] p2a: Swag...Swagger
+|faint|p2a: Swag...Swagger
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Abomasnow|139/321 tox|[from] psn
+|
+|switch|p2a: Swagger please|Liepard, M|331/331
+|turn|43
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Swagger please
+|-damage|p2a: Swagger please|237/331
+|move|p2a: Swagger please|Foul Play|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger please|217/331|[from] hail
+|-heal|p2a: Swagger please|237/331|[from] item: Leftovers
+|
+|switch|p1a: Vaporeon|Vaporeon, F|464/464
+|-status|p1a: Vaporeon|psn
+|turn|44
+|
+|move|p2a: Swagger please|Swagger|p1a: Vaporeon|[miss]
+|-miss|p2a: Swagger please|p1a: Vaporeon
+|move|p1a: Vaporeon|Heal Bell|p1a: Vaporeon
+|-cureteam|p1a: Vaporeon|[from] move: HealBell
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger please|217/331|[from] hail
+|-damage|p1a: Vaporeon|435/464|[from] hail
+|-heal|p2a: Swagger please|237/331|[from] item: Leftovers
+|-heal|p1a: Vaporeon|464/464|[from] item: Leftovers
+|turn|45
+|
+|move|p2a: Swagger please|Swagger|p1a: Vaporeon|[miss]
+|-miss|p2a: Swagger please|p1a: Vaporeon
+|move|p1a: Vaporeon|Scald|p2a: Swagger please
+|-damage|p2a: Swagger please|101/331
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swagger please|81/331|[from] hail
+|-damage|p1a: Vaporeon|435/464|[from] hail
+|-heal|p2a: Swagger please|101/331|[from] item: Leftovers
+|-heal|p1a: Vaporeon|464/464|[from] item: Leftovers
+|turn|46
+|
+|move|p2a: Swagger please|Swagger|p1a: Vaporeon
+|-boost|p1a: Vaporeon|atk|2
+|-start|p1a: Vaporeon|confusion
+|-activate|p1a: Vaporeon|confusion
+|move|p1a: Vaporeon|Scald|p2a: Swagger please
+|-damage|p2a: Swagger please|0 fnt
+|faint|p2a: Swagger please
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vaporeon|435/464|[from] hail
+|-heal|p1a: Vaporeon|464/464|[from] item: Leftovers
+|
+|switch|p2a: SWAGGER|Whimsicott, M|188/323
+|turn|47
+|
+|move|p2a: SWAGGER|Leech Seed|p1a: Vaporeon
+|-start|p1a: Vaporeon|move: Leech Seed
+|-activate|p1a: Vaporeon|confusion
+|move|p1a: Vaporeon|Scald|p2a: SWAGGER
+|-resisted|p2a: SWAGGER
+|-damage|p2a: SWAGGER|135/323
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|115/323|[from] hail
+|-damage|p1a: Vaporeon|435/464|[from] hail
+|-heal|p2a: SWAGGER|135/323|[from] item: Leftovers
+|-heal|p1a: Vaporeon|464/464|[from] item: Leftovers
+|-damage|p1a: Vaporeon|406/464|[from] Leech Seed|[of] p2a: SWAGGER
+|-heal|p2a: SWAGGER|193/323|[silent]
+|turn|48
+|
+|move|p2a: SWAGGER|Swagger|p1a: Vaporeon
+|-boost|p1a: Vaporeon|atk|2
+|-end|p1a: Vaporeon|confusion
+|move|p1a: Vaporeon|Scald|p2a: SWAGGER
+|-resisted|p2a: SWAGGER
+|-damage|p2a: SWAGGER|142/323
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|122/323|[from] hail
+|-damage|p1a: Vaporeon|377/464|[from] hail
+|-heal|p2a: SWAGGER|142/323|[from] item: Leftovers
+|-heal|p1a: Vaporeon|406/464|[from] item: Leftovers
+|-damage|p1a: Vaporeon|348/464|[from] Leech Seed|[of] p2a: SWAGGER
+|-heal|p2a: SWAGGER|200/323|[silent]
+|turn|49
+|
+|move|p2a: SWAGGER|Swagger|p1a: Vaporeon|[miss]
+|-miss|p2a: SWAGGER|p1a: Vaporeon
+|move|p1a: Vaporeon|Scald|p2a: SWAGGER
+|-resisted|p2a: SWAGGER
+|-damage|p2a: SWAGGER|143/323
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|123/323|[from] hail
+|-damage|p1a: Vaporeon|319/464|[from] hail
+|-heal|p2a: SWAGGER|143/323|[from] item: Leftovers
+|-heal|p1a: Vaporeon|348/464|[from] item: Leftovers
+|-damage|p1a: Vaporeon|290/464|[from] Leech Seed|[of] p2a: SWAGGER
+|-heal|p2a: SWAGGER|201/323|[silent]
+|turn|50
+|
+|move|p2a: SWAGGER|Swagger|p1a: Vaporeon
+|-boost|p1a: Vaporeon|atk|2
+|-start|p1a: Vaporeon|confusion
+|-activate|p1a: Vaporeon|confusion
+|move|p1a: Vaporeon|Scald|p2a: SWAGGER
+|-crit|p2a: SWAGGER
+|-resisted|p2a: SWAGGER
+|-damage|p2a: SWAGGER|84/323
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|64/323|[from] hail
+|-damage|p1a: Vaporeon|261/464|[from] hail
+|-heal|p2a: SWAGGER|84/323|[from] item: Leftovers
+|-heal|p1a: Vaporeon|290/464|[from] item: Leftovers
+|-damage|p1a: Vaporeon|232/464|[from] Leech Seed|[of] p2a: SWAGGER
+|-heal|p2a: SWAGGER|142/323|[silent]
+|turn|51
+|
+|move|p2a: SWAGGER|Taunt|p1a: Vaporeon
+|-start|p1a: Vaporeon|move: Taunt
+|-activate|p1a: Vaporeon|confusion
+|move|p1a: Vaporeon|Scald|p2a: SWAGGER
+|-crit|p2a: SWAGGER
+|-resisted|p2a: SWAGGER
+|-damage|p2a: SWAGGER|37/323
+|-status|p2a: SWAGGER|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|17/323 brn|[from] hail
+|-damage|p1a: Vaporeon|203/464|[from] hail
+|-heal|p2a: SWAGGER|37/323 brn|[from] item: Leftovers
+|-heal|p1a: Vaporeon|232/464|[from] item: Leftovers
+|-damage|p1a: Vaporeon|174/464|[from] Leech Seed|[of] p2a: SWAGGER
+|-heal|p2a: SWAGGER|95/323 brn|[silent]
+|-damage|p2a: SWAGGER|55/323 brn|[from] brn
+|turn|52
+|
+|move|p2a: SWAGGER|Swagger|p1a: Vaporeon
+|-fail|p1a: Vaporeon
+|-activate|p1a: Vaporeon|confusion
+|-damage|p1a: Vaporeon|113/464|[from] confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: SWAGGER|35/323 brn|[from] hail
+|-damage|p1a: Vaporeon|84/464|[from] hail
+|-heal|p2a: SWAGGER|55/323 brn|[from] item: Leftovers
+|-heal|p1a: Vaporeon|113/464|[from] item: Leftovers
+|-damage|p1a: Vaporeon|55/464|[from] Leech Seed|[of] p2a: SWAGGER
+|-heal|p2a: SWAGGER|113/323 brn|[silent]
+|-damage|p2a: SWAGGER|73/323 brn|[from] brn
+|turn|53
+|
+|move|p2a: SWAGGER|Swagger|p1a: Vaporeon
+|-fail|p1a: Vaporeon
+|-activate|p1a: Vaporeon|confusion
+|-damage|p1a: Vaporeon|0 fnt|[from] confusion
+|faint|p1a: Vaporeon
+|
+|win|reunicluss
+|raw|Ladder updating...
+|raw|dberman1's rating: 1424 &rarr; <strong>1395</strong><br />(-29 for losing)
+|raw|reunicluss's rating: 1264 &rarr; <strong>1299</strong><br />(+35 for winning)

@@ -1,0 +1,364 @@
+|j|☆Shoka
+|j|☆porrompompom
+|player|p1|Shoka|226
+|player|p2|porrompompom|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Slowbro, M|item
+|poke|p2|Sableye, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Tangrowth, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Gastrodon, F|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tangrowth|atk|1
+|turn|1
+|
+|move|p1a: Landorus|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|71/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|switch|p1a: Amoonguss|Amoonguss, M, shiny|100/100
+|move|p2a: Tangrowth|Sleep Powder|p1a: Amoonguss
+|-status|p1a: Amoonguss|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|67/100
+|move|p2a: Forretress|Spikes|p1a: Excadrill
+|-sidestart|p1: Shoka|Spikes
+|
+|-heal|p2a: Forretress|73/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|84/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Forretress|Forretress, M|73/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|70/100
+|-sideend|p1: Shoka|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p2a: Forretress|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Excadrill|Earthquake|p2a: Forretress
+|-crit|p2a: Forretress
+|-damage|p2a: Forretress|12/100
+|move|p2a: Forretress|Spikes|p1a: Excadrill
+|-sidestart|p1: Shoka|Spikes
+|
+|-heal|p2a: Forretress|18/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Tangrowth
+|-damage|p2a: Tangrowth|97/100
+|-damage|p1a: Excadrill|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-sideend|p1: Shoka|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p1a: Excadrill|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Tangrowth|Giga Drain|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-heal|p1a: Excadrill|96/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Excadrill|Toxic|p2a: Tangrowth
+|-status|p2a: Tangrowth|tox
+|move|p2a: Tangrowth|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Tangrowth|90/100 tox|[from] psn
+|upkeep
+|c|☆Shoka|lol
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tangrowth|atk|1
+|turn|10
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Tangrowth
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|move|p2a: Tangrowth|Giga Drain|p1a: Landorus
+|-damage|p1a: Landorus|40/100
+|-heal|p2a: Tangrowth|100/100 tox|[from] drain|[of] p1a: Landorus
+|
+|-damage|p2a: Tangrowth|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Forretress|Forretress, M|18/100
+|-damage|p2a: Forretress|6/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|12/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Tyranitar|Crunch|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|1/100
+|move|p2a: Forretress|Pain Split|p1a: Tyranitar
+|-sethp|p1a: Tyranitar|51/100|p2a: Forretress|55/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|61/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆Shoka|fuck
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Amoonguss|Amoonguss, M, shiny|100/100 slp
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|94/100 slp|[from] Sandstorm
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|100/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: Shoka|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Tangrowth|Tangrowth, M|100/100 tox
+|-damage|p2a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tangrowth|82/100 tox|[from] Sandstorm
+|-damage|p2a: Tangrowth|76/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Tangrowth
+|-enditem|p1a: Terrakion|Rock Gem|[from] gem|[move] Stone Edge
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Terrakion
+|-status|p1a: Terrakion|brn
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sableye|82/100|[from] Sandstorm
+|-heal|p2a: Sableye|88/100|[from] item: Leftovers
+|-damage|p1a: Terrakion|88/100 brn|[from] brn
+|upkeep
+|turn|19
+|j| asbdsp
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sableye|95/100|[from] Sandstorm
+|-heal|p2a: Sableye|100/100|[from] item: Leftovers
+|-damage|p1a: Terrakion|76/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Sableye|Taunt|p1a: Terrakion
+|-start|p1a: Terrakion|move: Taunt
+|move|p1a: Terrakion|Stone Edge|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Terrakion|63/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Slowbro|Slowbro, M, shiny|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Stone Edge|p1a: Slowbro|[miss]
+|-miss|p2a: Tyranitar|p1a: Slowbro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|82/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|switch|p2a: Gastrodon|Gastrodon, F|94/100
+|-damage|p2a: Gastrodon|88/100|[from] Stealth Rock
+|move|p1a: Slowbro|Ice Beam|p2a: Gastrodon
+|-damage|p2a: Gastrodon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|76/100|[from] Sandstorm
+|-heal|p2a: Gastrodon|72/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c| asbdsp|those weak flows don't effect him he is gastrodon
+|
+|switch|p1a: Amoonguss|Amoonguss, M, shiny|100/100 slp
+|-damage|p1a: Amoonguss|88/100 slp|[from] Stealth Rock
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|82/100 slp|[from] Sandstorm
+|-heal|p1a: Amoonguss|88/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|cant|p1a: Amoonguss|slp
+|move|p1a: Amoonguss|Sleep Talk|p1a: Amoonguss
+|move|p1a: Amoonguss|Spore|p2a: Heatran|[from]Sleep Talk
+|-status|p2a: Heatran|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|82/100 slp|[from] Sandstorm
+|-heal|p2a: Heatran|94/100 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|88/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|switch|p1a: Terrakion|Terrakion|63/100 brn
+|-damage|p1a: Terrakion|57/100 brn|[from] Stealth Rock
+|cant|p2a: Heatran|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Terrakion|45/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Amoonguss|Amoonguss, M, shiny|100/100 slp
+|-damage|p1a: Amoonguss|88/100 slp|[from] Stealth Rock
+|switch|p2a: Tyranitar|Tyranitar, M|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|82/100 slp|[from] Sandstorm
+|-heal|p1a: Amoonguss|88/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p1a: Terrakion|Terrakion|45/100 brn
+|-damage|p1a: Terrakion|39/100 brn|[from] Stealth Rock
+|move|p2a: Tyranitar|Stone Edge|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|6/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Terrakion|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Terrakion
+|
+|switch|p1a: Landorus|Landorus-Therian, M|40/100
+|-damage|p1a: Landorus|28/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|turn|28
+|l| asbdsp
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gastrodon|15/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|-message|porrompompom forfeited.
+|
+|win|Shoka
+|l|☆porrompompom
+|raw|Shoka's rating: 1613 &rarr; <strong>1627</strong><br />(+14 for winning)
+|raw|porrompompom's rating: 1510 &rarr; <strong>1495</strong><br />(-15 for losing)
+|l|☆Shoka
+|j|☆porrompompom

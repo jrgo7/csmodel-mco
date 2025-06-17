@@ -1,0 +1,586 @@
+|j|☆Capidaxter
+|j|☆CroCoeur
+|player|p1|Capidaxter|ethan|1316
+|player|p2|CroCoeur|blue|1401
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Latios, M|item
+|poke|p1|Salamence, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Gastrodon, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|start
+|switch|p1a: Padacier|Magnezone|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Padacier|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|81/100
+|
+|switch|p1a: Charle Hurricane|Tornadus, M|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Charle Hurricane|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|59/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Charle Hurricane|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|12/100
+|-start|p2a: Vaporeon|confusion
+|-activate|p2a: Vaporeon|confusion
+|-damage|p2a: Vaporeon|7/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|13/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Charle Hurricane|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Padacier|Magnezone|100/100
+|move|p2a: Jirachi|Thunder|p1a: Padacier
+|-resisted|p1a: Padacier
+|-damage|p1a: Padacier|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Padacier
+|-damage|p1a: Padacier|62/100
+|-start|p1a: Padacier|confusion
+|-activate|p1a: Padacier|confusion
+|move|p1a: Padacier|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|13/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Jirachi|Thunder|p1a: Padacier
+|-resisted|p1a: Padacier
+|-damage|p1a: Padacier|46/100
+|-status|p1a: Padacier|par
+|-activate|p1a: Padacier|confusion
+|-damage|p1a: Padacier|40/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|19/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Padacier
+|-damage|p1a: Padacier|18/100 par
+|-activate|p1a: Padacier|confusion
+|-damage|p1a: Padacier|13/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|25/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|-end|p1a: Padacier|confusion
+|cant|p1a: Padacier|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Padacier
+|-damage|p1a: Padacier|0 fnt
+|faint|p1a: Padacier
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|37/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Charle Hurricane|Tornadus, M|100/100
+|turn|11
+|
+|move|p1a: Charle Hurricane|Focus Blast|p2a: Jirachi|[miss]
+|-miss|p1a: Charle Hurricane|p2a: Jirachi
+|move|p2a: Jirachi|Thunder|p1a: Charle Hurricane
+|-supereffective|p1a: Charle Hurricane
+|-damage|p1a: Charle Hurricane|0 fnt
+|faint|p1a: Charle Hurricane
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tiktak|Salamence, F|100/100
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Tiktak|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Gojira|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gojira
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gojira
+|-start|p1a: Gojira|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|-damage|p1a: Gojira|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|14
+|
+|move|p1a: Gojira|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Gojira|[miss]
+|-miss|p2a: Ferrothorn|p1a: Gojira
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|-damage|p1a: Gojira|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|49/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Gojira|Fire Blast|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|94/100
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Gojira|63/100|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|100/100 brn|[silent]
+|-damage|p2a: Politoed|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Vaporeon|Vaporeon, F|13/100
+|switch|p1a: I LOVE RAIN|Gastrodon, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|19/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|move|p1a: I LOVE RAIN|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|65/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-heal|p2a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|move|p1a: I LOVE RAIN|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|move|p1a: I LOVE RAIN|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|83/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-heal|p2a: Vaporeon|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|49/100
+|switch|p1a: AirBus|Latios, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Gojira|Tyranitar, F|63/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gojira
+|move|p2a: Ferrothorn|Spikes|p1a: Gojira
+|-sidestart|p1: Capidaxter|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Politoed|Politoed, M|88/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Gojira|Stealth Rock|p2a: Politoed
+|-sidestart|p2: CroCoeur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|76/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|62/100
+|-damage|p2a: Ferrothorn|56/100|[from] Stealth Rock
+|switch|p1a: I LOVE RAIN|Gastrodon, M|100/100
+|-damage|p1a: I LOVE RAIN|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: I LOVE RAIN|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|j| mawwwwp
+|
+|switch|p1a: Gojira|Tyranitar, F|63/100
+|-damage|p1a: Gojira|51/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gojira
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Gojira
+|-sidestart|p1: Capidaxter|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Politoed|Politoed, M|76/100 brn
+|-damage|p2a: Politoed|63/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Gojira|Crunch|p2a: Politoed
+|-damage|p2a: Politoed|15/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|3/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: I LOVE RAIN|Gastrodon, M|94/100
+|-damage|p1a: I LOVE RAIN|82/100|[from] Spikes
+|-damage|p1a: I LOVE RAIN|76/100|[from] Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: I LOVE RAIN
+|-ability|p1a: I LOVE RAIN|Storm Drain|boost
+|-boost|p1a: I LOVE RAIN|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: I LOVE RAIN|82/100|[from] item: Leftovers
+|-damage|p2a: Politoed|0 fnt|[from] brn
+|faint|p2a: Politoed
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|68/100
+|-damage|p2a: Ferrothorn|62/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: I LOVE RAIN|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|41/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: I LOVE RAIN
+|-start|p1a: I LOVE RAIN|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: I LOVE RAIN|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|47/100 brn|[from] item: Leftovers
+|-damage|p1a: I LOVE RAIN|75/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|62/100 brn|[silent]
+|-damage|p2a: Ferrothorn|50/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p1a: Gojira|Tyranitar, F|51/100
+|-damage|p1a: Gojira|39/100|[from] Spikes
+|-damage|p1a: Gojira|26/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gojira
+|move|p2a: Ferrothorn|Spikes|p1a: Gojira
+|-sidestart|p1: Capidaxter|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|44/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Gojira|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Latios|Surf|p1a: Gojira
+|-supereffective|p1a: Gojira
+|-damage|p1a: Gojira|1/100
+|move|p1a: Gojira|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Celebi|Celebi|87/100
+|-damage|p2a: Celebi|75/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Celebi|Giga Drain|p1a: Gojira
+|-supereffective|p1a: Gojira
+|-damage|p1a: Gojira|0 fnt
+|-heal|p2a: Celebi|75/100|[from] drain|[of] p1a: Gojira
+|faint|p1a: Gojira
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|69/100|[from] Sandstorm
+|-heal|p2a: Celebi|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tiktak|Salamence, F|100/100
+|-damage|p1a: Tiktak|76/100|[from] Stealth Rock
+|turn|32
+|
+|move|p1a: Tiktak|Outrage|p2a: Celebi
+|-damage|p2a: Celebi|21/100
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: Tiktak|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tiktak|70/100|[from] Sandstorm
+|-damage|p2a: Celebi|14/100|[from] Sandstorm
+|-heal|p2a: Celebi|21/100|[from] item: Leftovers
+|-start|p1a: Tiktak|perish3
+|-start|p2a: Celebi|perish3
+|upkeep
+|turn|33
+|
+|switch|p2a: Jirachi|Jirachi|44/100
+|-damage|p2a: Jirachi|37/100|[from] Stealth Rock
+|move|p1a: Tiktak|Outrage|p2a: Jirachi|[from]lockedmove
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|9/100
+|-start|p1a: Tiktak|confusion|[fatigue]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tiktak|64/100|[from] Sandstorm
+|-heal|p2a: Jirachi|15/100|[from] item: Leftovers
+|-start|p1a: Tiktak|perish2
+|upkeep
+|turn|34
+|
+|switch|p1a: I LOVE RAIN|Gastrodon, M|75/100
+|-damage|p1a: I LOVE RAIN|59/100|[from] Spikes
+|-damage|p1a: I LOVE RAIN|53/100|[from] Stealth Rock
+|switch|p2a: Vaporeon|Vaporeon, F|89/100
+|-damage|p2a: Vaporeon|77/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|71/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|77/100|[from] item: Leftovers
+|-heal|p1a: I LOVE RAIN|59/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|move|p1a: I LOVE RAIN|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|71/100 tox|[from] Sandstorm
+|-heal|p2a: Vaporeon|77/100 tox|[from] item: Leftovers
+|-heal|p1a: I LOVE RAIN|65/100|[from] item: Leftovers
+|-damage|p2a: Vaporeon|71/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|switch|p1a: AirBus|Latios, M|100/100
+|-damage|p1a: AirBus|88/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AirBus|82/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|65/100 tox|[from] Sandstorm
+|-heal|p2a: Vaporeon|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|59/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|move|p1a: AirBus|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|21/100 tox
+|-unboost|p1a: AirBus|spa|2
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AirBus|76/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|94/100 slp|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Tiktak|Salamence, F|64/100
+|-damage|p1a: Tiktak|39/100|[from] Stealth Rock
+|cant|p2a: Vaporeon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tiktak|33/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|94/100 slp|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Tiktak|Outrage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|78/100 slp
+|cant|p2a: Vaporeon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tiktak|27/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|72/100 slp|[from] Sandstorm
+|-heal|p2a: Vaporeon|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Tiktak|Outrage|p2a: Vaporeon|[from]lockedmove
+|-damage|p2a: Vaporeon|56/100 slp
+|-start|p1a: Tiktak|confusion|[fatigue]
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tiktak|21/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|50/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|56/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|-activate|p1a: Tiktak|confusion
+|-damage|p1a: Tiktak|4/100|[from] confusion
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tiktak|0 fnt|[from] Sandstorm
+|-damage|p2a: Vaporeon|94/100 slp|[from] Sandstorm
+|faint|p1a: Tiktak
+|-heal|p2a: Vaporeon|100/100 slp|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: AirBus|Latios, M|76/100
+|-damage|p1a: AirBus|64/100|[from] Stealth Rock
+|turn|42
+|
+|move|p1a: AirBus|Draco Meteor|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|18/100 slp
+|-unboost|p1a: AirBus|spa|2
+|cant|p2a: Vaporeon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AirBus|58/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|12/100 slp|[from] Sandstorm
+|-heal|p2a: Vaporeon|18/100 slp|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: AirBus|Draco Meteor|p2a: Vaporeon|[miss]
+|-miss|p1a: AirBus|p2a: Vaporeon
+|cant|p2a: Vaporeon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AirBus|52/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|12/100 slp|[from] Sandstorm
+|-heal|p2a: Vaporeon|18/100 slp|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: AirBus|Draco Meteor|p2a: Vaporeon|[miss]
+|-miss|p1a: AirBus|p2a: Vaporeon
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AirBus|46/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|94/100 slp|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|45
+|-message|Capidaxter forfeited.
+|
+|win|CroCoeur
+|l|☆Capidaxter
+|raw|Capidaxter's rating: 1316 &rarr; <strong>1300</strong><br />(-16 for losing)
+|raw|CroCoeur's rating: 1401 &rarr; <strong>1416</strong><br />(+15 for winning)

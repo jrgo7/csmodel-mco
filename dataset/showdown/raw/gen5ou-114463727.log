@@ -1,0 +1,345 @@
+|join|LornaDeezy
+|join|dtw
+|player|p1|LornaDeezy|212
+|player|p2|dtw|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, M
+|poke|p1|Garchomp, F
+|poke|p1|Tornadus, M
+|poke|p1|Keldeo
+|poke|p1|Toxicroak, F
+|poke|p1|Jirachi
+|poke|p2|Breloom, F
+|poke|p2|Tyranitar, M
+|poke|p2|Skarmory, F
+|poke|p2|Keldeo
+|poke|p2|Scizor, F
+|poke|p2|Sableye, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Magnum PIMP|Politoed, M|376/376
+|switch|p2a: Skarmory|Skarmory, F|334/334
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Magnum PIMP
+|turn|1
+|
+|move|p1a: Magnum PIMP|Hydro Pump|p2a: Skarmory
+|-activate|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/334
+|move|p2a: Skarmory|Stealth Rock|p1a: Magnum PIMP
+|-sidestart|p1: LornaDeezy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|Custap Berry
+|
+|move|p2a: Skarmory|Spikes|p1a: Magnum PIMP
+|-sidestart|p1: LornaDeezy|Spikes
+|move|p1a: Magnum PIMP|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Breloom|Breloom, F|264/264
+|turn|3
+|
+|switch|p1a: Streak|Tornadus, M|299/299
+|-damage|p1a: Streak|225/299|[from] Stealth Rock
+|move|p2a: Breloom|Spore|p1a: Streak
+|-status|p1a: Streak|slp
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|turn|4
+|
+|cant|p1a: Streak|slp
+|move|p1a: Streak|Sleep Talk|p1a: Streak
+|move|p1a: Streak|Focus Blast|p2a: Breloom|[from]Sleep Talk
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, F|343/343
+|turn|5
+|
+|switch|p1a: Quadzilla|Garchomp, F|411/411
+|-damage|p1a: Quadzilla|360/411|[from] Spikes
+|-damage|p1a: Quadzilla|335/411|[from] Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Quadzilla
+|-damage|p1a: Quadzilla|131/411
+|-damage|p2a: Scizor|301/343|[from] ability: Rough Skin|[of] p1a: Quadzilla
+|-damage|p2a: Scizor|244/343|[from] item: Rocky Helmet|[of] p1a: Quadzilla
+|
+|switch|p2a: Keldeo|Keldeo|324/324
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Peter Pan|Toxicroak, F|308/308
+|-damage|p1a: Peter Pan|270/308|[from] Spikes
+|-damage|p1a: Peter Pan|251/308|[from] Stealth Rock
+|move|p2a: Keldeo|Icy Wind|p1a: Peter Pan
+|-damage|p1a: Peter Pan|129/308
+|-unboost|p1a: Peter Pan|spe|1
+|-damage|p2a: Keldeo|292/324|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Peter Pan|167/308|[from] ability: Dry Skin
+|turn|7
+|
+|switch|p2a: Sableye|Sableye, M|304/304
+|switch|p1a: Twinkletoes|Jirachi|404/404
+|-damage|p1a: Twinkletoes|379/404|[from] Stealth Rock
+|-damage|p1a: Twinkletoes|329/404|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Twinkletoes|354/404|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Twinkletoes|[miss]
+|-miss|p2a: Sableye|p1a: Twinkletoes
+|move|p1a: Twinkletoes|Thunder|p2a: Sableye
+|-damage|p2a: Sableye|217/304
+|-status|p2a: Sableye|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Twinkletoes|379/404|[from] item: Leftovers
+|-heal|p2a: Sableye|236/304 par|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Twinkletoes
+|-status|p1a: Twinkletoes|brn
+|move|p1a: Twinkletoes|Substitute|p1a: Twinkletoes
+|-start|p1a: Twinkletoes|Substitute
+|-damage|p1a: Twinkletoes|278/404 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Twinkletoes|303/404 brn|[from] item: Leftovers
+|-heal|p2a: Sableye|255/304 par|[from] item: Leftovers
+|-damage|p1a: Twinkletoes|253/404 brn|[from] brn
+|turn|10
+|
+|move|p2a: Sableye|Taunt|p1a: Twinkletoes
+|-start|p1a: Twinkletoes|move: Taunt
+|move|p1a: Twinkletoes|Thunder|p2a: Sableye
+|-damage|p2a: Sableye|165/304 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Twinkletoes|278/404 brn|[from] item: Leftovers
+|-heal|p2a: Sableye|184/304 par|[from] item: Leftovers
+|-damage|p1a: Twinkletoes|228/404 brn|[from] brn
+|turn|11
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|304/304 par
+|move|p1a: Twinkletoes|Thunder|p2a: Sableye
+|-damage|p2a: Sableye|220/304 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Twinkletoes|253/404 brn|[from] item: Leftovers
+|-heal|p2a: Sableye|239/304 par|[from] item: Leftovers
+|-damage|p1a: Twinkletoes|203/404 brn|[from] brn
+|turn|12
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|304/304 par
+|move|p1a: Twinkletoes|Thunder|p2a: Sableye
+|-damage|p2a: Sableye|207/304 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Twinkletoes|228/404 brn|[from] item: Leftovers
+|-heal|p2a: Sableye|226/304 par|[from] item: Leftovers
+|-damage|p1a: Twinkletoes|178/404 brn|[from] brn
+|-end|p1a: Twinkletoes|move: Taunt
+|turn|13
+|
+|switch|p1a: Streak|Tornadus, M|225/299 slp
+|-damage|p1a: Streak|151/299 slp|[from] Stealth Rock
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|304/304 par
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|cant|p1a: Streak|slp
+|move|p1a: Streak|Sleep Talk|p1a: Streak
+|move|p1a: Streak|Focus Blast|p2a: Sableye|[from]Sleep Talk
+|-immune|p2a: Sableye|[msg]
+|move|p2a: Sableye|Taunt|p1a: Streak
+|-start|p1a: Streak|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p1a: Magnum PIMP|Politoed, M|376/376
+|-damage|p1a: Magnum PIMP|329/376|[from] Spikes
+|-damage|p1a: Magnum PIMP|282/376|[from] Stealth Rock
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Magnum PIMP|259/376|[from] sandstorm
+|turn|16
+|
+|switch|p2a: Keldeo|Keldeo|292/324
+|move|p1a: Magnum PIMP|Focus Blast|p2a: Keldeo
+|-damage|p2a: Keldeo|102/324
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|82/324|[from] sandstorm
+|-damage|p1a: Magnum PIMP|236/376|[from] sandstorm
+|turn|17
+|
+|switch|p1a: Peter Pan|Toxicroak, F|167/308
+|-damage|p1a: Peter Pan|148/308|[from] Stealth Rock
+|-damage|p1a: Peter Pan|110/308|[from] Spikes
+|move|p2a: Keldeo|Secret Sword|p1a: Peter Pan
+|-resisted|p1a: Peter Pan
+|-damage|p1a: Peter Pan|0 fnt
+|-damage|p2a: Keldeo|50/324|[from] item: Life Orb
+|faint|p1a: Peter Pan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|30/324|[from] sandstorm
+|
+|switch|p1a: Seahorses Forever|Keldeo|323/323
+|-damage|p1a: Seahorses Forever|303/323|[from] Stealth Rock
+|-damage|p1a: Seahorses Forever|263/323|[from] Spikes
+|turn|18
+|
+|move|p1a: Seahorses Forever|Surf|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seahorses Forever|243/323|[from] sandstorm
+|
+|switch|p2a: Scizor|Scizor, F|244/343
+|turn|19
+|
+|switch|p1a: Quadzilla|Garchomp, F|131/411
+|-damage|p1a: Quadzilla|80/411|[from] Spikes
+|-damage|p1a: Quadzilla|55/411|[from] Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Quadzilla
+|-damage|p1a: Quadzilla|0 fnt
+|-damage|p2a: Scizor|202/343|[from] ability: Rough Skin|[of] p1a: Quadzilla
+|-damage|p2a: Scizor|145/343|[from] item: Rocky Helmet|[of] p1a: Quadzilla
+|faint|p1a: Quadzilla
+|
+|switch|p2a: Sableye|Sableye, M|304/304 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sableye|285/304 par|[from] sandstorm
+|-heal|p2a: Sableye|304/304 par|[from] item: Leftovers
+|
+|switch|p1a: Streak|Tornadus, M|151/299 slp
+|-damage|p1a: Streak|77/299 slp|[from] Stealth Rock
+|turn|20
+|
+|cant|p1a: Streak|slp
+|move|p1a: Streak|Sleep Talk|p1a: Streak
+|move|p1a: Streak|U-turn|p2a: Sableye|[from]Sleep Talk
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|145/304 par
+|
+|switch|p1a: Seahorses Forever|Keldeo|243/323
+|-damage|p1a: Seahorses Forever|203/323|[from] Spikes
+|-damage|p1a: Seahorses Forever|183/323|[from] Stealth Rock
+|move|p2a: Sableye|Taunt|p1a: Seahorses Forever
+|-start|p1a: Seahorses Forever|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seahorses Forever|163/323|[from] sandstorm
+|-damage|p2a: Sableye|126/304 par|[from] sandstorm
+|-heal|p2a: Sableye|145/304 par|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|297/304 par
+|move|p1a: Seahorses Forever|Surf|p2a: Sableye
+|-damage|p2a: Sableye|150/304 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seahorses Forever|143/323|[from] sandstorm
+|-damage|p2a: Sableye|131/304 par|[from] sandstorm
+|-heal|p2a: Sableye|150/304 par|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Seahorses Forever
+|-status|p1a: Seahorses Forever|brn
+|move|p1a: Seahorses Forever|Surf|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seahorses Forever|123/323 brn|[from] sandstorm
+|-damage|p1a: Seahorses Forever|83/323 brn|[from] brn
+|
+|switch|p2a: Scizor|Scizor, F|145/343
+|turn|23
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Seahorses Forever
+|-resisted|p1a: Seahorses Forever
+|-damage|p1a: Seahorses Forever|0 fnt
+|faint|p1a: Seahorses Forever
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Streak|Tornadus, M|77/299 slp
+|-damage|p1a: Streak|3/299 slp|[from] Stealth Rock
+|turn|24
+|
+|cant|p1a: Streak|slp
+|move|p1a: Streak|Sleep Talk|p1a: Streak
+|move|p1a: Streak|Focus Blast|p2a: Scizor|[from]Sleep Talk
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Streak|0 fnt|[from] sandstorm
+|faint|p1a: Streak
+|
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|switch|p1a: Twinkletoes|Jirachi|178/404 brn
+|-damage|p1a: Twinkletoes|128/404 brn|[from] Spikes
+|-damage|p1a: Twinkletoes|103/404 brn|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Tyranitar|Crunch|p1a: Twinkletoes
+|-crit|p1a: Twinkletoes
+|-damage|p1a: Twinkletoes|0 fnt
+|faint|p1a: Twinkletoes
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Magnum PIMP|Politoed, M|236/376
+|-damage|p1a: Magnum PIMP|189/376|[from] Stealth Rock
+|-damage|p1a: Magnum PIMP|142/376|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Magnum PIMP
+|turn|26
+|
+|move|p2a: Tyranitar|Crunch|p1a: Magnum PIMP
+|-damage|p1a: Magnum PIMP|0 fnt
+|faint|p1a: Magnum PIMP
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|LornaDeezy's rating: 1398 &rarr; <strong>1374</strong><br />(-24 for losing)
+|raw|dtw's rating: 1330 &rarr; <strong>1354</strong><br />(+24 for winning)
+|chat|dtw|gg

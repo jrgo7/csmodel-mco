@@ -1,0 +1,241 @@
+|j|☆muchacho bratt
+|j|☆cabelloum21
+|player|p1|muchacho bratt|172
+|player|p2|cabelloum21|99
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, F|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Starmie|item
+|poke|p1|Scizor, M|item
+|poke|p1|Conkeldurr, F|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Starmie|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by muchacho bratt)
+|
+|start
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|1
+|
+|move|p1a: Starmie|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-enditem|p2a: Breloom|Focus Sash
+|-damage|p2a: Breloom|1/100
+|-status|p2a: Breloom|frz
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|cant|p2a: Breloom|frz
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Starmie|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|68/100
+|-damage|p1a: Starmie|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Thunder|p2a: Starmie|[miss]
+|-miss|p1a: Starmie|p2a: Starmie
+|move|p2a: Starmie|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|27/100
+|-status|p1a: Starmie|frz
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Starmie|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|5/100 frz
+|cant|p1a: Starmie|frz
+|
+|upkeep
+|turn|5
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Starmie|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|7
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Garchomp|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|9/100
+|move|p1a: Volcarona|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Yache Berry|[eat]
+|-enditem|p2a: Garchomp|Yache Berry|[weaken]
+|-damage|p2a: Garchomp|57/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Garchomp|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|10
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Garchomp
+|-damage|p2a: Garchomp|12/100
+|-damage|p1a: Dragonite|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2a: Garchomp|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|11
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Conkeldurr|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Conkeldurr|78/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|12
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Conkeldurr|Ice Punch|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|13
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Volcarona
+|-damage|p2a: Volcarona|35/100
+|-status|p1a: Conkeldurr|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-damage|p1a: Conkeldurr|66/100 brn|[from] brn
+|upkeep
+|turn|14
+|c|☆muchacho bratt|lucky virgins
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Volcarona|Flamethrower|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|56/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|8/100
+|-heal|p2a: Volcarona|60/100|[from] drain|[of] p1a: Garchomp
+|move|p1a: Garchomp|Outrage|p2a: Volcarona
+|-enditem|p1a: Garchomp|Dragon Gem|[from] gem|[move] Outrage
+|-damage|p2a: Volcarona|0 fnt
+|-status|p1a: Garchomp|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|faint|p2a: Volcarona
+|
+|-damage|p1a: Garchomp|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Garchomp
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|16
+|
+|move|p1a: Scizor|Superpower|p2a: Scizor
+|-damage|p2a: Scizor|39/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|move|p2a: Scizor|Superpower|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|66/100 brn
+|turn|17
+|
+|switch|p2a: Breloom|Breloom, F|1/100 frz
+|move|p1a: Conkeldurr|Drain Punch|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-heal|p1a: Conkeldurr|66/100 brn|[from] drain|[of] p2a: Breloom
+|-damage|p1a: Conkeldurr|56/100 brn|[from] item: Life Orb
+|faint|p2a: Breloom
+|
+|-damage|p1a: Conkeldurr|44/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|39/100
+|turn|18
+|inactive|cabelloum21 has 120 seconds left.
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|win|cabelloum21
+|raw|muchacho bratt's rating: 1450 &rarr; <strong>1427</strong><br />(-23 for losing)
+|raw|cabelloum21's rating: 1393 &rarr; <strong>1416</strong><br />(+23 for winning)
+|c|☆muchacho bratt|bg virgin fuck
+|l|☆muchacho bratt

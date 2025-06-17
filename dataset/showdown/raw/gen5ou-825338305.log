@@ -1,0 +1,257 @@
+|j|☆Fouge
+|j|☆refsunpersons
+|player|p1|Fouge|224
+|player|p2|refsunpersons|247
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Magnezone|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Salamence, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Kingdra, M|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|c|☆Fouge|U too
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|1
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Amoonguss|Spore|p1a: Kyurem
+|-status|p1a: Kyurem|slp
+|
+|upkeep
+|turn|2
+|
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Fusion Bolt|p2a: Amoonguss|[from]Sleep Talk
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|61/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Kyurem
+|-damage|p1a: Kyurem|73/100 slp
+|
+|-heal|p2a: Amoonguss|67/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Outrage|p2a: Magnezone|[from]Sleep Talk
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|35/100
+|
+|upkeep
+|turn|4
+|
+|-curestatus|p1a: Kyurem|slp|[msg]
+|move|p1a: Kyurem|Sleep Talk||[still]
+|-fail|p1a: Kyurem
+|move|p2a: Magnezone|Thunder Wave|p1a: Kyurem
+|-status|p1a: Kyurem|par
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Magnezone|Thunder Wave|p1a: Magnezone
+|-status|p1a: Magnezone|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|42/100 par
+|cant|p1a: Magnezone|par
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|8
+|
+|move|p1a: Bisharp|Low Kick|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-enditem|p2a: Magnezone|Chople Berry|[eat]
+|-enditem|p2a: Magnezone|Chople Berry|[weaken]
+|-damage|p2a: Magnezone|0 fnt
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|9
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Kingdra
+|-damage|p2a: Kingdra|30/100
+|-damage|p1a: Bisharp|81/100|[from] item: Life Orb
+|move|p2a: Kingdra|Hydro Pump|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p2a: Kingdra|20/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|10
+|
+|move|p1a: Garchomp|Earthquake|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|11
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Bronzong|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|45/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Garchomp|Outrage|p2a: Bronzong
+|-enditem|p1a: Garchomp|Dragon Gem|[from] gem|[move] Outrage
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|26/100
+|move|p2a: Bronzong|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Bronzong|32/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|13
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Reuniclus|Psychic|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|17/100
+|move|p2a: Amoonguss|Spore|p1a: Reuniclus
+|-status|p1a: Reuniclus|slp
+|
+|-heal|p2a: Amoonguss|23/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|cant|p1a: Reuniclus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|cant|p1a: Reuniclus|slp
+|move|p2a: Tyranitar|Crunch|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|32/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|-curestatus|p1a: Reuniclus|slp|[msg]
+|move|p1a: Reuniclus|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|7/100
+|move|p2a: Tyranitar|Crunch|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|18
+|
+|switch|p2a: Amoonguss|Amoonguss, M|57/100
+|move|p1a: Salamence|Outrage|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong|32/100
+|turn|19
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Salamence|Outrage|p2a: Bronzong|[from]lockedmove
+|-activate|p2a: Bronzong|move: Protect
+|-start|p1a: Salamence|confusion|[fatigue]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|-heal|p2a: Bronzong|39/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|-activate|p1a: Salamence|confusion
+|-damage|p1a: Salamence|63/100|[from] confusion
+|move|p2a: Bronzong|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bronzong|45/100|[from] item: Leftovers
+|upkeep
+|-message|Fouge forfeited.
+|
+|win|refsunpersons
+|l|☆Fouge
+|raw|Fouge's rating: 1354 &rarr; <strong>1334</strong><br />(-20 for losing)
+|raw|refsunpersons's rating: 1342 &rarr; <strong>1363</strong><br />(+21 for winning)

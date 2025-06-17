@@ -1,0 +1,150 @@
+|J|bluri
+|j|S52
+|player|p1|bluri|278
+|teamsize|p1|6
+|player|p2|S52|266
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|11675,3428,29692,44416
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Quagsire, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Jirachi|item
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|432/432
+|switch|p2a: Jirachi|Jirachi|357/357
+|turn|1
+|choice|move spore|move stealthrock
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: bluri|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Jirachi
+|-status|p2a: Jirachi|slp
+|
+|upkeep
+|turn|2
+|choice|move hiddenpower|move hiddenpower
+|
+|cant|p2a: Jirachi|slp
+|move|p1a: Amoonguss|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|331/357 slp
+|
+|upkeep
+|turn|3
+|choice|move gigadrain|move hiddenpower
+|
+|-curestatus|p2a: Jirachi|slp|[msg]
+|move|p2a: Jirachi|Hidden Power|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|306/432
+|move|p1a: Amoonguss|Giga Drain|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|292/357
+|-heal|p1a: Amoonguss|326/432|[from] drain|[of] p2a: Jirachi
+|
+|-heal|p1a: Amoonguss|353/432|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|move spore|move hiddenpower
+|
+|move|p2a: Jirachi|Hidden Power|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|207/432
+|move|p1a: Amoonguss|Spore|p2a: Jirachi
+|-status|p2a: Jirachi|slp
+|
+|-heal|p1a: Amoonguss|234/432|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|switch 3|move hiddenpower
+|
+|switch|p1a: Quagsire|Quagsire, F|394/394
+|-damage|p1a: Quagsire|370/394|[from] Stealth Rock
+|cant|p2a: Jirachi|slp
+|
+|-heal|p1a: Quagsire|394/394|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move toxic|move energyball
+|
+|-curestatus|p2a: Jirachi|slp|[msg]
+|move|p2a: Jirachi|Energy Ball|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Chansey|Chansey, F|655/655
+|-damage|p1a: Chansey|574/655|[from] Stealth Rock
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bluri)
+|choice|move toxic|switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Chansey|Toxic|p2a: Tyranitar|[miss]
+|-miss|p1a: Chansey|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|534/655|[from] sandstorm
+|upkeep
+|turn|8
+|choice|switch 6|move crunch
+|
+|switch|p1a: Hippowdon|Hippowdon, M|420/420
+|-damage|p1a: Hippowdon|394/420|[from] Stealth Rock
+|move|p2a: Tyranitar|Crunch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|294/420
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|320/420|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|S52 has 120 seconds left.
+|choice|move stealthrock|move fireblast
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Hippowdon
+|-damage|p1a: Hippowdon|195/420
+|-status|p1a: Hippowdon|brn
+|move|p1a: Hippowdon|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: S52|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|221/420 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|169/420 brn|[from] brn
+|upkeep
+|turn|10
+|-message|bluri forfeited.
+|
+|win|S52
+|L|bluri
+|raw|bluri's rating: 1474 &rarr; <strong>1446</strong><br />(-28 for losing)
+|raw|S52's rating: 1316 &rarr; <strong>1344</strong><br />(+28 for winning)

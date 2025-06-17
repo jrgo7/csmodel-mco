@@ -1,0 +1,334 @@
+|j|☆bmy
+|j|☆Gosu-GoStepUp
+|player|p1|bmy|282
+|player|p2|Gosu-GoStepUp|190
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Breloom, F|item
+|poke|p1|Aerodactyl, F|item
+|poke|p1|Starmie|item
+|poke|p1|Gengar, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Dragonite, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Jellicent, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gosu-GoStepUp)
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, F|100/100
+|switch|p2a: おじさん|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: おじさん|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-ability|p1a: Aerodactyl|Pressure
+|turn|1
+|
+|move|p2a: おじさん|Stealth Rock|p1a: Aerodactyl
+|-sidestart|p1: bmy|move: Stealth Rock
+|move|p1a: Aerodactyl|Stealth Rock|p2a: おじさん
+|-sidestart|p2: Gosu-GoStepUp|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: メロンソーダ|Jellicent, M, shiny|100/100
+|-damage|p2a: メロンソーダ|88/100|[from] Stealth Rock
+|move|p1a: Aerodactyl|Stone Edge|p2a: メロンソーダ|[miss]
+|-miss|p1a: Aerodactyl|p2a: メロンソーダ
+|
+|-heal|p2a: メロンソーダ|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: メロンソーダ|[miss]
+|-miss|p1a: Aerodactyl|p2a: メロンソーダ
+|move|p2a: メロンソーダ|Will-O-Wisp|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|brn
+|
+|-heal|p2a: メロンソーダ|100/100|[from] item: Leftovers
+|-damage|p1a: Aerodactyl|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: メロンソーダ
+|-damage|p2a: メロンソーダ|88/100
+|move|p2a: メロンソーダ|Ice Beam|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|34/100 brn
+|
+|-heal|p2a: メロンソーダ|94/100|[from] item: Leftovers
+|-damage|p1a: Aerodactyl|22/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Aerodactyl|Taunt|p2a: メロンソーダ
+|-start|p2a: メロンソーダ|move: Taunt
+|move|p2a: メロンソーダ|Ice Beam|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|-heal|p2a: メロンソーダ|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: ガブリus|Garchomp, M, shiny|100/100
+|-damage|p2a: ガブリus|94/100|[from] Stealth Rock
+|move|p1a: Breloom|Spore|p2a: ガブリus
+|-status|p2a: ガブリus|slp
+|
+|upkeep
+|turn|7
+|inactive|bmy has 120 seconds left.
+|
+|cant|p2a: ガブリus|slp
+|move|p2a: ガブリus|Sleep Talk|p2a: ガブリus
+|move|p2a: ガブリus|Earthquake|p1a: Breloom|[from]Sleep Talk
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|28/100
+|move|p1a: Breloom|Bullet Seed|p2a: ガブリus
+|-damage|p2a: ガブリus|72/100 slp
+|-damage|p2a: ガブリus|52/100 slp
+|-damage|p2a: ガブリus|31/100 slp
+|-hitcount|p2a: ガブリus|3
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Breloom|Mach Punch|p2a: ガブリus
+|-damage|p2a: ガブリus|0 fnt
+|-damage|p1a: Breloom|15/100|[from] ability: Rough Skin|[of] p2a: ガブリus
+|faint|p2a: ガブリus
+|
+|upkeep
+|
+|switch|p2a: おじさん|Landorus-Therian, M, shiny|100/100
+|-damage|p2a: おじさん|88/100|[from] Stealth Rock
+|-ability|p2a: おじさん|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|9
+|
+|move|p1a: Breloom|Mach Punch|p2a: おじさん
+|-resisted|p2a: おじさん
+|-damage|p2a: おじさん|75/100
+|move|p2a: おじさん|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|switch|p2a: ばんちょう|Tyranitar, F, shiny|100/100
+|-damage|p2a: ばんちょう|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: ばんちょう
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: ばんちょう|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Scizor|Superpower|p2a: ばんちょう
+|-supereffective|p2a: ばんちょう
+|-damage|p2a: ばんちょう|0 fnt
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|faint|p2a: ばんちょう
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: おじさん|Landorus-Therian, M, shiny|75/100
+|-damage|p2a: おじさん|63/100|[from] Stealth Rock
+|-ability|p2a: おじさん|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|turn|11
+|
+|move|p1a: Scizor|Bullet Punch|p2a: おじさん
+|-damage|p2a: おじさん|39/100
+|move|p2a: おじさん|Stone Edge|p1a: Scizor|[miss]
+|-miss|p2a: おじさん|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Scizor|Bullet Punch|p2a: おじさん
+|-damage|p2a: おじさん|16/100
+|move|p2a: おじさん|Stone Edge|p1a: Scizor
+|-damage|p1a: Scizor|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: メロンソーダ|Jellicent, M, shiny|99/100
+|-damage|p2a: メロンソーダ|88/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: メロンソーダ
+|-resisted|p2a: メロンソーダ
+|-damage|p2a: メロンソーダ|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: メロンソーダ|72/100|[from] Sandstorm
+|-heal|p2a: メロンソーダ|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| Wilston Lynx
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: メロンソーダ|Scald|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: メロンソーダ|72/100|[from] Sandstorm
+|-heal|p2a: メロンソーダ|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: もえるゴミ|Ferrothorn, M, shiny|100/100
+|-damage|p2a: もえるゴミ|94/100|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: もえるゴミ
+|-resisted|p2a: もえるゴミ
+|-damage|p2a: もえるゴミ|81/100
+|-unboost|p2a: もえるゴミ|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|-heal|p2a: もえるゴミ|87/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: もえるゴミ|Power Whip|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: もえるゴミ|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Dragonite|Fire Punch|p2a: もえるゴミ
+|-supereffective|p2a: もえるゴミ
+|-damage|p2a: もえるゴミ|0 fnt
+|-damage|p1a: Dragonite|63/100|[from] ability: Iron Barbs|[of] p2a: もえるゴミ
+|faint|p2a: もえるゴミ
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|57/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: メロンソーダ|Jellicent, M, shiny|78/100
+|-damage|p2a: メロンソーダ|66/100|[from] Stealth Rock
+|turn|18
+|l|☆bmy
+|inactive|bmy disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|bmy has 60 seconds to reconnect!
+|inactive|bmy has 30 seconds to reconnect!
+|inactive|bmy has 20 seconds to reconnect!
+|inactive|bmy has 15 seconds to reconnect!
+|inactive|bmy has 10 seconds to reconnect!
+|j|☆bmy
+|inactive|bmy reconnected and has 70 seconds left.
+|player|p1|bmy|282
+|inactive|bmy has 60 seconds left.
+|
+|switch|p1a: Gengar|Gengar, M|82/100
+|-damage|p1a: Gengar|70/100|[from] Stealth Rock
+|move|p2a: メロンソーダ|Recover|p2a: メロンソーダ
+|-heal|p2a: メロンソーダ|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|64/100|[from] Sandstorm
+|-damage|p2a: メロンソーダ|94/100|[from] Sandstorm
+|-heal|p2a: メロンソーダ|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: おじさん|Landorus-Therian, M, shiny|16/100
+|-damage|p2a: おじさん|4/100|[from] Stealth Rock
+|-ability|p2a: おじさん|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|move|p1a: Gengar|Shadow Ball|p2a: おじさん
+|-damage|p2a: おじさん|0 fnt
+|faint|p2a: おじさん
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|58/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: 顔が五芒星|Alakazam, F, shiny|100/100
+|turn|20
+|
+|move|p1a: Gengar|Shadow Ball|p2a: 顔が五芒星
+|-supereffective|p2a: 顔が五芒星
+|-enditem|p2a: 顔が五芒星|Focus Sash
+|-damage|p2a: 顔が五芒星|1/100
+|move|p2a: 顔が五芒星|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|57/100
+|-damage|p1a: Dragonite|32/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: 顔が五芒星
+|-damage|p2a: 顔が五芒星|0 fnt
+|faint|p2a: 顔が五芒星
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|26/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: メロンソーダ|Jellicent, M, shiny|100/100
+|-damage|p2a: メロンソーダ|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Dragonite|Outrage|p2a: メロンソーダ
+|-damage|p2a: メロンソーダ|28/100
+|move|p2a: メロンソーダ|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Gosu-GoStepUp
+|raw|bmy's rating: 1452 &rarr; <strong>1425</strong><br />(-27 for losing)
+|raw|Gosu-GoStepUp's rating: 1322 &rarr; <strong>1349</strong><br />(+27 for winning)
+|l|☆bmy
+|l| Wilston Lynx

@@ -1,0 +1,368 @@
+|j|☆old goose
+|j|☆Glad She's Mine
+|player|p1|old goose|2|1406
+|player|p2|Glad She's Mine|34|1413
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Starmie|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Glad She's Mine)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|
+|move|p2a: Bronzong|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: old goose|move: Stealth Rock
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: Glad She's Mine|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Glad She's Mine|Spikes
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ferrothorn|Spikes|p1a: Tyranitar
+|-sidestart|p1: old goose|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Tyranitar|Superpower|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Spikes
+|-damage|p2a: Tentacruel|76/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Superpower|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|56/100
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|50/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|56/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|87/100
+|-sideend|p2: Glad She's Mine|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: Glad She's Mine|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Tyranitar|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|7
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|-damage|p1a: Ferrothorn|82/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Chople Berry|[eat]
+|-enditem|p1a: Ferrothorn|Chople Berry|[weaken]
+|-damage|p1a: Ferrothorn|36/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: Glad She's Mine|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|turn|10
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Landorus|Gravity|p1a: Landorus
+|-fieldstart|move: Gravity
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Landorus|Earthquake|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|1/100
+|move|p2a: Bronzong|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|14/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bronzong|7/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Landorus|Earthquake|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bronzong|14/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Landorus|Earthquake|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|53/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|87/100
+|-damage|p1a: Tyranitar|74/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|62/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Tyranitar|Superpower|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Ice Beam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|17
+|c|☆Glad She's Mine|ngl
+|c|☆Glad She's Mine|dat team is interesting
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|-damage|p1a: Starmie|76/100|[from] Spikes
+|move|p2a: Politoed|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|old goose has 120 seconds left.
+|
+|move|p1a: Starmie|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Glad She's Mine|i helped pioneer bw bk in the day, but these sets r heat
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|59/100
+|-damage|p2a: Ferrothorn|53/100|[from] Stealth Rock
+|turn|19
+|inactive|old goose has 120 seconds left.
+|c|☆old goose|bw bk?
+|
+|switch|p1a: Tyranitar|Tyranitar, F|62/100
+|-damage|p1a: Tyranitar|50/100|[from] Spikes
+|-damage|p1a: Tyranitar|37/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|25/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|72/100|[silent]
+|upkeep
+|turn|20
+|c|☆Glad She's Mine|back in the day
+|
+|switch|p1a: Alakazam|Alakazam, M, shiny|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Alakazam|Gravity|p1a: Alakazam
+|-fieldstart|move: Gravity
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|old goose has 120 seconds left.
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|28/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|34/100|[from] item: Leftovers
+|upkeep
+|inactive|old goose has 120 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|25/100
+|-damage|p1a: Tyranitar|13/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|0 fnt|[from] Spikes
+|faint|p1a: Tyranitar
+|c|☆old goose|oh
+|c|☆old goose|i had 24.6
+|c|☆old goose|w/e
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|turn|24
+|c|☆Glad She's Mine|can i get those tar evs by chance ?
+|c|☆old goose|yeah sure
+|c|☆Glad She's Mine|ty <3
+|
+|move|p1a: Garchomp|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|25
+|c|☆Glad She's Mine|gg wp
+|c|☆old goose|68 HP / 104 Atk / 252 SpA / 84 Spe lonely
+|c|☆Glad She's Mine|i assume last move is crunch ?
+|c|☆old goose|there is definitely room for improvement on these evs
+|inactive|old goose has 90 seconds left.
+|
+|move|p1a: Garchomp|Earthquake|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|win|old goose
+|c|☆old goose|gg
+|c|☆old goose|yes
+|c|☆old goose|crunch
+|c|☆Glad She's Mine|e-belt ?
+|raw|old goose's rating: 1406 &rarr; <strong>1426</strong><br />(+20 for winning)
+|raw|Glad She&apos;s Mine's rating: 1413 &rarr; <strong>1392</strong><br />(-21 for losing)
+|c|☆old goose|yes
+|c|☆Glad She's Mine|oki
+|c|☆Glad She's Mine|gg ty
+|c|☆old goose|np
+|l|☆old goose

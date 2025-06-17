@@ -1,0 +1,387 @@
+|j|☆porrompompom
+|j|☆awitt 10
+|player|p1|porrompompom|170|1534
+|player|p2|awitt 10|266|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Starmie|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Donphan, M|item
+|poke|p2|Salamence, M|item
+|teampreview
+|c|☆porrompompom|sigh
+|
+|start
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|move|p1a: Starmie|Toxic|p2a: Ninetales
+|-status|p2a: Ninetales|tox
+|move|p2a: Ninetales|Energy Ball|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Starmie|53/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Toxic|p2a: Volcarona
+|-status|p2a: Volcarona|tox
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Volcarona|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Volcarona|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Volcarona|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Volcarona|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Starmie|28/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|c|☆awitt 10|gg
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Starmie
+|-resisted|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Volcarona|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Volcarona|58/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|turn|7
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Volcarona|64/100 tox|[from] item: Leftovers
+|-heal|p1a: Hydreigon|53/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|33/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Volcarona|Bug Buzz|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Volcarona|39/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|37/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|3/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Volcarona|9/100 tox|[from] item: Leftovers
+|-damage|p2a: Volcarona|0 fnt|[from] psn
+|faint|p2a: Volcarona
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Darmanitan|atk|1
+|turn|10
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|move|p1a: Landorus|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Donphan|67/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Donphan|Ice Shard|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mew|81/100|[from] item: Leftovers
+|-heal|p2a: Donphan|73/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|move|p1a: Mew|Iron Defense|p1a: Mew
+|-boost|p1a: Mew|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mew|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Darmanitan|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|61/100
+|
+|switch|p2a: Latios|Latios, M|100/100|[from]move: U-turn
+|move|p1a: Mew|Baton Pass|p1a: Mew
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: Baton Pass
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p1a: Landorus|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|24/100
+|
+|switch|p1a: Jirachi|Jirachi|100/100|[from]move: U-turn
+|move|p2a: Latios|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Donphan|Donphan, M|73/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|-heal|p2a: Donphan|79/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Mew|Mew|61/100
+|move|p2a: Donphan|Stealth Rock|p1a: Mew
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mew|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Donphan|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Mew|Iron Defense|p1a: Mew
+|-boost|p1a: Mew|def|2
+|move|p2a: Donphan|Earthquake|p1a: Mew
+|-damage|p1a: Mew|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mew|83/100|[from] item: Leftovers
+|-heal|p2a: Donphan|92/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|move|p1a: Mew|Calm Mind|p1a: Mew
+|-boost|p1a: Mew|spa|1
+|-boost|p1a: Mew|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mew|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Mew
+|-damage|p1a: Mew|24/100
+|-damage|p2a: Darmanitan|76/100|[from] Recoil
+|move|p1a: Mew|Iron Defense|p1a: Mew
+|-boost|p1a: Mew|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mew|31/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-damage|p2a: Darmanitan|65/100|[from] Recoil
+|faint|p1a: Mew
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Darmanitan|atk|1
+|turn|21
+|
+|switch|p2a: Donphan|Donphan, M|92/100
+|move|p1a: Landorus|Stone Edge|p2a: Donphan
+|-resisted|p2a: Donphan
+|-crit|p2a: Donphan
+|-damage|p2a: Donphan|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Donphan|70/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Jirachi|Jirachi|90/100
+|-damage|p1a: Jirachi|84/100|[from] Stealth Rock
+|move|p2a: Donphan|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|11/100|[from] item: Leftovers
+|-heal|p2a: Donphan|76/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|36/100
+|move|p2a: Donphan|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Donphan|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|53/100
+|-damage|p1a: Hydreigon|40/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Donphan|Ice Shard|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|14/100
+|move|p1a: Hydreigon|Dragon Pulse|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hydreigon|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan, M|65/100
+|turn|25
+|
+|move|p2a: Darmanitan|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|switch|p2a: Ninetales|Ninetales, M|95/100 tox|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Ninetales|95/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|26
+|
+|move|p1a: Landorus|Stone Edge|p2a: Ninetales|[miss]
+|-miss|p1a: Landorus|p2a: Ninetales
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|64/100 brn|[from] brn
+|-damage|p2a: Ninetales|89/100 tox|[from] psn
+|upkeep
+|turn|27
+|c|☆awitt 10|gg
+|c|☆awitt 10|sigh
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by awitt 10)
+|
+|move|p1a: Landorus|Stone Edge|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|28/100 tox
+|move|p2a: Ninetales|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|awitt 10
+|raw|porrompompom's rating: 1534 &rarr; <strong>1504</strong><br />(-30 for losing)
+|raw|awitt 10's rating: 1357 &rarr; <strong>1386</strong><br />(+29 for winning)
+|c|☆porrompompom|you only had to keep donphan alive
+|c|☆awitt 10|dropping that rating today
+|c|☆porrompompom|(discounting it's auto 6-0 with this match up)
+|c|☆porrompompom|and yet you manage to let it die anyways
+|c|☆awitt 10|didn't need it
+|c|☆awitt 10|you aint hitting all ur stone edges lol
+|l|☆awitt 10
+|c|☆porrompompom|yes you did, you could've missed wow, or get critted by SE, or get hit by every SE
+|l|☆porrompompom
+|j|☆porrompompom
+|player|p1|porrompompom|170

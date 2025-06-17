@@ -1,0 +1,340 @@
+|j|ABQman
+|j|MaxRapture
+|player|p1|ABQman|244
+|player|p2|MaxRapture|143
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|26207,28113,27536,32650
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Sigilyph, F|item
+|poke|p1|Roserade, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Azumarill, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|279/279
+|switch|p2a: Politoed|Politoed, F|351/351
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|choice|switch 6|move hiddenpower
+|
+|switch|p1a: Roserade|Roserade, F|323/323
+|move|p2a: Politoed|Hidden Power|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|297/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|317/323|[from] item: Black Sludge
+|upkeep
+|turn|2
+|choice|move sleeppowder|switch 2
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|move|p1a: Roserade|Sleep Powder|p2a: Tornadus|[miss]
+|-miss|p1a: Roserade|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|323/323|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|switch 6|move hurricane
+|
+|switch|p1a: Rotom|Rotom-Wash|279/279
+|move|p2a: Tornadus|Hurricane|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|133/279
+|-start|p1a: Rotom|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|choice|switch 4|move hurricane
+|
+|switch|p1a: Hippowdon|Hippowdon, M|420/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Tornadus|Hurricane|p1a: Hippowdon
+|-damage|p1a: Hippowdon|63/420
+|-start|p1a: Hippowdon|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|281/299|[from] sandstorm
+|-heal|p1a: Hippowdon|89/420|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move slackoff|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Hippowdon|[miss]
+|-miss|p2a: Tornadus|p1a: Hippowdon
+|-activate|p1a: Hippowdon|confusion
+|-damage|p1a: Hippowdon|66/420|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|263/299|[from] sandstorm
+|-heal|p1a: Hippowdon|92/420|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move slackoff|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|245/299|[from] sandstorm
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Terrakion|Terrakion|323/323
+|turn|7
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Politoed|Politoed, F|351/351
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Terrakion|Stealth Rock|p2a: Politoed
+|-sidestart|p2: MaxRapture|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|choice|switch 6|move icebeam
+|
+|switch|p1a: Roserade|Roserade, F|323/323
+|move|p2a: Politoed|Ice Beam|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|41/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|61/323|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|move sleeppowder|switch 2
+|
+|switch|p2a: Tornadus|Tornadus, M|245/299
+|-damage|p2a: Tornadus|171/299|[from] Stealth Rock
+|move|p1a: Roserade|Sleep Powder|p2a: Tornadus
+|-status|p2a: Tornadus|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|81/323|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|switch 2|move sleeptalk
+|
+|switch|p1a: Scizor|Scizor, M|327/327
+|cant|p2a: Tornadus|slp
+|move|p2a: Tornadus|Sleep Talk|p2a: Tornadus
+|move|p2a: Tornadus|U-turn|p1a: Scizor|[from]Sleep Talk
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|302/327
+|choice||switch 3
+|
+|switch|p2a: Gastrodon|Gastrodon, M|399/399
+|-damage|p2a: Gastrodon|375/399|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|choice|move uturn|move scald
+|
+|move|p1a: Scizor|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|138/399
+|choice|switch 2|
+|
+|switch|p1a: Roserade|Roserade, F|81/323
+|move|p2a: Gastrodon|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-damage|p2a: Gastrodon|99/399|[from] item: Life Orb
+|faint|p1a: Roserade
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Scizor|Scizor, M|302/327
+|turn|12
+|j|lilipipi
+|choice|move uturn|move scald
+|
+|move|p1a: Scizor|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|choice|switch 4|
+|
+|switch|p1a: Rotom|Rotom-Wash|133/279
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Politoed|Politoed, F|351/351
+|-damage|p2a: Politoed|308/351|[from] Stealth Rock
+|turn|13
+|choice|move voltswitch|move hydropump
+|
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|26/351
+|choice|switch 4|
+|
+|switch|p1a: Scizor|Scizor, M|302/327
+|move|p2a: Politoed|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Rotom|Rotom-Wash|133/279
+|turn|14
+|choice|move voltswitch|move hydropump
+|
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|choice|switch 5|
+|
+|switch|p1a: Sigilyph|Sigilyph, F|286/286
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Azumarill|Azumarill, F|393/393
+|-damage|p2a: Azumarill|344/393|[from] Stealth Rock
+|turn|15
+|choice|move psyshock|move aquajet
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Sigilyph
+|-damage|p1a: Sigilyph|33/286
+|move|p1a: Sigilyph|Psyshock|p2a: Azumarill
+|-damage|p2a: Azumarill|153/393
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|choice|move psyshock|move aquajet
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Rotom|Rotom-Wash|133/279
+|turn|17
+|choice|move voltswitch|switch 4
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Jirachi
+|-damage|p2a: Jirachi|277/404
+|choice|switch 6|
+|
+|switch|p1a: Terrakion|Terrakion|323/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|302/404|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 6|move ironhead
+|
+|switch|p1a: Rotom|Rotom-Wash|133/279
+|move|p2a: Jirachi|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|112/279
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|327/404|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move hydropump|move bodyslam
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|48/404
+|move|p2a: Jirachi|Body Slam|p1a: Rotom
+|-damage|p1a: Rotom|48/279
+|-status|p1a: Rotom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|73/404|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|switch 6|move bodyslam
+|
+|switch|p1a: Terrakion|Terrakion|323/323
+|move|p2a: Jirachi|Body Slam|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|284/323
+|-status|p1a: Terrakion|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|98/404|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|★MaxRapture|?
+|choice|move closecombat|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|68/323 par
+|cant|p1a: Terrakion|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|123/404|[from] item: Leftovers
+|upkeep
+|turn|22
+|l|lilipipi
+|choice|move closecombat|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|148/404|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Rotom|Rotom-Wash|48/279 par
+|turn|23
+|choice|move hydropump|move bodyslam
+|
+|move|p2a: Jirachi|Body Slam|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|MaxRapture
+|player|p1
+|player|p2
+|raw|ABQman's rating: 1576 &rarr; <strong>1542</strong><br />(-34 for losing)
+|raw|MaxRapture's rating: 1288 &rarr; <strong>1330</strong><br />(+42 for winning)
+|l|MaxRapture

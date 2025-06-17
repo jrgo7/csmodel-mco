@@ -1,0 +1,1061 @@
+|j|☆Wally
+|j|☆Kidogo
+|player|p1|Wally|291
+|player|p2|Kidogo|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Starmie|item
+|poke|p1|Jirachi|item
+|poke|p1|Terrakion|item
+|poke|p1|Kyurem-Black|item
+|poke|p2|Politoed, F|item
+|poke|p2|Quagsire, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, F|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Politoed|Hidden Power|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|c|☆Wally|you're a kid
+|c|☆Wally|but a kid doggo
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: Wally|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Terrakion|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Kidogo|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|c|☆Kidogo|well said
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Starmie
+|-damage|p1a: Starmie|84/100
+|-sideend|p2: Kidogo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Starmie|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Starmie|72/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Wally|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|62/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆Kidogo|i feel like i remember you from a while ago
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Terrakion
+|-sidestart|p1: Wally|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Terrakion|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Kidogo|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|c|☆Wally|that's possible
+|
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|move|p2a: Tentacruel|Rapid Spin|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|99/100
+|-sideend|p2: Kidogo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Terrakion|Stone Edge|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quagsire|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Terrakion|Stealth Rock|p2a: Quagsire
+|-sidestart|p2: Kidogo|move: Stealth Rock
+|move|p2a: Quagsire|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quagsire|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Terrakion|Close Combat|p2a: Quagsire
+|-damage|p2a: Quagsire|51/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|move|p2a: Quagsire|Scald|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quagsire|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-ability|p1a: Kyurem|Teravolt
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Chansey|Chansey, F|86/100
+|-damage|p2a: Chansey|74/100|[from] Stealth Rock
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|43/100
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆Kidogo|yike
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Kyurem|Fusion Bolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|move|p1a: Kyurem|Ice Beam|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|67/100
+|-status|p2a: Politoed|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|-heal|p2a: Politoed|73/100 frz|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆Wally|lol
+|c|☆Wally|luckiest game in my life
+|c|☆Kidogo|hahaha kyu is just like
+|c|☆Kidogo|i got this one boys
+|c|☆Wally|^
+|c|☆Kidogo|hm
+|
+|switch|p2a: Quagsire|Quagsire, M|57/100
+|-damage|p2a: Quagsire|51/100|[from] Stealth Rock
+|move|p1a: Kyurem|Fusion Bolt|p2a: Quagsire
+|-immune|p2a: Quagsire|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|57/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Wally|quagsire wouldn't eat that max spA ice beam
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|c|☆Kidogo|you are correct
+|c|☆Kidogo|it appears
+|c|☆Kidogo|and i dont think chans gonna eat the fusion bolt now
+|c|☆Kidogo|hmmmmmmmmmmmm
+|c|☆Wally|if you don't run gyro ball on ferro you may not have been able to stall that kyurem
+|c|☆Kidogo|well
+|c|☆Wally|it's meant to be able to break sorta team
+|c|☆Kidogo|right
+|c|☆Kidogo|i do have perish song
+|c|☆Wally|ah
+|c|☆Wally|I see
+|c|☆Kidogo|dk though
+|c|☆Kidogo|hmmmmmm
+|
+|switch|p2a: Chansey|Chansey, F|43/100
+|-damage|p2a: Chansey|30/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Chansey
+|-damage|p2a: Chansey|5/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|55/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|c|☆Wally|fat
+|c|☆Kidogo|nice
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|39/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|89/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|c|☆Kidogo|LOL
+|c|☆Kidogo|*doesnt kill*
+|c|☆Kidogo|*goes for freeze again*
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|73/100
+|move|p2a: Chansey|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: Wally|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|c|☆Kidogo|ok lessee
+|c|☆Kidogo|i think pp may be the most legit tactic
+|c|☆Kidogo|unless you like
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|57/100
+|move|p2a: Chansey|Seismic Toss|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|c|☆Kidogo|wanna not resub when i break it
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|42/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|92/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|c|☆Wally|no thanks
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|83/100
+|move|p2a: Chansey|Seismic Toss|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|c|☆Kidogo|ohhhhh
+|c|☆Wally|spD drop y/n
+|c|☆Kidogo|i kinda thought that was outrage
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|c|☆Wally|outrage + sub would be counterproductive
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Kyurem|Fusion Bolt|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆Kidogo|it's true
+|c|☆Kidogo|i've seen some sets like that though
+|j| Guzzcko
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|33/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|-sideend|p2: Kidogo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|39/100|[from] ability: Rain Dish
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|45/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|l| Guzzcko
+|c|☆Kidogo|what the sub survived that
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|52/100|[from] ability: Rain Dish
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|58/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|89/100
+|move|p1a: Kyurem|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Kyurem|Ice Beam|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Chansey|Chansey, F|83/100
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|63/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|48/100
+|-status|p2a: Chansey|frz
+|-curestatus|p2a: Chansey|frz|[msg]
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|98/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|c|☆Wally|lol
+|c|☆Kidogo|hahahaha the rollercoaster
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|88/100
+|move|p2a: Chansey|Seismic Toss|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|c|☆Kidogo|thx rapid spin
+|
+|switch|p2a: Tentacruel|Tentacruel, M|58/100
+|move|p1a: Kyurem|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Wally|got you
+|c|☆Kidogo|omg
+|c|☆Kidogo|no
+|c|☆Kidogo|you didn't
+|c|☆Kidogo|wowww
+|c|☆Wally|:p
+|c|☆Kidogo|i thought like
+|c|☆Kidogo|should i
+|c|☆Kidogo|wow kudos
+|
+|switch|p2a: Chansey|Chansey, F|88/100
+|turn|35
+|c|☆Kidogo|i'm gonna switch to tenta again btw
+|c|☆Kidogo|so use that again
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|move|p2a: Chansey|Toxic|p1a: Kyurem
+|-fail|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆Kidogo|my ploy failed
+|j| VerlisifySetsSuck
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|54/100
+|move|p2a: Chansey|Stealth Rock|p1a: Kyurem
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|45/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|95/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|86/100
+|move|p2a: Chansey|Stealth Rock|p1a: Kyurem
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|76/100
+|move|p2a: Chansey|Stealth Rock|p1a: Kyurem
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|66/100
+|move|p2a: Chansey|Stealth Rock|p1a: Kyurem
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|j| Banishing Break
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|55/100
+|move|p2a: Chansey|Stealth Rock|p1a: Kyurem
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|42
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|45/100
+|move|p2a: Chansey|Stealth Rock|p1a: Kyurem
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|43
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|35/100
+|-unboost|p2a: Chansey|spd|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|85/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|44
+|
+|switch|p2a: Politoed|Politoed, F|73/100 frz
+|move|p1a: Kyurem|Ice Beam|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|50/100 frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|57/100 frz|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Chansey|Chansey, F|85/100
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|46
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|58/100
+|-unboost|p2a: Chansey|spd|1
+|move|p2a: Chansey|Stealth Rock|p1a: Kyurem
+|-fail|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|47
+|
+|switch|p2a: Politoed|Politoed, F|57/100 frz
+|move|p1a: Kyurem|Fusion Bolt|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Kidogo|damit
+|
+|switch|p2a: Chansey|Chansey, F|58/100
+|turn|48
+|c|☆Kidogo|kyu doing work
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|49/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|99/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|49
+|c|☆Wally|kyu is insane
+|c|☆Kidogo|3 kills 0 deaths
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|90/100
+|move|p2a: Chansey|Seismic Toss|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|50
+|
+|move|p1a: Kyurem|Earth Power|p2a: Chansey
+|-damage|p2a: Chansey|80/100
+|move|p2a: Chansey|Seismic Toss|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|51
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|76/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|c|☆Kidogo|hah
+|c|☆Kidogo|saved one pp
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Kyurem|Ice Beam|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p2a: Chansey|Chansey, F|80/100
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Chansey
+|-damage|p2a: Chansey|42/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|c|☆Kidogo|in a very hypothetical sense
+|c|☆Kidogo|i have not yet lost
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Chansey
+|-damage|p2a: Chansey|69/100
+|move|p2a: Chansey|Toxic|p1a: Kyurem
+|-fail|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|c|☆Wally|who knows
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|52/100
+|move|p2a: Chansey|Seismic Toss|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|57
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|58
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|59
+|c|☆Kidogo|hm
+|
+|move|p1a: Tornadus|Hurricane|p2a: Dragonite
+|-damage|p2a: Dragonite|58/100
+|move|p2a: Dragonite|Hurricane|p1a: Tornadus
+|-damage|p1a: Tornadus|10/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|65/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|c|☆Kidogo|hey twinsies
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Tornadus|Hurricane|p2a: Chansey
+|-damage|p2a: Chansey|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|61
+|c|☆Kidogo|strong
+|
+|move|p1a: Tornadus|Hurricane|p2a: Chansey
+|-damage|p2a: Chansey|45/100
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|95/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|62
+|c|☆Kidogo|oh god
+|c|☆Kidogo|pls
+|
+|switch|p1a: Starmie|Starmie|62/100
+|-damage|p1a: Starmie|50/100|[from] Spikes
+|-damage|p1a: Starmie|37/100|[from] Stealth Rock
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|95/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|63
+|c|☆Kidogo|damn
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|89/100
+|move|p1a: Starmie|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-damage|p1a: Starmie|25/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Wally|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|-sideend|p1: Wally|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|15/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|-damage|p1a: Starmie|5/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Leech Seed|p1a: Starmie
+|-start|p1a: Starmie|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|-damage|p1a: Starmie|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|62/100|[silent]
+|upkeep
+|faint|p1a: Starmie
+|c|☆Kidogo|ah nice
+|
+|switch|p1a: Tornadus|Tornadus, M|10/100
+|turn|65
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|j| nabil.k
+|
+|switch|p2a: Chansey|Chansey, F|95/100
+|move|p1a: Tornadus|Hurricane|p2a: Chansey
+|-damage|p2a: Chansey|68/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|67
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Chansey|Seismic Toss|p1a: Jirachi
+|-damage|p1a: Jirachi|72/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|68
+|c| nabil.k|allez wally
+|l| VerlisifySetsSuck
+|c| nabil.k|w
+|c| nabil.k|a
+|c| nabil.k|l
+|c| nabil.k|l
+|c|☆Wally|y
+|c| nabil.k|y
+|
+|move|p1a: Jirachi|Iron Head|p2a: Chansey
+|-damage|p2a: Chansey|44/100
+|move|p2a: Chansey|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Wally|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|69
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|switch|p2a: Ferrothorn|Ferrothorn, F|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Politoed|Hydro Pump|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Ferrothorn
+|-enditem|p1a: Politoed|Water Gem|[from] gem|[move] Hydro Pump
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|41/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|47/100|[from] item: Leftovers
+|-damage|p1a: Politoed|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|60/100|[silent]
+|upkeep
+|turn|72
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|switch|p1a: Politoed|Politoed, F|76/100
+|-damage|p1a: Politoed|64/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Politoed
+|-sidestart|p1: Wally|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Politoed|Ice Beam|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|move|p1a: Politoed|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100
+|-status|p2a: Ferrothorn|frz
+|cant|p2a: Ferrothorn|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|65/100 frz|[from] item: Leftovers
+|upkeep
+|turn|76
+|c|☆Kidogo|hahahaha
+|c|☆Wally|oof
+|c|☆Kidogo|playing to outs
+|
+|cant|p2a: Ferrothorn|frz
+|move|p1a: Politoed|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|44/100 frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|50/100 frz|[from] item: Leftovers
+|upkeep
+|turn|77
+|c| nabil.k|wally the beaste
+|
+|switch|p2a: Chansey|Chansey, F|44/100
+|move|p1a: Politoed|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|78
+|c|☆Kidogo|daaaamn nice
+|c|☆Wally|oof²
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Chansey|[miss]
+|-miss|p1a: Politoed|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|79
+|c|☆Kidogo|omg
+|c|☆Wally|eh
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|43/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|93/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|80
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|69/100
+|move|p2a: Chansey|Toxic|p1a: Politoed
+|-status|p1a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|57/100 tox|[from] psn
+|upkeep
+|turn|81
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|20/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|70/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|45/100 tox|[from] psn
+|upkeep
+|turn|82
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|46/100
+|move|p2a: Chansey|Seismic Toss|p1a: Politoed
+|-damage|p1a: Politoed|18/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Politoed
+|
+|switch|p1a: Jirachi|Jirachi|72/100
+|-damage|p1a: Jirachi|60/100|[from] Spikes
+|-damage|p1a: Jirachi|54/100|[from] Stealth Rock
+|turn|83
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|50/100 frz
+|move|p1a: Jirachi|Healing Wish|p1a: Jirachi
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|57/100 frz|[from] item: Leftovers
+|upkeep
+|c|☆Wally|L
+|c|☆Wally|O
+|c|☆Wally|L
+|c|☆Wally|L
+|c|☆Kidogo|NOOOOOOOOOOOOOO
+|
+|switch|p1a: Tornadus|Tornadus, M|10/100
+|-heal|p1a: Tornadus|100/100|[from] move: Healing Wish
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|84
+|
+|cant|p2a: Ferrothorn|frz
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, F|46/100
+|turn|85
+|
+|move|p1a: Tornadus|Hurricane|p2a: Chansey
+|-damage|p2a: Chansey|16/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|86
+|
+|move|p1a: Tornadus|Hurricane|p2a: Chansey
+|-damage|p2a: Chansey|37/100
+|move|p2a: Chansey|Toxic|p1a: Tornadus|[miss]
+|-miss|p2a: Chansey|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|87
+|c|☆Kidogo|noooo
+|c|☆Wally|L
+|c|☆Wally|O
+|c|☆Wally|L
+|c|☆Kidogo|omg what a match
+|
+|move|p1a: Tornadus|Hurricane|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Wally|L
+|c|☆Wally|OL
+|c|☆Kidogo|hahahahahaha
+|c|☆Kidogo|i can't
+|
+|switch|p2a: Dragonite|Dragonite, M|65/100
+|turn|88
+|c|☆Wally|that game
+|c|☆Wally|isn't a stall fan
+|c|☆Wally|"gg"
+|c|☆Kidogo|yeah it def had some strong opinions
+|c|☆Kidogo|gg lol
+|c|☆Wally|stall life matter
+|
+|move|p1a: Tornadus|Hurricane|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Wally
+|l| Banishing Break
+|raw|Wally's rating: 1343 &rarr; <strong>1363</strong><br />(+20 for winning)
+|raw|Kidogo's rating: 1335 &rarr; <strong>1316</strong><br />(-19 for losing)
+|l|☆Wally

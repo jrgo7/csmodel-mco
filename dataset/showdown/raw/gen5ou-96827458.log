@@ -1,0 +1,495 @@
+|join|Zurog
+|join|annnndz
+|player|p1|Zurog|101
+|player|p2|annnndz|144
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Skarmory, M, shiny
+|poke|p1|Politoed, F, shiny
+|poke|p1|Gengar, F, shiny
+|poke|p1|Garchomp, F, shiny
+|poke|p1|Thundurus-Therian, M, shiny
+|poke|p1|Ferrothorn, F, shiny
+|poke|p2|Politoed, M
+|poke|p2|Thundurus-Therian, M
+|poke|p2|Espeon, M
+|poke|p2|Tentacruel, F
+|poke|p2|Lapras, M
+|poke|p2|Dragonite, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M, shiny|300/300
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Thundurus-Therian|Hidden Power|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|338/384
+|move|p2a: Politoed|Ice Beam|p1a: Thundurus-Therian
+|-supereffective|p1a: Thundurus-Therian
+|-damage|p1a: Thundurus-Therian|126/300
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|362/384|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|352/352
+|move|p2a: Politoed|Ice Beam|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|261/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|384/384|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|283/352|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Politoed|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|239/352
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|276/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|300/384|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|261/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|217/352 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Espeon|Espeon, M|272/272
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Espeon
+|move|p2a: Espeon|Stealth Rock|p1a: Ferrothorn|[from]Magic Bounce
+|-sidestart|p1: Zurog|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|239/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|195/352 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Gengar|Gengar, F, shiny|262/262
+|-damage|p1a: Gengar|230/262|[from] Stealth Rock
+|move|p2a: Espeon|Hidden Power|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|-damage|p1a: Gengar|204/262|[from] item: Life Orb
+|faint|p2a: Espeon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Tentacruel|Tentacruel, F|364/364
+|turn|7
+|
+|move|p1a: Gengar|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|70/364
+|-damage|p1a: Gengar|178/262|[from] item: Life Orb
+|move|p2a: Tentacruel|Scald|p1a: Gengar
+|-damage|p1a: Gengar|16/262
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|92/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|114/364|[from] item: Black Sludge
+|turn|8
+|
+|switch|p2a: Thundurus-Therian|Thundurus-Therian, M|300/300
+|move|p1a: Gengar|Sludge Wave|p2a: Thundurus-Therian
+|-damage|p2a: Thundurus-Therian|15/300
+|-damage|p1a: Gengar|0 fnt|[from] item: Life Orb
+|faint|p1a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M, shiny|126/300
+|-damage|p1a: Thundurus-Therian|51/300|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Thundurus-Therian|Dark Pulse|p2a: Thundurus-Therian
+|-damage|p2a: Thundurus-Therian|0 fnt
+|faint|p2a: Thundurus-Therian
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, F|324/324
+|turn|10
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Thundurus-Therian
+|-damage|p1a: Thundurus-Therian|0 fnt
+|faint|p1a: Thundurus-Therian
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|195/352 brn
+|-damage|p1a: Ferrothorn|173/352 brn|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Tentacruel|Tentacruel, F|114/364
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|136/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|158/364|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|195/352 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|113/364|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|240/352 brn|[silent]
+|-damage|p1a: Ferrothorn|196/352 brn|[from] brn
+|turn|12
+|
+|switch|p2a: Politoed|Politoed, M|300/384
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Politoed
+|-sidestart|p2: annnndz|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|324/384|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|218/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|174/352 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Politoed|Politoed, F, shiny|384/384
+|-damage|p1a: Politoed|336/384|[from] Stealth Rock
+|move|p2a: Politoed|Ice Beam|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|307/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|331/384|[from] item: Leftovers
+|-heal|p2a: Politoed|348/384|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Politoed|Toxic|p1a: Politoed
+|-status|p1a: Politoed|tox
+|move|p1a: Politoed|Toxic|p2a: Politoed
+|-status|p2a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|372/384 tox|[from] item: Leftovers
+|-heal|p1a: Politoed|355/384 tox|[from] item: Leftovers
+|-damage|p1a: Politoed|331/384 tox|[from] psn
+|-damage|p2a: Politoed|348/384 tox|[from] psn
+|turn|15
+|
+|switch|p2a: Lapras|Lapras, M|464/464
+|-damage|p2a: Lapras|348/464|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|299/464
+|-status|p2a: Lapras|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|355/384 tox|[from] item: Leftovers
+|-curestatus|p2a: Lapras|brn
+|-heal|p2a: Lapras|328/464|[from] item: Leftovers
+|-damage|p1a: Politoed|307/384 tox|[from] psn
+|turn|16
+|
+|move|p1a: Politoed|Scald|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|279/464
+|move|p2a: Lapras|Curse|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|def|1
+|-unboost|p2a: Lapras|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|331/384 tox|[from] item: Leftovers
+|-heal|p2a: Lapras|308/464|[from] item: Leftovers
+|-damage|p1a: Politoed|259/384 tox|[from] psn
+|turn|17
+|
+|switch|p1a: Skarmory|Skarmory, M, shiny|334/334
+|-damage|p1a: Skarmory|293/334|[from] Stealth Rock
+|move|p2a: Lapras|Curse|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|def|1
+|-unboost|p2a: Lapras|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|337/464|[from] item: Leftovers
+|turn|18
+|chat|annnndz|Fack.
+|
+|move|p2a: Lapras|Waterfall|p1a: Skarmory
+|-damage|p1a: Skarmory|145/334
+|-damage|p2a: Lapras|260/464|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Lapras
+|drag|p2a: Dragonite|Dragonite, F|324/324
+|-damage|p2a: Dragonite|243/324|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|19
+|chat|annnndz|I forgot..
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|100/334
+|-damage|p2a: Dragonite|189/324|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|267/334
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|switch|p2a: Tentacruel|Tentacruel, F|113/364
+|-damage|p2a: Tentacruel|68/364|[from] Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Tentacruel
+|-sidestart|p2: annnndz|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|90/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|112/364|[from] item: Black Sludge
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|174/352 brn
+|-damage|p1a: Ferrothorn|152/352 brn|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|148/352 brn
+|-damage|p2a: Tentacruel|67/364|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: annnndz|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: annnndz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|89/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|111/364|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|170/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|126/352 brn|[from] brn
+|turn|22
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|133/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|155/364|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|148/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|104/352 brn|[from] brn
+|turn|23
+|
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/352 brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: annnndz|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|177/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|199/364|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|89/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|45/352 brn|[from] brn
+|turn|24
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|358/358
+|-damage|p1a: Garchomp|336/358|[from] Stealth Rock
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|221/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|243/364|[from] item: Black Sludge
+|turn|25
+|
+|move|p1a: Garchomp|Outrage|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, F|189/324
+|-damage|p2a: Dragonite|108/324|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|52/358
+|-damage|p2a: Dragonite|68/324|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Outrage|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-end|p1a: Garchomp|rampage
+|-start|p1a: Garchomp|confusion
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, M|348/384 tox
+|-damage|p2a: Politoed|300/384 tox|[from] Stealth Rock
+|turn|27
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|45/352 brn
+|-damage|p1a: Ferrothorn|23/352 brn|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|324/384 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|300/384 tox|[from] psn
+|
+|switch|p1a: Politoed|Politoed, F, shiny|259/384 tox
+|-damage|p1a: Politoed|211/384 tox|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Lapras|Lapras, M|260/464
+|-damage|p2a: Lapras|144/464|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|92/464
+|-status|p2a: Lapras|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|235/384 tox|[from] item: Leftovers
+|-curestatus|p2a: Lapras|brn
+|-heal|p2a: Lapras|121/464|[from] item: Leftovers
+|-damage|p1a: Politoed|211/384 tox|[from] psn
+|turn|29
+|
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-fieldactivate|move: Perish Song
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|464/464 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|-start|p1a: Politoed|perish3
+|-start|p2a: Lapras|perish3
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|235/384 tox|[from] item: Leftovers
+|-curestatus|p2a: Lapras|slp
+|-damage|p1a: Politoed|187/384 tox|[from] psn
+|turn|30
+|
+|switch|p1a: Skarmory|Skarmory, M, shiny|267/334
+|-damage|p1a: Skarmory|226/334|[from] Stealth Rock
+|move|p2a: Lapras|Waterfall|p1a: Skarmory
+|-damage|p1a: Skarmory|150/334
+|-damage|p2a: Lapras|387/464|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|-start|p2a: Lapras|perish2
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|416/464|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|317/334
+|move|p2a: Lapras|Waterfall|p1a: Skarmory
+|-damage|p1a: Skarmory|241/334
+|-damage|p2a: Lapras|339/464|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|-start|p2a: Lapras|perish1
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|368/464|[from] item: Leftovers
+|turn|32
+|
+|switch|p2a: Politoed|Politoed, M|300/384 tox
+|-damage|p2a: Politoed|252/384 tox|[from] Stealth Rock
+|move|p1a: Skarmory|Whirlwind|p2a: Politoed
+|drag|p2a: Lapras|Lapras, M|368/464
+|-damage|p2a: Lapras|252/464|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|281/464|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Skarmory|Spikes|p2a: Lapras
+|-sidestart|p2: annnndz|Spikes
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|464/464 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-curestatus|p2a: Lapras|slp
+|turn|34
+|
+|move|p2a: Lapras|Curse|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|def|1
+|-unboost|p2a: Lapras|spe|1
+|move|p1a: Skarmory|Whirlwind|p2a: Lapras
+|drag|p2a: Politoed|Politoed, M|252/384 tox
+|-damage|p2a: Politoed|204/384 tox|[from] Stealth Rock
+|-damage|p2a: Politoed|156/384 tox|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|180/384 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|156/384 tox|[from] psn
+|turn|35
+|
+|switch|p1a: Politoed|Politoed, F, shiny|187/384 tox
+|-damage|p1a: Politoed|139/384 tox|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|93/384 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|117/384 tox|[from] item: Leftovers
+|-heal|p2a: Politoed|180/384 tox|[from] item: Leftovers
+|-damage|p1a: Politoed|93/384 tox|[from] psn
+|-damage|p2a: Politoed|132/384 tox|[from] psn
+|turn|36
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Politoed|Scald|p1a: Politoed
+|-activate|p1a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|117/384 tox|[from] item: Leftovers
+|-heal|p2a: Politoed|156/384 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|84/384 tox|[from] psn
+|-damage|p1a: Politoed|69/384 tox|[from] psn
+|turn|37
+|
+|move|p1a: Politoed|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|23/384 tox
+|move|p2a: Politoed|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|19/384 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|43/384 tox|[from] item: Leftovers
+|-heal|p2a: Politoed|47/384 tox|[from] item: Leftovers
+|-damage|p1a: Politoed|0 fnt|[from] psn
+|-damage|p2a: Politoed|0 fnt|[from] psn
+|faint|p1a: Politoed
+|faint|p2a: Politoed
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|52/358
+|-damage|p1a: Garchomp|30/358|[from] Stealth Rock
+|switch|p2a: Lapras|Lapras, M|464/464
+|-damage|p2a: Lapras|348/464|[from] Stealth Rock
+|-damage|p2a: Lapras|290/464|[from] Spikes
+|turn|38
+|
+|move|p1a: Garchomp|Outrage|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|win|Zurog
+|raw|Ladder updating...
+|raw|Zurog's rating: 1266 &rarr; <strong>1295</strong><br />(+29 for winning)
+|raw|annnndz's rating: 1320 &rarr; <strong>1297</strong><br />(-23 for losing)

@@ -1,0 +1,409 @@
+|j|☆Speed Shobu
+|j|☆ShigureSIREN
+|player|p1|Speed Shobu|acetrainerf-gen4dp|1568
+|player|p2|ShigureSIREN|anabel|1308
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Breloom, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Heatran, M|item
+|poke|p2|Yanmega, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Tentacruel, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: ストーム|Thundurus-Therian, M|100/100
+|turn|1
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: ストーム|Focus Blast|p1a: Latios|[miss]
+|-miss|p2a: ストーム|p1a: Latios
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: えきさいと|Excadrill, M|100/100
+|move|p1a: Latios|Dragon Pulse|p2a: えきさいと
+|-resisted|p2a: えきさいと
+|-damage|p2a: えきさいと|57/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: えきさいと|X-Scissor|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|66/100
+|
+|-heal|p1a: Slowbro|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: ストーム|Thundurus-Therian, M|100/100
+|move|p1a: Slowbro|Scald|p2a: ストーム
+|-damage|p2a: ストーム|62/100
+|
+|-heal|p1a: Slowbro|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: ストーム|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: ストーム|56/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: ストーム|Focus Blast|p1a: Latios
+|-resisted|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: ストーム|50/100|[from] Sandstorm
+|-damage|p1a: Latios|42/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: くらげん|Tentacruel, M|100/100
+|move|p1a: Latios|Surf|p2a: くらげん
+|-resisted|p2a: くらげん
+|-damage|p2a: くらげん|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|36/100|[from] Sandstorm
+|-damage|p2a: くらげん|79/100|[from] Sandstorm
+|-heal|p2a: くらげん|85/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: くらげん|Toxic|p1a: Slowbro
+|-status|p1a: Slowbro|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: くらげん|79/100|[from] Sandstorm
+|-damage|p1a: Slowbro|94/100 tox|[from] Sandstorm
+|-heal|p2a: くらげん|85/100|[from] item: Black Sludge
+|-heal|p1a: Slowbro|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowbro|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: くらげん|Protect|p2a: くらげん
+|-singleturn|p2a: くらげん|Protect
+|move|p1a: Slowbro|Scald|p2a: くらげん
+|-activate|p2a: くらげん|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: くらげん|79/100|[from] Sandstorm
+|-damage|p1a: Slowbro|88/100 tox|[from] Sandstorm
+|-heal|p2a: くらげん|85/100|[from] item: Black Sludge
+|-heal|p1a: Slowbro|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowbro|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: くらげん|Scald|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|71/100 tox
+|move|p1a: Slowbro|Scald|p2a: くらげん
+|-resisted|p2a: くらげん
+|-damage|p2a: くらげん|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: くらげん|69/100|[from] Sandstorm
+|-damage|p1a: Slowbro|65/100 tox|[from] Sandstorm
+|-heal|p2a: くらげん|75/100|[from] item: Black Sludge
+|-heal|p1a: Slowbro|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowbro|53/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: くらげん|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|89/100
+|-status|p1a: Breloom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: くらげん|69/100|[from] Sandstorm
+|-damage|p1a: Breloom|82/100 brn|[from] Sandstorm
+|-heal|p2a: くらげん|75/100|[from] item: Black Sludge
+|-damage|p1a: Breloom|70/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: くらげん|Protect|p2a: くらげん
+|-singleturn|p2a: くらげん|Protect
+|move|p1a: Breloom|Stun Spore|p2a: くらげん
+|-activate|p2a: くらげん|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: くらげん|69/100|[from] Sandstorm
+|-damage|p1a: Breloom|64/100 brn|[from] Sandstorm
+|-heal|p2a: くらげん|75/100|[from] item: Black Sludge
+|-damage|p1a: Breloom|51/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: くらげん|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|37/100 brn
+|move|p1a: Breloom|Leech Seed|p2a: くらげん|[miss]
+|-miss|p1a: Breloom|p2a: くらげん
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: くらげん|69/100|[from] Sandstorm
+|-damage|p1a: Breloom|31/100 brn|[from] Sandstorm
+|-heal|p2a: くらげん|75/100|[from] item: Black Sludge
+|-damage|p1a: Breloom|19/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|move|p2a: くらげん|Protect||[still]
+|-fail|p2a: くらげん
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: くらげん|69/100|[from] Sandstorm
+|-heal|p2a: くらげん|75/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: スカBAN|Skarmory, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: スカBAN
+|-immune|p2a: スカBAN
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: スカBAN|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Speed Shobu|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: くらげん|Tentacruel, M|75/100
+|move|p1a: Heatran|Lava Plume|p2a: くらげん
+|-resisted|p2a: くらげん
+|-damage|p2a: くらげん|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: くらげん|57/100|[from] Sandstorm
+|-heal|p2a: くらげん|63/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Heatran|Earth Power|p2a: くらげん
+|-supereffective|p2a: くらげん
+|-crit|p2a: くらげん
+|-damage|p2a: くらげん|0 fnt
+|faint|p2a: くらげん
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: えきさいと|Excadrill, M|57/100
+|turn|19
+|
+|switch|p1a: Breloom|Breloom, M|19/100 brn
+|-damage|p1a: Breloom|12/100 brn|[from] Stealth Rock
+|move|p2a: えきさいと|X-Scissor|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Slowbro|Slowbro, M|86/100 tox
+|-damage|p1a: Slowbro|74/100 tox|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: ヒポ丼|Hippowdon, M|100/100
+|move|p1a: Slowbro|Ice Beam|p2a: ヒポ丼
+|-supereffective|p2a: ヒポ丼
+|-damage|p2a: ヒポ丼|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|68/100 tox|[from] Sandstorm
+|-heal|p1a: Slowbro|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowbro|68/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: ストーム|Thundurus-Therian, M|50/100
+|move|p1a: Slowbro|Scald|p2a: ストーム
+|-damage|p2a: ストーム|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: ストーム|5/100|[from] Sandstorm
+|-damage|p1a: Slowbro|62/100 tox|[from] Sandstorm
+|-heal|p1a: Slowbro|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Slowbro|56/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: ストーム|Volt Switch|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p2a: えきさいと|Excadrill, M|57/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|36/100
+|-damage|p1a: Latios|24/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: えきさいと|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: ヒポ丼|Hippowdon, M|64/100
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|63/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Heatran|Lava Plume|p2a: ヒポ丼
+|-damage|p2a: ヒポ丼|29/100
+|-enditem|p2a: ヒポ丼|Sitrus Berry|[eat]
+|-heal|p2a: ヒポ丼|54/100|[from] item: Sitrus Berry
+|move|p2a: ヒポ丼|Whirlwind|p1a: Heatran
+|drag|p1a: Tyranitar|Tyranitar, M|58/100
+|-damage|p1a: Tyranitar|46/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: ヒポ丼
+|-sidestart|p2: ShigureSIREN|move: Stealth Rock
+|move|p2a: ヒポ丼|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|24/100
+|-damage|p1a: Latios|11/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p2a: ストーム|Thundurus-Therian, M|5/100
+|-damage|p2a: ストーム|0 fnt|[from] Stealth Rock
+|faint|p2a: ストーム
+|move|p1a: Latios|Dragon Pulse|p2: ストーム|[notarget]
+|-fail|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|5/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: ヒポ丼|Hippowdon, M|54/100
+|-damage|p2a: ヒポ丼|48/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Latios|Dragon Pulse|p2a: ヒポ丼
+|-damage|p2a: ヒポ丼|0 fnt
+|faint|p2a: ヒポ丼
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|0 fnt|[from] Sandstorm
+|faint|p1a: Latios
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: えきさいと|Excadrill, M|57/100
+|-damage|p2a: えきさいと|54/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: スカBAN|Skarmory, M|100/100
+|-damage|p2a: スカBAN|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: スカBAN
+|-immune|p2a: スカBAN
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|30
+|
+|switch|p1a: Heatran|Heatran, M|63/100
+|-damage|p1a: Heatran|51/100|[from] Stealth Rock
+|switch|p2a: えきさいと|Excadrill, M|54/100
+|-damage|p2a: えきさいと|51/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|57/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: えきさいと|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|97/100
+|-damage|p1a: Excadrill|94/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: えきさいと|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|ShigureSIREN
+|l|☆Speed Shobu
+|raw|Speed Shobu's rating: 1568 &rarr; <strong>1536</strong><br />(-32 for losing)
+|raw|ShigureSIREN's rating: 1308 &rarr; <strong>1341</strong><br />(+33 for winning)

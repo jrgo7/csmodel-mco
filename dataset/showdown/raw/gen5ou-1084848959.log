@@ -1,0 +1,302 @@
+|j|☆grizou fangirl
+|j|☆TheRareCandyDealer
+|player|p1|grizou fangirl|8|1465
+|player|p2|TheRareCandyDealer|dragontamer|1382
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Mew|item
+|poke|p1|Gliscor, M|item
+|poke|p2|Crawdaunt, M|item
+|poke|p2|Heracross, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Gyarados, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Abbadon|Crawdaunt, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Abbadon|Dragon Dance|p2a: Abbadon
+|-boost|p2a: Abbadon|atk|1
+|-boost|p2a: Abbadon|spe|1
+|move|p1a: Skarmory|Spikes|p2a: Abbadon
+|-sidestart|p2: TheRareCandyDealer|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Abbadon|Waterfall|p1a: Skarmory
+|-damage|p1a: Skarmory|19/100
+|-damage|p2a: Abbadon|90/100|[from] item: Life Orb
+|move|p1a: Skarmory|Whirlwind|p2a: Abbadon
+|drag|p2a: Leviathan|Gyarados, F|100/100
+|
+|-heal|p1a: Skarmory|25/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Leviathan|Dragon Dance|p2a: Leviathan
+|-boost|p2a: Leviathan|atk|1
+|-boost|p2a: Leviathan|spe|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Leviathan|Waterfall|p1a: Mew
+|-damage|p1a: Mew|57/100
+|move|p1a: Mew|Will-O-Wisp|p2a: Leviathan|[miss]
+|-miss|p1a: Mew|p2a: Leviathan
+|
+|-heal|p1a: Mew|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Leviathan|Waterfall|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|-ability|p2a: Leviathan|Moxie|boost
+|-boost|p2a: Leviathan|atk|1
+|
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|turn|6
+|
+|move|p2a: Leviathan|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|52/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Leviathan
+|-status|p2a: Leviathan|brn
+|
+|-heal|p1a: Jellicent|59/100|[from] item: Leftovers
+|-damage|p2a: Leviathan|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Leviathan|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|31/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|81/100
+|
+|-heal|p2a: Leviathan|94/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|87/100|[from] item: Leftovers
+|-damage|p2a: Leviathan|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Leviathan|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|59/100
+|move|p1a: Jellicent|Taunt|p2a: Leviathan
+|-start|p2a: Leviathan|move: Taunt
+|
+|-heal|p2a: Leviathan|88/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|65/100|[from] item: Leftovers
+|-damage|p2a: Leviathan|75/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Leviathan|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|37/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|87/100
+|
+|-heal|p2a: Leviathan|81/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|-damage|p2a: Leviathan|69/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Leviathan|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|67/100
+|move|p1a: Jellicent|Scald|p2a: Leviathan
+|-resisted|p2a: Leviathan
+|-damage|p2a: Leviathan|58/100 brn
+|
+|-heal|p2a: Leviathan|64/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|73/100|[from] item: Leftovers
+|-damage|p2a: Leviathan|51/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Leviathan|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|49/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|99/100
+|
+|-heal|p2a: Leviathan|57/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p2a: Leviathan|45/100 brn|[from] brn
+|-end|p2a: Leviathan|move: Taunt
+|upkeep
+|turn|12
+|
+|move|p2a: Leviathan|Dragon Dance|p2a: Leviathan
+|-boost|p2a: Leviathan|atk|1
+|-boost|p2a: Leviathan|spe|1
+|move|p1a: Jellicent|Scald|p2a: Leviathan
+|-resisted|p2a: Leviathan
+|-damage|p2a: Leviathan|33/100 brn
+|
+|-heal|p2a: Leviathan|39/100 brn|[from] item: Leftovers
+|-damage|p2a: Leviathan|27/100 brn|[from] brn
+|upkeep
+|turn|13
+|j| Grikat
+|
+|move|p2a: Leviathan|Dragon Dance|p2a: Leviathan
+|-boost|p2a: Leviathan|atk|1
+|-boost|p2a: Leviathan|spe|1
+|move|p1a: Jellicent|Scald|p2a: Leviathan
+|-resisted|p2a: Leviathan
+|-damage|p2a: Leviathan|15/100 brn
+|
+|-heal|p2a: Leviathan|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Leviathan|8/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Leviathan|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|61/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-heal|p2a: Leviathan|14/100 brn|[from] item: Leftovers
+|-damage|p2a: Leviathan|2/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Leviathan|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|64/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-heal|p2a: Leviathan|8/100 brn|[from] item: Leftovers
+|-damage|p2a: Leviathan|0 fnt|[from] brn
+|faint|p2a: Leviathan
+|upkeep
+|
+|switch|p2a: Ishtar|Heracross, F, shiny|100/100
+|-damage|p2a: Ishtar|88/100|[from] Spikes
+|turn|16
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Ishtar|Swords Dance|p2a: Ishtar
+|-boost|p2a: Ishtar|atk|2
+|
+|-status|p2a: Ishtar|brn|[from] item: Flame Orb
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheRareCandyDealer)
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Ishtar|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Ishtar|76/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Ishtar|Night Slash|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Ishtar|64/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|19
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Ishtar|Close Combat|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-damage|p2a: Ishtar|51/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Ishtar|Night Slash|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-damage|p2a: Ishtar|39/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|21
+|
+|switch|p1a: Skarmory|Skarmory, F|25/100
+|move|p2a: Ishtar|Close Combat|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-unboost|p2a: Ishtar|def|1
+|-unboost|p2a: Ishtar|spd|1
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ishtar|33/100 brn|[from] Sandstorm
+|-damage|p2a: Ishtar|21/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|22
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Ishtar|Close Combat|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ishtar|15/100 brn|[from] Sandstorm
+|-damage|p2a: Ishtar|3/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Heatran|Protect||[still]
+|-fail|p1a: Heatran
+|move|p2a: Ishtar|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Ishtar|def|1
+|-unboost|p2a: Ishtar|spd|1
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ishtar|0 fnt|[from] Sandstorm
+|faint|p2a: Ishtar
+|upkeep
+|-message|grizou fangirl forfeited.
+|
+|win|TheRareCandyDealer
+|l|☆grizou fangirl
+|raw|grizou fangirl's rating: 1465 &rarr; <strong>1440</strong><br />(-25 for losing)
+|raw|TheRareCandyDealer's rating: 1382 &rarr; <strong>1407</strong><br />(+25 for winning)
+|l| Grikat

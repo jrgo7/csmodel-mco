@@ -1,0 +1,1322 @@
+|j|the fine print
+|j|Resist The Storm
+|player|p1|the fine print|1
+|teamsize|p1|6
+|player|p2|Resist The Storm|170
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|54943,62520,33595,41960
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Feraligatr, M|item
+|poke|p1|Politoed, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Celebi|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Pony|Keldeo|323/323
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|turn|1
+|choice|move secretsword|switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|364/364
+|move|p1a: Pony|Secret Sword|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|224/364
+|
+|-heal|p2a: Tentacruel|246/364|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 5|move toxic
+|
+|switch|p1a: Onion|Celebi|403/403
+|move|p2a: Tentacruel|Toxic|p1a: Onion
+|-status|p1a: Onion|tox
+|
+|-heal|p2a: Tentacruel|268/364|[from] item: Leftovers
+|-damage|p1a: Onion|378/403 tox|[from] psn
+|upkeep
+|turn|3
+|choice|move uturn|switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Onion|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|316/352
+|-damage|p1a: Onion|328/403 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|choice|switch 5|
+|
+|-curestatus|p1a: Onion|tox|[from] ability: Natural Cure
+|switch|p1a: Pony|Keldeo|323/323
+|
+|-heal|p2a: Ferrothorn|338/352|[from] item: Leftovers
+|upkeep
+|turn|4
+|j|TexasKomalas
+|choice|move secretsword|switch 5
+|
+|switch|p2a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Pony|Secret Sword|p2a: Politoed
+|-damage|p2a: Politoed|249/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|273/384|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 2|move toxic
+|
+|switch|p1a: Frog|Politoed, M|329/329
+|move|p2a: Politoed|Toxic|p1a: Frog
+|-status|p1a: Frog|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|297/384|[from] item: Leftovers
+|-damage|p1a: Frog|309/329 tox|[from] psn
+|upkeep
+|turn|6
+|choice|switch 2|switch 5
+|
+|switch|p1a: Pony|Keldeo|323/323
+|switch|p2a: Ferrothorn|Ferrothorn, F|338/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|352/352|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move surf|switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|268/364
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|154/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|176/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|198/364|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move surf|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|220/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|242/364|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 5|move toxic
+|
+|switch|p1a: Onion|Celebi|328/403
+|move|p2a: Tentacruel|Toxic|p1a: Onion
+|-status|p1a: Onion|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|264/364|[from] ability: Rain Dish
+|-heal|p1a: Onion|353/403 tox|[from] item: Leftovers
+|-heal|p2a: Tentacruel|286/364|[from] item: Leftovers
+|-damage|p1a: Onion|328/403 tox|[from] psn
+|upkeep
+|turn|10
+|choice|move stealthrock|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Onion|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Resist The Storm|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|308/364|[from] ability: Rain Dish
+|-heal|p1a: Onion|353/403 tox|[from] item: Leftovers
+|-heal|p2a: Tentacruel|330/364|[from] item: Leftovers
+|-damage|p1a: Onion|303/403 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move psychic|move rapidspin
+|
+|move|p1a: Onion|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|148/364
+|move|p2a: Tentacruel|Rapid Spin|p1a: Onion
+|-damage|p1a: Onion|292/403 tox
+|-sideend|p2: Resist The Storm|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|170/364|[from] ability: Rain Dish
+|-heal|p1a: Onion|317/403 tox|[from] item: Leftovers
+|-heal|p2a: Tentacruel|192/364|[from] item: Leftovers
+|-damage|p1a: Onion|242/403 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move uturn|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Onion|U-turn|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|214/364|[from] ability: Rain Dish
+|-heal|p1a: Onion|267/403 tox|[from] item: Leftovers
+|-heal|p2a: Tentacruel|236/364|[from] item: Leftovers
+|-damage|p1a: Onion|167/403 tox|[from] psn
+|upkeep
+|turn|13
+|choice|switch 5|move rapidspin
+|
+|-curestatus|p1a: Onion|tox|[from] ability: Natural Cure
+|switch|p1a: Pony|Keldeo|323/323
+|move|p2a: Tentacruel|Rapid Spin|p1a: Pony
+|-damage|p1a: Pony|313/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|258/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|280/364|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|switch 2|move toxic
+|
+|switch|p1a: Frog|Politoed, M|309/329 tox
+|move|p2a: Tentacruel|Toxic|p1a: Frog
+|-fail|p1a: Frog|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|302/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|324/364|[from] item: Leftovers
+|-damage|p1a: Frog|289/329 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move hydropump|switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Frog|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|205/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|227/352|[from] item: Leftovers
+|-damage|p1a: Frog|249/329 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move hydropump|move stealthrock
+|
+|move|p1a: Frog|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|92/352
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Frog
+|-sidestart|p1: the fine print|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|114/352|[from] item: Leftovers
+|-damage|p1a: Frog|189/329 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move hydropump|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Frog|Hydro Pump|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|136/352|[from] item: Leftovers
+|-damage|p1a: Frog|109/329 tox|[from] psn
+|upkeep
+|turn|18
+|choice|switch 6|switch 3
+|
+|switch|p1a: Star|Jirachi|404/404
+|-damage|p1a: Star|379/404|[from] Stealth Rock
+|switch|p2a: Chansey|Chansey, F|655/655
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|404/404|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move calmmind|switch 4
+|
+|switch|p2a: Gliscor|Gliscor, M|354/354
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|1
+|-boost|p1a: Star|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|20
+|choice|move psychic|move earthquake
+|
+|move|p1a: Star|Psychic|p2a: Gliscor
+|-damage|p2a: Gliscor|144/354 tox
+|move|p2a: Gliscor|Earthquake|p1a: Star
+|-supereffective|p1a: Star
+|-damage|p1a: Star|218/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|243/404|[from] item: Leftovers
+|-heal|p2a: Gliscor|188/354 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|choice|move psychic|move earthquake
+|
+|move|p1a: Star|Psychic|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|268/404|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, F|655/655
+|turn|22
+|choice|move wish|move seismictoss
+|
+|move|p1a: Star|Wish|p1a: Star
+|move|p2a: Chansey|Seismic Toss|p1a: Star
+|-damage|p1a: Star|168/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|193/404|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move psychic|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|136/352
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|80/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|395/404|[from] move: Wish|[wisher] Star
+|-heal|p1a: Star|404/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|102/352|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move psychic|move leechseed
+|
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|48/352
+|-unboost|p2a: Ferrothorn|spd|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Star
+|-start|p1a: Star|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|70/352|[from] item: Leftovers
+|-damage|p1a: Star|354/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|120/352|[silent]
+|upkeep
+|turn|25
+|choice|switch 5|move powerwhip
+|
+|switch|p1a: Onion|Celebi|167/403
+|-damage|p1a: Onion|117/403|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Onion
+|-resisted|p1a: Onion
+|-damage|p1a: Onion|45/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Onion|70/403|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|142/352|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move uturn|switch 2
+|
+|switch|p2a: Skarmory|Skarmory, F|334/334
+|move|p1a: Onion|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|326/334
+|choice|switch 2|
+|
+|switch|p1a: Pony|Keldeo|313/323
+|-damage|p1a: Pony|293/323|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|choice|move surf|switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|324/364
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|215/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|237/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|259/364|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|switch 4|move toxic
+|
+|switch|p1a: Shark|Garchomp, F|357/357
+|-damage|p1a: Shark|335/357|[from] Stealth Rock
+|move|p2a: Tentacruel|Toxic|p1a: Shark
+|-status|p1a: Shark|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|281/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|303/364|[from] item: Leftovers
+|-damage|p1a: Shark|313/357 tox|[from] psn
+|upkeep
+|turn|29
+|choice|switch 2|switch 6
+|
+|switch|p1a: Onion|Celebi|70/403
+|-damage|p1a: Onion|20/403|[from] Stealth Rock
+|switch|p2a: Skarmory|Skarmory, F|326/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Onion|45/403|[from] item: Leftovers
+|upkeep
+|turn|30
+|j|Discomilch
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Onion|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Resist The Storm|move: Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Onion
+|-sidestart|p1: the fine print|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Onion|70/403|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move recover|move spikes
+|
+|move|p1a: Onion|Recover|p1a: Onion
+|-heal|p1a: Onion|272/403
+|move|p2a: Skarmory|Spikes|p1a: Onion
+|-sidestart|p1: the fine print|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Onion|297/403|[from] item: Leftovers
+|upkeep
+|turn|32
+|l|Discomilch
+|choice|move uturn|move spikes
+|
+|move|p1a: Onion|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|320/334
+|choice|switch 5|
+|
+|switch|p1a: Star|Jirachi|354/404
+|-damage|p1a: Star|287/404|[from] Spikes
+|-damage|p1a: Star|262/404|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Star
+|-sidestart|p1: the fine print|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|287/404|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move thunder|move whirlwind
+|
+|move|p1a: Star|Thunder|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|312/404|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|142/352
+|-damage|p2a: Ferrothorn|120/352|[from] Stealth Rock
+|turn|34
+|choice|switch 6|move leechseed
+|
+|switch|p1a: Frog|Politoed, M|109/329 tox
+|-damage|p1a: Frog|68/329 tox|[from] Stealth Rock
+|-damage|p1a: Frog|0 fnt|[from] Spikes
+|faint|p1a: Frog
+|move|p2a: Ferrothorn|Leech Seed|p1: Frog|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|142/352|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Pony|Keldeo|293/323
+|-damage|p1a: Pony|273/323|[from] Stealth Rock
+|-damage|p1a: Pony|193/323|[from] Spikes
+|turn|35
+|choice|move surf|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Pony|Surf|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|164/352|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move secretsword|switch 3
+|
+|switch|p2a: Chansey|Chansey, F|655/655
+|-damage|p2a: Chansey|574/655|[from] Stealth Rock
+|move|p1a: Pony|Secret Sword|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|39/655
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|37
+|choice|move surf|switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|303/364
+|-damage|p2a: Tentacruel|258/364|[from] Stealth Rock
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|148/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|170/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|192/364|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move surf|move rapidspin
+|
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|80/364
+|move|p2a: Tentacruel|Rapid Spin|p1a: Pony
+|-damage|p1a: Pony|182/323
+|-sideend|p2: Resist The Storm|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|102/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|124/364|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move surf|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|146/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|168/364|[from] item: Leftovers
+|upkeep
+|turn|40
+|choice|move surf|switch 5
+|
+|switch|p2a: Politoed|Politoed, F|297/384
+|move|p1a: Pony|Surf|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|183/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|207/384|[from] item: Leftovers
+|upkeep
+|turn|41
+|choice|switch 5|move toxic
+|
+|switch|p1a: Onion|Celebi|297/403
+|-damage|p1a: Onion|247/403|[from] Stealth Rock
+|-damage|p1a: Onion|147/403|[from] Spikes
+|move|p2a: Politoed|Toxic|p1a: Onion
+|-status|p1a: Onion|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Onion|172/403 tox|[from] item: Leftovers
+|-heal|p2a: Politoed|231/384|[from] item: Leftovers
+|-damage|p1a: Onion|147/403 tox|[from] psn
+|upkeep
+|turn|42
+|choice|move psychic|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|164/352
+|move|p1a: Onion|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|125/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Onion|172/403 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|147/352|[from] item: Leftovers
+|-damage|p1a: Onion|122/403 tox|[from] psn
+|upkeep
+|turn|43
+|choice|move stealthrock|move leechseed
+|
+|move|p1a: Onion|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Resist The Storm|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Onion
+|-immune|p1a: Onion|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Onion|147/403 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|169/352|[from] item: Leftovers
+|-damage|p1a: Onion|72/403 tox|[from] psn
+|upkeep
+|turn|44
+|choice|move recover|move leechseed
+|
+|move|p1a: Onion|Recover|p1a: Onion
+|-heal|p1a: Onion|274/403 tox
+|move|p2a: Ferrothorn|Leech Seed|p1a: Onion|[miss]
+|-miss|p2a: Ferrothorn|p1a: Onion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Onion|299/403 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|191/352|[from] item: Leftovers
+|-damage|p1a: Onion|199/403 tox|[from] psn
+|upkeep
+|turn|45
+|choice|move uturn|move leechseed
+|
+|move|p1a: Onion|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|152/352
+|-damage|p1a: Onion|149/403 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|choice|switch 2|
+|
+|-curestatus|p1a: Onion|tox|[from] ability: Natural Cure
+|switch|p1a: Shark|Garchomp, F|313/357 tox
+|-damage|p1a: Shark|224/357 tox|[from] Spikes
+|-damage|p1a: Shark|202/357 tox|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Shark
+|-start|p1a: Shark|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|174/352|[from] item: Leftovers
+|-damage|p1a: Shark|158/357 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|218/352|[silent]
+|-damage|p1a: Shark|136/357 tox|[from] psn
+|upkeep
+|turn|46
+|choice|move earthquake|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Shark|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|240/352|[from] item: Leftovers
+|-damage|p1a: Shark|92/357 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|284/352|[silent]
+|-damage|p1a: Shark|48/357 tox|[from] psn
+|upkeep
+|turn|47
+|choice|move earthquake|switch 6
+|
+|switch|p2a: Chansey|Chansey, F|39/655
+|-damage|p2a: Chansey|0 fnt|[from] Stealth Rock
+|faint|p2a: Chansey
+|move|p1a: Shark|Earthquake|p2: Chansey|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Shark|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Shark
+|choice|switch 5|switch 5
+|
+|switch|p1a: Pony|Keldeo|182/323
+|switch|p2a: Tentacruel|Tentacruel, M|168/364
+|-damage|p1a: Pony|102/323|[from] Spikes
+|-damage|p1a: Pony|82/323|[from] Stealth Rock
+|-damage|p2a: Tentacruel|123/364|[from] Stealth Rock
+|turn|48
+|choice|move surf|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|145/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|167/364|[from] item: Leftovers
+|upkeep
+|turn|49
+|choice|move surf|move toxic
+|
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|62/364
+|move|p2a: Tentacruel|Toxic|p1a: Pony
+|-status|p1a: Pony|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|84/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|106/364|[from] item: Leftovers
+|-damage|p1a: Pony|62/323 tox|[from] psn
+|upkeep
+|turn|50
+|choice|move surf|move protect
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|128/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|150/364|[from] item: Leftovers
+|-damage|p1a: Pony|22/323 tox|[from] psn
+|upkeep
+|turn|51
+|choice|move surf|move rapidspin
+|
+|move|p1a: Pony|Surf|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|51/364
+|move|p2a: Tentacruel|Rapid Spin|p1a: Pony
+|-damage|p1a: Pony|12/323 tox
+|-sideend|p2: Resist The Storm|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|73/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|95/364|[from] item: Leftovers
+|-damage|p1a: Pony|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Pony
+|choice|switch 6|
+|
+|switch|p1a: Star|Jirachi|312/404
+|-damage|p1a: Star|287/404|[from] Stealth Rock
+|-damage|p1a: Star|186/404|[from] Spikes
+|turn|52
+|choice|move thunder|switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|284/352
+|move|p1a: Star|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|251/352
+|-status|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|211/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|273/352 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|choice|move wish|move leechseed
+|
+|move|p1a: Star|Wish|p1a: Star
+|move|p2a: Ferrothorn|Leech Seed|p1a: Star
+|-start|p1a: Star|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|236/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|295/352 par|[from] item: Leftovers
+|-damage|p1a: Star|186/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|345/352 par|[silent]
+|upkeep
+|turn|54
+|choice|move thunder|switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|95/364
+|move|p1a: Star|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|388/404|[from] move: Wish|[wisher] Star
+|-heal|p1a: Star|404/404|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Politoed|Politoed, F|231/384
+|turn|55
+|choice|move thunder|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Star|Thunder|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|255/384|[from] item: Leftovers
+|-damage|p1a: Star|354/404|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|305/384|[silent]
+|upkeep
+|turn|56
+|choice|switch 2|move scald
+|
+|switch|p1a: Onion|Celebi|149/403
+|-damage|p1a: Onion|49/403|[from] Spikes
+|-damage|p1a: Onion|0 fnt|[from] Stealth Rock
+|faint|p1a: Onion
+|move|p2a: Politoed|Scald|p1: Onion|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|329/384|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Star|Jirachi|354/404
+|-damage|p1a: Star|253/404|[from] Spikes
+|-damage|p1a: Star|228/404|[from] Stealth Rock
+|turn|57
+|choice|move thunder|move scald
+|
+|move|p1a: Star|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|151/384
+|-status|p2a: Politoed|par
+|move|p2a: Politoed|Scald|p1a: Star
+|-damage|p1a: Star|99/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|124/404|[from] item: Leftovers
+|-heal|p2a: Politoed|175/384 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|choice|move thunder|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Star|Thunder|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|149/404|[from] item: Leftovers
+|-heal|p2a: Politoed|199/384 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|choice|move calmmind|move scald
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|1
+|-boost|p1a: Star|spd|1
+|cant|p2a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|174/404|[from] item: Leftovers
+|-heal|p2a: Politoed|223/384 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|choice|move wish|switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|345/352 par
+|move|p1a: Star|Wish|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|199/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|352/352 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|choice|move calmmind|move leechseed
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|1
+|-boost|p1a: Star|spd|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Star
+|-start|p1a: Star|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|401/404|[from] move: Wish|[wisher] Star
+|-heal|p1a: Star|404/404|[from] item: Leftovers
+|-damage|p1a: Star|354/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|62
+|choice|move calmmind|move powerwhip
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|1
+|-boost|p1a: Star|spd|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Star
+|-resisted|p1a: Star
+|-damage|p1a: Star|300/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|325/404|[from] item: Leftovers
+|-damage|p1a: Star|275/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|63
+|choice|move calmmind|move powerwhip
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|1
+|-boost|p1a: Star|spd|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Star
+|-resisted|p1a: Star
+|-damage|p1a: Star|218/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|243/404|[from] item: Leftovers
+|-damage|p1a: Star|193/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|64
+|choice|move wish|move powerwhip
+|
+|move|p1a: Star|Wish|p1a: Star
+|move|p2a: Ferrothorn|Power Whip|p1a: Star
+|-resisted|p1a: Star
+|-damage|p1a: Star|133/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|158/404|[from] item: Leftovers
+|-damage|p1a: Star|108/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|65
+|choice|move calmmind|move powerwhip
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|1
+|-boost|p1a: Star|spd|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Star
+|-resisted|p1a: Star
+|-damage|p1a: Star|51/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|253/404|[from] move: Wish|[wisher] Star
+|-heal|p1a: Star|278/404|[from] item: Leftovers
+|-damage|p1a: Star|228/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|66
+|choice|move wish|move powerwhip
+|
+|move|p1a: Star|Wish|p1a: Star
+|move|p2a: Ferrothorn|Power Whip|p1a: Star|[miss]
+|-miss|p2a: Ferrothorn|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|253/404|[from] item: Leftovers
+|-damage|p1a: Star|203/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|67
+|l|TexasKomalas
+|choice|move calmmind|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|1
+|-boost|p1a: Star|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|404/404|[from] move: Wish|[wisher] Star
+|-damage|p1a: Star|354/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|68
+|choice|move wish|move powerwhip
+|
+|move|p1a: Star|Wish|p1a: Star
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|379/404|[from] item: Leftovers
+|-damage|p1a: Star|329/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|69
+|choice|move psychic|move stealthrock
+|
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|208/352 par
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|404/404|[from] move: Wish|[wisher] Star
+|-heal|p2a: Ferrothorn|230/352 par|[from] item: Leftovers
+|-damage|p1a: Star|354/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|280/352 par|[silent]
+|upkeep
+|turn|70
+|choice|move psychic|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|379/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|302/352 par|[from] item: Leftovers
+|-damage|p1a: Star|329/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352 par|[silent]
+|upkeep
+|turn|71
+|choice|move psychic|move powerwhip
+|
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|217/352 par
+|move|p2a: Ferrothorn|Power Whip|p1a: Star
+|-resisted|p1a: Star
+|-damage|p1a: Star|275/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|300/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|239/352 par|[from] item: Leftovers
+|-damage|p1a: Star|250/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|289/352 par|[silent]
+|upkeep
+|turn|72
+|choice|move psychic|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|275/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|311/352 par|[from] item: Leftovers
+|-damage|p1a: Star|225/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352 par|[silent]
+|upkeep
+|turn|73
+|choice|move psychic|move stealthrock
+|
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|211/352 par
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|250/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|233/352 par|[from] item: Leftovers
+|-damage|p1a: Star|200/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|283/352 par|[silent]
+|upkeep
+|turn|74
+|choice|move wish|move stealthrock
+|
+|move|p1a: Star|Wish|p1a: Star
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|225/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|305/352 par|[from] item: Leftovers
+|-damage|p1a: Star|175/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352 par|[silent]
+|upkeep
+|turn|75
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|377/404|[from] move: Wish|[wisher] Star
+|-heal|p1a: Star|402/404|[from] item: Leftovers
+|-damage|p1a: Star|352/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|76
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|377/404|[from] item: Leftovers
+|-damage|p1a: Star|327/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|77
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|352/404|[from] item: Leftovers
+|-damage|p1a: Star|302/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|78
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|327/404|[from] item: Leftovers
+|-damage|p1a: Star|277/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|79
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|302/404|[from] item: Leftovers
+|-damage|p1a: Star|252/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|80
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|277/404|[from] item: Leftovers
+|-damage|p1a: Star|227/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|81
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|252/404|[from] item: Leftovers
+|-damage|p1a: Star|202/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|82
+|choice|move wish|move stealthrock
+|
+|move|p1a: Star|Wish|p1a: Star
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|227/404|[from] item: Leftovers
+|-damage|p1a: Star|177/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|83
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|379/404|[from] move: Wish|[wisher] Star
+|-heal|p1a: Star|404/404|[from] item: Leftovers
+|-damage|p1a: Star|354/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|84
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|379/404|[from] item: Leftovers
+|-damage|p1a: Star|329/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|85
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Star|Calm Mind|p1a: Star
+|-boost|p1a: Star|spa|0
+|-boost|p1a: Star|spd|0
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|354/404|[from] item: Leftovers
+|-damage|p1a: Star|304/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|86
+|choice|move psychic|move stealthrock
+|
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|214/352 par
+|-unboost|p2a: Ferrothorn|spd|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|329/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|236/352 par|[from] item: Leftovers
+|-damage|p1a: Star|279/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|286/352 par|[silent]
+|upkeep
+|turn|87
+|choice|move psychic|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|304/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|308/352 par|[from] item: Leftovers
+|-damage|p1a: Star|254/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352 par|[silent]
+|upkeep
+|turn|88
+|choice|move psychic|move stealthrock
+|
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|149/352 par
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Star
+|-fail|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|279/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|171/352 par|[from] item: Leftovers
+|-damage|p1a: Star|229/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|221/352 par|[silent]
+|upkeep
+|turn|89
+|choice|move thunder|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Star|Thunder|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|254/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|243/352 par|[from] item: Leftovers
+|-damage|p1a: Star|204/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|293/352 par|[silent]
+|upkeep
+|turn|90
+|choice|move psychic|move powerwhip
+|
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|90/352 par
+|move|p2a: Ferrothorn|Power Whip|p1a: Star
+|-resisted|p1a: Star
+|-damage|p1a: Star|141/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|166/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|112/352 par|[from] item: Leftovers
+|-damage|p1a: Star|116/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|162/352 par|[silent]
+|upkeep
+|turn|91
+|choice|move wish|switch 6
+|
+|switch|p2a: Politoed|Politoed, F|223/384 par
+|move|p1a: Star|Wish|p1a: Star
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|141/404|[from] item: Leftovers
+|-heal|p2a: Politoed|247/384 par|[from] item: Leftovers
+|-damage|p1a: Star|91/404|[from] Leech Seed|[of] p2a: Politoed
+|-heal|p2a: Politoed|297/384 par|[silent]
+|upkeep
+|turn|92
+|choice|move thunder|move encore
+|
+|move|p1a: Star|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|293/404|[from] move: Wish|[wisher] Star
+|-heal|p1a: Star|318/404|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|162/352 par
+|turn|93
+|choice|move thunder|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Star|Thunder|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|343/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|184/352 par|[from] item: Leftovers
+|-damage|p1a: Star|293/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|234/352 par|[silent]
+|upkeep
+|turn|94
+|choice|move psychic|move protect
+|
+|cant|p2a: Ferrothorn|par
+|move|p1a: Star|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|96/352 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|318/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|118/352 par|[from] item: Leftovers
+|-damage|p1a: Star|268/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|168/352 par|[silent]
+|upkeep
+|turn|95
+|choice|move thunder|move protect
+|
+|cant|p2a: Ferrothorn|par
+|move|p1a: Star|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|51/352 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Star|293/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|73/352 par|[from] item: Leftovers
+|-damage|p1a: Star|243/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|123/352 par|[silent]
+|upkeep
+|turn|96
+|choice|move thunder|move protect
+|
+|cant|p2a: Ferrothorn|par
+|move|p1a: Star|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|win|the fine print
+|l|Resist The Storm
+|raw|the fine print's rating: 1297 &rarr; <strong>1324</strong><br />(+27 for winning)
+|raw|Resist The Storm's rating: 1326 &rarr; <strong>1304</strong><br />(-22 for losing)
+|l|the fine print

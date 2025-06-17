@@ -1,0 +1,280 @@
+|j|peakyblinded
+|j|sugarhigh
+|player|p1|peakyblinded|23
+|player|p2|sugarhigh|223
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, M|item
+|poke|p1|Magnezone, shiny|item
+|poke|p1|Starmie, shiny|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Hippowdon, F, shiny|item
+|poke|p1|Celebi|item
+|poke|p2|Lucario, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Jirachi|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Magnezone|Magnezone, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|choice||
+|
+|move|p2a: Skarmory|Stealth Rock|p1a: Magnezone
+|-sidestart|p1: peakyblinded|move: Stealth Rock
+|move|p1a: Magnezone|Charge Beam|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|-boost|p1a: Magnezone|spa|1
+|
+|turn|2
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|item: Custap Berry
+|choice||
+|
+|move|p2a: Skarmory|Spikes|p1a: Magnezone
+|-sidestart|p1: peakyblinded|Spikes
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|76/100
+|
+|-heal|p1a: Magnezone|82/100|[from] item: Leftovers
+|turn|3
+|choice||
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-activate|p1a: Magnezone|Substitute|[damage]
+|-damage|p2a: Skarmory|0 fnt|[from] recoil|[of] p1a: Magnezone
+|faint|p2a: Skarmory
+|move|p1a: Magnezone|Charge Beam|p2: Skarmory|[notarget]
+|-notarget
+|
+|-heal|p1a: Magnezone|88/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|4
+|choice||
+|
+|move|p2a: Jirachi|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-activate|p1a: Magnezone|Substitute|[damage]
+|choice||
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-fail|p1a: Magnezone|move: Substitute
+|
+|-heal|p1a: Magnezone|94/100|[from] item: Leftovers
+|turn|5
+|choice||
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-end|p1a: Magnezone|Substitute
+|-damage|p2a: Thundurus|91/100|[from] item: Life Orb
+|move|p1a: Magnezone|Flash Cannon|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|47/100
+|
+|-heal|p1a: Magnezone|100/100|[from] item: Leftovers
+|turn|6
+|choice||
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Magnezone|[miss]
+|-miss|p2a: Thundurus|p1a: Magnezone
+|move|p1a: Magnezone|Flash Cannon|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|choice||
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|7
+|choice||
+|
+|move|p2a: Lucario|Close Combat|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|91/100|[from] item: Life Orb
+|faint|p1a: Magnezone
+|
+|choice||
+|
+|switch|p1a: Hippowdon|Hippowdon, F, shiny|100/100
+|-damage|p1a: Hippowdon|88/100|[from] Spikes
+|-damage|p1a: Hippowdon|82/100|[from] Stealth Rock
+|turn|8
+|choice||
+|
+|move|p2a: Lucario|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|37/100
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|81/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-heal|p1a: Hippowdon|43/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|9
+|choice||
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Hippowdon|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|70/100
+|
+|-heal|p2a: Jellicent|77/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|49/100|[from] item: Leftovers
+|turn|10
+|choice||
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|-damage|p1a: Celebi|76/100|[from] Spikes
+|move|p2a: Jellicent|Scald|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|69/100
+|
+|-heal|p1a: Celebi|75/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|83/100|[from] item: Leftovers
+|turn|11
+|choice||
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-damage|p1a: Excadrill|85/100|[from] Stealth Rock
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-heal|p1a: Excadrill|91/100|[from] item: Leftovers
+|turn|12
+|choice||
+|
+|move|p2a: Jirachi|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|77/100
+|choice||
+|
+|switch|p2a: Jellicent|Jellicent, M|83/100
+|move|p1a: Excadrill|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|38/100
+|
+|-heal|p1a: Excadrill|83/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|44/100|[from] item: Leftovers
+|turn|13
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-heal|p1a: Excadrill|89/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|14
+|choice||
+|
+|move|p2a: Terrakion|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Excadrill
+|
+|choice||
+|
+|switch|p1a: Celebi|Celebi|75/100
+|-damage|p1a: Celebi|63/100|[from] Stealth Rock
+|-damage|p1a: Celebi|50/100|[from] Spikes
+|turn|15
+|choice||
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Celebi|[miss]
+|-miss|p2a: Terrakion|p1a: Celebi
+|move|p1a: Celebi|Giga Drain|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|14/100
+|-heal|p1a: Celebi|85/100|[from] drain|[of] p2a: Terrakion
+|
+|-heal|p1a: Celebi|91/100|[from] item: Leftovers
+|turn|16
+|choice||
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Celebi
+|-enditem|p2a: Terrakion|Rock Gem|[from] gem|[move] Stone Edge
+|-damage|p1a: Celebi|29/100
+|move|p1a: Celebi|Giga Drain|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-heal|p1a: Celebi|35/100|[from] drain|[of] p2a: Terrakion
+|faint|p2a: Terrakion
+|
+|-heal|p1a: Celebi|41/100|[from] item: Leftovers
+|c|★sugarhigh|love this game
+|choice||
+|
+|switch|p2a: Jellicent|Jellicent, M|44/100
+|turn|17
+|choice||
+|
+|move|p1a: Celebi|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|1/100
+|-heal|p1a: Celebi|63/100|[from] drain|[of] p2a: Jellicent
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|51/100
+|
+|-heal|p1a: Celebi|69/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|58/100|[from] item: Leftovers
+|turn|18
+|choice||
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100
+|
+|-heal|p1a: Celebi|75/100|[from] item: Leftovers
+|turn|19
+|c|★sugarhigh|WP!!!!!
+|c|★sugarhigh|not really tho.
+|-message|sugarhigh forfeited.
+|
+|win|peakyblinded
+|player|p1
+|player|p2
+|l|sugarhigh
+|raw|peakyblinded's rating: 1449 &rarr; <strong>1468</strong><br />(+19 for winning)
+|raw|sugarhigh's rating: 1433 &rarr; <strong>1414</strong><br />(-19 for losing)

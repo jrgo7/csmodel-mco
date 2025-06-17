@@ -1,0 +1,291 @@
+|j|☆stanefix
+|j|☆destino errante
+|player|p1|stanefix|93
+|teamsize|p1|6
+|player|p2|destino errante|225
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated||rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, F|item
+|poke|p2|Starmie|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Tornadus, M|item
+|teampreview|
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|turn|1|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Starmie|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|57/100
+|
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|2|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: destino errante|Spikes
+|
+|-heal|p1a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|3|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: destino errante|Spikes
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: stanefix|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|4|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: destino errante|Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|5|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn|[msg]
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: stanefix|Spikes
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|6|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|-damage|p1a: Tentacruel|76/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Tentacruel
+|-sidestart|p1: stanefix|Spikes
+|
+|-heal|p1a: Tentacruel|82/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|7|
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|57/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Tentacruel
+|-activate|p1a: Tentacruel|Substitute|[damage]
+|
+|-heal|p1a: Tentacruel|63/100|[from] item: Black Sludge
+|upkeep
+|turn|8|
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|92/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|
+|-heal|p1a: Tentacruel|69/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|9|
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|44/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|
+|-heal|p1a: Tentacruel|50/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|98/100
+|-damage|p1a: Tentacruel|38/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: stanefix|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: stanefix|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Ferrothorn|Power Whip|p1a: Tentacruel
+|-damage|p1a: Tentacruel|2/100
+|
+|-heal|p1a: Tentacruel|8/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|11|
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|92/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: stanefix|move: Stealth Rock
+|
+|-heal|p1a: Tentacruel|14/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|12|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|97/100
+|-damage|p1a: Tentacruel|1/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: stanefix|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: stanefix|move: Stealth Rock
+|
+|-heal|p1a: Tentacruel|7/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Tentacruel|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Tentacruel
+|move|p2a: Ferrothorn|Knock Off|p1: Tentacruel|[notarget]
+|-notarget
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|14|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|76/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Tornadus|Focus Blast|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|15|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Gyarados|Waterfall|p1a: Politoed
+|-resisted|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|3/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16|
+|move|p1a: Politoed|Hydro Pump|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|63/100
+|move|p2a: Gyarados|Waterfall|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep|
+|switch|p1a: Tornadus|Tornadus, M|76/100
+|-damage|p1a: Tornadus|51/100|[from] Stealth Rock
+|turn|17|
+|move|p2a: Gyarados|Waterfall|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep|
+|switch|p1a: Ferrothorn|Ferrothorn, M|75/100
+|-damage|p1a: Ferrothorn|68/100|[from] Stealth Rock
+|turn|18|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|76/100|[from] Spikes
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100
+|-damage|p1a: Ferrothorn|56/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|19|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|86/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|20|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: destino errante|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21|
+|move|p2a: Tornadus|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|22|
+|switch|p2a: Gyarados|Gyarados, M|63/100
+|-damage|p2a: Gyarados|38/100|[from] Stealth Rock
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|23|
+|move|p2a: Gyarados|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Thunder|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|76/100|[from] Spikes
+|-damage|p2a: Garchomp|69/100|[from] Stealth Rock
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by destino errante)
+|inactive|stanefix has 135 seconds left.
+|inactive|stanefix has 120 seconds left.
+|-message|stanefix forfeited.
+|
+|win|destino errante
+|l|☆stanefix
+|j| Ciel est le futur
+|raw|stanefix's rating: 1442 &rarr; <strong>1423</strong><br />(-19 for losing)
+|raw|destino errante's rating: 1454 &rarr; <strong>1473</strong><br />(+19 for winning)
+|l|☆destino errante
+|l| Ciel est le futur

@@ -1,0 +1,248 @@
+|j|☆sankafola
+|j|☆Math1234
+|player|p1|sankafola|juan|1466
+|player|p2|Math1234|102|1331
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Forretress, F|item
+|poke|p2|Terrakion|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Forretress|Forretress, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Forretress
+|-ability|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/100
+|move|p2a: Forretress|Stealth Rock|p1a: Politoed
+|-sidestart|p1: sankafola|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|7/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|3
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|44/100
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|50/100|[from] item: Leftovers
+|-start|p1a: Politoed|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Politoed|Rest|p2a: Politoed
+|-status|p2a: Politoed|slp|[from] move: Rest
+|-heal|p2a: Politoed|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-start|p2a: Politoed|perish2
+|upkeep
+|turn|5
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: Math1234|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Tornadus|Hurricane|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Politoed|Politoed, M|100/100 slp
+|-damage|p2a: Politoed|88/100 slp|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|27/100 slp
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|33/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|51/100
+|cant|p2a: Politoed|slp
+|move|p2a: Politoed|Sleep Talk|p2a: Politoed
+|move|p2a: Politoed|Scald|p1a: Thundurus|[from]Sleep Talk
+|-end|p1a: Thundurus|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|39/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Thundurus|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: Thundurus|41/100|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Terrakion|Close Combat|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Cloyster
+|-damage|p2a: Cloyster|32/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Math1234)
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|30/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Toxicroak
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin|[of] p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Terrakion|Terrakion|94/100
+|-damage|p2a: Terrakion|88/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Cross Chop|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-crit|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-damage|p1a: Toxicroak|91/100|[from] item: Life Orb
+|faint|p2a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|94/100
+|-damage|p2a: Keldeo|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|52/100
+|move|p1a: Toxicroak|Cross Chop|p2a: Keldeo|[miss]
+|-miss|p1a: Toxicroak|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|65/100|[from] ability: Dry Skin
+|upkeep
+|turn|18
+|-message|Math1234 forfeited.
+|
+|win|sankafola
+|l|☆Math1234
+|raw|sankafola's rating: 1466 &rarr; <strong>1479</strong><br />(+13 for winning)
+|raw|Math1234's rating: 1332 &rarr; <strong>1319</strong><br />(-13 for losing)

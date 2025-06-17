@@ -1,0 +1,336 @@
+|join|bright summer star
+|join|doublade45
+|player|p1|bright summer star|65
+|player|p2|doublade45|170
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Ninetales, M
+|poke|p1|Dugtrio, F
+|poke|p1|Forretress, M
+|poke|p1|Latias, F
+|poke|p1|Venusaur, M
+|poke|p1|Weavile, F
+|poke|p2|Tyranitar, F
+|poke|p2|Ferrothorn, F
+|poke|p2|Starmie
+|poke|p2|Gliscor, M
+|poke|p2|Alakazam, M
+|poke|p2|Heatran, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Forretress|Forretress, M|354/354
+|switch|p2a: Gliscor|Gliscor, M|354/354
+|turn|1
+|
+|move|p2a: Gliscor|Taunt|p1a: Forretress
+|-start|p1a: Forretress|move: Taunt
+|move|p1a: Forretress|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|226/354
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|2
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Forretress|Volt Switch|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|-heal|p2a: Gliscor|270/354 tox|[from] ability: Poison Heal
+|turn|3
+|
+|move|p2a: Gliscor|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|284/354
+|move|p1a: Forretress|Volt Switch|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|-heal|p1a: Forretress|306/354|[from] item: Leftovers
+|-heal|p2a: Gliscor|314/354 tox|[from] ability: Poison Heal
+|-end|p1a: Forretress|move: Taunt
+|turn|4
+|
+|move|p2a: Gliscor|Taunt|p1a: Forretress
+|-start|p1a: Forretress|move: Taunt
+|move|p1a: Forretress|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|174/354 tox
+|
+|-heal|p1a: Forretress|328/354|[from] item: Leftovers
+|-heal|p2a: Gliscor|218/354 tox|[from] ability: Poison Heal
+|turn|5
+|
+|switch|p1a: Latias|Latias, F|302/302
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|262/354 tox|[from] ability: Poison Heal
+|turn|6
+|
+|switch|p1a: Forretress|Forretress, M|328/354
+|move|p2a: Gliscor|Toxic|p1a: Forretress
+|-fail|p1a: Forretress
+|
+|-heal|p1a: Forretress|350/354|[from] item: Leftovers
+|-heal|p2a: Gliscor|306/354 tox|[from] ability: Poison Heal
+|turn|7
+|
+|switch|p1a: Weavile|Weavile, F|282/282
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Gliscor|Taunt|p1a: Weavile
+|-start|p1a: Weavile|move: Taunt
+|
+|-heal|p2a: Gliscor|350/354 tox|[from] ability: Poison Heal
+|turn|8
+|
+|switch|p1a: Ninetales|Ninetales, M|350/350
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|switch|p1a: Forretress|Forretress, M|350/354
+|switch|p2a: Heatran|Heatran, M|323/323
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|354/354|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|243/323
+|move|p1a: Forretress|Volt Switch|p2a: Heatran
+|-activate|p2a: Heatran|Substitute|[damage]
+|
+|switch|p1a: Weavile|Weavile, F|282/282
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|263/323|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Weavile|Low Kick|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|-damage|p1a: Weavile|254/282|[from] item: Life Orb
+|move|p2a: Heatran|Flamethrower|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|283/323|[from] item: Leftovers
+|
+|switch|p1a: Dugtrio|Dugtrio, F|211/211
+|turn|12
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Starmie|Starmie|323/323
+|turn|13
+|
+|switch|p1a: Ninetales|Ninetales, M|350/350
+|move|p2a: Starmie|Scald|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|246/350
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|267/350|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Venusaur|Venusaur, M|319/319
+|move|p2a: Starmie|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|91/319
+|-unboost|p1a: Venusaur|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|15
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Venusaur|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Venusaur|60/319|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Tyranitar|Tyranitar, F|399/399
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|16
+|
+|switch|p1a: Dugtrio|Dugtrio, F|211/211
+|move|p2a: Tyranitar|Stealth Rock|p1a: Dugtrio
+|-sidestart|p1: bright summer star|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|17
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Shuca Berry|[eat]
+|-damage|p2a: Tyranitar|236/399
+|move|p2a: Tyranitar|Ice Beam|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|21/211
+|
+|-weather|Sandstorm|[upkeep]
+|turn|18
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Alakazam|Alakazam, M|252/252
+|turn|19
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/252
+|move|p2a: Alakazam|Psyshock|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Ninetales|Ninetales, M|267/350
+|-damage|p1a: Ninetales|180/350|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|20
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Alakazam|Psyshock|p1a: Ninetales
+|-activate|p1a: Ninetales|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|201/350|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Gliscor|Gliscor, M|350/354 tox
+|move|p1a: Ninetales|Flamethrower|p2a: Gliscor
+|-damage|p2a: Gliscor|229/354 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|222/350|[from] item: Leftovers
+|-heal|p2a: Gliscor|273/354 tox|[from] ability: Poison Heal
+|turn|22
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Gliscor|Earthquake|p1a: Ninetales
+|-activate|p1a: Ninetales|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|243/350|[from] item: Leftovers
+|-heal|p2a: Gliscor|317/354 tox|[from] ability: Poison Heal
+|turn|23
+|
+|switch|p1a: Latias|Latias, F|302/302
+|-damage|p1a: Latias|265/302|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Latias
+|-immune|p1a: Latias|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|24
+|
+|move|p1a: Latias|Healing Wish|p1a: Latias
+|faint|p1a: Latias
+|move|p2a: Gliscor|Toxic|p1: Latias|[notarget]
+|-notarget
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Venusaur|Venusaur, M|60/319
+|-heal|p1a: Venusaur|319/319|[from] move: Healing Wish
+|-damage|p1a: Venusaur|280/319|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Gliscor|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|138/319
+|
+|-weather|SunnyDay|[upkeep]
+|turn|26
+|c|★bright summer star|gg
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|68/354 tox
+|-heal|p1a: Venusaur|281/319|[from] drain|[of] p2a: Gliscor
+|-damage|p1a: Venusaur|250/319|[from] item: Life Orb
+|move|p2a: Gliscor|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|126/319
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|112/354 tox|[from] ability: Poison Heal
+|turn|27
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|156/354 tox|[from] ability: Poison Heal
+|turn|28
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|200/354 tox|[from] ability: Poison Heal
+|turn|29
+|
+|switch|p2a: Alakazam|Alakazam, M|1/252
+|move|p1a: Venusaur|Giga Drain|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-heal|p1a: Venusaur|127/319|[from] drain|[of] p2a: Alakazam
+|-damage|p1a: Venusaur|96/319|[from] item: Life Orb
+|faint|p2a: Alakazam
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Gliscor|Gliscor, M|200/354 tox
+|turn|30
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-heal|p1a: Venusaur|196/319|[from] drain|[of] p2a: Gliscor
+|-damage|p1a: Venusaur|165/319|[from] item: Life Orb
+|faint|p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-message|doublade45 forfeited.
+|
+|win|bright summer star
+|raw|Ladder updating...
+|leave|doublade45
+|player|p2
+|raw|bright summer star's rating: 1273 &rarr; <strong>1310</strong><br />(+37 for winning)
+|raw|doublade45's rating: 1439 &rarr; <strong>1410</strong><br />(-29 for losing)

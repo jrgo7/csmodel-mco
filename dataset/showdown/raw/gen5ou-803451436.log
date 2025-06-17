@@ -1,0 +1,362 @@
+|j|☆pitches ♪
+|j|☆stonya
+|player|p1|pitches ♪|248
+|player|p2|stonya|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Toxicroak, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|
+|switch|p2a: Bosh|Latios, M, shiny|100/100
+|move|p1a: Keldeo|Scald|p2a: Bosh
+|-resisted|p2a: Bosh
+|-damage|p2a: Bosh|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-damage|p2a: Bosh|75/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Ray Allen|Magnezone|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|76/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ray Allen
+|-sidestart|p2: stonya|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: Ferrothorn|Spikes|p2a: Ray Allen
+|-sidestart|p2: stonya|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Ray Allen|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|4/100
+|move|p1a: Ferrothorn|Spikes|p2a: Ray Allen
+|-sidestart|p2: stonya|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|10/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-boost|p2a: Ray Allen|spa|1
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|7
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Hidden Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|94/100
+|turn|8
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-damage|p2a: Ray Allen|5/100
+|move|p2a: Ray Allen|Charge Beam|p1a: Keldeo|[miss]
+|-miss|p2a: Ray Allen|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|-heal|p2a: Ray Allen|11/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-damage|p2a: Ray Allen|0 fnt
+|faint|p2a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Bosh|Latios, M, shiny|75/100
+|-damage|p2a: Bosh|62/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Bosh|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Bosh|Energy Ball|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|18/100
+|move|p1a: Politoed|Toxic|p2a: Bosh|[miss]
+|-miss|p1a: Politoed|p2a: Bosh
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|24/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Bosh|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|82/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-damage|p2a: Pat Riely|88/100|[from] Stealth Rock
+|-damage|p2a: Pat Riely|71/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|76/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Keldeo|Scald|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|42/100
+|-status|p2a: Pat Riely|brn
+|move|p2a: Pat Riely|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: pitches ♪|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|70/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Pat Riely|36/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Keldeo|Scald|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|1/100 brn
+|move|p2a: Pat Riely|Ice Beam|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|56/100
+|-status|p1a: Keldeo|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|49/100 frz|[from] Sandstorm
+|-heal|p2a: Pat Riely|7/100 brn|[from] item: Leftovers
+|-damage|p2a: Pat Riely|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Pat Riely
+|
+|switch|p2a: Bosh|Latios, M, shiny|62/100
+|-damage|p2a: Bosh|50/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Politoed|Politoed, M|24/100
+|-damage|p1a: Politoed|12/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Bosh|Psyshock|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|70/100
+|-damage|p1a: Latios|57/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Bosh|Draco Meteor|p1a: Latios|[miss]
+|-miss|p2a: Bosh|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Bosh
+|-resisted|p2a: Bosh
+|-crit|p2a: Bosh
+|-damage|p2a: Bosh|0 fnt
+|faint|p2a: Bosh
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆pitches ♪|wow
+|c|☆pitches ♪|im sorry
+|
+|switch|p2a: Miller|Scizor, M, shiny|100/100
+|-damage|p2a: Miller|88/100|[from] Stealth Rock
+|-damage|p2a: Miller|72/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Miller|Bullet Punch|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Miller|Bullet Punch|p1a: Toxicroak
+|-damage|p1a: Toxicroak|27/100
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|2/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|15/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|21/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|-singleturn|p1a: Toxicroak|move: Focus Punch
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-damage|p2a: Bron Bron|88/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-immune|p1a: Toxicroak|[msg]
+|move|p1a: Toxicroak|Focus Punch|p2a: Bron Bron
+|-resisted|p2a: Bron Bron
+|-damage|p2a: Bron Bron|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|34/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|40/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p2a: Bron Bron|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Toxic|p2a: Bron Bron
+|-status|p2a: Bron Bron|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|52/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|59/100|[from] item: Black Sludge
+|-damage|p2a: Bron Bron|44/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Bron Bron
+|-damage|p2a: Bron Bron|19/100 tox
+|move|p2a: Bron Bron|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Bron Bron|7/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|49/100 frz
+|-damage|p1a: Keldeo|43/100 frz|[from] Stealth Rock
+|turn|23
+|
+|-curestatus|p1a: Keldeo|frz|[from] move: Scald
+|move|p1a: Keldeo|Scald|p2a: Bron Bron
+|-supereffective|p2a: Bron Bron
+|-damage|p2a: Bron Bron|0 fnt
+|faint|p2a: Bron Bron
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Miller|Scizor, M, shiny|72/100
+|-damage|p2a: Miller|59/100|[from] Stealth Rock
+|-damage|p2a: Miller|43/100|[from] Spikes
+|turn|24
+|
+|move|p2a: Miller|Bullet Punch|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|12/100
+|move|p1a: Keldeo|Scald|p2a: Miller
+|-damage|p2a: Miller|0 fnt
+|faint|p2a: Miller
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|-damage|p2a: D.Wade|94/100|[from] Stealth Rock
+|-damage|p2a: D.Wade|78/100|[from] Spikes
+|turn|25
+|
+|move|p2a: D.Wade|Quick Attack|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|win|stonya
+|c|☆pitches ♪|gg
+|raw|pitches ♪'s rating: 1337 &rarr; <strong>1322</strong><br />(-15 for losing)
+|raw|stonya's rating: 1431 &rarr; <strong>1446</strong><br />(+15 for winning)
+|l|☆pitches ♪

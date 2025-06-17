@@ -1,0 +1,452 @@
+|j|☆pitches ♪
+|j|☆The Daisuke
+|player|p1|pitches ♪|248
+|player|p2|The Daisuke|152
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Keldeo|item
+|poke|p2|Donphan, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Terrakion|item
+|teampreview
+|
+|start
+|switch|p1a: Keldeo|Keldeo|100/100
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|turn|1
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Amoonguss|Spore|p1a: Latios
+|-status|p1a: Latios|slp
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Daisuke)
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Tyranitar|[from]Sleep Talk
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100 slp|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: Tyranitar|[from]Sleep Talk
+|-damage|p2a: Tyranitar|0
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100 slp|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Donphan|Donphan, F|100/100
+|turn|4
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Donphan|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: pitches ♪|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Keldeo|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|81/100|[from] Sandstorm
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|87/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Amoonguss|Stun Spore|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|81/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|87/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|67/100
+|-activate|p2a: Slowbro|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|61/100|[from] Sandstorm
+|-heal|p2a: Slowbro|67/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|61/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|41/100 par
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Will-O-Wisp|p2a: Slowbro|[miss]
+|-miss|p1a: Heatran|p2a: Slowbro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|55/100|[from] Sandstorm
+|-heal|p2a: Slowbro|61/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|55/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Slowbro|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|74/100
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|49/100|[from] Sandstorm
+|-heal|p2a: Slowbro|55/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|68/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Slowbro|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 brn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|49/100|[from] Sandstorm
+|-heal|p2a: Slowbro|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|turn|11
+|
+|-activate|p2a: Slowbro|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Slowbro|[from]Pursuit
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|4/100
+|switch|p2a: Donphan|Donphan, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|move|p2a: Donphan|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|37/100|[from] Sandstorm
+|-heal|p1a: Keldeo|44/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Keldeo|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|37/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|81/100|[from] Sandstorm
+|-heal|p1a: Keldeo|44/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|87/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p1a: Latios|Latios, M|89/100 slp
+|-damage|p1a: Latios|76/100 slp|[from] Stealth Rock
+|move|p2a: Amoonguss|Giga Drain|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|65/100 slp
+|-heal|p2a: Amoonguss|91/100|[from] drain|[of] p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|59/100 slp|[from] Sandstorm
+|-damage|p2a: Amoonguss|85/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|91/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Surf|p2a: Amoonguss|[from]Sleep Talk
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|74/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|48/100 slp
+|-heal|p2a: Amoonguss|78/100|[from] drain|[of] p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|42/100 slp|[from] Sandstorm
+|-damage|p2a: Amoonguss|72/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|78/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: Amoonguss|[from]Sleep Talk
+|-damage|p2a: Amoonguss|0
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|36/100 slp|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Slowbro|Slowbro, M|38/100
+|turn|17
+|
+|switch|p2a: Donphan|Donphan, F|100/100
+|-curestatus|p1a: Latios|slp|[msg]
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|-fail|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|30/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Donphan|atk|1
+|move|p2a: Donphan|Ice Shard|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Donphan|Ice Shard|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|move|p1a: Landorus|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Keldeo|Keldeo|44/100
+|-damage|p1a: Keldeo|37/100|[from] Stealth Rock
+|switch|p2a: Latios|Latios, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|-damage|p1a: Keldeo|31/100|[from] Sandstorm
+|-heal|p1a: Keldeo|37/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Keldeo|Protect|p1a: Keldeo
+|-singleturn|p1a: Keldeo|Protect
+|move|p2a: Latios|Surf|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Sandstorm
+|-damage|p1a: Keldeo|31/100|[from] Sandstorm
+|-heal|p1a: Keldeo|37/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Latios|Surf|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|9/100
+|move|p1a: Keldeo|Toxic|p2a: Latios
+|-status|p2a: Latios|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|83/100 tox|[from] Sandstorm
+|-damage|p1a: Keldeo|2/100|[from] Sandstorm
+|-heal|p1a: Keldeo|9/100|[from] item: Leftovers
+|-damage|p2a: Latios|77/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p2a: Slowbro|Slowbro, M|71/100
+|move|p1a: Keldeo|Protect|p1a: Keldeo
+|-fail|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|2/100|[from] Sandstorm
+|-damage|p2a: Slowbro|65/100|[from] Sandstorm
+|-heal|p1a: Keldeo|9/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Keldeo|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|move|p2a: Slowbro|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0
+|faint|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|65/100 tox|[from] Sandstorm
+|-heal|p2a: Slowbro|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|65/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: The Daisuke|move: Stealth Rock
+|move|p2a: Slowbro|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|59/100 tox|[from] Sandstorm
+|-heal|p2a: Slowbro|65/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|53/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|68/100
+|-ability|p2a: Terrakion|Justified|boost
+|-boost|p2a: Terrakion|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p1a: Heatran|Heatran, F|41/100 par
+|-damage|p1a: Heatran|29/100 par|[from] Stealth Rock
+|move|p2a: Terrakion|X-Scissor|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|15/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p2a: Terrakion|X-Scissor|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 par
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|18/100
+|-damage|p1a: Landorus|6/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|turn|29
+|
+|switch|p2a: Latios|Latios, M|77/100 tox
+|-damage|p2a: Latios|64/100 tox|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|58/100 tox|[from] Sandstorm
+|-damage|p2a: Latios|52/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Landorus|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[msg]|[from] ability: Levitate
+|move|p2a: Latios|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|47/100 tox|[from] Sandstorm
+|-damage|p2a: Latios|35/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|30/100
+|-damage|p1a: Latios|18/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 tox
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|12/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Donphan|Donphan, F|68/100
+|-damage|p2a: Donphan|62/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Donphan|Ice Shard|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Donphan|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|44/100
+|-damage|p1a: Tyranitar|32/100|[from] Stealth Rock
+|turn|33
+|-message|pitches ♪ forfeited.
+|
+|win|The Daisuke
+|l|☆pitches ♪
+|raw|pitches ♪'s rating: 1326 &rarr; <strong>1305</strong><br />(-21 for losing)
+|raw|The Daisuke's rating: 1316 &rarr; <strong>1336</strong><br />(+20 for winning)

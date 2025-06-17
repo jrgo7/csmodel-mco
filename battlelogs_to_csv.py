@@ -5,8 +5,9 @@ import sys
 import os
 import chardet
 
-def battlelogs_to_csv(file_path: str, encode):
-    with open("./logs/"+file_path, "r", encoding=encode) as file_pointer:
+def battlelogs_to_csv(file_path: str):
+    with open(file_path, "r", encoding='utf-8') as file_pointer:
+        print(f"{file_path = }") # ! added this for debugging
         lines = file_pointer.readlines()
 
         # Searches for the player info line. This contains both the player name and the elo.
@@ -49,29 +50,8 @@ def battlelogs_to_csv(file_path: str, encode):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        prog="Smogon2CSV",
-        description=textwrap.dedent(
-            """\
-            This is a helper script that transforms Smogon data into .csv format
-            which will in turn be converted into a pandas dataframe in
-            `phase-1.ipynb`.
-
-            By default, outptut is printed to stdout; use redirection to save it
-            in a .csv file.
-
-            Sample usage:
-            `python ./smogon-to-csv.py --input ./dataset/raw2016-01-gen1ou-0.txt > ./dataset/2016-01-gen1ou-0.csv`
-            """
-        ),
-    )
-    parser.add_argument("-i", "--input", help="Input file")
-    args = parser.parse_args()
-
-    for file in os.listdir("./logs"):
-        with open("./logs/" + file, "rb") as F:
-            encode = chardet.detect(F.read())['encoding']
-            battlelogs_to_csv(file, encode)
+    for file_path in os.listdir("./dataset/showdown/raw"):
+        battlelogs_to_csv("./dataset/showdown/raw/" + file_path)
 
 if __name__ == "__main__":
     main()

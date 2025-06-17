@@ -1,0 +1,360 @@
+|join|Just Play For Fun
+|join|dtw
+|player|p1|Just Play For Fun|258
+|player|p2|dtw|101
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, F, shiny
+|poke|p1|Tentacruel, M
+|poke|p1|Ferrothorn, M, shiny
+|poke|p1|Chansey, F
+|poke|p1|Dragonite, M
+|poke|p1|Celebi
+|poke|p2|Dugtrio, F
+|poke|p2|Tyranitar, F
+|poke|p2|Hydreigon, F
+|poke|p2|Skarmory, M
+|poke|p2|Breloom, M
+|poke|p2|Alakazam, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Annie Leonhart|Politoed, F, shiny|384/384
+|switch|p2a: Skarmory|Skarmory, M|334/334
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Annie Leonhart
+|turn|1
+|
+|move|p2a: Skarmory|Stealth Rock|p1a: Annie Leonhart
+|-sidestart|p1: Just Play For Fun|move: Stealth Rock
+|move|p1a: Annie Leonhart|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|213/334
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Skarmory|Spikes|p1a: Annie Leonhart
+|-sidestart|p1: Just Play For Fun|Spikes
+|move|p1a: Annie Leonhart|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|98/334
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Skarmory|Spikes|p1a: Annie Leonhart
+|-sidestart|p1: Just Play For Fun|Spikes
+|move|p1a: Annie Leonhart|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Breloom|Breloom, M|264/264
+|turn|4
+|
+|switch|p1a: Eren Yeager|Tentacruel, M|364/364
+|-damage|p1a: Eren Yeager|319/364|[from] Stealth Rock
+|-damage|p1a: Eren Yeager|259/364|[from] Spikes
+|move|p2a: Breloom|Spore|p1a: Eren Yeager
+|-status|p1a: Eren Yeager|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eren Yeager|281/364 slp|[from] ability: Rain Dish
+|-heal|p1a: Eren Yeager|303/364 slp|[from] item: Black Sludge
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|turn|5
+|
+|switch|p1a: Beastly Titan|Celebi|404/404
+|-damage|p1a: Beastly Titan|354/404|[from] Stealth Rock
+|-damage|p1a: Beastly Titan|287/404|[from] Spikes
+|move|p2a: Breloom|Facade|p1a: Beastly Titan
+|-damage|p1a: Beastly Titan|111/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Beastly Titan|136/404|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Dugtrio|Dugtrio, F|211/211
+|move|p1a: Beastly Titan|Psychic|p2a: Dugtrio
+|-damage|p2a: Dugtrio|61/211
+|-unboost|p2a: Dugtrio|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Beastly Titan|161/404|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Beastly Titan
+|-supereffective|p1a: Beastly Titan
+|-damage|p1a: Beastly Titan|11/404
+|move|p1a: Beastly Titan|U-turn|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|switch|p1a: Ymir|Chansey, F|701/701
+|-damage|p1a: Ymir|585/701|[from] Spikes
+|-damage|p1a: Ymir|498/701|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Breloom|Breloom, M|264/264 tox
+|turn|8
+|
+|switch|p1a: Reiner Braun|Dragonite, M|386/386
+|-damage|p1a: Reiner Braun|290/386|[from] Stealth Rock
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|198/264 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Reiner Braun|314/386|[from] item: Leftovers
+|-heal|p2a: Breloom|231/264 tox|[from] ability: Poison Heal
+|turn|9
+|
+|move|p2a: Breloom|Facade|p1a: Reiner Braun
+|-damage|p1a: Reiner Braun|136/386
+|move|p1a: Reiner Braun|Hurricane|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Reiner Braun|160/386|[from] item: Leftovers
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|turn|10
+|
+|move|p2a: Breloom|Facade|p1a: Reiner Braun
+|-damage|p1a: Reiner Braun|0 fnt
+|faint|p1a: Reiner Braun
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Bertolt Hoover|Ferrothorn, M, shiny|352/352
+|-damage|p1a: Bertolt Hoover|294/352|[from] Spikes
+|-damage|p1a: Bertolt Hoover|272/352|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|198/264 tox
+|move|p1a: Bertolt Hoover|Power Whip|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bertolt Hoover|294/352|[from] item: Leftovers
+|-heal|p2a: Breloom|231/264 tox|[from] ability: Poison Heal
+|turn|12
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|165/264 tox
+|move|p1a: Bertolt Hoover|Power Whip|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bertolt Hoover|316/352|[from] item: Leftovers
+|-heal|p2a: Breloom|198/264 tox|[from] ability: Poison Heal
+|turn|13
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|132/264 tox
+|move|p1a: Bertolt Hoover|Power Whip|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bertolt Hoover|338/352|[from] item: Leftovers
+|-heal|p2a: Breloom|165/264 tox|[from] ability: Poison Heal
+|turn|14
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|99/264 tox
+|move|p1a: Bertolt Hoover|Power Whip|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bertolt Hoover|352/352|[from] item: Leftovers
+|-heal|p2a: Breloom|132/264 tox|[from] ability: Poison Heal
+|turn|15
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|66/264 tox
+|move|p1a: Bertolt Hoover|Power Whip|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|99/264 tox|[from] ability: Poison Heal
+|turn|16
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|33/264 tox
+|move|p1a: Bertolt Hoover|Power Whip|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|66/264 tox|[from] ability: Poison Heal
+|turn|17
+|
+|switch|p2a: Alakazam|Alakazam, M|251/251
+|move|p1a: Bertolt Hoover|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Bertolt Hoover
+|-supereffective|p1a: Bertolt Hoover
+|-damage|p1a: Bertolt Hoover|112/352
+|move|p1a: Bertolt Hoover|Power Whip|p2a: Alakazam
+|-damage|p2a: Alakazam|13/251 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bertolt Hoover|134/352|[from] item: Leftovers
+|turn|19
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Bertolt Hoover|Power Whip|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bertolt Hoover|156/352|[from] item: Leftovers
+|
+|switch|p2a: Hydreigon|Hydreigon, F|325/325
+|turn|20
+|
+|move|p2a: Hydreigon|Superpower|p1a: Bertolt Hoover
+|-supereffective|p1a: Bertolt Hoover
+|-damage|p1a: Bertolt Hoover|0 fnt
+|-damage|p2a: Hydreigon|285/325|[from] ability: Iron Barbs|[of] p1a: Bertolt Hoover
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|def|1
+|-damage|p2a: Hydreigon|253/325|[from] item: Life Orb
+|faint|p1a: Bertolt Hoover
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Ymir|Chansey, F|498/701
+|-damage|p1a: Ymir|382/701|[from] Spikes
+|-damage|p1a: Ymir|295/701|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Hydreigon|Taunt|p1a: Ymir
+|-start|p1a: Ymir|move: Taunt
+|cant|p1a: Ymir|move: Taunt|Soft-Boiled
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|move|p2a: Hydreigon|Superpower|p1a: Ymir
+|-supereffective|p1a: Ymir
+|-damage|p1a: Ymir|66/701
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|def|1
+|-damage|p2a: Hydreigon|221/325|[from] item: Life Orb
+|move|p1a: Ymir|Seismic Toss|p2a: Hydreigon
+|-damage|p2a: Hydreigon|121/325
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|move|p2a: Hydreigon|Superpower|p1a: Ymir
+|-crit|p1a: Ymir
+|-supereffective|p1a: Ymir
+|-damage|p1a: Ymir|0 fnt
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|def|1
+|-damage|p2a: Hydreigon|89/325|[from] item: Life Orb
+|faint|p1a: Ymir
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Eren Yeager|Tentacruel, M|303/364 slp
+|-damage|p1a: Eren Yeager|243/364 slp|[from] Spikes
+|-damage|p1a: Eren Yeager|198/364 slp|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Eren Yeager
+|-damage|p1a: Eren Yeager|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|57/325|[from] item: Life Orb
+|faint|p1a: Eren Yeager
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Annie Leonhart|Politoed, F, shiny|384/384
+|-damage|p1a: Annie Leonhart|336/384|[from] Stealth Rock
+|-damage|p1a: Annie Leonhart|272/384|[from] Spikes
+|turn|25
+|
+|switch|p2a: Breloom|Breloom, M|66/264 tox
+|move|p1a: Annie Leonhart|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Annie Leonhart|296/384|[from] item: Leftovers
+|
+|switch|p2a: Tyranitar|Tyranitar, F|342/342
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|26
+|
+|move|p2a: Tyranitar|Crunch|p1a: Annie Leonhart
+|-damage|p1a: Annie Leonhart|158/384
+|move|p1a: Annie Leonhart|Toxic|p2a: Tyranitar|[miss]
+|-miss|p1a: Annie Leonhart|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Annie Leonhart|134/384|[from] sandstorm
+|-heal|p1a: Annie Leonhart|158/384|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Tyranitar|Crunch|p1a: Annie Leonhart
+|-damage|p1a: Annie Leonhart|41/384
+|move|p1a: Annie Leonhart|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|216/342
+|-status|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Annie Leonhart|17/384|[from] sandstorm
+|-heal|p1a: Annie Leonhart|41/384|[from] item: Leftovers
+|-damage|p2a: Tyranitar|174/342 brn|[from] brn
+|turn|28
+|
+|move|p2a: Tyranitar|Crunch|p1a: Annie Leonhart
+|-damage|p1a: Annie Leonhart|0 fnt
+|faint|p1a: Annie Leonhart
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|132/342 brn|[from] brn
+|
+|switch|p1a: Beastly Titan|Celebi|11/404
+|-damage|p1a: Beastly Titan|0 fnt|[from] Spikes
+|faint|p1a: Beastly Titan
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|Just Play For Fun's rating: 1426 &rarr; <strong>1405</strong><br />(-21 for losing)
+|raw|dtw's rating: 1415 &rarr; <strong>1436</strong><br />(+21 for winning)
+|chat|dtw|gg
+|leave|Just Play For Fun
+|player|p1

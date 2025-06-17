@@ -1,0 +1,252 @@
+|j|‽llellde
+|j|‽yoloboy9000
+|player|p1|llellde|170
+|player|p2|yoloboy9000|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Breloom, F|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Gengar, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Starmie|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|271/271
+|switch|p2a: Scizor|Scizor, F, shiny|343/343
+|turn|1
+|
+|move|p1a: Skarmory|Stealth Rock|p2a: Scizor
+|-sidestart|p2: yoloboy9000|move: Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|193/271
+|
+|switch|p2a: Magnezone|Magnezone|283/283
+|-damage|p2a: Magnezone|266/283|[from] Stealth Rock
+|
+|-heal|p2a: Magnezone|283/283|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Skarmory|Spikes|p2a: Magnezone
+|-sidestart|p2: yoloboy9000|Spikes
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|213/283
+|
+|-heal|p2a: Magnezone|230/283|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Skarmory|Spikes|p2a: Magnezone
+|-sidestart|p2: yoloboy9000|Spikes
+|move|p2a: Magnezone|Charge Beam|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-boost|p2a: Magnezone|spa|1
+|faint|p1a: Skarmory
+|
+|-heal|p2a: Magnezone|247/283|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|261/261
+|turn|4
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|-damage|p1a: Starmie|235/261|[from] item: Life Orb
+|move|p2a: Magnezone|Charge Beam|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-boost|p2a: Magnezone|spa|1
+|faint|p1a: Starmie
+|
+|-heal|p2a: Magnezone|264/283|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, F|361/361
+|turn|5
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-damage|p1a: Mamoswine|325/361|[from] item: Life Orb
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|-damage|p2a: Terrakion|303/323|[from] Stealth Rock
+|-damage|p2a: Terrakion|250/323|[from] Spikes
+|turn|6
+|
+|switch|p1a: Gengar|Gengar, M|323/323
+|move|p2a: Terrakion|Stone Edge|p1a: Gengar
+|-damage|p1a: Gengar|59/323
+|
+|-heal|p1a: Gengar|79/323|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Gengar|[miss]
+|-miss|p2a: Terrakion|p1a: Gengar
+|move|p1a: Gengar|Will-O-Wisp|p2a: Terrakion|[miss]
+|-miss|p1a: Gengar|p2a: Terrakion
+|
+|-heal|p1a: Gengar|99/323|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Breloom|Breloom, F|261/261
+|move|p2a: Terrakion|Stone Edge|p1a: Breloom
+|-resisted|p1a: Breloom
+|-crit|p1a: Breloom
+|-damage|p1a: Breloom|49/261
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Landorus|Landorus-Therian, M|382/382
+|-damage|p2a: Landorus|335/382|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Low Sweep|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|280/382
+|-unboost|p2a: Landorus|spe|1
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Gengar|Gengar, M|99/323
+|move|p2a: Landorus|Hidden Power|p1a: Gengar
+|-damage|p1a: Gengar|28/323
+|
+|-heal|p1a: Gengar|48/323|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Gengar|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|move|p2a: Landorus|Hidden Power|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-damage|p2a: Landorus|233/382 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M|331/331
+|turn|12
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|5/382 brn
+|move|p2a: Landorus|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|181/331
+|
+|-damage|p2a: Landorus|0 fnt|[from] brn
+|faint|p2a: Landorus
+|upkeep
+|
+|switch|p2a: Latios|Latios, M, shiny|301/301
+|-damage|p2a: Latios|264/301|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Latios|Surf|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|49/261
+|turn|14
+|
+|move|p1a: Breloom|Spore|p2a: Latios
+|-status|p2a: Latios|slp|[from] move: Spore
+|cant|p2a: Latios|slp
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Mamoswine|Mamoswine, F|325/361
+|-curestatus|p2a: Latios|slp|[msg]
+|move|p2a: Latios|Psyshock|p1a: Mamoswine
+|-damage|p1a: Mamoswine|160/361
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|38/301
+|-damage|p1a: Mamoswine|124/361|[from] item: Life Orb
+|move|p2a: Latios|Psyshock|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|49/261
+|turn|17
+|
+|move|p1a: Breloom|Mach Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|403/403
+|-damage|p2a: Tyranitar|336/403|[from] Spikes
+|-damage|p2a: Tyranitar|286/403|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|18
+|
+|move|p1a: Breloom|Mach Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|33/261|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|250/323
+|-damage|p2a: Terrakion|197/323|[from] Spikes
+|-damage|p2a: Terrakion|177/323|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Terrakion|Quick Attack|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|win|yoloboy9000
+|raw|llellde's rating: 1314 &rarr; <strong>1295</strong><br />(-19 for losing)
+|raw|yoloboy9000's rating: 1331 &rarr; <strong>1350</strong><br />(+19 for winning)
+|l|‽llellde

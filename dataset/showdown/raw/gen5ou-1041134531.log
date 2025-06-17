@@ -1,0 +1,411 @@
+|j|☆sankafola
+|j|☆GrinchsBankAccount
+|player|p1|sankafola|juan|1336
+|player|p2|GrinchsBankAccount|aetherfoundation|1322
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Jirachi|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p2|Raikou|item
+|poke|p2|Gengar, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Heatran, M|item
+|teampreview
+|j| Sid'Actionn
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GrinchsBankAccount)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|turn|1
+|
+|move|p2a: Zapdos|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|97/100
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|move|p1a: Landorus|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: GrinchsBankAccount|move: Stealth Rock
+|
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|l| Sid'Actionn
+|
+|move|p1a: Landorus|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|51/100
+|move|p2a: Seismitoad|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-heal|p2a: Seismitoad|57/100|[from] item: Leftovers
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Landorus|U-turn|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p1a: Landorus|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|-damage|p1a: Landorus|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Landorus|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-heal|p1a: Landorus|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|76/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Zapdos|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|88/100
+|
+|switch|p2a: Seismitoad|Seismitoad, M|63/100|[from]move: U-turn
+|-damage|p2a: Seismitoad|57/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|95/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: sankafola|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Jirachi|Grass Knot|p2a: Excadrill
+|-damage|p2a: Excadrill|72/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100 tox
+|-damage|p1a: Landorus|64/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|60/100 tox
+|-sideend|p2: GrinchsBankAccount|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p1a: Landorus|66/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|60/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Gengar
+|-sidestart|p2: GrinchsBankAccount|move: Stealth Rock
+|
+|-heal|p1a: Landorus|66/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|54/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|76/100
+|move|p1a: Landorus|U-turn|p2a: Gengar
+|-resisted|p2a: Gengar
+|-activate|p2a: Gengar|Substitute|[damage]
+|
+|switch|p1a: Jirachi|Jirachi|100/100|[from]move: U-turn
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Gengar|82/100|[from] item: Black Sludge
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Jirachi
+|-damage|p1a: Jirachi|62/100
+|move|p1a: Jirachi|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|-heal|p1a: Jirachi|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Seismitoad|Seismitoad, M|69/100
+|-damage|p2a: Seismitoad|63/100|[from] Stealth Rock
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Jirachi|Jirachi|68/100
+|-damage|p1a: Jirachi|62/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|41/100
+|-status|p1a: Jirachi|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|47/100 brn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|35/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Jirachi|Psychic|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|41/100 brn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|81/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|28/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|73/100
+|move|p2a: Seismitoad|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|4/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|11/100 brn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|0 fnt|[from] brn
+|faint|p1a: Jirachi
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M, shiny|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|69/100
+|move|p2a: Seismitoad|Scald|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Garchomp|Outrage|p2a: Seismitoad
+|-damage|p2a: Seismitoad|17/100
+|move|p2a: Seismitoad|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|45/100
+|-status|p1a: Garchomp|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|23/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|33/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Garchomp|Outrage|p2a: Seismitoad|[from]lockedmove
+|-activate|p2a: Seismitoad|move: Protect
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|29/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|20/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Zapdos|Zapdos|76/100
+|-damage|p2a: Zapdos|51/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|45/100|[from] Sandstorm
+|-damage|p1a: Garchomp|8/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|0 fnt|[from] confusion
+|faint|p1a: Garchomp
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|95/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|89/100|[from] Sandstorm
+|upkeep
+|inactive|sankafola has 120 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Tyranitar|Crunch|p2a: Zapdos
+|-damage|p2a: Zapdos|57/100
+|-damage|p1a: Tyranitar|59/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|31/100
+|
+|switch|p2a: Excadrill|Excadrill, F|72/100|[from]move: U-turn
+|-damage|p2a: Excadrill|69/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Excadrill|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|54/100 tox
+|-damage|p1a: Landorus|42/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|23
+|
+|switch|p2a: Seismitoad|Seismitoad, M|29/100
+|-damage|p2a: Seismitoad|23/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|switch|p1a: Rotom|Rotom-Wash|95/100|[from]move: U-turn
+|-damage|p1a: Rotom|82/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|76/100|[from] Sandstorm
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|69/100
+|-damage|p2a: Excadrill|66/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|24
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|42/100 tox
+|-damage|p1a: Landorus|30/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|25
+|
+|switch|p2a: Zapdos|Zapdos|57/100
+|-damage|p2a: Zapdos|32/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Landorus|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|26/100|[from] Sandstorm
+|-heal|p1a: Landorus|36/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|30/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|76/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Landorus|Earthquake|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|7/100|[from] Sandstorm
+|-heal|p1a: Landorus|36/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|24/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Zapdos|Hidden Power|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|1/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Zapdos|Hidden Power|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|45/100|[from] Sandstorm
+|-damage|p2a: Zapdos|0 fnt|[from] Sandstorm
+|faint|p2a: Zapdos
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|66/100
+|-damage|p2a: Excadrill|63/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|29
+|
+|move|p2a: Excadrill|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|win|GrinchsBankAccount
+|l|☆sankafola
+|raw|sankafola's rating: 1336 &rarr; <strong>1315</strong><br />(-21 for losing)
+|raw|GrinchsBankAccount's rating: 1322 &rarr; <strong>1343</strong><br />(+21 for winning)

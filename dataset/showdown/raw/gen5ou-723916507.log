@@ -1,0 +1,253 @@
+|j|☆bw ttt
+|j|☆Showbiz City
+|player|p1|bw ttt|229
+|player|p2|Showbiz City|67
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Volcarona, F|item
+|poke|p1|Dugtrio, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Gothitelle, M|item
+|poke|p1|Weavile, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Keldeo|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bw ttt)
+|
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Weavile|Night Slash|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|-damage|p1a: Weavile|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|94/100|[from] sandstorm
+|upkeep
+|turn|3
+|
+|move|p1a: Xatu|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|82/100
+|
+|-activate|p1a: Xatu|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Xatu|[from]Pursuit
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Tyranitar|66/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|faint|p1a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|turn|4
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dugtrio|atk|1
+|turn|5
+|
+|switch|p1a: Weavile|Weavile, F|88/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Landorus|Stealth Rock|p1a: Weavile
+|-sidestart|p1: bw ttt|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|82/100|[from] sandstorm
+|upkeep
+|turn|6
+|
+|-activate|p2a: Landorus|move: Pursuit
+|move|p1a: Weavile|Pursuit|p2a: Landorus|[from]Pursuit
+|-damage|p2a: Landorus|52/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Weavile|Pursuit|p2a: Politoed
+|-damage|p2a: Politoed|74/100
+|move|p2a: Politoed|Hypnosis|p1a: Weavile|[miss]
+|-miss|p2a: Politoed|p1a: Weavile
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Weavile|Pursuit|p2a: Politoed
+|-damage|p2a: Politoed|52/100
+|move|p2a: Politoed|Hypnosis|p1a: Weavile
+|-status|p1a: Weavile|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|switch|p2a: Ferrothorn|Ferrothorn, F|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Ninetales|Flamethrower|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Weavile|Weavile, F|82/100 slp
+|-damage|p1a: Weavile|57/100 slp|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Latios|Surf|p1a: Weavile
+|-damage|p1a: Weavile|26/100 slp
+|-damage|p2a: Latios|68/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|cant|p1a: Weavile|slp
+|move|p2a: Latios|Surf|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-damage|p2a: Latios|58/100|[from] item: Life Orb
+|faint|p1a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|-damage|p1a: Gothitelle|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Gothitelle|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|16/100
+|move|p2a: Latios|Draco Meteor|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|6/100|[from] item: Life Orb
+|faint|p1a: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Politoed|Politoed, M|58/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Volcarona|Morning Sun|p1a: Volcarona
+|-heal|p1a: Volcarona|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Showbiz City has 135 seconds left.
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Keldeo|Surf|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-enditem|p1a: Volcarona|Passho Berry|[eat]
+|-enditem|p1a: Volcarona|Passho Berry|[weaken]
+|-damage|p1a: Volcarona|30/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|80/100
+|move|p2a: Keldeo|Surf|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|95/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Keldeo|Surf|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|bw ttt forfeited.
+|
+|win|Showbiz City
+|l|☆bw ttt
+|raw|bw ttt's rating: 1348 &rarr; <strong>1331</strong><br />(-17 for losing)
+|raw|Showbiz City's rating: 1399 &rarr; <strong>1416</strong><br />(+17 for winning)

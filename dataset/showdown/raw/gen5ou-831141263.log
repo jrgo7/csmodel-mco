@@ -1,0 +1,455 @@
+|j|☆Living Blade
+|j|☆Volcanionisgood
+|player|p1|Living Blade|266
+|player|p2|Volcanionisgood|153
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Zapdos|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tyranitar, F|item
+|teampreview
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jellicent|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Living Blade)
+|
+|move|p2a: Landorus|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|89/100
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Jellicent|95/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| Le Austin
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Heatran|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-damage|p1a: Latios|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Latios|Hidden Power|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-damage|p1a: Latios|83/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Latios|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|77/100 tox|[from] Sandstorm
+|-damage|p1a: Latios|59/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|move|p1a: Latios|Hidden Power|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|53/100 tox|[from] Sandstorm
+|-damage|p1a: Latios|29/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Landorus|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|87/100
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|81/100|[from] Sandstorm
+|-heal|p1a: Zapdos|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Terrakion|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Terrakion|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Zapdos|Zapdos|87/100
+|-ability|p1a: Zapdos|Pressure
+|turn|8
+|
+|switch|p2a: Tyranitar|Tyranitar, F|19/100
+|move|p1a: Zapdos|Discharge|p2a: Tyranitar
+|-damage|p2a: Tyranitar|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|81/100|[from] Sandstorm
+|-heal|p1a: Zapdos|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Zapdos|Hidden Power|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|81/100|[from] Sandstorm
+|-heal|p1a: Zapdos|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|10
+|
+|move|p1a: Zapdos|Discharge|p2a: Heatran
+|-damage|p2a: Heatran|79/100
+|-status|p2a: Heatran|par
+|move|p2a: Heatran|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: Living Blade|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|81/100|[from] Sandstorm
+|-heal|p1a: Zapdos|87/100|[from] item: Leftovers
+|-heal|p2a: Heatran|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Heatran|Toxic|p1a: Excadrill
+|-immune|p1a: Excadrill|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p2a: Heatran|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Landorus|Landorus-Therian, M|76/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|70/100
+|-sideend|p1: Living Blade|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Landorus|U-turn|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Excadrill|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|94/100 tox|[from] Sandstorm
+|-heal|p2a: Slowbro|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Terrakion|Terrakion|88/100
+|move|p1a: Excadrill|Protect||[still]
+|-fail|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Terrakion|Close Combat|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Jellicent|Jellicent, M|95/100
+|move|p2a: Terrakion|Close Combat|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|89/100|[from] Sandstorm
+|-heal|p1a: Jellicent|95/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100 tox
+|move|p1a: Jellicent|Night Shade|p2a: Slowbro
+|-damage|p2a: Slowbro|75/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|89/100|[from] Sandstorm
+|-damage|p2a: Slowbro|69/100 tox|[from] Sandstorm
+|-heal|p1a: Jellicent|95/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|69/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Heatran|Heatran, M|92/100 par
+|move|p1a: Jellicent|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|89/100|[from] Sandstorm
+|-heal|p1a: Jellicent|95/100|[from] item: Leftovers
+|-heal|p2a: Heatran|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Jellicent|Night Shade|p2a: Heatran
+|-damage|p2a: Heatran|72/100 par
+|move|p2a: Heatran|Lava Plume|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|75/100|[from] Sandstorm
+|-heal|p1a: Jellicent|82/100|[from] item: Leftovers
+|-heal|p2a: Heatran|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Jellicent|Night Shade|p2a: Heatran
+|-damage|p2a: Heatran|52/100 par
+|move|p2a: Heatran|Lava Plume|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|62/100|[from] Sandstorm
+|-heal|p1a: Jellicent|68/100|[from] item: Leftovers
+|-heal|p2a: Heatran|59/100 par|[from] item: Leftovers
+|-end|p2a: Heatran|move: Taunt
+|upkeep
+|turn|22
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Jellicent|Taunt|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|62/100|[from] Sandstorm
+|-heal|p1a: Jellicent|68/100|[from] item: Leftovers
+|-heal|p2a: Heatran|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Jellicent|Night Shade|p2a: Latios
+|-damage|p2a: Latios|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|61/100|[from] Sandstorm
+|-damage|p1a: Jellicent|62/100|[from] Sandstorm
+|-heal|p1a: Jellicent|68/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar|[miss]
+|-miss|p2a: Latios|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|55/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|100/100
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|88/100
+|turn|26
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Tyranitar|[miss]
+|-miss|p2a: Terrakion|p1a: Tyranitar
+|move|p1a: Tyranitar|Superpower|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|1/100
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Terrakion|Stone Edge|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|79/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Landorus|Landorus-Therian, M|70/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|85/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Landorus|Earthquake|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|91/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Heatran|Heatran, M|65/100 par
+|switch|p1a: Zapdos|Zapdos|87/100
+|-ability|p1a: Zapdos|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|81/100|[from] Sandstorm
+|-heal|p1a: Zapdos|87/100|[from] item: Leftovers
+|-heal|p2a: Heatran|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|j| james434
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: Living Blade|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100 tox
+|move|p1a: Tyranitar|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: Volcanionisgood|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|94/100 tox|[from] Sandstorm
+|-heal|p2a: Slowbro|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|94/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|move|p1a: Tyranitar|Crunch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|49/100 tox
+|move|p2a: Slowbro|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|43/100 tox|[from] Sandstorm
+|-heal|p2a: Slowbro|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|37/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p1a: Tyranitar|Crunch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|70/100
+|-damage|p2a: Landorus|58/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|35
+|
+|switch|p1a: Zapdos|Zapdos|87/100
+|-damage|p1a: Zapdos|62/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Landorus|Stone Edge|p1a: Zapdos|[miss]
+|-miss|p2a: Landorus|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|56/100|[from] Sandstorm
+|-heal|p1a: Zapdos|62/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|-message|Volcanionisgood forfeited.
+|
+|win|Living Blade
+|l|☆Volcanionisgood
+|raw|Living Blade's rating: 1353 &rarr; <strong>1378</strong><br />(+25 for winning)
+|raw|Volcanionisgood's rating: 1439 &rarr; <strong>1415</strong><br />(-24 for losing)
+|l|☆Living Blade
+|l| james434
+|j| james434

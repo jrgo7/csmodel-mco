@@ -1,0 +1,296 @@
+|j|‽initialoffense
+|j|☆gfgfdhdh
+|player|p1|initialoffense|aromalady|1466
+|player|p2|gfgfdhdh|lass-gen4dp|1316
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Heatran, M|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by initialoffense)
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|turn|1
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Amoonguss
+|-damage|p1a: Amoonguss|53/100
+|move|p1a: Amoonguss|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|59/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: initialoffense|move: Stealth Rock
+|move|p1a: Tyranitar|Stealth Rock|p2a: Landorus
+|-sidestart|p2: gfgfdhdh|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Landorus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|18/100
+|move|p2a: Landorus|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Amoonguss
+|-damage|p2a: Amoonguss|81/100
+|-sideend|p1: initialoffense|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Amoonguss|Spore|p1a: Excadrill
+|-status|p1a: Excadrill|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|75/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|81/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|24/100
+|-damage|p2a: Landorus|12/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|18/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|94/100
+|turn|10
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|67/100|[from] Sandstorm
+|-heal|p1a: Keldeo|94/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|73/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Amoonguss|Amoonguss, M|92/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|88/100
+|-heal|p2a: Amoonguss|75/100|[from] drain|[of] p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|82/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|69/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|88/100|[from] item: Black Sludge
+|-heal|p2a: Amoonguss|75/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Amoonguss|Giga Drain|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|72/100
+|-heal|p1a: Amoonguss|90/100|[from] drain|[of] p2a: Amoonguss
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Amoonguss
+|-damage|p1a: Amoonguss|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|66/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|65/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|72/100|[from] item: Black Sludge
+|-heal|p2a: Amoonguss|72/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Amoonguss|Hidden Power|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|53/100
+|move|p2a: Amoonguss|Hidden Power|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|24/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|46/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|30/100|[from] item: Black Sludge
+|-heal|p2a: Amoonguss|53/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|78/100
+|-heal|p2a: Amoonguss|63/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|57/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|63/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Tyranitar|Crunch|p2a: Amoonguss
+|-damage|p2a: Amoonguss|18/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|56/100
+|-heal|p2a: Amoonguss|29/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|22/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|29/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|7/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|34/100
+|-heal|p2a: Amoonguss|18/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|11/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|18/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|24/100
+|-damage|p2a: Landorus|12/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|18
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: initialoffense|move: Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, F, shiny|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Garchomp|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|94/100
+|-damage|p1a: Keldeo|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Garchomp|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|26/100
+|move|p1a: Keldeo|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|19/100|[from] Sandstorm
+|-heal|p1a: Keldeo|26/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|-message|initialoffense forfeited.
+|
+|win|gfgfdhdh
+|l|‽initialoffense
+|raw|initialoffense's rating: 1466 &rarr; <strong>1438</strong><br />(-28 for losing)
+|raw|gfgfdhdh's rating: 1316 &rarr; <strong>1344</strong><br />(+28 for winning)

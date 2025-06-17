@@ -1,0 +1,236 @@
+|j|☆Parkerr
+|j|☆guap collector
+|t:|1719975719
+|gametype|singles
+|player|p1|Parkerr|266|1318
+|player|p2|guap collector|2|1450
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Scizor, F|item
+|poke|p1|Celebi|item
+|poke|p1|Tyranitar, F|item
+|poke|p2|Celebi|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Scizor, M|item
+|teampreview
+|j| Concept Everything
+|
+|t:|1719975742
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|1
+|
+|t:|1719975749
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Landorus|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: guap collector|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by guap collector)
+|
+|t:|1719975758
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Landorus|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|21/100
+|
+|upkeep
+|turn|3
+|
+|t:|1719975766
+|move|p2a: Garchomp|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Garchomp|4/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1719975775
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|4
+|
+|t:|1719975779
+|move|p1a: Scizor|Bullet Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Scizor|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Scizor|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1719975786
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1719975793
+|move|p2a: Heatran|Magma Storm|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1719975798
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|6
+|
+|t:|1719975801
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Scald|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|70/100
+|-status|p2a: Celebi|brn
+|
+|-heal|p2a: Celebi|77/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|64/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1719975809
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Celebi|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|88/100
+|
+|t:|1719975812
+|-curestatus|p2a: Celebi|brn|[from] ability: Natural Cure
+|switch|p2a: Scizor|Scizor, M|100/100|[from] U-turn
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1719975817
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Scizor|U-turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|64/100
+|
+|t:|1719975823
+|switch|p2a: Celebi|Celebi|64/100|[from] U-turn
+|-damage|p2a: Celebi|52/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|58/100|[from] Sandstorm
+|-damage|p2a: Celebi|46/100|[from] Sandstorm
+|-heal|p2a: Celebi|52/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1719975828
+|move|p1a: Keldeo|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|7/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|52/100|[from] Sandstorm
+|-damage|p2a: Celebi|51/100|[from] Sandstorm
+|-heal|p2a: Celebi|57/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1719975835
+|switch|p2a: Heatran|Heatran, F|94/100
+|-damage|p2a: Heatran|82/100|[from] Stealth Rock
+|move|p1a: Keldeo|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|46/100|[from] Sandstorm
+|-heal|p2a: Heatran|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1719975840
+|switch|p1a: Tyranitar|Tyranitar, F|88/100
+|move|p2a: Heatran|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|89/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1719975850
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Tyranitar|Ice Beam|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|96/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|69/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1719975858
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|40/100
+|-activate|p1a: Jirachi|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|46/100|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|40/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1719975864
+|move|p1a: Jirachi|Body Slam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|92/100
+|-status|p2a: Heatran|par
+|move|p2a: Heatran|Magma Storm|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|98/100 par|[from] item: Leftovers
+|upkeep
+|-message|Parkerr forfeited.
+|
+|win|guap collector
+|raw|Parkerr's rating: 1318 &rarr; <strong>1305</strong><br />(-13 for losing)
+|raw|guap collector's rating: 1450 &rarr; <strong>1463</strong><br />(+13 for winning)
+|l|☆Parkerr
+|player|p1|

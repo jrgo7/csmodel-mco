@@ -1,0 +1,524 @@
+|join|Kidogo
+|join|glasseseagle
+|player|p1|Kidogo|2
+|player|p2|glasseseagle|284
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M
+|poke|p1|Tyranitar, M
+|poke|p1|Forretress, M
+|poke|p1|Sableye, M
+|poke|p1|Celebi
+|poke|p1|Heatran, M
+|poke|p2|Politoed, F
+|poke|p2|Ferrothorn, M
+|poke|p2|Rotom-Wash, shiny
+|poke|p2|Dragonite, M
+|poke|p2|Tentacruel, F
+|poke|p2|Conkeldurr, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Celebi|Celebi|403/403
+|switch|p2a: Scout Pawn|Rotom-Wash, shiny|299/299
+|turn|1
+|chat|Kidogo|gl
+|
+|move|p2a: Scout Pawn|Will-O-Wisp|p1a: Celebi
+|-status|p1a: Celebi|brn
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|chat|glasseseagle|gl too
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Scout Pawn
+|-unboost|p2a: Scout Pawn|atk|1
+|
+|turn|2
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Scout Pawn
+|-damage|p2a: Scout Pawn|230/299
+|
+|switch|p1a: Celebi|Celebi|403/403
+|move|p2a: Scout Pawn|Will-O-Wisp|p1a: Celebi
+|-status|p1a: Celebi|brn
+|
+|-heal|p2a: Scout Pawn|248/299|[from] item: Leftovers
+|-damage|p1a: Celebi|353/403 brn|[from] brn
+|turn|3
+|
+|move|p2a: Scout Pawn|Volt Switch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|315/403 brn
+|
+|switch|p2a: Tough Rook|Ferrothorn, M|352/352
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Heatran|Heatran, M|385/385
+|
+|turn|4
+|
+|switch|p2a: Tentacruel|Tentacruel, F|363/363
+|move|p1a: Heatran|Lava Plume|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|315/363
+|-status|p2a: Tentacruel|brn
+|
+|-heal|p2a: Tentacruel|337/363 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|292/363 brn|[from] brn
+|turn|5
+|
+|move|p2a: Tentacruel|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|281/385
+|move|p1a: Heatran|Earth Power|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-heal|p1a: Heatran|305/385|[from] item: Leftovers
+|
+|switch|p2a: Rain Priestess|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Rain Priestess
+|turn|6
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Rain Priestess|Scald|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|329/385|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Celebi|Celebi|315/403
+|move|p2a: Rain Priestess|Scald|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|268/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|293/403|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Rain Priestess|Protect|p2a: Rain Priestess
+|-singleturn|p2a: Rain Priestess|Protect
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Tyranitar|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rain Priestess|360/384|[from] sandstorm
+|-heal|p2a: Rain Priestess|384/384|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Celebi|Celebi|293/403
+|move|p2a: Rain Priestess|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|268/403 tox|[from] sandstorm
+|-damage|p2a: Rain Priestess|360/384|[from] sandstorm
+|-heal|p1a: Celebi|293/403 tox|[from] item: Leftovers
+|-heal|p2a: Rain Priestess|384/384|[from] item: Leftovers
+|-damage|p1a: Celebi|268/403 tox|[from] psn
+|turn|10
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|352/352
+|move|p1a: Celebi|Giga Drain|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|262/352
+|-heal|p1a: Celebi|313/403 tox|[from] drain|[of] p2a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|288/403 tox|[from] sandstorm
+|-damage|p2a: Conkeldurr|240/352|[from] sandstorm
+|-heal|p1a: Celebi|313/403 tox|[from] item: Leftovers
+|-heal|p2a: Conkeldurr|262/352|[from] item: Leftovers
+|-damage|p1a: Celebi|263/403 tox|[from] psn
+|turn|11
+|
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Forretress|Forretress, M|353/353
+|move|p2a: Conkeldurr|Bulk Up|p2a: Conkeldurr
+|-boost|p2a: Conkeldurr|atk|1
+|-boost|p2a: Conkeldurr|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|240/352|[from] sandstorm
+|-heal|p2a: Conkeldurr|262/352|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|221/353
+|-heal|p2a: Conkeldurr|328/352|[from] drain|[of] p1a: Forretress
+|move|p1a: Forretress|Spikes|p2a: Conkeldurr
+|-sidestart|p2: glasseseagle|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|306/352|[from] sandstorm
+|-heal|p2a: Conkeldurr|328/352|[from] item: Leftovers
+|-heal|p1a: Forretress|243/353|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Conkeldurr|Bulk Up|p2a: Conkeldurr
+|-boost|p2a: Conkeldurr|atk|1
+|-boost|p2a: Conkeldurr|def|1
+|move|p1a: Forretress|Spikes|p2a: Conkeldurr
+|-sidestart|p2: glasseseagle|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|306/352|[from] sandstorm
+|-heal|p2a: Conkeldurr|328/352|[from] item: Leftovers
+|-heal|p1a: Forretress|265/353|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Conkeldurr|Bulk Up|p2a: Conkeldurr
+|-boost|p2a: Conkeldurr|atk|1
+|-boost|p2a: Conkeldurr|def|1
+|move|p1a: Forretress|Spikes|p2a: Conkeldurr
+|-sidestart|p2: glasseseagle|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|306/352|[from] sandstorm
+|-heal|p2a: Conkeldurr|328/352|[from] item: Leftovers
+|-heal|p1a: Forretress|287/353|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Conkeldurr|Ice Punch|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|210/353
+|move|p1a: Forretress|Volt Switch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|288/352
+|
+|switch|p1a: Sableye|Sableye, M|304/304
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sableye|285/304|[from] sandstorm
+|-damage|p2a: Conkeldurr|266/352|[from] sandstorm
+|-heal|p1a: Sableye|304/304|[from] item: Leftovers
+|-heal|p2a: Conkeldurr|288/352|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Conkeldurr
+|-status|p2a: Conkeldurr|brn
+|move|p2a: Conkeldurr|Ice Punch|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|266/352 brn|[from] sandstorm
+|-heal|p2a: Conkeldurr|288/352 brn|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|244/352 brn|[from] brn
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|turn|17
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|228/352 brn
+|
+|switch|p1a: Heatran|Heatran, M|329/385
+|move|p2a: Conkeldurr|Ice Punch|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|258/385
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|206/352 brn|[from] sandstorm
+|-heal|p1a: Heatran|282/385|[from] item: Leftovers
+|-heal|p2a: Conkeldurr|228/352 brn|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|184/352 brn|[from] brn
+|turn|18
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Conkeldurr|Mach Punch|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|162/352 brn|[from] sandstorm
+|-heal|p1a: Heatran|306/385|[from] item: Leftovers
+|-heal|p2a: Conkeldurr|184/352 brn|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|140/352 brn|[from] brn
+|turn|19
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|move|p2a: Conkeldurr|Mach Punch|p1a: Landorus-Therian
+|-resisted|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|292/381
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|118/352 brn|[from] sandstorm
+|-heal|p1a: Landorus-Therian|315/381|[from] item: Leftovers
+|-heal|p2a: Conkeldurr|140/352 brn|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|96/352 brn|[from] brn
+|turn|20
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|79/352 brn
+|
+|switch|p1a: Forretress|Forretress, M|210/353
+|move|p2a: Conkeldurr|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-heal|p2a: Conkeldurr|184/352 brn|[from] drain|[of] p1a: Forretress
+|faint|p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|162/352 brn|[from] sandstorm
+|-heal|p2a: Conkeldurr|184/352 brn|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|140/352 brn|[from] brn
+|
+|switch|p1a: Celebi|Celebi|263/403
+|turn|21
+|
+|move|p1a: Celebi|Psychic|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|238/403|[from] sandstorm
+|-heal|p1a: Celebi|263/403|[from] item: Leftovers
+|
+|switch|p2a: Tough Rook|Ferrothorn, M|352/352
+|-damage|p2a: Tough Rook|264/352|[from] Spikes
+|turn|22
+|
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Heatran|Heatran, M|306/385
+|move|p2a: Tough Rook|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Kidogo|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|330/385|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Tough Rook|Bulldoze|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|102/385
+|-unboost|p1a: Heatran|spe|1
+|move|p1a: Heatran|Roar|p2a: Tough Rook
+|drag|p2a: Scout Pawn|Rotom-Wash, shiny|248/299
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scout Pawn|230/299|[from] sandstorm
+|-heal|p2a: Scout Pawn|248/299|[from] item: Leftovers
+|-heal|p1a: Heatran|126/385|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Scout Pawn|Volt Switch|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scout Pawn|230/299|[from] sandstorm
+|-heal|p2a: Scout Pawn|248/299|[from] item: Leftovers
+|-heal|p1a: Heatran|150/385|[from] item: Leftovers
+|turn|25
+|
+|switch|p1a: Celebi|Celebi|263/403
+|-damage|p1a: Celebi|213/403|[from] Stealth Rock
+|move|p2a: Scout Pawn|Volt Switch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|177/403
+|
+|switch|p2a: Tough Rook|Ferrothorn, M|264/352
+|-damage|p2a: Tough Rook|176/352|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|152/403|[from] sandstorm
+|-heal|p1a: Celebi|177/403|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|379/403
+|move|p2a: Tough Rook|Gyro Ball|p1a: Celebi
+|-damage|p1a: Celebi|139/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|114/403|[from] sandstorm
+|-heal|p1a: Celebi|139/403|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Heatran|Heatran, M|150/385
+|-damage|p1a: Heatran|102/385|[from] Stealth Rock
+|move|p2a: Tough Rook|Bulldoze|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Tyranitar|Tyranitar, M|341/341
+|-damage|p1a: Tyranitar|299/341|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Tyranitar|Superpower|p2a: Tough Rook
+|-supereffective|p2a: Tough Rook
+|-damage|p2a: Tough Rook|0 fnt
+|-damage|p1a: Tyranitar|257/341|[from] ability: Iron Barbs|[of] p2a: Tough Rook
+|-damage|p1a: Tyranitar|201/341|[from] item: Rocky Helmet|[of] p2a: Tough Rook
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Tough Rook
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Rain Priestess|Politoed, F|384/384
+|-damage|p2a: Rain Priestess|288/384|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Rain Priestess
+|turn|29
+|
+|move|p1a: Tyranitar|Superpower|p2a: Rain Priestess
+|-damage|p2a: Rain Priestess|208/384
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|move|p2a: Rain Priestess|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|132/341
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rain Priestess|232/384|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Tyranitar|Superpower|p2a: Rain Priestess
+|-damage|p2a: Rain Priestess|168/384
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|move|p2a: Rain Priestess|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rain Priestess|192/384|[from] item: Leftovers
+|-damage|p1a: Tyranitar|111/341 tox|[from] psn
+|turn|31
+|
+|move|p1a: Tyranitar|Superpower|p2a: Rain Priestess
+|-damage|p2a: Rain Priestess|140/384
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|move|p2a: Rain Priestess|Ice Beam|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rain Priestess|164/384|[from] item: Leftovers
+|
+|switch|p1a: Celebi|Celebi|139/403
+|-damage|p1a: Celebi|89/403|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Rain Priestess|Protect|p2a: Rain Priestess
+|-singleturn|p2a: Rain Priestess|Protect
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|291/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|316/403|[from] item: Leftovers
+|-heal|p2a: Rain Priestess|188/384|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Celebi|Psychic|p2a: Rain Priestess
+|-damage|p2a: Rain Priestess|79/384
+|move|p2a: Rain Priestess|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|341/403 tox|[from] item: Leftovers
+|-heal|p2a: Rain Priestess|103/384|[from] item: Leftovers
+|-damage|p1a: Celebi|316/403 tox|[from] psn
+|turn|34
+|
+|move|p2a: Rain Priestess|Protect|p2a: Rain Priestess
+|-singleturn|p2a: Rain Priestess|Protect
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|403/403 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rain Priestess|127/384|[from] item: Leftovers
+|-damage|p1a: Celebi|353/403 tox|[from] psn
+|turn|35
+|
+|move|p1a: Celebi|Giga Drain|p2a: Rain Priestess
+|-supereffective|p2a: Rain Priestess
+|-damage|p2a: Rain Priestess|0 fnt
+|-heal|p1a: Celebi|403/403 tox|[from] drain|[of] p2a: Rain Priestess
+|faint|p2a: Rain Priestess
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Celebi|328/403 tox|[from] psn
+|
+|switch|p2a: Storm King|Dragonite, M|323/323
+|turn|36
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|315/381
+|-damage|p1a: Landorus-Therian|268/381|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Storm King
+|-unboost|p2a: Storm King|atk|1
+|move|p2a: Storm King|Ice Beam|p1a: Landorus-Therian
+|-supereffective|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|0 fnt
+|faint|p1a: Landorus-Therian
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Celebi|Celebi|328/403
+|-damage|p1a: Celebi|278/403|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Storm King|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|122/403
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|324/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|349/403|[from] item: Leftovers
+|turn|38
+|
+|move|p1a: Celebi|Giga Drain|p2a: Storm King
+|-resisted|p2a: Storm King
+|-damage|p2a: Storm King|310/323
+|-heal|p1a: Celebi|356/403|[from] drain|[of] p2a: Storm King
+|move|p2a: Storm King|Hurricane|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|84/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Storm King|323/323|[from] item: Leftovers
+|-heal|p1a: Celebi|109/403|[from] item: Leftovers
+|turn|39
+|
+|move|p2a: Storm King|Hurricane|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|win|glasseseagle
+|raw|Ladder updating...
+|raw|Kidogo's rating: 1409 &rarr; <strong>1381</strong><br />(-28 for losing)
+|raw|glasseseagle's rating: 1263 &rarr; <strong>1298</strong><br />(+35 for winning)
+|leave|Kidogo
+|player|p1
+|leave|glasseseagle
+|player|p2

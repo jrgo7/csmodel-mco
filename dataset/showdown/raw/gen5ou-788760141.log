@@ -1,0 +1,578 @@
+|j|‽bluri
+|j|☆doughboy
+|player|p1|bluri|101
+|player|p2|doughboy|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Chansey, F|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Forretress, F|item
+|poke|p1|Gothitelle, M|item
+|poke|p1|Diglett, M|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Bronzong|item
+|poke|p2|Mienshao, F|item
+|teampreview
+|
+|start
+|switch|p1a: Forretress|Forretress, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ninetales
+|-immune|p1a: Ninetales|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|91/100
+|
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Mienshao|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|94/100
+|-enditem|p1a: Cresselia|Leftovers|[from] move: Knock Off|[of] p2a: Mienshao
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|switch|p1a: Forretress|Forretress, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Forretress|Spikes|p2a: Bronzong
+|-sidestart|p2: doughboy|Spikes
+|move|p2a: Bronzong|Hypnosis|p1a: Forretress
+|-status|p1a: Forretress|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|cant|p1a: Forretress|slp
+|move|p2a: Bronzong|Stealth Rock|p1a: Forretress
+|-sidestart|p1: bluri|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|cant|p1a: Forretress|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|76/100
+|-curestatus|p1a: Forretress|slp|[msg]
+|move|p1a: Forretress|Spikes|p2a: Gengar
+|-sidestart|p2: doughboy|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|82/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p2a: Gengar|Will-O-Wisp|p1a: Forretress|[miss]
+|-miss|p2a: Gengar|p1a: Forretress
+|move|p1a: Forretress|Spikes|p2a: Gengar
+|-sidestart|p2: doughboy|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|move|p2a: Gengar|Will-O-Wisp|p1a: Ninetales
+|-immune|p1a: Ninetales|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|94/100|[from] item: Black Sludge
+|-heal|p1a: Ninetales|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Gengar|Shadow Ball|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|99/100|[from] item: Black Sludge
+|-heal|p1a: Ninetales|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Ninetales
+|-damage|p1a: Ninetales|52/100
+|move|p1a: Ninetales|Flamethrower|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|100/100|[from] item: Black Sludge
+|-heal|p1a: Ninetales|58/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Ninetales
+|-damage|p1a: Ninetales|27/100
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Gengar
+|-status|p2a: Gengar|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|33/100|[from] item: Leftovers
+|-damage|p2a: Gengar|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-fail|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|39/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Chansey|Chansey, F|91/100
+|-damage|p1a: Chansey|79/100|[from] Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Chansey
+|-status|p1a: Chansey|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Chansey|67/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Rotom|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|58/100 brn
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Forretress
+|-sidestart|p1: bluri|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Gengar|Gengar, M|88/100 brn
+|move|p1a: Forretress|Rapid Spin|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|94/100 brn|[from] item: Black Sludge
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|-damage|p2a: Gengar|82/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|72/100
+|move|p1a: Forretress|Pain Split|p2a: Gengar
+|-sethp|p2a: Gengar|90/100 brn|p1a: Forretress|66/100|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|96/100 brn|[from] item: Black Sludge
+|-heal|p1a: Forretress|73/100|[from] item: Leftovers
+|-damage|p2a: Gengar|84/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Chansey|Chansey, F|88/100
+|-damage|p1a: Chansey|76/100|[from] Stealth Rock
+|-damage|p1a: Chansey|63/100|[from] Spikes
+|move|p2a: Gengar|Will-O-Wisp|p1a: Chansey|[miss]
+|-miss|p2a: Gengar|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|90/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|78/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Chansey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Diglett|Diglett, M|100/100
+|-damage|p1a: Diglett|94/100|[from] Stealth Rock
+|-damage|p1a: Diglett|82/100|[from] Spikes
+|move|p2a: Skarmory|Whirlwind|p1a: Diglett
+|drag|p1a: Gothitelle|Gothitelle, M|100/100
+|-damage|p1a: Gothitelle|88/100|[from] Spikes
+|-damage|p1a: Gothitelle|76/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Gothitelle|Taunt|p2a: Skarmory
+|-start|p2a: Skarmory|move: Taunt
+|move|p2a: Skarmory|Brave Bird|p1a: Gothitelle
+|-damage|p1a: Gothitelle|33/100
+|-damage|p2a: Skarmory|70/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Cresselia|Cresselia, F|94/100
+|-damage|p1a: Cresselia|81/100|[from] Stealth Rock
+|move|p2a: Skarmory|Brave Bird|p1a: Cresselia
+|-damage|p1a: Cresselia|66/100
+|-damage|p2a: Skarmory|69/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Cresselia|Ice Beam|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|95/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Forretress|Forretress, F|73/100
+|-damage|p1a: Forretress|60/100|[from] Spikes
+|-damage|p1a: Forretress|48/100|[from] Stealth Rock
+|move|p2a: Bronzong|Hypnosis|p1a: Forretress|[miss]
+|-miss|p2a: Bronzong|p1a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|54/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Gengar|Gengar, M|78/100 brn
+|move|p1a: Forretress|Rapid Spin|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|84/100 brn|[from] item: Black Sludge
+|-heal|p1a: Forretress|60/100|[from] item: Leftovers
+|-damage|p2a: Gengar|71/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Gengar|Will-O-Wisp|p1a: Forretress
+|-status|p1a: Forretress|brn
+|move|p1a: Forretress|Pain Split|p2a: Gengar
+|-sethp|p2a: Gengar|76/100 brn|p1a: Forretress|56/100 brn|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|82/100 brn|[from] item: Black Sludge
+|-heal|p1a: Forretress|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Gengar|70/100 brn|[from] brn
+|-damage|p1a: Forretress|50/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Chansey|Chansey, F|63/100
+|-damage|p1a: Chansey|51/100|[from] Spikes
+|-damage|p1a: Chansey|38/100|[from] Stealth Rock
+|move|p2a: Gengar|Focus Blast|p1a: Chansey|[miss]
+|-miss|p2a: Gengar|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|76/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|64/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Skarmory|Skarmory, M|75/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|81/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-activate|p1a: Chansey|move: Heal Bell
+|-curestatus|p1: Forretress|brn|[msg]
+|move|p2a: Skarmory|Whirlwind|p1a: Chansey
+|drag|p1a: Ninetales|Ninetales, F|45/100
+|-damage|p1a: Ninetales|20/100|[from] Stealth Rock
+|-damage|p1a: Ninetales|7/100|[from] Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|14/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|87/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Rotom|[miss]
+|-miss|p1a: Ninetales|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|20/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|26/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Chansey|Chansey, F|89/100
+|-damage|p1a: Chansey|76/100|[from] Spikes
+|-damage|p1a: Chansey|64/100|[from] Stealth Rock
+|turn|36
+|
+|switch|p1a: Diglett|Diglett, M|82/100
+|-damage|p1a: Diglett|69/100|[from] Spikes
+|-damage|p1a: Diglett|63/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Diglett
+|-immune|p1a: Diglett|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|37
+|
+|move|p1a: Diglett|Stealth Rock|p2a: Rotom
+|-sidestart|p2: doughboy|move: Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-damage|p1a: Diglett|0
+|faint|p1a: Diglett
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Chansey|Chansey, F|64/100
+|-damage|p1a: Chansey|51/100|[from] Spikes
+|-damage|p1a: Chansey|39/100|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: Rotom|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|30/100
+|
+|switch|p2a: Skarmory|Skarmory, M|87/100
+|-damage|p2a: Skarmory|75/100|[from] Stealth Rock
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|81/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Gothitelle|Gothitelle, M|33/100
+|-damage|p1a: Gothitelle|21/100|[from] Stealth Rock
+|-damage|p1a: Gothitelle|8/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Gothitelle
+|-sidestart|p1: bluri|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skarmory|87/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Gothitelle|Trick|p2a: Skarmory
+|-activate|p1a: Gothitelle|move: Trick|[of] p2a: Skarmory
+|-item|p2a: Skarmory|Choice Scarf|[from] move: Trick
+|-item|p1a: Gothitelle|Leftovers|[from] move: Trick
+|move|p2a: Skarmory|Brave Bird|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0
+|-damage|p2a: Skarmory|85/100|[from] Recoil
+|faint|p1a: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Cresselia|Cresselia, F|66/100
+|-damage|p1a: Cresselia|53/100|[from] Stealth Rock
+|turn|41
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Bronzong|Hypnosis|p1a: Cresselia
+|-status|p1a: Cresselia|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|43
+|
+|switch|p2a: Skarmory|Skarmory, M|85/100
+|-damage|p2a: Skarmory|73/100|[from] Stealth Rock
+|cant|p1a: Cresselia|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|44
+|
+|cant|p1a: Cresselia|slp
+|move|p2a: Skarmory|Whirlwind|p1a: Cresselia
+|drag|p1a: Forretress|Forretress, F|50/100
+|-damage|p1a: Forretress|38/100|[from] Stealth Rock
+|-damage|p1a: Forretress|21/100|[from] Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|27/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Gengar|Gengar, M|64/100 brn
+|-damage|p2a: Gengar|52/100 brn|[from] Stealth Rock
+|move|p1a: Forretress|Pain Split|p2a: Gengar
+|-sethp|p2a: Gengar|44/100 brn|p1a: Forretress|33/100|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|50/100 brn|[from] item: Black Sludge
+|-heal|p1a: Forretress|39/100|[from] item: Leftovers
+|-damage|p2a: Gengar|38/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p1a: Chansey|Chansey, F|80/100
+|-damage|p1a: Chansey|64/100|[from] Spikes
+|-damage|p1a: Chansey|51/100|[from] Stealth Rock
+|move|p2a: Gengar|Shadow Ball|p1a: Chansey
+|-immune|p1a: Chansey|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|44/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|32/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|switch|p2a: Skarmory|Skarmory, M|73/100
+|-damage|p2a: Skarmory|60/100|[from] Stealth Rock
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-activate|p1a: Chansey|move: Heal Bell
+|-curestatus|p1: Cresselia|slp|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|48
+|
+|move|p2a: Skarmory|Spikes|p1a: Chansey
+|-sidestart|p1: bluri|Spikes
+|move|p1a: Chansey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|49
+|
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|-damage|p2a: Mienshao|76/100|[from] Spikes
+|-damage|p2a: Mienshao|70/100|[from] Stealth Rock
+|switch|p1a: Cresselia|Cresselia, F|53/100
+|-damage|p1a: Cresselia|41/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|50
+|
+|move|p2a: Mienshao|U-turn|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|0
+|faint|p1a: Cresselia
+|-message|bluri forfeited.
+|
+|win|doughboy
+|l|‽bluri
+|raw|bluri's rating: 1448 &rarr; <strong>1424</strong><br />(-24 for losing)
+|raw|doughboy's rating: 1386 &rarr; <strong>1409</strong><br />(+23 for winning)

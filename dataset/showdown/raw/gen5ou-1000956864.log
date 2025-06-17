@@ -1,0 +1,252 @@
+|j|☆HaxerShouldAllDie
+|j|☆uncertainty of tmr
+|player|p1|HaxerShouldAllDie|249|1365
+|player|p2|uncertainty of tmr|50|1424
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Infernape, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Reuniclus, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Scizor, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HaxerShouldAllDie)
+|
+|start
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|1
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Infernape|Fake Out|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Gengar|Focus Blast|p1a: Infernape
+|-damage|p1a: Infernape|38/100
+|move|p1a: Infernape|Stealth Rock|p2a: Gengar
+|-sidestart|p2: uncertainty of tmr|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Gengar|Focus Blast|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|turn|4
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Skarmory|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: HaxerShouldAllDie|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Tyranitar|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100|[from] Sandstorm
+|-damage|p2a: Gengar|82/100|[from] Sandstorm
+|-heal|p1a: Breloom|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Breloom|Spore|p2a: Gengar
+|-status|p2a: Gengar|slp|[from] move: Spore
+|cant|p2a: Gengar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100|[from] Sandstorm
+|-damage|p2a: Gengar|76/100 slp|[from] Sandstorm
+|-heal|p1a: Breloom|94/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|switch|p2a: Toxicroak|Toxicroak, M|94/100
+|-damage|p2a: Toxicroak|88/100|[from] Stealth Rock
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|82/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Bronzong
+|-damage|p1a: Bronzong|51/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Bronzong
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|85/100|[from] Sandstorm
+|upkeep
+|turn|11
+|j| 2broke4this
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Bronzong|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Bronzong|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|27/100
+|move|p2a: Scizor|Bug Bite|p1a: Bronzong
+|-damage|p1a: Bronzong|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|94/100
+|-damage|p1a: Breloom|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Toxicroak|Toxicroak, M|85/100
+|-damage|p2a: Toxicroak|78/100|[from] Stealth Rock
+|move|p1a: Breloom|Mach Punch|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|82/100|[from] Sandstorm
+|-damage|p2a: Toxicroak|45/100|[from] Sandstorm
+|-heal|p1a: Breloom|88/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Ice Punch|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|70/100
+|-damage|p2a: Toxicroak|36/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|29/100|[from] Sandstorm
+|-damage|p1a: Jellicent|64/100|[from] Sandstorm
+|-heal|p1a: Jellicent|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|64/100|[from] Sandstorm
+|-damage|p2a: Toxicroak|23/100|[from] Sandstorm
+|-heal|p1a: Jellicent|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Drain Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Toxicroak|72/100|[from] drain|[of] p1a: Tyranitar
+|-damage|p2a: Toxicroak|62/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|56/100|[from] Sandstorm
+|upkeep
+|inactive|HaxerShouldAllDie has 120 seconds left.
+|
+|switch|p1a: Breloom|Breloom, M|88/100
+|-damage|p1a: Breloom|82/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|move|p2a: Toxicroak|Drain Punch|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-heal|p2a: Toxicroak|99/100|[from] drain|[of] p1a: Breloom
+|-damage|p2a: Toxicroak|89/100|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|83/100|[from] Sandstorm
+|upkeep
+|-message|HaxerShouldAllDie forfeited.
+|
+|win|uncertainty of tmr
+|l|☆HaxerShouldAllDie
+|c|☆uncertainty of tmr|?
+|raw|HaxerShouldAllDie's rating: 1365 &rarr; <strong>1349</strong><br />(-16 for losing)
+|raw|uncertainty of tmr's rating: 1424 &rarr; <strong>1440</strong><br />(+16 for winning)
+|l|☆uncertainty of tmr
+|l| 2broke4this
+|j|☆uncertainty of tmr
+|player|p2|uncertainty of tmr|50

@@ -1,0 +1,397 @@
+|j|☆LeoShakur
+|j|☆PStargazer
+|player|p1|LeoShakur|171
+|player|p2|PStargazer|#yellow
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Kyurem|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Starmie|item
+|poke|p2|Terrakion|item
+|poke|p2|Gengar, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Celebi|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Gengar|Gengar, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Politoed|Scald|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|88/100
+|-status|p2a: Celebi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|82/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Celebi|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: LeoShakur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|75/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Jirachi|U-turn|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|61/100
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Politoed
+|-damage|p1a: Politoed|23/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|cant|p1a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|29/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|35/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Hydreigon|81/100|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|76/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|move|p2a: Jirachi|Body Slam|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|12/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|62/100
+|-start|p2a: Jirachi|confusion
+|-activate|p2a: Jirachi|confusion
+|-damage|p2a: Jirachi|53/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|31/100
+|-activate|p2a: Jirachi|confusion
+|-damage|p2a: Jirachi|23/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|29/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|2/100
+|-activate|p2a: Jirachi|confusion
+|move|p2a: Jirachi|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|switch|p2a: Starmie|Starmie|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Starmie|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|80/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|79/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Starmie|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Starmie
+|-sidestart|p2: PStargazer|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|85/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Starmie|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Kyurem
+|-damage|p1a: Kyurem|54/100
+|-sideend|p2: PStargazer|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Kyurem|Draco Meteor|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|turn|18
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|76/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|-unboost|p1a: Kyurem|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|51/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|-unboost|p1a: Kyurem|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|26/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Gengar|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|36/100|p2a: Gengar|53/100|[from] move: Pain Split
+|move|p1a: Kyurem|Draco Meteor|p2a: Gengar|[miss]
+|-miss|p1a: Kyurem|p2a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|28/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Gengar
+|-crit|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-damage|p2a: Gengar|18/100|[from] item: Life Orb
+|faint|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Latios|Surf|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|81/100
+|turn|25
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|98/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Hydreigon|Fire Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|18/100
+|-enditem|p1a: Excadrill|Air Balloon
+|-damage|p2a: Hydreigon|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Hydreigon|62/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|76/100
+|-damage|p1a: Latios|64/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p2a: Jirachi|Jirachi|2/100
+|move|p1a: Latios|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|28
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|77/100
+|-damage|p1a: Ferrothorn|71/100|[from] Stealth Rock
+|move|p2a: Terrakion|Rock Polish|p2a: Terrakion
+|-boost|p2a: Terrakion|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Terrakion|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Terrakion|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|78/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|64/100
+|-damage|p1a: Latios|51/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Terrakion|Close Combat|p1a: Latios
+|-resisted|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|68/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|win|PStargazer
+|raw|LeoShakur's rating: 1362 &rarr; <strong>1340</strong><br />(-22 for losing)
+|raw|PStargazer's rating: 1338 &rarr; <strong>1359</strong><br />(+21 for winning)
+|l|☆LeoShakur

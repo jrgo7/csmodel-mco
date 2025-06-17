@@ -1,0 +1,120 @@
+|j|☆westburger
+|j|☆blackkaiser
+|player|p1|westburger|lucas|1346
+|player|p2|blackkaiser|102|1352
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Breloom, F|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Gastrodon, F|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Latios
+|-sidestart|p1: westburger|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Jellicent
+|-damage|p2a: Jellicent|43/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|85/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|79/100|[from] Sandstorm
+|-damage|p2a: Jellicent|37/100|[from] Sandstorm
+|-heal|p2a: Jellicent|43/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|94/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Politoed|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|westburger has 120 seconds left.
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Scizor
+|-sidestart|p1: westburger|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Scizor|Superpower|p2a: Hippowdon
+|-damage|p2a: Hippowdon|68/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|74/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|westburger forfeited.
+|
+|win|blackkaiser
+|l|☆westburger
+|raw|westburger's rating: 1346 &rarr; <strong>1326</strong><br />(-20 for losing)
+|raw|blackkaiser's rating: 1352 &rarr; <strong>1372</strong><br />(+20 for winning)

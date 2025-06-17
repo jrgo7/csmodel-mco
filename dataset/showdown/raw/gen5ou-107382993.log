@@ -1,0 +1,154 @@
+|join|basco
+|join|Pythagorean Python
+|player|p1|basco|170
+|player|p2|Pythagorean Python|10
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Tyranitar, M
+|poke|p1|Magnezone
+|poke|p1|Terrakion
+|poke|p1|Latios, M, shiny
+|poke|p1|Scizor, F, shiny
+|poke|p1|Landorus-Therian, M
+|poke|p2|Ninetales, F
+|poke|p2|Darmanitan, M
+|poke|p2|Victreebel, F
+|poke|p2|Shiftry, F
+|poke|p2|Forretress, M
+|poke|p2|Raikou, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Bron Bron|Landorus-Therian, M|382/382
+|switch|p2a: Raikou|Raikou, shiny|322/322
+|-ability|p2a: Raikou|Pressure
+|-ability|p1a: Bron Bron|Intimidate|[of] p2a: Raikou
+|-unboost|p2a: Raikou|atk|1
+|turn|1
+|
+|move|p2a: Raikou|Hidden Power|p1a: Bron Bron
+|-supereffective|p1a: Bron Bron
+|-damage|p1a: Bron Bron|0 fnt
+|-damage|p2a: Raikou|290/322|[from] item: Life Orb
+|faint|p1a: Bron Bron
+|
+|
+|switch|p1a: D.Wade|Terrakion|323/323
+|turn|2
+|
+|move|p1a: D.Wade|Close Combat|p2a: Raikou
+|-damage|p2a: Raikou|29/322
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|move|p2a: Raikou|Aura Sphere|p1a: D.Wade
+|-supereffective|p1a: D.Wade
+|-damage|p1a: D.Wade|0 fnt
+|-damage|p2a: Raikou|0 fnt|[from] item: Life Orb
+|faint|p1a: D.Wade
+|faint|p2a: Raikou
+|
+|
+|switch|p2a: Shiftry|Shiftry, F|321/321
+|switch|p1a: Pat Riely|Tyranitar, M|403/403
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Pat Riely
+|turn|3
+|
+|move|p2a: Shiftry|Low Kick|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|0 fnt
+|-damage|p2a: Shiftry|289/321|[from] item: Life Orb
+|faint|p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shiftry|269/321|[from] sandstorm
+|
+|switch|p1a: Miller|Scizor, F, shiny|343/343
+|turn|4
+|
+|switch|p2a: Ninetales|Ninetales, F|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Miller|Bullet Punch|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|168/288
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p1a: Bosh|Latios, M, shiny|301/301
+|move|p2a: Ninetales|Fire Blast|p1a: Bosh
+|-resisted|p1a: Bosh
+|-damage|p1a: Bosh|132/301
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p1a: Bosh|Psyshock|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Victreebel|Victreebel, F|302/302
+|turn|7
+|
+|switch|p1a: Miller|Scizor, F, shiny|343/343
+|move|p2a: Victreebel|Hidden Power|p1a: Miller
+|-resisted|p1a: Miller
+|-damage|p1a: Miller|279/343
+|-damage|p2a: Victreebel|272/302|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|move|p1a: Miller|Bullet Punch|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Darmanitan|Darmanitan, M|351/351
+|turn|9
+|
+|move|p1a: Miller|Bullet Punch|p2a: Darmanitan
+|-resisted|p2a: Darmanitan
+|-damage|p2a: Darmanitan|204/351
+|move|p2a: Darmanitan|Flare Blitz|p1a: Miller
+|-supereffective|p1a: Miller
+|-damage|p1a: Miller|0 fnt
+|-damage|p2a: Darmanitan|112/351|[from] recoil|[of] p1a: Miller
+|faint|p1a: Miller
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Bosh|Latios, M, shiny|132/301
+|turn|10
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Bosh
+|-resisted|p1a: Bosh
+|-damage|p1a: Bosh|0 fnt
+|-damage|p2a: Darmanitan|68/351|[from] recoil|[of] p1a: Bosh
+|faint|p1a: Bosh
+|
+|-weather|SunnyDay|[upkeep]
+|chat|basco|gg
+|-message|basco forfeited.
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|basco's rating: 1374 &rarr; <strong>1351</strong><br />(-23 for losing)
+|raw|Pythagorean Python's rating: 1322 &rarr; <strong>1345</strong><br />(+23 for winning)
+|leave|basco
+|player|p1
+|chat|Pythagorean Python|gg

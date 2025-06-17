@@ -1,0 +1,331 @@
+|j|☆Horror Gallery
+|j|☆Kiranoshinsei
+|player|p1|Horror Gallery|39
+|player|p2|Kiranoshinsei|143
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Gothitelle, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Quagsire, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Latios, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|switch|p2a: Wish Foundation|Jirachi|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Wish Foundation|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|90/100
+|
+|switch|p2a: Azure Edge|Latios, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Azure Edge
+|-damage|p2a: Azure Edge|38/100
+|
+|-heal|p1a: Excadrill|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Azure Edge|Surf|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: IN|Kyurem-Black|100/100
+|-ability|p2a: IN|Teravolt
+|switch|p1a: Chansey|Chansey, F|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: IN|Fusion Bolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|21/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Sandsatsu|Excadrill, M|100/100
+|-item|p2a: Sandsatsu|Air Balloon
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Wish Foundation|Jirachi|100/100
+|move|p1a: Quagsire|Scald|p2a: Wish Foundation
+|-damage|p2a: Wish Foundation|89/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Wish Foundation|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: Horror Gallery|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Wish Foundation|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|90/100
+|
+|switch|p2a: IN|Kyurem-Black|100/100
+|-ability|p2a: IN|Teravolt
+|move|p1a: Excadrill|Rapid Spin|p2a: IN
+|-damage|p2a: IN|95/100
+|-sideend|p1: Horror Gallery|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p1a: Excadrill|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: IN|Outrage|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: IN|Outrage|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|16/100
+|move|p1a: Excadrill|Toxic|p2a: IN
+|-status|p2a: IN|tox
+|
+|-heal|p1a: Excadrill|22/100|[from] item: Leftovers
+|-damage|p2a: IN|89/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: IN|Outrage|p1a: Excadrill|[from]lockedmove
+|-activate|p1a: Excadrill|move: Protect
+|-start|p2a: IN|confusion|[fatigue]
+|
+|-heal|p1a: Excadrill|29/100|[from] item: Leftovers
+|-damage|p2a: IN|77/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Wish Foundation|Jirachi|89/100
+|switch|p1a: Skarmory|Skarmory, M|21/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Excadrill|Excadrill, F, shiny|29/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Wish Foundation|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|18/100
+|
+|switch|p2a: Hikari|Dragonite, M|100/100
+|
+|-heal|p1a: Excadrill|24/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Wish Foundation|Jirachi|89/100
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Excadrill|Excadrill, F, shiny|24/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Wish Foundation|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: Horror Gallery|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|31/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Wish Foundation|Iron Head|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-heal|p1a: Excadrill|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Wish Foundation|Iron Head|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|20/100
+|cant|p1a: Excadrill|flinch
+|
+|-heal|p1a: Excadrill|26/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Wish Foundation|Iron Head|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-heal|p1a: Excadrill|33/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|-damage|p1a: Quagsire|94/100|[from] Stealth Rock
+|move|p2a: Wish Foundation|Iron Head|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|85/100
+|-damage|p2a: Wish Foundation|72/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Azure Edge|Latios, M|38/100
+|move|p1a: Quagsire|Toxic|p2a: Azure Edge
+|-status|p2a: Azure Edge|tox
+|
+|-damage|p2a: Azure Edge|32/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Skarmory|Skarmory, M|21/100
+|-damage|p1a: Skarmory|9/100|[from] Stealth Rock
+|move|p2a: Azure Edge|Psyshock|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-damage|p2a: Azure Edge|20/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|-damage|p1a: Gothitelle|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Gothitelle|Hidden Power|p2a: Azure Edge
+|-supereffective|p2a: Azure Edge
+|-damage|p2a: Azure Edge|0 fnt
+|faint|p2a: Azure Edge
+|
+|upkeep
+|
+|switch|p2a: IN|Kyurem-Black|77/100 tox
+|-ability|p2a: IN|Teravolt
+|turn|23
+|
+|move|p1a: Gothitelle|Hidden Power|p2a: IN
+|-damage|p2a: IN|58/100 tox
+|move|p2a: IN|Outrage|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-damage|p2a: IN|52/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Quagsire|Quagsire, M|85/100
+|-damage|p1a: Quagsire|79/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: IN|Outrage|p1a: Quagsire|[from]lockedmove
+|-damage|p1a: Quagsire|0 fnt
+|-damage|p2a: IN|35/100 tox|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|faint|p1a: Quagsire
+|
+|-damage|p2a: IN|23/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F, shiny|33/100
+|-damage|p1a: Excadrill|30/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|25
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: IN|Outrage|p1a: Excadrill|[from]lockedmove
+|-activate|p1a: Excadrill|move: Protect
+|-start|p2a: IN|confusion|[fatigue]
+|
+|-heal|p1a: Excadrill|36/100|[from] item: Leftovers
+|-damage|p2a: IN|4/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|-activate|p2a: IN|confusion
+|-damage|p2a: IN|0 fnt|[from] confusion
+|faint|p2a: IN
+|move|p1a: Excadrill|Rapid Spin|p2: IN|[notarget]
+|-notarget
+|
+|-heal|p1a: Excadrill|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Sandsatsu|Excadrill, M|100/100
+|-item|p2a: Sandsatsu|Air Balloon
+|turn|27
+|c|☆Kiranoshinsei|that worked out
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Sandsatsu|Swords Dance|p2a: Sandsatsu
+|-boost|p2a: Sandsatsu|atk|2
+|
+|-heal|p1a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p2a: Sandsatsu|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|upkeep
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Sandsatsu|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|4/100
+|move|p1a: Chansey|Seismic Toss|p2a: Sandsatsu
+|-damage|p2a: Sandsatsu|73/100
+|-enditem|p2a: Sandsatsu|Air Balloon
+|
+|upkeep
+|turn|30
+|-message|Horror Gallery forfeited.
+|
+|win|Kiranoshinsei
+|l|☆Horror Gallery
+|raw|Horror Gallery's rating: 1349 &rarr; <strong>1325</strong><br />(-24 for losing)
+|raw|Kiranoshinsei's rating: 1282 &rarr; <strong>1312</strong><br />(+30 for winning)

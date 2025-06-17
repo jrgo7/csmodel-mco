@@ -1,0 +1,200 @@
+|j|☆dr.jeckyl
+|j|☆BUMBACLAAT
+|player|p1|dr.jeckyl|170
+|player|p2|BUMBACLAAT|69
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Azumarill, F|item
+|poke|p1|Raikou|item
+|poke|p1|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Mew|item
+|poke|p2|Heracross, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Skarmory, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dr.jeckyl)
+|
+|start
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|1
+|
+|switch|p2a: NO TEETH|Landorus-Therian, M|100/100
+|-ability|p2a: NO TEETH|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|move|p1a: Raikou|Volt Switch|p2a: NO TEETH
+|-immune|p2a: NO TEETH
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: NO TEETH|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|80/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Tornadus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|87/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|
+|switch|p2a: HERCULES|Heracross, F, shiny|100/100
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: HERCULES|Close Combat|p1a: Politoed
+|-damage|p1a: Politoed|25/100
+|-unboost|p2a: HERCULES|def|1
+|-unboost|p2a: HERCULES|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|32/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: HERCULES|Close Combat|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|38/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Tornadus|Tornadus, M|80/100
+|move|p2a: HERCULES|Close Combat|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|9/100
+|-unboost|p2a: HERCULES|def|1
+|-unboost|p2a: HERCULES|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash|87/100
+|move|p1a: Tornadus|Focus Blast|p2a: Rotom
+|-damage|p2a: Rotom|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|36/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Tornadus|Focus Blast|p2a: Mew|[miss]
+|-miss|p1a: Tornadus|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|99/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Mew|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Mew|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Mew
+|-damage|p2a: Mew|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|87/100|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Mew|Night Shade|p1a: Latios
+|-damage|p1a: Latios|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Latios|Surf|p2a: Mew
+|-damage|p2a: Mew|46/100
+|-damage|p1a: Latios|57/100|[from] item: Life Orb
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|96/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Latios|Draco Meteor|p2a: Mew
+|-damage|p2a: Mew|36/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|47/100|[from] item: Life Orb
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|93/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Politoed|Politoed, F|38/100
+|move|p2a: Mew|Night Shade|p1a: Politoed
+|-damage|p1a: Politoed|12/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|99/100|[from] item: Leftovers
+|-heal|p1a: Politoed|18/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|-message|dr.jeckyl forfeited.
+|
+|win|BUMBACLAAT
+|l|☆dr.jeckyl
+|raw|dr.jeckyl's rating: 1324 &rarr; <strong>1309</strong><br />(-15 for losing)
+|raw|BUMBACLAAT's rating: 1396 &rarr; <strong>1412</strong><br />(+16 for winning)

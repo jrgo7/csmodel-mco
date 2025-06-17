@@ -1,0 +1,461 @@
+|j|☆TriKiwi
+|j|☆CTMF_Sparky13
+|player|p1|TriKiwi|197
+|player|p2|CTMF_Sparky13|161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Breloom, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Celebi|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Chandelure, M|item
+|poke|p2|Starmie|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F, shiny|100/100
+|switch|p2a: Nettori|Ferrothorn, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Nettori|Spikes|p1a: Breloom
+|-sidestart|p1: TriKiwi|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Nettori|Protect|p2a: Nettori
+|-singleturn|p2a: Nettori|Protect
+|move|p1a: Breloom|Low Sweep|p2a: Nettori
+|-activate|p2a: Nettori|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Sprite|Celebi|100/100
+|move|p1a: Breloom|Spore|p2a: Sprite
+|-status|p2a: Sprite|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-ability|p1a: Kyurem|Teravolt
+|switch|p2a: Thor|Thundurus-Therian, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Thor|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|74/100
+|
+|switch|p2a: Nettori|Ferrothorn, F|100/100
+|move|p1a: Kyurem|Freeze Shock|p2a: Nettori|[still]
+|-prepare|p1a: Kyurem|Freeze Shock|p2a: Nettori
+|-enditem|p1a: Kyurem|Power Herb
+|-anim|p1a: Kyurem|Freeze Shock|p2a: Nettori
+|-damage|p2a: Nettori|31/100
+|-status|p2a: Nettori|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Nettori|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|88/100|[from] Spikes
+|move|p2a: Nettori|Thunder Wave|p1a: Breloom
+|-status|p1a: Breloom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Nettori|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Sprite|Celebi|100/100
+|move|p1a: Breloom|Low Sweep|p2a: Sprite
+|-resisted|p2a: Sprite
+|-damage|p2a: Sprite|76/100
+|-unboost|p2a: Sprite|spe|1
+|-damage|p1a: Breloom|78/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sprite|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sprite|atk|1
+|move|p2a: Sprite|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|96/100
+|
+|switch|p2a: Thor|Thundurus-Therian, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|88/100|[from] Spikes
+|move|p2a: Thor|Hidden Power|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Keldeo|Surf|p2a: Thor
+|-damage|p2a: Thor|0 fnt
+|faint|p2a: Thor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Sprite|Celebi|82/100
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sprite|atk|1
+|move|p2a: Sprite|Recover|p2a: Sprite
+|-heal|p2a: Sprite|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Nettori|Ferrothorn, F|44/100 par
+|move|p1a: Landorus|Stealth Rock|p2a: Nettori
+|-sidestart|p2: CTMF_Sparky13|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Nettori|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Breloom|Breloom, M|78/100 par
+|-damage|p1a: Breloom|66/100 par|[from] Spikes
+|cant|p2a: Nettori|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Nettori|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Nettori|Protect|p2a: Nettori
+|-singleturn|p2a: Nettori|Protect
+|move|p1a: Breloom|Bullet Seed|p2a: Nettori
+|-activate|p2a: Nettori|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Nettori|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Sprite|Celebi|100/100
+|-damage|p2a: Sprite|88/100|[from] Stealth Rock
+|cant|p1a: Breloom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sprite|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Sprite|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|42/100 par
+|
+|switch|p2a: Nettori|Ferrothorn, F|63/100 par
+|-damage|p2a: Nettori|56/100 par|[from] Stealth Rock
+|move|p1a: Breloom|Low Sweep|p2a: Nettori
+|-supereffective|p2a: Nettori
+|-damage|p2a: Nettori|0 fnt
+|-damage|p1a: Breloom|30/100 par|[from] ability: Iron Barbs|[of] p2a: Nettori
+|-damage|p1a: Breloom|20/100 par|[from] item: Life Orb
+|faint|p2a: Nettori
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Red-X|Starmie|100/100
+|-damage|p2a: Red-X|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Breloom|Mach Punch|p2a: Red-X
+|-resisted|p2a: Red-X
+|-damage|p2a: Red-X|65/100
+|-damage|p1a: Breloom|10/100 par|[from] item: Life Orb
+|move|p2a: Red-X|Psyshock|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F, shiny|100/100
+|-damage|p1a: Politoed|88/100|[from] Spikes
+|turn|18
+|
+|move|p1a: Politoed|Scald|p2a: Red-X
+|-resisted|p2a: Red-X
+|-damage|p2a: Red-X|41/100
+|move|p2a: Red-X|Rapid Spin|p1a: Politoed
+|-damage|p1a: Politoed|84/100
+|-sideend|p2: CTMF_Sparky13|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Red-X
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|47/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Politoed|Scald|p2a: Red-X
+|-resisted|p2a: Red-X
+|-damage|p2a: Red-X|14/100
+|move|p2a: Red-X|Recover|p2a: Red-X
+|-heal|p2a: Red-X|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|70/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Politoed|Scald|p2a: Red-X
+|-resisted|p2a: Red-X
+|-damage|p2a: Red-X|36/100
+|move|p2a: Red-X|Recover|p2a: Red-X
+|-heal|p2a: Red-X|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|92/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Politoed|Scald|p2a: Red-X
+|-resisted|p2a: Red-X
+|-damage|p2a: Red-X|58/100
+|move|p2a: Red-X|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|64/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Politoed|Scald|p2a: Red-X
+|-resisted|p2a: Red-X
+|-damage|p2a: Red-X|32/100
+|move|p2a: Red-X|Recover|p2a: Red-X
+|-heal|p2a: Red-X|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|89/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Politoed|Scald|p2a: Red-X
+|-resisted|p2a: Red-X
+|-damage|p2a: Red-X|55/100
+|-status|p2a: Red-X|brn
+|move|p2a: Red-X|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|23/100
+|-status|p1a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|10/100 brn|[from] brn
+|-damage|p2a: Red-X|49/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Kyurem|Kyurem-Black|74/100
+|-damage|p1a: Kyurem|61/100|[from] Spikes
+|-ability|p1a: Kyurem|Teravolt
+|switch|p2a: Sprite|Celebi|94/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sprite|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|36/100
+|move|p2a: Sprite|Perish Song|p2a: Sprite
+|-start|p1a: Kyurem|perish3|[silent]
+|-start|p2a: Sprite|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Kyurem|perish3
+|-start|p2a: Sprite|perish3
+|upkeep
+|turn|26
+|
+|move|p1a: Kyurem|Outrage|p2a: Sprite
+|-damage|p2a: Sprite|29/100
+|move|p2a: Sprite|Recover|p2a: Sprite
+|-heal|p2a: Sprite|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sprite|85/100|[from] item: Leftovers
+|-start|p1a: Kyurem|perish2
+|-start|p2a: Sprite|perish2
+|upkeep
+|turn|27
+|
+|move|p1a: Kyurem|Outrage|p2a: Sprite|[from]lockedmove
+|-crit|p2a: Sprite
+|-damage|p2a: Sprite|0 fnt
+|-start|p1a: Kyurem|confusion|[fatigue]
+|faint|p2a: Sprite
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Kyurem|perish1
+|upkeep
+|
+|switch|p2a: Red-X|Starmie|49/100
+|turn|28
+|
+|move|p2a: Red-X|Recover|p2a: Red-X
+|-heal|p2a: Red-X|99/100
+|-activate|p1a: Kyurem|confusion
+|-damage|p1a: Kyurem|19/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|100/100|[from] item: Leftovers
+|-start|p1a: Kyurem|perish0
+|upkeep
+|faint|p1a: Kyurem
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|73/100
+|-damage|p1a: Keldeo|61/100|[from] Spikes
+|turn|29
+|
+|move|p1a: Keldeo|Hidden Power|p2a: Red-X
+|-supereffective|p2a: Red-X
+|-damage|p2a: Red-X|37/100
+|move|p2a: Red-X|Psyshock|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|turn|30
+|
+|move|p2a: Red-X|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Red-X|49/100|[from] item: Leftovers
+|upkeep
+|c|☆TriKiwi|hydro too inaccurate?
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Red-X|atk|1
+|turn|31
+|
+|move|p2a: Red-X|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|11/100
+|move|p1a: Landorus|Earthquake|p2a: Red-X
+|-damage|p2a: Red-X|0 fnt
+|faint|p2a: Red-X
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Lumiere|Chandelure, M|100/100
+|turn|32
+|
+|move|p2a: Lumiere|Energy Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F, shiny|10/100 brn
+|-damage|p1a: Politoed|0 fnt|[from] Spikes
+|faint|p1a: Politoed
+|
+|win|CTMF_Sparky13
+|raw|TriKiwi's rating: 1455 &rarr; <strong>1426</strong><br />(-29 for losing)
+|raw|CTMF_Sparky13's rating: 1281 &rarr; <strong>1318</strong><br />(+37 for winning)
+|c|☆CTMF_Sparky13|with my luck, yes. anything under 100 acc is a 0 lol
+|c|☆TriKiwi|yeah, I can't use keldeo in gen 7
+|c|☆TriKiwi|because 80% is garbage
+|c|☆CTMF_Sparky13|Haven't played past gen 5 tbh
+|c|☆TriKiwi|I barely have
+|c|☆CTMF_Sparky13|3-5 seems to be my prime area sort of
+|c|☆TriKiwi|had a rain team in gen 5
+|c|☆TriKiwi|get a bunch over 1500
+|c|☆CTMF_Sparky13|ah. yeah I'm just trying out the comp scene finally years late
+|c|☆TriKiwi|get shit on by sand offense dominating the top of the ladder
+|c|☆TriKiwi|so now I'm trying to use sand rush excadrill
+|c|☆CTMF_Sparky13|Ah. Wasn't he banned at one point?
+|c|☆TriKiwi|yeah, but I think reinstated w/o tyranitar or hippowdon
+|c|☆CTMF_Sparky13|Makes sense
+|c|☆TriKiwi|so a good sand counter, if you can weaken lando/gliscor
+|c|☆CTMF_Sparky13|Right. HP Ice says hi
+|c|☆CTMF_Sparky13|Or Starmie/Latis
+|c|☆TriKiwi|I've had choice poli/keldeo forever, so it's tough to decide
+|c|☆TriKiwi|https://www.smogon.com/forums/threads/imposing-rain-2448-glicko2.3489162/
+|c|☆CTMF_Sparky13|Yeah I can see your Toed seems to be scarf'd
+|c|☆TriKiwi|not comfotable with this team yet, but I am sure excadrill can counter sand
+|c|☆TriKiwi|and get to #1
+|c|☆CTMF_Sparky13|probably cause sand rush will speed him up
+|c|☆CTMF_Sparky13|and then it will just tear through everything
+|c|☆TriKiwi|yeah, swords dance with sand is the best speed/power combo in the metagame
+|c|☆CTMF_Sparky13|Do you have SD then too?
+|c|☆TriKiwi|need to figure when it's safe to do so
+|c|☆TriKiwi|it's great as sand teams typically don't have mach punch
+|c|☆CTMF_Sparky13|Yeah that's something I need to work on is my switch timing
+|c|☆TriKiwi|bullet punch won't KO excadrill
+|c|☆CTMF_Sparky13|Right. Sand teams don't usually have too much priority at all from what I've seen
+|c|☆TriKiwi|I know on stall, stoutland is pretty good
+|c|☆TriKiwi|for offense I think the corollary is exca
+|c|☆CTMF_Sparky13|Really? Wouldn't have expected that from Stoutland. The game is full of surprises
+|c|☆CTMF_Sparky13|Well I need to get some more practice in. GG. Probably see you around on here more
+|l|☆CTMF_Sparky13

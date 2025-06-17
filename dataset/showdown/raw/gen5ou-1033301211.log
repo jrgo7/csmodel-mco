@@ -1,0 +1,380 @@
+|j|☆CalamityGreed
+|j|☆Frexa ✘
+|player|p1|CalamityGreed|acerola|1357
+|player|p2|Frexa ✘|101|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Starmie|item
+|poke|p1|Jirachi|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Breloom, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Starmie|item
+|poke|p2|Volcarona, M|item
+|teampreview
+|
+|start
+|switch|p1a: Night Bird Flying|Tornadus, M|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|1
+|
+|move|p1a: Night Bird Flying|Hurricane|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-enditem|p2a: Breloom|Focus Sash
+|-damage|p2a: Breloom|1/100
+|move|p2a: Breloom|Low Sweep|p1a: Night Bird Flying
+|-resisted|p1a: Night Bird Flying
+|-damage|p1a: Night Bird Flying|64/100
+|-unboost|p1a: Night Bird Flying|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Breloom|Spore|p1a: Night Bird Flying
+|-status|p1a: Night Bird Flying|slp|[from] move: Spore
+|cant|p1a: Night Bird Flying|slp
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Aerosmith|Latios, M, shiny|100/100
+|move|p2a: Breloom|Bullet Seed|p1a: Aerosmith
+|-resisted|p1a: Aerosmith
+|-damage|p1a: Aerosmith|85/100
+|-resisted|p1a: Aerosmith
+|-damage|p1a: Aerosmith|70/100
+|-resisted|p1a: Aerosmith
+|-damage|p1a: Aerosmith|56/100
+|-hitcount|p1a: Aerosmith|3
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Aerosmith|Surf|p2a: Scizor
+|-damage|p2a: Scizor|42/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Aerosmith|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|62/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Chariot Requiem|Jirachi|100/100
+|move|p2a: Starmie|Ice Beam|p1a: Chariot Requiem
+|-resisted|p1a: Chariot Requiem
+|-damage|p1a: Chariot Requiem|85/100
+|
+|-heal|p1a: Chariot Requiem|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Chariot Requiem|Substitute|p1a: Chariot Requiem
+|-start|p1a: Chariot Requiem|Substitute
+|-damage|p1a: Chariot Requiem|67/100
+|
+|-heal|p1a: Chariot Requiem|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Garchomp|Earthquake|p1a: Chariot Requiem
+|-supereffective|p1a: Chariot Requiem
+|-end|p1a: Chariot Requiem|Substitute
+|move|p1a: Chariot Requiem|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|58/100
+|
+|-heal|p1a: Chariot Requiem|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Aerosmith|Latios, M, shiny|56/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Aerosmith
+|-sidestart|p1: CalamityGreed|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Scizor|Scizor, M|42/100
+|move|p1a: Aerosmith|Draco Meteor|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Aerosmith|spa|2
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|switch|p1a: Moody Blues|Politoed, M, shiny|100/100
+|-damage|p1a: Moody Blues|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Moody Blues
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Chariot Requiem|Jirachi|79/100
+|-damage|p1a: Chariot Requiem|73/100|[from] Stealth Rock
+|move|p2a: Dragonite|Outrage|p1a: Chariot Requiem
+|-resisted|p1a: Chariot Requiem
+|-damage|p1a: Chariot Requiem|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chariot Requiem|33/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Dragonite|Outrage|p1a: Chariot Requiem|[from]lockedmove
+|-resisted|p1a: Chariot Requiem
+|-damage|p1a: Chariot Requiem|0 fnt
+|-start|p2a: Dragonite|confusion|[fatigue]
+|faint|p1a: Chariot Requiem
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-end|p2a: Dragonite|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Metallica|Excadrill, F|100/100
+|-damage|p1a: Metallica|97/100|[from] Stealth Rock
+|-ability|p1a: Metallica|Mold Breaker
+|turn|14
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Metallica
+|-supereffective|p1a: Metallica
+|-damage|p1a: Metallica|43/100
+|move|p1a: Metallica|Rapid Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|93/100
+|-sideend|p1: CalamityGreed|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Metallica
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Metallica|49/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Metallica|Protect|p1a: Metallica
+|-singleturn|p1a: Metallica|Protect
+|move|p2a: Dragonite|Fire Punch|p1a: Metallica
+|-activate|p1a: Metallica|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Metallica|55/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Metallica|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: Frexa ✘|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Metallica|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Mr.President|Starmie|100/100
+|move|p2a: Dragonite|Fire Punch|p1a: Mr.President
+|-resisted|p1a: Mr.President
+|-damage|p1a: Mr.President|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p1a: Metallica|Excadrill, F|62/100
+|-ability|p1a: Metallica|Mold Breaker
+|move|p2a: Dragonite|Outrage|p1a: Metallica
+|-resisted|p1a: Metallica
+|-damage|p1a: Metallica|0 fnt
+|faint|p1a: Metallica
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Aerosmith|Latios, M, shiny|56/100
+|turn|19
+|
+|move|p2a: Dragonite|Outrage|p1a: Aerosmith|[from]lockedmove
+|-supereffective|p1a: Aerosmith
+|-damage|p1a: Aerosmith|0 fnt
+|-start|p2a: Dragonite|confusion|[fatigue]
+|faint|p1a: Aerosmith
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Moody Blues|Politoed, M, shiny|88/100
+|turn|20
+|
+|-activate|p2a: Dragonite|confusion
+|-damage|p2a: Dragonite|57/100|[from] confusion
+|move|p1a: Moody Blues|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|62/100
+|-damage|p2a: Starmie|49/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Moody Blues
+|-damage|p1a: Moody Blues|84/100
+|-sideend|p2: Frexa ✘|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Moody Blues|Hypnosis|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Hypnosis
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Moody Blues|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|29/100 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|-curestatus|p2a: Starmie|slp|[msg]
+|move|p2a: Starmie|Thunder|p1a: Moody Blues
+|-supereffective|p1a: Moody Blues
+|-damage|p1a: Moody Blues|5/100
+|move|p1a: Moody Blues|Hydro Pump|p2a: Starmie|[miss]
+|-miss|p1a: Moody Blues|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|-enditem|p1a: Moody Blues|Custap Berry|[eat]
+|-activate|p1a: Moody Blues|item: Custap Berry|[consumed]
+|
+|move|p1a: Moody Blues|Hydro Pump|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆CalamityGreed|gg
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CalamityGreed)
+|inactive|Frexa ✘ has 120 seconds left.
+|inactive|Frexa ✘ has 90 seconds left.
+|
+|switch|p2a: Garchomp|Garchomp, F|58/100
+|turn|25
+|
+|move|p2a: Garchomp|Earthquake|p1a: Moody Blues
+|-damage|p1a: Moody Blues|0 fnt
+|faint|p1a: Moody Blues
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mr.President|Starmie|78/100
+|turn|26
+|
+|move|p1a: Mr.President|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Yache Berry|[eat]
+|-enditem|p2a: Garchomp|Yache Berry|[weaken]
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Mr.President|68/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|27
+|
+|move|p1a: Mr.President|Hydro Pump|p2a: Volcarona|[miss]
+|-miss|p1a: Mr.President|p2a: Volcarona
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|c|☆Frexa ✘|yeah
+|c|☆Frexa ✘|gg.
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Mr.President
+|-supereffective|p1a: Mr.President
+|-crit|p1a: Mr.President
+|-damage|p1a: Mr.President|0 fnt
+|faint|p1a: Mr.President
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Night Bird Flying|Tornadus, M|64/100 slp
+|turn|29
+|c|☆Frexa ✘|noob
+|
+|cant|p1a: Night Bird Flying|slp
+|move|p1a: Night Bird Flying|Sleep Talk|p1a: Night Bird Flying
+|move|p1a: Night Bird Flying|Hurricane|p2a: Volcarona|[from]Sleep Talk
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Frexa ✘|lolololo
+|c|☆Frexa ✘|what a hax
+|c|☆CalamityGreed|yeah\
+|
+|switch|p2a: Breloom|Breloom, M|1/100
+|turn|30
+|c|☆CalamityGreed|noob
+|
+|cant|p1a: Night Bird Flying|slp
+|move|p1a: Night Bird Flying|Sleep Talk|p1a: Night Bird Flying
+|move|p1a: Night Bird Flying|U-turn|p2a: Breloom|[from]Sleep Talk
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|win|CalamityGreed
+|l|☆Frexa ✘
+|raw|CalamityGreed's rating: 1387 &rarr; <strong>1413</strong><br />(+26 for winning)
+|raw|Frexa ✘'s rating: 1496 &rarr; <strong>1470</strong><br />(-26 for losing)
+|l|☆CalamityGreed
+|j|☆CalamityGreed
+|player|p1|CalamityGreed|acerola

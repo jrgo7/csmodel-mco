@@ -1,0 +1,589 @@
+|j|Vrille ☭
+|j|Kwiick
+|player|p1|Vrille ☭|30
+|player|p2|Kwiick|25
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Abomasnow, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Starmie|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Gyarados, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: LEON-PONY UP2|Gliscor, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: LEON-PONY UP2|atk|1
+|turn|1
+|choice||
+|
+|move|p2a: Landorus|U-turn|p1a: LEON-PONY UP2
+|-resisted|p1a: LEON-PONY UP2
+|-damage|p1a: LEON-PONY UP2|91/100
+|choice||
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: LEON-PONY UP2|Taunt|p2a: Politoed
+|-start|p2a: Politoed|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: LEON-PONY UP2|tox|[from] item: Toxic Orb
+|turn|2
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: LEON-PONY UP2|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Kwiick|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: LEON-PONY UP2|100/100 tox|[from] ability: Poison Heal
+|turn|3
+|choice||
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: LEON-PONY UP2|Taunt|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|turn|4
+|choice||
+|
+|move|p1a: LEON-PONY UP2|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|59/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: LEON-PONY UP2
+|-damage|p1a: LEON-PONY UP2|99/100 tox
+|-sideend|p2: Kwiick|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|65/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|72/100|[from] item: Black Sludge
+|-heal|p1a: LEON-PONY UP2|100/100 tox|[from] ability: Poison Heal
+|turn|5
+|choice||
+|
+|switch|p1a: LEON-PONY UP5|Starmie|100/100
+|move|p2a: Tentacruel|Scald|p1a: LEON-PONY UP5
+|-resisted|p1a: LEON-PONY UP5
+|-damage|p1a: LEON-PONY UP5|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|78/100|[from] ability: Rain Dish
+|-heal|p1a: LEON-PONY UP5|90/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|84/100|[from] item: Black Sludge
+|-end|p2a: Tentacruel|move: Taunt
+|turn|6
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: LEON-PONY UP5|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: LEON-PONY UP5|96/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|78/100 brn|[from] brn
+|turn|7
+|choice||
+|
+|switch|p1a: LEON-PONY UP2|Gliscor, M|100/100 tox
+|move|p2a: Ferrothorn|Stealth Rock|p1a: LEON-PONY UP2
+|-sidestart|p1: Vrille ☭|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|84/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|72/100 brn|[from] brn
+|turn|8
+|choice||
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: LEON-PONY UP2|Stealth Rock|p2a: Thundurus
+|-sidestart|p2: Kwiick|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|choice||
+|
+|switch|p1a: LEON-PONY UP6|Jirachi|100/100
+|-damage|p1a: LEON-PONY UP6|94/100|[from] Stealth Rock
+|move|p2a: Thundurus|Focus Blast|p1a: LEON-PONY UP6
+|-damage|p1a: LEON-PONY UP6|55/100
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|choice||
+|
+|move|p1a: LEON-PONY UP6|U-turn|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|82/100
+|choice||
+|
+|switch|p1a: LEON-PONY UP2|Gliscor, M|100/100 tox
+|-damage|p1a: LEON-PONY UP2|88/100 tox|[from] Stealth Rock
+|move|p2a: Thundurus|U-turn|p1a: LEON-PONY UP2
+|-resisted|p1a: LEON-PONY UP2
+|-damage|p1a: LEON-PONY UP2|81/100 tox
+|choice||
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: LEON-PONY UP2|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP2|94/100 tox|[from] ability: Poison Heal
+|turn|11
+|choice||
+|
+|switch|p1a: LEON-PONY UP5|Starmie|96/100
+|-damage|p1a: LEON-PONY UP5|84/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP5|90/100|[from] item: Leftovers
+|turn|12
+|choice||
+|
+|move|p2a: Gyarados|Waterfall|p1a: LEON-PONY UP5
+|-resisted|p1a: LEON-PONY UP5
+|-damage|p1a: LEON-PONY UP5|37/100
+|move|p1a: LEON-PONY UP5|Rapid Spin|p2a: Gyarados
+|-damage|p2a: Gyarados|84/100
+|-sideend|p1: Vrille ☭|Stealth Rock|[from] move: Rapid Spin|[of] p1a: LEON-PONY UP5
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|91/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP5|44/100|[from] item: Leftovers
+|turn|13
+|choice||
+|
+|switch|p1a: LEON-PONY UP|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: LEON-PONY UP
+|move|p2a: Gyarados|Waterfall|p1a: LEON-PONY UP
+|-resisted|p1a: LEON-PONY UP
+|-damage|p1a: LEON-PONY UP|67/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|84/100|[from] hail
+|-heal|p2a: Gyarados|91/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP|74/100|[from] item: Leftovers
+|turn|14
+|choice||
+|
+|move|p2a: Gyarados|Bounce|p1a: LEON-PONY UP|[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: LEON-PONY UP
+|move|p1a: LEON-PONY UP|Wood Hammer|p2a: Gyarados|[miss]
+|-miss|p1a: LEON-PONY UP|p2a: Gyarados
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|84/100|[from] hail
+|-heal|p2a: Gyarados|91/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP|80/100|[from] item: Leftovers
+|turn|15
+|choice||
+|
+|move|p1a: LEON-PONY UP|Protect|p1a: LEON-PONY UP
+|-singleturn|p1a: LEON-PONY UP|Protect
+|move|p2a: Gyarados|Bounce|p1a: LEON-PONY UP|[from]lockedmove
+|-activate|p1a: LEON-PONY UP|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|84/100|[from] hail
+|-heal|p2a: Gyarados|91/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP|86/100|[from] item: Leftovers
+|turn|16
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|72/100 brn
+|-damage|p2a: Ferrothorn|65/100 brn|[from] Stealth Rock
+|move|p1a: LEON-PONY UP|Wood Hammer|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100 brn
+|-damage|p1a: LEON-PONY UP|74/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: LEON-PONY UP|71/100|[from] recoil|[of] p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|51/100 brn|[from] hail
+|-heal|p1a: LEON-PONY UP|77/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|45/100 brn|[from] brn
+|turn|17
+|choice||
+|
+|switch|p1a: LEON-PONY UP5|Starmie|44/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: LEON-PONY UP5
+|-sidestart|p1: Vrille ☭|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LEON-PONY UP5|37/100|[from] hail
+|-damage|p2a: Ferrothorn|39/100 brn|[from] hail
+|-heal|p1a: LEON-PONY UP5|44/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|33/100 brn|[from] brn
+|turn|18
+|choice||
+|
+|move|p1a: LEON-PONY UP5|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|31/100 brn
+|-damage|p1a: LEON-PONY UP5|31/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Vrille ☭|Stealth Rock|[from] move: Rapid Spin|[of] p1a: LEON-PONY UP5
+|move|p2a: Ferrothorn|Leech Seed|p1a: LEON-PONY UP5
+|-start|p1a: LEON-PONY UP5|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LEON-PONY UP5|25/100|[from] hail
+|-damage|p2a: Ferrothorn|25/100 brn|[from] hail
+|-heal|p1a: LEON-PONY UP5|31/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|31/100 brn|[from] item: Leftovers
+|-damage|p1a: LEON-PONY UP5|19/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|43/100 brn|[silent]
+|-damage|p2a: Ferrothorn|30/100 brn|[from] brn
+|turn|19
+|choice||
+|
+|move|p1a: LEON-PONY UP5|Recover|p1a: LEON-PONY UP5
+|-heal|p1a: LEON-PONY UP5|69/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: LEON-PONY UP5
+|-sidestart|p1: Vrille ☭|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LEON-PONY UP5|63/100|[from] hail
+|-damage|p2a: Ferrothorn|24/100 brn|[from] hail
+|-heal|p1a: LEON-PONY UP5|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|30/100 brn|[from] item: Leftovers
+|-damage|p1a: LEON-PONY UP5|57/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|42/100 brn|[silent]
+|-damage|p2a: Ferrothorn|29/100 brn|[from] brn
+|turn|20
+|choice||
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: LEON-PONY UP5|Rapid Spin|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LEON-PONY UP5|50/100|[from] hail
+|-damage|p2a: Ferrothorn|23/100 brn|[from] hail
+|-heal|p1a: LEON-PONY UP5|57/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|29/100 brn|[from] item: Leftovers
+|-damage|p1a: LEON-PONY UP5|44/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|41/100 brn|[silent]
+|-damage|p2a: Ferrothorn|28/100 brn|[from] brn
+|turn|21
+|choice||
+|
+|move|p1a: LEON-PONY UP5|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|27/100 brn
+|-damage|p1a: LEON-PONY UP5|32/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-end|p1a: LEON-PONY UP5|Leech Seed|[from] move: Rapid Spin|[of] p1a: LEON-PONY UP5
+|-sideend|p1: Vrille ☭|Stealth Rock|[from] move: Rapid Spin|[of] p1a: LEON-PONY UP5
+|move|p2a: Ferrothorn|Gyro Ball|p1a: LEON-PONY UP5
+|-resisted|p1a: LEON-PONY UP5
+|-damage|p1a: LEON-PONY UP5|17/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LEON-PONY UP5|11/100|[from] hail
+|-damage|p2a: Ferrothorn|21/100 brn|[from] hail
+|-heal|p1a: LEON-PONY UP5|17/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|27/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|15/100 brn|[from] brn
+|turn|22
+|choice||
+|
+|move|p1a: LEON-PONY UP5|Recover|p1a: LEON-PONY UP5
+|-heal|p1a: LEON-PONY UP5|67/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: LEON-PONY UP5
+|-sidestart|p1: Vrille ☭|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LEON-PONY UP5|61/100|[from] hail
+|-damage|p2a: Ferrothorn|8/100 brn|[from] hail
+|-heal|p1a: LEON-PONY UP5|67/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|15/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|2/100 brn|[from] brn
+|turn|23
+|choice||
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: LEON-PONY UP5|Rapid Spin|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LEON-PONY UP5|61/100|[from] hail
+|-damage|p2a: Ferrothorn|0 fnt|[from] hail
+|-heal|p1a: LEON-PONY UP5|67/100|[from] item: Leftovers
+|faint|p2a: Ferrothorn
+|choice||
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|82/100
+|-damage|p2a: Thundurus|57/100|[from] Stealth Rock
+|turn|24
+|choice||
+|
+|switch|p1a: LEON-PONY UP2|Gliscor, M|94/100 tox
+|-damage|p1a: LEON-PONY UP2|81/100 tox|[from] Stealth Rock
+|move|p2a: Thundurus|U-turn|p1a: LEON-PONY UP2
+|-resisted|p1a: LEON-PONY UP2
+|-damage|p1a: LEON-PONY UP2|76/100 tox
+|choice||
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: LEON-PONY UP2|88/100 tox|[from] ability: Poison Heal
+|turn|25
+|choice||
+|
+|switch|p1a: LEON-PONY UP5|Starmie|67/100
+|-damage|p1a: LEON-PONY UP5|55/100|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: LEON-PONY UP5
+|-resisted|p1a: LEON-PONY UP5
+|-damage|p1a: LEON-PONY UP5|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: LEON-PONY UP5|37/100|[from] item: Leftovers
+|turn|26
+|choice||
+|
+|move|p1a: LEON-PONY UP5|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|85/100
+|-sideend|p1: Vrille ☭|Stealth Rock|[from] move: Rapid Spin|[of] p1a: LEON-PONY UP5
+|move|p2a: Politoed|Hidden Power|p1a: LEON-PONY UP5
+|-supereffective|p1a: LEON-PONY UP5
+|-damage|p1a: LEON-PONY UP5|0 fnt
+|faint|p1a: LEON-PONY UP5
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: LEON-PONY UP|Abomasnow, F|77/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: LEON-PONY UP
+|turn|27
+|choice||
+|
+|switch|p2a: Tentacruel|Tentacruel, M|84/100
+|-damage|p2a: Tentacruel|72/100|[from] Stealth Rock
+|move|p1a: LEON-PONY UP|Wood Hammer|p2a: Tentacruel
+|-damage|p2a: Tentacruel|15/100
+|-damage|p1a: LEON-PONY UP|60/100|[from] recoil|[of] p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|9/100|[from] hail
+|-heal|p2a: Tentacruel|15/100|[from] item: Black Sludge
+|-heal|p1a: LEON-PONY UP|66/100|[from] item: Leftovers
+|turn|28
+|choice||
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: LEON-PONY UP
+|-damage|p1a: LEON-PONY UP|63/100
+|-sideend|p2: Kwiick|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: LEON-PONY UP|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: LEON-PONY UP|69/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Politoed|Politoed, F|85/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|29
+|choice||
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: LEON-PONY UP|atk|1
+|switch|p1a: LEON-PONY UP3|Keldeo-Resolute|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|30
+|choice||
+|
+|move|p2a: Landorus|Earthquake|p1a: LEON-PONY UP3
+|-damage|p1a: LEON-PONY UP3|31/100
+|move|p1a: LEON-PONY UP3|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Gyarados|Gyarados, M|91/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: LEON-PONY UP3|atk|1
+|turn|31
+|choice||
+|
+|switch|p1a: LEON-PONY UP|Abomasnow, F|69/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: LEON-PONY UP
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|66/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|59/100|[from] hail
+|-heal|p2a: Gyarados|66/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP|75/100|[from] item: Leftovers
+|turn|32
+|choice||
+|
+|move|p2a: Gyarados|Waterfall|p1a: LEON-PONY UP
+|-resisted|p1a: LEON-PONY UP
+|-damage|p1a: LEON-PONY UP|52/100
+|move|p1a: LEON-PONY UP|Wood Hammer|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|-damage|p1a: LEON-PONY UP|44/100|[from] recoil|[of] p2a: Gyarados
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|59/100|[from] hail
+|-heal|p2a: Gyarados|66/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP|50/100|[from] item: Leftovers
+|turn|33
+|choice||
+|
+|switch|p2a: Politoed|Politoed, F|85/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: LEON-PONY UP|Wood Hammer|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: LEON-PONY UP|22/100|[from] recoil|[of] p2a: Politoed
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: LEON-PONY UP|28/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Gyarados|Gyarados, M|66/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: LEON-PONY UP|atk|1
+|turn|34
+|choice||
+|
+|switch|p1a: LEON-PONY UP3|Keldeo-Resolute|31/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|72/100|[from] item: Leftovers
+|turn|35
+|choice||
+|
+|move|p2a: Gyarados|Waterfall|p1a: LEON-PONY UP3
+|-resisted|p1a: LEON-PONY UP3
+|-damage|p1a: LEON-PONY UP3|0 fnt
+|faint|p1a: LEON-PONY UP3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|78/100|[from] item: Leftovers
+|choice||
+|
+|switch|p1a: LEON-PONY UP|Abomasnow, F|28/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: LEON-PONY UP
+|turn|36
+|choice||
+|
+|switch|p1a: LEON-PONY UP2|Gliscor, M|88/100 tox
+|move|p2a: Gyarados|Waterfall|p1a: LEON-PONY UP2
+|-supereffective|p1a: LEON-PONY UP2
+|-damage|p1a: LEON-PONY UP2|0 fnt
+|faint|p1a: LEON-PONY UP2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|72/100|[from] hail
+|-heal|p2a: Gyarados|78/100|[from] item: Leftovers
+|choice||
+|
+|switch|p1a: LEON-PONY UP6|Jirachi|55/100
+|turn|37
+|choice||
+|
+|move|p1a: LEON-PONY UP6|Zen Headbutt|p2a: Gyarados
+|-damage|p2a: Gyarados|32/100
+|move|p2a: Gyarados|Waterfall|p1a: LEON-PONY UP6
+|-damage|p1a: LEON-PONY UP6|0 fnt
+|faint|p1a: LEON-PONY UP6
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|26/100|[from] hail
+|-heal|p2a: Gyarados|32/100|[from] item: Leftovers
+|choice||
+|
+|switch|p1a: LEON-PONY UP|Abomasnow, F|28/100
+|turn|38
+|choice||
+|
+|move|p1a: LEON-PONY UP|Protect|p1a: LEON-PONY UP
+|-singleturn|p1a: LEON-PONY UP|Protect
+|move|p2a: Gyarados|Waterfall|p1a: LEON-PONY UP
+|-activate|p1a: LEON-PONY UP|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|26/100|[from] hail
+|-heal|p2a: Gyarados|32/100|[from] item: Leftovers
+|-heal|p1a: LEON-PONY UP|34/100|[from] item: Leftovers
+|turn|39
+|choice||
+|
+|move|p1a: LEON-PONY UP|Ice Shard|p2a: Gyarados
+|-damage|p2a: Gyarados|10/100
+|move|p2a: Gyarados|Waterfall|p1a: LEON-PONY UP
+|-resisted|p1a: LEON-PONY UP
+|-damage|p1a: LEON-PONY UP|0 fnt
+|faint|p1a: LEON-PONY UP
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|4/100|[from] hail
+|-heal|p2a: Gyarados|10/100|[from] item: Leftovers
+|-message|Vrille ☭ forfeited.
+|
+|win|Kwiick
+|player|p1
+|player|p2
+|l|Vrille ☭
+|c|★Kwiick|gg
+|raw|Vrille ☭'s rating: 1396 &rarr; <strong>1370</strong><br />(-26 for losing)
+|raw|Kwiick's rating: 1288 &rarr; <strong>1320</strong><br />(+32 for winning)

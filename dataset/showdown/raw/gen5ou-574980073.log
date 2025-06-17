@@ -1,0 +1,673 @@
+|j|SweetPosho
+|j|lolbw
+|player|p1|SweetPosho|2
+|player|p2|lolbw|2
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|3219,858,14259,829
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Mew|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Reuniclus, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Jirachi|Jirachi|384/384
+|switch|p2a: Mew|Mew|401/401
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lolbw)
+|choice|switch 5|move willowisp
+|
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|move|p2a: Mew|Will-O-Wisp|p1a: Alakazam
+|-status|p1a: Alakazam|brn
+|
+|upkeep
+|turn|2
+|choice|move thunderwave|move icebeam
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-fail|p1a: Alakazam
+|move|p2a: Mew|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|167/251 brn
+|
+|upkeep
+|turn|3
+|choice|switch 5|move icebeam
+|
+|switch|p1a: Jirachi|Jirachi|384/384
+|move|p2a: Mew|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|346/384
+|
+|-heal|p1a: Jirachi|370/384|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move ironhead|move willowisp
+|
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|328/401 par
+|move|p2a: Mew|Will-O-Wisp|p1a: Jirachi
+|-status|p1a: Jirachi|brn
+|
+|-heal|p1a: Jirachi|384/384 brn|[from] item: Leftovers
+|-heal|p2a: Mew|353/401 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|336/384 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 2|move willowisp
+|
+|switch|p1a: Jellicent|Jellicent, F|404/404
+|move|p2a: Mew|Will-O-Wisp|p1a: Jellicent
+|-status|p1a: Jellicent|brn
+|
+|-heal|p2a: Mew|378/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|354/404 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move willowisp|move taunt
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Mew
+|-fail|p2a: Mew
+|cant|p2a: Mew|par
+|
+|-heal|p1a: Jellicent|379/404 brn|[from] item: Leftovers
+|-heal|p2a: Mew|401/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|329/404 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move taunt|move taunt
+|
+|move|p1a: Jellicent|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|cant|p2a: Mew|move: Taunt|Taunt
+|
+|-heal|p1a: Jellicent|354/404 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|304/404 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move willowisp|move icebeam
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Mew|[miss]
+|-miss|p1a: Jellicent|p2a: Mew
+|move|p2a: Mew|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|267/404 brn
+|
+|-heal|p1a: Jellicent|292/404 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|242/404 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move recover|switch 5
+|
+|switch|p2a: Hydreigon|Hydreigon, M|329/329
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|404/404 brn
+|
+|-damage|p1a: Jellicent|354/404 brn|[from] brn
+|upkeep
+|turn|10
+|choice|switch 6|move dracometeor
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|351/351
+|move|p2a: Hydreigon|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|247/351
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|297/329|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|268/351|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Skarmory|Skarmory, M|333/333
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: lolbw|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|289/351|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move spikes|move spikes
+|
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: SweetPosho|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: lolbw|Spikes
+|
+|-heal|p1a: Ferrothorn|310/351|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move spikes|move spikes
+|
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: SweetPosho|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: lolbw|Spikes
+|
+|-heal|p1a: Ferrothorn|331/351|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move spikes|move spikes
+|
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: SweetPosho|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: lolbw|Spikes
+|
+|-heal|p1a: Ferrothorn|351/351|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|switch 4|move whirlwind
+|
+|switch|p1a: Hydreigon|Hydreigon, M|325/325
+|move|p2a: Skarmory|Whirlwind|p1a: Hydreigon
+|drag|p1a: Jirachi|Jirachi|336/384 brn
+|-damage|p1a: Jirachi|240/384 brn|[from] Spikes
+|
+|-heal|p1a: Jirachi|264/384 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|216/384 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move thunder|switch 5
+|
+|switch|p2a: Mew|Mew|401/401 par
+|-damage|p2a: Mew|301/401 par|[from] Spikes
+|-damage|p2a: Mew|251/401 par|[from] Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Mew
+|-damage|p2a: Mew|143/401 par
+|
+|-heal|p1a: Jirachi|240/384 brn|[from] item: Leftovers
+|-heal|p2a: Mew|168/401 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|192/384 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move ironhead|move roost
+|
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|131/401 par
+|cant|p2a: Mew|flinch
+|
+|-heal|p1a: Jirachi|216/384 brn|[from] item: Leftovers
+|-heal|p2a: Mew|156/401 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|168/384 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move ironhead|move roost
+|
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|119/401 par
+|cant|p2a: Mew|par
+|
+|-heal|p1a: Jirachi|192/384 brn|[from] item: Leftovers
+|-heal|p2a: Mew|144/401 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|144/384 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move ironhead|move roost
+|
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|104/401 par
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|305/401 par
+|
+|-heal|p1a: Jirachi|168/384 brn|[from] item: Leftovers
+|-heal|p2a: Mew|330/401 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|120/384 brn|[from] brn
+|upkeep
+|turn|20
+|c|☆SweetPosho|lol come on
+|c|☆SweetPosho|fucking shitass jirachi
+|choice|switch 6|move roost
+|
+|switch|p1a: Jellicent|Jellicent, F|354/404 brn
+|-damage|p1a: Jellicent|253/404 brn|[from] Spikes
+|cant|p2a: Mew|par
+|
+|-heal|p1a: Jellicent|278/404 brn|[from] item: Leftovers
+|-heal|p2a: Mew|355/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|228/404 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move recover|switch 3
+|
+|switch|p2a: Hydreigon|Hydreigon, M|297/329
+|-damage|p2a: Hydreigon|256/329|[from] Stealth Rock
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|404/404 brn
+|
+|-damage|p1a: Jellicent|354/404 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move recover|move dracometeor
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Jellicent
+|-damage|p1a: Jellicent|58/404 brn
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|224/329|[from] item: Life Orb
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|260/404 brn
+|
+|-heal|p1a: Jellicent|285/404 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|235/404 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move willowisp|switch 3
+|
+|switch|p2a: Mew|Mew|355/401 par
+|-damage|p2a: Mew|255/401 par|[from] Spikes
+|-damage|p2a: Mew|205/401 par|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Mew
+|-fail|p2a: Mew
+|
+|-heal|p1a: Jellicent|260/404 brn|[from] item: Leftovers
+|-heal|p2a: Mew|230/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|210/404 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move taunt|move roost
+|
+|move|p1a: Jellicent|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|cant|p2a: Mew|move: Taunt|Roost
+|
+|-heal|p1a: Jellicent|235/404 brn|[from] item: Leftovers
+|-heal|p2a: Mew|255/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|185/404 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move recover|move icebeam
+|
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|387/404 brn
+|cant|p2a: Mew|par
+|
+|-heal|p1a: Jellicent|404/404 brn|[from] item: Leftovers
+|-heal|p2a: Mew|280/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|354/404 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move scald|move icebeam
+|
+|move|p1a: Jellicent|Scald|p2a: Mew
+|-damage|p2a: Mew|192/401 par
+|cant|p2a: Mew|par
+|
+|-heal|p1a: Jellicent|379/404 brn|[from] item: Leftovers
+|-heal|p2a: Mew|217/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|329/404 brn|[from] brn
+|-end|p2a: Mew|move: Taunt
+|upkeep
+|turn|27
+|choice|move taunt|move roost
+|
+|move|p1a: Jellicent|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|cant|p2a: Mew|move: Taunt|Roost
+|
+|-heal|p1a: Jellicent|354/404 brn|[from] item: Leftovers
+|-heal|p2a: Mew|242/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|304/404 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move scald|move icebeam
+|
+|move|p1a: Jellicent|Scald|p2a: Mew
+|-damage|p2a: Mew|157/401 par
+|move|p2a: Mew|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|269/404 brn
+|
+|-heal|p1a: Jellicent|294/404 brn|[from] item: Leftovers
+|-heal|p2a: Mew|182/401 par|[from] item: Leftovers
+|-damage|p1a: Jellicent|244/404 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move recover|switch 3
+|
+|switch|p2a: Hydreigon|Hydreigon, M|224/329
+|-damage|p2a: Hydreigon|183/329|[from] Stealth Rock
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|404/404 brn
+|
+|-damage|p1a: Jellicent|354/404 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move willowisp|move roost
+|
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|329/329
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Hydreigon|[miss]
+|-miss|p1a: Jellicent|p2a: Hydreigon
+|
+|-heal|p1a: Jellicent|379/404 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|329/404 brn|[from] brn
+|upkeep
+|turn|31
+|choice|switch 6|move dracometeor
+|
+|switch|p1a: Jirachi|Jirachi|120/384 brn
+|-damage|p1a: Jirachi|24/384 brn|[from] Spikes
+|move|p2a: Hydreigon|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|297/329|[from] item: Life Orb
+|faint|p1a: Jirachi
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Alakazam|Alakazam, F|167/251 brn
+|turn|32
+|choice|move focusblast|switch 3
+|
+|switch|p2a: Mew|Mew|182/401 par
+|-damage|p2a: Mew|132/401 par|[from] Stealth Rock
+|-damage|p2a: Mew|32/401 par|[from] Spikes
+|move|p1a: Alakazam|Focus Blast|p2a: Mew|[miss]
+|-miss|p1a: Alakazam|p2a: Mew
+|
+|-heal|p2a: Mew|57/401 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move psychic|move roost
+|
+|move|p1a: Alakazam|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Mienshao|Mienshao, M|271/271
+|-damage|p2a: Mienshao|204/271|[from] Spikes
+|-damage|p2a: Mienshao|188/271|[from] Stealth Rock
+|turn|34
+|choice|switch 4|move uturn
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|351/351
+|-damage|p1a: Ferrothorn|264/351|[from] Spikes
+|move|p2a: Mienshao|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|201/351
+|-damage|p2a: Mienshao|155/271|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|choice||switch 3
+|
+|switch|p2a: Hydreigon|Hydreigon, M|297/329
+|-damage|p2a: Hydreigon|256/329|[from] Stealth Rock
+|
+|-heal|p1a: Ferrothorn|222/351|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|switch 2|move fireblast
+|
+|switch|p1a: Hydreigon|Hydreigon, M|325/325
+|move|p2a: Hydreigon|Fire Blast|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|233/325
+|-damage|p2a: Hydreigon|224/329|[from] item: Life Orb
+|
+|upkeep
+|turn|36
+|choice|move dracometeor|switch 5
+|
+|switch|p2a: Skarmory|Skarmory, M|333/333
+|-damage|p2a: Skarmory|292/333|[from] Stealth Rock
+|move|p1a: Hydreigon|Draco Meteor|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|132/333
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|201/325|[from] item: Life Orb
+|
+|-heal|p2a: Skarmory|152/333|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move flamethrower|move roost
+|
+|move|p1a: Hydreigon|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Hydreigon|169/325|[from] item: Life Orb
+|faint|p2a: Skarmory
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Mienshao|Mienshao, M|245/271
+|-damage|p2a: Mienshao|229/271|[from] Stealth Rock
+|-damage|p2a: Mienshao|162/271|[from] Spikes
+|turn|38
+|choice|switch 2|move uturn
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|222/351
+|-damage|p1a: Ferrothorn|135/351|[from] Spikes
+|move|p2a: Mienshao|U-turn|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/351
+|-damage|p2a: Mienshao|129/271|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|choice||switch 5
+|
+|switch|p2a: Hydreigon|Hydreigon, M|224/329
+|-damage|p2a: Hydreigon|183/329|[from] Stealth Rock
+|
+|-heal|p1a: Ferrothorn|39/351|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move leechseed|move fireblast
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Hydreigon|151/329|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Alakazam|Alakazam, F|167/251 brn
+|turn|40
+|choice|move focusblast|switch 6
+|
+|switch|p2a: Reuniclus|Reuniclus, M|417/417
+|move|p1a: Alakazam|Focus Blast|p2a: Reuniclus|[miss]
+|-miss|p1a: Alakazam|p2a: Reuniclus
+|
+|upkeep
+|turn|41
+|choice|move thunderwave|move calmmind
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Reuniclus
+|-status|p2a: Reuniclus|par
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|upkeep
+|turn|42
+|choice|switch 6|move psyshock
+|
+|switch|p1a: Jellicent|Jellicent, F|329/404 brn
+|-damage|p1a: Jellicent|228/404 brn|[from] Spikes
+|move|p2a: Reuniclus|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|83/404 brn
+|
+|-heal|p1a: Jellicent|108/404 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|58/404 brn|[from] brn
+|upkeep
+|turn|43
+|choice|move taunt|move calmmind
+|
+|move|p1a: Jellicent|Taunt|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Taunt
+|cant|p2a: Reuniclus|move: Taunt|Calm Mind
+|
+|-heal|p1a: Jellicent|83/404 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|33/404 brn|[from] brn
+|upkeep
+|turn|44
+|choice|move scald|switch 6
+|
+|switch|p2a: Hydreigon|Hydreigon, M|151/329
+|-damage|p2a: Hydreigon|110/329|[from] Stealth Rock
+|move|p1a: Jellicent|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|67/329
+|
+|-heal|p1a: Jellicent|58/404 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|8/404 brn|[from] brn
+|upkeep
+|turn|45
+|choice|move willowisp|move roost
+|
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|232/329
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Hydreigon
+|-status|p2a: Hydreigon|brn
+|
+|-heal|p1a: Jellicent|33/404 brn|[from] item: Leftovers
+|-damage|p2a: Hydreigon|191/329 brn|[from] brn
+|-damage|p1a: Jellicent|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Jellicent
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam, F|167/251 brn
+|turn|46
+|choice|move hiddenpower|switch 6
+|
+|switch|p2a: Reuniclus|Reuniclus, M|417/417 par
+|move|p1a: Alakazam|Hidden Power|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|212/417 par
+|
+|-heal|p2a: Reuniclus|238/417 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|choice|switch 2|move recover
+|
+|switch|p1a: Hydreigon|Hydreigon, M|169/325
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|417/417 par
+|
+|upkeep
+|turn|48
+|choice|move dracometeor|move focusblast
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Reuniclus
+|-damage|p2a: Reuniclus|35/417 par
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|137/325|[from] item: Life Orb
+|move|p2a: Reuniclus|Focus Blast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Reuniclus|61/417 par|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Alakazam|Alakazam, F|167/251 brn
+|turn|49
+|choice|move psychic|move recover
+|
+|move|p1a: Alakazam|Psychic|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mienshao|Mienshao, M|219/271
+|-damage|p2a: Mienshao|152/271|[from] Spikes
+|-damage|p2a: Mienshao|136/271|[from] Stealth Rock
+|turn|50
+|choice|move focusblast|move uturn
+|
+|move|p2a: Mienshao|U-turn|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice||switch 6
+|
+|switch|p2a: Hydreigon|Hydreigon, M|191/329 brn
+|-damage|p2a: Hydreigon|150/329 brn|[from] Stealth Rock
+|
+|-damage|p2a: Hydreigon|109/329 brn|[from] brn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|-damage|p1a: Garchomp|268/357|[from] Spikes
+|turn|51
+|choice|move outrage|move dracometeor
+|
+|move|p1a: Garchomp|Outrage|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mienshao|Mienshao, M|226/271
+|-damage|p2a: Mienshao|210/271|[from] Stealth Rock
+|-damage|p2a: Mienshao|143/271|[from] Spikes
+|turn|52
+|choice|move outrage|move uturn
+|
+|move|p2a: Mienshao|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|184/357
+|-damage|p2a: Mienshao|110/271|[from] ability: Rough Skin|[of] p1a: Garchomp
+|choice||switch 2
+|
+|switch|p2a: Tyranitar|Tyranitar, M|395/395
+|-damage|p2a: Tyranitar|346/395|[from] Stealth Rock
+|-damage|p2a: Tyranitar|248/395|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Garchomp|Outrage|p2a: Tyranitar|[from]lockedmove
+|-damage|p2a: Tyranitar|37/395
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|53
+|choice|move outrage|move crunch
+|
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|131/357|[from] confusion
+|move|p2a: Tyranitar|Crunch|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Tyranitar|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p2a: Tyranitar
+|faint|p1a: Garchomp
+|
+|win|lolbw
+|l|SweetPosho
+|raw|SweetPosho's rating: 1436 &rarr; <strong>1416</strong><br />(-20 for losing)
+|raw|lolbw's rating: 1436 &rarr; <strong>1456</strong><br />(+20 for winning)

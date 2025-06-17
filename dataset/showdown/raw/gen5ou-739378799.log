@@ -1,0 +1,648 @@
+|j|☆porrompompom
+|j|☆primafinna
+|player|p1|porrompompom|1
+|player|p2|primafinna|44
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Tangrowth, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Gastrodon, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Mew|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|l|☆primafinna
+|player|p2|
+|j|☆primafinna
+|player|p2|primafinna|44
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Politoed|Scald|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Politoed
+|-sidestart|p1: porrompompom|move: Toxic Spikes
+|move|p1a: Politoed|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|84/100
+|-status|p2a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|90/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|96/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|84/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Politoed|Scald|p2a: Mew
+|-damage|p2a: Mew|60/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Politoed|Scald|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|68/100
+|move|p1a: Politoed|Toxic|p2a: Latias
+|-fail|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Politoed|Encore|p2a: Latias
+|-start|p2a: Latias|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-sideend|p1: porrompompom|move: Toxic Spikes|[of] p1a: Tentacruel
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Skarmory|Whirlwind|p2a: Latias
+|drag|p2a: Mew|Mew|60/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Mew|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Stealth Rock|p2a: Landorus
+|-sidestart|p2: primafinna|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|96/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Skarmory|Whirlwind|p2a: Jirachi
+|drag|p2a: Latias|Latias, F|92/100
+|-damage|p2a: Latias|80/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|86/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|76/100
+|move|p1a: Skarmory|Spikes|p2a: Latias
+|-sidestart|p2: primafinna|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|92/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Tentacruel|Tentacruel, M|84/100 brn
+|-damage|p2a: Tentacruel|71/100 brn|[from] Stealth Rock
+|-damage|p2a: Tentacruel|59/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Tentacruel
+|drag|p2a: Mew|Mew|60/100
+|-damage|p2a: Mew|48/100|[from] Spikes
+|-damage|p2a: Mew|35/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Jirachi|Jirachi|96/100
+|-damage|p1a: Jirachi|89/100|[from] Stealth Rock
+|move|p2a: Mew|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|80/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|j| Tarnum
+|l|☆primafinna
+|player|p2|
+|j|☆primafinna
+|player|p2|primafinna|44
+|
+|move|p2a: Mew|Focus Blast|p1a: Jirachi
+|-damage|p1a: Jirachi|66/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|7/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|19
+|
+|move|p2a: Mew|Focus Blast|p1a: Jirachi
+|-damage|p1a: Jirachi|61/100
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, M|59/100 brn
+|-damage|p2a: Tentacruel|46/100 brn|[from] Spikes
+|-damage|p2a: Tentacruel|34/100 brn|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|-sideend|p2: primafinna|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: primafinna|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Jirachi|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|21
+|
+|switch|p2a: Jirachi|Jirachi|94/100
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Gastrodon|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gastrodon|atk|1
+|move|p1a: Gastrodon|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|move|p1a: Tangrowth|Sleep Powder|p2a: Politoed
+|-status|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p2a: Latias|Latias, F|92/100
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Latias|98/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|73/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Latias
+|-activate|p2a: Latias|Substitute|[damage]
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p2a: Latias|79/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Skarmory|Skarmory, F|88/100
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|85/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|61/100
+|move|p1a: Skarmory|Whirlwind|p2a: Latias
+|drag|p2a: Politoed|Politoed, F|100/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|cant|p2a: Politoed|slp
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-curestatus|p2a: Politoed|slp|[msg]
+|move|p2a: Politoed|Ice Beam|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|90/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|96/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|switch|p2a: Latias|Latias, F|85/100
+|move|p1a: Tentacruel|Toxic|p2a: Latias
+|-status|p2a: Latias|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Latias|85/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p2a: Jirachi|Jirachi|88/100
+|move|p1a: Tentacruel|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|42/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|48/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Jirachi|Flash Cannon|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|86/100
+|move|p1a: Gastrodon|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|54/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|92/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gastrodon|atk|1
+|move|p1a: Gastrodon|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|99/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|l| Tarnum
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|39
+|
+|switch|p2a: Latias|Latias, F|85/100 tox
+|move|p1a: Tangrowth|Hidden Power|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|61/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|67/100 tox|[from] item: Leftovers
+|-damage|p2a: Latias|61/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Latias|Dragon Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|66/100|[from] ability: Rain Dish
+|-heal|p2a: Latias|67/100 tox|[from] item: Leftovers
+|-heal|p1a: Tentacruel|72/100|[from] item: Black Sludge
+|-damage|p2a: Latias|55/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|switch|p2a: Jirachi|Jirachi|54/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|53/100
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|78/100|[from] ability: Rain Dish
+|-heal|p2a: Jirachi|59/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|84/100|[from] item: Black Sludge
+|upkeep
+|turn|42
+|
+|switch|p1a: Gastrodon|Gastrodon, M|99/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|65/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gastrodon|atk|1
+|move|p1a: Gastrodon|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|44
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|turn|45
+|
+|switch|p1a: Tentacruel|Tentacruel, F|84/100
+|-damage|p1a: Tentacruel|71/100|[from] Stealth Rock
+|move|p2a: Politoed|Toxic|p1a: Tentacruel
+|-immune|p1a: Tentacruel|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|78/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|84/100|[from] item: Black Sludge
+|upkeep
+|turn|46
+|
+|switch|p2a: Latias|Latias, F|55/100 tox
+|move|p1a: Tentacruel|Rapid Spin|p2a: Latias
+|-damage|p2a: Latias|52/100 tox
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|90/100|[from] ability: Rain Dish
+|-heal|p2a: Latias|58/100 tox|[from] item: Leftovers
+|-heal|p1a: Tentacruel|96/100|[from] item: Black Sludge
+|-damage|p2a: Latias|52/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|switch|p1a: Jirachi|Jirachi|73/100
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|79/100|[from] item: Leftovers
+|-damage|p2a: Latias|88/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|69/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Latias
+|-sidestart|p2: primafinna|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|-damage|p2a: Latias|76/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|switch|p2a: Jirachi|Jirachi|65/100
+|-damage|p2a: Jirachi|59/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|65/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Jirachi|Flash Cannon|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|80/100
+|-unboost|p1a: Gastrodon|spd|1
+|move|p1a: Gastrodon|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|28/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|34/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|87/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p2a: Jirachi|Flash Cannon|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|56/100
+|move|p1a: Gastrodon|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gastrodon|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|turn|53
+|
+|move|p2a: Politoed|Ice Beam|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, F|96/100
+|turn|54
+|-message|primafinna forfeited.
+|
+|win|porrompompom
+|l|☆primafinna
+|raw|porrompompom's rating: 1458 &rarr; <strong>1470</strong><br />(+12 for winning)
+|raw|primafinna's rating: 1307 &rarr; <strong>1295</strong><br />(-12 for losing)

@@ -1,0 +1,635 @@
+|j|☆black milik
+|j|☆Smurfer
+|player|p1|black milik|9
+|player|p2|Smurfer|144
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Blissey, F|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Latias, F|item
+|poke|p2|Riolu, F|item
+|poke|p2|Liepard, M|item
+|poke|p2|Ditto|item
+|poke|p2|Mew|item
+|poke|p2|Gengar, M|item
+|poke|p2|Abomasnow, M|item
+|teampreview
+|c|☆black milik|noooo
+|c|☆black milik|that team nooo
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Abomasnow|Abomasnow, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-fail|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blissey|94/100|[from] hail
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Blissey|Stealth Rock|p2a: Gengar
+|-sidestart|p2: Smurfer|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] hail
+|-damage|p1a: Blissey|94/100|[from] hail
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Gengar|Trick|p1a: Blissey
+|-activate|p2a: Gengar|move: Trick|[of] p1a: Blissey
+|-item|p1a: Blissey|Choice Scarf|[from] move: Trick
+|-item|p2a: Gengar|Leftovers|[from] move: Trick
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gengar|88/100|[from] hail
+|-damage|p1a: Blissey|94/100|[from] hail
+|-heal|p2a: Gengar|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Blissey|[from] ability: Imposter
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ditto|82/100|[from] hail
+|-damage|p1a: Skarmory|95/100|[from] hail
+|-heal|p1a: Skarmory|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|5
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Ditto|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: black milik|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|94/100|[from] hail
+|-damage|p2a: Ditto|76/100|[from] hail
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Gengar|Gengar, M|94/100
+|-damage|p2a: Gengar|82/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|75/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gengar|76/100|[from] hail
+|-damage|p1a: Tentacruel|69/100|[from] hail
+|-heal|p2a: Gengar|82/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Gengar|Mimic|p1a: Tentacruel
+|-start|p2a: Gengar|Mimic|Substitute
+|move|p1a: Tentacruel|Scald|p2a: Gengar
+|-damage|p2a: Gengar|51/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gengar|45/100|[from] hail
+|-damage|p1a: Tentacruel|69/100|[from] hail
+|-heal|p2a: Gengar|51/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p2a: Mew|Mew, shiny|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|52/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|69/100|[from] hail
+|-damage|p2a: Mew|45/100|[from] hail
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|-heal|p2a: Mew|52/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Mew|Protect|p2a: Mew
+|-singleturn|p2a: Mew|Protect
+|move|p1a: Tentacruel|Toxic|p2a: Mew
+|-activate|p2a: Mew|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|69/100|[from] hail
+|-damage|p2a: Mew|45/100|[from] hail
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|-heal|p2a: Mew|52/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Gengar|Gengar, M|51/100
+|-damage|p2a: Gengar|39/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gengar|33/100|[from] hail
+|-damage|p1a: Tentacruel|69/100|[from] hail
+|-heal|p2a: Gengar|39/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Mew|Mew, shiny|52/100
+|-damage|p2a: Mew|39/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Mew
+|-damage|p2a: Mew|21/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|69/100|[from] hail
+|-damage|p2a: Mew|14/100|[from] hail
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|-heal|p2a: Mew|21/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Tentacruel|Scald|p2a: Mew
+|-damage|p2a: Mew|4/100
+|move|p2a: Mew|Roar|p1a: Tentacruel
+|drag|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mew|0 fnt|[from] hail
+|-damage|p1a: Skarmory|82/100|[from] hail
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|faint|p2a: Mew
+|c|☆black milik|nooo
+|
+|switch|p2a: Ditto|Ditto, shiny|76/100
+|-damage|p2a: Ditto|64/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Skarmory|[from] ability: Imposter
+|turn|13
+|
+|move|p2a: Ditto|Spikes|p1a: Skarmory
+|-sidestart|p1: black milik|Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Ditto
+|drag|p2a: Riolu|Riolu, F|100/100
+|-damage|p2a: Riolu|95/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Riolu|89/100|[from] hail
+|-damage|p1a: Skarmory|82/100|[from] hail
+|-heal|p1a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Abomasnow|Abomasnow, M, shiny|100/100
+|-damage|p2a: Abomasnow|75/100|[from] Stealth Rock
+|move|p1a: Skarmory|Brave Bird|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-damage|p1a: Skarmory|60/100|[from] Recoil
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|54/100|[from] hail
+|-heal|p1a: Skarmory|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Liepard|Liepard, M|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Skarmory|[from]Assist
+|drag|p1a: Tentacruel|Tentacruel, M|75/100
+|-damage|p1a: Tentacruel|63/100|[from] Stealth Rock
+|-damage|p1a: Tentacruel|51/100|[from] Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|82/100|[from] hail
+|-damage|p1a: Tentacruel|45/100|[from] hail
+|-heal|p2a: Liepard|88/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|51/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|j| Mr.L4nce
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Tentacruel|[from]Assist
+|drag|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Spikes
+|-damage|p1a: Politoed|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|94/100|[from] item: Leftovers
+|-heal|p1a: Politoed|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Politoed|[from]Assist
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|99/100|[from] item: Leftovers
+|-heal|p1a: Politoed|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Politoed|[from]Assist
+|drag|p1a: Tentacruel|Tentacruel, M|51/100
+|-damage|p1a: Tentacruel|38/100|[from] Spikes
+|-damage|p1a: Tentacruel|26/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|32/100|[from] ability: Rain Dish
+|-heal|p2a: Liepard|100/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|38/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Tentacruel|[from]Assist
+|drag|p1a: Blissey|Blissey, F|94/100
+|-damage|p1a: Blissey|82/100|[from] Stealth Rock
+|-damage|p1a: Blissey|69/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Liepard|Nasty Plot|p2a: Liepard
+|-boost|p2a: Liepard|spa|2
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Tentacruel|Tentacruel, M|38/100
+|-damage|p1a: Tentacruel|26/100|[from] Spikes
+|-damage|p1a: Tentacruel|13/100|[from] Stealth Rock
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Tentacruel|[from]Assist
+|drag|p1a: Blissey|Blissey, F|69/100
+|-damage|p1a: Blissey|57/100|[from] Spikes
+|-damage|p1a: Blissey|44/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Blissey|94/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|22
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Blissey|[from]Assist
+|drag|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|-damage|p1a: Mamoswine|76/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by black milik)
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Liepard
+|-damage|p2a: Liepard|51/100
+|move|p2a: Liepard|Dark Pulse|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|57/100|[from] item: Leftovers
+|upkeep
+|inactive|black milik has 135 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|75/100|[from] Stealth Rock
+|-damage|p1a: Politoed|63/100|[from] Spikes
+|turn|24
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Politoed|[from]Assist
+|drag|p1a: Tentacruel|Tentacruel, M|13/100
+|-damage|p1a: Tentacruel|1/100|[from] Stealth Rock
+|-damage|p1a: Tentacruel|0 fnt|[from] Spikes
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Skarmory|Skarmory, M|60/100
+|-damage|p1a: Skarmory|48/100|[from] Stealth Rock
+|turn|25
+|inactive|Smurfer has 135 seconds left.
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Skarmory|[from]Assist
+|drag|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Latias|[from]Assist
+|drag|p1a: Blissey|Blissey, F|94/100
+|-damage|p1a: Blissey|82/100|[from] Spikes
+|-damage|p1a: Blissey|70/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|75/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Blissey|[from]Assist
+|drag|p1a: Latias|Latias, F|88/100
+|-damage|p1a: Latias|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|81/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Latias|[from]Assist
+|drag|p1a: Politoed|Politoed, M|63/100
+|-damage|p1a: Politoed|50/100|[from] Stealth Rock
+|-damage|p1a: Politoed|38/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|87/100|[from] item: Leftovers
+|-heal|p1a: Politoed|44/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Liepard|Dark Pulse|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|93/100|[from] item: Leftovers
+|-heal|p1a: Politoed|50/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Politoed|[from]Assist
+|drag|p1a: Skarmory|Skarmory, M|48/100
+|-damage|p1a: Skarmory|35/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|99/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|41/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Skarmory|[from]Assist
+|drag|p1a: Latias|Latias, F|76/100
+|-damage|p1a: Latias|64/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Liepard|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Latias|[from]Assist
+|drag|p1a: Blissey|Blissey, F|70/100
+|-damage|p1a: Blissey|57/100|[from] Stealth Rock
+|-damage|p1a: Blissey|45/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|move|p2a: Liepard|Nasty Plot|p2a: Liepard
+|-boost|p2a: Liepard|spa|2
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Blissey|[from]Assist
+|drag|p1a: Latias|Latias, F|64/100
+|-damage|p1a: Latias|52/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|35
+|inactive|black milik has 135 seconds left.
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Latias|[from]Assist
+|drag|p1a: Skarmory|Skarmory, M|41/100
+|-damage|p1a: Skarmory|29/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|35/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Liepard|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|50/100
+|-damage|p1a: Politoed|38/100|[from] Spikes
+|-damage|p1a: Politoed|25/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Liepard|Dark Pulse|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Blissey|Blissey, F|45/100
+|-damage|p1a: Blissey|32/100|[from] Spikes
+|-damage|p1a: Blissey|20/100|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Blissey|[from]Assist
+|drag|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|39
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Latias|[from]Assist
+|drag|p1a: Blissey|Blissey, F|20/100
+|-damage|p1a: Blissey|7/100|[from] Spikes
+|-damage|p1a: Blissey|0 fnt|[from] Stealth Rock
+|faint|p1a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|88/100
+|-damage|p1a: Latias|76/100|[from] Stealth Rock
+|turn|40
+|inactive|black milik has 135 seconds left.
+|c|☆black milik|"gg"
+|
+|move|p1a: Latias|Draco Meteor|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Liepard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|39/100
+|-damage|p2a: Gengar|27/100|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: Latias|Draco Meteor|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Smurfer has 135 seconds left.
+|
+|switch|p2a: Ditto|Ditto, shiny|64/100
+|-damage|p2a: Ditto|51/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Latias|[from] ability: Imposter
+|turn|42
+|
+|move|p2a: Ditto|Draco Meteor|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|36/100
+|-unboost|p2a: Ditto|spa|2
+|move|p1a: Latias|Draco Meteor|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|11/100
+|-unboost|p1a: Latias|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|43
+|
+|move|p1a: Latias|Draco Meteor|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Riolu|Riolu, F|89/100
+|-damage|p2a: Riolu|83/100|[from] Stealth Rock
+|turn|44
+|
+|move|p2a: Riolu|Protect|p2a: Riolu
+|-singleturn|p2a: Riolu|Protect
+|move|p1a: Latias|Draco Meteor|p2a: Riolu
+|-activate|p2a: Riolu|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|45
+|
+|move|p1a: Latias|Draco Meteor|p2a: Riolu
+|-damage|p2a: Riolu|55/100
+|move|p2a: Riolu|Circle Throw|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|46
+|
+|move|p2a: Riolu|Protect|p2a: Riolu
+|-singleturn|p2a: Riolu|Protect
+|move|p1a: Latias|Draco Meteor|p2a: Riolu
+|-activate|p2a: Riolu|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|47
+|
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Draco Meteor|p1a: Latias|[from]Copycat
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|6/100
+|-unboost|p2a: Riolu|spa|2
+|move|p1a: Latias|Draco Meteor|p2a: Riolu
+|-damage|p2a: Riolu|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|48
+|
+|move|p2a: Riolu|Protect|p2a: Riolu
+|-singleturn|p2a: Riolu|Protect
+|-activate|p1a: Latias|move: Struggle
+|move|p1a: Latias|Struggle|p2a: Riolu
+|-activate|p2a: Riolu|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|49
+|
+|-activate|p1a: Latias|move: Struggle
+|move|p1a: Latias|Struggle|p2a: Riolu
+|-damage|p2a: Riolu|15/100
+|-damage|p1a: Latias|0 fnt|[from] recoil
+|faint|p1a: Latias
+|
+|win|Smurfer
+|raw|black milik's rating: 1329 &rarr; <strong>1309</strong><br />(-20 for losing)
+|raw|Smurfer's rating: 1324 &rarr; <strong>1344</strong><br />(+20 for winning)
+|c|☆black milik|pff
+|c|☆Smurfer|ggg
+|l|☆black milik

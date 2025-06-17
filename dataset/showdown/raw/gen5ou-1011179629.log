@@ -1,0 +1,287 @@
+|j|☆Gh0stp3pper
+|j|☆Spritzalcianuro96
+|player|p1|Gh0stp3pper|2|1332
+|player|p2|Spritzalcianuro96|n|1378
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Scizor, M|item
+|poke|p1|Togekiss, F|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Starmie|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Chandelure, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Salamence, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gh0stp3pper)
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|start
+|switch|p1a: Starmie|Starmie, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Starmie|Scald|p2a: Jellicent
+|-immune|p2a: Jellicent|[from] ability: Water Absorb
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Starmie|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|71/100
+|move|p2a: Jellicent|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|85/100
+|
+|-heal|p1a: Starmie|91/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|47/100
+|move|p2a: Jellicent|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|75/100
+|
+|-heal|p1a: Starmie|81/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|53/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Scrafty|[miss]
+|-miss|p2a: Jellicent|p1a: Scrafty
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Scrafty|Crunch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|19/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Scrafty
+|-status|p1a: Scrafty|brn
+|-enditem|p1a: Scrafty|Lum Berry|[eat]
+|-curestatus|p1a: Scrafty|brn|[msg]
+|
+|-heal|p2a: Jellicent|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Scrafty|Crunch|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|76/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Scrafty|Drain Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|29/100
+|move|p2a: Skarmory|Brave Bird|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|2/100
+|-damage|p2a: Skarmory|0 fnt|[from] Recoil
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|9
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|23/100
+|-damage|p2a: Scizor|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Landorus|29/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|-damage|p2a: Scizor|81/100|[from] item: Life Orb
+|move|p1a: Landorus|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Spritzalcianuro96|move: Stealth Rock
+|
+|-heal|p1a: Landorus|9/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Chandelure|Chandelure, M, shiny|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|79/100
+|-damage|p2a: Scizor|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Jellicent|Jellicent, M|25/100
+|-damage|p2a: Jellicent|13/100|[from] Stealth Rock
+|move|p1a: Chandelure|Fire Blast|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Landorus|Landorus-Therian, M|9/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p1a: Landorus|16/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Gh0stp3pper has 120 seconds left.
+|
+|move|p2a: Garchomp|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|15
+|
+|move|p2a: Garchomp|Outrage|p1a: Scizor|[from]lockedmove
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|79/100
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Scizor|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|38/100
+|-damage|p1a: Scizor|66/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|switch|p1a: Starmie|Starmie, shiny|81/100|[from]move: U-turn
+|
+|-heal|p1a: Starmie|87/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Starmie|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Yache Berry|[eat]
+|-enditem|p2a: Garchomp|Yache Berry|[weaken]
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Starmie|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|17
+|inactive|Gh0stp3pper has 90 seconds left.
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|12/100
+|move|p1a: Starmie|Scald|p2a: Alakazam
+|-damage|p2a: Alakazam|42/100
+|-status|p2a: Alakazam|brn
+|
+|-heal|p1a: Starmie|19/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Scizor|Scizor, M|66/100
+|move|p2a: Alakazam|Psychic|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|40/100
+|
+|upkeep
+|turn|19
+|inactive|Gh0stp3pper has 90 seconds left.
+|
+|-activate|p2a: Alakazam|move: Pursuit
+|move|p1a: Scizor|Pursuit|p2a: Alakazam|[from]Pursuit
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Alakazam
+|
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Scrafty|Scrafty, M|2/100
+|move|p2a: Salamence|Outrage|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|inactive|Gh0stp3pper has 90 seconds left.
+|
+|switch|p1a: Scizor|Scizor, M|40/100
+|turn|21
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Salamence
+|-damage|p2a: Salamence|13/100
+|move|p2a: Salamence|Outrage|p1a: Scizor|[from]lockedmove
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|turn|22
+|
+|move|p2a: Salamence|Outrage|p1a: Togekiss|[from]lockedmove
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-start|p2a: Salamence|confusion|[fatigue]
+|faint|p1a: Togekiss
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|-message|Gh0stp3pper forfeited.
+|
+|win|Spritzalcianuro96
+|l|☆Gh0stp3pper
+|raw|Gh0stp3pper's rating: 1332 &rarr; <strong>1315</strong><br />(-17 for losing)
+|raw|Spritzalcianuro96's rating: 1378 &rarr; <strong>1396</strong><br />(+18 for winning)

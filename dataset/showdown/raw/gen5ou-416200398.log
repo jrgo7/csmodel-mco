@@ -1,0 +1,221 @@
+|j|sasmadia
+|j|sugarhigh
+|player|p1|sasmadia|10
+|player|p2|sugarhigh|223
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Haxorus, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Celebi|item
+|poke|p2|Politoed, F|item
+|poke|p2|Keldeo|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Excadrill, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|1
+|choice||
+|
+|move|p1a: Haxorus|Superpower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Haxorus|atk|1
+|-unboost|p1a: Haxorus|def|1
+|faint|p2a: Excadrill
+|
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|2
+|choice||
+|
+|move|p1a: Haxorus|Superpower|p2a: Jirachi
+|-damage|p2a: Jirachi|58/100
+|-unboost|p1a: Haxorus|atk|1
+|-unboost|p1a: Haxorus|def|1
+|move|p2a: Jirachi|U-turn|p1a: Haxorus
+|-damage|p1a: Haxorus|61/100
+|choice||
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|
+|turn|3
+|choice||
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Tornadus|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|78/100
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|choice||
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|choice||
+|
+|move|p1a: Jirachi|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|75/100
+|choice||
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|59/100|[from] item: Leftovers
+|turn|5
+|choice||
+|
+|switch|p2a: Tornadus|Tornadus, M|91/100
+|move|p1a: Celebi|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: sugarhigh|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|65/100|[from] item: Leftovers
+|turn|6
+|choice||
+|
+|move|p2a: Tornadus|Hurricane|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-damage|p2a: Tornadus|81/100|[from] item: Life Orb
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|turn|7
+|choice||
+|
+|move|p1a: Kingdra|Draco Meteor|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|-damage|p1a: Kingdra|91/100|[from] item: Life Orb
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|58/100
+|-damage|p2a: Jirachi|52/100|[from] Stealth Rock
+|turn|8
+|choice||
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Jirachi|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|84/100
+|-damage|p2a: Jirachi|40/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|choice||
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|choice||
+|
+|switch|p1a: Haxorus|Haxorus, M|61/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Keldeo|Hydro Pump|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Kingdra|Kingdra, F|91/100
+|turn|10
+|choice||
+|
+|move|p1a: Kingdra|Dragon Pulse|p2a: Keldeo
+|-damage|p2a: Keldeo|30/100
+|-damage|p1a: Kingdra|81/100|[from] item: Life Orb
+|move|p2a: Keldeo|Hydro Pump|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|52/100
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|40/100
+|-damage|p2a: Jirachi|34/100|[from] Stealth Rock
+|move|p1a: Kingdra|Dragon Pulse|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|18/100
+|-damage|p1a: Kingdra|42/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|24/100|[from] item: Leftovers
+|turn|12
+|choice||
+|
+|move|p1a: Kingdra|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|-damage|p1a: Kingdra|32/100|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|13
+|choice||
+|
+|switch|p1a: Jirachi|Jirachi|78/100
+|move|p2a: Dragonite|Hurricane|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|33/100
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|choice||
+|
+|move|p1a: Jirachi|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|37/100
+|cant|p2a: Dragonite|flinch
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|-message|sugarhigh forfeited.
+|
+|win|sasmadia
+|player|p1
+|player|p2
+|l|sugarhigh
+|raw|sasmadia's rating: 1360 &rarr; <strong>1384</strong><br />(+24 for winning)
+|raw|sugarhigh's rating: 1431 &rarr; <strong>1407</strong><br />(-24 for losing)
+|l|sasmadia
+|j|sasmadia

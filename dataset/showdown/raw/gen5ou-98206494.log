@@ -1,0 +1,961 @@
+|j|☆fault lines
+|j|☆Metafisica
+|player|p1|fault lines|50|1433
+|player|p2|Metafisica|2|1414
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Breloom, M|item
+|poke|p1|Politoed, M|item
+|poke|p1|Feraligatr, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Latias, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Metafisica)
+|
+|start
+|switch|p1a: Breloom|Breloom, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Breloom|Spore|p2a: Latias
+|-status|p2a: Latias|slp|[from] move: Spore
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Landorus|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|78/100 tox
+|
+|switch|p2a: Latias|Latias, F|100/100 slp|[from]move: U-turn
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|-heal|p1a: Breloom|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|cant|p2a: Latias|slp
+|move|p1a: Breloom|Seed Bomb|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|75/100 slp
+|
+|-heal|p2a: Latias|81/100 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-curestatus|p2a: Latias|slp|[msg]
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-heal|p2a: Latias|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Rock Tomb|p2a: Landorus
+|-damage|p2a: Landorus|89/100
+|-unboost|p2a: Landorus|spe|1
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Metafisica|move: Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|100/100 tox
+|turn|8
+|
+|move|p1a: Breloom|Spore|p2a: Landorus
+|-status|p2a: Landorus|slp|[from] move: Spore
+|cant|p2a: Landorus|slp
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Latias|Latias, F|87/100
+|-damage|p2a: Latias|75/100|[from] Stealth Rock
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Tornadus|Hurricane|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|44/100
+|move|p2a: Rotom|Volt Switch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|26/100
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Tornadus
+|-damage|p1a: Tornadus|14/100
+|-sideend|p2: Metafisica|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Tornadus|Hurricane|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|37/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Feraligatr|Feraligatr, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|94/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Tyranitar|Crunch|p1a: Feraligatr
+|-damage|p1a: Feraligatr|60/100
+|move|p1a: Feraligatr|Waterfall|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Feraligatr|53/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|81/100
+|turn|15
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Latias|Dragon Pulse|p1a: Politoed
+|-damage|p1a: Politoed|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|87/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Politoed|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|47/100
+|move|p2a: Latias|Dragon Pulse|p1a: Politoed
+|-damage|p1a: Politoed|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|53/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: fault lines|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Excadrill|Excadrill, F|37/100
+|move|p1a: Jirachi|Thunder|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Excadrill|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Water Pulse|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|22
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|90/100
+|-status|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Latias|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p2a: Latias|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|93/100 par
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|91/100 par
+|-start|p2a: Latias|confusion
+|-activate|p2a: Latias|confusion
+|-damage|p2a: Latias|85/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|83/100 par
+|-activate|p2a: Latias|confusion
+|-damage|p2a: Latias|78/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Tornadus|Tornadus, M|14/100
+|-damage|p1a: Tornadus|0 fnt|[from] Stealth Rock
+|faint|p1a: Tornadus
+|-activate|p2a: Latias|confusion
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|90/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Feraligatr|Feraligatr, F|53/100
+|-damage|p1a: Feraligatr|41/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|54/100 par
+|-activate|p2a: Latias|confusion
+|move|p2a: Latias|Dragon Pulse|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|60/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|30/100
+|-damage|p1a: Politoed|17/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Latias|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|-end|p2a: Latias|confusion
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|66/100 par|[from] item: Leftovers
+|-start|p1a: Politoed|perish3
+|-start|p2a: Latias|perish3
+|upkeep
+|turn|35
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|47/100|[from] item: Leftovers
+|-heal|p2a: Latias|72/100 par|[from] item: Leftovers
+|-start|p2a: Latias|perish2
+|upkeep
+|turn|36
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|22/100
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|28/100|[from] item: Leftovers
+|-heal|p2a: Latias|78/100 par|[from] item: Leftovers
+|-start|p2a: Latias|perish1
+|upkeep
+|turn|37
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|9/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|15/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|-status|p2a: Heatran|par
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|22/100|[from] item: Leftovers
+|-heal|p2a: Heatran|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|43/100 par
+|move|p2a: Heatran|Lava Plume|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|5/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|11/100|[from] item: Leftovers
+|-heal|p2a: Heatran|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|10/100 par
+|-start|p2a: Heatran|confusion
+|-activate|p2a: Heatran|confusion
+|-damage|p2a: Heatran|3/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|17/100|[from] item: Leftovers
+|-heal|p2a: Heatran|9/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|23/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|78/100 par
+|turn|43
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|67/100 par
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|29/100|[from] item: Leftovers
+|-heal|p2a: Latias|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Breloom|Breloom, M|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|move|p2a: Latias|Psycho Shift||[still]
+|-fail|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|79/100 par|[from] item: Leftovers
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|45
+|
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|move|p2a: Latias|Dragon Pulse|p1a: Breloom
+|-damage|p1a: Breloom|33/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|97/100 par|[from] item: Leftovers
+|-heal|p1a: Breloom|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|48
+|
+|move|p1a: Breloom|Drain Punch|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|55/100 par
+|-heal|p1a: Breloom|69/100 tox|[from] drain|[of] p2a: Latias
+|move|p2a: Latias|Dragon Pulse|p1a: Breloom
+|-damage|p1a: Breloom|4/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|61/100 par|[from] item: Leftovers
+|-heal|p1a: Breloom|17/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|49
+|
+|move|p1a: Breloom|Drain Punch|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|18/100 par
+|-heal|p1a: Breloom|41/100 tox|[from] drain|[of] p2a: Latias
+|move|p2a: Latias|Dragon Pulse|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|24/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|29/100
+|-damage|p1a: Jirachi|23/100|[from] Stealth Rock
+|turn|50
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|20/100 par
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|29/100|[from] item: Leftovers
+|-heal|p2a: Latias|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|22/100 par
+|-start|p2a: Latias|confusion
+|-activate|p2a: Latias|confusion
+|-damage|p2a: Latias|15/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|36/100|[from] item: Leftovers
+|-heal|p2a: Latias|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|-end|p2a: Latias|confusion
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|71/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|-heal|p2a: Latias|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|71/100 par
+|-start|p2a: Latias|confusion
+|-activate|p2a: Latias|confusion
+|-damage|p2a: Latias|65/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|-heal|p2a: Latias|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|23/100
+|-activate|p2a: Latias|confusion
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|29/100|[from] item: Leftovers
+|-heal|p2a: Latias|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|-end|p2a: Latias|confusion
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|35/100|[from] item: Leftovers
+|-heal|p2a: Latias|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|-heal|p2a: Latias|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latias|Psycho Shift||[still]
+|-fail|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|-heal|p2a: Latias|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|-heal|p2a: Latias|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|92/100 par
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|0
+|-boost|p2a: Latias|spd|0
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|66/100|[from] item: Leftovers
+|-heal|p2a: Latias|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|87/100 par
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|-heal|p2a: Latias|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|26/100 par
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|0
+|-boost|p2a: Latias|spd|0
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|79/100|[from] item: Leftovers
+|-heal|p2a: Latias|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|24/100 par
+|-start|p2a: Latias|confusion
+|-activate|p2a: Latias|confusion
+|-damage|p2a: Latias|17/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|85/100|[from] item: Leftovers
+|-heal|p2a: Latias|23/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|12/100 par
+|-activate|p2a: Latias|confusion
+|-damage|p2a: Latias|5/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|91/100|[from] item: Leftovers
+|-heal|p2a: Latias|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|j| solo dreamer
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|1/100 par
+|-end|p2a: Latias|confusion
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|51/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|97/100|[from] item: Leftovers
+|-heal|p2a: Latias|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|47/100 par
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|97/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Latias|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|93/100 par
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|0
+|-boost|p2a: Latias|spd|0
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|92/100 par
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|0
+|-boost|p2a: Latias|spd|0
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|91/100 par
+|move|p2a: Latias|Psycho Shift||[still]
+|-fail|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|89/100 par
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|0
+|-boost|p2a: Latias|spd|0
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|87/100 par
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|0
+|-boost|p2a: Latias|spd|0
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|84/100 par
+|-start|p2a: Latias|confusion
+|-activate|p2a: Latias|confusion
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|80/100 par
+|-activate|p2a: Latias|confusion
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|100/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|74
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|91/100 par
+|-activate|p2a: Latias|confusion
+|-damage|p2a: Latias|85/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|80/100 par
+|-activate|p2a: Latias|confusion
+|cant|p2a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|2/100 par
+|-end|p2a: Latias|confusion
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|0
+|-boost|p2a: Latias|spd|0
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|8/100 par|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|move|p1a: Jirachi|Thunder|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Metafisica forfeited.
+|
+|win|fault lines
+|c|☆fault lines|gg
+|l|☆Metafisica
+|raw|fault lines's rating: 1434 &rarr; <strong>1453</strong><br />(+19 for winning)
+|raw|Metafisica's rating: 1415 &rarr; <strong>1396</strong><br />(-19 for losing)
+|l|☆fault lines

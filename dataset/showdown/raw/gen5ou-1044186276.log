@@ -1,0 +1,658 @@
+|j|☆Gary Becker
+|j|☆TheetumThoor
+|player|p1|Gary Becker|camper|1353
+|player|p2|TheetumThoor|169|1353
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Kyurem|item
+|poke|p1|Starmie|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Garchomp, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Starmie|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gary Becker)
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Politoed|[miss]
+|-miss|p2a: Rotom|p1a: Politoed
+|move|p1a: Politoed|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Rotom|Will-O-Wisp|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|37/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|move|p1a: Politoed|Encore||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|44/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Gary Becker|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|50/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Politoed|Encore|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Encore
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|56/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Rotom|Rotom-Wash|88/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p2a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Kyurem|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Kyurem|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Kyurem|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Kyurem|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Kyurem
+|-start|p1a: Kyurem|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|69/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|95/100|[silent]
+|upkeep
+|turn|11
+|c|☆Gary Becker|oh god
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p2a: Heatran|Heatran, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Flamethrower|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|99/100
+|-sideend|p1: Gary Becker|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Heatran|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|23/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|29/100|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Politoed|Politoed, F|56/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|95/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|62/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Gary Becker|move: Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|93/100
+|-damage|p1a: Ferrothorn|87/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Wash|88/100 tox
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|83/100 tox
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p2a: Rotom|77/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Heatran
+|-sidestart|p2: TheetumThoor|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Politoed|Politoed, F|62/100
+|-damage|p1a: Politoed|50/100|[from] Stealth Rock
+|move|p2a: Heatran|Flamethrower|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|45/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Rotom|Rotom-Wash|77/100 tox
+|-damage|p2a: Rotom|65/100 tox|[from] Stealth Rock
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|51/100|[from] item: Leftovers
+|-damage|p2a: Rotom|58/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Rotom|Will-O-Wisp|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|57/100|[from] item: Leftovers
+|-damage|p2a: Rotom|46/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Rotom|Pain Split|p1a: Politoed
+|-sethp|p1a: Politoed|47/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|59/100 tox|[from] move: Pain Split
+|move|p1a: Politoed|Encore|p2a: Rotom
+|-start|p2a: Rotom|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|53/100|[from] item: Leftovers
+|-damage|p2a: Rotom|40/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|93/100
+|-damage|p2a: Ferrothorn|86/100|[from] Stealth Rock
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|59/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-heal|p1a: Politoed|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Heatran|Hidden Power|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-heal|p1a: Politoed|72/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Rotom|Rotom-Wash|40/100 tox
+|-damage|p2a: Rotom|28/100 tox|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|7/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|78/100|[from] item: Leftovers
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|faint|p2a: Rotom
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|86/100
+|-damage|p2a: Ferrothorn|80/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|28/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|86/100
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|switch|p1a: Politoed|Politoed, F|28/100
+|-damage|p1a: Politoed|15/100|[from] Stealth Rock
+|move|p2a: Heatran|Flamethrower|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|10/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Heatran|Hidden Power|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|16/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|66/100
+|-damage|p2a: Ferrothorn|60/100|[from] Stealth Rock
+|move|p1a: Politoed|Encore||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|22/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Ferrothorn|Power Whip|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|28/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Gary Becker has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|35
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Scizor|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|36
+|
+|switch|p2a: Heatran|Heatran, M|86/100
+|-damage|p2a: Heatran|73/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|71/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|37
+|
+|switch|p1a: Kyurem|Kyurem|69/100
+|-damage|p1a: Kyurem|44/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Heatran|Flamethrower|p1a: Kyurem
+|-damage|p1a: Kyurem|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|32/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|j| Flymaster535
+|l| Flymaster535
+|
+|move|p2a: Heatran|Earth Power|p1a: Kyurem
+|-damage|p1a: Kyurem|8/100
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|58/100
+|-singleturn|p1a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|64/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Heatran|Earth Power|p1a: Kyurem
+|-damage|p1a: Kyurem|40/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|15/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|21/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Heatran|Earth Power|p1a: Kyurem
+|-activate|p1a: Kyurem|Substitute|[damage]
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|71/100
+|-singleturn|p1a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|78/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Heatran|Flamethrower|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|move|p1a: Kyurem|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|76/100
+|-damage|p2a: Scizor|64/100|[from] Stealth Rock
+|turn|42
+|
+|-activate|p1a: Kyurem|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Kyurem|[from]Pursuit
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|9/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|c|☆Gary Becker|oof
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|47/100
+|-damage|p2a: Ferrothorn|41/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|40/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|37/100
+|-damage|p1a: Ferrothorn|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|-damage|p2a: Ferrothorn|25/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100
+|-damage|p2a: Ferrothorn|12/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|TheetumThoor has 120 seconds left.
+|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|-damage|p2a: Ferrothorn|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|inactive|TheetumThoor has 120 seconds left.
+|
+|switch|p2a: Scizor|Scizor, F|64/100
+|-damage|p2a: Scizor|52/100|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Scizor|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|53/100
+|-damage|p2a: Scizor|39/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p2a: Landorus|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|27/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Landorus
+|-start|p2a: Landorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|33/100|[from] item: Leftovers
+|-damage|p2a: Landorus|74/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|46/100|[silent]
+|upkeep
+|turn|49
+|
+|switch|p1a: Kyurem|Kyurem|9/100
+|-damage|p1a: Kyurem|0 fnt|[from] Stealth Rock
+|faint|p1a: Kyurem
+|move|p2a: Landorus|Earthquake|p1: Kyurem|[notarget]
+|-fail|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|50
+|
+|move|p1a: Tornadus|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|39/100
+|-damage|p2a: Scizor|27/100|[from] Stealth Rock
+|turn|51
+|
+|move|p1a: Tornadus|Hurricane|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| Flymaster535
+|
+|switch|p2a: Starmie|Starmie|94/100
+|-damage|p2a: Starmie|82/100|[from] Stealth Rock
+|turn|52
+|
+|move|p2a: Starmie|Scald|p1a: Tornadus
+|-damage|p1a: Tornadus|17/100
+|move|p1a: Tornadus|Hurricane|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|Gary Becker
+|c|☆TheetumThoor|gg
+|c|☆Gary Becker|gg
+|l|☆TheetumThoor
+|l|flymaster535
+|raw|Gary Becker's rating: 1353 &rarr; <strong>1373</strong><br />(+20 for winning)
+|raw|TheetumThoor's rating: 1362 &rarr; <strong>1341</strong><br />(-21 for losing)
+|j| Watermaster535

@@ -1,0 +1,341 @@
+|j|☆HALOCENE
+|j|☆TheRareCandyDealer
+|player|p1|HALOCENE|acetrainer-gen2|1600
+|player|p2|TheRareCandyDealer|dragontamer|1435
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Starmie|item
+|poke|p1|Scizor, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo-Resolute|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Not Today|Tornadus, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Not Today|Hurricane|p1a: Politoed
+|-damage|p1a: Politoed|23/100
+|-damage|p2a: Not Today|91/100|[from] item: Life Orb
+|move|p1a: Politoed|Hydro Pump|p2a: Not Today
+|-damage|p2a: Not Today|0 fnt
+|faint|p2a: Not Today
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Urava|Dragonite, F|100/100
+|turn|2
+|
+|move|p2a: Urava|Dragon Dance|p2a: Urava
+|-boost|p2a: Urava|atk|1
+|-boost|p2a: Urava|spe|1
+|move|p1a: Politoed|Hydro Pump|p2a: Urava
+|-resisted|p2a: Urava
+|-damage|p2a: Urava|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Urava|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Urava|Dragon Dance|p2a: Urava
+|-boost|p2a: Urava|atk|1
+|-boost|p2a: Urava|spe|1
+|move|p1a: Politoed|Hydro Pump|p2a: Urava
+|-resisted|p2a: Urava
+|-damage|p2a: Urava|11/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Urava|18/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Urava|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Urava|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|5
+|
+|switch|p2a: Touch Me|Ferrothorn, F|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Touch Me
+|-resisted|p2a: Touch Me
+|-damage|p2a: Touch Me|86/100
+|-damage|p1a: Scizor|88/100|[from] ability: Iron Barbs|[of] p2a: Touch Me
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Touch Me|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Touch Me|Thunder Wave|p1a: Keldeo
+|-status|p1a: Keldeo|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Touch Me|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Keldeo|Focus Blast|p2a: Touch Me
+|-supereffective|p2a: Touch Me
+|-damage|p2a: Touch Me|0 fnt
+|faint|p2a: Touch Me
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Polish the Pearl|Cloyster, F|100/100
+|turn|8
+|
+|move|p2a: Polish the Pearl|Shell Smash|p2a: Polish the Pearl
+|-unboost|p2a: Polish the Pearl|def|1
+|-unboost|p2a: Polish the Pearl|spd|1
+|-boost|p2a: Polish the Pearl|atk|2
+|-boost|p2a: Polish the Pearl|spa|2
+|-boost|p2a: Polish the Pearl|spe|2
+|cant|p1a: Keldeo|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Polish the Pearl|Icicle Spear|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|85/100 par
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|68/100 par
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|51/100 par
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|35/100 par
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|18/100 par
+|-hitcount|p1a: Keldeo|5
+|-damage|p2a: Polish the Pearl|91/100|[from] item: Life Orb
+|move|p1a: Keldeo|Focus Blast|p2a: Polish the Pearl|[miss]
+|-miss|p1a: Keldeo|p2a: Polish the Pearl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Polish the Pearl|Icicle Spear|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|2/100 par
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-hitcount|p1a: Keldeo|2
+|-damage|p2a: Polish the Pearl|81/100|[from] item: Life Orb
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|turn|11
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Polish the Pearl
+|-resisted|p2a: Polish the Pearl
+|-damage|p2a: Polish the Pearl|0 fnt
+|faint|p2a: Polish the Pearl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Beyblade|Starmie|100/100
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Beyblade|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|-status|p1a: Ferrothorn|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Urava|Dragonite, F|24/100
+|cant|p1a: Ferrothorn|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Urava|30/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|move|p2a: Urava|Dragon Dance|p2a: Urava
+|-boost|p2a: Urava|atk|1
+|-boost|p2a: Urava|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Urava|36/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Rainbow Dash|Keldeo-Resolute|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Rainbow Dash
+|-resisted|p2a: Rainbow Dash
+|-damage|p2a: Rainbow Dash|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Rainbow Dash|Hydro Pump|p1a: Starmie|[miss]
+|-miss|p2a: Rainbow Dash|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Rainbow Dash
+|-resisted|p2a: Rainbow Dash
+|-damage|p2a: Rainbow Dash|29/100
+|move|p2a: Rainbow Dash|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Rainbow Dash|[miss]
+|-miss|p1a: Starmie|p2a: Rainbow Dash
+|move|p2a: Rainbow Dash|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|turn|19
+|
+|move|p1a: Scizor|Quick Attack|p2a: Rainbow Dash
+|-damage|p2a: Rainbow Dash|0 fnt
+|faint|p2a: Rainbow Dash
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Beyblade|Starmie|100/100
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|77/100 frz
+|move|p2a: Beyblade|Hydro Pump|p1a: Ferrothorn|[miss]
+|-miss|p2a: Beyblade|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Beyblade|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|56/100 frz
+|cant|p1a: Ferrothorn|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|switch|p2a: Urava|Dragonite, F|36/100
+|cant|p1a: Ferrothorn|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Urava|42/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|move|p2a: Urava|Dragon Dance|p2a: Urava
+|-boost|p2a: Urava|atk|1
+|-boost|p2a: Urava|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Urava|48/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Urava
+|-damage|p2a: Urava|0 fnt
+|faint|p2a: Urava
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Beyblade|Starmie|100/100
+|turn|25
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|56/100 frz
+|move|p2a: Beyblade|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|19/100 frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Beyblade|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|27
+|
+|move|p2a: Beyblade|Hydro Pump|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|turn|28
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheRareCandyDealer)
+|
+|move|p2a: Beyblade|Hydro Pump|p1a: Scizor|[miss]
+|-miss|p2a: Beyblade|p1a: Scizor
+|move|p1a: Scizor|U-turn|p2a: Beyblade
+|-supereffective|p2a: Beyblade
+|-damage|p2a: Beyblade|0 fnt
+|faint|p2a: Beyblade
+|
+|win|HALOCENE
+|l|☆TheRareCandyDealer
+|raw|HALOCENE's rating: 1600 &rarr; <strong>1610</strong><br />(+10 for winning)
+|raw|TheRareCandyDealer's rating: 1415 &rarr; <strong>1405</strong><br />(-10 for losing)

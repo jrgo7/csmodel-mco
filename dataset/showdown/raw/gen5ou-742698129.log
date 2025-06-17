@@ -1,0 +1,372 @@
+|j|☆Alfredo_Rivero✘
+|j|☆Stjerne
+|player|p1|Alfredo_Rivero✘|260
+|player|p2|Stjerne|124
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Starmie|item
+|poke|p1|Latios, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Azumarill, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Starmie|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Hydreigon, M|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Starmie|Thunder|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|move|p2a: Keldeo|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Starmie|Hydro Pump|p2a: Jirachi|[miss]
+|-miss|p1a: Starmie|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|j| doudrasand
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Jirachi|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|-damage|p2a: Jirachi|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Azumarill
+|-sidestart|p1: Alfredo_Rivero✘|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Azumarill|Waterfall|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|92/100
+|-damage|p1a: Ferrothorn|86/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|53/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|20/100
+|-status|p1a: Ferrothorn|brn
+|-damage|p2a: Hydreigon|81/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: Stjerne|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|26/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|14/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Gliscor
+|-sidestart|p2: Stjerne|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|20/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|7/100 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63/100 tox
+|move|p1a: Ferrothorn|Spikes|p2a: Gliscor
+|-sidestart|p2: Stjerne|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|14/100 brn|[from] item: Leftovers
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Ferrothorn|1/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Gliscor|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Gliscor|Earthquake|p1a: Azumarill
+|-damage|p1a: Azumarill|56/100
+|move|p1a: Azumarill|Waterfall|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|84/100|[from] Spikes
+|-damage|p2a: Starmie|71/100|[from] Stealth Rock
+|move|p1a: Azumarill|Waterfall|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|14/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|20/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|81/100
+|-damage|p2a: Hydreigon|68/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|40/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Azumarill|[miss]
+|-miss|p2a: Hydreigon|p1a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|9/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|0 fnt|[from] item: Life Orb
+|faint|p1a: Azumarill
+|faint|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| lineheavyslam140
+|
+|switch|p2a: Jirachi|Jirachi|88/100
+|switch|p1a: Starmie|Starmie|48/100
+|-damage|p2a: Jirachi|82/100|[from] Stealth Rock
+|-damage|p2a: Jirachi|66/100|[from] Spikes
+|-damage|p1a: Starmie|36/100|[from] Stealth Rock
+|turn|17
+|l| lineheavyslam140
+|
+|move|p2a: Jirachi|Iron Head|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|9/100
+|cant|p1a: Starmie|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Jirachi|Iron Head|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|88/100
+|-damage|p2a: Keldeo|82/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|66/100|[from] Spikes
+|turn|20
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|-damage|p1a: Volcarona|50/100|[from] Stealth Rock
+|-enditem|p1a: Volcarona|Sitrus Berry|[eat]
+|-heal|p1a: Volcarona|75/100|[from] item: Sitrus Berry
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|47/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Keldeo|Scald|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|53/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Latios|Psyshock|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|move|p2a: Keldeo|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|57/100
+|-status|p1a: Latios|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|59/100|[from] item: Leftovers
+|-damage|p1a: Latios|45/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Jirachi|Jirachi|66/100
+|-damage|p2a: Jirachi|49/100|[from] Spikes
+|-damage|p2a: Jirachi|43/100|[from] Stealth Rock
+|move|p1a: Latios|Psyshock|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|29/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latios|32/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Jirachi|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|55/100
+|cant|p1a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Jirachi|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|30/100
+|cant|p1a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p2a: Jirachi|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|7/100
+|cant|p1a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p2a: Jirachi|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|win|Stjerne
+|l|☆Alfredo_Rivero✘
+|raw|Alfredo_Rivero✘'s rating: 1328 &rarr; <strong>1312</strong><br />(-16 for losing)
+|raw|Stjerne's rating: 1406 &rarr; <strong>1422</strong><br />(+16 for winning)
+|l|☆Stjerne

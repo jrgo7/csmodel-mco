@@ -1,0 +1,497 @@
+|j|☆refsunpersons
+|j|☆ImpedanceisFutile
+|player|p1|refsunpersons|123
+|player|p2|ImpedanceisFutile|42
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Breloom, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Gastrodon, M|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|c|☆ImpedanceisFutile|u2
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Latios|Trick|p1a: Jirachi
+|-activate|p2a: Latios|move: Trick|[of] p1a: Jirachi
+|-item|p1a: Jirachi|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Jirachi|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: ImpedanceisFutile|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Breloom
+|-sidestart|p1: refsunpersons|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/100|[from] Sandstorm
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|76/100
+|-heal|p1a: Breloom|100/100 tox|[from] drain|[of] p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/100 tox|[from] Sandstorm
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|move|p2a: Landorus|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|60/100 tox
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|54/100 tox|[from] Sandstorm
+|-heal|p1a: Breloom|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|move|p2a: Landorus|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|32/100 tox
+|move|p1a: Breloom|Spore|p2a: Landorus
+|-status|p2a: Landorus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|25/100 tox|[from] Sandstorm
+|-heal|p1a: Breloom|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Drain Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|44/100
+|-heal|p1a: Breloom|59/100 tox|[from] drain|[of] p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|38/100|[from] Sandstorm
+|-damage|p1a: Breloom|53/100 tox|[from] Sandstorm
+|-heal|p2a: Latios|44/100|[from] item: Leftovers
+|-heal|p1a: Breloom|65/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|c|☆refsunpersons|sry
+|c|☆ImpedanceisFutile|np
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|88/100|[from] Sandstorm
+|-heal|p2a: Latios|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Heatran|Heatran, F, shiny|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|84/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Jirachi|Body Slam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|63/100
+|-status|p2a: Heatran|par
+|cant|p2a: Heatran|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Heatran|Lava Plume|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Gastrodon
+|-sidestart|p2: ImpedanceisFutile|move: Toxic Spikes
+|move|p2a: Gastrodon|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆ImpedanceisFutile|..
+|
+|switch|p1a: Breloom|Breloom, F|65/100 tox
+|-damage|p1a: Breloom|59/100 tox|[from] Stealth Rock
+|turn|14
+|c|☆ImpedanceisFutile|that sucks
+|
+|switch|p2a: Latios|Latios, M|94/100
+|-damage|p2a: Latios|82/100|[from] Stealth Rock
+|move|p1a: Breloom|Seed Bomb|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|66/100|[from] item: Leftovers
+|-heal|p1a: Breloom|71/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|switch|p1a: Jirachi|Jirachi|94/100
+|-damage|p1a: Jirachi|88/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|72/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Heatran|Heatran, F, shiny|75/100 par
+|-damage|p2a: Heatran|63/100 par|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Breloom|Breloom, F|71/100 tox
+|-damage|p1a: Breloom|65/100 tox|[from] Stealth Rock
+|switch|p2a: Latios|Latios, M|72/100
+|-damage|p2a: Latios|60/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|100/100 tox|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Latios|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Jirachi|Jirachi|49/100
+|-damage|p1a: Jirachi|43/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|17/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Heatran|Heatran, F, shiny|69/100 par
+|-damage|p2a: Heatran|57/100 par|[from] Stealth Rock
+|move|p1a: Latios|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|25/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-status|p2a: Tyranitar|psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|22
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Tyranitar
+|-damage|p2a: Tyranitar|54/100 psn
+|move|p2a: Tyranitar|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|30/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|41/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Tyranitar
+|-damage|p2a: Tyranitar|7/100 psn
+|move|p2a: Tyranitar|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Tyranitar
+|
+|switch|p1a: Politoed|Politoed, F|76/100
+|switch|p2a: Latios|Latios, M|78/100
+|-damage|p1a: Politoed|63/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-damage|p2a: Latios|66/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Politoed|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|12/100
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|18/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Cloyster|66/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|-status|p2a: Breloom|psn
+|-damage|p2a: Breloom|94/100 psn|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Breloom|Mach Punch|p1a: Cloyster
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem|[move] Mach Punch
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Breloom|82/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|turn|27
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Breloom|Drain Punch|p2a: Breloom
+|-damage|p2a: Breloom|34/100 psn
+|-heal|p1a: Breloom|100/100 tox|[from] drain|[of] p2a: Breloom
+|cant|p2a: Breloom|Focus Punch|Focus Punch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Breloom|22/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|87/100 tox
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|73/100 tox
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|60/100 tox
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|47/100 tox
+|-hitcount|p1a: Breloom|4
+|move|p1a: Breloom|Drain Punch|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-heal|p1a: Breloom|56/100 tox|[from] drain|[of] p2a: Breloom
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|76/100 slp
+|-damage|p2a: Landorus|64/100 slp|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|29
+|
+|cant|p2a: Landorus|slp
+|move|p2a: Landorus|Sleep Talk|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Breloom|[from]Sleep Talk
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|32/100 tox
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|cant|p2a: Landorus|slp
+|move|p2a: Landorus|Sleep Talk|p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Breloom|[from]Sleep Talk
+|-damage|p1a: Breloom|20/100 tox
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-status|p2a: Gastrodon|psn
+|-damage|p2a: Gastrodon|94/100 psn|[from] Stealth Rock
+|move|p1a: Breloom|Drain Punch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|72/100 psn
+|-heal|p1a: Breloom|35/100 tox|[from] drain|[of] p2a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|78/100 psn|[from] item: Leftovers
+|-heal|p1a: Breloom|48/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gastrodon|66/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|move|p2a: Gastrodon|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|4/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|72/100 psn|[from] item: Leftovers
+|-heal|p1a: Breloom|17/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gastrodon|59/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Breloom|Seed Bomb|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|64/100 slp
+|-damage|p2a: Landorus|51/100 slp|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|33
+|
+|cant|p2a: Landorus|slp
+|move|p2a: Landorus|Sleep Talk|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Breloom|[from]Sleep Talk
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|11/100 tox
+|move|p1a: Breloom|Seed Bomb|p2a: Landorus
+|-damage|p2a: Landorus|13/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|23/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|
+|cant|p2a: Landorus|slp
+|move|p2a: Landorus|Sleep Talk|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Breloom|[from]Sleep Talk
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|4/100 tox
+|move|p1a: Breloom|Seed Bomb|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|refsunpersons
+|c|☆ImpedanceisFutile|gg
+|raw|refsunpersons's rating: 1307 &rarr; <strong>1330</strong><br />(+23 for winning)
+|raw|ImpedanceisFutile's rating: 1358 &rarr; <strong>1335</strong><br />(-23 for losing)
+|c|☆refsunpersons|gg
+|l|☆ImpedanceisFutile

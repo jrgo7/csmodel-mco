@@ -1,0 +1,421 @@
+|j|☆Liam ☉ Nee-san
+|j|☆Max Dankness
+|player|p1|Liam ☉ Nee-san|10|1372
+|player|p2|Max Dankness|elesa|1463
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Azelf|item
+|poke|p1|Scizor, M|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Conkeldurr, F|item
+|poke|p1|Salamence, F|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Ditto|item
+|poke|p2|Liepard, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Mew|item
+|poke|p2|Riolu, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Azelf|[from] ability: Imposter
+|turn|1
+|
+|move|p2a: Ditto|Stealth Rock|p1a: Azelf
+|-sidestart|p1: Liam ☉ Nee-san|move: Stealth Rock
+|move|p1a: Azelf|Stealth Rock|p2a: Ditto
+|-sidestart|p2: Max Dankness|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Liam ☉ Nee-san)
+|
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Azelf|Hidden Power|p2a: Abomasnow
+|-damage|p2a: Abomasnow|59/100
+|-enditem|p2a: Abomasnow|Red Card|[of] p1a: Azelf
+|drag|p1a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|88/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1a: Conkeldurr|Mach Punch|p2a: Abomasnow
+|-activate|p2a: Abomasnow|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|82/100|[from] Hail
+|upkeep
+|turn|4
+|inactive|Liam ☉ Nee-san has 120 seconds left.
+|
+|-singleturn|p2a: Abomasnow|move: Focus Punch
+|move|p1a: Conkeldurr|Substitute|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|Substitute
+|-damage|p1a: Conkeldurr|58/100
+|move|p2a: Abomasnow|Focus Punch|p1a: Conkeldurr
+|-end|p1a: Conkeldurr|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|51/100|[from] Hail
+|upkeep
+|turn|5
+|
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1a: Conkeldurr|Mach Punch|p2a: Abomasnow
+|-activate|p2a: Abomasnow|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|45/100|[from] Hail
+|upkeep
+|turn|6
+|
+|-singleturn|p2a: Abomasnow|move: Focus Punch
+|move|p1a: Conkeldurr|Mach Punch|p2a: Abomasnow
+|-enditem|p1a: Conkeldurr|Fighting Gem|[from] gem|[move] Mach Punch
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|39/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Dodge Focus|Liepard, M|100/100
+|-damage|p2a: Dodge Focus|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Conkeldurr|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|82/100|[from] Hail
+|-damage|p1a: Garchomp|88/100|[from] Hail
+|-heal|p2a: Dodge Focus|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|82/100|[from] Hail
+|-damage|p1a: Scizor|82/100|[from] Hail
+|-heal|p2a: Dodge Focus|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Azelf|Azelf|100/100
+|-damage|p1a: Azelf|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Azelf|82/100|[from] Hail
+|-damage|p2a: Dodge Focus|82/100|[from] Hail
+|-heal|p2a: Dodge Focus|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Azelf|[from]Assist
+|drag|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|82/100|[from] Hail
+|-damage|p1a: Dragonite|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Outrage|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dragonite|63/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Dragonite|Outrage|p2a: Mew|[from]lockedmove
+|-damage|p2a: Mew|41/100
+|-start|p1a: Dragonite|confusion|[fatigue]
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-end|p1a: Dragonite|confusion
+|move|p2a: Mew|Counter|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mew|34/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Salamence|Outrage|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salamence|70/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Dodge Focus|Liepard, M|88/100
+|-damage|p2a: Dodge Focus|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Salamence|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|88/100
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Garchomp|76/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Azelf|Azelf|82/100
+|-damage|p1a: Azelf|70/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Azelf|63/100|[from] Hail
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Azelf|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|76/100
+|-damage|p1a: Garchomp|70/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Garchomp|64/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Salamence|Salamence, F|70/100
+|-damage|p1a: Salamence|45/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salamence|39/100|[from] Hail
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Salamence|[from]Assist
+|drag|p1a: Conkeldurr|Conkeldurr, F|39/100
+|-damage|p1a: Conkeldurr|33/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Conkeldurr|27/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Conkeldurr|[from]Assist
+|drag|p1a: Azelf|Azelf|63/100
+|-damage|p1a: Azelf|51/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Azelf|45/100|[from] Hail
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Azelf|[from]Assist
+|drag|p1a: Salamence|Salamence, F|39/100
+|-damage|p1a: Salamence|14/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salamence|8/100|[from] Hail
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Salamence|[from]Assist
+|drag|p1a: Azelf|Azelf|45/100
+|-damage|p1a: Azelf|32/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Azelf|26/100|[from] Hail
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Azelf|[from]Assist
+|drag|p1a: Salamence|Salamence, F|8/100
+|-damage|p1a: Salamence|0 fnt|[from] Stealth Rock
+|faint|p1a: Salamence
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|82/100
+|-damage|p1a: Scizor|70/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Azelf|Azelf|26/100
+|-damage|p1a: Azelf|14/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Azelf|8/100|[from] Hail
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Azelf|[from]Assist
+|drag|p1a: Scizor|Scizor, M|70/100
+|-damage|p1a: Scizor|58/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Scizor|52/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Azelf|Azelf|8/100
+|-damage|p1a: Azelf|0 fnt|[from] Stealth Rock
+|faint|p1a: Azelf
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|64/100
+|-damage|p1a: Garchomp|57/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Scizor|Scizor, M|52/100
+|-damage|p1a: Scizor|39/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Scizor|33/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Conkeldurr|Conkeldurr, F|27/100
+|-damage|p1a: Conkeldurr|21/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Conkeldurr|15/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|-singleturn|p1a: Conkeldurr|move: Focus Punch
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Conkeldurr|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|57/100
+|-damage|p1a: Garchomp|51/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Garchomp|45/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Conkeldurr|Conkeldurr, F|15/100
+|-damage|p1a: Conkeldurr|9/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Conkeldurr|3/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Dodge Focus|Assist|p2a: Dodge Focus
+|move|p2a: Dodge Focus|Roar|p1a: Conkeldurr|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|45/100
+|-damage|p1a: Garchomp|39/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dodge Focus|70/100|[from] Hail
+|-damage|p1a: Garchomp|33/100|[from] Hail
+|-heal|p2a: Dodge Focus|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|-message|Liam ☉ Nee-san forfeited.
+|
+|win|Max Dankness
+|l|☆Liam ☉ Nee-san
+|raw|Liam ☉ Nee-san's rating: 1372 &rarr; <strong>1357</strong><br />(-15 for losing)
+|raw|Max Dankness's rating: 1463 &rarr; <strong>1478</strong><br />(+15 for winning)

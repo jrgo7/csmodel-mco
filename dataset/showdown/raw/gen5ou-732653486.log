@@ -1,0 +1,439 @@
+|j|☆Pilif
+|j|☆refsunpersons
+|player|p1|Pilif|101
+|player|p2|refsunpersons|15
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Diglett, F|item
+|poke|p2|Xatu, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pilif)
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Jirachi|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|90/100
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|94/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| basco
+|
+|move|p2a: Xatu|Night Shade|p1a: Hippowdon
+|-damage|p1a: Hippowdon|72/100
+|move|p1a: Hippowdon|Roar|p2a: Xatu
+|move|p2a: Xatu|Roar|p1a: Hippowdon|[from]Magic Bounce
+|drag|p1a: Hydreigon|Hydreigon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-damage|p2a: Xatu|88/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Hydreigon|Dark Pulse|p2a: Politoed
+|-damage|p2a: Politoed|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Toxicroak
+|-immune|p1a: Toxicroak|[msg]|[from] ability: Dry Skin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|75/100
+|move|p2a: Politoed|Ice Beam|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|88/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|94/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p2a: Xatu|Xatu, M|88/100
+|move|p1a: Toxicroak|Drain Punch|p2a: Xatu
+|-resisted|p2a: Xatu
+|-damage|p2a: Xatu|80/100
+|-heal|p1a: Toxicroak|99/100|[from] drain|[of] p2a: Xatu
+|-damage|p1a: Toxicroak|82/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|94/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|100/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Xatu|Night Shade|p1a: Umbreon
+|-damage|p1a: Umbreon|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|l| basco
+|inactive|refsunpersons has 120 seconds left.
+|
+|move|p2a: Xatu|U-turn|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|60/100
+|
+|switch|p2a: Politoed|Politoed, F|64/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Politoed|Hypnosis|p1a: Umbreon|[miss]
+|-miss|p2a: Politoed|p1a: Umbreon
+|move|p1a: Umbreon|Toxic|p2a: Politoed
+|-status|p2a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Politoed|58/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Politoed|Hypnosis|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|45/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Forretress
+|-enditem|p2a: Politoed|Water Gem|[from] gem|[move] Hydro Pump
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|7/100|[from] item: Leftovers
+|-damage|p2a: Politoed|27/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Xatu|Xatu, M|80/100
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Xatu|Night Shade|p1a: Umbreon
+|-damage|p1a: Umbreon|75/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Hydreigon|Hydreigon, M|94/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hydreigon|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|15
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Jirachi|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|51/100
+|inactive|refsunpersons has 120 seconds left.
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragonite
+|-damage|p2a: Dragonite|80/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Hippowdon|Hippowdon, F|72/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Dragonite|Hurricane|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0
+|-damage|p2a: Dragonite|70/100|[from] item: Life Orb
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|64/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|turn|18
+|
+|switch|p2a: Politoed|Politoed, F|27/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|88/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|94/100|[from] item: Black Sludge
+|-damage|p2a: Politoed|21/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Politoed
+|-damage|p2a: Politoed|0 tox
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Politoed
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|turn|20
+|
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|move|p2a: Xatu|Night Shade|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|75/100
+|move|p2a: Xatu|Night Shade|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|88/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|94/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Toxicroak|Ice Punch|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|11/100
+|-damage|p1a: Toxicroak|77/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|move|p2a: Xatu|Night Shade|p1a: Toxicroak
+|-damage|p1a: Toxicroak|45/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|57/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|63/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|switch|p1a: Forretress|Forretress, M|7/100
+|move|p2a: Xatu|Night Shade|p1a: Forretress
+|-damage|p1a: Forretress|0
+|faint|p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|51/100
+|turn|24
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0
+|faint|p2a: Xatu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|23/100
+|turn|25
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p1a: Toxicroak|Toxicroak, M|63/100
+|move|p2a: Jirachi|U-turn|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|56/100
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|68/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|75/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p1a: Umbreon|Umbreon, M|81/100
+|move|p2a: Tornadus|Hurricane|p1a: Umbreon
+|-damage|p1a: Umbreon|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|39/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Tornadus|Hurricane|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|45/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Tornadus|Hurricane|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|52/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Tornadus|Hurricane|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|0
+|faint|p1a: Umbreon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|51/100
+|turn|30
+|
+|switch|p2a: Jirachi|Jirachi|23/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|31
+|
+|switch|p1a: Toxicroak|Toxicroak, M|75/100
+|move|p2a: Tornadus|Hurricane|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|51/100
+|turn|32
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Tornadus
+|-damage|p2a: Tornadus|0
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Diglett|Diglett, F|100/100
+|turn|33
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Diglett
+|-enditem|p2a: Diglett|Focus Sash
+|-damage|p2a: Diglett|1/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Diglett|Reversal|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0
+|faint|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|turn|34
+|
+|move|p1a: Infernape|Hidden Power|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0
+|-damage|p1a: Infernape|91/100|[from] item: Life Orb
+|faint|p2a: Diglett
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|64/100
+|turn|35
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Infernape
+|-damage|p1a: Infernape|37/100
+|-damage|p2a: Dragonite|54/100|[from] item: Life Orb
+|move|p1a: Infernape|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0
+|-damage|p1a: Infernape|27/100|[from] item: Life Orb
+|faint|p2a: Dragonite
+|
+|win|Pilif
+|raw|Pilif's rating: 1266 &rarr; <strong>1300</strong><br />(+34 for winning)
+|raw|refsunpersons's rating: 1384 &rarr; <strong>1358</strong><br />(-26 for losing)
+|l|☆refsunpersons

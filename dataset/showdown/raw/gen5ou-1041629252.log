@@ -1,0 +1,245 @@
+|j|‽HaxerAreBastards
+|j|☆quoppin
+|player|p1|HaxerAreBastards|249|1580
+|player|p2|quoppin|265|1292
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Infernape, M|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Reuniclus, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Gyarados, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HaxerAreBastards)
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Keldeo|Keldeo|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|move|p2a: Keldeo|Secret Sword|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Politoed|Hidden Power|p1a: Reuniclus
+|-damage|p1a: Reuniclus|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Reuniclus|Psyshock|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Reuniclus|Shadow Ball|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|6
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Jellicent
+|-immune|p1a: Jellicent|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|switch|p2a: Keldeo|Keldeo|94/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Jellicent|Energy Ball|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|9
+|
+|move|p1a: Jellicent|Scald|p2a: Tornadus
+|-damage|p2a: Tornadus|24/100
+|-status|p2a: Tornadus|brn
+|move|p2a: Tornadus|Hurricane|p1a: Jellicent
+|-damage|p1a: Jellicent|22/100
+|-start|p1a: Jellicent|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|28/100|[from] item: Leftovers
+|-damage|p2a: Tornadus|12/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|-activate|p1a: Jellicent|confusion
+|move|p1a: Jellicent|Scald|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|11
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|move|p2a: Gyarados|Waterfall|p1a: Bronzong
+|-damage|p1a: Bronzong|11/100
+|cant|p1a: Bronzong|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Gyarados|Waterfall|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|34/100
+|turn|14
+|
+|move|p2a: Gyarados|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|move|p2a: Gyarados|Waterfall|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|16
+|
+|move|p2a: Gyarados|Waterfall|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|73/100
+|turn|17
+|
+|move|p2a: Gyarados|Waterfall|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|turn|18
+|
+|move|p2a: Gyarados|Waterfall|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-enditem|p1a: Infernape|Focus Sash
+|-damage|p1a: Infernape|1/100
+|move|p1a: Infernape|Hidden Power|p2a: Gyarados
+|-damage|p2a: Gyarados|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|56/100|[from] Sandstorm
+|-damage|p1a: Infernape|0 fnt|[from] Sandstorm
+|faint|p1a: Infernape
+|
+|win|quoppin
+|upkeep
+|raw|HaxerAreBastards's rating: 1580 &rarr; <strong>1546</strong><br />(-34 for losing)
+|raw|quoppin's rating: 1293 &rarr; <strong>1335</strong><br />(+42 for winning)
+|l|☆quoppin

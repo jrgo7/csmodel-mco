@@ -1,0 +1,473 @@
+|j|☆AtlanticAveRe
+|j|☆OotZ
+|player|p1|AtlanticAveRe|2
+|player|p2|OotZ|75
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Abomasnow, M|item
+|poke|p1|Weavile, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Heatran, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AtlanticAveRe)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|turn|1
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Landorus|Earthquake|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Heatran
+|-sidestart|p2: OotZ|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: AtlanticAveRe|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|99/100
+|-sideend|p1: AtlanticAveRe|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Heatran|Lava Plume|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|87/100
+|
+|-heal|p1a: Tentacruel|93/100|[from] item: Black Sludge
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Tentacruel|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|42/100
+|move|p2a: Heatran|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: AtlanticAveRe|move: Stealth Rock
+|
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p2a: Heatran|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|47/100
+|-sideend|p1: AtlanticAveRe|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Heatran|Lava Plume|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|85/100
+|-status|p1a: Tentacruel|brn
+|
+|-heal|p1a: Tentacruel|91/100 brn|[from] item: Black Sludge
+|-heal|p2a: Heatran|53/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|79/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Heatran
+|-sidestart|p2: OotZ|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|85/100 brn|[from] item: Black Sludge
+|-heal|p2a: Heatran|59/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|73/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Heatran|Stealth Rock|p1a: Weavile
+|-sidestart|p1: AtlanticAveRe|move: Stealth Rock
+|
+|-heal|p2a: Heatran|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Weavile|Low Kick|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Heatran|Heatran, M|65/100
+|-damage|p2a: Heatran|53/100|[from] Stealth Rock
+|move|p1a: Heatran|Roar|p2a: Heatran
+|drag|p2a: Tyranitar|Tyranitar, M|100/100
+|-status|p2a: Tyranitar|psn
+|-damage|p2a: Tyranitar|88/100 psn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|76/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-status|p2a: Garchomp|psn
+|-damage|p2a: Garchomp|94/100 psn|[from] Stealth Rock
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-fail|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Garchomp|82/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Garchomp|70/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Heatran|Heatran, M|53/100
+|-damage|p2a: Heatran|40/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|34/100
+|
+|switch|p1a: Tentacruel|Tentacruel, F|73/100 brn
+|-damage|p1a: Tentacruel|60/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|54/100 brn|[from] Sandstorm
+|-heal|p1a: Tentacruel|60/100 brn|[from] item: Black Sludge
+|-heal|p2a: Heatran|41/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|48/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-status|p2a: Jellicent|psn
+|-damage|p2a: Jellicent|88/100 psn|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Jellicent
+|-sidestart|p2: OotZ|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|41/100 brn|[from] Sandstorm
+|-damage|p2a: Jellicent|82/100 psn|[from] Sandstorm
+|-heal|p1a: Tentacruel|48/100 brn|[from] item: Black Sludge
+|-heal|p2a: Jellicent|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Tentacruel|35/100 brn|[from] brn
+|-damage|p2a: Jellicent|76/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-damage|p1a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Jellicent|Scald|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|67/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jellicent|69/100 psn|[from] Hail
+|-heal|p2a: Jellicent|76/100 psn|[from] item: Leftovers
+|-heal|p1a: Abomasnow|73/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|63/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|-status|p2a: Reuniclus|tox
+|move|p1a: Abomasnow|Substitute|p1a: Abomasnow
+|-start|p1a: Abomasnow|Substitute
+|-damage|p1a: Abomasnow|48/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Abomasnow|54/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Abomasnow|Blizzard|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|28/100 tox
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Abomasnow|60/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|34/100 tox|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Abomasnow|Wood Hammer|p2a: Reuniclus
+|-damage|p2a: Reuniclus|9/100 tox
+|-damage|p1a: Abomasnow|50/100|[from] Recoil
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|59/100 tox
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Abomasnow|56/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|65/100 tox|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|25/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|19/100|[from] Hail
+|-heal|p1a: Heatran|25/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|71/100 tox|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Reuniclus|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0
+|faint|p1a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Reuniclus|77/100 tox|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|23
+|
+|move|p1a: Weavile|Night Slash|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|5/100 tox
+|move|p2a: Reuniclus|Focus Blast|p1a: Weavile|[miss]
+|-miss|p2a: Reuniclus|p1a: Weavile
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Reuniclus|11/100 tox|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Weavile|Night Slash|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 tox
+|faint|p2a: Reuniclus
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|move|p2a: Skarmory|Spikes|p1a: Landorus
+|-sidestart|p1: AtlanticAveRe|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|70/100|[from] Hail
+|-damage|p2a: Skarmory|82/100|[from] Hail
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Landorus|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|83/100
+|
+|switch|p1a: Tentacruel|Tentacruel, F|35/100 brn
+|-damage|p1a: Tentacruel|23/100 brn|[from] Spikes
+|-damage|p1a: Tentacruel|10/100 brn|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Tentacruel
+|-sidestart|p1: AtlanticAveRe|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|4/100 brn|[from] Hail
+|-damage|p2a: Skarmory|77/100|[from] Hail
+|-heal|p1a: Tentacruel|10/100 brn|[from] item: Black Sludge
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|0 brn|[from] brn
+|upkeep
+|faint|p1a: Tentacruel
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|27
+|
+|move|p1a: Alakazam|Encore|p2a: Skarmory
+|-start|p2a: Skarmory|Encore
+|move|p2a: Skarmory|Spikes|p1a: Alakazam
+|-sidestart|p1: AtlanticAveRe|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|77/100|[from] Hail
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Tyranitar|Tyranitar, M|76/100 psn
+|-damage|p2a: Tyranitar|64/100 psn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Alakazam|Psychic|p2a: Tyranitar
+|-immune|p2a: Tyranitar|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|51/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Alakazam|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|39/100 psn|[from] psn
+|upkeep
+|turn|30
+|inactive|OotZ has 120 seconds left.
+|
+|move|p1a: Alakazam|Signal Beam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|5/100 psn
+|move|p2a: Tyranitar|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|0 psn|[from] psn
+|upkeep
+|faint|p2a: Tyranitar
+|
+|switch|p1a: Abomasnow|Abomasnow, M|56/100
+|switch|p2a: Heatran|Heatran, M|41/100
+|-damage|p2a: Heatran|28/100|[from] Stealth Rock
+|-damage|p1a: Abomasnow|32/100|[from] Spikes
+|-damage|p1a: Abomasnow|7/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|31
+|
+|move|p2a: Heatran|Lava Plume|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|22/100|[from] Hail
+|-heal|p2a: Heatran|28/100|[from] item: Leftovers
+|upkeep
+|inactive|AtlanticAveRe has 120 seconds left.
+|
+|switch|p1a: Landorus|Landorus-Therian, M|70/100
+|-damage|p1a: Landorus|58/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|turn|32
+|
+|move|p1a: Landorus|Stone Edge|p2a: Heatran
+|-damage|p2a: Heatran|0
+|faint|p2a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|52/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|70/100 psn
+|-damage|p2a: Garchomp|64/100 psn|[from] Stealth Rock
+|turn|33
+|
+|switch|p1a: Weavile|Weavile, F|76/100
+|-damage|p1a: Weavile|51/100|[from] Stealth Rock
+|-damage|p1a: Weavile|26/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Garchomp|Outrage|p1a: Weavile
+|-damage|p1a: Weavile|0
+|faint|p1a: Weavile
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Garchomp|57/100 psn|[from] Hail
+|-damage|p2a: Garchomp|45/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|52/100
+|-damage|p1a: Landorus|40/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|34
+|
+|move|p1a: Landorus|Stone Edge|p2a: Garchomp|[miss]
+|-miss|p1a: Landorus|p2a: Garchomp
+|move|p2a: Garchomp|Outrage|p1a: Landorus|[from]lockedmove
+|-damage|p1a: Landorus|0
+|-start|p2a: Garchomp|confusion|[fatigue]
+|faint|p1a: Landorus
+|
+|win|OotZ
+|raw|AtlanticAveRe's rating: 1418 &rarr; <strong>1391</strong><br />(-27 for losing)
+|raw|OotZ's rating: 1289 &rarr; <strong>1323</strong><br />(+34 for winning)
+|l|☆AtlanticAveRe

@@ -1,0 +1,287 @@
+|join|AngryPsyduck5
+|join|Pythagorean Python
+|player|p1|AngryPsyduck5|256
+|player|p2|Pythagorean Python|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Tentacruel, F
+|poke|p1|Politoed, M
+|poke|p1|Thundurus-Therian, M
+|poke|p1|Jellicent, M
+|poke|p1|Dragonite, F
+|poke|p1|Ferrothorn, F, shiny
+|poke|p2|Ninetales, M
+|poke|p2|Darmanitan, M
+|poke|p2|Victreebel, F
+|poke|p2|Shiftry, M
+|poke|p2|Forretress, M
+|poke|p2|Raikou, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Thundo|Thundurus-Therian, M|299/299
+|switch|p2a: Raikou|Raikou, shiny|322/322
+|-ability|p2a: Raikou|Pressure
+|turn|1
+|
+|move|p1a: Thundo|U-turn|p2a: Raikou
+|-damage|p2a: Raikou|247/322
+|
+|switch|p1a: Ferrocious|Ferrothorn, F, shiny|351/351
+|move|p2a: Raikou|Hidden Power|p1a: Ferrocious
+|-damage|p1a: Ferrocious|256/351
+|-damage|p2a: Raikou|215/322|[from] item: Life Orb
+|
+|turn|2
+|
+|move|p2a: Raikou|Aura Sphere|p1a: Ferrocious
+|-supereffective|p1a: Ferrocious
+|-damage|p1a: Ferrocious|0 fnt
+|-damage|p2a: Raikou|183/322|[from] item: Life Orb
+|faint|p1a: Ferrocious
+|
+|chat|AngryPsyduck5|shoot
+|
+|switch|p1a: Thundo|Thundurus-Therian, M|299/299
+|turn|3
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|move|p1a: Thundo|U-turn|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|338/354
+|
+|switch|p1a: Mr. Squidward|Tentacruel, F|363/363
+|
+|-heal|p2a: Forretress|354/354|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Mr. Squidward|Scald|p2a: Forretress
+|-damage|p2a: Forretress|239/354
+|-status|p2a: Forretress|brn
+|move|p2a: Forretress|Volt Switch|p1a: Mr. Squidward
+|-supereffective|p1a: Mr. Squidward
+|-damage|p1a: Mr. Squidward|297/363
+|
+|switch|p2a: Raikou|Raikou, shiny|183/322
+|-ability|p2a: Raikou|Pressure
+|
+|-heal|p1a: Mr. Squidward|319/363|[from] item: Black Sludge
+|turn|5
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Mr. Squidward
+|-supereffective|p1a: Mr. Squidward
+|-damage|p1a: Mr. Squidward|0 fnt
+|-damage|p2a: Raikou|151/322|[from] item: Life Orb
+|faint|p1a: Mr. Squidward
+|
+|
+|switch|p1a: Thundo|Thundurus-Therian, M|299/299
+|turn|6
+|
+|switch|p2a: Forretress|Forretress, M|239/354 brn
+|move|p1a: Thundo|U-turn|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|222/354 brn
+|
+|switch|p1a: Disconite|Dragonite, F|386/386
+|
+|-heal|p2a: Forretress|244/354 brn|[from] item: Leftovers
+|-damage|p2a: Forretress|200/354 brn|[from] brn
+|turn|7
+|
+|move|p1a: Disconite|Dragon Dance|p1a: Disconite
+|-boost|p1a: Disconite|atk|1
+|-boost|p1a: Disconite|spe|1
+|move|p2a: Forretress|Stealth Rock|p1a: Disconite
+|-sidestart|p1: AngryPsyduck5|move: Stealth Rock
+|
+|-heal|p2a: Forretress|222/354 brn|[from] item: Leftovers
+|-damage|p2a: Forretress|178/354 brn|[from] brn
+|turn|8
+|
+|move|p1a: Disconite|Dragon Dance|p1a: Disconite
+|-boost|p1a: Disconite|atk|1
+|-boost|p1a: Disconite|spe|1
+|move|p2a: Forretress|Volt Switch|p1a: Disconite
+|-damage|p1a: Disconite|369/386
+|
+|switch|p2a: Ninetales|Ninetales, M|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|switch|p2a: Forretress|Forretress, M|178/354 brn
+|move|p1a: Disconite|Earthquake|p2a: Forretress
+|-crit|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Victreebel|Victreebel, F|302/302
+|turn|10
+|
+|move|p2a: Victreebel|Hidden Power|p1a: Disconite
+|-supereffective|p1a: Disconite
+|-damage|p1a: Disconite|0 fnt
+|-damage|p2a: Victreebel|272/302|[from] item: Life Orb
+|faint|p1a: Disconite
+|
+|-weather|SunnyDay|[upkeep]
+|chat|AngryPsyduck5|CHLOROPHYLL
+|
+|switch|p1a: Thundo|Thundurus-Therian, M|299/299
+|-damage|p1a: Thundo|225/299|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Thundo|Hidden Power|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Shiftry|Shiftry, M|321/321
+|turn|12
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Thundo
+|-damage|p1a: Thundo|17/299
+|-damage|p2a: Shiftry|289/321|[from] item: Life Orb
+|move|p1a: Thundo|Hidden Power|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|35/321
+|
+|-weather|SunnyDay|[upkeep]
+|turn|13
+|
+|switch|p1a: Make it RainDance!|Politoed, M|384/384
+|-damage|p1a: Make it RainDance!|336/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Make it RainDance!
+|move|p2a: Shiftry|Sucker Punch|p1a: Make it RainDance!
+|-fail|p1a: Make it RainDance!
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Make it RainDance!|360/384|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Shiftry|Seed Bomb|p1a: Make it RainDance!
+|-supereffective|p1a: Make it RainDance!
+|-damage|p1a: Make it RainDance!|79/384
+|-damage|p2a: Shiftry|3/321|[from] item: Life Orb
+|move|p1a: Make it RainDance!|Toxic|p2a: Shiftry
+|-status|p2a: Shiftry|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Make it RainDance!|103/384|[from] item: Leftovers
+|-damage|p2a: Shiftry|0 fnt|[from] psn
+|faint|p2a: Shiftry
+|
+|switch|p2a: Ninetales|Ninetales, M|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|15
+|
+|switch|p1a: Thundo|Thundurus-Therian, M|17/299
+|-damage|p1a: Thundo|0 fnt|[from] Stealth Rock
+|faint|p1a: Thundo
+|move|p2a: Ninetales|Energy Ball|p1: Thundo|[notarget]
+|-notarget
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Mike D'Antoni|Jellicent, M|404/404
+|-damage|p1a: Mike D'Antoni|354/404|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Ninetales|Energy Ball|p1a: Mike D'Antoni
+|-supereffective|p1a: Mike D'Antoni
+|-damage|p1a: Mike D'Antoni|196/404
+|move|p1a: Mike D'Antoni|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|204/288
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mike D'Antoni|221/404|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Darmanitan|Darmanitan, M|351/351
+|move|p1a: Mike D'Antoni|Scald|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|211/351
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mike D'Antoni|246/404|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Make it RainDance!|Politoed, M|103/384
+|-damage|p1a: Make it RainDance!|55/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Make it RainDance!
+|move|p2a: Darmanitan|Flare Blitz|p1a: Make it RainDance!
+|-resisted|p1a: Make it RainDance!
+|-damage|p1a: Make it RainDance!|0 fnt
+|-damage|p2a: Darmanitan|193/351|[from] recoil|[of] p1a: Make it RainDance!
+|faint|p1a: Make it RainDance!
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Mike D'Antoni|Jellicent, M|246/404
+|-damage|p1a: Mike D'Antoni|196/404|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Ninetales|Ninetales, M|204/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Mike D'Antoni|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|114/288
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mike D'Antoni|221/404|[from] item: Leftovers
+|turn|20
+|
+|switch|p2a: Darmanitan|Darmanitan, M|193/351
+|move|p1a: Mike D'Antoni|Recover|p1a: Mike D'Antoni
+|-heal|p1a: Mike D'Antoni|404/404
+|
+|-weather|SunnyDay|[upkeep]
+|turn|21
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Mike D'Antoni
+|-resisted|p1a: Mike D'Antoni
+|-damage|p1a: Mike D'Antoni|135/404
+|-damage|p2a: Darmanitan|104/351|[from] recoil|[of] p1a: Mike D'Antoni
+|move|p1a: Mike D'Antoni|Scald|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mike D'Antoni|160/404|[from] item: Leftovers
+|
+|switch|p2a: Raikou|Raikou, shiny|151/322
+|-ability|p2a: Raikou|Pressure
+|turn|22
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Mike D'Antoni
+|-supereffective|p1a: Mike D'Antoni
+|-damage|p1a: Mike D'Antoni|0 fnt
+|-damage|p2a: Raikou|119/322|[from] item: Life Orb
+|faint|p1a: Mike D'Antoni
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|AngryPsyduck5's rating: 1313 &rarr; <strong>1295</strong><br />(-18 for losing)
+|raw|Pythagorean Python's rating: 1342 &rarr; <strong>1361</strong><br />(+19 for winning)
+|chat|AngryPsyduck5|gg
+|leave|AngryPsyduck5
+|player|p1

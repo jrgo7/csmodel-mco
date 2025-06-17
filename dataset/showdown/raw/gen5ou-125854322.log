@@ -1,0 +1,190 @@
+|join|AuraRayquaza
+|join|raichushiny
+|player|p1|AuraRayquaza|266
+|player|p2|raichushiny|163
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Skarmory, F
+|poke|p1|Mamoswine, M
+|poke|p1|Gengar, F
+|poke|p1|Latias, F
+|poke|p1|Jirachi
+|poke|p1|Breloom, M
+|poke|p2|Espeon, F
+|poke|p2|Gorebyss, F
+|poke|p2|Keldeo
+|poke|p2|Terrakion
+|poke|p2|Dragonite, F
+|poke|p2|Jirachi
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|raichushiny|lol you 
+|chat|raichushiny|gl
+|chat|AuraRayquaza|Gl
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|240/240
+|switch|p2a: Great coverage|Terrakion|323/323
+|turn|1
+|
+|move|p2a: Great coverage|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|move|p1a: Skarmory|Brave Bird|p2a: Great coverage
+|-damage|p2a: Great coverage|146/323
+|-damage|p1a: Skarmory|182/240|[from] recoil|[of] p2a: Great coverage
+|
+|turn|2
+|
+|move|p2a: Great coverage|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: AuraRayquaza|move: Stealth Rock
+|move|p1a: Skarmory|Brave Bird|p2a: Great coverage
+|-damage|p2a: Great coverage|0 fnt
+|-damage|p1a: Skarmory|134/240|[from] recoil|[of] p2a: Great coverage
+|faint|p2a: Great coverage
+|
+|
+|switch|p2a: Spashbyss|Gorebyss, F|311/311
+|turn|3
+|
+|move|p1a: Skarmory|Brave Bird|p2a: Spashbyss
+|-damage|p2a: Spashbyss|169/311
+|-damage|p1a: Skarmory|87/240|[from] recoil|[of] p2a: Spashbyss
+|move|p2a: Spashbyss|Shell Smash|p2a: Spashbyss
+|-boost|p2a: Spashbyss|atk|2
+|-boost|p2a: Spashbyss|spa|2
+|-boost|p2a: Spashbyss|spe|2
+|-unboost|p2a: Spashbyss|def|1
+|-unboost|p2a: Spashbyss|spd|1
+|-enditem|p2a: Spashbyss|White Herb
+|-restoreboost|p2a: Spashbyss|[silent]
+|
+|-end|p1a: Skarmory|move: Taunt
+|turn|4
+|
+|move|p2a: Spashbyss|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|
+|switch|p1a: Jirachi|Jirachi|341/341
+|-damage|p1a: Jirachi|320/341|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Jirachi|U-turn|p2a: Spashbyss
+|-crit|p2a: Spashbyss
+|-damage|p2a: Spashbyss|47/311
+|
+|switch|p1a: Latias|Latias, F|364/364
+|-damage|p1a: Latias|319/364|[from] Stealth Rock
+|move|p2a: Spashbyss|Baton Pass|p2a: Spashbyss
+|
+|switch|p2a: Topnite|Dragonite, F|323/323
+|
+|-heal|p1a: Latias|341/364|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Topnite|Outrage|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|
+|switch|p1a: Jirachi|Jirachi|320/341
+|-damage|p1a: Jirachi|299/341|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Topnite|Outrage|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|77/341
+|move|p1a: Jirachi|Ice Punch|p2a: Topnite
+|-supereffective|p2a: Topnite
+|-damage|p2a: Topnite|163/323
+|-status|p2a: Topnite|frz
+|-enditem|p2a: Topnite|Lum Berry|[eat]
+|-curestatus|p2a: Topnite|frz
+|
+|turn|8
+|
+|move|p2a: Topnite|Outrage|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-end|p2a: Topnite|rampage
+|-start|p2a: Topnite|confusion
+|
+|switch|p1a: Mamoswine|Mamoswine, M|362/362
+|-damage|p1a: Mamoswine|317/362|[from] Stealth Rock
+|turn|9
+|
+|-activate|p2a: Topnite|confusion
+|-damage|p2a: Topnite|44/323|[from] confusion
+|move|p1a: Mamoswine|Ice Shard|p2a: Topnite
+|-supereffective|p2a: Topnite
+|-damage|p2a: Topnite|0 fnt
+|-damage|p1a: Mamoswine|281/362|[from] item: Life Orb
+|faint|p2a: Topnite
+|
+|
+|switch|p2a: Wallbreaker|Keldeo|371/371
+|turn|10
+|
+|switch|p1a: Gengar|Gengar, F|262/262
+|-damage|p1a: Gengar|230/262|[from] Stealth Rock
+|move|p2a: Wallbreaker|Surf|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|
+|switch|p1a: Breloom|Breloom, M|262/262
+|-damage|p1a: Breloom|246/262|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Spashbyss|Gorebyss, F|47/311
+|move|p1a: Breloom|Bullet Seed|p2a: Spashbyss
+|-supereffective|p2a: Spashbyss
+|-damage|p2a: Spashbyss|0 fnt
+|-hitcount|p2a: Spashbyss|1
+|faint|p2a: Spashbyss
+|
+|
+|switch|p2a: Magicpeon|Espeon, F|323/323
+|turn|12
+|
+|move|p2a: Magicpeon|Psychic|p1a: Breloom
+|-crit|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|
+|switch|p1a: Mamoswine|Mamoswine, M|281/362
+|-damage|p1a: Mamoswine|236/362|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Magicpeon|Reflect|p2a: Magicpeon
+|-sidestart|p2: raichushiny|Reflect
+|move|p1a: Mamoswine|Earthquake|p2a: Magicpeon
+|-damage|p2a: Magicpeon|162/323
+|-damage|p1a: Mamoswine|200/362|[from] item: Life Orb
+|
+|turn|14
+|chat|raichushiny|gg
+|-message|AuraRayquaza forfeited.
+|
+|win|raichushiny
+|raw|Ladder updating...
+|raw|AuraRayquaza's rating: 1499 &rarr; <strong>1479</strong><br />(-20 for losing)
+|raw|raichushiny's rating: 1488 &rarr; <strong>1509</strong><br />(+21 for winning)
+|leave|AuraRayquaza
+|player|p1

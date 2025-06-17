@@ -1,0 +1,384 @@
+|j|☆Antoinos Danielos
+|j|☆Gh0st of Perdition
+|player|p1|Antoinos Danielos|galacticgrunt|1457
+|player|p2|Gh0st of Perdition|guitarist-gen4|1553
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Gyarados, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Politoed, F|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Starmie|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Antoinos Danielos|move: Stealth Rock
+|
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|85/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Latios|Trick|p1a: Ferrothorn
+|-activate|p2a: Latios|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Latios
+|-sidestart|p2: Gh0st of Perdition|move: Stealth Rock
+|
+|-heal|p2a: Latios|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|
+|-heal|p2a: Latios|97/100|[from] item: Leftovers
+|-heal|p1a: Rotom|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Latios|Draco Meteor|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Rotom
+|
+|-heal|p2a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|6
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Excadrill|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|80/100
+|-sideend|p1: Antoinos Danielos|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Politoed|atk|1
+|move|p2a: Politoed|Ice Beam|p1a: Gyarados
+|-damage|p1a: Gyarados|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|65/100
+|move|p2a: Starmie|Thunder|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|71/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Gyarados|Waterfall|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|24/100
+|cant|p2a: Starmie|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|77/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gh0st of Perdition)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|88/100 brn
+|-damage|p2a: Ferrothorn|82/100 brn|[from] Stealth Rock
+|move|p1a: Gyarados|Waterfall|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|49/100 brn
+|-damage|p1a: Gyarados|65/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|71/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|36/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|46/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: Antoinos Danielos|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|52/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|24/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Politoed|Politoed, F|80/100
+|-damage|p2a: Politoed|68/100|[from] Stealth Rock
+|move|p1a: Gyarados|Waterfall|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|12/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|58/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|-enditem|p2a: Politoed|Custap Berry|[eat]
+|-activate|p2a: Politoed|item: Custap Berry|[consumed]
+|
+|move|p2a: Politoed|Endeavor|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|move|p1a: Gyarados|Waterfall|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|65/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Gyarados|Stone Edge|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|17
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Latios
+|-damage|p2a: Latios|11/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|17/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Antoinos Danielos has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|76/100
+|-damage|p1a: Ferrothorn|70/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|23/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Antoinos Danielos has 120 seconds left.
+|
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|73/100
+|move|p1a: Ferrothorn|Spikes|p2a: Latios
+|-sidestart|p2: Gh0st of Perdition|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|79/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Latios|Surf|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|34/100
+|move|p1a: Ferrothorn|Spikes|p2a: Latios
+|-sidestart|p2: Gh0st of Perdition|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|85/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Politoed
+|-resisted|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|91/100|[from] item: Leftovers
+|-heal|p1a: Politoed|54/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Starmie|Starmie|24/100
+|-damage|p2a: Starmie|12/100|[from] Stealth Rock
+|-damage|p2a: Starmie|0 fnt|[from] Spikes
+|faint|p2a: Starmie
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|84/100|[from] Spikes
+|-damage|p2a: Mamoswine|71/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|24
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Mamoswine
+|-damage|p2a: Mamoswine|63/100
+|-sideend|p1: Antoinos Danielos|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Mamoswine|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Antoinos Danielos has 120 seconds left.
+|inactive|Antoinos Danielos has 90 seconds left.
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|25
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|76/100
+|-damage|p2a: Gyarados|51/100|[from] Stealth Rock
+|turn|26
+|inactive|Antoinos Danielos has 90 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|34/100
+|move|p2a: Gyarados|Waterfall|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|14/100
+|-damage|p2a: Gyarados|39/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|inactive|Antoinos Danielos has 90 seconds left.
+|
+|move|p2a: Gyarados|Waterfall|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Gyarados|26/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|28
+|
+|move|p2a: Gyarados|Waterfall|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-enditem|p1a: Volcarona|Passho Berry|[eat]
+|-enditem|p1a: Volcarona|Passho Berry|[weaken]
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Gyarados|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|win|Gh0st of Perdition
+|raw|Antoinos Danielos's rating: 1457 &rarr; <strong>1443</strong><br />(-14 for losing)
+|raw|Gh0st of Perdition's rating: 1553 &rarr; <strong>1567</strong><br />(+14 for winning)
+|c|☆Gh0st of Perdition|Gg

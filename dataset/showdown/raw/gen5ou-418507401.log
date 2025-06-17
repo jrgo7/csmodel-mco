@@ -1,0 +1,411 @@
+|j|westmoore
+|j|a161616
+|player|p1|westmoore|244
+|player|p2|a161616|169
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|31081,12423,45549,28100
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Moltres|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Breloom, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Tyranitar, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Politoed|Politoed, F|322/322
+|switch|p2a: Keldeo|Keldeo-Resolute|323/323
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|choice|switch 3|move calmmind
+|
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|choice|move sludgebomb|move calmmind
+|
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Keldeo
+|-damage|p2a: Keldeo|272/323
+|-status|p2a: Keldeo|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|232/323 psn|[from] psn
+|upkeep
+|turn|3
+|choice|move sludgebomb|move calmmind
+|
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Keldeo
+|-damage|p2a: Keldeo|187/323 psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|147/323 psn|[from] psn
+|upkeep
+|turn|4
+|choice|move sludgebomb|move secretsword
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Tentacruel
+|-enditem|p2a: Keldeo|Fighting Gem|[from] gem|[move] Secret Sword
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|107/323 psn|[from] psn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Politoed|Politoed, F|322/322
+|turn|5
+|choice|move encore|move secretsword
+|
+|move|p1a: Politoed|Encore|p2a: Keldeo
+|-start|p2a: Keldeo|Encore
+|move|p2a: Keldeo|Secret Sword|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|67/323 psn|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Moltres|Moltres|321/321
+|-ability|p1a: Moltres|Pressure
+|turn|6
+|choice|move hurricane|move secretsword
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|120/321
+|move|p1a: Moltres|Hurricane|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|140/321|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|385/385
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|7
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Seismitoad|Seismitoad, M|391/391
+|move|p2a: Tyranitar|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: westmoore|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|351/351
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: a161616|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|choice|switch 5|move spikes
+|
+|switch|p1a: Moltres|Moltres|140/321
+|-damage|p1a: Moltres|0 fnt|[from] Stealth Rock
+|faint|p1a: Moltres
+|move|p2a: Ferrothorn|Spikes|p1: Moltres
+|-sidestart|p1: westmoore|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Breloom|Breloom, M|324/324
+|-damage|p1a: Breloom|304/324|[from] Stealth Rock
+|-damage|p1a: Breloom|264/324|[from] Spikes
+|turn|10
+|choice|move spore|switch 4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|355/355
+|-damage|p2a: Landorus|311/355|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Spore|p2a: Landorus
+|-status|p2a: Landorus|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|244/324|[from] sandstorm
+|-heal|p2a: Landorus|333/355 slp|[from] item: Leftovers
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|choice|move bulkup|switch 2
+|
+|switch|p2a: Hydreigon|Hydreigon, F|325/325
+|-damage|p2a: Hydreigon|285/325|[from] Stealth Rock
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|265/325|[from] sandstorm
+|-damage|p1a: Breloom|224/324 tox|[from] sandstorm
+|-heal|p1a: Breloom|264/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|choice|switch 5|move fireblast
+|
+|switch|p1a: Seismitoad|Seismitoad, M|391/391
+|-damage|p1a: Seismitoad|343/391|[from] Spikes
+|-damage|p1a: Seismitoad|319/391|[from] Stealth Rock
+|move|p2a: Hydreigon|Fire Blast|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|210/391
+|-damage|p2a: Hydreigon|233/325|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|213/325|[from] sandstorm
+|-heal|p1a: Seismitoad|234/391|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|switch 4|switch 4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|351/351
+|-damage|p2a: Ferrothorn|330/351|[from] Stealth Rock
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|354/404|[from] Spikes
+|-damage|p1a: Jirachi|329/404|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|354/404|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move wish|move spikes
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ferrothorn|Spikes|p1a: Jirachi
+|-sidestart|p1: westmoore|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|379/404|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|switch 5|switch 3
+|
+|switch|p1a: Breloom|Breloom, M|264/324 tox
+|-damage|p1a: Breloom|210/324 tox|[from] Spikes
+|-damage|p1a: Breloom|190/324 tox|[from] Stealth Rock
+|switch|p2a: Tyranitar|Tyranitar, M|385/385
+|-damage|p2a: Tyranitar|337/385|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|170/324 tox|[from] sandstorm
+|-heal|p1a: Breloom|324/324 tox|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|16
+|choice|move drainpunch|move fireblast
+|
+|move|p1a: Breloom|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|103/385
+|move|p2a: Tyranitar|Fire Blast|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|42/324 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|22/324 tox|[from] sandstorm
+|-heal|p1a: Breloom|62/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|choice|move drainpunch|move fireblast
+|
+|move|p1a: Breloom|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: Breloom|114/324 tox|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/324 tox|[from] sandstorm
+|-heal|p1a: Breloom|134/324 tox|[from] ability: Poison Heal
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|-damage|p2a: Garchomp|335/357|[from] Stealth Rock
+|turn|18
+|choice|move drainpunch|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Jirachi|Jirachi|379/404
+|-damage|p1a: Jirachi|354/404|[from] Stealth Rock
+|-damage|p1a: Jirachi|287/404|[from] Spikes
+|turn|19
+|choice|move wish|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|163/404
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|188/404|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move thunder|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|79/404
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Jirachi|Thunder|p2a: Garchomp
+|-immune|p2a: Garchomp|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|281/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|306/404|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move wish|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|330/351
+|-damage|p2a: Ferrothorn|309/351|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|331/404|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move thunder|move spikes
+|
+|move|p1a: Jirachi|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|264/351
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Spikes|p1a: Jirachi
+|-sidestart|p1: westmoore|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|23
+|choice|move thunder|move leechseed
+|
+|move|p1a: Jirachi|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|225/351 par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jirachi|354/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|275/351 par|[silent]
+|upkeep
+|turn|24
+|choice|move wish|move powerwhip
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ferrothorn|Power Whip|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|273/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|298/404|[from] item: Leftovers
+|-damage|p1a: Jirachi|248/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|325/351 par|[silent]
+|upkeep
+|turn|25
+|choice|move thunder|move powerwhip
+|
+|move|p1a: Jirachi|Thunder|p2a: Ferrothorn|[miss]
+|-miss|p1a: Jirachi|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|170/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|372/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|397/404|[from] item: Leftovers
+|-damage|p1a: Jirachi|347/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|351/351 par|[silent]
+|upkeep
+|turn|26
+|choice|move wish|switch 3
+|
+|switch|p2a: Garchomp|Garchomp, M|335/357
+|-damage|p2a: Garchomp|313/357|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|372/404|[from] item: Leftovers
+|-damage|p1a: Jirachi|322/404|[from] Leech Seed|[of] p2a: Garchomp
+|-heal|p2a: Garchomp|357/357|[silent]
+|upkeep
+|turn|27
+|choice|move ironhead|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Seismitoad|Seismitoad, M|234/391
+|-damage|p1a: Seismitoad|210/391|[from] Stealth Rock
+|-damage|p1a: Seismitoad|113/391|[from] Spikes
+|turn|28
+|choice|move icepunch|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|win|a161616
+|player|p1
+|player|p2
+|raw|westmoore's rating: 1447 &rarr; <strong>1420</strong><br />(-27 for losing)
+|raw|a161616's rating: 1319 &rarr; <strong>1346</strong><br />(+27 for winning)

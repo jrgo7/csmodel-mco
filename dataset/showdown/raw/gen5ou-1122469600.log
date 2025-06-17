@@ -1,0 +1,514 @@
+|j|☆LonzoMadeKuz
+|j|☆secksy dahlia
+|player|p1|LonzoMadeKuz|50|1474
+|player|p2|secksy dahlia|dahlia|1384
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Reuniclus, F|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Dragonite, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by secksy dahlia)
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|
+|move|p1a: Tentacruel|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|60/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: LonzoMadeKuz|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Tentacruel|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Reuniclus
+|-status|p1a: Reuniclus|brn
+|
+|-heal|p2a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Jellicent|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|move|p1a: Reuniclus|Focus Blast|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-heal|p2a: Jellicent|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|76/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Skarmory|Skarmory, M|60/100
+|move|p1a: Reuniclus|Psyshock|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Skarmory|Spikes|p1a: Reuniclus
+|-sidestart|p1: LonzoMadeKuz|Spikes
+|move|p1a: Reuniclus|Focus Blast|p2a: Skarmory|[miss]
+|-miss|p1a: Reuniclus|p2a: Skarmory
+|
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|7
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Spikes
+|-damage|p1a: Tentacruel|76/100|[from] Stealth Rock
+|move|p2a: Skarmory|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|
+|-heal|p1a: Tentacruel|82/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-damage|p1a: Kyurem|63/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|switch|p2a: Jellicent|Jellicent, F|76/100 tox
+|
+|-heal|p1a: Kyurem|69/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|76/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyurem|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Kyurem|Earth Power|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|49/100
+|move|p2a: Ninetales|Roar|p1a: Kyurem
+|drag|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|55/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Tentacruel|Tentacruel, F|82/100
+|-damage|p1a: Tentacruel|69/100|[from] Stealth Rock
+|-damage|p1a: Tentacruel|57/100|[from] Spikes
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Tentacruel
+|-status|p1a: Tentacruel|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|61/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|63/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|51/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Jellicent|Jellicent, F|76/100 tox
+|switch|p1a: Kyurem|Kyurem-Black|50/100
+|-damage|p1a: Kyurem|38/100|[from] Spikes
+|-damage|p1a: Kyurem|13/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyurem|19/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|76/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Skarmory|Skarmory, M|45/100
+|move|p1a: Kyurem|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyurem|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|turn|14
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-damage|p2a: Darmanitan|91/100|[from] Recoil
+|faint|p1a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Darmanitan|atk|1
+|turn|15
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Landorus|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Landorus|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: secksy dahlia|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Dragonite|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|20/100
+|-damage|p2a: Dragonite|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|move|p1a: Landorus|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|16/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p1a: Tentacruel|Tentacruel, F|51/100 brn
+|-damage|p1a: Tentacruel|38/100 brn|[from] Spikes
+|-damage|p1a: Tentacruel|26/100 brn|[from] Stealth Rock
+|move|p2a: Dragonite|Outrage|p1a: Tentacruel|[from]lockedmove
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|76/100
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|-damage|p1a: Scizor|51/100|[from] Spikes
+|turn|19
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|20
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100 brn
+|move|p2a: Excadrill|Rapid Spin|p1a: Reuniclus
+|-damage|p1a: Reuniclus|96/100 brn
+|-sideend|p2: secksy dahlia|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Ninetales|Ninetales, F|61/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Ninetales
+|-damage|p2a: Ninetales|10/100
+|move|p2a: Ninetales|Roar|p1a: Reuniclus
+|drag|p1a: Abomasnow|Abomasnow, M|100/100
+|-damage|p1a: Abomasnow|75/100|[from] Stealth Rock
+|-damage|p1a: Abomasnow|63/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ninetales|4/100|[from] Hail
+|-heal|p2a: Ninetales|10/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|69/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Abomasnow|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|94/100|[from] Hail
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|75/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|88/100|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|87/100|[silent]
+|upkeep
+|turn|24
+|
+|switch|p2a: Ninetales|Ninetales, F|10/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Abomasnow|Giga Drain|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-heal|p1a: Abomasnow|92/100|[from] drain|[of] p2a: Ninetales
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Abomasnow|98/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan, M|91/100
+|turn|25
+|
+|switch|p1a: Landorus|Landorus-Therian, M|20/100
+|-damage|p1a: Landorus|8/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Darmanitan|atk|1
+|move|p2a: Darmanitan|Flare Blitz|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Darmanitan|75/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-damage|p2a: Darmanitan|72/100|[from] Recoil
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow, M|98/100
+|-damage|p1a: Abomasnow|73/100|[from] Stealth Rock
+|-damage|p1a: Abomasnow|60/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|26
+|
+|move|p1a: Abomasnow|Protect|p1a: Abomasnow
+|-singleturn|p1a: Abomasnow|Protect
+|move|p2a: Darmanitan|Flare Blitz|p1a: Abomasnow
+|-activate|p1a: Abomasnow|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Darmanitan|66/100|[from] Hail
+|-heal|p1a: Abomasnow|67/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-damage|p2a: Darmanitan|42/100|[from] Recoil
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Darmanitan|36/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100 brn
+|turn|28
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Reuniclus
+|-damage|p1a: Reuniclus|62/100 brn
+|-damage|p2a: Darmanitan|21/100|[from] Recoil
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Darmanitan|15/100|[from] Hail
+|-heal|p1a: Reuniclus|68/100 brn|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Jellicent|Jellicent, F|76/100 tox
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jellicent|69/100 tox|[from] Hail
+|-heal|p2a: Jellicent|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|69/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p2a: Jellicent|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|move|p1a: Reuniclus|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|31/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jellicent|25/100 tox|[from] Hail
+|-heal|p2a: Jellicent|31/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|18/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Jellicent|Night Shade|p1a: Reuniclus
+|-damage|p1a: Reuniclus|77/100 brn
+|move|p1a: Reuniclus|Psyshock|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Reuniclus|83/100 brn|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan, M|15/100
+|turn|32
+|j|‽bilausimar
+|
+|move|p2a: Darmanitan|U-turn|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|47/100 brn
+|
+|switch|p2a: Excadrill|Excadrill, F|88/100|[from]move: U-turn
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Reuniclus|Psyshock|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|51/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|45/100|[from] Hail
+|-heal|p2a: Excadrill|51/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|53/100 brn|[from] item: Leftovers
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|33
+|l|‽bilausimar
+|
+|move|p2a: Excadrill|Iron Head|p1a: Reuniclus
+|-damage|p1a: Reuniclus|21/100 brn
+|move|p1a: Reuniclus|Psyshock|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|18/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|12/100|[from] Hail
+|-heal|p2a: Excadrill|18/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|28/100 brn|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆LonzoMadeKuz|gg
+|
+|move|p2a: Excadrill|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|12/100|[from] Hail
+|-heal|p2a: Excadrill|18/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|51/100
+|-damage|p1a: Scizor|39/100|[from] Stealth Rock
+|-damage|p1a: Scizor|26/100|[from] Spikes
+|turn|35
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|12/100|[from] Hail
+|-damage|p1a: Scizor|20/100|[from] Hail
+|-heal|p2a: Excadrill|18/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Darmanitan|Darmanitan, M|15/100
+|move|p1a: Scizor|Bullet Punch|p2a: Darmanitan
+|-resisted|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Scizor|14/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|18/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|37
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|12/100|[from] Hail
+|-damage|p1a: Scizor|8/100|[from] Hail
+|-heal|p2a: Excadrill|18/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|12/100|[from] Hail
+|-damage|p1a: Scizor|2/100|[from] Hail
+|-heal|p2a: Excadrill|18/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Excadrill|Protect||[still]
+|-fail|p2a: Excadrill
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|LonzoMadeKuz
+|raw|LonzoMadeKuz's rating: 1474 &rarr; <strong>1489</strong><br />(+15 for winning)
+|raw|secksy dahlia's rating: 1384 &rarr; <strong>1369</strong><br />(-15 for losing)
+|l|☆secksy dahlia

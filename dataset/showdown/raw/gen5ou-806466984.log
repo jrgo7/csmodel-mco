@@ -1,0 +1,806 @@
+|j|☆bad big bratt
+|j|☆Wait2Seconds◀
+|player|p1|bad big bratt|137
+|player|p2|Wait2Seconds◀|59
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Mamoswine, F|item
+|poke|p1|Politoed, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Regirock|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Amoonguss, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bad big bratt)
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: boosté abloc|Skarmory, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p2a: tracerlaraison|Amoonguss, M|100/100
+|move|p1a: Politoed|Scald|p2a: tracerlaraison
+|-resisted|p2a: tracerlaraison
+|-damage|p2a: tracerlaraison|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|92/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p1a: Politoed|Scald|p2a: tracerlaraison
+|-resisted|p2a: tracerlaraison
+|-damage|p2a: tracerlaraison|78/100
+|-status|p2a: tracerlaraison|brn
+|move|p2a: tracerlaraison|Spore|p1a: Politoed
+|-status|p1a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|84/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|72/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|switch|p2a: Tous unis|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tous unis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|94/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, F|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tous unis|Crunch|p1a: Politoed
+|-damage|p1a: Politoed|72/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Tous unis|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: bad big bratt|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: boosté abloc|Skarmory, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: boosté abloc
+|-sidestart|p2: Wait2Seconds◀|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Ferrothorn|Spikes|p2a: boosté abloc
+|-sidestart|p2: Wait2Seconds◀|Spikes
+|move|p2a: boosté abloc|Whirlwind|p1a: Ferrothorn
+|drag|p1a: Politoed|Politoed, F|79/100 slp
+|-damage|p1a: Politoed|66/100 slp|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: boosté abloc|Spikes|p1a: Politoed
+|-sidestart|p1: bad big bratt|Spikes
+|cant|p1a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Tous unis|Tyranitar, F|100/100
+|-damage|p2a: Tous unis|88/100|[from] Stealth Rock
+|-damage|p2a: Tous unis|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tous unis
+|-curestatus|p1a: Politoed|slp|[msg]
+|move|p1a: Politoed|Scald|p2a: Tous unis
+|-supereffective|p2a: Tous unis
+|-damage|p2a: Tous unis|55/100
+|-status|p2a: Tous unis|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|72/100|[from] Sandstorm
+|-heal|p1a: Politoed|79/100|[from] item: Leftovers
+|-damage|p2a: Tous unis|43/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: toustelunbloc|Jellicent, M|100/100
+|-damage|p2a: toustelunbloc|88/100|[from] Spikes
+|-damage|p2a: toustelunbloc|76/100|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: toustelunbloc
+|-heal|p2a: toustelunbloc|100/100|[from] ability: Water Absorb|[of] p1a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: toustelunbloc|94/100|[from] Sandstorm
+|-damage|p1a: Politoed|72/100|[from] Sandstorm
+|-heal|p2a: toustelunbloc|100/100|[from] item: Leftovers
+|-heal|p1a: Politoed|79/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: tracerlaraison|Amoonguss, M|100/100 brn
+|-damage|p2a: tracerlaraison|88/100 brn|[from] Spikes
+|-damage|p2a: tracerlaraison|76/100 brn|[from] Stealth Rock
+|move|p1a: Politoed|Toxic||[still]
+|-fail|p1a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|72/100|[from] Sandstorm
+|-damage|p2a: tracerlaraison|69/100 brn|[from] Sandstorm
+|-heal|p1a: Politoed|79/100|[from] item: Leftovers
+|-heal|p2a: tracerlaraison|76/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|63/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: tracerlaraison|Spore|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|72/100|[from] Sandstorm
+|-damage|p2a: tracerlaraison|57/100 brn|[from] Sandstorm
+|-heal|p1a: Politoed|79/100|[from] item: Leftovers
+|-heal|p2a: tracerlaraison|63/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|51/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Politoed|Encore|p2a: tracerlaraison
+|-start|p2a: tracerlaraison|Encore
+|move|p2a: tracerlaraison|Spore|p1a: Politoed
+|-status|p1a: Politoed|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|72/100 slp|[from] Sandstorm
+|-damage|p2a: tracerlaraison|44/100 brn|[from] Sandstorm
+|-heal|p1a: Politoed|79/100 slp|[from] item: Leftovers
+|-heal|p2a: tracerlaraison|51/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|38/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Spikes
+|-damage|p1a: Tentacruel|76/100|[from] Stealth Rock
+|switch|p2a: taillerlesregards|Excadrill, F|100/100
+|-damage|p2a: taillerlesregards|88/100|[from] Spikes
+|-damage|p2a: taillerlesregards|85/100|[from] Stealth Rock
+|-ability|p2a: taillerlesregards|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|70/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|76/100|[from] item: Black Sludge
+|-heal|p2a: taillerlesregards|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: taillerlesregards
+|-resisted|p2a: taillerlesregards
+|-damage|p2a: taillerlesregards|90/100
+|-sideend|p1: bad big bratt|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: bad big bratt|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: taillerlesregards|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: taillerlesregards|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|turn|16
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: taillerlesregards
+|-damage|p2a: taillerlesregards|38/100
+|move|p2a: taillerlesregards|Toxic|p1a: Mamoswine
+|-status|p1a: Mamoswine|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: taillerlesregards|44/100|[from] item: Leftovers
+|-damage|p1a: Mamoswine|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: taillerlesregards|Protect|p2a: taillerlesregards
+|-singleturn|p2a: taillerlesregards|Protect
+|move|p1a: Mamoswine|Icicle Crash|p2a: taillerlesregards
+|-activate|p2a: taillerlesregards|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: taillerlesregards|50/100|[from] item: Leftovers
+|-damage|p1a: Mamoswine|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: toustelunbloc|Jellicent, M|100/100
+|-damage|p2a: toustelunbloc|88/100|[from] Spikes
+|-damage|p2a: toustelunbloc|76/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Icicle Crash|p2a: toustelunbloc|[miss]
+|-miss|p1a: Mamoswine|p2a: toustelunbloc
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: toustelunbloc|69/100|[from] Sandstorm
+|-heal|p2a: toustelunbloc|76/100|[from] item: Leftovers
+|-damage|p1a: Mamoswine|64/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Politoed|Politoed, F|79/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: toustelunbloc|Night Shade|p1a: Politoed
+|-damage|p1a: Politoed|53/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: toustelunbloc|82/100|[from] item: Leftovers
+|-heal|p1a: Politoed|59/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Tous unis|Tyranitar, F|43/100 brn
+|-damage|p2a: Tous unis|30/100 brn|[from] Stealth Rock
+|-damage|p2a: Tous unis|18/100 brn|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tous unis
+|switch|p1a: Tornadus|Tornadus, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|94/100|[from] Sandstorm
+|-damage|p2a: Tous unis|5/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: boosté abloc|Skarmory, F|100/100
+|-damage|p2a: boosté abloc|88/100|[from] Stealth Rock
+|move|p1a: Tornadus|U-turn|p2a: boosté abloc
+|-resisted|p2a: boosté abloc
+|-damage|p2a: boosté abloc|85/100
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|switch|p2a: comme un rock|Regirock|100/100
+|-damage|p2a: comme un rock|88/100|[from] Stealth Rock
+|-damage|p2a: comme un rock|76/100|[from] Spikes
+|move|p1a: Thundurus|Focus Blast|p2a: comme un rock
+|-supereffective|p2a: comme un rock
+|-damage|p2a: comme un rock|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|88/100|[from] Sandstorm
+|-heal|p2a: comme un rock|41/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: comme un rock|Rest|p2a: comme un rock
+|-status|p2a: comme un rock|slp
+|-heal|p2a: comme un rock|100/100 slp|[silent]
+|-status|p2a: comme un rock|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|switch|p2a: boosté abloc|Skarmory, F|85/100
+|-damage|p2a: boosté abloc|73/100|[from] Stealth Rock
+|switch|p1a: Mamoswine|Mamoswine, F|64/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mamoswine|58/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: boosté abloc|[miss]
+|-miss|p1a: Mamoswine|p2a: boosté abloc
+|move|p2a: boosté abloc|Roost|p2a: boosté abloc
+|-heal|p2a: boosté abloc|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mamoswine|46/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Politoed|Politoed, F|59/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: boosté abloc|Spikes|p1a: Politoed
+|-sidestart|p1: bad big bratt|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: boosté abloc|Spikes|p1a: Politoed
+|-sidestart|p1: bad big bratt|Spikes
+|cant|p1a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|71/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: boosté abloc|Spikes|p1a: Politoed
+|-sidestart|p1: bad big bratt|Spikes
+|cant|p1a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: tracerlaraison|Amoonguss, M|71/100 brn
+|-damage|p2a: tracerlaraison|59/100 brn|[from] Spikes
+|-damage|p2a: tracerlaraison|46/100 brn|[from] Stealth Rock
+|-curestatus|p1a: Politoed|slp|[msg]
+|move|p1a: Politoed|Scald|p2a: tracerlaraison
+|-resisted|p2a: tracerlaraison
+|-damage|p2a: tracerlaraison|32/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|84/100|[from] item: Leftovers
+|-heal|p2a: tracerlaraison|38/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|26/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: tracerlaraison|Giga Drain|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|90/100|[from] item: Leftovers
+|-heal|p2a: tracerlaraison|32/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|20/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Politoed|Encore|p2a: tracerlaraison
+|-start|p2a: tracerlaraison|Encore
+|move|p2a: tracerlaraison|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|52/100
+|-heal|p2a: tracerlaraison|37/100 brn|[from] drain|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|58/100|[from] item: Leftovers
+|-heal|p2a: tracerlaraison|43/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|30/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|88/100
+|move|p2a: tracerlaraison|Giga Drain|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|74/100
+|-heal|p2a: tracerlaraison|35/100 brn|[from] drain|[of] p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|41/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|29/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p2a: Tous unis|Tyranitar, F|5/100 brn
+|-damage|p2a: Tous unis|0 fnt|[from] Spikes
+|faint|p2a: Tous unis
+|move|p1a: Thundurus|Hidden Power|p2: Tous unis|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: taillerlesregards|Excadrill, F|50/100
+|-damage|p2a: taillerlesregards|47/100|[from] Stealth Rock
+|-damage|p2a: taillerlesregards|35/100|[from] Spikes
+|-ability|p2a: taillerlesregards|Mold Breaker
+|turn|34
+|
+|move|p1a: Thundurus|Hidden Power|p2a: taillerlesregards
+|-damage|p2a: taillerlesregards|14/100
+|move|p2a: taillerlesregards|Rapid Spin|p1a: Thundurus
+|-damage|p1a: Thundurus|65/100
+|-sideend|p2: Wait2Seconds◀|Spikes|[from] move: Rapid Spin|[of] p2a: taillerlesregards
+|-sideend|p2: Wait2Seconds◀|Stealth Rock|[from] move: Rapid Spin|[of] p2a: taillerlesregards
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: taillerlesregards|20/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: taillerlesregards|Protect|p2a: taillerlesregards
+|-singleturn|p2a: taillerlesregards|Protect
+|move|p1a: Thundurus|Hidden Power|p2a: taillerlesregards
+|-activate|p2a: taillerlesregards|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: taillerlesregards|26/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|75/100|[from] Spikes
+|move|p2a: taillerlesregards|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: taillerlesregards|32/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: tracerlaraison|Amoonguss, M|62/100 brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: tracerlaraison
+|-sidestart|p2: Wait2Seconds◀|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|68/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|56/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: tracerlaraison|Spore|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|slp
+|cant|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|62/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|94/100 slp|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|49/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: boosté abloc|Skarmory, F|100/100
+|-damage|p2a: boosté abloc|88/100|[from] Stealth Rock
+|-curestatus|p1a: Ferrothorn|slp|[msg]
+|move|p1a: Ferrothorn|Leech Seed|p2a: boosté abloc|[miss]
+|-miss|p1a: Ferrothorn|p2a: boosté abloc
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆bad big bratt|this virgin is too lucky
+|
+|move|p2a: boosté abloc|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|c|☆Wait2Seconds◀|said the t1 woke up
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: boosté abloc|[miss]
+|-miss|p1a: Ferrothorn|p2a: boosté abloc
+|move|p2a: boosté abloc|Whirlwind|p1a: Ferrothorn
+|drag|p1a: Tornadus|Tornadus, M, shiny|94/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|42
+|c|☆bad big bratt|dont talk to me, get laid first
+|c|☆Wait2Seconds◀|okek
+|c|☆bad big bratt|appreciated
+|
+|move|p1a: Tornadus|Hurricane|p2a: boosté abloc
+|-resisted|p2a: boosté abloc
+|-damage|p2a: boosté abloc|40/100
+|move|p2a: boosté abloc|Roost|p2a: boosté abloc
+|-heal|p2a: boosté abloc|90/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|43
+|
+|move|p1a: Tornadus|Hurricane|p2a: boosté abloc
+|-resisted|p2a: boosté abloc
+|-damage|p2a: boosté abloc|43/100
+|move|p2a: boosté abloc|Roost|p2a: boosté abloc
+|-heal|p2a: boosté abloc|93/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|44
+|
+|move|p1a: Tornadus|Hurricane|p2a: boosté abloc
+|-resisted|p2a: boosté abloc
+|-damage|p2a: boosté abloc|46/100
+|move|p2a: boosté abloc|Roost|p2a: boosté abloc
+|-heal|p2a: boosté abloc|96/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|45
+|
+|move|p1a: Tornadus|Hurricane|p2a: boosté abloc
+|-resisted|p2a: boosté abloc
+|-damage|p2a: boosté abloc|48/100
+|move|p2a: boosté abloc|Roost|p2a: boosté abloc
+|-heal|p2a: boosté abloc|98/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|46
+|
+|switch|p2a: taillerlesregards|Excadrill, F|32/100
+|-damage|p2a: taillerlesregards|29/100|[from] Stealth Rock
+|-ability|p2a: taillerlesregards|Mold Breaker
+|move|p1a: Tornadus|Hurricane|p2a: taillerlesregards
+|-resisted|p2a: taillerlesregards
+|-damage|p2a: taillerlesregards|0 fnt
+|faint|p2a: taillerlesregards
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: comme un rock|Regirock|100/100 slp
+|-damage|p2a: comme un rock|88/100 slp|[from] Stealth Rock
+|turn|47
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|75/100|[from] Spikes
+|cant|p2a: comme un rock|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: comme un rock|94/100 slp|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p2a: tracerlaraison|Amoonguss, M|83/100 brn
+|-damage|p2a: tracerlaraison|70/100 brn|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: tracerlaraison
+|-sidestart|p2: Wait2Seconds◀|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|76/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|64/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: tracerlaraison|Spore|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|slp
+|cant|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|70/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|94/100 slp|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|57/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|switch|p2a: toustelunbloc|Jellicent, M|82/100
+|-damage|p2a: toustelunbloc|69/100|[from] Stealth Rock
+|-damage|p2a: toustelunbloc|57/100|[from] Spikes
+|-curestatus|p1a: Ferrothorn|slp|[msg]
+|move|p1a: Ferrothorn|Leech Seed|p2a: toustelunbloc
+|-start|p2a: toustelunbloc|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: toustelunbloc|63/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: toustelunbloc|51/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|51
+|
+|move|p2a: toustelunbloc|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Power Whip|p2a: toustelunbloc
+|-supereffective|p2a: toustelunbloc
+|-damage|p2a: toustelunbloc|16/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: toustelunbloc|22/100|[from] item: Leftovers
+|-damage|p2a: toustelunbloc|10/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p2a: toustelunbloc|Recover|p2a: toustelunbloc
+|-heal|p2a: toustelunbloc|60/100
+|move|p1a: Ferrothorn|Spikes|p2a: toustelunbloc
+|-sidestart|p2: Wait2Seconds◀|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: toustelunbloc|66/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: toustelunbloc|54/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p2a: toustelunbloc|Recover|p2a: toustelunbloc
+|-heal|p2a: toustelunbloc|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: toustelunbloc
+|-supereffective|p2a: toustelunbloc
+|-crit|p2a: toustelunbloc
+|-damage|p2a: toustelunbloc|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: toustelunbloc|46/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: toustelunbloc|33/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p2a: toustelunbloc|Recover|p2a: toustelunbloc
+|-heal|p2a: toustelunbloc|84/100
+|move|p1a: Ferrothorn|Spikes|p2a: toustelunbloc
+|-sidestart|p2: Wait2Seconds◀|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: toustelunbloc|90/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: toustelunbloc|77/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|switch|p2a: tracerlaraison|Amoonguss, M|91/100 brn
+|-damage|p2a: tracerlaraison|66/100 brn|[from] Spikes
+|-damage|p2a: tracerlaraison|53/100 brn|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: tracerlaraison|[miss]
+|-miss|p1a: Ferrothorn|p2a: tracerlaraison
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|59/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|47/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p2a: tracerlaraison|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|64/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: tracerlaraison
+|-immune|p2a: tracerlaraison
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|53/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|70/100 brn|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|40/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|57/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p2a: tracerlaraison|Spore||[still]
+|-fail|p2a: tracerlaraison
+|move|p1a: Ferrothorn|Leech Seed|p2a: tracerlaraison
+|-immune|p2a: tracerlaraison
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|47/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|64/100 brn|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|34/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|51/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p2a: tracerlaraison|Spore||[still]
+|-fail|p2a: tracerlaraison
+|move|p1a: Ferrothorn|Leech Seed|p2a: tracerlaraison
+|-immune|p2a: tracerlaraison
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|40/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|28/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|45/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p2a: tracerlaraison|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|24/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: tracerlaraison
+|-immune|p2a: tracerlaraison
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|34/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|31/100 brn|[from] item: Leftovers
+|-damage|p2a: tracerlaraison|21/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|18/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|move|p2a: tracerlaraison|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: tracerlaraison|28/100 brn|[from] item: Black Sludge
+|-damage|p2a: tracerlaraison|15/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|65/100
+|turn|61
+|
+|switch|p2a: comme un rock|Regirock|94/100 slp
+|-damage|p2a: comme un rock|69/100 slp|[from] Spikes
+|-damage|p2a: comme un rock|57/100 slp|[from] Stealth Rock
+|move|p1a: Thundurus|Thunder|p2a: comme un rock
+|-damage|p2a: comme un rock|11/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: comme un rock|17/100 slp|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p1a: Thundurus|Thunder|p2a: comme un rock
+|-damage|p2a: comme un rock|0 fnt
+|faint|p2a: comme un rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: tracerlaraison|Amoonguss, M|48/100 brn
+|-damage|p2a: tracerlaraison|23/100 brn|[from] Spikes
+|-damage|p2a: tracerlaraison|11/100 brn|[from] Stealth Rock
+|turn|63
+|
+|move|p1a: Thundurus|Thunder|p2a: tracerlaraison
+|-resisted|p2a: tracerlaraison
+|-damage|p2a: tracerlaraison|0 fnt
+|faint|p2a: tracerlaraison
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆bad big bratt|get lost, kid
+|c|☆Wait2Seconds◀|dont complain on your luck
+|c|☆bad big bratt|lmao
+|c|☆Wait2Seconds◀|autist
+|c|☆bad big bratt|youre such a virgin
+|-message|Wait2Seconds◀ forfeited.
+|
+|win|bad big bratt
+|raw|bad big bratt's rating: 1497 &rarr; <strong>1511</strong><br />(+14 for winning)
+|raw|Wait2Seconds◀'s rating: 1395 &rarr; <strong>1381</strong><br />(-14 for losing)
+|l|☆Wait2Seconds◀
+|c|☆bad big bratt|gl getting laid, uggo

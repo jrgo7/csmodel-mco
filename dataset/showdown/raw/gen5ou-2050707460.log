@@ -1,0 +1,333 @@
+|j|☆minutemaid13
+|j|☆testbwou
+|t:|1706954474
+|gametype|singles
+|player|p1|minutemaid13|169|1341
+|player|p2|testbwou|2|1352
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Excadrill, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Heracross, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|t:|1706954515
+|start
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|-ability|p1a: Kyurem|Teravolt
+|turn|1
+|
+|t:|1706954524
+|move|p2a: Haxorus|Outrage|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1706954531
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|2
+|
+|t:|1706954534
+|move|p1a: Heatran|Hidden Power|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|28/100
+|move|p2a: Haxorus|Outrage|p1a: Heatran|[from]lockedmove
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|46/100
+|-start|p2a: Haxorus|confusion|[fatigue]
+|
+|upkeep
+|turn|3
+|
+|t:|1706954543
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Heatran|Hidden Power|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|87/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1706954551
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Politoed|Hidden Power|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|95/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1706954556
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Scizor|U-turn|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|67/100
+|
+|t:|1706954561
+|switch|p1a: Keldeo|Keldeo|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1706954567
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|51/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1706954577
+|switch|p1a: Scizor|Scizor, F|95/100
+|move|p2a: Latios|Surf|p1a: Scizor
+|-damage|p1a: Scizor|40/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1706954584
+|move|p1a: Scizor|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1706954587
+|switch|p2a: Magnezone|Magnezone|73/100
+|turn|9
+|
+|t:|1706954591
+|move|p1a: Scizor|Bullet Punch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|64/100
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|46/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1706954609
+|move|p1a: Scizor|Bullet Punch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-activate|p2a: Magnezone|Substitute|[damage]
+|move|p2a: Magnezone|Thunderbolt|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1706954622
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|11
+|
+|t:|1706954628
+|move|p1a: Excadrill|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|move|p2a: Magnezone|Hidden Power|p1a: Excadrill
+|-damage|p1a: Excadrill|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1706954637
+|move|p1a: Excadrill|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|-damage|p1a: Excadrill|44/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1706954654
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|13
+|
+|t:|1706954661
+|move|p2a: Garchomp|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1706954669
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|14
+|j| momoqiu
+|
+|t:|1706954688
+|switch|p2a: Haxorus|Haxorus, M|28/100
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Keldeo|Hydro Pump|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1706954701
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|15
+|
+|t:|1706954704
+|move|p2a: Garchomp|Outrage|p1a: Keldeo
+|-damage|p1a: Keldeo|27/100
+|move|p1a: Keldeo|Icy Wind|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|20/100
+|-unboost|p2a: Garchomp|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1706954709
+|move|p1a: Keldeo|Icy Wind|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1706954713
+|switch|p2a: Politoed|Politoed, M|87/100
+|turn|17
+|l| momoqiu
+|
+|t:|1706954728
+|switch|p1a: Heatran|Heatran, F|46/100
+|move|p2a: Politoed|Hidden Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|41/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1706954745
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Heatran|Lava Plume|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1706954752
+|move|p1a: Heatran|Lava Plume|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|45/100
+|move|p2a: Mamoswine|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: Mamoswine|35/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1706954767
+|switch|p1a: Keldeo|Keldeo|40/100
+|turn|20
+|
+|t:|1706954769
+|move|p2a: Mamoswine|Ice Shard|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|25/100
+|-damage|p2a: Mamoswine|25/100|[from] item: Life Orb
+|move|p1a: Keldeo|Secret Sword|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1706954771
+|switch|p2a: Politoed|Politoed, M|87/100
+|turn|21
+|
+|t:|1706954777
+|move|p2a: Politoed|Surf|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1706954780
+|switch|p1a: Heracross|Heracross, M|100/100
+|turn|22
+|
+|t:|1706954788
+|move|p2a: Politoed|Surf|p1a: Heracross
+|-damage|p1a: Heracross|35/100
+|move|p1a: Heracross|Close Combat|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Politoed
+|
+|win|minutemaid13
+|raw|minutemaid13's rating: 1341 &rarr; <strong>1362</strong><br />(+21 for winning)
+|raw|testbwou's rating: 1355 &rarr; <strong>1334</strong><br />(-21 for losing)
+|c|☆testbwou|gg
+|l|☆testbwou
+|player|p2|

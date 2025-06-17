@@ -1,0 +1,314 @@
+|j|☆porrompompom
+|j|☆summertimegladness
+|player|p1|porrompompom|2|1585
+|player|p2|summertimegladness|201|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Gengar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|
+|start
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kingdra|atk|1
+|turn|1
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Kingdra|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|2
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: summertimegladness|move: Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|move|p2a: Ferrothorn|Spikes|p1a: Tyranitar
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Fire Blast|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|67/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p2a: Latios|Dragon Pulse|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|61/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|24/100
+|-damage|p2a: Ferrothorn|18/100|[from] Stealth Rock
+|move|p1a: Garchomp|Dual Chop|p2a: Ferrothorn|[miss]
+|-miss|p1a: Garchomp|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|-damage|p1a: Kingdra|88/100|[from] Spikes
+|-damage|p1a: Kingdra|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Kingdra|[miss]
+|-miss|p2a: Ferrothorn|p1a: Kingdra
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|70/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|move|p1a: Kingdra|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|42/100
+|-unboost|p1a: Kingdra|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|63/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Crunch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Kingdra|Kingdra, M|63/100
+|-damage|p1a: Kingdra|51/100|[from] Spikes
+|-damage|p1a: Kingdra|39/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Kingdra|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|32/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|61/100
+|-damage|p2a: Latios|49/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|82/100|[from] Spikes
+|move|p2a: Latios|Dragon Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|43/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|switch|p1a: Kingdra|Kingdra, M|32/100
+|-damage|p1a: Kingdra|20/100|[from] Spikes
+|-damage|p1a: Kingdra|8/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|2/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|30/100
+|-damage|p2a: Ferrothorn|24/100|[from] Stealth Rock
+|move|p1a: Kingdra|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingdra|0 fnt|[from] Sandstorm
+|faint|p1a: Kingdra
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|turn|15
+|
+|move|p1a: Gengar|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|move|p2a: Landorus|Stone Edge|p1a: Gengar
+|-damage|p1a: Gengar|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|41/100|[from] Sandstorm
+|-heal|p1a: Gengar|47/100|[from] item: Black Sludge
+|-damage|p2a: Landorus|63/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Gengar|Protect|p1a: Gengar
+|-singleturn|p1a: Gengar|Protect
+|move|p2a: Landorus|Stone Edge|p1a: Gengar
+|-activate|p1a: Gengar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|41/100|[from] Sandstorm
+|-heal|p1a: Gengar|47/100|[from] item: Black Sludge
+|-damage|p2a: Landorus|51/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|41/100|[from] Sandstorm
+|-heal|p1a: Gengar|47/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Garchomp|Stone Edge|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by summertimegladness)
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|63/100
+|-damage|p1a: Ferrothorn|51/100|[from] Spikes
+|-damage|p1a: Ferrothorn|45/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Latios|Latios, M|43/100
+|-damage|p2a: Latios|31/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, F|94/100
+|-damage|p2a: Garchomp|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Garchomp|Outrage|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|32/100
+|-damage|p2a: Garchomp|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Garchomp|[miss]
+|-miss|p1a: Ferrothorn|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|38/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Garchomp|Outrage|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100
+|-damage|p2a: Garchomp|64/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Ferrothorn|Leech Seed|p2a: Garchomp
+|-start|p2a: Garchomp|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p2a: Garchomp|51/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|37/100|[silent]
+|upkeep
+|turn|22
+|-message|summertimegladness forfeited.
+|
+|win|porrompompom
+|l|☆summertimegladness
+|l|☆porrompompom
+|raw|porrompompom's rating: 1585 &rarr; <strong>1594</strong><br />(+9 for winning)
+|raw|summertimegladness's rating: 1348 &rarr; <strong>1340</strong><br />(-8 for losing)
+|j|☆porrompompom
+|player|p1|porrompompom|2

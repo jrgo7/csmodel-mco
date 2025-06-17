@@ -1,0 +1,304 @@
+|j|☆easyball
+|j|☆Lucky Quiver
+|player|p1|easyball|167
+|player|p2|Lucky Quiver|6
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Volcarona, M|item
+|poke|p1|Starmie|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Jirachi|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Gyarados, F|item
+|teampreview
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by easyball)
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: easyball|move: Stealth Rock
+|move|p1a: Jirachi|Icy Wind|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|30/100
+|-unboost|p2a: Landorus|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: Lucky Quiver|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Jirachi|Thunder|p2a: Jirachi
+|-damage|p2a: Jirachi|79/100
+|-status|p2a: Jirachi|par
+|cant|p2a: Jirachi|par
+|
+|-heal|p2a: Jirachi|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| Avtomat
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|move|p2a: Jirachi|Body Slam|p1a: Thundurus
+|-damage|p1a: Thundurus|50/100
+|-status|p1a: Thundurus|par
+|
+|-heal|p1a: Thundurus|56/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|cant|p1a: Thundurus|par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p1a: Thundurus|62/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Jirachi|Iron Head|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|42/100 par
+|
+|-heal|p2a: Jirachi|100/100 par|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Thundurus|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|33/100 par
+|cant|p2a: Jirachi|par
+|
+|-heal|p1a: Thundurus|55/100 par|[from] item: Leftovers
+|-heal|p2a: Jirachi|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-heal|p1a: Thundurus|61/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|30/100
+|-damage|p2a: Landorus|18/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|turn|9
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|95/100|[from] Stealth Rock
+|move|p2a: Landorus|Stone Edge|p1a: Jirachi|[miss]
+|-miss|p2a: Landorus|p1a: Jirachi
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Hydreigon
+|-damage|p2a: Hydreigon|58/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|61/100 par
+|-damage|p1a: Thundurus|36/100 par|[from] Stealth Rock
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|100/100
+|
+|-heal|p1a: Thundurus|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|j| makivarileroux
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|l| makivarileroux
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Landorus|Landorus-Therian, M|18/100
+|-damage|p2a: Landorus|5/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Keldeo|atk|1
+|move|p1a: Keldeo|Secret Sword|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Jirachi|Jirachi|95/100
+|-damage|p1a: Jirachi|89/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Jirachi
+|-damage|p1a: Jirachi|14/100
+|-damage|p2a: Toxicroak|85/100|[from] item: Life Orb
+|move|p1a: Jirachi|Iron Head|p2a: Toxicroak
+|-damage|p2a: Toxicroak|36/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Toxicroak|26/100|[from] item: Life Orb
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|94/100
+|-damage|p1a: Keldeo|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Keldeo|atk|1
+|turn|18
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Gyarados
+|-damage|p2a: Gyarados|58/100
+|-unboost|p2a: Gyarados|spe|1
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|64/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Gyarados
+|-damage|p2a: Gyarados|48/100
+|-unboost|p2a: Gyarados|spe|1
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|54/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|easyball has 120 seconds left.
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Gyarados
+|-damage|p2a: Gyarados|37/100
+|-unboost|p2a: Gyarados|spe|1
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|12/100
+|
+|-heal|p2a: Gyarados|18/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Garchomp|Garchomp, M, shiny|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|24/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Garchomp|Dual Chop|p2a: Gyarados
+|-activate|p2a: Gyarados|Substitute|[damage]
+|-end|p2a: Gyarados|Substitute
+|-hitcount|p2a: Gyarados|2
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|30/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Garchomp|Dual Chop|p2a: Gyarados
+|-damage|p2a: Gyarados|11/100
+|-damage|p2a: Gyarados|0 fnt
+|-hitcount|p2a: Gyarados|2
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|24
+|c|☆Lucky Quiver|Damn
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆Lucky Quiver|Annoying game
+|-message|Lucky Quiver forfeited.
+|
+|win|easyball
+|l|☆Lucky Quiver
+|raw|easyball's rating: 1479 &rarr; <strong>1490</strong><br />(+11 for winning)
+|raw|Lucky Quiver's rating: 1317 &rarr; <strong>1305</strong><br />(-12 for losing)
+|l|☆easyball
+|j|☆easyball

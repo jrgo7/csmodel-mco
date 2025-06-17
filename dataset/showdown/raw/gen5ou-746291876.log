@@ -1,0 +1,262 @@
+|j|☆JDaLoverBoy
+|j|☆TJJ go
+|player|p1|JDaLoverBoy|285
+|player|p2|TJJ go|7
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Starmie|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Latias, F|item
+|teampreview
+|j| Kamowanthere
+|
+|start
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Volcarona|91/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|84/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|2
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|-damage|p1a: Volcarona|74/100|[from] item: Life Orb
+|move|p2a: Skarmory|Brave Bird|p1a: Volcarona
+|-enditem|p2a: Skarmory|Flying Gem|[from] gem|[move] Brave Bird
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Skarmory|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-damage|p2a: Skarmory|0 fnt|[from] Recoil
+|faint|p1a: Volcarona
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|3
+|
+|move|p2a: Magnezone|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|turn|4
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Starmie|Surf|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|70/100
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|l| Kamowanthere
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Latias|Surf|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Magnezone
+|-status|p2a: Magnezone|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Magnezone
+|-start|p2a: Magnezone|move: Leech Seed
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|28/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Magnezone|88/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|38/100|[silent]
+|upkeep
+|turn|8
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: TJJ go|move: Stealth Rock
+|cant|p2a: Magnezone|par
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Magnezone|76/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|48/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|56/100 par
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|91/100
+|turn|10
+|
+|move|p1a: Starmie|Surf|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-damage|p1a: Starmie|81/100|[from] item: Life Orb
+|faint|p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|11
+|
+|move|p2a: Excadrill|Earthquake|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|12
+|l|☆TJJ go
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JDaLoverBoy)
+|j|☆TJJ go
+|inactive|TJJ go reconnected and has 130 seconds left.
+|player|p2|TJJ go|7
+|
+|move|p2a: Excadrill|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|47/100
+|move|p1a: Scizor|Superpower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|29/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|41/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|48/100|[from] item: Black Sludge
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|
+|move|p2a: Gliscor|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|47/100
+|turn|15
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|20/100 tox
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|32/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|82/100
+|-damage|p2a: Latias|70/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Latias
+|-damage|p2a: Latias|17/100
+|move|p2a: Latias|Surf|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|TJJ go
+|raw|JDaLoverBoy's rating: 1436 &rarr; <strong>1413</strong><br />(-23 for losing)
+|raw|TJJ go's rating: 1376 &rarr; <strong>1400</strong><br />(+24 for winning)
+|c|☆JDaLoverBoy|gg
+|l|☆JDaLoverBoy

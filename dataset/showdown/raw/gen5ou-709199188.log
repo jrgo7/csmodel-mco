@@ -1,0 +1,174 @@
+|j|☆beiying
+|j|☆roa byron
+|player|p1|beiying|2
+|player|p2|roa byron|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Starmie|item
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Breloom, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Slowking, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Garchomp, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by beiying)
+|inactive|roa byron has 135 seconds left.
+|
+|start
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Starmie|atk|1
+|turn|1
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Starmie|Hydro Pump|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|65/100
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Slowking|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|roa byron has 135 seconds left.
+|inactive|roa byron has 120 seconds left.
+|inactive|roa byron has 105 seconds left.
+|
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|move|p1a: Starmie|Thunderbolt|p2a: Garchomp
+|-immune|p2a: Garchomp|[msg]
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Garchomp|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|18/100
+|move|p1a: Starmie|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Starmie|8/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Mach Punch|p1a: Landorus
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem|[move] Mach Punch
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|82/100
+|
+|upkeep
+|turn|5
+|inactive|roa byron has 135 seconds left.
+|
+|move|p1a: Landorus|U-turn|p2a: Breloom
+|-damage|p2a: Breloom|62/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Breloom|Spore|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|slp
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Breloom|Bullet Seed|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|95/100
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|90/100
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|84/100
+|-hitcount|p1a: Volcarona|3
+|
+|-heal|p1a: Volcarona|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Breloom|Focus Punch|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|48/100
+|
+|-heal|p1a: Volcarona|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Volcarona|Bug Buzz|p2a: Breloom
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-heal|p1a: Volcarona|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|turn|9
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Volcarona|65/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|10
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-heal|p1a: Volcarona|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|turn|11
+|
+|move|p1a: Volcarona|Hidden Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Volcarona|77/100|[from] item: Leftovers
+|upkeep
+|-message|roa byron forfeited.
+|
+|win|beiying
+|l|☆roa byron
+|raw|beiying's rating: 1313 &rarr; <strong>1336</strong><br />(+23 for winning)
+|raw|roa byron's rating: 1364 &rarr; <strong>1341</strong><br />(-23 for losing)

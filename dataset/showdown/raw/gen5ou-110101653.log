@@ -1,0 +1,332 @@
+|join|Pythagorean Python
+|join|roundwon
+|player|p1|Pythagorean Python|266
+|player|p2|roundwon|101
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Skarmory, M
+|poke|p1|Blissey, F
+|poke|p1|Hippowdon, M
+|poke|p1|Alakazam, F
+|poke|p1|Terrakion
+|poke|p1|Starmie
+|poke|p2|Keldeo
+|poke|p2|Zapdos
+|poke|p2|Garchomp, M
+|poke|p2|Forretress, M
+|poke|p2|Volcarona, M
+|poke|p2|Celebi
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|420/420
+|switch|p2a: Volcarona|Volcarona, M|312/312
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|172/420
+|move|p1a: Hippowdon|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: roundwon|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|293/312|[from] sandstorm
+|-heal|p2a: Volcarona|312/312|[from] item: Leftovers
+|-heal|p1a: Hippowdon|198/420|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Blissey|Blissey, F|714/714
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|648/714
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|293/312|[from] sandstorm
+|-damage|p1a: Blissey|604/714|[from] sandstorm
+|-heal|p2a: Volcarona|312/312|[from] item: Leftovers
+|-heal|p1a: Blissey|648/714|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Celebi|Celebi|404/404
+|-damage|p2a: Celebi|354/404|[from] Stealth Rock
+|move|p1a: Blissey|Thunder Wave|p2a: Celebi
+|-status|p2a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|604/714|[from] sandstorm
+|-damage|p2a: Celebi|329/404 par|[from] sandstorm
+|-heal|p1a: Blissey|648/714|[from] item: Leftovers
+|-heal|p2a: Celebi|354/404 par|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Celebi
+|-damage|p2a: Celebi|254/404 par
+|cant|p2a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|604/714|[from] sandstorm
+|-damage|p2a: Celebi|229/404 par|[from] sandstorm
+|-heal|p1a: Blissey|648/714|[from] item: Leftovers
+|-heal|p2a: Celebi|254/404 par|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Celebi
+|-damage|p2a: Celebi|154/404 par
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-fieldactivate|move: Perish Song
+|
+|-start|p1a: Blissey|perish3
+|-start|p2a: Celebi|perish3
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|604/714|[from] sandstorm
+|-damage|p2a: Celebi|129/404 par|[from] sandstorm
+|-heal|p1a: Blissey|648/714|[from] item: Leftovers
+|-heal|p2a: Celebi|154/404 par|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Skarmory|Skarmory, M|334/334
+|cant|p2a: Celebi|par
+|
+|-start|p2a: Celebi|perish2
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|129/404 par|[from] sandstorm
+|-heal|p2a: Celebi|154/404 par|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Skarmory|Spikes|p2a: Celebi
+|-sidestart|p2: roundwon|Spikes
+|cant|p2a: Celebi|par
+|
+|-start|p2a: Celebi|perish1
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|129/404 par|[from] sandstorm
+|-heal|p2a: Celebi|154/404 par|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|-damage|p2a: Forretress|310/354|[from] Stealth Rock
+|-damage|p2a: Forretress|266/354|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Forretress
+|drag|p2a: Celebi|Celebi|154/404
+|-damage|p2a: Celebi|104/404|[from] Spikes
+|-damage|p2a: Celebi|54/404|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|29/404|[from] sandstorm
+|-heal|p2a: Celebi|54/404|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|256/404
+|move|p1a: Skarmory|Whirlwind|p2a: Celebi
+|drag|p2a: Volcarona|Volcarona, M|312/312
+|-damage|p2a: Volcarona|273/312|[from] Spikes
+|-damage|p2a: Volcarona|117/312|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|98/312|[from] sandstorm
+|-heal|p2a: Volcarona|117/312|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Blissey|Blissey, F|648/714
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|525/714
+|-boost|p2a: Volcarona|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|98/312|[from] sandstorm
+|-damage|p1a: Blissey|481/714|[from] sandstorm
+|-heal|p2a: Volcarona|117/312|[from] item: Leftovers
+|-heal|p1a: Blissey|525/714|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Blissey
+|-damage|p1a: Blissey|327/714
+|-unboost|p1a: Blissey|spd|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|17/312
+|-status|p1a: Blissey|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|0 fnt|[from] sandstorm
+|-damage|p1a: Blissey|283/714 brn|[from] sandstorm
+|-heal|p1a: Blissey|327/714 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|238/714 brn|[from] brn
+|faint|p2a: Volcarona
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|-damage|p2a: Keldeo|283/323|[from] Spikes
+|-damage|p2a: Keldeo|263/323|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Hippowdon|Hippowdon, M|198/420
+|move|p2a: Keldeo|Surf|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|243/323|[from] sandstorm
+|
+|switch|p1a: Alakazam|Alakazam, F|252/252
+|turn|13
+|
+|switch|p2a: Celebi|Celebi|256/404
+|-damage|p2a: Celebi|206/404|[from] Stealth Rock
+|-damage|p2a: Celebi|156/404|[from] Spikes
+|move|p1a: Alakazam|Psychic|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|74/404
+|-unboost|p2a: Celebi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|49/404|[from] sandstorm
+|-heal|p2a: Celebi|74/404|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|-damage|p2a: Zapdos|288/383|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Alakazam|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|66/383
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|43/383|[from] sandstorm
+|-heal|p2a: Zapdos|66/383|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Alakazam|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Garchomp|Garchomp, M|358/358
+|-damage|p2a: Garchomp|314/358|[from] Spikes
+|-damage|p2a: Garchomp|292/358|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Skarmory|Skarmory, M|334/334
+|move|p2a: Garchomp|Outrage|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|235/334
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|255/334|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Garchomp|Outrage|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|165/334
+|move|p1a: Skarmory|Spikes|p2a: Garchomp
+|-sidestart|p2: roundwon|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|185/334|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Garchomp|Outrage|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|97/334
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|264/334
+|
+|-end|p2a: Garchomp|rampage
+|-start|p2a: Garchomp|confusion
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|284/334|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Forretress|Forretress, M|266/354
+|-damage|p2a: Forretress|222/354|[from] Stealth Rock
+|-damage|p2a: Forretress|163/354|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Forretress
+|drag|p2a: Keldeo|Keldeo|243/323
+|-damage|p2a: Keldeo|223/323|[from] Stealth Rock
+|-damage|p2a: Keldeo|170/323|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|150/323|[from] sandstorm
+|-heal|p1a: Skarmory|304/334|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Keldeo|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|130/323|[from] sandstorm
+|
+|switch|p1a: Alakazam|Alakazam, F|252/252
+|turn|21
+|
+|switch|p2a: Celebi|Celebi|74/404
+|-damage|p2a: Celebi|24/404|[from] Stealth Rock
+|-damage|p2a: Celebi|0 fnt|[from] Spikes
+|faint|p2a: Celebi
+|move|p1a: Alakazam|Psychic|p2: Celebi|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Garchomp|Garchomp, M|292/358
+|-damage|p2a: Garchomp|233/358|[from] Spikes
+|-damage|p2a: Garchomp|211/358|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Blissey|Blissey, F|238/714
+|move|p2a: Garchomp|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Alakazam|Alakazam, F|252/252
+|turn|23
+|join|Geertos
+|leave|Geertos
+|
+|move|p1a: Alakazam|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Forretress|Forretress, M|163/354
+|-damage|p2a: Forretress|104/354|[from] Spikes
+|-damage|p2a: Forretress|60/354|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Keldeo|Keldeo|130/323
+|-damage|p2a: Keldeo|77/323|[from] Spikes
+|-damage|p2a: Keldeo|57/323|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Alakazam|Psychic|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|Pythagorean Python's rating: 1424 &rarr; <strong>1440</strong><br />(+16 for winning)
+|raw|roundwon's rating: 1345 &rarr; <strong>1329</strong><br />(-16 for losing)
+|chat|Pythagorean Python|gg

@@ -1,0 +1,318 @@
+|j|☆Ismakhil
+|j|☆LuluDzn
+|player|p1|Ismakhil|204
+|player|p2|LuluDzn|239
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Froslass, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Breloom, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Amoonguss, M|item
+|teampreview
+|c|☆Ismakhil|h_f
+|c|☆LuluDzn|hfr
+|
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Froslass|Spikes|p2a: Tyranitar
+|-sidestart|p2: LuluDzn|Spikes
+|move|p2a: Tyranitar|Crunch|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-enditem|p1a: Froslass|Focus Sash
+|-damage|p1a: Froslass|1/100
+|-unboost|p1a: Froslass|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Froslass|0 fnt|[from] Sandstorm
+|faint|p1a: Froslass
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|2
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Amoonguss|Spore|p1a: Garchomp
+|-status|p1a: Garchomp|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|88/100|[from] Spikes
+|cant|p1a: Garchomp|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Keldeo|Icy Wind|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|78/100
+|-unboost|p1a: Scizor|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|76/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Scizor|Acrobatics|p2a: Skarmory
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Skarmory|Spikes|p1a: Scizor
+|-sidestart|p1: Ismakhil|Spikes
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Scizor|Superpower|p2a: Skarmory
+|-damage|p2a: Skarmory|32/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|move|p2a: Skarmory|Whirlwind|p1a: Scizor
+|drag|p1a: Alakazam|Alakazam, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|38/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|turn|12
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Alakazam|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|36/100
+|move|p2a: Tyranitar|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|94/100
+|-damage|p1a: Keldeo|82/100|[from] Spikes
+|turn|14
+|
+|switch|p1a: Scizor|Scizor, M|78/100
+|-damage|p1a: Scizor|66/100|[from] Spikes
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|88/100|[from] Spikes
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|27/100
+|-damage|p1a: Scizor|54/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2a: Garchomp|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|88/100|[from] Spikes
+|turn|17
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|move|p1a: Breloom|Mach Punch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|65/100
+|-damage|p1a: Breloom|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|72/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|58/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|65/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Breloom|Spore|p2a: Amoonguss
+|-status|p2a: Amoonguss|slp
+|cant|p2a: Amoonguss|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|66/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|58/100 slp|[from] Sandstorm
+|-heal|p2a: Amoonguss|65/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Breloom|Low Sweep|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|34/100 slp
+|-unboost|p2a: Amoonguss|spe|1
+|-damage|p1a: Breloom|56/100|[from] item: Life Orb
+|cant|p2a: Amoonguss|slp
+|move|p2a: Amoonguss|Sleep Talk|p2a: Amoonguss
+|move|p2a: Amoonguss|Clear Smog|p1a: Breloom|[from]Sleep Talk
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-clearboost|p1a: Breloom
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|27/100 slp|[from] Sandstorm
+|-heal|p2a: Amoonguss|34/100 slp|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|82/100
+|-damage|p1a: Keldeo|70/100|[from] Spikes
+|turn|20
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|2/100 slp
+|-unboost|p2a: Amoonguss|spe|1
+|-curestatus|p2a: Amoonguss|slp|[msg]
+|move|p2a: Amoonguss|Giga Drain|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|11/100
+|-heal|p2a: Amoonguss|24/100|[from] drain|[of] p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|5/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|17/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|24/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Keldeo|Icy Wind|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|0 fnt|[from] Sandstorm
+|faint|p1a: Keldeo
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100 slp
+|switch|p2a: Garchomp|Garchomp, M|27/100
+|-damage|p2a: Garchomp|15/100|[from] Spikes
+|-damage|p1a: Garchomp|88/100 slp|[from] Spikes
+|turn|22
+|c|☆Ismakhil|g_g
+|c|☆LuluDzn|gg
+|
+|move|p2a: Garchomp|Outrage|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Garchomp|3/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|win|LuluDzn
+|l|☆Ismakhil
+|raw|Ismakhil's rating: 1324 &rarr; <strong>1303</strong><br />(-21 for losing)
+|raw|LuluDzn's rating: 1304 &rarr; <strong>1325</strong><br />(+21 for winning)

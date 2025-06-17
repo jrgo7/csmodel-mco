@@ -1,0 +1,571 @@
+|j|☆LOP Faus ☆
+|j|☆1994hfll2018
+|player|p1|LOP Faus ☆|lucas|1409
+|player|p2|1994hfll2018|cyrus|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Lucario, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Alakazam, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1994hfll2018)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|1
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Heatran
+|-sidestart|p1: LOP Faus ☆|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Heatran|Roar|p2a: Jellicent
+|drag|p2a: Lucario|Lucario, M|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jellicent|atk|1
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Landorus|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|88/100
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100|[from]move: U-turn
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Jellicent|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|81/100
+|
+|-heal|p1a: Tentacruel|87/100|[from] item: Black Sludge
+|-heal|p2a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Tentacruel|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p1a: Tentacruel|93/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Tentacruel|81/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Tentacruel|65/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-sideend|p1: LOP Faus ☆|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|36/100
+|
+|-heal|p1a: Tentacruel|43/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: LOP Faus ☆|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: 1994hfll2018|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Heatran|[miss]
+|-miss|p2a: Ferrothorn|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Jellicent|Jellicent, M|94/100
+|-damage|p2a: Jellicent|82/100|[from] Stealth Rock
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|76/100|[from] Sandstorm
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Jellicent|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|move|p1a: Heatran|Roar|p2a: Jellicent
+|drag|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|64/100
+|inactive|1994hfll2018 has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Heatran|Heatran, M|82/100
+|-damage|p1a: Heatran|69/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|-damage|p1a: Heatran|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|switch|p2a: Jellicent|Jellicent, M|82/100
+|-damage|p2a: Jellicent|70/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|64/100|[from] Sandstorm
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|1994hfll2018 has 120 seconds left.
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|1994hfll2018 has 120 seconds left.
+|
+|move|p1a: Jirachi|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|90/100
+|
+|switch|p1a: Tentacruel|Tentacruel, F|43/100|[from]move: U-turn
+|-damage|p1a: Tentacruel|30/100|[from] Stealth Rock
+|move|p2a: Jellicent|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|17/100|[from] Sandstorm
+|-damage|p2a: Jellicent|84/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|72/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Tentacruel|78/100|[from] item: Black Sludge
+|-heal|p2a: Jellicent|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: 1994hfll2018|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|72/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|78/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: 1994hfll2018|move: Toxic Spikes
+|move|p2a: Ferrothorn|Power Whip|p1a: Tentacruel
+|-damage|p1a: Tentacruel|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|22/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|28/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|93/100
+|-damage|p1a: Tentacruel|16/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Tentacruel|0 fnt|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p1a: Tentacruel
+|move|p2a: Ferrothorn|Power Whip|p1: Tentacruel|[notarget]
+|-fail|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|LOP Faus ☆ has 120 seconds left.
+|
+|switch|p1a: Heatran|Heatran, M|63/100
+|-damage|p1a: Heatran|51/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Jellicent|Jellicent, M|90/100
+|-status|p2a: Jellicent|tox
+|-damage|p2a: Jellicent|77/100 tox|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|64/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|58/100 tox|[from] Sandstorm
+|-heal|p1a: Heatran|57/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|58/100 tox|[from] psn
+|upkeep
+|turn|22
+|inactive|LOP Faus ☆ has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p1a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100 tox|[from] Sandstorm
+|-heal|p1a: Mandibuzz|82/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|58/100 tox
+|move|p2a: Jellicent|Toxic|p1a: Mandibuzz|[miss]
+|-miss|p2a: Jellicent|p1a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|52/100 tox|[from] Sandstorm
+|-heal|p1a: Mandibuzz|88/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|40/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|93/100
+|-damage|p2a: Ferrothorn|87/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|80/100
+|-damage|p1a: Mandibuzz|75/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Mandibuzz|59/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|switch|p1a: Heatran|Heatran, M|57/100|[from]move: U-turn
+|-damage|p1a: Heatran|45/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|51/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|LOP Faus ☆ has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, M|40/100 tox
+|-damage|p2a: Jellicent|28/100 tox|[from] Stealth Rock
+|move|p1a: Heatran|Roar|p2a: Jellicent
+|drag|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|57/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|LOP Faus ☆ has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|59/100
+|-damage|p1a: Mandibuzz|34/100|[from] Stealth Rock
+|move|p2a: Lucario|Nasty Plot|p2a: Lucario
+|-boost|p2a: Lucario|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Mandibuzz|40/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Lucario|Vacuum Wave|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-damage|p2a: Lucario|88/100|[from] item: Life Orb
+|faint|p1a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|64/100
+|-damage|p1a: Landorus|52/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lucario|atk|1
+|turn|28
+|inactive|LOP Faus ☆ has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|80/100
+|-damage|p2a: Ferrothorn|74/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100
+|-damage|p1a: Landorus|40/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Landorus|23/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|inactive|LOP Faus ☆ has 120 seconds left.
+|
+|switch|p1a: Heatran|Heatran, M|57/100|[from]move: U-turn
+|-damage|p1a: Heatran|45/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|51/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Jellicent|Jellicent, M|28/100 tox
+|-damage|p2a: Jellicent|15/100 tox|[from] Stealth Rock
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|9/100 tox|[from] Sandstorm
+|-heal|p1a: Heatran|32/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|15/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|9/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Heatran|Earth Power|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|75/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-immune|p1a: Heatran
+|turn|31
+|
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|move|p1a: Heatran|Lava Plume|p2a: Landorus
+|-damage|p2a: Landorus|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|45/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Landorus|Landorus-Therian, M|23/100
+|-damage|p1a: Landorus|11/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|54/100
+|-damage|p2a: Ferrothorn|48/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: Landorus|Earthquake|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|move|p2a: Hydreigon|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|turn|36
+|
+|-activate|p2a: Hydreigon|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Hydreigon|[from]Pursuit
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|64/100
+|switch|p2a: Lucario|Lucario, M|88/100
+|-damage|p2a: Lucario|85/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Lucario|Vacuum Wave|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|36/100
+|-damage|p2a: Lucario|75/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Crunch|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|42/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Lucario|Nasty Plot|p2a: Lucario
+|-boost|p2a: Lucario|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Lucario|Dark Pulse|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100
+|-damage|p2a: Lucario|51/100|[from] item: Life Orb
+|move|p1a: Jirachi|Body Slam|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|30/100
+|-status|p2a: Lucario|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Lucario|Vacuum Wave|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Lucario|20/100 par|[from] item: Life Orb
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|42/100
+|-damage|p1a: Tyranitar|29/100|[from] Stealth Rock
+|turn|41
+|
+|cant|p2a: Lucario|par
+|move|p1a: Tyranitar|Crunch|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|6/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|36/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Lucario|Vacuum Wave|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Lucario|0 fnt|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|faint|p2a: Lucario
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|27/100
+|switch|p1a: Heatran|Heatran, M|45/100
+|-damage|p2a: Landorus|15/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|-damage|p1a: Heatran|32/100|[from] Stealth Rock
+|turn|43
+|
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|1994hfll2018
+|raw|LOP Faus ☆'s rating: 1379 &rarr; <strong>1356</strong><br />(-23 for losing)
+|raw|1994hfll2018's rating: 1324 &rarr; <strong>1347</strong><br />(+23 for winning)

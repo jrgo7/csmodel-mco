@@ -1,0 +1,1057 @@
+|join|DBriggs
+|join|DatLatias
+|player|p1|DBriggs|169
+|player|p2|DatLatias|146
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Latias, F
+|poke|p1|Forretress, F
+|poke|p1|Heatran, F
+|poke|p1|Roserade, F
+|poke|p1|Vaporeon, F
+|poke|p1|Spiritomb, M
+|poke|p2|Politoed, F
+|poke|p2|Tentacruel, M
+|poke|p2|Tangrowth, F
+|poke|p2|Jirachi
+|poke|p2|Moltres
+|poke|p2|Tornadus, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Roserade|Roserade, F|324/324
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|turn|1
+|
+|switch|p1a: Heatran|Heatran, F|385/385
+|move|p2a: Tornadus|Hurricane|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|294/385
+|-damage|p2a: Tornadus|270/299|[from] item: Life Orb
+|
+|-heal|p1a: Heatran|318/385|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Tornadus|Focus Blast|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-heal|p1a: Heatran|342/385|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|switch|p1a: Spiritomb|Spiritomb, M|303/303
+|-ability|p1a: Spiritomb|Pressure
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p2a: Politoed|Toxic|p1a: Spiritomb
+|-status|p1a: Spiritomb|tox
+|move|p1a: Spiritomb|Trick|p2a: Politoed
+|-activate|p1a: Spiritomb|move: Trick|[of] p2a: Politoed
+|-item|p2a: Politoed|Choice Band|[from] move: Trick
+|-item|p1a: Spiritomb|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Spiritomb|285/303 tox|[from] psn
+|turn|5
+|join|pokemonisfgt
+|
+|switch|p2a: Jirachi|Jirachi|401/401
+|switch|p1a: Roserade|Roserade, F|324/324
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Heatran|Heatran, F|342/385
+|move|p2a: Jirachi|Stealth Rock|p1a: Heatran
+|-sidestart|p1: DBriggs|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|366/385|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Tentacruel|Tentacruel, M|363/363
+|move|p1a: Heatran|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: DatLatias|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|385/385|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Roserade|Roserade, F|324/324
+|-damage|p1a: Roserade|284/324|[from] Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|239/324
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|259/324|[from] item: Black Sludge
+|turn|9
+|
+|switch|p2a: Jirachi|Jirachi|401/401
+|-damage|p2a: Jirachi|376/401|[from] Stealth Rock
+|move|p1a: Roserade|Giga Drain|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|336/401
+|-heal|p1a: Roserade|279/324|[from] drain|[of] p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|299/324|[from] item: Black Sludge
+|-heal|p2a: Jirachi|361/401|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, F|385/385
+|-damage|p1a: Heatran|337/385|[from] Stealth Rock
+|move|p2a: Jirachi|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|277/385
+|-status|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|386/401|[from] item: Leftovers
+|-heal|p1a: Heatran|301/385 par|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Tentacruel|Tentacruel, M|363/363
+|-damage|p2a: Tentacruel|318/363|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|263/363
+|-status|p2a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|285/363 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|307/363 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|325/385 par|[from] item: Leftovers
+|-damage|p2a: Tentacruel|262/363 brn|[from] brn
+|turn|12
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Tentacruel|Rapid Spin|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|284/363 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|306/363 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|349/385 par|[from] item: Leftovers
+|-damage|p2a: Tentacruel|261/363 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Roserade|Roserade, F|299/324
+|-damage|p1a: Roserade|259/324|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Roserade
+|-damage|p1a: Roserade|252/324
+|-sideend|p2: DatLatias|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|283/363 brn|[from] ability: Rain Dish
+|-heal|p1a: Roserade|272/324|[from] item: Black Sludge
+|-heal|p2a: Tentacruel|305/363 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|260/363 brn|[from] brn
+|turn|14
+|
+|switch|p2a: Jirachi|Jirachi|386/401
+|move|p1a: Roserade|Spikes|p2a: Jirachi
+|-sidestart|p2: DatLatias|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|292/324|[from] item: Black Sludge
+|-heal|p2a: Jirachi|401/401|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Roserade|Spikes|p2a: Jirachi
+|-sidestart|p2: DatLatias|Spikes
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|312/324|[from] item: Black Sludge
+|turn|16
+|
+|switch|p2a: Tentacruel|Tentacruel, M|260/363 brn
+|-damage|p2a: Tentacruel|200/363 brn|[from] Spikes
+|move|p1a: Roserade|Spikes|p2a: Tentacruel
+|-sidestart|p2: DatLatias|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|222/363 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/363 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Roserade|324/324|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|318/363 brn|[from] brn
+|turn|17
+|
+|switch|p1a: Spiritomb|Spiritomb, M|285/303 tox
+|-damage|p1a: Spiritomb|248/303 tox|[from] Stealth Rock
+|-ability|p1a: Spiritomb|Pressure
+|move|p2a: Tentacruel|Scald|p1a: Spiritomb
+|-damage|p1a: Spiritomb|146/303 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|340/363 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|362/363 brn|[from] item: Leftovers
+|-heal|p1a: Spiritomb|164/303 tox|[from] item: Leftovers
+|-damage|p2a: Tentacruel|317/363 brn|[from] brn
+|-damage|p1a: Spiritomb|146/303 tox|[from] psn
+|turn|18
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Spiritomb|Sucker Punch|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|339/363 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|361/363 brn|[from] item: Leftovers
+|-heal|p1a: Spiritomb|164/303 tox|[from] item: Leftovers
+|-damage|p2a: Tentacruel|316/363 brn|[from] brn
+|-damage|p1a: Spiritomb|128/303 tox|[from] psn
+|turn|19
+|
+|switch|p1a: Latias|Latias, F|320/320
+|-damage|p1a: Latias|280/320|[from] Stealth Rock
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|338/363 brn|[from] ability: Rain Dish
+|-heal|p1a: Latias|300/320|[from] item: Leftovers
+|-heal|p2a: Tentacruel|360/363 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|315/363 brn|[from] brn
+|turn|20
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|337/363 brn|[from] ability: Rain Dish
+|-heal|p1a: Latias|320/320|[from] item: Leftovers
+|-heal|p2a: Tentacruel|359/363 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|314/363 brn|[from] brn
+|turn|21
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|175/363 brn
+|move|p2a: Tentacruel|Rapid Spin|p1a: Latias
+|-damage|p1a: Latias|316/320
+|-sideend|p2: DatLatias|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|197/363 brn|[from] ability: Rain Dish
+|-heal|p1a: Latias|320/320|[from] item: Leftovers
+|-heal|p2a: Tentacruel|219/363 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|174/363 brn|[from] brn
+|turn|22
+|
+|switch|p2a: Jirachi|Jirachi|401/401
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|turn|24
+|chat|pokemonisfgt|,
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|308/320
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|320/320|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|269/401
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|308/320
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|320/320|[from] item: Leftovers
+|-heal|p2a: Jirachi|294/401|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|309/320
+|-status|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|319/401|[from] item: Leftovers
+|-heal|p1a: Latias|320/320 par|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|181/320 par
+|cant|p1a: Latias|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|344/401|[from] item: Leftovers
+|-heal|p1a: Latias|201/320 par|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|123/320 par
+|move|p1a: Latias|Refresh|p1a: Latias
+|-curestatus|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|143/320|[from] item: Leftovers
+|-heal|p2a: Jirachi|369/401|[from] item: Leftovers
+|turn|29
+|chat|DatLatias|lol
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|303/320
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|293/320
+|-status|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|394/401|[from] item: Leftovers
+|-heal|p1a: Latias|313/320 par|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|246/320 par
+|cant|p1a: Latias|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|401/401|[from] item: Leftovers
+|-heal|p1a: Latias|266/320 par|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|193/320 par
+|cant|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|213/320 par|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|146/320 par
+|move|p1a: Latias|Refresh|p1a: Latias
+|-curestatus|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|166/320|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|320/320
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|309/320
+|-status|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|320/320 par|[from] item: Leftovers
+|turn|34
+|chat|pokemonisfgt|Lel
+|chat|pokemonisfgt|that is like
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|247/320 par
+|move|p1a: Latias|Refresh|p1a: Latias
+|-curestatus|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|267/320|[from] item: Leftovers
+|turn|35
+|chat|pokemonisfgt|max def wtf
+|chat|DatLatias|yeah
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|258/320
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|278/320|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|225/401
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|268/320
+|-status|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|250/401|[from] item: Leftovers
+|-heal|p1a: Latias|288/320 par|[from] item: Leftovers
+|turn|37
+|chat|DatLatias|gay imo
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Latias|Refresh|p1a: Latias
+|-curestatus|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|308/320|[from] item: Leftovers
+|-heal|p2a: Jirachi|275/401|[from] item: Leftovers
+|turn|38
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|113/401
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|298/320
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|313/401|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Latias|318/320|[from] item: Leftovers
+|-heal|p2a: Jirachi|338/401|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|180/401
+|move|p2a: Jirachi|Thunder|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|309/320
+|-status|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|205/401|[from] item: Leftovers
+|-heal|p1a: Latias|320/320 par|[from] item: Leftovers
+|turn|40
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Latias|Dragon Pulse|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|29/401
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|54/401|[from] item: Leftovers
+|turn|41
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|250/320 par
+|cant|p1a: Latias|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|254/401|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|279/401|[from] item: Leftovers
+|-heal|p1a: Latias|270/320 par|[from] item: Leftovers
+|turn|42
+|chat|pokemonisfgt|leo
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|197/320 par
+|move|p1a: Latias|Dragon Pulse|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|114/401
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|139/401|[from] item: Leftovers
+|-heal|p1a: Latias|217/320 par|[from] item: Leftovers
+|turn|43
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|138/320 par
+|cant|p1a: Latias|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|164/401|[from] item: Leftovers
+|-heal|p1a: Latias|158/320 par|[from] item: Leftovers
+|turn|44
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|10/320 par
+|cant|p1a: Latias|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|189/401|[from] item: Leftovers
+|-heal|p1a: Latias|30/320 par|[from] item: Leftovers
+|turn|45
+|chat|pokemonisfgt|nb
+|chat|DatLatias|nbbbb
+|
+|switch|p1a: Forretress|Forretress, F|353/353
+|-damage|p1a: Forretress|309/353|[from] Stealth Rock
+|move|p2a: Jirachi|Iron Head|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|282/353
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|214/401|[from] item: Leftovers
+|-heal|p1a: Forretress|304/353|[from] item: Leftovers
+|turn|46
+|
+|move|p2a: Jirachi|Thunder|p1a: Forretress
+|-damage|p1a: Forretress|172/353
+|-status|p1a: Forretress|par
+|cant|p1a: Forretress|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|239/401|[from] item: Leftovers
+|-heal|p1a: Forretress|194/353 par|[from] item: Leftovers
+|turn|47
+|
+|move|p2a: Jirachi|Iron Head|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|169/353 par
+|move|p1a: Forretress|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|231/401
+|-sideend|p1: DBriggs|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|256/401|[from] item: Leftovers
+|-heal|p1a: Forretress|191/353 par|[from] item: Leftovers
+|turn|48
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Forretress|Volt Switch|p2a: Jirachi
+|-damage|p2a: Jirachi|229/401
+|
+|switch|p1a: Latias|Latias, F|30/320 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|254/401|[from] item: Leftovers
+|-heal|p1a: Latias|50/320 par|[from] item: Leftovers
+|turn|49
+|chat|pokemonisfgt|>still paraed
+|chat|pokemonisfgt|lel
+|
+|switch|p1a: Heatran|Heatran, F|349/385 par
+|move|p2a: Jirachi|Stealth Rock|p1a: Heatran
+|-sidestart|p1: DBriggs|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|401/401|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Heatran|373/385 par|[from] item: Leftovers
+|turn|50
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Heatran|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: DatLatias|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|385/385 par|[from] item: Leftovers
+|turn|51
+|
+|switch|p2a: Tentacruel|Tentacruel, M|174/363 brn
+|-damage|p2a: Tentacruel|129/363 brn|[from] Stealth Rock
+|move|p1a: Heatran|Roar|p2a: Tentacruel
+|drag|p2a: Politoed|Politoed, F|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|384/384|[from] move: Wish|[wisher] Jirachi
+|turn|52
+|
+|switch|p1a: Roserade|Roserade, F|324/324
+|-damage|p1a: Roserade|284/324|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|230/324
+|-status|p1a: Roserade|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|250/324 brn|[from] item: Black Sludge
+|-damage|p1a: Roserade|210/324 brn|[from] brn
+|turn|53
+|
+|switch|p2a: Jirachi|Jirachi|401/401
+|-damage|p2a: Jirachi|376/401|[from] Stealth Rock
+|move|p1a: Roserade|Giga Drain|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|332/401
+|-heal|p1a: Roserade|232/324 brn|[from] drain|[of] p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|252/324 brn|[from] item: Black Sludge
+|-heal|p2a: Jirachi|357/401|[from] item: Leftovers
+|-damage|p1a: Roserade|212/324 brn|[from] brn
+|turn|54
+|
+|move|p1a: Roserade|Spikes|p2a: Jirachi
+|-sidestart|p2: DatLatias|Spikes
+|move|p2a: Jirachi|Iron Head|p1a: Roserade
+|-damage|p1a: Roserade|59/324 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|79/324 brn|[from] item: Black Sludge
+|-heal|p2a: Jirachi|382/401|[from] item: Leftovers
+|-damage|p1a: Roserade|39/324 brn|[from] brn
+|turn|55
+|
+|move|p1a: Roserade|Rest|p1a: Roserade
+|-status|p1a: Roserade|slp
+|-heal|p1a: Roserade|324/324 slp|[silent]
+|-status|p1a: Roserade|slp|[from] move: Rest
+|move|p2a: Jirachi|Iron Head|p1a: Roserade
+|-damage|p1a: Roserade|173/324 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|193/324 slp|[from] item: Black Sludge
+|-heal|p2a: Jirachi|401/401|[from] item: Leftovers
+|turn|56
+|
+|switch|p1a: Heatran|Heatran, F|385/385 par
+|-damage|p1a: Heatran|337/385 par|[from] Stealth Rock
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|361/385 par|[from] item: Leftovers
+|turn|57
+|chat|pokemonisfgt|leo
+|
+|move|p2a: Jirachi|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|300/385 par
+|cant|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|324/385 par|[from] item: Leftovers
+|turn|58
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|309/401
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|334/401|[from] item: Leftovers
+|-heal|p1a: Heatran|348/385 par|[from] item: Leftovers
+|turn|59
+|chat|pokemonisfgt|l00l
+|
+|move|p2a: Jirachi|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|280/385 par
+|cant|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|401/401|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Heatran|304/385 par|[from] item: Leftovers
+|turn|60
+|chat|pokemonisfgt|kek
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|309/401
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|334/401|[from] item: Leftovers
+|-heal|p1a: Heatran|328/385 par|[from] item: Leftovers
+|turn|61
+|
+|move|p2a: Jirachi|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|260/385 par
+|move|p1a: Heatran|Roar|p2a: Jirachi
+|drag|p2a: Moltres|Moltres|322/322
+|-damage|p2a: Moltres|161/322|[from] Stealth Rock
+|-ability|p2a: Moltres|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Moltres|322/322|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Heatran|284/385 par|[from] item: Leftovers
+|turn|62
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Moltres|Hurricane|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|308/385 par|[from] item: Leftovers
+|turn|63
+|
+|move|p2a: Moltres|Hurricane|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|198/385 par
+|move|p1a: Heatran|Roar|p2a: Moltres
+|drag|p2a: Politoed|Politoed, F|384/384
+|-damage|p2a: Politoed|336/384|[from] Spikes
+|-damage|p2a: Politoed|288/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|222/385 par|[from] item: Leftovers
+|turn|64
+|chat|DatLatias|gimme some parafusion
+|chat|DatLatias|gay
+|chat|pokemonisfgt|leo
+|
+|switch|p1a: Roserade|Roserade, F|193/324
+|-damage|p1a: Roserade|153/324|[from] Stealth Rock
+|move|p2a: Politoed|Ice Beam|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|37/324
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|57/324|[from] item: Black Sludge
+|turn|65
+|
+|switch|p2a: Jirachi|Jirachi|334/401
+|-damage|p2a: Jirachi|309/401|[from] Stealth Rock
+|-damage|p2a: Jirachi|259/401|[from] Spikes
+|move|p1a: Roserade|Giga Drain|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|175/401
+|-heal|p1a: Roserade|99/324|[from] drain|[of] p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|119/324|[from] item: Black Sludge
+|-heal|p2a: Jirachi|200/401|[from] item: Leftovers
+|turn|66
+|
+|switch|p1a: Forretress|Forretress, F|191/353 par
+|-damage|p1a: Forretress|147/353 par|[from] Stealth Rock
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|225/401|[from] item: Leftovers
+|-heal|p1a: Forretress|169/353 par|[from] item: Leftovers
+|turn|67
+|
+|move|p2a: Jirachi|Thunder|p1a: Forretress
+|-damage|p1a: Forretress|24/353 par
+|move|p1a: Forretress|Volt Switch|p2a: Jirachi
+|-damage|p2a: Jirachi|195/401
+|
+|switch|p1a: Latias|Latias, F|50/320 par
+|-damage|p1a: Latias|10/320 par|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|395/401|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|401/401|[from] item: Leftovers
+|-heal|p1a: Latias|30/320 par|[from] item: Leftovers
+|turn|68
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Forretress|Forretress, F|24/353 par
+|-damage|p1a: Forretress|0 fnt|[from] Stealth Rock
+|faint|p1a: Forretress
+|
+|switch|p1a: Heatran|Heatran, F|222/385 par
+|-damage|p1a: Heatran|174/385 par|[from] Stealth Rock
+|turn|69
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|315/401
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|340/401|[from] item: Leftovers
+|-heal|p1a: Heatran|198/385 par|[from] item: Leftovers
+|turn|70
+|chat|pokemonisfgt|rain is gay
+|chat|pokemonisfgt|gen 5 is shit
+|chat|DatLatias|ur gay
+|chat|DatLatias|gen6 is shit
+|chat|DatLatias|faggot
+|
+|move|p2a: Jirachi|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|130/385 par
+|move|p1a: Heatran|Roar|p2a: Jirachi
+|drag|p2a: Politoed|Politoed, F|288/384
+|-damage|p2a: Politoed|240/384|[from] Spikes
+|-damage|p2a: Politoed|192/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|384/384|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Heatran|154/385 par|[from] item: Leftovers
+|turn|71
+|
+|switch|p1a: Vaporeon|Vaporeon, F|463/463
+|-damage|p1a: Vaporeon|406/463|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Vaporeon
+|-heal|p1a: Vaporeon|463/463|[from] ability: Water Absorb|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|turn|72
+|
+|switch|p2a: Tangrowth|Tangrowth, F|404/404
+|-damage|p2a: Tangrowth|354/404|[from] Spikes
+|-damage|p2a: Tangrowth|304/404|[from] Stealth Rock
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|329/404|[from] item: Leftovers
+|turn|73
+|chat|DatLatias|mfw
+|chat|DatLatias|i replaced hp ground
+|
+|switch|p1a: Heatran|Heatran, F|154/385 par
+|-damage|p1a: Heatran|106/385 par|[from] Stealth Rock
+|switch|p2a: Jirachi|Jirachi|340/401
+|-damage|p2a: Jirachi|290/401|[from] Spikes
+|-damage|p2a: Jirachi|265/401|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|337/385 par|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Jirachi|290/401|[from] item: Leftovers
+|-heal|p1a: Heatran|361/385 par|[from] item: Leftovers
+|turn|74
+|chat|pokemonisfgt|leo
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|cant|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|315/401|[from] item: Leftovers
+|-heal|p1a: Heatran|385/385 par|[from] item: Leftovers
+|turn|75
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Heatran
+|-fail|p1a: Heatran
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|225/401
+|-status|p2a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|401/401 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p2a: Jirachi|351/401 brn|[from] brn
+|turn|76
+|chat|pokemonisfgt|omg
+|chat|pokemonisfgt|can u get predicted
+|chat|pokemonisfgt|any more
+|chat|DatLatias|im not getting predicted lol
+|chat|pokemonisfgt|y
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Heatran|Lava Plume|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|255/401 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|280/401 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|230/401 brn|[from] brn
+|turn|77
+|chat|pokemonisfgt|he woulda roared
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Heatran
+|-fail|p1a: Heatran
+|move|p1a: Heatran|Roar|p2a: Jirachi
+|drag|p2a: Tangrowth|Tangrowth, F|404/404
+|-damage|p2a: Tangrowth|354/404|[from] Stealth Rock
+|-damage|p2a: Tangrowth|304/404|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|404/404|[from] move: Wish|[wisher] Jirachi
+|turn|78
+|
+|switch|p2a: Politoed|Politoed, F|384/384
+|-damage|p2a: Politoed|336/384|[from] Spikes
+|-damage|p2a: Politoed|288/384|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|260/384
+|
+|-weather|RainDance|[upkeep]
+|turn|79
+|chat|pokemonisfgt|ben10pokamon imo
+|chat|DatLatias|lell
+|
+|switch|p2a: Tentacruel|Tentacruel, M|129/363 brn
+|-damage|p2a: Tentacruel|84/363 brn|[from] Spikes
+|-damage|p2a: Tentacruel|39/363 brn|[from] Stealth Rock
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-fail|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|61/363 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|83/363 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|38/363 brn|[from] brn
+|turn|80
+|
+|switch|p1a: Spiritomb|Spiritomb, M|128/303 tox
+|-damage|p1a: Spiritomb|91/303 tox|[from] Stealth Rock
+|-ability|p1a: Spiritomb|Pressure
+|move|p2a: Tentacruel|Scald|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|60/363 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|82/363 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|37/363 brn|[from] brn
+|chat|DatLatias|clean
+|chat|pokemonisfgt|leo
+|
+|switch|p1a: Roserade|Roserade, F|119/324
+|-damage|p1a: Roserade|79/324|[from] Stealth Rock
+|turn|81
+|chat|pokemonisfgt|inb4
+|chat|pokemonisfgt|max speed rose
+|chat|DatLatias|lol
+|chat|pokemonisfgt|gg no re
+|
+|move|p1a: Roserade|Giga Drain|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-heal|p1a: Roserade|98/324|[from] drain|[of] p2a: Tentacruel
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|118/324|[from] item: Black Sludge
+|chat|DatLatias|NO
+|chat|pokemonisfgt|rekt
+|chat|DatLatias|GAY ASS FAGGOT
+|chat|DBriggs|...
+|
+|switch|p2a: Tornadus|Tornadus, M|270/299
+|-damage|p2a: Tornadus|196/299|[from] Stealth Rock
+|turn|82
+|chat|DBriggs|xD
+|join|Joker UU
+|chat|Joker UU|latias pls
+|chat|DBriggs|ugh 
+|chat|DatLatias|barba plz
+|
+|switch|p1a: Vaporeon|Vaporeon, F|463/463
+|-damage|p1a: Vaporeon|406/463|[from] Stealth Rock
+|move|p2a: Tornadus|Hurricane|p1a: Vaporeon
+|-damage|p1a: Vaporeon|101/463
+|-start|p1a: Vaporeon|confusion
+|-damage|p2a: Tornadus|167/299|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|129/463|[from] item: Leftovers
+|turn|83
+|chat|Joker UU|using moltres in rain you shure are friend of gobo
+|chat|DatLatias|use alomomola instead of vaporeon
+|chat|DatLatias|and yes lol
+|
+|-activate|p1a: Vaporeon|confusion
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Tornadus|Hurricane|p1a: Vaporeon
+|-activate|p1a: Vaporeon|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|157/463|[from] item: Leftovers
+|turn|84
+|chat|DBriggs|alomomola would have just died, its sp def is :/
+|
+|switch|p1a: Heatran|Heatran, F|385/385 par
+|-damage|p1a: Heatran|337/385 par|[from] Stealth Rock
+|move|p2a: Tornadus|Hurricane|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|236/385 par
+|-damage|p2a: Tornadus|138/299|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|260/385 par|[from] item: Leftovers
+|turn|85
+|chat|DatLatias|but it can actually take physical hits and it has regenerator
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Tornadus|Focus Blast|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|284/385 par|[from] item: Leftovers
+|turn|86
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|24/385 par
+|-damage|p2a: Tornadus|109/299|[from] item: Life Orb
+|cant|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|48/385 par|[from] item: Leftovers
+|turn|87
+|chat|DatLatias|based sun god tbh
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Tornadus|Hurricane|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|72/385 par|[from] item: Leftovers
+|turn|88
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-fail|p1a: Heatran
+|move|p2a: Tornadus|Hurricane|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Tornadus|80/299|[from] item: Life Orb
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Vaporeon|Vaporeon, F|157/463
+|-damage|p1a: Vaporeon|100/463|[from] Stealth Rock
+|turn|89
+|
+|move|p2a: Tornadus|Hurricane|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-damage|p2a: Tornadus|51/299|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Roserade|Roserade, F|118/324
+|-damage|p1a: Roserade|78/324|[from] Stealth Rock
+|turn|90
+|
+|move|p2a: Tornadus|Hurricane|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-damage|p2a: Tornadus|22/299|[from] item: Life Orb
+|faint|p1a: Roserade
+|
+|win|DatLatias
+|raw|Ladder updating...
+|raw|DBriggs's rating: 1486 &rarr; <strong>1460</strong><br />(-26 for losing)
+|raw|DatLatias's rating: 1377 &rarr; <strong>1403</strong><br />(+26 for winning)
+|chat|DatLatias|gg
+|chat|DBriggs|gg
+|leave|DatLatias
+|player|p2
+|leave|DBriggs
+|player|p1

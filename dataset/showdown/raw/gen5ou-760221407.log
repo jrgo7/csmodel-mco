@@ -1,0 +1,316 @@
+|j|☆CroCoeur
+|j|☆yoloboy9000
+|player|p1|CroCoeur|161
+|player|p2|yoloboy9000|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|57/100
+|move|p2a: Pat Riely|Stealth Rock|p1a: Politoed
+|-sidestart|p1: CroCoeur|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|94/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|63/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Bosh|Latios, M, shiny|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Bosh
+|-resisted|p2a: Bosh
+|-damage|p2a: Bosh|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|88/100|[from] Sandstorm
+|-damage|p2a: Bosh|68/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|switch|p2a: Ray Allen|Magnezone|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|82/100|[from] Sandstorm
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Celebi|Giga Drain|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-damage|p2a: Ray Allen|84/100
+|-heal|p1a: Celebi|94/100|[from] drain|[of] p2a: Ray Allen
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|88/100|[from] Sandstorm
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Ray Allen|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Ray Allen|Charge Beam|p1a: Celebi|[miss]
+|-miss|p2a: Ray Allen|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|88/100|[from] Sandstorm
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|71/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish3
+|-start|p2a: Ray Allen|perish3
+|upkeep
+|turn|6
+|
+|move|p1a: Celebi|Giga Drain|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|-heal|p1a: Celebi|99/100|[from] drain|[of] p2a: Ray Allen
+|move|p2a: Ray Allen|Flash Cannon|p1a: Celebi
+|-damage|p1a: Celebi|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|68/100|[from] Sandstorm
+|-heal|p1a: Celebi|74/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|77/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish2
+|-start|p2a: Ray Allen|perish2
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p2a: Miller|Scizor, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Miller|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|61/100
+|-damage|p2a: Miller|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Ray Allen|Magnezone|77/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ray Allen
+|-start|p2a: Ray Allen|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|83/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|68/100|[from] item: Leftovers
+|-damage|p2a: Ray Allen|70/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|77/100|[silent]
+|upkeep
+|turn|9
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Bron Bron
+|-sidestart|p2: yoloboy9000|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Bron Bron|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Bron Bron
+|-start|p2a: Bron Bron|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|-damage|p2a: Bron Bron|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|61/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Bron Bron|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|switch|p2a: Miller|Scizor, M, shiny|88/100
+|-damage|p2a: Miller|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|12
+|
+|switch|p2a: Pat Riely|Tyranitar, M|63/100
+|-damage|p2a: Pat Riely|51/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|move|p1a: Politoed|Hydro Pump|p2a: Pat Riely|[miss]
+|-miss|p1a: Politoed|p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|69/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆CroCoeur|Motherfucker how lucky can you get
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|11/100
+|move|p2a: Pat Riely|Pursuit|p1a: Politoed
+|-damage|p1a: Politoed|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|38/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|17/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Pat Riely|[miss]
+|-miss|p1a: Politoed|p2a: Pat Riely
+|move|p2a: Pat Riely|Pursuit|p1a: Politoed
+|-damage|p1a: Politoed|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|9/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|23/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Bosh|Latios, M, shiny|68/100
+|-damage|p2a: Bosh|55/100|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Bosh
+|-resisted|p2a: Bosh
+|-damage|p2a: Bosh|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|2/100|[from] Sandstorm
+|-damage|p2a: Bosh|24/100|[from] Sandstorm
+|upkeep
+|turn|16
+|c|☆CroCoeur|Fucking boss
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Bosh
+|-resisted|p2a: Bosh
+|-damage|p2a: Bosh|0 fnt
+|faint|p2a: Bosh
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|0 fnt|[from] Sandstorm
+|upkeep
+|faint|p1a: Politoed
+|
+|switch|p2a: Ray Allen|Magnezone|70/100
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Ray Allen|64/100|[from] Stealth Rock
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|58/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: Vaporeon|Roar|p2a: Ray Allen
+|drag|p2a: D.Wade|Terrakion|100/100
+|-damage|p2a: D.Wade|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|52/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|58/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: D.Wade|Close Combat|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|faint|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|61/100
+|-damage|p1a: Ferrothorn|54/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|88/100
+|-damage|p2a: Bron Bron|76/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Bron Bron
+|-start|p2a: Bron Bron|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|61/100|[from] item: Leftovers
+|-damage|p2a: Bron Bron|64/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|74/100|[silent]
+|upkeep
+|turn|20
+|
+|move|p2a: Bron Bron|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|55/100
+|-damage|p2a: Bron Bron|51/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Ray Allen|Magnezone|64/100
+|-damage|p2a: Ray Allen|58/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen|[miss]
+|-miss|p1a: Ferrothorn|p2a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|64/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|-message|CroCoeur forfeited.
+|
+|win|yoloboy9000
+|l|☆CroCoeur
+|c|☆yoloboy9000|ez games ez life
+|raw|CroCoeur's rating: 1382 &rarr; <strong>1360</strong><br />(-22 for losing)
+|raw|yoloboy9000's rating: 1341 &rarr; <strong>1364</strong><br />(+23 for winning)

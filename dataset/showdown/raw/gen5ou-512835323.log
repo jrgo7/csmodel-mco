@@ -1,0 +1,917 @@
+|j|PERFORBECCO
+|j|Gaeoa
+|player|p1|PERFORBECCO|289
+|player|p2|Gaeoa|290
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|27735,11565,35039,40190
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, F|item
+|poke|p2|Ferrothorn, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, M|432/432
+|switch|p2a: Rotom|Rotom-Wash|276/276
+|turn|1
+|choice|move spore|move trick
+|
+|move|p2a: Rotom|Trick|p1a: Amoonguss
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Amoonguss
+|-item|p1a: Amoonguss|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Amoonguss|Spore|p2a: Rotom
+|-status|p2a: Rotom|slp
+|
+|upkeep
+|turn|2
+|l|Gaeoa
+|player|p2
+|j|Gaeoa
+|player|p2|Gaeoa|290
+|choice|switch 4|switch 4
+|
+|switch|p2a: Politoed|Politoed, M|380/380
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|switch|p1a: Jirachi|Jirachi|404/404
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|choice|move bodyslam|move hydropump
+|
+|move|p1a: Jirachi|Body Slam|p2a: Politoed
+|-damage|p2a: Politoed|288/380
+|-status|p2a: Politoed|par
+|move|p2a: Politoed|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|124/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|149/404|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move protect|switch 2
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|300/300
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-fail|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|174/404|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 3|move substitute
+|
+|switch|p1a: Chansey|Chansey, F|642/642
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|225/300
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|243/300|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move seismictoss|move nastyplot
+|
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Chansey|Seismic Toss|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|261/300|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move seismictoss|move substitute
+|
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|186/300
+|move|p1a: Chansey|Seismic Toss|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|204/300|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|★PERFORBECCO|so you prepared a counter team, intresting
+|choice|move seismictoss|move focusblast
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|62/642
+|move|p1a: Chansey|Seismic Toss|p2a: Thundurus
+|-damage|p2a: Thundurus|104/300
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|122/300|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|★Gaeoa|this is my original team dude xD
+|c|★Gaeoa|don't be so serious! it's a game xD
+|choice|move seismictoss|move thunder
+|
+|move|p2a: Thundurus|Thunder|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|140/300|[from] item: Leftovers
+|upkeep
+|c|★PERFORBECCO|your original team seems perfect against rain stall
+|choice|switch 4|
+|
+|switch|p1a: Amoonguss|Amoonguss, M|432/432
+|turn|10
+|choice|move hiddenpower|move substitute
+|
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|65/300
+|move|p1a: Amoonguss|Hidden Power|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|83/300|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move hiddenpower|move thunder
+|
+|move|p2a: Thundurus|Thunder|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|174/432
+|move|p1a: Amoonguss|Hidden Power|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Scizor|Scizor, F|318/318
+|turn|12
+|choice|switch 6|move pursuit
+|
+|-activate|p1a: Amoonguss|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Amoonguss|[from]Pursuit
+|-damage|p1a: Amoonguss|30/432
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|c|★Gaeoa|That isn't my problem, I just play on the ladder xD
+|choice|move toxicspikes|switch 3
+|
+|switch|p2a: Toxicroak|Toxicroak, M|308/308
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Toxicroak
+|-sidestart|p2: Gaeoa|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|c|★Gaeoa|tu sei burino?
+|c|★PERFORBECCO|me too lol... just it's impossible for me to win this game
+|choice|switch 5|move crosschop
+|
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|move|p2a: Toxicroak|Cross Chop|p1a: Skarmory|[miss]
+|-miss|p2a: Toxicroak|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|c|★Gaeoa|io sono um bambino molto good
+|choice|move spikes|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|276/276 slp
+|move|p1a: Skarmory|Spikes|p2a: Rotom
+|-sidestart|p2: Gaeoa|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|c|★PERFORBECCO|ehm... are you crazy?
+|choice|move whirlwind|move voltswitch
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Skarmory|Whirlwind|p2a: Rotom
+|drag|p2a: Scizor|Scizor, F|318/318
+|-damage|p2a: Scizor|279/318|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|c|★Gaeoa|I play for fun dude
+|choice|move spikes|move uturn
+|
+|move|p1a: Skarmory|Spikes|p2a: Scizor
+|-sidestart|p2: Gaeoa|Spikes
+|move|p2a: Scizor|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|307/334
+|c|★Gaeoa|I don't care I win or I lose, just relax!
+|choice||switch 3
+|
+|switch|p2a: Rotom|Rotom-Wash|276/276 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|choice|switch 3|move voltswitch
+|
+|switch|p1a: Jirachi|Jirachi|174/404
+|cant|p2a: Rotom|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|199/404|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move wish|move hydropump
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|224/404|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move ironhead|move hydropump
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Jirachi|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|254/276 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Rotom|271/276 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move bodyslam|move voltswitch
+|
+|-curestatus|p2a: Rotom|slp|[msg]
+|move|p2a: Rotom|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|326/404
+|choice||switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p2a: Ferrothorn|294/352|[from] Spikes
+|move|p1a: Jirachi|Body Slam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|245/352
+|-damage|p1a: Jirachi|276/404|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|301/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|267/352 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|switch 3|move thunderwave
+|
+|switch|p1a: Skarmory|Skarmory, F|307/334
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|289/352 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move spikes|move thunderwave
+|
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Gaeoa|Spikes
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|311/352 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move whirlwind|move stealthrock
+|
+|cant|p2a: Ferrothorn|par
+|move|p1a: Skarmory|Whirlwind|p2a: Ferrothorn
+|drag|p2a: Rotom|Rotom-Wash|271/276
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|276/276|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|switch 3|move hydropump
+|
+|switch|p1a: Jirachi|Jirachi|301/404
+|move|p2a: Rotom|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|75/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/404|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move protect|move hydropump
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|125/404|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|switch 6|move voltswitch
+|
+|switch|p1a: Amoonguss|Amoonguss, M|174/432
+|move|p2a: Rotom|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|105/432
+|choice||switch 3
+|
+|switch|p2a: Scizor|Scizor, F|279/318
+|-damage|p2a: Scizor|200/318|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|choice|move spore|move uturn
+|
+|move|p2a: Scizor|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|choice||switch 3
+|
+|switch|p2a: Rotom|Rotom-Wash|276/276
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Politoed|Politoed, M|384/384
+|turn|29
+|choice|move toxic|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|162/384
+|choice||switch 4
+|
+|switch|p2a: Toxicroak|Toxicroak, M|308/308
+|-damage|p2a: Toxicroak|231/308|[from] Spikes
+|-sideend|p2: Gaeoa|move: Toxic Spikes|[of] p2a: Toxicroak
+|move|p1a: Politoed|Toxic|p2a: Toxicroak
+|-immune|p2a: Toxicroak|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|269/308|[from] ability: Dry Skin
+|-heal|p1a: Politoed|186/384|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|switch 3|move crosschop
+|
+|switch|p1a: Skarmory|Skarmory, F|307/334 par
+|move|p2a: Toxicroak|Cross Chop|p1a: Skarmory|[miss]
+|-miss|p2a: Toxicroak|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|307/308|[from] ability: Dry Skin
+|upkeep
+|turn|31
+|choice|move bravebird|move swordsdance
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Skarmory|Brave Bird|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-damage|p1a: Skarmory|206/334 par|[from] recoil|[of] p2a: Toxicroak
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|★Gaeoa|ops
+|choice||switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|276/276
+|turn|32
+|c|★Gaeoa|^^
+|choice|switch 5|move voltswitch
+|
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|move|p2a: Rotom|Volt Switch|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|172/364
+|choice||switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|311/352 par
+|-damage|p2a: Ferrothorn|223/352 par|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|194/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|216/364|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|245/352 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|switch 6|move thunderwave
+|
+|switch|p1a: Jirachi|Jirachi|125/404
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Jirachi
+|-status|p1a: Jirachi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|150/404 par|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|267/352 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move wish|switch 6
+|
+|switch|p2a: Rotom|Rotom-Wash|276/276
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|175/404 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move protect|move voltswitch
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|377/404 par|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|402/404 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move bodyslam|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|192/404 par
+|move|p1a: Jirachi|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|213/276
+|-status|p2a: Rotom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|230/276 par|[from] item: Leftovers
+|-heal|p1a: Jirachi|217/404 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move protect|move voltswitch
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|cant|p2a: Rotom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|247/276 par|[from] item: Leftovers
+|-heal|p1a: Jirachi|242/404 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|switch 6|move hydropump
+|
+|switch|p1a: Tentacruel|Tentacruel, F|216/364
+|move|p2a: Rotom|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|96/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|118/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|140/364|[from] item: Leftovers
+|-heal|p2a: Rotom|264/276 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move protect|move voltswitch
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|cant|p2a: Rotom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|162/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|184/364|[from] item: Leftovers
+|-heal|p2a: Rotom|276/276 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|choice|move scald|move voltswitch
+|
+|move|p1a: Tentacruel|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|223/276 par
+|cant|p2a: Rotom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|206/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|228/364|[from] item: Leftovers
+|-heal|p2a: Rotom|240/276 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|choice|move protect|move voltswitch
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|250/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|272/364|[from] item: Leftovers
+|-heal|p2a: Rotom|257/276 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|choice|switch 6|move voltswitch
+|
+|switch|p1a: Jirachi|Jirachi|242/404 par
+|move|p2a: Rotom|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|152/404 par
+|choice||switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|267/352 par
+|-damage|p2a: Ferrothorn|179/352 par|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|177/404 par|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|201/352 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|choice|move wish|move stealthrock
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: PERFORBECCO|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|202/404 par|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|223/352 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|choice|move ironhead|move spikes
+|
+|move|p1a: Jirachi|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|190/352 par
+|-damage|p1a: Jirachi|152/404 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|cant|p2a: Ferrothorn|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|354/404 par|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|379/404 par|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|212/352 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|choice|switch 5|move spikes
+|
+|switch|p1a: Skarmory|Skarmory, F|206/334 par
+|-damage|p1a: Skarmory|165/334 par|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: PERFORBECCO|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|234/352 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|choice|move roost|move spikes
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|332/334 par
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: PERFORBECCO|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|256/352 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|choice|move whirlwind|move spikes
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: PERFORBECCO|Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Ferrothorn
+|drag|p2a: Rotom|Rotom-Wash|257/276 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|274/276 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|l|Gaeoa
+|player|p2
+|j|Gaeoa
+|player|p2|Gaeoa|290
+|choice|switch 5|move hydropump
+|
+|switch|p1a: Jirachi|Jirachi|379/404 par
+|-damage|p1a: Jirachi|354/404 par|[from] Stealth Rock
+|-damage|p1a: Jirachi|253/404 par|[from] Spikes
+|move|p2a: Rotom|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|34/404 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|276/276 par|[from] item: Leftovers
+|-heal|p1a: Jirachi|59/404 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|choice|move wish|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|choice||switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|256/352 par
+|-damage|p2a: Ferrothorn|168/352 par|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|190/352 par|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Tentacruel|Tentacruel, F|272/364
+|-damage|p1a: Tentacruel|181/364|[from] Spikes
+|-damage|p1a: Tentacruel|136/364|[from] Stealth Rock
+|turn|50
+|choice|move protect|move powerwhip
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Ferrothorn|Power Whip|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|158/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|180/364|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|212/352 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|choice|move rapidspin|move powerwhip
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|208/352 par
+|-damage|p1a: Tentacruel|135/364|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: PERFORBECCO|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: PERFORBECCO|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|157/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|179/364|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|230/352 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|c|★Gaeoa|nooo t.t
+|choice|switch 5|move thunderwave
+|
+|switch|p1a: Skarmory|Skarmory, F|332/334 par
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Skarmory
+|-fail|p1a: Skarmory|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|252/352 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|choice|move whirlwind|move stealthrock
+|
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: PERFORBECCO|move: Stealth Rock
+|move|p1a: Skarmory|Whirlwind|p2a: Ferrothorn
+|drag|p2a: Politoed|Politoed, M|288/380 par
+|-damage|p2a: Politoed|193/380 par|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|54
+|choice|switch 5|move hydropump
+|
+|switch|p1a: Tentacruel|Tentacruel, F|179/364
+|-damage|p1a: Tentacruel|134/364|[from] Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Politoed|Politoed, M|186/384
+|-damage|p1a: Politoed|138/384|[from] Stealth Rock
+|turn|55
+|choice|move protect|move hydropump
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|162/384|[from] item: Leftovers
+|upkeep
+|turn|56
+|choice|move scald|move hydropump
+|
+|move|p1a: Politoed|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|133/380 par
+|cant|p2a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|186/384|[from] item: Leftovers
+|upkeep
+|turn|57
+|choice|move protect|move hydropump
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|210/384|[from] item: Leftovers
+|upkeep
+|turn|58
+|choice|move scald|move hydropump
+|
+|move|p1a: Politoed|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|74/380 par
+|cant|p2a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|234/384|[from] item: Leftovers
+|upkeep
+|turn|59
+|c|★Gaeoa|so as you can see I don't get hungry cause "hax"
+|c|★Gaeoa|(I don't like that word)
+|choice|move protect|move hydropump
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|258/384|[from] item: Leftovers
+|upkeep
+|turn|60
+|c|★PERFORBECCO|in fact this is lucky that can't matter
+|c|★Gaeoa|lol xd
+|c|★Gaeoa|Dude, learn to enjoy the game
+|c|★Gaeoa|I see you just suffering
+|c|★PERFORBECCO|as I expected, this is an impossible game
+|c|★Gaeoa|now I'm smoking weed
+|choice|move scald|move hydropump
+|
+|move|p1a: Politoed|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|10/380 par
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|69/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|93/384|[from] item: Leftovers
+|upkeep
+|turn|61
+|choice|move protect|move hydropump
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Politoed|Hydro Pump|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|117/384|[from] item: Leftovers
+|upkeep
+|turn|62
+|choice|move scald|move hydropump
+|
+|move|p1a: Politoed|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|141/384|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Wash|276/276 par
+|turn|63
+|choice|move protect|move voltswitch
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|cant|p2a: Rotom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|165/384|[from] item: Leftovers
+|upkeep
+|turn|64
+|choice|move scald|move voltswitch
+|
+|move|p1a: Politoed|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|216/276 par
+|cant|p2a: Rotom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|189/384|[from] item: Leftovers
+|-heal|p2a: Rotom|233/276 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|choice|move protect|move voltswitch
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|cant|p2a: Rotom|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|213/384|[from] item: Leftovers
+|-heal|p2a: Rotom|250/276 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|choice|move scald|move voltswitch
+|
+|move|p1a: Politoed|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|190/276 par
+|move|p2a: Rotom|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|choice||switch 2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|252/352 par
+|-damage|p2a: Ferrothorn|164/352 par|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|186/352 par|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Skarmory|Skarmory, F|332/334 par
+|-damage|p1a: Skarmory|291/334 par|[from] Stealth Rock
+|turn|67
+|choice|move whirlwind|move powerwhip
+|
+|cant|p2a: Ferrothorn|par
+|move|p1a: Skarmory|Whirlwind|p2a: Ferrothorn
+|drag|p2a: Rotom|Rotom-Wash|190/276 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|207/276 par|[from] item: Leftovers
+|upkeep
+|turn|68
+|c|★PERFORBECCO|gg, i'm curious... I wanna do a game with an equal mu/hax
+|choice|move whirlwind|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|win|Gaeoa
+|player|p1
+|player|p2
+|c|★Gaeoa|mu/hax?
+|raw|PERFORBECCO's rating: 1509 &rarr; <strong>1481</strong><br />(-28 for losing)
+|raw|Gaeoa's rating: 1374 &rarr; <strong>1401</strong><br />(+27 for winning)
+|c|★PERFORBECCO|first game won by you just for hax
+|c|★Gaeoa|dude, if u wanna feel important go and do mathematics, chemistry or literature
+|c|★PERFORBECCO|second just for match up
+|c|★Gaeoa|playing pokemon you will never be the guy you wanna be here xd
+|c|★Gaeoa|it's a game xd
+|c|★PERFORBECCO|i know man
+|c|★Gaeoa|so, what is the deal
+|c|★Gaeoa|I see you just get hungry
+|c|★Gaeoa|ungry*
+|c|★Gaeoa|I'm here just to play and it is always a pain in the ass to play with people like u that play i don't know following what reason
+|c|★PERFORBECCO|I just want to do a game that can calls "game"
+|c|★Gaeoa|Lol, my time discussing passed years ago xd
+|c|★Gaeoa|enjoy, now I will leave because I have to go to my home (I study far away from home)
+|c|★PERFORBECCO|lol what
+|c|★Gaeoa|so enjoy I wont be here and you will be able to win someone else xD (it's a joke!!!)

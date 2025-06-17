@@ -1,0 +1,303 @@
+|j|☆basco
+|j|☆refsunpersons
+|player|p1|basco|169
+|player|p2|refsunpersons|123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Terrakion|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Bronzong|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Roserade, F|item
+|poke|p2|Keldeo|item
+|teampreview
+|
+|start
+|switch|p1a: Bron Bron|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bron Bron|atk|1
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+|c|☆refsunpersons|gl hf
+|
+|move|p2a: Landorus|Hidden Power|p1a: Bron Bron
+|-supereffective|p1a: Bron Bron
+|-damage|p1a: Bron Bron|17/100
+|move|p1a: Bron Bron|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|2
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Bron Bron|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Miller|Scizor, M, shiny|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Miller|Superpower|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-enditem|p2a: Magnezone|Chople Berry|[eat]
+|-enditem|p2a: Magnezone|Chople Berry|[weaken]
+|-damage|p2a: Magnezone|40/100
+|-unboost|p1a: Miller|atk|1
+|-unboost|p1a: Miller|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Miller
+|-supereffective|p1a: Miller
+|-damage|p1a: Miller|0 fnt
+|faint|p1a: Miller
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: D.Wade|Terrakion|100/100
+|turn|6
+|
+|move|p1a: D.Wade|Close Combat|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|7
+|
+|switch|p1a: Bosh|Latios, M, shiny|100/100
+|move|p2a: Keldeo|Secret Sword|p1a: Bosh
+|-resisted|p1a: Bosh
+|-damage|p1a: Bosh|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|63/100|[from] Sandstorm
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Tyranitar|Tyranitar, F|29/100
+|move|p1a: Bosh|Psyshock|p2a: Tyranitar
+|-immune|p2a: Tyranitar|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|57/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Bosh|Energy Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|51/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|10
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|17/100
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Bronzong|atk|1
+|switch|p2a: Roserade|Roserade, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|94/100|[from] Sandstorm
+|-heal|p2a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Bron Bron|Earthquake|p2a: Roserade
+|-damage|p2a: Roserade|8/100
+|move|p2a: Roserade|Sleep Powder|p1a: Bron Bron
+|-status|p1a: Bron Bron|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|2/100|[from] Sandstorm
+|-heal|p2a: Roserade|8/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Bosh|Latios, M, shiny|51/100
+|move|p2a: Roserade|Rest|p2a: Roserade
+|-status|p2a: Roserade|slp
+|-heal|p2a: Roserade|100/100 slp|[silent]
+|-status|p2a: Roserade|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|45/100|[from] Sandstorm
+|-damage|p2a: Roserade|94/100 slp|[from] Sandstorm
+|-heal|p2a: Roserade|100/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Bosh|Draco Meteor|p2a: Bronzong|[miss]
+|-miss|p1a: Bosh|p2a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|39/100|[from] Sandstorm
+|upkeep
+|turn|14
+|c|☆refsunpersons|sorry
+|
+|switch|p1a: D.Wade|Terrakion|100/100
+|move|p2a: Bronzong|Earthquake|p1a: D.Wade
+|-supereffective|p1a: D.Wade
+|-damage|p1a: D.Wade|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: D.Wade|Close Combat|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: D.Wade|Close Combat|p2a: Bronzong
+|-damage|p2a: Bronzong|53/100
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|move|p2a: Bronzong|Gyro Ball|p1a: D.Wade
+|-supereffective|p1a: D.Wade
+|-damage|p1a: D.Wade|0 fnt
+|faint|p1a: D.Wade
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bronzong|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ray Allen|Magnezone|100/100
+|turn|17
+|
+|move|p1a: Ray Allen|Substitute|p1a: Ray Allen
+|-start|p1a: Ray Allen|Substitute
+|-damage|p1a: Ray Allen|76/100
+|move|p2a: Bronzong|Earthquake|p1a: Ray Allen
+|-supereffective|p1a: Ray Allen
+|-end|p1a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ray Allen|82/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Ray Allen|Charge Beam|p2a: Bronzong
+|-damage|p2a: Bronzong|45/100
+|-boost|p1a: Ray Allen|spa|1
+|move|p2a: Bronzong|Earthquake|p1a: Ray Allen
+|-supereffective|p1a: Ray Allen
+|-damage|p1a: Ray Allen|0 fnt
+|faint|p1a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bronzong|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bosh|Latios, M, shiny|39/100
+|turn|19
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Bosh|Surf|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|33/100|[from] Sandstorm
+|-heal|p2a: Bronzong|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Roserade|Roserade, F|100/100
+|move|p1a: Bosh|Surf|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|27/100|[from] Sandstorm
+|-damage|p2a: Roserade|80/100|[from] Sandstorm
+|-heal|p2a: Roserade|86/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Bosh|Psyshock|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|21/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong|58/100
+|turn|22
+|
+|move|p1a: Bosh|Surf|p2a: Bronzong
+|-damage|p2a: Bronzong|33/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Bosh
+|-damage|p1a: Bosh|0 fnt
+|faint|p1a: Bosh
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bronzong|39/100|[from] item: Leftovers
+|upkeep
+|-message|basco forfeited.
+|
+|win|refsunpersons
+|l|☆basco
+|raw|basco's rating: 1399 &rarr; <strong>1375</strong><br />(-24 for losing)
+|raw|refsunpersons's rating: 1330 &rarr; <strong>1354</strong><br />(+24 for winning)
+|c|☆refsunpersons|gg wp

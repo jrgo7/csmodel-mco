@@ -1,0 +1,241 @@
+|join|kirch
+|join|professorcaralho
+|player|p1|kirch|1
+|player|p2|professorcaralho|120
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Jirachi
+|poke|p1|Breloom, F
+|poke|p1|Tyranitar, F
+|poke|p1|Rotom-Wash
+|poke|p1|Jellicent, F
+|poke|p1|Stoutland, M
+|poke|p2|Politoed, M
+|poke|p2|Latios, M
+|poke|p2|Rotom-Wash
+|poke|p2|Breloom, F
+|poke|p2|Jirachi
+|poke|p2|Scizor, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Jirachi|Jirachi|404/404
+|switch|p2a: Brastemp|Rotom-Wash|303/303
+|turn|1
+|
+|move|p2a: Brastemp|Thunder Wave|p1a: Jirachi
+|-status|p1a: Jirachi|par
+|move|p1a: Jirachi|Trick|p2a: Brastemp
+|-activate|p1a: Jirachi|move: Trick|[of] p2a: Brastemp
+|-item|p2a: Brastemp|Choice Scarf|[from] move: Trick
+|-item|p1a: Jirachi|Choice Scarf|[from] move: Trick
+|
+|turn|2
+|
+|switch|p2a: SaoPedro|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: SaoPedro
+|move|p1a: Jirachi|Trick|p2a: SaoPedro
+|-activate|p1a: Jirachi|move: Trick|[of] p2a: SaoPedro
+|-item|p2a: SaoPedro|Choice Scarf|[from] move: Trick
+|-item|p1a: Jirachi|Wide Lens|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|join|HRPoppNStopp
+|join|filipmerda
+|
+|switch|p2a: Brastemp|Rotom-Wash|303/303
+|switch|p1a: Jellicent|Jellicent, F|404/404
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|chat|kirch|uh what I didn't switch
+|chat|kirch|that was supposed to be rocks :|
+|
+|switch|p1a: Jirachi|Jirachi|404/404 par
+|move|p2a: Brastemp|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|329/404 par
+|
+|switch|p2a: SaoPedro|Politoed, M|384/384
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|leave|filipmerda
+|
+|switch|p1a: Jellicent|Jellicent, F|404/404
+|move|p2a: SaoPedro|Hydro Pump|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p2a: Brastemp|Rotom-Wash|303/303
+|switch|p1a: Rotom-Wash|Rotom-Wash|241/241
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Brastemp
+|-damage|p2a: Brastemp|212/303
+|
+|switch|p1a: Jirachi|Jirachi|329/404 par
+|move|p2a: Brastemp|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|260/404 par
+|chat|HRPoppNStopp|Oh boy. 
+|
+|switch|p2a: SaoPedro|Politoed, M|384/384
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: RaboGrande|Breloom, F|261/261
+|move|p1a: Jirachi|Stealth Rock|p2a: RaboGrande
+|-sidestart|p2: professorcaralho|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: RaboGrande|tox|[from] item: Toxic Orb
+|turn|9
+|
+|switch|p1a: Stoutland|Stoutland, M|311/311
+|move|p2a: RaboGrande|Substitute|p2a: RaboGrande
+|-start|p2a: RaboGrande|Substitute
+|-damage|p2a: RaboGrande|196/261 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: RaboGrande|228/261 tox|[from] ability: Poison Heal
+|turn|10
+|
+|move|p2a: RaboGrande|Spore|p1a: Stoutland
+|-status|p1a: Stoutland|slp
+|cant|p1a: Stoutland|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: RaboGrande|260/261 tox|[from] ability: Poison Heal
+|turn|11
+|
+|-singleturn|p2a: RaboGrande|move: Focus Punch
+|switch|p1a: Jellicent|Jellicent, F|404/404
+|move|p2a: RaboGrande|Focus Punch|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: RaboGrande|261/261 tox|[from] ability: Poison Heal
+|turn|12
+|
+|switch|p1a: Breloom|Breloom, F|324/324
+|move|p2a: RaboGrande|Bullet Seed|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|306/324
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|288/324
+|-crit|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|249/324
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|231/324
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|214/324
+|-hitcount|p1a: Breloom|5
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|13
+|
+|-singleturn|p2a: RaboGrande|move: Focus Punch
+|switch|p1a: Jellicent|Jellicent, F|404/404
+|move|p2a: RaboGrande|Focus Punch|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p2a: RaboGrande|Bullet Seed|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|318/404
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|220/404
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|124/404
+|-hitcount|p1a: Jellicent|3
+|move|p1a: Jellicent|Shadow Ball|p2a: RaboGrande
+|-end|p2a: RaboGrande|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|149/404|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: RaboGrande|Bullet Seed|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|65/404
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-hitcount|p1a: Jellicent|2
+|faint|p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|241/241
+|turn|16
+|
+|switch|p2a: Brastemp|Rotom-Wash|212/303
+|-damage|p2a: Brastemp|175/303|[from] Stealth Rock
+|move|p1a: Rotom-Wash|Hidden Power|p2a: Brastemp
+|-resisted|p2a: Brastemp
+|-damage|p2a: Brastemp|147/303
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p1a: Rotom-Wash|Hidden Power|p2a: Brastemp
+|-resisted|p2a: Brastemp
+|-damage|p2a: Brastemp|118/303
+|move|p2a: Brastemp|Hydro Pump|p1a: Rotom-Wash
+|-resisted|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|142/241
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|switch|p1a: Tyranitar|Tyranitar, F|370/370
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Brastemp|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|176/370
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Brastemp|100/303|[from] sandstorm
+|-heal|p1a: Tyranitar|199/370|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|142/241
+|move|p2a: Brastemp|Hydro Pump|p1a: Rotom-Wash
+|-resisted|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|72/241
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|57/241|[from] sandstorm
+|-damage|p2a: Brastemp|82/303|[from] sandstorm
+|turn|20
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Brastemp
+|-damage|p2a: Brastemp|0 fnt
+|faint|p2a: Brastemp
+|-message|kirch forfeited.
+|
+|win|professorcaralho
+|raw|Ladder updating...
+|leave|kirch
+|player|p1
+|raw|kirch's rating: 1352 &rarr; <strong>1330</strong><br />(-22 for losing)
+|raw|professorcaralho's rating: 1324 &rarr; <strong>1345</strong><br />(+21 for winning)

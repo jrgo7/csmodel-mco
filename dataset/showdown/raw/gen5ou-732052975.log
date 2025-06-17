@@ -1,0 +1,213 @@
+|j|☆Cremes
+|j|☆buyi ygf
+|player|p1|Cremes|232
+|player|p2|buyi ygf|7
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Abomasnow, M|item
+|poke|p1|Kyurem|item
+|poke|p1|Heatran, M|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Starmie|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Gengar, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Dragonite, F|item
+|teampreview
+|
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|75/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: Cremes|move: Stealth Rock
+|
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Kyurem|Blizzard|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|-enditem|p2a: Skarmory|Salac Berry|[eat]
+|-boost|p2a: Skarmory|spe|1
+|move|p2a: Skarmory|Spikes|p1a: Kyurem
+|-sidestart|p1: Cremes|Spikes
+|
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Skarmory|Spikes|p1a: Kyurem
+|-sidestart|p1: Cremes|Spikes
+|move|p1a: Kyurem|Dragon Pulse|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|4
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Kyurem|Dragon Pulse|p2a: Volcarona
+|-damage|p2a: Volcarona|65/100
+|
+|-heal|p2a: Volcarona|71/100|[from] item: Leftovers
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| weak sleeper
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|move|p1a: Kyurem|Dragon Pulse|p2a: Volcarona
+|-damage|p2a: Volcarona|33/100
+|
+|-heal|p2a: Volcarona|39/100|[from] item: Leftovers
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-damage|p1a: Heatran|71/100|[from] Spikes
+|move|p2a: Volcarona|Fiery Dance|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-heal|p2a: Volcarona|45/100|[from] item: Leftovers
+|-heal|p1a: Heatran|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Volcarona|Hidden Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Volcarona|51/100|[from] item: Leftovers
+|upkeep
+|n| outside players|weaksleeper
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|71/100|[from] Spikes
+|turn|8
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|9
+|
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|move|p2a: Dragonite|Outrage|p1a: Gliscor
+|-damage|p1a: Gliscor|10/100 tox
+|move|p1a: Gliscor|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|tox|[msg]
+|
+|-heal|p1a: Gliscor|23/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|move|p2a: Dragonite|Outrage|p1a: Gliscor|[from]lockedmove
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-damage|p1a: Abomasnow|75/100|[from] Stealth Rock
+|-damage|p1a: Abomasnow|59/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|12
+|
+|move|p1a: Abomasnow|Protect|p1a: Abomasnow
+|-singleturn|p1a: Abomasnow|Protect
+|move|p2a: Dragonite|Outrage|p1a: Abomasnow|[from]lockedmove
+|-activate|p1a: Abomasnow|move: Protect
+|-start|p2a: Dragonite|confusion|[fatigue]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Hail
+|-heal|p1a: Abomasnow|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|15/100
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Fire Punch|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragonite|9/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|84/100|[from] Spikes
+|-damage|p1a: Starmie|72/100|[from] Stealth Rock
+|turn|14
+|
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Outrage|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragonite|3/100|[from] Hail
+|upkeep
+|-message|Cremes forfeited.
+|
+|win|buyi ygf
+|l|☆Cremes
+|raw|Cremes's rating: 1359 &rarr; <strong>1344</strong><br />(-15 for losing)
+|raw|buyi ygf's rating: 1436 &rarr; <strong>1452</strong><br />(+16 for winning)

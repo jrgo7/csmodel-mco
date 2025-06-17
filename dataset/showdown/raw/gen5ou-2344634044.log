@@ -1,0 +1,367 @@
+|j|☆Vanteline
+|j|☆kamisama_no49
+|player|p1|Vanteline|251
+|player|p2|kamisama_no49|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Conkeldurr, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|
+|move|p2a: Hydreigon|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|move|p2a: Hydreigon|Focus Blast|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|74/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Gyarados
+|-damage|p1a: Gyarados|17/100
+|-damage|p2a: Hydreigon|81/100|[from] item: Life Orb
+|move|p1a: Gyarados|Ice Fang|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|20/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|71/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|94/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Skarmory|Taunt|p1a: Thundurus
+|-start|p1a: Thundurus|move: Taunt
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Thundurus|Focus Blast|p2a: Amoonguss|[miss]
+|-miss|p1a: Thundurus|p2a: Amoonguss
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Gyarados|Gyarados, F|17/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|move|p2a: Amoonguss|Spore|p1a: Gyarados
+|-status|p1a: Gyarados|slp
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Thundurus|Focus Blast|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|77/100
+|-unboost|p2a: Amoonguss|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|88/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|71/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|77/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Heatran|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: kamisama_no49|move: Stealth Rock
+|move|p2a: Tyranitar|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Vanteline|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Heatran|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|71/100
+|move|p2a: Tyranitar|Crunch|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|81/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Earth Power|p2a: Latios
+|-immune|p2a: Latios|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p2a: Skarmory|Skarmory, F|94/100
+|-damage|p2a: Skarmory|81/100|[from] Stealth Rock
+|move|p1a: Heatran|Dragon Pulse|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Latios|Latios, M|82/100
+|-damage|p2a: Latios|70/100|[from] Stealth Rock
+|move|p1a: Heatran|Fire Blast|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|30/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p2a: Latios|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|24/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Skarmory|Skarmory, F|65/100
+|-damage|p2a: Skarmory|53/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|40/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|19
+|
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Vanteline|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: kamisama_no49|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skarmory|28/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|20
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|78/100
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: kamisama_no49|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skarmory|66/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|21
+|
+|move|p2a: Skarmory|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skarmory|53/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|22
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|move|p2a: Skarmory|Whirlwind|p1a: Ferrothorn
+|drag|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|-damage|p2a: Skarmory|33/100|[from] Leech Seed|[of] p1a: Latios
+|-heal|p1a: Latios|96/100|[silent]
+|upkeep
+|turn|23
+|
+|switch|p2a: Latios|Latios, M|24/100
+|-damage|p2a: Latios|12/100|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|90/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|71/100
+|-damage|p2a: Tyranitar|55/100|[from] Spikes
+|-damage|p2a: Tyranitar|42/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Latios|Draco Meteor|p2a: Tyranitar|[miss]
+|-miss|p1a: Latios|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|25/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|move|p1a: Latios|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Tyranitar|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|82/100|[from] Spikes
+|turn|26
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0
+|-damage|p1a: Conkeldurr|72/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|66/100|[from] Sandstorm
+|upkeep
+|j| CroCoeur
+|l| CroCoeur
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|84/100|[from] Spikes
+|-damage|p2a: Garchomp|78/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Garchomp|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|20/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0
+|-damage|p1a: Conkeldurr|8/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|1/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|71/100
+|-damage|p2a: Hydreigon|58/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Skarmory|Skarmory, F|33/100
+|-damage|p2a: Skarmory|20/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Mach Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|0
+|-damage|p1a: Conkeldurr|0|[from] item: Life Orb
+|faint|p2a: Skarmory
+|faint|p1a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|switch|p1a: Thundurus|Thundurus-Therian, M|88/100
+|-damage|p1a: Thundurus|64/100|[from] Stealth Rock
+|-damage|p2a: Amoonguss|84/100|[from] Spikes
+|-damage|p2a: Amoonguss|72/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Thundurus|Hidden Power|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|58/100|[from] Sandstorm
+|upkeep
+|c|☆kamisama_no49|gg
+|-message|kamisama_no49 forfeited.
+|
+|win|Vanteline
+|l|☆kamisama_no49
+|raw|Vanteline's rating: 1309 &rarr; <strong>1331</strong><br />(+22 for winning)
+|raw|kamisama_no49's rating: 1343 &rarr; <strong>1321</strong><br />(-22 for losing)

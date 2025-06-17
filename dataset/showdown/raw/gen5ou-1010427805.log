@@ -1,0 +1,268 @@
+|j|☆blackkaiser
+|j|☆005uave
+|player|p1|blackkaiser|101|1437
+|player|p2|005uave|168|1308
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Salamence, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Forretress, F|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Raikou|item
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Latios|Latios, M|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Latios|Trick|p1a: Jellicent
+|-activate|p2a: Latios|move: Trick|[of] p1a: Jellicent
+|-item|p1a: Jellicent|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Latios|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Latios|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|48/100
+|move|p1a: Jellicent|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|20/100|[from] Sandstorm
+|-damage|p1a: Jellicent|42/100|[from] Sandstorm
+|-heal|p2a: Latios|26/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|move|p2a: Latios|Psyshock|p1a: Hippowdon
+|-damage|p1a: Hippowdon|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|20/100|[from] Sandstorm
+|-heal|p2a: Latios|26/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Latios|Surf|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|8/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Latios
+|-sidestart|p2: 005uave|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|20/100|[from] Sandstorm
+|-heal|p2a: Latios|26/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|14/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Latios|Psyshock|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|20/100|[from] Sandstorm
+|-heal|p2a: Latios|26/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Latios
+|-status|p2a: Latios|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|20/100 par|[from] Sandstorm
+|-heal|p2a: Latios|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Gengar
+|-sidestart|p2: 005uave|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p2a: Gengar|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Gengar|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Gengar
+|-sidestart|p2: 005uave|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Hippowdon|Hippowdon, M|14/100
+|move|p2a: Gengar|Focus Blast|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|12
+|
+|move|p2a: Gengar|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|Pursuit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|28/100|[from] Sandstorm
+|-heal|p2a: Gengar|34/100|[from] item: Black Sludge
+|-damage|p1a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Gengar|Focus Blast|p1a: Scizor
+|-damage|p1a: Scizor|45/100 brn
+|move|p1a: Scizor|Pursuit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scizor|32/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Forretress|Forretress, F, shiny|100/100
+|-damage|p2a: Forretress|84/100|[from] Spikes
+|-damage|p2a: Forretress|71/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Jellicent|Jellicent, F|42/100
+|move|p2a: Forretress|Volt Switch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|30/100
+|
+|switch|p2a: Salamence|Salamence, M|94/100|[from]move: Volt Switch
+|-damage|p2a: Salamence|70/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|64/100|[from] Sandstorm
+|-damage|p1a: Jellicent|23/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p1a: Scizor|Scizor, F|32/100 brn
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|58/100|[from] Sandstorm
+|-damage|p1a: Scizor|20/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Salamence
+|-damage|p2a: Salamence|27/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|21/100|[from] Sandstorm
+|-damage|p1a: Scizor|8/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scizor|0 fnt|[from] brn
+|faint|p1a: Scizor
+|upkeep
+|inactive|blackkaiser has 120 seconds left.
+|
+|switch|p2a: Forretress|Forretress, F, shiny|71/100
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p2a: Forretress|55/100|[from] Spikes
+|-damage|p2a: Forretress|42/100|[from] Stealth Rock
+|turn|18
+|inactive|005uave has 120 seconds left.
+|inactive|005uave has 90 seconds left.
+|
+|move|p1a: Latios|Surf|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|-message|005uave forfeited.
+|
+|win|blackkaiser
+|l|☆005uave
+|raw|blackkaiser's rating: 1410 &rarr; <strong>1424</strong><br />(+14 for winning)
+|raw|005uave's rating: 1309 &rarr; <strong>1295</strong><br />(-14 for losing)

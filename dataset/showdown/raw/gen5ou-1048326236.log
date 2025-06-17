@@ -1,0 +1,161 @@
+|j|☆SwineTactics
+|j|☆yoloboy9000
+|player|p1|SwineTactics|flannery|1387
+|player|p2|yoloboy9000|266|1418
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Breloom, M|item
+|poke|p1|Donphan, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Donphan|Donphan, F|100/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|
+|move|p2a: Pat Riely|Ice Beam|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|37/100
+|move|p1a: Donphan|Stealth Rock|p2a: Pat Riely
+|-sidestart|p2: yoloboy9000|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|44/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Pat Riely|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|91/100
+|-status|p1a: Jirachi|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|97/100 frz|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|cant|p1a: Jirachi|frz
+|move|p2a: Pat Riely|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: SwineTactics|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 frz|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Ray Allen|Magnezone|100/100
+|-damage|p2a: Ray Allen|94/100|[from] Stealth Rock
+|cant|p1a: Jirachi|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|cant|p1a: Jirachi|frz
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|-curestatus|p1a: Jirachi|frz|[msg]
+|move|p1a: Jirachi|U-turn|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|
+|switch|p1a: Donphan|Donphan, F|44/100|[from]move: U-turn
+|-damage|p1a: Donphan|37/100|[from] Stealth Rock
+|move|p2a: Ray Allen|Charge Beam|p1a: Donphan
+|-immune|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|88/100|[from] item: Leftovers
+|-heal|p1a: Donphan|44/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Ray Allen|Flash Cannon|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Breloom|Low Sweep|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|-damage|p1a: Breloom|84/100|[from] item: Life Orb
+|move|p2a: Ray Allen|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|-damage|p2a: D.Wade|94/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|45/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p2a: D.Wade|Stone Edge|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|SwineTactics forfeited.
+|
+|win|yoloboy9000
+|l|☆SwineTactics
+|raw|SwineTactics's rating: 1358 &rarr; <strong>1341</strong><br />(-17 for losing)
+|raw|yoloboy9000's rating: 1418 &rarr; <strong>1434</strong><br />(+16 for winning)

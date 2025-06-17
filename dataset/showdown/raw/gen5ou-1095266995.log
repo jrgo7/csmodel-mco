@@ -1,0 +1,207 @@
+|j|☆Gh0st of Perdition
+|j|☆I reallllly suck
+|player|p1|Gh0st of Perdition|guitarist-gen4|1508
+|player|p2|I reallllly suck|2|1310
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Kyurem|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Jolteon, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Metagross|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gh0st of Perdition)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|1
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tornadus|Taunt|p1a: Politoed
+|-start|p1a: Politoed|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Jolteon
+|-damage|p2a: Jolteon|12/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Jolteon|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100
+|-status|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Scizor|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|94/100 par|[silent]
+|upkeep
+|turn|5
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scizor|94/100|[from] item: Leftovers
+|-damage|p2a: Scizor|82/100|[from] Leech Seed|[of] p1a: Tentacruel
+|upkeep
+|turn|6
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Tentacruel|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|91/100
+|-status|p2a: Tentacruel|brn
+|move|p2a: Tentacruel|Sludge Wave|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-activate|p1a: Tentacruel|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|97/100 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p2a: Tentacruel|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|move|p1a: Tentacruel|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|9
+|
+|move|p2a: Politoed|Psychic|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|move|p1a: Tentacruel|Toxic|p2a: Politoed
+|-status|p2a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|77/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Jolteon|Jolteon, F|12/100
+|switch|p1a: Ferrothorn|Ferrothorn, F|94/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Jolteon|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100 par
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100|[from]move: Volt Switch
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|move|p2a: Tornadus|Hurricane|p1a: Politoed
+|-damage|p1a: Politoed|19/100
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jolteon|Jolteon, F|12/100
+|turn|14
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Jolteon|Thunder|p1a: Thundurus
+|-immune|p1a: Thundurus|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Thundurus|Thunder|p2a: Metagross
+|-damage|p2a: Metagross|39/100
+|-status|p2a: Metagross|par
+|cant|p2a: Metagross|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|-message|I reallllly suck forfeited.
+|
+|win|Gh0st of Perdition
+|l|☆I reallllly suck
+|raw|Gh0st of Perdition's rating: 1509 &rarr; <strong>1518</strong><br />(+9 for winning)
+|raw|I reallllly suck's rating: 1310 &rarr; <strong>1301</strong><br />(-9 for losing)

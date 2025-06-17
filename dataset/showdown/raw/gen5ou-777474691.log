@@ -1,0 +1,257 @@
+|j|☆Toshayi
+|j|☆Njup
+|player|p1|Toshayi|265
+|player|p2|Njup|237
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Infernape, M|item
+|poke|p1|Gastrodon, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Reuniclus, F|item
+|poke|p1|Ferrothorn, M|
+|poke|p2|Hippowdon, F|item
+|poke|p2|Scizor, F|item
+|poke|p2|Mew|item
+|poke|p2|Keldeo|item
+|poke|p2|Latias, F|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Njup)
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Mew|Mew|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: Toshayi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Gastrodon|Toxic|p2a: Scizor
+|-immune|p2a: Scizor|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Scizor|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|37/100
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Gastrodon|Scald|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|84/100|[from] Sandstorm
+|-heal|p1a: Gastrodon|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Latias|Draco Meteor|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-unboost|p2a: Latias|spa|2
+|-damage|p2a: Latias|74/100|[from] item: Life Orb
+|faint|p1a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|68/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Mew
+|-sidestart|p2: Njup|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Mew|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|turn|9
+|
+|move|p1a: Landorus|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|45/100
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|-damage|p1a: Infernape|88/100|[from] Stealth Rock
+|move|p2a: Mew|Psyshock|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|39/100|[from] Sandstorm
+|-heal|p2a: Mew|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|turn|10
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|80/100
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|53/100
+|move|p2a: Hippowdon|Whirlwind|p1a: Reuniclus
+|drag|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Tyranitar|Crunch|p2a: Hippowdon
+|-damage|p2a: Hippowdon|34/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Tyranitar|Crunch|p2a: Hippowdon
+|-damage|p2a: Hippowdon|67/100
+|move|p2a: Hippowdon|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Tyranitar|Crunch|p2a: Hippowdon
+|-damage|p2a: Hippowdon|51/100
+|-unboost|p2a: Hippowdon|def|1
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Fire Punch|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|73/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p2a: Keldeo|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|67/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|17
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Scizor|U-turn|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|switch|p2a: Keldeo|Keldeo|67/100
+|-damage|p2a: Keldeo|60/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|54/100|[from] Sandstorm
+|upkeep
+|-message|Toshayi forfeited.
+|
+|win|Njup
+|l|☆Toshayi
+|raw|Toshayi's rating: 1428 &rarr; <strong>1403</strong><br />(-25 for losing)
+|raw|Njup's rating: 1347 &rarr; <strong>1371</strong><br />(+24 for winning)

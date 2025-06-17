@@ -1,0 +1,380 @@
+|j|☆Weekend Wars
+|j|☆refsunpersons
+|player|p1|Weekend Wars|149
+|player|p2|refsunpersons|15
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Celebi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Jirachi|item
+|poke|p2|Haxorus, F|item
+|poke|p2|Porygon2|item
+|poke|p2|Donphan, M|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Volcarona, M|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|c|☆Weekend Wars|hf
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Jirachi
+|-sidestart|p2: refsunpersons|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Jirachi|Psychic|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|82/100
+|
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Celebi|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: refsunpersons|move: Stealth Rock
+|
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Landorus|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|-damage|p2a: Donphan|94/100|[from] Stealth Rock
+|-status|p2a: Donphan|psn
+|turn|6
+|
+|move|p1a: Landorus|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|61/100 psn
+|move|p2a: Donphan|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|95/100
+|-sideend|p2: refsunpersons|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Donphan
+|-sideend|p2: refsunpersons|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|
+|-heal|p2a: Donphan|67/100 psn|[from] item: Leftovers
+|-damage|p2a: Donphan|55/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Celebi|Celebi|94/100
+|move|p2a: Donphan|Stealth Rock|p1a: Celebi
+|-sidestart|p1: Weekend Wars|move: Stealth Rock
+|
+|-heal|p1a: Celebi|99/100|[from] item: Leftovers
+|-heal|p2a: Donphan|61/100 psn|[from] item: Leftovers
+|-damage|p2a: Donphan|49/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|94/100|[from] Stealth Rock
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Donphan|Donphan, M|49/100 psn
+|move|p1a: Terrakion|Close Combat|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Donphan
+|
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|10
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Politoed|Toxic|p2a: Volcarona
+|-status|p2a: Volcarona|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|100/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Volcarona|Bug Buzz|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|30/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Volcarona|Bug Buzz|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|37/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|64/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Celebi|Celebi|99/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|move|p2a: Volcarona|Bug Buzz|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Volcarona|40/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Volcarona|Rest|p2a: Volcarona
+|-status|p2a: Volcarona|slp
+|-heal|p2a: Volcarona|100/100 slp|[silent]
+|-status|p2a: Volcarona|slp|[from] move: Rest
+|-enditem|p2a: Volcarona|Chesto Berry|[eat]
+|-curestatus|p2a: Volcarona|slp|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|23/100
+|move|p1a: Tentacruel|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|29/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|35/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|c|☆refsunpersons|sorry
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Tentacruel|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|41/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|47/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|94/100
+|-damage|p1a: Terrakion|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|18/100
+|move|p1a: Terrakion|Stone Edge|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Justified|[from] ability: Trace|[of] p1a: Terrakion
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|37/100
+|-damage|p1a: Ferrothorn|30/100|[from] Stealth Rock
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|37/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Landorus|Landorus-Therian, M|95/100
+|-damage|p1a: Landorus|82/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Haxorus|atk|1
+|move|p2a: Haxorus|Swords Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Landorus|Earthquake|p2a: Haxorus
+|-damage|p2a: Haxorus|45/100
+|move|p2a: Haxorus|Substitute|p2a: Haxorus
+|-start|p2a: Haxorus|Substitute
+|-damage|p2a: Haxorus|20/100
+|-enditem|p2a: Haxorus|Salac Berry|[eat]
+|-boost|p2a: Haxorus|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|37/100
+|-damage|p1a: Ferrothorn|30/100|[from] Stealth Rock
+|move|p2a: Haxorus|Swords Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|37/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Haxorus|Outrage|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|43/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Haxorus|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Haxorus|8/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Haxorus|atk|1
+|-unboost|p2a: Haxorus|def|1
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆refsunpersons|gg wp
+|c|☆Weekend Wars|bg
+|c|☆Weekend Wars|fuck the ch
+|
+|switch|p1a: Landorus|Landorus-Therian, M|82/100
+|-damage|p1a: Landorus|70/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Haxorus|[msg]
+|turn|26
+|c|☆refsunpersons|but dude that would have helped me set up
+|
+|move|p2a: Haxorus|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Weekend Wars|cause this
+|c|☆Weekend Wars|oO
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Haxorus|Outrage|p1a: Politoed|[from]lockedmove
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-start|p2a: Haxorus|confusion|[fatigue]
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|18/100
+|-damage|p1a: Terrakion|11/100|[from] Stealth Rock
+|turn|28
+|c|☆refsunpersons|can't please everyone
+|
+|-activate|p2a: Haxorus|confusion
+|move|p2a: Haxorus|Outrage|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|win|refsunpersons
+|c|☆Weekend Wars|bg
+|raw|Weekend Wars's rating: 1579 &rarr; <strong>1546</strong><br />(-33 for losing)
+|raw|refsunpersons's rating: 1330 &rarr; <strong>1362</strong><br />(+32 for winning)
+|l|☆refsunpersons
+|j|☆refsunpersons

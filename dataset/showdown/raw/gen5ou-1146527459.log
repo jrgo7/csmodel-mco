@@ -1,0 +1,304 @@
+|j|☆kobepayne
+|j|☆sawk123
+|player|p1|kobepayne|dahlia|1478
+|player|p2|sawk123|265|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Starmie|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Metagross|item
+|poke|p2|Breloom, M|item
+|poke|p2|Chandelure, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Staraptor, M|item
+|poke|p2|Rhyperior, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kobepayne)
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|76/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Garchomp|[miss]
+|-miss|p2a: Rotom|p1a: Garchomp
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Rotom|Hydro Pump|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|move|p1a: Garchomp|Outrage|p2a: Rhyperior
+|-damage|p2a: Rhyperior|45/100
+|
+|-heal|p2a: Rhyperior|51/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Garchomp|Outrage|p2a: Rhyperior|[from]lockedmove
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|switch|p2a: Metagross|Metagross|100/100
+|turn|5
+|
+|move|p1a: Garchomp|Outrage|p2a: Metagross|[from]lockedmove
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|42/100
+|-start|p1a: Garchomp|confusion|[fatigue]
+|move|p2a: Metagross|Zen Headbutt|p1a: Garchomp|[miss]
+|-miss|p2a: Metagross|p1a: Garchomp
+|
+|upkeep
+|turn|6
+|
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|50/100|[from] confusion
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|move|p2a: Metagross|Zen Headbutt|p1a: Gyarados
+|-damage|p1a: Gyarados|38/100
+|-damage|p2a: Metagross|32/100|[from] item: Life Orb
+|
+|-heal|p1a: Gyarados|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Metagross|Zen Headbutt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|-damage|p2a: Metagross|19/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Metagross|9/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Metagross|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100
+|-damage|p2a: Metagross|0 fnt|[from] item: Life Orb
+|faint|p2a: Metagross
+|move|p1a: Ferrothorn|Stealth Rock|p2: Metagross
+|-sidestart|p2: sawk123|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|58/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Chandelure|Energy Ball|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|58/100
+|move|p2a: Chandelure|Energy Ball|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|52/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|switch|p1a: Latios|Latios, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Latios|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|12/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Rotom|Pain Split|p1a: Latios
+|-sethp|p1a: Latios|56/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|56/100|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|62/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|59/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|69/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|52/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Garchomp|Garchomp, F|50/100
+|move|p2a: Rotom|Volt Switch|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|75/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Latios|Latios, M|56/100
+|move|p2a: Rotom|Hydro Pump|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|20/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|81/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Latios|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Breloom|Mach Punch|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Breloom|84/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|44/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|turn|19
+|
+|move|p2a: Breloom|Stone Edge|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Breloom|74/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|turn|20
+|
+|move|p2a: Breloom|Mach Punch|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|81/100
+|-damage|p2a: Breloom|64/100|[from] item: Life Orb
+|move|p1a: Starmie|Psyshock|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-damage|p1a: Starmie|71/100|[from] item: Life Orb
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|-damage|p2a: Staraptor|76/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|52/100 brn
+|move|p2a: Staraptor|Brave Bird|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|5/100 brn
+|-damage|p2a: Staraptor|64/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Staraptor|46/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|11/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|0 fnt|[from] brn
+|faint|p1a: Ferrothorn
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|28/100
+|turn|22
+|
+|move|p2a: Staraptor|Brave Bird|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Staraptor|37/100|[from] Recoil
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|71/100
+|turn|23
+|
+|switch|p1a: Garchomp|Garchomp, F|50/100
+|move|p2a: Staraptor|Brave Bird|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Staraptor|24/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Staraptor|6/100|[from] Recoil
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|71/100
+|turn|24
+|
+|move|p2a: Staraptor|Brave Bird|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-damage|p2a: Staraptor|0 fnt|[from] Recoil
+|faint|p1a: Starmie
+|faint|p2a: Staraptor
+|
+|win|sawk123
+|c|☆sawk123|gg
+|raw|kobepayne's rating: 1492 &rarr; <strong>1464</strong><br />(-28 for losing)
+|raw|sawk123's rating: 1348 &rarr; <strong>1376</strong><br />(+28 for winning)

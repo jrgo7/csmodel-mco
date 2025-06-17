@@ -1,0 +1,490 @@
+|join|Mikkelinski
+|join|Sir Ryan House
+|player|p1|Mikkelinski|273
+|player|p2|Sir Ryan House|52
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Cloyster, F
+|poke|p1|Dragonite, F
+|poke|p1|Latios, M
+|poke|p1|Espeon, M
+|poke|p1|Magnezone
+|poke|p1|Tyranitar, M
+|poke|p2|Hydreigon, M
+|poke|p2|Celebi, shiny
+|poke|p2|Heatran, M
+|poke|p2|Alakazam, M
+|poke|p2|Scizor, M
+|poke|p2|Vaporeon, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|switch|p2a: Celebi|Celebi, shiny|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p2a: Celebi|Trick|p1a: Tyranitar
+|-activate|p2a: Celebi|move: Trick|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Choice Scarf|[from] move: Trick
+|-item|p2a: Celebi|Leftovers|[from] move: Trick
+|move|p1a: Tyranitar|Crunch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|212/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|187/404|[from] sandstorm
+|-heal|p2a: Celebi|212/404|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, M|386/386
+|move|p1a: Tyranitar|Crunch|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|330/386
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|354/386|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Latios|Latios, M|302/302
+|move|p2a: Heatran|Stealth Rock|p1a: Latios
+|-sidestart|p1: Mikkelinski|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|284/302|[from] sandstorm
+|-heal|p2a: Heatran|378/386|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Vaporeon|Vaporeon, M|463/463
+|move|p1a: Latios|Surf|p2a: Vaporeon
+|-immune|p2a: Vaporeon|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|266/302|[from] sandstorm
+|-damage|p2a: Vaporeon|435/463|[from] sandstorm
+|-heal|p2a: Vaporeon|463/463|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Latios|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|288/463
+|-damage|p1a: Latios|236/302|[from] item: Life Orb
+|move|p2a: Vaporeon|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|185/302
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|167/302|[from] sandstorm
+|-damage|p2a: Vaporeon|260/463|[from] sandstorm
+|-heal|p2a: Vaporeon|288/463|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|302/302
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|284/302|[from] sandstorm
+|-damage|p2a: Vaporeon|260/463|[from] sandstorm
+|-heal|p2a: Vaporeon|288/463|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Latios|Draco Meteor|p2a: Vaporeon
+|-activate|p2a: Vaporeon|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|266/302|[from] sandstorm
+|-damage|p2a: Vaporeon|260/463|[from] sandstorm
+|-heal|p2a: Vaporeon|463/463|[from] move: Wish|[wisher] Vaporeon
+|turn|8
+|
+|move|p1a: Latios|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|280/463
+|-damage|p1a: Latios|236/302|[from] item: Life Orb
+|move|p2a: Vaporeon|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|193/302
+|-status|p1a: Latios|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|175/302 brn|[from] sandstorm
+|-damage|p2a: Vaporeon|252/463|[from] sandstorm
+|-heal|p2a: Vaporeon|280/463|[from] item: Leftovers
+|-damage|p1a: Latios|138/302 brn|[from] brn
+|turn|9
+|
+|switch|p2a: Heatran|Heatran, M|378/386
+|move|p1a: Latios|Draco Meteor|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|271/386
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|108/302 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|90/302 brn|[from] sandstorm
+|-heal|p2a: Heatran|295/386|[from] item: Leftovers
+|-damage|p1a: Latios|53/302 brn|[from] brn
+|turn|10
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|204/302 brn
+|move|p2a: Heatran|Earth Power|p1a: Latios
+|-immune|p1a: Latios|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|186/302 brn|[from] sandstorm
+|-heal|p2a: Heatran|319/386|[from] item: Leftovers
+|-damage|p1a: Latios|149/302 brn|[from] brn
+|turn|11
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|300/302 brn
+|move|p2a: Heatran|Lava Plume|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|243/302 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|225/302 brn|[from] sandstorm
+|-heal|p2a: Heatran|343/386|[from] item: Leftovers
+|-damage|p1a: Latios|188/302 brn|[from] brn
+|turn|12
+|
+|move|p1a: Latios|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|244/386
+|-damage|p1a: Latios|158/302 brn|[from] item: Life Orb
+|move|p2a: Heatran|Roar|p1a: Latios
+|drag|p1a: Espeon|Espeon, M|334/334
+|-damage|p1a: Espeon|293/334|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|273/334|[from] sandstorm
+|-heal|p2a: Heatran|268/386|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Espeon|Light Screen|p1a: Espeon
+|-sidestart|p1: Mikkelinski|move: Light Screen
+|move|p2a: Heatran|Lava Plume|p1a: Espeon
+|-damage|p1a: Espeon|215/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|195/334|[from] sandstorm
+|-heal|p2a: Heatran|292/386|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Knightmare|Scizor, M|282/282
+|move|p1a: Espeon|Reflect|p1a: Espeon
+|-sidestart|p1: Mikkelinski|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|175/334|[from] sandstorm
+|turn|15
+|
+|move|p1a: Espeon|Hidden Power|p2a: Knightmare
+|-supereffective|p2a: Knightmare
+|-damage|p2a: Knightmare|0 fnt
+|faint|p2a: Knightmare
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|155/334|[from] sandstorm
+|
+|switch|p2a: Heatran|Heatran, M|292/386
+|turn|16
+|
+|move|p1a: Espeon|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|249/386
+|move|p2a: Heatran|Roar|p1a: Espeon
+|move|p1a: Espeon|Roar|p2a: Heatran|[from]Magic Bounce
+|drag|p2a: Alakazam|Alakazam, M|252/252
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|135/334|[from] sandstorm
+|turn|17
+|
+|switch|p2a: Vaporeon|Vaporeon, M|280/463
+|switch|p1a: Magnezone|Magnezone|281/281
+|-damage|p1a: Magnezone|264/281|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|252/463|[from] sandstorm
+|-heal|p2a: Vaporeon|280/463|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Hydreigon|Hydreigon, M|336/336
+|move|p1a: Magnezone|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|227/336
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|206/336|[from] sandstorm
+|-heal|p2a: Hydreigon|227/336|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Celebi|Celebi, shiny|212/404
+|move|p1a: Tyranitar|Superpower|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|165/404
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|140/404|[from] sandstorm
+|-heal|p2a: Celebi|165/404|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Cloyster|Cloyster, F|242/242
+|-damage|p1a: Cloyster|182/242|[from] Stealth Rock
+|move|p2a: Celebi|Giga Drain|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|28/242
+|-heal|p2a: Celebi|242/404|[from] drain|[of] p1a: Cloyster
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|13/242|[from] sandstorm
+|-damage|p2a: Celebi|217/404|[from] sandstorm
+|-heal|p2a: Celebi|242/404|[from] item: Leftovers
+|-sideend|p1: Mikkelinski|move: Light Screen
+|turn|21
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|150/404
+|move|p2a: Celebi|Giga Drain|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-heal|p2a: Celebi|157/404|[from] drain|[of] p1a: Cloyster
+|faint|p1a: Cloyster
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|132/404|[from] sandstorm
+|-heal|p2a: Celebi|157/404|[from] item: Leftovers
+|-sideend|p1: Mikkelinski|Reflect
+|
+|switch|p1a: Magnezone|Magnezone|264/281
+|-damage|p1a: Magnezone|247/281|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Heatran|Heatran, M|249/386
+|move|p1a: Magnezone|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|110/386
+|
+|switch|p1a: Tyranitar|Tyranitar, M|354/404
+|-damage|p1a: Tyranitar|304/404|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|134/386|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Tyranitar|Superpower|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Vaporeon|Vaporeon, M|280/463
+|turn|24
+|
+|switch|p1a: Espeon|Espeon, M|135/334
+|-damage|p1a: Espeon|94/334|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|74/334|[from] sandstorm
+|-damage|p2a: Vaporeon|252/463|[from] sandstorm
+|-heal|p2a: Vaporeon|280/463|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Espeon|Light Screen|p1a: Espeon
+|-sidestart|p1: Mikkelinski|move: Light Screen
+|move|p2a: Vaporeon|Scald|p1a: Espeon
+|-damage|p1a: Espeon|21/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|1/334|[from] sandstorm
+|-damage|p2a: Vaporeon|252/463|[from] sandstorm
+|-heal|p2a: Vaporeon|463/463|[from] move: Wish|[wisher] Vaporeon
+|turn|26
+|
+|move|p1a: Espeon|Psychic|p2a: Vaporeon
+|-damage|p2a: Vaporeon|316/463
+|-unboost|p2a: Vaporeon|spd|1
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|0 fnt|[from] sandstorm
+|-damage|p2a: Vaporeon|288/463|[from] sandstorm
+|-heal|p2a: Vaporeon|316/463|[from] item: Leftovers
+|faint|p1a: Espeon
+|
+|switch|p1a: Dragonite|Dragonite, F|324/324
+|-damage|p1a: Dragonite|243/324|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|216/324
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|196/324|[from] sandstorm
+|-damage|p2a: Vaporeon|288/463|[from] sandstorm
+|-heal|p2a: Vaporeon|463/463|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Dragonite|216/324|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|193/324
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|173/324|[from] sandstorm
+|-damage|p2a: Vaporeon|435/463|[from] sandstorm
+|-heal|p1a: Dragonite|193/324|[from] item: Leftovers
+|-heal|p2a: Vaporeon|463/463|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Dragonite|Outrage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|25/463
+|move|p2a: Vaporeon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|166/324
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|146/324|[from] sandstorm
+|-damage|p2a: Vaporeon|0 fnt|[from] sandstorm
+|-heal|p1a: Dragonite|166/324|[from] item: Leftovers
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Alakazam|Alakazam, M|252/252
+|turn|30
+|
+|move|p1a: Dragonite|Outrage|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/252
+|move|p2a: Alakazam|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|4/324
+|
+|-end|p1a: Dragonite|rampage
+|-start|p1a: Dragonite|confusion
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|0 fnt|[from] sandstorm
+|faint|p1a: Dragonite
+|
+|switch|p1a: Tyranitar|Tyranitar, M|304/404
+|-damage|p1a: Tyranitar|254/404|[from] Stealth Rock
+|turn|31
+|
+|switch|p2a: Celebi|Celebi, shiny|157/404
+|move|p1a: Tyranitar|Stealth Rock|p2a: Celebi
+|-sidestart|p2: Sir Ryan House|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|132/404|[from] sandstorm
+|-heal|p2a: Celebi|157/404|[from] item: Leftovers
+|turn|32
+|
+|switch|p1a: Magnezone|Magnezone|247/281
+|-damage|p1a: Magnezone|230/281|[from] Stealth Rock
+|move|p2a: Celebi|Trick|p1a: Magnezone
+|-activate|p2a: Celebi|move: Trick|[of] p1a: Magnezone
+|-item|p1a: Magnezone|Leftovers|[from] move: Trick
+|-item|p2a: Celebi|Choice Specs|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|132/404|[from] sandstorm
+|-heal|p1a: Magnezone|247/281|[from] item: Leftovers
+|-sideend|p1: Mikkelinski|move: Light Screen
+|turn|33
+|
+|move|p2a: Celebi|Giga Drain|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|174/281
+|-heal|p2a: Celebi|169/404|[from] drain|[of] p1a: Magnezone
+|move|p1a: Magnezone|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|15/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|0 fnt|[from] sandstorm
+|-heal|p1a: Magnezone|191/281|[from] item: Leftovers
+|faint|p2a: Celebi
+|
+|switch|p2a: Alakazam|Alakazam, M|1/252
+|turn|34
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Magnezone|[miss]
+|-miss|p2a: Alakazam|p1a: Magnezone
+|move|p1a: Magnezone|Thunderbolt|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Magnezone|208/281|[from] item: Leftovers
+|
+|switch|p2a: Hydreigon|Hydreigon, M|227/336
+|-damage|p2a: Hydreigon|185/336|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|336/336
+|move|p1a: Magnezone|Thunderbolt|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|243/336
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|222/336|[from] sandstorm
+|-heal|p2a: Hydreigon|243/336|[from] item: Leftovers
+|-heal|p1a: Magnezone|225/281|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Hydreigon|Flamethrower|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|3/281
+|move|p1a: Magnezone|Flash Cannon|p2a: Hydreigon
+|-damage|p2a: Hydreigon|86/336
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|65/336|[from] sandstorm
+|-heal|p2a: Hydreigon|86/336|[from] item: Leftovers
+|-heal|p1a: Magnezone|20/281|[from] item: Leftovers
+|turn|37
+|
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|254/336
+|move|p1a: Magnezone|Flash Cannon|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|Mikkelinski
+|raw|Ladder updating...
+|raw|Mikkelinski's rating: 1308 &rarr; <strong>1331</strong><br />(+23 for winning)
+|raw|Sir Ryan House's rating: 1352 &rarr; <strong>1330</strong><br />(-22 for losing)
+|leave|Mikkelinski
+|player|p1

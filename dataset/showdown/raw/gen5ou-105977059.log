@@ -1,0 +1,160 @@
+|j|☆PAUL91
+|j|☆KeflaSimp
+|player|p1|PAUL91|266|1350
+|player|p2|KeflaSimp|lillie-z|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Umbreon, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Donphan, F|item
+|poke|p1|Suicune|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Typhlosion, F|item
+|poke|p2|Conkeldurr, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Espeon, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Magnezone|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Typhlosion|Typhlosion, F|100/100
+|switch|p2a: Espebo|Espeon, F|100/100
+|turn|1
+|
+|move|p2a: Espebo|Light Screen|p2a: Espebo
+|-sidestart|p2: KeflaSimp|move: Light Screen
+|move|p1a: Typhlosion|Overheat|p2a: Espebo|[miss]
+|-miss|p1a: Typhlosion|p2a: Espebo
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Espebo|Reflect|p2a: Espebo
+|-sidestart|p2: KeflaSimp|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espebo|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KeflaSimp)
+|
+|switch|p2a: Conkelbo|Conkeldurr, F|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Conkelbo
+|-damage|p2a: Conkelbo|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkelbo|77/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Donphan|Donphan, F, shiny|100/100
+|move|p2a: Conkelbo|Drain Punch|p1a: Donphan
+|-damage|p1a: Donphan|55/100
+|-heal|p2a: Conkelbo|99/100|[from] drain|[of] p1a: Donphan
+|-damage|p2a: Conkelbo|90/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkelbo|84/100|[from] Sandstorm
+|-heal|p1a: Donphan|61/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|KeflaSimp has 120 seconds left.
+|
+|move|p1a: Donphan|Stealth Rock|p2a: Conkelbo
+|-sidestart|p2: KeflaSimp|move: Stealth Rock
+|move|p2a: Conkelbo|Ice Punch|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkelbo|78/100|[from] Sandstorm
+|upkeep
+|inactive|PAUL91 has 120 seconds left.
+|
+|switch|p1a: Typhlosion|Typhlosion, F|100/100
+|turn|6
+|
+|move|p1a: Typhlosion|Extrasensory|p2a: Conkelbo
+|-supereffective|p2a: Conkelbo
+|-damage|p2a: Conkelbo|40/100
+|-damage|p1a: Typhlosion|91/100|[from] item: Life Orb
+|move|p2a: Conkelbo|Drain Punch|p1a: Typhlosion
+|-damage|p1a: Typhlosion|11/100
+|-heal|p2a: Conkelbo|72/100|[from] drain|[of] p1a: Typhlosion
+|-damage|p2a: Conkelbo|62/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Typhlosion|5/100|[from] Sandstorm
+|-damage|p2a: Conkelbo|56/100|[from] Sandstorm
+|upkeep
+|turn|7
+|inactive|PAUL91 has 120 seconds left.
+|
+|move|p2a: Conkelbo|Mach Punch|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-damage|p2a: Conkelbo|46/100|[from] item: Life Orb
+|faint|p1a: Typhlosion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkelbo|40/100|[from] Sandstorm
+|upkeep
+|inactive|PAUL91 has 120 seconds left.
+|
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|turn|8
+|inactive|KeflaSimp has 120 seconds left.
+|
+|move|p1a: Gyarados|Waterfall|p2a: Conkelbo
+|-damage|p2a: Conkelbo|19/100
+|move|p2a: Conkelbo|Thunder Punch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkelbo|13/100|[from] Sandstorm
+|-sideend|p2: KeflaSimp|move: Light Screen
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|turn|9
+|inactive|KeflaSimp has 120 seconds left.
+|
+|move|p2a: Conkelbo|Mach Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Conkelbo|3/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkelbo|0 fnt|[from] Sandstorm
+|faint|p2a: Conkelbo
+|-sideend|p2: KeflaSimp|Reflect
+|upkeep
+|inactive|KeflaSimp has 120 seconds left.
+|-message|PAUL91 forfeited.
+|
+|win|KeflaSimp
+|l|☆PAUL91
+|raw|PAUL91's rating: 1350 &rarr; <strong>1328</strong><br />(-22 for losing)
+|raw|KeflaSimp's rating: 1319 &rarr; <strong>1341</strong><br />(+22 for winning)

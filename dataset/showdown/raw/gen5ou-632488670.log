@@ -1,0 +1,449 @@
+|j|M.I.A XXXO
+|j|man
+|player|p1|M.I.A XXXO|2
+|teamsize|p1|6
+|player|p2|man|1
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|41774,56217,49985,19665
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Starmie|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Politoed, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Jirachi|item
+|poke|p2|Latios, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Tangrowth, F|item
+|poke|p2|Dragonite, F|item
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Politoed|Politoed, M|322/322
+|switch|p2a: Tangrowth|Tangrowth, F|403/403
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|choice|switch 5|move sleeppowder
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|351/351
+|move|p2a: Tangrowth|Sleep Powder|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|choice|switch 5|switch 5
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|switch|p1a: Politoed|Politoed, M|322/322
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|choice|move scald|switch 5
+|
+|switch|p2a: Tangrowth|Tangrowth, F|403/403
+|move|p1a: Politoed|Scald|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|295/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|320/403|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move scald|move knockoff
+|
+|move|p1a: Politoed|Scald|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|210/403
+|move|p2a: Tangrowth|Knock Off|p1a: Politoed
+|-damage|p1a: Politoed|307/322
+|-enditem|p1a: Politoed|Choice Scarf|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|235/403|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move scald|switch 3
+|
+|switch|p2a: Latios|Latios, M|301/301
+|move|p1a: Politoed|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|225/301
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|choice|move icebeam|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie|261/261
+|turn|7
+|choice|move hydropump|move dracometeor
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|53/301
+|-damage|p1a: Starmie|235/261|[from] item: Life Orb
+|move|p2a: Latios|Draco Meteor|p1a: Starmie
+|-damage|p1a: Starmie|36/261
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|choice|move icebeam|switch 6
+|
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|move|p1a: Starmie|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-enditem|p2a: Dragonite|Yache Berry|[eat]
+|-enditem|p2a: Dragonite|Yache Berry|[weaken]
+|-damage|p2a: Dragonite|176/323
+|-damage|p1a: Starmie|10/261|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|choice|move icebeam|move extremespeed
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|turn|10
+|choice|move dragonclaw|switch 3
+|
+|switch|p2a: Tangrowth|Tangrowth, F|369/403
+|move|p1a: Garchomp|Dragon Claw|p2a: Tangrowth
+|-damage|p2a: Tangrowth|270/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|295/403|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|switch 5|move hiddenpower
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|351/351 slp
+|move|p2a: Tangrowth|Hidden Power|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|306/351 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|320/403|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|327/351 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 3|move knockoff
+|
+|switch|p1a: Latios|Latios, M|301/301
+|move|p2a: Tangrowth|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|269/301
+|-enditem|p1a: Latios|Choice Specs|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|345/403|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move trick|switch 2
+|
+|switch|p2a: Jirachi|Jirachi|351/351
+|move|p1a: Latios|Trick|p2a: Jirachi
+|-activate|p1a: Latios|move: Trick|[of] p2a: Jirachi
+|-enditem|p2a: Jirachi|Shuca Berry|[silent]|[from] move: Trick
+|-item|p1a: Latios|Shuca Berry|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|move|p2a: Jirachi|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: M.I.A XXXO|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|choice|move swordsdance|move icywind
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Jirachi|Icy Wind|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|93/357
+|-unboost|p1a: Garchomp|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|choice|switch 3|move icywind
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|327/351 slp
+|-damage|p1a: Ferrothorn|306/351 slp|[from] Stealth Rock
+|move|p2a: Jirachi|Icy Wind|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|268/351 slp
+|-unboost|p1a: Ferrothorn|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|289/351 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|switch 5|switch 5
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|switch|p1a: Latios|Latios, M|269/301
+|-damage|p1a: Latios|232/301|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|choice|move surf|switch 3
+|
+|switch|p2a: Dragonite|Dragonite, F|176/323
+|move|p1a: Latios|Surf|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|95/323
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|choice|move psyshock|move extremespeed
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Latios
+|-damage|p1a: Latios|100/301
+|move|p1a: Latios|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|20
+|choice|switch 5|move ironhead
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|289/351 slp
+|-damage|p1a: Ferrothorn|268/351 slp|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|211/351 slp
+|-damage|p2a: Excadrill|316/361|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|232/351 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|switch 5|switch 3
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|switch|p1a: Latios|Latios, M|100/301
+|-damage|p1a: Latios|63/301|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|choice|move surf|move quickattack
+|
+|move|p2a: Terrakion|Quick Attack|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Garchomp|Garchomp, M|93/357
+|-damage|p1a: Garchomp|71/357|[from] Stealth Rock
+|turn|23
+|choice|move swordsdance|move quickattack
+|
+|move|p2a: Terrakion|Quick Attack|p1a: Garchomp
+|-damage|p1a: Garchomp|1/357
+|-damage|p2a: Terrakion|283/323|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|choice|move dragonclaw|move quickattack
+|
+|move|p2a: Terrakion|Quick Attack|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Terrakion|243/323|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Gyarados|Gyarados, F|343/343
+|-damage|p1a: Gyarados|258/343|[from] Stealth Rock
+|turn|25
+|choice|move dragondance|switch 5
+|
+|switch|p2a: Jirachi|Jirachi|351/351
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|choice|move earthquake|move thunder
+|
+|move|p1a: Gyarados|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Tangrowth|Tangrowth, F|403/403
+|turn|27
+|choice|move return|move gigadrain
+|
+|move|p1a: Gyarados|Return|p2a: Tangrowth
+|-enditem|p1a: Gyarados|Normal Gem|[from] gem|[move] Return
+|-damage|p2a: Tangrowth|173/403
+|move|p2a: Tangrowth|Giga Drain|p1a: Gyarados
+|-damage|p1a: Gyarados|155/343
+|-heal|p2a: Tangrowth|225/403|[from] drain|[of] p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|250/403|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move waterfall|move gigadrain
+|
+|move|p1a: Gyarados|Waterfall|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|109/403
+|cant|p2a: Tangrowth|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|134/403|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move waterfall|switch 6
+|
+|switch|p2a: Latios|Latios, M|53/301
+|move|p1a: Gyarados|Waterfall|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Tangrowth|Tangrowth, F|268/403
+|turn|30
+|choice|move waterfall|move gigadrain
+|
+|move|p1a: Gyarados|Waterfall|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|95/403
+|move|p2a: Tangrowth|Giga Drain|p1a: Gyarados
+|-damage|p1a: Gyarados|56/343
+|-heal|p2a: Tangrowth|145/403|[from] drain|[of] p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tangrowth|170/403|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move waterfall|move gigadrain
+|
+|move|p1a: Gyarados|Waterfall|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Terrakion|Terrakion|243/323
+|turn|32
+|choice|move waterfall|move quickattack
+|
+|move|p2a: Terrakion|Quick Attack|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|232/351 slp
+|-damage|p1a: Ferrothorn|211/351 slp|[from] Stealth Rock
+|turn|33
+|choice|move leechseed|switch 3
+|
+|switch|p2a: Excadrill|Excadrill, M|316/361
+|-ability|p2a: Excadrill|Mold Breaker
+|cant|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|232/351 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move leechseed|move earthquake
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|76/351 slp
+|cant|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|97/351 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆M.I.A XXXO|bg
+|-message|M.I.A XXXO forfeited.
+|
+|win|man
+|l|M.I.A XXXO
+|c|☆man|gg
+|raw|M.I.A XXXO's rating: 1507 &rarr; <strong>1477</strong><br />(-30 for losing)
+|raw|man's rating: 1307 &rarr; <strong>1338</strong><br />(+31 for winning)

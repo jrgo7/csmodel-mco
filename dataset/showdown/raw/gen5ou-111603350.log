@@ -1,0 +1,358 @@
+|j|‽OUTZ nabil
+|j|☆PumpedAaron
+|player|p1|OUTZ nabil|170|1370
+|player|p2|PumpedAaron|265|1385
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Politoed, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Starmie|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Machamp, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Keldeo-Resolute|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Mienshao|Fake Out|p1a: Starmie
+|-damage|p1a: Starmie|80/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Starmie|Hydro Pump|p2a: Tyranitar|[miss]
+|-miss|p1a: Starmie|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|74/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|-activate|p1a: Starmie|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Starmie|[from]Pursuit
+|-supereffective|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OUTZ nabil)
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|35/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Politoed
+|-damage|p1a: Politoed|10/100
+|move|p1a: Politoed|Hydro Pump|p2a: Keldeo|[miss]
+|-miss|p1a: Politoed|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|7
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|PumpedAaron has 120 seconds left.
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Mienshao|Fake Out|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|96/100
+|-damage|p2a: Mienshao|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Mienshao|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|-damage|p2a: Mienshao|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: PumpedAaron|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: OUTZ nabil|move: Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: PumpedAaron|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|move|p2a: Skarmory|Whirlwind|p1a: Thundurus
+|drag|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Scizor|Superpower|p2a: Skarmory
+|-damage|p2a: Skarmory|47/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|72/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Spikes|p1a: Scizor
+|-sidestart|p1: OUTZ nabil|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|76/100
+|-damage|p1a: Thundurus|51/100|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|97/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|45/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p2a: Tyranitar|Tyranitar, F|33/100
+|-damage|p2a: Tyranitar|21/100|[from] Spikes
+|-damage|p2a: Tyranitar|9/100|[from] Stealth Rock
+|move|p1a: Thundurus|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|39/100|[from] Sandstorm
+|upkeep
+|inactive|PumpedAaron has 120 seconds left.
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Spikes
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Heatran|Fire Blast|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|-damage|p1a: Keldeo|82/100|[from] Spikes
+|turn|17
+|inactive|PumpedAaron has 90 seconds left.
+|inactive|PumpedAaron has 60 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, F|97/100
+|-damage|p2a: Skarmory|85/100|[from] Stealth Rock
+|move|p1a: Keldeo|Secret Sword|p2a: Skarmory
+|-damage|p2a: Skarmory|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|76/100|[from] Sandstorm
+|upkeep
+|turn|18
+|inactive|PumpedAaron has 60 seconds left.
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|70/100|[from] Sandstorm
+|upkeep
+|inactive|PumpedAaron has 60 seconds left.
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|-damage|p2a: Mienshao|82/100|[from] Spikes
+|turn|19
+|inactive|PumpedAaron has 60 seconds left.
+|
+|switch|p1a: Scizor|Scizor, F|72/100
+|-damage|p1a: Scizor|59/100|[from] Stealth Rock
+|-damage|p1a: Scizor|47/100|[from] Spikes
+|move|p2a: Mienshao|Fake Out|p1a: Scizor
+|-resisted|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|77/100|[from] Sandstorm
+|upkeep
+|turn|20
+|inactive|PumpedAaron has 60 seconds left.
+|
+|move|p2a: Mienshao|Acrobatics|p1a: Scizor
+|-enditem|p2a: Mienshao|Flying Gem|[from] gem
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|71/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|70/100
+|-damage|p1a: Keldeo|63/100|[from] Stealth Rock
+|-damage|p1a: Keldeo|51/100|[from] Spikes
+|turn|21
+|inactive|PumpedAaron has 60 seconds left.
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|45/100|[from] Sandstorm
+|upkeep
+|inactive|PumpedAaron has 60 seconds left.
+|inactive|PumpedAaron has 30 seconds left.
+|inactive|PumpedAaron has 20 seconds left.
+|
+|switch|p2a: Heatran|Heatran, M|76/100
+|-damage|p2a: Heatran|64/100|[from] Stealth Rock
+|-damage|p2a: Heatran|51/100|[from] Spikes
+|turn|22
+|inactive|PumpedAaron has 30 seconds left this turn.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|82/100|[from] Spikes
+|move|p2a: Heatran|Earth Power|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|PumpedAaron has 30 seconds left.
+|inactive|PumpedAaron has 20 seconds left.
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|-damage|p2a: Machamp|88/100|[from] Spikes
+|-damage|p2a: Machamp|82/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Machamp
+|-damage|p2a: Machamp|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machamp|43/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|PumpedAaron has 30 seconds left this turn.
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Machamp|30/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machamp|24/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|45/100
+|-damage|p1a: Keldeo|39/100|[from] Stealth Rock
+|-damage|p1a: Keldeo|26/100|[from] Spikes
+|turn|25
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|20/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|51/100
+|-damage|p2a: Heatran|39/100|[from] Stealth Rock
+|-damage|p2a: Heatran|27/100|[from] Spikes
+|turn|26
+|
+|move|p2a: Heatran|Earth Power|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|win|PumpedAaron
+|l|‽OUTZ nabil
+|raw|OUTZ nabil's rating: 1370 &rarr; <strong>1351</strong><br />(-19 for losing)
+|raw|PumpedAaron's rating: 1385 &rarr; <strong>1404</strong><br />(+19 for winning)

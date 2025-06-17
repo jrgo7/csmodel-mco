@@ -1,0 +1,184 @@
+|j|blackkaiser
+|j|Jack314
+|player|p1|blackkaiser|2
+|teamsize|p1|6
+|player|p2|Jack314|2
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|22632,19290,32312,40084
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M, shiny|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Latios, M, shiny|item
+|poke|p1|Scizor, M|item
+|poke|p1|Hippowdon, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Tyranitar, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|419/419
+|switch|p2a: Rotom|Rotom-Wash|255/255
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|choice|move stealthrock|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Hippowdon
+|-status|p1a: Hippowdon|brn
+|move|p1a: Hippowdon|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Jack314|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|240/255|[from] sandstorm
+|-heal|p2a: Rotom|255/255|[from] item: Leftovers
+|-damage|p1a: Hippowdon|367/419 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move roar|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Hippowdon
+|-fail|p1a: Hippowdon|brn
+|move|p1a: Hippowdon|Roar|p2a: Rotom
+|drag|p2a: Latios|Latios, M|301/301
+|-damage|p2a: Latios|264/301|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|246/301|[from] sandstorm
+|-heal|p1a: Hippowdon|393/419 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|341/419 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 3|switch 3
+|
+|switch|p2a: Rotom|Rotom-Wash|255/255
+|-damage|p2a: Rotom|224/255|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, F|403/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|209/255|[from] sandstorm
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p2a: Rotom|224/255|[from] item: Leftovers
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move willowisp|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Jellicent|[miss]
+|-miss|p2a: Rotom|p1a: Jellicent
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|209/255 brn|[from] sandstorm
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p2a: Rotom|224/255 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-damage|p2a: Rotom|193/255 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move scald|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|67/403
+|choice||switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|-damage|p2a: Tyranitar|354/404|[from] Stealth Rock
+|move|p1a: Jellicent|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|160/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|42/403|[from] sandstorm
+|-heal|p1a: Jellicent|67/403|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move scald|move pursuit
+|
+|move|p2a: Tyranitar|Pursuit|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|351/351
+|turn|7
+|choice|move spikes|move fireblast
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Tyranitar|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: Jack314|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Hippowdon|Hippowdon, F|341/419 brn
+|move|p2a: Tyranitar|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|367/419 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|315/419 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move roar|move crunch
+|
+|move|p2a: Tyranitar|Crunch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|230/419 brn
+|move|p1a: Hippowdon|Roar|p2a: Tyranitar
+|drag|p2a: Jirachi|Jirachi|341/341
+|-damage|p2a: Jirachi|299/341|[from] Spikes
+|-damage|p2a: Jirachi|278/341|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|256/419 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|204/419 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move slackoff|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|131/419 brn
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|341/419 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|367/419 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|315/419 brn|[from] brn
+|upkeep
+|turn|11
+|-message|Jack314 forfeited.
+|
+|win|blackkaiser
+|l|Jack314
+|raw|blackkaiser's rating: 1357 &rarr; <strong>1375</strong><br />(+18 for winning)
+|raw|Jack314's rating: 1319 &rarr; <strong>1301</strong><br />(-18 for losing)

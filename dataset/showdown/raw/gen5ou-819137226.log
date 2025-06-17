@@ -1,0 +1,695 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|j|☆porrompompom
+|j|☆yoloboy9000
+|player|p1|porrompompom|10
+|player|p2|yoloboy9000|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Kyurem|item
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Celebi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|turn|1
+|
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|move|p1a: Politoed|Hypnosis|p2a: Pat Riely
+|-status|p2a: Pat Riely|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pat Riely|atk|1
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Politoed|Politoed, M|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Bron Bron|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Pat Riely|Tyranitar, M|100/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|move|p1a: Politoed|Ice Beam|p2a: Pat Riely
+|-damage|p2a: Pat Riely|90/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|80/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pat Riely|atk|1
+|switch|p2a: Bosh|Latios, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|95/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Ray Allen|Magnezone|100/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-damage|p2a: Ray Allen|82/100
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen|[miss]
+|-miss|p1a: Jirachi|p2a: Ray Allen
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|86/100
+|-boost|p2a: Ray Allen|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|92/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen|[miss]
+|-miss|p1a: Jirachi|p2a: Ray Allen
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|-boost|p2a: Ray Allen|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|43/100
+|-boost|p2a: Ray Allen|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|porrompompom has 120 seconds left.
+|c|☆porrompompom|curious, 60% to paralyze with thunder, 70% of hitting with it, and i got non, but it's 70% to get a spattack drop with that and you got all of them
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|99/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|yoloboy9000 has 120 seconds left.
+|c|☆yoloboy9000|Bro dont be salty you know what you signes up for when u picked thunder
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|33/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆porrompompom|c u r i o u s
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen|[miss]
+|-miss|p1a: Jirachi|p2a: Ray Allen
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|39/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| gubigybyibh
+|c|☆yoloboy9000|S a l t
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|45/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen|[miss]
+|-miss|p1a: Jirachi|p2a: Ray Allen
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|51/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen|[miss]
+|-miss|p1a: Jirachi|p2a: Ray Allen
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|58/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|64/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen|[miss]
+|-miss|p1a: Jirachi|p2a: Ray Allen
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|move|p2a: Ray Allen|Charge Beam|p1a: Jirachi
+|-damage|p1a: Jirachi|59/100
+|-boost|p2a: Ray Allen|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|66/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|72/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-fail|p2a: Ray Allen|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Ray Allen|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|81/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|87/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Jirachi|Thunder|p2a: Ray Allen|[miss]
+|-miss|p1a: Jirachi|p2a: Ray Allen
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|23/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|93/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|30/100|[from] item: Leftovers
+|-heal|p2a: Ray Allen|99/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ray Allen|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|80/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|31
+|
+|move|p1a: Politoed|Encore|p2a: Ray Allen
+|-start|p2a: Ray Allen|Encore
+|move|p2a: Ray Allen|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|32
+|l|☆yoloboy9000
+|inactive|yoloboy9000 disconnected and has a minute to reconnect!
+|player|p2|
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Ray Allen|Hidden Power|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|93/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|inactive|yoloboy9000 has 60 seconds to reconnect!
+|inactive|yoloboy9000 has 30 seconds to reconnect!
+|inactive|yoloboy9000 has 20 seconds to reconnect!
+|inactive|yoloboy9000 has 15 seconds to reconnect!
+|inactive|yoloboy9000 has 10 seconds to reconnect!
+|j|☆yoloboy9000
+|inactive|yoloboy9000 reconnected and has 95 seconds left.
+|player|p2|yoloboy9000|101
+|inactive|yoloboy9000 has 90 seconds left.
+|
+|move|p1a: Tentacruel|Scald|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Hidden Power|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|90/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|96/100|[from] item: Black Sludge
+|-end|p2a: Ray Allen|Encore
+|upkeep
+|turn|34
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ray Allen|atk|1
+|move|p2a: Ray Allen|Flash Cannon|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|35
+|
+|move|p1a: Kyurem|Earth Power|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-damage|p2a: Ray Allen|0 fnt
+|faint|p2a: Ray Allen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Pat Riely|Tyranitar, M|96/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|36
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Miller|Scizor, M, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|37
+|
+|move|p1a: Politoed|Ice Beam|p2a: Miller
+|-resisted|p2a: Miller
+|-damage|p2a: Miller|84/100
+|move|p2a: Miller|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|14/100
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: D.Wade|Close Combat|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|79/100
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|85/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Pat Riely|Tyranitar, M|96/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Politoed|Politoed, M|14/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pat Riely|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Miller|Scizor, M, shiny|84/100
+|move|p1a: Politoed|Hydro Pump|p2a: Miller
+|-damage|p2a: Miller|0 fnt
+|faint|p2a: Miller
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|turn|41
+|
+|switch|p1a: Celebi|Celebi|85/100
+|move|p2a: D.Wade|X-Scissor|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|5/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|11/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: D.Wade|X-Scissor|p1a: Kyurem
+|-damage|p1a: Kyurem|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|81/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Kyurem|atk|1
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|62/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Bron Bron
+|-supereffective|p2a: Bron Bron
+|-damage|p2a: Bron Bron|0 fnt
+|faint|p2a: Bron Bron
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|turn|45
+|
+|move|p2a: D.Wade|Close Combat|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|move|p1a: Kyurem|Earth Power|p2a: D.Wade
+|-supereffective|p2a: D.Wade
+|-damage|p2a: D.Wade|0 fnt
+|faint|p2a: D.Wade
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bosh|Latios, M, shiny|95/100
+|turn|46
+|
+|switch|p1a: Celebi|Celebi|11/100
+|move|p2a: Bosh|Draco Meteor|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-unboost|p2a: Bosh|spa|2
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M|96/100
+|turn|47
+|
+|move|p2a: Bosh|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|38/100
+|move|p1a: Tentacruel|Scald|p2a: Bosh
+|-resisted|p2a: Bosh
+|-damage|p2a: Bosh|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|44/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|50/100|[from] item: Black Sludge
+|upkeep
+|turn|48
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Bosh|Psyshock|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|56/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|62/100|[from] item: Black Sludge
+|upkeep
+|turn|49
+|
+|switch|p1a: Kyurem|Kyurem|74/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Bosh|Psyshock|p1a: Kyurem
+|-damage|p1a: Kyurem|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|60/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p1a: Tentacruel|Tentacruel, M|62/100
+|move|p2a: Bosh|Draco Meteor|p1a: Tentacruel
+|-damage|p1a: Tentacruel|33/100
+|-unboost|p2a: Bosh|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|39/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|45/100|[from] item: Black Sludge
+|upkeep
+|turn|51
+|
+|switch|p2a: Pat Riely|Tyranitar, M|100/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|move|p1a: Tentacruel|Scald|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|80/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|39/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|45/100|[from] item: Black Sludge
+|-heal|p2a: Pat Riely|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p1a: Politoed|Politoed, M|14/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Bosh|Latios, M, shiny|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|53
+|
+|switch|p2a: Pat Riely|Tyranitar, M|86/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|move|p1a: Politoed|Ice Beam|p2a: Pat Riely
+|-crit|p2a: Pat Riely
+|-damage|p2a: Pat Riely|62/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|7/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|68/100 slp|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|switch|p1a: Kyurem|Kyurem|60/100
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Bosh|Latios, M, shiny|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|72/100|[from] Sandstorm
+|-damage|p1a: Kyurem|54/100|[from] Sandstorm
+|-heal|p1a: Kyurem|60/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|switch|p1a: Tentacruel|Tentacruel, M|45/100
+|move|p2a: Bosh|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|66/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|7/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|56
+|
+|switch|p1a: Kyurem|Kyurem|60/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Bosh|Psyshock|p1a: Kyurem
+|-damage|p1a: Kyurem|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|30/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|-message|porrompompom forfeited.
+|
+|win|yoloboy9000
+|l|☆porrompompom
+|raw|porrompompom's rating: 1407 &rarr; <strong>1383</strong><br />(-24 for losing)
+|raw|yoloboy9000's rating: 1325 &rarr; <strong>1349</strong><br />(+24 for winning)
+|l| gubigybyibh

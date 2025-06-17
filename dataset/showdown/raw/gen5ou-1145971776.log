@@ -1,0 +1,349 @@
+|j|☆testbwou
+|j|☆Anderson177
+|player|p1|testbwou|1|1497
+|player|p2|Anderson177|lucas|1281
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Crobat, F|item
+|poke|p2|Metagross|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Machamp, M|item
+|poke|p2|Mamoswine, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|1
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Metagross
+|-status|p2a: Metagross|brn
+|move|p2a: Metagross|Stealth Rock|p1a: Rotom
+|-sidestart|p1: testbwou|move: Stealth Rock
+|
+|-damage|p2a: Metagross|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Volt Switch|p2a: Metagross
+|-damage|p2a: Metagross|63/100 brn
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Metagross|Zen Headbutt|p1a: Jellicent
+|-damage|p1a: Jellicent|65/100
+|
+|-heal|p2a: Metagross|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Metagross|56/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Jellicent|Water Spout|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|59/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rotom|Trick|p1a: Tyranitar
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Chople Berry|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|53/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|75/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Anderson177)
+|inactive|Anderson177 has 120 seconds left.
+|
+|-activate|p2a: Rotom|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Rotom|[from]Pursuit
+|-damage|p2a: Rotom|4/100
+|switch|p2a: Metagross|Metagross, shiny|56/100 brn|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Metagross|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Metagross|50/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Metagross|Meteor Mash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|76/100|[from] Sandstorm
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|-heal|p2a: Metagross|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Metagross|44/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Metagross|[miss]
+|-miss|p1a: Rotom|p2a: Metagross
+|move|p2a: Metagross|Zen Headbutt|p1a: Rotom
+|-damage|p1a: Rotom|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|55/100|[from] Sandstorm
+|-heal|p1a: Rotom|61/100|[from] item: Leftovers
+|-heal|p2a: Metagross|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Metagross|38/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|55/100|[from] Sandstorm
+|-heal|p1a: Rotom|61/100|[from] item: Leftovers
+|upkeep
+|inactive|Anderson177 has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|4/100
+|turn|9
+|
+|switch|p1a: Tyranitar|Tyranitar, M|75/100
+|-damage|p1a: Tyranitar|63/100|[from] Stealth Rock
+|move|p2a: Rotom|Trick|p1a: Tyranitar
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Chople Berry|[from] move: Trick
+|-item|p2a: Rotom|Choice Scarf|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|0 fnt|[from] Sandstorm
+|faint|p2a: Rotom
+|upkeep
+|c|☆testbwou|haha thanks for the chople berry :)
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Wash|61/100
+|-damage|p1a: Rotom|48/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|42/100|[from] Sandstorm
+|-heal|p1a: Rotom|48/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Volcarona|Volcarona, F, shiny|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|22/100|[from] Sandstorm
+|-damage|p1a: Rotom|42/100|[from] Sandstorm
+|-heal|p2a: Volcarona|28/100|[from] item: Leftovers
+|-heal|p1a: Rotom|48/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Rotom
+|-damage|p1a: Rotom|19/100
+|move|p1a: Rotom|Hydro Pump|p2a: Volcarona|[miss]
+|-miss|p1a: Rotom|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|22/100|[from] Sandstorm
+|-damage|p1a: Rotom|13/100|[from] Sandstorm
+|-heal|p2a: Volcarona|28/100|[from] item: Leftovers
+|-heal|p1a: Rotom|19/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Volcarona|Bug Buzz|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|22/100|[from] Sandstorm
+|-heal|p2a: Volcarona|28/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Machamp
+|-damage|p2a: Machamp|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machamp|33/100|[from] Sandstorm
+|-heal|p2a: Machamp|39/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Anderson177 has 90 seconds left.
+|
+|switch|p2a: Crobat|Crobat, F|100/100
+|turn|16
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Crobat
+|-damage|p2a: Crobat|35/100
+|move|p2a: Crobat|Heat Wave|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Crobat|25/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|19/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|17
+|
+|move|p2a: Crobat|U-turn|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|10/100
+|-damage|p2a: Crobat|9/100|[from] item: Life Orb
+|
+|switch|p2a: Volcarona|Volcarona, F, shiny|28/100|[from]move: U-turn
+|move|p1a: Alakazam|Psychic|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Anderson177 has 90 seconds left.
+|
+|switch|p2a: Crobat|Crobat, F|9/100
+|turn|18
+|inactive|Anderson177 has 90 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Crobat|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|78/100
+|-damage|p2a: Crobat|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p2a: Crobat
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Anderson177 has 90 seconds left.
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|19
+|inactive|Anderson177 has 90 seconds left.
+|
+|switch|p1a: Jellicent|Jellicent, M|65/100
+|-damage|p1a: Jellicent|52/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Ice Shard|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|33/100|[from] Sandstorm
+|upkeep
+|turn|20
+|inactive|Anderson177 has 90 seconds left.
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|testbwou has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|19/100
+|-damage|p1a: Rotom|6/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Mamoswine|Icicle Crash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|testbwou has 120 seconds left.
+|
+|switch|p1a: Alakazam|Alakazam, M|10/100
+|turn|22
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|63/100
+|-damage|p1a: Tyranitar|51/100|[from] Stealth Rock
+|turn|23
+|c|☆Anderson177|XD
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆testbwou|g
+|c|☆testbwou|gg
+|
+|switch|p1a: Garchomp|Garchomp, M|78/100
+|-damage|p1a: Garchomp|71/100|[from] Stealth Rock
+|turn|24
+|c|☆Anderson177|EZ?
+|c|☆Anderson177|TY?
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|Anderson177
+|c|☆Anderson177|2QWFSFASF
+|raw|testbwou's rating: 1497 &rarr; <strong>1466</strong><br />(-31 for losing)
+|raw|Anderson177's rating: 1281 &rarr; <strong>1320</strong><br />(+39 for winning)
+|l|☆testbwou
+|c|☆Anderson177|BURRO

@@ -1,0 +1,567 @@
+|join|Chellison
+|join|Sage Hane
+|player|p1|Chellison|240
+|player|p2|Sage Hane|266
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Latias, F
+|poke|p1|Heatran, F
+|poke|p1|Dugtrio, M
+|poke|p1|Venusaur, M
+|poke|p1|Forretress, F
+|poke|p1|Ninetales, F
+|poke|p2|Chansey, F
+|poke|p2|Wobbuffet, F
+|poke|p2|Cloyster, F
+|poke|p2|Quagsire, F
+|poke|p2|Dragonite, F
+|poke|p2|Forretress, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|349/349
+|switch|p2a: Chu Worm|Quagsire, F|394/394
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Chu Worm
+|-status|p2a: Chu Worm|brn
+|move|p2a: Chu Worm|Yawn|p1a: Ninetales
+|-start|p1a: Ninetales|move: Yawn|[of] p2a: Chu Worm
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chu Worm|345/394 brn|[from] brn
+|turn|2
+|
+|switch|p1a: Venusaur|Venusaur, M|326/326
+|move|p2a: Chu Worm|Scald|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|308/326
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Venusaur|326/326|[from] item: Leftovers
+|-heal|p2a: Chu Worm|369/394 brn|[from] item: Leftovers
+|-damage|p2a: Chu Worm|320/394 brn|[from] brn
+|turn|3
+|
+|switch|p2a: Aeralfos|Dragonite, F|336/336
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Aeralfos
+|-status|p2a: Aeralfos|slp
+|cant|p2a: Aeralfos|slp
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p1a: Heatran|Heatran, F|337/337
+|cant|p2a: Aeralfos|slp
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p1a: Heatran|Hidden Power|p2a: Aeralfos
+|-supereffective|p2a: Aeralfos
+|-damage|p2a: Aeralfos|212/336 slp
+|-curestatus|p2a: Aeralfos|slp
+|move|p2a: Aeralfos|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|233/336|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Aeralfos|Substitute|p2a: Aeralfos
+|-start|p2a: Aeralfos|Substitute
+|-damage|p2a: Aeralfos|149/336
+|move|p1a: Heatran|Magma Storm|p2a: Aeralfos
+|-resisted|p2a: Aeralfos
+|-end|p2a: Aeralfos|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|170/336|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Aeralfos|Substitute|p2a: Aeralfos
+|-start|p2a: Aeralfos|Substitute
+|-damage|p2a: Aeralfos|86/336
+|move|p1a: Heatran|Hidden Power|p2a: Aeralfos
+|-supereffective|p2a: Aeralfos
+|-end|p2a: Aeralfos|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|107/336|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Aeralfos|Roost|p2a: Aeralfos
+|-heal|p2a: Aeralfos|275/336
+|move|p1a: Heatran|Hidden Power|p2a: Aeralfos
+|-crit|p2a: Aeralfos
+|-supereffective|p2a: Aeralfos
+|-damage|p2a: Aeralfos|27/336
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|48/336|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Aeralfos|Roost|p2a: Aeralfos
+|-heal|p2a: Aeralfos|216/336
+|cant|p1a: Heatran|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|237/336|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Aeralfos|Substitute|p2a: Aeralfos
+|-start|p2a: Aeralfos|Substitute
+|-damage|p2a: Aeralfos|153/336
+|cant|p1a: Heatran|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|174/336|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Aeralfos|Roost|p2a: Aeralfos
+|-heal|p2a: Aeralfos|336/336
+|move|p1a: Heatran|Hidden Power|p2a: Aeralfos
+|-crit|p2a: Aeralfos
+|-supereffective|p2a: Aeralfos
+|-end|p2a: Aeralfos|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|turn|13
+|chat|Sage Hane|crit
+|
+|move|p2a: Aeralfos|Substitute|p2a: Aeralfos
+|-start|p2a: Aeralfos|Substitute
+|-damage|p2a: Aeralfos|252/336
+|move|p1a: Heatran|Hidden Power|p2a: Aeralfos
+|-supereffective|p2a: Aeralfos
+|-end|p2a: Aeralfos|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|273/336|[from] item: Leftovers
+|turn|14
+|chat|Sage Hane|two crits!
+|
+|move|p2a: Aeralfos|Substitute|p2a: Aeralfos
+|-start|p2a: Aeralfos|Substitute
+|-damage|p2a: Aeralfos|189/336
+|move|p1a: Heatran|Hidden Power|p2a: Aeralfos
+|-supereffective|p2a: Aeralfos
+|-end|p2a: Aeralfos|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|210/336|[from] item: Leftovers
+|turn|15
+|chat|Chellison|no
+|chat|Chellison|1 crit
+|
+|move|p2a: Aeralfos|Substitute|p2a: Aeralfos
+|-start|p2a: Aeralfos|Substitute
+|-damage|p2a: Aeralfos|126/336
+|cant|p1a: Heatran|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|147/336|[from] item: Leftovers
+|turn|16
+|chat|Sage Hane|turn 9 and 12
+|
+|move|p2a: Aeralfos|Roost|p2a: Aeralfos
+|-heal|p2a: Aeralfos|315/336
+|move|p1a: Heatran|Hidden Power|p2a: Aeralfos
+|-supereffective|p2a: Aeralfos
+|-end|p2a: Aeralfos|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|336/336|[from] item: Leftovers
+|turn|17
+|chat|Chellison|yea what of it
+|chat|Sage Hane|just complaining
+|
+|switch|p2a: Blue Chu Chu|Wobbuffet, F|528/528
+|move|p1a: Heatran|Hidden Power|p2a: Blue Chu Chu
+|-damage|p2a: Blue Chu Chu|440/528
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|473/528|[from] item: Leftovers
+|turn|18
+|chat|Chellison|but it made no difference to the game?
+|
+|move|p2a: Blue Chu Chu|Encore|p1a: Heatran
+|-start|p1a: Heatran|Encore
+|move|p1a: Heatran|Hidden Power|p2a: Blue Chu Chu
+|-damage|p2a: Blue Chu Chu|393/528
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|426/528|[from] item: Leftovers
+|turn|19
+|chat|Sage Hane|it did
+|chat|Sage Hane|if you didn't crit, I would have set up my sub
+|chat|Chellison|how? it hit your sub which breaks without a crit
+|
+|cant|p1a: Heatran|par
+|move|p2a: Blue Chu Chu|Mirror Coat|p1a: Heatran
+|-fail|p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|459/528|[from] item: Leftovers
+|turn|20
+|chat|Sage Hane|multiscale
+|chat|Chellison|still breaks
+|chat|Sage Hane|73.7/4 = 18. something
+|
+|move|p1a: Heatran|Hidden Power|p2a: Blue Chu Chu
+|-damage|p2a: Blue Chu Chu|368/528
+|move|p2a: Blue Chu Chu|Mirror Coat|p1a: Heatran
+|-damage|p1a: Heatran|155/337 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|401/528|[from] item: Leftovers
+|-heal|p1a: Heatran|176/337 par|[from] item: Leftovers
+|-end|p1a: Heatran|Encore
+|turn|21
+|
+|move|p2a: Blue Chu Chu|Encore|p1a: Heatran
+|-start|p1a: Heatran|Encore
+|move|p1a: Heatran|Hidden Power|p2a: Blue Chu Chu
+|-damage|p2a: Blue Chu Chu|320/528
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|353/528|[from] item: Leftovers
+|-heal|p1a: Heatran|197/337 par|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Heatran|Hidden Power|p2a: Blue Chu Chu
+|-damage|p2a: Blue Chu Chu|269/528
+|move|p2a: Blue Chu Chu|Mirror Coat|p1a: Heatran
+|-damage|p1a: Heatran|29/337 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|302/528|[from] item: Leftovers
+|-heal|p1a: Heatran|50/337 par|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Heatran|Hidden Power|p2a: Blue Chu Chu
+|-damage|p2a: Blue Chu Chu|216/528
+|move|p2a: Blue Chu Chu|Mirror Coat|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|249/528|[from] item: Leftovers
+|
+|switch|p1a: Dugtrio|Dugtrio, M|211/211
+|turn|24
+|chat|Sage Hane|learn 2 math
+|chat|Sage Hane|are you 7?
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Blue Chu Chu
+|-sidestart|p2: Sage Hane|move: Stealth Rock
+|move|p2a: Blue Chu Chu|Counter|p1a: Dugtrio
+|-fail|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|282/528|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Dugtrio|Toxic|p2a: Blue Chu Chu
+|-status|p2a: Blue Chu Chu|tox
+|move|p2a: Blue Chu Chu|Counter|p1a: Dugtrio
+|-fail|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|315/528 tox|[from] item: Leftovers
+|-damage|p2a: Blue Chu Chu|282/528 tox|[from] psn
+|turn|26
+|chat|Chellison|ouch
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Blue Chu Chu
+|-fail|p2a: Blue Chu Chu
+|move|p2a: Blue Chu Chu|Safeguard|p2a: Blue Chu Chu
+|-sidestart|p2: Sage Hane|Safeguard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|315/528 tox|[from] item: Leftovers
+|-damage|p2a: Blue Chu Chu|249/528 tox|[from] psn
+|turn|27
+|chat|Sage Hane|?
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Blue Chu Chu
+|-fail|p2a: Blue Chu Chu
+|move|p2a: Blue Chu Chu|Encore|p1a: Dugtrio
+|-start|p1a: Dugtrio|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|282/528 tox|[from] item: Leftovers
+|-damage|p2a: Blue Chu Chu|183/528 tox|[from] psn
+|turn|28
+|chat|Chellison|these insults
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Blue Chu Chu
+|-fail|p2a: Blue Chu Chu
+|move|p2a: Blue Chu Chu|Counter|p1a: Dugtrio
+|-fail|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|216/528 tox|[from] item: Leftovers
+|-damage|p2a: Blue Chu Chu|84/528 tox|[from] psn
+|turn|29
+|chat|Sage Hane|they aren't really insults
+|chat|Sage Hane|you are 7 right?
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Blue Chu Chu
+|-fail|p2a: Blue Chu Chu
+|move|p2a: Blue Chu Chu|Encore|p1a: Dugtrio
+|-fail|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blue Chu Chu|117/528 tox|[from] item: Leftovers
+|-damage|p2a: Blue Chu Chu|0 fnt|[from] psn
+|faint|p2a: Blue Chu Chu
+|chat|Chellison|8 1/2
+|
+|switch|p2a: Shell Blade|Cloyster, F|241/241
+|-damage|p2a: Shell Blade|181/241|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Forretress|Forretress, F|351/351
+|move|p2a: Shell Blade|Shell Smash|p2a: Shell Blade
+|-boost|p2a: Shell Blade|atk|2
+|-boost|p2a: Shell Blade|spa|2
+|-boost|p2a: Shell Blade|spe|2
+|-unboost|p2a: Shell Blade|def|1
+|-unboost|p2a: Shell Blade|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Sage Hane|Safeguard
+|turn|31
+|
+|move|p2a: Shell Blade|Icicle Spear|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|329/351
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|309/351
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|288/351
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|267/351
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|246/351
+|-hitcount|p1a: Forretress|5
+|move|p1a: Forretress|Volt Switch|p2a: Shell Blade
+|-supereffective|p2a: Shell Blade
+|-damage|p2a: Shell Blade|0 fnt
+|faint|p2a: Shell Blade
+|chat|Sage Hane|right?
+|
+|switch|p1a: Ninetales|Ninetales, F|349/349
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Aeralfos|Dragonite, F|336/336
+|-damage|p2a: Aeralfos|252/336|[from] Stealth Rock
+|turn|32
+|chat|Chellison|how old are you?
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Aeralfos
+|-status|p2a: Aeralfos|brn
+|move|p2a: Aeralfos|Substitute|p2a: Aeralfos
+|-start|p2a: Aeralfos|Substitute
+|-damage|p2a: Aeralfos|168/336 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|189/336 brn|[from] item: Leftovers
+|-damage|p2a: Aeralfos|147/336 brn|[from] brn
+|turn|33
+|chat|Sage Hane|13
+|chat|Sage Hane|not much older than 7
+|
+|move|p2a: Aeralfos|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|move|p1a: Ninetales|Roar|p2a: Aeralfos
+|drag|p2a: Leever|Forretress, F|354/354
+|-damage|p2a: Leever|310/354|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Leever|332/354|[from] item: Leftovers
+|turn|34
+|chat|Chellison|hey im 8 and half
+|chat|Sage Hane|oh
+|chat|Sage Hane|do you know division or is it for 10 year olds?
+|
+|switch|p2a: Chu Worm|Quagsire, F|320/394 brn
+|-damage|p2a: Chu Worm|296/394 brn|[from] Stealth Rock
+|cant|p1a: Ninetales|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Chu Worm|320/394 brn|[from] item: Leftovers
+|-damage|p2a: Chu Worm|271/394 brn|[from] brn
+|turn|35
+|
+|switch|p1a: Forretress|Forretress, F|246/351
+|move|p2a: Chu Worm|Yawn|p1a: Forretress
+|-start|p1a: Forretress|move: Yawn|[of] p2a: Chu Worm
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|267/351|[from] item: Leftovers
+|-heal|p2a: Chu Worm|295/394 brn|[from] item: Leftovers
+|-damage|p2a: Chu Worm|246/394 brn|[from] brn
+|turn|36
+|
+|switch|p1a: Venusaur|Venusaur, M|326/326
+|switch|p2a: Leever|Forretress, F|332/354
+|-damage|p2a: Leever|288/354|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Leever|310/354|[from] item: Leftovers
+|turn|37
+|
+|switch|p2a: Aeralfos|Dragonite, F|147/336 brn
+|-damage|p2a: Aeralfos|63/336 brn|[from] Stealth Rock
+|move|p1a: Venusaur|Hidden Power|p2a: Aeralfos
+|-resisted|p2a: Aeralfos
+|-damage|p2a: Aeralfos|30/336 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Aeralfos|51/336 brn|[from] item: Leftovers
+|-damage|p2a: Aeralfos|9/336 brn|[from] brn
+|turn|38
+|
+|move|p1a: Venusaur|Energy Ball|p2a: Aeralfos
+|-crit|p2a: Aeralfos
+|-resisted|p2a: Aeralfos
+|-damage|p2a: Aeralfos|0 fnt
+|faint|p2a: Aeralfos
+|
+|-weather|SunnyDay|[upkeep]
+|chat|Sage Hane|my loss
+|
+|switch|p2a: Chu Worm|Quagsire, F|246/394 brn
+|-damage|p2a: Chu Worm|222/394 brn|[from] Stealth Rock
+|turn|39
+|chat|Sage Hane|if only shell blade flinched fortress!
+|
+|move|p1a: Venusaur|Energy Ball|p2a: Chu Worm
+|-supereffective|p2a: Chu Worm
+|-damage|p2a: Chu Worm|0 fnt
+|faint|p2a: Chu Worm
+|
+|-weather|SunnyDay|[upkeep]
+|chat|Sage Hane|don't nasty plot!
+|chat|Chellison|losing to a 8 year old
+|chat|Sage Hane|I mean growth
+|
+|switch|p2a: Weird Egg|Chansey, F|642/642
+|-damage|p2a: Weird Egg|562/642|[from] Stealth Rock
+|turn|40
+|chat|Chellison|fucking idiot!
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Weird Egg|[miss]
+|-miss|p1a: Venusaur|p2a: Weird Egg
+|move|p2a: Weird Egg|Toxic|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|turn|41
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Weird Egg|[miss]
+|-miss|p1a: Venusaur|p2a: Weird Egg
+|move|p2a: Weird Egg|Toxic|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|turn|42
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Weird Egg
+|-status|p2a: Weird Egg|slp
+|cant|p2a: Weird Egg|slp
+|
+|-weather|SunnyDay|[upkeep]
+|turn|43
+|
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|-curestatus|p2a: Weird Egg|slp
+|move|p2a: Weird Egg|Toxic|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|turn|44
+|
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Weird Egg|Toxic|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|turn|45
+|
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Weird Egg|Toxic|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|turn|46
+|chat|Sage Hane|so muc poison damage!
+|
+|move|p1a: Venusaur|Energy Ball|p2a: Weird Egg
+|-crit|p2a: Weird Egg
+|-damage|p2a: Weird Egg|142/642
+|move|p2a: Weird Egg|Toxic|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|turn|47
+|
+|move|p1a: Venusaur|Energy Ball|p2a: Weird Egg
+|-damage|p2a: Weird Egg|0 fnt
+|faint|p2a: Weird Egg
+|
+|-weather|SunnyDay|[upkeep]
+|chat|Chellison|well tried
+|
+|switch|p2a: Leever|Forretress, F|310/354
+|-damage|p2a: Leever|266/354|[from] Stealth Rock
+|turn|48
+|chat|Chellison|fucking loser
+|chat|Sage Hane|take my poison!
+|chat|Sage Hane|hey, I used to be 90 in the world
+|
+|move|p1a: Venusaur|Hidden Power|p2a: Leever
+|-supereffective|p2a: Leever
+|-damage|p2a: Leever|0 fnt
+|faint|p2a: Leever
+|
+|win|Chellison
+|raw|Ladder updating...
+|chat|Chellison|wow
+|raw|Chellison's rating: 1326 &rarr; <strong>1349</strong><br />(+23 for winning)
+|raw|Sage Hane's rating: 1378 &rarr; <strong>1355</strong><br />(-23 for losing)
+|chat|Chellison|immediate respect
+|chat|Sage Hane|i know, showdown is easy
+|chat|Sage Hane|even i can do it
+|chat|Sage Hane|and now, your ranking is as good as mine
+|chat|Chellison|good luck with life
+|leave|Chellison
+|player|p1

@@ -1,0 +1,286 @@
+|j|☆blackkaiser
+|j|☆HC Peek
+|player|p1|blackkaiser|170|1484
+|player|p2|HC Peek|265|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Bronzong|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Victini|item
+|poke|p2|Porygon2|item
+|poke|p2|Machamp, M|item
+|poke|p2|Alakazam, F|item
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: HC Peek|move: Stealth Rock
+|move|p2a: Bronzong|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Bronzong|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-damage|p2a: Porygon2|88/100|[from] Stealth Rock
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|move|p1a: Ferrothorn|Spikes|p2a: Porygon2
+|-sidestart|p2: HC Peek|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|82/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p2a: Porygon2|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Latios|Trick|p2a: Porygon2
+|-activate|p1a: Latios|move: Trick|[of] p2a: Porygon2
+|-item|p2a: Porygon2|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Eviolite|[from] move: Trick
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|70/100|[from] Sandstorm
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|88/100|[from] Spikes
+|-damage|p2a: Bronzong|82/100|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Bronzong
+|-damage|p2a: Bronzong|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|76/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Bronzong|Explosion|p1a: Jellicent
+|-immune|p1a: Jellicent
+|faint|p2a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|82/100|[from] Sandstorm
+|-heal|p1a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|8
+|
+|move|p2a: Reuniclus|Shadow Ball|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|43/100
+|move|p1a: Jellicent|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|37/100|[from] Sandstorm
+|-heal|p1a: Jellicent|43/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Shadow Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|move|p1a: Scizor|U-turn|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Porygon2|Porygon2|70/100
+|-damage|p2a: Porygon2|57/100|[from] Stealth Rock
+|-damage|p2a: Porygon2|45/100|[from] Spikes
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|11
+|
+|move|p1a: Garchomp|Draco Meteor|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|85/100|[from] item: Life Orb
+|faint|p2a: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|12
+|
+|move|p1a: Garchomp|Earthquake|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|-damage|p1a: Garchomp|75/100|[from] item: Life Orb
+|move|p2a: Alakazam|Trick Room|p2a: Alakazam
+|-fieldstart|move: Trick Room|[of] p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|inactive|HC Peek has 120 seconds left.
+|
+|switch|p1a: Jellicent|Jellicent, M|43/100
+|-damage|p1a: Jellicent|31/100|[from] Stealth Rock
+|move|p2a: Alakazam|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|64/100
+|-damage|p1a: Scizor|52/100|[from] Stealth Rock
+|turn|14
+|inactive|HC Peek has 120 seconds left.
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|-damage|p2a: Machamp|94/100|[from] Stealth Rock
+|-damage|p2a: Machamp|82/100|[from] Spikes
+|turn|15
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|move|p2a: Machamp|Dynamic Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|53/100
+|-start|p1a: Hippowdon|confusion
+|-damage|p2a: Machamp|72/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machamp|66/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|59/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Machamp|Ice Punch|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|21/100
+|-damage|p2a: Machamp|56/100|[from] item: Life Orb
+|-activate|p1a: Hippowdon|confusion
+|move|p1a: Hippowdon|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machamp|10/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|27/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|c|☆blackkaiser|gg
+|inactive|HC Peek has 90 seconds left.
+|
+|-end|p1a: Hippowdon|confusion
+|move|p1a: Hippowdon|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|33/100|[from] item: Leftovers
+|upkeep
+|inactive|HC Peek has 90 seconds left.
+|
+|switch|p2a: Victini|Victini|100/100
+|-damage|p2a: Victini|76/100|[from] Stealth Rock
+|-damage|p2a: Victini|63/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Victini|V-create|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victini|57/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|75/100
+|-damage|p1a: Garchomp|69/100|[from] Stealth Rock
+|turn|19
+|inactive|HC Peek has 90 seconds left.
+|
+|move|p1a: Garchomp|Earthquake|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|-damage|p1a: Garchomp|59/100|[from] item: Life Orb
+|faint|p2a: Victini
+|
+|win|blackkaiser
+|raw|blackkaiser's rating: 1485 &rarr; <strong>1498</strong><br />(+13 for winning)
+|raw|HC Peek's rating: 1361 &rarr; <strong>1348</strong><br />(-13 for losing)
+|l|☆HC Peek

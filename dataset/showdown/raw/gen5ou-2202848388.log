@@ -1,0 +1,198 @@
+|j|☆Winterchillz
+|j|☆LadderGod1
+|t:|1726497726
+|gametype|singles
+|player|p1|Winterchillz|wallace|1366
+|player|p2|LadderGod1|169|1388
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Starmie|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Magnezone|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Salamence, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Hydreigon, M|item
+|teampreview
+|
+|t:|1726497764
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|turn|1
+|
+|t:|1726497784
+|move|p2a: Hydreigon|Draco Meteor|p1a: Landorus|[miss]
+|-miss|p2a: Hydreigon|p1a: Landorus
+|move|p1a: Landorus|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: LadderGod1|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1726497795
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|switch|p1a: Magnezone|Magnezone|100/100
+|-item|p1a: Magnezone|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1726497802
+|move|p1a: Magnezone|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|44/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Magma Storm|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-enditem|p1a: Magnezone|Air Balloon
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|t:|1726497815
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|4
+|
+|t:|1726497822
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1726497827
+|move|p1a: Garchomp|Outrage|p2a: Gliscor
+|-damage|p2a: Gliscor|13/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-damage|p1a: Garchomp|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|26/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1726497833
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Garchomp|Outrage|p2a: Ferrothorn|[from]lockedmove
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100
+|-damage|p1a: Garchomp|82/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|63/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|70/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1726497839
+|move|p1a: Garchomp|Outrage|p2a: Ferrothorn|[from]lockedmove
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100
+|-damage|p1a: Garchomp|57/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-start|p1a: Garchomp|confusion|[fatigue]
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Winterchillz|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|31/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|39/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1726497846
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|9/100 tox|[from] confusion
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Ferrothorn|19/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Ferrothorn|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1726497859
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1726497864
+|move|p1a: Starmie|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|-damage|p1a: Starmie|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1726497867
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1726497871
+|move|p2a: Hydreigon|Dark Pulse|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|upkeep
+|
+|t:|1726497874
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1726497880
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1726497887
+|move|p1a: Dragonite|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|29/100
+|move|p2a: Politoed|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Politoed|36/100|[from] item: Leftovers
+|upkeep
+|-message|Winterchillz forfeited.
+|
+|win|LadderGod1
+|raw|Winterchillz's rating: 1366 &rarr; <strong>1347</strong><br />(-19 for losing)
+|raw|LadderGod1's rating: 1388 &rarr; <strong>1407</strong><br />(+19 for winning)
+|l|☆Winterchillz
+|player|p1|

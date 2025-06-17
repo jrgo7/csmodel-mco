@@ -1,0 +1,434 @@
+|j|LarvitarFan
+|j|Bratt Pid
+|player|p1|LarvitarFan|164
+|teamsize|p1|6
+|player|p2|Bratt Pid|171
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated||rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Reuniclus, F|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Gengar, F|item
+|poke|p1|Breloom, F|item
+|poke|p1|Chansey, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bratt Pid)|
+|start
+|switch|p1a: Chansey|Chansey, F|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Chansey|atk|1
+|move|p1a: Chansey|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Bratt Pid|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2|
+|move|p2a: Landorus|Stealth Rock|p1a: Chansey
+|-sidestart|p1: LarvitarFan|move: Stealth Rock
+|move|p1a: Chansey|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|3|
+|move|p2a: Landorus|U-turn|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|71/100|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Chansey|Seismic Toss|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|-damage|p1a: Chansey|58/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|LarvitarFan has 135 seconds left.|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Reuniclus
+|-sidestart|p1: LarvitarFan|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|5|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6|
+|move|p2a: Tornadus|Hurricane|p1a: Reuniclus
+|-damage|p1a: Reuniclus|48/100
+|move|p1a: Reuniclus|Psyshock|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|7|
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|move|p2a: Jirachi|Thunder|p1a: Gliscor
+|-immune|p1a: Gliscor|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8|
+|switch|p2a: Landorus|Landorus-Therian, M|94/100 tox
+|-damage|p2a: Landorus|82/100 tox|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|move|p1a: Gliscor|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|82/100 tox|[from] psn
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9|
+|switch|p1a: Chansey|Chansey, F|58/100
+|-damage|p1a: Chansey|46/100|[from] Stealth Rock
+|-damage|p1a: Chansey|33/100|[from] Spikes
+|move|p2a: Landorus|Hidden Power|p1a: Chansey
+|-damage|p1a: Chansey|28/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|76/100 tox|[from] psn
+|upkeep
+|turn|10|
+|move|p2a: Landorus|Earthquake|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|64/100 tox|[from] psn
+|upkeep
+|inactive|LarvitarFan has 135 seconds left.|
+|switch|p1a: Reuniclus|Reuniclus, F|48/100
+|turn|11|
+|move|p2a: Landorus|U-turn|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|19/100|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|12|
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13|
+|move|p2a: Jirachi|Flash Cannon|p1a: Gliscor
+|-damage|p1a: Gliscor|55/100 tox
+|-unboost|p1a: Gliscor|spd|1
+|move|p1a: Gliscor|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14|
+|move|p2a: Jirachi|Flash Cannon|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|inactive|Bratt Pid has 135 seconds left.|
+|switch|p2a: Landorus|Landorus-Therian, M|64/100 tox
+|-damage|p2a: Landorus|52/100 tox|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Crunch|p2a: Landorus
+|-damage|p2a: Landorus|30/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|36/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|30/100 tox|[from] psn
+|upkeep
+|turn|16|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|78/100|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|71/100|[from] sandstorm
+|-damage|p2a: Tentacruel|82/100|[from] sandstorm
+|-heal|p1a: Gengar|78/100|[from] item: Black Sludge
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|17|
+|move|p1a: Gengar|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|33/100
+|-status|p2a: Tentacruel|par
+|move|p2a: Tentacruel|Scald|p1a: Gengar
+|-damage|p1a: Gengar|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|35/100|[from] sandstorm
+|-damage|p2a: Tentacruel|27/100 par|[from] sandstorm
+|-heal|p1a: Gengar|41/100|[from] item: Black Sludge
+|-heal|p2a: Tentacruel|33/100 par|[from] item: Black Sludge
+|upkeep
+|turn|18|
+|move|p1a: Gengar|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|35/100|[from] sandstorm
+|-heal|p1a: Gengar|41/100|[from] item: Black Sludge
+|upkeep|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|19|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|88/100|[from] Spikes
+|-damage|p1a: Breloom|82/100|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|33/100
+|-status|p1a: Breloom|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Breloom|21/100 brn|[from] brn
+|upkeep
+|turn|20|
+|move|p1a: Breloom|Mach Punch|p2a: Politoed
+|-damage|p2a: Politoed|56/100
+|move|p2a: Politoed|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep|
+|switch|p1a: Tyranitar|Tyranitar, F|76/100
+|-damage|p1a: Tyranitar|64/100|[from] Spikes
+|-damage|p1a: Tyranitar|51/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|21|
+|switch|p2a: Ferrothorn|Ferrothorn, F|78/100
+|-damage|p2a: Ferrothorn|72/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100
+|-damage|p1a: Tyranitar|39/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|22|
+|switch|p1a: Reuniclus|Reuniclus, F|69/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Reuniclus
+|-damage|p1a: Reuniclus|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|23|
+|switch|p2a: Jirachi|Jirachi|94/100
+|-damage|p2a: Jirachi|88/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|24|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Reuniclus|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|25|
+|move|p2a: Jirachi|Flash Cannon|p1a: Reuniclus
+|-damage|p1a: Reuniclus|42/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|74/100|[from] item: Leftovers
+|upkeep
+|turn|26|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|80/100|[from] item: Leftovers
+|upkeep
+|turn|27|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|28|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|29|
+|move|p2a: Jirachi|Flash Cannon|p1a: Reuniclus
+|-damage|p1a: Reuniclus|52/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|98/100|[from] item: Leftovers
+|upkeep
+|turn|30|
+|move|p2a: Jirachi|Flash Cannon|p1a: Reuniclus
+|-damage|p1a: Reuniclus|21/100
+|-unboost|p1a: Reuniclus|spd|1
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|31|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32|
+|move|p2a: Jirachi|Flash Cannon|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep|
+|switch|p1a: Gengar|Gengar, F|41/100
+|-damage|p1a: Gengar|28/100|[from] Stealth Rock
+|turn|33|
+|move|p1a: Gengar|Destiny Bond|p1a: Gengar
+|-singlemove|p1a: Gengar|Destiny Bond
+|move|p2a: Jirachi|Flash Cannon|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|-activate|p1a: Gengar|move: Destiny Bond
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep|
+|switch|p1a: Tyranitar|Tyranitar, F|39/100
+|switch|p2a: Landorus|Landorus-Therian, M|30/100 tox
+|-damage|p1a: Tyranitar|27/100|[from] Spikes
+|-damage|p1a: Tyranitar|14/100|[from] Stealth Rock
+|-damage|p2a: Landorus|18/100 tox|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|34|
+|move|p1a: Tyranitar|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep|
+|switch|p2a: Ferrothorn|Ferrothorn, F|71/100
+|-damage|p2a: Ferrothorn|65/100|[from] Stealth Rock
+|turn|35|
+|move|p1a: Tyranitar|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|-damage|p1a: Tyranitar|2/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|Bratt Pid
+|raw|LarvitarFan's rating: 1335 &rarr; <strong>1314</strong><br />(-21 for losing)
+|raw|Bratt Pid's rating: 1312 &rarr; <strong>1334</strong><br />(+22 for winning)

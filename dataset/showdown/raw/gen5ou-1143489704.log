@@ -1,0 +1,322 @@
+|j|☆Panini maker
+|j|☆RS Chubba Bump
+|player|p1|Panini maker|102|1356
+|player|p2|RS Chubba Bump|scientist-gen4dp|1454
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Mamoswine, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Salamence, M|item
+|poke|p1|Magnezone|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Dragonite, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RS Chubba Bump)
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|1
+|
+|move|p2a: Smeargle|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: Panini maker|move: Stealth Rock
+|move|p1a: Mamoswine|Stealth Rock|p2a: Smeargle
+|-sidestart|p2: RS Chubba Bump|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Smeargle|Spikes|p1a: Mamoswine
+|-sidestart|p1: Panini maker|Spikes
+|move|p1a: Mamoswine|Earthquake|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|inactive|RS Chubba Bump has 120 seconds left.
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: Mamoswine|Endeavor|p2a: Scizor
+|-immune|p2a: Scizor
+|move|p2a: Scizor|U-turn|p1a: Mamoswine
+|-damage|p1a: Mamoswine|61/100
+|inactive|RS Chubba Bump has 120 seconds left.
+|
+|switch|p2a: Gengar|Gengar, M|100/100|[from]move: U-turn
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Gengar|94/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Spikes
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|70/100
+|
+|-heal|p2a: Gengar|76/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|move|p2a: Gengar|Disable|p1a: Scizor
+|-start|p1a: Scizor|Disable|Bullet Punch
+|
+|-heal|p2a: Gengar|82/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|57/100
+|
+|-heal|p2a: Gengar|63/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p1a: Salamence|Outrage|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|move|p2a: Gengar|Shadow Ball|p1a: Salamence
+|-damage|p1a: Salamence|17/100
+|
+|-heal|p2a: Gengar|69/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Scizor|Scizor, F|88/100
+|-damage|p2a: Scizor|75/100|[from] Stealth Rock
+|move|p1a: Salamence|Outrage|p2a: Scizor|[from]lockedmove
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|40/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Salamence|Outrage|p2a: Scizor|[from]lockedmove
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|7/100
+|-start|p1a: Salamence|confusion|[fatigue]
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|57/100
+|-singleturn|p2a: Scizor|move: Roost
+|
+|upkeep
+|turn|11
+|
+|-activate|p1a: Salamence|confusion
+|-damage|p1a: Salamence|0 fnt|[from] confusion
+|faint|p1a: Salamence
+|move|p2a: Scizor|U-turn|p1: Salamence|[notarget]
+|-fail|p2a: Scizor
+|
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|-damage|p1a: Magnezone|82/100|[from] Spikes
+|turn|12
+|c|☆Panini maker|galaxy brained play
+|
+|move|p1a: Magnezone|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Scizor|Scizor, F|76/100
+|-damage|p1a: Scizor|64/100|[from] Spikes
+|-damage|p1a: Scizor|51/100|[from] Stealth Rock
+|move|p2a: Terrakion|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|14
+|inactive|RS Chubba Bump has 120 seconds left.
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|75/100|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Dragonite
+|
+|upkeep
+|inactive|RS Chubba Bump has 120 seconds left.
+|
+|switch|p2a: Terrakion|Terrakion|94/100
+|-damage|p2a: Terrakion|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Mamoswine|Mamoswine, M|61/100
+|-damage|p1a: Mamoswine|48/100|[from] Stealth Rock
+|-damage|p1a: Mamoswine|36/100|[from] Spikes
+|move|p2a: Terrakion|Stone Edge|p1a: Mamoswine|[miss]
+|-miss|p2a: Terrakion|p1a: Mamoswine
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Mamoswine|[miss]
+|-miss|p2a: Terrakion|p1a: Mamoswine
+|move|p1a: Mamoswine|Endeavor|p2a: Terrakion
+|-damage|p2a: Terrakion|40/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Terrakion
+|-damage|p2a: Terrakion|14/100
+|move|p2a: Terrakion|Stone Edge|p1a: Mamoswine|[miss]
+|-miss|p2a: Terrakion|p1a: Mamoswine
+|
+|upkeep
+|turn|18
+|c|☆RS Chubba Bump|:(
+|
+|switch|p2a: Rotom-W|Rotom-Wash|100/100
+|-damage|p2a: Rotom-W|88/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Ice Shard|p2a: Rotom-W
+|-resisted|p2a: Rotom-W
+|-damage|p2a: Rotom-W|72/100
+|
+|upkeep
+|turn|19
+|c|☆Panini maker|im sorry
+|
+|move|p2a: Rotom-W|Hydro Pump|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|j| Rs ninja
+|
+|switch|p1a: Magnezone|Magnezone|82/100
+|-damage|p1a: Magnezone|76/100|[from] Stealth Rock
+|-damage|p1a: Magnezone|64/100|[from] Spikes
+|turn|20
+|c| Rs ninja|Sup
+|
+|move|p2a: Rotom-W|Hydro Pump|p1a: Magnezone|[miss]
+|-miss|p2a: Rotom-W|p1a: Magnezone
+|move|p1a: Magnezone|Thunderbolt|p2a: Rotom-W
+|-damage|p2a: Rotom-W|0 fnt
+|faint|p2a: Rotom-W
+|
+|upkeep
+|c|☆RS Chubba Bump|:(
+|
+|switch|p2a: Gengar|Gengar, M|69/100
+|-damage|p2a: Gengar|57/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|32/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-heal|p2a: Gengar|38/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|l| Rs ninja
+|j| Ninja to first
+|
+|move|p2a: Gengar|Focus Blast|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-heal|p2a: Gengar|44/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-damage|p1a: Kyurem|63/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|turn|23
+|
+|move|p2a: Gengar|Focus Blast|p1a: Kyurem|[miss]
+|-miss|p2a: Gengar|p1a: Kyurem
+|move|p1a: Kyurem|Outrage|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|c|☆RS Chubba Bump|....
+|
+|switch|p2a: Terrakion|Terrakion|14/100
+|-damage|p2a: Terrakion|8/100|[from] Stealth Rock
+|turn|24
+|c|☆Panini maker|i feel bad im sorry
+|inactive|Panini maker has 120 seconds left.
+|c|☆Panini maker|im really sorry
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Latios|Psychic|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|win|Panini maker
+|l|☆RS Chubba Bump
+|raw|Panini maker's rating: 1356 &rarr; <strong>1382</strong><br />(+26 for winning)
+|raw|RS Chubba Bump's rating: 1454 &rarr; <strong>1429</strong><br />(-25 for losing)

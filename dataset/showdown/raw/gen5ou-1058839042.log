@@ -1,0 +1,377 @@
+|j|☆blackkaiser
+|j|‽Meileen
+|player|p1|blackkaiser|101|1509
+|player|p2|Meileen|dahlia|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Azelf|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Keldeo|item
+|poke|p2|Jirachi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Meileen)
+|
+|start
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Latios
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Azelf
+|-enditem|p2a: Azelf|Focus Sash
+|-damage|p2a: Azelf|1/100
+|-unboost|p1a: Latios|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Azelf|Psychic|p1a: Hippowdon
+|-damage|p1a: Hippowdon|48/100
+|-unboost|p1a: Hippowdon|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|0 fnt|[from] Sandstorm
+|faint|p2a: Azelf
+|-heal|p1a: Hippowdon|54/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|3
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Breloom|Low Sweep|p1a: Latios
+|-resisted|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-damage|p1a: Garchomp|85/100|[from] item: Life Orb
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p2a: Latios|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|32/100
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Latios
+|-status|p2a: Latios|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|89/100 par|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|cant|p2a: Latios|par
+|move|p1a: Ferrothorn|Spikes|p2a: Latios
+|-sidestart|p2: Meileen|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|83/100 par|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p2a: Latios|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|77/100 par|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Scizor|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|switch|p1a: Hippowdon|Hippowdon, F|54/100|[from]move: U-turn
+|-damage|p1a: Hippowdon|48/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|54/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|88/100|[from] Spikes
+|turn|10
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|82/100|[from] Sandstorm
+|-damage|p1a: Jellicent|51/100|[from] Sandstorm
+|-heal|p1a: Jellicent|57/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|25/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|76/100|[from] Sandstorm
+|-damage|p1a: Jellicent|69/100|[from] Sandstorm
+|-heal|p1a: Jellicent|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|42/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Keldeo|[miss]
+|-miss|p1a: Jellicent|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|70/100|[from] Sandstorm
+|-damage|p1a: Jellicent|36/100|[from] Sandstorm
+|-heal|p1a: Jellicent|42/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|10/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|63/100|[from] Sandstorm
+|-damage|p1a: Jellicent|54/100|[from] Sandstorm
+|-heal|p1a: Jellicent|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|32/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|57/100|[from] Sandstorm
+|-damage|p1a: Jellicent|75/100|[from] Sandstorm
+|-heal|p1a: Jellicent|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|49/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|51/100|[from] Sandstorm
+|-damage|p1a: Jellicent|93/100|[from] Sandstorm
+|-heal|p1a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|67/100
+|move|p1a: Jellicent|Shadow Ball|p2a: Keldeo
+|-damage|p2a: Keldeo|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|16/100|[from] Sandstorm
+|-damage|p1a: Jellicent|61/100|[from] Sandstorm
+|-heal|p1a: Jellicent|67/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Jellicent|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Hippowdon|Hippowdon, F|54/100
+|-damage|p1a: Hippowdon|48/100|[from] Stealth Rock
+|move|p2a: Gliscor|Acrobatics|p1a: Hippowdon
+|-enditem|p2a: Gliscor|Flying Gem|[from] gem
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|move|p1a: Scizor|Bullet Punch|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Jirachi|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|79/100
+|
+|switch|p2a: Gliscor|Gliscor, M|22/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|72/100|[from] Sandstorm
+|-heal|p1a: Jellicent|79/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Jellicent
+|-damage|p1a: Jellicent|21/100
+|move|p1a: Jellicent|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|14/100|[from] Sandstorm
+|-heal|p1a: Jellicent|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|16/100
+|-damage|p2a: Keldeo|3/100|[from] Spikes
+|turn|23
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|0 fnt|[from] Sandstorm
+|faint|p2a: Keldeo
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|64/100
+|switch|p1a: Garchomp|Garchomp, M|85/100
+|-damage|p2a: Jirachi|52/100|[from] Spikes
+|-damage|p1a: Garchomp|78/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Jirachi|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|49/100
+|-damage|p2a: Jirachi|40/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|cant|p1a: Garchomp|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Jirachi|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|22/100
+|-damage|p2a: Jirachi|27/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|cant|p1a: Garchomp|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Jirachi|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Jirachi|15/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|76/100
+|-damage|p1a: Scizor|64/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|win|blackkaiser
+|raw|blackkaiser's rating: 1514 &rarr; <strong>1525</strong><br />(+11 for winning)
+|raw|Meileen's rating: 1356 &rarr; <strong>1344</strong><br />(-12 for losing)
+|l|‽Meileen

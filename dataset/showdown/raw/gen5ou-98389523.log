@@ -1,0 +1,282 @@
+|join|Starmaster
+|join|AbOvo
+|player|p1|Starmaster|101
+|player|p2|AbOvo|170
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Garchomp, F
+|poke|p1|Latias, F
+|poke|p1|Scizor, M
+|poke|p1|Rotom-Wash
+|poke|p1|Tyranitar, F
+|poke|p1|Keldeo
+|poke|p2|Politoed, M
+|poke|p2|Scizor, M
+|poke|p2|Latios, M
+|poke|p2|Ferrothorn, F
+|poke|p2|Donphan, M
+|poke|p2|Rotom-Wash
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|AbOvo|gl hf
+|
+|start
+|switch|p1a: Volt|Rotom-Wash|295/295
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|chat|Starmaster|same
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Volt|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|322/352
+|
+|switch|p1a: Fucking Dugtrio|Tyranitar, F|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Fucking Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|turn|2
+|
+|move|p1a: Fucking Dugtrio|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/352
+|move|p2a: Ferrothorn|Leech Seed|p1a: Fucking Dugtrio
+|-start|p1a: Fucking Dugtrio|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fucking Dugtrio|354/404|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|108/352|[silent]
+|turn|3
+|
+|switch|p1a: NO SAND VEIL ;~;|Garchomp, F|357/357
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|turn|4
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: NO SAND VEIL ;~;|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|turn|5
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: NO SAND VEIL ;~;|Swords Dance|p1a: NO SAND VEIL ;~;
+|-boost|p1a: NO SAND VEIL ;~;|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: NO SAND VEIL ;~;|Earthquake|p2a: Politoed
+|-activate|p2a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Donphan|Donphan, M|384/384
+|move|p1a: NO SAND VEIL ;~;|Outrage|p2a: Donphan
+|-enditem|p1a: NO SAND VEIL ;~;|Dragon Gem|[from] gem|[move] Outrage
+|-crit|p2a: Donphan
+|-activate|p2a: Donphan|Sturdy
+|-damage|p2a: Donphan|1/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|25/384|[from] item: Leftovers
+|turn|8
+|chat|Starmaster|protect happy
+|chat|Starmaster|lol
+|
+|move|p2a: Donphan|Ice Shard|p1a: NO SAND VEIL ;~;
+|-supereffective|p1a: NO SAND VEIL ;~;
+|-damage|p1a: NO SAND VEIL ;~;|205/357
+|move|p1a: NO SAND VEIL ;~;|Outrage|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-end|p1a: NO SAND VEIL ;~;|rampage
+|-start|p1a: NO SAND VEIL ;~;|confusion
+|-weather|RainDance|[upkeep]
+|chat|Starmaster|welp
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|108/352
+|turn|9
+|
+|-activate|p1a: NO SAND VEIL ;~;|confusion
+|move|p1a: NO SAND VEIL ;~;|Earthquake|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Latios|Latios, M|302/302
+|turn|10
+|
+|switch|p1a: Fucking Dugtrio|Tyranitar, F|354/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Fucking Dugtrio
+|move|p2a: Latios|Draco Meteor|p1a: Fucking Dugtrio
+|-damage|p1a: Fucking Dugtrio|189/404
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|284/302|[from] sandstorm
+|turn|11
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|242/242
+|move|p1a: Fucking Dugtrio|Crunch|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|128/242
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|113/242|[from] sandstorm
+|turn|12
+|
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Fucking Dugtrio|[miss]
+|-miss|p2a: Rotom-Wash|p1a: Fucking Dugtrio
+|move|p1a: Fucking Dugtrio|Crunch|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|0 fnt
+|faint|p2a: Rotom-Wash
+|
+|-weather|Sandstorm|[upkeep]
+|chat|Starmaster|hmm
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|13
+|chat|Starmaster|I'm max sp def
+|chat|Starmaster|not sure if I would survive
+|chat|AbOvo|wow
+|chat|AbOvo|such sp def
+|chat|AbOvo|such scare
+|chat|AbOvo|such scald
+|
+|switch|p1a: Volt|Rotom-Wash|295/295
+|move|p2a: Politoed|Scald|p1a: Volt
+|-resisted|p1a: Volt
+|-damage|p1a: Volt|247/295
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p2a: Scizor|Scizor, M|343/343
+|move|p1a: Volt|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|235/343
+|
+|switch|p1a: This thing again|Keldeo|323/323
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|move|p1a: This thing again|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Latios|Latios, M|284/302
+|turn|16
+|
+|switch|p1a: Turn|Scizor, M|282/282
+|move|p2a: Latios|Psyshock|p1a: Turn
+|-resisted|p1a: Turn
+|-damage|p1a: Turn|174/282
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|move|p1a: Turn|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|209/384
+|
+|switch|p1a: Volt|Rotom-Wash|247/295
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|233/384|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Volt|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|69/384
+|
+|switch|p1a: This thing again|Keldeo|323/323
+|move|p2a: Politoed|Toxic|p1a: This thing again
+|-status|p1a: This thing again|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|93/384|[from] item: Leftovers
+|-damage|p1a: This thing again|303/323 tox|[from] psn
+|turn|19
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: This thing again|Secret Sword|p2a: Politoed
+|-activate|p2a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|117/384|[from] item: Leftovers
+|-damage|p1a: This thing again|263/323 tox|[from] psn
+|turn|20
+|
+|move|p1a: This thing again|Secret Sword|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: This thing again|203/323 tox|[from] psn
+|
+|switch|p2a: Latios|Latios, M|284/302
+|turn|21
+|
+|switch|p1a: Fucking Dugtrio|Tyranitar, F|189/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Fucking Dugtrio
+|move|p2a: Latios|Surf|p1a: Fucking Dugtrio
+|-supereffective|p1a: Fucking Dugtrio
+|-damage|p1a: Fucking Dugtrio|29/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|266/302|[from] sandstorm
+|turn|22
+|
+|switch|p1a: Jet|Latias, F|319/319
+|move|p2a: Latios|Surf|p1a: Jet
+|-resisted|p1a: Jet
+|-damage|p1a: Jet|256/319
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|248/302|[from] sandstorm
+|-damage|p1a: Jet|237/319|[from] sandstorm
+|turn|23
+|
+|move|p2a: Latios|Surf|p1a: Jet
+|-resisted|p1a: Jet
+|-damage|p1a: Jet|175/319
+|move|p1a: Jet|Draco Meteor|p2a: Latios
+|-crit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-unboost|p1a: Jet|spa|2
+|-damage|p1a: Jet|144/319|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|win|Starmaster
+|raw|Ladder updating...
+|raw|Starmaster's rating: 1359 &rarr; <strong>1377</strong><br />(+18 for winning)
+|raw|AbOvo's rating: 1326 &rarr; <strong>1308</strong><br />(-18 for losing)
+|chat|Starmaster|gg
+|chat|AbOvo|gg

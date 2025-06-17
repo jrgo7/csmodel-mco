@@ -1,0 +1,412 @@
+|j|Dragon Lords1
+|j|dberman1
+|player|p1|Dragon Lords1|53
+|player|p2|dberman1|170
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|45717,26748,42031,53680
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Breloom, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Jirachi|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Latios|Latios, M|301/301
+|switch|p2a: Rotom|Rotom-Wash|299/299
+|turn|1
+|choice|move dracometeor|switch 4
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|move|p1a: Latios|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|258/404
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Jirachi|283/404|[from] item: Leftovers
+|turn|2
+|choice|switch 4|move bodyslam
+|
+|switch|p1a: Scizor|Scizor, F|343/343
+|move|p2a: Jirachi|Body Slam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|311/343
+|-status|p1a: Scizor|par
+|
+|-heal|p2a: Jirachi|308/404|[from] item: Leftovers
+|turn|3
+|choice|move uturn|move uturn
+|
+|move|p2a: Jirachi|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|285/343 par
+|choice||switch 2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|369/369
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|315/369
+|choice|switch 4|
+|
+|switch|p1a: Latios|Latios, M|301/301
+|
+|-heal|p2a: Landorus|338/369|[from] item: Leftovers
+|turn|4
+|choice|move surf|switch 2
+|
+|switch|p2a: Jirachi|Jirachi|308/404
+|move|p1a: Latios|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|184/404
+|
+|-heal|p2a: Jirachi|209/404|[from] item: Leftovers
+|turn|5
+|choice|move surf|move wish
+|
+|move|p1a: Latios|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|89/404
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|114/404|[from] item: Leftovers
+|turn|6
+|choice|move surf|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|299/299
+|move|p1a: Latios|Surf|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|213/299
+|
+|-heal|p2a: Rotom|299/299|[from] move: Wish|[wisher] Jirachi
+|turn|7
+|choice|switch 5|move willowisp
+|
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|move|p2a: Rotom|Will-O-Wisp|p1a: Garchomp|[miss]
+|-miss|p2a: Rotom|p1a: Garchomp
+|
+|turn|8
+|choice|move substitute|move willowisp
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|268/357
+|move|p2a: Rotom|Will-O-Wisp|p1a: Garchomp
+|-fail|p1a: Garchomp
+|
+|turn|9
+|choice|move swordsdance|move hydropump
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Rotom|Hydro Pump|p1a: Garchomp|[miss]
+|-miss|p2a: Rotom|p1a: Garchomp
+|
+|turn|10
+|choice|move outrage|move hydropump
+|
+|move|p1a: Garchomp|Outrage|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|choice||switch 6
+|
+|switch|p2a: Scizor|Scizor, F|343/343
+|turn|11
+|choice|move outrage|move uturn
+|
+|move|p1a: Garchomp|Outrage|p2a: Scizor|[from]lockedmove
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|133/343
+|-start|p1a: Garchomp|confusion|[fatigue]
+|move|p2a: Scizor|U-turn|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|choice||switch 2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|338/369
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|
+|-heal|p2a: Landorus|361/369|[from] item: Leftovers
+|turn|12
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Latios|Latios, M|301/301
+|move|p2a: Landorus|Stealth Rock|p1a: Latios
+|-sidestart|p1: Dragon Lords1|move: Stealth Rock
+|
+|-heal|p2a: Landorus|369/369|[from] item: Leftovers
+|turn|13
+|choice|move dracometeor|switch 4
+|
+|switch|p2a: Jirachi|Jirachi|114/404
+|move|p1a: Latios|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Jirachi
+|
+|choice||switch 2
+|
+|switch|p2a: Scizor|Scizor, F|133/343
+|turn|14
+|choice|move dracometeor|move pursuit
+|
+|move|p1a: Latios|Draco Meteor|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|17/343
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Scizor|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|choice|switch 6|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|393/393
+|-damage|p1a: Tyranitar|344/393|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|369/369
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Stealth Rock|p2a: Landorus
+|-sidestart|p2: dberman1|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|16
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Garchomp|Garchomp, M|268/357
+|-damage|p1a: Garchomp|246/357|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|choice|switch 3|
+|
+|switch|p1a: Breloom|Breloom, M|261/261
+|-damage|p1a: Breloom|245/261|[from] Stealth Rock
+|turn|17
+|choice|move spore|switch 4
+|
+|switch|p2a: Scizor|Scizor, F|17/343
+|-damage|p2a: Scizor|0 fnt|[from] Stealth Rock
+|faint|p2a: Scizor
+|move|p1a: Breloom|Spore|p2: Scizor|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|229/261|[from] Sandstorm
+|choice||switch 5
+|
+|switch|p2a: Latios|Latios, M|301/301
+|-damage|p2a: Latios|264/301|[from] Stealth Rock
+|turn|18
+|choice|switch 5|switch 4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|369/369
+|-damage|p2a: Landorus|323/369|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|switch|p1a: Tyranitar|Tyranitar, M|344/393
+|-damage|p1a: Tyranitar|295/393|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|346/369|[from] item: Leftovers
+|turn|19
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Breloom|Breloom, M|229/261
+|-damage|p1a: Breloom|213/261|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|101/261
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|85/261|[from] Sandstorm
+|-heal|p2a: Landorus|369/369|[from] item: Leftovers
+|turn|20
+|choice|move spore|switch 4
+|
+|switch|p2a: Latios|Latios, M|264/301
+|-damage|p2a: Latios|227/301|[from] Stealth Rock
+|move|p1a: Breloom|Spore|p2a: Latios
+|-status|p2a: Latios|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|209/301 slp|[from] Sandstorm
+|-damage|p1a: Breloom|69/261|[from] Sandstorm
+|turn|21
+|choice|move bulletseed|switch 4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|369/369
+|-damage|p2a: Landorus|323/369|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Bullet Seed|p2a: Landorus
+|-damage|p2a: Landorus|283/369
+|-damage|p2a: Landorus|238/369
+|-hitcount|p2a: Landorus|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|53/261|[from] Sandstorm
+|-heal|p2a: Landorus|261/369|[from] item: Leftovers
+|turn|22
+|choice|switch 5|move hiddenpower
+|
+|switch|p1a: Tyranitar|Tyranitar, M|295/393
+|-damage|p1a: Tyranitar|246/393|[from] Stealth Rock
+|move|p2a: Landorus|Hidden Power|p1a: Tyranitar
+|-damage|p1a: Tyranitar|213/393
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|284/369|[from] item: Leftovers
+|turn|23
+|choice|move fireblast|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|307/369|[from] item: Leftovers
+|choice|switch 2|
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|-damage|p1a: Keldeo|303/323|[from] Stealth Rock
+|turn|24
+|choice|move surf|switch 4
+|
+|switch|p2a: Latios|Latios, M|209/301 slp
+|-damage|p2a: Latios|172/301 slp|[from] Stealth Rock
+|move|p1a: Keldeo|Surf|p2a: Latios
+|-resisted|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|25/301 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|283/323|[from] Sandstorm
+|-damage|p2a: Latios|7/301 slp|[from] Sandstorm
+|turn|25
+|choice|move surf|move psyshock
+|
+|move|p1a: Keldeo|Surf|p2a: Latios
+|-resisted|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|263/323|[from] Sandstorm
+|choice||switch 3
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|-damage|p2a: Keldeo|303/323|[from] Stealth Rock
+|turn|26
+|choice|move surf|move secretsword
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Keldeo
+|-damage|p1a: Keldeo|109/323
+|move|p1a: Keldeo|Surf|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|112/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|92/323|[from] Sandstorm
+|-damage|p1a: Keldeo|89/323|[from] Sandstorm
+|turn|27
+|choice|switch 4|switch 4
+|
+|switch|p1a: Scizor|Scizor, F|285/343 par
+|-damage|p1a: Scizor|243/343 par|[from] Stealth Rock
+|switch|p2a: Landorus|Landorus-Therian, M|307/369
+|-damage|p2a: Landorus|261/369|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|284/369|[from] item: Leftovers
+|turn|28
+|choice|move bulletpunch|move earthquake
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|181/369
+|move|p2a: Landorus|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|60/343 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|204/369|[from] item: Leftovers
+|turn|29
+|choice|move bulletpunch|move earthquake
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|101/369
+|move|p2a: Landorus|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|124/369|[from] item: Leftovers
+|choice|switch 4|
+|
+|switch|p1a: Keldeo|Keldeo|89/323
+|-damage|p1a: Keldeo|69/323|[from] Stealth Rock
+|turn|30
+|choice|move surf|move earthquake
+|
+|move|p1a: Keldeo|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|49/323|[from] Sandstorm
+|choice||switch 4
+|
+|switch|p2a: Keldeo|Keldeo|92/323
+|-damage|p2a: Keldeo|72/323|[from] Stealth Rock
+|turn|31
+|choice|move surf|move secretsword
+|
+|move|p1a: Keldeo|Surf|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|win|Dragon Lords1
+|player|p1
+|player|p2
+|raw|Dragon Lords1's rating: 1318 &rarr; <strong>1344</strong><br />(+26 for winning)
+|raw|dberman1's rating: 1411 &rarr; <strong>1386</strong><br />(-25 for losing)
+|l|dberman1

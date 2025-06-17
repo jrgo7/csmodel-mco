@@ -1,0 +1,255 @@
+|j|☆TheRareCandyDealer
+|j|☆Pythagorean Python
+|player|p1|TheRareCandyDealer|dragontamer|1435
+|player|p2|Pythagorean Python|159|1338
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Zoroark, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Sharpedo, F|item
+|poke|p1|Gyarados, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Jellicent, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Sharpedo|Sharpedo, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sharpedo|atk|1
+|turn|1
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Landorus|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|83/100
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|12/100
+|move|p2a: Thundurus|Hidden Power|p1a: Excadrill
+|-damage|p1a: Excadrill|21/100
+|
+|-heal|p2a: Thundurus|18/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Excadrill|Rock Slide|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|88/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: Pythagorean Python|move: Stealth Rock
+|move|p2a: Conkeldurr|Drain Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-heal|p2a: Conkeldurr|97/100|[from] drain|[of] p1a: Excadrill
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|6
+|
+|move|p1a: Jirachi|Iron Head|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|73/100
+|cant|p2a: Conkeldurr|flinch
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Jirachi|Iron Head|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|49/100
+|cant|p2a: Conkeldurr|flinch
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Jirachi|Iron Head|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|27/100
+|cant|p2a: Conkeldurr|flinch
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|Iron Head|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|3/100
+|cant|p2a: Conkeldurr|flinch
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Jirachi
+|-damage|p1a: Jirachi|70/100
+|move|p1a: Jirachi|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|turn|11
+|
+|move|p2a: Landorus|Stone Edge|p1a: Volcarona
+|-damage|p1a: Volcarona|29/100
+|replace|p1a: Zoroark|Zoroark, M
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Night Daze|p2a: Landorus
+|-damage|p2a: Landorus|16/100
+|-damage|p1a: Zoroark|19/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|18/100
+|-damage|p2a: Thundurus|0 fnt|[from] Stealth Rock
+|faint|p2a: Thundurus
+|move|p1a: Zoroark|Sucker Punch|p2: Thundurus|[notarget]
+|-fail|p1a: Zoroark
+|
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|turn|13
+|
+|move|p1a: Zoroark|Night Daze|p2a: Kyurem
+|-damage|p2a: Kyurem|26/100
+|-damage|p1a: Zoroark|9/100|[from] item: Life Orb
+|move|p2a: Kyurem|Dragon Claw|p1a: Zoroark
+|-crit|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|70/100
+|turn|14
+|
+|move|p1a: Jirachi|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|16/100
+|-damage|p2a: Landorus|4/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|15
+|
+|switch|p1a: Gyarados|Gyarados, M|83/100
+|move|p2a: Landorus|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Gyarados|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|49/100
+|
+|-heal|p2a: Jellicent|55/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Gyarados
+|-status|p1a: Gyarados|brn
+|-enditem|p1a: Gyarados|Lum Berry|[eat]
+|-curestatus|p1a: Gyarados|brn|[msg]
+|
+|-heal|p2a: Jellicent|62/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Gyarados|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|8/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Gyarados
+|-status|p1a: Gyarados|brn
+|
+|-heal|p2a: Jellicent|14/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|71/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Gyarados|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-damage|p1a: Gyarados|58/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|20
+|
+|move|p1a: Gyarados|Waterfall|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-damage|p1a: Gyarados|46/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|4/100
+|-damage|p2a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p2a: Landorus
+|
+|win|TheRareCandyDealer
+|c|☆TheRareCandyDealer|gg
+|l|☆Pythagorean Python
+|raw|TheRareCandyDealer's rating: 1435 &rarr; <strong>1449</strong><br />(+14 for winning)
+|raw|Pythagorean Python's rating: 1339 &rarr; <strong>1324</strong><br />(-15 for losing)

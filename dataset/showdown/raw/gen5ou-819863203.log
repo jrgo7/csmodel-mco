@@ -1,0 +1,630 @@
+|j|☆porrompompom
+|j|☆RawrMX
+|player|p1|porrompompom|10
+|player|p2|RawrMX|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Mienshao, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Xatu, M|item
+|poke|p2|Shaymin|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Alakazam, M|item
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Ghul|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ghul|[miss]
+|-miss|p1a: Rotom|p2a: Ghul
+|move|p2a: Ghul|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|82/100
+|
+|switch|p2a: Shaymnin|Shaymin|100/100
+|
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Shaymnin|Seed Flare|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|83/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Efrit|Landorus-Therian, M|100/100
+|-ability|p2a: Efrit|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|switch|p1a: Latios|Latios, M|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Marid|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Marid
+|move|p1a: Latios|Surf|p2a: Marid
+|-supereffective|p2a: Marid
+|-crit|p2a: Marid
+|-damage|p2a: Marid|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p2a: Marid|29/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Ghul|Rotom-Wash|100/100
+|move|p1a: Latios|Surf|p2a: Ghul
+|-resisted|p2a: Ghul
+|-damage|p2a: Ghul|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|-damage|p2a: Ghul|74/100|[from] Sandstorm
+|-heal|p2a: Ghul|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Wash|88/100
+|move|p2a: Ghul|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|66/100
+|
+|switch|p2a: Shaymnin|Shaymin|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shaymnin|94/100|[from] Sandstorm
+|-damage|p1a: Rotom|60/100|[from] Sandstorm
+|-heal|p2a: Shaymnin|100/100|[from] item: Leftovers
+|-heal|p1a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Scizor|Scizor, F|83/100
+|move|p2a: Shaymnin|Seed Flare|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shaymnin|94/100|[from] Sandstorm
+|-heal|p2a: Shaymnin|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Efrit|Landorus-Therian, M|100/100
+|-ability|p2a: Efrit|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Efrit
+|-resisted|p2a: Efrit
+|-crit|p2a: Efrit
+|-damage|p2a: Efrit|56/100
+|
+|switch|p1a: Latios|Latios, M|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|83/100|[from] Sandstorm
+|-heal|p2a: Efrit|63/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Helmaroc|Skarmory, M|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Helmaroc
+|-resisted|p2a: Helmaroc
+|-damage|p2a: Helmaroc|26/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|77/100|[from] Sandstorm
+|-heal|p2a: Helmaroc|33/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Wash|66/100
+|move|p2a: Helmaroc|Roost|p2a: Helmaroc
+|-heal|p2a: Helmaroc|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|60/100|[from] Sandstorm
+|-heal|p1a: Rotom|66/100|[from] item: Leftovers
+|-heal|p2a: Helmaroc|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Efrit|Landorus-Therian, M|63/100
+|-ability|p2a: Efrit|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|move|p1a: Rotom|Volt Switch|p2a: Efrit
+|-immune|p2a: Efrit|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|60/100|[from] Sandstorm
+|-heal|p2a: Efrit|69/100|[from] item: Leftovers
+|-heal|p1a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Efrit|Stealth Rock|p1a: Rotom
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Efrit
+|-immune|p2a: Efrit|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|60/100|[from] Sandstorm
+|-heal|p2a: Efrit|75/100|[from] item: Leftovers
+|-heal|p1a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Efrit|Smack Down|p1a: Rotom
+|-damage|p1a: Rotom|46/100
+|-start|p1a: Rotom|Smack Down
+|move|p1a: Rotom|Volt Switch|p2a: Efrit
+|-immune|p2a: Efrit|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|40/100|[from] Sandstorm
+|-heal|p2a: Efrit|81/100|[from] item: Leftovers
+|-heal|p1a: Rotom|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Efrit|atk|1
+|move|p2a: Efrit|Smack Down|p1a: Landorus
+|-damage|p1a: Landorus|79/100
+|-start|p1a: Landorus|Smack Down
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|85/100|[from] item: Leftovers
+|-heal|p2a: Efrit|87/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Wash|46/100
+|-damage|p1a: Rotom|34/100|[from] Stealth Rock
+|move|p2a: Efrit|U-turn|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|switch|p2a: Helmaroc|Skarmory, M|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Helmaroc|95/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|-damage|p1a: Xatu|76/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Ghul|Rotom-Wash|80/100
+|move|p1a: Xatu|Toxic|p2a: Ghul
+|-status|p2a: Ghul|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|70/100|[from] Sandstorm
+|-damage|p2a: Ghul|74/100 tox|[from] Sandstorm
+|-heal|p2a: Ghul|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Ghul|74/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Landorus|Landorus-Therian, M|85/100
+|-damage|p1a: Landorus|72/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ghul|atk|1
+|move|p2a: Ghul|Hydro Pump|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ghul|68/100 tox|[from] Sandstorm
+|-heal|p2a: Ghul|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Ghul|62/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Efrit|Landorus-Therian, M|87/100
+|-ability|p2a: Efrit|Intimidate|boost
+|-unboost|p1a: Mienshao|atk|1
+|move|p1a: Mienshao|Hidden Power|p2a: Efrit
+|-supereffective|p2a: Efrit
+|-damage|p2a: Efrit|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|89/100|[from] Sandstorm
+|-heal|p2a: Efrit|20/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Latios|Latios, M|77/100
+|-damage|p1a: Latios|64/100|[from] Stealth Rock
+|switch|p2a: Helmaroc|Skarmory, M|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|58/100|[from] Sandstorm
+|-heal|p2a: Helmaroc|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Latios|Trick|p2a: Helmaroc
+|-activate|p1a: Latios|move: Trick|[of] p2a: Helmaroc
+|-item|p2a: Helmaroc|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|move|p2a: Helmaroc|Roost|p2a: Helmaroc
+|-fail|p2a: Helmaroc
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|52/100|[from] Sandstorm
+|-heal|p1a: Latios|58/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|100/100
+|move|p2a: Helmaroc|Roost|p2a: Helmaroc
+|-fail|p2a: Helmaroc
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Latios|Surf|p2a: Helmaroc
+|-damage|p2a: Helmaroc|51/100
+|move|p2a: Helmaroc|Roost|p2a: Helmaroc
+|-heal|p2a: Helmaroc|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Latios|Surf|p2a: Helmaroc
+|-damage|p2a: Helmaroc|51/100
+|move|p2a: Helmaroc|Roost|p2a: Helmaroc
+|-heal|p2a: Helmaroc|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Shaymnin|Shaymin|100/100
+|move|p1a: Latios|Surf|p2a: Shaymnin
+|-resisted|p2a: Shaymnin
+|-damage|p2a: Shaymnin|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-damage|p2a: Shaymnin|80/100|[from] Sandstorm
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|-heal|p2a: Shaymnin|86/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Latios|Draco Meteor|p2a: Shaymnin
+|-damage|p2a: Shaymnin|20/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Shaymnin|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|48/100|[from] Sandstorm
+|-damage|p2a: Shaymnin|14/100|[from] Sandstorm
+|-heal|p1a: Latios|54/100|[from] item: Leftovers
+|-heal|p2a: Shaymnin|20/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|100/100
+|move|p2a: Shaymnin|Rest|p2a: Shaymnin
+|-status|p2a: Shaymnin|slp
+|-heal|p2a: Shaymnin|100/100 slp|[silent]
+|-status|p2a: Shaymnin|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-damage|p2a: Shaymnin|94/100 slp|[from] Sandstorm
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|-heal|p2a: Shaymnin|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Scizor|Scizor, F|66/100
+|-damage|p1a: Scizor|53/100|[from] Stealth Rock
+|switch|p2a: Marid|Tyranitar, M|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Marid|36/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Scizor|U-turn|p2a: Marid
+|-supereffective|p2a: Marid
+|-damage|p2a: Marid|0 fnt
+|faint|p2a: Marid
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Helmaroc|Skarmory, M|100/100
+|turn|29
+|
+|move|p1a: Mienshao|U-turn|p2a: Helmaroc
+|-resisted|p2a: Helmaroc
+|-damage|p2a: Helmaroc|97/100
+|
+|switch|p1a: Xatu|Xatu, M|70/100
+|-damage|p1a: Xatu|45/100|[from] Stealth Rock
+|move|p2a: Helmaroc|Counter|p1a: Xatu
+|-damage|p1a: Xatu|37/100
+|-damage|p2a: Helmaroc|80/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|31/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|switch|p2a: Ghul|Rotom-Wash|62/100 tox
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|76/100|[from] Sandstorm
+|-damage|p2a: Ghul|56/100 tox|[from] Sandstorm
+|-heal|p2a: Ghul|62/100 tox|[from] item: Leftovers
+|-damage|p2a: Ghul|56/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|100/100
+|move|p2a: Ghul|Volt Switch|p1a: Xatu
+|-damage|p1a: Xatu|67/100
+|
+|switch|p2a: Jinn|Alakazam, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|61/100|[from] Sandstorm
+|upkeep
+|turn|32
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|move|p2a: Jinn|Hidden Power|p1a: Mienshao
+|-damage|p1a: Mienshao|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|40/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|switch|p2a: Helmaroc|Skarmory, M|80/100
+|move|p1a: Mienshao|U-turn|p2a: Helmaroc
+|-resisted|p2a: Helmaroc
+|-crit|p2a: Helmaroc
+|-damage|p2a: Helmaroc|73/100
+|
+|switch|p1a: Xatu|Xatu, M|61/100
+|-damage|p1a: Xatu|36/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|30/100|[from] Sandstorm
+|upkeep
+|turn|34
+|
+|switch|p2a: Ghul|Rotom-Wash|56/100 tox
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|74/100|[from] Sandstorm
+|-damage|p2a: Ghul|50/100 tox|[from] Sandstorm
+|-heal|p2a: Ghul|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Ghul|50/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: Xatu|Heat Wave|p2a: Ghul
+|-resisted|p2a: Ghul
+|-crit|p2a: Ghul
+|-damage|p2a: Ghul|33/100 tox
+|move|p2a: Ghul|Volt Switch|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|switch|p2a: Efrit|Landorus-Therian, M|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Efrit|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Latios|Surf|p2a: Efrit
+|-supereffective|p2a: Efrit
+|-damage|p2a: Efrit|0 fnt
+|faint|p2a: Efrit
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|-heal|p1a: Latios|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Shaymnin|Shaymin|100/100
+|turn|37
+|
+|switch|p1a: Scizor|Scizor, F|53/100
+|-damage|p1a: Scizor|41/100|[from] Stealth Rock
+|move|p2a: Shaymnin|Hidden Power|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shaymnin|94/100|[from] Sandstorm
+|-heal|p2a: Shaymnin|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Helmaroc|Skarmory, M|73/100
+|move|p1a: Scizor|Superpower|p2a: Helmaroc
+|-damage|p2a: Helmaroc|34/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|39
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|move|p2a: Helmaroc|Roost|p2a: Helmaroc
+|-heal|p2a: Helmaroc|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|70/100|[from] Sandstorm
+|-heal|p1a: Latios|76/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Ghul|Rotom-Wash|33/100 tox
+|move|p1a: Latios|Surf|p2a: Ghul
+|-resisted|p2a: Ghul
+|-damage|p2a: Ghul|20/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|70/100|[from] Sandstorm
+|-damage|p2a: Ghul|14/100 tox|[from] Sandstorm
+|-heal|p1a: Latios|76/100|[from] item: Leftovers
+|-heal|p2a: Ghul|20/100 tox|[from] item: Leftovers
+|-damage|p2a: Ghul|14/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|move|p1a: Latios|Draco Meteor|p2a: Ghul|[miss]
+|-miss|p1a: Latios|p2a: Ghul
+|move|p2a: Ghul|Volt Switch|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|62/100
+|
+|switch|p2a: Jinn|Alakazam, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|56/100|[from] Sandstorm
+|-heal|p1a: Latios|62/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p1a: Scizor|Scizor, F|28/100
+|-damage|p1a: Scizor|16/100|[from] Stealth Rock
+|move|p2a: Jinn|Signal Beam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|43
+|
+|move|p2a: Jinn|Signal Beam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, F|73/100
+|-damage|p1a: Mienshao|67/100|[from] Stealth Rock
+|turn|44
+|
+|switch|p2a: Ghul|Rotom-Wash|14/100 tox
+|move|p1a: Mienshao|U-turn|p2a: Ghul
+|-damage|p2a: Ghul|0 fnt
+|faint|p2a: Ghul
+|
+|switch|p1a: Latios|Latios, M|62/100
+|-damage|p1a: Latios|50/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|44/100|[from] Sandstorm
+|-heal|p1a: Latios|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jinn|Alakazam, M|100/100
+|turn|45
+|
+|move|p2a: Jinn|Signal Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|46
+|
+|switch|p2a: Helmaroc|Skarmory, M|84/100
+|move|p1a: Mienshao|High Jump Kick|p2a: Helmaroc
+|-damage|p2a: Helmaroc|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienshao|89/100|[from] Sandstorm
+|upkeep
+|turn|47
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Helmaroc
+|-damage|p2a: Helmaroc|7/100
+|move|p2a: Helmaroc|Counter|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|win|RawrMX
+|raw|porrompompom's rating: 1496 &rarr; <strong>1466</strong><br />(-30 for losing)
+|raw|RawrMX's rating: 1294 &rarr; <strong>1332</strong><br />(+38 for winning)
+|l|☆porrompompom

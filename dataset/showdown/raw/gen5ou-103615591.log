@@ -1,0 +1,315 @@
+|j|☆HaxerAreBastards
+|j|☆Lancer MK
+|player|p1|HaxerAreBastards|249|1583
+|player|p2|Lancer MK|marlon|1312
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Infernape, F|item
+|poke|p1|Conkeldurr, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Reuniclus, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Xatu, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Scizor, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lancer MK)
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|switch|p2a: Minautope|Excadrill, M, shiny|100/100
+|-ability|p2a: Minautope|Mold Breaker
+|turn|1
+|
+|move|p2a: Minautope|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: HaxerAreBastards|move: Stealth Rock
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Minautope|Protect|p2a: Minautope
+|-singleturn|p2a: Minautope|Protect
+|move|p1a: Jellicent|Scald|p2a: Minautope
+|-activate|p2a: Minautope|move: Protect
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Jellicent|Scald|p2a: Minautope
+|-supereffective|p2a: Minautope
+|-damage|p2a: Minautope|10/100
+|move|p2a: Minautope|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|35/100
+|
+|-heal|p1a: Jellicent|41/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Minautope|Protect|p2a: Minautope
+|-singleturn|p2a: Minautope|Protect
+|move|p1a: Jellicent|Scald|p2a: Minautope
+|-activate|p2a: Minautope|move: Protect
+|
+|-heal|p1a: Jellicent|48/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Jellicent|Scald|p2a: Minautope
+|-supereffective|p2a: Minautope
+|-damage|p2a: Minautope|0 fnt
+|faint|p2a: Minautope
+|
+|-heal|p1a: Jellicent|54/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Xatu|Xatu, F, shiny|100/100
+|turn|6
+|
+|move|p2a: Xatu|Light Screen|p2a: Xatu
+|-sidestart|p2: Lancer MK|move: Light Screen
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Xatu|Reflect|p2a: Xatu
+|-sidestart|p2: Lancer MK|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|95/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Tyranitar|Crunch|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-crit|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|9
+|
+|move|p1a: Tyranitar|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|18/100
+|move|p2a: Scizor|Bug Bite|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-enditem|p1a: Tyranitar|Chople Berry|[from] stealeat|[move] Bug Bite|[of] p2a: Scizor
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|60/100
+|-damage|p1a: Jellicent|48/100|[from] Stealth Rock
+|turn|10
+|inactive|Lancer MK has 120 seconds left.
+|
+|switch|p2a: Pyrax|Volcarona, M, shiny|100/100
+|move|p1a: Jellicent|Hidden Power|p2a: Pyrax
+|-damage|p2a: Pyrax|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|41/100|[from] Sandstorm
+|-damage|p2a: Pyrax|85/100|[from] Sandstorm
+|-heal|p1a: Jellicent|48/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|move|p2a: Pyrax|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-heal|p2a: Pyrax|100/100|[from] drain|[of] p1a: Jellicent
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pyrax|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Pyrax|Fiery Dance|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|18/100
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pyrax|88/100|[from] Sandstorm
+|upkeep
+|turn|13
+|inactive|Lancer MK has 120 seconds left.
+|
+|move|p1a: Bronzong|Explosion|p2a: Pyrax
+|-damage|p2a: Pyrax|28/100
+|faint|p1a: Bronzong
+|move|p2a: Pyrax|Quiver Dance|p2a: Pyrax
+|-boost|p2a: Pyrax|spa|1
+|-boost|p2a: Pyrax|spd|1
+|-boost|p2a: Pyrax|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pyrax|22/100|[from] Sandstorm
+|-sideend|p2: Lancer MK|move: Light Screen
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Pyrax
+|-damage|p2a: Pyrax|0 fnt
+|-status|p1a: Conkeldurr|brn|[from] ability: Flame Body|[of] p2a: Pyrax
+|-damage|p1a: Conkeldurr|84/100 brn|[from] item: Life Orb
+|faint|p2a: Pyrax
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|78/100 brn|[from] Sandstorm
+|-damage|p1a: Conkeldurr|66/100 brn|[from] brn
+|-sideend|p2: Lancer MK|Reflect
+|upkeep
+|
+|switch|p2a: Dracolosse|Dragonite, F, shiny|100/100
+|turn|15
+|
+|move|p1a: Conkeldurr|Ice Punch|p2a: Dracolosse
+|-supereffective|p2a: Dracolosse
+|-damage|p2a: Dracolosse|51/100
+|-damage|p1a: Conkeldurr|56/100 brn|[from] item: Life Orb
+|move|p2a: Dracolosse|Substitute|p2a: Dracolosse
+|-start|p2a: Dracolosse|Substitute
+|-damage|p2a: Dracolosse|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|50/100 brn|[from] Sandstorm
+|-damage|p2a: Dracolosse|21/100|[from] Sandstorm
+|-heal|p2a: Dracolosse|27/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|38/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Conkeldurr|Ice Punch|p2a: Dracolosse
+|-supereffective|p2a: Dracolosse
+|-end|p2a: Dracolosse|Substitute
+|-damage|p1a: Conkeldurr|28/100 brn|[from] item: Life Orb
+|move|p2a: Dracolosse|Roost|p2a: Dracolosse
+|-heal|p2a: Dracolosse|77/100
+|-singleturn|p2a: Dracolosse|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|22/100 brn|[from] Sandstorm
+|-damage|p2a: Dracolosse|71/100|[from] Sandstorm
+|-heal|p2a: Dracolosse|77/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|9/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|move|p2a: Dracolosse|Dragon Claw|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracolosse|71/100|[from] Sandstorm
+|-heal|p2a: Dracolosse|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, F|100/100
+|-damage|p1a: Infernape|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Infernape|Hidden Power|p2a: Dracolosse
+|-supereffective|p2a: Dracolosse
+|-damage|p2a: Dracolosse|0 fnt
+|faint|p2a: Dracolosse
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Crustabri|Cloyster, M, shiny|100/100
+|turn|19
+|
+|move|p1a: Infernape|Close Combat|p2a: Crustabri
+|-supereffective|p2a: Crustabri
+|-damage|p2a: Crustabri|29/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|move|p2a: Crustabri|Shell Smash|p2a: Crustabri
+|-unboost|p2a: Crustabri|def|1
+|-unboost|p2a: Crustabri|spd|1
+|-boost|p2a: Crustabri|atk|2
+|-boost|p2a: Crustabri|spa|2
+|-boost|p2a: Crustabri|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crustabri|23/100|[from] Sandstorm
+|-damage|p1a: Infernape|76/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|move|p2a: Crustabri|Icicle Spear|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|51/100
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|25/100
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|2/100
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|-hitcount|p1a: Infernape|4
+|faint|p1a: Infernape
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crustabri|17/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|21
+|
+|move|p2a: Crustabri|Icicle Spear|p1a: Reuniclus
+|-damage|p1a: Reuniclus|80/100
+|-damage|p1a: Reuniclus|58/100
+|-damage|p1a: Reuniclus|37/100
+|-damage|p1a: Reuniclus|15/100
+|-damage|p1a: Reuniclus|0 fnt
+|-hitcount|p1a: Reuniclus|5
+|faint|p1a: Reuniclus
+|
+|win|Lancer MK
+|raw|HaxerAreBastards's rating: 1583 &rarr; <strong>1550</strong><br />(-33 for losing)
+|raw|Lancer MK's rating: 1312 &rarr; <strong>1345</strong><br />(+33 for winning)

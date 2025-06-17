@@ -1,0 +1,756 @@
+|j|☆smakuhita
+|j|☆dnite56
+|player|p1|smakuhita|brawly|1314
+|player|p2|dnite56|psychic-gen3|1409
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Rotom-Wash|item
+|poke|p1|Latios, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Politoed|Scald|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|move|p2a: Politoed|Encore|p1a: Breloom
+|-start|p1a: Breloom|Encore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Politoed|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|87/100
+|-status|p1a: Rotom|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|80/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|74/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|59/100
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox|[from]move: Volt Switch
+|move|p2a: Politoed|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|73/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|65/100|[from] item: Leftovers
+|-heal|p1a: Breloom|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|move|p1a: Breloom|Drain Punch|p2a: Politoed
+|-damage|p2a: Politoed|31/100
+|-heal|p1a: Breloom|100/100 tox|[from] drain|[of] p2a: Politoed
+|move|p2a: Politoed|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|42/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|37/100|[from] item: Leftovers
+|-heal|p1a: Breloom|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|move|p1a: Breloom|Drain Punch|p2a: Politoed
+|-damage|p2a: Politoed|4/100
+|-heal|p1a: Breloom|74/100 tox|[from] drain|[of] p2a: Politoed
+|move|p2a: Politoed|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|25/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|10/100|[from] item: Leftovers
+|-heal|p1a: Breloom|37/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Breloom|Drain Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|77/100
+|-heal|p1a: Breloom|49/100 tox|[from] drain|[of] p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Keldeo|Hydro Pump|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Latios|[miss]
+|-miss|p2a: Keldeo|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Latios|Trick|p2a: Ferrothorn
+|-activate|p1a: Latios|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|switch|p2a: Keldeo|Keldeo|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dnite56)
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|28/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Politoed|Politoed, M|10/100
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|91/100|[from] item: Leftovers
+|-heal|p2a: Politoed|16/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latios|Surf|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|97/100|[from] item: Leftovers
+|-heal|p2a: Politoed|22/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Latios|Draco Meteor|p2a: Politoed|[miss]
+|-miss|p1a: Latios|p2a: Politoed
+|move|p2a: Politoed|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|85/100|[from] item: Leftovers
+|-heal|p2a: Politoed|28/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|71/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Landorus
+|-sidestart|p1: smakuhita|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: dnite56|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|switch|p1a: Rotom|Rotom-Wash|74/100 brn
+|-damage|p1a: Rotom|62/100 brn|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|91/100
+|-damage|p1a: Latios|78/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|71/100
+|-damage|p2a: Ferrothorn|65/100|[from] Stealth Rock
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|switch|p1a: Breloom|Breloom, F|74/100 tox
+|-damage|p1a: Breloom|67/100 tox|[from] Stealth Rock
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|-heal|p1a: Breloom|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|57/100
+|move|p1a: Breloom|Facade|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|63/100|[from] item: Leftovers
+|-heal|p1a: Breloom|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|24/100 tox
+|move|p1a: Breloom|Facade|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Keldeo|Secret Sword|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|switch|p2a: Latios|Latios, M|77/100
+|-damage|p2a: Latios|65/100|[from] Stealth Rock
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Latios|Trick|p1a: Jirachi
+|-activate|p2a: Latios|move: Trick|[of] p1a: Jirachi
+|-item|p1a: Jirachi|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|71/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|65/100
+|-damage|p2a: Ferrothorn|59/100|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|-damage|p1a: Jirachi|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p1a: Breloom|Breloom, F|49/100 tox
+|-damage|p1a: Breloom|42/100 tox|[from] Stealth Rock
+|switch|p2a: Keldeo|Keldeo|94/100
+|-damage|p2a: Keldeo|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Keldeo|Icy Wind|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Keldeo|Icy Wind|p1a: Excadrill
+|-damage|p1a: Excadrill|60/100
+|-unboost|p1a: Excadrill|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|66/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Latios|Latios, M|71/100
+|-damage|p2a: Latios|58/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Latios
+|-damage|p2a: Latios|48/100
+|-sideend|p1: smakuhita|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|54/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|72/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Latios|Surf|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|60/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|79/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Jirachi|Jirachi|82/100
+|move|p2a: Latios|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|66/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|52/100
+|-damage|p2a: Ferrothorn|46/100|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|40/100
+|-damage|p1a: Jirachi|56/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|switch|p1a: Breloom|Breloom, F|67/100 tox
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Breloom
+|-sidestart|p1: smakuhita|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|
+|switch|p2a: Politoed|Politoed, M|28/100
+|-damage|p2a: Politoed|16/100|[from] Stealth Rock
+|move|p1a: Breloom|Drain Punch|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-heal|p1a: Breloom|89/100 tox|[from] drain|[of] p2a: Politoed
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|88/100
+|-damage|p2a: Keldeo|82/100|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Keldeo|Icy Wind|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|
+|switch|p1a: Jirachi|Jirachi|56/100
+|-damage|p1a: Jirachi|50/100|[from] Stealth Rock
+|move|p2a: Keldeo|Icy Wind|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|41/100
+|-unboost|p1a: Jirachi|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|42
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|40/100
+|-damage|p2a: Ferrothorn|33/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|43
+|
+|switch|p2a: Keldeo|Keldeo|82/100
+|-damage|p2a: Keldeo|76/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish||[still]
+|-fail|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|91/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|44
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Icy Wind|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|32/100
+|-unboost|p1a: Latios|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|38/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|33/100
+|-damage|p2a: Ferrothorn|27/100|[from] Stealth Rock
+|switch|p1a: Jirachi|Jirachi|91/100
+|-damage|p1a: Jirachi|84/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|46
+|
+|switch|p2a: Keldeo|Keldeo|76/100
+|-damage|p2a: Keldeo|70/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|47
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|move|p2a: Keldeo|Surf|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|25/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|88/100 tox|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|48
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Facade|p2a: Tentacruel
+|-damage|p2a: Tentacruel|28/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|34/100|[from] item: Black Sludge
+|upkeep
+|turn|49
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Breloom|Facade|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|40/100|[from] item: Black Sludge
+|upkeep
+|turn|50
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Breloom
+|-damage|p1a: Breloom|97/100 tox
+|-sideend|p2: dnite56|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Breloom|Facade|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|70/100
+|turn|51
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Keldeo|Icy Wind|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|52
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|27/100
+|switch|p1a: Jirachi|Jirachi|84/100
+|-damage|p1a: Jirachi|78/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|53
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|switch|p2a: Keldeo|Keldeo|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|54
+|
+|switch|p2a: Latios|Latios, M|66/100
+|move|p1a: Breloom|Facade|p2a: Latios
+|-damage|p2a: Latios|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|9/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|switch|p1a: Jirachi|Jirachi|78/100
+|-damage|p1a: Jirachi|72/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Jirachi|[miss]
+|-miss|p2a: Latios|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|15/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p1a: Jirachi|Body Slam|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|27/100
+|turn|57
+|
+|switch|p1a: Excadrill|Excadrill, M|79/100
+|-damage|p1a: Excadrill|75/100|[from] Stealth Rock
+|switch|p2a: Keldeo|Keldeo|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|82/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Keldeo|Hydro Pump|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|88/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|c|☆smakuhita|damn how'd this happen
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|turn|60
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Breloom
+|-resisted|p1a: Breloom
+|-crit|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|38/100
+|-damage|p1a: Latios|26/100|[from] Stealth Rock
+|turn|61
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|27/100
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|32/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|70/100
+|turn|62
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|82/100
+|move|p2a: Keldeo|Surf|p1a: Latios
+|-resisted|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆smakuhita|LOL
+|c|☆dnite56|jeez
+|c|☆smakuhita|you are so
+|c|☆smakuhita|LUCKY
+|c|☆dnite56|not over
+|c|☆smakuhita|how'd this happen
+|
+|switch|p1a: Jirachi|Jirachi|72/100
+|-damage|p1a: Jirachi|66/100|[from] Stealth Rock
+|turn|63
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|64
+|c|☆dnite56|ok now it probably is
+|
+|switch|p1a: Landorus|Landorus-Therian, M|94/100
+|-damage|p1a: Landorus|82/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|move|p2a: Keldeo|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|66/100
+|-damage|p1a: Jirachi|60/100|[from] Stealth Rock
+|turn|65
+|
+|move|p1a: Jirachi|Body Slam|p2a: Keldeo
+|-damage|p2a: Keldeo|46/100
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|win|dnite56
+|raw|smakuhita's rating: 1314 &rarr; <strong>1299</strong><br />(-15 for losing)
+|raw|dnite56's rating: 1409 &rarr; <strong>1424</strong><br />(+15 for winning)
+|c|☆smakuhita|highway
+|c|☆smakuhita|robbery
+|c|☆smakuhita|jheeze
+|l|☆smakuhita
+|c|☆dnite56|dont choke ur games kids

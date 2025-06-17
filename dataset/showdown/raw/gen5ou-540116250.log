@@ -1,0 +1,492 @@
+|j|cypressess
+|j|homieunbound
+|player|p1|cypressess|244
+|player|p2|homieunbound|161
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|44102,30373,42501,45933
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Keldeo|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Azumarill, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|l|homieunbound
+|player|p2
+|j|homieunbound
+|player|p2|homieunbound|161
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|429/429
+|switch|p2a: Politoed|Politoed, F|351/351
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|choice|move spore|switch 2
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|move|p1a: Amoonguss|Spore|p2a: Tornadus
+|-status|p2a: Tornadus|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|choice|switch 3|move sleeptalk
+|
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|cant|p2a: Tornadus|slp
+|move|p2a: Tornadus|Sleep Talk|p2a: Tornadus
+|move|p2a: Tornadus|Focus Blast|p1a: Skarmory|[from]Sleep Talk
+|-damage|p1a: Skarmory|130/334
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|choice|move stealthrock|move sleeptalk
+|
+|cant|p2a: Tornadus|slp
+|move|p2a: Tornadus|Sleep Talk|p2a: Tornadus
+|move|p2a: Tornadus|Focus Blast|p1a: Skarmory|[from]Sleep Talk
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|371/371
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|4
+|choice|move pursuit|switch 5
+|
+|-activate|p2a: Tornadus|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Tornadus|[from]Pursuit
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|318/318
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|5
+|choice|switch 3|move uturn
+|
+|switch|p1a: Amoonguss|Amoonguss, F|429/429
+|move|p2a: Landorus|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|338/429
+|choice||switch 4
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|312/429|[from] sandstorm
+|-heal|p1a: Amoonguss|338/429|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move spore|move stealthrock
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: cypressess|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Jirachi
+|-status|p2a: Jirachi|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|312/429|[from] sandstorm
+|-heal|p1a: Amoonguss|338/429|[from] item: Black Sludge
+|upkeep
+|turn|7
+|choice|switch 3|switch 6
+|
+|switch|p2a: Azumarill|Azumarill, F|393/393
+|switch|p1a: Tyranitar|Tyranitar, M|371/371
+|-damage|p1a: Tyranitar|325/371|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azumarill|369/393|[from] sandstorm
+|upkeep
+|turn|8
+|choice|switch 3|switch 4
+|
+|switch|p1a: Amoonguss|Amoonguss, F|429/429
+|-damage|p1a: Amoonguss|376/429|[from] Stealth Rock
+|switch|p2a: Landorus|Landorus-Therian, M|318/318
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|350/429|[from] sandstorm
+|-heal|p1a: Amoonguss|376/429|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|move gigadrain|move uturn
+|
+|move|p2a: Landorus|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|275/429
+|choice||switch 6
+|
+|switch|p2a: Jirachi|Jirachi|404/404 slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|368/404 slp
+|-heal|p1a: Amoonguss|293/429|[from] drain|[of] p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|267/429|[from] sandstorm
+|-heal|p2a: Jirachi|393/404 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|293/429|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|switch 2|move uturn
+|
+|switch|p1a: Flygon|Flygon, M|301/301
+|-damage|p1a: Flygon|283/301|[from] Stealth Rock
+|cant|p2a: Jirachi|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|404/404 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move uturn|switch 6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|318/318
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Flygon|atk|1
+|move|p1a: Flygon|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|293/318
+|choice|switch 6|
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|-damage|p1a: Keldeo|303/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|283/323|[from] sandstorm
+|-heal|p1a: Keldeo|303/323|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move surf|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|104/323
+|move|p1a: Keldeo|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|84/323|[from] sandstorm
+|-heal|p1a: Keldeo|104/323|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gastrodon|Gastrodon, M|399/399
+|turn|13
+|choice|move calmmind|move earthpower
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Gastrodon|Earth Power|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-damage|p2a: Gastrodon|360/399|[from] item: Life Orb
+|faint|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|325/371
+|-damage|p1a: Tyranitar|279/371|[from] Stealth Rock
+|turn|14
+|choice|move crunch|move scald
+|
+|move|p1a: Tyranitar|Crunch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|83/399
+|move|p2a: Gastrodon|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|76/371
+|-damage|p2a: Gastrodon|44/399|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|choice|move crunch|move scald
+|
+|move|p1a: Tyranitar|Crunch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Azumarill|Azumarill, F|369/393
+|turn|16
+|choice|move crunch|move icepunch
+|
+|move|p1a: Tyranitar|Crunch|p2a: Azumarill
+|-damage|p2a: Azumarill|56/393
+|-unboost|p2a: Azumarill|def|1
+|move|p2a: Azumarill|Ice Punch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azumarill|32/393|[from] sandstorm
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Flygon|Flygon, M|283/301
+|-damage|p1a: Flygon|265/301|[from] Stealth Rock
+|turn|17
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Politoed|Politoed, F|351/351
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Flygon|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|155/351
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|choice|move earthquake|move icebeam
+|
+|move|p1a: Flygon|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Azumarill|Azumarill, F|32/393
+|turn|19
+|choice|move earthquake|move aquajet
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Flygon
+|-crit|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆cypressess|:(
+|c|☆homieunbound|man im lucky
+|choice|switch 4|
+|
+|switch|p1a: Alakazam|Alakazam, M|252/252
+|turn|20
+|choice|move psychic|move aquajet
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/252
+|move|p1a: Alakazam|Psychic|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Jirachi|Jirachi|404/404 slp
+|turn|21
+|c|☆cypressess|I still want to peak with that team
+|c|☆cypressess|though it would be hard
+|choice|move shadowball|move thunder
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|339/404 slp
+|cant|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|364/404 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move shadowball|move ironhead
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|294/404 slp
+|cant|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|319/404 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆homieunbound|keepdoing it bro u r good
+|choice|move shadowball|move ironhead
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Jirachi
+|-damage|p2a: Jirachi|246/404 slp
+|cant|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|271/404 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move shadowball|move ironhead
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|139/404 slp
+|-curestatus|p2a: Jirachi|slp|[msg]
+|move|p2a: Jirachi|Iron Head|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|164/404|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Amoonguss|Amoonguss, F|429/429
+|-damage|p1a: Amoonguss|376/429|[from] Stealth Rock
+|turn|25
+|choice|move spore|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|285/429
+|cant|p1a: Amoonguss|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|189/404|[from] item: Leftovers
+|-heal|p1a: Amoonguss|311/429|[from] item: Black Sludge
+|upkeep
+|turn|26
+|choice|move spore|move thunder
+|
+|move|p2a: Jirachi|Thunder|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|251/429
+|move|p1a: Amoonguss|Spore|p2a: Jirachi
+|-status|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|214/404 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|277/429|[from] item: Black Sludge
+|upkeep
+|turn|27
+|choice|move hiddenpower|move thunder
+|
+|cant|p2a: Jirachi|slp
+|move|p1a: Amoonguss|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|174/404 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|199/404 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|303/429|[from] item: Black Sludge
+|upkeep
+|turn|28
+|c|☆cypressess|in despeartion
+|choice|move hiddenpower|move thunder
+|
+|-curestatus|p2a: Jirachi|slp|[msg]
+|move|p2a: Jirachi|Thunder|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|246/429
+|-status|p1a: Amoonguss|par
+|move|p1a: Amoonguss|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|157/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|182/404|[from] item: Leftovers
+|-heal|p1a: Amoonguss|272/429 par|[from] item: Black Sludge
+|upkeep
+|turn|29
+|choice|move spore|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|176/429 par
+|cant|p1a: Amoonguss|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|207/404|[from] item: Leftovers
+|-heal|p1a: Amoonguss|202/429 par|[from] item: Black Sludge
+|upkeep
+|turn|30
+|choice|move hiddenpower|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|106/429 par
+|move|p1a: Amoonguss|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|167/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|192/404|[from] item: Leftovers
+|-heal|p1a: Amoonguss|132/429 par|[from] item: Black Sludge
+|upkeep
+|turn|31
+|c|☆homieunbound|sorry for the hax
+|c|☆homieunbound|hey bro
+|choice|move spore|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|26/429 par
+|move|p1a: Amoonguss|Spore|p2a: Jirachi
+|-status|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|217/404 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|52/429 par|[from] item: Black Sludge
+|upkeep
+|turn|32
+|c|☆homieunbound|whats ur smogon username?
+|choice|move hiddenpower|move ironhead
+|
+|cant|p2a: Jirachi|slp
+|cant|p1a: Amoonguss|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|242/404 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|78/429 par|[from] item: Black Sludge
+|upkeep
+|turn|33
+|choice|move hiddenpower|move ironhead
+|
+|cant|p2a: Jirachi|slp
+|cant|p1a: Amoonguss|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|267/404 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|104/429 par|[from] item: Black Sludge
+|upkeep
+|turn|34
+|choice|move hiddenpower|move ironhead
+|
+|-curestatus|p2a: Jirachi|slp|[msg]
+|move|p2a: Jirachi|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|win|homieunbound
+|player|p1
+|player|p2
+|raw|cypressess's rating: 1378 &rarr; <strong>1356</strong><br />(-22 for losing)
+|raw|homieunbound's rating: 1342 &rarr; <strong>1364</strong><br />(+22 for winning)

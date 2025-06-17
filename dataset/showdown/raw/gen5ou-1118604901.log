@@ -1,0 +1,226 @@
+|j|☆Team FRS Sucks
+|j|☆razz77
+|player|p1|Team FRS Sucks|dawn-gen4pt|1331
+|player|p2|razz77|alder|1288
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Jirachi|item
+|poke|p1|Keldeo|item
+|poke|p2|Scizor, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Reuniclus, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Keldeo|Keldeo|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Keldeo|Hidden Power|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|91/100
+|
+|-heal|p1a: Rotom|97/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Rotom|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|91/100|[from] Sandstorm
+|-heal|p1a: Rotom|97/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|77/100 brn
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|-damage|p2a: Tyranitar|71/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Reuniclus
+|-sidestart|p2: razz77|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Landorus|U-turn|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|57/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Reuniclus|Psyshock|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|97/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|turn|9
+|
+|move|p2a: Reuniclus|Focus Blast|p1a: Landorus|[miss]
+|-miss|p2a: Reuniclus|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|12/100
+|
+|switch|p1a: Keldeo|Keldeo|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|move|p1a: Keldeo|Hidden Power|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Keldeo
+|-enditem|p1a: Keldeo|Fighting Gem|[from] gem
+|-damage|p2a: Keldeo|24/100
+|move|p2a: Keldeo|Secret Sword|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|17/100|[from] Sandstorm
+|upkeep
+|c|☆razz77|damn
+|c|☆razz77|bad luck
+|c|☆Team FRS Sucks|I'm not even mad
+|c|☆Team FRS Sucks|This is just funny
+|c|☆Team FRS Sucks|Lmao
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|turn|12
+|c|☆razz77|i just had one of those games before this lol
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|11/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|turn|13
+|
+|move|p1a: Tyranitar|Crunch|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|53/100
+|-damage|p2a: Scizor|76/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|-message|Team FRS Sucks forfeited.
+|
+|win|razz77
+|raw|Team FRS Sucks's rating: 1331 &rarr; <strong>1309</strong><br />(-22 for losing)
+|raw|razz77's rating: 1288 &rarr; <strong>1316</strong><br />(+28 for winning)
+|c|☆Team FRS Sucks|Gg
+|c|☆razz77|bad luck man
+|c|☆Team FRS Sucks|It's alright

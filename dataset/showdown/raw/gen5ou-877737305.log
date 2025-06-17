@@ -1,0 +1,1217 @@
+|j|☆Oro e Diamanti
+|j|☆The Oldfriends
+|player|p1|Oro e Diamanti|1
+|player|p2|The Oldfriends|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Magnezone|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Dragonite, F|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Sigilyph, M|item
+|poke|p2|Regirock|item
+|teampreview
+|c|☆Oro e Diamanti|ouais lol
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oro e Diamanti)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Jellicent
+|-status|p2a: Jellicent|brn
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|-damage|p2a: Jellicent|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Jellicent|Protect|p2a: Jellicent
+|-singleturn|p2a: Jellicent|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Jellicent
+|-activate|p2a: Jellicent|move: Protect
+|
+|-heal|p1a: Rotom|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|82/100 brn|[from] brn
+|-damage|p2a: Jellicent|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Rotom|Volt Switch|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|75/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|69/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Jellicent|Jellicent, F|82/100 brn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Jellicent
+|-fail|p2a: Jellicent|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|63/100 brn|[from] Sandstorm
+|-damage|p2a: Jellicent|76/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|69/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|57/100 brn|[from] brn
+|-damage|p2a: Jellicent|70/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Jellicent|Protect||[still]
+|-fail|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|63/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|57/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Garchomp|Toxic|p2a: Hippowdon
+|-status|p2a: Hippowdon|tox
+|move|p2a: Hippowdon|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Oro e Diamanti|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|69/100|[from] Sandstorm
+|-damage|p2a: Hitmontop|94/100|[from] Sandstorm
+|-heal|p1a: Dragonite|76/100|[from] item: Leftovers
+|-heal|p2a: Hitmontop|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|44/100|[from] Sandstorm
+|-heal|p1a: Dragonite|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Hippowdon|Hippowdon, M|94/100 tox
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|44/100|[from] Sandstorm
+|-heal|p1a: Dragonite|51/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Hippowdon|Whirlwind|p1a: Dragonite
+|drag|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|69/100|[from] Sandstorm
+|-heal|p1a: Dragonite|76/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|57/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|94/100|[from] Sandstorm
+|-heal|p1a: Dragonite|100/100|[from] item: Leftovers
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Wash|57/100 brn
+|-damage|p1a: Rotom|44/100 brn|[from] Stealth Rock
+|move|p2a: Sigilyph|Psycho Shift|p1a: Rotom
+|-fail|p1a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|38/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|44/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|32/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Rotom|Pain Split|p2a: Sigilyph
+|-sethp|p2a: Sigilyph|65/100 brn|p1a: Rotom|71/100 brn|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|65/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|58/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Rotom|Volt Switch|p2a: Sigilyph
+|-damage|p2a: Sigilyph|78/100 brn
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|inactive|The Oldfriends has 120 seconds left.
+|inactive|The Oldfriends has 90 seconds left.
+|
+|switch|p2a: Hippowdon|Hippowdon, M|57/100 tox
+|move|p1a: Magnezone|Thunderbolt|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|51/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Rotom|Rotom-Wash|58/100 brn
+|-damage|p1a: Rotom|46/100 brn|[from] Stealth Rock
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|40/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|46/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|33/100 brn|[from] brn
+|-damage|p2a: Hippowdon|88/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Jellicent|Jellicent, F|57/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|20/100 brn
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|13/100 brn|[from] Sandstorm
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|20/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|7/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Sigilyph|Sigilyph, M|78/100 brn
+|move|p1a: Excadrill|Earthquake|p2a: Sigilyph
+|-immune|p2a: Sigilyph
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Magnezone|Magnezone|94/100
+|-damage|p1a: Magnezone|88/100|[from] Stealth Rock
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|switch|p2a: Hippowdon|Hippowdon, M|88/100 tox
+|move|p1a: Magnezone|Thunderbolt|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Whirlwind|p1a: Dragonite
+|drag|p1a: Magnezone|Magnezone|88/100
+|-damage|p1a: Magnezone|82/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|70/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|The Oldfriends has 90 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|25
+|inactive|The Oldfriends has 90 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Spikes|p1a: Excadrill
+|-sidestart|p1: Oro e Diamanti|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: The Oldfriends|move: Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|43/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|98/100
+|-damage|p1a: Excadrill|31/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Oro e Diamanti|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: Oro e Diamanti|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|82/100
+|turn|28
+|
+|move|p1a: Magnezone|Sunny Day|p1a: Magnezone
+|-weather|SunnyDay
+|move|p2a: Ferrothorn|Spikes|p1a: Magnezone
+|-sidestart|p1: Oro e Diamanti|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p1a: Magnezone|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, M|70/100 tox
+|-damage|p2a: Hippowdon|63/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|30
+|
+|move|p1a: Magnezone|Flash Cannon|p2a: Hippowdon
+|-damage|p2a: Hippowdon|27/100 tox
+|move|p2a: Hippowdon|Stealth Rock|p1a: Magnezone
+|-sidestart|p1: Oro e Diamanti|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|21/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: Jellicent|Jellicent, F|7/100 brn
+|-damage|p2a: Jellicent|0 fnt|[from] Stealth Rock
+|faint|p2a: Jellicent
+|move|p1a: Magnezone|Flash Cannon|p2: Jellicent|[notarget]
+|-fail|p1a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|94/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|turn|32
+|
+|switch|p1a: Dragonite|Dragonite, F|76/100
+|-damage|p1a: Dragonite|51/100|[from] Stealth Rock
+|move|p2a: Hitmontop|Low Kick|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|26/100|[from] Sandstorm
+|-damage|p2a: Hitmontop|88/100|[from] Sandstorm
+|-heal|p1a: Dragonite|32/100|[from] item: Leftovers
+|-heal|p2a: Hitmontop|94/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Sigilyph|Sigilyph, M|78/100 brn
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|82/100
+|-singleturn|p1a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|76/100|[from] Sandstorm
+|-heal|p1a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Magnezone|Magnezone|82/100
+|-damage|p1a: Magnezone|76/100|[from] Stealth Rock
+|-damage|p1a: Magnezone|63/100|[from] Spikes
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|35
+|inactive|The Oldfriends has 120 seconds left.
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|10/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|36
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|60/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|22/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|inactive|The Oldfriends has 120 seconds left.
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|72/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|36/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|38
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|86/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|48/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|39
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|98/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|63/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|40
+|c|☆Oro e Diamanti|par contre moi pour citre
+|c|☆Oro e Diamanti|crit
+|c|☆Oro e Diamanti|c jamais
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|8/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|41
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|58/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|30/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|42
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|80/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|50/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|43
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|73/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|44
+|c|☆Oro e Diamanti|je prefere voler des games useless en fun
+|c|☆Oro e Diamanti|que en ladd et en tour
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|26/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|16/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|45
+|c|☆Oro e Diamanti|anyway
+|j| BIHI
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|66/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|38/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|46
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|88/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|60/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|47
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Magnezone|Thunderbolt|p2a: Sigilyph
+|-damage|p2a: Sigilyph|74/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|48
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|-damage|p1a: Jirachi|82/100|[from] Stealth Rock
+|turn|49
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Sigilyph|Psycho Shift|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Sigilyph|Psycho Shift|p1a: Jirachi
+|-status|p1a: Jirachi|brn
+|-curestatus|p2a: Sigilyph|brn|[msg]
+|move|p1a: Jirachi|Iron Head|p2a: Sigilyph
+|-crit|p2a: Sigilyph
+|-damage|p2a: Sigilyph|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|51
+|c|☆Oro e Diamanti|ptdr
+|c| BIHI|proprent
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|87/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|52
+|c|☆Oro e Diamanti|jeu de merde
+|c|☆The Oldfriends|t'es mauvais
+|c| BIHI|pk jeu de merde
+|c|☆The Oldfriends|Déso
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|66/100 brn
+|move|p1a: Jirachi|Iron Head|p2a: Sigilyph
+|-damage|p2a: Sigilyph|80/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|53
+|c|☆Oro e Diamanti|mais nique ta mere
+|c|☆Oro e Diamanti|je choke pas
+|c| BIHI|parle bien
+|c| BIHI|par contre
+|c|☆Oro e Diamanti|toi jtai pas causé
+|c| BIHI|ça perd contre regirock
+|c| BIHI|et ça trashtalk
+|c| BIHI|c'est quoi ça
+|c|☆The Oldfriends|calm down bro c'est qu'un jeu
+|c|☆Oro e Diamanti|le mec me dire ouvertement que jsuis mauvais
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to +!</strong><br />Only users of rank + and higher can talk.</div>
+|inactive|Oro e Diamanti has 120 seconds left.
+|c|☆Oro e Diamanti|alors que j'ai un mu de merde
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Jirachi|Iron Head|p2a: Sigilyph
+|-damage|p2a: Sigilyph|74/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Jirachi|Iron Head|p2a: Sigilyph
+|-damage|p2a: Sigilyph|68/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|55
+|c|☆Oro e Diamanti|j'aimerai bien savoir qui est le fils de pute
+|c|☆Oro e Diamanti|abecv toi meri
+|inactive|Oro e Diamanti has 120 seconds left.
+|c|☆Oro e Diamanti|putain d'hautain
+|c|☆The Oldfriends|Shoka
+|c|☆The Oldfriends|Après rassure toi gros, t'as perdu contre Sigilyph
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|56
+|c|☆The Oldfriends|t'aurais pu perdre contre Regirock
+|inactive|Oro e Diamanti has 120 seconds left.
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100 brn
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|44/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|0
+|-boost|p2a: Sigilyph|spd|0
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|0
+|-boost|p2a: Sigilyph|spd|0
+|move|p1a: Jirachi|Iron Head|p2a: Sigilyph
+|-damage|p2a: Sigilyph|96/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|0
+|-boost|p2a: Sigilyph|spd|0
+|move|p1a: Jirachi|Body Slam|p2a: Sigilyph
+|-damage|p2a: Sigilyph|92/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|61
+|inactive|The Oldfriends has 120 seconds left.
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100 brn
+|move|p1a: Jirachi|Iron Head|p2a: Sigilyph
+|-crit|p2a: Sigilyph
+|-damage|p2a: Sigilyph|55/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|35/100 brn|[from] brn
+|upkeep
+|turn|62
+|inactive|The Oldfriends has 120 seconds left.
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|17/100 brn
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|11/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|0
+|-boost|p2a: Sigilyph|spd|0
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|61/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|55/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|36/100 brn
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|29/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|79/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|73/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|55/100 brn
+|move|p1a: Jirachi|Iron Head|p2a: Sigilyph
+|-damage|p2a: Sigilyph|51/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|49/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|29/100 brn
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|23/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|73/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|67/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100 brn
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|42/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|24/100 brn
+|move|p1a: Jirachi|Iron Head|p2a: Sigilyph
+|-damage|p2a: Sigilyph|96/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|74/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|68/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|switch|p2a: Hitmontop|Hitmontop, M|94/100
+|-damage|p2a: Hitmontop|88/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|82/100|[from] Sandstorm
+|-heal|p1a: Jirachi|74/100 brn|[from] item: Leftovers
+|-heal|p2a: Hitmontop|88/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|62/100 brn|[from] brn
+|upkeep
+|turn|72
+|inactive|Oro e Diamanti has 120 seconds left.
+|
+|switch|p1a: Dragonite|Dragonite, F|82/100
+|-damage|p1a: Dragonite|57/100|[from] Stealth Rock
+|move|p2a: Hitmontop|Low Kick|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|33/100|[from] Sandstorm
+|-damage|p2a: Hitmontop|82/100|[from] Sandstorm
+|-heal|p1a: Dragonite|85/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Dragonite|91/100|[from] item: Leftovers
+|-heal|p2a: Hitmontop|88/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|switch|p2a: Regirock|Regirock|100/100
+|-damage|p2a: Regirock|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|85/100|[from] Sandstorm
+|-heal|p1a: Dragonite|91/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|switch|p1a: Garchomp|Garchomp, F|94/100
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|-damage|p1a: Garchomp|76/100|[from] Spikes
+|move|p2a: Regirock|Curse|p2a: Regirock
+|-unboost|p2a: Regirock|spe|1
+|-boost|p2a: Regirock|atk|1
+|-boost|p2a: Regirock|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|75
+|inactive|The Oldfriends has 120 seconds left.
+|inactive|The Oldfriends has 90 seconds left.
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|52/100
+|move|p2a: Regirock|Curse|p2a: Regirock
+|-unboost|p2a: Regirock|spe|1
+|-boost|p2a: Regirock|atk|1
+|-boost|p2a: Regirock|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|76
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|22/100
+|-enditem|p2a: Regirock|Apicot Berry|[eat]
+|-boost|p2a: Regirock|spd|1
+|move|p2a: Regirock|Rest|p2a: Regirock
+|-status|p2a: Regirock|slp
+|-heal|p2a: Regirock|100/100 slp|[silent]
+|-status|p2a: Regirock|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|77
+|inactive|The Oldfriends has 90 seconds left.
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|72/100 slp
+|cant|p2a: Regirock|slp
+|move|p2a: Regirock|Sleep Talk|p2a: Regirock
+|move|p2a: Regirock|Rest|p2a: Regirock|[from]Sleep Talk
+|-fail|p2a: Regirock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|78
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|44/100 slp
+|cant|p2a: Regirock|slp
+|move|p2a: Regirock|Sleep Talk|p2a: Regirock
+|move|p2a: Regirock|Rest|p2a: Regirock|[from]Sleep Talk
+|-fail|p2a: Regirock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|79
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|16/100 slp
+|-curestatus|p2a: Regirock|slp|[msg]
+|move|p2a: Regirock|Rest|p2a: Regirock
+|-status|p2a: Regirock|slp
+|-heal|p2a: Regirock|100/100 slp|[silent]
+|-status|p2a: Regirock|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|80
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|75/100 slp
+|cant|p2a: Regirock|slp
+|move|p2a: Regirock|Sleep Talk|p2a: Regirock
+|move|p2a: Regirock|Curse|p2a: Regirock|[from]Sleep Talk
+|-unboost|p2a: Regirock|spe|1
+|-boost|p2a: Regirock|atk|1
+|-boost|p2a: Regirock|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|81
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|53/100 slp
+|cant|p2a: Regirock|slp
+|move|p2a: Regirock|Sleep Talk|p2a: Regirock
+|move|p2a: Regirock|Curse|p2a: Regirock|[from]Sleep Talk
+|-unboost|p2a: Regirock|spe|1
+|-boost|p2a: Regirock|atk|1
+|-boost|p2a: Regirock|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|82
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|35/100 slp
+|-curestatus|p2a: Regirock|slp|[msg]
+|move|p2a: Regirock|Rock Slide|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|83
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|15/100
+|move|p2a: Regirock|Rest|p2a: Regirock
+|-status|p2a: Regirock|slp
+|-heal|p2a: Regirock|100/100 slp|[silent]
+|-status|p2a: Regirock|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|84
+|
+|move|p1a: Garchomp|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|82/100 slp
+|cant|p2a: Regirock|slp
+|move|p2a: Regirock|Sleep Talk|p2a: Regirock
+|move|p2a: Regirock|Rock Slide|p1a: Garchomp|[from]Sleep Talk
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|33/100 brn
+|-damage|p1a: Rotom|21/100 brn|[from] Stealth Rock
+|turn|85
+|
+|move|p1a: Rotom|Pain Split|p2a: Regirock
+|-sethp|p2a: Regirock|49/100 slp|p1a: Rotom|62/100 brn|[from] move: Pain Split
+|cant|p2a: Regirock|slp
+|move|p2a: Regirock|Sleep Talk|p2a: Regirock
+|move|p2a: Regirock|Rest|p2a: Regirock|[from]Sleep Talk
+|-fail|p2a: Regirock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|56/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|50/100 brn|[from] brn
+|upkeep
+|turn|86
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|22/100 slp
+|-curestatus|p2a: Regirock|slp|[msg]
+|move|p2a: Regirock|Rest|p2a: Regirock
+|-status|p2a: Regirock|slp
+|-heal|p2a: Regirock|100/100 slp|[silent]
+|-status|p2a: Regirock|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|44/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|37/100 brn|[from] brn
+|upkeep
+|turn|87
+|
+|move|p1a: Rotom|Pain Split|p2a: Regirock
+|-sethp|p2a: Regirock|65/100 slp|p1a: Rotom|82/100 brn|[from] move: Pain Split
+|cant|p2a: Regirock|slp
+|move|p2a: Regirock|Sleep Talk|p2a: Regirock
+|move|p2a: Regirock|Curse|p2a: Regirock|[from]Sleep Talk
+|-unboost|p2a: Regirock|spe|1
+|-boost|p2a: Regirock|atk|1
+|-boost|p2a: Regirock|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|76/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|70/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|40/100 slp
+|cant|p2a: Regirock|slp
+|move|p2a: Regirock|Sleep Talk|p2a: Regirock
+|move|p2a: Regirock|Rock Slide|p1a: Rotom|[from]Sleep Talk
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|l| BIHI
+|
+|switch|p1a: Jirachi|Jirachi|62/100 brn
+|-damage|p1a: Jirachi|56/100 brn|[from] Stealth Rock
+|-damage|p1a: Jirachi|43/100 brn|[from] Spikes
+|turn|89
+|
+|move|p1a: Jirachi|Iron Head|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|36/100 slp
+|-curestatus|p2a: Regirock|slp|[msg]
+|cant|p2a: Regirock|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|37/100 brn|[from] brn
+|upkeep
+|turn|90
+|c|☆The Oldfriends|wp à toi, c'était tendu
+|c|☆The Oldfriends|4.
+|c|☆Oro e Diamanti|ta gueule
+|c|☆Oro e Diamanti|c'est plus simple
+|c|☆Oro e Diamanti|prends ta win
+|c|☆Oro e Diamanti|et évite de faire le gosse immature
+|c|☆Oro e Diamanti|de 3ans
+|c|☆Oro e Diamanti|la prochaine fois
+|
+|move|p1a: Jirachi|Iron Head|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|32/100
+|cant|p2a: Regirock|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|31/100 brn|[from] brn
+|upkeep
+|turn|91
+|c|☆The Oldfriends|j'ai dit que t'étais solide
+|
+|move|p1a: Jirachi|Iron Head|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|28/100
+|move|p2a: Regirock|Rock Slide|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆The Oldfriends|pourquoi tu t'énerves
+|
+|switch|p1a: Dragonite|Dragonite, F|91/100
+|-damage|p1a: Dragonite|66/100|[from] Stealth Rock
+|turn|92
+|c|☆The Oldfriends|solide comme un regirock
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|42/100
+|move|p2a: Regirock|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|35/100|[from] Sandstorm
+|-heal|p1a: Dragonite|42/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|c|☆The Oldfriends|LOL
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|92/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Regirock|Rock Slide|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|The Oldfriends
+|c|☆Oro e Diamanti|avec ta luck débile
+|raw|Oro e Diamanti's rating: 1402 &rarr; <strong>1383</strong><br />(-19 for losing)
+|raw|The Oldfriends's rating: 1417 &rarr; <strong>1436</strong><br />(+19 for winning)
+|l|theoldfriends
+|l|☆Oro e Diamanti
+|j|☆The Oldfriends

@@ -1,0 +1,624 @@
+|j|☆The Daisuke
+|j|☆kapolat
+|player|p1|The Daisuke|152
+|player|p2|kapolat|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Celebi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Politoed, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kapolat)
+|
+|start
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Terrakion|atk|1
+|turn|1
+|
+|move|p2a: Landorus|U-turn|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|85/100
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Terrakion|Stone Edge|p2a: Politoed|[miss]
+|-miss|p1a: Terrakion|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Politoed|Hypnosis|p1a: Celebi|[miss]
+|-miss|p2a: Politoed|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Stealth Rock|p2a: Landorus
+|-sidestart|p2: kapolat|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100
+|-damage|p2a: Landorus|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|95/100 brn|[silent]
+|-damage|p1a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Tentacruel|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Celebi
+|-damage|p1a: Celebi|97/100
+|-end|p2a: Tentacruel|Leech Seed|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: kapolat|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Celebi|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: kapolat|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Kyurem|Outrage|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|turn|10
+|
+|move|p1a: Landorus|U-turn|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|58/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|88/100 brn
+|move|p2a: Kyurem|Outrage|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100 brn
+|-damage|p2a: Kyurem|46/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|54/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Kyurem|Outrage|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|28/100 brn
+|-damage|p2a: Kyurem|33/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-start|p2a: Kyurem|confusion|[fatigue]
+|move|p1a: Ferrothorn|Spikes|p2a: Kyurem
+|-sidestart|p2: kapolat|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|34/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|22/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|82/100|[from] Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn|[miss]
+|-miss|p1a: Ferrothorn|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|28/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|15/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Terrakion|Terrakion|85/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: The Daisuke|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Kyurem|Kyurem-Black|33/100
+|-damage|p2a: Kyurem|21/100|[from] Spikes
+|-damage|p2a: Kyurem|0 fnt|[from] Stealth Rock
+|faint|p2a: Kyurem
+|move|p1a: Terrakion|Close Combat|p2: Kyurem|[notarget]
+|-fail|p1a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, M|99/100
+|-damage|p2a: Tentacruel|88/100|[from] Spikes
+|-damage|p2a: Tentacruel|75/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Tentacruel|Tentacruel, M, shiny|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Tentacruel
+|-damage|p1a: Tentacruel|85/100
+|-sideend|p2: kapolat|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: kapolat|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|81/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|91/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|87/100|[from] item: Black Sludge
+|-heal|p1a: Tentacruel|97/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Tentacruel|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|71/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Tentacruel
+|-damage|p2a: Tentacruel|84/100
+|-sideend|p1: The Daisuke|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|90/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|77/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|96/100|[from] item: Black Sludge
+|-heal|p1a: Tentacruel|83/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Tentacruel|Scald|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|89/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|95/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Tentacruel|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|81/100
+|move|p1a: Tentacruel|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|88/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|87/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Tentacruel|93/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Tentacruel|Scald|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Tentacruel|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|86/100
+|-status|p1a: Tentacruel|brn
+|move|p1a: Tentacruel|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|86/100
+|-status|p2a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|93/100 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|93/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100 brn|[from] item: Black Sludge
+|-heal|p1a: Tentacruel|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|86/100 brn|[from] brn
+|-damage|p1a: Tentacruel|86/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|92/100 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|98/100 brn|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|86/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Tentacruel
+|-damage|p1a: Tentacruel|84/100 brn
+|-enditem|p1a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|90/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Ferrothorn|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Tentacruel|77/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|68/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Terrakion|Terrakion|85/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: The Daisuke|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|62/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Terrakion|atk|1
+|move|p1a: Terrakion|Stone Edge|p2a: Landorus
+|-damage|p2a: Landorus|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|78/100
+|
+|switch|p2a: Tentacruel|Tentacruel, M|86/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|92/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|98/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|86/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Landorus|Earthquake|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|92/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|98/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|86/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|switch|p2a: Landorus|Landorus-Therian, M|28/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Landorus|U-turn|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|15/100 brn
+|-damage|p1a: Ferrothorn|9/100 brn|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Landorus|16/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|switch|p2a: Tentacruel|Tentacruel, M|86/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|92/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|98/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|85/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|78/100
+|-damage|p1a: Landorus|66/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tentacruel|atk|1
+|turn|30
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Landorus|Earthquake|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|91/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|97/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|85/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Landorus|Landorus-Therian, M|16/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|53/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|62/100 brn
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|60/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|56/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Ferrothorn|Leech Seed|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|66/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|49/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Politoed|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|34/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|72/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|60/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|54/100 brn|[silent]
+|-damage|p2a: Ferrothorn|41/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p1a: Terrakion|Terrakion|85/100
+|-damage|p1a: Terrakion|79/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Terrakion
+|-start|p1a: Terrakion|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Terrakion|66/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|59/100 brn|[silent]
+|-damage|p2a: Ferrothorn|47/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|move|p1a: Terrakion|Close Combat|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|38
+|
+|switch|p1a: Landorus|Landorus-Therian, M|66/100
+|-damage|p1a: Landorus|54/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|39
+|
+|move|p2a: Volcarona|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|60/100
+|-damage|p1a: Politoed|47/100|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Volcarona|Bug Buzz|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|53/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Politoed
+|-enditem|p2a: Volcarona|Bug Gem|[from] gem|[move] Bug Buzz
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M, shiny|77/100 brn
+|-damage|p1a: Tentacruel|65/100 brn|[from] Stealth Rock
+|turn|42
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|37/100 brn
+|move|p1a: Tentacruel|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|43/100 brn|[from] ability: Rain Dish
+|-damage|p1a: Tentacruel|31/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|16/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tentacruel|atk|1
+|turn|43
+|
+|move|p2a: Landorus|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|66/100
+|-damage|p1a: Terrakion|60/100|[from] Stealth Rock
+|turn|44
+|
+|move|p1a: Terrakion|Quick Attack|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, M|85/100 brn
+|turn|45
+|
+|move|p1a: Terrakion|Quick Attack|p2a: Tentacruel
+|-damage|p2a: Tentacruel|64/100 brn
+|move|p2a: Tentacruel|Scald|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|win|kapolat
+|raw|The Daisuke's rating: 1464 &rarr; <strong>1444</strong><br />(-20 for losing)
+|raw|kapolat's rating: 1461 &rarr; <strong>1481</strong><br />(+20 for winning)

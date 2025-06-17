@@ -1,0 +1,264 @@
+|j|☆fata lina
+|j|☆Vanteline
+|player|p1|fata lina|agatha-gen3
+|player|p2|Vanteline|130
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Scolipede, M|item
+|poke|p1|Cloyster, F|item
+|poke|p1|Gengar, F|item
+|poke|p1|Salamence, M|item
+|poke|p1|Whimsicott, F|item
+|poke|p1|Scizor, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Conkeldurr, M|item
+|teampreview
+|
+|start
+|switch|p1a: Scolipede|Scolipede, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fata lina)
+|
+|move|p1a: Scolipede|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Vanteline|Spikes
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Scolipede
+|-sidestart|p1: fata lina|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Scolipede|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Vanteline|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Scolipede
+|-sidestart|p1: fata lina|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Scolipede|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Vanteline|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Scolipede
+|-sidestart|p1: fata lina|Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Scolipede|Megahorn|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|32/100
+|-damage|p1a: Scolipede|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Scolipede
+|-sidestart|p1: fata lina|Spikes
+|
+|-heal|p2a: Ferrothorn|38/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Scolipede|Megahorn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|-damage|p1a: Scolipede|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Scolipede
+|-start|p1a: Scolipede|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|10/100|[from] item: Leftovers
+|-damage|p1a: Scolipede|64/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|19/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p1a: Scolipede|Megahorn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Scolipede|51/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Scolipede|atk|1
+|turn|7
+|
+|move|p1a: Scolipede|Snatch|p1a: Scolipede
+|-singleturn|p1a: Scolipede|Snatch
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-activate|p1a: Scolipede|move: Snatch|[of] p2a: Gyarados
+|move|p1a: Scolipede|Dragon Dance|p1a: Scolipede|[from]Snatch
+|-boost|p1a: Scolipede|atk|1
+|-boost|p1a: Scolipede|spe|1
+|
+|-damage|p1a: Scolipede|39/100|[from] Leech Seed|[of] p2a: Gyarados
+|upkeep
+|turn|8
+|
+|move|p1a: Scolipede|Endeavor|p2a: Gyarados
+|-damage|p2a: Gyarados|31/100
+|-damage|p1a: Scolipede|23/100|[from] item: Rocky Helmet|[of] p2a: Gyarados
+|move|p2a: Gyarados|Waterfall|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p1a: Gengar|78/100|[from] item: Life Orb
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|10
+|
+|move|p1a: Gengar|Focus Blast|p2a: Heatran|[miss]
+|-miss|p1a: Gengar|p2a: Heatran
+|move|p2a: Heatran|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|j| fat micaiah
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|-damage|p1a: Cloyster|76/100|[from] Spikes
+|-damage|p1a: Cloyster|51/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|96/100
+|-enditem|p2a: Heatran|Air Balloon
+|cant|p2a: Heatran|flinch
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Heatran|Fire Blast|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|-damage|p1a: Whimsicott|75/100|[from] Spikes
+|-damage|p1a: Whimsicott|63/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Whimsicott|Encore|p2a: Heatran
+|-start|p2a: Heatran|Encore
+|move|p2a: Heatran|Fire Blast|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Salamence|Outrage|p2a: Thundurus
+|-crit|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|96/100
+|-damage|p2a: Heatran|71/100|[from] Spikes
+|turn|16
+|
+|move|p1a: Salamence|Outrage|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|7/100
+|move|p2a: Heatran|Dragon Pulse|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|2/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Salamence|Outrage|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-start|p1a: Salamence|confusion|[fatigue]
+|faint|p2a: Heatran
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|j| Mr Sleepwalker
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|76/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-damage|p2a: Conkeldurr|66/100|[from] item: Life Orb
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|63/100|[from] Spikes
+|turn|19
+|
+|move|p1a: Scizor|Acrobatics|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|14/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Scizor
+|-damage|p1a: Scizor|11/100
+|-heal|p2a: Conkeldurr|37/100|[from] drain|[of] p1a: Scizor
+|-damage|p2a: Conkeldurr|27/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Conkeldurr|17/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|win|Vanteline
+|l|☆fata lina
+|l| Mr Sleepwalker
+|raw|fata lina's rating: 1436 &rarr; <strong>1409</strong><br />(-27 for losing)
+|raw|Vanteline's rating: 1319 &rarr; <strong>1345</strong><br />(+26 for winning)
+|l| fat micaiah

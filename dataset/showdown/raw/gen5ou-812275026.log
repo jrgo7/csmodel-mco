@@ -1,0 +1,392 @@
+|j|☆CroCoeur
+|j|☆Kaiser Choulio
+|player|p1|CroCoeur|2
+|player|p2|Kaiser Choulio|209
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Forretress, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Charizard, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-enditem|p2a: Cloyster|Focus Sash
+|-damage|p2a: Cloyster|1/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Cloyster|Rock Blast|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|75/100
+|-damage|p1a: Celebi|62/100
+|-damage|p1a: Celebi|49/100
+|-damage|p1a: Celebi|35/100
+|-damage|p1a: Celebi|22/100
+|-hitcount|p1a: Celebi|5
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|28/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|4
+|
+|move|p1a: Latios|Thunder|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dragonite
+|-start|p2a: Dragonite|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dragonite|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|7
+|
+|move|p2a: Dragonite|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Dragonite|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|def|1
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|8
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|63/100
+|move|p1a: Jirachi|Thunder|p2a: Dragonite
+|-damage|p2a: Dragonite|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|60/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|48/100|[from] Leech Seed|[of] p1a: Jirachi
+|-heal|p1a: Jirachi|79/100|[silent]
+|upkeep
+|turn|9
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|84/100
+|move|p2a: Ninetales|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-damage|p2a: Ninetales|74/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ninetales|Flamethrower|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|87/100
+|-damage|p2a: Ninetales|64/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Dragonite|Dragonite, F|48/100
+|move|p1a: Politoed|Hydro Pump|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|13/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|19/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Dragonite|[miss]
+|-miss|p1a: Politoed|p2a: Dragonite
+|move|p2a: Dragonite|Dragon Claw|p1a: Politoed
+|-damage|p1a: Politoed|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|25/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Jirachi|Jirachi|67/100
+|move|p2a: Dragonite|Dragon Claw|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|31/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Jirachi|Thunder|p2a: Dragonite
+|-damage|p2a: Dragonite|3/100
+|-status|p2a: Dragonite|par
+|cant|p2a: Dragonite|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|60/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|9/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|35/100
+|move|p2a: Dragonite|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|41/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|15/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Jirachi|Thunder|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|18
+|
+|move|p2a: Latios|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|22/100
+|-damage|p2a: Latios|91/100|[from] item: Life Orb
+|move|p1a: Jirachi|Thunder|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|76/100
+|-status|p2a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|28/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latios|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|10/100
+|-damage|p2a: Latios|66/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|17/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Latios|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|2/100
+|-damage|p2a: Latios|56/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|9/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|35/100 par
+|move|p2a: Latios|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Latios|25/100 par|[from] item: Life Orb
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|22
+|
+|move|p1a: Latios|Surf|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|turn|23
+|
+|move|p1a: Latios|Surf|p2a: Forretress
+|-crit|p2a: Forretress
+|-ability|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/100
+|move|p2a: Forretress|Gyro Ball|p1a: Latios
+|-damage|p1a: Latios|12/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|-enditem|p2a: Forretress|Custap Berry|[eat]
+|-activate|p2a: Forretress|item: Custap Berry|[consumed]
+|
+|move|p2a: Forretress|Explosion|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p2a: Forretress
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|switch|p2a: Ninetales|Ninetales, F|64/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|25
+|
+|move|p2a: Ninetales|Energy Ball|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|70/100
+|-damage|p2a: Ninetales|55/100|[from] item: Life Orb
+|move|p1a: Vaporeon|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|76/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Ninetales|Energy Ball|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|19/100
+|-damage|p2a: Ninetales|11/100|[from] item: Life Orb
+|move|p1a: Vaporeon|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|27
+|
+|move|p2a: Charizard|Flamethrower|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|24/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|28
+|
+|move|p2a: Charizard|Flamethrower|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|11/100
+|move|p1a: Politoed|Hydro Pump|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|win|CroCoeur
+|raw|CroCoeur's rating: 1286 &rarr; <strong>1314</strong><br />(+28 for winning)
+|raw|Kaiser Choulio's rating: 1331 &rarr; <strong>1309</strong><br />(-22 for losing)
+|l|☆Kaiser Choulio

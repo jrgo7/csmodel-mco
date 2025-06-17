@@ -1,0 +1,416 @@
+|j|☆Machine Gun Dragon
+|j|☆BUMBACLAAT
+|player|p1|Machine Gun Dragon|ryuki|1523
+|player|p2|BUMBACLAAT|200|1390
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Starmie|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Dusclops, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BUMBACLAAT)
+|inactive|Machine Gun Dragon has 120 seconds left.
+|inactive|Machine Gun Dragon has 90 seconds left.
+|inactive|Machine Gun Dragon has 60 seconds left.
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: NO TEETH|Landorus-Therian, M|100/100
+|-ability|p2a: NO TEETH|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|1
+|
+|move|p2a: NO TEETH|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|56/100
+|
+|switch|p2a: Dusclops|Dusclops, M, shiny|100/100|[from]move: U-turn
+|-ability|p2a: Dusclops|Pressure
+|move|p1a: Breloom|Spore|p2a: Dusclops
+|-status|p2a: Dusclops|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: NO TEETH|Landorus-Therian, M|100/100
+|-ability|p2a: NO TEETH|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: NO TEETH|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Machine Gun Dragon|move: Stealth Rock
+|move|p1a: Garchomp|Stealth Rock|p2a: NO TEETH
+|-sidestart|p2: BUMBACLAAT|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|52/100
+|
+|upkeep
+|turn|6
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|switch|p2a: Dusclops|Dusclops, M, shiny|100/100 slp
+|-damage|p2a: Dusclops|88/100 slp|[from] Stealth Rock
+|-ability|p2a: Dusclops|Pressure
+|move|p1a: Starmie|Rapid Spin|p2a: Dusclops
+|-immune|p2a: Dusclops
+|
+|upkeep
+|turn|7
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Dusclops|[miss]
+|-miss|p1a: Starmie|p2a: Dusclops
+|cant|p2a: Dusclops|slp
+|move|p2a: Dusclops|Sleep Talk|p2a: Dusclops
+|move|p2a: Dusclops|Will-O-Wisp|p1a: Starmie|[from]Sleep Talk
+|-status|p1a: Starmie|brn
+|
+|-damage|p1a: Starmie|40/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|-curestatus|p2a: Dusclops|slp|[msg]
+|move|p2a: Dusclops|Sleep Talk||[still]
+|-fail|p2a: Dusclops
+|
+|upkeep
+|turn|9
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Dusclops|Will-O-Wisp|p1a: Garchomp|[miss]
+|-miss|p2a: Dusclops|p1a: Garchomp
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|75/100|[from] Stealth Rock
+|move|p1a: Garchomp|Outrage|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Garchomp|Outrage|p2a: Forretress|[from]lockedmove
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|54/100
+|move|p2a: Forretress|Toxic Spikes|p1a: Garchomp
+|-sidestart|p1: Machine Gun Dragon|move: Toxic Spikes
+|
+|-heal|p2a: Forretress|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Garchomp|Outrage|p2a: Forretress|[from]lockedmove
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|26/100
+|-start|p1a: Garchomp|confusion|[fatigue]
+|move|p2a: Forretress|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|91/100
+|-damage|p2a: Forretress|14/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-sideend|p2: BUMBACLAAT|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-heal|p2a: Forretress|20/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: NO TEETH|Landorus-Therian, M|100/100
+|-ability|p2a: NO TEETH|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|70/100|[from] confusion
+|
+|upkeep
+|turn|14
+|
+|move|p2a: NO TEETH|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|14/100
+|-end|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Stealth Rock|p2a: NO TEETH
+|-sidestart|p2: BUMBACLAAT|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|move|p2a: NO TEETH|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|70/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Forretress|Forretress, M|20/100
+|-damage|p2a: Forretress|8/100|[from] Stealth Rock
+|move|p1a: Dragonite|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|63/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: NO TEETH|Landorus-Therian, M|100/100
+|-damage|p2a: NO TEETH|88/100|[from] Stealth Rock
+|-ability|p2a: NO TEETH|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|18
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: NO TEETH
+|-damage|p2a: NO TEETH|55/100
+|move|p2a: NO TEETH|Stone Edge|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|switch|p1a: Breloom|Breloom, F|56/100
+|-status|p1a: Breloom|psn
+|-damage|p1a: Breloom|50/100 psn|[from] Stealth Rock
+|turn|19
+|inactive|Machine Gun Dragon has 120 seconds left.
+|inactive|BUMBACLAAT has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|94/100
+|-damage|p2a: Tyranitar|82/100|[from] Stealth Rock
+|move|p1a: Breloom|Bullet Seed|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|48/100
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-hitcount|p2a: Tyranitar|3
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|44/100 psn|[from] Sandstorm
+|-damage|p1a: Breloom|32/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: NO TEETH|Landorus-Therian, M|55/100
+|-damage|p2a: NO TEETH|42/100|[from] Stealth Rock
+|-ability|p2a: NO TEETH|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|20
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|switch|p1a: Scizor|Scizor, M|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|move|p2a: NO TEETH|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|inactive|BUMBACLAAT has 120 seconds left.
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|switch|p2a: Dusclops|Dusclops, M, shiny|88/100
+|-damage|p2a: Dusclops|76/100|[from] Stealth Rock
+|-ability|p2a: Dusclops|Pressure
+|move|p1a: Scizor|Superpower|p2a: Dusclops
+|-immune|p2a: Dusclops
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusclops|70/100|[from] Sandstorm
+|upkeep
+|turn|22
+|inactive|BUMBACLAAT has 120 seconds left.
+|inactive|Machine Gun Dragon has 120 seconds left.
+|
+|switch|p1a: Breloom|Breloom, F|32/100 psn
+|-damage|p1a: Breloom|26/100 psn|[from] Stealth Rock
+|move|p2a: Dusclops|Night Shade|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusclops|64/100|[from] Sandstorm
+|upkeep
+|inactive|Machine Gun Dragon has 90 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|14/100
+|-status|p1a: Garchomp|psn
+|-damage|p1a: Garchomp|8/100 psn|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Garchomp|Outrage|p2a: Dusclops
+|-crit|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|faint|p2a: Dusclops
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garchomp|0 fnt|[from] psn
+|faint|p1a: Garchomp
+|upkeep
+|c|☆BUMBACLAAT|lol
+|c|☆BUMBACLAAT|wow
+|c|☆Machine Gun Dragon|useless
+|inactive|BUMBACLAAT has 120 seconds left.
+|c|☆BUMBACLAAT|dumb poopy.got
+|inactive|Machine Gun Dragon has 60 seconds left.
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|switch|p2a: NO TEETH|Landorus-Therian, M|42/100
+|-damage|p2a: NO TEETH|30/100|[from] Stealth Rock
+|-ability|p2a: NO TEETH|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|-status|p1a: Volcarona|psn
+|turn|24
+|inactive|Machine Gun Dragon has 60 seconds left.
+|
+|move|p2a: NO TEETH|Earthquake|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Machine Gun Dragon has 60 seconds left.
+|
+|switch|p1a: Scizor|Scizor, M|21/100
+|-damage|p1a: Scizor|9/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Scizor|Bullet Punch|p2a: NO TEETH
+|-damage|p2a: NO TEETH|0 fnt
+|faint|p2a: NO TEETH
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆BUMBACLAAT|gg chump
+|
+|switch|p2a: Mob Piru|Heatran, F, shiny|100/100
+|-damage|p2a: Mob Piru|88/100|[from] Stealth Rock
+|turn|26
+|c|☆Machine Gun Dragon|gg
+|inactive|BUMBACLAAT has 120 seconds left.
+|
+|move|p2a: Mob Piru|Protect|p2a: Mob Piru
+|-singleturn|p2a: Mob Piru|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Mob Piru
+|-activate|p2a: Mob Piru|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Mob Piru|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|BUMBACLAAT has 120 seconds left.
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Mob Piru
+|-resisted|p2a: Mob Piru
+|-damage|p2a: Mob Piru|83/100
+|move|p2a: Mob Piru|Substitute|p2a: Mob Piru
+|-start|p2a: Mob Piru|Substitute
+|-damage|p2a: Mob Piru|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Mob Piru|64/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Mob Piru|Protect|p2a: Mob Piru
+|-singleturn|p2a: Mob Piru|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Mob Piru
+|-activate|p2a: Mob Piru|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Mob Piru|70/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|j| zSpxdes 夢
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Mob Piru
+|-resisted|p2a: Mob Piru
+|-activate|p2a: Mob Piru|Substitute|[damage]
+|move|p2a: Mob Piru|Lava Plume|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Mob Piru|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|40/100 brn
+|-damage|p1a: Starmie|27/100 brn|[from] Stealth Rock
+|turn|30
+|inactive|Machine Gun Dragon has 90 seconds left.
+|-message|Machine Gun Dragon forfeited.
+|
+|win|BUMBACLAAT
+|l|☆Machine Gun Dragon
+|j| Decis
+|l| Decis
+|raw|Machine Gun Dragon's rating: 1523 &rarr; <strong>1496</strong><br />(-27 for losing)
+|raw|BUMBACLAAT's rating: 1390 &rarr; <strong>1418</strong><br />(+28 for winning)

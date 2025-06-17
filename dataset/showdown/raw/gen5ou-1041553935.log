@@ -1,0 +1,253 @@
+|j|☆isabela200
+|j|☆Ditto The Hoe
+|player|p1|isabela200|183|1321
+|player|p2|Ditto The Hoe|101|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Breloom, M|item
+|poke|p2|Azelf|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Scizor, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Salamence, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by isabela200)
+|c|☆Ditto The Hoe|glhf
+|c|☆isabela200|hf
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|43/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Azelf
+|-sidestart|p2: Ditto The Hoe|move: Stealth Rock
+|
+|-heal|p1a: Jirachi|49/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: isabela200|move: Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|52/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|46/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p2a: Azelf|Explosion|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|55/100
+|faint|p2a: Azelf
+|move|p1a: Tyranitar|Pursuit|p2: Azelf|[notarget]
+|-fail|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|63/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Landorus|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Focus Punch|p1a: Landorus
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem|[move] Focus Punch
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|57/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p2a: Breloom|Mach Punch|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|33/100
+|move|p1a: Landorus|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Salamence|Dragon Claw|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|70/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|49/100
+|-damage|p1a: Jirachi|43/100|[from] Stealth Rock
+|turn|8
+|j| Soarin
+|
+|move|p2a: Salamence|Dragon Claw|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|15/100
+|move|p1a: Jirachi|Icy Wind|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|4/100
+|-unboost|p2a: Salamence|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|0 fnt|[from] Sandstorm
+|faint|p2a: Salamence
+|-heal|p1a: Jirachi|21/100|[from] item: Leftovers
+|upkeep
+|l| Soarin
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|24/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|18/100|[from] Sandstorm
+|-damage|p1a: Keldeo|82/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: Dragonite|Outrage|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|12/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Dragonite|Outrage|p1a: Breloom|[from]lockedmove
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|6/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|55/100
+|-damage|p1a: Tyranitar|42/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Dragonite|Outrage|p1a: Tyranitar|[from]lockedmove
+|-damage|p1a: Tyranitar|0 fnt
+|-start|p2a: Dragonite|confusion|[fatigue]
+|faint|p1a: Tyranitar
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-end|p2a: Dragonite|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|0 fnt|[from] Sandstorm
+|faint|p2a: Dragonite
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Latios
+|-damage|p1a: Latios|44/100
+|move|p1a: Latios|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-damage|p1a: Latios|34/100|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|win|isabela200
+|c|☆Ditto The Hoe|gg bro
+|c|☆Ditto The Hoe|wp
+|l|☆Ditto The Hoe
+|c|☆isabela200|gg
+|raw|isabela200's rating: 1333 &rarr; <strong>1354</strong><br />(+21 for winning)
+|raw|Ditto The Hoe's rating: 1356 &rarr; <strong>1335</strong><br />(-21 for losing)

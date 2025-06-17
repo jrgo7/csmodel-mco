@@ -1,0 +1,118 @@
+|j|☆Weekend Wars
+|j|☆PStargazer
+|player|p1|Weekend Wars|149
+|player|p2|PStargazer|#yellow
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Quagsire, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Heatran, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Weekend Wars)
+|
+|start
+|switch|p1a: .cruel|Tentacruel, M|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Earthquake|p1a: .cruel
+|-supereffective|p1a: .cruel
+|-damage|p1a: .cruel|0
+|faint|p1a: .cruel
+|
+|upkeep
+|
+|switch|p1a: .Quag|Quagsire, M|100/100
+|turn|2
+|
+|move|p2a: Garchomp|Earthquake|p1a: .Quag
+|-crit|p1a: .Quag
+|-damage|p1a: .Quag|0
+|faint|p1a: .Quag
+|
+|upkeep
+|
+|switch|p1a: .bluestar|Dragonite, M|100/100
+|turn|3
+|
+|switch|p2a: Skarmory|Skarmory, F, shiny|100/100
+|switch|p1a: .nattorei|Ferrothorn, F|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Skarmory|Spikes|p1a: .nattorei
+|-sidestart|p1: Weekend Wars|Spikes
+|move|p1a: .nattorei|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: PStargazer|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: .nattorei|Spikes|p2a: Heatran
+|-sidestart|p2: PStargazer|Spikes
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Heatran|Stealth Rock|p1a: .nattorei
+|-sidestart|p1: Weekend Wars|move: Stealth Rock
+|move|p1a: .nattorei|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|
+|-heal|p2a: Heatran|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: .blica|Chansey, F|100/100
+|-damage|p1a: .blica|88/100|[from] Stealth Rock
+|-damage|p1a: .blica|76/100|[from] Spikes
+|move|p2a: Heatran|Toxic|p1a: .blica
+|-status|p1a: .blica|tox
+|
+|-damage|p1a: .blica|69/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: .nattorei|Ferrothorn, F|100/100
+|-damage|p1a: .nattorei|88/100|[from] Spikes
+|-damage|p1a: .nattorei|82/100|[from] Stealth Rock
+|move|p2a: Heatran|Lava Plume|p1a: .nattorei
+|-supereffective|p1a: .nattorei
+|-damage|p1a: .nattorei|0
+|faint|p1a: .nattorei
+|
+|upkeep
+|-message|Weekend Wars forfeited.
+|
+|win|PStargazer
+|l|☆Weekend Wars
+|raw|Weekend Wars's rating: 1545 &rarr; <strong>1513</strong><br />(-32 for losing)
+|raw|PStargazer's rating: 1296 &rarr; <strong>1337</strong><br />(+41 for winning)

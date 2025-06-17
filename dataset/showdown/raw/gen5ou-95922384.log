@@ -1,0 +1,280 @@
+|j|☆dark web uzi
+|j|☆grizou fangirl
+|player|p1|dark web uzi|roxie|1353
+|player|p2|grizou fangirl|8|1523
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Metagross|item
+|poke|p1|Azelf|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Excadrill, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Azelf|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: grizou fangirl|move: Stealth Rock
+|move|p2a: Tyranitar|Stealth Rock|p1a: Azelf
+|-sidestart|p1: dark web uzi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azelf|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p1a: Azelf|Explosion|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|75/100
+|faint|p1a: Azelf
+|move|p2a: Tyranitar|Crunch|p1: Azelf|[notarget]
+|-fail|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|-damage|p1a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|3
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Haxorus|Outrage|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Haxorus|82/100|[from] Sandstorm
+|-heal|p2a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Haxorus|Outrage|p2a: Skarmory|[from]lockedmove
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Haxorus|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|5
+|
+|move|p1a: Haxorus|Outrage|p2a: Excadrill|[from]lockedmove
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|29/100
+|-start|p1a: Haxorus|confusion|[fatigue]
+|move|p2a: Excadrill|Rapid Spin|p1a: Haxorus
+|-damage|p1a: Haxorus|68/100
+|-sideend|p2: grizou fangirl|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Haxorus|62/100|[from] Sandstorm
+|-heal|p2a: Excadrill|35/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|-activate|p1a: Haxorus|confusion
+|-damage|p1a: Haxorus|28/100|[from] confusion
+|move|p2a: Excadrill|Earthquake|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|41/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|7
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Landorus|U-turn|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|48/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Landorus|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|18/100
+|
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|75/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|9
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Landorus|Earthquake|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|30/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Landorus|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|11
+|
+|move|p1a: Landorus|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[from] ability: Levitate
+|move|p2a: Latios|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Latios|91/100|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|85/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|-damage|p1a: Metagross|95/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Latios|Surf|p1a: Metagross
+|-damage|p1a: Metagross|40/100
+|-damage|p2a: Latios|75/100|[from] item: Life Orb
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|69/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|move|p1a: Metagross|Ice Punch|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Metagross|30/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|14
+|
+|switch|p2a: Tyranitar|Tyranitar, M|75/100
+|move|p1a: Metagross|Zen Headbutt|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Metagross|Meteor Mash|p2a: Amoonguss|[miss]
+|-miss|p1a: Metagross|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p2a: Tyranitar|Tyranitar, M|75/100
+|move|p1a: Metagross|Zen Headbutt|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Metagross|Zen Headbutt|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p1a: Metagross|20/100|[from] item: Life Orb
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|75/100
+|turn|18
+|
+|move|p1a: Metagross|Meteor Mash|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Metagross|10/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|19
+|
+|move|p1a: Metagross|Zen Headbutt|p2a: Mienshao
+|-supereffective|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|-damage|p1a: Metagross|0 fnt|[from] item: Life Orb
+|faint|p2a: Mienshao
+|faint|p1a: Metagross
+|
+|win|dark web uzi
+|raw|dark web uzi's rating: 1353 &rarr; <strong>1382</strong><br />(+29 for winning)
+|raw|grizou fangirl's rating: 1523 &rarr; <strong>1494</strong><br />(-29 for losing)
+|l|☆grizou fangirl
+|l|☆dark web uzi
+|j|☆dark web uzi
+|player|p1|dark web uzi|roxie

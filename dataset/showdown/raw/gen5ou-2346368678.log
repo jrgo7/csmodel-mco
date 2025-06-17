@@ -1,0 +1,328 @@
+|j|☆RAlexa21th
+|j|☆tokiiiiiiii
+|player|p1|RAlexa21th|138
+|player|p2|tokiiiiiiii|28
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Latios, M|item
+|poke|p1|Keldeo|item
+|poke|p2|Jirachi|item
+|poke|p2|Donphan, M|item
+|poke|p2|Haxorus, F|item
+|poke|p2|Porygon2|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Volcarona, M|item
+|teampreview
+|c|☆tokiiiiiiii|gl hf
+|c|☆RAlexa21th|glhf
+|
+|start
+|switch|p1a: Pointy|Mamoswine, F|100/100
+|switch|p2a: Heartbreak|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Heartbreak
+|-item|p2a: Heartbreak|Air Balloon
+|turn|1
+|
+|move|p2a: Heartbreak|Solar Beam|p1a: Pointy|[still]
+|-prepare|p2a: Heartbreak|Solar Beam|p1a: Pointy
+|-anim|p2a: Heartbreak|Solar Beam|p1a: Pointy
+|-supereffective|p1a: Pointy
+|-damage|p1a: Pointy|19/100
+|move|p1a: Pointy|Stealth Rock|p2a: Heartbreak
+|-sidestart|p2: tokiiiiiiii|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Pointy|Ice Shard|p2a: Heartbreak
+|-resisted|p2a: Heartbreak
+|-damage|p2a: Heartbreak|86/100
+|-enditem|p2a: Heartbreak|Air Balloon
+|move|p2a: Heartbreak|Fire Blast|p1a: Pointy
+|-supereffective|p1a: Pointy
+|-damage|p1a: Pointy|0 fnt
+|faint|p1a: Pointy
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Mega Flygon|Garchomp, F|100/100
+|turn|3
+|
+|move|p1a: Mega Flygon|Earthquake|p2a: Heartbreak
+|-supereffective|p2a: Heartbreak
+|-damage|p2a: Heartbreak|0 fnt
+|faint|p2a: Heartbreak
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: assembler|Donphan, M|100/100
+|-damage|p2a: assembler|94/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: assembler|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|98/100
+|-sideend|p2: tokiiiiiiii|Stealth Rock|[from] move: Rapid Spin|[of] p2a: assembler
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: assembler|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Flying Rocks|Latios, M|100/100
+|move|p2a: assembler|Stealth Rock|p1a: Flying Rocks
+|-sidestart|p1: RAlexa21th|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flying Rocks|95/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Free BASIC|Porygon2|100/100
+|-ability|p2a: Free BASIC|Levitate|[from] ability: Trace|[of] p1a: Flying Rocks
+|move|p1a: Flying Rocks|Calm Mind|p1a: Flying Rocks
+|-boost|p1a: Flying Rocks|spa|1
+|-boost|p1a: Flying Rocks|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flying Rocks|89/100|[from] Sandstorm
+|-damage|p2a: Free BASIC|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p1a: Flying Rocks|Draco Meteor|p2a: Free BASIC|[miss]
+|-miss|p1a: Flying Rocks|p2a: Free BASIC
+|move|p2a: Free BASIC|Toxic|p1a: Flying Rocks
+|-status|p1a: Flying Rocks|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flying Rocks|83/100 tox|[from] Sandstorm
+|-damage|p2a: Free BASIC|88/100|[from] Sandstorm
+|-damage|p1a: Flying Rocks|77/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Flying Rocks|Draco Meteor|p2a: Free BASIC
+|-crit|p2a: Free BASIC
+|-damage|p2a: Free BASIC|0 fnt
+|-unboost|p1a: Flying Rocks|spa|2
+|-damage|p1a: Flying Rocks|67/100 tox|[from] item: Life Orb
+|faint|p2a: Free BASIC
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flying Rocks|61/100 tox|[from] Sandstorm
+|-damage|p1a: Flying Rocks|49/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: PC-98|Jirachi|100/100
+|turn|9
+|
+|switch|p1a: Master of Magnet|Magnezone|100/100
+|-damage|p1a: Master of Magnet|94/100|[from] Stealth Rock
+|move|p2a: PC-98|Calm Mind|p2a: PC-98
+|-boost|p2a: PC-98|spa|1
+|-boost|p2a: PC-98|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|c|☆tokiiiiiiii|welcome to die
+|
+|move|p1a: Master of Magnet|Volt Switch|p2a: PC-98
+|-damage|p2a: PC-98|78/100
+|
+|switch|p1a: Mega Flygon|Garchomp, F|100/100
+|-damage|p1a: Mega Flygon|94/100|[from] Stealth Rock
+|move|p2a: PC-98|Hidden Power|p1a: Mega Flygon
+|-damage|p1a: Mega Flygon|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: assembler|Donphan, M|100/100
+|move|p1a: Mega Flygon|Earthquake|p2a: assembler
+|-damage|p2a: assembler|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: assembler|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Stormtrooper|Keldeo|100/100
+|-damage|p1a: Stormtrooper|94/100|[from] Stealth Rock
+|move|p2a: assembler|Earthquake|p1a: Stormtrooper
+|-damage|p1a: Stormtrooper|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Stormtrooper|39/100|[from] Sandstorm
+|-heal|p2a: assembler|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Stormtrooper|Hydro Pump|p2a: assembler
+|-supereffective|p2a: assembler
+|-damage|p2a: assembler|0 fnt
+|faint|p2a: assembler
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Stormtrooper|33/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: JAPH|Haxorus, F|100/100
+|-ability|p2a: JAPH|Mold Breaker
+|turn|14
+|
+|switch|p1a: Master of Magnet|Magnezone|94/100
+|-damage|p1a: Master of Magnet|88/100|[from] Stealth Rock
+|move|p2a: JAPH|Dragon Dance|p2a: JAPH
+|-boost|p2a: JAPH|atk|1
+|-boost|p2a: JAPH|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: JAPH|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p2a: JAPH|Low Kick|p1a: Master of Magnet
+|-supereffective|p1a: Master of Magnet
+|-damage|p1a: Master of Magnet|0 fnt
+|faint|p1a: Master of Magnet
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: JAPH|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Mega Flygon|Garchomp, F|55/100
+|-damage|p1a: Mega Flygon|48/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Mega Flygon|Dragon Claw|p2a: JAPH
+|-supereffective|p2a: JAPH
+|-damage|p2a: JAPH|0 fnt
+|faint|p2a: JAPH
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: .flow|Volcarona, M|100/100
+|turn|17
+|
+|move|p1a: Mega Flygon|Dragon Claw|p2a: .flow
+|-damage|p2a: .flow|58/100
+|-status|p1a: Mega Flygon|brn|[from] ability: Flame Body|[of] p2a: .flow
+|move|p2a: .flow|Quiver Dance|p2a: .flow
+|-boost|p2a: .flow|spa|1
+|-boost|p2a: .flow|spd|1
+|-boost|p2a: .flow|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: .flow|52/100|[from] Sandstorm
+|-damage|p1a: Mega Flygon|36/100 brn|[from] brn
+|upkeep
+|turn|18
+|c|☆tokiiiiiiii|sorry
+|
+|move|p1a: Mega Flygon|Dragon Claw|p2a: .flow
+|-crit|p2a: .flow
+|-damage|p2a: .flow|8/100
+|move|p2a: .flow|Quiver Dance|p2a: .flow
+|-boost|p2a: .flow|spa|1
+|-boost|p2a: .flow|spd|1
+|-boost|p2a: .flow|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: .flow|2/100|[from] Sandstorm
+|-damage|p1a: Mega Flygon|24/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: .flow|Rest|p2a: .flow
+|-status|p2a: .flow|slp
+|-heal|p2a: .flow|100/100 slp|[silent]
+|-status|p2a: .flow|slp|[from] move: Rest
+|-enditem|p2a: .flow|Chesto Berry|[eat]
+|-curestatus|p2a: .flow|slp|[msg]
+|move|p1a: Mega Flygon|Dragon Claw|p2a: .flow
+|-damage|p2a: .flow|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: .flow|72/100|[from] Sandstorm
+|-damage|p1a: Mega Flygon|11/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: .flow|Bug Buzz|p1a: Mega Flygon
+|-damage|p1a: Mega Flygon|0 fnt
+|faint|p1a: Mega Flygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: .flow|66/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|98/100
+|-damage|p1a: Tyranitar|86/100|[from] Stealth Rock
+|turn|21
+|j| Pilif
+|
+|move|p2a: .flow|Bug Buzz|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: .flow|60/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Stormtrooper|Keldeo|33/100
+|-damage|p1a: Stormtrooper|27/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: .flow|Bug Buzz|p1a: Stormtrooper
+|-resisted|p1a: Stormtrooper
+|-damage|p1a: Stormtrooper|0 fnt
+|faint|p1a: Stormtrooper
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: .flow|54/100|[from] Sandstorm
+|upkeep
+|c|☆RAlexa21th|gg
+|
+|switch|p1a: Flying Rocks|Latios, M|49/100 tox
+|-damage|p1a: Flying Rocks|36/100 tox|[from] Stealth Rock
+|turn|23
+|c|☆tokiiiiiiii|gg wp
+|l| Pilif
+|
+|move|p2a: .flow|Bug Buzz|p1a: Flying Rocks
+|-supereffective|p1a: Flying Rocks
+|-damage|p1a: Flying Rocks|0 fnt
+|faint|p1a: Flying Rocks
+|
+|win|tokiiiiiiii
+|raw|RAlexa21th's rating: 1321 &rarr; <strong>1303</strong><br />(-18 for losing)
+|raw|tokiiiiiiii's rating: 1355 &rarr; <strong>1373</strong><br />(+18 for winning)

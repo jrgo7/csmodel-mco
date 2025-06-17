@@ -1,0 +1,474 @@
+|j|☆CroCoeur
+|j|☆EnWrynn
+|player|p1|CroCoeur|161
+|player|p2|EnWrynn|165
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Starmie|item
+|poke|p2|Magnezone|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Jirachi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|inactive|EnWrynn has 135 seconds left.
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Melanchomp|Garchomp, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p1a: Politoed|Ice Beam|p2a: Melanchomp
+|-supereffective|p2a: Melanchomp
+|-enditem|p2a: Melanchomp|Yache Berry|[eat]
+|-enditem|p2a: Melanchomp|Yache Berry|[weaken]
+|-damage|p2a: Melanchomp|47/100
+|-status|p2a: Melanchomp|frz
+|cant|p2a: Melanchomp|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Jacques|Jirachi|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Jacques
+|-resisted|p2a: Jacques
+|-crit|p2a: Jacques
+|-damage|p2a: Jacques|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|c|☆EnWrynn|can you ?
+|
+|move|p2a: Jacques|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|75/100
+|
+|switch|p2a: Magnezone Jr|Magnezone|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Magnezone Jr
+|-resisted|p2a: Magnezone Jr
+|-damage|p2a: Magnezone Jr|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone Jr|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Magnezone Jr|Flash Cannon|p1a: Celebi
+|-damage|p1a: Celebi|70/100
+|-unboost|p1a: Celebi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|76/100|[from] item: Leftovers
+|-heal|p2a: Magnezone Jr|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Melanchomp|Garchomp, F|47/100 frz
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Melanchomp|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|82/100|[from] item: Leftovers
+|-start|p2a: Melanchomp|perish3
+|-start|p1a: Celebi|perish3
+|upkeep
+|turn|6
+|inactive|CroCoeur has 135 seconds left.
+|
+|switch|p1a: Politoed|Politoed, M|75/100
+|cant|p2a: Melanchomp|frz
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Melanchomp|perish2
+|upkeep
+|turn|7
+|
+|move|p1a: Politoed|Ice Beam|p2a: Melanchomp
+|-supereffective|p2a: Melanchomp
+|-damage|p2a: Melanchomp|0 fnt
+|faint|p2a: Melanchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jacques|Jirachi|76/100
+|turn|8
+|inactive|CroCoeur has 135 seconds left.
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Jacques|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|77/100
+|
+|switch|p2a: T Rex|Kyurem-Black, shiny|100/100
+|-ability|p2a: T Rex|Teravolt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Magnezone Jr|Magnezone|99/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone Jr|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Magnezone Jr|Substitute|p2a: Magnezone Jr
+|-start|p2a: Magnezone Jr|Substitute
+|-damage|p2a: Magnezone Jr|76/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Magnezone Jr
+|-sidestart|p2: EnWrynn|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone Jr|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Magnezone Jr|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|65/100
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone Jr
+|-sidestart|p2: EnWrynn|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone Jr|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Magnezone Jr|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|32/100
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone Jr
+|-sidestart|p2: EnWrynn|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone Jr|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Magnezone Jr|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|2/100
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone Jr
+|-sidestart|p2: EnWrynn|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone Jr|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|8/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Magnezone Jr|Flash Cannon|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone Jr|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|82/100
+|turn|15
+|
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Magnezone Jr|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Magnezone Jr|Flash Cannon|p1a: Celebi
+|-damage|p1a: Celebi|55/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|62/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish3
+|-start|p2a: Magnezone Jr|perish3
+|upkeep
+|turn|16
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|move|p2a: Magnezone Jr|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|90/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish2
+|-start|p2a: Magnezone Jr|perish2
+|upkeep
+|turn|17
+|
+|switch|p2a: Janvier 2019|Starmie, shiny|100/100
+|-damage|p2a: Janvier 2019|88/100|[from] Stealth Rock
+|-damage|p2a: Janvier 2019|63/100|[from] Spikes
+|move|p1a: Celebi|Giga Drain|p2a: Janvier 2019
+|-supereffective|p2a: Janvier 2019
+|-damage|p2a: Janvier 2019|0 fnt
+|-heal|p1a: Celebi|100/100|[from] drain|[of] p2a: Janvier 2019
+|faint|p2a: Janvier 2019
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Celebi|perish1
+|upkeep
+|
+|switch|p2a: Mauvais gout|Dragonite, M, shiny|100/100
+|-damage|p2a: Mauvais gout|76/100|[from] Stealth Rock
+|turn|18
+|inactive|CroCoeur has 135 seconds left.
+|
+|switch|p1a: Vaporeon|Vaporeon, F|83/100
+|move|p2a: Mauvais gout|Dragon Dance|p2a: Mauvais gout
+|-boost|p2a: Mauvais gout|atk|1
+|-boost|p2a: Mauvais gout|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Mauvais gout|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|23/100
+|move|p1a: Vaporeon|Roar|p2a: Mauvais gout
+|drag|p2a: Magnezone Jr|Magnezone|100/100
+|-damage|p2a: Magnezone Jr|76/100|[from] Spikes
+|-damage|p2a: Magnezone Jr|70/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|29/100|[from] item: Leftovers
+|-heal|p2a: Magnezone Jr|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|EnWrynn has 135 seconds left.
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Magnezone Jr|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|90/100|[from] item: Leftovers
+|-heal|p2a: Magnezone Jr|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Jacques|Jirachi|76/100
+|-damage|p2a: Jacques|51/100|[from] Spikes
+|-damage|p2a: Jacques|44/100|[from] Stealth Rock
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Jacques|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|96/100|[from] item: Leftovers
+|-start|p2a: Jacques|perish3
+|-start|p1a: Celebi|perish3
+|upkeep
+|turn|22
+|
+|move|p2a: Jacques|U-turn|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|22/100
+|
+|switch|p2a: T Rex|Kyurem-Black, shiny|100/100
+|-damage|p2a: T Rex|76/100|[from] Stealth Rock
+|-damage|p2a: T Rex|51/100|[from] Spikes
+|-ability|p2a: T Rex|Teravolt
+|move|p1a: Celebi|Psychic|p2a: T Rex
+|-damage|p2a: T Rex|21/100
+|-unboost|p2a: T Rex|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|28/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish2
+|upkeep
+|turn|23
+|inactive|EnWrynn has 135 seconds left.
+|
+|switch|p1a: Vaporeon|Vaporeon, F|29/100
+|move|p2a: T Rex|Fusion Bolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-damage|p2a: T Rex|11/100|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|CroCoeur has 135 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|24
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|move|p2a: T Rex|Fusion Bolt|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-damage|p2a: T Rex|1/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|57/100
+|move|p2a: T Rex|Fusion Bolt|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-damage|p2a: T Rex|0 fnt|[from] item: Life Orb
+|faint|p2a: T Rex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|inactive|EnWrynn has 135 seconds left.
+|
+|switch|p2a: Jacques|Jirachi|44/100
+|-damage|p2a: Jacques|20/100|[from] Spikes
+|-damage|p2a: Jacques|13/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Jacques|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|cant|p1a: Jirachi|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Politoed|Politoed, M|75/100
+|move|p2a: Jacques|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|24/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p2a: Jacques|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|29
+|
+|move|p1a: Latios|Surf|p2a: Jacques
+|-damage|p2a: Jacques|0 fnt
+|faint|p2a: Jacques
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mauvais gout|Dragonite, M, shiny|76/100
+|-damage|p2a: Mauvais gout|51/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Jirachi|Jirachi|54/100
+|move|p2a: Mauvais gout|Dragon Dance|p2a: Mauvais gout
+|-boost|p2a: Mauvais gout|atk|1
+|-boost|p2a: Mauvais gout|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Mauvais gout|Dragon Dance|p2a: Mauvais gout
+|-boost|p2a: Mauvais gout|atk|1
+|-boost|p2a: Mauvais gout|spe|1
+|move|p1a: Jirachi|Thunder|p2a: Mauvais gout
+|-damage|p2a: Mauvais gout|23/100
+|-status|p2a: Mauvais gout|par
+|-enditem|p2a: Mauvais gout|Lum Berry|[eat]
+|-curestatus|p2a: Mauvais gout|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Mauvais gout|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|33
+|
+|move|p1a: Latios|Draco Meteor|p2a: Mauvais gout
+|-supereffective|p2a: Mauvais gout
+|-damage|p2a: Mauvais gout|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Mauvais gout
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|EnWrynn has 135 seconds left.
+|
+|switch|p2a: Magnezone Jr|Magnezone|82/100
+|-damage|p2a: Magnezone Jr|76/100|[from] Stealth Rock
+|-damage|p2a: Magnezone Jr|51/100|[from] Spikes
+|turn|34
+|
+|switch|p1a: Celebi|Celebi|28/100
+|move|p2a: Magnezone Jr|Flash Cannon|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone Jr|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|35
+|
+|move|p1a: Latios|Hidden Power|p2a: Magnezone Jr
+|-supereffective|p2a: Magnezone Jr
+|-damage|p2a: Magnezone Jr|0 fnt
+|faint|p2a: Magnezone Jr
+|
+|win|CroCoeur
+|raw|CroCoeur's rating: 1444 &rarr; <strong>1462</strong><br />(+18 for winning)
+|raw|EnWrynn's rating: 1408 &rarr; <strong>1390</strong><br />(-18 for losing)

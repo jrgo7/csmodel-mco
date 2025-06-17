@@ -1,0 +1,328 @@
+|j|Smallie Bigs34
+|j|cypressess
+|player|p1|Smallie Bigs34|2
+|player|p2|cypressess|244
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|4853,13413,45947,11652
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, F, shiny|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Breloom, M, shiny|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Starmie, shiny|item
+|poke|p1|Scizor, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Keldeo|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Volcarona|Volcarona, M|329/329
+|switch|p2a: Flygon|Flygon, M|301/301
+|turn|1
+|choice|move quiverdance|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|119/329
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|2
+|choice|move bugbuzz|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Dragonite|Dragonite, M|324/324
+|turn|3
+|choice|move dragondance|switch 2
+|
+|switch|p2a: Tyranitar|Tyranitar, M|371/371
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|304/324|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move outrage|move crunch
+|
+|move|p1a: Dragonite|Outrage|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|284/324|[from] sandstorm
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Skarmory|Skarmory, F|334/334
+|turn|5
+|choice|move outrage|move bravebird
+|
+|move|p1a: Dragonite|Outrage|p2a: Skarmory|[from]lockedmove
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|220/334
+|-damage|p1a: Dragonite|230/324|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Brave Bird|p1a: Dragonite
+|-damage|p1a: Dragonite|103/324
+|-damage|p2a: Skarmory|178/334|[from] recoil|[of] p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|83/324|[from] sandstorm
+|upkeep
+|turn|6
+|choice|move outrage|move roost
+|
+|move|p1a: Dragonite|Outrage|p2a: Skarmory|[from]lockedmove
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|50/334
+|-damage|p1a: Dragonite|29/324|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-start|p1a: Dragonite|confusion|[fatigue]
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-end|p1a: Dragonite|confusion
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|217/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|9/324|[from] sandstorm
+|upkeep
+|turn|7
+|choice|move firepunch|move roost
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|21/334
+|-damage|p1a: Dragonite|0 fnt|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|faint|p1a: Dragonite
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|188/334 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skarmory|147/334 brn|[from] brn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Starmie|Starmie, shiny|261/261
+|turn|8
+|choice|move hydropump|move stealthrock
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Starmie|235/261|[from] item: Life Orb
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|219/261|[from] sandstorm
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Flygon|Flygon, M|301/301
+|turn|9
+|choice|move icebeam|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|69/261
+|choice||switch 6
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|move|p1a: Starmie|Ice Beam|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|242/323
+|-damage|p1a: Starmie|43/261|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|27/261|[from] sandstorm
+|-damage|p2a: Keldeo|222/323|[from] sandstorm
+|-heal|p2a: Keldeo|242/323|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move hydropump|switch 5
+|
+|switch|p2a: Amoonguss|Amoonguss, F|429/429
+|move|p1a: Starmie|Hydro Pump|p2a: Amoonguss|[miss]
+|-miss|p1a: Starmie|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|11/261|[from] sandstorm
+|-damage|p2a: Amoonguss|403/429|[from] sandstorm
+|-heal|p2a: Amoonguss|429/429|[from] item: Black Sludge
+|upkeep
+|turn|11
+|choice|move icebeam|move hiddenpower
+|
+|move|p1a: Starmie|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|117/429
+|-damage|p1a: Starmie|0 fnt|[from] item: Life Orb
+|faint|p1a: Starmie
+|move|p2a: Amoonguss|Hidden Power|p1: Starmie|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|91/429|[from] sandstorm
+|-heal|p2a: Amoonguss|117/429|[from] item: Black Sludge
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|373/373
+|turn|12
+|choice|move earthquake|move gigadrain
+|
+|move|p1a: Garchomp|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Flygon|Flygon, M|301/301
+|turn|13
+|choice|switch 3|move outrage
+|
+|switch|p1a: Breloom|Breloom, M, shiny|261/261
+|move|p2a: Flygon|Outrage|p1a: Breloom
+|-damage|p1a: Breloom|56/261
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|40/261|[from] sandstorm
+|upkeep
+|turn|14
+|choice|move machpunch|move outrage
+|
+|move|p1a: Breloom|Mach Punch|p2a: Flygon
+|-damage|p2a: Flygon|150/301
+|move|p2a: Flygon|Outrage|p1a: Breloom|[from]lockedmove
+|-damage|p1a: Breloom|0 fnt
+|-start|p2a: Flygon|confusion|[fatigue]
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Scizor|Scizor, F|292/292
+|turn|15
+|choice|move bugbite|switch 5
+|
+|switch|p2a: Keldeo|Keldeo|242/323
+|move|p1a: Scizor|Bug Bite|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|115/323
+|-damage|p1a: Scizor|263/292|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|95/323|[from] sandstorm
+|-heal|p2a: Keldeo|115/323|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 3|move surf
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|373/373
+|move|p2a: Keldeo|Surf|p1a: Garchomp
+|-damage|p1a: Garchomp|183/373
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|95/323|[from] sandstorm
+|-heal|p2a: Keldeo|115/323|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move earthquake|switch 4
+|
+|switch|p2a: Alakazam|Alakazam, M|252/252
+|move|p1a: Garchomp|Earthquake|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/252
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|choice|move earthquake|move psychic
+|
+|move|p2a: Alakazam|Psychic|p1a: Garchomp
+|-damage|p1a: Garchomp|9/373
+|move|p1a: Garchomp|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Keldeo|Keldeo|115/323
+|turn|19
+|choice|move outrage|move surf
+|
+|move|p2a: Keldeo|Surf|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|95/323|[from] sandstorm
+|-heal|p2a: Keldeo|115/323|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Scizor|Scizor, F|263/292
+|turn|20
+|choice|move bugbite|move surf
+|
+|move|p2a: Keldeo|Surf|p1a: Scizor
+|-damage|p1a: Scizor|44/292
+|move|p1a: Scizor|Bug Bite|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-damage|p1a: Scizor|15/292|[from] item: Life Orb
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Flygon|Flygon, M|150/301
+|turn|21
+|choice|move bulletpunch|move earthquake
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|-damage|p1a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p2a: Flygon
+|faint|p1a: Scizor
+|
+|win|Smallie Bigs34
+|player|p1
+|player|p2
+|raw|Smallie Bigs34's rating: 1421 &rarr; <strong>1440</strong><br />(+19 for winning)
+|raw|cypressess's rating: 1403 &rarr; <strong>1384</strong><br />(-19 for losing)
+|c|☆Smallie Bigs34|gg

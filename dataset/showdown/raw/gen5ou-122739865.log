@@ -1,0 +1,831 @@
+|join|immatureprick
+|join|dtw
+|player|p1|immatureprick|121
+|player|p2|dtw|2
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, F, shiny
+|poke|p1|Gliscor, F, shiny
+|poke|p1|Tentacruel, F, shiny
+|poke|p1|Chansey, F
+|poke|p1|Ferrothorn, F, shiny
+|poke|p1|Bronzong, shiny
+|poke|p2|Dugtrio, M
+|poke|p2|Tyranitar, F
+|poke|p2|Hydreigon, F
+|poke|p2|Skarmory, F
+|poke|p2|Breloom, M
+|poke|p2|Alakazam, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Bronzong|Bronzong, shiny|338/338
+|switch|p2a: Skarmory|Skarmory, F|334/334
+|turn|1
+|
+|move|p2a: Skarmory|Taunt|p1a: Bronzong
+|-start|p1a: Bronzong|move: Taunt
+|cant|p1a: Bronzong|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|switch|p1a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Skarmory|Stealth Rock|p1a: Politoed
+|-sidestart|p1: immatureprick|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Skarmory|Spikes|p1a: Politoed
+|-sidestart|p1: immatureprick|Spikes
+|move|p1a: Politoed|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|220/334
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p2a: Skarmory|Spikes|p1a: Politoed
+|-sidestart|p1: immatureprick|Spikes
+|move|p1a: Politoed|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|94/334
+|-status|p2a: Skarmory|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Skarmory|53/334 brn|[from] brn
+|turn|5
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|Custap Berry
+|
+|switch|p1a: Tentacruel|Tentacruel, F, shiny|364/364
+|-damage|p1a: Tentacruel|319/364|[from] Stealth Rock
+|-damage|p1a: Tentacruel|259/364|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Tentacruel
+|-sidestart|p1: immatureprick|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|281/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|303/364|[from] item: Black Sludge
+|-damage|p2a: Skarmory|12/334 brn|[from] brn
+|turn|6
+|
+|switch|p2a: Dugtrio|Dugtrio, M|211/211
+|move|p1a: Tentacruel|Rapid Spin|p2a: Dugtrio
+|-damage|p2a: Dugtrio|193/211
+|-sideend|p1: immatureprick|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: immatureprick|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|325/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|347/364|[from] item: Black Sludge
+|turn|7
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|89/364
+|move|p1a: Tentacruel|Scald|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|111/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|133/364|[from] item: Black Sludge
+|
+|switch|p2a: Tyranitar|Tyranitar, F|342/342
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|8
+|
+|switch|p1a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tyranitar|Crunch|p1a: Politoed
+|-damage|p1a: Politoed|255/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|279/384|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Alakazam|Alakazam, F|251/251
+|move|p1a: Politoed|Scald|p2a: Alakazam
+|-damage|p2a: Alakazam|106/251
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|303/384|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Chansey|Chansey, F|704/704
+|move|p2a: Alakazam|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|505/704
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p2a: Alakazam|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|298/704
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|650/704
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|switch|p2a: Breloom|Breloom, M|264/264
+|move|p1a: Chansey|Seismic Toss|p2a: Breloom
+|-damage|p2a: Breloom|164/264
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|turn|13
+|
+|switch|p1a: Gliscor|Gliscor, F, shiny|354/354
+|move|p2a: Breloom|Spore|p1a: Gliscor
+|-status|p1a: Gliscor|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|197/264 tox|[from] ability: Poison Heal
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|351/351
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|131/264 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|164/264 tox|[from] ability: Poison Heal
+|turn|15
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|switch|p1a: Gliscor|Gliscor, F, shiny|354/354 slp
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|261/354 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|197/264 tox|[from] ability: Poison Heal
+|turn|16
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|cant|p1a: Gliscor|slp
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|167/354 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|230/264 tox|[from] ability: Poison Heal
+|turn|17
+|
+|-curestatus|p1a: Gliscor|slp
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|263/264 tox|[from] ability: Poison Heal
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|turn|18
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-damage|p1a: Gliscor|58/354 tox
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-fail|p1a: Gliscor|move: Substitute|[weak]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|102/354 tox|[from] ability: Poison Heal
+|turn|19
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|146/354 tox|[from] ability: Poison Heal
+|turn|20
+|
+|switch|p1a: Tentacruel|Tentacruel, F, shiny|133/364
+|move|p2a: Breloom|Facade|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Gliscor|Gliscor, F, shiny|146/354 tox
+|turn|21
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|190/354 tox|[from] ability: Poison Heal
+|turn|22
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-damage|p1a: Gliscor|69/354 tox
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-fail|p1a: Gliscor|move: Substitute|[weak]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|113/354 tox|[from] ability: Poison Heal
+|turn|23
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|157/354 tox|[from] ability: Poison Heal
+|turn|24
+|
+|switch|p1a: Chansey|Chansey, F|650/704
+|move|p2a: Breloom|Facade|p1a: Chansey
+|-damage|p1a: Chansey|409/704
+|
+|-weather|RainDance|[upkeep]
+|turn|25
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|704/704
+|move|p2a: Breloom|Focus Punch|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Politoed|Politoed, F, shiny|303/384
+|turn|26
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Breloom|Spore|p1a: Politoed
+|-activate|p1a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|327/384|[from] item: Leftovers
+|turn|27
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|switch|p1a: Gliscor|Gliscor, F, shiny|157/354 tox
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|60/354 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|104/354 tox|[from] ability: Poison Heal
+|turn|28
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|148/354 tox|[from] ability: Poison Heal
+|turn|29
+|
+|switch|p1a: Politoed|Politoed, F, shiny|327/384
+|move|p2a: Breloom|Facade|p1a: Politoed
+|-damage|p1a: Politoed|158/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|182/384|[from] item: Leftovers
+|turn|30
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Breloom|Focus Punch|p1a: Politoed
+|-activate|p1a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|206/384|[from] item: Leftovers
+|turn|31
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-fieldactivate|move: Perish Song
+|move|p2a: Breloom|Focus Punch|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-start|p2a: Breloom|perish3
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Gliscor|Gliscor, F, shiny|148/354 tox
+|turn|32
+|
+|switch|p2a: Skarmory|Skarmory, F|12/334 brn
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-fail|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|192/354 tox|[from] ability: Poison Heal
+|-damage|p2a: Skarmory|0 fnt|[from] brn
+|faint|p2a: Skarmory
+|
+|switch|p2a: Hydreigon|Hydreigon, F|325/325
+|turn|33
+|
+|switch|p1a: Bronzong|Bronzong, shiny|338/338
+|move|p2a: Hydreigon|Draco Meteor|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|231/338
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|293/325|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bronzong|252/338|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Hydreigon|Taunt|p1a: Bronzong
+|-start|p1a: Bronzong|move: Taunt
+|move|p1a: Bronzong|Hidden Power|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|191/325
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bronzong|273/338|[from] item: Leftovers
+|turn|35
+|
+|switch|p2a: Tyranitar|Tyranitar, F|342/342
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Bronzong|Hidden Power|p2a: Tyranitar
+|-damage|p2a: Tyranitar|312/342
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bronzong|294/338|[from] item: Leftovers
+|turn|36
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|351/351
+|move|p2a: Tyranitar|Crunch|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|245/351
+|-damage|p2a: Tyranitar|270/342|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|266/351|[from] item: Leftovers
+|turn|37
+|
+|switch|p2a: Alakazam|Alakazam, F|106/251
+|move|p1a: Ferrothorn|Power Whip|p2a: Alakazam|[miss]
+|-miss|p1a: Ferrothorn|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|287/351|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Alakazam|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|308/351|[from] item: Leftovers
+|
+|switch|p2a: Hydreigon|Hydreigon, F|191/325
+|turn|39
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Hydreigon|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Hydreigon
+|-start|p2a: Hydreigon|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|171/325|[from] sandstorm
+|-heal|p1a: Ferrothorn|329/351|[from] item: Leftovers
+|-damage|p2a: Hydreigon|131/325|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|351/351|[silent]
+|turn|40
+|
+|switch|p2a: Tyranitar|Tyranitar, F|270/342
+|move|p1a: Ferrothorn|Power Whip|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Hydreigon|Hydreigon, F|131/325
+|turn|41
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Hydreigon|99/325|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|79/325|[from] sandstorm
+|
+|switch|p1a: Bronzong|Bronzong, shiny|294/338
+|turn|42
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Hydreigon|Fire Blast|p1a: Bronzong
+|-activate|p1a: Bronzong|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|59/325|[from] sandstorm
+|-heal|p1a: Bronzong|315/338|[from] item: Leftovers
+|turn|43
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|73/338
+|-damage|p2a: Hydreigon|27/325|[from] item: Life Orb
+|move|p1a: Bronzong|Hidden Power|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bronzong|94/338|[from] item: Leftovers
+|
+|switch|p2a: Breloom|Breloom, M|264/264 tox
+|turn|44
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Breloom|Spore|p1a: Bronzong
+|-activate|p1a: Bronzong|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|115/338|[from] item: Leftovers
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|turn|45
+|
+|switch|p1a: Gliscor|Gliscor, F, shiny|192/354 tox
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|198/264 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|182/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|215/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|236/354 tox|[from] ability: Poison Heal
+|turn|46
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|199/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|232/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|280/354 tox|[from] ability: Poison Heal
+|turn|47
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-damage|p1a: Gliscor|156/354 tox
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|68/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|216/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|249/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|112/354 tox|[from] ability: Poison Heal
+|turn|48
+|chat|dtw|how much more sub protect pp do u have
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|233/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|156/354 tox|[from] ability: Poison Heal
+|turn|49
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|68/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|112/354 tox|[from] ability: Poison Heal
+|turn|50
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|156/354 tox|[from] ability: Poison Heal
+|turn|51
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|68/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|112/354 tox|[from] ability: Poison Heal
+|turn|52
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|156/354 tox|[from] ability: Poison Heal
+|turn|53
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|68/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|112/354 tox|[from] ability: Poison Heal
+|turn|54
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|156/354 tox|[from] ability: Poison Heal
+|turn|55
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-fail|p1a: Gliscor|move: Substitute
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|200/354 tox|[from] ability: Poison Heal
+|turn|56
+|chat|dtw|how much more sub protect pp do u have?
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|244/354 tox|[from] ability: Poison Heal
+|turn|57
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-damage|p1a: Gliscor|122/354 tox
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|34/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|78/354 tox|[from] ability: Poison Heal
+|turn|58
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Focus Punch|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|122/354 tox|[from] ability: Poison Heal
+|turn|59
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Ice Fang|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|166/354 tox|[from] ability: Poison Heal
+|turn|60
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|210/354 tox|[from] ability: Poison Heal
+|turn|61
+|
+|move|p2a: Breloom|Facade|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|248/264 tox|[from] sandstorm
+|-heal|p2a: Breloom|264/264 tox|[from] ability: Poison Heal
+|
+|switch|p1a: Bronzong|Bronzong, shiny|115/338
+|turn|62
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|198/264 tox
+|move|p1a: Bronzong|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|182/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|136/338|[from] item: Leftovers
+|-heal|p2a: Breloom|215/264 tox|[from] ability: Poison Heal
+|turn|63
+|
+|move|p2a: Breloom|Spore|p1a: Bronzong
+|-status|p1a: Bronzong|slp
+|cant|p1a: Bronzong|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|199/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|157/338 slp|[from] item: Leftovers
+|-heal|p2a: Breloom|232/264 tox|[from] ability: Poison Heal
+|turn|64
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|-curestatus|p1a: Bronzong|slp
+|move|p1a: Bronzong|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|100/264 tox
+|cant|p2a: Breloom|Focus Punch|Focus Punch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|84/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|178/338|[from] item: Leftovers
+|-heal|p2a: Breloom|117/264 tox|[from] ability: Poison Heal
+|turn|65
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Breloom|Spore|p1a: Bronzong
+|-activate|p1a: Bronzong|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|101/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|199/338|[from] item: Leftovers
+|-heal|p2a: Breloom|134/264 tox|[from] ability: Poison Heal
+|turn|66
+|
+|move|p2a: Breloom|Spore|p1a: Bronzong
+|-status|p1a: Bronzong|slp
+|cant|p1a: Bronzong|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|118/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|220/338 slp|[from] item: Leftovers
+|-heal|p2a: Breloom|151/264 tox|[from] ability: Poison Heal
+|turn|67
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|85/264 tox
+|-curestatus|p1a: Bronzong|slp
+|move|p1a: Bronzong|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|69/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|241/338|[from] item: Leftovers
+|-heal|p2a: Breloom|102/264 tox|[from] ability: Poison Heal
+|turn|68
+|
+|move|p2a: Breloom|Spore|p1a: Bronzong
+|-status|p1a: Bronzong|slp
+|cant|p1a: Bronzong|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|86/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|262/338 slp|[from] item: Leftovers
+|-heal|p2a: Breloom|119/264 tox|[from] ability: Poison Heal
+|turn|69
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|53/264 tox
+|cant|p1a: Bronzong|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|37/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|283/338 slp|[from] item: Leftovers
+|-heal|p2a: Breloom|70/264 tox|[from] ability: Poison Heal
+|turn|70
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|-curestatus|p1a: Bronzong|slp
+|move|p1a: Bronzong|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Focus Punch|p1a: Bronzong
+|-damage|p1a: Bronzong|43/338
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|54/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|64/338|[from] item: Leftovers
+|-heal|p2a: Breloom|87/264 tox|[from] ability: Poison Heal
+|turn|71
+|
+|move|p2a: Breloom|Spore|p1a: Bronzong
+|-status|p1a: Bronzong|slp
+|cant|p1a: Bronzong|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|71/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|85/338 slp|[from] item: Leftovers
+|-heal|p2a: Breloom|104/264 tox|[from] ability: Poison Heal
+|turn|72
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|38/264 tox
+|cant|p1a: Bronzong|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|22/264 tox|[from] sandstorm
+|-heal|p1a: Bronzong|106/338 slp|[from] item: Leftovers
+|-heal|p2a: Breloom|55/264 tox|[from] ability: Poison Heal
+|turn|73
+|chat|dtw|gg
+|chat|immatureprick|you were lucky
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|cant|p1a: Bronzong|slp
+|move|p2a: Breloom|Focus Punch|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|immatureprick's rating: 1407 &rarr; <strong>1381</strong><br />(-26 for losing)
+|raw|dtw's rating: 1299 &rarr; <strong>1332</strong><br />(+33 for winning)
+|chat|dtw|the crit would have happened sometime
+|chat|dtw|u pretty much put yourself in that position
+|chat|immatureprick|yea it could happen in my favour
+|chat|immatureprick|but it didnt
+|chat|dtw|the dangers of sub-protect 
+|chat|immatureprick|what would you do genious?
+|chat|dtw|*genius
+|chat|dtw|i probably would've used ice fang
+|chat|dtw|more
+|chat|immatureprick|you brit?i'm not
+|leave|immatureprick
+|player|p1

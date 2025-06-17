@@ -1,0 +1,451 @@
+|join|mynameisgreg
+|join|professorcaralho
+|player|p1|mynameisgreg|123
+|player|p2|professorcaralho|220
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Mamoswine, M
+|poke|p1|Abomasnow, M
+|poke|p1|Kyurem-Black
+|poke|p1|Tentacruel, M
+|poke|p1|Scizor, F
+|poke|p1|Chandelure, F
+|poke|p2|Politoed, M
+|poke|p2|Latios, M
+|poke|p2|Rotom-Wash
+|poke|p2|Breloom, M
+|poke|p2|Jirachi
+|poke|p2|Toxicroak, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|mynameisgreg|hihf
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|361/361
+|switch|p2a: rabogrande|Breloom, M|269/269
+|turn|1
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: rabogrande
+|-sidestart|p2: professorcaralho|move: Stealth Rock
+|move|p2a: rabogrande|Spore|p1a: Mamoswine
+|-status|p1a: Mamoswine|slp
+|
+|-status|p2a: rabogrande|tox|[from] item: Toxic Orb
+|turn|2
+|
+|switch|p1a: Abomasnow|Abomasnow, M|321/321
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: rabogrande|Substitute|p2a: rabogrande
+|-start|p2a: rabogrande|Substitute
+|-damage|p2a: rabogrande|202/269 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: rabogrande|186/269 tox|[from] hail
+|-heal|p2a: rabogrande|219/269 tox|[from] ability: Poison Heal
+|turn|3
+|
+|-singleturn|p2a: rabogrande|move: Focus Punch
+|switch|p1a: Chandelure|Chandelure, F|262/262
+|move|p2a: rabogrande|Focus Punch|p1a: Chandelure
+|-immune|p1a: Chandelure|[msg]
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Chandelure|246/262|[from] hail
+|-damage|p2a: rabogrande|203/269 tox|[from] hail
+|-heal|p1a: Chandelure|262/262|[from] item: Leftovers
+|-heal|p2a: rabogrande|236/269 tox|[from] ability: Poison Heal
+|turn|4
+|
+|move|p1a: Chandelure|Substitute|p1a: Chandelure
+|-start|p1a: Chandelure|Substitute
+|-damage|p1a: Chandelure|197/262
+|move|p2a: rabogrande|Bullet Seed|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-activate|p1a: Chandelure|Substitute|[damage]
+|-resisted|p1a: Chandelure
+|-activate|p1a: Chandelure|Substitute|[damage]
+|-resisted|p1a: Chandelure
+|-end|p1a: Chandelure|Substitute
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|173/262
+|-hitcount|p1a: Chandelure|4
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Chandelure|157/262|[from] hail
+|-damage|p2a: rabogrande|220/269 tox|[from] hail
+|-heal|p1a: Chandelure|173/262|[from] item: Leftovers
+|-heal|p2a: rabogrande|253/269 tox|[from] ability: Poison Heal
+|turn|5
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: rabogrande
+|-end|p2a: rabogrande|Substitute
+|move|p2a: rabogrande|Bullet Seed|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|149/262
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|123/262
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|99/262
+|-hitcount|p1a: Chandelure|3
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Chandelure|83/262|[from] hail
+|-damage|p2a: rabogrande|237/269 tox|[from] hail
+|-heal|p1a: Chandelure|99/262|[from] item: Leftovers
+|-heal|p2a: rabogrande|269/269 tox|[from] ability: Poison Heal
+|turn|6
+|
+|switch|p2a: brastemp|Rotom-Wash|303/303
+|-damage|p2a: brastemp|266/303|[from] Stealth Rock
+|move|p1a: Chandelure|Fire Blast|p2a: brastemp|[miss]
+|-miss|p1a: Chandelure|p2a: brastemp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: brastemp|248/303|[from] hail
+|-damage|p1a: Chandelure|83/262|[from] hail
+|-heal|p1a: Chandelure|99/262|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Abomasnow|Abomasnow, M|321/321
+|move|p2a: brastemp|Trick|p1a: Abomasnow
+|-activate|p2a: brastemp|move: Trick|[of] p1a: Abomasnow
+|-item|p1a: Abomasnow|Choice Scarf|[from] move: Trick
+|-item|p2a: brastemp|Expert Belt|[from] move: Trick
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: brastemp|230/303|[from] hail
+|turn|8
+|
+|move|p2a: brastemp|Thunder Wave|p1a: Abomasnow
+|-status|p1a: Abomasnow|par
+|move|p1a: Abomasnow|Wood Hammer|p2a: brastemp
+|-supereffective|p2a: brastemp
+|-damage|p2a: brastemp|0 fnt
+|-damage|p1a: Abomasnow|245/321 par|[from] recoil|[of] p2a: brastemp
+|faint|p2a: brastemp
+|
+|-weather|Hail|[upkeep]
+|
+|switch|p2a: rabogrande|Breloom, M|269/269 tox
+|-damage|p2a: rabogrande|253/269 tox|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Scizor|Scizor, F|343/343
+|move|p2a: rabogrande|Substitute|p2a: rabogrande
+|-start|p2a: rabogrande|Substitute
+|-damage|p2a: rabogrande|186/269 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: rabogrande|170/269 tox|[from] hail
+|-damage|p1a: Scizor|322/343|[from] hail
+|-heal|p2a: rabogrande|203/269 tox|[from] ability: Poison Heal
+|turn|10
+|
+|-singleturn|p2a: rabogrande|move: Focus Punch
+|move|p1a: Scizor|Bullet Punch|p2a: rabogrande
+|-end|p2a: rabogrande|Substitute
+|move|p2a: rabogrande|Focus Punch|p1a: Scizor
+|-damage|p1a: Scizor|42/343
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: rabogrande|187/269 tox|[from] hail
+|-damage|p1a: Scizor|21/343|[from] hail
+|-heal|p2a: rabogrande|220/269 tox|[from] ability: Poison Heal
+|turn|11
+|
+|switch|p2a: minicraque|Jirachi|341/341
+|-damage|p2a: minicraque|320/341|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: minicraque
+|-resisted|p2a: minicraque
+|-damage|p2a: minicraque|231/341
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: minicraque|210/341|[from] hail
+|-damage|p1a: Scizor|0 fnt|[from] hail
+|faint|p1a: Scizor
+|
+|switch|p1a: Chandelure|Chandelure, F|99/262
+|turn|12
+|
+|move|p2a: minicraque|Iron Head|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|29/262
+|cant|p1a: Chandelure|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: minicraque|189/341|[from] hail
+|-damage|p1a: Chandelure|13/262|[from] hail
+|-heal|p1a: Chandelure|29/262|[from] item: Leftovers
+|turn|13
+|chat|mynameisgreg|...
+|
+|switch|p1a: Tentacruel|Tentacruel, M|363/363
+|move|p2a: minicraque|Iron Head|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|304/363
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: minicraque|168/341|[from] hail
+|-damage|p1a: Tentacruel|282/363|[from] hail
+|-heal|p1a: Tentacruel|304/363|[from] item: Black Sludge
+|turn|14
+|
+|switch|p2a: saPopó|Toxicroak, M|368/368
+|-damage|p2a: saPopó|345/368|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: saPopó
+|-heal|p2a: saPopó|368/368|[from] ability: Dry Skin|[of] p1a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|282/363|[from] hail
+|-damage|p2a: saPopó|345/368|[from] hail
+|-heal|p1a: Tentacruel|304/363|[from] item: Black Sludge
+|-heal|p2a: saPopó|368/368|[from] item: Black Sludge
+|turn|15
+|
+|switch|p1a: Abomasnow|Abomasnow, M|245/321 par
+|move|p2a: saPopó|Drain Punch|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: saPopó|345/368|[from] hail
+|-heal|p2a: saPopó|368/368|[from] item: Black Sludge
+|
+|switch|p1a: Chandelure|Chandelure, F|29/262
+|turn|16
+|
+|move|p2a: saPopó|Sucker Punch|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: saPopó|345/368|[from] hail
+|-heal|p2a: saPopó|368/368|[from] item: Black Sludge
+|
+|switch|p1a: Kyurem-Black|Kyurem-Black|405/405
+|-ability|p1a: Kyurem-Black|Teravolt
+|turn|17
+|
+|move|p1a: Kyurem-Black|Substitute|p1a: Kyurem-Black
+|-start|p1a: Kyurem-Black|Substitute
+|-damage|p1a: Kyurem-Black|304/405
+|move|p2a: saPopó|Drain Punch|p1a: Kyurem-Black
+|-supereffective|p1a: Kyurem-Black
+|-end|p1a: Kyurem-Black|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: saPopó|345/368|[from] hail
+|-heal|p2a: saPopó|368/368|[from] item: Black Sludge
+|turn|18
+|
+|move|p1a: Kyurem-Black|Dragon Claw|p2a: saPopó
+|-damage|p2a: saPopó|76/368
+|-damage|p1a: Kyurem-Black|264/405|[from] item: Life Orb
+|move|p2a: saPopó|Drain Punch|p1a: Kyurem-Black
+|-supereffective|p1a: Kyurem-Black
+|-damage|p1a: Kyurem-Black|18/405
+|-heal|p2a: saPopó|199/368|[from] drain|[of] p1a: Kyurem-Black
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: saPopó|176/368|[from] hail
+|-heal|p2a: saPopó|199/368|[from] item: Black Sludge
+|turn|19
+|
+|move|p2a: saPopó|Sucker Punch|p1a: Kyurem-Black
+|-fail|p1a: Kyurem-Black
+|move|p1a: Kyurem-Black|Substitute|p1a: Kyurem-Black
+|-fail|p1a: Kyurem-Black|move: Substitute|[weak]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: saPopó|176/368|[from] hail
+|-heal|p2a: saPopó|199/368|[from] item: Black Sludge
+|turn|20
+|
+|switch|p2a: saopedro|Politoed, M|384/384
+|-damage|p2a: saopedro|336/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: saopedro
+|move|p1a: Kyurem-Black|Substitute|p1a: Kyurem-Black
+|-fail|p1a: Kyurem-Black|move: Substitute|[weak]
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p1a: Kyurem-Black|Fusion Bolt|p2a: saopedro
+|-supereffective|p2a: saopedro
+|-damage|p2a: saopedro|0 fnt
+|-damage|p1a: Kyurem-Black|0 fnt|[from] item: Life Orb
+|faint|p2a: saopedro
+|faint|p1a: Kyurem-Black
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: minicraque|Jirachi|168/341
+|-damage|p2a: minicraque|147/341|[from] Stealth Rock
+|switch|p1a: Mamoswine|Mamoswine, M|361/361 slp
+|turn|22
+|
+|move|p2a: minicraque|Trick|p1a: Mamoswine
+|-activate|p2a: minicraque|move: Trick|[of] p1a: Mamoswine
+|-item|p1a: Mamoswine|Choice Scarf|[from] move: Trick
+|-item|p2a: minicraque|Focus Sash|[from] move: Trick
+|cant|p1a: Mamoswine|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|cant|p1a: Mamoswine|slp
+|move|p2a: minicraque|Iron Head|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|59/361 slp
+|
+|-weather|RainDance|[upkeep]
+|turn|24
+|
+|-curestatus|p1a: Mamoswine|slp
+|move|p1a: Mamoswine|Earthquake|p2a: minicraque
+|-supereffective|p2a: minicraque
+|-damage|p2a: minicraque|0 fnt
+|faint|p2a: minicraque
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: antedeguemon|Latios, M|302/302
+|-damage|p2a: antedeguemon|265/302|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Tentacruel|Tentacruel, M|304/363
+|move|p2a: antedeguemon|Trick|p1a: Tentacruel
+|-activate|p2a: antedeguemon|move: Trick|[of] p1a: Tentacruel
+|-item|p1a: Tentacruel|Choice Scarf|[from] move: Trick
+|-item|p2a: antedeguemon|Black Sludge|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|326/363|[from] ability: Rain Dish
+|-damage|p2a: antedeguemon|228/302|[from] item: Black Sludge
+|turn|26
+|
+|switch|p2a: rabogrande|Breloom, M|220/269 tox
+|-damage|p2a: rabogrande|204/269 tox|[from] Stealth Rock
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-fail|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|348/363|[from] ability: Rain Dish
+|-heal|p2a: rabogrande|237/269 tox|[from] ability: Poison Heal
+|turn|27
+|
+|switch|p1a: Mamoswine|Mamoswine, M|59/361
+|move|p2a: rabogrande|Substitute|p2a: rabogrande
+|-start|p2a: rabogrande|Substitute
+|-damage|p2a: rabogrande|170/269 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: rabogrande|203/269 tox|[from] ability: Poison Heal
+|turn|28
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: rabogrande
+|-supereffective|p2a: rabogrande
+|-end|p2a: rabogrande|Substitute
+|move|p2a: rabogrande|Bullet Seed|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-hitcount|p1a: Mamoswine|1
+|faint|p1a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: rabogrande|236/269 tox|[from] ability: Poison Heal
+|
+|switch|p1a: Tentacruel|Tentacruel, M|348/363
+|turn|29
+|
+|move|p1a: Tentacruel|Scald|p2a: rabogrande
+|-resisted|p2a: rabogrande
+|-damage|p2a: rabogrande|150/269 tox
+|move|p2a: rabogrande|Spore|p1a: Tentacruel
+|-status|p1a: Tentacruel|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|363/363 slp|[from] ability: Rain Dish
+|-heal|p2a: rabogrande|183/269 tox|[from] ability: Poison Heal
+|turn|30
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: rabogrande|Substitute|p2a: rabogrande
+|-start|p2a: rabogrande|Substitute
+|-damage|p2a: rabogrande|116/269 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: rabogrande|149/269 tox|[from] ability: Poison Heal
+|turn|31
+|
+|-singleturn|p2a: rabogrande|move: Focus Punch
+|cant|p1a: Tentacruel|slp
+|move|p2a: rabogrande|Focus Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|221/363 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|243/363 slp|[from] ability: Rain Dish
+|-heal|p2a: rabogrande|182/269 tox|[from] ability: Poison Heal
+|turn|32
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: rabogrande|Bullet Seed|p1a: Tentacruel
+|-damage|p1a: Tentacruel|197/363 slp
+|-damage|p1a: Tentacruel|146/363 slp
+|-hitcount|p1a: Tentacruel|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|168/363 slp|[from] ability: Rain Dish
+|-heal|p2a: rabogrande|215/269 tox|[from] ability: Poison Heal
+|turn|33
+|
+|-curestatus|p1a: Tentacruel|slp
+|move|p1a: Tentacruel|Scald|p2a: rabogrande
+|-resisted|p2a: rabogrande
+|-end|p2a: rabogrande|Substitute
+|move|p2a: rabogrande|Spore|p1a: Tentacruel
+|-status|p1a: Tentacruel|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|190/363 slp|[from] ability: Rain Dish
+|-heal|p2a: rabogrande|248/269 tox|[from] ability: Poison Heal
+|turn|34
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: rabogrande|Bullet Seed|p1a: Tentacruel
+|-damage|p1a: Tentacruel|147/363 slp
+|-damage|p1a: Tentacruel|102/363 slp
+|-hitcount|p1a: Tentacruel|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|124/363 slp|[from] ability: Rain Dish
+|-heal|p2a: rabogrande|269/269 tox|[from] ability: Poison Heal
+|turn|35
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: rabogrande|Bullet Seed|p1a: Tentacruel
+|-damage|p1a: Tentacruel|79/363 slp
+|-damage|p1a: Tentacruel|34/363 slp
+|-damage|p1a: Tentacruel|0 fnt
+|-hitcount|p1a: Tentacruel|3
+|faint|p1a: Tentacruel
+|
+|win|professorcaralho
+|raw|Ladder updating...
+|raw|mynameisgreg's rating: 1434 &rarr; <strong>1405</strong><br />(-29 for losing)
+|raw|professorcaralho's rating: 1272 &rarr; <strong>1308</strong><br />(+36 for winning)
+|chat|mynameisgreg|gg
+|chat|professorcaralho|gg

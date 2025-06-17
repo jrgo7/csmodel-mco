@@ -1,0 +1,411 @@
+|join|dtw
+|join|Tom Shanks
+|player|p1|dtw|1
+|player|p2|Tom Shanks|290
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Breloom, M
+|poke|p1|Politoed, M
+|poke|p1|Gyarados, M
+|poke|p1|Sableye, F
+|poke|p1|Xatu, F
+|poke|p1|Forretress, M
+|poke|p2|Azelf
+|poke|p2|Snorlax, F
+|poke|p2|Landorus-Therian, M
+|poke|p2|Liepard, F
+|poke|p2|Gigalith, M
+|poke|p2|Metagross
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Forretress|Forretress, M|354/354
+|switch|p2a: NINJA STONES|Liepard, F|332/332
+|turn|1
+|
+|switch|p1a: Xatu|Xatu, F|334/334
+|move|p2a: NINJA STONES|Taunt|p1a: Xatu
+|move|p1a: Xatu|Taunt|p2a: NINJA STONES|[from]Magic Bounce
+|-start|p2a: NINJA STONES|move: Taunt
+|
+|turn|2
+|
+|switch|p2a: JIHAD|Gigalith, M|312/312
+|move|p1a: Xatu|Toxic|p2a: JIHAD
+|-status|p2a: JIHAD|tox
+|
+|-damage|p2a: JIHAD|293/312 tox|[from] psn
+|turn|3
+|
+|move|p1a: Xatu|U-turn|p2a: JIHAD
+|-damage|p2a: JIHAD|268/312 tox
+|
+|switch|p1a: Forretress|Forretress, M|354/354
+|move|p2a: JIHAD|Rock Blast|p1a: Forretress
+|-damage|p1a: Forretress|324/354
+|-damage|p1a: Forretress|293/354
+|-hitcount|p1a: Forretress|2
+|-enditem|p1a: Forretress|Red Card|[of] p2a: JIHAD
+|drag|p2a: NINJA STONES|Liepard, F|332/332
+|
+|turn|4
+|
+|move|p2a: NINJA STONES|Thunder Wave|p1a: Forretress
+|-status|p1a: Forretress|par
+|cant|p1a: Forretress|par
+|
+|turn|5
+|
+|switch|p1a: Xatu|Xatu, F|334/334
+|move|p2a: NINJA STONES|Taunt|p1a: Xatu
+|move|p1a: Xatu|Taunt|p2a: NINJA STONES|[from]Magic Bounce
+|-start|p2a: NINJA STONES|move: Taunt
+|
+|turn|6
+|
+|switch|p2a: AL QAEDA|Landorus-Therian, M|319/319
+|-ability|p2a: AL QAEDA|Intimidate|[of] p1a: Xatu
+|-unboost|p1a: Xatu|atk|1
+|move|p1a: Xatu|U-turn|p2a: AL QAEDA
+|-resisted|p2a: AL QAEDA
+|-damage|p2a: AL QAEDA|305/319
+|
+|switch|p1a: Forretress|Forretress, M|293/354 par
+|
+|turn|7
+|
+|switch|p2a: FKN IDK|Azelf|292/292
+|move|p1a: Forretress|Stealth Rock|p2a: FKN IDK
+|-sidestart|p2: Tom Shanks|move: Stealth Rock
+|
+|turn|8
+|
+|move|p2a: FKN IDK|Flamethrower|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|
+|switch|p1a: Gyarados|Gyarados, M|353/353
+|-ability|p1a: Gyarados|Intimidate|[of] p2a: FKN IDK
+|-unboost|p2a: FKN IDK|atk|1
+|turn|9
+|
+|move|p2a: FKN IDK|Psychic|p1a: Gyarados
+|-damage|p1a: Gyarados|208/353
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|120/353
+|
+|-heal|p1a: Gyarados|142/353|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: USELESS MAYBE|Snorlax, F|462/462
+|-damage|p2a: USELESS MAYBE|405/462|[from] Stealth Rock
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|164/353|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Gyarados|Waterfall|p2a: USELESS MAYBE
+|-damage|p2a: USELESS MAYBE|90/462
+|move|p2a: USELESS MAYBE|Crunch|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-heal|p1a: Gyarados|186/353|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Gyarados|Waterfall|p2a: USELESS MAYBE
+|-damage|p2a: USELESS MAYBE|0 fnt
+|faint|p2a: USELESS MAYBE
+|
+|-heal|p1a: Gyarados|208/353|[from] item: Leftovers
+|
+|switch|p2a: AL QAEDA|Landorus-Therian, M|305/319
+|-damage|p2a: AL QAEDA|266/319|[from] Stealth Rock
+|-ability|p2a: AL QAEDA|Intimidate|[of] p1a: Gyarados
+|-unboost|p1a: Gyarados|atk|1
+|turn|13
+|
+|switch|p2a: JIHAD|Gigalith, M|268/312 tox
+|-damage|p2a: JIHAD|229/312 tox|[from] Stealth Rock
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|120/353
+|
+|-heal|p1a: Gyarados|142/353|[from] item: Leftovers
+|-damage|p2a: JIHAD|210/312 tox|[from] psn
+|turn|14
+|
+|move|p1a: Gyarados|Waterfall|p2a: JIHAD
+|-supereffective|p2a: JIHAD
+|-damage|p2a: JIHAD|30/312 tox
+|move|p2a: JIHAD|Rock Blast|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|22/353
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-hitcount|p1a: Gyarados|3
+|faint|p1a: Gyarados
+|
+|-damage|p2a: JIHAD|0 fnt|[from] psn
+|faint|p2a: JIHAD
+|
+|switch|p1a: Politoed|Politoed, M|384/384
+|switch|p2a: ALALALALALALALA|Metagross|301/301
+|-damage|p2a: ALALALALALALALA|283/301|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|15
+|
+|move|p2a: ALALALALALALALA|Zen Headbutt|p1a: Politoed
+|-damage|p1a: Politoed|161/384
+|move|p1a: Politoed|Scald|p2a: ALALALALALALALA
+|-damage|p2a: ALALALALALALALA|133/301
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|185/384|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Sableye|Sableye, F|304/304
+|move|p2a: ALALALALALALALA|Zen Headbutt|p1a: Sableye
+|-immune|p1a: Sableye|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|switch|p2a: AL QAEDA|Landorus-Therian, M|266/319
+|-damage|p2a: AL QAEDA|227/319|[from] Stealth Rock
+|-ability|p2a: AL QAEDA|Intimidate|[of] p1a: Sableye
+|-unboost|p1a: Sableye|atk|1
+|move|p1a: Sableye|Will-O-Wisp|p2a: AL QAEDA|[miss]
+|-miss|p1a: Sableye|p2a: AL QAEDA
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: AL QAEDA
+|-status|p2a: AL QAEDA|brn
+|move|p2a: AL QAEDA|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|166/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|185/304|[from] item: Leftovers
+|-damage|p2a: AL QAEDA|188/319 brn|[from] brn
+|turn|19
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|304/304
+|move|p2a: AL QAEDA|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|169/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|188/304|[from] item: Leftovers
+|-damage|p2a: AL QAEDA|149/319 brn|[from] brn
+|turn|20
+|
+|switch|p2a: ALALALALALALALA|Metagross|133/301
+|-damage|p2a: ALALALALALALALA|115/301|[from] Stealth Rock
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|304/304
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: ALALALALALALALA
+|-status|p2a: ALALALALALALALA|brn
+|move|p2a: ALALALALALALALA|Meteor Mash|p1a: Sableye
+|-damage|p1a: Sableye|117/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|136/304|[from] item: Leftovers
+|-damage|p2a: ALALALALALALALA|78/301 brn|[from] brn
+|turn|22
+|
+|switch|p1a: Politoed|Politoed, M|185/384
+|move|p2a: ALALALALALALALA|Meteor Mash|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|115/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|139/384|[from] item: Leftovers
+|-damage|p2a: ALALALALALALALA|41/301 brn|[from] brn
+|turn|23
+|
+|move|p2a: ALALALALALALALA|Meteor Mash|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|71/384
+|move|p1a: Politoed|Scald|p2a: ALALALALALALALA
+|-damage|p2a: ALALALALALALALA|0 fnt
+|faint|p2a: ALALALALALALALA
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|95/384|[from] item: Leftovers
+|
+|switch|p2a: FKN IDK|Azelf|292/292
+|-damage|p2a: FKN IDK|256/292|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: FKN IDK|Grass Knot|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Sableye|Sableye, F|136/304
+|turn|25
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: FKN IDK
+|-status|p2a: FKN IDK|brn
+|move|p2a: FKN IDK|Grass Knot|p1a: Sableye
+|-damage|p1a: Sableye|88/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|107/304|[from] item: Leftovers
+|-damage|p2a: FKN IDK|220/292 brn|[from] brn
+|turn|26
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|259/304
+|move|p2a: FKN IDK|Flamethrower|p1a: Sableye
+|-damage|p1a: Sableye|209/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|228/304|[from] item: Leftovers
+|-damage|p2a: FKN IDK|184/292 brn|[from] brn
+|turn|27
+|
+|switch|p2a: NINJA STONES|Liepard, F|332/332
+|-damage|p2a: NINJA STONES|291/332|[from] Stealth Rock
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|304/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: NINJA STONES|311/332|[from] item: Leftovers
+|turn|28
+|
+|switch|p1a: Xatu|Xatu, F|334/334
+|move|p2a: NINJA STONES|Substitute|p2a: NINJA STONES
+|-start|p2a: NINJA STONES|Substitute
+|-damage|p2a: NINJA STONES|228/332
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: NINJA STONES|248/332|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: NINJA STONES|Swagger|p1a: Xatu
+|move|p1a: Xatu|Swagger|p2a: NINJA STONES|[from]Magic Bounce
+|move|p1a: Xatu|U-turn|p2a: NINJA STONES
+|-supereffective|p2a: NINJA STONES
+|-end|p2a: NINJA STONES|Substitute
+|
+|switch|p1a: Breloom|Breloom, M|262/262
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: NINJA STONES|268/332|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: NINJA STONES|Taunt|p1a: Breloom
+|-start|p1a: Breloom|move: Taunt
+|move|p1a: Breloom|Bullet Seed|p2a: NINJA STONES
+|-damage|p2a: NINJA STONES|161/332
+|-damage|p2a: NINJA STONES|66/332
+|-damage|p2a: NINJA STONES|0 fnt
+|-hitcount|p2a: NINJA STONES|3
+|-damage|p1a: Breloom|236/262|[from] item: Life Orb
+|faint|p2a: NINJA STONES
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: FKN IDK|Azelf|184/292 brn
+|-damage|p2a: FKN IDK|148/292 brn|[from] Stealth Rock
+|turn|31
+|
+|switch|p1a: Sableye|Sableye, F|304/304
+|move|p2a: FKN IDK|Flamethrower|p1a: Sableye
+|-damage|p1a: Sableye|255/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|274/304|[from] item: Leftovers
+|-damage|p2a: FKN IDK|112/292 brn|[from] brn
+|turn|32
+|
+|move|p1a: Sableye|Taunt|p2a: FKN IDK
+|-start|p2a: FKN IDK|move: Taunt
+|move|p2a: FKN IDK|Flamethrower|p1a: Sableye
+|-damage|p1a: Sableye|227/304
+|-status|p1a: Sableye|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|246/304 brn|[from] item: Leftovers
+|-damage|p2a: FKN IDK|76/292 brn|[from] brn
+|-damage|p1a: Sableye|208/304 brn|[from] brn
+|turn|33
+|
+|switch|p2a: AL QAEDA|Landorus-Therian, M|149/319 brn
+|-damage|p2a: AL QAEDA|110/319 brn|[from] Stealth Rock
+|-ability|p2a: AL QAEDA|Intimidate|[of] p1a: Sableye
+|-unboost|p1a: Sableye|atk|1
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|304/304 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: AL QAEDA|71/319 brn|[from] brn
+|-damage|p1a: Sableye|266/304 brn|[from] brn
+|turn|34
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|304/304 brn
+|move|p2a: AL QAEDA|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|162/304 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|181/304 brn|[from] item: Leftovers
+|-damage|p2a: AL QAEDA|32/319 brn|[from] brn
+|-damage|p1a: Sableye|143/304 brn|[from] brn
+|turn|35
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|295/304 brn
+|move|p2a: AL QAEDA|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|165/304 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sableye|184/304 brn|[from] item: Leftovers
+|-damage|p2a: AL QAEDA|0 fnt|[from] brn
+|-damage|p1a: Sableye|146/304 brn|[from] brn
+|faint|p2a: AL QAEDA
+|
+|switch|p2a: FKN IDK|Azelf|76/292 brn
+|-damage|p2a: FKN IDK|40/292 brn|[from] Stealth Rock
+|turn|36
+|
+|move|p2a: FKN IDK|Flamethrower|p1a: Sableye
+|-damage|p1a: Sableye|93/304 brn
+|move|p1a: Sableye|Night Shade|p2a: FKN IDK
+|-damage|p2a: FKN IDK|0 fnt
+|faint|p2a: FKN IDK
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|dtw's rating: 1352 &rarr; <strong>1370</strong><br />(+18 for winning)
+|raw|Tom Shanks's rating: 1315 &rarr; <strong>1297</strong><br />(-18 for losing)
+|chat|dtw|gg
+|chat|Tom Shanks|gg
+|leave|Tom Shanks
+|player|p2

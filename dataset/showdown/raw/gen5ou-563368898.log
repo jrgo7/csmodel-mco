@@ -1,0 +1,271 @@
+|j|elvis celesteelo
+|j|Iambic
+|player|p1|elvis celesteelo|54
+|player|p2|Iambic|2
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|4994,48722,55963,11681
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Toxicroak, F|item
+|poke|p1|Politoed, M|item
+|poke|p1|Celebi|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Quagsire, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, F|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|399/399
+|switch|p2a: Chansey|Chansey, F|704/704
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Chansey
+|-sidestart|p2: Iambic|move: Stealth Rock
+|move|p2a: Chansey|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: elvis celesteelo|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chansey|660/704|[from] sandstorm
+|upkeep
+|turn|2
+|choice|move crunch|switch 4
+|
+|switch|p2a: Politoed|Politoed, F|384/384
+|-damage|p2a: Politoed|336/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Tyranitar|Crunch|p2a: Politoed
+|-damage|p2a: Politoed|210/384
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|234/384|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move crunch|switch 5
+|
+|switch|p2a: Tentacruel|Tentacruel, M|352/352
+|-damage|p2a: Tentacruel|308/352|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|44/352
+|-unboost|p2a: Tentacruel|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|66/352|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/352|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|move crunch|move scald
+|
+|move|p2a: Tentacruel|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|223/399
+|move|p1a: Tyranitar|Crunch|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p2a: Ferrothorn|330/352|[from] Stealth Rock
+|turn|5
+|choice|move superpower|move spikes
+|
+|move|p1a: Tyranitar|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|160/352
+|-damage|p1a: Tyranitar|174/399|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|move|p2a: Ferrothorn|Spikes|p1a: Tyranitar
+|-sidestart|p1: elvis celesteelo|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|182/352|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 3|move leechseed
+|
+|switch|p1a: Celebi|Celebi|404/404
+|-damage|p1a: Celebi|354/404|[from] Stealth Rock
+|-damage|p1a: Celebi|304/404|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Celebi
+|-immune|p1a: Celebi|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|329/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|204/352|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move nastyplot|move spikes
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Ferrothorn|Spikes|p1a: Celebi
+|-sidestart|p1: elvis celesteelo|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|354/404|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|226/352|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move nastyplot|switch 3
+|
+|switch|p2a: Dragonite|Dragonite, M|386/386
+|-damage|p2a: Dragonite|290/386|[from] Stealth Rock
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|379/404|[from] item: Leftovers
+|-heal|p2a: Dragonite|314/386|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move hiddenpower|move hurricane
+|
+|move|p1a: Celebi|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|404/404|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, F|660/704
+|-damage|p2a: Chansey|572/704|[from] Stealth Rock
+|turn|10
+|choice|move nastyplot|move toxic
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Chansey|Toxic|p1a: Celebi|[miss]
+|-miss|p2a: Chansey|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|choice|move gigadrain|move softboiled
+|
+|move|p1a: Celebi|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|358/704
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|704/704
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|choice|switch 6|move toxic
+|
+|switch|p1a: Toxicroak|Toxicroak, F|344/344
+|-damage|p1a: Toxicroak|323/344|[from] Stealth Rock
+|-damage|p1a: Toxicroak|266/344|[from] Spikes
+|move|p2a: Chansey|Toxic|p1a: Toxicroak
+|-immune|p1a: Toxicroak|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|309/344|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|330/344|[from] item: Black Sludge
+|upkeep
+|turn|13
+|choice|move substitute|switch 2
+|
+|switch|p2a: Quagsire|Quagsire, M|393/393
+|-damage|p2a: Quagsire|369/393|[from] Stealth Rock
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|244/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|287/344|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|308/344|[from] item: Black Sludge
+|-heal|p2a: Quagsire|393/393|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move toxic|move earthquake
+|
+|move|p1a: Toxicroak|Toxic|p2a: Quagsire
+|-status|p2a: Quagsire|tox
+|move|p2a: Quagsire|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|344/344|[from] ability: Dry Skin
+|-damage|p2a: Quagsire|369/393 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move substitute|move earthquake
+|
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|258/344
+|move|p2a: Quagsire|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-crit|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|301/344|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|322/344|[from] item: Black Sludge
+|-heal|p2a: Quagsire|393/393 tox|[from] item: Leftovers
+|-damage|p2a: Quagsire|345/393 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move substitute|switch 5
+|
+|switch|p2a: Politoed|Politoed, F|234/384
+|-damage|p2a: Politoed|186/384|[from] Stealth Rock
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|236/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|279/344|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|300/344|[from] item: Black Sludge
+|-heal|p2a: Politoed|210/384|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move focuspunch|move protect
+|
+|-singleturn|p1a: Toxicroak|move: Focus Punch
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Toxicroak|Focus Punch|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|343/344|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|344/344|[from] item: Black Sludge
+|-heal|p2a: Politoed|234/384|[from] item: Leftovers
+|upkeep
+|turn|18
+|-message|Iambic forfeited.
+|
+|win|elvis celesteelo
+|l|Iambic
+|raw|elvis celesteelo's rating: 1414 &rarr; <strong>1431</strong><br />(+17 for winning)
+|raw|Iambic's rating: 1353 &rarr; <strong>1336</strong><br />(-17 for losing)

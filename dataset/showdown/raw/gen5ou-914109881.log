@@ -1,0 +1,591 @@
+|j|‽Cerase
+|j|☆bikini buns
+|player|p1|Cerase|1
+|player|p2|bikini buns|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Breloom, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Kyurem|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latias, F|item
+|teampreview
+|j| Cresss
+|l| Cresss
+|
+|start
+|switch|p1a: Breloom|Breloom, F|320/320
+|switch|p2a: Jirachi|Jirachi|404/404
+|turn|1
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|303/404
+|move|p1a: Breloom|Spore||[still]
+|-fail|p1a: Breloom
+|
+|-heal|p2a: Jirachi|328/404|[from] item: Leftovers
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Jirachi|Psychic|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|90/320 tox
+|move|p1a: Breloom|Drain Punch|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-heal|p1a: Breloom|140/320 tox|[from] drain|[of] p2a: Jirachi
+|
+|-heal|p2a: Jirachi|353/404|[from] item: Leftovers
+|-heal|p1a: Breloom|180/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|move|p2a: Jirachi|Psychic|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|386/404
+|-unboost|p1a: Jirachi|spd|1
+|
+|-heal|p2a: Jirachi|378/404|[from] item: Leftovers
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Jirachi|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: bikini buns|move: Stealth Rock
+|
+|-heal|p2a: Jirachi|403/404|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Jirachi|U-turn|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|404/404|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Politoed|Encore|p2a: Jirachi
+|-start|p2a: Jirachi|Encore
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Breloom|Breloom, F|180/320 tox
+|switch|p2a: Tentacruel|Tentacruel, F|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|341/364|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/364|[from] item: Black Sludge
+|-heal|p1a: Breloom|220/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|switch|p2a: Politoed|Politoed, M|321/321
+|-damage|p2a: Politoed|281/321|[from] Stealth Rock
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|260/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|move|p2a: Politoed|Encore|p1a: Breloom
+|-start|p1a: Breloom|Encore
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|300/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|switch|p2a: Landorus|Landorus-Therian, M|380/380
+|-damage|p2a: Landorus|333/380|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|switch|p1a: Tornadus|Tornadus, M|299/299
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|356/380|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Tornadus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|329/380
+|
+|switch|p1a: Breloom|Breloom, F|300/320 tox
+|move|p2a: Landorus|Stealth Rock|p1a: Breloom
+|-sidestart|p1: Cerase|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|352/380|[from] item: Leftovers
+|-heal|p1a: Breloom|320/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|move|p2a: Landorus|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|206/320 tox
+|move|p1a: Breloom|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|298/380
+|-heal|p1a: Breloom|233/320 tox|[from] drain|[of] p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|321/380|[from] item: Leftovers
+|-heal|p1a: Breloom|273/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|move|p2a: Landorus|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|147/320 tox
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|344/380|[from] item: Leftovers
+|-heal|p1a: Breloom|187/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|move|p2a: Landorus|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|59/320 tox
+|move|p1a: Breloom|Spore|p2a: Landorus
+|-status|p2a: Landorus|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|367/380 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|99/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|switch|p2a: Latias|Latias, F|302/302
+|-damage|p2a: Latias|265/302|[from] Stealth Rock
+|move|p1a: Breloom|Drain Punch|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|175/302
+|-heal|p1a: Breloom|144/320 tox|[from] drain|[of] p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|184/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|379/404|[from] Stealth Rock
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|302/302
+|-singleturn|p2a: Latias|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Tentacruel|Tentacruel, F|363/364
+|-damage|p2a: Tentacruel|318/364|[from] Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|152/364
+|-status|p2a: Tentacruel|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|174/364 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|196/364 par|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Jirachi|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|20/364 par
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|395/404
+|-sideend|p2: bikini buns|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|42/364 par|[from] ability: Rain Dish
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|-heal|p2a: Tentacruel|64/364 par|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Landorus|Landorus-Therian, M|367/380 slp
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Stealth Rock|p2a: Landorus
+|-sidestart|p2: bikini buns|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|380/380 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|cant|p2a: Landorus|slp
+|move|p1a: Jirachi|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|363/380 slp
+|
+|switch|p1a: Tentacruel|Tentacruel, M|363/363
+|-damage|p1a: Tentacruel|318/363|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|340/363|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|362/363|[from] item: Black Sludge
+|-heal|p2a: Landorus|380/380 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|270/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|363/363|[from] ability: Rain Dish
+|-heal|p2a: Jirachi|295/404|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Jirachi|Thunder|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|197/363
+|-status|p1a: Tentacruel|par
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|291/404
+|-sideend|p1: Cerase|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|219/363 par|[from] ability: Rain Dish
+|-heal|p2a: Jirachi|316/404|[from] item: Leftovers
+|-heal|p1a: Tentacruel|241/363 par|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|341/404|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Politoed|Encore|p2a: Jirachi
+|-start|p2a: Jirachi|Encore
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|366/404|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Volcarona|Volcarona, F|331/331
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|391/404|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|404/404|[from] item: Leftovers
+|-end|p2a: Jirachi|Encore
+|upkeep
+|turn|27
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Jirachi|Thunder|p1a: Volcarona
+|-damage|p1a: Volcarona|186/331
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Jirachi
+|-damage|p2a: Jirachi|296/404
+|-unboost|p2a: Jirachi|spd|1
+|move|p2a: Jirachi|Thunder|p1a: Volcarona
+|-damage|p1a: Volcarona|56/331
+|-status|p1a: Volcarona|par
+|-enditem|p1a: Volcarona|Lum Berry|[eat]
+|-curestatus|p1a: Volcarona|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|321/404|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Jirachi
+|-damage|p2a: Jirachi|198/404
+|move|p2a: Jirachi|Thunder|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|223/404|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|turn|30
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|122/404
+|move|p1a: Jirachi|U-turn|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|147/404|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Politoed|Encore|p2a: Jirachi
+|-start|p2a: Jirachi|Encore
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|172/404|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Breloom|Breloom, F|184/320 tox
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|197/404|[from] item: Leftovers
+|-heal|p1a: Breloom|224/320 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|move|p1a: Breloom|Drain Punch|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-heal|p1a: Breloom|251/320 tox|[from] drain|[of] p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|222/404|[from] item: Leftovers
+|-heal|p1a: Breloom|291/320 tox|[from] ability: Poison Heal
+|-end|p2a: Jirachi|Encore
+|upkeep
+|turn|34
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|121/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|146/404|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Jirachi|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|216/404
+|-status|p1a: Jirachi|par
+|move|p1a: Jirachi|U-turn|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|switch|p1a: Tornadus|Tornadus, M|299/299
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|171/404|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Tornadus|U-turn|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|70/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|95/404|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Politoed|Encore|p2a: Jirachi
+|-start|p2a: Jirachi|Encore
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|120/404|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Tornadus|Tornadus, M|299/299
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|145/404|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Tornadus|U-turn|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|170/404|[from] item: Leftovers
+|-end|p2a: Jirachi|Encore
+|upkeep
+|turn|40
+|
+|move|p1a: Politoed|Encore|p2a: Jirachi
+|-start|p2a: Jirachi|Encore
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|195/404|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|switch|p1a: Tornadus|Tornadus, M|299/299
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|220/404|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Tornadus|U-turn|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|119/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|144/404|[from] item: Leftovers
+|-end|p2a: Jirachi|Encore
+|upkeep
+|turn|43
+|
+|move|p1a: Politoed|Encore|p2a: Jirachi
+|-start|p2a: Jirachi|Encore
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|169/404|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Tornadus|Tornadus, M|299/299
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|194/404|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Tornadus|U-turn|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|switch|p1a: Politoed|Politoed, M|322/322
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-fail|p2a: Jirachi|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|219/404|[from] item: Leftovers
+|-end|p2a: Jirachi|Encore
+|upkeep
+|turn|46
+|
+|move|p1a: Politoed|Encore||[still]
+|-fail|p1a: Politoed
+|move|p2a: Jirachi|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|244/404|[from] item: Leftovers
+|upkeep
+|c|☆bikini buns|gg
+|-message|Cerase forfeited.
+|
+|win|bikini buns
+|l|‽Cerase
+|raw|Cerase's rating: 1407 &rarr; <strong>1389</strong><br />(-18 for losing)
+|raw|bikini buns's rating: 1440 &rarr; <strong>1458</strong><br />(+18 for winning)

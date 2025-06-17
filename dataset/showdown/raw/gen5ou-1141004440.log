@@ -1,0 +1,543 @@
+|join|aDEUSmir
+|join|chokeslamcadaps
+|player|p1|aDEUSmir|290
+|player|p2|chokeslamcadaps|101
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Tyranitar, M
+|poke|p1|Skarmory, M
+|poke|p1|Heatran, M
+|poke|p1|Gliscor, M
+|poke|p1|Celebi
+|poke|p1|Starmie
+|poke|p2|Tyranitar, F
+|poke|p2|Landorus-Therian, M
+|poke|p2|Garchomp, M
+|poke|p2|Latios, M
+|poke|p2|Keldeo, shiny
+|poke|p2|Rotom-Wash, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Starmie|Starmie|324/324
+|switch|p2a: Kise|Rotom-Wash, shiny|299/299
+|turn|1
+|
+|switch|p1a: Celebi|Celebi|404/404
+|move|p2a: Kise|Volt Switch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|367/404
+|
+|switch|p2a: Midorima|Tyranitar, F|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Midorima
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|342/404|[from] sandstorm
+|-heal|p1a: Celebi|367/404|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Celebi|U-turn|p2a: Midorima
+|-supereffective|p2a: Midorima
+|-damage|p2a: Midorima|308/404
+|
+|move|p2a: Midorima|Pursuit|p1a: Celebi|[from]Pursuit
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Gliscor|Gliscor, M|354/354
+|turn|3
+|
+|switch|p2a: Kise|Rotom-Wash, shiny|299/299
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|266/354
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|281/299|[from] sandstorm
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|turn|4
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Kise|Hydro Pump|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|263/299|[from] sandstorm
+|-heal|p1a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|5
+|
+|move|p1a: Gliscor|Toxic|p2a: Kise
+|-status|p2a: Kise|tox
+|move|p2a: Kise|Hydro Pump|p1a: Gliscor|[miss]
+|-miss|p2a: Kise|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|245/299 tox|[from] sandstorm
+|-heal|p1a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|-damage|p2a: Kise|227/299 tox|[from] psn
+|turn|6
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Kise|Volt Switch|p1a: Gliscor
+|-immune|p1a: Gliscor|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|209/299 tox|[from] sandstorm
+|-damage|p2a: Kise|173/299 tox|[from] psn
+|turn|7
+|
+|move|p1a: Gliscor|Earthquake|p2a: Kise
+|-immune|p2a: Kise|[msg]
+|move|p2a: Kise|Hydro Pump|p1a: Gliscor|[miss]
+|-miss|p2a: Kise|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|155/299 tox|[from] sandstorm
+|-damage|p2a: Kise|101/299 tox|[from] psn
+|turn|8
+|chat|chokeslamcadaps|lolol
+|
+|move|p1a: Gliscor|Earthquake|p2a: Kise
+|-immune|p2a: Kise|[msg]
+|move|p2a: Kise|Rest|p2a: Kise
+|-status|p2a: Kise|slp
+|-heal|p2a: Kise|299/299 slp|[silent]
+|-status|p2a: Kise|slp|[from] move: Rest
+|-enditem|p2a: Kise|Chesto Berry|[eat]
+|-curestatus|p2a: Kise|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|281/299|[from] sandstorm
+|turn|9
+|
+|move|p1a: Gliscor|Toxic|p2a: Kise
+|-status|p2a: Kise|tox
+|move|p2a: Kise|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|263/299 tox|[from] sandstorm
+|-damage|p2a: Kise|245/299 tox|[from] psn
+|turn|10
+|
+|switch|p2a: kise|Landorus-Therian, M|380/380
+|-ability|p2a: kise|Intimidate|[of] p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|266/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|11
+|
+|move|p2a: kise|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: aDEUSmir|move: Stealth Rock
+|move|p1a: Gliscor|Toxic|p2a: kise
+|-status|p2a: kise|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: kise|357/380 tox|[from] psn
+|-heal|p1a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|12
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: kise|Hidden Power|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|380/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|334/380 tox|[from] psn
+|turn|13
+|
+|move|p2a: kise|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Earthquake|p2a: kise
+|-immune|p2a: kise|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|357/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|288/380 tox|[from] psn
+|turn|14
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: kise|Hidden Power|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|311/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|219/380 tox|[from] psn
+|turn|15
+|
+|switch|p1a: Starmie|Starmie|324/324
+|-damage|p1a: Starmie|284/324|[from] Stealth Rock
+|move|p2a: kise|U-turn|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|116/324
+|
+|switch|p2a: Kuroko|Keldeo, shiny|324/324
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kuroko|304/324|[from] sandstorm
+|-damage|p1a: Starmie|96/324|[from] sandstorm
+|-heal|p1a: Starmie|116/324|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Kuroko|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|26/324
+|move|p1a: Starmie|Rapid Spin|p2a: Kuroko
+|-damage|p2a: Kuroko|290/324
+|-sideend|p1: aDEUSmir|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kuroko|270/324|[from] sandstorm
+|-damage|p1a: Starmie|6/324|[from] sandstorm
+|-heal|p1a: Starmie|26/324|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Kuroko|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kuroko|250/324|[from] sandstorm
+|
+|switch|p1a: Skarmory|Skarmory, M|333/333
+|turn|18
+|
+|switch|p2a: Kise|Rotom-Wash, shiny|245/299 tox
+|move|p1a: Skarmory|Brave Bird|p2a: Kise
+|-resisted|p2a: Kise
+|-damage|p2a: Kise|204/299 tox
+|-damage|p1a: Skarmory|319/333|[from] recoil|[of] p2a: Kise
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|186/299 tox|[from] sandstorm
+|-heal|p1a: Skarmory|333/333|[from] item: Leftovers
+|-damage|p2a: Kise|168/299 tox|[from] psn
+|turn|19
+|
+|switch|p1a: Heatran|Heatran, M|385/385
+|move|p2a: Kise|Hydro Pump|p1a: Heatran
+|-crit|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kise|150/299 tox|[from] sandstorm
+|-damage|p2a: Kise|114/299 tox|[from] psn
+|chat|chokeslamcadaps|nice.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|342/342
+|turn|20
+|
+|move|p1a: Tyranitar|Crunch|p2a: Kise
+|-crit|p2a: Kise
+|-damage|p2a: Kise|0 fnt
+|faint|p2a: Kise
+|
+|-weather|Sandstorm|[upkeep]
+|join|Sparcky
+|
+|switch|p2a: kise|Landorus-Therian, M|219/380 tox
+|-ability|p2a: kise|Intimidate|[of] p1a: Tyranitar
+|-unboost|p1a: Tyranitar|atk|1
+|turn|21
+|
+|switch|p1a: Skarmory|Skarmory, M|333/333
+|move|p2a: kise|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: aDEUSmir|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|242/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|219/380 tox|[from] psn
+|turn|22
+|
+|move|p2a: kise|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|322/333
+|
+|switch|p2a: Midorima|Tyranitar, F|308/404
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|333/333
+|
+|-weather|Sandstorm|[upkeep]
+|turn|23
+|
+|move|p1a: Skarmory|Spikes|p2a: Midorima
+|-sidestart|p2: chokeslamcadaps|Spikes
+|move|p2a: Midorima|Stone Edge|p1a: Skarmory|[miss]
+|-miss|p2a: Midorima|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|turn|24
+|
+|move|p1a: Skarmory|Spikes|p2a: Midorima
+|-sidestart|p2: chokeslamcadaps|Spikes
+|move|p2a: Midorima|Stone Edge|p1a: Skarmory|[miss]
+|-miss|p2a: Midorima|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|turn|25
+|
+|move|p1a: Skarmory|Spikes|p2a: Midorima
+|-sidestart|p2: chokeslamcadaps|Spikes
+|move|p2a: Midorima|Stone Edge|p1a: Skarmory|[miss]
+|-miss|p2a: Midorima|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|turn|26
+|
+|switch|p1a: Gliscor|Gliscor, M|354/354 tox
+|-damage|p1a: Gliscor|310/354 tox|[from] Stealth Rock
+|move|p2a: Midorima|Stone Edge|p1a: Gliscor|[miss]
+|-miss|p2a: Midorima|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|27
+|chat|chokeslamcadaps|too good to be true
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|266/354 tox
+|move|p2a: Midorima|Stone Edge|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|28
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|222/354 tox
+|move|p2a: Midorima|Stone Edge|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|266/354 tox|[from] ability: Poison Heal
+|turn|29
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Midorima|Stone Edge|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|30
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|222/354 tox
+|move|p2a: Midorima|Stone Edge|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|266/354 tox|[from] ability: Poison Heal
+|turn|31
+|
+|switch|p2a: kise|Landorus-Therian, M|219/380 tox
+|-ability|p2a: kise|Intimidate|[of] p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|178/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|242/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|219/380 tox|[from] psn
+|-heal|p1a: Gliscor|222/354 tox|[from] ability: Poison Heal
+|turn|32
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: kise|Hidden Power|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|242/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|196/380 tox|[from] psn
+|-heal|p1a: Gliscor|266/354 tox|[from] ability: Poison Heal
+|turn|33
+|
+|move|p2a: kise|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|178/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|219/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|150/380 tox|[from] psn
+|-heal|p1a: Gliscor|222/354 tox|[from] ability: Poison Heal
+|turn|34
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: kise|Hidden Power|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|173/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|81/380 tox|[from] psn
+|-heal|p1a: Gliscor|266/354 tox|[from] ability: Poison Heal
+|turn|35
+|
+|move|p2a: kise|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|178/354 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: kise|104/380 tox|[from] item: Leftovers
+|-damage|p2a: kise|0 fnt|[from] psn
+|-heal|p1a: Gliscor|222/354 tox|[from] ability: Poison Heal
+|faint|p2a: kise
+|
+|switch|p2a: Murasakibara|Garchomp, M|358/358
+|-damage|p2a: Murasakibara|269/358|[from] Spikes
+|turn|36
+|
+|move|p2a: Murasakibara|Substitute|p2a: Murasakibara
+|-start|p2a: Murasakibara|Substitute
+|-damage|p2a: Murasakibara|180/358
+|move|p1a: Gliscor|Toxic|p2a: Murasakibara
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Murasakibara|202/358|[from] item: Leftovers
+|-heal|p1a: Gliscor|266/354 tox|[from] ability: Poison Heal
+|turn|37
+|
+|move|p2a: Murasakibara|Dragon Claw|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Earthquake|p2a: Murasakibara
+|-activate|p2a: Murasakibara|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Murasakibara|224/358|[from] item: Leftovers
+|-heal|p1a: Gliscor|310/354 tox|[from] ability: Poison Heal
+|turn|38
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Murasakibara|Dragon Claw|p1a: Gliscor
+|-activate|p1a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Murasakibara|246/358|[from] item: Leftovers
+|-heal|p1a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|39
+|
+|switch|p2a: Kuroko|Keldeo, shiny|250/324
+|-damage|p2a: Kuroko|169/324|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, M|333/333
+|-damage|p1a: Skarmory|292/333|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kuroko|149/324|[from] sandstorm
+|-heal|p1a: Skarmory|312/333|[from] item: Leftovers
+|turn|40
+|
+|move|p2a: Kuroko|Hydro Pump|p1a: Skarmory|[miss]
+|-miss|p2a: Kuroko|p1a: Skarmory
+|move|p1a: Skarmory|Brave Bird|p2a: Kuroko
+|-supereffective|p2a: Kuroko
+|-damage|p2a: Kuroko|0 fnt
+|-damage|p1a: Skarmory|263/333|[from] recoil|[of] p2a: Kuroko
+|faint|p2a: Kuroko
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|283/333|[from] item: Leftovers
+|
+|switch|p2a: Aomine|Latios, M|302/302
+|turn|41
+|
+|move|p2a: Aomine|Draco Meteor|p1a: Skarmory|[miss]
+|-miss|p2a: Aomine|p1a: Skarmory
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|333/333
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aomine|284/302|[from] sandstorm
+|turn|42
+|chat|chokeslamcadaps|im almost done with this
+|
+|move|p2a: Aomine|Draco Meteor|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|96/333
+|-unboost|p2a: Aomine|spa|2
+|move|p1a: Skarmory|Whirlwind|p2a: Aomine
+|drag|p2a: Midorima|Tyranitar, F|308/404
+|-damage|p2a: Midorima|207/404|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|116/333|[from] item: Leftovers
+|turn|43
+|chat|aDEUSmir|sorry
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|283/333
+|move|p2a: Midorima|Superpower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|23/333
+|-unboost|p2a: Midorima|atk|1
+|-unboost|p2a: Midorima|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|43/333|[from] item: Leftovers
+|turn|44
+|
+|switch|p2a: Aomine|Latios, M|284/302
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|210/333
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aomine|266/302|[from] sandstorm
+|-heal|p1a: Skarmory|230/333|[from] item: Leftovers
+|turn|45
+|
+|switch|p1a: Tyranitar|Tyranitar, M|342/342
+|-damage|p1a: Tyranitar|300/342|[from] Stealth Rock
+|move|p2a: Aomine|Hidden Power|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|259/342
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aomine|248/302|[from] sandstorm
+|turn|46
+|-message|chokeslamcadaps forfeited.
+|
+|win|aDEUSmir
+|raw|Ladder updating...
+|leave|chokeslamcadaps
+|player|p2
+|raw|aDEUSmir's rating: 1464 &rarr; <strong>1478</strong><br />(+14 for winning)
+|raw|chokeslamcadaps's rating: 1359 &rarr; <strong>1345</strong><br />(-14 for losing)

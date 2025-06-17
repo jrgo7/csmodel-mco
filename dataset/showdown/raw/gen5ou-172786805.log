@@ -1,0 +1,538 @@
+|join|Geertos
+|join|chimps
+|player|p1|Geertos|274
+|player|p2|chimps|262
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Breloom, M
+|poke|p1|Landorus-Therian, M
+|poke|p1|Hydreigon, F
+|poke|p1|Heatran, F
+|poke|p1|Starmie
+|poke|p1|Gengar, M
+|poke|p2|Politoed, M
+|poke|p2|Ferrothorn, M
+|poke|p2|Starmie
+|poke|p2|Gyarados, F
+|poke|p2|Vaporeon, M
+|poke|p2|Scizor, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, M|262/262
+|switch|p2a: Politoed|Politoed, M|360/360
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Scizor|Scizor, F|344/344
+|move|p1a: Breloom|Spore|p2a: Scizor
+|-status|p2a: Scizor|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: Gyarados|Gyarados, F|353/353
+|-ability|p2a: Gyarados|Intimidate|[of] p1a: Breloom
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Gyarados|Ice Fang|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|68/262
+|move|p1a: Breloom|Bullet Seed|p2a: Gyarados
+|-damage|p2a: Gyarados|236/353
+|-damage|p2a: Gyarados|110/353
+|-hitcount|p2a: Gyarados|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|132/353|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Breloom|Mach Punch|p2a: Gyarados
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Mach Punch
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Starmie|Starmie|261/261
+|turn|5
+|
+|move|p1a: Breloom|Mach Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|164/261
+|move|p2a: Starmie|Scald|p1a: Breloom
+|-crit|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|180/261|[from] item: Leftovers
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|319/319
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Starmie
+|-unboost|p2a: Starmie|atk|1
+|turn|6
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p1a: Gengar|Gengar, M|262/262
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|311/311
+|turn|7
+|
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|197/262
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Gengar
+|-sidestart|p1: Geertos|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|213/262|[from] item: Black Sludge
+|turn|8
+|
+|move|p1a: Gengar|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Gengar|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|229/262|[from] item: Black Sludge
+|turn|9
+|
+|move|p1a: Gengar|Disable|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Disable|Gyro Ball
+|cant|p2a: Ferrothorn|Disable|Gyro Ball
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|245/262|[from] item: Black Sludge
+|turn|10
+|
+|switch|p2a: Vaporeon|Vaporeon, M|464/464
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|180/262
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|196/262|[from] item: Black Sludge
+|turn|11
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Vaporeon
+|-damage|p2a: Vaporeon|362/464
+|move|p2a: Vaporeon|Heal Bell|p2a: Vaporeon
+|-cureteam|p2a: Vaporeon|[from] move: HealBell
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|212/262|[from] item: Black Sludge
+|-heal|p2a: Vaporeon|391/464|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Vaporeon
+|-damage|p2a: Vaporeon|274/464
+|move|p2a: Vaporeon|Roar|p1a: Gengar
+|drag|p1a: Hydreigon|Hydreigon, F|325/325
+|-damage|p1a: Hydreigon|285/325|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|303/464|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Vaporeon
+|-damage|p2a: Vaporeon|177/464
+|-damage|p1a: Hydreigon|253/325|[from] item: Life Orb
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|464/464 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-curestatus|p2a: Vaporeon|slp
+|turn|14
+|
+|switch|p1a: Starmie|Starmie|261/261
+|-damage|p1a: Starmie|229/261|[from] Stealth Rock
+|move|p2a: Vaporeon|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|245/261 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|229/261 tox|[from] psn
+|turn|15
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|311/311
+|move|p1a: Starmie|Rapid Spin|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|301/311
+|-damage|p1a: Starmie|197/261 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Geertos|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|213/261 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|311/311|[from] item: Leftovers
+|-damage|p1a: Starmie|181/261 tox|[from] psn
+|turn|16
+|
+|switch|p1a: Heatran|Heatran, F|386/386
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Geertos|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|switch|p2a: Vaporeon|Vaporeon, M|464/464
+|move|p1a: Heatran|Lava Plume|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|442/464
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|464/464|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Starmie|Starmie|181/261
+|-damage|p1a: Starmie|149/261|[from] Stealth Rock
+|switch|p2a: Politoed|Politoed, M|360/360
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|165/261|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|311/311
+|move|p1a: Starmie|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|307/311
+|-damage|p1a: Starmie|133/261|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Geertos|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|149/261|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|311/311|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Starmie|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|255/311
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Starmie
+|-sidestart|p1: Geertos|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|165/261|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|274/311|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|270/311
+|-damage|p1a: Starmie|133/261|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Geertos|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Ferrothorn|Leech Seed|p1a: Starmie
+|-start|p1a: Starmie|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|149/261|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|289/311|[from] item: Leftovers
+|-damage|p1a: Starmie|117/261|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|311/311|[silent]
+|turn|22
+|
+|switch|p1a: Gengar|Gengar, M|212/262
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Gengar
+|-sidestart|p1: Geertos|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|228/262|[from] item: Black Sludge
+|turn|23
+|
+|switch|p2a: Vaporeon|Vaporeon, M|464/464
+|move|p1a: Gengar|Focus Blast|p2a: Vaporeon
+|-damage|p2a: Vaporeon|362/464
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|244/262|[from] item: Black Sludge
+|-heal|p2a: Vaporeon|391/464|[from] item: Leftovers
+|turn|24
+|
+|switch|p2a: Scizor|Scizor, F|344/344
+|move|p1a: Gengar|Shadow Ball|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|259/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|260/262|[from] item: Black Sludge
+|-heal|p2a: Scizor|280/344|[from] item: Leftovers
+|turn|25
+|join|Chespinsir
+|
+|move|p1a: Gengar|Focus Blast|p2a: Scizor
+|-damage|p2a: Scizor|105/344
+|move|p2a: Scizor|Pursuit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|10/262
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gengar|26/262|[from] item: Black Sludge
+|-heal|p2a: Scizor|126/344|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scizor|147/344|[from] item: Leftovers
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|319/319
+|-damage|p1a: Landorus-Therian|280/319|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Scizor
+|-unboost|p2a: Scizor|atk|1
+|turn|27
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|311/311
+|move|p1a: Landorus-Therian|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|175/311
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|194/311|[from] item: Leftovers
+|turn|28
+|
+|switch|p1a: Heatran|Heatran, F|386/386
+|-damage|p1a: Heatran|338/386|[from] Stealth Rock
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|362/386|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|213/311|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Heatran|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: chimps|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|386/386|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|232/311|[from] item: Leftovers
+|turn|30
+|
+|switch|p2a: Vaporeon|Vaporeon, M|391/464
+|-damage|p2a: Vaporeon|333/464|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|311/464
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|340/464|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Heatran|Roar|p2a: Vaporeon
+|drag|p2a: Ferrothorn|Ferrothorn, M|232/311
+|-damage|p2a: Ferrothorn|213/311|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|232/311|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Heatran|Lava Plume|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/311
+|move|p2a: Ferrothorn|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|79/311|[from] item: Leftovers
+|-damage|p1a: Heatran|338/386|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|127/311|[silent]
+|turn|33
+|
+|switch|p1a: Hydreigon|Hydreigon, F|253/325
+|-damage|p1a: Hydreigon|213/325|[from] Stealth Rock
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|146/311|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Hydreigon|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|165/311|[from] item: Leftovers
+|turn|35
+|
+|switch|p2a: Vaporeon|Vaporeon, M|340/464
+|-damage|p2a: Vaporeon|282/464|[from] Stealth Rock
+|move|p1a: Hydreigon|Fire Blast|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|248/464
+|-damage|p1a: Hydreigon|181/325|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|277/464|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Vaporeon
+|-damage|p2a: Vaporeon|152/464
+|-damage|p1a: Hydreigon|149/325|[from] item: Life Orb
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|464/464 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-curestatus|p2a: Vaporeon|slp
+|turn|37
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Vaporeon
+|-damage|p2a: Vaporeon|335/464
+|-damage|p1a: Hydreigon|117/325|[from] item: Life Orb
+|move|p2a: Vaporeon|Roar|p1a: Hydreigon
+|drag|p1a: Heatran|Heatran, F|338/386
+|-damage|p1a: Heatran|290/386|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|314/386|[from] item: Leftovers
+|-heal|p2a: Vaporeon|364/464|[from] item: Leftovers
+|turn|38
+|
+|move|p1a: Heatran|Roar|p2a: Vaporeon
+|drag|p2a: Ferrothorn|Ferrothorn, M|165/311
+|-damage|p2a: Ferrothorn|146/311|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|338/386|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|165/311|[from] item: Leftovers
+|turn|39
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Heatran|Lava Plume|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|362/386|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|184/311|[from] item: Leftovers
+|turn|40
+|
+|switch|p2a: Politoed|Politoed, M|360/360
+|-damage|p2a: Politoed|315/360|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|288/360
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|386/386|[from] item: Leftovers
+|turn|41
+|
+|switch|p1a: Starmie|Starmie|117/261
+|-damage|p1a: Starmie|85/261|[from] Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|280/319
+|-damage|p1a: Landorus-Therian|241/319|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Politoed
+|-unboost|p2a: Politoed|atk|1
+|turn|42
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|57/360
+|move|p2a: Politoed|Hydro Pump|p1a: Landorus-Therian
+|-supereffective|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|0 fnt
+|faint|p1a: Landorus-Therian
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Hydreigon|Hydreigon, F|117/325
+|-damage|p1a: Hydreigon|77/325|[from] Stealth Rock
+|turn|43
+|
+|switch|p2a: Vaporeon|Vaporeon, M|364/464
+|-damage|p2a: Vaporeon|306/464|[from] Stealth Rock
+|move|p1a: Hydreigon|Dark Pulse|p2a: Vaporeon
+|-damage|p2a: Vaporeon|170/464
+|-damage|p1a: Hydreigon|45/325|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|199/464|[from] item: Leftovers
+|turn|44
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|13/325|[from] item: Life Orb
+|faint|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, F|147/344
+|-damage|p2a: Scizor|104/344|[from] Stealth Rock
+|turn|45
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scizor|125/344|[from] item: Leftovers
+|
+|switch|p1a: Heatran|Heatran, F|386/386
+|-damage|p1a: Heatran|338/386|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Heatran|Lava Plume|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|362/386|[from] item: Leftovers
+|
+|switch|p2a: Politoed|Politoed, M|57/360
+|-damage|p2a: Politoed|12/360|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|chimps
+|raw|Ladder updating...
+|raw|Geertos's rating: 1400 &rarr; <strong>1375</strong><br />(-25 for losing)
+|raw|chimps's rating: 1313 &rarr; <strong>1338</strong><br />(+25 for winning)
+|c|★chimps|g
+|c|★chimps|g
+|c|★chimps|bitch
+|leave|Geertos
+|player|p1

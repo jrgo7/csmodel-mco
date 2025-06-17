@@ -1,0 +1,288 @@
+|j|‽SMILETOAD
+|j|☆GrinchsBankAccount
+|player|p1|SMILETOAD|psychicfjp-gen3|1436
+|player|p2|GrinchsBankAccount|clemont|1273
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Whimsicott, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Mew|item
+|poke|p1|Omastar, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Mismagius, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Forretress, F|item
+|poke|p2|Thundurus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GrinchsBankAccount)
+|
+|move|p1a: Mew|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|move|p2a: Heatran|Lava Plume|p1a: Mew
+|-damage|p1a: Mew|65/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mew|Stealth Rock|p2a: Heatran
+|-sidestart|p2: GrinchsBankAccount|move: Stealth Rock
+|move|p2a: Heatran|Lava Plume|p1a: Mew
+|-damage|p1a: Mew|31/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|Explosion|p2a: Heatran
+|-enditem|p1a: Mew|Normal Gem|[from] gem
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|59/100
+|faint|p1a: Mew
+|move|p2a: Heatran|Lava Plume|p1: Mew|[notarget]
+|-fail|p2a: Heatran
+|
+|-end|p2a: Heatran|move: Taunt
+|upkeep
+|
+|switch|p1a: Azelf|Azelf|100/100
+|turn|4
+|
+|move|p1a: Azelf|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|move|p2a: Heatran|Lava Plume|p1a: Azelf
+|-damage|p1a: Azelf|50/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Azelf|Light Screen|p1a: Azelf
+|-sidestart|p1: SMILETOAD|move: Light Screen
+|move|p2a: Heatran|Lava Plume|p1a: Azelf
+|-damage|p1a: Azelf|26/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Azelf|Reflect|p1a: Azelf
+|-sidestart|p1: SMILETOAD|Reflect
+|move|p2a: Heatran|Lava Plume|p1a: Azelf
+|-damage|p1a: Azelf|3/100
+|-status|p1a: Azelf|brn
+|
+|-damage|p1a: Azelf|0 fnt|[from] brn
+|faint|p1a: Azelf
+|-end|p2a: Heatran|move: Taunt
+|upkeep
+|
+|switch|p1a: Omastar|Omastar, F|100/100
+|turn|7
+|
+|move|p1a: Omastar|Shell Smash|p1a: Omastar
+|-unboost|p1a: Omastar|def|1
+|-unboost|p1a: Omastar|spd|1
+|-boost|p1a: Omastar|atk|2
+|-boost|p1a: Omastar|spa|2
+|-boost|p1a: Omastar|spe|2
+|-enditem|p1a: Omastar|White Herb
+|-clearnegativeboost|p1a: Omastar|[silent]
+|move|p2a: Heatran|Roar|p1a: Omastar
+|drag|p1a: Whimsicott|Whimsicott, F|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Whimsicott|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|cant|p2a: Heatran|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Whimsicott|Memento|p2a: Heatran
+|-unboost|p2a: Heatran|atk|2
+|-unboost|p2a: Heatran|spa|2
+|faint|p1a: Whimsicott
+|move|p2a: Heatran|Lava Plume|p1: Whimsicott|[notarget]
+|-fail|p2a: Heatran
+|
+|upkeep
+|
+|switch|p1a: Omastar|Omastar, F|100/100
+|turn|10
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|move|p1a: Omastar|Shell Smash|p1a: Omastar
+|-unboost|p1a: Omastar|def|1
+|-unboost|p1a: Omastar|spd|1
+|-boost|p1a: Omastar|atk|2
+|-boost|p1a: Omastar|spa|2
+|-boost|p1a: Omastar|spe|2
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|12/100
+|
+|switch|p2a: Heatran|Heatran, F|59/100|[from]move: Volt Switch
+|-damage|p2a: Heatran|46/100|[from] Stealth Rock
+|move|p1a: Omastar|Ice Beam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|36/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Omastar|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-enditem|p2a: Heatran|Passho Berry|[eat]
+|-enditem|p2a: Heatran|Passho Berry|[weaken]
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-sideend|p1: SMILETOAD|move: Light Screen
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|76/100
+|-damage|p2a: Thundurus|51/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Thundurus|Volt Switch|p1a: Thundurus
+|-immune|p1a: Thundurus|[from] ability: Volt Absorb
+|
+|-sideend|p1: SMILETOAD|Reflect
+|upkeep
+|turn|14
+|
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|-damage|p2a: Mismagius|88/100|[from] Stealth Rock
+|move|p1a: Thundurus|Agility|p1a: Thundurus
+|-boost|p1a: Thundurus|spe|2
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Mismagius|Shadow Ball|p1a: Thundurus
+|-damage|p1a: Thundurus|52/100
+|-unboost|p1a: Thundurus|spd|1
+|-heal|p2a: Mismagius|96/100|[from] item: Shell Bell|[of] p1a: Thundurus
+|
+|-heal|p1a: Thundurus|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|-heal|p1a: Thundurus|64/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Absol|Absol, M|100/100
+|-damage|p2a: Absol|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Absol|Sucker Punch|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|18
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|76/100
+|move|p2a: Absol|Will-O-Wisp||[still]
+|-fail|p2a: Absol
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Absol|Night Slash|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|51/100
+|move|p2a: Absol|Night Slash|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|26/100
+|move|p2a: Absol|Night Slash|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|1/100
+|-enditem|p1a: Garchomp|Salac Berry|[eat]
+|-boost|p1a: Garchomp|spe|1|[from] item: Salac Berry
+|move|p2a: Absol|Night Slash|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Absol|Sucker Punch||[still]
+|-fail|p2a: Absol
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Absol|Night Slash|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Absol|76/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|-message|SMILETOAD forfeited.
+|
+|win|GrinchsBankAccount
+|l|‽SMILETOAD
+|raw|SMILETOAD's rating: 1436 &rarr; <strong>1407</strong><br />(-29 for losing)
+|raw|GrinchsBankAccount's rating: 1273 &rarr; <strong>1309</strong><br />(+36 for winning)

@@ -1,0 +1,437 @@
+|j|☆Ownir
+|j|☆Dildsmith
+|player|p1|Ownir|266|1528
+|player|p2|Dildsmith|cueball-gen1rb|1257
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Arcanine, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Omastar, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dildsmith)
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Sand Lion|Flygon, F|100/100
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sand Lion|atk|1
+|move|p2a: Sand Lion|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|92/100
+|
+|switch|p2a: Sparky|Zapdos, shiny|100/100|[from]move: U-turn
+|-ability|p2a: Sparky|Pressure
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Landorus|U-turn|p2a: Sparky
+|-resisted|p2a: Sparky
+|-damage|p2a: Sparky|88/100
+|
+|switch|p1a: Politoed|Politoed, M|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Sparky|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sparky|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Sparky|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|81/100
+|-status|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sparky|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Sparky|Heat Wave|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100 par
+|move|p1a: Ferrothorn|Spikes|p2a: Sparky
+|-sidestart|p2: Dildsmith|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sparky|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Sparky|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Sparky|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|43/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Sparky
+|-sidestart|p2: Dildsmith|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Sparky|Thunder|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|92/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sparky|atk|1
+|turn|8
+|
+|switch|p2a: HitMunStoppable|Hitmontop, M|100/100
+|-damage|p2a: HitMunStoppable|88/100|[from] Spikes
+|-damage|p2a: HitMunStoppable|82/100|[from] Stealth Rock
+|-ability|p2a: HitMunStoppable|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|U-turn|p2a: HitMunStoppable
+|-resisted|p2a: HitMunStoppable
+|-damage|p2a: HitMunStoppable|75/100
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: HitMunStoppable|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Tornadus|Hurricane|p2a: HitMunStoppable
+|-supereffective|p2a: HitMunStoppable
+|-damage|p2a: HitMunStoppable|0 fnt
+|faint|p2a: HitMunStoppable
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: NSFW|Tentacruel, F, shiny|100/100
+|-damage|p2a: NSFW|88/100|[from] Spikes
+|-damage|p2a: NSFW|76/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Tornadus|Hurricane|p2a: NSFW
+|-damage|p2a: NSFW|33/100
+|move|p2a: NSFW|Rapid Spin|p1a: Tornadus
+|-damage|p1a: Tornadus|96/100
+|-sideend|p2: Dildsmith|Spikes|[from] move: Rapid Spin|[of] p2a: NSFW
+|-sideend|p2: Dildsmith|Stealth Rock|[from] move: Rapid Spin|[of] p2a: NSFW
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: NSFW|39/100|[from] ability: Rain Dish
+|-heal|p2a: NSFW|45/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p2a: NSFW|Protect|p2a: NSFW
+|-singleturn|p2a: NSFW|Protect
+|move|p1a: Tornadus|Hurricane|p2a: NSFW
+|-activate|p2a: NSFW|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: NSFW|51/100|[from] ability: Rain Dish
+|-heal|p2a: NSFW|57/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Tornadus|U-turn|p2a: NSFW
+|-resisted|p2a: NSFW
+|-damage|p2a: NSFW|46/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|53/100 par|[from]move: U-turn
+|move|p2a: NSFW|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: NSFW|52/100|[from] ability: Rain Dish
+|-heal|p2a: NSFW|58/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Dogmeat|Arcanine, F|100/100
+|-ability|p2a: Dogmeat|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dogmeat
+|-start|p2a: Dogmeat|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|54/100 par|[from] item: Leftovers
+|-damage|p2a: Dogmeat|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|67/100 par|[silent]
+|upkeep
+|turn|14
+|
+|switch|p2a: Sparky|Zapdos, shiny|100/100
+|-ability|p2a: Sparky|Pressure
+|switch|p1a: Landorus|Landorus-Therian, M|92/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sparky|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Landorus|Stone Edge|p2a: Sparky
+|-supereffective|p2a: Sparky
+|-damage|p2a: Sparky|23/100
+|move|p2a: Sparky|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sparky|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|96/100
+|turn|16
+|
+|switch|p2a: NSFW|Tentacruel, F, shiny|58/100
+|move|p1a: Tornadus|Hurricane|p2a: NSFW
+|-damage|p2a: NSFW|13/100
+|-start|p2a: NSFW|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: NSFW|19/100|[from] ability: Rain Dish
+|-heal|p2a: NSFW|25/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|-activate|p2a: NSFW|confusion
+|move|p2a: NSFW|Protect|p2a: NSFW
+|-singleturn|p2a: NSFW|Protect
+|move|p1a: Tornadus|Hurricane|p2a: NSFW
+|-activate|p2a: NSFW|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: NSFW|32/100|[from] ability: Rain Dish
+|-heal|p2a: NSFW|38/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|-activate|p2a: NSFW|confusion
+|-damage|p2a: NSFW|31/100|[from] confusion
+|move|p1a: Tornadus|Hurricane|p2a: NSFW
+|-damage|p2a: NSFW|0 fnt
+|faint|p2a: NSFW
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Dildsmith has 120 seconds left.
+|
+|switch|p2a: Dogmeat|Arcanine, F|88/100
+|-ability|p2a: Dogmeat|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|19
+|
+|move|p2a: Dogmeat|Extreme Speed|p1a: Tornadus
+|-damage|p1a: Tornadus|54/100
+|move|p1a: Tornadus|U-turn|p2a: Dogmeat
+|-resisted|p2a: Dogmeat
+|-damage|p2a: Dogmeat|82/100
+|
+|switch|p1a: Politoed|Politoed, M|92/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dogmeat|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Dogmeat|Wild Charge|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|23/100
+|-damage|p2a: Dogmeat|72/100|[from] Recoil
+|move|p1a: Politoed|Hydro Pump|p2a: Dogmeat|[miss]
+|-miss|p1a: Politoed|p2a: Dogmeat
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dogmeat|78/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Dogmeat|Wild Charge|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Dogmeat|72/100|[from] Recoil
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dogmeat|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|turn|22
+|
+|move|p1a: Tentacruel|Scald|p2a: Dogmeat
+|-supereffective|p2a: Dogmeat
+|-damage|p2a: Dogmeat|4/100
+|move|p2a: Dogmeat|Wild Charge|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|26/100
+|-damage|p2a: Dogmeat|0 fnt|[from] Recoil
+|faint|p2a: Dogmeat
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|32/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|38/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Sparky|Zapdos, shiny|30/100
+|-ability|p2a: Sparky|Pressure
+|turn|23
+|
+|move|p1a: Tentacruel|Scald|p2a: Sparky
+|-damage|p2a: Sparky|6/100
+|move|p2a: Sparky|Roost|p2a: Sparky
+|-heal|p2a: Sparky|56/100
+|-singleturn|p2a: Sparky|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|44/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|50/100|[from] item: Black Sludge
+|-heal|p2a: Sparky|62/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Tentacruel|Scald|p2a: Sparky
+|-damage|p2a: Sparky|35/100
+|-status|p2a: Sparky|brn
+|move|p2a: Sparky|Thunder|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sparky|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Sparky|29/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|54/100
+|turn|25
+|
+|move|p1a: Tornadus|Hurricane|p2a: Sparky
+|-resisted|p2a: Sparky
+|-damage|p2a: Sparky|0 fnt
+|faint|p2a: Sparky
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Cthullu|Omastar, F|100/100
+|turn|26
+|
+|move|p2a: Cthullu|Ice Beam|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|67/100 par
+|turn|27
+|
+|move|p2a: Cthullu|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|46/100 par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Cthullu
+|-start|p2a: Cthullu|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|52/100 par|[from] item: Leftovers
+|-damage|p2a: Cthullu|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|62/100 par|[silent]
+|upkeep
+|turn|28
+|
+|switch|p2a: Sand Lion|Flygon, F|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Sand Lion
+|-damage|p2a: Sand Lion|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Sand Lion|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|39/100 par
+|-damage|p2a: Sand Lion|19/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆Ownir|almost
+|
+|move|p2a: Sand Lion|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|19/100 par
+|-damage|p2a: Sand Lion|7/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|-message|Ownir forfeited.
+|
+|win|Dildsmith
+|raw|Ownir's rating: 1528 &rarr; <strong>1495</strong><br />(-33 for losing)
+|raw|Dildsmith's rating: 1257 &rarr; <strong>1299</strong><br />(+42 for winning)
+|c|☆Dildsmith|gg man
+|c|☆Ownir|gg
+|c|☆Dildsmith|Bulky zapdos catches people off guard
+|c|☆Ownir|was a fun game
+|c|☆Ownir|I would want to end without para to see what happened
+|c|☆Dildsmith|Yes indeed! and yeah went down to the wire, para probably saved me
+|c|☆Dildsmith|I should've used E-quake on Flygon though, would've done more damage
+|c|☆Ownir|yea, I was thinking about that too
+|c|☆Dildsmith|I think
+|c|☆Ownir|well, gl and thanks for the game
+|c|☆Dildsmith|Thanks you too!
+|l|☆Ownir

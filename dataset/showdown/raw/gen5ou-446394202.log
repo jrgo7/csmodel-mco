@@ -1,0 +1,235 @@
+|j|☆thierryhenry14
+|j|☆buyi ygf南
+|player|p1|thierryhenry14|169
+|player|p2|buyi ygf南|7
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Volcarona, F|item
+|poke|p1|Dugtrio, F|item
+|poke|p1|Xatu, F|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Gothitelle, M|item
+|poke|p1|Weavile, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Gengar, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Breloom, M|item
+|poke|p2|Dragonite, F|item
+|teampreview
+|
+|start
+|switch|p1a: Xatu|Xatu, F|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Xatu
+|-damage|p1a: Xatu|69/100
+|-damage|p2a: Skarmory|84/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|-damage|p2a: Skarmory|74/100|[from] Recoil
+|move|p1a: Xatu|Heat Wave|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|15/100
+|-enditem|p2a: Skarmory|Salac Berry|[eat]
+|-boost|p2a: Skarmory|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Gengar|Shadow Ball|p1a: Ninetales
+|-damage|p1a: Ninetales|49/100
+|-enditem|p1a: Ninetales|Eject Button
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Weavile|Pursuit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|5
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Dugtrio|Rock Tomb|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|21/100
+|-unboost|p2a: Volcarona|spe|1
+|move|p2a: Volcarona|Fiery Dance|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Volcarona|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|7
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Volcarona|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|40/100
+|move|p2a: Dragonite|Outrage|p1a: Volcarona
+|-damage|p1a: Volcarona|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|46/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Volcarona|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|10
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-enditem|p1a: Volcarona|Charti Berry|[eat]
+|-enditem|p1a: Volcarona|Charti Berry|[weaken]
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|turn|11
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Gothitelle
+|-damage|p1a: Gothitelle|61/100
+|cant|p1a: Gothitelle|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Gothitelle
+|-damage|p1a: Gothitelle|25/100
+|cant|p1a: Gothitelle|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|turn|14
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|50/100
+|cant|p1a: Xatu|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆thierryhenry14|rly
+|
+|switch|p1a: Ninetales|Ninetales, F|49/100
+|turn|16
+|
+|switch|p2a: Skarmory|Skarmory, F|15/100
+|move|p1a: Ninetales|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|17
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|18
+|
+|move|p2a: Excadrill|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|win|buyi ygf南
+|raw|thierryhenry14's rating: 1329 &rarr; <strong>1310</strong><br />(-19 for losing)
+|raw|buyi ygf南's rating: 1338 &rarr; <strong>1358</strong><br />(+20 for winning)

@@ -1,0 +1,151 @@
+|j|☆GiantPorcPrincess
+|j|☆smurfer
+|player|p1|GiantPorcPrincess|266|1335
+|player|p2|smurfer|rocketgrunt|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Latias, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Azumarill, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GiantPorcPrincess)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Garchomp|Garchomp, F, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|-damage|p1a: Landorus|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: smurfer|move: Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: GiantPorcPrincess|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|95/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: GiantPorcPrincess|Spikes
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Garchomp|Garchomp, F, shiny|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Garchomp
+|-sidestart|p2: smurfer|Spikes
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Latias
+|-immune|p1a: Latias|[from] ability: Levitate
+|
+|-heal|p1a: Latias|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|95/100
+|-damage|p2a: Ferrothorn|89/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|77/100|[from] Spikes
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|69/100
+|
+|-heal|p1a: Latias|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Ferrothorn|Spikes|p1a: Latias
+|-sidestart|p1: GiantPorcPrincess|Spikes
+|
+|-heal|p1a: Latias|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-damage|p2a: Politoed|88/100|[from] Spikes
+|-damage|p2a: Politoed|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Politoed
+|-damage|p2a: Politoed|18/100
+|move|p2a: Politoed|Ice Beam|p1a: Latias
+|-supereffective|p1a: Latias
+|-activate|p1a: Latias|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|99/100|[from] item: Leftovers
+|upkeep
+|-message|smurfer forfeited.
+|
+|win|GiantPorcPrincess
+|l|☆smurfer
+|raw|GiantPorcPrincess's rating: 1336 &rarr; <strong>1357</strong><br />(+21 for winning)
+|raw|smurfer's rating: 1362 &rarr; <strong>1340</strong><br />(-22 for losing)

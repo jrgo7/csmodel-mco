@@ -1,0 +1,716 @@
+|j|☆dfdsfdfdafa
+|j|☆Ar. Layne
+|player|p1|dfdsfdfdafa|266
+|player|p2|Ar. Layne|256
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Gliscor, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Amoonguss, F|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Starmie|item
+|poke|p2|Salamence, F|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ar. Layne)
+|
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|
+|move|p2a: Skarmory|Taunt|p1a: Forretress
+|-start|p1a: Forretress|move: Taunt
+|cant|p1a: Forretress|move: Taunt|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Skarmory|Stealth Rock|p1a: Forretress
+|-sidestart|p1: dfdsfdfdafa|move: Stealth Rock
+|move|p1a: Forretress|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|99/100
+|-sideend|p1: dfdsfdfdafa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Skarmory|Stealth Rock|p1a: Forretress
+|-sidestart|p1: dfdsfdfdafa|move: Stealth Rock
+|move|p1a: Forretress|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|96/100
+|-sideend|p1: dfdsfdfdafa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-end|p1a: Forretress|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p2a: Skarmory|Taunt|p1a: Forretress
+|-start|p1a: Forretress|move: Taunt
+|move|p1a: Forretress|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|60/100
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Skarmory|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: dfdsfdfdafa|move: Stealth Rock
+|move|p1a: Gliscor|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Ar. Layne|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Forretress
+|-sidestart|p1: dfdsfdfdafa|Spikes
+|
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Forretress|Spikes|p2a: Jellicent
+|-sidestart|p2: Ar. Layne|Spikes
+|
+|-heal|p2a: Jellicent|94/100|[from] item: Leftovers
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Spikes
+|-damage|p1a: Amoonguss|75/100|[from] Stealth Rock
+|move|p2a: Jellicent|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|82/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Amoonguss
+|-status|p1a: Amoonguss|brn
+|move|p1a: Amoonguss|Hidden Power|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|95/100
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|88/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|75/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Skarmory|Skarmory, M|60/100
+|-damage|p2a: Skarmory|47/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-heal|p1a: Amoonguss|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|69/100 brn|[from] brn
+|-end|p1a: Amoonguss|move: Taunt
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|-damage|p2a: Starmie|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Starmie|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|23/100 brn
+|-damage|p2a: Starmie|66/100|[from] item: Life Orb
+|move|p1a: Amoonguss|Giga Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|1/100
+|-heal|p1a: Amoonguss|43/100 brn|[from] drain|[of] p2a: Starmie
+|
+|-heal|p1a: Amoonguss|49/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|37/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|-damage|p1a: Jirachi|82/100|[from] Stealth Rock
+|move|p2a: Starmie|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|80/100
+|-sideend|p2: Ar. Layne|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|-sideend|p2: Ar. Layne|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|-damage|p2a: Starmie|0 fnt|[from] item: Life Orb
+|faint|p2a: Starmie
+|
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|turn|13
+|
+|switch|p1a: Amoonguss|Amoonguss, F|70/100 brn
+|-damage|p1a: Amoonguss|58/100 brn|[from] Spikes
+|-damage|p1a: Amoonguss|45/100 brn|[from] Stealth Rock
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Amoonguss
+|-fail|p1a: Amoonguss|brn
+|
+|-heal|p1a: Amoonguss|51/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|39/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Jellicent|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|cant|p1a: Amoonguss|move: Taunt|Spore
+|
+|-heal|p1a: Amoonguss|45/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|33/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Spikes
+|-damage|p1a: Slowbro|76/100|[from] Stealth Rock
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-heal|p1a: Slowbro|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Slowbro|Fire Blast|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|89/100
+|
+|-heal|p2a: Jellicent|95/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Amoonguss|Amoonguss, F|66/100 brn
+|-damage|p1a: Amoonguss|54/100 brn|[from] Spikes
+|-damage|p1a: Amoonguss|41/100 brn|[from] Stealth Rock
+|move|p2a: Jellicent|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|47/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|35/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|98/100
+|-heal|p1a: Amoonguss|36/100 brn|[from] drain|[of] p2a: Dragonite
+|
+|-heal|p1a: Amoonguss|42/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|30/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|-damage|p1a: Slowbro|76/100|[from] Spikes
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p1a: Slowbro|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Dragonite|Outrage|p1a: Slowbro
+|-damage|p1a: Slowbro|19/100
+|move|p1a: Slowbro|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|11/100
+|
+|-heal|p1a: Slowbro|25/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|-damage|p1a: Forretress|76/100|[from] Spikes
+|move|p2a: Dragonite|Outrage|p1a: Forretress|[from]lockedmove
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|46/100
+|
+|-heal|p1a: Forretress|52/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Dragonite|Outrage|p1a: Forretress|[from]lockedmove
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|24/100
+|-start|p2a: Dragonite|confusion|[fatigue]
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-end|p2a: Dragonite|confusion
+|move|p1a: Forretress|Rapid Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|6/100
+|-sideend|p1: dfdsfdfdafa|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: dfdsfdfdafa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p1a: Forretress|30/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|turn|25
+|
+|move|p2a: Dragonite|Outrage|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|86/100
+|turn|26
+|
+|move|p2a: Dragonite|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|43/100
+|-start|p2a: Dragonite|confusion|[fatigue]
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|49/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|-activate|p2a: Dragonite|confusion
+|-damage|p2a: Dragonite|0 fnt|[from] confusion
+|faint|p2a: Dragonite
+|move|p1a: Jirachi|Body Slam|p2: Dragonite|[notarget]
+|-fail|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|99/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|inactive|Ar. Layne has 120 seconds left.
+|l|☆Ar. Layne
+|inactive|Ar. Layne disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Ar. Layne has 60 seconds to reconnect!
+|inactive|Ar. Layne has 30 seconds to reconnect!
+|inactive|Ar. Layne has 20 seconds to reconnect!
+|inactive|Ar. Layne has 15 seconds to reconnect!
+|j|☆Ar. Layne
+|inactive|Ar. Layne reconnected and has 65 seconds left.
+|player|p2|Ar. Layne|256
+|inactive|Ar. Layne has 60 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|turn|28
+|
+|switch|p1a: Amoonguss|Amoonguss, F|63/100 brn
+|move|p2a: Jellicent|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|
+|-heal|p1a: Amoonguss|69/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|57/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p2a: Salamence|Salamence, F|100/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|92/100
+|-heal|p1a: Amoonguss|60/100 brn|[from] drain|[of] p2a: Salamence
+|
+|-heal|p1a: Amoonguss|66/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|54/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Salamence|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|35/100
+|
+|-heal|p1a: Jirachi|41/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Salamence|Earthquake|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Amoonguss|Amoonguss, F|87/100 brn
+|move|p2a: Salamence|Earthquake|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|13/100 brn
+|
+|-heal|p1a: Amoonguss|20/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|7/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: Jirachi|Jirachi|48/100
+|move|p2a: Salamence|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|
+|switch|p1a: Slowbro|Slowbro, M|58/100
+|turn|34
+|
+|move|p2a: Salamence|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|28/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|78/100
+|
+|-heal|p1a: Slowbro|85/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Slowbro|Ice Beam|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|91/100
+|-status|p2a: Jellicent|frz
+|
+|-heal|p2a: Jellicent|97/100 frz|[from] item: Leftovers
+|-heal|p1a: Slowbro|91/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-curestatus|p2a: Jellicent|frz|[from] move: Scald
+|move|p2a: Jellicent|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|91/100|[from] Sandstorm
+|-heal|p2a: Jellicent|97/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Tyranitar|Crunch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|28/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|22/100|[from] Sandstorm
+|-heal|p2a: Jellicent|28/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|57/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|44/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|94/100|[from] Sandstorm
+|-heal|p1a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Jellicent|Jellicent, F|28/100
+|move|p1a: Slowbro|Fire Blast|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|10/100|[from] Sandstorm
+|-damage|p1a: Slowbro|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|16/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|switch|p1a: Amoonguss|Amoonguss, F|41/100 brn
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|60/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|34/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|67/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|41/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|28/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Jellicent|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|move|p1a: Amoonguss|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|27/100
+|-heal|p1a: Amoonguss|46/100 brn|[from] drain|[of] p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|21/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|40/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|27/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|46/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|34/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|71/100|[from] Sandstorm
+|-damage|p1a: Slowbro|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|77/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Amoonguss|Amoonguss, F|67/100 brn
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Amoonguss
+|-fail|p1a: Amoonguss|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|71/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|61/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|77/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|67/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|55/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Jellicent|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|cant|p1a: Amoonguss|move: Taunt|Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|71/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|48/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|77/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|55/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|42/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Jellicent|Scald|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|71/100|[from] Sandstorm
+|-damage|p1a: Slowbro|81/100|[from] Sandstorm
+|-heal|p2a: Jellicent|77/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|87/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p1a: Amoonguss|Amoonguss, F|75/100 brn
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Amoonguss
+|-fail|p1a: Amoonguss|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|71/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|69/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|77/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|75/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|63/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Jellicent|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|move|p1a: Amoonguss|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|37/100
+|-heal|p1a: Amoonguss|82/100 brn|[from] drain|[of] p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|31/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|75/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|37/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|69/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|87/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|50/100
+|-heal|p1a: Amoonguss|87/100 brn|[from] drain|[of] p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|43/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|81/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|50/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|87/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|74/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Amoonguss
+|-fail|p1a: Amoonguss|brn
+|move|p1a: Amoonguss|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|11/100
+|-heal|p1a: Amoonguss|92/100 brn|[from] drain|[of] p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|5/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|86/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|11/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|92/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|80/100 brn|[from] brn
+|-end|p1a: Amoonguss|move: Taunt
+|upkeep
+|turn|51
+|
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|61/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-crit|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-heal|p1a: Amoonguss|100/100 brn|[from] drain|[of] p2a: Jellicent
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|94/100 brn|[from] Sandstorm
+|-heal|p1a: Amoonguss|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|87/100
+|turn|52
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|94/100|[from] Sandstorm
+|-heal|p1a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p2a: Scizor|Acrobatics|p1a: Slowbro
+|-enditem|p2a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p1a: Slowbro|26/100
+|move|p1a: Slowbro|Fire Blast|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|20/100|[from] Sandstorm
+|-heal|p1a: Slowbro|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, F|92/100
+|turn|54
+|
+|switch|p1a: Tyranitar|Tyranitar, M|44/100 brn
+|move|p2a: Salamence|Outrage|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|86/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Slowbro|Slowbro, M|60/100
+|turn|55
+|
+|move|p2a: Salamence|Outrage|p1a: Slowbro|[from]lockedmove
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|80/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|turn|56
+|
+|move|p2a: Salamence|Outrage|p1a: Amoonguss|[from]lockedmove
+|-damage|p1a: Amoonguss|0 fnt
+|-start|p2a: Salamence|confusion|[fatigue]
+|faint|p1a: Amoonguss
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|win|Ar. Layne
+|l|☆dfdsfdfdafa
+|raw|dfdsfdfdafa's rating: 1355 &rarr; <strong>1337</strong><br />(-18 for losing)
+|raw|Ar. Layne's rating: 1395 &rarr; <strong>1413</strong><br />(+18 for winning)

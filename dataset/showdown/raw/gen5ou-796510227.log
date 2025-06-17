@@ -1,0 +1,311 @@
+|j|☆AtlanticAveRe
+|j|☆refsunpersons
+|player|p1|AtlanticAveRe|2
+|player|p2|refsunpersons|15
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Espeon, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Lucario, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Diglett, F|item
+|poke|p2|Xatu, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|
+|start
+|switch|p1a: Lucario|Lucario, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|c|☆AtlanticAveRe|same
+|
+|move|p2a: Jirachi|U-turn|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|92/100
+|
+|switch|p2a: Diglett|Diglett, F|100/100
+|move|p1a: Lucario|Close Combat|p2a: Diglett
+|-enditem|p2a: Diglett|Focus Sash
+|-damage|p2a: Diglett|1/100
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|82/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Lucario|Extreme Speed|p2a: Xatu
+|-damage|p2a: Xatu|70/100
+|-damage|p1a: Lucario|66/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|-damage|p1a: Lucario|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Lucario|Ice Punch|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|10/100
+|-damage|p1a: Lucario|39/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|-damage|p1a: Lucario|29/100|[from] item: Life Orb
+|move|p2a: Xatu|U-turn|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|22/100
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Jirachi|Meteor Mash|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|71/100
+|
+|-heal|p1a: Gyarados|77/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Xatu|Xatu, F|10/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|83/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Gyarados|Waterfall|p2a: Xatu
+|-damage|p2a: Xatu|0
+|-damage|p1a: Gyarados|66/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|faint|p2a: Xatu
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|72/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|7
+|
+|move|p1a: Gyarados|Waterfall|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|20/100
+|move|p2a: Politoed|Hydro Pump|p1a: Gyarados
+|-enditem|p2a: Politoed|Water Gem|[from] gem|[move] Hydro Pump
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|12/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Diglett|Diglett, F|1/100
+|move|p1a: Gyarados|Waterfall|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0
+|faint|p2a: Diglett
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|18/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|9
+|
+|move|p2a: Jirachi|Thunder|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|10
+|
+|switch|p2a: Politoed|Politoed, M|20/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Tyranitar|Crunch|p2a: Politoed
+|-damage|p2a: Politoed|0
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|12
+|
+|switch|p1a: Lucario|Lucario, F|22/100
+|move|p2a: Jirachi|Meteor Mash|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|0
+|faint|p1a: Lucario
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|turn|13
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Forretress|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: refsunpersons|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Dragonite|Hurricane|p1a: Forretress
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|-start|p1a: Forretress|confusion
+|-enditem|p1a: Forretress|Red Card|[of] p2a: Dragonite
+|-damage|p2a: Dragonite|91/100|[from] item: Life Orb
+|drag|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|-activate|p1a: Forretress|confusion
+|move|p1a: Forretress|Gyro Ball|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Jirachi|Thunder|p1a: Forretress
+|-damage|p1a: Forretress|0
+|faint|p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|16
+|
+|move|p2a: Jirachi|Thunder|p1a: Tyranitar|[miss]
+|-miss|p2a: Jirachi|p1a: Tyranitar
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Jirachi|Thunder|p1a: Tyranitar
+|-damage|p1a: Tyranitar|81/100
+|-status|p1a: Tyranitar|par
+|move|p1a: Tyranitar|Fire Punch|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|91/100
+|-damage|p2a: Dragonite|66/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Dragonite|Aqua Tail|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|13/100 par
+|-damage|p2a: Dragonite|56/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆refsunpersons|no way
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Tornadus|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 par
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|70/100|[from] Sandstorm
+|upkeep
+|c|☆refsunpersons|very fat
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|turn|20
+|
+|move|p2a: Tornadus|Hurricane|p1a: Espeon
+|-damage|p1a: Espeon|11/100
+|move|p1a: Espeon|Light Screen|p1a: Espeon
+|-sidestart|p1: AtlanticAveRe|move: Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|64/100|[from] Sandstorm
+|-damage|p1a: Espeon|5/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|move|p2a: Tornadus|Hurricane|p1a: Espeon
+|-damage|p1a: Espeon|0
+|faint|p1a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|58/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|22
+|
+|move|p2a: Tornadus|Hurricane|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|10/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Tornadus
+|-damage|p2a: Tornadus|0
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Tornadus
+|
+|win|AtlanticAveRe
+|raw|AtlanticAveRe's rating: 1440 &rarr; <strong>1456</strong><br />(+16 for winning)
+|raw|refsunpersons's rating: 1381 &rarr; <strong>1364</strong><br />(-17 for losing)
+|c|☆refsunpersons|gg
+|l|☆AtlanticAveRe

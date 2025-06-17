@@ -1,0 +1,513 @@
+|j|☆weidson
+|j|☆BigSausageNipples
+|player|p1|weidson|266
+|player|p2|BigSausageNipples|188
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Skarmory, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Salamence, M|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Ditto|item
+|poke|p2|Liepard, M|item
+|poke|p2|Gengar, F|item
+|poke|p2|Mew|item
+|poke|p2|Riolu, M|item
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Garchomp|[from] ability: Imposter
+|turn|1
+|
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|94/100|[from] Hail
+|upkeep
+|turn|2
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Skarmory|[from] ability: Imposter
+|move|p1a: Skarmory|Stealth Rock|p2a: Ditto
+|-sidestart|p2: BigSausageNipples|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ditto|94/100|[from] Hail
+|-damage|p1a: Skarmory|88/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p2a: Ditto|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: weidson|move: Stealth Rock
+|move|p1a: Skarmory|Taunt|p2a: Ditto
+|-start|p2a: Ditto|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ditto|88/100|[from] Hail
+|-damage|p1a: Skarmory|82/100|[from] Hail
+|upkeep
+|turn|4
+|
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Abomasnow
+|-sidestart|p2: BigSausageNipples|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|75/100|[from] Hail
+|upkeep
+|turn|5
+|
+|-singleturn|p2a: Abomasnow|move: Focus Punch
+|move|p1a: Skarmory|Brave Bird|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-damage|p1a: Skarmory|41/100|[from] Recoil
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|35/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Liepard|Liepard, M|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|-damage|p2a: Liepard|76/100|[from] Spikes
+|turn|6
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Skarmory|[from]Assist
+|drag|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Jellicent|82/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Jellicent|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Garchomp|88/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| ImViraL
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Alakazam|Alakazam, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Alakazam|[from]Assist
+|drag|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Scizor|82/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|88/100
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Garchomp|76/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Salamence|Salamence, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salamence|70/100|[from] Hail
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Salamence|[from]Assist
+|drag|p1a: Skarmory|Skarmory, M|35/100
+|-damage|p1a: Skarmory|22/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Skarmory|16/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|-enditem|p1a: Skarmory|Custap Berry|[eat]
+|-activate|p1a: Skarmory|item: Custap Berry|[consumed]
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Skarmory|[from]Assist
+|drag|p1a: Alakazam|Alakazam, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Alakazam|[from]Assist
+|drag|p1a: Salamence|Salamence, M|70/100
+|-damage|p1a: Salamence|45/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salamence|39/100|[from] Hail
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Salamence|[from]Assist
+|drag|p1a: Skarmory|Skarmory, M|16/100
+|-damage|p1a: Skarmory|3/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Skarmory|0 fnt|[from] Hail
+|faint|p1a: Skarmory
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|88/100
+|-damage|p1a: Jellicent|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Jellicent|[from]Assist
+|drag|p1a: Salamence|Salamence, M|39/100
+|-damage|p1a: Salamence|14/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salamence|8/100|[from] Hail
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Salamence|[from]Assist
+|drag|p1a: Scizor|Scizor, F|82/100
+|-damage|p1a: Scizor|69/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Scizor|63/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Jellicent|Jellicent, M|76/100
+|-damage|p1a: Jellicent|63/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Jellicent|57/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Jellicent|[from]Assist
+|drag|p1a: Scizor|Scizor, F|63/100
+|-damage|p1a: Scizor|51/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Scizor|44/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|76/100
+|-damage|p1a: Garchomp|70/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Garchomp|64/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Alakazam|Alakazam, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Alakazam|[from]Assist
+|drag|p1a: Scizor|Scizor, F|44/100
+|-damage|p1a: Scizor|32/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Scizor|26/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Jellicent|Jellicent, M|63/100
+|-damage|p1a: Jellicent|51/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Jellicent|45/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|51/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Jellicent|[from]Assist
+|drag|p1a: Scizor|Scizor, F|26/100
+|-damage|p1a: Scizor|13/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Scizor|7/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Scizor|[from]Assist
+|drag|p1a: Jellicent|Jellicent, M|51/100
+|-damage|p1a: Jellicent|39/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-damage|p1a: Jellicent|32/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|39/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Jellicent|[from]Assist
+|drag|p1a: Alakazam|Alakazam, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|70/100|[from] Hail
+|-heal|p2a: Liepard|76/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Liepard|Substitute|p2a: Liepard
+|-start|p2a: Liepard|Substitute
+|-damage|p2a: Liepard|51/100
+|move|p1a: Alakazam|Focus Blast|p2a: Liepard|[miss]
+|-miss|p1a: Alakazam|p2a: Liepard
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Liepard
+|-end|p2a: Liepard|Substitute
+|move|p2a: Liepard|Dark Pulse|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Alakazam|[from]Assist
+|drag|p1a: Salamence|Salamence, M|8/100
+|-damage|p1a: Salamence|0 fnt|[from] Stealth Rock
+|faint|p1a: Salamence
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|39/100
+|-damage|p1a: Jellicent|26/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Liepard|Dark Pulse|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|7/100
+|-damage|p1a: Scizor|0 fnt|[from] Stealth Rock
+|faint|p1a: Scizor
+|
+|switch|p1a: Garchomp|Garchomp, M|64/100
+|-damage|p1a: Garchomp|58/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Alakazam|Alakazam, M|1/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Alakazam|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|58/100
+|-damage|p1a: Garchomp|52/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-damage|p1a: Garchomp|46/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Alakazam|Alakazam, M|1/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Alakazam|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|46/100
+|-damage|p1a: Garchomp|40/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-damage|p1a: Garchomp|33/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Garchomp|[from]Assist
+|drag|p1a: Alakazam|Alakazam, M|1/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Liepard|Assist|p2a: Liepard
+|move|p2a: Liepard|Roar|p1a: Alakazam|[from]Assist
+|drag|p1a: Garchomp|Garchomp, M|33/100
+|-damage|p1a: Garchomp|27/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-damage|p1a: Garchomp|21/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Liepard|Dark Pulse|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Liepard|45/100|[from] Hail
+|-heal|p2a: Liepard|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|1/100
+|turn|38
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|88/100
+|-damage|p2a: Ditto|76/100|[from] Spikes
+|-damage|p2a: Ditto|64/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Alakazam|[from] ability: Imposter
+|turn|39
+|
+|move|p2a: Ditto|Shadow Ball|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|BigSausageNipples
+|raw|weidson's rating: 1331 &rarr; <strong>1308</strong><br />(-23 for losing)
+|raw|BigSausageNipples's rating: 1269 &rarr; <strong>1299</strong><br />(+30 for winning)
+|l| ImViraL
+|l|☆weidson

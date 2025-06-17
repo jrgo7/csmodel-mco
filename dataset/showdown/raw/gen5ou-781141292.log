@@ -1,0 +1,357 @@
+|j|☆annalgesic
+|j|☆CroCoeur
+|player|p1|annalgesic|9
+|player|p2|CroCoeur|161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Salamence, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vaporeon, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|c|☆CroCoeur|well, hello again
+|c|☆annalgesic|finally my revenge hah
+|c|☆annalgesic|hf
+|
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|c|☆CroCoeur|So now
+|c|☆CroCoeur|Do you know I know you have draco gem and are anticipating a switch to ferro
+|c|☆annalgesic|yep
+|c|☆CroCoeur|Mind games are on
+|c|☆CroCoeur|What do you have than can hurt a ferro in the rain
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Dragonite|Draco Meteor|p2a: Ferrothorn
+|-enditem|p1a: Dragonite|Dragon Gem|[from] gem|[move] Draco Meteor
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|-unboost|p1a: Dragonite|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Dragonite|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Dragonite|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Dragonite|atk|1
+|-unboost|p1a: Dragonite|def|1
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆annalgesic|this
+|c|☆CroCoeur|of course
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|turn|3
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Jirachi|Thunder|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|62/100
+|-status|p2a: Vaporeon|par
+|move|p2a: Vaporeon|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|56/100
+|-status|p1a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|par|[msg]
+|-heal|p2a: Vaporeon|68/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|44/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: CroCoeur|move: Stealth Rock
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-damage|p1a: Jirachi|32/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Jirachi|Sandstorm|p1a: Jirachi
+|-weather|Sandstorm
+|move|p2a: Vaporeon|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|4/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Jirachi
+|c|☆CroCoeur|good call
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|7
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Breloom|Spore|p2a: Politoed
+|-status|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Focus Punch|p2a: Latios
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Focus Punch
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆CroCoeur|for real?
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|9
+|c|☆annalgesic|;))
+|
+|move|p1a: Breloom|Spore|p2a: Dragonite
+|-message|Sleep Clause Mod activated.
+|move|p2a: Dragonite|Hurricane|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|c|☆annalgesic|ooh
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|10
+|
+|move|p1a: Tornadus|Icy Wind|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|21/100
+|-unboost|p2a: Dragonite|spe|1
+|-damage|p1a: Tornadus|91/100|[from] item: Life Orb
+|move|p2a: Dragonite|Thunder|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|21/100
+|-status|p1a: Tornadus|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|27/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: annalgesic|move: Tailwind
+|move|p2a: Dragonite|Hurricane|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|12
+|
+|switch|p2a: Politoed|Politoed, M|88/100 slp
+|-damage|p2a: Politoed|76/100 slp|[from] Stealth Rock
+|move|p1a: Excadrill|Iron Head|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|43/100 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Excadrill|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|turn|14
+|j| praise the sand
+|
+|move|p1a: Excadrill|Iron Head|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|63/100
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|69/100|[from] item: Leftovers
+|-sideend|p1: annalgesic|move: Tailwind
+|upkeep
+|turn|15
+|c|☆annalgesic|i am fucked
+|c|☆CroCoeur|statistically, yes
+|c|☆CroCoeur|you always can get lucky
+|
+|move|p1a: Excadrill|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|39/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|70/100
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Excadrill|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|56/100
+|move|p2a: Vaporeon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|88/100
+|turn|18
+|
+|move|p1a: Dragonite|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|23/100
+|-unboost|p1a: Dragonite|spa|2
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|upkeep
+|turn|19
+|
+|move|p1a: Dragonite|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|83/100
+|-unboost|p1a: Dragonite|spa|2
+|move|p2a: Vaporeon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆CroCoeur|just go for the crits man
+|
+|move|p1a: Dragonite|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|76/100
+|-unboost|p1a: Dragonite|spa|2
+|move|p2a: Vaporeon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|40/100
+|-status|p1a: Dragonite|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|82/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|27/100 brn|[from] brn
+|upkeep
+|turn|21
+|c|☆annalgesic|I hope
+|
+|move|p1a: Dragonite|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|72/100
+|move|p2a: Vaporeon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|3/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|78/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Dragonite
+|c|☆annalgesic|i messed up with breloom
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|turn|22
+|c|☆CroCoeur|that...was a mistake
+|
+|move|p1a: Salamence|Outrage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|56/100
+|move|p2a: Vaporeon|Scald|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|74/100
+|-status|p1a: Salamence|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|62/100|[from] item: Leftovers
+|-damage|p1a: Salamence|61/100 brn|[from] brn
+|upkeep
+|turn|23
+|c|☆annalgesic|gg. you are a cool one
+|-message|annalgesic forfeited.
+|
+|win|CroCoeur
+|l|☆annalgesic
+|raw|annalgesic's rating: 1384 &rarr; <strong>1364</strong><br />(-20 for losing)
+|raw|CroCoeur's rating: 1378 &rarr; <strong>1398</strong><br />(+20 for winning)

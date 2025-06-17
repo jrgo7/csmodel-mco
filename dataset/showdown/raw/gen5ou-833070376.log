@@ -1,0 +1,484 @@
+|j|☆Guybrush T
+|j|☆porrompompom
+|player|p1|Guybrush T|290
+|player|p2|porrompompom|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Scizor, M|item
+|poke|p1|Gengar, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Reuniclus, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Guybrush T)
+|inactive|porrompompom has 120 seconds left.
+|inactive|porrompompom has 90 seconds left.
+|
+|start
+|switch|p1a: There There|Skarmory, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: There There|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: There There|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|move|p2a: Tyranitar|Fire Blast|p1a: There There
+|-supereffective|p1a: There There
+|-crit|p1a: There There
+|-ability|p1a: There There|Sturdy
+|-damage|p1a: There There|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|-enditem|p1a: There There|Custap Berry|[eat]
+|-activate|p1a: There There|item: Custap Berry|[consumed]
+|
+|move|p1a: There There|Spikes|p2a: Tyranitar
+|-sidestart|p2: porrompompom|Spikes
+|move|p2a: Tyranitar|Pursuit|p1a: There There
+|-resisted|p1a: There There
+|-damage|p1a: There There|0 fnt
+|faint|p1a: There There
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p2a: Tyranitar|move: Taunt
+|upkeep
+|
+|switch|p1a: 15 Step|Keldeo-Resolute|100/100
+|turn|4
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: 15 Step|atk|1
+|move|p1a: 15 Step|Secret Sword|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 15 Step|94/100|[from] Sandstorm
+|-damage|p2a: Gyarados|52/100|[from] Sandstorm
+|-heal|p2a: Gyarados|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|85/100|[from] Spikes
+|move|p1a: 15 Step|Hydro Pump|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 15 Step|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|-damage|p2a: Breloom|82/100|[from] Spikes
+|turn|6
+|
+|move|p1a: 15 Step|Icy Wind|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|31/100
+|-unboost|p2a: Breloom|spe|1
+|move|p2a: Breloom|Spore|p1a: 15 Step
+|-status|p1a: 15 Step|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 15 Step|82/100 slp|[from] Sandstorm
+|-damage|p2a: Breloom|25/100|[from] Sandstorm
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|switch|p1a: Fitter Happier|Gengar, M, shiny|100/100
+|move|p2a: Breloom|Leech Seed|p1a: Fitter Happier
+|-start|p1a: Fitter Happier|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fitter Happier|94/100|[from] Sandstorm
+|-damage|p2a: Breloom|18/100 tox|[from] Sandstorm
+|-heal|p1a: Fitter Happier|100/100|[from] item: Black Sludge
+|-damage|p1a: Fitter Happier|88/100|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|28/100 tox|[silent]
+|-heal|p2a: Breloom|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|inactive|porrompompom has 120 seconds left.
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Fitter Happier|Shadow Ball|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fitter Happier|82/100|[from] Sandstorm
+|-damage|p2a: Breloom|35/100 tox|[from] Sandstorm
+|-heal|p1a: Fitter Happier|88/100|[from] item: Black Sludge
+|-damage|p1a: Fitter Happier|76/100|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|45/100 tox|[silent]
+|-heal|p2a: Breloom|57/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|switch|p1a: Default|Alakazam, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Default|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Default|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Default
+|-supereffective|p1a: Default
+|-enditem|p1a: Default|Focus Sash
+|-damage|p1a: Default|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Default|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Default|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Default
+|-supereffective|p1a: Default
+|-damage|p1a: Default|0 fnt
+|faint|p1a: Default
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Bodysnatcher|Scizor, M|100/100
+|turn|12
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Bodysnatcher|Superpower|p2a: Skarmory
+|-damage|p2a: Skarmory|61/100
+|-unboost|p1a: Bodysnatcher|atk|1
+|-unboost|p1a: Bodysnatcher|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: Kid A|Kyurem-Black|100/100
+|-ability|p1a: Kid A|Teravolt
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|94/100|[from] Sandstorm
+|-heal|p1a: Kid A|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Kid A|Ice Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|29/100
+|move|p2a: Skarmory|Whirlwind|p1a: Kid A
+|drag|p1a: Fitter Happier|Gengar, M, shiny|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fitter Happier|70/100|[from] Sandstorm
+|-heal|p1a: Fitter Happier|76/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Fitter Happier|Focus Blast|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fitter Happier|70/100|[from] Sandstorm
+|-heal|p1a: Fitter Happier|76/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|76/100
+|-damage|p2a: Tyranitar|63/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|51/100|[from] Spikes
+|turn|16
+|
+|move|p1a: Fitter Happier|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Fitter Happier|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Fitter Happier
+|-supereffective|p1a: Fitter Happier
+|-damage|p1a: Fitter Happier|0 fnt
+|faint|p1a: Fitter Happier
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Bodysnatcher|Scizor, M|100/100
+|turn|17
+|j| james434
+|
+|move|p1a: Bodysnatcher|Bug Bite|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-enditem|p2a: Tyranitar|Chople Berry|[from] stealeat|[move] Bug Bite|[of] p1a: Bodysnatcher
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|58/100
+|-damage|p2a: Gyarados|33/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Bodysnatcher|atk|1
+|turn|18
+|
+|switch|p1a: Kid A|Kyurem-Black|100/100
+|-ability|p1a: Kid A|Teravolt
+|move|p2a: Gyarados|Rest|p2a: Gyarados
+|-status|p2a: Gyarados|slp
+|-heal|p2a: Gyarados|100/100 slp|[silent]
+|-status|p2a: Gyarados|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|94/100|[from] Sandstorm
+|-damage|p2a: Gyarados|94/100 slp|[from] Sandstorm
+|-heal|p1a: Kid A|100/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|-damage|p2a: Reuniclus|88/100|[from] Stealth Rock
+|-damage|p2a: Reuniclus|76/100|[from] Spikes
+|move|p1a: Kid A|Fusion Bolt|p2a: Reuniclus
+|-damage|p2a: Reuniclus|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|94/100|[from] Sandstorm
+|-damage|p2a: Reuniclus|43/100|[from] Sandstorm
+|-heal|p1a: Kid A|100/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|49/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Kid A|Ice Beam|p2a: Reuniclus
+|-damage|p2a: Reuniclus|6/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|94/100|[from] Sandstorm
+|-damage|p2a: Reuniclus|50/100|[from] Sandstorm
+|-heal|p1a: Kid A|100/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|56/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|porrompompom has 120 seconds left.
+|
+|switch|p1a: Bodysnatcher|Scizor, M|100/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reuniclus|94/100|[from] Sandstorm
+|-heal|p2a: Reuniclus|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100 slp
+|-damage|p2a: Gyarados|76/100 slp|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Bodysnatcher|atk|1
+|move|p1a: Bodysnatcher|Bug Bite|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|64/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|58/100 slp|[from] Sandstorm
+|-heal|p2a: Gyarados|64/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Kid A|Kyurem-Black|100/100
+|-ability|p1a: Kid A|Teravolt
+|cant|p2a: Gyarados|slp
+|move|p2a: Gyarados|Sleep Talk|p2a: Gyarados
+|move|p2a: Gyarados|Waterfall|p1a: Kid A|[from]Sleep Talk
+|-resisted|p1a: Kid A
+|-damage|p1a: Kid A|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|80/100|[from] Sandstorm
+|-damage|p2a: Gyarados|58/100 slp|[from] Sandstorm
+|-heal|p1a: Kid A|86/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|64/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Kid A|Ice Beam|p2a: Gyarados
+|-damage|p2a: Gyarados|20/100 slp
+|cant|p2a: Gyarados|slp
+|move|p2a: Gyarados|Sleep Talk|p2a: Gyarados
+|move|p2a: Gyarados|Dragon Tail|p1a: Kid A|[from]Sleep Talk
+|-supereffective|p1a: Kid A
+|-damage|p1a: Kid A|58/100
+|drag|p1a: 15 Step|Keldeo-Resolute|82/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 15 Step|76/100 slp|[from] Sandstorm
+|-damage|p2a: Gyarados|14/100 slp|[from] Sandstorm
+|-heal|p2a: Gyarados|20/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Kid A|Kyurem-Black|58/100
+|-ability|p1a: Kid A|Teravolt
+|-curestatus|p2a: Gyarados|slp|[msg]
+|move|p2a: Gyarados|Rest|p2a: Gyarados
+|-status|p2a: Gyarados|slp
+|-heal|p2a: Gyarados|100/100 slp|[silent]
+|-status|p2a: Gyarados|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|52/100|[from] Sandstorm
+|-damage|p2a: Gyarados|94/100 slp|[from] Sandstorm
+|-heal|p1a: Kid A|58/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Breloom|Breloom, F|57/100 tox
+|-damage|p2a: Breloom|51/100 tox|[from] Stealth Rock
+|-damage|p2a: Breloom|38/100 tox|[from] Spikes
+|move|p1a: Kid A|Fusion Bolt|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|15/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|52/100|[from] Sandstorm
+|-damage|p2a: Breloom|9/100 tox|[from] Sandstorm
+|-heal|p1a: Kid A|58/100|[from] item: Leftovers
+|-heal|p2a: Breloom|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Kid A|Ice Beam|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|52/100|[from] Sandstorm
+|-damage|p2a: Breloom|15/100 tox|[from] Sandstorm
+|-heal|p1a: Kid A|58/100|[from] item: Leftovers
+|-heal|p2a: Breloom|28/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|move|p1a: Kid A|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kid A|52/100|[from] Sandstorm
+|-heal|p1a: Kid A|58/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|-damage|p2a: Reuniclus|88/100|[from] Stealth Rock
+|-damage|p2a: Reuniclus|76/100|[from] Spikes
+|turn|29
+|
+|switch|p1a: Bodysnatcher|Scizor, M|100/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reuniclus|94/100|[from] Sandstorm
+|-heal|p2a: Reuniclus|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100 slp
+|-damage|p2a: Gyarados|76/100 slp|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Bodysnatcher|atk|1
+|move|p1a: Bodysnatcher|Swords Dance|p1a: Bodysnatcher
+|-boost|p1a: Bodysnatcher|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|69/100 slp|[from] Sandstorm
+|-heal|p2a: Gyarados|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Bodysnatcher|Bug Bite|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|49/100 slp
+|cant|p2a: Gyarados|slp
+|move|p2a: Gyarados|Sleep Talk|p2a: Gyarados
+|move|p2a: Gyarados|Rest|p2a: Gyarados|[from]Sleep Talk
+|-fail|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|43/100 slp|[from] Sandstorm
+|-heal|p2a: Gyarados|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Bodysnatcher|Bug Bite|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|-damage|p2a: Reuniclus|88/100|[from] Spikes
+|-damage|p2a: Reuniclus|76/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Bodysnatcher|Bug Bite|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|win|Guybrush T
+|l|☆porrompompom
+|raw|Guybrush T's rating: 1395 &rarr; <strong>1416</strong><br />(+21 for winning)
+|raw|porrompompom's rating: 1412 &rarr; <strong>1391</strong><br />(-21 for losing)
+|l|☆Guybrush T

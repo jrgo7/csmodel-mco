@@ -1,0 +1,421 @@
+|j|☆Samurott7777777
+|j|☆blackkaiser
+|player|p1|Samurott7777777|169|1321
+|player|p2|blackkaiser|266|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Salamence, M|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|start
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p1a: Politoed|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Hippowdon|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Samurott7777777|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Politoed|Hypnosis|p2a: Jellicent|[miss]
+|-miss|p1a: Politoed|p2a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Politoed|Hypnosis|p2a: Jellicent|[miss]
+|-miss|p1a: Politoed|p2a: Jellicent
+|move|p2a: Jellicent|Recover||[still]
+|-fail|p2a: Jellicent|heal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Politoed|Hypnosis|p2a: Jellicent
+|-status|p2a: Jellicent|slp|[from] move: Hypnosis
+|cant|p2a: Jellicent|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Jellicent|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|-curestatus|p2a: Jellicent|slp|[msg]
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Politoed
+|-status|p1a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|88/100 brn|[from] brn
+|-start|p1a: Politoed|perish3
+|-start|p2a: Jellicent|perish3
+|upkeep
+|turn|6
+|
+|move|p1a: Politoed|Hypnosis|p2a: Jellicent|[miss]
+|-miss|p1a: Politoed|p2a: Jellicent
+|move|p2a: Jellicent|Shadow Ball|p1a: Politoed
+|-damage|p1a: Politoed|65/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|59/100 brn|[from] brn
+|-start|p1a: Politoed|perish2
+|-start|p2a: Jellicent|perish2
+|upkeep
+|turn|7
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Politoed|Hypnosis|p2a: Scizor
+|-status|p2a: Scizor|slp|[from] move: Hypnosis
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|53/100 brn|[from] brn
+|-start|p1a: Politoed|perish1
+|upkeep
+|turn|8
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Magnezone|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|46/100
+|move|p2a: Hippowdon|Roar|p1a: Magnezone
+|drag|p1a: Politoed|Politoed, F, shiny|53/100 brn
+|-damage|p1a: Politoed|40/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|47/100 brn|[from] item: Leftovers
+|-heal|p2a: Hippowdon|52/100|[from] item: Leftovers
+|-damage|p1a: Politoed|34/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Ferrothorn|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|28/100 brn|[from] brn
+|-start|p1a: Politoed|perish3
+|-start|p2a: Ferrothorn|perish3
+|upkeep
+|turn|12
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-start|p2a: Ferrothorn|perish2
+|upkeep
+|turn|13
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|94/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|50/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|82/100|[from] Leech Seed|[of] p2a: Jellicent
+|-heal|p2a: Jellicent|61/100|[silent]
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|7/100
+|move|p2a: Jellicent|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|82/100
+|-damage|p1a: Magnezone|76/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Hippowdon|Hippowdon, M|52/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Magnezone|Hidden Power|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Magnezone|82/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|9/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Magnezone|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Latios|Surf|p1a: Magnezone
+|-end|p1a: Magnezone|Substitute
+|move|p1a: Magnezone|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Magnezone|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|18
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|faint|p1a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Jellicent|Jellicent, F|13/100
+|move|p1a: Keldeo|Hidden Power|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|-damage|p2a: Jellicent|0 fnt|[from] Sandstorm
+|faint|p2a: Jellicent
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|j| MikeyTapsa
+|
+|switch|p2a: Hippowdon|Hippowdon, M|9/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Hippowdon
+|-start|p2a: Hippowdon|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|15/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|3/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|22
+|
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|53/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: blackkaiser|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|59/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|47/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|23
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|-damage|p1a: Ferrothorn|88/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100 par|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Samurott7777777|Spikes
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|l| MikeyTapsa
+|
+|switch|p1a: Politoed|Politoed, F, shiny|28/100 brn
+|-damage|p1a: Politoed|15/100 brn|[from] Stealth Rock
+|-damage|p1a: Politoed|3/100 brn|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Ferrothorn|Spikes|p1a: Politoed
+|-sidestart|p1: Samurott7777777|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|9/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|0 fnt|[from] brn
+|faint|p1a: Politoed
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|88/100
+|-damage|p1a: Keldeo|82/100|[from] Stealth Rock
+|-damage|p1a: Keldeo|65/100|[from] Spikes
+|turn|26
+|
+|move|p1a: Keldeo|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|55/100 par
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Keldeo
+|-status|p1a: Keldeo|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p2a: Hippowdon|Hippowdon, M|47/100
+|-damage|p2a: Hippowdon|40/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Keldeo|Surf|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|59/100 par|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|91/100
+|-damage|p2a: Garchomp|85/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Garchomp|Earthquake|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-damage|p2a: Garchomp|75/100|[from] item: Life Orb
+|faint|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|84/100 par
+|-damage|p1a: Ferrothorn|78/100 par|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|61/100 par|[from] Spikes
+|move|p2a: Garchomp|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|13/100 par
+|-unboost|p2a: Garchomp|spa|2
+|-damage|p2a: Garchomp|65/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Garchomp|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Garchomp|55/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|76/100
+|-damage|p1a: Salamence|51/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|-damage|p2a: Garchomp|45/100|[from] item: Life Orb
+|faint|p1a: Salamence
+|
+|win|blackkaiser
+|c|☆Samurott7777777|gg
+|l|☆Samurott7777777
+|raw|Samurott7777777's rating: 1327 &rarr; <strong>1308</strong><br />(-19 for losing)
+|raw|blackkaiser's rating: 1337 &rarr; <strong>1356</strong><br />(+19 for winning)

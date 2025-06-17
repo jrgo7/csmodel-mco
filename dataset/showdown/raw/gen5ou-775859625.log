@@ -1,0 +1,394 @@
+|j|‽bluri
+|j|☆Zoomarounds
+|player|p1|bluri|101
+|player|p2|Zoomarounds|201
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Terrakion|item
+|poke|p1|Xatu, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Latios, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Diglett, M|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Blissey, F|item
+|teampreview
+|c|☆Zoomarounds|fuck
+|c|☆Zoomarounds|aren't you like
+|c|☆Zoomarounds|good
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|turn|1
+|
+|move|p2a: Tentacruel|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|85/100
+|move|p1a: Jirachi|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|78/100
+|
+|-heal|p2a: Tentacruel|84/100|[from] item: Black Sludge
+|-heal|p1a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Jirachi
+|-sidestart|p1: bluri|move: Toxic Spikes
+|move|p1a: Jirachi|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|62/100
+|-status|p2a: Tentacruel|par
+|
+|-heal|p1a: Jirachi|98/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|68/100 par|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Jirachi|U-turn|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|59/100 par
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zoomarounds)
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Rotom
+|-sidestart|p1: bluri|move: Toxic Spikes
+|
+|-heal|p2a: Tentacruel|65/100 par|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|
+|switch|p1a: Jirachi|Jirachi|98/100
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|move|p1a: Jirachi|U-turn|p2a: Spiritomb
+|-damage|p2a: Spiritomb|85/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|
+|-heal|p2a: Spiritomb|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Blissey|Blissey, F|97/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|
+|-heal|p2a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Volt Switch|p2a: Blissey
+|-damage|p2a: Blissey|79/100 brn
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|72/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Spiritomb|Spiritomb, M|91/100
+|move|p1a: Xatu|U-turn|p2a: Spiritomb
+|-damage|p2a: Spiritomb|79/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|
+|-heal|p2a: Spiritomb|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Spiritomb|[miss]
+|-miss|p1a: Rotom|p2a: Spiritomb
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Spiritomb
+|-status|p2a: Spiritomb|brn
+|move|p2a: Spiritomb|Pursuit|p1a: Rotom
+|-damage|p1a: Rotom|82/100 brn
+|
+|-heal|p1a: Rotom|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|75/100 brn|[from] brn
+|-damage|p2a: Spiritomb|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Rotom|Volt Switch|p2a: Spiritomb
+|-damage|p2a: Spiritomb|68/100 brn
+|
+|-activate|p1a: Rotom|move: Pursuit
+|move|p2a: Spiritomb|Pursuit|p1a: Rotom|[from]Pursuit
+|-damage|p1a: Rotom|63/100 brn
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-heal|p2a: Spiritomb|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Spiritomb|62/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Jirachi|Iron Head|p2a: Spiritomb
+|-damage|p2a: Spiritomb|32/100 brn
+|cant|p2a: Spiritomb|flinch
+|
+|-heal|p2a: Spiritomb|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Spiritomb|25/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Jirachi|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|
+|switch|p1a: Rotom|Rotom-Wash|63/100 brn
+|
+|-heal|p1a: Rotom|69/100 brn|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-damage|p1a: Rotom|56/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Blissey|Blissey, F|72/100
+|move|p1a: Rotom|Volt Switch|p2a: Blissey
+|-damage|p2a: Blissey|64/100
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-heal|p2a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Jirachi|U-turn|p2a: Blissey
+|-activate|p2a: Blissey|move: Protect
+|
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|bluri has 135 seconds left.
+|
+|move|p1a: Jirachi|U-turn|p2a: Blissey
+|-damage|p2a: Blissey|62/100
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Spiritomb|brn|[msg]
+|-curestatus|p2: Tentacruel|par|[msg]
+|
+|-heal|p2a: Blissey|68/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Xatu|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|68/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Spiritomb|Spiritomb, M|25/100
+|move|p1a: Xatu|U-turn|p2a: Spiritomb
+|-damage|p2a: Spiritomb|13/100
+|
+|switch|p1a: Latios|Latios, M|100/100
+|
+|-heal|p2a: Spiritomb|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|19
+|
+|move|p1a: Latios|Draco Meteor|p2a: Spiritomb
+|-damage|p2a: Spiritomb|20/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Spiritomb|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|64/100
+|
+|-heal|p2a: Spiritomb|26/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|-status|p1a: Terrakion|tox
+|switch|p2a: Blissey|Blissey, F|68/100
+|
+|-heal|p2a: Blissey|74/100|[from] item: Leftovers
+|-damage|p1a: Terrakion|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Terrakion|Rock Slide|p2a: Blissey
+|-activate|p2a: Blissey|move: Protect
+|
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|-damage|p1a: Terrakion|82/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Blissey|Blissey, F|80/100
+|move|p1a: Xatu|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-heal|p2a: Blissey|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|80/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Xatu|U-turn|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|71/100
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jirachi|94/100|[from] Hail
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|93/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jirachi|94/100|[from] Hail
+|-damage|p2a: Skarmory|87/100|[from] Hail
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|93/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|bluri has 135 seconds left.
+|inactive|bluri has 120 seconds left.
+|
+|move|p1a: Jirachi|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|91/100
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Skarmory|Whirlwind|p1a: Xatu
+|move|p1a: Xatu|Whirlwind|p2a: Skarmory|[from]Magic Bounce
+|drag|p2a: Spiritomb|Spiritomb, M|26/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Xatu|94/100|[from] Hail
+|-damage|p2a: Spiritomb|20/100|[from] Hail
+|-heal|p1a: Xatu|100/100|[from] item: Leftovers
+|-heal|p2a: Spiritomb|26/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Xatu|U-turn|p2a: Spiritomb
+|-damage|p2a: Spiritomb|13/100
+|
+|switch|p1a: Rotom|Rotom-Wash|56/100 brn
+|move|p2a: Spiritomb|Rest|p2a: Spiritomb
+|-status|p2a: Spiritomb|slp
+|-heal|p2a: Spiritomb|100/100 slp|[silent]
+|-status|p2a: Spiritomb|slp|[from] move: Rest
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|50/100 brn|[from] Hail
+|-damage|p2a: Spiritomb|94/100 slp|[from] Hail
+|-heal|p1a: Rotom|56/100 brn|[from] item: Leftovers
+|-heal|p2a: Spiritomb|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Rotom|44/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Rotom|Volt Switch|p2a: Spiritomb
+|-damage|p2a: Spiritomb|79/100 slp
+|
+|switch|p1a: Latios|Latios, M|64/100
+|cant|p2a: Spiritomb|slp
+|move|p2a: Spiritomb|Sleep Talk|p2a: Spiritomb
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Latios|[from]Sleep Talk|[miss]
+|-miss|p2a: Spiritomb|p1a: Latios
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latios|58/100|[from] Hail
+|-damage|p2a: Spiritomb|73/100 slp|[from] Hail
+|-heal|p2a: Spiritomb|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Latios|Psyshock|p2a: Spiritomb
+|-immune|p2a: Spiritomb|[msg]
+|cant|p2a: Spiritomb|slp
+|move|p2a: Spiritomb|Sleep Talk|p2a: Spiritomb
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Latios|[from]Sleep Talk
+|-status|p1a: Latios|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latios|52/100 brn|[from] Hail
+|-damage|p2a: Spiritomb|73/100 slp|[from] Hail
+|-heal|p2a: Spiritomb|79/100 slp|[from] item: Leftovers
+|-damage|p1a: Latios|40/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|-activate|p1a: Latios|move: Pursuit
+|-curestatus|p2a: Spiritomb|slp|[msg]
+|move|p2a: Spiritomb|Pursuit|p1a: Latios|[from]Pursuit
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Spiritomb|73/100|[from] Hail
+|-heal|p2a: Spiritomb|79/100|[from] item: Leftovers
+|upkeep
+|-message|bluri forfeited.
+|
+|win|Zoomarounds
+|l|‽bluri
+|raw|bluri's rating: 1508 &rarr; <strong>1477</strong><br />(-31 for losing)
+|raw|Zoomarounds's rating: 1308 &rarr; <strong>1339</strong><br />(+31 for winning)

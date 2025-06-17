@@ -1,0 +1,184 @@
+|j|☆tohki
+|j|☆porrompompom
+|player|p1|tohki|28
+|player|p2|porrompompom|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Abomasnow, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Diglett, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Kyurem|item
+|poke|p1|Reuniclus, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Celebi|item
+|teampreview
+|c|☆tohki|gl hf
+|c|☆tohki|hope you're not still mad about the crit
+|c|☆porrompompom|when you use a team anti sand and anti rain but you find hail
+|c|☆porrompompom|who are you wtf
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-item|p2a: Excadrill|Air Balloon
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Xatu
+|-damage|p1a: Xatu|53/100
+|-damage|p2a: Excadrill|84/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|78/100|[from] Hail
+|-damage|p1a: Xatu|47/100|[from] Hail
+|upkeep
+|turn|2
+|
+|move|p2a: Excadrill|Iron Head|p1a: Xatu
+|-damage|p1a: Xatu|4/100
+|-damage|p2a: Excadrill|61/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|move|p1a: Xatu|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|53/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|switch|p1a: Diglett|Diglett, F|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|94/100|[from] Hail
+|-damage|p2a: Excadrill|47/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p1a: Diglett|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|88/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Diglett|atk|1
+|turn|4
+|
+|switch|p1a: Xatu|Xatu, M|4/100
+|move|p2a: Landorus|U-turn|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Landorus|84/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|faint|p1a: Xatu
+|
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Kingdra|94/100|[from] Hail
+|-heal|p2a: Kingdra|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|5
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Hail
+|upkeep
+|turn|6
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Celebi|Swords Dance|p2a: Celebi
+|-boost|p2a: Celebi|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Celebi|88/100|[from] Hail
+|upkeep
+|turn|7
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magnezone|95/100|[from] Hail
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Kyurem|Earth Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|turn|9
+|
+|move|p1a: Kyurem|Blizzard|p2a: Kingdra
+|-damage|p2a: Kingdra|22/100
+|move|p2a: Kingdra|Dragon Pulse|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Kingdra|16/100|[from] Hail
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|-heal|p2a: Kingdra|22/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Kyurem|Blizzard|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|11
+|
+|move|p1a: Kyurem|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|-message|porrompompom forfeited.
+|
+|win|tohki
+|l|☆porrompompom
+|raw|tohki's rating: 1268 &rarr; <strong>1308</strong><br />(+40 for winning)
+|raw|porrompompom's rating: 1505 &rarr; <strong>1473</strong><br />(-32 for losing)

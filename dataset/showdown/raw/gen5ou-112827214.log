@@ -1,0 +1,291 @@
+|join|ParkLife
+|join|dtw
+|player|p1|ParkLife|7
+|player|p2|dtw|169
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Terrakion
+|poke|p1|Landorus-Therian, M
+|poke|p1|Latios, M
+|poke|p1|Tyranitar, F
+|poke|p1|Breloom, M
+|poke|p1|Rotom-Wash
+|poke|p2|Scizor, F
+|poke|p2|Rotom-Wash
+|poke|p2|Heatran, F
+|poke|p2|Breloom, F
+|poke|p2|Keldeo
+|poke|p2|Espeon, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|404/404
+|switch|p2a: Espeon|Espeon, F|334/334
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p2a: Espeon|Reflect|p2a: Espeon
+|-sidestart|p2: dtw|Reflect
+|move|p1a: Tyranitar|Stone Edge|p2a: Espeon|[miss]
+|-miss|p1a: Tyranitar|p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|314/334|[from] sandstorm
+|turn|2
+|
+|move|p2a: Espeon|Light Screen|p2a: Espeon
+|-sidestart|p2: dtw|move: Light Screen
+|move|p1a: Tyranitar|Stealth Rock|p2a: Espeon
+|move|p2a: Espeon|Stealth Rock|p1a: Tyranitar|[from]Magic Bounce
+|-sidestart|p1: ParkLife|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|294/334|[from] sandstorm
+|turn|3
+|
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|move|p1a: Tyranitar|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: dtw|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|303/323|[from] sandstorm
+|turn|4
+|
+|switch|p1a: Latios|Latios, M|302/302
+|-damage|p1a: Latios|265/302|[from] Stealth Rock
+|move|p2a: Keldeo|Secret Sword|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|155/302
+|-damage|p2a: Keldeo|271/323|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|137/302|[from] sandstorm
+|-damage|p2a: Keldeo|251/323|[from] sandstorm
+|turn|5
+|
+|switch|p2a: Heatran|Heatran, F|386/386
+|-damage|p2a: Heatran|338/386|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Latios|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|307/386
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|119/302|[from] sandstorm
+|turn|6
+|
+|switch|p1a: Terrakion|Terrakion|323/323
+|-damage|p1a: Terrakion|303/323|[from] Stealth Rock
+|move|p2a: Heatran|Roar|p1a: Terrakion
+|drag|p1a: Rotom-Wash|Rotom-Wash|241/241
+|-damage|p1a: Rotom-Wash|211/241|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|196/241|[from] sandstorm
+|turn|7
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|168/386
+|move|p2a: Heatran|Roar|p1a: Rotom-Wash
+|drag|p1a: Terrakion|Terrakion|303/323
+|-damage|p1a: Terrakion|283/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|8
+|
+|move|p1a: Terrakion|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p2: dtw|Reflect
+|
+|switch|p2a: Espeon|Espeon, F|294/334
+|-damage|p2a: Espeon|253/334|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Tyranitar|Tyranitar, F|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|move|p2a: Espeon|Reflect|p2a: Espeon
+|-sidestart|p2: dtw|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|233/334|[from] sandstorm
+|-heal|p1a: Tyranitar|379/404|[from] item: Leftovers
+|-sideend|p2: dtw|move: Light Screen
+|turn|10
+|
+|move|p2a: Espeon|Light Screen|p2a: Espeon
+|-sidestart|p2: dtw|move: Light Screen
+|move|p1a: Tyranitar|Fire Blast|p2a: Espeon
+|-damage|p2a: Espeon|184/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|164/334|[from] sandstorm
+|-heal|p1a: Tyranitar|404/404|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+|
+|switch|p2a: Keldeo|Keldeo|251/323
+|-damage|p2a: Keldeo|231/323|[from] Stealth Rock
+|move|p1a: Tyranitar|Stone Edge|p2a: Keldeo|[miss]
+|-miss|p1a: Tyranitar|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|211/323|[from] sandstorm
+|turn|12
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|196/241
+|-damage|p1a: Rotom-Wash|166/241|[from] Stealth Rock
+|move|p2a: Keldeo|Secret Sword|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|0 fnt
+|-damage|p2a: Keldeo|179/323|[from] item: Life Orb
+|faint|p1a: Rotom-Wash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|159/323|[from] sandstorm
+|
+|switch|p1a: Latios|Latios, M|119/302
+|-damage|p1a: Latios|82/302|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Espeon|Espeon, F|164/334
+|-damage|p2a: Espeon|123/334|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|64/302|[from] sandstorm
+|
+|switch|p2a: Scizor|Scizor, F|281/281
+|-damage|p2a: Scizor|246/281|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-damage|p1a: Landorus-Therian|334/381|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Scizor
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|357/381|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Landorus-Therian|Swords Dance|p1a: Landorus-Therian
+|-boost|p1a: Landorus-Therian|atk|2
+|move|p2a: Scizor|Acrobatics|p1a: Landorus-Therian
+|-enditem|p2a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p1a: Landorus-Therian|48/381
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|71/381|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus-Therian
+|-crit|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|0 fnt
+|faint|p1a: Landorus-Therian
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p2: dtw|Reflect
+|
+|switch|p1a: Breloom|Breloom, M|262/262
+|-damage|p1a: Breloom|246/262|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Breloom
+|-damage|p1a: Breloom|20/262
+|move|p1a: Breloom|Spore|p2a: Scizor
+|-status|p2a: Scizor|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|4/262|[from] sandstorm
+|-sideend|p2: dtw|move: Light Screen
+|turn|18
+|
+|move|p1a: Breloom|Mach Punch|p2a: Scizor
+|-damage|p2a: Scizor|134/281 slp
+|cant|p2a: Scizor|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|0 fnt|[from] sandstorm
+|faint|p1a: Breloom
+|
+|switch|p1a: Latios|Latios, M|64/302
+|-damage|p1a: Latios|27/302|[from] Stealth Rock
+|turn|19
+|
+|cant|p2a: Scizor|slp
+|move|p1a: Latios|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|9/302|[from] sandstorm
+|
+|switch|p2a: Keldeo|Keldeo|159/323
+|-damage|p2a: Keldeo|139/323|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Latios|Psyshock|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|0 fnt|[from] sandstorm
+|faint|p1a: Latios
+|
+|switch|p1a: Terrakion|Terrakion|283/323
+|-damage|p1a: Terrakion|263/323|[from] Stealth Rock
+|switch|p2a: Breloom|Breloom, F|261/261
+|-damage|p2a: Breloom|245/261|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Breloom|Mach Punch|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-damage|p2a: Breloom|219/261|[from] item: Life Orb
+|faint|p1a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|203/261|[from] sandstorm
+|
+|switch|p1a: Tyranitar|Tyranitar, F|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Breloom|Low Sweep|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Breloom|177/261|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|ParkLife's rating: 1342 &rarr; <strong>1324</strong><br />(-18 for losing)
+|raw|dtw's rating: 1387 &rarr; <strong>1405</strong><br />(+18 for winning)
+|chat|dtw|gg

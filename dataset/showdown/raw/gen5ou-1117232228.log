@@ -1,0 +1,387 @@
+|j|☆testbwou
+|j|☆turde master
+|player|p1|testbwou|1|1432
+|player|p2|turde master|swimmer-gen4|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Mew|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by turde master)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Stealth Rock|p1a: Rotom
+|-sidestart|p1: testbwou|move: Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|77/100
+|
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Mew|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Flamethrower|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Mew|89/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|turn|3
+|
+|move|p2a: Mew|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|36/100
+|-status|p1a: Jellicent|par
+|move|p1a: Jellicent|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|c|☆testbwou|wow i love your mew
+|
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|4
+|c|☆turde master|thanks lol
+|
+|move|p2a: Abomasnow|Wood Hammer|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-damage|p2a: Abomasnow|86/100|[from] Recoil
+|faint|p1a: Jellicent
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Abomasnow|93/100|[from] item: Leftovers
+|upkeep
+|inactive|testbwou has 120 seconds left.
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|5
+|c|☆turde master|doesn't do well against tyranitar though
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|move|p1a: Alakazam|Focus Blast|p2a: Gyarados|[miss]
+|-miss|p1a: Alakazam|p2a: Gyarados
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|94/100|[from] Hail
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Gyarados|Waterfall|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|70/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|64/100|[from] Hail
+|-damage|p2a: Gyarados|94/100|[from] Hail
+|-heal|p1a: Rotom|70/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|turde master has 120 seconds left.
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Rotom|Hydro Pump|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|79/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|64/100|[from] Hail
+|-heal|p2a: Kyurem|85/100|[from] item: Leftovers
+|-heal|p1a: Rotom|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|turde master has 120 seconds left.
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|60/100
+|move|p1a: Rotom|Volt Switch|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|54/100|[from] Sandstorm
+|-heal|p2a: Kyurem|60/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Kyurem|Focus Blast|p1a: Tyranitar|[miss]
+|-miss|p2a: Kyurem|p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|54/100|[from] Sandstorm
+|-heal|p2a: Kyurem|60/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|35/100
+|move|p1a: Tyranitar|Crunch|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|29/100|[from] Sandstorm
+|-heal|p2a: Kyurem|35/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Kyurem|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|29/100
+|move|p1a: Tyranitar|Crunch|p2a: Kyurem
+|-damage|p2a: Kyurem|1/100
+|-unboost|p2a: Kyurem|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|0 fnt|[from] Sandstorm
+|faint|p2a: Kyurem
+|-heal|p1a: Tyranitar|35/100|[from] item: Leftovers
+|upkeep
+|inactive|turde master has 120 seconds left.
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|12
+|
+|move|p2a: Landorus|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|switch|p2a: Abomasnow|Abomasnow, F|93/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Abomasnow|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|13
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Alakazam|Focus Blast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|71/100|[from] Hail
+|-heal|p2a: Tentacruel|77/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Alakazam|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Wash|70/100
+|-damage|p1a: Rotom|58/100|[from] Stealth Rock
+|move|p2a: Gyarados|Waterfall|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|22/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|16/100|[from] Hail
+|-damage|p2a: Gyarados|94/100|[from] Hail
+|-heal|p1a: Rotom|22/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Abomasnow|Abomasnow, F|99/100
+|move|p1a: Rotom|Volt Switch|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|83/100
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100|[from]move: Volt Switch
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Abomasnow|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|move|p1a: Alakazam|Focus Blast|p2a: Landorus|[miss]
+|-miss|p1a: Alakazam|p2a: Landorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|94/100|[from] Hail
+|upkeep
+|turn|18
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|19
+|
+|switch|p1a: Rotom|Rotom-Wash|22/100
+|-damage|p1a: Rotom|10/100|[from] Stealth Rock
+|move|p2a: Gyarados|Waterfall|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gyarados|94/100|[from] Hail
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Abomasnow|Abomasnow, F|89/100
+|move|p1a: Garchomp|Outrage|p2a: Abomasnow
+|-damage|p2a: Abomasnow|1/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|88/100|[from] Hail
+|-heal|p2a: Abomasnow|7/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|21/100
+|move|p1a: Garchomp|Outrage|p2a: Abomasnow|[from]lockedmove
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|15/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|turn|22
+|
+|move|p1a: Garchomp|Outrage|p2a: Gyarados|[from]lockedmove
+|-damage|p2a: Gyarados|71/100
+|-start|p1a: Garchomp|confusion|[fatigue]
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|9/100|[from] Hail
+|-damage|p2a: Gyarados|65/100|[from] Hail
+|-heal|p2a: Gyarados|71/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Outrage|p2a: Gyarados
+|-damage|p2a: Gyarados|42/100
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|17/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|2/100|[from] Hail
+|-damage|p2a: Gyarados|11/100|[from] Hail
+|-heal|p2a: Gyarados|17/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Outrage|p2a: Gyarados|[from]lockedmove
+|-end|p2a: Gyarados|Substitute
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|0 fnt|[from] Hail
+|-damage|p2a: Gyarados|11/100|[from] Hail
+|faint|p1a: Garchomp
+|-heal|p2a: Gyarados|17/100|[from] item: Leftovers
+|upkeep
+|j| Rheumatoid
+|c|☆testbwou|gg
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|25
+|
+|move|p2a: Gyarados|Waterfall|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|turde master
+|c|☆turde master|gg
+|l|☆testbwou
+|raw|testbwou's rating: 1432 &rarr; <strong>1408</strong><br />(-24 for losing)
+|raw|turde master's rating: 1360 &rarr; <strong>1384</strong><br />(+24 for winning)

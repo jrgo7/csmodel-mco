@@ -1,0 +1,368 @@
+|j|☆porrompompom
+|j|☆the oldfriends
+|player|p1|porrompompom|10
+|player|p2|the oldfriends|lance-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Abomasnow, M|item
+|poke|p1|Starmie|item
+|poke|p1|Heatran, M|item
+|poke|p1|Kyurem|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Reuniclus, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by the oldfriends)
+|
+|start
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Reuniclus|[miss]
+|-miss|p2a: Politoed|p1a: Reuniclus
+|move|p1a: Reuniclus|Trick|p2a: Politoed
+|-activate|p1a: Reuniclus|move: Trick|[of] p2a: Politoed
+|-item|p2a: Politoed|Flame Orb|[from] move: Trick
+|-item|p1a: Reuniclus|Water Gem|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Politoed|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Politoed|Hypnosis|p1a: Abomasnow
+|-status|p1a: Abomasnow|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Politoed|94/100 brn|[from] Hail
+|-damage|p2a: Politoed|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p1a: Heatran|Heatran, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|94/100|[from] Hail
+|-damage|p2a: Ferrothorn|94/100|[from] Hail
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: the oldfriends|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Keldeo|94/100|[from] Hail
+|-damage|p1a: Heatran|94/100|[from] Hail
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Reuniclus
+|-damage|p1a: Reuniclus|19/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Keldeo|88/100|[from] Hail
+|upkeep
+|turn|6
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|41/100|[from] Hail
+|-damage|p2a: Keldeo|82/100|[from] Hail
+|-heal|p1a: Starmie|48/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] Stealth Rock
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|98/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|92/100|[from] Hail
+|-damage|p2a: Ferrothorn|82/100|[from] Hail
+|-heal|p1a: Starmie|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Keldeo|Keldeo|82/100
+|-damage|p2a: Keldeo|76/100|[from] Stealth Rock
+|move|p1a: Starmie|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|59/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|92/100|[from] Hail
+|-damage|p2a: Keldeo|53/100|[from] Hail
+|-heal|p1a: Starmie|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Reuniclus|Reuniclus, F|19/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Keldeo|47/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|98/100
+|turn|10
+|
+|move|p1a: Starmie|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|30/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Starmie|[miss]
+|-miss|p2a: Keldeo|p1a: Starmie
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|92/100|[from] Hail
+|-damage|p2a: Keldeo|24/100|[from] Hail
+|-heal|p1a: Starmie|98/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|82/100
+|-damage|p2a: Ferrothorn|75/100|[from] Stealth Rock
+|move|p1a: Starmie|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|92/100|[from] Hail
+|-damage|p2a: Ferrothorn|59/100|[from] Hail
+|-heal|p1a: Starmie|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Heatran
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|94/100|[from] Hail
+|-damage|p2a: Ferrothorn|53/100|[from] Hail
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Starmie|Starmie, shiny|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|64/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Starmie|58/100|[from] Hail
+|-damage|p1a: Heatran|94/100|[from] Hail
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Starmie|Starmie|98/100
+|-damage|p1a: Starmie|85/100|[from] Stealth Rock
+|move|p2a: Starmie|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|35/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Starmie|52/100|[from] Hail
+|-damage|p1a: Starmie|29/100|[from] Hail
+|-heal|p1a: Starmie|35/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Starmie|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Starmie|46/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|16
+|
+|move|p2a: Starmie|Surf|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|48/100
+|move|p1a: Kyurem|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|82/100 brn
+|-damage|p2a: Politoed|69/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|17
+|
+|move|p1a: Kyurem|Blizzard|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|21/100 brn
+|move|p2a: Politoed|Hydro Pump|p1a: Kyurem|[miss]
+|-miss|p2a: Politoed|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|8/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Kyurem|Blizzard|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|24/100
+|-damage|p2a: Keldeo|18/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|53/100
+|-damage|p2a: Ferrothorn|47/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|26/100
+|-damage|p1a: Landorus|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100 slp
+|-damage|p1a: Abomasnow|75/100 slp|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|20/100|[from] Hail
+|-heal|p1a: Abomasnow|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|cant|p1a: Abomasnow|slp
+|move|p2a: Ferrothorn|Spikes|p1a: Abomasnow
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|14/100|[from] Hail
+|-heal|p1a: Abomasnow|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|cant|p1a: Abomasnow|slp
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|8/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-damage|p1a: Landorus|64/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|turn|23
+|
+|move|p1a: Landorus|Stone Edge|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|58/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Spikes
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|20/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Hail
+|-damage|p1a: Heatran|14/100|[from] Hail
+|-heal|p1a: Heatran|20/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Latios|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|76/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|58/100
+|-damage|p1a: Landorus|46/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|turn|26
+|
+|move|p2a: Latios|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|the oldfriends
+|raw|porrompompom's rating: 1402 &rarr; <strong>1383</strong><br />(-19 for losing)
+|raw|the oldfriends's rating: 1423 &rarr; <strong>1442</strong><br />(+19 for winning)
+|l|☆porrompompom

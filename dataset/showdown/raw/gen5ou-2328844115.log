@@ -1,0 +1,815 @@
+|j|☆porrompompom
+|j|☆Antoinos Danielos
+|player|p1|porrompompom|101|1566
+|player|p2|Antoinos Danielos|galacticgrunt|1385
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Cresselia, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Politoed, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Politoed|[miss]
+|-miss|p1a: Ninetales|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Politoed|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|81/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Politoed|Protect||[still]
+|-fail|p2a: Politoed
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Rotom|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Politoed|Scald|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Heatran|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Heatran|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|10
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Magma Storm|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|63/100
+|-activate|p2a: Gyarados|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|69/100|[from] item: Leftovers
+|-damage|p2a: Gyarados|63/100|[from] move: Magma Storm|[partiallytrapped]
+|-start|p1a: Heatran|perish2
+|upkeep
+|turn|11
+|
+|move|p2a: Gyarados|Waterfall|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|69/100
+|cant|p1a: Heatran|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|69/100|[from] item: Leftovers
+|-heal|p1a: Heatran|75/100|[from] item: Leftovers
+|-damage|p2a: Gyarados|63/100|[from] move: Magma Storm|[partiallytrapped]
+|-start|p1a: Heatran|perish1
+|upkeep
+|turn|12
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|44/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|51/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Cresselia
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|57/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|move|p2a: Gyarados|Bounce|p1a: Cresselia|[from]lockedmove
+|-damage|p1a: Cresselia|67/100
+|move|p1a: Cresselia|Psyshock|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|73/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Antoinos Danielos has 120 seconds left.
+|inactive|Antoinos Danielos has 90 seconds left.
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Ninetales|Ninetales, F|84/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Ninetales|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|90/100|[from] item: Leftovers
+|-start|p1a: Ninetales|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|18
+|
+|switch|p1a: Latios|Latios, M|81/100
+|switch|p2a: Rotom|Rotom-Wash|82/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|75/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Latios
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|inactive|Antoinos Danielos has 90 seconds left.
+|
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-enditem|p1a: Latios|Dragon Gem|[from] gem
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Latios
+|-status|p1a: Latios|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Latios|Draco Meteor|p2a: Politoed
+|-damage|p2a: Politoed|35/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|41/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: Ninetales|Ninetales, F|90/100
+|-damage|p1a: Ninetales|65/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|35/100
+|move|p1a: Forretress|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|32/100
+|-damage|p1a: Forretress|54/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|60/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Heatran|Heatran, M|75/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Heatran
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Heatran|81/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|45/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Antoinos Danielos has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|75/100 brn
+|move|p1a: Heatran|Magma Storm|p2a: Rotom|[miss]
+|-miss|p1a: Heatran|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|81/100 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|88/100|[from] item: Leftovers
+|-damage|p2a: Rotom|69/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|Antoinos Danielos has 120 seconds left.
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|25/100
+|move|p1a: Heatran|Magma Storm|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|24/100 brn
+|-activate|p2a: Rotom|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|30/100 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|31/100|[from] item: Leftovers
+|-damage|p2a: Rotom|18/100 brn|[from] brn
+|-damage|p2a: Rotom|12/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|29
+|inactive|Antoinos Danielos has 120 seconds left.
+|c|☆porrompompom|yes honey :$
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|6/100 brn|[from] brn
+|upkeep
+|c|☆porrompompom|sigh
+|
+|switch|p1a: Latios|Latios, M|81/100 par
+|-damage|p1a: Latios|68/100 par|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Rotom|Pain Split|p1a: Latios
+|-sethp|p1a: Latios|37/100 par|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|37/100 brn|[from] move: Pain Split
+|cant|p1a: Latios|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|43/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|31/100 brn|[from] brn
+|upkeep
+|turn|31
+|c|☆porrompompom|mother of god
+|c|☆Antoinos Danielos|sry dude
+|inactive|Antoinos Danielos has 120 seconds left.
+|
+|move|p2a: Rotom|Volt Switch|p1a: Latios
+|-resisted|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|4/100 par
+|
+|switch|p2a: Politoed|Politoed, F|41/100|[from]move: Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|54/100 par
+|-singleturn|p1a: Latios|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|47/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|45/100
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|100/100 par
+|-singleturn|p1a: Latios|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Forretress|Forretress, M|60/100
+|-damage|p1a: Forretress|48/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Forretress
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|54/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|57/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Forretress|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100
+|-damage|p1a: Forretress|41/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: porrompompom|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|48/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Forretress|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Antoinos Danielos|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Forretress
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|54/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Forretress|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|-damage|p1a: Forretress|41/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: porrompompom|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Forretress
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|48/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Antoinos Danielos has 120 seconds left.
+|
+|move|p1a: Forretress|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Antoinos Danielos|Spikes
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Forretress
+|-status|p1a: Forretress|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|-heal|p1a: Forretress|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|85/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Forretress|Rapid Spin|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|82/100
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|89/100|[from] item: Leftovers
+|-heal|p1a: Forretress|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|95/100
+|-sideend|p2: Antoinos Danielos|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: Antoinos Danielos|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|95/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Landorus|U-turn|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Landorus|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|82/100
+|
+|switch|p1a: Forretress|Forretress, M|60/100 par|[from]move: U-turn
+|move|p2a: Excadrill|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|40/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|88/100|[from] item: Leftovers
+|-heal|p1a: Forretress|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p2a: Politoed|Politoed, F|47/100
+|switch|p1a: Ninetales|Ninetales, F|71/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|77/100|[from] item: Leftovers
+|-heal|p2a: Politoed|53/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p2a: Rotom|Rotom-Wash|31/100 brn
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Rotom|[miss]
+|-miss|p1a: Ninetales|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|83/100|[from] item: Leftovers
+|-heal|p2a: Rotom|37/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|24/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Rotom|Pain Split|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|89/100|[from] item: Leftovers
+|-heal|p2a: Rotom|30/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|18/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Ninetales|Overheat|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Ninetales|spa|2
+|faint|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|95/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|53/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|46
+|
+|switch|p1a: Latios|Latios, M|100/100 par
+|move|p2a: Politoed|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|80/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|60/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|80/100
+|switch|p1a: Ninetales|Ninetales, F|95/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p2a: Politoed|Politoed, F|60/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|66/100 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|53/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p1a: Latios|Latios, M|80/100 par
+|switch|p2a: Gyarados|Gyarados, F|63/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|69/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|51/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p1a: Cresselia|Cresselia, F|80/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|57/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|86/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|92/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|inactive|Antoinos Danielos has 120 seconds left.
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Cresselia|Psyshock|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|69/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|98/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Cresselia
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|76/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|100/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Gyarados|Bounce|p1a: Cresselia|[from]lockedmove
+|-damage|p1a: Cresselia|47/100
+|-status|p1a: Cresselia|par
+|cant|p1a: Cresselia|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|inactive|Antoinos Danielos has 120 seconds left.
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|cant|p1a: Cresselia|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Cresselia
+|cant|p1a: Cresselia|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|94/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p2a: Gyarados|Bounce|p1a: Cresselia|[from]lockedmove
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|95/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|turn|59
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|76/100
+|move|p1a: Landorus|Stone Edge|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|j| DMclay44
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|57/100
+|move|p1a: Landorus|Stone Edge|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|63/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p2a: Gyarados|Waterfall|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|80/100 par
+|turn|62
+|l| DMclay44
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Latios
+|move|p1a: Latios|Psyshock|p2a: Gyarados|[miss]
+|-miss|p1a: Latios|p2a: Gyarados
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|76/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|move|p2a: Gyarados|Bounce|p1a: Latios|[from]lockedmove
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|turn|64
+|
+|move|p2a: Gyarados|Waterfall|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Forretress|Forretress, M|47/100 par
+|turn|65
+|c|☆Antoinos Danielos|sorry for the hax
+|inactive|porrompompom has 120 seconds left.
+|c|☆porrompompom|np, one ends up getting used to lose deserved games
+|
+|move|p2a: Gyarados|Waterfall|p1a: Forretress
+|-damage|p1a: Forretress|21/100 par
+|move|p1a: Forretress|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gyarados|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Forretress|27/100 par|[from] item: Leftovers
+|-damage|p2a: Gyarados|88/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|move|p2a: Gyarados|Waterfall|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|win|Antoinos Danielos
+|c|☆Antoinos Danielos|gg
+|raw|porrompompom's rating: 1566 &rarr; <strong>1536</strong><br />(-30 for losing)
+|raw|Antoinos Danielos's rating: 1385 &rarr; <strong>1414</strong><br />(+29 for winning)

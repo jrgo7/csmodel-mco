@@ -1,0 +1,340 @@
+|j|☆TheRareCandyDealer
+|j|‽BKC LADDER ACC
+|player|p1|TheRareCandyDealer|dragontamer|1359
+|player|p2|BKC LADDER ACC|hiker-gen4|1429
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tornadus, M|item
+|poke|p1|Cloyster, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Starmie|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Mew|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Not Today|Tornadus, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p1a: Touch Me|Ferrothorn, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Touch Me
+|-status|p1a: Touch Me|brn
+|
+|-damage|p1a: Touch Me|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Touch Me
+|-resisted|p1a: Touch Me
+|-damage|p1a: Touch Me|78/100 brn
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Touch Me|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: BKC LADDER ACC|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Touch Me|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Touch Me|72/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Touch Me
+|-sidestart|p1: TheRareCandyDealer|move: Stealth Rock
+|move|p1a: Touch Me|Thunder Wave|p2a: Tyranitar
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Touch Me|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Touch Me|65/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Touch Me|Spikes|p2a: Skarmory
+|-sidestart|p2: BKC LADDER ACC|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Touch Me|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Touch Me|59/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Beyblade|Starmie|100/100
+|-damage|p1a: Beyblade|88/100|[from] Stealth Rock
+|move|p2a: Skarmory|Taunt|p1a: Beyblade
+|-start|p1a: Beyblade|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beyblade|82/100|[from] Sandstorm
+|-heal|p1a: Beyblade|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100 par
+|-damage|p2a: Tyranitar|88/100 par|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100 par|[from] Spikes
+|move|p1a: Beyblade|Rapid Spin|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|75/100 par
+|-sideend|p1: TheRareCandyDealer|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Beyblade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beyblade|82/100|[from] Sandstorm
+|-heal|p1a: Beyblade|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Beyblade|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|25/100 par
+|move|p2a: Tyranitar|Crunch|p1a: Beyblade
+|-supereffective|p1a: Beyblade
+|-damage|p1a: Beyblade|0 fnt
+|faint|p1a: Beyblade
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Rainbow Dash|Keldeo-Resolute|100/100
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Rainbow Dash|Secret Sword|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rainbow Dash|94/100|[from] Sandstorm
+|-damage|p2a: Rotom|4/100|[from] Sandstorm
+|-heal|p2a: Rotom|10/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Spikes
+|-damage|p2a: Mew|76/100|[from] Stealth Rock
+|move|p1a: Rainbow Dash|Secret Sword|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rainbow Dash|88/100|[from] Sandstorm
+|-damage|p2a: Mew|54/100|[from] Sandstorm
+|-heal|p2a: Mew|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Not Today|Tornadus, M|100/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Not Today|94/100|[from] Sandstorm
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Not Today|Hurricane|p2a: Mew
+|-damage|p2a: Mew|36/100
+|-start|p2a: Mew|confusion
+|-damage|p1a: Not Today|85/100|[from] item: Life Orb
+|-activate|p2a: Mew|confusion
+|-damage|p2a: Mew|32/100|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Not Today|79/100|[from] Sandstorm
+|-damage|p2a: Mew|25/100|[from] Sandstorm
+|-heal|p2a: Mew|32/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Skarmory|Skarmory, M|88/100
+|-damage|p2a: Skarmory|76/100|[from] Stealth Rock
+|move|p1a: Not Today|Hurricane|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|41/100
+|-damage|p1a: Not Today|69/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Not Today|63/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|move|p1a: Not Today|Heat Wave|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Not Today|53/100|[from] item: Life Orb
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Not Today|47/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Not Today|atk|1
+|-ability|p1a: Not Today|Defiant
+|-boost|p1a: Not Today|atk|2
+|turn|14
+|
+|switch|p1a: Touch Me|Ferrothorn, F|59/100 brn
+|move|p2a: Landorus|Superpower|p1a: Touch Me
+|-supereffective|p1a: Touch Me
+|-damage|p1a: Touch Me|0 fnt
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2a: Landorus|def|1
+|-damage|p2a: Landorus|76/100|[from] ability: Iron Barbs|[of] p1a: Touch Me
+|faint|p1a: Touch Me
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Urava|Dragonite, F|100/100
+|turn|15
+|
+|switch|p2a: Tyranitar|Tyranitar, F|25/100 par
+|-damage|p2a: Tyranitar|13/100 par|[from] Stealth Rock
+|-damage|p2a: Tyranitar|0 fnt|[from] Spikes
+|faint|p2a: Tyranitar
+|move|p1a: Urava|Dragon Dance|p1a: Urava
+|-boost|p1a: Urava|atk|1
+|-boost|p1a: Urava|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Urava|94/100|[from] Sandstorm
+|-heal|p1a: Urava|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|76/100
+|-damage|p2a: Landorus|64/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Urava|atk|1
+|turn|16
+|
+|move|p2a: Landorus|Hidden Power|p1a: Urava
+|-supereffective|p1a: Urava
+|-damage|p1a: Urava|63/100
+|move|p1a: Urava|Dragon Dance|p1a: Urava
+|-boost|p1a: Urava|atk|1
+|-boost|p1a: Urava|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Urava|57/100|[from] Sandstorm
+|-heal|p1a: Urava|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Urava|Outrage|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Urava|57/100|[from] Sandstorm
+|-heal|p1a: Urava|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mew|Mew|32/100
+|-damage|p2a: Mew|19/100|[from] Spikes
+|-damage|p2a: Mew|7/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Urava|Outrage|p2a: Mew|[from]lockedmove
+|-damage|p2a: Mew|0 fnt
+|-start|p1a: Urava|confusion|[fatigue]
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Urava|57/100|[from] Sandstorm
+|-heal|p1a: Urava|63/100|[from] item: Leftovers
+|upkeep
+|j| Golden Oreos
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|19
+|
+|-activate|p1a: Urava|confusion
+|-damage|p1a: Urava|35/100|[from] confusion
+|move|p2a: Latios|Draco Meteor|p1a: Urava
+|-supereffective|p1a: Urava
+|-damage|p1a: Urava|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Urava
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Rainbow Dash|Keldeo-Resolute|88/100
+|turn|20
+|
+|switch|p2a: Rotom|Rotom-Wash|10/100
+|-damage|p2a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p2a: Rotom
+|move|p1a: Rainbow Dash|Icy Wind|p2: Rotom|[notarget]
+|-fail|p1a: Rainbow Dash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rainbow Dash|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|82/100
+|-damage|p2a: Latios|70/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Rainbow Dash|Icy Wind|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|33/100
+|-unboost|p2a: Latios|spe|1
+|move|p2a: Latios|Draco Meteor|p1a: Rainbow Dash
+|-damage|p1a: Rainbow Dash|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Rainbow Dash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|27/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Polish the Pearl|Cloyster, F|100/100
+|turn|22
+|c|☆TheRareCandyDealer|gg
+|
+|move|p1a: Polish the Pearl|Icicle Spear|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-hitcount|p2a: Latios|1
+|-damage|p1a: Polish the Pearl|91/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|win|TheRareCandyDealer
+|l|‽BKC LADDER ACC
+|raw|TheRareCandyDealer's rating: 1359 &rarr; <strong>1383</strong><br />(+24 for winning)
+|raw|BKC LADDER ACC's rating: 1429 &rarr; <strong>1405</strong><br />(-24 for losing)

@@ -1,0 +1,680 @@
+|join|CJA94
+|join|AimarPT
+|player|p1|CJA94|2
+|player|p2|AimarPT|101
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Chansey, F
+|poke|p1|Politoed, M
+|poke|p1|Tentacruel, F
+|poke|p1|Quagsire, M
+|poke|p1|Dragonite, F
+|poke|p1|Ferrothorn, M
+|poke|p2|Latias, F
+|poke|p2|Garchomp, M
+|poke|p2|Ferrothorn, F
+|poke|p2|Keldeo-Resolute
+|poke|p2|Umbreon, M
+|poke|p2|Volcarona, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|383/383
+|switch|p2a: Garchomp|Garchomp, M|358/358
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Garchomp|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|220/383
+|move|p1a: Politoed|Toxic|p2a: Garchomp
+|-status|p2a: Garchomp|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|243/383|[from] item: Leftovers
+|-damage|p2a: Garchomp|336/358 tox|[from] psn
+|turn|2
+|
+|switch|p2a: Latias|Latias, F|302/302
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|266/383|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Latias|Thunderbolt|p1a: Politoed
+|-activate|p1a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|289/383|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Chansey|Chansey, F|642/642
+|move|p2a: Latias|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|589/642
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Keldeo-Resolute|Keldeo-Resolute|323/323
+|switch|p1a: Dragonite|Dragonite, F|386/386
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Keldeo-Resolute|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|266/386
+|-unboost|p1a: Dragonite|spe|1
+|move|p1a: Dragonite|Hurricane|p2a: Keldeo-Resolute
+|-supereffective|p2a: Keldeo-Resolute
+|-damage|p2a: Keldeo-Resolute|0 fnt
+|faint|p2a: Keldeo-Resolute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|290/386|[from] item: Leftovers
+|
+|switch|p2a: Latias|Latias, F|302/302
+|turn|7
+|
+|switch|p1a: Chansey|Chansey, F|589/642
+|move|p2a: Latias|Dragon Pulse|p1a: Chansey
+|-damage|p1a: Chansey|517/642
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p2a: Latias|Surf|p1a: Chansey
+|-damage|p1a: Chansey|444/642
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|switch|p2a: Garchomp|Garchomp, M|336/358 tox
+|move|p1a: Chansey|Toxic|p2a: Garchomp
+|-fail|p2a: Garchomp|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chansey|642/642|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Garchomp|314/358 tox|[from] psn
+|turn|10
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|352/352
+|move|p2a: Garchomp|Brick Break|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|203/352
+|-damage|p2a: Garchomp|270/358 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|225/352|[from] item: Leftovers
+|-damage|p2a: Garchomp|226/358 tox|[from] psn
+|turn|11
+|
+|switch|p2a: Volcarona|Volcarona, M|312/312
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|330/364
+|move|p1a: Tentacruel|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|96/312
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|352/364|[from] ability: Rain Dish
+|-heal|p2a: Volcarona|115/312|[from] item: Leftovers
+|-heal|p1a: Tentacruel|364/364|[from] item: Black Sludge
+|turn|13
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|331/364
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Volcarona
+|-sidestart|p2: AimarPT|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|353/364|[from] ability: Rain Dish
+|-heal|p2a: Volcarona|134/312|[from] item: Leftovers
+|-heal|p1a: Tentacruel|364/364|[from] item: Black Sludge
+|turn|14
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Tentacruel
+|-damage|p1a: Tentacruel|238/364
+|-heal|p2a: Volcarona|197/312|[from] drain|[of] p1a: Tentacruel
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Volcarona
+|-sidestart|p2: AimarPT|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|260/364|[from] ability: Rain Dish
+|-heal|p2a: Volcarona|216/312|[from] item: Leftovers
+|-heal|p1a: Tentacruel|282/364|[from] item: Black Sludge
+|turn|15
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Volcarona|Giga Drain|p1a: Tentacruel
+|-activate|p1a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|304/364|[from] ability: Rain Dish
+|-heal|p2a: Volcarona|235/312|[from] item: Leftovers
+|-heal|p1a: Tentacruel|326/364|[from] item: Black Sludge
+|turn|16
+|join|TheAvengedPlayer
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Tentacruel
+|-damage|p1a: Tentacruel|200/364
+|-heal|p2a: Volcarona|298/312|[from] drain|[of] p1a: Tentacruel
+|move|p1a: Tentacruel|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|68/312
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|222/364|[from] ability: Rain Dish
+|-heal|p2a: Volcarona|87/312|[from] item: Leftovers
+|-heal|p1a: Tentacruel|244/364|[from] item: Black Sludge
+|turn|17
+|chat|TheAvengedPlayer|omggg so beast!
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Volcarona|Giga Drain|p1a: Tentacruel
+|-activate|p1a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|266/364|[from] ability: Rain Dish
+|-heal|p2a: Volcarona|106/312|[from] item: Leftovers
+|-heal|p1a: Tentacruel|288/364|[from] item: Black Sludge
+|turn|18
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Tentacruel
+|-damage|p1a: Tentacruel|158/364
+|-heal|p2a: Volcarona|171/312|[from] drain|[of] p1a: Tentacruel
+|move|p1a: Tentacruel|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|180/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|202/364|[from] item: Black Sludge
+|
+|switch|p2a: Latias|Latias, F|302/302
+|turn|19
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Latias|Psychic|p1a: Tentacruel
+|-activate|p1a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|224/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|246/364|[from] item: Black Sludge
+|turn|20
+|
+|switch|p1a: Chansey|Chansey, F|642/642
+|move|p2a: Latias|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|570/642
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|chat|CJA94|Hey Bro
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|225/352
+|move|p2a: Ferrothorn|Toxic|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|352/352|[from] move: Wish|[wisher] Chansey
+|turn|23
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: AimarPT|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|24
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: AimarPT|Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn|[miss]
+|-miss|p2a: Ferrothorn|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|turn|25
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn|[msg]
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: AimarPT|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|26
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: AimarPT|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|switch|p1a: Tentacruel|Tentacruel, F|246/364
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|268/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|290/364|[from] item: Black Sludge
+|turn|28
+|
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|301/352
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|312/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|334/364|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|323/352|[from] item: Leftovers
+|-damage|p1a: Tentacruel|289/364|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352|[silent]
+|turn|29
+|
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|303/352
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|208/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|230/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|252/364|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|325/352|[from] item: Leftovers
+|-damage|p1a: Tentacruel|207/364|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352|[silent]
+|turn|30
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|229/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|251/364|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|206/364|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|31
+|chat|CJA94|Come on. Burn
+|
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|301/352
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|130/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|152/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|174/364|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|323/352|[from] item: Leftovers
+|-damage|p1a: Tentacruel|129/364|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|352/352|[silent]
+|turn|32
+|chat|TheAvengedPlayer|hey
+|chat|CJA94|See Avenged. I need scald for Ferro
+|chat|TheAvengedPlayer|yep
+|chat|CJA94|Not that it's working right now lol
+|chat|TheAvengedPlayer|u know what?
+|
+|switch|p1a: Chansey|Chansey, F|570/642
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Chansey
+|-damage|p1a: Chansey|441/642
+|
+|-weather|RainDance|[upkeep]
+|turn|33
+|chat|TheAvengedPlayer|unaware + swagger =m <3
+|chat|CJA94|lol
+|chat|CJA94|yeah Swagger is great on Quag
+|chat|CJA94|But it was banned
+|chat|TheAvengedPlayer|for gen 6
+|chat|CJA94|Oh but not in Bw
+|chat|CJA94|Great thinking
+|
+|move|p1a: Chansey|Wish|p1a: Chansey
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Chansey
+|-damage|p1a: Chansey|309/642
+|
+|-weather|RainDance|[upkeep]
+|turn|34
+|chat|TheAvengedPlayer|yep
+|chat|TheAvengedPlayer|:)
+|
+|switch|p1a: Tentacruel|Tentacruel, F|129/364
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|48/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|70/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|364/364|[from] move: Wish|[wisher] Chansey
+|turn|35
+|
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|256/352
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|277/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|299/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|321/364|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|278/352|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Tentacruel|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|229/352
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|343/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|364/364|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|251/352 brn|[from] item: Leftovers
+|-damage|p1a: Tentacruel|319/364|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|296/352 brn|[silent]
+|-damage|p2a: Ferrothorn|252/352 brn|[from] brn
+|turn|37
+|chat|CJA94|But u need Eq a little bit
+|chat|TheAvengedPlayer|yep
+|chat|TheAvengedPlayer|i have eq
+|chat|CJA94|For toxicroak in particular
+|
+|switch|p1a: Chansey|Chansey, F|309/642
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Chansey
+|-damage|p1a: Chansey|251/642
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|274/352 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|230/352 brn|[from] brn
+|turn|38
+|chat|TheAvengedPlayer|true
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|572/642
+|move|p2a: Ferrothorn|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|252/352 brn|[from] item: Leftovers
+|-damage|p1a: Chansey|492/642|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|332/352 brn|[silent]
+|-damage|p2a: Ferrothorn|288/352 brn|[from] brn
+|turn|39
+|chat|CJA94|But yeah Swagger is definitely a good strategy :)
+|
+|switch|p1a: Dragonite|Dragonite, F|290/386
+|move|p2a: Ferrothorn|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|314/386 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|310/352 brn|[from] item: Leftovers
+|-damage|p1a: Dragonite|290/386 tox|[from] psn
+|-damage|p2a: Ferrothorn|266/352 brn|[from] brn
+|turn|40
+|
+|move|p1a: Dragonite|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|116/352 brn
+|-start|p2a: Ferrothorn|confusion
+|-activate|p2a: Ferrothorn|confusion
+|-damage|p2a: Ferrothorn|106/352 brn|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|314/386 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|128/352 brn|[from] item: Leftovers
+|-damage|p1a: Dragonite|266/386 tox|[from] psn
+|-damage|p2a: Ferrothorn|84/352 brn|[from] brn
+|turn|41
+|chat|TheAvengedPlayer|now i need a water healer
+|chat|CJA94|What you mean?
+|
+|switch|p1a: Chansey|Chansey, F|492/642
+|-activate|p2a: Ferrothorn|confusion
+|-damage|p2a: Ferrothorn|74/352 brn|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|96/352 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|52/352 brn|[from] brn
+|turn|42
+|chat|TheAvengedPlayer|something like chansey
+|chat|TheAvengedPlayer|but water
+|
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-cureteam|p1a: Chansey|[from] move: HealBell
+|-activate|p2a: Ferrothorn|confusion
+|-damage|p2a: Ferrothorn|43/352 brn|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|65/352 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|21/352 brn|[from] brn
+|turn|43
+|chat|CJA94|Oh for mono water
+|chat|CJA94|Vaporeon
+|chat|CJA94|He get's heal bell
+|chat|CJA94|and Hydration in the rain
+|chat|CJA94|means he can't get statused
+|chat|TheAvengedPlayer|ohhh
+|chat|CJA94|so instant 1 turn wake up
+|chat|TheAvengedPlayer|my god
+|chat|TheAvengedPlayer|lol
+|chat|CJA94|from rest
+|chat|TheAvengedPlayer|yep vapo
+|chat|CJA94|It's the bomb
+|chat|TheAvengedPlayer|its the best
+|chat|CJA94|Just couldn't fit him here
+|
+|switch|p1a: Dragonite|Dragonite, F|266/386
+|-activate|p2a: Ferrothorn|confusion
+|-damage|p2a: Ferrothorn|11/352 brn|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|290/386|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|33/352 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|0 fnt|[from] brn
+|faint|p2a: Ferrothorn
+|
+|switch|p2a: Garchomp|Garchomp, M|226/358 tox
+|-damage|p2a: Garchomp|137/358 tox|[from] Spikes
+|-damage|p2a: Garchomp|115/358 tox|[from] Stealth Rock
+|turn|44
+|chat|TheAvengedPlayer|now its the questing
+|chat|TheAvengedPlayer|who i replace
+|chat|CJA94|He's really hard to beat
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|352/352
+|move|p2a: Garchomp|Dragon Claw|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|307/352
+|-damage|p2a: Garchomp|71/358 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|329/352|[from] item: Leftovers
+|-damage|p2a: Garchomp|49/358 tox|[from] psn
+|turn|45
+|
+|switch|p1a: Tentacruel|Tentacruel, F|319/364
+|move|p2a: Garchomp|Dragon Claw|p1a: Tentacruel
+|-damage|p1a: Tentacruel|166/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|188/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|210/364|[from] item: Black Sludge
+|-damage|p2a: Garchomp|5/358 tox|[from] psn
+|turn|46
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Garchomp|Dragon Claw|p1a: Tentacruel
+|-activate|p1a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|232/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|254/364|[from] item: Black Sludge
+|-damage|p2a: Garchomp|0 fnt|[from] psn
+|faint|p2a: Garchomp
+|
+|switch|p2a: Latias|Latias, F|302/302
+|-damage|p2a: Latias|265/302|[from] Stealth Rock
+|turn|47
+|
+|switch|p1a: Chansey|Chansey, F|492/642
+|move|p2a: Latias|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|439/642
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|283/302|[from] item: Leftovers
+|turn|48
+|chat|TheAvengedPlayer|dont u prefer  rocky helmet?
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Chansey
+|-damage|p1a: Chansey|370/642
+|move|p1a: Chansey|Toxic|p2a: Latias
+|-status|p2a: Latias|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|301/302 tox|[from] item: Leftovers
+|-damage|p2a: Latias|283/302 tox|[from] psn
+|turn|49
+|chat|CJA94|On ferro?
+|
+|move|p2a: Latias|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|295/642
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|616/642
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|301/302 tox|[from] item: Leftovers
+|-damage|p2a: Latias|265/302 tox|[from] psn
+|turn|50
+|chat|CJA94|for a while
+|chat|CJA94|but leftovers usually means I can get more hazards up
+|
+|move|p2a: Latias|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|541/642
+|-unboost|p1a: Chansey|spd|1
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latias|283/302 tox|[from] item: Leftovers
+|-damage|p2a: Latias|229/302 tox|[from] psn
+|turn|51
+|chat|CJA94|So I've been using it lately
+|
+|switch|p1a: Dragonite|Dragonite, F|290/386
+|move|p2a: Latias|Dragon Pulse|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|60/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|381/386|[from] move: Wish|[wisher] Chansey
+|-heal|p2a: Latias|247/302 tox|[from] item: Leftovers
+|-heal|p1a: Dragonite|386/386|[from] item: Leftovers
+|-damage|p2a: Latias|175/302 tox|[from] psn
+|turn|52
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|271/386
+|move|p1a: Dragonite|Dragon Tail|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|295/386|[from] item: Leftovers
+|chat|TheAvengedPlayer|i see
+|
+|switch|p2a: Umbreon|Umbreon, M|394/394
+|-damage|p2a: Umbreon|296/394|[from] Spikes
+|-status|p2a: Umbreon|tox
+|-damage|p2a: Umbreon|247/394 tox|[from] Stealth Rock
+|turn|53
+|
+|move|p1a: Dragonite|Hurricane|p2a: Umbreon
+|-damage|p2a: Umbreon|150/394 tox
+|move|p2a: Umbreon|Payback|p1a: Dragonite
+|-damage|p1a: Dragonite|214/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|238/386|[from] item: Leftovers
+|-heal|p2a: Umbreon|174/394 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|150/394 tox|[from] psn
+|turn|54
+|chat|TheAvengedPlayer|screews up so many dragon
+|chat|CJA94|But seriously
+|chat|CJA94|get vaporeon
+|chat|CJA94|So hard to beat
+|chat|CJA94|yeah ferro's good at beating outrage's 
+|
+|move|p1a: Dragonite|Hurricane|p2a: Umbreon
+|-damage|p2a: Umbreon|62/394 tox
+|move|p2a: Umbreon|Payback|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|75/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|99/386|[from] item: Leftovers
+|-heal|p2a: Umbreon|86/394 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|38/394 tox|[from] psn
+|turn|55
+|chat|CJA94|Better with helmet
+|chat|CJA94|but leftovers is good too
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|292/386
+|move|p2a: Umbreon|Payback|p1a: Dragonite
+|-damage|p1a: Dragonite|202/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|226/386|[from] item: Leftovers
+|-heal|p2a: Umbreon|62/394 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|0 fnt|[from] psn
+|faint|p2a: Umbreon
+|
+|win|CJA94
+|raw|Ladder updating...
+|raw|CJA94's rating: 1381 &rarr; <strong>1399</strong><br />(+18 for winning)
+|raw|AimarPT's rating: 1341 &rarr; <strong>1323</strong><br />(-18 for losing)
+|chat|CJA94|gg Aimar

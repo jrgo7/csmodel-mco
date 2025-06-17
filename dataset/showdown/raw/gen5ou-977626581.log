@@ -1,0 +1,275 @@
+|j|☆Suirio
+|j|☆porrompompom
+|player|p1|Suirio|153|1358
+|player|p2|porrompompom|2|1493
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Salamence, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Suirio)
+|
+|move|p1a: Azelf|Stealth Rock|p2a: Politoed
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Azelf
+|-damage|p1a: Azelf|35/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Azelf|Explosion|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Suirio has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|turn|3
+|inactive|Suirio has 120 seconds left.
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Landorus|Hidden Power|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|90/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Suirio has 120 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|88/100
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Scizor|Acrobatics|p2a: Tentacruel
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|6
+|
+|move|p2a: Volcarona|Fire Blast|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|7
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Landorus|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Landorus|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|7/100
+|move|p1a: Garchomp|Outrage|p2a: Landorus
+|-enditem|p1a: Garchomp|Dragon Gem|[from] gem|[move] Outrage
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Suirio|hax
+|inactive|porrompompom has 120 seconds left.
+|j| LTEZ No 41 st
+|inactive|porrompompom has 90 seconds left.
+|c|☆Suirio|well maybe i guess i had a dragon gem
+|c|☆porrompompom|I'd say it's way too late to appreciate turn 1 now, but yest, strictly speaking you're right
+|c|☆Suirio|but the explosion crit at the beginning 100% hax lol
+|inactive|porrompompom has 60 seconds left.
+|c|☆Suirio|yea
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|10
+|
+|move|p1a: Garchomp|Outrage|p2a: Ferrothorn|[from]lockedmove
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|-damage|p1a: Garchomp|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Garchomp
+|move|p2a: Ferrothorn|Stealth Rock|p1: Garchomp
+|-sidestart|p1: Suirio|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|move|p1a: Breloom|Spore|p2a: Azumarill
+|-status|p2a: Azumarill|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Breloom|Focus Punch|p2a: Volcarona
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Focus Punch
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|74/100
+|turn|13
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100 slp
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Dragonite|Outrage|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|80/100
+|turn|16
+|
+|move|p1a: Dragonite|Outrage|p2a: Ferrothorn|[from]lockedmove
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|-damage|p1a: Dragonite|52/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-start|p1a: Dragonite|confusion|[fatigue]
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-end|p1a: Dragonite|confusion
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dragonite
+|-start|p1a: Dragonite|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|51/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|40/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|63/100|[silent]
+|upkeep
+|turn|17
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100
+|-damage|p1a: Dragonite|28/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|8/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|5/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|20/100|[silent]
+|upkeep
+|turn|18
+|j| tryn2019
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Dragonite|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Dragonite
+|faint|p2a: Ferrothorn
+|
+|win|Suirio
+|c|☆Suirio|gg
+|l|☆porrompompom
+|l| LTEZ No 41 st
+|raw|Suirio's rating: 1358 &rarr; <strong>1385</strong><br />(+27 for winning)
+|raw|porrompompom's rating: 1472 &rarr; <strong>1445</strong><br />(-27 for losing)

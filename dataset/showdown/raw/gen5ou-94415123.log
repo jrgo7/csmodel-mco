@@ -1,0 +1,366 @@
+|join|Indytotof
+|join|Princess Deluks917
+|player|p1|Indytotof|267
+|player|p2|Princess Deluks917|23
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, M
+|poke|p1|Breloom, M
+|poke|p1|Starmie
+|poke|p1|Dugtrio, M
+|poke|p1|Tornadus, M
+|poke|p1|Thundurus-Therian, M
+|poke|p2|Politoed, M
+|poke|p2|Gliscor, M
+|poke|p2|Kyurem
+|poke|p2|Skarmory, M
+|poke|p2|Tentacruel, M
+|poke|p2|Chansey, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|Princess Deluks917|gl
+|
+|start
+|switch|p1a: Chapignon|Breloom, M|262/262
+|switch|p2a: Leon|Kyurem|404/404
+|-ability|p2a: Leon|Pressure
+|turn|1
+|
+|switch|p2a: Hoteye|Gliscor, M|354/354
+|move|p1a: Chapignon|Mach Punch|p2a: Hoteye
+|-resisted|p2a: Hoteye
+|-damage|p2a: Hoteye|310/354
+|-damage|p1a: Chapignon|236/262|[from] item: Life Orb
+|
+|-activate|p2a: Hoteye|item: Toxic Orb
+|-status|p2a: Hoteye|tox
+|turn|2
+|
+|switch|p1a: Staross|Starmie|261/261
+|move|p2a: Hoteye|Substitute|p2a: Hoteye
+|-start|p2a: Hoteye|Substitute
+|-damage|p2a: Hoteye|222/354 tox
+|
+|-heal|p2a: Hoteye|266/354 tox|[from] ability: Poison Heal
+|turn|3
+|
+|move|p1a: Staross|Ice Beam|p2a: Hoteye
+|-supereffective|p2a: Hoteye
+|-end|p2a: Hoteye|Substitute
+|move|p2a: Hoteye|Earthquake|p1a: Staross
+|-damage|p1a: Staross|143/261
+|
+|-heal|p2a: Hoteye|310/354 tox|[from] ability: Poison Heal
+|turn|4
+|
+|switch|p2a: Porlyusica|Chansey, F|642/642
+|move|p1a: Staross|Ice Beam|p2a: Porlyusica
+|-damage|p2a: Porlyusica|590/642
+|
+|turn|5
+|
+|switch|p1a: Boréas|Tornadus, M|299/299
+|move|p2a: Porlyusica|Stealth Rock|p1a: Boréas
+|-sidestart|p1: Indytotof|move: Stealth Rock
+|
+|turn|6
+|
+|move|p1a: Boréas|Superpower|p2a: Porlyusica
+|-supereffective|p2a: Porlyusica
+|-damage|p2a: Porlyusica|264/642
+|-unboost|p1a: Boréas|atk|1
+|-unboost|p1a: Boréas|def|1
+|move|p2a: Porlyusica|Soft-Boiled|p2a: Porlyusica
+|-heal|p2a: Porlyusica|585/642
+|
+|turn|7
+|
+|switch|p1a: Staross|Starmie|143/261
+|-damage|p1a: Staross|111/261|[from] Stealth Rock
+|move|p2a: Porlyusica|Toxic|p1a: Staross|[miss]
+|-miss|p2a: Porlyusica|p1a: Staross
+|
+|turn|8
+|
+|move|p1a: Staross|Rapid Spin|p2a: Porlyusica
+|-crit|p2a: Porlyusica
+|-damage|p2a: Porlyusica|554/642
+|-sideend|p1: Indytotof|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Staross
+|move|p2a: Porlyusica|Toxic|p1a: Staross
+|-status|p1a: Staross|tox
+|
+|-damage|p1a: Staross|95/261 tox|[from] psn
+|turn|9
+|
+|switch|p1a: Tarpaud|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Tarpaud
+|move|p2a: Porlyusica|Stealth Rock|p1a: Tarpaud
+|-sidestart|p1: Indytotof|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|move|p1a: Tarpaud|Toxic|p2a: Porlyusica
+|-status|p2a: Porlyusica|tox
+|move|p2a: Porlyusica|Toxic|p1a: Tarpaud
+|-status|p1a: Tarpaud|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Tarpaud|360/384 tox|[from] psn
+|-damage|p2a: Porlyusica|514/642 tox|[from] psn
+|turn|11
+|
+|switch|p2a: Leon|Kyurem|404/404
+|-ability|p2a: Leon|Pressure
+|move|p1a: Tarpaud|Protect|p1a: Tarpaud
+|-fail|p1a: Tarpaud
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tarpaud|384/384 tox|[from] item: Leftovers
+|-damage|p1a: Tarpaud|336/384 tox|[from] psn
+|turn|12
+|
+|move|p2a: Leon|Substitute|p2a: Leon
+|-start|p2a: Leon|Substitute
+|-damage|p2a: Leon|303/404
+|move|p1a: Tarpaud|Perish Song|p1a: Tarpaud
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: Leon|perish3
+|-start|p1a: Tarpaud|perish3
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Leon|328/404|[from] item: Leftovers
+|-heal|p1a: Tarpaud|360/384 tox|[from] item: Leftovers
+|-damage|p1a: Tarpaud|288/384 tox|[from] psn
+|turn|13
+|
+|move|p1a: Tarpaud|Protect|p1a: Tarpaud
+|-singleturn|p1a: Tarpaud|Protect
+|move|p2a: Leon|Ice Beam|p1a: Tarpaud
+|-activate|p1a: Tarpaud|Protect
+|
+|-start|p2a: Leon|perish2
+|-start|p1a: Tarpaud|perish2
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Leon|353/404|[from] item: Leftovers
+|-heal|p1a: Tarpaud|312/384 tox|[from] item: Leftovers
+|-damage|p1a: Tarpaud|216/384 tox|[from] psn
+|turn|14
+|
+|move|p1a: Tarpaud|Protect|p1a: Tarpaud
+|-fail|p1a: Tarpaud
+|move|p2a: Leon|Ice Beam|p1a: Tarpaud
+|-resisted|p1a: Tarpaud
+|-damage|p1a: Tarpaud|121/384 tox
+|
+|-start|p2a: Leon|perish1
+|-start|p1a: Tarpaud|perish1
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Leon|378/404|[from] item: Leftovers
+|-heal|p1a: Tarpaud|145/384 tox|[from] item: Leftovers
+|-damage|p1a: Tarpaud|25/384 tox|[from] psn
+|turn|15
+|
+|switch|p2a: Porlyusica|Chansey, F|514/642
+|switch|p1a: Staross|Starmie|95/261
+|-damage|p1a: Staross|63/261|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p1a: Staross|Rapid Spin|p2a: Porlyusica
+|-damage|p2a: Porlyusica|499/642
+|-sideend|p1: Indytotof|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Staross
+|move|p2a: Porlyusica|Seismic Toss|p1a: Staross
+|-damage|p1a: Staross|0 fnt
+|faint|p1a: Staross
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Chapignon|Breloom, M|236/262
+|turn|17
+|
+|switch|p2a: Hoteye|Gliscor, M|310/354 tox
+|move|p1a: Chapignon|Swords Dance|p1a: Chapignon
+|-boost|p1a: Chapignon|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hoteye|354/354 tox|[from] ability: Poison Heal
+|turn|18
+|
+|move|p1a: Chapignon|Bullet Seed|p2a: Hoteye
+|-damage|p2a: Hoteye|251/354 tox
+|-damage|p2a: Hoteye|129/354 tox
+|-damage|p2a: Hoteye|19/354 tox
+|-damage|p2a: Hoteye|0 fnt
+|-hitcount|p2a: Hoteye|4
+|-damage|p1a: Chapignon|210/262|[from] item: Life Orb
+|faint|p2a: Hoteye
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chelia|Skarmory, M|334/334
+|turn|19
+|
+|switch|p2a: Juvia|Politoed, M|384/384
+|move|p1a: Chapignon|Spore|p2a: Juvia
+|-status|p2a: Juvia|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|switch|p2a: Chelia|Skarmory, M|334/334
+|move|p1a: Chapignon|Swords Dance|p1a: Chapignon
+|-boost|p1a: Chapignon|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p1a: Chapignon|Mach Punch|p2a: Chelia
+|-damage|p2a: Chelia|71/334
+|-damage|p1a: Chapignon|184/262|[from] item: Life Orb
+|move|p2a: Chelia|Brave Bird|p1a: Chapignon
+|-crit|p1a: Chapignon
+|-supereffective|p1a: Chapignon
+|-damage|p1a: Chapignon|0 fnt
+|-damage|p2a: Chelia|10/334|[from] recoil|[of] p1a: Chapignon
+|faint|p1a: Chapignon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Fulguris Therian|Thundurus-Therian, M|300/300
+|turn|22
+|
+|move|p1a: Fulguris Therian|Focus Blast|p2a: Chelia|[miss]
+|-miss|p1a: Fulguris Therian|p2a: Chelia
+|move|p2a: Chelia|Whirlwind|p1a: Fulguris Therian
+|drag|p1a: Triopikeur|Dugtrio, M|212/212
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|move|p1a: Triopikeur|Reversal|p2a: Chelia
+|-damage|p2a: Chelia|0 fnt
+|faint|p2a: Chelia
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Porlyusica|Chansey, F|499/642
+|turn|24
+|
+|move|p1a: Triopikeur|Earthquake|p2a: Porlyusica
+|-damage|p2a: Porlyusica|327/642
+|move|p2a: Porlyusica|Toxic|p1a: Triopikeur
+|-status|p1a: Triopikeur|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Triopikeur|199/212 tox|[from] psn
+|turn|25
+|
+|move|p1a: Triopikeur|Earthquake|p2a: Porlyusica
+|-damage|p2a: Porlyusica|159/642
+|move|p2a: Porlyusica|Soft-Boiled|p2a: Porlyusica
+|-heal|p2a: Porlyusica|480/642
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Triopikeur|173/212 tox|[from] psn
+|turn|26
+|
+|switch|p1a: Boréas|Tornadus, M|299/299
+|move|p2a: Porlyusica|Soft-Boiled|p2a: Porlyusica
+|-heal|p2a: Porlyusica|642/642
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|move|p1a: Boréas|Hurricane|p2a: Porlyusica
+|-damage|p2a: Porlyusica|543/642
+|-start|p2a: Porlyusica|confusion
+|-activate|p2a: Porlyusica|confusion
+|-damage|p2a: Porlyusica|540/642|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|turn|28
+|
+|switch|p2a: Cobra|Tentacruel, M|363/363
+|move|p1a: Boréas|Hurricane|p2a: Cobra
+|-damage|p2a: Cobra|221/363
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cobra|243/363|[from] ability: Rain Dish
+|-heal|p2a: Cobra|265/363|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Boréas|Hurricane|p2a: Cobra
+|-damage|p2a: Cobra|129/363
+|move|p2a: Cobra|Scald|p1a: Boréas
+|-damage|p1a: Boréas|170/299
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cobra|151/363|[from] ability: Rain Dish
+|-heal|p2a: Cobra|173/363|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Cobra|Protect|p2a: Cobra
+|-singleturn|p2a: Cobra|Protect
+|move|p1a: Boréas|Hurricane|p2a: Cobra
+|-activate|p2a: Cobra|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cobra|195/363|[from] ability: Rain Dish
+|-heal|p2a: Cobra|217/363|[from] item: Leftovers
+|turn|31
+|
+|switch|p2a: Porlyusica|Chansey, F|540/642
+|move|p1a: Boréas|Hurricane|p2a: Porlyusica
+|-damage|p2a: Porlyusica|449/642
+|
+|-weather|RainDance|[upkeep]
+|turn|32
+|
+|switch|p1a: Fulguris Therian|Thundurus-Therian, M|300/300
+|move|p2a: Porlyusica|Soft-Boiled|p2a: Porlyusica
+|-heal|p2a: Porlyusica|642/642
+|
+|-weather|RainDance|[upkeep]
+|turn|33
+|
+|move|p1a: Fulguris Therian|Focus Blast|p2a: Porlyusica|[miss]
+|-miss|p1a: Fulguris Therian|p2a: Porlyusica
+|move|p2a: Porlyusica|Toxic|p1a: Fulguris Therian
+|-status|p1a: Fulguris Therian|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Fulguris Therian|282/300 tox|[from] psn
+|turn|34
+|chat|Indytotof|hate haxx
+|
+|move|p1a: Fulguris Therian|Focus Blast|p2a: Porlyusica
+|-supereffective|p2a: Porlyusica
+|-damage|p2a: Porlyusica|496/642
+|move|p2a: Porlyusica|Stealth Rock|p1a: Fulguris Therian
+|-sidestart|p1: Indytotof|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Fulguris Therian|246/300 tox|[from] psn
+|turn|35
+|-message|Indytotof forfeited.
+|
+|win|Princess Deluks917
+|raw|Ladder updating...
+|raw|Indytotof's rating: 1344 &rarr; <strong>1337</strong><br />(-7 for losing)
+|raw|Princess Deluks917's rating: 1609 &rarr; <strong>1616</strong><br />(+7 for winning)
+|chat|Indytotof|fuck you up
+|chat|Princess Deluks917|you seem to not be convinced it is a ladder and on a laddrr hax evens out
+|leave|Indytotof
+|player|p1

@@ -1,0 +1,457 @@
+|j|☆Pythagorean Python
+|j|☆Kland
+|t:|1597364779
+|player|p1|Pythagorean Python|159|1500
+|player|p2|Kland|169|1534
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Salamence, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Meloetta|item
+|poke|p1|Raikou|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tentacruel, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|t:|1597364788
+|start
+|switch|p1a: Raikou|Raikou|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-ability|p1a: Raikou|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1597364790
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Raikou|Volt Switch|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1597364802
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|move|p1a: Raikou|Volt Switch|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1597364821
+|move|p1a: Raikou|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1597364827
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|4
+|
+|t:|1597364840
+|move|p1a: Raikou|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|
+|t:|1597364844
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mienshao
+|-start|p1a: Mienshao|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mienshao|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|97/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1597364849
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Mienshao|U-turn|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mienshao|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1597364859
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Jirachi
+|-sidestart|p1: Pythagorean Python|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1597364864
+|switch|p2a: Politoed|Politoed, M|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|95/100
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1597364870
+|move|p1a: Jirachi|Thunder Punch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|40/100 brn
+|move|p2a: Politoed|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|68/100|[from] item: Leftovers
+|-heal|p2a: Politoed|46/100 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|33/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1597364878
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Jirachi|Thunder Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|93/100
+|-status|p2a: Ferrothorn|par
+|-damage|p1a: Jirachi|56/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|62/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1597364884
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|94/100
+|-status|p2a: Keldeo|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|68/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1597364898
+|move|p2a: Keldeo|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|70/100 brn|[from] brn
+|upkeep
+|
+|t:|1597364908
+|switch|p1a: Meloetta|Meloetta|100/100
+|-damage|p1a: Meloetta|88/100|[from] Spikes
+|turn|12
+|
+|t:|1597364914
+|move|p2a: Keldeo|Scald|p1a: Meloetta
+|-damage|p1a: Meloetta|29/100
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Meloetta|35/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|57/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1597364918
+|move|p2a: Keldeo|Scald|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|45/100 brn|[from] brn
+|upkeep
+|
+|t:|1597364923
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|turn|14
+|
+|t:|1597364927
+|switch|p2a: Ferrothorn|Ferrothorn, M|93/100 par
+|move|p1a: Raikou|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100 par
+|
+|t:|1597364934
+|switch|p1a: Salamence|Salamence, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1597364940
+|move|p1a: Salamence|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/100 par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Salamence|[miss]
+|-miss|p2a: Ferrothorn|p1a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1597364948
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Salamence|Draco Meteor|p2a: Tentacruel
+|-damage|p2a: Tentacruel|59/100
+|-unboost|p1a: Salamence|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|65/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|71/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1597364954
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|move|p2a: Tentacruel|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|77/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|83/100|[from] item: Black Sludge
+|-damage|p1a: Garchomp|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1597364960
+|switch|p2a: Politoed|Politoed, M|33/100 brn
+|move|p1a: Garchomp|Outrage|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Garchomp|70/100 tox|[from] psn
+|upkeep
+|
+|t:|1597364965
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|19
+|
+|t:|1597364968
+|move|p1a: Garchomp|Outrage|p2a: Tornadus|[from]lockedmove
+|-damage|p2a: Tornadus|2/100
+|move|p2a: Tornadus|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1597364974
+|switch|p1a: Raikou|Raikou|88/100
+|-damage|p1a: Raikou|76/100|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|turn|20
+|
+|t:|1597364981
+|switch|p2a: Ferrothorn|Ferrothorn, M|22/100 par
+|move|p1a: Raikou|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1597364984
+|move|p1a: Raikou|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1597364988
+|switch|p2a: Tornadus|Tornadus, M|2/100
+|turn|22
+|
+|t:|1597364993
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Kland|move: Tailwind
+|move|p1a: Raikou|Thunderbolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1597364996
+|switch|p2a: Keldeo|Keldeo|45/100 brn
+|turn|23
+|
+|t:|1597365000
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|move|p2a: Keldeo|Hydro Pump|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|7/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|32/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1597365010
+|move|p2a: Keldeo|Hydro Pump|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|20/100 brn|[from] brn
+|upkeep
+|
+|t:|1597365013
+|switch|p1a: Mienshao|Mienshao, M|76/100
+|-damage|p1a: Mienshao|64/100|[from] Spikes
+|turn|25
+|
+|t:|1597365016
+|move|p2a: Keldeo|Hydro Pump|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Keldeo|8/100 brn|[from] brn
+|-sideend|p2: Kland|move: Tailwind
+|upkeep
+|
+|t:|1597365018
+|switch|p1a: Raikou|Raikou|76/100
+|-damage|p1a: Raikou|63/100|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|turn|26
+|
+|t:|1597365022
+|move|p1a: Raikou|Thunderbolt|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| GW
+|
+|t:|1597365024
+|switch|p2a: Tentacruel|Tentacruel, M|83/100
+|turn|27
+|
+|t:|1597365027
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Raikou|Thunderbolt|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|89/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|95/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|t:|1597365030
+|move|p1a: Raikou|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|24/100
+|move|p2a: Tentacruel|Scald|p1a: Raikou
+|-damage|p1a: Raikou|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|30/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|36/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|c| GW|ladder = farmed
+|c| GW|yup
+|c|☆Kland|tbh gw
+|c|☆Kland|i got trolled
+|c|☆Kland|by 2 things
+|c| GW|bop
+|c|☆Kland|who runs max sp attack salance
+|c|☆Kland|and his raiko is e belt
+|c|☆Kland|and max roleld by landuros t
+|c|☆Kland|which was settign up rocks
+|
+|t:|1597365075
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Raikou|Thunderbolt|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|42/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|48/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|c|☆Pythagorean Python|Salamence catches people by surprise
+|c|☆Pythagorean Python|Jirachi has SR
+|c|☆Kland|but without
+|c|☆Kland|the max roll
+|c|☆Kland|i would of won this
+|c|☆Kland|and then jirachi crit everything
+|c|☆Kland|and leech speed missed
+|c|☆Kland|which stopped my keledeo
+|c|☆Kland|killing his mence
+|l| GW
+|c|☆Kland|which also would of won me the game
+|
+|t:|1597365120
+|move|p2a: Tentacruel|Protect||[still]
+|-fail|p2a: Tentacruel
+|move|p1a: Raikou|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|win|Pythagorean Python
+|c|☆Pythagorean Python|gg
+|raw|Pythagorean Python's rating: 1500 &rarr; <strong>1522</strong><br />(+22 for winning)
+|raw|Kland's rating: 1534 &rarr; <strong>1512</strong><br />(-22 for losing)

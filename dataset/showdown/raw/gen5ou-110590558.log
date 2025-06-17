@@ -1,0 +1,626 @@
+|join|PiggK
+|join|Pythagorean Python
+|player|p1|PiggK|127
+|player|p2|Pythagorean Python|10
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M
+|poke|p1|Sandslash, M
+|poke|p1|Tyranitar, M
+|poke|p1|Jellicent, F
+|poke|p1|Scizor, M
+|poke|p1|Shaymin
+|poke|p2|Dusclops, M
+|poke|p2|Breloom, M
+|poke|p2|Scizor, M
+|poke|p2|Rotom-Wash
+|poke|p2|Mew
+|poke|p2|Forretress, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|switch|p2a: Dusclops|Dusclops, M|222/222
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-ability|p2a: Dusclops|Pressure
+|turn|1
+|
+|switch|p1a: Shaymin|Shaymin|341/341
+|move|p2a: Dusclops|Will-O-Wisp|p1a: Shaymin|[miss]
+|-miss|p2a: Dusclops|p1a: Shaymin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shaymin|320/341|[from] sandstorm
+|-damage|p2a: Dusclops|209/222|[from] sandstorm
+|turn|2
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|move|p1a: Shaymin|Seed Flare|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|285/354
+|-unboost|p2a: Forretress|spd|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shaymin|299/341|[from] sandstorm
+|-heal|p2a: Forretress|307/354|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Jellicent|Jellicent, F|403/403
+|move|p2a: Forretress|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: PiggK|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-heal|p2a: Forretress|329/354|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|304/304
+|move|p1a: Jellicent|Scald|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|277/304
+|-status|p2a: Rotom-Wash|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|258/304 brn|[from] sandstorm
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|220/304 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Shaymin|Shaymin|299/341
+|-damage|p1a: Shaymin|257/341|[from] Stealth Rock
+|move|p2a: Rotom-Wash|Trick|p1a: Shaymin
+|-activate|p2a: Rotom-Wash|move: Trick|[of] p1a: Shaymin
+|-item|p1a: Shaymin|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom-Wash|Choice Scarf|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shaymin|236/341|[from] sandstorm
+|-damage|p2a: Rotom-Wash|201/304 brn|[from] sandstorm
+|-damage|p2a: Rotom-Wash|163/304 brn|[from] brn
+|turn|6
+|
+|move|p1a: Shaymin|Hidden Power|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|130/304 brn
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Shaymin
+|-resisted|p1a: Shaymin
+|-damage|p1a: Shaymin|197/341
+|
+|switch|p2a: Mew|Mew|341/341
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|320/341|[from] sandstorm
+|-damage|p1a: Shaymin|176/341|[from] sandstorm
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|move|p2a: Mew|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|292/404
+|-damage|p2a: Mew|286/341|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|265/341|[from] sandstorm
+|-heal|p1a: Tyranitar|317/404|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Mew|Aura Sphere|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|93/404
+|-damage|p2a: Mew|231/341|[from] item: Life Orb
+|move|p1a: Tyranitar|Pursuit|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|117/341
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|96/341|[from] sandstorm
+|-heal|p1a: Tyranitar|118/404|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Jellicent|Jellicent, F|403/403
+|-damage|p1a: Jellicent|353/403|[from] Stealth Rock
+|move|p2a: Mew|Aura Sphere|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|75/341|[from] sandstorm
+|-damage|p1a: Jellicent|328/403|[from] sandstorm
+|-heal|p1a: Jellicent|353/403|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Mew|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|132/403
+|-damage|p2a: Mew|41/341|[from] item: Life Orb
+|move|p1a: Jellicent|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|20/341|[from] sandstorm
+|-damage|p1a: Jellicent|107/403|[from] sandstorm
+|-heal|p1a: Jellicent|132/403|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Sandslash|Sandslash, M|292/292
+|-damage|p1a: Sandslash|274/292|[from] Stealth Rock
+|move|p2a: Mew|Fire Blast|p1a: Sandslash
+|-damage|p1a: Sandslash|45/292
+|-damage|p2a: Mew|0 fnt|[from] item: Life Orb
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Forretress|Forretress, M|329/354
+|turn|12
+|
+|move|p1a: Sandslash|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|320/354
+|-sideend|p1: PiggK|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Sandslash
+|-damage|p1a: Sandslash|16/292|[from] item: Life Orb
+|move|p2a: Forretress|Spikes|p1a: Sandslash
+|-sidestart|p1: PiggK|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|342/354|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Sandslash|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|336/354
+|-sideend|p1: PiggK|Spikes|[from] move: Rapid Spin|[of] p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt|[from] item: Life Orb
+|faint|p1a: Sandslash
+|move|p2a: Forretress|Stealth Rock|p1: Sandslash
+|-sidestart|p1: PiggK|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|354/354|[from] item: Leftovers
+|
+|switch|p1a: Shaymin|Shaymin|176/341
+|-damage|p1a: Shaymin|134/341|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Shaymin|Hidden Power|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-activate|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/354
+|move|p2a: Forretress|Spikes|p1a: Shaymin
+|-sidestart|p1: PiggK|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shaymin|113/341|[from] sandstorm
+|-heal|p2a: Forretress|23/354|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-damage|p1a: Landorus-Therian|334/381|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Forretress
+|-unboost|p2a: Forretress|atk|1
+|switch|p2a: Dusclops|Dusclops, M|209/222
+|-ability|p2a: Dusclops|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusclops|196/222|[from] sandstorm
+|-heal|p1a: Landorus-Therian|357/381|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Landorus-Therian|Stealth Rock|p2a: Dusclops
+|-sidestart|p2: Pythagorean Python|move: Stealth Rock
+|move|p2a: Dusclops|Will-O-Wisp|p1a: Landorus-Therian
+|-status|p1a: Landorus-Therian|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusclops|183/222|[from] sandstorm
+|-heal|p1a: Landorus-Therian|380/381 brn|[from] item: Leftovers
+|-damage|p1a: Landorus-Therian|333/381 brn|[from] brn
+|turn|17
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Dusclops
+|-damage|p2a: Dusclops|144/222
+|move|p2a: Dusclops|Confuse Ray|p1a: Landorus-Therian
+|-start|p1a: Landorus-Therian|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusclops|131/222|[from] sandstorm
+|-heal|p1a: Landorus-Therian|356/381 brn|[from] item: Leftovers
+|-damage|p1a: Landorus-Therian|309/381 brn|[from] brn
+|turn|18
+|
+|switch|p1a: Jellicent|Jellicent, F|132/403
+|-damage|p1a: Jellicent|82/403|[from] Spikes
+|-damage|p1a: Jellicent|32/403|[from] Stealth Rock
+|move|p2a: Dusclops|Pain Split|p1a: Jellicent
+|-sethp|p1a: Jellicent|81/403|p2a: Dusclops|81/222|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|56/403|[from] sandstorm
+|-damage|p2a: Dusclops|68/222|[from] sandstorm
+|-heal|p1a: Jellicent|81/403|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|283/403
+|move|p2a: Dusclops|Confuse Ray|p1a: Jellicent
+|-start|p1a: Jellicent|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|258/403|[from] sandstorm
+|-damage|p2a: Dusclops|55/222|[from] sandstorm
+|-heal|p1a: Jellicent|283/403|[from] item: Leftovers
+|turn|20
+|
+|-activate|p1a: Jellicent|confusion
+|move|p1a: Jellicent|Taunt|p2a: Dusclops
+|-start|p2a: Dusclops|move: Taunt
+|cant|p2a: Dusclops|move: Taunt|Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|258/403|[from] sandstorm
+|-damage|p2a: Dusclops|42/222|[from] sandstorm
+|-heal|p1a: Jellicent|283/403|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Forretress|Forretress, M|23/354
+|-damage|p2a: Forretress|0 fnt|[from] Stealth Rock
+|faint|p2a: Forretress
+|-activate|p1a: Jellicent|confusion
+|move|p1a: Jellicent|Scald|p2: Forretress|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|258/403|[from] sandstorm
+|-heal|p1a: Jellicent|283/403|[from] item: Leftovers
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|130/304 brn
+|-damage|p2a: Rotom-Wash|92/304 brn|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|309/381 brn
+|-damage|p1a: Landorus-Therian|262/381 brn|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Rotom-Wash
+|-unboost|p2a: Rotom-Wash|atk|1
+|move|p2a: Rotom-Wash|Pain Split|p1a: Landorus-Therian
+|-sethp|p1a: Landorus-Therian|177/381 brn|p2a: Rotom-Wash|177/304 brn|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|158/304 brn|[from] sandstorm
+|-heal|p1a: Landorus-Therian|200/381 brn|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|120/304 brn|[from] brn
+|-damage|p1a: Landorus-Therian|153/381 brn|[from] brn
+|turn|23
+|
+|switch|p2a: Dusclops|Dusclops, M|42/222
+|-damage|p2a: Dusclops|15/222|[from] Stealth Rock
+|-ability|p2a: Dusclops|Pressure
+|move|p1a: Landorus-Therian|U-turn|p2a: Dusclops
+|-resisted|p2a: Dusclops
+|-damage|p2a: Dusclops|6/222
+|
+|switch|p1a: Shaymin|Shaymin|113/341
+|-damage|p1a: Shaymin|71/341|[from] Stealth Rock
+|-damage|p1a: Shaymin|29/341|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shaymin|8/341|[from] sandstorm
+|-damage|p2a: Dusclops|0 fnt|[from] sandstorm
+|faint|p2a: Dusclops
+|
+|switch|p2a: Scizor|Scizor, M|344/344
+|-damage|p2a: Scizor|301/344|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|faint|p1a: Shaymin
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Scizor|322/344|[from] item: Leftovers
+|
+|switch|p1a: Jellicent|Jellicent, F|283/403
+|-damage|p1a: Jellicent|233/403|[from] Stealth Rock
+|-damage|p1a: Jellicent|183/403|[from] Spikes
+|turn|25
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|120/304 brn
+|-damage|p2a: Rotom-Wash|82/304 brn|[from] Stealth Rock
+|move|p1a: Jellicent|Scald|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|53/304 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|34/304 brn|[from] sandstorm
+|-damage|p1a: Jellicent|158/403|[from] sandstorm
+|-heal|p1a: Jellicent|183/403|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|0 fnt|[from] brn
+|faint|p2a: Rotom-Wash
+|
+|switch|p2a: Breloom|Breloom, M|262/262
+|-damage|p2a: Breloom|246/262|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|153/381 brn
+|-damage|p1a: Landorus-Therian|106/381 brn|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Breloom
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|181/262
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|165/262|[from] sandstorm
+|-heal|p1a: Landorus-Therian|129/381 brn|[from] item: Leftovers
+|-damage|p1a: Landorus-Therian|82/381 brn|[from] brn
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|turn|27
+|
+|move|p1a: Landorus-Therian|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Stone Edge|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|3/381 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|149/262 tox|[from] sandstorm
+|-heal|p1a: Landorus-Therian|26/381 brn|[from] item: Leftovers
+|-damage|p1a: Landorus-Therian|0 fnt|[from] brn
+|-heal|p2a: Breloom|181/262 tox|[from] ability: Poison Heal
+|faint|p1a: Landorus-Therian
+|
+|switch|p1a: Scizor|Scizor, M|344/344
+|-damage|p1a: Scizor|301/344|[from] Spikes
+|-damage|p1a: Scizor|258/344|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Breloom|Spore|p1a: Scizor
+|-status|p1a: Scizor|slp
+|cant|p1a: Scizor|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|165/262 tox|[from] sandstorm
+|-heal|p2a: Breloom|197/262 tox|[from] ability: Poison Heal
+|turn|29
+|
+|switch|p1a: Tyranitar|Tyranitar, M|118/404
+|-damage|p1a: Tyranitar|68/404|[from] Stealth Rock
+|-damage|p1a: Tyranitar|18/404|[from] Spikes
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|132/262 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|116/262 tox|[from] sandstorm
+|-heal|p1a: Tyranitar|43/404|[from] item: Leftovers
+|-heal|p2a: Breloom|148/262 tox|[from] ability: Poison Heal
+|turn|30
+|
+|move|p2a: Breloom|Stone Edge|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|132/262 tox|[from] sandstorm
+|-heal|p2a: Breloom|164/262 tox|[from] ability: Poison Heal
+|
+|switch|p1a: Jellicent|Jellicent, F|183/403
+|-damage|p1a: Jellicent|133/403|[from] Spikes
+|-damage|p1a: Jellicent|83/403|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Breloom|Stone Edge|p1a: Jellicent|[miss]
+|-miss|p2a: Breloom|p1a: Jellicent
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|285/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|148/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|260/403|[from] sandstorm
+|-heal|p1a: Jellicent|285/403|[from] item: Leftovers
+|-heal|p2a: Breloom|180/262 tox|[from] ability: Poison Heal
+|turn|32
+|
+|move|p2a: Breloom|Stone Edge|p1a: Jellicent|[miss]
+|-miss|p2a: Breloom|p1a: Jellicent
+|move|p1a: Jellicent|Taunt|p2a: Breloom
+|-start|p2a: Breloom|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|164/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|260/403|[from] sandstorm
+|-heal|p1a: Jellicent|285/403|[from] item: Leftovers
+|-heal|p2a: Breloom|196/262 tox|[from] ability: Poison Heal
+|turn|33
+|
+|move|p2a: Breloom|Stone Edge|p1a: Jellicent
+|-damage|p1a: Jellicent|206/403
+|move|p1a: Jellicent|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|180/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|181/403|[from] sandstorm
+|-heal|p1a: Jellicent|206/403|[from] item: Leftovers
+|-heal|p2a: Breloom|212/262 tox|[from] ability: Poison Heal
+|turn|34
+|
+|move|p2a: Breloom|Stone Edge|p1a: Jellicent
+|-damage|p1a: Jellicent|127/403
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|329/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|196/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|304/403|[from] sandstorm
+|-heal|p1a: Jellicent|329/403|[from] item: Leftovers
+|-heal|p2a: Breloom|228/262 tox|[from] ability: Poison Heal
+|turn|35
+|
+|move|p2a: Breloom|Stone Edge|p1a: Jellicent|[miss]
+|-miss|p2a: Breloom|p1a: Jellicent
+|move|p1a: Jellicent|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|165/262 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|149/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|304/403|[from] sandstorm
+|-heal|p1a: Jellicent|329/403|[from] item: Leftovers
+|-heal|p2a: Breloom|181/262 tox|[from] ability: Poison Heal
+|-end|p2a: Breloom|move: Taunt
+|turn|36
+|
+|move|p2a: Breloom|Stone Edge|p1a: Jellicent
+|-damage|p1a: Jellicent|247/403
+|move|p1a: Jellicent|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|120/262 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|104/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|222/403|[from] sandstorm
+|-heal|p1a: Jellicent|247/403|[from] item: Leftovers
+|-heal|p2a: Breloom|136/262 tox|[from] ability: Poison Heal
+|turn|37
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|71/262 tox
+|move|p1a: Jellicent|Scald|p2a: Breloom
+|-crit|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|55/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|222/403|[from] sandstorm
+|-heal|p1a: Jellicent|247/403|[from] item: Leftovers
+|-heal|p2a: Breloom|87/262 tox|[from] ability: Poison Heal
+|turn|38
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|22/262 tox
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|403/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|6/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-heal|p2a: Breloom|38/262 tox|[from] ability: Poison Heal
+|turn|39
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Jellicent|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Focus Punch|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|22/262 tox|[from] sandstorm
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-heal|p2a: Breloom|54/262 tox|[from] ability: Poison Heal
+|turn|40
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Jellicent|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|
+|switch|p2a: Scizor|Scizor, M|322/344
+|-damage|p2a: Scizor|279/344|[from] Stealth Rock
+|turn|41
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p2a: Scizor|300/344 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-damage|p2a: Scizor|257/344 brn|[from] brn
+|turn|42
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Jellicent|Scald|p2a: Scizor
+|-damage|p2a: Scizor|160/344 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p2a: Scizor|181/344 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-damage|p2a: Scizor|138/344 brn|[from] brn
+|turn|43
+|
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|310/344 brn
+|move|p1a: Jellicent|Scald|p2a: Scizor
+|-damage|p2a: Scizor|216/344 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p2a: Scizor|237/344 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-damage|p2a: Scizor|194/344 brn|[from] brn
+|turn|44
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Jellicent|Taunt|p2a: Scizor
+|-start|p2a: Scizor|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|378/403|[from] sandstorm
+|-heal|p2a: Scizor|215/344 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|403/403|[from] item: Leftovers
+|-damage|p2a: Scizor|172/344 brn|[from] brn
+|turn|45
+|
+|move|p2a: Scizor|Bug Bite|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|236/403
+|move|p1a: Jellicent|Scald|p2a: Scizor
+|-damage|p2a: Scizor|75/344 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|211/403|[from] sandstorm
+|-heal|p2a: Scizor|96/344 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|236/403|[from] item: Leftovers
+|-damage|p2a: Scizor|53/344 brn|[from] brn
+|turn|46
+|
+|move|p2a: Scizor|Bug Bite|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|77/403
+|move|p1a: Jellicent|Scald|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|win|PiggK
+|raw|Ladder updating...
+|raw|PiggK's rating: 1342 &rarr; <strong>1361</strong><br />(+19 for winning)
+|raw|Pythagorean Python's rating: 1322 &rarr; <strong>1303</strong><br />(-19 for losing)

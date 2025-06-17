@@ -1,0 +1,262 @@
+|j|blt4 henrypkeralt
+|j|blt4 lucario
+|player|p1|blt4 henrypkeralt|223
+|player|p2|blt4 lucario|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Starmie|item
+|poke|p2|Garchomp, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★blt4 lucario|hf
+|choice||
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|c|★blt4 henrypkeralt|u2!
+|choice||
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Politoed|Hydro Pump|p2a: Jirachi
+|-activate|p2a: Jirachi|Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|choice||
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|29/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|35/100|[from] item: Leftovers
+|turn|3
+|choice||
+|
+|move|p2a: Starmie|Toxic|p1a: Politoed
+|-status|p1a: Politoed|tox
+|move|p1a: Politoed|Hydro Pump|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|94/100 tox|[from] psn
+|choice||
+|
+|switch|p2a: Celebi|Celebi|100/100
+|turn|4
+|choice||
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Celebi|Hidden Power|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|34/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|j|14M01
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Tornadus|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|81/100
+|-damage|p1a: Tornadus|25/100|[from] item: Life Orb
+|choice||
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|turn|6
+|choice||
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Jirachi|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: blt4 lucario|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|7
+|choice||
+|
+|move|p1a: Jirachi|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|92/100
+|choice||
+|
+|switch|p1a: Politoed|Politoed, F|94/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Hippowdon|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|44/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hippowdon|98/100|[from] item: Leftovers
+|-damage|p1a: Politoed|38/100 tox|[from] psn
+|turn|8
+|choice||
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Celebi
+|-resisted|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|25/100 tox|[from] psn
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|9
+|choice||
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|turn|10
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|87/100
+|-damage|p2a: Jirachi|81/100|[from] Stealth Rock
+|move|p1a: Keldeo|Icy Wind|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|75/100
+|-unboost|p2a: Jirachi|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|turn|11
+|choice||
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|87/100|[from] item: Leftovers
+|turn|12
+|choice||
+|
+|move|p1a: Jirachi|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|73/100
+|choice||
+|
+|switch|p1a: Politoed|Politoed, F|25/100 tox
+|move|p2a: Jirachi|Body Slam|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|choice||
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|13
+|choice||
+|
+|switch|p2a: Hippowdon|Hippowdon, F|98/100
+|-damage|p2a: Hippowdon|92/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|98/100|[from] item: Leftovers
+|turn|14
+|choice||
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|32/100
+|move|p2a: Hippowdon|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Shuca Berry|[eat]
+|-enditem|p1a: Excadrill|Shuca Berry|[weaken]
+|-damage|p1a: Excadrill|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|39/100|[from] item: Leftovers
+|turn|15
+|choice||
+|
+|move|p1a: Excadrill|Iron Head|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|choice||
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|16
+|choice||
+|
+|move|p1a: Excadrill|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, F|82/100
+|-damage|p2a: Dragonite|57/100|[from] Stealth Rock
+|turn|17
+|choice||
+|
+|move|p1a: Excadrill|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|18
+|choice||
+|
+|move|p1a: Excadrill|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|win|blt4 henrypkeralt
+|player|p1
+|player|p2
+|raw|blt4 henrypkeralt's rating: 1435 &rarr; <strong>1450</strong><br />(+15 for winning)
+|raw|blt4 lucario's rating: 1349 &rarr; <strong>1334</strong><br />(-15 for losing)
+|c|★blt4 lucario|gg
+|c|★blt4 henrypkeralt|gg
+|l|blt4 lucario

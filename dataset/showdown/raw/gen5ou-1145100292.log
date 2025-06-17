@@ -1,0 +1,226 @@
+|j|☆Killcroc
+|j|☆AlolanDonaldTrump
+|player|p1|Killcroc|clair|1379
+|player|p2|AlolanDonaldTrump|102|1384
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Heatran, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Volcarona, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AlolanDonaldTrump)
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Landorus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|64/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Rotom|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|
+|switch|p2a: Espeon|Espeon, M|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Power Whip|p2a: Espeon|[miss]
+|-miss|p1a: Ferrothorn|p2a: Espeon
+|
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Espeon|Substitute|p2a: Espeon
+|-start|p2a: Espeon|Substitute
+|-damage|p2a: Espeon|76/100
+|
+|-heal|p2a: Espeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Latios|Dragon Pulse|p2a: Espeon
+|-crit|p2a: Espeon
+|-end|p2a: Espeon|Substitute
+|
+|-heal|p2a: Espeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Espeon|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|82/100|[from] Sandstorm
+|-heal|p2a: Espeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|-activate|p2a: Espeon|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Espeon|[from]Pursuit
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|7
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Tyranitar|Crunch|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|8
+|
+|move|p2a: Scizor|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|9
+|
+|move|p2a: Landorus|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|23/100
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-fail|p1a: Keldeo|move: Substitute|[weak]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|17/100|[from] Sandstorm
+|-heal|p1a: Keldeo|23/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|71/100
+|move|p1a: Landorus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|31/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|95/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|25/100|[from] Sandstorm
+|-heal|p2a: Rotom|31/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|25/100|[from] Sandstorm
+|-heal|p2a: Rotom|31/100|[from] item: Leftovers
+|-damage|p2a: Rotom|19/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|87/100
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p1a: Landorus|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|29/100
+|move|p2a: Dragonite|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|22/100|[from] Sandstorm
+|upkeep
+|turn|16
+|-message|AlolanDonaldTrump forfeited.
+|
+|win|Killcroc
+|l|☆AlolanDonaldTrump
+|raw|Killcroc's rating: 1379 &rarr; <strong>1400</strong><br />(+21 for winning)
+|raw|AlolanDonaldTrump's rating: 1384 &rarr; <strong>1364</strong><br />(-20 for losing)

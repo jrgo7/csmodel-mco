@@ -1,0 +1,478 @@
+|j|☆porrompompom
+|j|☆CroCoeur
+|player|p1|porrompompom|10
+|player|p2|CroCoeur|161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Porygon2|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|inactive|porrompompom has 120 seconds left.
+|
+|start
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Politoed|Hydro Pump|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|13/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|3
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Vaporeon
+|-damage|p2a: Vaporeon|58/100
+|move|p2a: Vaporeon|Roar|p1a: Volcarona
+|drag|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Excadrill|Stealth Rock|p2a: Politoed
+|-sidestart|p2: CroCoeur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Drizzle|[from] ability: Trace|[of] p2a: Politoed
+|move|p2a: Politoed|Ice Beam|p1a: Porygon2
+|-damage|p1a: Porygon2|85/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Jirachi|Thunder|p1a: Excadrill
+|-immune|p1a: Excadrill|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|switch|p2a: Vaporeon|Vaporeon, F|64/100
+|-damage|p2a: Vaporeon|51/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|57/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Xatu|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|45/100
+|
+|switch|p1a: Porygon2|Porygon2|85/100
+|-ability|p1a: Porygon2|Hydration|[from] ability: Trace|[of] p2a: Vaporeon
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|upkeep
+|turn|12
+|
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|45/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|78/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-heal|p2a: Vaporeon|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|57/100
+|move|p2a: Vaporeon|Roar|p1a: Porygon2
+|drag|p1a: Dragonite|Dragonite, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Porygon2|Porygon2|85/100
+|-ability|p1a: Porygon2|Hydration|[from] ability: Trace|[of] p2a: Vaporeon
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|69/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|26/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|48/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|20/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|42/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|64/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|45/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|51/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|76/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-heal|p2a: Vaporeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|34/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|54/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Vaporeon|Scald|p1a: Porygon2
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|27
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Vaporeon|Roar|p1a: Volcarona
+|drag|p1a: Xatu|Xatu, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|83/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Xatu|U-turn|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|59/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Vaporeon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|29/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|35/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|65/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Excadrill|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|51/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|41/100|[from] item: Leftovers
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|upkeep
+|turn|30
+|
+|move|p1a: Excadrill|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|88/100
+|move|p2a: Vaporeon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|31
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Vaporeon|Roar|p1a: Xatu
+|move|p1a: Xatu|Roar|p2a: Vaporeon|[from]Magic Bounce
+|drag|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Jirachi|Thunder|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|24/100
+|-status|p1a: Xatu|par
+|move|p1a: Xatu|Heat Wave|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆CroCoeur|Nice
+|
+|move|p2a: Jirachi|Thunder|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|34
+|
+|switch|p2a: Vaporeon|Vaporeon, F|94/100
+|-damage|p2a: Vaporeon|82/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Vaporeon
+|-damage|p2a: Vaporeon|50/100
+|move|p2a: Vaporeon|Roar|p1a: Volcarona
+|drag|p1a: Dragonite|Dragonite, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|56/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|upkeep
+|turn|37
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Vaporeon|Roar|p1a: Dragonite
+|drag|p1a: Volcarona|Volcarona, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Vaporeon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|88/100
+|-status|p1a: Dragonite|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Dragonite|76/100 brn|[from] brn
+|upkeep
+|turn|39
+|-message|porrompompom forfeited.
+|
+|win|CroCoeur
+|l|☆porrompompom
+|raw|porrompompom's rating: 1519 &rarr; <strong>1495</strong><br />(-24 for losing)
+|raw|CroCoeur's rating: 1443 &rarr; <strong>1467</strong><br />(+24 for winning)

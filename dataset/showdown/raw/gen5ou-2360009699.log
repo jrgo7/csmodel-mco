@@ -1,0 +1,238 @@
+|j|☆high and bi
+|j|☆unpersons
+|player|p1|high and bi|142
+|player|p2|unpersons|123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Keldeo|item
+|poke|p2|Jirachi|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Porygon2|item
+|poke|p2|Donphan, F|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|c|☆unpersons|gl hf
+|c|☆high and bi|u2
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: SNIPER NG BETLUG|Jirachi|100/100
+|turn|1
+|
+|move|p2a: SNIPER NG BETLUG|Calm Mind|p2a: SNIPER NG BETLUG
+|-boost|p2a: SNIPER NG BETLUG|spa|1
+|-boost|p2a: SNIPER NG BETLUG|spd|1
+|move|p1a: Ferrothorn|Stealth Rock|p2a: SNIPER NG BETLUG
+|-sidestart|p2: unpersons|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: SNIPER NG BETLUG|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100
+|move|p1a: Ferrothorn|Knock Off|p2a: SNIPER NG BETLUG
+|-damage|p2a: SNIPER NG BETLUG|96/100
+|-enditem|p2a: SNIPER NG BETLUG|Expert Belt|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|48/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Politoed|Politoed, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: SNIPER NG BETLUG|Psychic|p1a: Politoed
+|-damage|p1a: Politoed|40/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: SNIPER NG BETLUG|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|5
+|
+|switch|p2a: BAYAG KILLER|Ninetales, M, shiny|100/100
+|-damage|p2a: BAYAG KILLER|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: BAYAG KILLER
+|-item|p2a: BAYAG KILLER|Air Balloon
+|move|p1a: Excadrill|Earthquake|p2a: BAYAG KILLER
+|-immune|p2a: BAYAG KILLER|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: BAYAG KILLER|Solar Beam|p1a: Keldeo|[still]
+|-prepare|p2a: BAYAG KILLER|Solar Beam|p1a: Keldeo
+|-anim|p2a: BAYAG KILLER|Solar Beam|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Keldeo|Surf|p2a: BAYAG KILLER
+|-supereffective|p2a: BAYAG KILLER
+|-damage|p2a: BAYAG KILLER|17/100
+|-enditem|p2a: BAYAG KILLER|Air Balloon
+|move|p2a: BAYAG KILLER|Solar Beam|p1a: Keldeo|[still]
+|-prepare|p2a: BAYAG KILLER|Solar Beam|p1a: Keldeo
+|-anim|p2a: BAYAG KILLER|Solar Beam|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|turn|8
+|
+|move|p1a: Thundurus|Focus Blast|p2a: BAYAG KILLER
+|-damage|p2a: BAYAG KILLER|0 fnt
+|faint|p2a: BAYAG KILLER
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: BOBBY PACQUIAO|Porygon2|100/100
+|-damage|p2a: BOBBY PACQUIAO|88/100|[from] Stealth Rock
+|-ability|p2a: BOBBY PACQUIAO|Volt Absorb|[from] ability: Trace|[of] p1a: Thundurus
+|turn|9
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: BOBBY PACQUIAO|Toxic|p1a: Thundurus|[miss]
+|-miss|p2a: BOBBY PACQUIAO|p1a: Thundurus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Thundurus|Focus Blast|p2a: BOBBY PACQUIAO
+|-supereffective|p2a: BOBBY PACQUIAO
+|-crit|p2a: BOBBY PACQUIAO
+|-damage|p2a: BOBBY PACQUIAO|0 fnt
+|faint|p2a: BOBBY PACQUIAO
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆unpersons|OH SHIT
+|
+|switch|p2a: DOPPO OROCHI|Haxorus, M|100/100
+|-damage|p2a: DOPPO OROCHI|88/100|[from] Stealth Rock
+|-ability|p2a: DOPPO OROCHI|Mold Breaker
+|turn|11
+|c|☆unpersons|dude i think gg
+|
+|move|p1a: Thundurus|Hidden Power|p2a: DOPPO OROCHI
+|-supereffective|p2a: DOPPO OROCHI
+|-damage|p2a: DOPPO OROCHI|0 fnt
+|faint|p2a: DOPPO OROCHI
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: PAMBANSANG LOWBLOW|Donphan, F|100/100
+|-damage|p2a: PAMBANSANG LOWBLOW|94/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Thundurus|Hidden Power|p2a: PAMBANSANG LOWBLOW
+|-supereffective|p2a: PAMBANSANG LOWBLOW
+|-damage|p2a: PAMBANSANG LOWBLOW|0 fnt
+|faint|p2a: PAMBANSANG LOWBLOW
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆unpersons|uh
+|c|☆unpersons|this match doesn't mean much to you right?
+|c|☆high and bi|dude u can still win w/volc lol
+|c|☆high and bi|why u sacking ur entire team rn
+|c|☆unpersons|I can't
+|c|☆unpersons|can we like work out a trade?
+|c|☆high and bi|it's just ladder who cares
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by high and bi)
+|c|☆unpersons|yeah who cares right?
+|
+|switch|p2a: EFREN UNBOUND|Volcarona, F|100/100
+|-damage|p2a: EFREN UNBOUND|51/100|[from] Stealth Rock
+|turn|13
+|c|☆unpersons|I have like 3 alts
+|c|☆unpersons|I can get them to forfeit to you I guess
+|inactive|unpersons has 120 seconds left.
+|
+|move|p1a: Thundurus|Thunder|p2a: EFREN UNBOUND
+|-damage|p2a: EFREN UNBOUND|0 fnt
+|faint|p2a: EFREN UNBOUND
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: SNIPER NG BETLUG|Jirachi|96/100
+|-damage|p2a: SNIPER NG BETLUG|90/100|[from] Stealth Rock
+|turn|14
+|c|☆unpersons|it kinda took me hours to get here
+|c|☆high and bi|carry a thundurus check next time
+|inactive|unpersons has 120 seconds left.
+|c|☆unpersons|P2 is like a blissey already tho
+|c|☆unpersons|wouldn't have died to +2 focus
+|inactive|unpersons has 90 seconds left.
+|c|☆unpersons|really nothing I can trade you?
+|inactive|unpersons has 60 seconds left.
+|c|☆high and bi|+2 252 SpA Thundurus-Therian Focus Blast vs. 252 HP / 224+ SpD Eviolite Porygon2: 288-340 (77 - 90.9%) -- guaranteed 2HKO
+|c|☆high and bi|w/rocks it's a roll
+|c|☆high and bi|just try to dodge
+|c|☆unpersons|(shrug)
+|c|☆high and bi|ive been hitting all my moves anyways lol
+|c|☆high and bi|bound to miss
+|inactive|unpersons has 30 seconds left.
+|c|☆unpersons|Man
+|inactive|unpersons has 20 seconds left.
+|c|☆unpersons|can't you let me have this?
+|inactive|unpersons has 15 seconds left.
+|inactive|unpersons has 10 seconds left.
+|c|☆unpersons|guess not
+|inactive|unpersons has 5 seconds left.
+|
+|move|p1a: Thundurus|Focus Blast|p2a: SNIPER NG BETLUG
+|-crit|p2a: SNIPER NG BETLUG
+|-damage|p2a: SNIPER NG BETLUG|0 fnt
+|faint|p2a: SNIPER NG BETLUG
+|
+|win|high and bi
+|raw|high and bi's rating: 1369 &rarr; <strong>1396</strong><br />(+27 for winning)
+|raw|unpersons's rating: 1489 &rarr; <strong>1462</strong><br />(-27 for losing)
+|c|☆high and bi|gg
+|l|☆unpersons

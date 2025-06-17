@@ -1,0 +1,711 @@
+|j|☆gengaster
+|j|☆CroCoeur
+|player|p1|gengaster|89
+|player|p2|CroCoeur|161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Slowking, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Slowking|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|80/100
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|87/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|74/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: gengaster|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|80/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|68/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|gengaster has 120 seconds left.
+|
+|move|p1a: Skarmory|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|62/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Skarmory|Spikes|p2a: Vaporeon
+|-sidestart|p2: CroCoeur|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Skarmory|Spikes|p2a: Vaporeon
+|-sidestart|p2: CroCoeur|Spikes
+|move|p2a: Vaporeon|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|55/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|77/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Vaporeon|Scald|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|60/100
+|move|p1a: Slowking|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|68/100|[from] item: Leftovers
+|-heal|p1a: Slowking|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|move|p1a: Slowking|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|53/100|[from] item: Leftovers
+|-heal|p1a: Slowking|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|65/100
+|-status|p1a: Hydreigon|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|59/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|52/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|9/100
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|42/100 brn|[from] item: Life Orb
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-damage|p1a: Hydreigon|30/100 brn|[from] brn
+|upkeep
+|turn|12
+|j| H.M.N.I.P
+|inactive|gengaster has 120 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Vaporeon|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|49/100
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|37/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Skarmory|Skarmory, M|61/100
+|-damage|p1a: Skarmory|49/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p1a: Skarmory|25/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|84/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Politoed|Encore|p1a: Slowking
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|62/100 brn
+|-damage|p2a: Ferrothorn|45/100 brn|[from] Spikes
+|move|p1a: Slowking|Psyshock|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|34/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|40/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|28/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Slowking|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|84/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|59/100
+|move|p1a: Slowking|Scald|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|65/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Jirachi|Thunder|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|60/100
+|-status|p1a: Slowking|par
+|move|p1a: Slowking|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|19/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|25/100|[from] item: Leftovers
+|-heal|p1a: Slowking|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Jirachi|Thunder|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|29/100 par
+|move|p1a: Slowking|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|35/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|84/100|[from] Spikes
+|turn|21
+|
+|switch|p1a: Hydreigon|Hydreigon, M|30/100 brn
+|-damage|p1a: Hydreigon|18/100 brn|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Skarmory|Skarmory, M|82/100
+|-damage|p1a: Skarmory|69/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Vaporeon|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|29/100
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Whirlwind|p2a: Vaporeon
+|drag|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|84/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|90/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|35/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|22/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: Skarmory|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|73/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|96/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|66/100 brn|[from] brn
+|-start|p2a: Celebi|perish3
+|-start|p1a: Skarmory|perish3
+|upkeep
+|turn|24
+|
+|move|p2a: Celebi|Giga Drain|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|61/100 brn
+|-heal|p2a: Celebi|99/100|[from] drain|[of] p1a: Skarmory
+|move|p1a: Skarmory|Spikes|p2a: Celebi
+|-sidestart|p2: CroCoeur|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|54/100 brn|[from] brn
+|-start|p2a: Celebi|perish2
+|-start|p1a: Skarmory|perish2
+|upkeep
+|turn|25
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|-start|p1a: Skarmory|perish1
+|upkeep
+|turn|26
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p2a: Latios|Draco Meteor|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Slowking|Slowking, M|68/100 par
+|-damage|p1a: Slowking|56/100 par|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Vaporeon|Vaporeon, F|90/100
+|-damage|p2a: Vaporeon|65/100|[from] Spikes
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Politoed|Politoed, M|84/100
+|-damage|p2a: Politoed|59/100|[from] Spikes
+|move|p1a: Garchomp|Stealth Rock|p2a: Politoed
+|-sidestart|p2: CroCoeur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|switch|p1a: Slowking|Slowking, M|89/100 par
+|-damage|p1a: Slowking|77/100 par|[from] Stealth Rock
+|move|p2a: Politoed|Ice Beam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|67/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|75/100|[from] Spikes
+|-damage|p2a: Celebi|63/100|[from] Stealth Rock
+|move|p1a: Slowking|Psyshock|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|54/100|[from] item: Leftovers
+|-heal|p1a: Slowking|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100 brn
+|-damage|p1a: Skarmory|76/100 brn|[from] Stealth Rock
+|move|p2a: Celebi|Giga Drain|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100 brn
+|-heal|p2a: Celebi|57/100|[from] drain|[of] p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|63/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|64/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: Skarmory|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Skarmory|Whirlwind|p2a: Celebi
+|drag|p2a: Politoed|Politoed, M|59/100
+|-damage|p2a: Politoed|47/100|[from] Stealth Rock
+|-damage|p2a: Politoed|22/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|82/100 brn|[from] brn
+|-start|p1a: Skarmory|perish3
+|upkeep
+|turn|35
+|
+|switch|p1a: Slowking|Slowking, M|100/100 par
+|-damage|p1a: Slowking|88/100 par|[from] Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|63/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Vaporeon|Vaporeon, F|71/100
+|-damage|p2a: Vaporeon|59/100|[from] Stealth Rock
+|-damage|p2a: Vaporeon|34/100|[from] Spikes
+|move|p1a: Slowking|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|75/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|37
+|
+|switch|p1a: Tyranitar|Tyranitar, M|37/100 brn
+|-damage|p1a: Tyranitar|25/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Latios|Thunder|p1a: Tyranitar|[miss]
+|-miss|p2a: Latios|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|13/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Latios|Thunder|p1a: Tyranitar|[miss]
+|-miss|p2a: Latios|p1a: Tyranitar
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|46/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Tyranitar
+|c|☆gengaster|sry
+|
+|switch|p1a: Garchomp|Garchomp, M|94/100
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|turn|39
+|
+|switch|p2a: Politoed|Politoed, M|22/100
+|-damage|p2a: Politoed|10/100|[from] Stealth Rock
+|-damage|p2a: Politoed|0 fnt|[from] Spikes
+|faint|p2a: Politoed
+|move|p1a: Garchomp|Dragon Claw|p2: Politoed|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|46/100
+|-damage|p2a: Latios|34/100|[from] Stealth Rock
+|turn|40
+|
+|switch|p1a: Skarmory|Skarmory, M|82/100 brn
+|-damage|p1a: Skarmory|70/100 brn|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|37/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|28/100|[from] Sandstorm
+|-heal|p1a: Skarmory|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|31/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|switch|p1a: Slowking|Slowking, M|100/100 par
+|-damage|p1a: Slowking|88/100 par|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|77/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|22/100|[from] Sandstorm
+|-damage|p1a: Slowking|70/100 par|[from] Sandstorm
+|-heal|p1a: Slowking|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|-damage|p2a: Celebi|63/100|[from] Spikes
+|move|p1a: Slowking|Fire Blast|p2a: Celebi|[miss]
+|-miss|p1a: Slowking|p2a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|57/100|[from] Sandstorm
+|-damage|p1a: Slowking|70/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|63/100|[from] item: Leftovers
+|-heal|p1a: Slowking|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Celebi|Giga Drain|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|41/100 par
+|-heal|p2a: Celebi|80/100|[from] drain|[of] p1a: Slowking
+|cant|p1a: Slowking|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|74/100|[from] Sandstorm
+|-damage|p1a: Slowking|35/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|-heal|p1a: Slowking|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Skarmory|Skarmory, M|31/100 brn
+|-damage|p1a: Skarmory|18/100 brn|[from] Stealth Rock
+|move|p2a: Celebi|Psychic|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|4/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|74/100|[from] Sandstorm
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Skarmory
+|
+|switch|p1a: Slowking|Slowking, M|74/100 par
+|-damage|p1a: Slowking|62/100 par|[from] Stealth Rock
+|turn|45
+|
+|switch|p1a: Garchomp|Garchomp, M|88/100
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|move|p2a: Celebi|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|53/100
+|-heal|p2a: Celebi|95/100|[from] drain|[of] p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|89/100|[from] Sandstorm
+|-heal|p2a: Celebi|95/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|gengaster has 120 seconds left.
+|
+|move|p1a: Garchomp|Dragon Claw|p2a: Celebi
+|-damage|p2a: Celebi|66/100
+|move|p2a: Celebi|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|24/100
+|-heal|p2a: Celebi|81/100|[from] drain|[of] p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|75/100|[from] Sandstorm
+|-heal|p2a: Celebi|81/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Garchomp|Dragon Claw|p2a: Celebi
+|-damage|p2a: Celebi|51/100
+|move|p2a: Celebi|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-heal|p2a: Celebi|63/100|[from] drain|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|57/100|[from] Sandstorm
+|-heal|p2a: Celebi|63/100|[from] item: Leftovers
+|upkeep
+|l|☆gengaster
+|inactive|gengaster disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|gengaster has 60 seconds to reconnect!
+|l| H.M.N.I.P
+|j|☆gengaster
+|inactive|gengaster reconnected and has 130 seconds left.
+|player|p1|gengaster|89
+|inactive|gengaster has 120 seconds left.
+|l|☆gengaster
+|inactive|gengaster disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|gengaster has 60 seconds to reconnect!
+|j|☆gengaster
+|inactive|gengaster reconnected and has 105 seconds left.
+|player|p1|gengaster|89
+|
+|switch|p1a: Slowking|Slowking, M|95/100 par
+|-damage|p1a: Slowking|83/100 par|[from] Stealth Rock
+|turn|48
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|move|p1a: Slowking|Fire Blast|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|51/100|[from] Sandstorm
+|-damage|p1a: Slowking|77/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|57/100|[from] item: Leftovers
+|-heal|p1a: Slowking|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: Slowking|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Slowking|Scald|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|40/100|[from] Sandstorm
+|-damage|p1a: Slowking|77/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|46/100|[from] item: Leftovers
+|-heal|p1a: Slowking|83/100 par|[from] item: Leftovers
+|-start|p2a: Celebi|perish3
+|-start|p1a: Slowking|perish3
+|upkeep
+|turn|50
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|96/100
+|move|p1a: Slowking|Fire Blast|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|51/100|[from] Sandstorm
+|-damage|p1a: Slowking|77/100 par|[from] Sandstorm
+|-heal|p2a: Celebi|57/100|[from] item: Leftovers
+|-heal|p1a: Slowking|83/100 par|[from] item: Leftovers
+|-start|p2a: Celebi|perish2
+|-start|p1a: Slowking|perish2
+|upkeep
+|turn|51
+|-message|gengaster forfeited.
+|
+|win|CroCoeur
+|j| H.M.N.I.P
+|l|☆gengaster
+|raw|gengaster's rating: 1378 &rarr; <strong>1361</strong><br />(-17 for losing)
+|raw|CroCoeur's rating: 1433 &rarr; <strong>1450</strong><br />(+17 for winning)
+|l| H.M.N.I.P

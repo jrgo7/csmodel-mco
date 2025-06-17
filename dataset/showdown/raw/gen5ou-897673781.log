@@ -1,0 +1,262 @@
+|j|☆Toshayi
+|j|☆refsunpersons
+|player|p1|Toshayi|169
+|player|p2|refsunpersons|142
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Forretress, F|item
+|poke|p1|Espeon, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Breloom, F|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Jirachi|item
+|poke|p2|Garchomp, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Toshayi)
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|1
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Breloom|Bullet Seed|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|86/100
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|71/100
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|57/100
+|-hitcount|p2a: Latios|3
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Latios|Dragon Pulse|p1a: Breloom
+|-enditem|p1a: Breloom|Focus Sash
+|-damage|p1a: Breloom|1/100
+|move|p1a: Breloom|Bullet Seed|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|42/100
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|27/100
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|13/100
+|-hitcount|p2a: Latios|3
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Breloom|Mach Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|4
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|move|p2a: Mamoswine|Ice Shard|p1a: Espeon
+|-damage|p1a: Espeon|59/100
+|-damage|p2a: Mamoswine|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Espeon|Reflect|p1a: Espeon
+|-sidestart|p1: Toshayi|Reflect
+|move|p2a: Mamoswine|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|5/100
+|-damage|p2a: Mamoswine|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Mamoswine|atk|1
+|move|p2a: Mamoswine|Ice Shard|p1a: Gyarados
+|-damage|p1a: Gyarados|91/100
+|-damage|p2a: Mamoswine|71/100|[from] item: Life Orb
+|
+|-heal|p1a: Gyarados|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: Toshayi|move: Stealth Rock
+|move|p1a: Gyarados|Waterfall|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|8
+|
+|switch|p1a: Breloom|Breloom, F|1/100
+|-damage|p1a: Breloom|0 fnt|[from] Stealth Rock
+|faint|p1a: Breloom
+|move|p2a: Rotom|Volt Switch|p1: Breloom|[notarget]
+|-fail|p2a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Forretress|Rapid Spin|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|98/100
+|-enditem|p2a: Magnezone|Air Balloon
+|-sideend|p1: Toshayi|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|11
+|inactive|refsunpersons has 120 seconds left.
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|39/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|refsunpersons has 120 seconds left.
+|
+|switch|p2a: Magnezone|Magnezone|98/100
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|94/100|[from] Sandstorm
+|-sideend|p1: Toshayi|Reflect
+|upkeep
+|turn|13
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Volcarona|Fire Blast|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|88/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|56/100|[from] Sandstorm
+|-heal|p1a: Gyarados|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|56/100|[from] Sandstorm
+|-damage|p2a: Rotom|72/100|[from] Sandstorm
+|-heal|p1a: Gyarados|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Gyarados|Waterfall|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|49/100
+|-enditem|p2a: Rotom|Sitrus Berry|[eat]
+|-heal|p2a: Rotom|74/100|[from] item: Sitrus Berry
+|move|p2a: Rotom|Volt Switch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|switch|p2a: Magnezone|Magnezone|98/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|88/100
+|turn|17
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|66/100
+|turn|18
+|
+|move|p2a: Garchomp|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Espeon|Espeon, F|5/100
+|turn|19
+|
+|move|p2a: Garchomp|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|Toshayi forfeited.
+|
+|win|refsunpersons
+|l|☆Toshayi
+|raw|Toshayi's rating: 1404 &rarr; <strong>1384</strong><br />(-20 for losing)
+|raw|refsunpersons's rating: 1390 &rarr; <strong>1411</strong><br />(+21 for winning)

@@ -1,0 +1,248 @@
+|j|☆G4416143
+|j|☆Chimp34
+|player|p1|G4416143|277
+|player|p2|Chimp34|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dragonite, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Weavile, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Jirachi|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|1
+|
+|move|p2a: Keldeo|Scald|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|-status|p1a: Mamoswine|brn
+|move|p1a: Mamoswine|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: Chimp34|move: Stealth Rock
+|
+|-damage|p1a: Mamoswine|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Mamoswine
+|
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|2
+|
+|move|p2a: Keldeo|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|49/100
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Haxorus|Earthquake|p2a: Keldeo
+|-damage|p2a: Keldeo|23/100
+|move|p2a: Keldeo|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|3/100
+|-status|p1a: Haxorus|brn
+|-enditem|p1a: Haxorus|Lum Berry|[eat]
+|-curestatus|p1a: Haxorus|brn|[msg]
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Haxorus|Outrage|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Jirachi|U-turn|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|6
+|
+|move|p1a: Jirachi|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|29/100
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Latios|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|17/100
+|
+|-heal|p1a: Magnezone|23/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Latios|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|8
+|
+|move|p1a: Jirachi|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|9
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Landorus|Hidden Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|92/100
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Jirachi|Jirachi|94/100
+|-damage|p2a: Jirachi|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|67/100
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Jirachi|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|82/100
+|move|p1a: Dragonite|Fire Punch|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Terrakion|Substitute|p2a: Terrakion
+|-start|p2a: Terrakion|Substitute
+|-damage|p2a: Terrakion|70/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Latios|Surf|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-end|p2a: Terrakion|Substitute
+|move|p2a: Terrakion|Stone Edge|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Terrakion|60/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|92/100
+|turn|14
+|
+|move|p1a: Jirachi|Iron Head|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|94/100
+|-damage|p2a: Landorus|82/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|15
+|
+|move|p1a: Jirachi|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|64/100
+|move|p2a: Landorus|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|68/100
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Dragonite|Dragonite, M|82/100
+|switch|p2a: Landorus|Landorus-Therian, M|64/100
+|-damage|p2a: Landorus|51/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-heal|p2a: Landorus|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Landorus|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|15/100
+|move|p1a: Dragonite|Outrage|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, M|76/100
+|-damage|p2a: Weavile|51/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|18
+|-message|Chimp34 forfeited.
+|
+|win|G4416143
+|l|☆Chimp34
+|raw|G4416143's rating: 1300 &rarr; <strong>1332</strong><br />(+32 for winning)
+|raw|Chimp34's rating: 1397 &rarr; <strong>1372</strong><br />(-25 for losing)

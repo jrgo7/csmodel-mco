@@ -1,0 +1,354 @@
+|j|☆Zero-Two Fan
+|j|☆emzzf
+|player|p1|Zero-Two Fan|2|1303
+|player|p2|emzzf|101|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Jirachi|item
+|poke|p1|Keldeo|item
+|poke|p2|Heatran, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Amoonguss, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zero-Two Fan)
+|
+|start
+|switch|p1a: Peruvian Skies|Landorus-Therian, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-ability|p1a: Peruvian Skies|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|turn|1
+|
+|move|p1a: Peruvian Skies|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: emzzf|move: Stealth Rock
+|move|p2a: Amoonguss|Stun Spore|p1a: Peruvian Skies
+|-status|p1a: Peruvian Skies|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Peruvian Skies
+|-resisted|p1a: Peruvian Skies
+|-damage|p1a: Peruvian Skies|85/100 par
+|move|p1a: Peruvian Skies|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|82/100
+|
+|switch|p1a: Thresh|Garchomp, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-damage|p2a: Cresselia|88/100|[from] Stealth Rock
+|move|p1a: Thresh|Substitute|p1a: Thresh
+|-start|p1a: Thresh|Substitute
+|-damage|p1a: Thresh|76/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Thresh|Swords Dance|p1a: Thresh
+|-boost|p1a: Thresh|atk|2
+|move|p2a: Cresselia|Ice Beam|p1a: Thresh
+|-supereffective|p1a: Thresh
+|-end|p1a: Thresh|Substitute
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Thresh|Outrage|p2a: Cresselia
+|-damage|p2a: Cresselia|22/100
+|-damage|p1a: Thresh|59/100|[from] item: Rocky Helmet|[of] p2a: Cresselia
+|move|p2a: Cresselia|Ice Beam|p1a: Thresh
+|-supereffective|p1a: Thresh
+|-enditem|p1a: Thresh|Yache Berry|[eat]
+|-enditem|p1a: Thresh|Yache Berry|[weaken]
+|-damage|p1a: Thresh|23/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Thresh|Outrage|p2a: Cresselia|[from]lockedmove
+|-damage|p2a: Cresselia|0 fnt
+|-damage|p1a: Thresh|7/100|[from] item: Rocky Helmet|[of] p2a: Cresselia
+|faint|p2a: Cresselia
+|
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|7
+|j| Galestream
+|
+|move|p2a: Latios|Surf|p1a: Thresh
+|-crit|p1a: Thresh
+|-damage|p1a: Thresh|0 fnt
+|faint|p1a: Thresh
+|
+|upkeep
+|
+|switch|p1a: Desolate Earth|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Desolate Earth
+|turn|8
+|
+|move|p2a: Latios|Surf|p1a: Desolate Earth
+|-supereffective|p1a: Desolate Earth
+|-crit|p1a: Desolate Earth
+|-damage|p1a: Desolate Earth|8/100
+|move|p1a: Desolate Earth|Crunch|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Desolate Earth|Crunch|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|71/100
+|-unboost|p2a: Heatran|def|1
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|52/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Desolate Earth|Crunch|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Desolate Earth|Crunch|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|move|p2a: Heatran|Earth Power|p1a: Desolate Earth
+|-supereffective|p1a: Desolate Earth
+|-damage|p1a: Desolate Earth|0 fnt
+|faint|p1a: Desolate Earth
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|65/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Horizon|Rotom-Wash, shiny|100/100
+|turn|12
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Horizon|Hydro Pump|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Horizon|95/100|[from] Sandstorm
+|-heal|p2a: Heatran|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|move|p1a: Horizon|Will-O-Wisp|p2a: Amoonguss|[miss]
+|-miss|p1a: Horizon|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Horizon|89/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Horizon|Will-O-Wisp|p2a: Amoonguss
+|-status|p2a: Amoonguss|brn
+|move|p2a: Amoonguss|Giga Drain|p1a: Horizon
+|-supereffective|p1a: Horizon
+|-damage|p1a: Horizon|54/100
+|-heal|p2a: Amoonguss|100/100 brn|[from] drain|[of] p1a: Horizon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Horizon|48/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|94/100 brn|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Amoonguss|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Horizon|Volt Switch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|77/100 brn
+|
+|switch|p1a: Peruvian Skies|Landorus-Therian, M|85/100 par|[from]move: Volt Switch
+|-ability|p1a: Peruvian Skies|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|move|p2a: Amoonguss|Giga Drain|p1a: Peruvian Skies
+|-crit|p1a: Peruvian Skies
+|-damage|p1a: Peruvian Skies|27/100 par
+|-heal|p2a: Amoonguss|100/100 brn|[from] drain|[of] p1a: Peruvian Skies
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|94/100 brn|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100 brn|[from] item: Black Sludge
+|-heal|p1a: Peruvian Skies|33/100 par|[from] item: Leftovers
+|-damage|p2a: Amoonguss|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|c|☆Zero-Two Fan|sigh
+|c|☆Zero-Two Fan|ur so lucky
+|c|☆Zero-Two Fan|annoying af
+|c|☆emzzf|u 2
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Peruvian Skies
+|-damage|p1a: Peruvian Skies|7/100 par
+|-heal|p2a: Amoonguss|100/100 brn|[from] drain|[of] p1a: Peruvian Skies
+|move|p1a: Peruvian Skies|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|61/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|55/100 brn|[from] Sandstorm
+|-heal|p2a: Amoonguss|61/100 brn|[from] item: Black Sludge
+|-heal|p1a: Peruvian Skies|13/100 par|[from] item: Leftovers
+|-damage|p2a: Amoonguss|49/100 brn|[from] brn
+|upkeep
+|turn|17
+|c|☆emzzf|crunsh
+|
+|switch|p1a: Nootropics|Jirachi|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Nootropics
+|-resisted|p1a: Nootropics
+|-damage|p1a: Nootropics|91/100
+|-heal|p2a: Amoonguss|53/100 brn|[from] drain|[of] p1a: Nootropics
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|47/100 brn|[from] Sandstorm
+|-heal|p1a: Nootropics|97/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|53/100 brn|[from] item: Black Sludge
+|-damage|p2a: Amoonguss|41/100 brn|[from] brn
+|upkeep
+|turn|18
+|c|☆emzzf|u know？
+|
+|switch|p1a: Beneath The Waves|Keldeo|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beneath The Waves|94/100|[from] Sandstorm
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Beneath The Waves|Calm Mind|p1a: Beneath The Waves
+|-boost|p1a: Beneath The Waves|spa|1
+|-boost|p1a: Beneath The Waves|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beneath The Waves|88/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|move|p1a: Beneath The Waves|Surf|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beneath The Waves|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Beneath The Waves|Secret Sword|p2a: Tyranitar
+|-enditem|p1a: Beneath The Waves|Fighting Gem|[from] gem
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beneath The Waves|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, F|74/100 brn
+|-damage|p2a: Amoonguss|62/100 brn|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Beneath The Waves|Hidden Power|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|8/100 brn
+|move|p2a: Amoonguss|Giga Drain|p1a: Beneath The Waves
+|-supereffective|p1a: Beneath The Waves
+|-damage|p1a: Beneath The Waves|38/100
+|-heal|p2a: Amoonguss|23/100 brn|[from] drain|[of] p1a: Beneath The Waves
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beneath The Waves|32/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|17/100 brn|[from] Sandstorm
+|-heal|p2a: Amoonguss|23/100 brn|[from] item: Black Sludge
+|-damage|p2a: Amoonguss|11/100 brn|[from] brn
+|upkeep
+|turn|23
+|c|☆Zero-Two Fan|gg ez
+|
+|switch|p2a: Heatran|Heatran, M|71/100
+|-damage|p2a: Heatran|58/100|[from] Stealth Rock
+|move|p1a: Beneath The Waves|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beneath The Waves|26/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, F|44/100 brn
+|-damage|p2a: Amoonguss|32/100 brn|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Beneath The Waves|Hidden Power|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|win|Zero-Two Fan
+|raw|Zero-Two Fan's rating: 1303 &rarr; <strong>1327</strong><br />(+24 for winning)
+|raw|emzzf's rating: 1374 &rarr; <strong>1350</strong><br />(-24 for losing)

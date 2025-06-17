@@ -1,0 +1,222 @@
+|j|☆goodluckkiddo
+|j|☆lKjc
+|player|p1|goodluckkiddo|cynthia|1517
+|player|p2|lKjc|malva|1488
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Mamoswine, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Weavile, F|item
+|poke|p1|Salamence, M|item
+|poke|p1|Magnezone|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Politoed|Politoed, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|50/100
+|-status|p1a: Latios|frz
+|cant|p1a: Latios|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodluckkiddo)
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|cant|p1a: Latios|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|cant|p1a: Latios|frz
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|cant|p1a: Latios|frz
+|move|p2a: Thundurus|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|5
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-activate|p2a: Thundurus|Substitute|[damage]
+|move|p2a: Thundurus|Thunder|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|6
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|move|p2a: Thundurus|Focus Blast|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Politoed|Politoed, M, shiny|100/100
+|move|p1a: Mamoswine|Ice Shard|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Politoed|Ice Beam|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Weavile|Low Kick|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Weavile|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|11
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Scizor|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|68/100
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|76/100
+|move|p1a: Magnezone|Flash Cannon|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|14
+|
+|move|p1a: Salamence|Outrage|p2a: Thundurus
+|-damage|p2a: Thundurus|7/100
+|move|p2a: Thundurus|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|14/100|[from] item: Leftovers
+|upkeep
+|c|☆lKjc|gg
+|
+|switch|p1a: Weavile|Weavile, F|88/100
+|-ability|p1a: Weavile|Pressure
+|turn|15
+|
+|move|p1a: Weavile|Ice Shard|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|16
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|win|lKjc
+|l|☆goodluckkiddo
+|raw|goodluckkiddo's rating: 1517 &rarr; <strong>1495</strong><br />(-22 for losing)
+|raw|lKjc's rating: 1488 &rarr; <strong>1510</strong><br />(+22 for winning)

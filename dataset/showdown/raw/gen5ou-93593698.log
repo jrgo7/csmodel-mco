@@ -1,0 +1,288 @@
+|join|arm94
+|join|MadBull
+|player|p1|arm94|87
+|player|p2|MadBull|283
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Infernape, F
+|poke|p1|Celebi
+|poke|p1|Rotom-Wash
+|poke|p1|Scizor, F
+|poke|p1|Dragonite, M
+|poke|p1|Alakazam, M
+|poke|p2|Terrakion
+|poke|p2|Gengar, M
+|poke|p2|Kyurem-Black
+|poke|p2|Azelf
+|poke|p2|Scizor, F
+|poke|p2|Gorebyss, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Infernape|Infernape, F|293/293
+|switch|p2a: Azelf|Azelf|333/333
+|turn|1
+|
+|move|p1a: Infernape|Fake Out|p2a: Azelf
+|-damage|p2a: Azelf|284/333
+|cant|p2a: Azelf|flinch
+|
+|turn|2
+|
+|move|p2a: Azelf|Taunt|p1a: Infernape
+|-start|p1a: Infernape|move: Taunt
+|move|p1a: Infernape|Overheat|p2a: Azelf
+|-damage|p2a: Azelf|37/333
+|-unboost|p1a: Infernape|spa|2
+|
+|turn|3
+|
+|switch|p1a: Celebi|Celebi|404/404
+|move|p2a: Azelf|Stealth Rock|p1a: Celebi
+|-sidestart|p1: arm94|move: Stealth Rock
+|
+|turn|4
+|
+|move|p2a: Azelf|Reflect|p2a: Azelf
+|-sidestart|p2: MadBull|Reflect
+|move|p1a: Celebi|U-turn|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|switch|p1a: Infernape|Infernape, F|293/293
+|-damage|p1a: Infernape|257/293|[from] Stealth Rock
+|
+|
+|switch|p2a: Gorebyss|Gorebyss, M|314/314
+|turn|5
+|
+|move|p1a: Infernape|Fake Out|p2a: Gorebyss
+|-damage|p2a: Gorebyss|294/314
+|cant|p2a: Gorebyss|flinch
+|
+|turn|6
+|
+|switch|p1a: Celebi|Celebi|404/404
+|-damage|p1a: Celebi|354/404|[from] Stealth Rock
+|move|p2a: Gorebyss|Shell Smash|p2a: Gorebyss
+|-boost|p2a: Gorebyss|atk|2
+|-boost|p2a: Gorebyss|spa|2
+|-boost|p2a: Gorebyss|spe|2
+|-unboost|p2a: Gorebyss|def|1
+|-unboost|p2a: Gorebyss|spd|1
+|-enditem|p2a: Gorebyss|White Herb
+|-restoreboost|p2a: Gorebyss|[silent]
+|
+|-heal|p1a: Celebi|379/404|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Gorebyss|Substitute|p2a: Gorebyss
+|-start|p2a: Gorebyss|Substitute
+|-damage|p2a: Gorebyss|216/314
+|move|p1a: Celebi|Giga Drain|p2a: Gorebyss
+|-supereffective|p2a: Gorebyss
+|-end|p2a: Gorebyss|Substitute
+|-heal|p1a: Celebi|404/404|[from] drain|[of] p2a: Gorebyss
+|
+|turn|8
+|
+|move|p2a: Gorebyss|Substitute|p2a: Gorebyss
+|-start|p2a: Gorebyss|Substitute
+|-damage|p2a: Gorebyss|138/314
+|move|p1a: Celebi|Giga Drain|p2a: Gorebyss
+|-supereffective|p2a: Gorebyss
+|-end|p2a: Gorebyss|Substitute
+|
+|turn|9
+|chat|MadBull|I am so sorry
+|
+|move|p2a: Gorebyss|Baton Pass|p2a: Gorebyss
+|
+|switch|p2a: Gengar|Gengar, M|261/261
+|move|p1a: Celebi|Giga Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|209/261
+|
+|-heal|p2a: Gengar|225/261|[from] item: Black Sludge
+|turn|10
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-heal|p2a: Gengar|241/261|[from] item: Black Sludge
+|
+|switch|p1a: Scizor|Scizor, F|344/344
+|-damage|p1a: Scizor|301/344|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Gengar
+|-damage|p2a: Gengar|120/261
+|move|p2a: Gengar|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Gengar|136/261|[from] item: Black Sludge
+|-sideend|p2: MadBull|Reflect
+|
+|switch|p1a: Alakazam|Alakazam, M|251/251
+|turn|12
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Alakazam|Psychic|p2a: Gengar
+|-activate|p2a: Gengar|Protect
+|
+|-heal|p2a: Gengar|152/261|[from] item: Black Sludge
+|turn|13
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/251
+|move|p1a: Alakazam|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Scizor|Scizor, F|281/281
+|turn|14
+|
+|switch|p1a: Infernape|Infernape, F|257/293
+|-damage|p1a: Infernape|221/293|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|127/293
+|-damage|p2a: Scizor|253/281|[from] item: Life Orb
+|
+|turn|15
+|
+|move|p1a: Infernape|Fake Out|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|233/281
+|cant|p2a: Scizor|flinch
+|
+|turn|16
+|
+|switch|p2a: Terrakion|Terrakion|324/324
+|-item|p2a: Terrakion|Air Balloon
+|move|p1a: Infernape|Stealth Rock|p2a: Terrakion
+|-sidestart|p2: MadBull|move: Stealth Rock
+|
+|turn|17
+|
+|move|p2a: Terrakion|Rock Polish|p2a: Terrakion
+|-boost|p2a: Terrakion|spe|2
+|move|p1a: Infernape|Close Combat|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-enditem|p2a: Terrakion|Air Balloon
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|faint|p2a: Terrakion
+|
+|
+|switch|p2a: Scizor|Scizor, F|233/281
+|-damage|p2a: Scizor|198/281|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|304/304
+|-damage|p1a: Rotom-Wash|266/304|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: Rotom-Wash
+|-resisted|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|235/304
+|-damage|p2a: Scizor|170/281|[from] item: Life Orb
+|
+|-heal|p1a: Rotom-Wash|254/304|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|56/281
+|
+|switch|p1a: Infernape|Infernape, F|127/293
+|-damage|p1a: Infernape|91/293|[from] Stealth Rock
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|turn|20
+|
+|move|p1a: Infernape|Fake Out|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|35/281
+|cant|p2a: Scizor|flinch
+|
+|turn|21
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|254/304
+|-damage|p1a: Rotom-Wash|216/304|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: Rotom-Wash
+|-resisted|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|156/304
+|-damage|p2a: Scizor|7/281|[from] item: Life Orb
+|
+|-heal|p1a: Rotom-Wash|175/304|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Rotom-Wash
+|-resisted|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|110/304
+|-damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p2a: Scizor
+|move|p1a: Rotom-Wash|Volt Switch|p2: Scizor|[notarget]
+|-notarget
+|
+|-heal|p1a: Rotom-Wash|129/304|[from] item: Leftovers
+|
+|switch|p2a: Gorebyss|Gorebyss, M|138/314
+|-damage|p2a: Gorebyss|99/314|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Gorebyss
+|-supereffective|p2a: Gorebyss
+|-damage|p2a: Gorebyss|0 fnt
+|faint|p2a: Gorebyss
+|
+|switch|p1a: Infernape|Infernape, F|91/293
+|-damage|p1a: Infernape|55/293|[from] Stealth Rock
+|
+|
+|switch|p2a: Kyurem-Black|Kyurem-Black|391/391
+|-damage|p2a: Kyurem-Black|294/391|[from] Stealth Rock
+|-ability|p2a: Kyurem-Black|Teravolt
+|turn|24
+|
+|move|p1a: Infernape|Fake Out|p2a: Kyurem-Black
+|-damage|p2a: Kyurem-Black|247/391
+|cant|p2a: Kyurem-Black|flinch
+|
+|turn|25
+|
+|move|p1a: Infernape|Close Combat|p2a: Kyurem-Black
+|-supereffective|p2a: Kyurem-Black
+|-damage|p2a: Kyurem-Black|0 fnt
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|faint|p2a: Kyurem-Black
+|
+|win|arm94
+|raw|Ladder updating...
+|raw|arm94's rating: 1361 &rarr; <strong>1381</strong><br />(+20 for winning)
+|raw|MadBull's rating: 1362 &rarr; <strong>1342</strong><br />(-20 for losing)
+|chat|arm94|you're a douche
+|leave|arm94
+|player|p1

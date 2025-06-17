@@ -1,0 +1,234 @@
+|join|LittlePichu:3
+|join|LawofDeath
+|player|p1|LittlePichu:3|95
+|player|p2|LawofDeath|144
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Ninetales, F
+|poke|p1|Milotic, F
+|poke|p1|Togekiss, M, shiny
+|poke|p1|Zoroark, M
+|poke|p1|Garchomp, M, shiny
+|poke|p1|Glaceon, M, shiny
+|poke|p2|Rotom-Wash
+|poke|p2|Donphan, M
+|poke|p2|Magnezone, shiny
+|poke|p2|Dragonite, F
+|poke|p2|Victini, shiny
+|poke|p2|Scizor, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Neneko|Ninetales, F|304/304
+|switch|p2a: Rotom-Wash|Rotom-Wash|304/304
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Neneko
+|turn|1
+|
+|move|p1a: Neneko|Confuse Ray|p2a: Rotom-Wash
+|-start|p2a: Rotom-Wash|confusion
+|-activate|p2a: Rotom-Wash|confusion
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Neneko
+|-damage|p1a: Neneko|231/304
+|
+|switch|p2a: Victini|Victini, shiny|341/341
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p2a: Victini|V-create|p1a: Neneko
+|-resisted|p1a: Neneko
+|-damage|p1a: Neneko|12/304
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|-unboost|p2a: Victini|spe|1
+|move|p1a: Neneko|Confuse Ray|p2a: Victini
+|-start|p2a: Victini|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|304/304
+|move|p1a: Neneko|Flamethrower|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|241/304
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom-Wash|260/304|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Garen|Garchomp, M, shiny|375/375
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Garen
+|-immune|p1a: Garen|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom-Wash|279/304|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Garen|Swords Dance|p1a: Garen
+|-boost|p1a: Garen|atk|2
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Garen
+|-status|p1a: Garen|brn
+|-enditem|p1a: Garen|Lum Berry|[eat]
+|-curestatus|p1a: Garen|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom-Wash|298/304|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Garen|Outrage|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|0 fnt
+|faint|p2a: Rotom-Wash
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Donphan|Donphan, M|384/384
+|turn|7
+|
+|move|p1a: Garen|Outrage|p2a: Donphan
+|-damage|p2a: Donphan|134/384
+|move|p2a: Donphan|Stealth Rock|p1a: Garen
+|-sidestart|p1: LittlePichu:3|move: Stealth Rock
+|
+|-end|p1a: Garen|rampage
+|-start|p1a: Garen|confusion
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|move|p2a: Donphan|Ice Shard|p1a: Garen
+|-supereffective|p1a: Garen
+|-damage|p1a: Garen|235/375
+|-activate|p1a: Garen|confusion
+|move|p1a: Garen|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Victini|Victini, shiny|341/341
+|turn|9
+|
+|move|p2a: Victini|V-create|p1a: Garen
+|-resisted|p1a: Garen
+|-damage|p1a: Garen|61/375
+|-damage|p2a: Victini|299/341|[from] ability: Rough Skin|[of] p1a: Garen
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|-unboost|p2a: Victini|spe|1
+|-activate|p1a: Garen|confusion
+|move|p1a: Garen|Earthquake|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, F|281/281
+|turn|10
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Garen
+|-damage|p1a: Garen|0 fnt
+|-damage|p2a: Scizor|246/281|[from] ability: Rough Skin|[of] p1a: Garen
+|faint|p1a: Garen
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Haru|Glaceon, M, shiny|261/261
+|-damage|p1a: Haru|229/261|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Haru
+|replace|p1a: Zero|Zoroark, M|229/261
+|-damage|p1a: Zero|37/261
+|move|p1a: Zero|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, F|324/324
+|turn|12
+|
+|move|p1a: Zero|Sucker Punch|p2a: Dragonite
+|-fail|p2a: Dragonite
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|13
+|
+|move|p1a: Zero|Sucker Punch|p2a: Dragonite
+|-fail|p2a: Dragonite
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|14
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Zero|Flamethrower|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|293/324
+|
+|-weather|SunnyDay|[upkeep]
+|turn|15
+|
+|move|p2a: Dragonite|Earthquake|p1a: Zero
+|-damage|p1a: Zero|0 fnt
+|faint|p1a: Zero
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Togenyan|Togekiss, M, shiny|311/311
+|-damage|p1a: Togenyan|234/311|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Dragonite|Outrage|p1a: Togenyan
+|-damage|p1a: Togenyan|0 fnt
+|faint|p1a: Togenyan
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Neneko|Ninetales, F|12/304
+|-damage|p1a: Neneko|0 fnt|[from] Stealth Rock
+|faint|p1a: Neneko
+|
+|switch|p1a: Milka|Milotic, F|340/340
+|-damage|p1a: Milka|298/340|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Dragonite|Outrage|p1a: Milka
+|-damage|p1a: Milka|0 fnt
+|faint|p1a: Milka
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Haru|Glaceon, M, shiny|295/295
+|-damage|p1a: Haru|222/295|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Dragonite|Outrage|p1a: Haru
+|-damage|p1a: Haru|0 fnt
+|faint|p1a: Haru
+|
+|win|LawofDeath
+|raw|Ladder updating...
+|raw|LittlePichu:3's rating: 1351 &rarr; <strong>1340</strong><br />(-11 for losing)
+|raw|LawofDeath's rating: 1521 &rarr; <strong>1532</strong><br />(+11 for winning)
+|leave|LittlePichu:3
+|player|p1

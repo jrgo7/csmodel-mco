@@ -1,0 +1,379 @@
+|j|☆WhatBKCFailed
+|j|☆RampageVulcan
+|player|p1|WhatBKCFailed|cress|1573
+|player|p2|RampageVulcan|bruno|1473
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Moltres|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Starmie|item
+|poke|p2|Politoed, M|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Ferrothorn, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|c|☆WhatBKCFailed|hf
+|c|☆RampageVulcan|u2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RampageVulcan)
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Politoed|Politoed, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|94/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Ferrothorn|41/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Moltres|Moltres|100/100
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Moltres
+|-sidestart|p1: WhatBKCFailed|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Moltres|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Politoed|Politoed, M, shiny|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Moltres|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|69/100 brn|[from] brn
+|upkeep
+|j| pipe de velours
+|c|☆WhatBKCFailed|bruh
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|47/100
+|-damage|p1a: Ferrothorn|41/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|57/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Moltres|Moltres|100/100
+|-damage|p1a: Moltres|50/100|[from] Stealth Rock
+|-ability|p1a: Moltres|Pressure
+|turn|7
+|
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|32/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Latios|Surf|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-end|p1a: Moltres|Substitute
+|move|p1a: Moltres|Hurricane|p2a: Latios
+|-damage|p2a: Latios|43/100
+|-start|p2a: Latios|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Moltres|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|-activate|p2a: Latios|confusion
+|move|p2a: Latios|Surf|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|99/100
+|move|p1a: Alakazam|Shadow Ball|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|90/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Ferrothorn|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|91/100
+|-enditem|p1a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Politoed|Politoed, M, shiny|57/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Hippowdon|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|7/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|0 fnt|[from] brn
+|faint|p2a: Politoed
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|13
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Latios|Latios, M, shiny|43/100
+|move|p1a: Jirachi|Body Slam|p2a: Latios
+|-damage|p2a: Latios|19/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|61/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|6/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|12/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|62/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|3/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|10/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|60/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|66/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Latios|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|8/100
+|move|p1a: Jirachi|Body Slam|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|22
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|20/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Keldeo|Surf|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|24
+|
+|move|p2a: Keldeo|Surf|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|move|p1a: Alakazam|Psychic|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|90/100
+|turn|25
+|
+|switch|p1a: Hippowdon|Hippowdon, M|91/100
+|-damage|p1a: Hippowdon|85/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Ferrothorn|Power Whip|p1a: Hippowdon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: RampageVulcan|move: Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p2a: Tornadus|Tornadus, M, shiny|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|70/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|move|p2a: Tornadus|Hidden Power|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|64/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|1/100
+|turn|29
+|
+|move|p1a: Alakazam|Psychic|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|90/100
+|-damage|p2a: Ferrothorn|84/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Alakazam|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|RampageVulcan
+|l|☆WhatBKCFailed
+|raw|WhatBKCFailed's rating: 1573 &rarr; <strong>1547</strong><br />(-26 for losing)
+|raw|RampageVulcan's rating: 1474 &rarr; <strong>1500</strong><br />(+26 for winning)

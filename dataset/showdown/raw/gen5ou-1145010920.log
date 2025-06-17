@@ -1,0 +1,890 @@
+|j|☆Let’sgosixers
+|j|☆La fete est finis
+|player|p1|Let’sgosixers|oak-gen1rb|1414
+|player|p2|La fete est finis|koga|1355
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Latias, F|item
+|poke|p2|Celebi|item
+|poke|p2|Politoed, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Thundurus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|j| bosung malcha
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Let’sgosixers)
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: La fete est finis|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|76/100
+|
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Keldeo|Scald|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|84/100
+|-status|p1a: Latias|brn
+|
+|-heal|p1a: Latias|90/100 brn|[from] item: Leftovers
+|-heal|p2a: Keldeo|88/100|[from] item: Leftovers
+|-damage|p1a: Latias|78/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Keldeo|Secret Sword|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|54/100 brn
+|
+|-heal|p1a: Latias|60/100 brn|[from] item: Leftovers
+|-heal|p2a: Keldeo|94/100|[from] item: Leftovers
+|-damage|p1a: Latias|47/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latias|atk|1
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|97/100 brn
+|-singleturn|p1a: Latias|move: Roost
+|
+|-heal|p1a: Latias|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Landorus|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|35/100 brn
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100|[from]move: U-turn
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|85/100 brn
+|-singleturn|p1a: Latias|move: Roost
+|
+|-heal|p1a: Latias|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Latias|79/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Tornadus|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|32/100 brn
+|-damage|p2a: Tornadus|66/100|[from] item: Life Orb
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100|[from]move: U-turn
+|-damage|p2a: Landorus|75/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latias|atk|1
+|move|p1a: Latias|Psycho Shift|p2a: Landorus
+|-status|p2a: Landorus|brn
+|-curestatus|p1a: Latias|brn|[msg]
+|
+|-heal|p1a: Latias|39/100|[from] item: Leftovers
+|-damage|p2a: Landorus|63/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Landorus|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|11/100
+|
+|switch|p2a: Politoed|Politoed, M|100/100|[from]move: U-turn
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|61/100
+|-singleturn|p1a: Latias|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|67/100|[from] item: Leftovers
+|-heal|p2a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|100/100
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Latias|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|100/100|[from] item: Leftovers
+|-start|p1a: Latias|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|10
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Politoed
+|-damage|p2a: Politoed|60/100
+|move|p2a: Politoed|Toxic|p1a: Latias
+|-status|p1a: Latias|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|66/100|[from] item: Leftovers
+|-damage|p1a: Latias|94/100 tox|[from] psn
+|-start|p1a: Latias|perish2
+|-start|p2a: Politoed|perish2
+|upkeep
+|turn|11
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Latias|Psycho Shift|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Politoed|72/100|[from] item: Leftovers
+|-damage|p1a: Latias|88/100 tox|[from] psn
+|-start|p1a: Latias|perish1
+|-start|p2a: Politoed|perish1
+|upkeep
+|turn|12
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|63/100 brn
+|-damage|p2a: Landorus|50/100 brn|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Landorus|38/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Let’sgosixers|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Landorus|25/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|81/100
+|-enditem|p2a: Celebi|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Celebi|Thunder Wave|p1a: Politoed
+|-status|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Celebi|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|34/100 par
+|-heal|p2a: Celebi|100/100|[from] drain|[of] p1a: Politoed
+|cant|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Celebi|Giga Drain|p1a: Tentacruel
+|-damage|p1a: Tentacruel|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|73/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|80/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Celebi|Thunder Wave|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|86/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|92/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p1a: Latias|Latias, F|88/100 tox
+|-damage|p1a: Latias|76/100 tox|[from] Stealth Rock
+|move|p2a: Celebi|Thunder Wave||[still]
+|-fail|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Latias|76/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Landorus|Landorus-Therian, M|25/100 brn
+|-damage|p2a: Landorus|13/100 brn|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latias|atk|1
+|move|p1a: Latias|Psycho Shift||[still]
+|-fail|p1a: Latias
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|0 fnt|[from] brn
+|faint|p2a: Landorus
+|-damage|p1a: Latias|70/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|66/100
+|-damage|p2a: Tornadus|41/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Politoed|Politoed, M|34/100 par
+|-damage|p1a: Politoed|21/100 par|[from] Stealth Rock
+|move|p2a: Tornadus|Hurricane|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Tornadus|32/100|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Tornadus|Hurricane|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|63/100
+|-start|p1a: Jirachi|confusion
+|-damage|p2a: Tornadus|22/100|[from] item: Life Orb
+|-activate|p1a: Jirachi|confusion
+|-damage|p1a: Jirachi|57/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|64/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆Let’sgosixers|lmao
+|
+|move|p2a: Tornadus|Hurricane|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|28/100
+|-damage|p2a: Tornadus|12/100|[from] item: Life Orb
+|-end|p1a: Jirachi|confusion
+|move|p1a: Jirachi|Thunder|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|94/100
+|-damage|p2a: Keldeo|88/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Tentacruel|Tentacruel, M|92/100
+|-damage|p1a: Tentacruel|79/100|[from] Stealth Rock
+|move|p2a: Keldeo|Secret Sword|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|62/100|[from] ability: Rain Dish
+|-heal|p2a: Keldeo|94/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|68/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|70/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Keldeo
+|-activate|p2a: Keldeo|Substitute|[damage]
+|-sideend|p1: Let’sgosixers|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|74/100|[from] ability: Rain Dish
+|-heal|p2a: Keldeo|76/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|80/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p2a: Keldeo|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|53/100
+|-status|p1a: Tentacruel|brn
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Keldeo
+|-sidestart|p2: La fete est finis|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|59/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|65/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|53/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|30/100 brn
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Keldeo
+|-sidestart|p2: La fete est finis|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|36/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Keldeo|88/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|42/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|29/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-immune|p2a: Keldeo
+|move|p2a: Keldeo|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|94/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Tentacruel|Tentacruel, M|29/100 brn
+|move|p2a: Keldeo|Toxic||[still]
+|-fail|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|35/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|41/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|29/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Keldeo|Scald|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|35/100 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|41/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|29/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Keldeo|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|5/100 brn
+|move|p1a: Tentacruel|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-activate|p2a: Keldeo|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|12/100 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|18/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|5/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Keldeo|Scald|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|11/100 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|17/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|5/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Tentacruel|Protect||[still]
+|-fail|p1a: Tentacruel
+|move|p2a: Keldeo|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|70/100 tox
+|turn|34
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|76/100 tox|[from] item: Leftovers
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|-damage|p1a: Latias|70/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|76/100 tox|[from] item: Leftovers
+|-heal|p2a: Keldeo|63/100|[from] item: Leftovers
+|-damage|p1a: Latias|64/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Keldeo|45/100|[from] item: Leftovers
+|-damage|p1a: Latias|52/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|100/100 tox
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Keldeo|Secret Sword|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|79/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|85/100 tox|[from] item: Leftovers
+|-heal|p2a: Keldeo|51/100|[from] item: Leftovers
+|-damage|p1a: Latias|61/100 tox|[from] psn
+|upkeep
+|turn|38
+|inactive|La fete est finis has 120 seconds left.
+|
+|switch|p1a: Gyarados|Gyarados, M|73/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-immune|p2a: Keldeo
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-fail|p2a: Keldeo|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|57/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|79/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|La fete est finis has 120 seconds left.
+|
+|move|p2a: Keldeo|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|63/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|86/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|79/100 tox|[from] psn
+|upkeep
+|turn|40
+|inactive|La fete est finis has 120 seconds left.
+|
+|move|p2a: Keldeo|Scald|p1a: Gyarados|[miss]
+|-miss|p2a: Keldeo|p1a: Gyarados
+|move|p1a: Gyarados|Bounce|p2a: Keldeo|[from]lockedmove
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|70/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|86/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|73/100 tox|[from] psn
+|upkeep
+|turn|41
+|inactive|La fete est finis has 120 seconds left.
+|
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|45/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|79/100 tox|[from] item: Leftovers
+|-heal|p2a: Keldeo|51/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|61/100 tox|[from] psn
+|upkeep
+|turn|42
+|inactive|La fete est finis has 120 seconds left.
+|
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Keldeo
+|move|p2a: Keldeo|Scald|p1a: Gyarados|[miss]
+|-miss|p2a: Keldeo|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|67/100 tox|[from] item: Leftovers
+|-heal|p2a: Keldeo|57/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|43/100 tox|[from] psn
+|upkeep
+|turn|43
+|inactive|La fete est finis has 120 seconds left.
+|
+|move|p1a: Gyarados|Bounce|p2a: Keldeo|[from]lockedmove
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|49/100 tox|[from] item: Leftovers
+|-heal|p2a: Keldeo|39/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|18/100 tox|[from] psn
+|upkeep
+|turn|44
+|inactive|La fete est finis has 120 seconds left.
+|
+|move|p1a: Gyarados|Waterfall|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|move|p2a: Keldeo|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|45/100|[from] item: Leftovers
+|upkeep
+|c| bosung malcha|keldeo almost sweeps
+|
+|switch|p1a: Latias|Latias, F|61/100 tox
+|turn|45
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-status|p2a: Celebi|tox
+|-damage|p2a: Celebi|88/100 tox|[from] Stealth Rock
+|move|p1a: Latias|Dragon Pulse|p2a: Celebi
+|-damage|p2a: Celebi|66/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Latias|61/100 tox|[from] psn
+|-damage|p2a: Celebi|60/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|100/100 tox
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Latias|88/100 tox|[from] psn
+|-damage|p2a: Celebi|88/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Celebi|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|96/100
+|-heal|p2a: Celebi|90/100 tox|[from] drain|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Celebi|72/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|move|p2a: Celebi|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Spikes|p2a: Celebi
+|-sidestart|p2: La fete est finis|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Celebi|47/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|97/100 tox
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Celebi|66/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|switch|p2a: Politoed|Politoed, M|72/100
+|-status|p2a: Politoed|tox
+|-damage|p2a: Politoed|60/100 tox|[from] Spikes
+|-damage|p2a: Politoed|47/100 tox|[from] Stealth Rock
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|54/100 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|47/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Ferrothorn|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Ferrothorn|Knock Off|p2a: Politoed
+|-damage|p2a: Politoed|43/100 tox
+|-enditem|p2a: Politoed|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|31/100 tox|[from] psn
+|-start|p2a: Politoed|perish3
+|-start|p1a: Ferrothorn|perish3
+|upkeep
+|turn|52
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Thundurus|[miss]
+|-miss|p1a: Ferrothorn|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|-start|p1a: Ferrothorn|perish2
+|upkeep
+|turn|53
+|
+|switch|p1a: Jirachi|Jirachi|34/100
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|63/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|41/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Jirachi
+|-damage|p1a: Jirachi|1/100
+|move|p1a: Jirachi|Water Pulse|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|69/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|7/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|88/100 tox
+|turn|56
+|
+|switch|p2a: Celebi|Celebi|66/100
+|-status|p2a: Celebi|tox
+|-damage|p2a: Celebi|54/100 tox|[from] Spikes
+|-damage|p2a: Celebi|41/100 tox|[from] Stealth Rock
+|move|p1a: Latias|Dragon Pulse|p2a: Celebi
+|-damage|p2a: Celebi|18/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Latias|88/100 tox|[from] psn
+|-damage|p2a: Celebi|12/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Latias|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|31/100 tox
+|-damage|p2a: Politoed|18/100 tox|[from] Spikes
+|-damage|p2a: Politoed|6/100 tox|[from] Stealth Rock
+|turn|58
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|100/100 tox
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Politoed|Scald|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|86/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|92/100 tox|[from] item: Leftovers
+|-damage|p1a: Latias|74/100 tox|[from] psn
+|-damage|p2a: Politoed|0 fnt|[from] psn
+|faint|p2a: Politoed
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|75/100
+|-damage|p2a: Thundurus|50/100|[from] Stealth Rock
+|turn|59
+|
+|move|p1a: Latias|Psycho Shift|p2a: Thundurus
+|-status|p2a: Thundurus|tox
+|-curestatus|p1a: Latias|tox|[msg]
+|move|p2a: Thundurus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|37/100|[from] item: Leftovers
+|-heal|p2a: Thundurus|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Thundurus|50/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|87/100
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Thundurus|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|45/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|51/100|[from] item: Leftovers
+|-heal|p2a: Thundurus|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Thundurus|44/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100 par
+|move|p2a: Thundurus|Hidden Power|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|50/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|88/100 par|[from] item: Leftovers
+|-damage|p2a: Thundurus|32/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Thundurus|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Thundurus
+|-damage|p2a: Thundurus|26/100 tox
+|-enditem|p2a: Thundurus|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|94/100 par|[from] item: Leftovers
+|-damage|p2a: Thundurus|2/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|32/100 par
+|move|p1a: Ferrothorn|Spikes|p2a: Thundurus
+|-sidestart|p2: La fete est finis|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|38/100 par|[from] item: Leftovers
+|-damage|p2a: Thundurus|0 fnt|[from] psn
+|faint|p2a: Thundurus
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|45/100
+|-damage|p2a: Keldeo|28/100|[from] Spikes
+|-damage|p2a: Keldeo|22/100|[from] Stealth Rock
+|-status|p2a: Keldeo|tox
+|turn|64
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|28/100 tox|[from] item: Leftovers
+|-damage|p2a: Keldeo|22/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|51/100
+|turn|65
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|win|Let’sgosixers
+|l|☆La fete est finis
+|c| bosung malcha|gg
+|raw|Let’sgosixers's rating: 1415 &rarr; <strong>1430</strong><br />(+15 for winning)
+|raw|La fete est finis's rating: 1334 &rarr; <strong>1318</strong><br />(-16 for losing)
+|c| bosung malcha|using latias
+|c| bosung malcha|this way was very fascinating
+|c| bosung malcha|bro
+|c|☆Let’sgosixers|thx

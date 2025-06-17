@@ -1,0 +1,426 @@
+|j|SwannaSkylaBWS2
+|j|snurke
+|player|p1|SwannaSkylaBWS2|192
+|teamsize|p1|6
+|player|p2|snurke|48
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|61827,35335,39022,24163
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Donphan, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Forretress, F|item
+|poke|p2|Gengar, M, shiny|item
+|poke|p2|Weavile, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Rotom-Wash, shiny|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by snurke)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Overdue|Slowbro, M|393/393
+|switch|p2a: Gengar|Gengar, M, shiny|262/262
+|turn|1
+|choice|switch 4|move shadowball
+|
+|switch|p1a: Bliss|Amoonguss, F|432/432
+|move|p2a: Gengar|Shadow Ball|p1a: Bliss
+|-damage|p1a: Bliss|294/432
+|
+|-heal|p1a: Bliss|321/432|[from] item: Black Sludge
+|upkeep
+|turn|2
+|choice|switch 2|move substitute
+|
+|switch|p1a: Assasain|Tyranitar, F|366/366
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Assasain
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|197/262
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|181/262|[from] sandstorm
+|-heal|p2a: Gengar|197/262|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move crunch|move focusblast
+|
+|move|p2a: Gengar|Focus Blast|p1a: Assasain
+|-supereffective|p1a: Assasain
+|-enditem|p1a: Assasain|Chople Berry|[eat]
+|-enditem|p1a: Assasain|Chople Berry|[weaken]
+|-damage|p1a: Assasain|180/366
+|move|p1a: Assasain|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|181/262|[from] sandstorm
+|-heal|p2a: Gengar|197/262|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move pursuit|move focusblast
+|
+|move|p2a: Gengar|Focus Blast|p1a: Assasain
+|-supereffective|p1a: Assasain
+|-damage|p1a: Assasain|0 fnt
+|faint|p1a: Assasain
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|181/262|[from] sandstorm
+|-heal|p2a: Gengar|197/262|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: New Born|Terrakion|324/324
+|turn|5
+|c|☆SwannaSkylaBWS2|oO
+|choice|move stoneedge|move focusblast
+|
+|move|p2a: Gengar|Focus Blast|p1a: New Born
+|-supereffective|p1a: New Born
+|-damage|p1a: New Born|122/324
+|move|p1a: New Born|Stone Edge|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Forretress|Forretress, F|354/354
+|turn|6
+|choice|move stoneedge|move voltswitch
+|
+|move|p1a: New Born|Stone Edge|p2a: Forretress
+|-damage|p2a: Forretress|191/354
+|move|p2a: Forretress|Volt Switch|p1a: New Born
+|-damage|p1a: New Born|97/324
+|choice||switch 3
+|
+|switch|p2a: Weavile|Weavile, M|282/282
+|-ability|p2a: Weavile|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|265/282|[from] sandstorm
+|upkeep
+|turn|7
+|choice|switch 4|move iceshard
+|
+|switch|p1a: Overdue|Slowbro, M|393/393
+|move|p2a: Weavile|Ice Shard|p1a: Overdue
+|-resisted|p1a: Overdue
+|-damage|p1a: Overdue|357/393
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|248/282|[from] sandstorm
+|-damage|p1a: Overdue|333/393|[from] sandstorm
+|-heal|p1a: Overdue|357/393|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 5|switch 3
+|
+|switch|p2a: Forretress|Forretress, F|191/354
+|switch|p1a: Hoodoo|Latios, M|302/302
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoodoo|284/302|[from] sandstorm
+|-heal|p2a: Forretress|213/354|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move surf|move voltswitch
+|
+|move|p1a: Hoodoo|Surf|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoodoo|266/302|[from] sandstorm
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Weavile|Weavile, M|248/282
+|-ability|p2a: Weavile|Pressure
+|turn|10
+|choice|switch 5|move pursuit
+|
+|-activate|p1a: Hoodoo|move: Pursuit
+|move|p2a: Weavile|Pursuit|p1a: Hoodoo|[from]Pursuit
+|-supereffective|p1a: Hoodoo
+|-damage|p1a: Hoodoo|0 fnt
+|faint|p1a: Hoodoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|231/282|[from] sandstorm
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: New Born|Terrakion|97/324
+|turn|11
+|inactive|snurke has 120 seconds left.
+|inactive|SwannaSkylaBWS2 has 120 seconds left.
+|inactive|snurke has 90 seconds left.
+|choice|move closecombat|switch 5
+|
+|switch|p2a: Heatran|Heatran, F|385/385
+|move|p1a: New Born|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: New Born|def|1
+|-unboost|p1a: New Born|spd|1
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Weavile|Weavile, M|231/282
+|-ability|p2a: Weavile|Pressure
+|turn|12
+|choice|move closecombat|move iceshard
+|
+|move|p2a: Weavile|Ice Shard|p1a: New Born
+|-damage|p1a: New Born|0 fnt
+|faint|p1a: New Born
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|214/282|[from] sandstorm
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Overdue|Slowbro, M|393/393
+|turn|13
+|choice|move icebeam|switch 6
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|303/303
+|move|p1a: Overdue|Ice Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|277/303
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|259/303|[from] sandstorm
+|-damage|p1a: Overdue|369/393|[from] sandstorm
+|-heal|p2a: Rotom|277/303|[from] item: Leftovers
+|-heal|p1a: Overdue|393/393|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move scald|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Overdue
+|-status|p1a: Overdue|brn
+|move|p1a: Overdue|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|246/303
+|-status|p2a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|228/303 brn|[from] sandstorm
+|-damage|p1a: Overdue|369/393 brn|[from] sandstorm
+|-heal|p2a: Rotom|246/303 brn|[from] item: Leftovers
+|-heal|p1a: Overdue|393/393 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|209/303 brn|[from] brn
+|-damage|p1a: Overdue|344/393 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move scald|move painsplit
+|
+|move|p2a: Rotom|Pain Split|p1a: Overdue
+|-sethp|p1a: Overdue|276/393 brn|p2a: Rotom|276/303 brn|[from] move: Pain Split
+|move|p1a: Overdue|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|242/303 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|224/303 brn|[from] sandstorm
+|-damage|p1a: Overdue|252/393 brn|[from] sandstorm
+|-heal|p2a: Rotom|242/303 brn|[from] item: Leftovers
+|-heal|p1a: Overdue|276/393 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|205/303 brn|[from] brn
+|-damage|p1a: Overdue|227/393 brn|[from] brn
+|upkeep
+|turn|16
+|choice|switch 3|move voltswitch
+|
+|switch|p1a: Sober|Donphan, F|383/383
+|move|p2a: Rotom|Volt Switch|p1a: Sober
+|-immune|p1a: Sober|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|187/303 brn|[from] sandstorm
+|-heal|p2a: Rotom|205/303 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|168/303 brn|[from] brn
+|upkeep
+|turn|17
+|choice|switch 2|move willowisp
+|
+|switch|p1a: Bliss|Amoonguss, F|432/432
+|move|p2a: Rotom|Will-O-Wisp|p1a: Bliss
+|-status|p1a: Bliss|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|150/303 brn|[from] sandstorm
+|-damage|p1a: Bliss|405/432 brn|[from] sandstorm
+|-heal|p2a: Rotom|168/303 brn|[from] item: Leftovers
+|-heal|p1a: Bliss|432/432 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|131/303 brn|[from] brn
+|-damage|p1a: Bliss|378/432 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move spore|move painsplit
+|
+|move|p2a: Rotom|Pain Split|p1a: Bliss
+|-sethp|p1a: Bliss|254/432 brn|p2a: Rotom|254/303 brn|[from] move: Pain Split
+|move|p1a: Bliss|Spore|p2a: Rotom
+|-fail|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|236/303 brn|[from] sandstorm
+|-damage|p1a: Bliss|227/432 brn|[from] sandstorm
+|-heal|p2a: Rotom|254/303 brn|[from] item: Leftovers
+|-heal|p1a: Bliss|254/432 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|217/303 brn|[from] brn
+|-damage|p1a: Bliss|200/432 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move spore|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Bliss
+|-resisted|p1a: Bliss
+|-damage|p1a: Bliss|131/432 brn
+|move|p1a: Bliss|Spore|p2a: Rotom
+|-fail|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|199/303 brn|[from] sandstorm
+|-damage|p1a: Bliss|104/432 brn|[from] sandstorm
+|-heal|p2a: Rotom|217/303 brn|[from] item: Leftovers
+|-heal|p1a: Bliss|131/432 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|180/303 brn|[from] brn
+|-damage|p1a: Bliss|77/432 brn|[from] brn
+|upkeep
+|turn|20
+|choice|switch 2|move hydropump
+|
+|switch|p1a: Sober|Donphan, F|383/383
+|move|p2a: Rotom|Hydro Pump|p1a: Sober
+|-supereffective|p1a: Sober
+|-ability|p1a: Sober|Sturdy
+|-damage|p1a: Sober|1/383
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|162/303 brn|[from] sandstorm
+|-heal|p2a: Rotom|180/303 brn|[from] item: Leftovers
+|-heal|p1a: Sober|24/383|[from] item: Leftovers
+|-damage|p2a: Rotom|143/303 brn|[from] brn
+|upkeep
+|turn|21
+|choice|switch 2|move hydropump
+|
+|switch|p1a: Bliss|Amoonguss, F|221/432 brn
+|move|p2a: Rotom|Hydro Pump|p1a: Bliss
+|-resisted|p1a: Bliss
+|-damage|p1a: Bliss|157/432 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|125/303 brn|[from] sandstorm
+|-damage|p1a: Bliss|130/432 brn|[from] sandstorm
+|-heal|p2a: Rotom|143/303 brn|[from] item: Leftovers
+|-heal|p1a: Bliss|157/432 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|106/303 brn|[from] brn
+|-damage|p1a: Bliss|103/432 brn|[from] brn
+|upkeep
+|turn|22
+|choice|switch 2|move hydropump
+|
+|switch|p1a: Sober|Donphan, F|24/383
+|move|p2a: Rotom|Hydro Pump|p1a: Sober
+|-supereffective|p1a: Sober
+|-damage|p1a: Sober|0 fnt
+|faint|p1a: Sober
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|88/303 brn|[from] sandstorm
+|-heal|p2a: Rotom|106/303 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|69/303 brn|[from] brn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Bliss|Amoonguss, F|247/432 brn
+|turn|23
+|choice|move gigadrain|move painsplit
+|
+|move|p2a: Rotom|Pain Split|p1a: Bliss
+|-sethp|p1a: Bliss|158/432 brn|p2a: Rotom|158/303 brn|[from] move: Pain Split
+|move|p1a: Bliss|Giga Drain|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|44/303 brn
+|-heal|p1a: Bliss|215/432 brn|[from] drain|[of] p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|26/303 brn|[from] sandstorm
+|-damage|p1a: Bliss|188/432 brn|[from] sandstorm
+|-heal|p2a: Rotom|44/303 brn|[from] item: Leftovers
+|-heal|p1a: Bliss|215/432 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|7/303 brn|[from] brn
+|-damage|p1a: Bliss|161/432 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move gigadrain|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Bliss
+|-resisted|p1a: Bliss
+|-damage|p1a: Bliss|92/432 brn
+|move|p1a: Bliss|Giga Drain|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Bliss|96/432 brn|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bliss|69/432 brn|[from] sandstorm
+|-heal|p1a: Bliss|96/432 brn|[from] item: Black Sludge
+|-damage|p1a: Bliss|42/432 brn|[from] brn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Hydreigon|Hydreigon, F|326/326
+|turn|25
+|choice|switch 3|move darkpulse
+|
+|switch|p1a: Overdue|Slowbro, M|358/393 brn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Overdue
+|-supereffective|p1a: Overdue
+|-damage|p1a: Overdue|0 fnt
+|-damage|p2a: Hydreigon|294/326|[from] item: Life Orb
+|faint|p1a: Overdue
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|274/326|[from] sandstorm
+|upkeep
+|c|☆snurke|Gg wp
+|-message|SwannaSkylaBWS2 forfeited.
+|
+|win|snurke
+|l|SwannaSkylaBWS2
+|raw|SwannaSkylaBWS2's rating: 1500 &rarr; <strong>1469</strong><br />(-31 for losing)
+|raw|snurke's rating: 1285 &rarr; <strong>1324</strong><br />(+39 for winning)

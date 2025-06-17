@@ -1,0 +1,434 @@
+|j|☆CroCoeur
+|j|☆tubi
+|player|p1|CroCoeur|161
+|player|p2|tubi|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Latios, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Scizor, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Golden Boy|Scizor, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Golden Boy|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|53/100
+|
+|switch|p2a: YouShallNotPass|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: YouShallNotPass|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: YouShallNotPass|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: CroCoeur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: YouShallNotPass|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|-damage|p2a: YouShallNotPass|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Hulk SMASH!|Terrakion, shiny|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hulk SMASH!
+|-sidestart|p2: tubi|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Hulk SMASH!|Substitute|p2a: Hulk SMASH!
+|-start|p2a: Hulk SMASH!|Substitute
+|-damage|p2a: Hulk SMASH!|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Politoed|Encore|p2a: Hulk SMASH!
+|-start|p2a: Hulk SMASH!|Encore
+|move|p2a: Hulk SMASH!|Substitute|p2a: Hulk SMASH!
+|-fail|p2a: Hulk SMASH!|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|switch|p2a: The Rock|Tyranitar, F, shiny|100/100
+|-damage|p2a: The Rock|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|82/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Zhooom!|Rotom-Wash, shiny|100/100
+|-damage|p2a: Zhooom!|88/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Zhooom!
+|-resisted|p2a: Zhooom!
+|-damage|p2a: Zhooom!|76/100
+|-status|p2a: Zhooom!|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zhooom!|70/100 brn|[from] Sandstorm
+|-damage|p1a: Vaporeon|82/100|[from] Sandstorm
+|-heal|p2a: Zhooom!|76/100 brn|[from] item: Leftovers
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|-damage|p2a: Zhooom!|64/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|move|p2a: Zhooom!|Volt Switch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|80/100
+|
+|switch|p2a: Golden Boy|Scizor, F, shiny|100/100
+|-damage|p2a: Golden Boy|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|74/100|[from] Sandstorm
+|-heal|p1a: Celebi|80/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|91/100
+|-damage|p1a: Ferrothorn|84/100|[from] Stealth Rock
+|move|p2a: Golden Boy|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|45/100
+|-damage|p2a: Golden Boy|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Hulk SMASH!|Terrakion, shiny|76/100
+|-damage|p2a: Hulk SMASH!|70/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Hulk SMASH!|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Hulk SMASH!|57/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Hulk SMASH!|def|1
+|-unboost|p2a: Hulk SMASH!|spd|1
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|11
+|
+|switch|p2a: Zhooom!|Rotom-Wash, shiny|64/100 brn
+|-damage|p2a: Zhooom!|51/100 brn|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Zhooom!
+|-resisted|p2a: Zhooom!
+|-damage|p2a: Zhooom!|23/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zhooom!|29/100 brn|[from] item: Leftovers
+|-damage|p2a: Zhooom!|17/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Zhooom!
+|-resisted|p2a: Zhooom!
+|-damage|p2a: Zhooom!|0 fnt
+|faint|p2a: Zhooom!
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gonew/daWIND|Latios, M, shiny|100/100
+|-damage|p2a: Gonew/daWIND|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Celebi|Celebi|80/100
+|-damage|p1a: Celebi|68/100|[from] Stealth Rock
+|move|p2a: Gonew/daWIND|Draco Meteor|p1a: Celebi
+|-damage|p1a: Celebi|14/100
+|-unboost|p2a: Gonew/daWIND|spa|2
+|-damage|p2a: Gonew/daWIND|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|20/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Vaporeon|Vaporeon, F|88/100
+|-damage|p1a: Vaporeon|76/100|[from] Stealth Rock
+|move|p2a: Gonew/daWIND|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|50/100
+|-unboost|p2a: Gonew/daWIND|spa|2
+|-damage|p2a: Gonew/daWIND|68/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|56/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: The Rock|Tyranitar, F, shiny|88/100
+|-damage|p2a: The Rock|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The Rock
+|move|p1a: Vaporeon|Scald|p2a: The Rock
+|-supereffective|p2a: The Rock
+|-damage|p2a: The Rock|45/100
+|-status|p2a: The Rock|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|50/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|56/100|[from] item: Leftovers
+|-damage|p2a: The Rock|32/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Gonew/daWIND|Latios, M, shiny|68/100
+|-damage|p2a: Gonew/daWIND|56/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Gonew/daWIND
+|-resisted|p2a: Gonew/daWIND
+|-damage|p2a: Gonew/daWIND|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gonew/daWIND|36/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|50/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|56/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Gonew/daWIND|Roost|p2a: Gonew/daWIND
+|-heal|p2a: Gonew/daWIND|86/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gonew/daWIND|80/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|94/100 slp|[from] Sandstorm
+|-heal|p1a: Vaporeon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Gonew/daWIND|Psyshock|p1a: Vaporeon
+|-damage|p1a: Vaporeon|46/100 slp
+|-damage|p2a: Gonew/daWIND|70/100|[from] item: Life Orb
+|cant|p1a: Vaporeon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gonew/daWIND|64/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|40/100 slp|[from] Sandstorm
+|-heal|p1a: Vaporeon|46/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Celebi|Celebi|20/100
+|-damage|p1a: Celebi|8/100|[from] Stealth Rock
+|move|p2a: Gonew/daWIND|Psyshock|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-damage|p2a: Gonew/daWIND|54/100|[from] item: Life Orb
+|faint|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gonew/daWIND|48/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|76/100
+|-damage|p1a: Politoed|63/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|20
+|
+|move|p1a: Politoed|Ice Beam|p2a: Gonew/daWIND
+|-supereffective|p2a: Gonew/daWIND
+|-damage|p2a: Gonew/daWIND|0 fnt
+|faint|p2a: Gonew/daWIND
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Golden Boy|Scizor, F, shiny|76/100
+|-damage|p2a: Golden Boy|64/100|[from] Stealth Rock
+|turn|21
+|
+|-activate|p1a: Politoed|move: Pursuit
+|move|p2a: Golden Boy|Pursuit|p1a: Politoed|[from]Pursuit
+|-damage|p1a: Politoed|1/100
+|switch|p1a: Vaporeon|Vaporeon, F|46/100 slp
+|-damage|p1a: Vaporeon|34/100 slp|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|-heal|p1a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: The Rock|Tyranitar, F, shiny|32/100 brn
+|-damage|p2a: The Rock|20/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The Rock
+|move|p1a: Vaporeon|Scald|p2a: The Rock
+|-supereffective|p2a: The Rock
+|-damage|p2a: The Rock|0 fnt
+|faint|p2a: The Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|34/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Golden Boy|Scizor, F, shiny|64/100
+|-damage|p2a: Golden Boy|51/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Golden Boy|U-turn|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p2a: YouShallNotPass|Landorus-Therian, M, shiny|88/100
+|-damage|p2a: YouShallNotPass|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: YouShallNotPass|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Latios|Surf|p2a: YouShallNotPass
+|-supereffective|p2a: YouShallNotPass
+|-damage|p2a: YouShallNotPass|0 fnt
+|faint|p2a: YouShallNotPass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Golden Boy|Scizor, F, shiny|51/100
+|-damage|p2a: Golden Boy|39/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Golden Boy|Bullet Punch|p1a: Latios
+|-damage|p1a: Latios|8/100
+|move|p1a: Latios|Surf|p2a: Golden Boy
+|-damage|p2a: Golden Boy|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|2/100|[from] Sandstorm
+|upkeep
+|turn|26
+|c|☆CroCoeur|pffff
+|
+|move|p2a: Golden Boy|Bullet Punch|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆tubi|same
+|
+|switch|p1a: Jirachi|Jirachi|59/100
+|-damage|p1a: Jirachi|53/100|[from] Stealth Rock
+|turn|27
+|j| Hugobou
+|
+|move|p2a: Golden Boy|Bullet Punch|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|30/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|11/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Golden Boy|Bullet Punch|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|move|p1a: Jirachi|Water Pulse|p2a: Golden Boy
+|-damage|p2a: Golden Boy|0 fnt
+|faint|p2a: Golden Boy
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hulk SMASH!|Terrakion, shiny|57/100
+|-damage|p2a: Hulk SMASH!|51/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Hulk SMASH!|Close Combat|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-unboost|p2a: Hulk SMASH!|def|1
+|-unboost|p2a: Hulk SMASH!|spd|1
+|move|p1a: Jirachi|Water Pulse|p2a: Hulk SMASH!
+|-supereffective|p2a: Hulk SMASH!
+|-damage|p2a: Hulk SMASH!|18/100
+|-start|p2a: Hulk SMASH!|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|24/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Politoed|Politoed, M|1/100
+|-damage|p1a: Politoed|0 fnt|[from] Stealth Rock
+|faint|p1a: Politoed
+|-activate|p2a: Hulk SMASH!|confusion
+|-damage|p2a: Hulk SMASH!|0 fnt|[from] confusion
+|faint|p2a: Hulk SMASH!
+|
+|win|CroCoeur
+|l|☆tubi
+|raw|CroCoeur's rating: 1424 &rarr; <strong>1439</strong><br />(+15 for winning)
+|raw|tubi's rating: 1335 &rarr; <strong>1320</strong><br />(-15 for losing)

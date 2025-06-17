@@ -1,0 +1,654 @@
+|j|☆porrompompom
+|j|☆chockwayne
+|player|p1|porrompompom|1|1598
+|player|p2|chockwayne|170|1397
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Abomasnow, F|item
+|poke|p1|Starmie|item
+|poke|p1|Heatran, F|item
+|poke|p1|Kyurem|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Breloom, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|move|p2a: Jirachi|Thunder|p1a: Reuniclus
+|-damage|p1a: Reuniclus|76/100
+|-status|p1a: Reuniclus|par
+|move|p1a: Reuniclus|Trick|p2a: Jirachi
+|-activate|p1a: Reuniclus|move: Trick|[of] p2a: Jirachi
+|-item|p2a: Jirachi|Flame Orb|[from] move: Trick
+|-item|p1a: Reuniclus|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Reuniclus|82/100 par|[from] item: Leftovers
+|-status|p2a: Jirachi|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Reuniclus|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Abomasnow|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Politoed|94/100|[from] Hail
+|-heal|p2a: Politoed|100/100|[from] item: Leftovers
+|-start|p1a: Abomasnow|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|4
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Starmie
+|-damage|p1a: Starmie|68/100
+|-status|p1a: Starmie|psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|62/100 psn|[from] Hail
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p1a: Starmie|68/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p1a: Starmie|56/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100 psn
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Starmie
+|-damage|p1a: Starmie|69/100 psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|63/100 psn|[from] Hail
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p1a: Starmie|69/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p1a: Starmie|57/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100 psn
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Starmie
+|-damage|p1a: Starmie|67/100 psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|61/100 psn|[from] Hail
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p1a: Starmie|67/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p1a: Starmie|55/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100 psn
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Starmie
+|-damage|p1a: Starmie|70/100 psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|64/100 psn|[from] Hail
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p1a: Starmie|70/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p1a: Starmie|57/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100/100 psn
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Starmie
+|-damage|p1a: Starmie|72/100 psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|66/100 psn|[from] Hail
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p1a: Starmie|72/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p1a: Starmie|59/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-damage|p1a: Heatran|94/100|[from] Hail
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Starmie|Starmie|59/100
+|move|p2a: Tentacruel|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|45/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|39/100|[from] Hail
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p1a: Starmie|45/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|96/100
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Starmie
+|-damage|p1a: Starmie|65/100
+|-status|p1a: Starmie|psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|58/100 psn|[from] Hail
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p1a: Starmie|65/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p1a: Starmie|52/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|-curestatus|p1a: Starmie|psn|[from] ability: Natural Cure
+|switch|p1a: Reuniclus|Reuniclus, M|88/100 par
+|switch|p2a: Latios|Latios, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Hail
+|-heal|p1a: Reuniclus|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Latios|Trick|p1a: Reuniclus
+|-activate|p2a: Latios|move: Trick|[of] p1a: Reuniclus
+|-item|p1a: Reuniclus|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|cant|p1a: Reuniclus|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Hail
+|-heal|p2a: Latios|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Latios|Draco Meteor|p1a: Reuniclus
+|-damage|p1a: Reuniclus|26/100 par
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Reuniclus|Trick|p2a: Latios
+|-activate|p1a: Reuniclus|move: Trick|[of] p2a: Latios
+|-item|p2a: Latios|Choice Scarf|[from] move: Trick
+|-item|p1a: Reuniclus|Leftovers|[from] move: Trick
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Hail
+|-heal|p1a: Reuniclus|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Reuniclus|atk|1
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|95/100|[from] Hail
+|-damage|p2a: Landorus|94/100|[from] Hail
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Landorus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|89/100|[from] Hail
+|-damage|p2a: Landorus|18/100|[from] Hail
+|-heal|p2a: Landorus|24/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Starmie|Starmie|52/100
+|-damage|p1a: Starmie|40/100|[from] Stealth Rock
+|switch|p2a: Latios|Latios, M|89/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|83/100|[from] Hail
+|-damage|p1a: Starmie|34/100|[from] Hail
+|-heal|p1a: Starmie|40/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|60/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|77/100|[from] Hail
+|-damage|p1a: Heatran|54/100|[from] Hail
+|-heal|p1a: Heatran|60/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|switch|p1a: Starmie|Starmie|40/100
+|-damage|p1a: Starmie|27/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|34/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|97/100
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Politoed|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|11/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|17/100|[from] item: Leftovers
+|-heal|p2a: Politoed|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|67/100
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Starmie|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|73/100|[from] item: Leftovers
+|-start|p1a: Starmie|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|23
+|
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Politoed|Scald|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|87/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Politoed|94/100|[from] Hail
+|-heal|p1a: Abomasnow|93/100|[from] item: Leftovers
+|-heal|p2a: Politoed|100/100|[from] item: Leftovers
+|-start|p2a: Politoed|perish2
+|upkeep
+|turn|24
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|94/100|[from] Hail
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|49/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Tentacruel
+|-damage|p2a: Tentacruel|16/100
+|-unboost|p1a: Kyurem|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|10/100|[from] Hail
+|-heal|p2a: Tentacruel|16/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Kyurem|Draco Meteor|p2a: Politoed
+|-damage|p2a: Politoed|67/100
+|-unboost|p1a: Kyurem|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Abomasnow|Abomasnow, F|93/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Politoed|Scald|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-crit|p1a: Abomasnow
+|-damage|p1a: Abomasnow|65/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Politoed|67/100|[from] Hail
+|-heal|p1a: Abomasnow|71/100|[from] item: Leftovers
+|-heal|p2a: Politoed|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Jirachi|Jirachi|100/100 brn
+|move|p1a: Abomasnow|Wood Hammer|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|81/100 brn
+|-damage|p1a: Abomasnow|64/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|75/100 brn|[from] Hail
+|-heal|p1a: Abomasnow|70/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|62/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Jirachi|Thunder|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|56/100
+|-status|p1a: Abomasnow|par
+|cant|p1a: Abomasnow|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|56/100 brn|[from] Hail
+|-heal|p1a: Abomasnow|62/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|44/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p2a: Politoed|Politoed, F|73/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Abomasnow|Leech Seed|p2a: Politoed
+|-start|p2a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|79/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|68/100 par|[from] item: Leftovers
+|-damage|p2a: Politoed|67/100|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|81/100 par|[silent]
+|upkeep
+|turn|31
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|switch|p1a: Kyurem|Kyurem|49/100
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|32
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Kyurem|Draco Meteor|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|switch|p2a: Jirachi|Jirachi|44/100 brn
+|move|p1a: Kyurem|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|1/100 brn
+|-unboost|p1a: Kyurem|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Jirachi|0 fnt|[from] brn
+|faint|p2a: Jirachi
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, M|100/100 tox
+|turn|34
+|
+|switch|p1a: Landorus|Landorus-Therian, M|89/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|35
+|
+|move|p1a: Landorus|U-turn|p2a: Breloom
+|-damage|p2a: Breloom|80/100 tox
+|
+|switch|p1a: Abomasnow|Abomasnow, F|81/100 par|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Breloom|74/100 tox|[from] Hail
+|-heal|p1a: Abomasnow|87/100 par|[from] item: Leftovers
+|-heal|p2a: Breloom|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|
+|switch|p1a: Reuniclus|Reuniclus, M|32/100 par
+|move|p2a: Breloom|Drain Punch|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|16/100 par
+|-heal|p2a: Breloom|97/100 tox|[from] drain|[of] p1a: Reuniclus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Breloom|91/100 tox|[from] Hail
+|-heal|p1a: Reuniclus|22/100 par|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|
+|move|p2a: Breloom|Seed Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Breloom|94/100 tox|[from] Hail
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|49/100
+|-ability|p1a: Kyurem|Pressure
+|turn|38
+|
+|switch|p2a: Politoed|Politoed, F|67/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Kyurem|Draco Meteor|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|77/100
+|turn|39
+|
+|switch|p1a: Heatran|Heatran, F|60/100
+|move|p2a: Latios|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow, F|87/100 par
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|40
+|
+|switch|p2a: Tentacruel|Tentacruel, M|16/100
+|cant|p1a: Abomasnow|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|10/100|[from] Hail
+|-heal|p2a: Tentacruel|16/100|[from] item: Black Sludge
+|-heal|p1a: Abomasnow|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-crit|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|10/100|[from] Hail
+|-heal|p2a: Tentacruel|16/100|[from] item: Black Sludge
+|upkeep
+|c|☆porrompompom|jesus fucking christ
+|
+|switch|p1a: Starmie|Starmie|73/100
+|turn|42
+|
+|move|p1a: Starmie|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|6/100
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Starmie
+|-damage|p1a: Starmie|43/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|36/100|[from] Hail
+|-damage|p2a: Tentacruel|0 fnt|[from] Hail
+|faint|p2a: Tentacruel
+|-heal|p1a: Starmie|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|77/100
+|turn|43
+|
+|switch|p1a: Landorus|Landorus-Therian, M|89/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|move|p2a: Latios|Draco Meteor|p1a: Landorus|[miss]
+|-miss|p2a: Latios|p1a: Landorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|71/100|[from] Hail
+|-damage|p1a: Landorus|83/100|[from] Hail
+|upkeep
+|turn|44
+|
+|move|p2a: Latios|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Landorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Latios|65/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|43/100
+|turn|45
+|
+|switch|p2a: Breloom|Breloom, M|100/100 tox
+|move|p1a: Starmie|Thunder Wave||[still]
+|-fail|p1a: Starmie
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|36/100|[from] Hail
+|-damage|p2a: Breloom|94/100 tox|[from] Hail
+|-heal|p1a: Starmie|43/100|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|46
+|
+|switch|p1a: Kyurem|Kyurem|49/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Breloom|Drain Punch|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Breloom|94/100 tox|[from] Hail
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|43/100
+|turn|47
+|c|☆porrompompom|"g"g or something like that
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|93/100
+|move|p2a: Breloom|Seed Bomb|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|15/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|9/100|[from] Hail
+|-damage|p2a: Breloom|94/100 tox|[from] Hail
+|-heal|p1a: Starmie|15/100|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|48
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|65/100
+|move|p2a: Breloom|Seed Bomb|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|chockwayne
+|l|☆porrompompom
+|raw|porrompompom's rating: 1598 &rarr; <strong>1568</strong><br />(-30 for losing)
+|raw|chockwayne's rating: 1397 &rarr; <strong>1428</strong><br />(+31 for winning)

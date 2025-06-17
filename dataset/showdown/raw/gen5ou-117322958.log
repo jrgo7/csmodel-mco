@@ -1,0 +1,326 @@
+|join|dtw
+|join|IAaronTheBaronI
+|player|p1|dtw|265
+|player|p2|IAaronTheBaronI|161
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Dugtrio, F
+|poke|p1|Tyranitar, M
+|poke|p1|Hydreigon, F
+|poke|p1|Skarmory, F
+|poke|p1|Breloom, M
+|poke|p1|Alakazam, M
+|poke|p2|Ninetales, M
+|poke|p2|Charizard, M
+|poke|p2|Victreebel, F
+|poke|p2|Dragonite, F
+|poke|p2|Gengar, M
+|poke|p2|Sandslash, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|switch|p2a: Sandslash|Sandslash, F|354/354
+|turn|1
+|
+|move|p2a: Sandslash|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: dtw|move: Stealth Rock
+|move|p1a: Skarmory|Stealth Rock|p2a: Sandslash
+|-sidestart|p2: IAaronTheBaronI|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Sandslash|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|328/334
+|-sideend|p2: IAaronTheBaronI|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sandslash
+|move|p1a: Skarmory|Spikes|p2a: Sandslash
+|-sidestart|p2: IAaronTheBaronI|Spikes
+|
+|turn|3
+|
+|move|p2a: Sandslash|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|322/334
+|-sideend|p2: IAaronTheBaronI|Spikes|[from] move: Rapid Spin|[of] p2a: Sandslash
+|move|p1a: Skarmory|Stealth Rock|p2a: Sandslash
+|-sidestart|p2: IAaronTheBaronI|move: Stealth Rock
+|
+|turn|4
+|
+|move|p2a: Sandslash|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|316/334
+|-sideend|p2: IAaronTheBaronI|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sandslash
+|move|p1a: Skarmory|Whirlwind|p2a: Sandslash
+|drag|p2a: Ninetales|Ninetales, M|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-item|p2a: Ninetales|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Skarmory
+|-start|p1a: Skarmory|confusion
+|-activate|p1a: Skarmory|confusion
+|move|p1a: Skarmory|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: IAaronTheBaronI|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p2a: Ninetales|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Tyranitar|Tyranitar, M|342/342
+|-damage|p1a: Tyranitar|300/342|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Ninetales|[from]Pursuit
+|-damage|p2a: Ninetales|104/288
+|-enditem|p2a: Ninetales|Air Balloon
+|switch|p2a: Sandslash|Sandslash, F|354/354
+|-damage|p2a: Sandslash|332/354|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|8
+|
+|switch|p1a: Dugtrio|Dugtrio, F|211/211
+|-damage|p1a: Dugtrio|198/211|[from] Stealth Rock
+|move|p2a: Sandslash|Rapid Spin|p1a: Dugtrio
+|-damage|p1a: Dugtrio|167/211
+|-sideend|p2: IAaronTheBaronI|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sandslash
+|
+|-weather|Sandstorm|[upkeep]
+|turn|9
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Sandslash
+|-damage|p2a: Sandslash|269/354
+|-damage|p1a: Dugtrio|132/211|[from] item: Rocky Helmet|[of] p2a: Sandslash
+|move|p2a: Sandslash|Earthquake|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Breloom|Breloom, M|264/264
+|-damage|p1a: Breloom|248/264|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Ninetales|Ninetales, M|104/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Breloom|Spore|p2a: Ninetales
+|-status|p2a: Ninetales|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|11
+|
+|switch|p2a: Dragonite|Dragonite, F|324/324
+|switch|p1a: Alakazam|Alakazam, M|251/251
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|152/324
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|172/324|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/251
+|move|p1a: Alakazam|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Gengar|Gengar, M|261/261
+|turn|14
+|
+|move|p2a: Gengar|Sucker Punch|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Tyranitar|Tyranitar, M|300/342
+|-damage|p1a: Tyranitar|258/342|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|19/261
+|move|p2a: Gengar|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|3/261|[from] sandstorm
+|
+|switch|p1a: Hydreigon|Hydreigon, F|325/325
+|-damage|p1a: Hydreigon|285/325|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|move|p1a: Hydreigon|Fire Blast|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-damage|p1a: Hydreigon|253/325|[from] item: Life Orb
+|faint|p2a: Gengar
+|-activate|p2a: Gengar|Destiny Bond
+|faint|p1a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Ninetales|Ninetales, M|104/288 slp
+|switch|p1a: Breloom|Breloom, M|248/264 tox
+|-damage|p1a: Breloom|232/264 tox|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|17
+|
+|cant|p2a: Ninetales|slp
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|166/264 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Breloom|199/264 tox|[from] ability: Poison Heal
+|turn|18
+|
+|cant|p2a: Ninetales|slp
+|move|p1a: Breloom|Facade|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Breloom|232/264 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Victreebel|Victreebel, F|301/301
+|turn|19
+|
+|move|p2a: Victreebel|Weather Ball|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|move|p1a: Breloom|Spore|p2a: Victreebel
+|-status|p2a: Victreebel|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Breloom|264/264 tox|[from] ability: Poison Heal
+|turn|20
+|
+|switch|p2a: Charizard|Charizard, M|298/298
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|198/264 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|261/298|[from] ability: Solar Power
+|-heal|p1a: Breloom|231/264 tox|[from] ability: Poison Heal
+|turn|21
+|
+|move|p2a: Charizard|Flamethrower|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|move|p1a: Breloom|Facade|p2a: Charizard
+|-damage|p2a: Charizard|31/298
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power
+|-heal|p1a: Breloom|264/264 tox|[from] ability: Poison Heal
+|faint|p2a: Charizard
+|
+|switch|p2a: Sandslash|Sandslash, F|269/354
+|turn|22
+|
+|move|p2a: Sandslash|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|192/264 tox
+|move|p1a: Breloom|Facade|p2a: Sandslash
+|-damage|p2a: Sandslash|97/354
+|-damage|p1a: Breloom|148/264 tox|[from] item: Rocky Helmet|[of] p2a: Sandslash
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Breloom|181/264 tox|[from] ability: Poison Heal
+|turn|23
+|
+|move|p2a: Sandslash|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|104/264 tox
+|move|p1a: Breloom|Facade|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-damage|p1a: Breloom|60/264 tox|[from] item: Rocky Helmet|[of] p2a: Sandslash
+|faint|p2a: Sandslash
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Breloom|93/264 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Victreebel|Victreebel, F|301/301 slp
+|turn|24
+|
+|cant|p2a: Victreebel|slp
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|27/264 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Breloom|60/264 tox|[from] ability: Poison Heal
+|turn|25
+|
+|cant|p2a: Victreebel|slp
+|move|p1a: Breloom|Facade|p2a: Victreebel
+|-enditem|p2a: Victreebel|Focus Sash
+|-damage|p2a: Victreebel|1/301 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Breloom|93/264 tox|[from] ability: Poison Heal
+|turn|26
+|chat|dtw|gg
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|cant|p2a: Victreebel|slp
+|move|p1a: Breloom|Focus Punch|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|dtw's rating: 1429 &rarr; <strong>1445</strong><br />(+16 for winning)
+|raw|IAaronTheBaronI's rating: 1356 &rarr; <strong>1340</strong><br />(-16 for losing)
+|chat|IAaronTheBaronI|shouldn't have kept ninetales out 
+|chat|IAaronTheBaronI|oh well
+|chat|IAaronTheBaronI|gg
+|chat|dtw|i know
+|chat|dtw|it happens
+|chat|dtw|gg
+|leave|IAaronTheBaronI
+|player|p2

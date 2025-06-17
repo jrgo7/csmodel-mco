@@ -1,0 +1,168 @@
+|j|☆baixiaohen
+|j|☆HydreigonSpammer
+|t:|1736238872
+|gametype|singles
+|player|p1|baixiaohen|steven|1327
+|player|p2|HydreigonSpammer|iris|1378
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Stat Clause: No Baton Passer may have a way to boost its stats
+|clearpoke
+|poke|p1|Garchomp, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Starmie|item
+|poke|p1|Scizor, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|t:|1736238895
+|start
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-item|p1a: Starmie|Air Balloon
+|turn|1
+|
+|t:|1736238904
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Starmie|Ice Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|87/100
+|-status|p2a: Rotom|frz
+|
+|-heal|p2a: Rotom|93/100 frz|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1736238920
+|move|p1a: Starmie|Thunder|p2a: Rotom|[miss]
+|-miss|p1a: Starmie|p2a: Rotom
+|-curestatus|p2a: Rotom|frz|[msg]
+|move|p2a: Rotom|Volt Switch|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|20/100
+|-enditem|p1a: Starmie|Air Balloon
+|
+|t:|1736238928
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|14/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1736238938
+|-activate|p1a: Starmie|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Starmie|[from]Pursuit
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1736238941
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|4
+|
+|t:|1736238975
+|switch|p2a: Rotom|Rotom-Wash|93/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|87/100|[from] Sandstorm
+|-heal|p2a: Rotom|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1736238982
+|move|p2a: Rotom|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|Superpower|p2a: Rotom
+|-damage|p2a: Rotom|34/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|91/100 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|29/100|[from] Sandstorm
+|-heal|p2a: Rotom|34/100|[from] item: Leftovers
+|-damage|p1a: Scizor|78/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1736238991
+|move|p2a: Rotom|Volt Switch|p1a: Scizor
+|-damage|p1a: Scizor|49/100 brn
+|
+|t:|1736238994
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Superpower|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|87/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|39/100 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|93/100|[from] item: Leftovers
+|-damage|p1a: Scizor|27/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1736239003
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|80/100
+|-damage|p1a: Scizor|17/100 brn|[from] item: Life Orb
+|move|p2a: Landorus|Stealth Rock|p1a: Scizor
+|-sidestart|p1: baixiaohen|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|86/100|[from] item: Leftovers
+|-damage|p1a: Scizor|5/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1736239010
+|move|p2a: Landorus|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|t:|1736239013
+|switch|p2a: Latios|Latios, M|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|upkeep
+|-message|baixiaohen forfeited.
+|
+|win|HydreigonSpammer
+|raw|baixiaohen's rating: 1327 &rarr; <strong>1310</strong><br />(-17 for losing)
+|raw|HydreigonSpammer's rating: 1378 &rarr; <strong>1395</strong><br />(+17 for winning)
+|l|☆baixiaohen
+|player|p1|

@@ -1,0 +1,439 @@
+|j|☆CroCoeur
+|j|☆refsunpersons
+|player|p1|CroCoeur|161
+|player|p2|refsunpersons|15
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Haxorus, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Gyarados, M|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|c|☆refsunpersons|gl hf
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|c|☆CroCoeur|you too
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: refsunpersons|move: Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: CroCoeur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: refsunpersons|Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Ferrothorn|Spikes|p2a: Excadrill
+|-sidestart|p2: refsunpersons|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill
+|-damage|p2a: Excadrill|43/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[msg]|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|88/100
+|-damage|p2a: Ferrothorn|72/100|[from] Spikes
+|-damage|p2a: Ferrothorn|65/100|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|99/100
+|-damage|p1a: Ferrothorn|93/100|[from] Stealth Rock
+|switch|p2a: Excadrill|Excadrill, M|43/100
+|-damage|p2a: Excadrill|40/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|23/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|-damage|p2a: Excadrill|11/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: refsunpersons|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: refsunpersons|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill|[miss]
+|-miss|p1a: Ferrothorn|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill|[miss]
+|-miss|p1a: Ferrothorn|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|c|☆refsunpersons|sorry
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|12/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Excadrill|0|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|23/100|[silent]
+|upkeep
+|faint|p2a: Excadrill
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|12
+|
+|move|p2a: Haxorus|Low Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0
+|-damage|p2a: Haxorus|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Haxorus|78/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Gyarados
+|-damage|p2a: Gyarados|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|move|p2a: Gyarados|Stone Edge|p1a: Latios
+|-damage|p1a: Latios|24/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Latios|Thunder|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0
+|faint|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|78/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|16
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Haxorus|Outrage|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|59/100
+|-damage|p2a: Haxorus|68/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|65/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Jirachi|Thunder|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|49/100
+|-status|p2a: Haxorus|par
+|move|p2a: Haxorus|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|30/100
+|-damage|p2a: Haxorus|39/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|37/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆refsunpersons|very fast for subcm
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|22/100 par
+|move|p2a: Haxorus|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0
+|-damage|p2a: Haxorus|12/100 par|[from] item: Life Orb
+|-start|p2a: Haxorus|confusion|[fatigue]
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|-activate|p2a: Haxorus|confusion
+|-damage|p2a: Haxorus|0 par|[from] confusion
+|faint|p2a: Haxorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|20
+|
+|move|p2a: Politoed|Hidden Power|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|58/100
+|move|p1a: Vaporeon|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|64/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|100/100 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Vaporeon|ability: Hydration
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|upkeep
+|turn|22
+|
+|move|p2a: Latios|Trick|p1a: Vaporeon
+|-activate|p2a: Latios|move: Trick|[of] p1a: Vaporeon
+|-item|p1a: Vaporeon|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Vaporeon|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|64/100
+|-status|p2a: Latios|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Latios|57/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Politoed|Politoed, M|81/100
+|move|p1a: Vaporeon|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|50/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p2a: Politoed|Hidden Power|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|65/100
+|move|p1a: Vaporeon|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|21/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Politoed|Hidden Power|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|31/100
+|move|p1a: Vaporeon|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|57/100 brn
+|turn|26
+|
+|move|p2a: Latios|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Latios|51/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|76/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|47/100
+|move|p1a: Politoed|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|77/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Celebi|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|70/100
+|-enditem|p1a: Celebi|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|move|p1a: Celebi|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|7/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Celebi
+|-damage|p1a: Celebi|25/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p1a: Celebi|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|51/100 brn
+|turn|32
+|
+|move|p2a: Latios|Trick|p1a: Celebi
+|-activate|p2a: Latios|move: Trick|[of] p1a: Celebi
+|-item|p1a: Celebi|Leftovers|[from] move: Trick
+|-enditem|p2a: Latios|Leftovers|[silent]|[from] move: Trick
+|move|p1a: Celebi|Psychic|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|34/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|31/100|[from] item: Leftovers
+|-damage|p2a: Latios|22/100 brn|[from] brn
+|upkeep
+|turn|33
+|c|☆CroCoeur|thanks
+|c|☆refsunpersons|parting gift lol
+|
+|move|p2a: Latios|Draco Meteor|p1a: Celebi
+|-damage|p1a: Celebi|0
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Latios|9/100 brn|[from] brn
+|upkeep
+|c|☆refsunpersons|gg
+|
+|switch|p1a: Politoed|Politoed, M|76/100
+|-damage|p1a: Politoed|63/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Politoed|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 brn
+|faint|p2a: Latios
+|
+|win|CroCoeur
+|raw|CroCoeur's rating: 1459 &rarr; <strong>1474</strong><br />(+15 for winning)
+|raw|refsunpersons's rating: 1364 &rarr; <strong>1349</strong><br />(-15 for losing)
+|c|☆CroCoeur|gg

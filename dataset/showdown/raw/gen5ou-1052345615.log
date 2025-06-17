@@ -1,0 +1,139 @@
+|j|☆risengamer2008
+|j|☆sam92
+|player|p1|risengamer2008|camper|1426
+|player|p2|sam92|101|1515
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Breloom, M|item
+|poke|p1|Forretress, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Thundurus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sam92)
+|j| carry la patte
+|
+|start
+|switch|p1a: sticky fingers|Latios, M|100/100
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: sticky fingers|Trick|p2a: Ferrothorn
+|-activate|p1a: sticky fingers|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p1a: sticky fingers|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: personal frame|Rotom-Wash|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: personal frame
+|-sidestart|p1: risengamer2008|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|move|p1a: personal frame|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Politoed|Encore|p1a: personal frame
+|-start|p1a: personal frame|Encore
+|move|p1a: personal frame|Will-O-Wisp|p2a: Politoed
+|-fail|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: sticky fingers|Latios, M|100/100
+|-damage|p1a: sticky fingers|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: sticky fingers|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: spirited away|Forretress, F|100/100
+|-damage|p1a: spirited away|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: spirited away
+|-start|p1a: spirited away|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: spirited away|94/100|[from] item: Leftovers
+|-damage|p1a: spirited away|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|7
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|move|p1a: spirited away|Rapid Spin|p2a: Toxicroak
+|-damage|p2a: Toxicroak|95/100
+|-end|p1a: spirited away|Leech Seed|[from] move: Rapid Spin|[of] p1a: spirited away
+|-sideend|p1: risengamer2008|Stealth Rock|[from] move: Rapid Spin|[of] p1a: spirited away
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|100/100|[from] ability: Dry Skin
+|-heal|p1a: spirited away|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: spirited away|Spikes|p2a: Toxicroak
+|-sidestart|p2: sam92|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: spirited away|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: spirited away|Earthquake|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-crit|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: spirited away|100/100|[from] item: Leftovers
+|upkeep
+|-message|sam92 forfeited.
+|
+|win|risengamer2008
+|l|☆sam92
+|raw|risengamer2008's rating: 1426 &rarr; <strong>1451</strong><br />(+25 for winning)
+|raw|sam92's rating: 1515 &rarr; <strong>1490</strong><br />(-25 for losing)

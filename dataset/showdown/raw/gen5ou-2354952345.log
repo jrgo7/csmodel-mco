@@ -1,0 +1,482 @@
+|j|☆Carnelia Rose
+|j|☆Invisible Enemy
+|player|p1|Carnelia Rose|101
+|player|p2|Invisible Enemy|168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, M|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Invisible Enemy)
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|turn|1
+|
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|76/100
+|move|p1a: Amoonguss|Stun Spore||[still]
+|-fail|p1a: Amoonguss
+|
+|upkeep
+|turn|2
+|
+|-singleturn|p2a: Toxicroak|move: Focus Punch
+|move|p1a: Amoonguss|Hidden Power|p2a: Toxicroak
+|-activate|p2a: Toxicroak|Substitute|[damage]
+|move|p2a: Toxicroak|Focus Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|51/100
+|-damage|p2a: Toxicroak|66/100|[from] item: Life Orb
+|
+|-heal|p1a: Amoonguss|58/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Toxicroak|Ice Punch|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Toxicroak|56/100|[from] item: Life Orb
+|faint|p1a: Amoonguss
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|4
+|
+|-singleturn|p2a: Toxicroak|move: Focus Punch
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|76/100
+|move|p2a: Toxicroak|Focus Punch|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-damage|p2a: Toxicroak|46/100|[from] item: Life Orb
+|
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Jirachi|Thunder|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Jirachi|Icy Wind|p2a: Excadrill
+|-damage|p2a: Excadrill|85/100
+|-unboost|p2a: Excadrill|spe|1
+|move|p2a: Excadrill|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Carnelia Rose|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|98/100|[from] item: Leftovers
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Gliscor|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|95/100
+|-enditem|p2a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rotom|Hidden Power|p1a: Tyranitar
+|-damage|p1a: Tyranitar|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|88/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p2a: Rotom|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|60/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Tyranitar|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Chople Berry|[eat]
+|-enditem|p2a: Ferrothorn|Chople Berry|[weaken]
+|-damage|p2a: Ferrothorn|72/100
+|-damage|p1a: Tyranitar|48/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Excadrill|Excadrill, F|98/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Magnezone|Sunny Day|p1a: Magnezone
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|switch|p2a: Rotom|Rotom-Wash|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Excadrill|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|-enditem|p2a: Politoed|Custap Berry|[eat]
+|-activate|p2a: Politoed|item: Custap Berry|[consumed]
+|
+|switch|p1a: Tyranitar|Tyranitar, F|48/100
+|-damage|p1a: Tyranitar|36/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Politoed|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|17/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|18
+|
+|move|p1a: Excadrill|Substitute|p1a: Excadrill
+|-start|p1a: Excadrill|Substitute
+|-damage|p1a: Excadrill|73/100
+|move|p2a: Politoed|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-end|p1a: Excadrill|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|10/100|[from] Sandstorm
+|-heal|p1a: Excadrill|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Excadrill|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|20
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Mienshao|High Jump Kick|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|55/100 tox
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|85/100|[from] Sandstorm
+|-heal|p1a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|switch|p1a: Jirachi|Jirachi|75/100
+|-damage|p1a: Jirachi|69/100|[from] Stealth Rock
+|move|p2a: Mienshao|Hidden Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|61/100
+|-damage|p2a: Mienshao|75/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|69/100|[from] Sandstorm
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Mienshao|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|38/100
+|-damage|p2a: Mienshao|59/100|[from] item: Life Orb
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Jirachi|Icy Wind|p2a: Excadrill
+|-damage|p2a: Excadrill|86/100
+|-unboost|p2a: Excadrill|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|44/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|92/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Rotom|Rotom-Wash|88/100
+|move|p1a: Jirachi|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|73/100|[from] Sandstorm
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Excadrill|Excadrill, F|85/100
+|-damage|p1a: Excadrill|82/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Rotom|Volt Switch|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|67/100|[from] Sandstorm
+|-heal|p1a: Excadrill|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Toxicroak|Toxicroak, F|46/100
+|move|p1a: Excadrill|Substitute|p1a: Excadrill
+|-start|p1a: Excadrill|Substitute
+|-damage|p1a: Excadrill|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|40/100|[from] Sandstorm
+|-heal|p1a: Excadrill|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Excadrill|Earthquake|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|72/100
+|turn|27
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-end|p1a: Excadrill|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|81/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|36/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mienshao|Mienshao, M|92/100
+|turn|30
+|
+|switch|p1a: Gliscor|Gliscor, M|68/100 tox
+|-damage|p1a: Gliscor|55/100 tox|[from] Stealth Rock
+|move|p2a: Mienshao|High Jump Kick|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|21/100 tox
+|-damage|p2a: Mienshao|82/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|76/100|[from] Sandstorm
+|-heal|p1a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|move|p2a: Mienshao|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-damage|p2a: Mienshao|66/100|[from] item: Life Orb
+|faint|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|60/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|94/100
+|-damage|p1a: Magnezone|88/100|[from] Stealth Rock
+|turn|32
+|
+|switch|p2a: Excadrill|Excadrill, F|92/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Magnezone|Hidden Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|50/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Jirachi|Jirachi|50/100
+|-damage|p1a: Jirachi|44/100|[from] Stealth Rock
+|move|p2a: Excadrill|Protect||[still]
+|-fail|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|56/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Jirachi|Icy Wind|p2a: Excadrill
+|-damage|p2a: Excadrill|41/100
+|-unboost|p2a: Excadrill|spe|1
+|move|p2a: Excadrill|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|42/100
+|-damage|p1a: Excadrill|39/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|35
+|
+|move|p1a: Excadrill|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mienshao|Mienshao, M|93/100
+|turn|36
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Mienshao|84/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienshao|78/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|88/100
+|-damage|p1a: Magnezone|82/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-enditem|p1a: Magnezone|Chople Berry|[eat]
+|-enditem|p1a: Magnezone|Chople Berry|[weaken]
+|-damage|p1a: Magnezone|0 fnt
+|-damage|p2a: Mienshao|68/100|[from] item: Life Orb
+|faint|p1a: Magnezone
+|
+|win|Invisible Enemy
+|raw|Carnelia Rose's rating: 1425 &rarr; <strong>1409</strong><br />(-16 for losing)
+|raw|Invisible Enemy's rating: 1494 &rarr; <strong>1510</strong><br />(+16 for winning)
+|c|☆Invisible Enemy|Gg!
+|l|☆Carnelia Rose

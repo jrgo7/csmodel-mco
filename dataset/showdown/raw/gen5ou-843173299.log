@@ -1,0 +1,341 @@
+|j|☆luludzn
+|j|☆Caster33
+|player|p1|luludzn|140
+|player|p2|Caster33|153
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Kyurem|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Reuniclus, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Excadrill, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Caster33)
+|
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|75/100
+|move|p2a: Politoed|Hypnosis||[still]
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Kyurem|Earth Power|p2a: Politoed
+|-damage|p2a: Politoed|70/100
+|move|p2a: Politoed|Ice Beam|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|63/100
+|move|p2a: Politoed|Ice Beam|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Kyurem|Earth Power|p2a: Politoed
+|-damage|p2a: Politoed|40/100
+|move|p2a: Politoed|Ice Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|42/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|48/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|98/100
+|move|p2a: Politoed|Focus Blast|p1a: Kyurem|[miss]
+|-miss|p2a: Politoed|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|move|p2a: Politoed|Focus Blast|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|93/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Politoed
+|-damage|p2a: Politoed|36/100
+|-enditem|p2a: Politoed|Water Gem|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Politoed|Hypnosis|p1a: Tentacruel
+|-status|p1a: Tentacruel|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100 slp|[from] ability: Rain Dish
+|upkeep
+|turn|8
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Toxicroak|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|88/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|94/100|[from] item: Black Sludge
+|-start|p1a: Politoed|perish3
+|-start|p2a: Toxicroak|perish3
+|upkeep
+|turn|10
+|
+|-singleturn|p2a: Toxicroak|move: Focus Punch
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Toxicroak|Focus Punch|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|75/100
+|-damage|p2a: Toxicroak|78/100|[from] item: Rocky Helmet|[of] p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|90/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|96/100|[from] item: Black Sludge
+|-start|p2a: Toxicroak|perish2
+|upkeep
+|turn|11
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Thundurus|Thunder|p1a: Reuniclus
+|-damage|p1a: Reuniclus|19/100
+|-damage|p2a: Thundurus|91/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Thundurus|Thunder|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|inactive|Caster33 has 120 seconds left.
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Thundurus|Hidden Power|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|move|p2a: Thundurus|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Thundurus|81/100|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|16
+|
+|move|p2a: Thundurus|Thunder|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|60/100
+|-damage|p2a: Thundurus|71/100|[from] item: Life Orb
+|move|p1a: Kyurem|Ice Beam|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Latios|Trick|p1a: Ferrothorn
+|-activate|p2a: Latios|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Toxicroak|Toxicroak, M|96/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Toxicroak
+|-damage|p2a: Toxicroak|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|56/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|63/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|38/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|50/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|56/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|97/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Reuniclus|Reuniclus, F|69/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Reuniclus
+|-sidestart|p1: luludzn|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Reuniclus
+|-status|p1a: Reuniclus|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|inactive|Caster33 has 120 seconds left.
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Reuniclus
+|-damage|p1a: Reuniclus|41/100 par
+|-damage|p2a: Ferrothorn|84/100|[from] item: Rocky Helmet|[of] p1a: Reuniclus
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|cant|p1a: Reuniclus|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|cant|p1a: Reuniclus|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Excadrill|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Gliscor
+|-damage|p1a: Gliscor|56/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|-message|luludzn forfeited.
+|
+|win|Caster33
+|l|☆luludzn
+|raw|luludzn's rating: 1338 &rarr; <strong>1314</strong><br />(-24 for losing)
+|raw|Caster33's rating: 1272 &rarr; <strong>1302</strong><br />(+30 for winning)
+|c|☆Caster33|gg

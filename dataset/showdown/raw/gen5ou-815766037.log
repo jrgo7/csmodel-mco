@@ -1,0 +1,289 @@
+|j|☆Invisible Enemy
+|j|☆Af_Nathan
+|player|p1|Invisible Enemy|52
+|player|p2|Af_Nathan|181
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Starmie|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Breloom, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Infernape, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Magnezone|item
+|teampreview
+|
+|start
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Lord of Apes|Infernape, M|100/100
+|turn|1
+|
+|switch|p2a: Washing Machine|Rotom-Wash|100/100
+|move|p1a: Starmie|Hydro Pump|p2a: Washing Machine|[miss]
+|-miss|p1a: Starmie|p2a: Washing Machine
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Washing Machine|Volt Switch|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|88/100
+|
+|switch|p2a: Stay Here!|Magnezone|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Stay Here!|Flash Cannon|p1a: Latios
+|-damage|p1a: Latios|44/100
+|move|p1a: Latios|Surf|p2a: Stay Here!
+|-damage|p2a: Stay Here!|33/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Stay Here!|Flash Cannon|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|79/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Washing Machine|Rotom-Wash|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Washing Machine
+|-resisted|p2a: Washing Machine
+|-damage|p2a: Washing Machine|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Washing Machine|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Washing Machine
+|-resisted|p2a: Washing Machine
+|-damage|p2a: Washing Machine|45/100
+|move|p2a: Washing Machine|Will-O-Wisp|p1a: Politoed|[miss]
+|-miss|p2a: Washing Machine|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Washing Machine|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Washing Machine
+|-resisted|p2a: Washing Machine
+|-damage|p2a: Washing Machine|24/100
+|move|p2a: Washing Machine|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|20/100
+|
+|switch|p2a: EspeonoepsE|Espeon, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Politoed|Hydro Pump|p2a: EspeonoepsE
+|-damage|p2a: EspeonoepsE|11/100
+|move|p2a: EspeonoepsE|Psychic|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: EspeonoepsE|1/100|[from] item: Life Orb
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|9
+|
+|move|p1a: Breloom|Mach Punch|p2a: EspeonoepsE
+|-resisted|p2a: EspeonoepsE
+|-damage|p2a: EspeonoepsE|0 fnt
+|faint|p2a: EspeonoepsE
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Lord of Apes|Infernape, M|100/100
+|turn|10
+|
+|switch|p1a: Latios|Latios, M|44/100
+|move|p2a: Lord of Apes|Close Combat|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|5/100
+|-unboost|p2a: Lord of Apes|def|1
+|-unboost|p2a: Lord of Apes|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Stay Here!|Magnezone|33/100
+|move|p1a: Latios|Psyshock|p2a: Stay Here!
+|-resisted|p2a: Stay Here!
+|-damage|p2a: Stay Here!|0 fnt
+|faint|p2a: Stay Here!
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Just Loom|Breloom, M|100/100
+|turn|12
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Just Loom|Mach Punch|p1a: Tornadus
+|-enditem|p2a: Just Loom|Fighting Gem|[from] gem|[move] Mach Punch
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Washing Machine|Rotom-Wash|24/100
+|move|p1a: Tornadus|Hurricane|p2a: Washing Machine
+|-resisted|p2a: Washing Machine
+|-damage|p2a: Washing Machine|0 fnt
+|faint|p2a: Washing Machine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: God of Dragons|Kyurem-Black|100/100
+|-ability|p2a: God of Dragons|Teravolt
+|turn|14
+|
+|switch|p1a: Latios|Latios, M|5/100
+|move|p2a: God of Dragons|Fusion Bolt|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|15
+|
+|switch|p2a: Lord of Apes|Infernape, M|100/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Lord of Apes
+|-sidestart|p2: Af_Nathan|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Lord of Apes|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Invisible Enemy|move: Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Lord of Apes
+|-damage|p2a: Lord of Apes|42/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Lord of Apes|Close Combat|p1a: Jirachi
+|-damage|p1a: Jirachi|46/100
+|-unboost|p2a: Lord of Apes|def|1
+|-unboost|p2a: Lord of Apes|spd|1
+|move|p1a: Jirachi|Thunder|p2a: Lord of Apes
+|-damage|p2a: Lord of Apes|0 fnt
+|faint|p2a: Lord of Apes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Just Loom|Breloom, M|100/100
+|-damage|p2a: Just Loom|94/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Jirachi|Iron Head|p2a: Just Loom
+|-damage|p2a: Just Loom|52/100
+|move|p2a: Just Loom|Spore|p1a: Jirachi
+|-status|p1a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|-singleturn|p2a: Just Loom|move: Focus Punch
+|switch|p1a: Tornadus|Tornadus, M|61/100
+|-damage|p1a: Tornadus|36/100|[from] Stealth Rock
+|move|p2a: Just Loom|Focus Punch|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Just Loom|Mach Punch|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|61/100
+|move|p1a: Starmie|Ice Beam|p2a: Just Loom
+|-supereffective|p2a: Just Loom
+|-damage|p2a: Just Loom|0 fnt
+|-damage|p1a: Starmie|51/100|[from] item: Life Orb
+|faint|p2a: Just Loom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: God of Dragons|Kyurem-Black|100/100
+|-damage|p2a: God of Dragons|76/100|[from] Stealth Rock
+|-ability|p2a: God of Dragons|Teravolt
+|turn|21
+|
+|move|p1a: Starmie|Ice Beam|p2a: God of Dragons
+|-damage|p2a: God of Dragons|44/100
+|-damage|p1a: Starmie|41/100|[from] item: Life Orb
+|move|p2a: God of Dragons|Outrage|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Breloom|Mach Punch|p2a: God of Dragons
+|-supereffective|p2a: God of Dragons
+|-damage|p2a: God of Dragons|0 fnt
+|faint|p2a: God of Dragons
+|
+|win|Invisible Enemy
+|c|☆Invisible Enemy|Gg
+|raw|Invisible Enemy's rating: 1482 &rarr; <strong>1493</strong><br />(+11 for winning)
+|raw|Af_Nathan's rating: 1329 &rarr; <strong>1317</strong><br />(-12 for losing)
+|c|☆Af_Nathan|gg
+|l|☆Af_Nathan

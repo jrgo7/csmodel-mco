@@ -1,0 +1,433 @@
+|join|happenstance
+|join|FS Princess Anna
+|player|p1|happenstance|169
+|player|p2|FS Princess Anna|96
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Latios, M, shiny
+|poke|p1|Infernape, M
+|poke|p1|Breloom, M
+|poke|p1|Alakazam, M, shiny
+|poke|p1|Forretress, F, shiny
+|poke|p1|Garchomp, F, shiny
+|poke|p2|Politoed, M
+|poke|p2|Gliscor, M
+|poke|p2|Kyurem
+|poke|p2|Chansey, F
+|poke|p2|Tentacruel, M
+|poke|p2|Skarmory, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, M|262/262
+|switch|p2a: Gliscor|Gliscor, M|353/353
+|turn|1
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: Skarmory|Skarmory, M|334/334
+|move|p1a: Breloom|Spore|p2a: Skarmory
+|-status|p2a: Skarmory|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|cant|p2a: Skarmory|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Breloom|Mach Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|133/334 slp
+|-curestatus|p2a: Skarmory|slp
+|move|p2a: Skarmory|Whirlwind|p1a: Breloom
+|drag|p1a: Alakazam|Alakazam, M, shiny|252/252
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|153/334|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Chansey|Chansey, F|642/642
+|move|p1a: Alakazam|Hidden Power|p2a: Chansey
+|-damage|p2a: Chansey|601/642
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Alakazam|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|415/642
+|move|p2a: Chansey|Stealth Rock|p1a: Alakazam
+|-sidestart|p1: happenstance|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|join|gutten_tag
+|
+|move|p1a: Alakazam|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|219/642
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|540/642
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Alakazam|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|338/642
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|152/252
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|switch|p1a: Forretress|Forretress, F, shiny|291/291
+|-damage|p1a: Forretress|255/291|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|642/642
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|switch|p2a: Kyurem|Kyurem|404/404
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Forretress|Toxic Spikes|p2a: Kyurem
+|-sidestart|p2: FS Princess Anna|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|303/404
+|move|p1a: Forretress|Explosion|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|faint|p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|328/404|[from] item: Leftovers
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|358/358
+|-damage|p1a: Garchomp|336/358|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Skarmory|Skarmory, M|153/334
+|move|p1a: Garchomp|Dragon Claw|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|70/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|90/334|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Garchomp|Brick Break|p2a: Skarmory
+|-damage|p2a: Skarmory|37/334
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|204/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|224/334|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Skarmory|Spikes|p1a: Garchomp
+|-sidestart|p1: happenstance|Spikes
+|move|p1a: Garchomp|Dragon Tail|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|194/334
+|drag|p2a: Kyurem|Kyurem|328/404
+|-status|p2a: Kyurem|psn
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|353/404 psn|[from] item: Leftovers
+|-damage|p2a: Kyurem|303/404 psn|[from] psn
+|turn|15
+|
+|switch|p2a: Tentacruel|Tentacruel, M|352/352
+|-sideend|p2: FS Princess Anna|move: Toxic Spikes|[of] p2a: Tentacruel
+|move|p1a: Garchomp|Dragon Claw|p2a: Tentacruel
+|-damage|p2a: Tentacruel|210/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|232/352|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|254/352|[from] item: Black Sludge
+|turn|16
+|
+|switch|p2a: Skarmory|Skarmory, M|194/334
+|move|p1a: Garchomp|Dragon Tail|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|164/334
+|drag|p2a: Chansey|Chansey, F|642/642
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p1a: Garchomp|Dragon Claw|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|231/642
+|move|p2a: Chansey|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Garchomp|314/358 tox|[from] psn
+|turn|18
+|
+|switch|p2a: Skarmory|Skarmory, M|164/334
+|move|p1a: Garchomp|Dragon Tail|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|129/334
+|drag|p2a: Tentacruel|Tentacruel, M|254/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|276/352|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|298/352|[from] item: Black Sludge
+|-damage|p1a: Garchomp|270/358 tox|[from] psn
+|turn|19
+|
+|switch|p1a: Breloom|Breloom, M|262/262
+|-damage|p1a: Breloom|230/262|[from] Spikes
+|-damage|p1a: Breloom|214/262|[from] Stealth Rock
+|switch|p2a: Gliscor|Gliscor, M|353/353
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|20
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Gliscor
+|-damage|p2a: Gliscor|307/353 tox
+|-damage|p2a: Gliscor|261/353 tox
+|-damage|p2a: Gliscor|218/353 tox
+|-hitcount|p2a: Gliscor|3
+|move|p2a: Gliscor|Taunt|p1a: Breloom
+|-start|p1a: Breloom|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|262/353 tox|[from] ability: Poison Heal
+|turn|21
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Gliscor
+|-damage|p2a: Gliscor|219/353 tox
+|-damage|p2a: Gliscor|177/353 tox
+|-damage|p2a: Gliscor|134/353 tox
+|-damage|p2a: Gliscor|88/353 tox
+|-hitcount|p2a: Gliscor|4
+|move|p2a: Gliscor|Toxic|p1a: Breloom
+|-status|p1a: Breloom|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Breloom|198/262 tox|[from] psn
+|-heal|p2a: Gliscor|132/353 tox|[from] ability: Poison Heal
+|turn|22
+|
+|switch|p1a: Alakazam|Alakazam, M, shiny|152/252
+|switch|p2a: Politoed|Politoed, M|384/384
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|move|p1a: Alakazam|Psyshock|p2a: Politoed
+|-damage|p2a: Politoed|264/384
+|move|p2a: Politoed|Scald|p1a: Alakazam
+|-damage|p1a: Alakazam|16/252
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|288/384|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: Latios|Latios, M, shiny|301/301
+|-damage|p1a: Latios|264/301|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|204/301
+|-status|p1a: Latios|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|312/384|[from] item: Leftovers
+|-damage|p1a: Latios|167/301 brn|[from] brn
+|turn|25
+|
+|move|p1a: Latios|Psyshock|p2a: Politoed
+|-damage|p2a: Politoed|188/384
+|move|p2a: Politoed|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|35/301 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|212/384|[from] item: Leftovers
+|-damage|p1a: Latios|0 fnt|[from] brn
+|faint|p1a: Latios
+|
+|switch|p1a: Breloom|Breloom, M|198/262 tox
+|-damage|p1a: Breloom|166/262 tox|[from] Spikes
+|-damage|p1a: Breloom|150/262 tox|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|104/384
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-hitcount|p2a: Politoed|2
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Breloom|134/262 tox|[from] psn
+|
+|switch|p2a: Skarmory|Skarmory, M|129/334
+|turn|27
+|
+|move|p1a: Breloom|Spore|p2a: Skarmory
+|-status|p2a: Skarmory|slp
+|cant|p2a: Skarmory|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|149/334 slp|[from] item: Leftovers
+|-damage|p1a: Breloom|102/262 tox|[from] psn
+|turn|28
+|
+|move|p1a: Breloom|Mach Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|83/334 slp
+|cant|p2a: Skarmory|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|103/334 slp|[from] item: Leftovers
+|-damage|p1a: Breloom|54/262 tox|[from] psn
+|turn|29
+|
+|move|p1a: Breloom|Mach Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|36/334 slp
+|cant|p2a: Skarmory|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|56/334 slp|[from] item: Leftovers
+|-damage|p1a: Breloom|0 fnt|[from] psn
+|faint|p1a: Breloom
+|
+|switch|p1a: Infernape|Infernape, M|294/294
+|-damage|p1a: Infernape|258/294|[from] Stealth Rock
+|-damage|p1a: Infernape|222/294|[from] Spikes
+|turn|30
+|
+|move|p1a: Infernape|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Gliscor|Gliscor, M|132/353 tox
+|turn|31
+|
+|move|p1a: Infernape|Fire Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|86/353 tox
+|move|p2a: Gliscor|Earthquake|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|130/353 tox|[from] ability: Poison Heal
+|
+|switch|p1a: Alakazam|Alakazam, M, shiny|16/252
+|turn|32
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chansey|Chansey, F|231/642
+|turn|33
+|
+|move|p1a: Alakazam|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|48/642
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|369/642
+|
+|-weather|RainDance|[upkeep]
+|turn|34
+|
+|move|p1a: Alakazam|Psyshock|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|chat|FS Princess Anna|really
+|
+|switch|p2a: Kyurem|Kyurem|303/404 psn
+|-ability|p2a: Kyurem|Pressure
+|turn|35
+|
+|move|p1a: Alakazam|Psyshock|p2a: Kyurem
+|-damage|p2a: Kyurem|146/404 psn
+|move|p2a: Kyurem|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|171/404 psn|[from] item: Leftovers
+|-damage|p2a: Kyurem|121/404 psn|[from] psn
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|270/358 tox
+|-damage|p1a: Garchomp|248/358 tox|[from] Stealth Rock
+|-damage|p1a: Garchomp|204/358 tox|[from] Spikes
+|turn|36
+|chat|happenstance|you had some lucky breaks yourself
+|
+|move|p1a: Garchomp|Dragon Claw|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Garchomp|182/358 tox|[from] psn
+|
+|switch|p2a: Tentacruel|Tentacruel, M|298/352
+|turn|37
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Tentacruel
+|-activate|p2a: Tentacruel|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|320/352|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|342/352|[from] item: Black Sludge
+|-damage|p1a: Garchomp|138/358 tox|[from] psn
+|turn|38
+|
+|move|p1a: Garchomp|Earthquake|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|win|happenstance
+|raw|Ladder updating...
+|raw|happenstance's rating: 1401 &rarr; <strong>1421</strong><br />(+20 for winning)
+|raw|FS Princess Anna's rating: 1390 &rarr; <strong>1371</strong><br />(-19 for losing)
+|chat|FS Princess Anna|what was your garchomps attack?
+|leave|gutten_tag
+|leave|happenstance
+|player|p1

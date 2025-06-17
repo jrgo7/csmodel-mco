@@ -1,0 +1,413 @@
+|j|☆Akamatis assos
+|j|☆Bratt Pid
+|player|p1|Akamatis assos|141
+|player|p2|Bratt Pid|137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Skarmory, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Heatran, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bratt Pid)
+|inactive|Akamatis assos has 135 seconds left.
+|
+|start
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Keldeo|atk|1
+|turn|1
+|
+|move|p2a: Landorus|U-turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|86/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Ferrothorn|[miss]
+|-miss|p1a: Keldeo|p2a: Ferrothorn
+|
+|upkeep
+|turn|2
+|inactive|Akamatis assos has 135 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Akamatis assos|move: Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Bratt Pid|Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: Akamatis assos|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Bratt Pid|Spikes
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: Akamatis assos|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Bratt Pid|Spikes
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: Akamatis assos|Spikes
+|move|p1a: Skarmory|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|cant|p1a: Skarmory|par
+|
+|upkeep
+|turn|8
+|inactive|Akamatis assos has 135 seconds left.
+|
+|move|p2a: Heatran|Magma Storm|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-ability|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1/100 par
+|-activate|p1a: Skarmory|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Skarmory|Whirlwind|p2a: Heatran
+|drag|p2a: Latias|Latias, F|100/100
+|
+|-heal|p1a: Skarmory|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-damage|p1a: Tyranitar|63/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Heatran|Sunny Day|p2a: Heatran
+|-weather|SunnyDay
+|move|p1a: Tyranitar|Superpower|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|12/100
+|-enditem|p2a: Heatran|Air Balloon
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Skarmory|Skarmory, F|7/100 par
+|-damage|p1a: Skarmory|0 fnt|[from] Stealth Rock
+|faint|p1a: Skarmory
+|move|p2a: Heatran|Solar Beam|p1: Skarmory|[still]
+|-prepare|p2a: Heatran|Solar Beam|p1: Skarmory
+|-anim|p2a: Heatran|Solar Beam|p1: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Akamatis assos has 135 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|turn|13
+|inactive|Akamatis assos has 135 seconds left.
+|inactive|Akamatis assos has 120 seconds left.
+|
+|move|p2a: Landorus|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|22/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|75/100|[from] Spikes
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|58/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|32/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Hydreigon
+|-status|p1a: Hydreigon|par
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|38/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Ferrothorn|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|86/100
+|-damage|p1a: Keldeo|61/100|[from] Spikes
+|-damage|p1a: Keldeo|55/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Keldeo|atk|1
+|turn|17
+|inactive|Akamatis assos has 135 seconds left.
+|
+|move|p2a: Landorus|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|76/100|[from] Spikes
+|-damage|p1a: Amoonguss|63/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Landorus|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|10/100
+|move|p1a: Amoonguss|Spore|p2a: Landorus
+|-status|p2a: Landorus|slp
+|
+|-heal|p1a: Amoonguss|16/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|cant|p2a: Landorus|slp
+|move|p1a: Amoonguss|Stun Spore|p2a: Landorus
+|-fail|p2a: Landorus
+|
+|-heal|p1a: Amoonguss|22/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|cant|p2a: Landorus|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|70/100 slp
+|-heal|p1a: Amoonguss|35/100|[from] drain|[of] p2a: Landorus
+|
+|-heal|p1a: Amoonguss|41/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|cant|p2a: Landorus|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|40/100 slp
+|-heal|p1a: Amoonguss|53/100|[from] drain|[of] p2a: Landorus
+|
+|-heal|p1a: Amoonguss|59/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|-curestatus|p2a: Landorus|slp|[msg]
+|move|p2a: Landorus|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|7/100
+|move|p1a: Amoonguss|Spore|p2a: Landorus
+|-status|p2a: Landorus|slp
+|
+|-heal|p1a: Amoonguss|14/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|cant|p2a: Landorus|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|10/100 slp
+|-heal|p1a: Amoonguss|26/100|[from] drain|[of] p2a: Landorus
+|
+|-heal|p1a: Amoonguss|32/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|inactive|Akamatis assos has 135 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p1a: Garchomp|69/100|[from] Spikes
+|cant|p2a: Landorus|slp
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Garchomp|Dual Chop|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-hitcount|p2a: Landorus|1
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|76/100|[from] Spikes
+|turn|26
+|inactive|Akamatis assos has 135 seconds left.
+|
+|switch|p1a: Amoonguss|Amoonguss, F|65/100
+|-damage|p1a: Amoonguss|40/100|[from] Spikes
+|-damage|p1a: Amoonguss|28/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Ice Shard|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|63/100
+|-damage|p1a: Tyranitar|51/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|26/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|27
+|inactive|Akamatis assos has 135 seconds left.
+|inactive|Bratt Pid has 135 seconds left.
+|inactive|Akamatis assos has 120 seconds left.
+|inactive|Bratt Pid has 120 seconds left.
+|inactive|Bratt Pid has 105 seconds left.
+|inactive|Akamatis assos has 105 seconds left.
+|
+|-activate|p2a: Mamoswine|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Mamoswine|[from]Pursuit
+|-damage|p2a: Mamoswine|26/100
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|inactive|Bratt Pid has 135 seconds left.
+|inactive|Bratt Pid has 120 seconds left.
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Tyranitar
+|-damage|p1a: Tyranitar|13/100
+|move|p1a: Tyranitar|Pursuit|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|-enditem|p1a: Tyranitar|Custap Berry|[eat]
+|-activate|p1a: Tyranitar|item: Custap Berry|[consumed]
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Alakazam
+|-sidestart|p2: Bratt Pid|move: Stealth Rock
+|move|p2a: Alakazam|Hidden Power|p1a: Tyranitar
+|-damage|p1a: Tyranitar|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|30
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F|69/100
+|-damage|p1a: Garchomp|63/100|[from] Stealth Rock
+|-damage|p1a: Garchomp|38/100|[from] Spikes
+|turn|31
+|inactive|Bratt Pid has 135 seconds left.
+|
+|move|p1a: Garchomp|Outrage|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|32
+|
+|switch|p2a: Mamoswine|Mamoswine, M|26/100
+|-damage|p2a: Mamoswine|14/100|[from] Stealth Rock
+|-damage|p2a: Mamoswine|0 fnt|[from] Spikes
+|faint|p2a: Mamoswine
+|move|p1a: Garchomp|Outrage|p2: Mamoswine|[from]lockedmove|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|88/100
+|-damage|p2a: Latias|76/100|[from] Stealth Rock
+|turn|33
+|c|☆Bratt Pid|bg
+|c|☆Akamatis assos|lol
+|c|☆Akamatis assos|outplayed
+|
+|move|p1a: Garchomp|Outrage|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|win|Akamatis assos
+|raw|Akamatis assos's rating: 1478 &rarr; <strong>1501</strong><br />(+23 for winning)
+|raw|Bratt Pid's rating: 1530 &rarr; <strong>1507</strong><br />(-23 for losing)
+|l|☆Bratt Pid

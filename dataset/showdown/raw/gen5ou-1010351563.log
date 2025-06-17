@@ -1,0 +1,333 @@
+|j|☆Spritzalcianuro96
+|j|☆Felines
+|player|p1|Spritzalcianuro96|n|1403
+|player|p2|Felines|dawn-gen4pt|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Mamoswine, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Salamence, M|item
+|poke|p1|Magnezone|item
+|poke|p2|Politoed, M|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Keldeo|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Thundurus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spritzalcianuro96)
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Like That|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Like That
+|turn|1
+|
+|move|p2a: Like That|Surf|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-crit|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|move|p1a: Mamoswine|Stealth Rock|p2a: Like That
+|-sidestart|p2: Felines|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Like That|Surf|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|75/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Addiction|Ferrothorn, M|100/100
+|-damage|p2a: Addiction|94/100|[from] Stealth Rock
+|move|p1a: Kyurem|Outrage|p2a: Addiction
+|-resisted|p2a: Addiction
+|-damage|p2a: Addiction|50/100
+|-damage|p1a: Kyurem|62/100|[from] ability: Iron Barbs|[of] p2a: Addiction
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Addiction|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Kyurem|Outrage|p2a: Addiction|[from]lockedmove
+|-resisted|p2a: Addiction
+|-damage|p2a: Addiction|15/100
+|-damage|p1a: Kyurem|50/100|[from] ability: Iron Barbs|[of] p2a: Addiction
+|-start|p1a: Kyurem|confusion|[fatigue]
+|move|p2a: Addiction|Leech Seed|p1a: Kyurem
+|-start|p1a: Kyurem|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Addiction|21/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|37/100|[from] Leech Seed|[of] p2a: Addiction
+|-heal|p2a: Addiction|35/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Rules|Tentacruel, F|100/100
+|-damage|p2a: Rules|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rules|94/100|[from] ability: Rain Dish
+|-heal|p2a: Rules|99/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p2a: Rules|Rapid Spin|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|99/100
+|-sideend|p2: Felines|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Rules
+|move|p1a: Magnezone|Flash Cannon|p2a: Rules
+|-resisted|p2a: Rules
+|-damage|p2a: Rules|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rules|81/100|[from] ability: Rain Dish
+|-heal|p2a: Rules|88/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Mamoswine|Mamoswine, M|1/100
+|move|p2a: Rules|Scald|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rules|94/100|[from] ability: Rain Dish
+|-heal|p2a: Rules|99/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|8
+|
+|move|p2a: Rules|Protect|p2a: Rules
+|-singleturn|p2a: Rules|Protect
+|move|p1a: Latios|Psyshock|p2a: Rules
+|-activate|p2a: Rules|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rules|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|9
+|
+|switch|p2a: Like That|Politoed, M|100/100
+|move|p1a: Latios|Psyshock|p2a: Like That
+|-damage|p2a: Like That|9/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Like That|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|42/100
+|move|p1a: Latios|Psyshock|p2a: Like That
+|-crit|p2a: Like That
+|-damage|p2a: Like That|0 fnt
+|faint|p2a: Like That
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Addiction|Ferrothorn, M|35/100
+|turn|11
+|
+|switch|p1a: Magnezone|Magnezone|99/100
+|move|p2a: Addiction|Leech Seed|p1a: Magnezone
+|-start|p1a: Magnezone|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Addiction|41/100|[from] item: Leftovers
+|-damage|p1a: Magnezone|87/100|[from] Leech Seed|[of] p2a: Addiction
+|-heal|p2a: Addiction|51/100|[silent]
+|upkeep
+|turn|12
+|
+|move|p1a: Magnezone|Hidden Power|p2a: Addiction
+|-supereffective|p2a: Addiction
+|-crit|p2a: Addiction
+|-damage|p2a: Addiction|0 fnt
+|faint|p2a: Addiction
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Say So|Keldeo|100/100
+|turn|13
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Say So|Hydro Pump|p1a: Scizor|[miss]
+|-miss|p2a: Say So|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p1a: Scizor|Quick Attack|p2a: Say So
+|-damage|p2a: Say So|59/100
+|move|p2a: Say So|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Spritzalcianuro96 has 120 seconds left.
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|15
+|
+|switch|p2a: Rules|Tentacruel, F|100/100
+|move|p1a: Salamence|Outrage|p2a: Rules
+|-damage|p2a: Rules|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rules|37/100|[from] ability: Rain Dish
+|-heal|p2a: Rules|43/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Rules|Protect|p2a: Rules
+|-singleturn|p2a: Rules|Protect
+|move|p1a: Salamence|Outrage|p2a: Rules|[from]lockedmove
+|-activate|p2a: Rules|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rules|49/100|[from] ability: Rain Dish
+|-heal|p2a: Rules|55/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p2a: Won't Bite|Gyarados, F|100/100
+|-ability|p2a: Won't Bite|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Outrage|p2a: Won't Bite
+|-damage|p2a: Won't Bite|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Won't Bite|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Salamence|Outrage|p2a: Won't Bite|[from]lockedmove
+|-damage|p2a: Won't Bite|7/100
+|-start|p1a: Salamence|confusion|[fatigue]
+|move|p2a: Won't Bite|Dragon Dance|p2a: Won't Bite
+|-boost|p2a: Won't Bite|atk|1
+|-boost|p2a: Won't Bite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Won't Bite|13/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Magnezone|Magnezone|87/100
+|move|p2a: Won't Bite|Waterfall|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Won't Bite|19/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|20
+|
+|move|p1a: Salamence|Outrage|p2a: Won't Bite
+|-crit|p2a: Won't Bite
+|-damage|p2a: Won't Bite|0 fnt
+|faint|p2a: Won't Bite
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Streets|Thundurus-Therian, M|100/100
+|turn|21
+|
+|move|p1a: Salamence|Outrage|p2a: Streets|[from]lockedmove
+|-damage|p2a: Streets|0 fnt
+|-start|p1a: Salamence|confusion|[fatigue]
+|faint|p2a: Streets
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Say So|Keldeo|59/100
+|turn|22
+|
+|switch|p1a: Latios|Latios, M|42/100
+|move|p2a: Say So|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|37/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|23
+|
+|move|p2a: Say So|Hidden Power|p1a: Kyurem
+|-damage|p1a: Kyurem|5/100
+|move|p1a: Kyurem|Fusion Bolt|p2a: Say So
+|-supereffective|p2a: Say So
+|-damage|p2a: Say So|0 fnt
+|faint|p2a: Say So
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Rules|Tentacruel, F|55/100
+|turn|24
+|
+|move|p2a: Rules|Protect|p2a: Rules
+|-singleturn|p2a: Rules|Protect
+|move|p1a: Kyurem|Fusion Bolt|p2a: Rules
+|-activate|p2a: Rules|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rules|61/100|[from] ability: Rain Dish
+|-heal|p2a: Rules|67/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Rules
+|-supereffective|p2a: Rules
+|-damage|p2a: Rules|0 fnt
+|faint|p2a: Rules
+|
+|win|Spritzalcianuro96
+|l|☆Felines
+|raw|Spritzalcianuro96's rating: 1488 &rarr; <strong>1499</strong><br />(+11 for winning)
+|raw|Felines's rating: 1319 &rarr; <strong>1308</strong><br />(-11 for losing)

@@ -1,0 +1,449 @@
+|j|☆HIV transmission
+|j|☆PumpedAaron
+|player|p1|HIV transmission|lady-gen4|1337
+|player|p2|PumpedAaron|chuck|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Machamp, F|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Jirachi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PumpedAaron)
+|
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|turn|1
+|
+|move|p1a: Tornadus|Hurricane|p2a: Jellicent
+|-damage|p2a: Jellicent|21/100
+|move|p2a: Jellicent|Scald|p1a: Tornadus
+|-damage|p1a: Tornadus|68/100
+|
+|-heal|p2a: Jellicent|27/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Jirachi|Fire Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|46/100
+|
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|52/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Jirachi|Fire Punch|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|7
+|
+|move|p2a: Jirachi|Body Slam|p1a: Politoed
+|-damage|p1a: Politoed|83/100
+|move|p1a: Politoed|Scald|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Politoed|89/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Jellicent|Jellicent, F|27/100
+|move|p1a: Politoed|Scald|p2a: Jellicent
+|-heal|p2a: Jellicent|52/100|[from] ability: Water Absorb|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|95/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Politoed|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|move|p2a: Jellicent|Taunt|p1a: Politoed
+|-start|p1a: Politoed|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|100/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|58/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Tornadus|Tornadus, M|68/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tornadus|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|74/100
+|
+|switch|p1a: Politoed|Politoed, F|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Tornadus|Tornadus, M|68/100
+|switch|p2a: Jellicent|Jellicent, F|88/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Tyranitar|Tyranitar, F|74/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tornadus|Hurricane|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|-start|p2a: Tyranitar|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|62/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Jellicent|Jellicent, F|88/100 tox
+|move|p1a: Politoed|Scald|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 tox|[from] ability: Water Absorb|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Jellicent|Scald|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Jellicent|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|93/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|76/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: PumpedAaron|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Jirachi|Body Slam|p1a: Politoed
+|-damage|p1a: Politoed|82/100
+|-status|p1a: Politoed|par
+|cant|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Politoed|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Jirachi|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|77/100 par
+|move|p1a: Politoed|Scald|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Politoed|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Jellicent|Jellicent, F|76/100 tox
+|-damage|p2a: Jellicent|63/100 tox|[from] Stealth Rock
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|63/100 tox|[from] psn
+|upkeep
+|turn|23
+|inactive|PumpedAaron has 120 seconds left.
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Thundurus|Agility|p1a: Thundurus
+|-boost|p1a: Thundurus|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-damage|p1a: Thundurus|91/100|[from] item: Life Orb
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|32/100
+|-damage|p2a: Tyranitar|20/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|25
+|
+|switch|p2a: Jellicent|Jellicent, F|63/100 tox
+|-damage|p2a: Jellicent|51/100 tox|[from] Stealth Rock
+|move|p1a: Thundurus|Thunder|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-damage|p1a: Thundurus|81/100|[from] item: Life Orb
+|faint|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|75/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|94/100
+|-damage|p2a: Jirachi|88/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Politoed|Politoed, F|83/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p1a: Politoed|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Jirachi|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|77/100 par
+|move|p1a: Politoed|Scald|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p1a: Politoed|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|50/100
+|move|p1a: Politoed|Scald|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|56/100|[from] item: Leftovers
+|-heal|p1a: Politoed|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|cant|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|75/100
+|move|p2a: Skarmory|Spikes|p1a: Thundurus
+|-sidestart|p1: HIV transmission|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p1a: Thundurus|Thunder|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Thundurus|65/100|[from] item: Life Orb
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|20/100
+|-damage|p2a: Tyranitar|7/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|32
+|
+|move|p1a: Thundurus|Hidden Power|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Thundurus|56/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|50/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|56/100
+|-damage|p2a: Jirachi|50/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p1a: Politoed|Politoed, F|95/100 par
+|-damage|p1a: Politoed|83/100 par|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Machamp|Machamp, F|100/100
+|-damage|p2a: Machamp|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Politoed
+|-damage|p1a: Politoed|42/100 par
+|-start|p1a: Politoed|confusion
+|-activate|p1a: Politoed|confusion
+|move|p1a: Politoed|Scald|p2a: Machamp
+|-damage|p2a: Machamp|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Politoed
+|-damage|p1a: Politoed|5/100 par
+|-end|p1a: Politoed|confusion
+|move|p1a: Politoed|Scald|p2a: Machamp
+|-damage|p2a: Machamp|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|62/100
+|turn|37
+|
+|move|p1a: Tornadus|Hurricane|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|50/100
+|-damage|p2a: Jirachi|44/100|[from] Stealth Rock
+|turn|38
+|-message|PumpedAaron forfeited.
+|
+|win|HIV transmission
+|l|☆PumpedAaron
+|raw|HIV transmission's rating: 1337 &rarr; <strong>1358</strong><br />(+21 for winning)
+|raw|PumpedAaron's rating: 1341 &rarr; <strong>1321</strong><br />(-20 for losing)

@@ -1,0 +1,354 @@
+|j|Studs McPoopy
+|j|Snowenn
+|player|p1|Studs McPoopy|169
+|player|p2|Snowenn|264
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|58373,3207,12600,60106
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, F, shiny|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Breloom, M, shiny|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Starmie, shiny|item
+|poke|p1|Scizor, F|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Walrein, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Mamoswine, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Breloom|Breloom, M, shiny|261/261
+|switch|p2a: Tentacruel|Tentacruel, F|364/364
+|turn|1
+|choice|move bulletseed|move toxicspikes
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Breloom
+|-sidestart|p1: Studs McPoopy|move: Toxic Spikes
+|move|p1a: Breloom|Bullet Seed|p2a: Tentacruel
+|-damage|p2a: Tentacruel|258/364
+|-damage|p2a: Tentacruel|153/364
+|-damage|p2a: Tentacruel|54/364
+|-hitcount|p2a: Tentacruel|3
+|
+|-heal|p2a: Tentacruel|76/364|[from] item: Black Sludge
+|upkeep
+|turn|2
+|choice|move bulletseed|move scald
+|
+|move|p2a: Tentacruel|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|204/261
+|move|p1a: Breloom|Bullet Seed|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-hitcount|p2a: Tentacruel|1
+|faint|p2a: Tentacruel
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mamoswine|Mamoswine, M|361/361
+|turn|3
+|choice|move spore|move iceshard
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|34/261
+|move|p1a: Breloom|Spore|p2a: Mamoswine
+|-status|p2a: Mamoswine|slp
+|
+|upkeep
+|turn|4
+|choice|move bulletseed|move iceshard
+|
+|cant|p2a: Mamoswine|slp
+|move|p1a: Breloom|Bullet Seed|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|181/361 slp
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|17/361 slp
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-hitcount|p2a: Mamoswine|3
+|faint|p2a: Mamoswine
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Abomasnow|Abomasnow, F|384/384
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|5
+|choice|move machpunch|move iceshard
+|
+|move|p1a: Breloom|Mach Punch|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|60/384
+|move|p2a: Abomasnow|Ice Shard|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Dragonite|Dragonite, M|324/324
+|turn|6
+|choice|move extremespeed|move iceshard
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dragonite|304/324|[from] hail
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Walrein|Walrein, M|424/424
+|turn|7
+|choice|move dragondance|move substitute
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Walrein|Substitute|p2a: Walrein
+|-start|p2a: Walrein|Substitute
+|-damage|p2a: Walrein|318/424
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dragonite|284/324|[from] hail
+|-heal|p2a: Walrein|344/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|370/424|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move extremespeed|move blizzard
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Walrein
+|-end|p2a: Walrein|Substitute
+|move|p2a: Walrein|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Walrein|396/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|422/424|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Starmie|Starmie, shiny|261/261
+|-status|p1a: Starmie|psn
+|turn|9
+|choice|move thunder|move substitute
+|
+|move|p1a: Starmie|Thunder|p2a: Walrein|[miss]
+|-miss|p1a: Starmie|p2a: Walrein
+|move|p2a: Walrein|Substitute|p2a: Walrein
+|-start|p2a: Walrein|Substitute
+|-damage|p2a: Walrein|316/424
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|245/261 psn|[from] hail
+|-heal|p2a: Walrein|342/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|368/424|[from] item: Leftovers
+|-damage|p1a: Starmie|213/261 psn|[from] psn
+|upkeep
+|turn|10
+|choice|move thunder|move superfang
+|
+|move|p1a: Starmie|Thunder|p2a: Walrein|[miss]
+|-miss|p1a: Starmie|p2a: Walrein
+|move|p2a: Walrein|Super Fang|p1a: Starmie
+|-damage|p1a: Starmie|107/261 psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|91/261 psn|[from] hail
+|-heal|p2a: Walrein|394/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|420/424|[from] item: Leftovers
+|-damage|p1a: Starmie|59/261 psn|[from] psn
+|upkeep
+|turn|11
+|choice|move thunder|move protect
+|
+|move|p2a: Walrein|Protect|p2a: Walrein
+|-singleturn|p2a: Walrein|Protect
+|move|p1a: Starmie|Thunder|p2a: Walrein
+|-activate|p2a: Walrein|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|43/261 psn|[from] hail
+|-heal|p2a: Walrein|424/424|[from] ability: Ice Body
+|-damage|p1a: Starmie|11/261 psn|[from] psn
+|upkeep
+|turn|12
+|choice|switch 6|move protect
+|
+|switch|p1a: Scizor|Scizor, F|292/292
+|move|p2a: Walrein|Protect|p2a: Walrein
+|-fail|p2a: Walrein
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Scizor|274/292|[from] hail
+|upkeep
+|turn|13
+|choice|move swordsdance|move superfang
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Walrein|Super Fang|p1a: Scizor
+|-damage|p1a: Scizor|137/292
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Scizor|119/292|[from] hail
+|upkeep
+|turn|14
+|choice|move bulletpunch|move blizzard
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Walrein
+|-end|p2a: Walrein|Substitute
+|-damage|p1a: Scizor|90/292|[from] item: Life Orb
+|move|p2a: Walrein|Blizzard|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|5/292
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Scizor|0 fnt|[from] hail
+|upkeep
+|faint|p1a: Scizor
+|choice|switch 6|
+|
+|switch|p1a: Starmie|Starmie, shiny|11/261 psn
+|turn|15
+|choice|move thunder|move protect
+|
+|move|p2a: Walrein|Protect|p2a: Walrein
+|-singleturn|p2a: Walrein|Protect
+|move|p1a: Starmie|Thunder|p2a: Walrein
+|-activate|p2a: Walrein|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|0 fnt|[from] hail
+|upkeep
+|faint|p1a: Starmie
+|choice|switch 3|
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|373/373
+|-status|p1a: Garchomp|psn
+|turn|16
+|choice|move outrage|move blizzard
+|
+|move|p1a: Garchomp|Outrage|p2a: Walrein
+|-damage|p2a: Walrein|274/424
+|move|p2a: Walrein|Blizzard|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-enditem|p1a: Garchomp|Yache Berry|[weaken]
+|-damage|p1a: Garchomp|77/373 psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|54/373 psn|[from] hail
+|-heal|p2a: Walrein|300/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|326/424|[from] item: Leftovers
+|-damage|p1a: Garchomp|8/373 psn|[from] psn
+|upkeep
+|turn|17
+|choice|move outrage|move protect
+|
+|move|p2a: Walrein|Protect|p2a: Walrein
+|-singleturn|p2a: Walrein|Protect
+|move|p1a: Garchomp|Outrage|p2a: Walrein|[from]lockedmove
+|-activate|p2a: Walrein|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|0 fnt|[from] hail
+|-heal|p2a: Walrein|352/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|378/424|[from] item: Leftovers
+|upkeep
+|faint|p1a: Garchomp
+|c|★Studs McPoopy|wow
+|choice|switch 2|
+|
+|switch|p1a: Volcarona|Volcarona, M|329/329
+|-status|p1a: Volcarona|psn
+|turn|18
+|c|★Snowenn|walrein powa bro
+|choice|move quiverdance|move superfang
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Walrein|Super Fang|p1a: Volcarona|[miss]
+|-miss|p2a: Walrein|p1a: Volcarona
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Volcarona|309/329 psn|[from] hail
+|-heal|p2a: Walrein|404/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|424/424|[from] item: Leftovers
+|-damage|p1a: Volcarona|268/329 psn|[from] psn
+|upkeep
+|turn|19
+|choice|move fireblast|move superfang
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Walrein|[miss]
+|-miss|p1a: Volcarona|p2a: Walrein
+|move|p2a: Walrein|Super Fang|p1a: Volcarona|[miss]
+|-miss|p2a: Walrein|p1a: Volcarona
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Volcarona|248/329 psn|[from] hail
+|-damage|p1a: Volcarona|207/329 psn|[from] psn
+|upkeep
+|turn|20
+|choice|move fireblast|move superfang
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Walrein|[miss]
+|-miss|p1a: Volcarona|p2a: Walrein
+|move|p2a: Walrein|Super Fang|p1a: Volcarona
+|-damage|p1a: Volcarona|104/329 psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Volcarona|84/329 psn|[from] hail
+|-damage|p1a: Volcarona|43/329 psn|[from] psn
+|upkeep
+|turn|21
+|c|★Studs McPoopy|ha
+|choice|move fireblast|move blizzard
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Walrein
+|-damage|p2a: Walrein|46/424
+|move|p2a: Walrein|Blizzard|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|1/329 psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Volcarona|0 fnt|[from] hail
+|-heal|p2a: Walrein|72/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|98/424|[from] item: Leftovers
+|upkeep
+|faint|p1a: Volcarona
+|
+|win|Snowenn
+|player|p1
+|player|p2
+|raw|Studs McPoopy's rating: 1360 &rarr; <strong>1336</strong><br />(-24 for losing)
+|raw|Snowenn's rating: 1289 &rarr; <strong>1319</strong><br />(+30 for winning)
+|c|★Studs McPoopy|seriouslyyy
+|l|Studs McPoopy

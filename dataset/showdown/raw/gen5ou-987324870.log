@@ -1,0 +1,400 @@
+|j|☆Invisible Paradigm
+|j|☆porrompompom
+|player|p1|Invisible Paradigm|acetrainer-gen2|1588
+|player|p2|porrompompom|2|1509
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Amoonguss, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Starmie|item
+|poke|p1|Reuniclus, F|item
+|poke|p1|Mamoswine, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Reuniclus, F|item
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|1
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Breloom|Spore|p1a: Amoonguss
+|-status|p1a: Amoonguss|slp|[from] move: Spore
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|cant|p1a: Amoonguss|slp
+|move|p1a: Amoonguss|Sleep Talk|p1a: Amoonguss
+|move|p1a: Amoonguss|Giga Drain|p2a: Breloom|[from]Sleep Talk
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|89/100 tox
+|
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Breloom|Drain Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|49/100
+|-damage|p2a: Breloom|84/100 tox|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Breloom
+|drag|p2a: Reuniclus|Reuniclus, F|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Skarmory|Taunt|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Taunt
+|move|p2a: Reuniclus|Thunder|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|6
+|
+|-activate|p2a: Reuniclus|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Reuniclus|[from]Pursuit
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|52/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Skarmory|Taunt|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Taunt
+|cant|p1a: Tyranitar|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: Reuniclus
+|-sidestart|p1: Invisible Paradigm|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Reuniclus|Reuniclus, F|52/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Tyranitar|Crunch|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|50/100
+|-unboost|p1a: Reuniclus|def|1
+|move|p1a: Reuniclus|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Tyranitar|Crunch|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Spikes
+|turn|13
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Mamoswine|atk|1
+|move|p1a: Mamoswine|Icicle Crash|p2a: Gyarados
+|-damage|p2a: Gyarados|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|57/100|[from] Sandstorm
+|-heal|p2a: Gyarados|64/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Gyarados
+|-damage|p2a: Gyarados|30/100
+|move|p2a: Gyarados|Waterfall|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-crit|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|24/100|[from] Sandstorm
+|-heal|p2a: Gyarados|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|turn|15
+|
+|move|p2a: Gyarados|Rest|p2a: Gyarados
+|-status|p2a: Gyarados|slp|[from] move: Rest
+|-heal|p2a: Gyarados|100/100 slp|[silent]
+|move|p1a: Tyranitar|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|94/100 slp|[from] Sandstorm
+|-heal|p2a: Gyarados|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|cant|p2a: Gyarados|slp
+|move|p2a: Gyarados|Sleep Talk|p2a: Gyarados
+|move|p2a: Gyarados|Rest|p2a: Gyarados|[from]Sleep Talk
+|-fail|p2a: Gyarados
+|move|p1a: Tyranitar|Rock Slide|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|54/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|48/100 slp|[from] Sandstorm
+|-heal|p2a: Gyarados|54/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|cant|p2a: Gyarados|slp
+|move|p2a: Gyarados|Sleep Talk|p2a: Gyarados
+|move|p2a: Gyarados|Waterfall|p1a: Tyranitar|[from]Sleep Talk
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|39/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|6/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|0 fnt|[from] Sandstorm
+|faint|p2a: Gyarados
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Excadrill|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|turn|19
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|84/100 tox
+|-damage|p2a: Breloom|78/100 tox|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100 slp
+|-damage|p1a: Amoonguss|88/100 slp|[from] Spikes
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|71/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|82/100 slp|[from] Sandstorm
+|-heal|p1a: Amoonguss|88/100 slp|[from] item: Black Sludge
+|-heal|p2a: Breloom|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|cant|p1a: Amoonguss|slp
+|move|p1a: Amoonguss|Sleep Talk|p1a: Amoonguss
+|move|p1a: Amoonguss|Giga Drain|p2a: Breloom|[from]Sleep Talk
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|72/100 tox
+|-heal|p1a: Amoonguss|93/100 slp|[from] drain|[of] p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|66/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|87/100 slp|[from] Sandstorm
+|-heal|p1a: Amoonguss|93/100 slp|[from] item: Black Sludge
+|-heal|p2a: Breloom|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|move|p2a: Breloom|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|59/100 slp
+|-heal|p2a: Breloom|100/100 tox|[from] drain|[of] p1a: Amoonguss
+|cant|p1a: Amoonguss|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|53/100 slp|[from] Sandstorm
+|-heal|p1a: Amoonguss|59/100 slp|[from] item: Black Sludge
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|move|p2a: Breloom|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|29/100 slp
+|cant|p1a: Amoonguss|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|23/100 slp|[from] Sandstorm
+|-heal|p1a: Amoonguss|29/100 slp|[from] item: Black Sludge
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|move|p2a: Breloom|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|82/100
+|-damage|p1a: Starmie|70/100|[from] Spikes
+|turn|25
+|
+|move|p1a: Starmie|Trick|p2a: Breloom
+|-activate|p1a: Starmie|move: Trick|[of] p2a: Breloom
+|-item|p2a: Breloom|Choice Scarf|[from] move: Trick
+|-item|p1a: Starmie|Toxic Orb|[from] move: Trick
+|move|p2a: Breloom|Spore|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|64/100 slp|[from] Sandstorm
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|switch|p2a: Reuniclus|Reuniclus, F|58/100
+|cant|p1a: Starmie|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|58/100 slp|[from] Sandstorm
+|-heal|p2a: Reuniclus|64/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|51/100 slp|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Reuniclus|Thunder|p1a: Starmie|[miss]
+|-miss|p2a: Reuniclus|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|45/100 slp|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|-curestatus|p1a: Starmie|slp|[msg]
+|move|p1a: Starmie|Trick|p2a: Reuniclus
+|-activate|p1a: Starmie|move: Trick|[of] p2a: Reuniclus
+|-item|p2a: Reuniclus|Toxic Orb|[from] move: Trick
+|-item|p1a: Starmie|Leftovers|[from] move: Trick
+|move|p2a: Reuniclus|Thunder|p1a: Starmie|[miss]
+|-miss|p2a: Reuniclus|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|39/100|[from] Sandstorm
+|-heal|p1a: Starmie|45/100|[from] item: Leftovers
+|-status|p2a: Reuniclus|tox|[from] item: Toxic Orb
+|upkeep
+|turn|30
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Reuniclus|[miss]
+|-miss|p1a: Starmie|p2a: Reuniclus
+|move|p2a: Reuniclus|Thunder|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|porrompompom
+|l|☆Invisible Paradigm
+|raw|Invisible Paradigm's rating: 1588 &rarr; <strong>1564</strong><br />(-24 for losing)
+|raw|porrompompom's rating: 1509 &rarr; <strong>1534</strong><br />(+25 for winning)

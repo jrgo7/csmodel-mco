@@ -1,0 +1,249 @@
+|join|MoxieInfinite
+|join|ft lover wepwn
+|player|p1|MoxieInfinite|249
+|player|p2|ft lover wepwn|20
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Ninetales, M
+|poke|p1|Venusaur, M
+|poke|p1|Dugtrio, M
+|poke|p1|Donphan, M
+|poke|p1|Heatran, M
+|poke|p1|Volcarona, M
+|poke|p2|Gengar, M
+|poke|p2|Latias, F
+|poke|p2|Hippowdon, M
+|poke|p2|Forretress, F
+|poke|p2|Rotom-Wash
+|poke|p2|Terrakion
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Venusaur|Venusaur, M|319/319
+|switch|p2a: Hippowdon|Hippowdon, M|419/419
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p2a: Gengar|Gengar, M|289/289
+|move|p1a: Venusaur|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|271/289 slp|[from] sandstorm
+|-damage|p1a: Venusaur|300/319|[from] sandstorm
+|-heal|p2a: Gengar|289/289 slp|[from] item: Black Sludge
+|turn|2
+|
+|switch|p2a: Hippowdon|Hippowdon, M|419/419
+|move|p1a: Venusaur|Sludge Bomb|p2a: Hippowdon
+|-resisted|p2a: Hippowdon
+|-damage|p2a: Hippowdon|315/419
+|-damage|p1a: Venusaur|269/319|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|250/319|[from] sandstorm
+|-heal|p2a: Hippowdon|341/419|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Gengar|Gengar, M|289/289 slp
+|move|p1a: Venusaur|Giga Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|195/289 slp
+|-heal|p1a: Venusaur|297/319|[from] drain|[of] p2a: Gengar
+|-damage|p1a: Venusaur|266/319|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|177/289 slp|[from] sandstorm
+|-damage|p1a: Venusaur|247/319|[from] sandstorm
+|-heal|p2a: Gengar|195/289 slp|[from] item: Black Sludge
+|turn|4
+|
+|switch|p1a: Heatran|Heatran, M|327/327
+|-item|p1a: Heatran|Air Balloon
+|cant|p2a: Gengar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|177/289 slp|[from] sandstorm
+|-heal|p2a: Gengar|195/289 slp|[from] item: Black Sludge
+|turn|5
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|303/303
+|move|p1a: Heatran|Magma Storm|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|213/303
+|-activate|p2a: Rotom-Wash|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|195/303|[from] sandstorm
+|-heal|p2a: Rotom-Wash|213/303|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|195/303|[from] move: Magma Storm|[partiallytrapped]
+|turn|6
+|
+|switch|p1a: Ninetales|Ninetales, M|349/349
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Ninetales
+|-damage|p1a: Ninetales|271/349
+|
+|switch|p2a: Hippowdon|Hippowdon, M|341/419
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|250/349|[from] sandstorm
+|-heal|p1a: Ninetales|271/349|[from] item: Leftovers
+|-heal|p2a: Hippowdon|367/419|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Heatran|Heatran, M|327/327
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Hippowdon|Earthquake|p1a: Heatran
+|-immune|p1a: Heatran|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|393/419|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|195/303
+|move|p1a: Heatran|Magma Storm|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|105/303
+|-activate|p2a: Rotom-Wash|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|87/303|[from] sandstorm
+|-heal|p2a: Rotom-Wash|105/303|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|87/303|[from] move: Magma Storm|[partiallytrapped]
+|turn|9
+|
+|move|p1a: Heatran|Magma Storm|p2a: Rotom-Wash|[miss]
+|-miss|p1a: Heatran|p2a: Rotom-Wash
+|move|p2a: Rotom-Wash|Pain Split|p1a: Heatran
+|-sethp|p1a: Heatran|207/327|p2a: Rotom-Wash|207/303|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|189/303|[from] sandstorm
+|-heal|p2a: Rotom-Wash|207/303|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|189/303|[from] move: Magma Storm|[partiallytrapped]
+|turn|10
+|
+|switch|p1a: Ninetales|Ninetales, M|271/349
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Ninetales
+|-damage|p1a: Ninetales|199/349
+|
+|switch|p2a: Hippowdon|Hippowdon, M|393/419
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|178/349|[from] sandstorm
+|-heal|p1a: Ninetales|199/349|[from] item: Leftovers
+|-heal|p2a: Hippowdon|419/419|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Donphan|Donphan, M|383/383
+|move|p2a: Hippowdon|Stealth Rock|p1a: Donphan
+|-sidestart|p1: MoxieInfinite|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|12
+|
+|move|p1a: Donphan|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: ft lover wepwn|move: Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Donphan
+|-damage|p1a: Donphan|290/383
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|313/383|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Donphan|Rapid Spin|p2a: Hippowdon
+|-damage|p2a: Hippowdon|403/419
+|-sideend|p1: MoxieInfinite|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|move|p2a: Hippowdon|Earthquake|p1a: Donphan
+|-damage|p1a: Donphan|219/383
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|242/383|[from] item: Leftovers
+|-heal|p2a: Hippowdon|419/419|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Heatran|Heatran, M|207/327
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Hippowdon|Stealth Rock|p1a: Heatran
+|-sidestart|p1: MoxieInfinite|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|15
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|189/303
+|-damage|p2a: Rotom-Wash|152/303|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Rotom-Wash|[miss]
+|-miss|p1a: Heatran|p2a: Rotom-Wash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|134/303|[from] sandstorm
+|-heal|p2a: Rotom-Wash|152/303|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Heatran|Magma Storm|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|68/303
+|-activate|p2a: Rotom-Wash|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|119/327
+|-enditem|p1a: Heatran|Air Balloon
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|-damage|p2a: Terrakion|303/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|17
+|
+|switch|p1a: Donphan|Donphan, M|242/383
+|-damage|p1a: Donphan|219/383|[from] Stealth Rock
+|move|p2a: Terrakion|Close Combat|p1a: Donphan
+|-damage|p1a: Donphan|48/383
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|71/383|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Terrakion|Close Combat|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Dugtrio|Dugtrio, M|201/201
+|-damage|p1a: Dugtrio|189/201|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Terrakion|Close Combat|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-message|MoxieInfinite forfeited.
+|
+|win|ft lover wepwn
+|raw|Ladder updating...
+|raw|MoxieInfinite's rating: 1346 &rarr; <strong>1326</strong><br />(-20 for losing)
+|raw|ft lover wepwn's rating: 1357 &rarr; <strong>1376</strong><br />(+19 for winning)
+|leave|MoxieInfinite
+|player|p1

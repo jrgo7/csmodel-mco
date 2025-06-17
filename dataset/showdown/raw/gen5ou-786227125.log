@@ -1,0 +1,478 @@
+|j|☆CroCoeur
+|j|☆bulut der charmeur
+|player|p1|CroCoeur|161
+|player|p2|bulut der charmeur|253
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Forretress, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Celebi|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Forretress|Forretress, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Jellicent
+|-immune|p2a: Jellicent|[msg]|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bulut der charmeur)
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Jellicent|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Power Whip|p2a: Jellicent|[miss]
+|-miss|p1a: Ferrothorn|p2a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Forretress
+|-resisted|p2a: Forretress
+|-crit|p2a: Forretress
+|-damage|p2a: Forretress|95/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|69/100 brn|[from] brn
+|-end|p1a: Ferrothorn|move: Taunt
+|upkeep
+|turn|6
+|
+|move|p2a: Forretress|Spikes|p1a: Ferrothorn
+|-sidestart|p1: CroCoeur|Spikes
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Forretress
+|-sidestart|p2: bulut der charmeur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|move|p2a: Forretress|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|86/100
+|-sideend|p2: bulut der charmeur|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|68/100
+|move|p2a: Forretress|Volt Switch|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Jirachi|Water Pulse|p2a: Jellicent
+|-immune|p2a: Jellicent|[msg]|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jirachi|80/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Jirachi|86/100|[from] item: Leftovers
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Jirachi|Thunder|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|87/100
+|move|p2a: Celebi|U-turn|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|76/100
+|-start|p2a: Heatran|confusion
+|-activate|p2a: Heatran|confusion
+|-damage|p2a: Heatran|69/100|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p2a: Heatran|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆bulut der charmeur|really nigga
+|
+|move|p1a: Jirachi|Thunder|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|26/100
+|-status|p2a: Heatran|par
+|-activate|p2a: Heatran|confusion
+|-damage|p2a: Heatran|19/100 par|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Heatran|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|c|☆bulut der charmeur|lucky feggit
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|59/100
+|move|p2a: Landorus|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p2a: Landorus|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|20/100
+|-start|p2a: Landorus|confusion
+|-activate|p2a: Landorus|confusion
+|move|p2a: Landorus|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: CroCoeur|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p2a: Landorus|26/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|CroCoeur has 135 seconds left.
+|
+|switch|p2a: Celebi|Celebi|87/100
+|move|p1a: Jirachi|Water Pulse|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|74/100|[from] Sandstorm
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆bulut der charmeur|what a lucky fuck
+|c|☆bulut der charmeur|depending  on luck
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|move|p2a: Celebi|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|74/100|[from] Sandstorm
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Celebi|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|74/100|[from] Sandstorm
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p2a: Celebi|80/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|63/100
+|move|p2a: Celebi|U-turn|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Water Pulse|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|62/100
+|-start|p2a: Tyranitar|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|-activate|p2a: Tyranitar|confusion
+|-damage|p2a: Tyranitar|49/100|[from] confusion
+|move|p1a: Jirachi|Thunder|p2a: Tyranitar|[miss]
+|-miss|p1a: Jirachi|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|-activate|p2a: Tyranitar|confusion
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|43/100
+|move|p1a: Jirachi|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|49/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆bulut der charmeur|imma get u son
+|
+|-activate|p2a: Tyranitar|confusion
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|11/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-fail|p1a: Jirachi|move: Substitute|[weak]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|18/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆bulut der charmeur|dont worry
+|
+|-end|p2a: Tyranitar|confusion
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|0
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j|‽BULUT IS A FAG
+|l|‽BULUT IS A FAG
+|inactive|CroCoeur has 135 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|63/100 brn
+|-damage|p1a: Ferrothorn|50/100 brn|[from] Spikes
+|-damage|p1a: Ferrothorn|44/100 brn|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Forretress
+|-sidestart|p2: bulut der charmeur|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|38/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Spikes
+|-damage|p1a: Politoed|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Forretress|Rapid Spin|p1a: Politoed
+|-damage|p1a: Politoed|70/100
+|-sideend|p2: bulut der charmeur|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|j|‽CHARMEUR=FAG
+|inactive|CroCoeur has 135 seconds left.
+|l|‽CHARMEUR=FAG
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Spikes
+|-damage|p1a: Celebi|76/100|[from] Stealth Rock
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Celebi|Celebi|80/100
+|move|p1a: Celebi|Giga Drain|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|72/100
+|-heal|p1a: Celebi|86/100|[from] drain|[of] p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|92/100|[from] item: Leftovers
+|-heal|p2a: Celebi|78/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|CroCoeur has 135 seconds left.
+|inactive|CroCoeur has 120 seconds left.
+|j|‽bulut der faggit
+|l|‽bulut der faggit
+|inactive|CroCoeur has 105 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|38/100 brn
+|-damage|p1a: Ferrothorn|32/100 brn|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|19/100 brn|[from] Spikes
+|move|p2a: Celebi|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100 brn
+|-damage|p2a: Celebi|66/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Forretress|Forretress, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|15/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|2/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|bulut der charmeur has 135 seconds left.
+|
+|move|p2a: Forretress|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 brn
+|faint|p1a: Ferrothorn
+|
+|switch|p2a: Heatran|Heatran, M|25/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|31/100 par|[from] item: Leftovers
+|upkeep
+|inactive|CroCoeur has 135 seconds left.
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Latios|Thunder|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Landorus|Landorus-Therian, M|26/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|move|p1a: Latios|Thunder|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|32/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Spikes
+|-damage|p1a: Vaporeon|76/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|50/100
+|
+|switch|p2a: Celebi|Celebi|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|72/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|56/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|-message|CroCoeur forfeited.
+|
+|win|bulut der charmeur
+|l|☆CroCoeur
+|raw|CroCoeur's rating: 1358 &rarr; <strong>1335</strong><br />(-23 for losing)
+|raw|bulut der charmeur's rating: 1307 &rarr; <strong>1330</strong><br />(+23 for winning)
+|l|☆bulut der charmeur

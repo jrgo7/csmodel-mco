@@ -1,0 +1,291 @@
+|j|☆chockwayne
+|j|☆spam_dash_attack
+|player|p1|chockwayne|1|1435
+|player|p2|spam_dash_attack|fantina|1327
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Salamence, M|item
+|poke|p2|Magnezone|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spam_dash_attack)
+|inactive|chockwayne has 120 seconds left.
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Jirachi|Thunder|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|78/100
+|-status|p2a: Magnezone|par
+|cant|p2a: Magnezone|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Jirachi|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|63/100 par
+|move|p2a: Magnezone|Volt Switch|p1a: Jirachi
+|-damage|p1a: Jirachi|39/100
+|
+|switch|p2a: Latios|Latios, M|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|45/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Magnezone|Magnezone|63/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: spam_dash_attack|move: Stealth Rock
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|50/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone
+|-sidestart|p2: spam_dash_attack|Spikes
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|7
+|
+|move|p1a: Garchomp|Dual Chop|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|50/100 par
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|40/100 par
+|-hitcount|p2a: Magnezone|2
+|move|p2a: Magnezone|Hidden Power|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|90/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Garchomp|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Jirachi|Jirachi|45/100
+|move|p2a: Salamence|Dragon Claw|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|23/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|29/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Spikes
+|-damage|p2a: Mamoswine|76/100|[from] Stealth Rock
+|move|p1a: Jirachi|Icy Wind|p2a: Mamoswine
+|-damage|p2a: Mamoswine|65/100
+|-unboost|p2a: Mamoswine|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|35/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Jirachi|Iron Head|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|41/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Tentacruel
+|-damage|p1a: Tentacruel|10/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|16/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|22/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|28/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|34/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|41/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|47/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Latios|Draco Meteor|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|16
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Spikes
+|-damage|p2a: Scizor|76/100|[from] Stealth Rock
+|move|p1a: Tornadus|Hurricane|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|76/100
+|-damage|p2a: Salamence|51/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Salamence|Outrage|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|41/100
+|turn|18
+|
+|move|p2a: Salamence|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|turn|19
+|
+|move|p2a: Salamence|Outrage|p1a: Politoed|[from]lockedmove
+|-damage|p1a: Politoed|0 fnt
+|-start|p2a: Salamence|confusion|[fatigue]
+|faint|p1a: Politoed
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F|90/100
+|turn|20
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-damage|p2a: Kyurem|75/100|[from] Stealth Rock
+|-damage|p2a: Kyurem|63/100|[from] Spikes
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Garchomp|Dual Chop|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|27/100
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-hitcount|p2a: Kyurem|2
+|faint|p2a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|51/100
+|-damage|p2a: Salamence|26/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Salamence|Outrage|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Salamence|14/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|win|spam_dash_attack
+|l|☆chockwayne
+|raw|chockwayne's rating: 1435 &rarr; <strong>1409</strong><br />(-26 for losing)
+|raw|spam_dash_attack's rating: 1328 &rarr; <strong>1354</strong><br />(+26 for winning)

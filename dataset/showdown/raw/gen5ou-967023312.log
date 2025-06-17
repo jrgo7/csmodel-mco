@@ -1,0 +1,292 @@
+|j|☆porrompompom
+|j|☆Roi Liche
+|player|p1|porrompompom|101|1546
+|player|p2|Roi Liche|morty-gen2|1469
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Tangrowth, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Quagsire, M|item
+|poke|p1|Latias, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Starmie|item
+|poke|p2|Salamence, F|item
+|poke|p2|Scizor, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Dragonite, F|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Starmie|Hydro Pump|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|38/100
+|-status|p1a: Politoed|par
+|-damage|p2a: Starmie|91/100|[from] item: Life Orb
+|move|p1a: Politoed|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|44/100 par|[from] item: Leftovers
+|-damage|p2a: Starmie|84/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Politoed
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Garchomp|Earthquake|p1a: Politoed
+|-damage|p1a: Politoed|18/100 par
+|move|p1a: Politoed|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|20/100
+|-status|p2a: Garchomp|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|24/100 par|[from] item: Leftovers
+|-damage|p2a: Garchomp|8/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Garchomp|Outrage|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|30/100 par|[from] item: Leftovers
+|-damage|p2a: Garchomp|0 fnt|[from] brn
+|faint|p2a: Garchomp
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|7
+|
+|cant|p1a: Politoed|par
+|move|p2a: Scizor|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|-item|p2a: Magnezone|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|63/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|69/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|99/100
+|-enditem|p2a: Magnezone|Air Balloon
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Magnezone|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|turn|10
+|
+|move|p2a: Magnezone|Sunny Day|p2a: Magnezone
+|-weather|SunnyDay
+|move|p1a: Quagsire|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|11
+|
+|move|p2a: Scizor|U-turn|p1a: Quagsire
+|-damage|p1a: Quagsire|55/100
+|
+|switch|p2a: Starmie|Starmie|84/100 tox|[from]move: U-turn
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Starmie|78/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Starmie|Ice Beam|p1a: Quagsire
+|-damage|p1a: Quagsire|58/100
+|-damage|p2a: Starmie|68/100 tox|[from] item: Life Orb
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Starmie|56/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Quagsire|Recover||[still]
+|-fail|p1a: Quagsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Quagsire|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|tox|[msg]
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|switch|p2a: Starmie|Starmie|56/100 tox
+|move|p1a: Quagsire|Toxic|p2a: Starmie
+|-fail|p2a: Starmie|tox
+|
+|-damage|p2a: Starmie|50/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Starmie|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|-damage|p2a: Starmie|40/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Jirachi|55/100|[from] item: Leftovers
+|-damage|p2a: Starmie|28/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Scizor|U-turn|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Roi Liche|move: Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|
+|switch|p2a: Starmie|Starmie|28/100 tox|[from]move: U-turn
+|-damage|p2a: Starmie|15/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|55/100|[from] item: Leftovers
+|-damage|p2a: Starmie|9/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Protect||[still]
+|-fail|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|61/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Scizor|U-turn|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-heal|p1a: Jirachi|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Scizor|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|12/100
+|
+|switch|p2a: Starmie|Starmie|9/100 tox|[from]move: U-turn
+|-damage|p2a: Starmie|0 fnt|[from] Stealth Rock
+|faint|p2a: Starmie
+|
+|-heal|p1a: Jirachi|19/100|[from] item: Leftovers
+|upkeep
+|-message|Roi Liche forfeited.
+|
+|win|porrompompom
+|l|☆Roi Liche
+|raw|porrompompom's rating: 1546 &rarr; <strong>1562</strong><br />(+16 for winning)
+|raw|Roi Liche's rating: 1469 &rarr; <strong>1453</strong><br />(-16 for losing)

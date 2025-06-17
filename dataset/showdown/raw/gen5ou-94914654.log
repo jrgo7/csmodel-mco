@@ -1,0 +1,279 @@
+|join|Frosty7
+|join|lime K
+|player|p1|Frosty7|163
+|player|p2|lime K|68
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, M
+|poke|p1|Terrakion
+|poke|p1|Starmie
+|poke|p1|Dragonite, F
+|poke|p1|Feraligatr, F
+|poke|p1|Scizor, F
+|poke|p2|Scizor, M
+|poke|p2|Espeon, F
+|poke|p2|Breloom, F
+|poke|p2|Rotom-Wash
+|poke|p2|Jolteon, F
+|poke|p2|Landorus-Therian, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|Frosty7|Oh lordielord
+|chat|Frosty7|Breloom
+|
+|start
+|switch|p1a: Terrakion|Terrakion|323/323
+|switch|p2a: Hero|Jolteon, F|272/272
+|turn|1
+|
+|switch|p2a: Beast|Landorus-Therian, M|320/320
+|-ability|p2a: Beast|Intimidate|[of] p1a: Terrakion
+|-unboost|p1a: Terrakion|atk|1
+|move|p1a: Terrakion|Stealth Rock|p2a: Beast
+|-sidestart|p2: lime K|move: Stealth Rock
+|
+|turn|2
+|chat|lime K|lordielord ?
+|
+|move|p2a: Beast|U-turn|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|278/323
+|
+|switch|p2a: Rrouni Kenshin|Scizor, M|344/344
+|-damage|p2a: Rrouni Kenshin|301/344|[from] Stealth Rock
+|move|p1a: Terrakion|Stone Edge|p2a: Rrouni Kenshin
+|-damage|p2a: Rrouni Kenshin|184/344
+|
+|turn|3
+|
+|move|p2a: Rrouni Kenshin|Bullet Punch|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|
+|switch|p1a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|4
+|
+|switch|p2a: Nope.|Rotom-Wash|304/304
+|-damage|p2a: Nope.|266/304|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Nope.
+|-resisted|p2a: Nope.
+|-damage|p2a: Nope.|75/304
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|chat|lime K|wow
+|
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|move|p2a: Nope.|Rest|p2a: Nope.
+|-status|p2a: Nope.|slp
+|-heal|p2a: Nope.|304/304 slp|[silent]
+|-status|p2a: Nope.|slp|[from] move: Rest
+|-enditem|p2a: Nope.|Chesto Berry|[eat]
+|-curestatus|p2a: Nope.|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Dragonite|Hurricane|p2a: Nope.
+|-resisted|p2a: Nope.
+|-damage|p2a: Nope.|195/304
+|-damage|p1a: Dragonite|291/323|[from] item: Life Orb
+|move|p2a: Nope.|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Dragonite|251/323 brn|[from] brn
+|turn|7
+|
+|switch|p2a: Ichigo Momomiya|Espeon, F|334/334
+|-damage|p2a: Ichigo Momomiya|293/334|[from] Stealth Rock
+|move|p1a: Dragonite|Extreme Speed|p2a: Ichigo Momomiya
+|-damage|p2a: Ichigo Momomiya|207/334
+|-damage|p1a: Dragonite|219/323 brn|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ichigo Momomiya|227/334|[from] item: Leftovers
+|-damage|p1a: Dragonite|179/323 brn|[from] brn
+|turn|8
+|
+|move|p2a: Ichigo Momomiya|Wish|p2a: Ichigo Momomiya
+|move|p1a: Dragonite|Hurricane|p2a: Ichigo Momomiya
+|-damage|p2a: Ichigo Momomiya|39/334
+|-damage|p1a: Dragonite|147/323 brn|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ichigo Momomiya|59/334|[from] item: Leftovers
+|-damage|p1a: Dragonite|107/323 brn|[from] brn
+|turn|9
+|
+|move|p2a: Ichigo Momomiya|Protect|p2a: Ichigo Momomiya
+|-singleturn|p2a: Ichigo Momomiya|Protect
+|move|p1a: Dragonite|Extreme Speed|p2a: Ichigo Momomiya
+|-activate|p2a: Ichigo Momomiya|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ichigo Momomiya|226/334|[from] move: Wish|[wisher] Ichigo Momomiya
+|-heal|p2a: Ichigo Momomiya|246/334|[from] item: Leftovers
+|-damage|p1a: Dragonite|67/323 brn|[from] brn
+|turn|10
+|
+|switch|p1a: Scizor|Scizor, F|344/344
+|move|p2a: Ichigo Momomiya|Wish|p2a: Ichigo Momomiya
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ichigo Momomiya|266/334|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Rrouni Kenshin|Scizor, M|184/344
+|-damage|p2a: Rrouni Kenshin|141/344|[from] Stealth Rock
+|move|p1a: Scizor|Bug Bite|p2a: Rrouni Kenshin
+|-resisted|p2a: Rrouni Kenshin
+|-damage|p2a: Rrouni Kenshin|67/344
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rrouni Kenshin|234/344|[from] move: Wish|[wisher] Ichigo Momomiya
+|turn|12
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Rrouni Kenshin|Knock Off|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|314/344
+|-enditem|p1a: Scizor|Leftovers|[from] move: Knock Off|[of] p2a: Rrouni Kenshin
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Beast|Landorus-Therian, M|320/320
+|-damage|p2a: Beast|280/320|[from] Stealth Rock
+|-ability|p2a: Beast|Intimidate|[of] p1a: Scizor
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Bullet Punch|p2a: Beast
+|-crit|p2a: Beast
+|-damage|p2a: Beast|0 fnt
+|faint|p2a: Beast
+|
+|-weather|RainDance|[upkeep]
+|chat|lime K|that crit
+|
+|switch|p2a: Nope.|Rotom-Wash|195/304
+|-damage|p2a: Nope.|157/304|[from] Stealth Rock
+|turn|14
+|chat|Frosty7|yes
+|chat|Frosty7|that crit
+|chat|lime K|i will lose now...
+|
+|move|p2a: Nope.|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|94/344
+|move|p1a: Scizor|Bug Bite|p2a: Nope.
+|-damage|p2a: Nope.|0 fnt
+|faint|p2a: Nope.
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Hitmontree|Breloom, F|262/262
+|-damage|p2a: Hitmontree|246/262|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Hitmontree|Mach Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragonite|Dragonite, F|67/323 brn
+|turn|16
+|
+|switch|p2a: Rrouni Kenshin|Scizor, M|234/344
+|-damage|p2a: Rrouni Kenshin|191/344|[from] Stealth Rock
+|move|p1a: Dragonite|Hurricane|p2a: Rrouni Kenshin
+|-damage|p2a: Rrouni Kenshin|0 fnt
+|-damage|p1a: Dragonite|35/323 brn|[from] item: Life Orb
+|faint|p2a: Rrouni Kenshin
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Dragonite|0 fnt|[from] brn
+|faint|p1a: Dragonite
+|
+|switch|p2a: Hero|Jolteon, F|272/272
+|-damage|p2a: Hero|238/272|[from] Stealth Rock
+|switch|p1a: Starmie|Starmie|261/261
+|turn|17
+|
+|move|p2a: Hero|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Feraligatr|Feraligatr, F|357/357
+|turn|18
+|
+|move|p2a: Hero|Volt Switch|p1a: Feraligatr
+|-supereffective|p1a: Feraligatr
+|-damage|p1a: Feraligatr|26/357
+|
+|switch|p2a: Ichigo Momomiya|Espeon, F|266/334
+|-damage|p2a: Ichigo Momomiya|225/334|[from] Stealth Rock
+|move|p1a: Feraligatr|Swords Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ichigo Momomiya|245/334|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Feraligatr|Aqua Jet|p2a: Ichigo Momomiya
+|-damage|p2a: Ichigo Momomiya|0 fnt
+|faint|p2a: Ichigo Momomiya
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Hitmontree|Breloom, F|246/262
+|-damage|p2a: Hitmontree|230/262|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Politoed|Politoed, M|384/384
+|move|p2a: Hitmontree|Mach Punch|p1a: Politoed
+|-damage|p1a: Politoed|245/384
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p2a: Hitmontree|Bullet Seed|p1a: Politoed
+|-crit|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-hitcount|p1a: Politoed|1
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Feraligatr|Feraligatr, F|26/357
+|turn|22
+|chat|Frosty7|gg
+|chat|lime K|gg
+|
+|move|p2a: Hitmontree|Mach Punch|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|win|lime K
+|raw|Ladder updating...
+|raw|Frosty7's rating: 1331 &rarr; <strong>1307</strong><br />(-24 for losing)
+|raw|lime K's rating: 1264 &rarr; <strong>1293</strong><br />(+29 for winning)
+|leave|Frosty7
+|player|p1

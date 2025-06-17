@@ -1,0 +1,379 @@
+|j|☆fluuuuuu
+|j|☆stonya
+|player|p1|fluuuuuu|47
+|player|p2|stonya|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Starmie|item
+|poke|p1|Victini|item
+|poke|p1|Abomasnow, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Keldeo|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Superpower|p2a: Bron Bron
+|-resisted|p2a: Bron Bron
+|-damage|p2a: Bron Bron|86/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bron Bron|atk|1
+|move|p2a: Bron Bron|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Bron Bron|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|move|p1a: Landorus|Stealth Rock|p2a: Bron Bron
+|-sidestart|p2: stonya|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|24/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Bron Bron|Earthquake|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|68/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bron Bron|80/100|[from] Hail
+|upkeep
+|turn|5
+|
+|move|p2a: Bron Bron|U-turn|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|4/100
+|
+|switch|p2a: Miller|Scizor, F, shiny|100/100
+|-damage|p2a: Miller|88/100|[from] Stealth Rock
+|move|p1a: Abomasnow|Hidden Power|p2a: Miller
+|-supereffective|p2a: Miller
+|-damage|p2a: Miller|0 fnt
+|faint|p2a: Miller
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-damage|p2a: Pat Riely|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|6
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Pat Riely|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: fluuuuuu|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-heal|p2a: Pat Riely|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Bosh|Latios, M, shiny|100/100
+|-damage|p2a: Bosh|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|82/100|[from] Sandstorm
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Bosh|Psyshock|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|76/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|-activate|p2a: Bosh|move: Pursuit
+|move|p1a: Scizor|Pursuit|p2a: Bosh|[from]Pursuit
+|-supereffective|p2a: Bosh
+|-crit|p2a: Bosh
+|-damage|p2a: Bosh|0 fnt
+|faint|p2a: Bosh
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ray Allen|Magnezone|100/100
+|-damage|p2a: Ray Allen|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Scizor|Pursuit|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-damage|p2a: Ray Allen|84/100
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Scizor|Pursuit|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|move|p2a: Ray Allen|Charge Beam|p1a: Scizor|[miss]
+|-miss|p2a: Ray Allen|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Scizor|Pursuit|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|move|p2a: Ray Allen|Charge Beam|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-boost|p2a: Ray Allen|spa|1
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Victini|Victini|100/100
+|-damage|p1a: Victini|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Victini|Brick Break|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Victini|69/100|[from] Sandstorm
+|-heal|p2a: Ray Allen|58/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Victini|Brick Break|p2a: Ray Allen
+|-supereffective|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Charge Beam|p1a: Victini
+|-damage|p1a: Victini|32/100
+|-boost|p2a: Ray Allen|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Victini|26/100|[from] Sandstorm
+|-heal|p2a: Ray Allen|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|80/100
+|-damage|p2a: Bron Bron|68/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Victini|atk|1
+|move|p1a: Victini|Brick Break|p2a: Bron Bron
+|-resisted|p2a: Bron Bron
+|-damage|p2a: Bron Bron|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Victini|20/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|switch|p1a: Abomasnow|Abomasnow, F|4/100
+|-damage|p1a: Abomasnow|0 fnt|[from] Stealth Rock
+|faint|p1a: Abomasnow
+|move|p2a: Bron Bron|Hidden Power|p1: Abomasnow|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Pat Riely|Tyranitar, M|94/100
+|-damage|p2a: Pat Riely|82/100|[from] Stealth Rock
+|move|p1a: Starmie|Scald|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|82/100|[from] Sandstorm
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|-heal|p2a: Pat Riely|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Pat Riely
+|-resisted|p2a: Pat Riely
+|-damage|p2a: Pat Riely|62/100
+|-sideend|p1: fluuuuuu|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Pat Riely|Pursuit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|41/100|[from] Sandstorm
+|-heal|p1a: Starmie|47/100|[from] item: Leftovers
+|-heal|p2a: Pat Riely|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|-activate|p1a: Starmie|move: Pursuit
+|move|p2a: Pat Riely|Pursuit|p1a: Starmie|[from]Pursuit
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|88/100
+|turn|20
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Pat Riely
+|-enditem|p1a: Keldeo|Fighting Gem|[from] gem|[move] Secret Sword
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|0 fnt
+|faint|p2a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|-damage|p2a: D.Wade|94/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Landorus|Landorus-Therian, M|24/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: D.Wade|atk|1
+|move|p2a: D.Wade|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|9/100
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|15/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: D.Wade|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|82/100
+|turn|23
+|
+|switch|p2a: Ray Allen|Magnezone|64/100
+|-damage|p2a: Ray Allen|58/100|[from] Stealth Rock
+|move|p1a: Keldeo|Hydro Pump|p2a: Ray Allen
+|-damage|p2a: Ray Allen|0 fnt
+|faint|p2a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|56/100
+|-damage|p2a: Bron Bron|44/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Keldeo|atk|1
+|turn|24
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Bron Bron
+|-supereffective|p2a: Bron Bron
+|-damage|p2a: Bron Bron|0 fnt
+|faint|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|70/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|94/100
+|-damage|p2a: D.Wade|88/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Victini|Victini|20/100
+|move|p2a: D.Wade|Close Combat|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|faint|p1a: Victini
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|70/100
+|turn|26
+|
+|move|p2a: D.Wade|Close Combat|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|faint|p1a: Keldeo
+|
+|win|stonya
+|raw|fluuuuuu's rating: 1376 &rarr; <strong>1361</strong><br />(-15 for losing)
+|raw|stonya's rating: 1458 &rarr; <strong>1473</strong><br />(+15 for winning)
+|l|☆fluuuuuu

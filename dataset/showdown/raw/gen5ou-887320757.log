@@ -1,0 +1,423 @@
+|j|☆basco
+|j|☆hide on wormadam-g
+|player|p1|basco|170
+|player|p2|hide on wormadam-g|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Terrakion|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Heatran, M|item
+|poke|p2|Amoonguss, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hide on wormadam-g)
+|inactive|basco has 120 seconds left.
+|inactive|basco has 90 seconds left.
+|
+|start
+|switch|p1a: Bron Bron|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bron Bron|atk|1
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Hidden Power|p1a: Bron Bron
+|-supereffective|p1a: Bron Bron
+|-damage|p1a: Bron Bron|19/100
+|move|p1a: Bron Bron|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|2
+|
+|switch|p1a: Miller|Scizor, F, shiny|100/100
+|move|p2a: Keldeo|Scald|p1a: Miller
+|-damage|p1a: Miller|48/100
+|-status|p1a: Miller|brn
+|
+|-damage|p1a: Miller|36/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Pat Riely|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Pat Riely
+|move|p2a: Keldeo|Scald|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|-heal|p2a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p1a: Pat Riely|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Miller|Scizor, F, shiny|36/100 brn
+|move|p2a: Keldeo|Secret Sword|p1a: Miller
+|-damage|p1a: Miller|0 fnt
+|faint|p1a: Miller
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|-heal|p2a: Keldeo|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bosh|Latios, M, shiny|100/100
+|turn|5
+|
+|move|p2a: Keldeo|Protect|p2a: Keldeo
+|-singleturn|p2a: Keldeo|Protect
+|move|p1a: Bosh|Energy Ball|p2a: Keldeo
+|-activate|p2a: Keldeo|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|95/100|[from] Sandstorm
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|-heal|p2a: Keldeo|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Heatran|Heatran, M, shiny|100/100
+|move|p1a: Bosh|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|89/100|[from] Sandstorm
+|-heal|p2a: Heatran|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: D.Wade|Terrakion|100/100
+|move|p2a: Heatran|Protect||[still]
+|-fail|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Bosh|Latios, M, shiny|89/100
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|83/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Heatran|Heatran, M, shiny|92/100
+|move|p1a: Bosh|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|77/100|[from] Sandstorm
+|-heal|p2a: Heatran|55/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Pat Riely|Tyranitar, M|70/100
+|move|p2a: Heatran|Magma Storm|p1a: Pat Riely|[miss]
+|-miss|p2a: Heatran|p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|61/100|[from] item: Leftovers
+|-heal|p1a: Pat Riely|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Pat Riely|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: hide on wormadam-g|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|-heal|p2a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p1a: Pat Riely|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Bosh|Latios, M, shiny|77/100
+|move|p2a: Keldeo|Secret Sword|p1a: Bosh
+|-resisted|p1a: Bosh
+|-damage|p1a: Bosh|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|39/100|[from] Sandstorm
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|-heal|p2a: Keldeo|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Bosh|Psyshock|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|33/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Bosh|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|42/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Bosh
+|-sidestart|p1: basco|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|27/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p1a: Bosh|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|21/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Bosh|Surf|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|15/100|[from] Sandstorm
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Bosh|Psyshock|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|77/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Bosh
+|-damage|p1a: Bosh|6/100
+|-sideend|p2: hide on wormadam-g|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|0 fnt|[from] Sandstorm
+|faint|p1a: Bosh
+|-heal|p2a: Excadrill|83/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: D.Wade|Terrakion|100/100
+|-damage|p1a: D.Wade|94/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: D.Wade|Close Combat|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100
+|move|p1a: D.Wade|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|67/100
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|61/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|67/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p1a: Pat Riely|Tyranitar, M|83/100
+|-damage|p1a: Pat Riely|70/100|[from] Stealth Rock
+|move|p2a: Amoonguss|Giga Drain|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-crit|p1a: Pat Riely
+|-damage|p1a: Pat Riely|29/100
+|-heal|p2a: Amoonguss|87/100|[from] drain|[of] p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|81/100|[from] Sandstorm
+|-heal|p1a: Pat Riely|35/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|87/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p2a: Excadrill|Excadrill, F|89/100
+|move|p1a: Pat Riely|Ice Beam|p2a: Excadrill
+|-damage|p2a: Excadrill|72/100
+|-status|p2a: Excadrill|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|78/100 frz|[from] item: Leftovers
+|-heal|p1a: Pat Riely|41/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆hide on wormadam-g|oh fuck off
+|
+|cant|p2a: Excadrill|frz
+|move|p1a: Pat Riely|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: hide on wormadam-g|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|84/100 frz|[from] item: Leftovers
+|-heal|p1a: Pat Riely|47/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|19/100
+|-damage|p1a: Bron Bron|7/100|[from] Stealth Rock
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|cant|p2a: Excadrill|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|90/100 frz|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Heatran|Heatran, M, shiny|61/100
+|-damage|p2a: Heatran|48/100|[from] Stealth Rock
+|move|p1a: Bron Bron|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Bron Bron|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|25/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Bron Bron
+|-damage|p1a: Bron Bron|0 fnt
+|-heal|p2a: Amoonguss|28/100|[from] drain|[of] p1a: Bron Bron
+|faint|p1a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|22/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|28/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: D.Wade|Terrakion|94/100
+|-damage|p1a: D.Wade|88/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Excadrill|Excadrill, F|90/100 frz
+|-damage|p2a: Excadrill|87/100 frz|[from] Stealth Rock
+|move|p1a: D.Wade|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|61/100
+|-damage|p2a: Amoonguss|49/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p1a: Pat Riely|Tyranitar, M|47/100
+|-damage|p1a: Pat Riely|35/100|[from] Stealth Rock
+|move|p2a: Amoonguss|Giga Drain|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|15/100
+|-heal|p2a: Amoonguss|58/100|[from] drain|[of] p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|52/100|[from] Sandstorm
+|-heal|p1a: Pat Riely|21/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|58/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p1a: Pat Riely|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|27/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|2/100
+|-heal|p2a: Amoonguss|36/100|[from] drain|[of] p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|30/100|[from] Sandstorm
+|-heal|p1a: Pat Riely|8/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|36/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|move|p1a: Pat Riely|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|7/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|0 fnt
+|-heal|p2a: Amoonguss|11/100|[from] drain|[of] p1a: Pat Riely
+|faint|p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|5/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|11/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: D.Wade|Terrakion|88/100
+|-damage|p1a: D.Wade|82/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: D.Wade|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|faint|p2a: Amoonguss
+|
+|win|basco
+|c|☆basco|gg man
+|l|☆hide on wormadam-g
+|raw|basco's rating: 1299 &rarr; <strong>1329</strong><br />(+30 for winning)
+|raw|hide on wormadam-g's rating: 1369 &rarr; <strong>1345</strong><br />(-24 for losing)

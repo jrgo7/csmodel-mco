@@ -1,0 +1,216 @@
+|j|☆Kwall25b
+|j|☆sawk123
+|player|p1|Kwall25b|riley|1428
+|player|p2|sawk123|169|1346
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Darmanitan, F|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Victini|item
+|poke|p1|Donphan, M|item
+|poke|p1|Infernape, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Sawk, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Raikou|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Volcarona, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sawk123)
+|
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|1
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Latios|Trick|p2a: Volcarona
+|-activate|p1a: Latios|move: Trick|[of] p2a: Volcarona
+|-item|p2a: Volcarona|Choice Scarf|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Latios|Latios, M|100/100
+|switch|p1a: Donphan|Donphan, M|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Latios|Surf|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|18/100
+|move|p1a: Donphan|Knock Off|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|84/100
+|-enditem|p2a: Latios|Choice Scarf|[from] move: Knock Off|[of] p1a: Donphan
+|
+|-heal|p1a: Donphan|24/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Latios|Surf|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|6
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Volcarona|Hidden Power|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Sawk|Sawk, M|100/100
+|switch|p1a: Latios|Latios, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Latios|Thunder Wave|p2a: Sawk
+|-status|p2a: Sawk|par
+|move|p2a: Sawk|Ice Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|9/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latios|15/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Latios|Draco Meteor|p2a: Sawk
+|-ability|p2a: Sawk|Sturdy
+|-damage|p2a: Sawk|1/100 par
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Sawk|Stone Edge|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, F|100/100
+|turn|11
+|
+|move|p1a: Infernape|U-turn|p2a: Sawk
+|-resisted|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|switch|p1a: Victini|Victini|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|turn|12
+|
+|move|p1a: Victini|U-turn|p2a: Rhyperior
+|-damage|p2a: Rhyperior|90/100
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100|[from]move: U-turn
+|move|p2a: Rhyperior|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rhyperior|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Darmanitan|Darmanitan, F|100/100
+|turn|13
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|56/100
+|-damage|p1a: Darmanitan|84/100|[from] Recoil
+|move|p2a: Rhyperior|Earthquake|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rhyperior|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, F|100/100
+|turn|14
+|
+|move|p1a: Infernape|Close Combat|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|24/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|move|p2a: Rhyperior|Earthquake|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rhyperior|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Victini|Victini|100/100
+|turn|15
+|
+|move|p1a: Victini|V-create|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|3/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|move|p2a: Rhyperior|Earthquake|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|win|sawk123
+|c|☆sawk123|gg
+|raw|Kwall25b's rating: 1428 &rarr; <strong>1404</strong><br />(-24 for losing)
+|raw|sawk123's rating: 1359 &rarr; <strong>1383</strong><br />(+24 for winning)

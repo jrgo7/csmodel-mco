@@ -1,0 +1,314 @@
+|j|schwuvvetli
+|j|smurfer
+|player|p1|schwuvvetli|170
+|teamsize|p1|6
+|player|p2|smurfer|102
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|36707,22546,1088,29626
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Garchomp, F, shiny|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Breloom, M, shiny|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Starmie, shiny|item
+|poke|p2|Scizor, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by schwuvvetli)
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|420/420
+|switch|p2a: Breloom|Breloom, M, shiny|261/261
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|choice|move stealthrock|move stunspore
+|
+|move|p2a: Breloom|Stun Spore|p1a: Hippowdon|[miss]
+|-miss|p2a: Breloom|p1a: Hippowdon
+|move|p1a: Hippowdon|Stealth Rock|p2a: Breloom
+|-sidestart|p2: smurfer|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|245/261|[from] sandstorm
+|upkeep
+|turn|2
+|choice|move earthquake|move spore
+|
+|move|p2a: Breloom|Spore|p1a: Hippowdon
+|-status|p1a: Hippowdon|slp
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|229/261|[from] sandstorm
+|upkeep
+|turn|3
+|choice|switch 2|move bulletseed
+|
+|switch|p1a: Garchomp|Garchomp, M|358/358
+|move|p2a: Breloom|Bullet Seed|p1a: Garchomp
+|-damage|p1a: Garchomp|286/358
+|-damage|p1a: Garchomp|210/358
+|-hitcount|p1a: Garchomp|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|213/261|[from] sandstorm
+|-heal|p1a: Garchomp|232/358|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move substitute|move bulletseed
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|143/358
+|move|p2a: Breloom|Bullet Seed|p1a: Garchomp
+|-activate|p1a: Garchomp|Substitute|[damage]
+|-end|p1a: Garchomp|Substitute
+|-hitcount|p1a: Garchomp|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|197/261|[from] sandstorm
+|-heal|p1a: Garchomp|165/358|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move dragonclaw|switch 6
+|
+|switch|p2a: Scizor|Scizor, F|292/292
+|-damage|p2a: Scizor|256/292|[from] Stealth Rock
+|move|p1a: Garchomp|Dragon Claw|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|190/292
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Garchomp|187/358|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move earthquake|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|34/358
+|-damage|p2a: Scizor|154/292|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Scizor|125/292|[from] item: Life Orb
+|move|p1a: Garchomp|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Garchomp|56/358|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Starmie|Starmie, shiny|261/261
+|-damage|p2a: Starmie|229/261|[from] Stealth Rock
+|turn|7
+|choice|switch 4|move rapidspin
+|
+|switch|p1a: Jellicent|Jellicent, M|404/404
+|move|p2a: Starmie|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|213/261|[from] sandstorm
+|-damage|p1a: Jellicent|379/404|[from] sandstorm
+|-heal|p1a: Jellicent|404/404|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move willowisp|move thunder
+|
+|move|p2a: Starmie|Thunder|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|165/404
+|-damage|p2a: Starmie|187/261|[from] item: Life Orb
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Starmie
+|-status|p2a: Starmie|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|171/261 brn|[from] sandstorm
+|-damage|p1a: Jellicent|140/404|[from] sandstorm
+|-heal|p1a: Jellicent|165/404|[from] item: Leftovers
+|-damage|p2a: Starmie|139/261 brn|[from] brn
+|upkeep
+|turn|9
+|j|Ninetales Dragons
+|choice|switch 5|move thunder
+|
+|switch|p1a: Scizor|Scizor, M|343/343
+|move|p2a: Starmie|Thunder|p1a: Scizor|[miss]
+|-miss|p2a: Starmie|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|123/261 brn|[from] sandstorm
+|-damage|p2a: Starmie|91/261 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move bulletpunch|move rapidspin
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Volcarona|Volcarona, M|329/329
+|-damage|p2a: Volcarona|165/329|[from] Stealth Rock
+|turn|11
+|choice|move bulletpunch|move quiverdance
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|46/329
+|-status|p1a: Scizor|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|26/329|[from] sandstorm
+|-damage|p1a: Scizor|301/343 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move bulletpunch|move fireblast
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scizor|259/343 brn|[from] brn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Dragonite|Dragonite, M|324/324
+|-damage|p2a: Dragonite|243/324|[from] Stealth Rock
+|turn|13
+|choice|move bulletpunch|move dragondance
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|156/324
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|136/324|[from] sandstorm
+|-damage|p1a: Scizor|217/343 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move bulletpunch|move firepunch
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|45/324
+|move|p2a: Dragonite|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|25/324|[from] sandstorm
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Hippowdon|Hippowdon, M|420/420 slp
+|turn|15
+|choice|move slackoff|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Hippowdon
+|-damage|p1a: Hippowdon|128/420 slp
+|cant|p1a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|5/324|[from] sandstorm
+|-heal|p1a: Hippowdon|154/420 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move slackoff|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Hippowdon|[from]lockedmove
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|0 fnt|[from] sandstorm
+|upkeep
+|faint|p2a: Dragonite
+|choice|switch 6|switch 3
+|
+|switch|p1a: Latios|Latios, M|301/301
+|switch|p2a: Garchomp|Garchomp, F, shiny|373/373
+|-damage|p2a: Garchomp|350/373|[from] Stealth Rock
+|turn|17
+|l|schwuvvetli
+|inactive|schwuvvetli disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|schwuvvetli has 40 seconds to reconnect!
+|inactive|schwuvvetli has 30 seconds to reconnect!
+|j|schwuvvetli
+|inactive|schwuvvetli reconnected and has 110 seconds left.
+|player|p1|schwuvvetli|170
+|choice|move dracometeor|move outrage
+|
+|move|p1a: Latios|Draco Meteor|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|283/301|[from] sandstorm
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Breloom|Breloom, M, shiny|197/261
+|-damage|p2a: Breloom|181/261|[from] Stealth Rock
+|turn|18
+|choice|switch 5|move bulletseed
+|
+|switch|p1a: Jellicent|Jellicent, M|165/404
+|move|p2a: Breloom|Bullet Seed|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-hitcount|p1a: Jellicent|1
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|165/261|[from] sandstorm
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Latios|Latios, M|283/301
+|turn|19
+|choice|move psyshock|move spore
+|
+|move|p1a: Latios|Psyshock|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|win|schwuvvetli
+|raw|schwuvvetli's rating: 1369 &rarr; <strong>1387</strong><br />(+18 for winning)
+|raw|smurfer's rating: 1333 &rarr; <strong>1315</strong><br />(-18 for losing)
+|l|smurfer

@@ -1,0 +1,307 @@
+|j|☆Kaho's A.D.
+|j|☆TheRareCandyDealer
+|player|p1|Kaho's A.D.|plasmagrunt-gen5bw|1367
+|player|p2|TheRareCandyDealer|dragontamer|1322
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Starmie|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Toxicroak, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo-Resolute|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|switch|p2a: Song of Storms|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Song of Storms
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kaho's A.D.)
+|
+|switch|p2a: Ordaga|Garchomp, M|100/100
+|move|p1a: Toxicroak|Fake Out|p2a: Ordaga
+|-damage|p2a: Ordaga|87/100
+|-damage|p1a: Toxicroak|88/100|[from] ability: Rough Skin|[of] p2a: Ordaga
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|upkeep
+|turn|2
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ordaga|Swords Dance|p2a: Ordaga
+|-boost|p2a: Ordaga|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ordaga|atk|1
+|move|p2a: Ordaga|Aqua Tail|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Ordaga|77/100|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|turn|4
+|
+|switch|p2a: Touch Me|Ferrothorn, F|100/100
+|move|p1a: Starmie|Ice Beam|p2a: Touch Me
+|-damage|p2a: Touch Me|73/100
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|84/100|[from] Sandstorm
+|-heal|p2a: Touch Me|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Touch Me|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: Kaho's A.D.|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Touch Me|86/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Touch Me
+|-sidestart|p2: TheRareCandyDealer|move: Stealth Rock
+|move|p2a: Touch Me|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Touch Me|92/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|88/100|[from] Leech Seed|[of] p2a: Touch Me
+|-heal|p2a: Touch Me|100/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Touch Me
+|-supereffective|p2a: Touch Me
+|-damage|p2a: Touch Me|33/100
+|-status|p2a: Touch Me|brn
+|move|p2a: Touch Me|Spikes|p1a: Tyranitar
+|-sidestart|p1: Kaho's A.D.|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Touch Me|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|76/100|[from] Leech Seed|[of] p2a: Touch Me
+|-heal|p2a: Touch Me|54/100 brn|[silent]
+|-damage|p2a: Touch Me|41/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Tyranitar|Crunch|p2a: Touch Me
+|-resisted|p2a: Touch Me
+|-damage|p2a: Touch Me|31/100 brn
+|-damage|p1a: Tyranitar|63/100|[from] ability: Iron Barbs|[of] p2a: Touch Me
+|move|p2a: Touch Me|Spikes|p1a: Tyranitar
+|-sidestart|p1: Kaho's A.D.|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Touch Me|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|51/100|[from] Leech Seed|[of] p2a: Touch Me
+|-heal|p2a: Touch Me|51/100 brn|[silent]
+|-damage|p2a: Touch Me|39/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Touch Me
+|-supereffective|p2a: Touch Me
+|-damage|p2a: Touch Me|0 fnt
+|faint|p2a: Touch Me
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ordaga|Garchomp, M|77/100
+|-damage|p2a: Ordaga|71/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Ordaga|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Ordaga|61/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|84/100
+|-damage|p1a: Starmie|72/100|[from] Stealth Rock
+|-damage|p1a: Starmie|56/100|[from] Spikes
+|turn|11
+|
+|switch|p2a: Song of Storms|Politoed, F|100/100
+|-damage|p2a: Song of Storms|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Song of Storms
+|move|p1a: Starmie|Ice Beam|p2a: Song of Storms
+|-resisted|p2a: Song of Storms
+|-damage|p2a: Song of Storms|73/100
+|-damage|p1a: Starmie|46/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Song of Storms|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|-damage|p1a: Toxicroak|78/100|[from] Spikes
+|move|p2a: Song of Storms|Scald|p1a: Toxicroak
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin|[of] p2a: Song of Storms
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Song of Storms|86/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Super Spinner|Starmie|100/100
+|-damage|p2a: Super Spinner|88/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Drain Punch|p2a: Super Spinner
+|-resisted|p2a: Super Spinner
+|-damage|p2a: Super Spinner|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Super Spinner
+|-supereffective|p2a: Super Spinner
+|-damage|p2a: Super Spinner|0 fnt
+|faint|p2a: Super Spinner
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ordaga|Garchomp, M|61/100
+|-damage|p2a: Ordaga|55/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ordaga|Earthquake|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Ordaga|Aqua Tail|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-enditem|p1a: Heatran|Air Balloon
+|-damage|p2a: Ordaga|45/100|[from] item: Life Orb
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|-damage|p1a: Toxicroak|78/100|[from] Spikes
+|turn|17
+|
+|move|p1a: Toxicroak|Fake Out|p2a: Ordaga
+|-damage|p2a: Ordaga|33/100
+|-damage|p1a: Toxicroak|65/100|[from] ability: Rough Skin|[of] p2a: Ordaga
+|cant|p2a: Ordaga|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|78/100|[from] ability: Dry Skin
+|upkeep
+|turn|18
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Ordaga
+|-damage|p2a: Ordaga|4/100
+|-damage|p1a: Toxicroak|65/100|[from] ability: Rough Skin|[of] p2a: Ordaga
+|move|p2a: Ordaga|Outrage|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-damage|p2a: Ordaga|0 fnt|[from] item: Life Orb
+|faint|p1a: Toxicroak
+|faint|p2a: Ordaga
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Demolisher|Keldeo-Resolute|100/100
+|switch|p1a: Starmie|Starmie|46/100
+|-damage|p2a: Demolisher|94/100|[from] Stealth Rock
+|-damage|p1a: Starmie|29/100|[from] Spikes
+|-damage|p1a: Starmie|17/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Demolisher|Secret Sword|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|84/100|[from] Spikes
+|-damage|p1a: Breloom|78/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Demolisher|Secret Sword|p1a: Breloom
+|-damage|p1a: Breloom|15/100
+|move|p1a: Breloom|Bullet Seed|p2a: Demolisher
+|-supereffective|p2a: Demolisher
+|-damage|p2a: Demolisher|33/100
+|-supereffective|p2a: Demolisher
+|-damage|p2a: Demolisher|0 fnt
+|-hitcount|p2a: Demolisher|2
+|-damage|p1a: Breloom|5/100|[from] item: Life Orb
+|faint|p2a: Demolisher
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Abbadon|Haxorus, M|100/100
+|-damage|p2a: Abbadon|88/100|[from] Stealth Rock
+|-ability|p2a: Abbadon|Mold Breaker
+|turn|21
+|c|☆TheRareCandyDealer|gg
+|c|☆Kaho's A.D.|gg
+|
+|move|p1a: Breloom|Mach Punch|p2a: Abbadon
+|-damage|p2a: Abbadon|35/100
+|-damage|p1a: Breloom|0 fnt|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|win|TheRareCandyDealer
+|l|☆Kaho's A.D.
+|raw|Kaho&apos;s A.D.'s rating: 1383 &rarr; <strong>1358</strong><br />(-25 for losing)
+|raw|TheRareCandyDealer's rating: 1307 &rarr; <strong>1331</strong><br />(+24 for winning)

@@ -1,0 +1,433 @@
+|j|☆coco
+|j|☆bmy
+|player|p1|coco|265
+|teamsize|p1|6
+|player|p2|bmy|266
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Rotom-Wash|item
+|poke|p1|Celebi|item
+|poke|p1|Politoed, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Salamence, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Donphan, F|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Donphan|Donphan, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Trick|p2a: Donphan
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Donphan
+|-item|p2a: Donphan|Choice Specs|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Donphan|Stealth Rock|p1a: Rotom
+|-sidestart|p1: coco|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ninetales
+|-immune|p2a: Ninetales|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|move|p1a: Rotom|Hydro Pump|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|66/100|[from] item: Leftovers
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|88/100
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Latios|Hidden Power|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|27/100
+|move|p1a: Celebi|Stealth Rock|p2a: Latios
+|-sidestart|p2: bmy|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|33/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Latios|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|80/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Ninetales|Ninetales, M|66/100
+|-damage|p2a: Ninetales|42/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Politoed|Toxic|p2a: Ninetales
+|-status|p2a: Ninetales|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|48/100 tox|[from] item: Leftovers
+|-heal|p1a: Politoed|92/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|42/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|75/100|[from] Stealth Rock
+|switch|p1a: Rotom|Rotom-Wash|88/100 brn
+|-damage|p1a: Rotom|76/100 brn|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rotom|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|70/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Latios|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Donphan|Donphan, F|100/100
+|-damage|p2a: Donphan|94/100|[from] Stealth Rock
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-crit|p2a: Donphan
+|-damage|p2a: Donphan|59/100
+|move|p2a: Donphan|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|-sideend|p2: bmy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Latios|Latios, M|75/100
+|move|p1a: Jirachi|Water Pulse|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Politoed|Politoed, M|92/100
+|-damage|p1a: Politoed|80/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Latios|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Ninetales|Ninetales, M|42/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Politoed|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|16/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|22/100 tox|[from] item: Leftovers
+|-heal|p1a: Politoed|84/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|16/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Latios|Latios, M|72/100
+|move|p1a: Politoed|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|66/100
+|-status|p2a: Latios|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Politoed|91/100|[from] item: Leftovers
+|-damage|p2a: Latios|53/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Latios|Trick|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Politoed|97/100|[from] item: Leftovers
+|-damage|p2a: Latios|41/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Latios|Trick|p1a: Politoed
+|-activate|p2a: Latios|move: Trick|[of] p1a: Politoed
+|-item|p1a: Politoed|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Politoed|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|32/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Latios|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Latios|26/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Latios|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|81/100
+|move|p1a: Politoed|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|17/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Latios|23/100 brn|[from] item: Leftovers
+|-damage|p2a: Latios|10/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|17/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Politoed|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|1/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Latios|7/100 brn|[from] item: Leftovers
+|-damage|p2a: Latios|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Latios
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|20
+|
+|switch|p1a: devilman|Salamence, M|100/100
+|-damage|p1a: devilman|76/100|[from] Stealth Rock
+|move|p2a: Heatran|Solar Beam|p1a: devilman|[still]
+|-prepare|p2a: Heatran|Solar Beam|p1a: devilman
+|-anim|p2a: Heatran|Solar Beam|p1a: devilman
+|-resisted|p1a: devilman
+|-damage|p1a: devilman|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: devilman|Dragon Claw|p2a: Heatran
+|-enditem|p1a: devilman|Dragon Gem|[from] gem|[move] Dragon Claw
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|62/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Magma Storm|p1a: devilman
+|-resisted|p1a: devilman
+|-damage|p1a: devilman|10/100
+|-activate|p1a: devilman|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: devilman|4/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|switch|p2a: Donphan|Donphan, F|59/100
+|move|p1a: devilman|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Donphan|Ice Shard|p1a: devilman
+|-supereffective|p1a: devilman
+|-damage|p1a: devilman|0 fnt
+|faint|p1a: devilman
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|33/100
+|-damage|p1a: Celebi|21/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p2a: Heatran|Heatran, F|62/100
+|move|p1a: Celebi|Stealth Rock|p2a: Heatran
+|-sidestart|p2: bmy|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|27/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Heatran|Magma Storm|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|17/100
+|-damage|p1a: Politoed|5/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|26
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Heatran|Sunny Day|p2a: Heatran
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|c|☆coco|a que carbion
+|c|☆coco|;v
+|c|☆bmy|:)
+|
+|switch|p1a: Jirachi|Jirachi|88/100
+|-damage|p1a: Jirachi|82/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Jirachi|[miss]
+|-miss|p2a: Heatran|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Heatran|Magma Storm|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-damage|p1a: Keldeo|84/100|[from] item: Life Orb
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Donphan|Donphan, F|35/100
+|-damage|p2a: Donphan|29/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Keldeo|Icy Wind|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p1a: Keldeo|74/100|[from] item: Life Orb
+|faint|p2a: Dragonite
+|
+|-weather|none
+|upkeep
+|c|☆coco|bad
+|c|☆coco|move
+|
+|switch|p2a: Donphan|Donphan, F|29/100
+|-damage|p2a: Donphan|23/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Donphan|Ice Shard|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|68/100
+|move|p1a: Keldeo|Icy Wind|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|-damage|p1a: Keldeo|58/100|[from] item: Life Orb
+|faint|p2a: Donphan
+|
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|turn|32
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-enditem|p2a: Volcarona|Passho Berry|[eat]
+|-enditem|p2a: Volcarona|Passho Berry|[weaken]
+|-damage|p2a: Volcarona|0 fnt
+|-damage|p1a: Keldeo|48/100|[from] item: Life Orb
+|faint|p2a: Volcarona
+|
+|upkeep
+|-message|bmy forfeited.
+|
+|win|coco
+|l|☆bmy
+|raw|coco's rating: 1389 &rarr; <strong>1408</strong><br />(+19 for winning)
+|raw|bmy's rating: 1360 &rarr; <strong>1341</strong><br />(-19 for losing)

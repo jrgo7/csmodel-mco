@@ -1,0 +1,182 @@
+|j|Bongi
+|j|shadowist
+|player|p1|Bongi|224
+|player|p2|shadowist|269
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Starmie|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Toxicroak, F, shiny|item
+|poke|p2|Ferrothorn, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|choice||
+|
+|move|p1a: Politoed|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Bongi|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|turn|2
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p2a: Toxicroak|Toxicroak, F, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|turn|3
+|choice||
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Toxicroak
+|-status|p2a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|choice||
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Toxicroak
+|-sidestart|p2: shadowist|move: Stealth Rock
+|cant|p2a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|choice||
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Toxicroak
+|-sidestart|p2: shadowist|Spikes
+|cant|p2a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|choice||
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Toxicroak
+|-sidestart|p2: shadowist|Spikes
+|move|p2a: Toxicroak|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Toxicroak|88/100 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Toxicroak|78/100 par|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|91/100 par|[from] ability: Dry Skin
+|choice||
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|7
+|c|★shadowist|i'm amazed
+|choice||
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|10/100 par
+|move|p2a: Toxicroak|Drain Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-heal|p2a: Toxicroak|55/100 par|[from] drain|[of] p1a: Scizor
+|-damage|p2a: Toxicroak|45/100 par|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|58/100 par|[from] ability: Dry Skin
+|choice||
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|8
+|c|★Bongi|?
+|choice||
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Thundurus|[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|70/100 par|[from] ability: Dry Skin
+|-heal|p1a: Thundurus|82/100|[from] item: Leftovers
+|turn|9
+|choice||
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-damage|p2a: Toxicroak|60/100 par|[from] item: Life Orb
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|72/100 par|[from] ability: Dry Skin
+|choice||
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|turn|10
+|choice||
+|
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|move|p2a: Toxicroak|Drain Punch|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|21/100
+|-heal|p2a: Toxicroak|100/100 par|[from] drain|[of] p1a: Toxicroak
+|-damage|p2a: Toxicroak|91/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|33/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|100/100 par|[from] ability: Dry Skin
+|turn|11
+|choice||
+|
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|move|p2a: Toxicroak|Drain Punch|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-damage|p2a: Toxicroak|91/100 par|[from] item: Life Orb
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|100/100 par|[from] ability: Dry Skin
+|c|★Bongi|Can i get a para like fuck
+|-message|Bongi forfeited.
+|
+|win|shadowist
+|player|p1
+|player|p2
+|l|Bongi
+|raw|Bongi's rating: 1380 &rarr; <strong>1360</strong><br />(-20 for losing)
+|raw|shadowist's rating: 1392 &rarr; <strong>1411</strong><br />(+19 for winning)

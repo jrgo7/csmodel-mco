@@ -1,0 +1,252 @@
+|j|☆Hope96
+|j|☆coco
+|player|p1|Hope96|265
+|player|p2|coco|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Starmie|item
+|poke|p1|Conkeldurr, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Forretress, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by coco)
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p2a: Landorus|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|78/100
+|-status|p2a: Forretress|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|85/100 frz|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Tyranitar|Fire Blast|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| Mister Heisenberg
+|inactive|Hope96 has 135 seconds left.
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|94/100|[from] item: Leftovers
+|-damage|p1a: Landorus|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Forretress|Forretress, M|85/100 frz
+|move|p1a: Landorus|Stealth Rock|p2a: Forretress
+|-sidestart|p2: coco|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Forretress|91/100 frz|[from] item: Leftovers
+|-damage|p1a: Landorus|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|-curestatus|p2a: Forretress|frz|[msg]
+|move|p2a: Forretress|Rapid Spin|p1a: Volcarona
+|-damage|p1a: Volcarona|93/100
+|-sideend|p2: coco|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcarona|99/100|[from] item: Leftovers
+|-heal|p2a: Forretress|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Forretress|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|93/100
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcarona|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Chansey
+|-damage|p2a: Chansey|73/100
+|move|p2a: Chansey|Thunder Wave|p1a: Volcarona
+|-status|p1a: Volcarona|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcarona|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Volcarona
+|-damage|p1a: Volcarona|68/100 par
+|move|p1a: Volcarona|Fiery Dance|p2a: Chansey
+|-damage|p2a: Chansey|45/100
+|-boost|p1a: Volcarona|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcarona|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Volcarona
+|-damage|p1a: Volcarona|42/100 par
+|-status|p2a: Chansey|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|move|p1a: Volcarona|Fiery Dance|p2a: Chansey
+|-damage|p2a: Chansey|4/100 brn
+|-boost|p1a: Volcarona|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcarona|48/100 par|[from] item: Leftovers
+|-damage|p2a: Chansey|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Chansey
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|turn|10
+|
+|move|p2a: Landorus|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|57/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|11
+|
+|move|p2a: Landorus|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|12
+|
+|switch|p2a: Ninetales|Ninetales, M|94/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Rotom|Hydro Pump|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Cresselia
+|-damage|p2a: Cresselia|81/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|82/100 brn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cresselia|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|88/100 brn|[from] item: Leftovers
+|-heal|p2a: Cresselia|87/100|[from] item: Leftovers
+|-damage|p1a: Landorus|75/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Cresselia
+|-sidestart|p2: coco|move: Stealth Rock
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|82/100 brn|[from] item: Leftovers
+|-heal|p2a: Cresselia|68/100|[from] item: Leftovers
+|-damage|p1a: Landorus|69/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Landorus|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-activate|p2a: Cresselia|Substitute|[damage]
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cresselia|74/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Cresselia|Psyshock|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|38/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|-damage|p1a: Conkeldurr|28/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cresselia|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|-message|Hope96 forfeited.
+|
+|win|coco
+|l|☆Hope96
+|raw|Hope96's rating: 1402 &rarr; <strong>1374</strong><br />(-28 for losing)
+|raw|coco's rating: 1256 &rarr; <strong>1291</strong><br />(+35 for winning)

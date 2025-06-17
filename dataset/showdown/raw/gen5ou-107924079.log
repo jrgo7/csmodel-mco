@@ -1,0 +1,543 @@
+|join|Sir Ryan House
+|join|Genesis7
+|player|p1|Sir Ryan House|52
+|player|p2|Genesis7|208
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Hydreigon, M
+|poke|p1|Celebi, shiny
+|poke|p1|Heatran, M
+|poke|p1|Alakazam, M
+|poke|p1|Scizor, M
+|poke|p1|Vaporeon, M
+|poke|p2|Politoed, F
+|poke|p2|Keldeo
+|poke|p2|Jirachi
+|poke|p2|Blissey, F
+|poke|p2|Landorus-Therian, M
+|poke|p2|Ludicolo, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Celebi|Celebi, shiny|404/404
+|switch|p2a: Politoed|Politoed, F|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|382/382
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Celebi
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Giga Drain|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|270/382
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus-Therian|293/382|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Vaporeon|Vaporeon, M|463/463
+|move|p2a: Landorus-Therian|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|365/463
+|
+|switch|p2a: Ludicolo|Ludicolo, F|364/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|393/463|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Knightmare|Scizor, M|282/282
+|move|p2a: Ludicolo|Giga Drain|p1a: Knightmare
+|-resisted|p1a: Knightmare
+|-damage|p1a: Knightmare|235/282
+|-damage|p2a: Ludicolo|328/364|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ludicolo|350/364|[from] ability: Rain Dish
+|turn|4
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|293/382
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Knightmare
+|-unboost|p1a: Knightmare|atk|1
+|move|p1a: Knightmare|U-turn|p2a: Landorus-Therian
+|-resisted|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|227/382
+|
+|switch|p1a: Vaporeon|Vaporeon, M|393/463
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus-Therian|250/382|[from] item: Leftovers
+|-heal|p1a: Vaporeon|421/463|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Jirachi|Jirachi|397/397
+|move|p1a: Vaporeon|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|250/397
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|274/397|[from] item: Leftovers
+|-heal|p1a: Vaporeon|449/463|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Heatran|Heatran, M|386/386
+|move|p2a: Jirachi|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|290/386
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|298/397|[from] item: Leftovers
+|-heal|p1a: Heatran|314/386|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Politoed|Politoed, F|322/322
+|move|p1a: Heatran|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Genesis7|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|338/386|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Vaporeon|Vaporeon, M|449/463
+|move|p2a: Politoed|Ice Beam|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|406/463
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|434/463|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Blissey|Blissey, F|714/714
+|-damage|p2a: Blissey|625/714|[from] Stealth Rock
+|move|p1a: Vaporeon|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|462/463|[from] item: Leftovers
+|-heal|p2a: Blissey|669/714 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|625/714 tox|[from] psn
+|turn|10
+|
+|switch|p1a: Knightmare|Scizor, M|235/282
+|move|p2a: Blissey|Thunder Wave|p1a: Knightmare
+|-status|p1a: Knightmare|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|669/714 tox|[from] item: Leftovers
+|-damage|p2a: Blissey|581/714 tox|[from] psn
+|turn|11
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|250/382
+|-damage|p2a: Landorus-Therian|203/382|[from] Stealth Rock
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Knightmare
+|-unboost|p1a: Knightmare|atk|1
+|move|p1a: Knightmare|U-turn|p2a: Landorus-Therian
+|-resisted|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|140/382
+|
+|switch|p1a: Hydreigon|Hydreigon, M|336/336
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus-Therian|163/382|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|0 fnt
+|faint|p2a: Landorus-Therian
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ludicolo|Ludicolo, F|350/364
+|-damage|p2a: Ludicolo|305/364|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Ludicolo
+|-damage|p2a: Ludicolo|79/364
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Ludicolo|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|63/336
+|-status|p1a: Hydreigon|frz
+|-damage|p2a: Ludicolo|43/364|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ludicolo|65/364|[from] ability: Rain Dish
+|-heal|p1a: Hydreigon|84/336 frz|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Celebi|Celebi, shiny|404/404
+|move|p2a: Ludicolo|Ice Beam|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|173/404
+|-damage|p2a: Ludicolo|29/364|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ludicolo|51/364|[from] ability: Rain Dish
+|turn|15
+|
+|move|p1a: Celebi|Giga Drain|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|-heal|p1a: Celebi|199/404|[from] drain|[of] p2a: Ludicolo
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Jirachi|Jirachi|298/397
+|-damage|p2a: Jirachi|274/397|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Heatran|Heatran, M|338/386
+|move|p2a: Jirachi|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|298/397|[from] item: Leftovers
+|-heal|p1a: Heatran|362/386 par|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Politoed|Politoed, F|322/322
+|-damage|p2a: Politoed|282/322|[from] Stealth Rock
+|move|p1a: Heatran|Earth Power|p2a: Politoed
+|-damage|p2a: Politoed|186/322
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|386/386 par|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Vaporeon|Vaporeon, M|462/463
+|move|p2a: Politoed|Focus Blast|p1a: Vaporeon|[miss]
+|-miss|p2a: Politoed|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|463/463|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Blissey|Blissey, F|581/714
+|-damage|p2a: Blissey|492/714|[from] Stealth Rock
+|switch|p1a: Celebi|Celebi, shiny|199/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|536/714|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Celebi|Trick|p2a: Blissey
+|-activate|p1a: Celebi|move: Trick|[of] p2a: Blissey
+|-item|p2a: Blissey|Choice Scarf|[from] move: Trick
+|-item|p1a: Celebi|Leftovers|[from] move: Trick
+|move|p2a: Blissey|Thunder Wave|p1a: Celebi
+|-status|p1a: Celebi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|224/404 par|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Jirachi|Jirachi|298/397
+|-damage|p2a: Jirachi|274/397|[from] Stealth Rock
+|move|p1a: Celebi|Heal Bell|p1a: Celebi
+|-cureteam|p1a: Celebi|[from] move: HealBell
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|298/397|[from] item: Leftovers
+|-heal|p1a: Celebi|249/404|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Heatran|Heatran, M|386/386
+|move|p2a: Jirachi|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|286/386
+|-status|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|322/397|[from] item: Leftovers
+|-heal|p1a: Heatran|310/386 par|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|-damage|p2a: Keldeo|303/323|[from] Stealth Rock
+|cant|p1a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|334/386 par|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: Vaporeon|Vaporeon, M|463/463
+|move|p2a: Keldeo|Hidden Power|p1a: Vaporeon
+|-damage|p1a: Vaporeon|383/463
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|411/463|[from] item: Leftovers
+|turn|25
+|
+|switch|p2a: Blissey|Blissey, F|536/714
+|-damage|p2a: Blissey|447/714|[from] Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Blissey
+|-damage|p2a: Blissey|338/714
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|439/463|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|695/714
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|463/463|[from] item: Leftovers
+|turn|27
+|
+|switch|p2a: Jirachi|Jirachi|322/397
+|-damage|p2a: Jirachi|298/397|[from] Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|157/397
+|-status|p2a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|181/397 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|132/397 brn|[from] brn
+|turn|28
+|
+|move|p2a: Jirachi|Thunder|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|203/463
+|-status|p1a: Vaporeon|par
+|cant|p1a: Vaporeon|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|156/397 brn|[from] item: Leftovers
+|-heal|p1a: Vaporeon|231/463 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|107/397 brn|[from] brn
+|turn|29
+|
+|switch|p1a: Heatran|Heatran, M|334/386 par
+|move|p2a: Jirachi|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|248/386 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|131/397 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|272/386 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|82/397 brn|[from] brn
+|turn|30
+|
+|switch|p2a: Keldeo|Keldeo|303/323
+|-damage|p2a: Keldeo|283/323|[from] Stealth Rock
+|move|p1a: Heatran|Roar|p2a: Keldeo
+|drag|p2a: Jirachi|Jirachi|82/397 brn
+|-damage|p2a: Jirachi|58/397 brn|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/397 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|296/386 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|33/397 brn|[from] brn
+|turn|31
+|
+|switch|p1a: Celebi|Celebi, shiny|249/404
+|move|p2a: Jirachi|Thunder|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|190/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|57/397 brn|[from] item: Leftovers
+|-heal|p1a: Celebi|215/404|[from] item: Leftovers
+|-damage|p2a: Jirachi|8/397 brn|[from] brn
+|turn|32
+|
+|move|p2a: Jirachi|Iron Head|p1a: Celebi
+|-damage|p1a: Celebi|178/404
+|cant|p1a: Celebi|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|32/397 brn|[from] item: Leftovers
+|-heal|p1a: Celebi|203/404|[from] item: Leftovers
+|-damage|p2a: Jirachi|0 fnt|[from] brn
+|faint|p2a: Jirachi
+|
+|switch|p2a: Keldeo|Keldeo|283/323
+|-damage|p2a: Keldeo|263/323|[from] Stealth Rock
+|turn|33
+|
+|switch|p1a: Heatran|Heatran, M|296/386 par
+|move|p2a: Keldeo|Hidden Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|283/386 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|307/386 par|[from] item: Leftovers
+|turn|34
+|
+|switch|p2a: Politoed|Politoed, F|186/322
+|-damage|p2a: Politoed|146/322|[from] Stealth Rock
+|switch|p1a: Celebi|Celebi, shiny|203/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|228/404|[from] item: Leftovers
+|turn|35
+|
+|switch|p1a: Vaporeon|Vaporeon, M|231/463 par
+|move|p2a: Politoed|Ice Beam|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|185/463 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|213/463 par|[from] item: Leftovers
+|turn|36
+|
+|switch|p2a: Keldeo|Keldeo|263/323
+|-damage|p2a: Keldeo|243/323|[from] Stealth Rock
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|241/463 par|[from] item: Leftovers
+|turn|37
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-activate|p1a: Vaporeon|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|463/463 par|[from] move: Wish|[wisher] Vaporeon
+|turn|38
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|325/463 par
+|move|p1a: Vaporeon|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|159/323
+|-status|p2a: Keldeo|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|353/463 par|[from] item: Leftovers
+|-damage|p2a: Keldeo|119/323 brn|[from] brn
+|turn|39
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|191/463 par
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|219/463 par|[from] item: Leftovers
+|-damage|p2a: Keldeo|79/323 brn|[from] brn
+|turn|40
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-activate|p1a: Vaporeon|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|450/463 par|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|463/463 par|[from] item: Leftovers
+|-damage|p2a: Keldeo|39/323 brn|[from] brn
+|turn|41
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Vaporeon
+|-damage|p1a: Vaporeon|312/463 par
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|340/463 par|[from] item: Leftovers
+|-damage|p2a: Keldeo|0 fnt|[from] brn
+|faint|p2a: Keldeo
+|
+|switch|p2a: Blissey|Blissey, F|695/714
+|-damage|p2a: Blissey|606/714|[from] Stealth Rock
+|turn|42
+|
+|switch|p1a: Celebi|Celebi, shiny|228/404
+|move|p2a: Blissey|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|128/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|359/404|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Celebi|384/404|[from] item: Leftovers
+|turn|43
+|
+|move|p1a: Celebi|Heal Bell|p1a: Celebi
+|-cureteam|p1a: Celebi|[from] move: HealBell
+|move|p2a: Blissey|Seismic Toss|p1a: Celebi
+|-damage|p1a: Celebi|284/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|309/404|[from] item: Leftovers
+|turn|44
+|
+|switch|p1a: Vaporeon|Vaporeon, M|340/463
+|move|p2a: Blissey|Seismic Toss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|240/463
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|268/463|[from] item: Leftovers
+|turn|45
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|168/463
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|196/463|[from] item: Leftovers
+|turn|46
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|96/463
+|move|p1a: Vaporeon|Scald|p2a: Blissey
+|-damage|p2a: Blissey|483/714
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|327/463|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|355/463|[from] item: Leftovers
+|turn|47
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|255/463
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|283/463|[from] item: Leftovers
+|turn|48
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|183/463
+|move|p1a: Vaporeon|Scald|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|228/714
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|414/463|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|442/463|[from] item: Leftovers
+|turn|49
+|
+|switch|p2a: Politoed|Politoed, F|146/322
+|-damage|p2a: Politoed|106/322|[from] Stealth Rock
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|463/463|[from] item: Leftovers
+|turn|50
+|
+|move|p2a: Politoed|Focus Blast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|346/463
+|move|p1a: Vaporeon|Scald|p2a: Politoed
+|-crit|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|463/463|[from] move: Wish|[wisher] Vaporeon
+|-message|Genesis7 forfeited.
+|leave|Genesis7
+|chat|Genesis7|gg
+|
+|win|Sir Ryan House
+|raw|Ladder updating...
+|chat|Sir Ryan House|gg
+|player|p2
+|raw|Sir Ryan House's rating: 1343 &rarr; <strong>1361</strong><br />(+18 for winning)
+|raw|Genesis7's rating: 1310 &rarr; <strong>1292</strong><br />(-18 for losing)

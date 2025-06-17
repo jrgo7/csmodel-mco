@@ -1,0 +1,258 @@
+|J|bluri
+|j|big scrimpin
+|player|p1|bluri|278
+|teamsize|p1|6
+|player|p2|big scrimpin|12
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|40911,56047,60294,8792
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Quagsire, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Amoonguss, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Mew|item
+|poke|p2|Gastrodon-East, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Tyranitar, M|item
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|420/420
+|switch|p2a: Mew|Mew|403/403
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|choice|move stealthrock|move taunt
+|
+|move|p2a: Mew|Taunt|p1a: Hippowdon
+|-start|p1a: Hippowdon|move: Taunt
+|cant|p1a: Hippowdon|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 5|move willowisp
+|
+|switch|p1a: Chansey|Chansey, F|655/655
+|move|p2a: Mew|Will-O-Wisp|p1a: Chansey
+|-status|p1a: Chansey|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-damage|p1a: Chansey|615/655 brn|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|-damage|p1a: Chansey|534/655 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move toxic|move taunt
+|
+|move|p2a: Mew|Taunt|p1a: Chansey
+|-start|p1a: Chansey|move: Taunt
+|cant|p1a: Chansey|move: Taunt|Toxic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-damage|p1a: Chansey|494/655 brn|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|-damage|p1a: Chansey|413/655 brn|[from] brn
+|upkeep
+|turn|4
+|choice|switch 6|move willowisp
+|
+|-curestatus|p1a: Chansey|brn|[from] ability: Natural Cure
+|switch|p1a: Amoonguss|Amoonguss, F|432/432
+|move|p2a: Mew|Will-O-Wisp|p1a: Amoonguss
+|-status|p1a: Amoonguss|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-damage|p1a: Amoonguss|405/432 brn|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|-heal|p1a: Amoonguss|432/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|378/432 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 3|move taunt
+|
+|switch|p1a: Quagsire|Quagsire, F|394/394
+|move|p2a: Mew|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 3|move willowisp
+|
+|switch|p1a: Amoonguss|Amoonguss, F|432/432 brn
+|move|p2a: Mew|Will-O-Wisp|p1a: Amoonguss
+|-fail|p1a: Amoonguss|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-damage|p1a: Amoonguss|405/432 brn|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|-heal|p1a: Amoonguss|432/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|378/432 brn|[from] brn
+|upkeep
+|turn|7
+|choice|switch 3|move taunt
+|
+|switch|p1a: Quagsire|Quagsire, F|394/394
+|move|p2a: Mew|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 3|move willowisp
+|
+|switch|p1a: Amoonguss|Amoonguss, F|432/432 brn
+|move|p2a: Mew|Will-O-Wisp|p1a: Amoonguss
+|-fail|p1a: Amoonguss|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-damage|p1a: Amoonguss|405/432 brn|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|-heal|p1a: Amoonguss|432/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|378/432 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move spore|move taunt
+|
+|move|p2a: Mew|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|cant|p1a: Amoonguss|move: Taunt|Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|378/403|[from] sandstorm
+|-damage|p1a: Amoonguss|351/432 brn|[from] sandstorm
+|-heal|p2a: Mew|403/403|[from] item: Leftovers
+|-heal|p1a: Amoonguss|378/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|324/432 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move gigadrain|move psychic
+|
+|move|p2a: Mew|Psychic|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|132/432 brn
+|move|p1a: Amoonguss|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|328/403
+|-heal|p1a: Amoonguss|170/432 brn|[from] drain|[of] p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|303/403|[from] sandstorm
+|-damage|p1a: Amoonguss|143/432 brn|[from] sandstorm
+|-heal|p2a: Mew|328/403|[from] item: Leftovers
+|-heal|p1a: Amoonguss|170/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|116/432 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move gigadrain|move willowisp
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Amoonguss
+|-fail|p1a: Amoonguss|brn
+|move|p1a: Amoonguss|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|243/403
+|-heal|p1a: Amoonguss|159/432 brn|[from] drain|[of] p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|218/403|[from] sandstorm
+|-damage|p1a: Amoonguss|132/432 brn|[from] sandstorm
+|-heal|p2a: Mew|243/403|[from] item: Leftovers
+|-heal|p1a: Amoonguss|159/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|105/432 brn|[from] brn
+|-end|p1a: Amoonguss|move: Taunt
+|upkeep
+|turn|12
+|choice|switch 2|move psychic
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|424/424
+|move|p2a: Mew|Psychic|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|218/403|[from] sandstorm
+|-heal|p2a: Mew|243/403|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move toxic|move taunt
+|
+|move|p2a: Mew|Taunt|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Taunt
+|cant|p1a: Mandibuzz|move: Taunt|Toxic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|218/403|[from] sandstorm
+|-heal|p2a: Mew|243/403|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|switch 2|move psychic
+|
+|switch|p1a: Amoonguss|Amoonguss, F|249/432 brn
+|move|p2a: Mew|Psychic|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|57/432 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|218/403|[from] sandstorm
+|-damage|p1a: Amoonguss|30/432 brn|[from] sandstorm
+|-heal|p2a: Mew|243/403|[from] item: Leftovers
+|-heal|p1a: Amoonguss|57/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|3/432 brn|[from] brn
+|upkeep
+|turn|15
+|choice|switch 2|move willowisp
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|424/424
+|move|p2a: Mew|Will-O-Wisp|p1a: Mandibuzz|[miss]
+|-miss|p2a: Mew|p1a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|218/403|[from] sandstorm
+|-heal|p2a: Mew|243/403|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 2|move psychic
+|
+|switch|p1a: Amoonguss|Amoonguss, F|147/432 brn
+|move|p2a: Mew|Psychic|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|218/403|[from] sandstorm
+|-heal|p2a: Mew|243/403|[from] item: Leftovers
+|upkeep
+|-message|bluri forfeited.
+|
+|win|big scrimpin
+|L|bluri
+|raw|bluri's rating: 1446 &rarr; <strong>1419</strong><br />(-27 for losing)
+|raw|big scrimpin's rating: 1322 &rarr; <strong>1349</strong><br />(+27 for winning)

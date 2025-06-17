@@ -1,0 +1,334 @@
+|j|☆Internal Cannon
+|j|☆refsunpersons
+|player|p1|Internal Cannon|3
+|player|p2|refsunpersons|123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Starmie|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Keldeo|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Xatu, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Lapras, F|item
+|teampreview
+|c|☆refsunpersons|gl hf
+|c|☆Internal Cannon|u2
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|86/100
+|move|p2a: Ferrothorn|Spikes|p1a: Politoed
+|-sidestart|p1: Internal Cannon|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Lapras|Lapras, F|100/100
+|move|p1a: Politoed|Scald|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|88/100
+|-status|p2a: Lapras|brn
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Lapras|ability: Hydration
+|-curestatus|p2a: Lapras|brn|[msg]
+|-heal|p2a: Lapras|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Spikes
+|move|p2a: Lapras|Avalanche|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|92/100
+|move|p1a: Starmie|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|44/100
+|-damage|p1a: Starmie|64/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Starmie|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100
+|-damage|p1a: Starmie|54/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Leech Seed|p1a: Starmie|[miss]
+|-miss|p2a: Ferrothorn|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|31/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Starmie|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|7/100
+|-damage|p1a: Starmie|44/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Power Whip|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|7
+|
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|move|p2a: Politoed|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Tornadus|Hurricane|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Lapras|Lapras, F|100/100
+|turn|11
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Lapras|Curse|p2a: Lapras
+|-unboost|p2a: Lapras|spe|1
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|54/100
+|move|p2a: Lapras|Avalanche|p1a: Kyurem
+|-damage|p1a: Kyurem|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|60/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|17/100
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|100/100 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Lapras|ability: Hydration
+|-curestatus|p2a: Lapras|slp|[msg]
+|upkeep
+|turn|14
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Lapras|Avalanche|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|22/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Tornadus|Focus Blast|p2a: Lapras|[miss]
+|-miss|p1a: Tornadus|p2a: Lapras
+|move|p2a: Lapras|Avalanche|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆refsunpersons|sorry
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|68/100
+|-damage|p1a: Ferrothorn|56/100|[from] Spikes
+|turn|16
+|
+|move|p2a: Lapras|Curse|p2a: Lapras
+|-unboost|p2a: Lapras|spe|1
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|def|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Lapras|[miss]
+|-miss|p1a: Ferrothorn|p2a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Lapras|Curse|p2a: Lapras
+|-unboost|p2a: Lapras|spe|1
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|def|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|18
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|88/100|[from] Spikes
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Latias|[miss]
+|-miss|p1a: Keldeo|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|56/100
+|-damage|p1a: Ferrothorn|44/100|[from] Spikes
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Spikes
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Garchomp|Outrage|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|88/100
+|-damage|p1a: Keldeo|76/100|[from] Spikes
+|turn|23
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|24
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|44/100
+|-damage|p1a: Ferrothorn|32/100|[from] Spikes
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|15/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|turn|26
+|
+|move|p2a: Politoed|Psychic|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|6/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|win|Internal Cannon
+|raw|Internal Cannon's rating: 1401 &rarr; <strong>1416</strong><br />(+15 for winning)
+|raw|refsunpersons's rating: 1310 &rarr; <strong>1295</strong><br />(-15 for losing)
+|c|☆refsunpersons|gg
+|c|☆Internal Cannon|sry for the bs
+|c|☆Internal Cannon|gg man
+|j| BlazingDark ☾★

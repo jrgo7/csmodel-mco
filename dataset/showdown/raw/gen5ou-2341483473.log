@@ -1,0 +1,207 @@
+|j|☆Invisible Enemy
+|j|☆Ejtheegar
+|player|p1|Invisible Enemy|acetrainer-gen2
+|player|p2|Ejtheegar|223
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dragonite, M|item
+|poke|p1|Politoed, M|item
+|poke|p1|Toxicroak, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Starmie|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Excadrill, M|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Politoed|Hypnosis|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|cant|p2a: Ferrothorn|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|-damage|p1a: Thundurus|70/100|[from] Sandstorm
+|-heal|p1a: Thundurus|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Latios|Dragon Pulse|p1a: Thundurus
+|-end|p1a: Thundurus|Substitute
+|move|p1a: Thundurus|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|29/100|[from] Sandstorm
+|-damage|p1a: Thundurus|70/100|[from] Sandstorm
+|-heal|p1a: Thundurus|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Latios|Dragon Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|23/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Ejtheegar|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Politoed|Politoed, M|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tyranitar|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Invisible Enemy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100 slp
+|-damage|p2a: Ferrothorn|94/100 slp|[from] Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|69/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Ferrothorn|[miss]
+|-miss|p1a: Politoed|p2a: Ferrothorn
+|cant|p2a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|-curestatus|p2a: Ferrothorn|slp|[msg]
+|move|p2a: Ferrothorn|Spikes|p1a: Toxicroak
+|-sidestart|p1: Invisible Enemy|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxicroak|atk|1
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|88/100|[from] ability: Dry Skin
+|upkeep
+|turn|12
+|
+|move|p2a: Landorus|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|move|p1a: Toxicroak|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Toxicroak|78/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|91/100|[from] ability: Dry Skin
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|76/100
+|-damage|p1a: Thundurus|51/100|[from] Stealth Rock
+|move|p2a: Excadrill|Rock Slide|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, F|91/100
+|-damage|p1a: Toxicroak|84/100|[from] Stealth Rock
+|-damage|p1a: Toxicroak|72/100|[from] Spikes
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Invisible Enemy)
+|inactive|Ejtheegar has 120 seconds left.
+|inactive|Ejtheegar has 90 seconds left.
+|inactive|Ejtheegar has 60 seconds left.
+|inactive|Ejtheegar has 30 seconds left.
+|inactive|Ejtheegar has 20 seconds left.
+|l|☆Ejtheegar
+|inactive|Ejtheegar disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Ejtheegar has 15 seconds left.
+|inactive|Ejtheegar has 10 seconds left.
+|inactive|Ejtheegar has 5 seconds left.
+|-message|Ejtheegar lost due to inactivity.
+|
+|win|Invisible Enemy
+|c|☆Invisible Enemy|sry for winning this way my dude
+|raw|Invisible Enemy's rating: 1573 &rarr; <strong>1586</strong><br />(+13 for winning)
+|raw|Ejtheegar's rating: 1440 &rarr; <strong>1427</strong><br />(-13 for losing)
+|c|☆Invisible Enemy|gl on your climb

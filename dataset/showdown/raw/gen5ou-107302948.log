@@ -1,0 +1,993 @@
+|join|Gym Leader Nicki
+|join|marky boy
+|player|p1|Gym Leader Nicki|137
+|player|p2|marky boy|265
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Infernape, M
+|poke|p1|Jirachi
+|poke|p1|Latias, F
+|poke|p1|Celebi
+|poke|p1|Chansey, F
+|poke|p1|Ninetales, F
+|poke|p2|Whimsicott, M
+|poke|p2|Chansey, F
+|poke|p2|Wobbuffet, F
+|poke|p2|Gothitelle, M
+|poke|p2|Forretress, M
+|poke|p2|Dragonite, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|288/288
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|move|p1a: Ninetales|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|162/323
+|-damage|p1a: Ninetales|260/288|[from] item: Life Orb
+|move|p2a: Dragonite|Outrage|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Chansey|Chansey, F|704/704
+|turn|2
+|
+|move|p2a: Dragonite|Outrage|p1a: Chansey
+|-damage|p1a: Chansey|262/704
+|move|p1a: Chansey|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|-end|p2a: Dragonite|rampage
+|-start|p2a: Dragonite|confusion
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p2a: Chansey|Chansey, F|703/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|614/704
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|move|p2a: Chansey|Toxic|p1a: Chansey
+|-status|p1a: Chansey|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Chansey|570/704 tox|[from] psn
+|turn|5
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Chansey
+|-sidestart|p2: marky boy|move: Stealth Rock
+|move|p2a: Chansey|Heal Bell|p2a: Chansey
+|-cureteam|p2a: Chansey|[from] move: HealBell
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Chansey|703/703|[from] move: Wish|[wisher] Chansey
+|turn|7
+|
+|move|p1a: Jirachi|Iron Head|p2a: Chansey
+|-damage|p2a: Chansey|558/703
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p2a: Forretress|Forretress, M|353/353
+|-damage|p2a: Forretress|309/353|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|281/353
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|353/353|[from] move: Wish|[wisher] Chansey
+|turn|9
+|
+|switch|p1a: Testkion|Infernape, M|293/293
+|move|p2a: Forretress|Stealth Rock|p1a: Testkion
+|-sidestart|p1: Gym Leader Nicki|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|move|p1a: Testkion|Overheat|p2a: Forretress|[miss]
+|-miss|p1a: Testkion|p2a: Forretress
+|move|p2a: Forretress|Earthquake|p1a: Testkion
+|-supereffective|p1a: Testkion
+|-damage|p1a: Testkion|33/293
+|
+|-weather|SunnyDay|[upkeep]
+|turn|11
+|
+|move|p1a: Testkion|Overheat|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-activate|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/353
+|-unboost|p1a: Testkion|spa|2
+|-damage|p1a: Testkion|4/293|[from] item: Life Orb
+|move|p2a: Forretress|Rapid Spin|p1a: Testkion
+|-damage|p1a: Testkion|0 fnt
+|-sideend|p2: marky boy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|faint|p1a: Testkion
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|23/353|[from] item: Leftovers
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|379/404|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Forretress
+|-sidestart|p2: marky boy|move: Stealth Rock
+|move|p2a: Forretress|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|253/404
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|278/404|[from] item: Leftovers
+|-heal|p2a: Forretress|45/353|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Jirachi|Iron Head|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|15/353
+|cant|p2a: Forretress|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|303/404|[from] item: Leftovers
+|-heal|p2a: Forretress|37/353|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Jirachi|Iron Head|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|6/353
+|cant|p2a: Forretress|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|328/404|[from] item: Leftovers
+|-heal|p2a: Forretress|28/353|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Jirachi|Iron Head|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|353/404|[from] item: Leftovers
+|
+|switch|p2a: Chansey|Chansey, F|558/703
+|-damage|p2a: Chansey|471/703|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Jirachi|Iron Head|p2a: Chansey
+|-damage|p2a: Chansey|339/703
+|cant|p2a: Chansey|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|378/404|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Whimsicott|Whimsicott, M|324/324
+|-damage|p2a: Whimsicott|284/324|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Whimsicott
+|-damage|p2a: Whimsicott|193/324
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|403/404|[from] item: Leftovers
+|-heal|p2a: Whimsicott|213/324|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|move|p1a: Jirachi|Thunder Wave|p2a: Whimsicott
+|-status|p2a: Whimsicott|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|-heal|p2a: Whimsicott|233/324 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|354/404|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|283/324 par|[silent]
+|turn|19
+|
+|switch|p1a: Chansey|Chansey, F|570/704
+|-damage|p1a: Chansey|482/704|[from] Stealth Rock
+|move|p2a: Whimsicott|Encore|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Whimsicott|303/324 par|[from] item: Leftovers
+|turn|20
+|
+|cant|p2a: Whimsicott|par
+|move|p1a: Chansey|Seismic Toss|p2a: Whimsicott
+|-damage|p2a: Whimsicott|203/324 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Whimsicott|223/324 par|[from] item: Leftovers
+|turn|21
+|
+|cant|p2a: Whimsicott|par
+|move|p1a: Chansey|Seismic Toss|p2a: Whimsicott
+|-damage|p2a: Whimsicott|123/324 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Whimsicott|143/324 par|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|move|p1a: Chansey|Seismic Toss|p2a: Whimsicott
+|-damage|p2a: Whimsicott|43/324 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Whimsicott|63/324 par|[from] item: Leftovers
+|-damage|p1a: Chansey|394/704|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|151/324 par|[silent]
+|turn|23
+|
+|switch|p1a: Jirachi|Jirachi|354/404
+|-damage|p1a: Jirachi|329/404|[from] Stealth Rock
+|cant|p2a: Whimsicott|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|354/404|[from] item: Leftovers
+|-heal|p2a: Whimsicott|171/324 par|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|move|p1a: Jirachi|Iron Head|p2a: Whimsicott
+|-damage|p2a: Whimsicott|86/324 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|379/404|[from] item: Leftovers
+|-heal|p2a: Whimsicott|106/324 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|329/404|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|156/324 par|[silent]
+|turn|25
+|
+|switch|p1a: Celebi|Celebi|366/366
+|-damage|p1a: Celebi|321/366|[from] Stealth Rock
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|75/324 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|343/366|[from] item: Leftovers
+|-heal|p2a: Whimsicott|95/324 par|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Whimsicott|Taunt|p1a: Celebi
+|-start|p1a: Celebi|move: Taunt
+|move|p1a: Celebi|Hidden Power|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-end|p2a: Whimsicott|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|365/366|[from] item: Leftovers
+|-heal|p2a: Whimsicott|115/324 par|[from] item: Leftovers
+|turn|27
+|
+|switch|p2a: Wobbuffet|Wobbuffet, F|583/583
+|-damage|p2a: Wobbuffet|511/583|[from] Stealth Rock
+|move|p1a: Celebi|Hidden Power|p2a: Wobbuffet
+|-crit|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|268/583
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|366/366|[from] item: Leftovers
+|-heal|p2a: Wobbuffet|304/583|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Celebi|Giga Drain|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|159/583
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Celebi
+|-damage|p1a: Celebi|76/366
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|98/366|[from] item: Leftovers
+|-heal|p2a: Wobbuffet|195/583|[from] item: Leftovers
+|-end|p1a: Celebi|move: Taunt
+|turn|29
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|281/366
+|move|p2a: Wobbuffet|Encore|p1a: Celebi
+|-start|p1a: Celebi|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|303/366|[from] item: Leftovers
+|-heal|p2a: Wobbuffet|231/583|[from] item: Leftovers
+|turn|30
+|
+|switch|p2a: Gothitelle|Gothitelle, M|344/344
+|-damage|p2a: Gothitelle|301/344|[from] Stealth Rock
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|366/366
+|
+|-weather|SunnyDay|[upkeep]
+|turn|31
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Gothitelle|Trick|p1a: Celebi
+|-activate|p2a: Gothitelle|move: Trick|[of] p1a: Celebi
+|-item|p1a: Celebi|Choice Specs|[from] move: Trick
+|-item|p2a: Gothitelle|Leftovers|[from] move: Trick
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|322/344|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Gothitelle|Psychic|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|297/366
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|343/344|[from] item: Leftovers
+|-end|p1a: Celebi|Encore
+|turn|33
+|
+|switch|p2a: Wobbuffet|Wobbuffet, F|231/583
+|-damage|p2a: Wobbuffet|159/583|[from] Stealth Rock
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|366/366
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|195/583|[from] item: Leftovers
+|turn|34
+|chat|Gym Leader Nicki|let me switch
+|chat|Gym Leader Nicki|:[
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|231/583|[from] item: Leftovers
+|turn|35
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|267/583|[from] item: Leftovers
+|turn|36
+|chat|Gym Leader Nicki|don't be a troll
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|303/583|[from] item: Leftovers
+|turn|37
+|chat|Gym Leader Nicki|please
+|join|SonicX29
+|join|chris6512
+|join|BabyNinjaLol
+|leave|BabyNinjaLol
+|join|Hackles
+|leave|chris6512
+|join|Slugboss
+|join|scion422
+|chat|Gym Leader Nicki|come on troll
+|join|flareflyer
+|chat|SonicX29|Lets go man!
+|join|TheRefep
+|join|Astal le epic
+|join|btowne18
+|leave|Astal le epic
+|join|NeonLights
+|chat|SonicX29|Hurry up man!
+|leave|btowne18
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|339/583|[from] item: Leftovers
+|turn|38
+|join|Astal le epic
+|chat|flareflyer|now thats trolling
+|leave|flareflyer
+|chat|Slugboss|lmao
+|chat|marky boy|seeing celbi recover is sexy
+|chat|SonicX29|Yeah lol
+|leave|TheRefep
+|leave|NeonLights
+|leave|Slugboss
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|375/583|[from] item: Leftovers
+|turn|39
+|chat|SonicX29|.......................
+|chat|scion422|what kind of crap is this?
+|chat|Hackles|i dont understand
+|join|lemonnnn77
+|leave|lemonnnn77
+|join|cloak_98
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|411/583|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Counter|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|447/583|[from] item: Leftovers
+|turn|41
+|chat|scion422|herp derp
+|chat|SonicX29|wut is dis?
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Counter|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|483/583|[from] item: Leftovers
+|turn|42
+|chat|marky boy|why do u keep using recover
+|chat|cloak_98|play ur cards right
+|chat|scion422|this is what i like to call a stalemate
+|chat|scion422|because i never get to say the word stalemate
+|chat|cloak_98|but its not
+|chat|Gym Leader Nicki|choice specs
+|chat|SonicX29|Y not just switch out into Jirachi?
+|chat|cloak_98|o.o
+|chat|scion422|shadow tag
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Counter|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|519/583|[from] item: Leftovers
+|turn|43
+|chat|SonicX29|Ah
+|chat|Gym Leader Nicki|trick me
+|chat|Gym Leader Nicki|2 pp left
+|chat|cloak_98|no
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Counter|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|555/583|[from] item: Leftovers
+|turn|44
+|chat|cloak_98|watch it struggle to death
+|chat|Hackles|omg
+|chat|cloak_98|nice and slowly
+|chat|marky boy|make this recover the sexiest
+|chat|SonicX29|Yep
+|chat|Gym Leader Nicki|WTF
+|
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|move|p2a: Wobbuffet|Counter|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|583/583|[from] item: Leftovers
+|turn|45
+|
+|-activate|p1a: Celebi|move: Struggle
+|move|p1a: Celebi|Struggle|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|534/583
+|-damage|p1a: Celebi|275/366
+|move|p2a: Wobbuffet|Counter|p1a: Celebi
+|-damage|p1a: Celebi|177/366
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|570/583|[from] item: Leftovers
+|turn|46
+|chat|Gym Leader Nicki|i cant lose
+|
+|-activate|p1a: Celebi|move: Struggle
+|move|p1a: Celebi|Struggle|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|524/583
+|-damage|p1a: Celebi|86/366
+|move|p2a: Wobbuffet|Encore|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|560/583|[from] item: Leftovers
+|turn|47
+|chat|SonicX29|Ouch, Celebi is dead
+|chat|Hackles|RIP 
+|
+|-activate|p1a: Celebi|move: Struggle
+|move|p1a: Celebi|Struggle|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|511/583
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|move|p2a: Wobbuffet|Encore|p1: Celebi|[notarget]
+|-notarget
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|547/583|[from] item: Leftovers
+|chat|SonicX29|RIP Celebi
+|chat|cloak_98|RIP. slowly struggled to death
+|chat|scion422|hurts my soul to watch
+|
+|switch|p1a: Jirachi|Jirachi|329/404
+|-damage|p1a: Jirachi|304/404|[from] Stealth Rock
+|turn|48
+|chat|cloak_98|this is worse than in the movie
+|chat|marky boy|the troll strikes
+|leave|Astal le epic
+|chat|Gym Leader Nicki|i got a plan but i need hax on my side
+|
+|move|p1a: Jirachi|Iron Head|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|420/583
+|cant|p2a: Wobbuffet|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|329/404|[from] item: Leftovers
+|-heal|p2a: Wobbuffet|456/583|[from] item: Leftovers
+|turn|49
+|chat|cloak_98|gee, serene grace jirachi? what kind of hax could it possibly be?
+|chat|Hackles|lol
+|chat|SonicX29|My mind is fuzzy, what does Serene Grave do?
+|chat|Gym Leader Nicki|Para Flinch 
+|chat|marky boy|double chance hax
+|
+|move|p1a: Jirachi|Thunder Wave|p2a: Wobbuffet
+|-status|p2a: Wobbuffet|par
+|move|p2a: Wobbuffet|Counter|p1a: Jirachi
+|-fail|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|354/404|[from] item: Leftovers
+|-heal|p2a: Wobbuffet|492/583 par|[from] item: Leftovers
+|turn|50
+|chat|SonicX29|Mmmm
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Wobbuffet|Counter|p1a: Jirachi
+|-fail|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|379/404|[from] item: Leftovers
+|-heal|p2a: Wobbuffet|528/583 par|[from] item: Leftovers
+|turn|51
+|chat|cloak_98|serene grace lets you run away from any wild pokemon battle
+|chat|cloak_98|oh wait
+|chat|scion422|nope
+|
+|move|p1a: Jirachi|Iron Head|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|410/583 par
+|cant|p2a: Wobbuffet|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Wobbuffet|446/583 par|[from] item: Leftovers
+|turn|52
+|chat|Gym Leader Nicki|no that run away
+|
+|move|p1a: Jirachi|Iron Head|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|320/583 par
+|cant|p2a: Wobbuffet|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|356/583 par|[from] item: Leftovers
+|turn|53
+|chat|cloak_98|it makes you immune to ground type moves and ground entry hazards?
+|chat|SonicX29|lol
+|chat|Gym Leader Nicki|no that levitate 
+|chat|scion422|serene grace does everything obviously
+|chat|cloak_98|oh nvm i got it
+|
+|move|p1a: Jirachi|Iron Head|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|232/583 par
+|move|p2a: Wobbuffet|Counter|p1a: Jirachi
+|-damage|p1a: Jirachi|156/404
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|181/404|[from] item: Leftovers
+|-heal|p2a: Wobbuffet|268/583 par|[from] item: Leftovers
+|turn|54
+|chat|SonicX29|Oh sht
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Wobbuffet|Encore|p1a: Jirachi
+|-start|p1a: Jirachi|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|206/404|[from] item: Leftovers
+|-heal|p2a: Wobbuffet|304/583 par|[from] item: Leftovers
+|turn|55
+|chat|scion422|>.<
+|chat|Hackles|dat counter
+|chat|cloak_98|serene grace makes you change forms in different weathers
+|chat|Gym Leader Nicki|no
+|chat|cloak_98|believe me, i know what im talking about
+|
+|switch|p2a: Whimsicott|Whimsicott, M|115/324 par
+|-damage|p2a: Whimsicott|75/324 par|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|-fail|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Whimsicott|95/324 par|[from] item: Leftovers
+|turn|56
+|c|★Gym Leader Nicki|!learn pikachu, fly
+|raw|<div class="infobox">Pikachu <span class="message-learn-canlearn">can</span> learn Fly only when obtained from:<ul class="message-learn-list"><li>gen 5 event: 24 pikachu, 27 pikachu</ul></div>
+|chat|marky boy|cloaks right
+|chat|scion422|o.O
+|chat|Gym Leader Nicki|Serene Grace doubles the chance of moves' secondary effects occurring - specifically stat changes, status ailments, or flinching
+|chat|cloak_98|no kidding
+|chat|SonicX29|Nice
+|chat|Gym Leader Nicki|data base
+|chat|Gym Leader Nicki|information
+|
+|switch|p1a: Chansey|Chansey, F|394/704
+|-damage|p1a: Chansey|306/704|[from] Stealth Rock
+|move|p2a: Whimsicott|Leech Seed|p1a: Chansey|[miss]
+|-miss|p2a: Whimsicott|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Whimsicott|115/324 par|[from] item: Leftovers
+|turn|57
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|move|p1a: Chansey|Seismic Toss|p2a: Whimsicott
+|-damage|p2a: Whimsicott|15/324 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Whimsicott|35/324 par|[from] item: Leftovers
+|-damage|p1a: Chansey|218/704|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|123/324 par|[silent]
+|turn|58
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|379/404|[from] Stealth Rock
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|42/324 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|-heal|p2a: Whimsicott|62/324 par|[from] item: Leftovers
+|turn|59
+|
+|cant|p2a: Whimsicott|par
+|move|p1a: Jirachi|Iron Head|p2a: Whimsicott
+|-end|p2a: Whimsicott|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Whimsicott|82/324 par|[from] item: Leftovers
+|turn|60
+|
+|switch|p2a: Wobbuffet|Wobbuffet, F|304/583 par
+|-damage|p2a: Wobbuffet|232/583 par|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|96/583 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|132/583 par|[from] item: Leftovers
+|turn|61
+|chat|Gym Leader Nicki|give me my luck
+|
+|move|p1a: Jirachi|Iron Head|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|3/583 par
+|cant|p2a: Wobbuffet|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Wobbuffet|39/583 par|[from] item: Leftovers
+|turn|62
+|chat|Gym Leader Nicki|yes
+|chat|Hackles|lol
+|chat|SonicX29|Wow 1%
+|chat|Gym Leader Nicki|omg
+|chat|scion422|huzzah
+|
+|move|p1a: Jirachi|Iron Head|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|faint|p2a: Wobbuffet
+|
+|-weather|SunnyDay|[upkeep]
+|chat|SonicX29|Yay 
+|chat|Hackles|RIP
+|
+|switch|p2a: Chansey|Chansey, F|339/703
+|-damage|p2a: Chansey|252/703|[from] Stealth Rock
+|turn|63
+|
+|move|p1a: Jirachi|Iron Head|p2a: Chansey
+|-damage|p2a: Chansey|110/703
+|move|p2a: Chansey|Counter|p1a: Jirachi
+|-damage|p1a: Jirachi|120/404
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|145/404|[from] item: Leftovers
+|turn|64
+|chat|SonicX29|Wow
+|chat|Hackles|whoa
+|chat|SonicX29|Dat power
+|
+|move|p1a: Jirachi|Iron Head|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|170/404|[from] item: Leftovers
+|
+|switch|p2a: Dragonite|Dragonite, F|162/323
+|-damage|p2a: Dragonite|82/323|[from] Stealth Rock
+|turn|65
+|
+|switch|p1a: Chansey|Chansey, F|218/704
+|-damage|p1a: Chansey|130/704|[from] Stealth Rock
+|move|p2a: Dragonite|Fire Punch|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Latias|Latias, F|364/364
+|-damage|p1a: Latias|319/364|[from] Stealth Rock
+|turn|66
+|chat|SonicX29|O, Dragonite is faster than Jirachi?
+|
+|switch|p2a: Whimsicott|Whimsicott, M|82/324 par
+|-damage|p2a: Whimsicott|42/324 par|[from] Stealth Rock
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|341/364|[from] item: Leftovers
+|-heal|p2a: Whimsicott|62/324 par|[from] item: Leftovers
+|turn|67
+|
+|switch|p1a: Jirachi|Jirachi|170/404
+|-damage|p1a: Jirachi|145/404|[from] Stealth Rock
+|move|p2a: Whimsicott|Encore|p1a: Jirachi
+|-fail|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|170/404|[from] item: Leftovers
+|-heal|p2a: Whimsicott|82/324 par|[from] item: Leftovers
+|turn|68
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|move|p1a: Jirachi|Iron Head|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|195/404|[from] item: Leftovers
+|chat|cloak_98|i think the dragonite was choiced
+|
+|switch|p2a: Gothitelle|Gothitelle, M|343/344
+|-damage|p2a: Gothitelle|300/344|[from] Stealth Rock
+|turn|69
+|
+|move|p1a: Jirachi|Thunder Wave|p2a: Gothitelle
+|-status|p2a: Gothitelle|par
+|cant|p2a: Gothitelle|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|220/404|[from] item: Leftovers
+|-heal|p2a: Gothitelle|321/344 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|170/404|[from] Leech Seed|[of] p2a: Gothitelle
+|-heal|p2a: Gothitelle|344/344 par|[silent]
+|turn|70
+|chat|SonicX29|2 v 2
+|chat|cloak_98|...specs
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Gothitelle|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|195/404|[from] item: Leftovers
+|-damage|p1a: Jirachi|145/404|[from] Leech Seed|[of] p2a: Gothitelle
+|turn|71
+|chat|SonicX29|Lol, hax
+|leave|scion422
+|chat|scion422|yawn
+|leave|cloak_98
+|chat|SonicX29|Nicki, where art thou?
+|
+|move|p1a: Jirachi|Iron Head|p2a: Gothitelle
+|-damage|p2a: Gothitelle|247/344 par
+|cant|p2a: Gothitelle|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|347/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|372/404|[from] item: Leftovers
+|-heal|p2a: Gothitelle|268/344 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|322/404|[from] Leech Seed|[of] p2a: Gothitelle
+|-heal|p2a: Gothitelle|318/344 par|[silent]
+|turn|72
+|chat|Gym Leader Nicki|http://pokemonshowdown.com/damagecalc/
+|chat|Gym Leader Nicki|0 Atk Jirachi Iron Head vs. 4 HP / 0 Def Gothitelle: 91-108 (32.2 - 38.2%) -- 1.7% chance to 3HKO after Leftovers recovery
+|
+|move|p1a: Jirachi|Iron Head|p2a: Gothitelle
+|-damage|p2a: Gothitelle|227/344 par
+|cant|p2a: Gothitelle|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|347/404|[from] item: Leftovers
+|-heal|p2a: Gothitelle|248/344 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|297/404|[from] Leech Seed|[of] p2a: Gothitelle
+|-heal|p2a: Gothitelle|298/344 par|[silent]
+|turn|73
+|join|killer zodiac
+|chat|SonicX29|Wow, so strong
+|chat|Gym Leader Nicki|gg
+|join|PyroKnight
+|
+|move|p1a: Jirachi|Iron Head|p2a: Gothitelle
+|-damage|p2a: Gothitelle|201/344 par
+|cant|p2a: Gothitelle|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|322/404|[from] item: Leftovers
+|-heal|p2a: Gothitelle|222/344 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|272/404|[from] Leech Seed|[of] p2a: Gothitelle
+|-heal|p2a: Gothitelle|272/344 par|[silent]
+|turn|74
+|chat|Gym Leader Nicki|lol hax
+|
+|move|p1a: Jirachi|Iron Head|p2a: Gothitelle
+|-damage|p2a: Gothitelle|176/344 par
+|move|p2a: Gothitelle|Hidden Power|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|197/344 par|[from] item: Leftovers
+|chat|SonicX29|Lol
+|
+|switch|p1a: Latias|Latias, F|341/364
+|-damage|p1a: Latias|296/364|[from] Stealth Rock
+|turn|75
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Gothitelle
+|-damage|p2a: Gothitelle|92/344 par
+|cant|p2a: Gothitelle|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|318/364|[from] item: Leftovers
+|-heal|p2a: Gothitelle|113/344 par|[from] item: Leftovers
+|turn|76
+|chat|SonicX29|:D
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Gothitelle
+|-damage|p2a: Gothitelle|4/344 par
+|move|p2a: Gothitelle|Psychic|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|259/364
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|281/364|[from] item: Leftovers
+|-heal|p2a: Gothitelle|25/344 par|[from] item: Leftovers
+|turn|77
+|chat|SonicX29|o ?
+|leave|killer zodiac
+|leave|PyroKnight
+|chat|marky boy|lol will dragonnite survive
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|303/364|[from] item: Leftovers
+|
+|switch|p2a: Dragonite|Dragonite, F|82/323
+|-damage|p2a: Dragonite|2/323|[from] Stealth Rock
+|turn|78
+|chat|SonicX29|wow 1%
+|chat|Gym Leader Nicki|speed out please
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Latias
+|-damage|p1a: Latias|172/364
+|move|p1a: Latias|Dragon Pulse|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Gym Leader Nicki
+|raw|Ladder updating...
+|raw|Gym Leader Nicki's rating: 1378 &rarr; <strong>1395</strong><br />(+17 for winning)
+|raw|marky boy's rating: 1330 &rarr; <strong>1313</strong><br />(-17 for losing)
+|chat|Gym Leader Nicki|gg
+|chat|Gym Leader Nicki|good game
+|chat|Gym Leader Nicki|hax all over
+|chat|marky boy|lol yh i expected a rage towrads the end
+|chat|Gym Leader Nicki|long haxz game over
+|chat|SonicX29|Cheap hax
+|chat|SonicX29|Finally glad it's over
+|chat|Gym Leader Nicki|i don't rage quit
+|chat|SonicX29|I do
+|chat|Gym Leader Nicki|i love this please even tho the hax was crazy
+|chat|Gym Leader Nicki|*match even tho
+|chat|marky boy|the art of pokmeoin
+|chat|Gym Leader Nicki|is a bitch
+|chat|marky boy|well was a fun troll
+|chat|Gym Leader Nicki|you got to believe in hax to win the haxes battles
+|chat|marky boy|cant think of much of a better one
+|chat|Gym Leader Nicki|but it can be a bitch too
+|chat|marky boy|should of tricked
+|chat|marky boy|the specs back
+|chat|SonicX29|Lol
+|chat|marky boy|when u was about to diw
+|chat|Gym Leader Nicki|thank for this match but please don't battle me again
+|chat|marky boy|well if u happen to coem against me
+|chat|Gym Leader Nicki|if you do i will win again
+|chat|marky boy|ur gonna be trolled anyway
+|leave|Hackles
+|chat|Gym Leader Nicki|no way
+|chat|marky boy|wheter u liiek it or not lol
+|chat|Gym Leader Nicki|even if i get troll i will still overcome it and beat the living shit out of it
+|chat|Gym Leader Nicki|and win the match
+|chat|Gym Leader Nicki|no you lose anyway even with the specs 
+|chat|Gym Leader Nicki|beacuse you will back to dragonite i will kill that and then it
+|chat|Gym Leader Nicki|:] for me and :[ to you and i am not trying to be a jackass ok
+|chat|Gym Leader Nicki|are you ok?
+|chat|Gym Leader Nicki|are you ok????????????????????????????????????????????????????????????????
+|chat|marky boy|what about the video of you cutting down a tree
+|chat|marky boy|taht you said
+|chat|marky boy|you would upload here
+|chat|Gym Leader Nicki|ok
+|chat|Gym Leader Nicki|nu battle
+|chat|Gym Leader Nicki|please

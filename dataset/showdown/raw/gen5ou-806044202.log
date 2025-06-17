@@ -1,0 +1,360 @@
+|j|☆refsunpersons
+|j|☆porrompompom
+|player|p1|refsunpersons|15
+|player|p2|porrompompom|10
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Porygon2|item
+|poke|p1|Donphan, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Starmie|item
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-item|p1a: Ninetales|Air Balloon
+|turn|1
+|c|☆refsunpersons|gl hf
+|
+|move|p1a: Ninetales|Solar Beam|p2a: Rotom|[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Rotom
+|-anim|p1a: Ninetales|Solar Beam|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|36/100
+|move|p2a: Rotom|Volt Switch|p1a: Ninetales
+|-damage|p1a: Ninetales|64/100
+|-enditem|p1a: Ninetales|Air Balloon
+|
+|switch|p2a: Starmie|Starmie|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Natural Cure|[from] ability: Trace|[of] p2a: Starmie
+|move|p2a: Starmie|Hydro Pump|p1a: Porygon2
+|-damage|p1a: Porygon2|86/100
+|-damage|p2a: Starmie|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|switch|p1a: Ninetales|Ninetales, F, shiny|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Starmie|Starmie|91/100
+|move|p1a: Ninetales|Fire Blast|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|86/100
+|move|p1a: Ninetales|Solar Beam|p2a: Starmie|[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Starmie
+|-anim|p1a: Ninetales|Solar Beam|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Landorus
+|-damage|p2a: Landorus|23/100
+|move|p2a: Landorus|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Landorus|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|7
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Haxorus|Swords Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Haxorus|Substitute|p1a: Haxorus
+|-start|p1a: Haxorus|Substitute
+|-damage|p1a: Haxorus|75/100
+|move|p2a: Jirachi|Body Slam|p1a: Haxorus
+|-activate|p1a: Haxorus|Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Haxorus|Swords Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|2
+|move|p2a: Jirachi|U-turn|p1a: Haxorus
+|-end|p1a: Haxorus|Substitute
+|
+|switch|p2a: Landorus|Landorus-Therian, M|29/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Haxorus|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Landorus|35/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Haxorus|Superpower|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Haxorus|atk|1
+|-unboost|p1a: Haxorus|def|1
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|11
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Donphan
+|-damage|p1a: Donphan|89/100
+|-status|p1a: Donphan|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Donphan|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Jirachi|U-turn|p1a: Donphan
+|-damage|p1a: Donphan|86/100 par
+|
+|switch|p2a: Rotom|Rotom-Wash|36/100
+|move|p1a: Donphan|Stealth Rock|p2a: Rotom
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|42/100|[from] item: Leftovers
+|-heal|p1a: Donphan|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Rotom|Pain Split|p1a: Jirachi
+|-sethp|p1a: Jirachi|68/100|p2a: Rotom|81/100|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|87/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Jirachi|Psychic|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Jirachi|Thunder|p2a: Jirachi|[miss]
+|-miss|p1a: Jirachi|p2a: Jirachi
+|move|p2a: Jirachi|Body Slam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆refsunpersons|best meme or bestest meme?
+|c|☆porrompompom|is that cm thunder ranchi on sun with no hp fire or am i dreaming
+|inactive|porrompompom has 120 seconds left.
+|c|☆refsunpersons|HP fight
+|c|☆refsunpersons|You're not dreaming
+|
+|move|p1a: Jirachi|Thunder|p2a: Jirachi|[miss]
+|-miss|p1a: Jirachi|p2a: Jirachi
+|move|p2a: Jirachi|Body Slam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|-status|p1a: Jirachi|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Jirachi|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|38/100 par
+|move|p1a: Jirachi|Thunder|p2a: Jirachi
+|-damage|p2a: Jirachi|66/100
+|-status|p2a: Jirachi|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Jirachi|Thunder|p2a: Jirachi|[miss]
+|-miss|p1a: Jirachi|p2a: Jirachi
+|cant|p2a: Jirachi|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆refsunpersons|BESTEST MEME
+|
+|switch|p1a: Donphan|Donphan, M|92/100 par
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|84/100 par|[from] item: Leftovers
+|-heal|p1a: Donphan|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Rotom|Rotom-Wash|87/100
+|-damage|p2a: Rotom|75/100|[from] Stealth Rock
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|22
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Rotom|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|80/100
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|refsunpersons has 120 seconds left.
+|
+|switch|p1a: Porygon2|Porygon2|86/100
+|-ability|p1a: Porygon2|Multiscale|[from] ability: Trace|[of] p2a: Dragonite
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|c|☆refsunpersons|I hate sub dd
+|inactive|porrompompom has 120 seconds left.
+|c|☆porrompompom|and I hate random sets matchup-dependents but saw no point in sharing it
+|
+|switch|p2a: Jirachi|Jirachi|84/100 par
+|-damage|p2a: Jirachi|78/100 par|[from] Stealth Rock
+|switch|p1a: Haxorus|Haxorus, M|75/100
+|-ability|p1a: Haxorus|Mold Breaker
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Haxorus|Substitute|p1a: Haxorus
+|-start|p1a: Haxorus|Substitute
+|-damage|p1a: Haxorus|50/100
+|cant|p2a: Jirachi|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Haxorus|Swords Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|2
+|move|p2a: Jirachi|Iron Head|p1a: Haxorus
+|-end|p1a: Haxorus|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Haxorus|Substitute|p1a: Haxorus
+|-start|p1a: Haxorus|Substitute
+|-damage|p1a: Haxorus|25/100
+|-enditem|p1a: Haxorus|Salac Berry|[eat]
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Jirachi|Body Slam|p1a: Haxorus
+|-activate|p1a: Haxorus|Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|-message|porrompompom forfeited.
+|
+|win|refsunpersons
+|l|☆porrompompom
+|raw|refsunpersons's rating: 1280 &rarr; <strong>1318</strong><br />(+38 for winning)
+|raw|porrompompom's rating: 1474 &rarr; <strong>1443</strong><br />(-31 for losing)

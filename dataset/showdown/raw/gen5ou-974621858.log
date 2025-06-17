@@ -1,0 +1,560 @@
+|j|☆jailer steve
+|j|☆Kairak
+|player|p1|jailer steve|196|1424
+|player|p2|Kairak|76|1458
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Scizor, M|item
+|poke|p1|Ditto|item
+|poke|p1|Chansey, F|item
+|poke|p1|Xatu, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kairak)
+|
+|start
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|1
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Chansey|Toxic|p2a: Thundurus
+|-status|p2a: Thundurus|tox
+|
+|-damage|p2a: Thundurus|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Chansey|[miss]
+|-miss|p2a: Thundurus|p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Thundurus
+|-damage|p2a: Thundurus|61/100 tox
+|
+|-heal|p2a: Thundurus|67/100 tox|[from] item: Leftovers
+|-damage|p2a: Thundurus|55/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Chansey|[miss]
+|-miss|p2a: Thundurus|p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Thundurus
+|-damage|p2a: Thundurus|22/100 tox
+|
+|-heal|p2a: Thundurus|28/100 tox|[from] item: Leftovers
+|-damage|p2a: Thundurus|10/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Chansey|Soft-Boiled||[still]
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Xatu|Night Shade|p2a: Gyarados
+|-damage|p2a: Gyarados|70/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Gyarados|Aqua Tail|p1a: Xatu
+|-damage|p1a: Xatu|38/100
+|-damage|p2a: Gyarados|54/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|move|p1a: Xatu|Night Shade|p2a: Gyarados
+|-damage|p2a: Gyarados|23/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Gyarados|Aqua Tail|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|74/100
+|
+|-heal|p1a: Slowbro|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Slowbro
+|move|p1a: Slowbro|Psychic|p2a: Gyarados|[miss]
+|-miss|p1a: Slowbro|p2a: Gyarados
+|
+|-heal|p1a: Slowbro|86/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Gyarados|Bounce|p1a: Slowbro|[from]lockedmove
+|-damage|p1a: Slowbro|33/100
+|-status|p1a: Slowbro|par
+|cant|p1a: Slowbro|par
+|
+|-heal|p1a: Slowbro|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Gyarados|Aqua Tail|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|15/100 par
+|cant|p1a: Slowbro|par
+|
+|-heal|p1a: Slowbro|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Gyarados|[from] ability: Imposter
+|move|p2a: Gyarados|Aqua Tail|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|53/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Ditto|Aqua Tail|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|-damage|p1a: Ditto|40/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|j| ORAS1789
+|
+|switch|p1a: Xatu|Xatu, M|38/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Ferrothorn|72/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|faint|p1a: Xatu
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|40/100
+|-transform|p1a: Ditto|p2a: Ferrothorn|[from] ability: Imposter
+|turn|16
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Scizor
+|-sidestart|p1: jailer steve|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|36/100
+|move|p1a: Scizor|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|50/100
+|-damage|p1a: Scizor|24/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Scizor|7/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|switch|p1a: Slowbro|Slowbro, M|54/100 par|[from]move: U-turn
+|-damage|p1a: Slowbro|42/100 par|[from] Stealth Rock
+|
+|-heal|p1a: Slowbro|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|85/100
+|move|p1a: Slowbro|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Ferrothorn|Swords Dance|p2a: Ferrothorn
+|-boost|p2a: Ferrothorn|atk|2
+|cant|p1a: Slowbro|par
+|
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Ditto|Ditto|40/100
+|-damage|p1a: Ditto|28/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Ferrothorn|[from] ability: Imposter
+|move|p2a: Ferrothorn|Power Whip|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|14/100
+|-damage|p2a: Ferrothorn|73/100|[from] ability: Iron Barbs|[of] p1a: Ditto
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Garchomp|Garchomp, M|50/100
+|move|p1a: Ditto|Power Whip|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Ditto|2/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Ditto|0 fnt|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p1a: Ditto
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|79/100
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|23
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|move|p2a: Ferrothorn|Swords Dance|p2a: Ferrothorn
+|-boost|p2a: Ferrothorn|atk|2
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|13/100
+|
+|-heal|p1a: Excadrill|19/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|-damage|p1a: Excadrill|7/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: jailer steve|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|7/100
+|turn|26
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|58/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|27/100
+|
+|-heal|p1a: Scizor|33/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|48/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|83/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Ferrothorn|Swords Dance|p2a: Ferrothorn
+|-boost|p2a: Ferrothorn|atk|2
+|
+|-heal|p1a: Scizor|89/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|54/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|41/100
+|
+|-heal|p1a: Scizor|47/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|97/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|47/100
+|
+|-heal|p1a: Scizor|53/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|1/100
+|
+|-heal|p1a: Scizor|7/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|j| ruber draft
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|58/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|8/100
+|
+|-heal|p1a: Scizor|14/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|64/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|
+|-heal|p1a: Scizor|22/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c| ruber draft|tfw sd ferros a god
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|72/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|-heal|p1a: Scizor|78/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Scizor|[miss]
+|-miss|p2a: Keldeo|p1a: Scizor
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|100/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|51/100
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|100/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|57/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|48/100
+|
+|-heal|p1a: Scizor|54/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|7/100
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|57/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|-heal|p1a: Scizor|63/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|11/100
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|61/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|-heal|p1a: Scizor|68/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|19/100
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|69/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|-heal|p1a: Scizor|75/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|15/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Scizor|[miss]
+|-miss|p2a: Keldeo|p1a: Scizor
+|
+|-heal|p1a: Scizor|81/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|85/100
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|-damage|p1a: Scizor|69/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Scizor|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Scizor
+|-sidestart|p1: jailer steve|move: Stealth Rock
+|
+|-heal|p1a: Scizor|81/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|46/100
+|-damage|p1a: Scizor|69/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Swords Dance|p2a: Ferrothorn
+|-boost|p2a: Ferrothorn|atk|2
+|
+|-heal|p1a: Scizor|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|52/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|23/100
+|-damage|p1a: Scizor|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|45/100
+|
+|-heal|p1a: Scizor|51/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|100/100
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Ferrothorn|Power Whip|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|82/100
+|
+|-heal|p1a: Scizor|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100
+|-damage|p1a: Scizor|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|56/100
+|
+|-heal|p1a: Scizor|62/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|13/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Scizor|49/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Scizor|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|48
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|30/100
+|move|p2a: Excadrill|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|5/100
+|
+|-heal|p1a: Scizor|11/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Scizor|17/100|[from] item: Leftovers
+|upkeep
+|-message|Kairak forfeited.
+|
+|win|jailer steve
+|l|☆Kairak
+|raw|jailer steve's rating: 1424 &rarr; <strong>1446</strong><br />(+22 for winning)
+|raw|Kairak's rating: 1458 &rarr; <strong>1436</strong><br />(-22 for losing)
+|l| ORAS1789

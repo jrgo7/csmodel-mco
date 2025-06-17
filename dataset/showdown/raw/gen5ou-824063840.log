@@ -1,0 +1,379 @@
+|j|☆nostalgic phaggot
+|j|☆RawrMX
+|player|p1|nostalgic phaggot|270
+|player|p2|RawrMX|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Latios, M|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Sableye, F|item
+|poke|p2|Cresselia, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nostalgic phaggot)
+|inactive|RawrMX has 120 seconds left.
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Joy|Chansey, F|100/100
+|turn|1
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Taiga|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Taiga
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Taiga|Will-O-Wisp|p1a: Jirachi
+|-status|p1a: Jirachi|brn
+|move|p1a: Jirachi|U-turn|p2a: Taiga
+|-resisted|p2a: Taiga
+|-damage|p2a: Taiga|96/100
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Taiga|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Joy|Chansey, F|100/100
+|switch|p1a: Jirachi|Jirachi|100/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Taiga|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Taiga
+|move|p1a: Jirachi|Stealth Rock|p2a: Taiga
+|-sidestart|p2: RawrMX|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Taiga|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|6
+|
+|switch|p2a: Tripler|Hitmontop, M|100/100
+|-damage|p2a: Tripler|94/100|[from] Stealth Rock
+|-ability|p2a: Tripler|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tripler|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Tripler
+|-damage|p2a: Tripler|0 fnt
+|faint|p2a: Tripler
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Joy|Chansey, F|100/100
+|-damage|p2a: Joy|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Joy|Soft-Boiled|p2a: Joy
+|-heal|p2a: Joy|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|-singleturn|p1a: Toxicroak|move: Focus Punch
+|move|p2a: Joy|Stealth Rock|p1a: Toxicroak
+|-sidestart|p1: nostalgic phaggot|move: Stealth Rock
+|move|p1a: Toxicroak|Focus Punch|p2a: Joy
+|-supereffective|p2a: Joy
+|-damage|p2a: Joy|6/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: Umbra|Sableye, F|100/100
+|-damage|p2a: Umbra|88/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Ice Punch|p2a: Umbra
+|-damage|p2a: Umbra|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbra|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Umbra|atk|1
+|move|p2a: Umbra|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbra|69/100|[from] item: Leftovers
+|-damage|p1a: Landorus|76/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Umbra|Recover|p2a: Umbra
+|-heal|p2a: Umbra|100/100
+|move|p1a: Landorus|U-turn|p2a: Umbra
+|-damage|p2a: Umbra|84/100
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbra|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Joy|Chansey, F|6/100
+|-damage|p2a: Joy|0 fnt|[from] Stealth Rock
+|faint|p2a: Joy
+|move|p1a: Latios|Dragon Pulse|p2: Joy|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Helmaroc|Skarmory, M|100/100
+|-damage|p2a: Helmaroc|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Helmaroc
+|-resisted|p2a: Helmaroc
+|-damage|p2a: Helmaroc|40/100
+|move|p2a: Helmaroc|Spikes|p1a: Latios
+|-sidestart|p1: nostalgic phaggot|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Helmaroc|46/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Helmaroc
+|-resisted|p2a: Helmaroc
+|-damage|p2a: Helmaroc|0 fnt
+|faint|p2a: Helmaroc
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Moonwalker|Cresselia, F|100/100
+|-damage|p2a: Moonwalker|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-damage|p1a: Politoed|76/100|[from] Spikes
+|move|p2a: Moonwalker|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Moonwalker|94/100|[from] item: Leftovers
+|-heal|p1a: Politoed|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Taiga|Ninetales, F|100/100
+|-damage|p2a: Taiga|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Taiga
+|move|p1a: Politoed|Toxic|p2a: Taiga
+|-status|p2a: Taiga|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Taiga|82/100 tox|[from] item: Leftovers
+|-heal|p1a: Politoed|63/100|[from] item: Leftovers
+|-damage|p2a: Taiga|76/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|move|p2a: Taiga|Hypnosis|p1a: Latios|[miss]
+|-miss|p2a: Taiga|p1a: Latios
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Taiga|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Taiga|70/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Moonwalker|Cresselia, F|94/100
+|-damage|p2a: Moonwalker|82/100|[from] Stealth Rock
+|move|p1a: Latios|Dragon Pulse|p2a: Moonwalker
+|-damage|p2a: Moonwalker|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Moonwalker|48/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Politoed|Politoed, M|63/100
+|-damage|p1a: Politoed|51/100|[from] Stealth Rock
+|-damage|p1a: Politoed|38/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Moonwalker|Moonlight|p2a: Moonwalker
+|-heal|p2a: Moonwalker|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Moonwalker|79/100|[from] item: Leftovers
+|-heal|p1a: Politoed|44/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Latios|Latios, M|76/100
+|-damage|p1a: Latios|64/100|[from] Stealth Rock
+|move|p2a: Moonwalker|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Moonwalker|85/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Taiga|Ninetales, F|70/100 tox
+|-damage|p2a: Taiga|45/100 tox|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Taiga
+|move|p1a: Latios|Dragon Pulse|p2a: Taiga
+|-damage|p2a: Taiga|0 fnt
+|faint|p2a: Taiga
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Moonwalker|Cresselia, F|85/100
+|-damage|p2a: Moonwalker|73/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Politoed|Politoed, M|44/100
+|-damage|p1a: Politoed|32/100|[from] Stealth Rock
+|-damage|p1a: Politoed|20/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Moonwalker|Moonlight|p2a: Moonwalker
+|-heal|p2a: Moonwalker|98/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Moonwalker|100/100|[from] item: Leftovers
+|-heal|p1a: Politoed|26/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Moonwalker|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|2/100
+|move|p1a: Politoed|Toxic|p2a: Moonwalker
+|-status|p2a: Moonwalker|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|8/100|[from] item: Leftovers
+|-damage|p2a: Moonwalker|94/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Moonwalker|Psyshock|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Moonwalker|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Moonwalker|88/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|48/100
+|-damage|p1a: Latios|35/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Latios|Dragon Pulse|p2a: Moonwalker
+|-damage|p2a: Moonwalker|41/100 tox
+|move|p2a: Moonwalker|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Moonwalker|48/100 tox|[from] item: Leftovers
+|-damage|p2a: Moonwalker|29/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|88/100|[from] Spikes
+|-damage|p1a: Keldeo|82/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Moonwalker
+|-damage|p2a: Moonwalker|0 fnt
+|faint|p2a: Moonwalker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Umbra|Sableye, F|90/100
+|-damage|p2a: Umbra|77/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Umbra|Will-O-Wisp|p1a: Keldeo|[miss]
+|-miss|p2a: Umbra|p1a: Keldeo
+|move|p1a: Keldeo|Hydro Pump|p2a: Umbra|[miss]
+|-miss|p1a: Keldeo|p2a: Umbra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbra|84/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Umbra|Will-O-Wisp|p1a: Keldeo
+|-status|p1a: Keldeo|brn
+|move|p1a: Keldeo|Hydro Pump|p2a: Umbra
+|-damage|p2a: Umbra|0 fnt
+|faint|p2a: Umbra
+|
+|win|nostalgic phaggot
+|l|☆RawrMX
+|raw|nostalgic phaggot's rating: 1384 &rarr; <strong>1407</strong><br />(+23 for winning)
+|raw|RawrMX's rating: 1437 &rarr; <strong>1414</strong><br />(-23 for losing)
+|l|☆nostalgic phaggot

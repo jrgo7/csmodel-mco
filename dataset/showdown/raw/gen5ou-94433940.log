@@ -1,0 +1,574 @@
+|join|Princess Deluks917
+|join|Muff -
+|player|p1|Princess Deluks917|23
+|player|p2|Muff -|166
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, M
+|poke|p1|Gliscor, M
+|poke|p1|Kyurem
+|poke|p1|Skarmory, M
+|poke|p1|Tentacruel, M
+|poke|p1|Chansey, F
+|poke|p2|Latias, F
+|poke|p2|Terrakion
+|poke|p2|Hippowdon, M
+|poke|p2|Forretress, M
+|poke|p2|Rotom-Wash
+|poke|p2|Celebi
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|Princess Deluks917|gl
+|
+|start
+|switch|p1a: Juvia|Politoed, M|384/384
+|switch|p2a: Rotom-Wash|Rotom-Wash|303/303
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Juvia
+|turn|1
+|
+|move|p1a: Juvia|Protect|p1a: Juvia
+|-singleturn|p1a: Juvia|Protect
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Juvia
+|-activate|p1a: Juvia|Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Hoteye|Gliscor, M|354/354
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Hoteye
+|-immune|p1a: Hoteye|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Hoteye|item: Toxic Orb
+|-status|p1a: Hoteye|tox
+|turn|3
+|
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Hoteye
+|-immune|p1a: Hoteye|[msg]
+|move|p1a: Hoteye|Substitute|p1a: Hoteye
+|-start|p1a: Hoteye|Substitute
+|-damage|p1a: Hoteye|266/354 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hoteye|310/354 tox|[from] ability: Poison Heal
+|turn|4
+|
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Hoteye
+|-supereffective|p1a: Hoteye
+|-end|p1a: Hoteye|Substitute
+|move|p1a: Hoteye|Toxic|p2a: Rotom-Wash
+|-status|p2a: Rotom-Wash|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Rotom-Wash|285/303 tox|[from] psn
+|-heal|p1a: Hoteye|354/354 tox|[from] ability: Poison Heal
+|turn|5
+|
+|switch|p1a: Porlyusica|Chansey, F|642/642
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Porlyusica
+|-damage|p1a: Porlyusica|594/642
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Chelia|Skarmory, M|334/334
+|move|p2a: Terrakion|Hidden Power|p1a: Chelia
+|-damage|p1a: Chelia|285/334
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|move|p1a: Chelia|Spikes|p2a: Forretress
+|-sidestart|p2: Muff -|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Cobra|Tentacruel, M|363/363
+|move|p2a: Forretress|Rapid Spin|p1a: Cobra
+|-damage|p1a: Cobra|344/363
+|-sideend|p2: Muff -|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cobra|363/363|[from] ability: Rain Dish
+|turn|9
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|285/303 tox
+|move|p1a: Cobra|Toxic Spikes|p2a: Rotom-Wash
+|-sidestart|p2: Muff -|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom-Wash|303/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|285/303 tox|[from] psn
+|turn|10
+|
+|move|p1a: Cobra|Protect|p1a: Cobra
+|-singleturn|p1a: Cobra|Protect
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Cobra
+|-activate|p1a: Cobra|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom-Wash|303/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|267/303 tox|[from] psn
+|turn|11
+|
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Cobra
+|-supereffective|p1a: Cobra
+|-damage|p1a: Cobra|225/363
+|
+|switch|p2a: Latias|Latias, F|302/302
+|move|p1a: Cobra|Toxic Spikes|p2a: Latias
+|-sidestart|p2: Muff -|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cobra|247/363|[from] ability: Rain Dish
+|-heal|p1a: Cobra|269/363|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Porlyusica|Chansey, F|594/642
+|move|p2a: Latias|Psyshock|p1a: Porlyusica
+|-damage|p1a: Porlyusica|382/642
+|-damage|p2a: Latias|272/302|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|move|p1a: Porlyusica|Soft-Boiled|p1a: Porlyusica
+|-heal|p1a: Porlyusica|642/642
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p1a: Cobra|Tentacruel, M|269/363
+|move|p2a: Forretress|Rapid Spin|p1a: Cobra
+|-damage|p1a: Cobra|251/363
+|-sideend|p2: Muff -|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cobra|273/363|[from] ability: Rain Dish
+|-heal|p1a: Cobra|295/363|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|267/303 tox
+|move|p1a: Cobra|Toxic Spikes|p2a: Rotom-Wash
+|-sidestart|p2: Muff -|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cobra|317/363|[from] ability: Rain Dish
+|-heal|p2a: Rotom-Wash|285/303 tox|[from] item: Leftovers
+|-heal|p1a: Cobra|339/363|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|267/303 tox|[from] psn
+|turn|16
+|
+|move|p1a: Cobra|Protect|p1a: Cobra
+|-singleturn|p1a: Cobra|Protect
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Cobra
+|-activate|p1a: Cobra|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cobra|361/363|[from] ability: Rain Dish
+|-heal|p2a: Rotom-Wash|285/303 tox|[from] item: Leftovers
+|-heal|p1a: Cobra|363/363|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|249/303 tox|[from] psn
+|turn|17
+|
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Cobra
+|-status|p1a: Cobra|brn
+|move|p1a: Cobra|Scald|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|195/303 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom-Wash|213/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|159/303 tox|[from] psn
+|-damage|p1a: Cobra|318/363 brn|[from] brn
+|turn|18
+|
+|move|p1a: Cobra|Protect|p1a: Cobra
+|-singleturn|p1a: Cobra|Protect
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Cobra
+|-activate|p1a: Cobra|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cobra|340/363 brn|[from] ability: Rain Dish
+|-heal|p2a: Rotom-Wash|177/303 tox|[from] item: Leftovers
+|-heal|p1a: Cobra|362/363 brn|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|105/303 tox|[from] psn
+|-damage|p1a: Cobra|317/363 brn|[from] brn
+|turn|19
+|
+|switch|p1a: Leon|Kyurem|404/404
+|-ability|p1a: Leon|Pressure
+|move|p2a: Rotom-Wash|Pain Split|p1a: Leon
+|-sethp|p1a: Leon|254/404|p2a: Rotom-Wash|254/303 tox|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Leon|279/404|[from] item: Leftovers
+|-heal|p2a: Rotom-Wash|272/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|182/303 tox|[from] psn
+|turn|20
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|move|p1a: Leon|Substitute|p1a: Leon
+|-start|p1a: Leon|Substitute
+|-damage|p1a: Leon|178/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Leon|203/404|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Leon|Earth Power|p2a: Forretress
+|-damage|p2a: Forretress|233/354
+|move|p2a: Forretress|Gyro Ball|p1a: Leon
+|-supereffective|p1a: Leon
+|-end|p1a: Leon|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Leon|228/404|[from] item: Leftovers
+|-heal|p2a: Forretress|255/354|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Leon|Substitute|p1a: Leon
+|-start|p1a: Leon|Substitute
+|-damage|p1a: Leon|127/404
+|move|p2a: Forretress|Rapid Spin|p1a: Leon
+|-activate|p1a: Leon|Substitute|[damage]
+|-sideend|p2: Muff -|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Leon|152/404|[from] item: Leftovers
+|-heal|p2a: Forretress|277/354|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Leon|Roost|p1a: Leon
+|-heal|p1a: Leon|354/404
+|move|p2a: Forretress|Gyro Ball|p1a: Leon
+|-supereffective|p1a: Leon
+|-end|p1a: Leon|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Leon|379/404|[from] item: Leftovers
+|-heal|p2a: Forretress|299/354|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Leon|Substitute|p1a: Leon
+|-start|p1a: Leon|Substitute
+|-damage|p1a: Leon|278/404
+|move|p2a: Forretress|Volt Switch|p1a: Leon
+|-resisted|p1a: Leon
+|-activate|p1a: Leon|Substitute|[damage]
+|
+|switch|p2a: Hippowdon|Hippowdon, M|420/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|253/404|[from] sandstorm
+|-heal|p1a: Leon|278/404|[from] item: Leftovers
+|turn|25
+|
+|switch|p2a: Forretress|Forretress, M|299/354
+|move|p1a: Leon|Ice Beam|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|210/354
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|253/404|[from] sandstorm
+|-heal|p1a: Leon|278/404|[from] item: Leftovers
+|-heal|p2a: Forretress|232/354|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Leon|Earth Power|p2a: Forretress
+|-damage|p2a: Forretress|111/354
+|move|p2a: Forretress|Gyro Ball|p1a: Leon
+|-supereffective|p1a: Leon
+|-end|p1a: Leon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|253/404|[from] sandstorm
+|-heal|p1a: Leon|278/404|[from] item: Leftovers
+|-heal|p2a: Forretress|133/354|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Leon|Substitute|p1a: Leon
+|-start|p1a: Leon|Substitute
+|-damage|p1a: Leon|177/404
+|move|p2a: Forretress|Gyro Ball|p1a: Leon
+|-supereffective|p1a: Leon
+|-end|p1a: Leon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|152/404|[from] sandstorm
+|-heal|p1a: Leon|177/404|[from] item: Leftovers
+|-heal|p2a: Forretress|155/354|[from] item: Leftovers
+|turn|28
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|move|p1a: Leon|Substitute|p1a: Leon
+|-start|p1a: Leon|Substitute
+|-damage|p1a: Leon|76/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|51/404|[from] sandstorm
+|-heal|p1a: Leon|76/404|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Terrakion|Close Combat|p1a: Leon
+|-supereffective|p1a: Leon
+|-end|p1a: Leon|Substitute
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|move|p1a: Leon|Roost|p1a: Leon
+|-heal|p1a: Leon|278/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|253/404|[from] sandstorm
+|-heal|p1a: Leon|278/404|[from] item: Leftovers
+|turn|30
+|
+|switch|p1a: Chelia|Skarmory, M|285/334
+|move|p2a: Terrakion|Close Combat|p1a: Chelia
+|-damage|p1a: Chelia|158/334
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|turn|31
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|182/303 tox
+|move|p1a: Chelia|Roost|p1a: Chelia
+|-heal|p1a: Chelia|325/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|164/303 tox|[from] sandstorm
+|-heal|p2a: Rotom-Wash|182/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|164/303 tox|[from] psn
+|turn|32
+|
+|switch|p1a: Hoteye|Gliscor, M|354/354 tox
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Hoteye|[miss]
+|-miss|p2a: Rotom-Wash|p1a: Hoteye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|146/303 tox|[from] sandstorm
+|-heal|p2a: Rotom-Wash|164/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|128/303 tox|[from] psn
+|turn|33
+|chat|Muff -|noooouh
+|
+|switch|p1a: Leon|Kyurem|278/404
+|-ability|p1a: Leon|Pressure
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Leon|[miss]
+|-miss|p2a: Rotom-Wash|p1a: Leon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|253/404|[from] sandstorm
+|-damage|p2a: Rotom-Wash|110/303 tox|[from] sandstorm
+|-heal|p1a: Leon|278/404|[from] item: Leftovers
+|-heal|p2a: Rotom-Wash|128/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|74/303 tox|[from] psn
+|turn|34
+|
+|move|p1a: Leon|Substitute|p1a: Leon
+|-start|p1a: Leon|Substitute
+|-damage|p1a: Leon|177/404
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Leon
+|-resisted|p1a: Leon
+|-activate|p1a: Leon|Substitute|[damage]
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|152/404|[from] sandstorm
+|-heal|p1a: Leon|177/404|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Terrakion|Close Combat|p1a: Leon
+|-supereffective|p1a: Leon
+|-end|p1a: Leon|Substitute
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|move|p1a: Leon|Roost|p1a: Leon
+|-heal|p1a: Leon|379/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|354/404|[from] sandstorm
+|-heal|p1a: Leon|379/404|[from] item: Leftovers
+|turn|36
+|
+|switch|p2a: Latias|Latias, F|272/302
+|switch|p1a: Chelia|Skarmory, M|325/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|254/302|[from] sandstorm
+|turn|37
+|
+|switch|p1a: Porlyusica|Chansey, F|642/642
+|move|p2a: Latias|Hidden Power|p1a: Porlyusica
+|-damage|p1a: Porlyusica|594/642
+|-damage|p2a: Latias|224/302|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|206/302|[from] sandstorm
+|-damage|p1a: Porlyusica|554/642|[from] sandstorm
+|turn|38
+|
+|switch|p2a: Hippowdon|Hippowdon, M|420/420
+|move|p1a: Porlyusica|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: Muff -|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porlyusica|514/642|[from] sandstorm
+|turn|39
+|
+|move|p1a: Porlyusica|Toxic|p2a: Hippowdon
+|-status|p2a: Hippowdon|tox
+|move|p2a: Hippowdon|Stealth Rock|p1a: Porlyusica
+|-sidestart|p1: Princess Deluks917|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porlyusica|474/642|[from] sandstorm
+|-damage|p2a: Hippowdon|394/420 tox|[from] psn
+|turn|40
+|
+|switch|p2a: Forretress|Forretress, M|155/354
+|-damage|p2a: Forretress|111/354|[from] Stealth Rock
+|move|p1a: Porlyusica|Seismic Toss|p2a: Forretress
+|-damage|p2a: Forretress|11/354
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porlyusica|434/642|[from] sandstorm
+|-heal|p2a: Forretress|33/354|[from] item: Leftovers
+|turn|41
+|
+|move|p1a: Porlyusica|Seismic Toss|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porlyusica|394/642|[from] sandstorm
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|-damage|p2a: Terrakion|303/323|[from] Stealth Rock
+|turn|42
+|
+|switch|p1a: Chelia|Skarmory, M|325/334
+|-damage|p1a: Chelia|284/334|[from] Stealth Rock
+|move|p2a: Terrakion|Close Combat|p1a: Chelia
+|-damage|p1a: Chelia|164/334
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|turn|43
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|74/303 tox
+|-damage|p2a: Rotom-Wash|37/303 tox|[from] Stealth Rock
+|move|p1a: Chelia|Roost|p1a: Chelia
+|-heal|p1a: Chelia|331/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|19/303 tox|[from] sandstorm
+|-heal|p2a: Rotom-Wash|37/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|19/303 tox|[from] psn
+|turn|44
+|
+|switch|p1a: Leon|Kyurem|379/404
+|-damage|p1a: Leon|278/404|[from] Stealth Rock
+|-ability|p1a: Leon|Pressure
+|move|p2a: Rotom-Wash|Pain Split|p1a: Leon
+|-sethp|p1a: Leon|148/404|p2a: Rotom-Wash|148/303 tox|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|123/404|[from] sandstorm
+|-damage|p2a: Rotom-Wash|130/303 tox|[from] sandstorm
+|-heal|p1a: Leon|148/404|[from] item: Leftovers
+|-heal|p2a: Rotom-Wash|148/303 tox|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|112/303 tox|[from] psn
+|turn|45
+|
+|move|p1a: Leon|Substitute|p1a: Leon
+|-start|p1a: Leon|Substitute
+|-damage|p1a: Leon|47/404
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Leon
+|-resisted|p1a: Leon
+|-activate|p1a: Leon|Substitute|[damage]
+|
+|switch|p2a: Terrakion|Terrakion|303/323
+|-damage|p2a: Terrakion|283/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|22/404|[from] sandstorm
+|-heal|p1a: Leon|47/404|[from] item: Leftovers
+|turn|46
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Leon|[miss]
+|-miss|p2a: Terrakion|p1a: Leon
+|move|p1a: Leon|Roost|p1a: Leon
+|-heal|p1a: Leon|249/404
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|224/404|[from] sandstorm
+|-heal|p1a: Leon|249/404|[from] item: Leftovers
+|turn|47
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Leon|[miss]
+|-miss|p2a: Terrakion|p1a: Leon
+|move|p1a: Leon|Earth Power|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|119/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|224/404|[from] sandstorm
+|-heal|p1a: Leon|249/404|[from] item: Leftovers
+|turn|48
+|
+|move|p2a: Terrakion|Stone Edge|p1a: Leon
+|-supereffective|p1a: Leon
+|-end|p1a: Leon|Substitute
+|move|p1a: Leon|Earth Power|p2a: Terrakion
+|-crit|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|224/404|[from] sandstorm
+|-heal|p1a: Leon|249/404|[from] item: Leftovers
+|
+|switch|p2a: Latias|Latias, F|206/302
+|-damage|p2a: Latias|169/302|[from] Stealth Rock
+|turn|49
+|
+|move|p2a: Latias|Hidden Power|p1a: Leon
+|-damage|p1a: Leon|146/404
+|-damage|p2a: Latias|139/302|[from] item: Life Orb
+|move|p1a: Leon|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leon|121/404|[from] sandstorm
+|-heal|p1a: Leon|146/404|[from] item: Leftovers
+|-message|Muff - forfeited.
+|
+|win|Princess Deluks917
+|raw|Ladder updating...
+|leave|Muff -
+|player|p2
+|raw|Princess Deluks917's rating: 1616 &rarr; <strong>1636</strong><br />(+20 for winning)
+|raw|Muff -'s rating: 1613 &rarr; <strong>1593</strong><br />(-20 for losing)

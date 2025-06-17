@@ -1,0 +1,225 @@
+|j|☆det3
+|j|☆peach_nair
+|player|p1|det3|101
+|player|p2|peach_nair|19
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Starmie|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Lucario, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Celebi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by peach_nair)
+|
+|start
+|switch|p1a: Politoed|Politoed, F|322/322
+|switch|p2a: Magnezone|Magnezone|282/282
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p1a: Politoed|Surf|p2a: Magnezone
+|-damage|p2a: Magnezone|63/282
+|move|p2a: Magnezone|Thunderbolt|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|80/282|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|264/264
+|turn|2
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|140/264
+|move|p1a: Breloom|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|97/282 slp|[from] item: Leftovers
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Celebi|Celebi|404/404
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|74/264 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|107/264 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Celebi|Stealth Rock|p1a: Breloom
+|-sidestart|p1: det3|move: Stealth Rock
+|move|p1a: Breloom|Focus Punch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|262/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|287/404|[from] item: Leftovers
+|-heal|p1a: Breloom|140/264 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Celebi|Giga Drain|p1a: Breloom
+|-resisted|p1a: Breloom
+|-activate|p1a: Breloom|Substitute|[damage]
+|-heal|p2a: Celebi|318/404|[from] drain|[of] p1a: Breloom
+|move|p1a: Breloom|Focus Punch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|171/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|196/404|[from] item: Leftovers
+|-heal|p1a: Breloom|173/264 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|398/404
+|move|p1a: Breloom|Focus Punch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|239/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|264/404|[from] item: Leftovers
+|-heal|p1a: Breloom|206/264 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Celebi|U-turn|p1a: Breloom
+|-crit|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|
+|switch|p2a: Latios|Latios, M|301/301
+|move|p1a: Breloom|Focus Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|110/301
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|239/264 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p1a: Ferrothorn|330/352|[from] Stealth Rock
+|move|p2a: Latios|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|255/352
+|-status|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|277/352 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Lucario|Lucario, M|282/282
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Lucario
+|-sidestart|p2: peach_nair|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|299/352 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Starmie|Starmie, shiny|261/261
+|-damage|p1a: Starmie|229/261|[from] Stealth Rock
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Lucario|Extreme Speed|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-damage|p2a: Lucario|254/282|[from] item: Life Orb
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|331/331
+|-damage|p1a: Gyarados|249/331|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Lucario|Extreme Speed|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Lucario|226/282|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|299/352 par
+|-damage|p1a: Ferrothorn|277/352 par|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Lucario|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Lucario|191/282|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|163/282|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M, shiny|299/299
+|-damage|p1a: Tornadus|225/299|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Lucario|Extreme Speed|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p2a: Lucario|135/282|[from] item: Life Orb
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|239/264 tox
+|-damage|p1a: Breloom|223/264 tox|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Lucario|Extreme Speed|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-damage|p2a: Lucario|107/282|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|win|peach_nair
+|raw|det3's rating: 1370 &rarr; <strong>1344</strong><br />(-26 for losing)
+|raw|peach_nair's rating: 1270 &rarr; <strong>1302</strong><br />(+32 for winning)
+|l|☆det3

@@ -1,0 +1,358 @@
+|join|dtw
+|join|Pythagorean Python
+|player|p1|dtw|1
+|player|p2|Pythagorean Python|169
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Sableye, F
+|poke|p1|Forretress, M
+|poke|p1|Volcarona, M
+|poke|p1|Breloom, M
+|poke|p1|Staraptor, F
+|poke|p1|Rotom-Wash
+|poke|p2|Slowbro, M
+|poke|p2|Charizard, M
+|poke|p2|Cloyster, F
+|poke|p2|Machamp, M
+|poke|p2|Jolteon, M
+|poke|p2|Cinccino, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Sableye|Sableye, F|304/304
+|switch|p2a: Jolteon|Jolteon, M|272/272
+|turn|1
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Jolteon
+|-status|p2a: Jolteon|brn
+|move|p2a: Jolteon|Thunderbolt|p1a: Sableye
+|-damage|p1a: Sableye|104/304
+|-damage|p2a: Jolteon|245/272 brn|[from] item: Life Orb
+|
+|-heal|p1a: Sableye|123/304|[from] item: Leftovers
+|-damage|p2a: Jolteon|211/272 brn|[from] brn
+|turn|2
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|275/304
+|move|p2a: Jolteon|Thunderbolt|p1a: Sableye
+|-damage|p1a: Sableye|103/304
+|-damage|p2a: Jolteon|184/272 brn|[from] item: Life Orb
+|
+|-heal|p1a: Sableye|122/304|[from] item: Leftovers
+|-damage|p2a: Jolteon|150/272 brn|[from] brn
+|turn|3
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|274/304
+|move|p2a: Jolteon|Thunderbolt|p1a: Sableye
+|-damage|p1a: Sableye|101/304
+|-damage|p2a: Jolteon|123/272 brn|[from] item: Life Orb
+|
+|-heal|p1a: Sableye|120/304|[from] item: Leftovers
+|-damage|p2a: Jolteon|89/272 brn|[from] brn
+|turn|4
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|272/304
+|move|p2a: Jolteon|Volt Switch|p1a: Sableye
+|-damage|p1a: Sableye|124/304
+|-damage|p2a: Jolteon|62/272 brn|[from] item: Life Orb
+|
+|switch|p2a: Charizard|Charizard, M|296/296
+|
+|-heal|p1a: Sableye|143/304|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Sableye|Taunt|p2a: Charizard
+|-start|p2a: Charizard|move: Taunt
+|cant|p2a: Charizard|move: Taunt|Substitute
+|
+|-heal|p1a: Sableye|162/304|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|304/304
+|move|p2a: Charizard|Fire Punch|p1a: Sableye
+|-damage|p1a: Sableye|177/304
+|
+|-heal|p1a: Sableye|196/304|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Charizard|Fire Punch|p1a: Sableye
+|-damage|p1a: Sableye|81/304
+|move|p1a: Sableye|Foul Play|p2a: Charizard
+|-damage|p2a: Charizard|154/296
+|
+|-heal|p1a: Sableye|100/304|[from] item: Leftovers
+|-end|p2a: Charizard|move: Taunt
+|turn|8
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|252/304
+|move|p2a: Charizard|Belly Drum|p2a: Charizard
+|-damage|p2a: Charizard|6/296
+|-setboost|p2a: Charizard|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Charizard|Salac Berry|[eat]
+|-boost|p2a: Charizard|spe|1|[from] item: Salac Berry
+|
+|-heal|p1a: Sableye|271/304|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Charizard|Fire Punch|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|
+|switch|p1a: Forretress|Forretress, M|354/354
+|turn|10
+|
+|move|p2a: Charizard|Fire Punch|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-activate|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/354
+|-enditem|p1a: Forretress|Red Card|[of] p2a: Charizard
+|drag|p2a: Cinccino|Cinccino, M|291/291
+|move|p1a: Forretress|Stealth Rock|p2a: Cinccino
+|-sidestart|p2: Pythagorean Python|move: Stealth Rock
+|
+|turn|11
+|
+|move|p2a: Cinccino|Bullet Seed|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-hitcount|p1a: Forretress|1
+|-damage|p2a: Cinccino|262/291|[from] item: Life Orb
+|faint|p1a: Forretress
+|
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|304/304
+|turn|12
+|
+|move|p1a: Rotom-Wash|Trick|p2a: Cinccino
+|-activate|p1a: Rotom-Wash|move: Trick|[of] p2a: Cinccino
+|-item|p2a: Cinccino|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom-Wash|Life Orb|[from] move: Trick
+|move|p2a: Cinccino|Bullet Seed|p1a: Rotom-Wash
+|-crit|p1a: Rotom-Wash
+|-supereffective|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|224/304
+|-supereffective|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|182/304
+|-supereffective|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|142/304
+|-supereffective|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|98/304
+|-supereffective|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|50/304
+|-hitcount|p1a: Rotom-Wash|5
+|
+|turn|13
+|
+|switch|p2a: Charizard|Charizard, M|6/296
+|-damage|p2a: Charizard|0 fnt|[from] Stealth Rock
+|faint|p2a: Charizard
+|move|p1a: Rotom-Wash|Volt Switch|p2: Charizard|[notarget]
+|-notarget
+|
+|
+|switch|p2a: Machamp|Machamp, M|384/384
+|-damage|p2a: Machamp|360/384|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|-damage|p1a: Rotom-Wash|20/304|[from] item: Life Orb
+|faint|p2a: Machamp
+|
+|
+|switch|p2a: Slowbro|Slowbro, M|394/394
+|-damage|p2a: Slowbro|345/394|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|62/394
+|-damage|p1a: Rotom-Wash|0 fnt|[from] item: Life Orb
+|faint|p1a: Rotom-Wash
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|259/394
+|
+|-heal|p2a: Slowbro|283/394|[from] item: Leftovers
+|
+|switch|p1a: Breloom|Breloom, M|323/323
+|turn|16
+|
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|243/323
+|move|p2a: Slowbro|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|
+|-heal|p2a: Slowbro|307/394|[from] item: Leftovers
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|17
+|
+|move|p1a: Breloom|Spore|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|cant|p2a: Slowbro|slp
+|
+|-heal|p2a: Slowbro|331/394 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|283/323 tox|[from] ability: Poison Heal
+|turn|18
+|
+|switch|p2a: Cloyster|Cloyster, F|242/242
+|-damage|p2a: Cloyster|182/242|[from] Stealth Rock
+|move|p1a: Breloom|Leech Seed|p2a: Cloyster
+|-start|p2a: Cloyster|move: Leech Seed
+|
+|-damage|p2a: Cloyster|152/242|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|313/323 tox|[silent]
+|-heal|p1a: Breloom|323/323 tox|[from] ability: Poison Heal
+|turn|19
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Cloyster|Icicle Spear|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|261/323 tox
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|199/323 tox
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|137/323 tox
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|71/323 tox
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|15/323 tox
+|-hitcount|p1a: Breloom|5
+|cant|p1a: Breloom|Focus Punch|Focus Punch
+|
+|-damage|p2a: Cloyster|122/242|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|45/323 tox|[silent]
+|-heal|p1a: Breloom|85/323 tox|[from] ability: Poison Heal
+|turn|20
+|
+|switch|p1a: Staraptor|Staraptor, F|312/312
+|move|p2a: Cloyster|Rock Blast|p1a: Staraptor
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|242/312
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|174/312
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|110/312
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|44/312
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-hitcount|p1a: Staraptor|5
+|faint|p1a: Staraptor
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|312/312
+|turn|21
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p1a: Volcarona|281/312|[from] item: Life Orb
+|faint|p2a: Cloyster
+|
+|
+|switch|p2a: Cinccino|Cinccino, M|262/291
+|-damage|p2a: Cinccino|226/291|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Cinccino|Rock Blast|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|133/312
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-hitcount|p1a: Volcarona|2
+|faint|p1a: Volcarona
+|
+|
+|switch|p1a: Breloom|Breloom, M|85/323 tox
+|turn|23
+|
+|move|p2a: Cinccino|Rock Blast|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|75/323 tox
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|65/323 tox
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|55/323 tox
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|44/323 tox
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|34/323 tox
+|-hitcount|p1a: Breloom|5
+|move|p1a: Breloom|Leech Seed|p2a: Cinccino
+|-start|p2a: Cinccino|move: Leech Seed
+|
+|-damage|p2a: Cinccino|190/291|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|70/323 tox|[silent]
+|-heal|p1a: Breloom|110/323 tox|[from] ability: Poison Heal
+|turn|24
+|
+|switch|p2a: Jolteon|Jolteon, M|62/272 brn
+|-damage|p2a: Jolteon|28/272 brn|[from] Stealth Rock
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|30/323 tox
+|
+|-damage|p2a: Jolteon|0 fnt|[from] brn
+|-heal|p1a: Breloom|70/323 tox|[from] ability: Poison Heal
+|faint|p2a: Jolteon
+|
+|switch|p2a: Cinccino|Cinccino, M|190/291
+|-damage|p2a: Cinccino|154/291|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Cinccino|Tail Slap|p1a: Breloom
+|-activate|p1a: Breloom|Substitute|[damage]
+|-activate|p1a: Breloom|Substitute|[damage]
+|-end|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|37/323 tox
+|-damage|p1a: Breloom|6/323 tox
+|-hitcount|p1a: Breloom|5
+|move|p1a: Breloom|Leech Seed|p2a: Cinccino|[miss]
+|-miss|p1a: Breloom|p2a: Cinccino
+|
+|-heal|p1a: Breloom|46/323 tox|[from] ability: Poison Heal
+|turn|26
+|
+|move|p2a: Cinccino|Tail Slap|p1a: Breloom|[miss]
+|-miss|p2a: Cinccino|p1a: Breloom
+|move|p1a: Breloom|Leech Seed|p2a: Cinccino
+|-start|p2a: Cinccino|move: Leech Seed
+|
+|-damage|p2a: Cinccino|118/291|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|82/323 tox|[silent]
+|-heal|p1a: Breloom|122/323 tox|[from] ability: Poison Heal
+|turn|27
+|
+|move|p2a: Cinccino|Tail Slap|p1a: Breloom
+|-damage|p1a: Breloom|91/323 tox
+|-damage|p1a: Breloom|58/323 tox
+|-crit|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-hitcount|p1a: Breloom|3
+|faint|p1a: Breloom
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|dtw's rating: 1375 &rarr; <strong>1355</strong><br />(-20 for losing)
+|raw|Pythagorean Python's rating: 1375 &rarr; <strong>1395</strong><br />(+20 for winning)
+|leave|dtw
+|player|p1

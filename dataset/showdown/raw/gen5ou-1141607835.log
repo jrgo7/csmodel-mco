@@ -1,0 +1,273 @@
+|j|☆emad32
+|j|☆Calamitygreed
+|player|p1|emad32|43|1459
+|player|p2|Calamitygreed|burglar-gen2|1545
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Reuniclus, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Keldeo|item
+|poke|p2|Scizor, F|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Calamitygreed)
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Arm and Hammer|Terrakion, shiny|100/100
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Arm and Hammer|atk|1
+|move|p2a: Arm and Hammer|Stone Edge|p1a: Landorus|[miss]
+|-miss|p2a: Arm and Hammer|p1a: Landorus
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Landorus|U-turn|p2a: Arm and Hammer
+|-resisted|p2a: Arm and Hammer
+|-damage|p2a: Arm and Hammer|85/100
+|
+|switch|p1a: Breloom|Breloom, F|100/100|[from]move: U-turn
+|move|p2a: Arm and Hammer|Stealth Rock|p1a: Breloom
+|-sidestart|p1: emad32|move: Stealth Rock
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|move|p2a: Arm and Hammer|Close Combat|p1a: Breloom
+|-damage|p1a: Breloom|42/100 tox
+|-unboost|p2a: Arm and Hammer|def|1
+|-unboost|p2a: Arm and Hammer|spd|1
+|move|p1a: Breloom|Drain Punch|p2a: Arm and Hammer
+|-supereffective|p2a: Arm and Hammer
+|-damage|p2a: Arm and Hammer|0 fnt
+|-heal|p1a: Breloom|85/100 tox|[from] drain|[of] p2a: Arm and Hammer
+|faint|p2a: Arm and Hammer
+|
+|-heal|p1a: Breloom|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: King Crimson|Scizor, F|100/100
+|turn|4
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: King Crimson|U-turn|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: King Crimson|atk|1
+|move|p2a: King Crimson|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|66/100
+|
+|switch|p2a: Start//End|Politoed, M, shiny|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Start//End
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Landorus|U-turn|p2a: Start//End
+|-damage|p2a: Start//End|71/100
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox|[from]move: U-turn
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|move|p2a: Start//End|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|29/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|switch|p2a: The Last Sad Song|Latios, M, shiny|100/100
+|move|p1a: Breloom|Protect||[still]
+|-fail|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|j| FnH
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: The Last Sad Song|Calm Mind|p2a: The Last Sad Song
+|-boost|p2a: The Last Sad Song|spa|1
+|-boost|p2a: The Last Sad Song|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: The Last Sad Song|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|4/100
+|move|p1a: Heatran|Toxic|p2a: The Last Sad Song
+|-status|p2a: The Last Sad Song|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|10/100|[from] item: Leftovers
+|-damage|p2a: The Last Sad Song|95/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: The Last Sad Song|Calm Mind|p2a: The Last Sad Song
+|-boost|p2a: The Last Sad Song|spa|1
+|-boost|p2a: The Last Sad Song|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|16/100|[from] item: Leftovers
+|-damage|p2a: The Last Sad Song|83/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: The Last Sad Song|Surf|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|23/100|[from] item: Leftovers
+|-damage|p2a: The Last Sad Song|65/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Heatran|Protect||[still]
+|-fail|p1a: Heatran
+|move|p2a: The Last Sad Song|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: The Last Sad Song|41/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Scizor|Bullet Punch|p2a: The Last Sad Song
+|-damage|p2a: The Last Sad Song|0 fnt
+|faint|p2a: The Last Sad Song
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Godzilla|Thundurus-Therian, M|100/100
+|turn|14
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|move|p2a: Godzilla|Agility|p2a: Godzilla
+|-boost|p2a: Godzilla|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Godzilla|Hidden Power|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|16
+|inactive|emad32 has 120 seconds left.
+|inactive|Calamitygreed has 120 seconds left.
+|inactive|emad32 has 90 seconds left.
+|
+|move|p2a: Godzilla|Thunder|p1a: Reuniclus
+|-damage|p1a: Reuniclus|33/100
+|-status|p1a: Reuniclus|par
+|move|p1a: Reuniclus|Psychic|p2a: Godzilla
+|-damage|p2a: Godzilla|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Reuniclus|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Godzilla|Thunder|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Godzilla
+|-resisted|p2a: Godzilla
+|-damage|p2a: Godzilla|9/100
+|move|p2a: Godzilla|Thunder|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Calamitygreed|gg
+|
+|switch|p1a: Landorus|Landorus-Therian, M|66/100
+|-damage|p1a: Landorus|54/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Godzilla|atk|1
+|turn|19
+|c|☆emad32|gg
+|
+|move|p2a: Godzilla|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|emad32 forfeited.
+|
+|win|Calamitygreed
+|l|☆emad32
+|raw|emad32's rating: 1459 &rarr; <strong>1443</strong><br />(-16 for losing)
+|raw|Calamitygreed's rating: 1545 &rarr; <strong>1560</strong><br />(+15 for winning)

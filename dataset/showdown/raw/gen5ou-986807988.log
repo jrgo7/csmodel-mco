@@ -1,0 +1,366 @@
+|j|☆Goootziniais
+|j|☆Invisible Paradigm
+|player|p1|Goootziniais|80|1321
+|player|p2|Invisible Paradigm|acetrainer-gen2|1565
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Weavile, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Starmie|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Mamoswine, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Invisible Paradigm)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Invisible Paradigm|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Skarmory|Spikes|p1a: Heatran
+|-sidestart|p1: Goootziniais|Spikes
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Heatran|Lava Plume|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Spikes
+|move|p2a: Tyranitar|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|47/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Giga Drain|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|84/100
+|-heal|p1a: Amoonguss|49/100|[from] drain|[of] p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|78/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|43/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|84/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|88/100|[from] Spikes
+|move|p2a: Amoonguss|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|25/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|78/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|84/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Breloom|Spore|p2a: Amoonguss
+|-status|p2a: Amoonguss|slp|[from] move: Spore
+|cant|p2a: Amoonguss|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|19/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|78/100 slp|[from] Sandstorm
+|-heal|p2a: Amoonguss|84/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Spikes
+|-curestatus|p2a: Amoonguss|slp|[msg]
+|move|p2a: Amoonguss|Sleep Talk||[still]
+|-fail|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|78/100|[from] Sandstorm
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|84/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Tyranitar|Tyranitar, M|81/100
+|-damage|p2a: Tyranitar|68/100|[from] Stealth Rock
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Goootziniais has 120 seconds left.
+|
+|move|p1a: Heatran|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|62/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|Goootziniais has 120 seconds left.
+|
+|move|p1a: Heatran|Substitute|p1a: Heatran
+|-start|p1a: Heatran|Substitute
+|-damage|p1a: Heatran|57/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Goootziniais|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|63/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|50/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Heatran|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|25/100 tox
+|move|p2a: Tyranitar|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-end|p1a: Heatran|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|69/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|6/100 tox|[from] psn
+|upkeep
+|turn|13
+|inactive|Goootziniais has 90 seconds left.
+|
+|switch|p1a: Breloom|Breloom, M|19/100
+|-damage|p1a: Breloom|13/100|[from] Stealth Rock
+|-damage|p1a: Breloom|1/100|[from] Spikes
+|move|p2a: Tyranitar|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|0 fnt|[from] psn
+|faint|p2a: Tyranitar
+|upkeep
+|inactive|Goootziniais has 90 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|85/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|14
+|inactive|Goootziniais has 90 seconds left.
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-damage|p1a: Weavile|63/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|turn|15
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, M|76/100
+|-damage|p1a: Amoonguss|64/100|[from] Stealth Rock
+|-damage|p1a: Amoonguss|51/100|[from] Spikes
+|turn|16
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|82/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Latios|Draco Meteor|p2a: Amoonguss
+|-damage|p2a: Amoonguss|13/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Amoonguss|Spore|p1a: Latios
+|-status|p1a: Latios|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|76/100 slp|[from] Sandstorm
+|-damage|p2a: Amoonguss|7/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|13/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p1a: Heatran|Heatran, F|69/100
+|-damage|p1a: Heatran|57/100|[from] Stealth Rock
+|-damage|p1a: Heatran|45/100|[from] Spikes
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|51/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Amoonguss|Amoonguss, M|85/100
+|-damage|p1a: Amoonguss|72/100|[from] Stealth Rock
+|-damage|p1a: Amoonguss|60/100|[from] Spikes
+|move|p2a: Mamoswine|Superpower|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|21/100
+|-unboost|p2a: Mamoswine|atk|1
+|-unboost|p2a: Mamoswine|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|14/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|move|p2a: Mamoswine|Superpower|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-unboost|p2a: Mamoswine|atk|1
+|-unboost|p2a: Mamoswine|def|1
+|faint|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|76/100 slp
+|-damage|p1a: Latios|64/100 slp|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|cant|p1a: Latios|slp
+|move|p1a: Latios|Sleep Talk|p1a: Latios
+|move|p1a: Latios|Psyshock|p2a: Skarmory|[from]Sleep Talk
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|58/100 slp|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|-curestatus|p1a: Latios|slp|[msg]
+|move|p1a: Latios|Sleep Talk||[still]
+|-fail|p1a: Latios
+|move|p2a: Skarmory|Spikes|p1a: Latios
+|-sidestart|p1: Goootziniais|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|52/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|switch|p1a: Heatran|Heatran, F|51/100
+|-damage|p1a: Heatran|38/100|[from] Stealth Rock
+|-damage|p1a: Heatran|22/100|[from] Spikes
+|move|p2a: Skarmory|Whirlwind|p1a: Heatran
+|drag|p1a: Latios|Latios, M|52/100
+|-damage|p1a: Latios|40/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|34/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|move|p1a: Latios|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|11/100
+|move|p2a: Skarmory|Whirlwind|p1a: Latios
+|drag|p1a: Heatran|Heatran, F|22/100
+|-damage|p1a: Heatran|9/100|[from] Stealth Rock
+|-damage|p1a: Heatran|0 fnt|[from] Spikes
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|34/100
+|-damage|p1a: Latios|21/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Latios|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|15/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|76/100
+|-damage|p2a: Starmie|64/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Starmie|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|win|Invisible Paradigm
+|l|☆Goootziniais
+|raw|Goootziniais's rating: 1321 &rarr; <strong>1314</strong><br />(-7 for losing)
+|raw|Invisible Paradigm's rating: 1565 &rarr; <strong>1573</strong><br />(+8 for winning)

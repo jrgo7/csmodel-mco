@@ -1,0 +1,309 @@
+|j|☆Gh0st of Perdition
+|j|‽smiletoad
+|player|p1|Gh0st of Perdition|gentleman-gen1rb|1565
+|player|p2|smiletoad|tuberf-gen3|1460
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Xatu, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Gengar, M|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Seismitoad|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by smiletoad)
+|
+|move|p2a: Landorus|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|58/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Landorus
+|-sidestart|p2: smiletoad|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p1a: Xatu|Xatu, M|100/100
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Xatu|Heat Wave|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|40/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|96/100
+|-damage|p2a: Ferrothorn|24/100 brn|[from] item: Rocky Helmet|[of] p1a: Xatu
+|-enditem|p1a: Xatu|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|30/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|18/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Xatu|Reflect|p1a: Xatu
+|-sidestart|p1: Gh0st of Perdition|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|90/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p1a: Xatu|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|
+|-activate|p1a: Xatu|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Xatu|[from]Pursuit
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|47/100
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|inactive|Gh0st of Perdition has 120 seconds left.
+|inactive|smiletoad has 120 seconds left.
+|inactive|Gh0st of Perdition has 90 seconds left.
+|
+|switch|p1a: Xatu|Xatu, M|47/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|41/100|[from] Sandstorm
+|-damage|p2a: Rotom|82/100|[from] Sandstorm
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Xatu|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|
+|switch|p1a: Seismitoad|Seismitoad, M|64/100|[from]move: U-turn
+|move|p2a: Rotom|Volt Switch|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|73/100|[from] Sandstorm
+|-heal|p2a: Rotom|79/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|smiletoad has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|18/100 brn
+|-damage|p2a: Ferrothorn|11/100 brn|[from] Stealth Rock
+|move|p1a: Seismitoad|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|76/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|10/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|0 fnt|[from] brn
+|faint|p2a: Ferrothorn
+|-sideend|p1: Gh0st of Perdition|Reflect
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Seismitoad|atk|1
+|turn|9
+|inactive|Gh0st of Perdition has 90 seconds left.
+|
+|switch|p1a: Xatu|Xatu, M|41/100
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|35/100|[from] Sandstorm
+|upkeep
+|turn|10
+|inactive|smiletoad has 120 seconds left.
+|
+|move|p2a: Landorus|Hidden Power|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Gh0st of Perdition has 90 seconds left.
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|11
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Latios|Draco Meteor|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|26/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: Excadrill|Earthquake|p1a: Latios
+|-damage|p1a: Latios|20/100
+|move|p1a: Latios|Draco Meteor|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|14/100|[from] Sandstorm
+|upkeep
+|inactive|smiletoad has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|69/100
+|-damage|p2a: Tyranitar|57/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Seismitoad|Seismitoad, M|76/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Gh0st of Perdition|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Earthquake|p2a: Gengar
+|-immune|p2a: Gengar|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|82/100|[from] Sandstorm
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Latios|Latios, M|14/100
+|-damage|p1a: Latios|1/100|[from] Stealth Rock
+|move|p2a: Gengar|Will-O-Wisp|p1a: Latios
+|-status|p1a: Latios|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|82/100|[from] Sandstorm
+|-damage|p1a: Latios|0 fnt|[from] Sandstorm
+|faint|p1a: Latios
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Tyranitar|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Landorus|Superpower|p1a: Ferrothorn
+|-enditem|p2a: Landorus|Fighting Gem|[from] gem
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2a: Landorus|def|1
+|-damage|p2a: Landorus|64/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|turn|18
+|inactive|smiletoad has 120 seconds left.
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|79/100
+|-damage|p2a: Rotom|67/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Seismitoad|Seismitoad, M|88/100
+|-damage|p1a: Seismitoad|82/100|[from] Stealth Rock
+|switch|p2a: Tyranitar|Tyranitar, M|57/100
+|-damage|p2a: Tyranitar|45/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|94/100|[from] item: Leftovers
+|upkeep
+|inactive|smiletoad has 120 seconds left.
+|-message|smiletoad forfeited.
+|
+|win|Gh0st of Perdition
+|l|‽smiletoad
+|raw|Gh0st of Perdition's rating: 1565 &rarr; <strong>1579</strong><br />(+14 for winning)
+|raw|smiletoad's rating: 1460 &rarr; <strong>1446</strong><br />(-14 for losing)

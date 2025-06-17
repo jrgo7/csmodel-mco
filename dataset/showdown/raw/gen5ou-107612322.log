@@ -1,0 +1,231 @@
+|join|Pythagorean Python
+|join|arm96
+|player|p1|Pythagorean Python|266
+|player|p2|arm96|87
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Skarmory, F
+|poke|p1|Blissey, F
+|poke|p1|Hippowdon, M
+|poke|p1|Alakazam, F
+|poke|p1|Terrakion
+|poke|p1|Starmie
+|poke|p2|Dragonite, F
+|poke|p2|Breloom, M
+|poke|p2|Volcarona, F
+|poke|p2|Mamoswine, M
+|poke|p2|Starmie
+|poke|p2|Scizor, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Starmie|Starmie|261/261
+|switch|p2a: Volcarona|Volcarona, F|312/312
+|turn|1
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Volcarona|[miss]
+|-miss|p1a: Starmie|p2a: Volcarona
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|2
+|
+|switch|p1a: Blissey|Blissey, F|714/714
+|move|p2a: Volcarona|Bug Buzz|p1a: Blissey
+|-damage|p1a: Blissey|498/714
+|
+|-heal|p1a: Blissey|542/714|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Thunder Wave|p2a: Volcarona
+|-status|p2a: Volcarona|par
+|
+|-heal|p1a: Blissey|586/714|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|212/312 par
+|-status|p1a: Blissey|brn
+|
+|-heal|p1a: Blissey|630/714 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|541/714 brn|[from] brn
+|turn|5
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|217/714 brn
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|112/312 par
+|
+|-heal|p1a: Blissey|261/714 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|172/714 brn|[from] brn
+|turn|6
+|
+|switch|p1a: Hippowdon|Hippowdon, M|420/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|cant|p2a: Volcarona|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|93/312 par|[from] sandstorm
+|turn|7
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|74/312 par|[from] sandstorm
+|
+|switch|p1a: Alakazam|Alakazam, F|252/252
+|turn|8
+|
+|move|p1a: Alakazam|Psychic|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Starmie|Starmie|262/262
+|turn|9
+|
+|move|p1a: Alakazam|Signal Beam|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, M|282/282
+|turn|10
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p2a: Scizor|254/282|[from] item: Life Orb
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|turn|11
+|
+|switch|p2a: Breloom|Breloom, M|262/262
+|move|p1a: Skarmory|Drill Peck|p2a: Breloom
+|-crit|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, M|254/282
+|turn|12
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Skarmory|Drill Peck|p2a: Scizor
+|-damage|p2a: Scizor|181/282
+|
+|-weather|Sandstorm|[upkeep]
+|turn|13
+|
+|move|p2a: Scizor|Superpower|p1a: Skarmory
+|-damage|p1a: Skarmory|138/334
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|-damage|p2a: Scizor|153/282|[from] item: Life Orb
+|move|p1a: Skarmory|Whirlwind|p2a: Scizor
+|drag|p2a: Dragonite|Dragonite, F|324/324
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|304/324|[from] sandstorm
+|-heal|p1a: Skarmory|158/334|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|284/324|[from] sandstorm
+|
+|switch|p1a: Starmie|Starmie|261/261
+|turn|15
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Starmie
+|-damage|p1a: Starmie|131/261
+|move|p1a: Starmie|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|115/261|[from] sandstorm
+|
+|switch|p2a: Scizor|Scizor, M|153/282
+|turn|16
+|
+|switch|p1a: Blissey|Blissey, F|172/714
+|move|p2a: Scizor|Bullet Punch|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-damage|p2a: Scizor|125/282|[from] item: Life Orb
+|faint|p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Terrakion|Terrakion|324/324
+|turn|17
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|9/324
+|-damage|p2a: Scizor|97/282|[from] item: Life Orb
+|move|p1a: Terrakion|Close Combat|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-damage|p1a: Terrakion|0 fnt|[from] item: Life Orb
+|faint|p2a: Scizor
+|faint|p1a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Starmie|Starmie|115/261
+|switch|p2a: Mamoswine|Mamoswine, M|362/362
+|turn|18
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/362
+|move|p2a: Mamoswine|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|arm96
+|raw|Ladder updating...
+|raw|Pythagorean Python's rating: 1439 &rarr; <strong>1424</strong><br />(-15 for losing)
+|raw|arm96's rating: 1526 &rarr; <strong>1541</strong><br />(+15 for winning)
+|chat|Pythagorean Python|gg

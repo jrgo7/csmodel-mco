@@ -1,0 +1,334 @@
+|j|☆Pythagorean Python
+|j|☆emad32
+|player|p1|Pythagorean Python|159|1443
+|player|p2|emad32|43|1430
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Salamence, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Raikou|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Starmie|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Raikou|Raikou|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|-ability|p1a: Raikou|Pressure
+|turn|1
+|
+|move|p2a: Landorus|U-turn|p1a: Raikou
+|-damage|p1a: Raikou|64/100
+|
+|switch|p2a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|move|p1a: Raikou|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|97/100
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Raikou|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|78/100
+|
+|switch|p1a: Salamence|Salamence, M|100/100|[from]move: Volt Switch
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Stealth Rock|p1a: Salamence
+|-sidestart|p1: Pythagorean Python|move: Stealth Rock
+|
+|-heal|p2a: Heatran|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|100/100
+|turn|4
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|-damage|p1a: Meloetta|88/100|[from] Stealth Rock
+|move|p2a: Starmie|Ice Beam|p1a: Meloetta
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|41/100
+|-damage|p2a: Starmie|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Meloetta|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Meloetta|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|43/100
+|
+|-heal|p1a: Meloetta|53/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|49/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|switch|p2a: Heatran|Heatran, M|84/100
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Heatran|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Lava Plume|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|52/100
+|-status|p1a: Salamence|brn
+|
+|-heal|p2a: Heatran|97/100|[from] item: Leftovers
+|-damage|p1a: Salamence|40/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Salamence|Draco Meteor|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Salamence|28/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Salamence|Roost|p1a: Salamence
+|-heal|p1a: Salamence|78/100 brn
+|-singleturn|p1a: Salamence|move: Roost
+|move|p2a: Heatran|Lava Plume|p1a: Salamence
+|-resisted|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|31/100 brn
+|
+|-damage|p1a: Salamence|19/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Starmie|Starmie|91/100
+|move|p1a: Salamence|Roost|p1a: Salamence
+|-heal|p1a: Salamence|69/100 brn
+|-singleturn|p1a: Salamence|move: Roost
+|
+|-damage|p1a: Salamence|57/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|17/100 brn
+|-damage|p2a: Starmie|81/100|[from] item: Life Orb
+|move|p1a: Salamence|Draco Meteor|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-unboost|p1a: Salamence|spa|2
+|faint|p2a: Starmie
+|
+|-damage|p1a: Salamence|5/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|12
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|46/100
+|-damage|p2a: Scizor|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Fire Fang|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, M|49/100
+|turn|14
+|
+|switch|p1a: Meloetta|Meloetta|53/100
+|-damage|p1a: Meloetta|41/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|99/100
+|
+|-heal|p1a: Meloetta|47/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Meloetta|Shadow Ball|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|91/100
+|-unboost|p2a: Heatran|spd|1
+|
+|-heal|p1a: Meloetta|53/100|[from] item: Leftovers
+|-heal|p2a: Heatran|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Meloetta|Focus Blast|p2a: Heatran|[miss]
+|-miss|p1a: Meloetta|p2a: Heatran
+|move|p2a: Heatran|Toxic|p1a: Meloetta
+|-status|p1a: Meloetta|tox
+|
+|-heal|p1a: Meloetta|59/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Meloetta|53/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|
+|-heal|p1a: Meloetta|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|47/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Meloetta|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|14/100
+|
+|-heal|p1a: Meloetta|53/100 tox|[from] item: Leftovers
+|-heal|p2a: Reuniclus|20/100|[from] item: Leftovers
+|-damage|p1a: Meloetta|34/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Meloetta|Psyshock|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-heal|p1a: Meloetta|41/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|16/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|20
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Meloetta|Psyshock|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p1a: Meloetta|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Meloetta|0 fnt|[from] psn
+|faint|p1a: Meloetta
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Mienshao|High Jump Kick|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|-damage|p1a: Mienshao|45/100|[from] highjumpkick
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|23
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Breloom
+|-damage|p2a: Breloom|5/100
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|24
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Mienshao|U-turn|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-heal|p2a: Breloom|18/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Mienshao|High Jump Kick|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|-damage|p1a: Mienshao|0 fnt|[from] highjumpkick
+|faint|p1a: Mienshao
+|
+|-heal|p2a: Breloom|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|46/100
+|-damage|p1a: Garchomp|40/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Garchomp|Outrage|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|win|Pythagorean Python
+|l|☆emad32
+|raw|Pythagorean Python's rating: 1443 &rarr; <strong>1462</strong><br />(+19 for winning)
+|raw|emad32's rating: 1430 &rarr; <strong>1411</strong><br />(-19 for losing)

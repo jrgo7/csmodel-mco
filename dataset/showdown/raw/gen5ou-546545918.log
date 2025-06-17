@@ -1,0 +1,580 @@
+|j|westmoore
+|j|shyamm98
+|player|p1|westmoore|2
+|player|p2|shyamm98|170
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|31469,13622,24627,51360
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Moltres|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Breloom, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Amoonguss, M, shiny|item
+|poke|p2|Keldeo|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|j|cypressess
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Breloom|Breloom, M|324/324
+|switch|p2a: Keldeo|Keldeo|323/323
+|turn|1
+|choice|move spore|switch 2
+|
+|switch|p2a: Skarmory|Skarmory, F|333/333
+|move|p1a: Breloom|Spore|p2a: Skarmory
+|-status|p2a: Skarmory|slp
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|choice|switch 6|move bravebird
+|
+|switch|p1a: Politoed|Politoed, F|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|cant|p2a: Skarmory|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|choice|switch 2|move spikes
+|
+|switch|p1a: Moltres|Moltres|321/321
+|-ability|p1a: Moltres|Pressure
+|-curestatus|p2a: Skarmory|slp|[msg]
+|move|p2a: Skarmory|Spikes|p1a: Moltres
+|-sidestart|p1: westmoore|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|move|p1a: Moltres|Will-O-Wisp|p2a: Keldeo|[miss]
+|-miss|p1a: Moltres|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|choice|switch 3|move hydropump
+|
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|-damage|p1a: Tentacruel|319/364|[from] Spikes
+|move|p2a: Keldeo|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|174/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|196/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|218/364|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|switch 5|switch 3
+|
+|switch|p2a: Hydreigon|Hydreigon, F|339/339
+|switch|p1a: Seismitoad|Seismitoad, M|391/391
+|-damage|p1a: Seismitoad|343/391|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|367/391|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|switch 4|move dracometeor
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|354/404|[from] Spikes
+|move|p2a: Hydreigon|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|229/404
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|306/339|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|254/404|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move wish|switch 4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|319/319
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|279/404|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 4|move swordsdance
+|
+|switch|p1a: Seismitoad|Seismitoad, M|367/391
+|-damage|p1a: Seismitoad|319/391|[from] Spikes
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|391/391|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|10
+|j|shrewdg
+|choice|move icepunch|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Politoed|Politoed, F|322/322
+|-damage|p1a: Politoed|282/322|[from] Spikes
+|turn|11
+|choice|move icebeam|move earthquake
+|
+|move|p1a: Politoed|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|turn|12
+|choice|switch 5|move hiddenpower
+|
+|switch|p1a: Tentacruel|Tentacruel, F|218/364
+|-damage|p1a: Tentacruel|173/364|[from] Spikes
+|move|p2a: Keldeo|Hidden Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|41/364
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|63/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|85/364|[from] item: Black Sludge
+|upkeep
+|turn|13
+|choice|switch 6|move hiddenpower
+|
+|switch|p1a: Breloom|Breloom, M|324/324 tox
+|-damage|p1a: Breloom|284/324 tox|[from] Spikes
+|move|p2a: Keldeo|Hidden Power|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|231/324 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|271/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|choice|move spore|switch 5
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|403/403
+|move|p1a: Breloom|Spore|p2a: Amoonguss
+|-status|p2a: Amoonguss|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|311/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|choice|switch 4|move sleeptalk
+|
+|switch|p1a: Jirachi|Jirachi|279/404
+|-damage|p1a: Jirachi|229/404|[from] Spikes
+|cant|p2a: Amoonguss|slp
+|move|p2a: Amoonguss|Sleep Talk|p2a: Amoonguss
+|move|p2a: Amoonguss|Giga Drain|p1a: Jirachi|[from]Sleep Talk
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|199/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|224/404|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move thunder|switch 5
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|move|p1a: Jirachi|Thunder|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|121/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|249/404|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|switch 6|move hiddenpower
+|
+|switch|p1a: Tentacruel|Tentacruel, F|85/364
+|-damage|p1a: Tentacruel|40/364|[from] Spikes
+|move|p2a: Keldeo|Hidden Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Jirachi|Jirachi|249/404
+|-damage|p1a: Jirachi|199/404|[from] Spikes
+|turn|18
+|choice|move wish|switch 2
+|
+|switch|p2a: Skarmory|Skarmory, F|333/333
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|224/404|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move thunder|move whirlwind
+|
+|move|p1a: Jirachi|Thunder|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|147/333
+|move|p2a: Skarmory|Whirlwind|p1a: Jirachi
+|drag|p1a: Politoed|Politoed, F|282/322
+|-damage|p1a: Politoed|242/322|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|322/322|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Skarmory|167/333|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move surf|move roost
+|
+|move|p1a: Politoed|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|403/403 slp
+|turn|21
+|choice|switch 5|move sleeptalk
+|
+|switch|p1a: Jirachi|Jirachi|224/404
+|-damage|p1a: Jirachi|174/404|[from] Spikes
+|cant|p2a: Amoonguss|slp
+|move|p2a: Amoonguss|Sleep Talk|p2a: Amoonguss
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Jirachi|[from]Sleep Talk
+|-immune|p1a: Jirachi|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|199/404|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move wish|switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|401/401
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|224/404|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move ironhead|move crunch
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|219/401
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|65/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|267/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|292/404|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move wish|move crunch
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|135/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|160/404|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move ironhead|move crunch
+|
+|move|p1a: Jirachi|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|49/401
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|10/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|212/404|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|237/404|[from] item: Leftovers
+|upkeep
+|turn|26
+|-enditem|p2a: Tyranitar|Custap Berry|[eat]
+|-activate|p2a: Tyranitar|item: Custap Berry
+|choice|move uturn|move stealthrock
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: westmoore|move: Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|choice|switch 4|
+|
+|switch|p1a: Breloom|Breloom, M|311/324 tox
+|-damage|p1a: Breloom|291/324 tox|[from] Stealth Rock
+|-damage|p1a: Breloom|251/324 tox|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|231/324 tox|[from] sandstorm
+|-heal|p1a: Breloom|271/324 tox|[from] ability: Poison Heal
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Hydreigon|Hydreigon, F|306/339
+|turn|27
+|choice|switch 3|move fireblast
+|
+|switch|p1a: Moltres|Moltres|321/321
+|-damage|p1a: Moltres|161/321|[from] Stealth Rock
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Hydreigon|Fire Blast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|56/321
+|-damage|p2a: Hydreigon|273/339|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|36/321|[from] sandstorm
+|-damage|p2a: Hydreigon|252/339|[from] sandstorm
+|-heal|p1a: Moltres|56/321|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move hurricane|move dracometeor
+|
+|move|p1a: Moltres|Hurricane|p2a: Hydreigon
+|-damage|p2a: Hydreigon|29/339
+|move|p2a: Hydreigon|Draco Meteor|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|0 fnt|[from] item: Life Orb
+|faint|p1a: Moltres
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 4|switch 6
+|
+|switch|p1a: Jirachi|Jirachi|237/404
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|403/403 slp
+|-damage|p1a: Jirachi|212/404|[from] Stealth Rock
+|-damage|p1a: Jirachi|162/404|[from] Spikes
+|turn|29
+|choice|move ironhead|move sleeptalk
+|
+|move|p1a: Jirachi|Iron Head|p2a: Amoonguss
+|-damage|p2a: Amoonguss|307/403 slp
+|cant|p2a: Amoonguss|slp
+|move|p2a: Amoonguss|Sleep Talk|p2a: Amoonguss
+|move|p2a: Amoonguss|Spore|p1a: Jirachi|[from]Sleep Talk
+|-status|p1a: Jirachi|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|282/403 slp|[from] sandstorm
+|-heal|p1a: Jirachi|187/404 slp|[from] item: Leftovers
+|-heal|p2a: Amoonguss|307/403 slp|[from] item: Black Sludge
+|upkeep
+|turn|30
+|choice|move wish|switch 2
+|
+|switch|p2a: Keldeo|Keldeo|121/323
+|cant|p1a: Jirachi|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|101/323|[from] sandstorm
+|-heal|p1a: Jirachi|212/404 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move thunder|move hydropump
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|43/404 slp
+|cant|p1a: Jirachi|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|81/323|[from] sandstorm
+|-heal|p1a: Jirachi|68/404 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move thunder|move hydropump
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Jirachi|[miss]
+|-miss|p2a: Keldeo|p1a: Jirachi
+|cant|p1a: Jirachi|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|61/323|[from] sandstorm
+|-heal|p1a: Jirachi|93/404 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move thunder|move hydropump
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|41/323|[from] sandstorm
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Politoed|Politoed, F|322/322
+|-damage|p1a: Politoed|282/322|[from] Stealth Rock
+|-damage|p1a: Politoed|242/322|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|34
+|choice|move icebeam|move hydropump
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Politoed
+|-resisted|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Breloom|Breloom, M|271/324 tox
+|-damage|p1a: Breloom|251/324 tox|[from] Stealth Rock
+|-damage|p1a: Breloom|211/324 tox|[from] Spikes
+|turn|35
+|choice|move drainpunch|move hydropump
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Breloom|[miss]
+|-miss|p2a: Keldeo|p1a: Breloom
+|move|p1a: Breloom|Drain Punch|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-heal|p1a: Breloom|232/324 tox|[from] drain|[of] p2a: Keldeo
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|272/324 tox|[from] ability: Poison Heal
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|403/403 slp
+|turn|36
+|choice|move bulkup|move sleeptalk
+|
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|cant|p2a: Amoonguss|slp
+|move|p2a: Amoonguss|Sleep Talk|p2a: Amoonguss
+|move|p2a: Amoonguss|Giga Drain|p1a: Breloom|[from]Sleep Talk
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|222/324 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|262/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|choice|move bulkup|move sleeptalk
+|
+|move|p1a: Breloom|Bulk Up|p1a: Breloom
+|-boost|p1a: Breloom|atk|1
+|-boost|p1a: Breloom|def|1
+|cant|p2a: Amoonguss|slp
+|move|p2a: Amoonguss|Sleep Talk|p2a: Amoonguss
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Breloom|[from]Sleep Talk
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|34/324 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|74/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|38
+|choice|move drainpunch|move sleeptalk
+|
+|move|p1a: Breloom|Drain Punch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|268/403 slp
+|-heal|p1a: Breloom|142/324 tox|[from] drain|[of] p2a: Amoonguss
+|cant|p2a: Amoonguss|slp
+|move|p2a: Amoonguss|Sleep Talk|p2a: Amoonguss
+|move|p2a: Amoonguss|Spore|p1a: Breloom|[from]Sleep Talk
+|-fail|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|293/403 slp|[from] item: Black Sludge
+|-heal|p1a: Breloom|182/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|choice|move drainpunch|move sleeptalk
+|
+|move|p1a: Breloom|Drain Punch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|161/403 slp
+|-heal|p1a: Breloom|248/324 tox|[from] drain|[of] p2a: Amoonguss
+|-curestatus|p2a: Amoonguss|slp|[msg]
+|move|p2a: Amoonguss|Sleep Talk|p2a: Amoonguss
+|-fail|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|186/403|[from] item: Black Sludge
+|-heal|p1a: Breloom|288/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|choice|move drainpunch|move sludgebomb
+|
+|move|p1a: Breloom|Drain Punch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|58/403
+|-heal|p1a: Breloom|324/324 tox|[from] drain|[of] p2a: Amoonguss
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|102/324 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|83/403|[from] item: Black Sludge
+|-heal|p1a: Breloom|142/324 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|choice|move drainpunch|move sludgebomb
+|
+|move|p1a: Breloom|Drain Punch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-heal|p1a: Breloom|184/324 tox|[from] drain|[of] p2a: Amoonguss
+|faint|p2a: Amoonguss
+|
+|win|westmoore
+|player|p1
+|player|p2
+|raw|westmoore's rating: 1525 &rarr; <strong>1534</strong><br />(+9 for winning)
+|raw|shyamm98's rating: 1310 &rarr; <strong>1301</strong><br />(-9 for losing)
+|c|☆shyamm98|gg

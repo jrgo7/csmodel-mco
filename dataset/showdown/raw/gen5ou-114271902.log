@@ -1,0 +1,504 @@
+|join|Apedingo
+|join|Draigon
+|player|p1|Apedingo|242
+|player|p2|Draigon|80
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Garchomp, M
+|poke|p1|Scizor, M
+|poke|p1|Zapdos
+|poke|p1|Keldeo
+|poke|p1|Heatran, M
+|poke|p1|Rotom-Wash
+|poke|p2|Tyranitar, M
+|poke|p2|Gliscor, F
+|poke|p2|Rotom-Wash
+|poke|p2|Scizor, F
+|poke|p2|Mamoswine, F
+|poke|p2|Garchomp, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Mr. Clean|Rotom-Wash|303/303
+|switch|p2a: Rotom-Wash|Rotom-Wash|304/304
+|turn|1
+|
+|move|p1a: Mr. Clean|Will-O-Wisp|p2a: Rotom-Wash
+|-status|p2a: Rotom-Wash|brn
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Mr. Clean|[miss]
+|-miss|p2a: Rotom-Wash|p1a: Mr. Clean
+|
+|-damage|p2a: Rotom-Wash|266/304 brn|[from] brn
+|turn|2
+|
+|move|p1a: Mr. Clean|Volt Switch|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|208/304 brn
+|
+|switch|p1a: Electris|Zapdos|383/383
+|-ability|p1a: Electris|Pressure
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Electris
+|-status|p1a: Electris|brn
+|
+|-heal|p2a: Rotom-Wash|227/304 brn|[from] item: Leftovers
+|-damage|p1a: Electris|336/383 brn|[from] brn
+|-damage|p2a: Rotom-Wash|189/304 brn|[from] brn
+|turn|3
+|
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Electris|Substitute|p1a: Electris
+|-start|p1a: Electris|Substitute
+|-damage|p1a: Electris|241/383 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|218/383 brn|[from] sandstorm
+|-heal|p1a: Electris|241/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|194/383 brn|[from] brn
+|turn|4
+|
+|move|p1a: Electris|Roost|p1a: Electris
+|-heal|p1a: Electris|383/383 brn
+|move|p2a: Tyranitar|Stealth Rock|p1a: Electris
+|-sidestart|p1: Apedingo|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|360/383 brn|[from] sandstorm
+|-heal|p1a: Electris|383/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|336/383 brn|[from] brn
+|turn|5
+|
+|move|p1a: Electris|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Pursuit|p1a: Electris
+|-activate|p1a: Electris|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|313/383 brn|[from] sandstorm
+|-heal|p1a: Electris|336/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|289/383 brn|[from] brn
+|-damage|p2a: Tyranitar|379/404 tox|[from] psn
+|turn|6
+|
+|move|p1a: Electris|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|307/404 tox
+|move|p2a: Tyranitar|Superpower|p1a: Electris
+|-resisted|p1a: Electris
+|-end|p1a: Electris|Substitute
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|266/383 brn|[from] sandstorm
+|-heal|p1a: Electris|289/383 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|332/404 tox|[from] item: Leftovers
+|-damage|p1a: Electris|242/383 brn|[from] brn
+|-damage|p2a: Tyranitar|282/404 tox|[from] psn
+|turn|7
+|
+|switch|p2a: Mamoswine|Mamoswine, F|424/424
+|move|p1a: Electris|Roost|p1a: Electris
+|-heal|p1a: Electris|383/383 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|360/383 brn|[from] sandstorm
+|-heal|p1a: Electris|383/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|336/383 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Mr. Clean|Rotom-Wash|303/303
+|-damage|p1a: Mr. Clean|266/303|[from] Stealth Rock
+|move|p2a: Mamoswine|Stone Edge|p1a: Mr. Clean
+|-damage|p1a: Mr. Clean|109/303
+|-damage|p2a: Mamoswine|382/424|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Clean|91/303|[from] sandstorm
+|-heal|p1a: Mr. Clean|109/303|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|189/304 brn
+|move|p1a: Mr. Clean|Pain Split|p2a: Rotom-Wash
+|-sethp|p2a: Rotom-Wash|149/304 brn|p1a: Mr. Clean|149/303|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Clean|131/303|[from] sandstorm
+|-damage|p2a: Rotom-Wash|130/304 brn|[from] sandstorm
+|-heal|p2a: Rotom-Wash|149/304 brn|[from] item: Leftovers
+|-heal|p1a: Mr. Clean|149/303|[from] item: Leftovers
+|-damage|p2a: Rotom-Wash|111/304 brn|[from] brn
+|turn|10
+|
+|move|p1a: Mr. Clean|Volt Switch|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|50/304 brn
+|
+|switch|p1a: Electris|Zapdos|336/383 brn
+|-damage|p1a: Electris|241/383 brn|[from] Stealth Rock
+|-ability|p1a: Electris|Pressure
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Electris
+|-damage|p1a: Electris|129/383 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|106/383 brn|[from] sandstorm
+|-damage|p2a: Rotom-Wash|31/304 brn|[from] sandstorm
+|-heal|p1a: Electris|129/383 brn|[from] item: Leftovers
+|-heal|p2a: Rotom-Wash|50/304 brn|[from] item: Leftovers
+|-damage|p1a: Electris|82/383 brn|[from] brn
+|-damage|p2a: Rotom-Wash|12/304 brn|[from] brn
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, M|282/404 tox
+|move|p1a: Electris|Roost|p1a: Electris
+|-heal|p1a: Electris|274/383 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|251/383 brn|[from] sandstorm
+|-heal|p1a: Electris|274/383 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|307/404 tox|[from] item: Leftovers
+|-damage|p1a: Electris|227/383 brn|[from] brn
+|-damage|p2a: Tyranitar|282/404 tox|[from] psn
+|turn|12
+|
+|move|p1a: Electris|Substitute|p1a: Electris
+|-start|p1a: Electris|Substitute
+|-damage|p1a: Electris|132/383 brn
+|move|p2a: Tyranitar|Pursuit|p1a: Electris
+|-activate|p1a: Electris|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|109/383 brn|[from] sandstorm
+|-heal|p1a: Electris|132/383 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|307/404 tox|[from] item: Leftovers
+|-damage|p1a: Electris|85/383 brn|[from] brn
+|-damage|p2a: Tyranitar|257/404 tox|[from] psn
+|turn|13
+|
+|move|p1a: Electris|Roost|p1a: Electris
+|-heal|p1a: Electris|277/383 brn
+|move|p2a: Tyranitar|Pursuit|p1a: Electris
+|-end|p1a: Electris|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|254/383 brn|[from] sandstorm
+|-heal|p1a: Electris|277/383 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|282/404 tox|[from] item: Leftovers
+|-damage|p1a: Electris|230/383 brn|[from] brn
+|-damage|p2a: Tyranitar|207/404 tox|[from] psn
+|turn|14
+|
+|move|p1a: Electris|Roost|p1a: Electris
+|-heal|p1a: Electris|383/383 brn
+|move|p2a: Tyranitar|Superpower|p1a: Electris
+|-damage|p1a: Electris|255/383 brn
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|232/383 brn|[from] sandstorm
+|-heal|p1a: Electris|255/383 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|232/404 tox|[from] item: Leftovers
+|-damage|p1a: Electris|208/383 brn|[from] brn
+|-damage|p2a: Tyranitar|132/404 tox|[from] psn
+|turn|15
+|
+|switch|p2a: Gliscor|Gliscor, F|354/354
+|move|p1a: Electris|Roost|p1a: Electris
+|-heal|p1a: Electris|383/383 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|360/383 brn|[from] sandstorm
+|-heal|p1a: Electris|383/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|336/383 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|16
+|
+|switch|p1a: Mr. Clean|Rotom-Wash|149/303
+|-damage|p1a: Mr. Clean|112/303|[from] Stealth Rock
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Clean|94/303|[from] sandstorm
+|-heal|p1a: Mr. Clean|112/303|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Mr. Clean|Hydro Pump|p2a: Gliscor
+|-activate|p2a: Gliscor|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Clean|94/303|[from] sandstorm
+|-heal|p1a: Mr. Clean|112/303|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|12/304 brn
+|move|p1a: Mr. Clean|Hydro Pump|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|0 fnt
+|faint|p2a: Rotom-Wash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Clean|94/303|[from] sandstorm
+|-heal|p1a: Mr. Clean|112/303|[from] item: Leftovers
+|
+|switch|p2a: Scizor|Scizor, F|344/344
+|turn|19
+|
+|move|p1a: Mr. Clean|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|U-turn|p1a: Mr. Clean
+|-damage|p1a: Mr. Clean|22/303
+|
+|switch|p2a: Mamoswine|Mamoswine, F|382/424
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Clean|4/303|[from] sandstorm
+|-heal|p1a: Mr. Clean|22/303|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Mr. Clean
+|-resisted|p1a: Mr. Clean
+|-damage|p1a: Mr. Clean|0 fnt
+|-damage|p2a: Mamoswine|340/424|[from] item: Life Orb
+|faint|p1a: Mr. Clean
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Blueberry Fairypoo|Keldeo|323/323
+|-damage|p1a: Blueberry Fairypoo|303/323|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Scizor|Scizor, F|344/344 brn
+|move|p1a: Blueberry Fairypoo|Substitute|p1a: Blueberry Fairypoo
+|-start|p1a: Blueberry Fairypoo|Substitute
+|-damage|p1a: Blueberry Fairypoo|223/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blueberry Fairypoo|203/323|[from] sandstorm
+|-heal|p1a: Blueberry Fairypoo|223/323|[from] item: Leftovers
+|-damage|p2a: Scizor|301/344 brn|[from] brn
+|turn|22
+|
+|move|p1a: Blueberry Fairypoo|Surf|p2a: Scizor
+|-damage|p2a: Scizor|85/344 brn
+|move|p2a: Scizor|U-turn|p1a: Blueberry Fairypoo
+|-resisted|p1a: Blueberry Fairypoo
+|-activate|p1a: Blueberry Fairypoo|Substitute|[damage]
+|
+|switch|p2a: Mamoswine|Mamoswine, F|340/424
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blueberry Fairypoo|203/323|[from] sandstorm
+|-heal|p1a: Blueberry Fairypoo|223/323|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Blueberry Fairypoo
+|-resisted|p1a: Blueberry Fairypoo
+|-end|p1a: Blueberry Fairypoo|Substitute
+|-damage|p2a: Mamoswine|298/424|[from] item: Life Orb
+|move|p1a: Blueberry Fairypoo|Surf|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blueberry Fairypoo|203/323|[from] sandstorm
+|-heal|p1a: Blueberry Fairypoo|223/323|[from] item: Leftovers
+|
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|turn|24
+|
+|switch|p1a: Electris|Zapdos|336/383 brn
+|-damage|p1a: Electris|241/383 brn|[from] Stealth Rock
+|-ability|p1a: Electris|Pressure
+|move|p2a: Garchomp|Earthquake|p1a: Electris
+|-immune|p1a: Electris|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|218/383 brn|[from] sandstorm
+|-heal|p1a: Electris|241/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|194/383 brn|[from] brn
+|turn|25
+|
+|switch|p2a: Gliscor|Gliscor, F|354/354 tox
+|move|p1a: Electris|Roost|p1a: Electris
+|-heal|p1a: Electris|383/383 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|360/383 brn|[from] sandstorm
+|-heal|p1a: Electris|383/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|336/383 brn|[from] brn
+|turn|26
+|
+|switch|p1a: Njamnjamnjam|Heatran, M|385/385
+|-damage|p1a: Njamnjamnjam|337/385|[from] Stealth Rock
+|move|p2a: Gliscor|Ice Fang|p1a: Njamnjamnjam
+|-resisted|p1a: Njamnjamnjam
+|-damage|p1a: Njamnjamnjam|327/385
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Njamnjamnjam|351/385|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: Electris|Zapdos|336/383 brn
+|-damage|p1a: Electris|241/383 brn|[from] Stealth Rock
+|-ability|p1a: Electris|Pressure
+|move|p2a: Gliscor|Earthquake|p1a: Electris
+|-immune|p1a: Electris|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|218/383 brn|[from] sandstorm
+|-heal|p1a: Electris|241/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|194/383 brn|[from] brn
+|turn|28
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Electris
+|-supereffective|p1a: Electris
+|-damage|p1a: Electris|82/383 brn
+|move|p1a: Electris|Substitute|p1a: Electris
+|-fail|p1a: Electris|move: Substitute|[weak]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Electris|59/383 brn|[from] sandstorm
+|-heal|p1a: Electris|82/383 brn|[from] item: Leftovers
+|-damage|p1a: Electris|35/383 brn|[from] brn
+|turn|29
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Electris
+|-supereffective|p1a: Electris
+|-damage|p1a: Electris|0 fnt
+|faint|p1a: Electris
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Blueberry Fairypoo|Keldeo|223/323
+|-damage|p1a: Blueberry Fairypoo|203/323|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Blueberry Fairypoo|Substitute|p1a: Blueberry Fairypoo
+|-start|p1a: Blueberry Fairypoo|Substitute
+|-damage|p1a: Blueberry Fairypoo|123/323
+|move|p2a: Gliscor|Earthquake|p1a: Blueberry Fairypoo
+|-end|p1a: Blueberry Fairypoo|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blueberry Fairypoo|103/323|[from] sandstorm
+|-heal|p1a: Blueberry Fairypoo|123/323|[from] item: Leftovers
+|turn|31
+|
+|switch|p2a: Scizor|Scizor, F|85/344 brn
+|move|p1a: Blueberry Fairypoo|Surf|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blueberry Fairypoo|103/323|[from] sandstorm
+|-heal|p1a: Blueberry Fairypoo|123/323|[from] item: Leftovers
+|
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|turn|32
+|
+|switch|p1a: Njamnjamnjam|Heatran, M|351/385
+|-damage|p1a: Njamnjamnjam|303/385|[from] Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Njamnjamnjam
+|-supereffective|p1a: Njamnjamnjam
+|-damage|p1a: Njamnjamnjam|0 fnt
+|faint|p1a: Njamnjamnjam
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Iron Man|Scizor, M|343/343
+|-damage|p1a: Iron Man|301/343|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Garchomp|Earthquake|p1a: Iron Man
+|-damage|p1a: Iron Man|127/343
+|move|p1a: Iron Man|Swords Dance|p1a: Iron Man
+|-boost|p1a: Iron Man|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|turn|34
+|
+|move|p1a: Iron Man|Bullet Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|122/357
+|-damage|p1a: Iron Man|85/343|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2a: Garchomp|Earthquake|p1a: Iron Man
+|-damage|p1a: Iron Man|0 fnt
+|faint|p1a: Iron Man
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Lobster|Garchomp, M|358/358
+|-damage|p1a: Lobster|336/358|[from] Stealth Rock
+|turn|35
+|
+|switch|p2a: Gliscor|Gliscor, F|354/354 tox
+|switch|p1a: Blueberry Fairypoo|Keldeo|123/323
+|-damage|p1a: Blueberry Fairypoo|103/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blueberry Fairypoo|83/323|[from] sandstorm
+|-heal|p1a: Blueberry Fairypoo|103/323|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Blueberry Fairypoo|Substitute|p1a: Blueberry Fairypoo
+|-start|p1a: Blueberry Fairypoo|Substitute
+|-damage|p1a: Blueberry Fairypoo|23/323
+|move|p2a: Gliscor|Earthquake|p1a: Blueberry Fairypoo
+|-end|p1a: Blueberry Fairypoo|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blueberry Fairypoo|3/323|[from] sandstorm
+|-heal|p1a: Blueberry Fairypoo|23/323|[from] item: Leftovers
+|turn|37
+|
+|switch|p2a: Tyranitar|Tyranitar, M|132/404 tox
+|move|p1a: Blueberry Fairypoo|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blueberry Fairypoo|3/323|[from] sandstorm
+|-heal|p1a: Blueberry Fairypoo|23/323|[from] item: Leftovers
+|
+|switch|p2a: Garchomp|Garchomp, M|122/357
+|turn|38
+|
+|move|p2a: Garchomp|Outrage|p1a: Blueberry Fairypoo
+|-damage|p1a: Blueberry Fairypoo|0 fnt
+|faint|p1a: Blueberry Fairypoo
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Lobster|Garchomp, M|336/358
+|-damage|p1a: Lobster|314/358|[from] Stealth Rock
+|turn|39
+|
+|move|p2a: Garchomp|Outrage|p1a: Lobster
+|-supereffective|p1a: Lobster
+|-damage|p1a: Lobster|0 fnt
+|-damage|p2a: Garchomp|78/357|[from] ability: Rough Skin|[of] p1a: Lobster
+|faint|p1a: Lobster
+|
+|win|Draigon
+|raw|Ladder updating...
+|raw|Apedingo's rating: 1614 &rarr; <strong>1588</strong><br />(-26 for losing)
+|raw|Draigon's rating: 1497 &rarr; <strong>1523</strong><br />(+26 for winning)
+|leave|Draigon
+|player|p2
+|leave|Apedingo
+|player|p1
+|join|Draigon

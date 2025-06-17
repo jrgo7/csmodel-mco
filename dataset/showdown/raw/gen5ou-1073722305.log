@@ -1,0 +1,394 @@
+|j|☆Cklp6251
+|j|☆gepesek
+|player|p1|Cklp6251|242|1359
+|player|p2|gepesek|53|1293
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Cloyster, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Lucario, M|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Ferrothorn, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cklp6251)
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p1a: Tyranitar|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|28/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|34/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|48/100|[silent]
+|upkeep
+|turn|2
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Fire Blast|p1a: Landorus|[miss]
+|-miss|p2a: Garchomp|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|48/100
+|move|p1a: Landorus|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|def|1
+|-damage|p1a: Landorus|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|move|p2a: Tyranitar|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|83/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Tyranitar|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: Cklp6251|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, F, shiny|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|50/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Tyranitar|Protect||[still]
+|-fail|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Vaporeon|Vaporeon, F, shiny|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|72/100
+|-unboost|p2a: Vaporeon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|66/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Vaporeon|Scald|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|66/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Tyranitar|Crunch|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|66/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Tyranitar|Crunch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|27/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|33/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Garchomp
+|-damage|p2a: Garchomp|63/100
+|-unboost|p2a: Garchomp|def|1
+|-damage|p1a: Tyranitar|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Garchomp|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Garchomp|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Garchomp|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Cloyster|66/100|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|60/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|95/100
+|turn|18
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|26/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|89/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|32/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Excadrill|Excadrill, F, shiny|50/100
+|move|p1a: Tyranitar|Protect||[still]
+|-fail|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|56/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|39/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|63/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Excadrill|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|75/100|[from] item: Leftovers
+|upkeep
+|c|☆Cklp6251|Gg
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Lucario|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|88/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|89/100
+|turn|24
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|move|p2a: Latios|Psyshock|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|83/100|[from] Sandstorm
+|-damage|p1a: Latias|62/100|[from] Sandstorm
+|-heal|p1a: Latias|68/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|37/100|[from] Sandstorm
+|-heal|p1a: Latias|43/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Tyranitar
+|-damage|p2a: Tyranitar|79/100
+|move|p2a: Tyranitar|Crunch|p1a: Latias
+|-supereffective|p1a: Latias
+|-end|p1a: Latias|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|37/100|[from] Sandstorm
+|-heal|p1a: Latias|43/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Lucario|Lucario, M|88/100
+|-damage|p1a: Lucario|85/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Fire Blast|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latias|Latias, F|43/100
+|-damage|p1a: Latias|31/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100
+|move|p2a: Tyranitar|Crunch|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|60/100
+|-damage|p1a: Cloyster|35/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Tyranitar
+|-damage|p2a: Tyranitar|43/100
+|-damage|p2a: Tyranitar|28/100
+|-damage|p2a: Tyranitar|13/100
+|-damage|p2a: Tyranitar|0 fnt
+|-hitcount|p2a: Tyranitar|4
+|-damage|p1a: Cloyster|25/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|19/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|83/100
+|turn|30
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|25/100
+|-damage|p1a: Cloyster|9/100|[from] item: Life Orb
+|move|p2a: Latios|Psyshock|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|win|gepesek
+|c|☆gepesek|gg+
+|l|☆Cklp6251
+|raw|Cklp6251's rating: 1359 &rarr; <strong>1336</strong><br />(-23 for losing)
+|raw|gepesek's rating: 1293 &rarr; <strong>1323</strong><br />(+30 for winning)

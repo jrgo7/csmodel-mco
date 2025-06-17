@@ -1,0 +1,196 @@
+|j|☆TheRareCandyDealer
+|j|☆goodluckkiddo
+|player|p1|TheRareCandyDealer|dragontamer|1383
+|player|p2|goodluckkiddo|cynthia|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Zoroark, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Gyarados, F|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Salamence, M|item
+|poke|p2|Magnezone|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodluckkiddo)
+|
+|move|p1a: Jirachi|Dark Pulse|p2a: Mamoswine
+|-damage|p2a: Mamoswine|30/100
+|-damage|p1a: Jirachi|91/100|[from] item: Life Orb
+|move|p2a: Mamoswine|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: TheRareCandyDealer|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Jirachi|Sucker Punch||[still]
+|-fail|p1a: Jirachi
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Jirachi|Flamethrower|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-damage|p1a: Jirachi|81/100|[from] item: Life Orb
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|4
+|
+|move|p2a: Salamence|Fire Blast|p1a: Jirachi
+|-damage|p1a: Jirachi|27/100
+|replace|p1a: Zoroark|Zoroark, F
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Dark Pulse|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|-damage|p1a: Zoroark|17/100|[from] item: Life Orb
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|30/100
+|turn|5
+|
+|move|p1a: Zoroark|Sucker Punch|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p1a: Zoroark|7/100|[from] item: Life Orb
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|6
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Scizor|Bullet Punch|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|61/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Latios
+|-damage|p2a: Latios|91/100
+|-sideend|p1: TheRareCandyDealer|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Latios|Surf|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|7/100
+|turn|9
+|
+|move|p1a: Jirachi|Sucker Punch|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Jirachi|0 fnt|[from] item: Life Orb
+|faint|p2a: Latios
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|10
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Jirachi|Body Slam|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|91/100
+|-status|p2a: Scizor|par
+|
+|upkeep
+|turn|11
+|j| FNH
+|
+|cant|p2a: Scizor|par
+|move|p1a: Jirachi|Fire Punch|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|20/100 par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|13
+|
+|move|p2a: Kyurem|Outrage|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|43/100
+|move|p1a: Jirachi|Body Slam|p2a: Kyurem
+|-damage|p2a: Kyurem|83/100
+|-status|p2a: Kyurem|par
+|
+|-heal|p1a: Jirachi|49/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|c|☆TheRareCandyDealer|gg
+|
+|move|p1a: Jirachi|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|37/100 par
+|cant|p2a: Kyurem|flinch
+|
+|-heal|p1a: Jirachi|55/100|[from] item: Leftovers
+|-start|p2a: Kyurem|confusion|[fatigue]
+|upkeep
+|turn|15
+|
+|move|p1a: Jirachi|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|TheRareCandyDealer
+|l|☆goodluckkiddo
+|raw|TheRareCandyDealer's rating: 1383 &rarr; <strong>1406</strong><br />(+23 for winning)
+|raw|goodluckkiddo's rating: 1442 &rarr; <strong>1419</strong><br />(-23 for losing)

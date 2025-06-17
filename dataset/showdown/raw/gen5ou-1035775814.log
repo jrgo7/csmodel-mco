@@ -1,0 +1,336 @@
+|j|☆smurfer
+|j|☆Chidori Kaname
+|player|p1|smurfer|282|1342
+|player|p2|Chidori Kaname|anabel|1373
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Starmie|item
+|poke|p1|Volcarona, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Starmie|item
+|poke|p2|Breloom, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Heatran, M|item
+|teampreview
+|
+|start
+|switch|p1a: AWOOGA|Ninetales, F|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: AWOOGA
+|turn|1
+|
+|move|p1a: AWOOGA|Hidden Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|64/100
+|move|p2a: Heatran|Earth Power|p1a: AWOOGA
+|-supereffective|p1a: AWOOGA
+|-damage|p1a: AWOOGA|47/100
+|-enditem|p1a: AWOOGA|Eject Button
+|
+|switch|p1a: Sexcadrill|Excadrill, M|100/100
+|-ability|p1a: Sexcadrill|Mold Breaker
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sexcadrill|atk|1
+|move|p1a: Sexcadrill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Landorus|U-turn|p1a: Sexcadrill
+|-resisted|p1a: Sexcadrill
+|-damage|p1a: Sexcadrill|86/100
+|
+|switch|p2a: Starmie|Starmie|100/100|[from]move: U-turn
+|move|p1a: Sexcadrill|Iron Head|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Starmie|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: AWOOOGA!|Starmie, shiny|100/100
+|move|p2a: Starmie|Thunder Wave|p1a: AWOOOGA!
+|-status|p1a: AWOOOGA!|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Starmie|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Sexcadrill|Excadrill, M|86/100
+|-ability|p1a: Sexcadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Starmie|Starmie|82/100
+|move|p1a: Sexcadrill|Iron Head|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|31/100|[from] Sandstorm
+|-heal|p2a: Starmie|37/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|87/100
+|move|p1a: Sexcadrill|Iron Head|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|38/100|[from] Sandstorm
+|-heal|p2a: Starmie|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Starmie|Scald|p1a: Sexcadrill
+|-supereffective|p1a: Sexcadrill
+|-damage|p1a: Sexcadrill|17/100
+|move|p1a: Sexcadrill|Iron Head|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|0 fnt|[from] Sandstorm
+|faint|p2a: Starmie
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|9
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Sexcadrill
+|-damage|p1a: Sexcadrill|0 fnt
+|faint|p1a: Sexcadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: AWOOOOGA!!|Volcarona, M|100/100
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, M|70/100
+|move|p1a: AWOOOOGA!!|Quiver Dance|p1a: AWOOOOGA!!
+|-boost|p1a: AWOOOOGA!!|spa|1
+|-boost|p1a: AWOOOOGA!!|spd|1
+|-boost|p1a: AWOOOOGA!!|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: AWOOOOGA!!|94/100|[from] Sandstorm
+|-heal|p2a: Heatran|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: AWOOOGA|Heatran, F, shiny|100/100
+|-item|p1a: AWOOOGA|Air Balloon
+|move|p2a: Heatran|Toxic|p1a: AWOOOGA
+|-immune|p1a: AWOOOGA
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: AWOOOGA|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Chidori Kaname|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: AWOOOGA|Magma Storm|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|-activate|p2a: Tyranitar|move: Magma Storm|[of] p1a: AWOOOGA
+|move|p2a: Tyranitar|Pursuit|p1a: AWOOOGA
+|-resisted|p1a: AWOOOGA
+|-damage|p1a: AWOOOGA|89/100
+|-enditem|p1a: AWOOOGA|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|79/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|move|p1a: AWOOOGA|Sunny Day|p1a: AWOOOGA
+|-weather|SunnyDay
+|move|p2a: Tyranitar|Stealth Rock|p1a: AWOOOGA
+|-sidestart|p1: smurfer|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Tyranitar|73/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|move|p1a: AWOOOGA|Solar Beam||[still]
+|-prepare|p1a: AWOOOGA|Solar Beam|p2a: Tyranitar
+|-anim|p1a: AWOOOGA|Solar Beam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|15/100
+|move|p2a: Tyranitar|Superpower|p1a: AWOOOGA
+|-supereffective|p1a: AWOOOGA
+|-damage|p1a: AWOOOGA|13/100
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Tyranitar|8/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|move|p1a: AWOOOGA|Solar Beam||[still]
+|-prepare|p1a: AWOOOGA|Solar Beam|p2a: Tyranitar
+|-anim|p1a: AWOOOGA|Solar Beam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|83/100
+|-damage|p2a: Heatran|70/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: AWOOOGA|Solar Beam||[still]
+|-prepare|p1a: AWOOOGA|Solar Beam|p2a: Heatran
+|-anim|p1a: AWOOOGA|Solar Beam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|64/100
+|move|p2a: Heatran|Earth Power|p1a: AWOOOGA
+|-supereffective|p1a: AWOOOGA
+|-damage|p1a: AWOOOGA|0 fnt
+|faint|p1a: AWOOOGA
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|70/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: AWOOGA|Ninetales, F|47/100
+|-damage|p1a: AWOOGA|22/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: AWOOGA
+|turn|18
+|
+|switch|p2a: Landorus|Landorus-Therian, M|56/100
+|-damage|p2a: Landorus|44/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: AWOOGA|atk|1
+|move|p1a: AWOOGA|Hidden Power|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Landorus|Earthquake|p1a: AWOOGA
+|-supereffective|p1a: AWOOGA
+|-damage|p1a: AWOOGA|0 fnt
+|faint|p1a: AWOOGA
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: AWOOOGA!|Starmie, shiny|100/100 par
+|-damage|p1a: AWOOOGA!|88/100 par|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Landorus|Earthquake|p1a: AWOOOGA!
+|-damage|p1a: AWOOOGA!|17/100 par
+|move|p1a: AWOOOGA!|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Mamoswine|Substitute|p2a: Mamoswine
+|-start|p2a: Mamoswine|Substitute
+|-damage|p2a: Mamoswine|63/100
+|move|p1a: AWOOOGA!|Hidden Power|p2a: Mamoswine
+|-enditem|p1a: AWOOOGA!|Fire Gem|[from] gem|[move] Hidden Power
+|-supereffective|p2a: Mamoswine
+|-end|p2a: Mamoswine|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Mamoswine|Substitute|p2a: Mamoswine
+|-start|p2a: Mamoswine|Substitute
+|-damage|p2a: Mamoswine|38/100
+|move|p1a: AWOOOGA!|Reflect|p1a: AWOOOGA!
+|-sidestart|p1: smurfer|Reflect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Mamoswine|Earthquake|p1a: AWOOOGA!
+|-damage|p1a: AWOOOGA!|0 fnt
+|faint|p1a: AWOOOGA!
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: AWOOOOGA!!|Volcarona, M|94/100
+|-damage|p1a: AWOOOOGA!!|45/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: AWOOOOGA!!|Quiver Dance|p1a: AWOOOOGA!!
+|-boost|p1a: AWOOOOGA!!|spa|1
+|-boost|p1a: AWOOOOGA!!|spd|1
+|-boost|p1a: AWOOOOGA!!|spe|1
+|move|p2a: Mamoswine|Earthquake|p1a: AWOOOOGA!!
+|-damage|p1a: AWOOOOGA!!|0 fnt
+|faint|p1a: AWOOOOGA!!
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|smurfer forfeited.
+|
+|win|Chidori Kaname
+|l|☆smurfer
+|raw|smurfer's rating: 1342 &rarr; <strong>1324</strong><br />(-18 for losing)
+|raw|Chidori Kaname's rating: 1374 &rarr; <strong>1392</strong><br />(+18 for winning)

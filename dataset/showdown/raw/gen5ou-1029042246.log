@@ -1,0 +1,282 @@
+|j|☆Cozarooni
+|j|☆Gh0stp3pper
+|player|p1|Cozarooni|veteran|1317
+|player|p2|Gh0stp3pper|riley|1399
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Floatzel, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Zoroark, F|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Weavile, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Latios, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gh0stp3pper)
+|
+|start
+|switch|p1a: Megafury|Volcarona, F|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|move|p1a: Megafury|Quiver Dance|p1a: Megafury
+|-boost|p1a: Megafury|spa|1
+|-boost|p1a: Megafury|spd|1
+|-boost|p1a: Megafury|spe|1
+|move|p2a: Heatran|Stealth Rock|p1a: Megafury
+|-sidestart|p1: Cozarooni|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Megafury|Bug Buzz|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|80/100
+|-enditem|p2a: Heatran|Air Balloon
+|-unboost|p2a: Heatran|spd|1
+|move|p2a: Heatran|Fire Blast|p1a: Megafury
+|-damage|p1a: Megafury|59/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Megafury|Hidden Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|turn|4
+|
+|move|p2a: Latios|Surf|p1a: Megafury
+|-supereffective|p1a: Megafury
+|-damage|p1a: Megafury|11/100
+|-enditem|p1a: Megafury|Sitrus Berry|[eat]
+|-heal|p1a: Megafury|36/100|[from] item: Sitrus Berry
+|move|p1a: Megafury|Bug Buzz|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|5
+|
+|move|p1a: Megafury|Bug Buzz|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|54/100
+|-unboost|p2a: Keldeo|spd|1
+|move|p2a: Keldeo|Hydro Pump|p1a: Megafury
+|-supereffective|p1a: Megafury
+|-damage|p1a: Megafury|0 fnt
+|faint|p1a: Megafury
+|
+|upkeep
+|
+|switch|p1a: Merlin|Alakazam, M|100/100
+|turn|6
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Merlin|Hidden Power|p2a: Jirachi
+|-damage|p2a: Jirachi|80/100
+|
+|-heal|p2a: Jirachi|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Nokia|Ferrothorn, F, shiny|100/100
+|-damage|p1a: Nokia|95/100|[from] Stealth Rock
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Cozarooni has 120 seconds left.
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|54/100
+|move|p1a: Nokia|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: Gh0stp3pper|move: Stealth Rock
+|
+|-heal|p2a: Keldeo|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|9
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Nokia
+|-supereffective|p1a: Nokia
+|-damage|p1a: Nokia|14/100
+|move|p1a: Nokia|Toxic|p2a: Keldeo
+|-status|p2a: Keldeo|tox
+|
+|-damage|p2a: Keldeo|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|Cozarooni has 120 seconds left.
+|
+|move|p2a: Keldeo|Icy Wind|p1a: Nokia
+|-damage|p1a: Nokia|1/100
+|-unboost|p1a: Nokia|spe|1
+|move|p1a: Nokia|Leech Seed|p2a: Keldeo
+|-start|p2a: Keldeo|move: Leech Seed
+|
+|-damage|p2a: Keldeo|82/100 tox|[from] Leech Seed|[of] p1a: Nokia
+|-heal|p1a: Nokia|12/100|[silent]
+|-damage|p2a: Keldeo|70/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|Cozarooni has 120 seconds left.
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Nokia
+|-supereffective|p1a: Nokia
+|-damage|p1a: Nokia|0 fnt
+|faint|p1a: Nokia
+|
+|-damage|p2a: Keldeo|51/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Swiper|Floatzel, M|100/100
+|-damage|p1a: Swiper|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Jirachi|Jirachi|92/100
+|-damage|p2a: Jirachi|86/100|[from] Stealth Rock
+|move|p1a: Swiper|Bulk Up|p1a: Swiper
+|-boost|p1a: Swiper|atk|1
+|-boost|p1a: Swiper|def|1
+|
+|-heal|p1a: Swiper|94/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Cozarooni has 120 seconds left.
+|
+|move|p1a: Swiper|Waterfall|p2a: Jirachi
+|-damage|p2a: Jirachi|44/100
+|move|p2a: Jirachi|Thunder|p1a: Swiper
+|-supereffective|p1a: Swiper
+|-crit|p1a: Swiper
+|-damage|p1a: Swiper|0 fnt
+|faint|p1a: Swiper
+|
+|-heal|p2a: Jirachi|50/100|[from] item: Leftovers
+|upkeep
+|inactive|Cozarooni has 120 seconds left.
+|
+|switch|p1a: Merlin|Alakazam, M|100/100
+|turn|14
+|
+|move|p1a: Merlin|Taunt|p2a: Jirachi
+|-start|p2a: Jirachi|move: Taunt
+|move|p2a: Jirachi|Iron Head|p1a: Merlin
+|-damage|p1a: Merlin|32/100
+|
+|-heal|p2a: Jirachi|56/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Merlin|Hidden Power|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|14/100
+|move|p2a: Jirachi|Iron Head|p1a: Merlin
+|-damage|p1a: Merlin|0 fnt
+|faint|p1a: Merlin
+|
+|-heal|p2a: Jirachi|20/100|[from] item: Leftovers
+|upkeep
+|inactive|Cozarooni has 120 seconds left.
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|18
+|
+|move|p2a: Gliscor|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|55/100 brn
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Conkeldurr|43/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F, shiny|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|19
+|
+|move|p2a: Weavile|Ice Shard|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|20/100 brn
+|-damage|p2a: Weavile|66/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Drain Punch|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-crit|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-heal|p1a: Conkeldurr|43/100 brn|[from] drain|[of] p2a: Weavile
+|faint|p2a: Weavile
+|
+|-damage|p1a: Conkeldurr|30/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|51/100 tox
+|-damage|p2a: Keldeo|45/100 tox|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Keldeo
+|-damage|p2a: Keldeo|1/100 tox
+|move|p2a: Keldeo|Secret Sword|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-damage|p2a: Keldeo|0 fnt|[from] psn
+|faint|p2a: Keldeo
+|
+|win|Cozarooni
+|upkeep
+|l|☆Gh0stp3pper
+|raw|Cozarooni's rating: 1297 &rarr; <strong>1329</strong><br />(+32 for winning)
+|raw|Gh0stp3pper's rating: 1399 &rarr; <strong>1374</strong><br />(-25 for losing)

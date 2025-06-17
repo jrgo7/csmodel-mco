@@ -1,0 +1,348 @@
+|j|☆gamerno1
+|j|☆Gh0st of Perdition
+|player|p1|gamerno1|39|1500
+|player|p2|Gh0st of Perdition|lady-gen3rs|1597
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Mamoswine, F|item
+|poke|p1|Cloyster, F|item
+|poke|p1|Lucario, M|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Mew|item
+|poke|p1|Uxie|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Tornadus, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|1
+|
+|move|p2a: Tornadus|Hurricane|p1a: Mew|[miss]
+|-miss|p2a: Tornadus|p1a: Mew
+|move|p1a: Mew|Light Screen|p1a: Mew
+|-sidestart|p1: gamerno1|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Mew|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Gh0st of Perdition|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|Taunt|p2a: Politoed
+|-start|p2a: Politoed|move: Taunt
+|move|p2a: Politoed|Hydro Pump|p1a: Mew
+|-damage|p1a: Mew|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Mew|Reflect|p1a: Mew
+|-sidestart|p1: gamerno1|Reflect
+|move|p2a: Politoed|Hydro Pump|p1a: Mew
+|-damage|p1a: Mew|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|90/100|[from] item: Leftovers
+|-end|p2a: Politoed|move: Taunt
+|upkeep
+|turn|6
+|
+|switch|p2a: Starmie|Starmie, shiny|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Starmie|Thunder|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|-damage|p2a: Starmie|78/100|[from] item: Life Orb
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Mew|Mew|43/100
+|move|p2a: Starmie|Thunder|p1a: Mew
+|-damage|p1a: Mew|18/100
+|-damage|p2a: Starmie|68/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: gamerno1|move: Light Screen
+|upkeep
+|turn|9
+|
+|move|p2a: Starmie|Thunder|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-damage|p2a: Starmie|58/100|[from] item: Life Orb
+|faint|p1a: Mew
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Uxie|Uxie|100/100
+|turn|10
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Uxie
+|-crit|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|-damage|p2a: Starmie|48/100|[from] item: Life Orb
+|faint|p1a: Uxie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|11
+|
+|move|p1a: Lucario|Extreme Speed|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: gamerno1|Reflect
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Lucario|Close Combat|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|81/100|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|move|p2a: Keldeo|Secret Sword|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|78/100
+|turn|14
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Latios|Trick|p1a: Gyarados
+|-activate|p2a: Latios|move: Trick|[of] p1a: Gyarados
+|-item|p1a: Gyarados|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Gyarados|Bounce|p2a: Latios|[from]lockedmove
+|-damage|p2a: Latios|10/100
+|-status|p2a: Latios|par
+|move|p2a: Latios|Dragon Pulse|p1a: Gyarados
+|-damage|p1a: Gyarados|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Latios
+|move|p2a: Latios|Dragon Pulse|p1a: Gyarados|[miss]
+|-miss|p2a: Latios|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Gyarados|Bounce|p2a: Latios|[from]lockedmove
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Lucario|Lucario, M|81/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Lucario|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Chople Berry|[eat]
+|-enditem|p2a: Ferrothorn|Chople Berry|[weaken]
+|-damage|p2a: Ferrothorn|32/100
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|17/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Lucario|7/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Lucario
+|-resisted|p1a: Lucario
+|-crit|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|turn|21
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Mamoswine|91/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|94/100
+|-damage|p2a: Keldeo|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|73/100
+|-damage|p1a: Mamoswine|81/100|[from] item: Life Orb
+|move|p2a: Keldeo|Secret Sword|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|37/100
+|turn|23
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Gh0st of Perdition|move: Tailwind
+|move|p1a: Gyarados|Bounce|p2a: Tornadus|[from]lockedmove
+|-damage|p2a: Tornadus|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Tornadus|Tailwind||[still]
+|-fail|p2a: Tornadus
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Tornadus|Tailwind||[still]
+|-fail|p2a: Tornadus
+|move|p1a: Gyarados|Bounce|p2a: Tornadus|[from]lockedmove
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo|73/100
+|-damage|p2a: Keldeo|67/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|win|Gh0st of Perdition
+|l|☆gamerno1
+|raw|gamerno1's rating: 1478 &rarr; <strong>1464</strong><br />(-14 for losing)
+|raw|Gh0st of Perdition's rating: 1597 &rarr; <strong>1610</strong><br />(+13 for winning)

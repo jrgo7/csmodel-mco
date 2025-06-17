@@ -1,0 +1,565 @@
+|j|☆dice
+|j|☆CalamityGreed
+|player|p1|dice|red-gen7|1400
+|player|p2|CalamityGreed|acerola|1462
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Breloom, F|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Scizor, F|item
+|teampreview
+|c|☆CalamityGreed|oh wait
+|c|☆CalamityGreed|oh no
+|c|☆dice|._.
+|c|☆dice|what
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Aerosmith|Latios, M, shiny|100/100
+|turn|1
+|c|☆CalamityGreed|your dice
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Aerosmith|Dragon Pulse|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|c|☆dice|ahoy
+|
+|switch|p2a: Baby Face|Magnezone|100/100
+|-item|p2a: Baby Face|Air Balloon
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Baby Face
+|-sidestart|p2: CalamityGreed|move: Stealth Rock
+|move|p2a: Baby Face|Magnet Rise|p2a: Baby Face
+|-start|p2a: Baby Face|Magnet Rise
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Jirachi|U-turn|p2a: Baby Face
+|-resisted|p2a: Baby Face
+|-damage|p2a: Baby Face|92/100
+|-enditem|p2a: Baby Face|Air Balloon
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100|[from]move: U-turn
+|move|p2a: Baby Face|Thunderbolt|p1a: Mamoswine
+|-immune|p1a: Mamoswine
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Silver Chariot|Landorus-Therian, M|100/100
+|-damage|p2a: Silver Chariot|88/100|[from] Stealth Rock
+|-ability|p2a: Silver Chariot|Intimidate|boost
+|-unboost|p1a: Mamoswine|atk|1
+|move|p1a: Mamoswine|Superpower|p2a: Silver Chariot
+|-resisted|p2a: Silver Chariot
+|-damage|p2a: Silver Chariot|63/100
+|-unboost|p1a: Mamoswine|atk|1
+|-unboost|p1a: Mamoswine|def|1
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Silver Chariot|atk|1
+|move|p2a: Silver Chariot|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|90/100
+|
+|switch|p2a: Little Feet|Keldeo|100/100|[from]move: U-turn
+|-damage|p2a: Little Feet|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Little Feet|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Landorus|U-turn|p2a: Little Feet
+|-resisted|p2a: Little Feet
+|-damage|p2a: Little Feet|84/100
+|
+|switch|p1a: Politoed|Politoed, F|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Little Feet|Surf|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Little Feet|90/100|[from] item: Leftovers
+|-heal|p1a: Politoed|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Baby Face|Magnezone|92/100
+|-damage|p2a: Baby Face|86/100|[from] Stealth Rock
+|move|p1a: Politoed|Hypnosis|p2a: Baby Face|[miss]
+|-miss|p1a: Politoed|p2a: Baby Face
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Baby Face|Hidden Power|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-crit|p1a: Mamoswine
+|-damage|p1a: Mamoswine|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: King Crimson|Scizor, F|100/100
+|-damage|p2a: King Crimson|88/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Superpower|p2a: King Crimson
+|-damage|p2a: King Crimson|27/100
+|-unboost|p1a: Mamoswine|atk|1
+|-unboost|p1a: Mamoswine|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: King Crimson|33/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆CalamityGreed|srry
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: King Crimson|Roost|p2a: King Crimson
+|-heal|p2a: King Crimson|83/100
+|-singleturn|p2a: King Crimson|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: King Crimson|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Tentacruel|Scald|p2a: King Crimson
+|-damage|p2a: King Crimson|58/100
+|move|p2a: King Crimson|U-turn|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|84/100
+|
+|switch|p2a: Little Feet|Keldeo|90/100|[from]move: U-turn
+|-damage|p2a: Little Feet|84/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|91/100|[from] ability: Rain Dish
+|-heal|p2a: Little Feet|90/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|97/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|move|p2a: Little Feet|Substitute|p2a: Little Feet
+|-start|p2a: Little Feet|Substitute
+|-damage|p2a: Little Feet|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Little Feet|71/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Little Feet|Secret Sword|p1a: Breloom
+|-damage|p1a: Breloom|48/100 tox
+|move|p1a: Breloom|Drain Punch|p2a: Little Feet
+|-end|p2a: Little Feet|Substitute
+|-heal|p1a: Breloom|60/100 tox|[from] drain|[of] p2a: Little Feet
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Little Feet|78/100|[from] item: Leftovers
+|-heal|p1a: Breloom|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|switch|p2a: Aerosmith|Latios, M, shiny|100/100
+|-damage|p2a: Aerosmith|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Drain Punch|p2a: Aerosmith
+|-resisted|p2a: Aerosmith
+|-damage|p2a: Aerosmith|65/100
+|-heal|p1a: Breloom|84/100 tox|[from] drain|[of] p2a: Aerosmith
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Aerosmith|Draco Meteor|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Aerosmith|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|69/100
+|-unboost|p2a: Aerosmith|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Baby Face|Magnezone|86/100
+|-damage|p2a: Baby Face|80/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Baby Face
+|-resisted|p2a: Baby Face
+|-damage|p2a: Baby Face|71/100
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Baby Face|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|72/100 tox
+|move|p1a: Breloom|Drain Punch|p2a: Baby Face
+|-supereffective|p2a: Baby Face
+|-damage|p2a: Baby Face|5/100
+|-heal|p1a: Breloom|100/100 tox|[from] drain|[of] p2a: Baby Face
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Baby Face|Sunny Day|p2a: Baby Face
+|-weather|SunnyDay
+|move|p1a: Breloom|Drain Punch|p2a: Baby Face
+|-supereffective|p2a: Baby Face
+|-damage|p2a: Baby Face|0 fnt
+|faint|p2a: Baby Face
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Aerosmith|Latios, M, shiny|65/100
+|-damage|p2a: Aerosmith|53/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Aerosmith|Draco Meteor|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|switch|p2a: King Crimson|Scizor, F|58/100
+|-damage|p2a: King Crimson|46/100|[from] Stealth Rock
+|switch|p1a: Jirachi|Jirachi|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|-heal|p2a: King Crimson|52/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Jirachi|U-turn|p2a: King Crimson
+|-resisted|p2a: King Crimson
+|-damage|p2a: King Crimson|45/100
+|
+|switch|p1a: Politoed|Politoed, F|78/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: King Crimson|Roost|p2a: King Crimson
+|-heal|p2a: King Crimson|96/100
+|-singleturn|p2a: King Crimson|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|84/100|[from] item: Leftovers
+|-heal|p2a: King Crimson|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Landorus|Landorus-Therian, M|90/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: King Crimson|atk|1
+|move|p2a: King Crimson|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|78/100
+|j| Osgoode
+|
+|switch|p2a: Black Sabbath|Tyranitar, M, shiny|100/100|[from]move: U-turn
+|-damage|p2a: Black Sabbath|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Black Sabbath
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|25
+|
+|switch|p2a: Silver Chariot|Landorus-Therian, M|63/100
+|-damage|p2a: Silver Chariot|51/100|[from] Stealth Rock
+|-ability|p2a: Silver Chariot|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|U-turn|p2a: Silver Chariot
+|-resisted|p2a: Silver Chariot
+|-damage|p2a: Silver Chariot|41/100
+|
+|switch|p1a: Politoed|Politoed, F|84/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|90/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Landorus|Landorus-Therian, M|78/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Silver Chariot|atk|1
+|move|p2a: Silver Chariot|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p2a: King Crimson|Scizor, F|100/100
+|-damage|p2a: King Crimson|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: King Crimson
+|-resisted|p2a: King Crimson
+|-damage|p2a: King Crimson|77/100
+|
+|switch|p1a: Tentacruel|Tentacruel, M|97/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p2a: King Crimson|83/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Black Sabbath|Tyranitar, M, shiny|88/100
+|-damage|p2a: Black Sabbath|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Black Sabbath
+|move|p1a: Tentacruel|Scald|p2a: Black Sabbath
+|-supereffective|p2a: Black Sabbath
+|-damage|p2a: Black Sabbath|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|94/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|move|p1a: Tentacruel|Scald|p2a: Black Sabbath
+|-supereffective|p2a: Black Sabbath
+|-damage|p2a: Black Sabbath|24/100
+|move|p2a: Black Sabbath|Pursuit|p1a: Tentacruel
+|-enditem|p2a: Black Sabbath|Dark Gem|[from] gem|[move] Pursuit
+|-damage|p1a: Tentacruel|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|57/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|63/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|switch|p2a: Little Feet|Keldeo|78/100
+|-damage|p2a: Little Feet|71/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Little Feet
+|-resisted|p2a: Little Feet
+|-damage|p2a: Little Feet|59/100
+|-status|p2a: Little Feet|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Little Feet|53/100 brn|[from] Sandstorm
+|-damage|p1a: Tentacruel|57/100|[from] Sandstorm
+|-heal|p2a: Little Feet|59/100 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|63/100|[from] item: Black Sludge
+|-damage|p2a: Little Feet|47/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Little Feet|Calm Mind|p2a: Little Feet
+|-boost|p2a: Little Feet|spa|1
+|-boost|p2a: Little Feet|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Little Feet|41/100 brn|[from] Sandstorm
+|-damage|p1a: Tentacruel|57/100|[from] Sandstorm
+|-heal|p2a: Little Feet|47/100 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|63/100|[from] item: Black Sludge
+|-damage|p2a: Little Feet|35/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Little Feet|Surf|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|34/100
+|move|p1a: Tentacruel|Scald|p2a: Little Feet
+|-resisted|p2a: Little Feet
+|-damage|p2a: Little Feet|26/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Little Feet|20/100 brn|[from] Sandstorm
+|-damage|p1a: Tentacruel|28/100|[from] Sandstorm
+|-heal|p2a: Little Feet|26/100 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|34/100|[from] item: Black Sludge
+|-damage|p2a: Little Feet|14/100 brn|[from] brn
+|upkeep
+|turn|33
+|l| Osgoode
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Little Feet|Calm Mind|p2a: Little Feet
+|-boost|p2a: Little Feet|spa|1
+|-boost|p2a: Little Feet|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Little Feet|7/100 brn|[from] Sandstorm
+|-damage|p1a: Tentacruel|28/100|[from] Sandstorm
+|-heal|p2a: Little Feet|14/100 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|34/100|[from] item: Black Sludge
+|-damage|p2a: Little Feet|1/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p1a: Mamoswine|Mamoswine, M|64/100
+|move|p2a: Little Feet|Secret Sword|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Little Feet|0 fnt|[from] Sandstorm
+|faint|p2a: Little Feet
+|upkeep
+|
+|switch|p2a: Silver Chariot|Landorus-Therian, M|41/100
+|switch|p1a: Politoed|Politoed, F|90/100
+|-damage|p2a: Silver Chariot|29/100|[from] Stealth Rock
+|-ability|p2a: Silver Chariot|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|35
+|
+|switch|p1a: Landorus|Landorus-Therian, M|78/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Silver Chariot|atk|1
+|move|p2a: Silver Chariot|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|67/100
+|
+|switch|p2a: Black Sabbath|Tyranitar, M, shiny|24/100|[from]move: U-turn
+|-damage|p2a: Black Sabbath|12/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Black Sabbath
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|36
+|j| Sword8laze
+|
+|switch|p2a: King Crimson|Scizor, F|83/100
+|-damage|p2a: King Crimson|70/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: King Crimson
+|-resisted|p2a: King Crimson
+|-damage|p2a: King Crimson|59/100
+|
+|switch|p1a: Politoed|Politoed, F|90/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|96/100|[from] item: Leftovers
+|-heal|p2a: King Crimson|65/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Politoed|Scald|p2a: King Crimson
+|-damage|p2a: King Crimson|29/100
+|move|p2a: King Crimson|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|71/100
+|
+|switch|p2a: Aerosmith|Latios, M, shiny|53/100|[from]move: U-turn
+|-damage|p2a: Aerosmith|40/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|77/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Aerosmith|Surf|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|83/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Black Sabbath|Tyranitar, M, shiny|12/100
+|-damage|p2a: Black Sabbath|0 fnt|[from] Stealth Rock
+|faint|p2a: Black Sabbath
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Aerosmith|Latios, M, shiny|40/100
+|-damage|p2a: Aerosmith|28/100|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Aerosmith|Draco Meteor|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|c|☆CalamityGreed|gg
+|-message|CalamityGreed forfeited.
+|
+|win|dice
+|c|☆dice|gg
+|c|☆CalamityGreed|thank u for the game
+|c|☆dice|np u2
+|raw|dice's rating: 1400 &rarr; <strong>1424</strong><br />(+24 for winning)
+|raw|CalamityGreed's rating: 1462 &rarr; <strong>1438</strong><br />(-24 for losing)
+|l|☆dice
+|l|☆CalamityGreed
+|l| Sword8laze
+|j|☆CalamityGreed
+|player|p2|CalamityGreed|acerola
+|j| Osgoode

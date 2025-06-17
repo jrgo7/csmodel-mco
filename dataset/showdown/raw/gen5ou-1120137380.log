@@ -1,0 +1,521 @@
+|j|☆InterMilano
+|j|☆bonux972
+|player|p1|InterMilano|102|1320
+|player|p2|bonux972|boarder|1295
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Jirachi|item
+|poke|p1|Keldeo|item
+|poke|p1|Umbreon, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Thundurus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|turn|1
+|
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Umbreon
+|-damage|p1a: Umbreon|42/100
+|-unboost|p2a: Latios|spa|2
+|
+|-heal|p1a: Umbreon|48/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|55/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bisharp|atk|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Landorus
+|-damage|p1a: Landorus|22/100
+|move|p1a: Landorus|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Landorus|28/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Rotom
+|-sidestart|p1: InterMilano|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bonux972)
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|move|p2a: Seismitoad|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|99/100
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Seismitoad
+|
+|-damage|p2a: Seismitoad|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|InterMilano has 120 seconds left.
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|70/100
+|
+|-heal|p2a: Seismitoad|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|InterMilano has 120 seconds left.
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Keldeo|Secret Sword|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|73/100
+|
+|upkeep
+|turn|9
+|inactive|InterMilano has 120 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|-unboost|p2a: Latios|spa|2
+|
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|InterMilano has 120 seconds left.
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|29/100
+|
+|-heal|p1a: Jirachi|35/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Jirachi|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|86/100
+|move|p2a: Heatran|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|-heal|p2a: Heatran|92/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Landorus|Landorus-Therian, M|28/100
+|-damage|p1a: Landorus|16/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-heal|p1a: Landorus|22/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|99/100|[from] item: Leftovers
+|-damage|p1a: Landorus|16/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Landorus|Stealth Rock|p2a: Heatran
+|-sidestart|p2: bonux972|move: Stealth Rock
+|
+|-heal|p1a: Landorus|22/100 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Landorus|10/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Thundurus
+|-immune|p2a: Thundurus
+|
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|-heal|p1a: Landorus|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|0 fnt|[from] psn
+|faint|p1a: Landorus
+|upkeep
+|inactive|InterMilano has 120 seconds left.
+|
+|switch|p1a: Keldeo|Keldeo|70/100
+|-damage|p1a: Keldeo|63/100|[from] Stealth Rock
+|turn|15
+|inactive|InterMilano has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, M|82/100 brn
+|-damage|p2a: Seismitoad|76/100 brn|[from] Stealth Rock
+|move|p1a: Keldeo|Hidden Power|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|62/100 brn
+|
+|-heal|p2a: Seismitoad|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|56/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|InterMilano has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|51/100
+|
+|-heal|p2a: Seismitoad|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|49/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|26/100
+|move|p2a: Seismitoad|Scald|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|-heal|p2a: Seismitoad|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|43/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Garchomp|Outrage|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Garchomp|Outrage|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|59/100
+|move|p2a: Heatran|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-heal|p2a: Heatran|65/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|20/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Garchomp|Outrage|p2a: Heatran|[from]lockedmove
+|-activate|p2a: Heatran|move: Protect
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|-heal|p2a: Heatran|71/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|8/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Earthquake|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|78/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|0 fnt|[from] psn
+|faint|p1a: Garchomp
+|upkeep
+|inactive|InterMilano has 120 seconds left.
+|
+|switch|p1a: Keldeo|Keldeo|63/100
+|-damage|p1a: Keldeo|57/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Latios|Latios, M|73/100
+|-damage|p2a: Latios|60/100|[from] Stealth Rock
+|move|p1a: Keldeo|Hydro Pump|p2a: Latios
+|-resisted|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|82/100
+|-damage|p2a: Thundurus|57/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|28/100
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|42/100
+|-damage|p1a: Jirachi|35/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Heatran|Heatran, M|78/100
+|-damage|p2a: Heatran|65/100|[from] Stealth Rock
+|move|p1a: Jirachi|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|55/100
+|
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|-heal|p2a: Heatran|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Rotom|Rotom-Wash|99/100
+|-damage|p1a: Rotom|86/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|65/100
+|-activate|p1a: Rotom|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|67/100|[from] item: Leftovers
+|-damage|p1a: Rotom|59/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|73/100|[from] item: Leftovers
+|-damage|p1a: Rotom|53/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|28
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|20/100
+|move|p2a: Heatran|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p2a: Heatran|26/100|[from] item: Leftovers
+|-damage|p1a: Rotom|47/100 tox|[from] psn
+|-damage|p1a: Rotom|40/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|29
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|32/100|[from] item: Leftovers
+|-damage|p1a: Rotom|28/100 tox|[from] psn
+|-damage|p1a: Rotom|22/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|28/100 brn
+|-damage|p2a: Conkeldurr|22/100 brn|[from] Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-damage|p1a: Rotom|3/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|32/100
+|-damage|p2a: Heatran|20/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|26/100|[from] item: Leftovers
+|-damage|p1a: Rotom|0 fnt|[from] psn
+|faint|p1a: Rotom
+|upkeep
+|
+|switch|p1a: Umbreon|Umbreon, F|55/100
+|-damage|p1a: Umbreon|42/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Heatran|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Heatran
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Heatran|32/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|48/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|42/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p1a: Jirachi|Jirachi|42/100
+|-damage|p1a: Jirachi|35/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: Heatran|39/100|[from] item: Leftovers
+|upkeep
+|c|☆bonux972|gg
+|
+|switch|p1a: Umbreon|Umbreon, F|42/100 tox
+|-damage|p1a: Umbreon|30/100 tox|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Heatran|45/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|36/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|30/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Heatran|Magma Storm|p1a: Umbreon
+|-damage|p1a: Umbreon|2/100 tox
+|-activate|p1a: Umbreon|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Umbreon|Foul Play|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|35/100
+|
+|-heal|p1a: Umbreon|52/100 tox|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Heatran|42/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|46/100 tox|[from] psn
+|-damage|p1a: Umbreon|40/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|36
+|
+|move|p2a: Heatran|Toxic|p1a: Umbreon
+|-fail|p1a: Umbreon|tox
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Heatran|48/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|46/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|28/100 tox|[from] psn
+|-damage|p1a: Umbreon|22/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|37
+|c|☆bonux972|i win
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Umbreon|Foul Play|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p1a: Umbreon|72/100 tox|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Heatran|54/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|78/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|54/100 tox|[from] psn
+|-damage|p1a: Umbreon|47/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|38
+|c|☆bonux972|forfeit
+|
+|move|p2a: Heatran|Toxic|p1a: Umbreon
+|-fail|p1a: Umbreon|tox
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Heatran|60/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|54/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|23/100 tox|[from] psn
+|-damage|p1a: Umbreon|17/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|39
+|
+|move|p2a: Heatran|Toxic|p1a: Umbreon
+|-fail|p1a: Umbreon|tox
+|move|p1a: Umbreon|Foul Play|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|50/100
+|
+|-heal|p1a: Umbreon|67/100 tox|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Heatran|57/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|73/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|37/100 tox|[from] psn
+|-damage|p1a: Umbreon|30/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|40
+|c|☆bonux972|forza as roma
+|c|☆bonux972|forza ac milan
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Heatran|63/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|37/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|0 fnt|[from] psn
+|faint|p1a: Umbreon
+|
+|win|bonux972
+|upkeep
+|raw|InterMilano's rating: 1320 &rarr; <strong>1299</strong><br />(-21 for losing)
+|raw|bonux972's rating: 1296 &rarr; <strong>1322</strong><br />(+26 for winning)
+|c|☆InterMilano|Juve merda
+|l|☆InterMilano
+|c|☆bonux972|i like dybala and ronaldo

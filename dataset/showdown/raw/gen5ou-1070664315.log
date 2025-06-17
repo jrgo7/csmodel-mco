@@ -1,0 +1,597 @@
+|j|☆Ythaq
+|j|☆CroCoeur
+|player|p1|Ythaq|169|1343
+|player|p2|CroCoeur|blue|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Garchomp, F|item
+|poke|p1|Starmie|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Celebi|item
+|poke|p1|Salamence, F|item
+|poke|p1|Scizor, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Politoed|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|82/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Starmie|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|-damage|p1a: Starmie|72/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Ythaq|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: CroCoeur|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Garchomp
+|-sidestart|p1: Ythaq|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Garchomp
+|-sidestart|p1: Ythaq|Spikes
+|move|p1a: Garchomp|Dragon Tail|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|92/100
+|-damage|p1a: Garchomp|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|drag|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Celebi|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|66/100
+|-heal|p2a: Celebi|100/100|[from] drain|[of] p1a: Garchomp
+|move|p1a: Garchomp|Dragon Tail|p2a: Celebi
+|-damage|p2a: Celebi|79/100
+|drag|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Starmie|Starmie|72/100
+|-damage|p1a: Starmie|55/100|[from] Spikes
+|-damage|p1a: Starmie|43/100|[from] Stealth Rock
+|move|p2a: Politoed|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Politoed|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|2/100
+|move|p1a: Starmie|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|81/100
+|-sideend|p1: Ythaq|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|-sideend|p1: Ythaq|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|0 fnt|[from] item: Life Orb
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|9
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|35/100
+|-damage|p1a: Volcarona|91/100|[from] item: Life Orb
+|move|p2a: Vaporeon|Roar|p1a: Volcarona
+|drag|p1a: Garchomp|Garchomp, F|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|41/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|move|p1a: Garchomp|Dragon Tail|p2a: Vaporeon
+|-damage|p2a: Vaporeon|70/100 slp
+|drag|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Latios|Draco Meteor|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|13
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|40/100
+|
+|switch|p1a: Volcarona|Volcarona, F|91/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Jirachi|Thunder|p1a: Volcarona
+|-damage|p1a: Volcarona|60/100
+|-status|p1a: Volcarona|par
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|52/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|32/100 par
+|-start|p1a: Volcarona|confusion
+|-activate|p1a: Volcarona|confusion
+|-damage|p1a: Volcarona|23/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|59/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Jirachi|Water Pulse|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|90/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|65/100|[from] item: Leftovers
+|-heal|p1a: Celebi|96/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|40/100
+|move|p1a: Celebi|Earth Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|46/100|[from] item: Leftovers
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|92/100
+|-damage|p2a: Ferrothorn|86/100|[from] Stealth Rock
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Celebi|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|57/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Celebi
+|-sidestart|p1: Ythaq|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Ferrothorn|Spikes|p1a: Celebi
+|-sidestart|p1: Ythaq|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Politoed|Politoed, M|81/100
+|-damage|p2a: Politoed|69/100|[from] Stealth Rock
+|move|p1a: Celebi|Earth Power|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Celebi|Celebi|79/100
+|-damage|p2a: Celebi|66/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Celebi|Psychic|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|30/100
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|36/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish3
+|-start|p2a: Celebi|perish3
+|upkeep
+|turn|23
+|
+|move|p1a: Celebi|Earth Power|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|13/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|69/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish2
+|-start|p2a: Celebi|perish2
+|upkeep
+|turn|24
+|
+|move|p1a: Celebi|Psychic|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|35/100
+|-unboost|p2a: Celebi|spd|1
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|91/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish1
+|-start|p2a: Celebi|perish1
+|upkeep
+|turn|25
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|switch|p2a: Jirachi|Jirachi|46/100
+|-damage|p2a: Jirachi|40/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|46/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Salamence|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p1a: Volcarona|Volcarona, F|23/100 par
+|-damage|p1a: Volcarona|10/100 par|[from] Spikes
+|-damage|p1a: Volcarona|0 fnt|[from] Stealth Rock
+|faint|p1a: Volcarona
+|move|p2a: Latios|Draco Meteor|p1: Volcarona|[notarget]
+|-fail|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|turn|28
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|70/100
+|-damage|p2a: Ferrothorn|64/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100
+|-damage|p1a: Scizor|64/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Salamence|Salamence, F|76/100|[from]move: U-turn
+|-damage|p1a: Salamence|51/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|31/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Salamence|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|7/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Salamence|[miss]
+|-miss|p2a: Ferrothorn|p1a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|13/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Latios|Latios, M|76/100
+|-damage|p2a: Latios|64/100|[from] Stealth Rock
+|move|p1a: Salamence|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p1a: Scizor|Scizor, M|64/100
+|-damage|p1a: Scizor|52/100|[from] Spikes
+|-damage|p1a: Scizor|39/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Scizor|[miss]
+|-miss|p2a: Latios|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|j| qiyuanfan
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|13/100
+|-damage|p2a: Ferrothorn|7/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Scizor|27/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|64/100
+|-damage|p2a: Latios|51/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|70/100 slp
+|-damage|p2a: Vaporeon|58/100 slp|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|31/100 slp
+|cant|p2a: Vaporeon|slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-heal|p2a: Vaporeon|37/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Salamence|Salamence, F|51/100
+|-damage|p1a: Salamence|26/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|upkeep
+|turn|36
+|
+|move|p1a: Salamence|Outrage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|28/100
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Salamence|Outrage|p2a: Vaporeon|[from]lockedmove
+|-damage|p2a: Vaporeon|1/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|upkeep
+|turn|38
+|
+|move|p1a: Salamence|Outrage|p2a: Vaporeon|[from]lockedmove
+|-damage|p2a: Vaporeon|65/100
+|-start|p1a: Salamence|confusion|[fatigue]
+|move|p2a: Vaporeon|Scald|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|-damage|p1a: Celebi|76/100|[from] Spikes
+|turn|39
+|
+|move|p1a: Celebi|Giga Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|32/100
+|-heal|p1a: Celebi|100/100|[from] drain|[of] p2a: Vaporeon
+|move|p2a: Vaporeon|Roar|p1a: Celebi
+|drag|p1a: Scizor|Scizor, M|27/100
+|-damage|p1a: Scizor|15/100|[from] Spikes
+|-damage|p1a: Scizor|3/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|38/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Scizor|Bug Bite|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Celebi|Celebi|91/100
+|-damage|p2a: Celebi|79/100|[from] Stealth Rock
+|turn|41
+|
+|move|p2a: Celebi|Psychic|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|-damage|p1a: Celebi|76/100|[from] Spikes
+|turn|42
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|82/100|[from] item: Leftovers
+|-heal|p2a: Celebi|91/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish3
+|-start|p2a: Celebi|perish3
+|upkeep
+|turn|43
+|
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|88/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish2
+|-start|p2a: Celebi|perish2
+|upkeep
+|turn|44
+|
+|move|p1a: Celebi|Psychic|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|61/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish1
+|-start|p2a: Celebi|perish1
+|upkeep
+|turn|45
+|
+|move|p1a: Celebi|Psychic|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|63/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-start|p1a: Celebi|perish0
+|-start|p2a: Celebi|perish0
+|upkeep
+|faint|p1a: Celebi
+|faint|p2a: Celebi
+|
+|win|CroCoeur
+|raw|Ythaq's rating: 1343 &rarr; <strong>1322</strong><br />(-21 for losing)
+|raw|CroCoeur's rating: 1326 &rarr; <strong>1347</strong><br />(+21 for winning)
+|l|☆Ythaq

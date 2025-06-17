@@ -1,0 +1,406 @@
+|j|☆2020 Goals
+|j|☆lemillioon
+|player|p1|2020 Goals|265|1450
+|player|p2|lemillioon|cynthia|1348
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Xatu, F|item
+|poke|p2|Gliscor, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 2020 Goals)
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|turn|1
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Landorus|U-turn|p2a: Xatu
+|-damage|p2a: Xatu|76/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Xatu|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Tyranitar|Superpower|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|20/100
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|move|p1a: Tyranitar|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|4
+|
+|move|p2a: Jirachi|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|5
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Surf|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Latios|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Latios|85/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|79/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Jirachi|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|-damage|p2a: Jirachi|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Xatu|Xatu, F|76/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|70/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Xatu|Psychic|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|-unboost|p1a: Ferrothorn|spd|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Xatu
+|-damage|p2a: Xatu|23/100
+|-damage|p1a: Ferrothorn|54/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|17/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Latios|Latios, M|79/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|67/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|73/100|[from] Sandstorm
+|-damage|p2a: Xatu|61/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Jirachi|Jirachi|88/100
+|move|p1a: Latios|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|45/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|63/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|57/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|60/100
+|move|p2a: Jirachi|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Jirachi|32/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|57/100
+|turn|12
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Latios|Psyshock|p2a: Gastrodon
+|-damage|p2a: Gastrodon|46/100
+|-damage|p1a: Latios|47/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|41/100|[from] Sandstorm
+|-heal|p2a: Gastrodon|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Xatu|Xatu, F|61/100
+|move|p1a: Latios|Draco Meteor|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|31/100|[from] item: Life Orb
+|faint|p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|25/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|32/100
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Jirachi|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|79/100
+|
+|switch|p2a: Gastrodon|Gastrodon, M|52/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|73/100|[from] Sandstorm
+|-heal|p1a: Rotom|79/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|58/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|73/100|[from] Sandstorm
+|-heal|p1a: Rotom|79/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|switch|p2a: Jirachi|Jirachi|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|78/100
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Landorus|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|19/100 tox
+|move|p2a: Gliscor|Ice Fang|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-enditem|p1a: Landorus|Yache Berry|[eat]
+|-enditem|p1a: Landorus|Yache Berry|[weaken]
+|-damage|p1a: Landorus|51/100
+|-status|p1a: Landorus|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|32/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|switch|p1a: Latios|Latios, M|25/100
+|move|p2a: Gliscor|Ice Fang|p1a: Latios|[miss]
+|-miss|p2a: Gliscor|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|19/100|[from] Sandstorm
+|-heal|p2a: Gliscor|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Latios|Draco Meteor|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|13/100|[from] Sandstorm
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|switch|p2a: Gastrodon|Gastrodon, M|88/100 brn
+|move|p1a: Latios|Draco Meteor|p2a: Gastrodon
+|-damage|p2a: Gastrodon|17/100 brn
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|3/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|0 fnt|[from] Sandstorm
+|faint|p1a: Latios
+|-heal|p2a: Gastrodon|23/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|11/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|22
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|32/100
+|turn|23
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|51/100 frz
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|31/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|switch|p2a: Gliscor|Gliscor, M|56/100 tox
+|cant|p1a: Landorus|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|switch|p2a: Jirachi|Jirachi|32/100
+|cant|p1a: Landorus|frz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Jirachi|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|2/100 frz
+|-curestatus|p1a: Landorus|frz|[msg]
+|cant|p1a: Landorus|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p2a: Jirachi|Iron Head|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|79/100
+|turn|28
+|
+|move|p2a: Jirachi|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|move|p1a: Rotom|Hydro Pump|p2a: Jirachi|[miss]
+|-miss|p1a: Rotom|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|65/100|[from] Sandstorm
+|-heal|p1a: Rotom|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Jirachi|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|move|p1a: Rotom|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|56/100|[from] Sandstorm
+|-heal|p1a: Rotom|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|69/100 tox
+|turn|30
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|54/100
+|move|p1a: Rotom|Hydro Pump|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|win|2020 Goals
+|c|☆2020 Goals|gg
+|raw|2020 Goals's rating: 1450 &rarr; <strong>1465</strong><br />(+15 for winning)
+|raw|lemillioon's rating: 1348 &rarr; <strong>1334</strong><br />(-14 for losing)
+|l|☆lemillioon

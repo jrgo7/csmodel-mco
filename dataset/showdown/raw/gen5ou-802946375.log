@@ -1,0 +1,365 @@
+|j|☆Cry_A7X
+|j|☆refsunpersons
+|player|p1|Cry_A7X|290
+|player|p2|refsunpersons|15
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Breloom, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Latios, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Diglett, M|item
+|poke|p2|Xatu, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Toxicroak, M|item
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆refsunpersons|gl hf
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Jirachi|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|84/100
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|c|☆Cry_A7X|u2
+|
+|move|p1a: Jirachi|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|70/100
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Politoed|Hypnosis|p1a: Latios|[miss]
+|-miss|p2a: Politoed|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|41/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Jirachi|Jirachi|84/100
+|move|p2a: Jirachi|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|
+|switch|p2a: Politoed|Politoed, M|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Jirachi|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|43/100
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Latios
+|-enditem|p2a: Politoed|Water Gem|[from] gem|[move] Hydro Pump
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|40/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Diglett|Diglett, M|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Diglett
+|-enditem|p2a: Diglett|Focus Sash
+|-damage|p2a: Diglett|1/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Jirachi|Jirachi|41/100
+|move|p1a: Latios|Draco Meteor|p2a: Jirachi|[miss]
+|-miss|p1a: Latios|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Jirachi|Jirachi|67/100
+|move|p2a: Jirachi|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|51/100
+|
+|switch|p2a: Diglett|Diglett, M|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|U-turn|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|turn|10
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Breloom
+|-damage|p1a: Breloom|28/100
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|85/100|[from] Sandstorm
+|-damage|p1a: Breloom|22/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-heal|p2a: Toxicroak|94/100|[from] drain|[of] p1a: Breloom
+|-damage|p2a: Toxicroak|84/100|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|78/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|51/100
+|turn|12
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Jirachi|Iron Head|p2a: Xatu
+|-damage|p2a: Xatu|65/100
+|-damage|p1a: Jirachi|35/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|59/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Xatu|U-turn|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|93/100
+|
+|switch|p2a: Jirachi|Jirachi|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Jirachi|Flash Cannon|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|37/100
+|move|p1a: Terrakion|Close Combat|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|15
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Tornadus|Focus Blast|p1a: Tyranitar|[miss]
+|-miss|p2a: Tornadus|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|94/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Focus Sash
+|-damage|p1a: Tyranitar|1/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|18/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|switch|p2a: Politoed|Politoed, M|43/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Tyranitar|Ice Beam|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Politoed
+|-sidestart|p2: refsunpersons|move: Stealth Rock
+|move|p2a: Politoed|Hydro Pump|p1a: Tyranitar|[miss]
+|-miss|p2a: Politoed|p1a: Tyranitar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Tyranitar|Superpower|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|78/100
+|-damage|p2a: Toxicroak|72/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Tyranitar|Ice Beam|p2a: Toxicroak
+|-damage|p2a: Toxicroak|36/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|48/100|[from] ability: Dry Skin
+|upkeep
+|turn|21
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Toxicroak|48/100|[from] drain|[of] p1a: Tyranitar
+|-damage|p2a: Toxicroak|39/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|51/100|[from] ability: Dry Skin
+|upkeep
+|
+|switch|p1a: Terrakion|Terrakion|37/100
+|turn|22
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Terrakion|[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Terrakion|Substitute|p1a: Terrakion
+|-start|p1a: Terrakion|Substitute
+|-damage|p1a: Terrakion|12/100
+|-enditem|p1a: Terrakion|Salac Berry|[eat]
+|-boost|p1a: Terrakion|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|63/100|[from] ability: Dry Skin
+|upkeep
+|turn|23
+|
+|switch|p2a: Xatu|Xatu, F|59/100
+|-damage|p2a: Xatu|34/100|[from] Stealth Rock
+|move|p1a: Terrakion|Stone Edge|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-crit|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|63/100
+|-damage|p2a: Toxicroak|57/100|[from] Stealth Rock
+|turn|24
+|c|☆refsunpersons|gg wp
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|16/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-end|p1a: Terrakion|Substitute
+|-heal|p2a: Toxicroak|29/100|[from] drain|[of] p1a: Terrakion
+|-damage|p2a: Toxicroak|19/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|31/100|[from] ability: Dry Skin
+|upkeep
+|turn|25
+|c|☆refsunpersons|oh I live that
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-damage|p2a: Toxicroak|22/100|[from] item: Life Orb
+|faint|p1a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|34/100|[from] ability: Dry Skin
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|26
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|1/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Keldeo
+|-damage|p1a: Keldeo|48/100
+|-heal|p2a: Toxicroak|29/100|[from] drain|[of] p1a: Keldeo
+|-damage|p2a: Toxicroak|19/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|31/100|[from] ability: Dry Skin
+|upkeep
+|turn|27
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆refsunpersons|gg wp
+|
+|switch|p2a: Tornadus|Tornadus, M|18/100
+|-damage|p2a: Tornadus|0 fnt|[from] Stealth Rock
+|faint|p2a: Tornadus
+|
+|win|Cry_A7X
+|raw|Cry_A7X's rating: 1372 &rarr; <strong>1393</strong><br />(+21 for winning)
+|raw|refsunpersons's rating: 1390 &rarr; <strong>1369</strong><br />(-21 for losing)
+|c|☆Cry_A7X|gg

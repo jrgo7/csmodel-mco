@@ -1,0 +1,718 @@
+|j|☆Conflict
+|j|☆LTEZ No 41 st
+|player|p1|Conflict|126
+|player|p2|LTEZ No 41 st|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Victini|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Amoonguss, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Garchomp, F|item
+|teampreview
+|c|☆LTEZ No 41 st|oh
+|c|☆LTEZ No 41 st|hf
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Conflict)
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Landorus|U-turn|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Landorus|U-turn|p2a: Breloom
+|-damage|p2a: Breloom|65/100 tox
+|
+|switch|p1a: Victini|Victini|100/100|[from]move: U-turn
+|move|p2a: Breloom|Drain Punch|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|89/100
+|-heal|p2a: Breloom|72/100 tox|[from] drain|[of] p1a: Victini
+|
+|-heal|p2a: Breloom|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Victini|V-create|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-heal|p2a: Breloom|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Victini|V-create|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|28/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|
+|-heal|p2a: Tentacruel|34/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Tentacruel|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p2a: Tentacruel|40/100|[from] item: Black Sludge
+|-damage|p1a: Rotom|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|-unboost|p2a: Garchomp|spa|2
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: LTEZ No 41 st|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|95/100 tox
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|89/100 tox|[from] Sandstorm
+|-damage|p1a: Rotom|83/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Breloom|Breloom, F|97/100 tox
+|-damage|p2a: Breloom|90/100 tox|[from] Stealth Rock
+|switch|p1a: Forretress|Forretress, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|84/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|switch|p1a: Victini|Victini|89/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Politoed|Hypnosis|p1a: Amoonguss
+|-status|p1a: Amoonguss|slp|[from] move: Hypnosis
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Tentacruel|Tentacruel, M|40/100
+|-damage|p2a: Tentacruel|28/100|[from] Stealth Rock
+|switch|p1a: Tyranitar|Tyranitar, M|69/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|22/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|28/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p2a: Tentacruel|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|move|p1a: Tyranitar|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|63/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, F|91/100
+|-damage|p2a: Garchomp|85/100|[from] Stealth Rock
+|turn|14
+|j| hmftmm
+|
+|switch|p1a: Rotom|Rotom-Wash|83/100 tox
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|77/100 tox|[from] Sandstorm
+|-damage|p1a: Rotom|71/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|-damage|p2a: Garchomp|75/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|16
+|inactive|Conflict has 120 seconds left.
+|
+|move|p1a: Landorus|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|14/100
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|l| hmftmm
+|
+|switch|p2a: Breloom|Breloom, F|97/100 tox
+|-damage|p2a: Breloom|90/100 tox|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|56/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|49/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|inactive|Conflict has 120 seconds left.
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Breloom|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|78/100
+|-heal|p2a: Breloom|74/100 tox|[from] drain|[of] p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|68/100 tox|[from] Sandstorm
+|-heal|p1a: Forretress|84/100|[from] item: Leftovers
+|-heal|p2a: Breloom|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|j| hmftmm
+|
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|move|p1a: Forretress|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|52/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|46/100 tox|[from] Sandstorm
+|-heal|p1a: Forretress|91/100|[from] item: Leftovers
+|-heal|p2a: Breloom|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|move|p1a: Forretress|Spikes|p2a: Breloom
+|-sidestart|p2: LTEZ No 41 st|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|52/100 tox|[from] Sandstorm
+|-heal|p1a: Forretress|97/100|[from] item: Leftovers
+|-heal|p2a: Breloom|65/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|inactive|Conflict has 120 seconds left.
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Drain Punch|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|71/100
+|-heal|p2a: Breloom|80/100 tox|[from] drain|[of] p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|74/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|switch|p1a: Victini|Victini|89/100
+|move|p2a: Breloom|Drain Punch|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|60/100
+|-heal|p2a: Breloom|100/100 tox|[from] drain|[of] p1a: Victini
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Victini|54/100|[from] Sandstorm
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Victini|V-create|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Victini|47/100|[from] Sandstorm
+|-damage|p2a: Breloom|94/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|switch|p1a: Landorus|Landorus-Therian, M|71/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|switch|p2a: Garchomp|Garchomp, F|14/100
+|-damage|p2a: Garchomp|2/100|[from] Spikes
+|-damage|p2a: Garchomp|0 fnt|[from] Stealth Rock
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100 tox
+|-damage|p2a: Breloom|88/100 tox|[from] Spikes
+|-damage|p2a: Breloom|82/100 tox|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Landorus|U-turn|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|75/100 tox|[from] Sandstorm
+|-heal|p2a: Breloom|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|move|p1a: Landorus|U-turn|p2a: Breloom
+|-damage|p2a: Breloom|55/100 tox
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 slp|[from]move: U-turn
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|49/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|94/100 slp|[from] Sandstorm
+|-heal|p1a: Amoonguss|100/100 slp|[from] item: Black Sludge
+|-heal|p2a: Breloom|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|move|p2a: Breloom|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|71/100 slp
+|-heal|p2a: Breloom|81/100 tox|[from] drain|[of] p1a: Amoonguss
+|cant|p1a: Amoonguss|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|75/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|65/100 slp|[from] Sandstorm
+|-heal|p1a: Amoonguss|71/100 slp|[from] item: Black Sludge
+|-heal|p2a: Breloom|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|move|p2a: Breloom|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|44/100 slp
+|-heal|p2a: Breloom|100/100 tox|[from] drain|[of] p1a: Amoonguss
+|-curestatus|p1a: Amoonguss|slp|[msg]
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|29/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|22/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|38/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|44/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|35/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|29/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|38/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|44/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|-damage|p2a: Jirachi|82/100|[from] Spikes
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Jirachi
+|-immune|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|38/100|[from] Sandstorm
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|44/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|switch|p1a: Forretress|Forretress, M|97/100
+|move|p2a: Jirachi|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|92/100
+|
+|switch|p2a: Breloom|Breloom, F|41/100 tox|[from]move: U-turn
+|-damage|p2a: Breloom|29/100 tox|[from] Spikes
+|-damage|p2a: Breloom|22/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|16/100 tox|[from] Sandstorm
+|-heal|p1a: Forretress|99/100|[from] item: Leftovers
+|-heal|p2a: Breloom|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|move|p2a: Breloom|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|78/100
+|-heal|p2a: Breloom|40/100 tox|[from] drain|[of] p1a: Forretress
+|move|p1a: Forretress|Spikes|p2a: Breloom
+|-sidestart|p2: LTEZ No 41 st|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|34/100 tox|[from] Sandstorm
+|-heal|p1a: Forretress|84/100|[from] item: Leftovers
+|-heal|p2a: Breloom|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|move|p2a: Breloom|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|65/100
+|-heal|p2a: Breloom|57/100 tox|[from] drain|[of] p1a: Forretress
+|move|p1a: Forretress|Spikes|p2a: Breloom
+|-sidestart|p2: LTEZ No 41 st|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|51/100 tox|[from] Sandstorm
+|-heal|p1a: Forretress|71/100|[from] item: Leftovers
+|-heal|p2a: Breloom|63/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|
+|switch|p1a: Amoonguss|Amoonguss, F|78/100
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|57/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|71/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|78/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|35
+|
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|63/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|71/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|78/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|
+|move|p2a: Breloom|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|48/100
+|-heal|p2a: Breloom|96/100 tox|[from] drain|[of] p1a: Amoonguss
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|28/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|22/100 tox|[from] Sandstorm
+|-damage|p1a: Amoonguss|42/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|48/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|
+|move|p2a: Breloom|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|19/100
+|-heal|p2a: Breloom|54/100 tox|[from] drain|[of] p1a: Amoonguss
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|13/100|[from] Sandstorm
+|-heal|p1a: Amoonguss|19/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|88/100
+|-damage|p2a: Politoed|76/100|[from] Stealth Rock
+|-damage|p2a: Politoed|51/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|38
+|l| hmftmm
+|inactive|Conflict has 120 seconds left.
+|
+|switch|p1a: Victini|Victini|47/100
+|move|p2a: Politoed|Surf|p1a: Victini
+|-supereffective|p1a: Victini
+|-crit|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, F|52/100
+|turn|39
+|inactive|Conflict has 120 seconds left.
+|
+|move|p2a: Politoed|Surf|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|31/100
+|move|p1a: Amoonguss|Spore|p2a: Politoed
+|-status|p2a: Politoed|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|37/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+|inactive|Conflict has 120 seconds left.
+|
+|switch|p2a: Jirachi|Jirachi|88/100
+|-damage|p2a: Jirachi|63/100|[from] Spikes
+|-damage|p2a: Jirachi|57/100|[from] Stealth Rock
+|switch|p1a: Tyranitar|Tyranitar, M|63/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|63/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|57/100 tox|[from] psn
+|upkeep
+|turn|41
+|inactive|Conflict has 120 seconds left.
+|
+|switch|p1a: Forretress|Forretress, M|71/100
+|move|p2a: Jirachi|Body Slam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|65/100
+|-status|p1a: Forretress|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p1a: Forretress|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Forretress
+|-sidestart|p1: Conflict|move: Stealth Rock
+|move|p1a: Forretress|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|38/100|[from] item: Leftovers
+|-heal|p1a: Forretress|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Jirachi|Iron Head|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|70/100 par
+|cant|p1a: Forretress|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|44/100|[from] item: Leftovers
+|-heal|p1a: Forretress|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Jirachi|Iron Head|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|69/100 par
+|cant|p1a: Forretress|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|50/100|[from] item: Leftovers
+|-heal|p1a: Forretress|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Jirachi|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|70/100 par
+|
+|switch|p2a: Politoed|Politoed, F|51/100 slp|[from]move: U-turn
+|-damage|p2a: Politoed|38/100 slp|[from] Stealth Rock
+|-damage|p2a: Politoed|13/100 slp|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Forretress|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Forretress|76/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|46
+|inactive|Conflict has 120 seconds left.
+|j| hmftmm
+|
+|switch|p1a: Tyranitar|Tyranitar, M|57/100 tox
+|-damage|p1a: Tyranitar|44/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tornadus|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|70/100|[from] Sandstorm
+|upkeep
+|inactive|Conflict has 120 seconds left.
+|
+|switch|p1a: Landorus|Landorus-Therian, M|71/100
+|-damage|p1a: Landorus|58/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|turn|47
+|
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: LTEZ No 41 st|move: Tailwind
+|move|p1a: Landorus|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|51/100
+|
+|switch|p1a: Forretress|Forretress, M|76/100 par|[from]move: U-turn
+|-damage|p1a: Forretress|64/100 par|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|45/100|[from] Sandstorm
+|-heal|p1a: Forretress|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|Conflict has 120 seconds left.
+|
+|move|p2a: Tornadus|Hurricane|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|39/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, F|70/100
+|-damage|p1a: Amoonguss|58/100|[from] Stealth Rock
+|turn|49
+|
+|move|p2a: Tornadus|Hurricane|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|33/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|58/100
+|-damage|p1a: Landorus|46/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|turn|50
+|
+|move|p2a: Tornadus|Hurricane|p1a: Landorus|[miss]
+|-miss|p2a: Tornadus|p1a: Landorus
+|move|p1a: Landorus|Punishment|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p2: LTEZ No 41 st|move: Tailwind
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|50/100
+|-damage|p2a: Jirachi|44/100|[from] Stealth Rock
+|-damage|p2a: Jirachi|19/100|[from] Spikes
+|turn|51
+|
+|move|p1a: Landorus|Punishment|p2a: Jirachi
+|-damage|p2a: Jirachi|1/100
+|move|p2a: Jirachi|Body Slam|p1a: Landorus
+|-damage|p1a: Landorus|22/100
+|-status|p1a: Landorus|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|7/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p2a: Jirachi|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|LTEZ No 41 st
+|raw|Conflict's rating: 1518 &rarr; <strong>1502</strong><br />(-16 for losing)
+|raw|LTEZ No 41 st's rating: 1574 &rarr; <strong>1591</strong><br />(+17 for winning)
+|l|☆Conflict

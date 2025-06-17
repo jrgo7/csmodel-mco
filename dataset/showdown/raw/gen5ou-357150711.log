@@ -1,0 +1,277 @@
+|j|A Majestic Sausage
+|j|poltronito
+|player|p1|A Majestic Sausage|54
+|player|p2|poltronito|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|clearpoke
+|poke|p1|Tentacruel, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Conkeldurr, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Gastrodon, F|item
+|poke|p2|Moltres|item
+|poke|p2|Politoed, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Tentacruel, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Moltres|atk|1
+|-ability|p2a: Moltres|Pressure
+|turn|1
+|choice||
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Landorus|Stone Edge|p2a: Skarmory
+|-damage|p2a: Skarmory|77/100
+|
+|turn|2
+|choice||
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Skarmory|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: A Majestic Sausage|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|3
+|choice||
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Tyranitar|Stealth Rock|p2a: Politoed
+|-sidestart|p2: poltronito|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|choice||
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|turn|5
+|choice||
+|
+|move|p2a: Tentacruel|Toxic|p1a: Jellicent|[miss]
+|-miss|p2a: Tentacruel|p1a: Jellicent
+|move|p1a: Jellicent|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|85/100
+|-status|p2a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|91/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|97/100 brn|[from] item: Black Sludge
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|85/100 brn|[from] brn
+|turn|6
+|choice||
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Toxic|p1a: Magnezone
+|-immune|p1a: Magnezone|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|91/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|97/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|85/100 brn|[from] brn
+|turn|7
+|c|★poltronito|come on
+|c|★poltronito|i needed that hit
+|choice||
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Magnezone|Flash Cannon|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|69/100|[from] item: Leftovers
+|turn|8
+|choice||
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|turn|9
+|choice||
+|
+|switch|p2a: Tentacruel|Tentacruel, M|85/100 brn
+|-damage|p2a: Tentacruel|72/100 brn|[from] Stealth Rock
+|move|p1a: Jellicent|Toxic|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|78/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|85/100 brn|[from] item: Black Sludge
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|72/100 brn|[from] brn
+|turn|10
+|choice||
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Tentacruel
+|-damage|p1a: Tentacruel|87/100
+|-sideend|p2: poltronito|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|78/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|84/100 brn|[from] item: Black Sludge
+|-heal|p1a: Tentacruel|93/100|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|72/100 brn|[from] brn
+|turn|11
+|choice||
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|96/100
+|-sideend|p1: A Majestic Sausage|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|turn|12
+|choice||
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Gastrodon|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|72/100|[from] item: Leftovers
+|turn|13
+|choice||
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Gastrodon
+|-damage|p2a: Gastrodon|77/100
+|move|p2a: Gastrodon|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|38/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|44/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|83/100|[from] item: Leftovers
+|turn|14
+|choice||
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|move|p1a: Jellicent|Toxic|p2a: Moltres|[miss]
+|-miss|p1a: Jellicent|p2a: Moltres
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|50/100|[from] item: Leftovers
+|turn|15
+|choice||
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|69/100|[from] sandstorm
+|-heal|p2a: Moltres|76/100|[from] item: Leftovers
+|turn|16
+|choice||
+|
+|move|p2a: Moltres|Will-O-Wisp|p1a: Tyranitar|[miss]
+|-miss|p2a: Moltres|p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|69/100|[from] sandstorm
+|-heal|p2a: Moltres|76/100|[from] item: Leftovers
+|turn|17
+|choice||
+|
+|move|p2a: Moltres|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|move|p1a: Tyranitar|Stone Edge|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|88/100 brn|[from] brn
+|c|★poltronito|ya ofc
+|choice||
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|18
+|c|★A Majestic Sausage|its x4
+|choice||
+|
+|switch|p2a: Tentacruel|Tentacruel, M|72/100 brn
+|switch|p1a: Jellicent|Jellicent, F|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|78/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|84/100 brn|[from] item: Black Sludge
+|-heal|p1a: Jellicent|56/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|72/100 brn|[from] brn
+|turn|19
+|c|★poltronito|the toxic miss was losing 100
+|choice||
+|
+|switch|p1a: Tentacruel|Tentacruel, M|99/100
+|move|p2a: Tentacruel|Toxic|p1a: Tentacruel
+|-immune|p1a: Tentacruel|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|78/100 brn|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|84/100 brn|[from] item: Black Sludge
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|71/100 brn|[from] brn
+|turn|20
+|c|★poltronito|fukin lucky garbage
+|-message|poltronito forfeited.
+|
+|win|A Majestic Sausage
+|player|p1
+|player|p2
+|l|poltronito
+|raw|A Majestic Sausage's rating: 1332 &rarr; <strong>1354</strong><br />(+22 for winning)
+|raw|poltronito's rating: 1380 &rarr; <strong>1357</strong><br />(-23 for losing)
+|c|★A Majestic Sausage|lololol
+|c|★A Majestic Sausage|Ur shit mate
+|c|★A Majestic Sausage|you even rage quitted mate
+|c|★A Majestic Sausage|try digimon.com
+|c|★A Majestic Sausage|because you seem to be shit at pokemon

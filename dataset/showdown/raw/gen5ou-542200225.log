@@ -1,0 +1,599 @@
+|j|RECO THE BOMBER
+|j|4d61736b6f66496365
+|player|p1|RECO THE BOMBER|241
+|player|p2|4d61736b6f66496365|170
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|53114,35285,44147,22374
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Rotom-Wash|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Xatu, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Sigilyph, M, shiny|item
+|poke|p2|Roserade, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, F|item
+|poke|p2|Terrakion|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|319/319
+|switch|p2a: Roserade|Roserade, M|323/323
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Roserade|atk|1
+|turn|1
+|choice|move uturn|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|269/269
+|move|p1a: Landorus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|189/269
+|choice|switch 2|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|173/269|[from] sandstorm
+|upkeep
+|turn|2
+|choice|move stealthrock|move trick
+|
+|move|p2a: Rotom|Trick|p1a: Tyranitar
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Chople Berry|[from] move: Trick
+|move|p1a: Tyranitar|Stealth Rock|p2a: Rotom
+|-sidestart|p2: 4d61736b6f66496365|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|157/269|[from] sandstorm
+|upkeep
+|turn|3
+|choice|switch 3|move trick
+|
+|switch|p1a: Rotom|Rotom-Wash|268/268
+|move|p2a: Rotom|Trick|p1a: Rotom
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Rotom
+|-item|p1a: Rotom|Chople Berry|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|141/269|[from] sandstorm
+|-damage|p1a: Rotom|252/268|[from] sandstorm
+|-heal|p2a: Rotom|157/269|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move voltswitch|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|138/268
+|choice||switch 4
+|
+|switch|p2a: Roserade|Roserade, M|323/323
+|-damage|p2a: Roserade|283/323|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|229/323
+|choice|switch 2|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|319/319
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Roserade|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|209/323|[from] sandstorm
+|-heal|p2a: Roserade|229/323|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|move uturn|switch 3
+|
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|-damage|p2a: Hippowdon|394/420|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|341/420
+|choice|switch 5|
+|
+|switch|p1a: Xatu|Xatu, F|334/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|314/334|[from] sandstorm
+|-heal|p1a: Xatu|334/334|[from] item: Leftovers
+|-heal|p2a: Hippowdon|367/420|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move heatwave|move slackoff
+|
+|move|p1a: Xatu|Heat Wave|p2a: Hippowdon
+|-damage|p2a: Hippowdon|269/420
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|420/420
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|314/334|[from] sandstorm
+|-heal|p1a: Xatu|334/334|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move thunderwave|move icefang
+|
+|move|p1a: Xatu|Thunder Wave|p2a: Hippowdon
+|-immune|p2a: Hippowdon|[msg]
+|move|p2a: Hippowdon|Ice Fang|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|226/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|206/334|[from] sandstorm
+|-heal|p1a: Xatu|226/334|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move roost|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|157/269
+|-damage|p2a: Rotom|124/269|[from] Stealth Rock
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|334/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|108/269|[from] sandstorm
+|-damage|p1a: Xatu|314/334|[from] sandstorm
+|-heal|p2a: Rotom|124/269|[from] item: Leftovers
+|-heal|p1a: Xatu|334/334|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 2|move voltswitch
+|
+|switch|p1a: Rotom|Rotom-Wash|138/268
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|39/268
+|choice||switch 3
+|
+|switch|p2a: Roserade|Roserade, M|229/323
+|-damage|p2a: Roserade|189/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|169/323|[from] sandstorm
+|-damage|p1a: Rotom|23/268|[from] sandstorm
+|-heal|p2a: Roserade|189/323|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|move voltswitch|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|169/323|[from] sandstorm
+|-heal|p2a: Roserade|189/323|[from] item: Black Sludge
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|319/319
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Roserade|atk|1
+|turn|11
+|choice|move uturn|switch 4
+|
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|-damage|p2a: Hippowdon|394/420|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|281/420
+|choice|switch 6|
+|
+|switch|p1a: Latios|Latios, M|301/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|283/301|[from] sandstorm
+|-heal|p2a: Hippowdon|307/420|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move surf|switch 3
+|
+|switch|p2a: Rotom|Rotom-Wash|124/269
+|-damage|p2a: Rotom|91/269|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|42/269
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|265/301|[from] sandstorm
+|-damage|p2a: Rotom|26/269|[from] sandstorm
+|-heal|p2a: Rotom|42/269|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move surf|move trick
+|
+|move|p1a: Latios|Surf|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|247/301|[from] sandstorm
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Scizor|Scizor, F|341/341
+|-damage|p2a: Scizor|299/341|[from] Stealth Rock
+|turn|14
+|j|SerFaustus
+|choice|move hiddenpower|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Latios
+|-damage|p1a: Latios|46/301
+|move|p1a: Latios|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|28/301|[from] sandstorm
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|-damage|p2a: Terrakion|303/323|[from] Stealth Rock
+|turn|15
+|l|SerFaustus
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Landorus|Landorus-Therian, M|319/319
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|move|p2a: Terrakion|Stealth Rock|p1a: Landorus
+|-sidestart|p1: RECO THE BOMBER|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|choice|move earthquake|switch 4
+|
+|switch|p2a: Roserade|Roserade, M|189/323
+|-damage|p2a: Roserade|149/323|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Hippowdon|Hippowdon, F|307/420
+|-damage|p2a: Hippowdon|281/420|[from] Stealth Rock
+|turn|17
+|choice|switch 6|move slackoff
+|
+|switch|p1a: Latios|Latios, M|28/301
+|-damage|p1a: Latios|0 fnt|[from] Stealth Rock
+|faint|p1a: Latios
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|420/420
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Xatu|Xatu, F|334/334
+|-damage|p1a: Xatu|251/334|[from] Stealth Rock
+|turn|18
+|choice|move heatwave|move icefang
+|
+|move|p1a: Xatu|Heat Wave|p2a: Hippowdon
+|-damage|p2a: Hippowdon|323/420
+|move|p2a: Hippowdon|Ice Fang|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|151/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|131/334|[from] sandstorm
+|-heal|p1a: Xatu|151/334|[from] item: Leftovers
+|-heal|p2a: Hippowdon|349/420|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move roost|switch 4
+|
+|switch|p2a: Terrakion|Terrakion|303/323
+|-damage|p2a: Terrakion|283/323|[from] Stealth Rock
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|318/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|298/334|[from] sandstorm
+|-heal|p1a: Xatu|318/334|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|switch 6|move stoneedge
+|
+|switch|p1a: Landorus|Landorus-Therian, M|319/319
+|-damage|p1a: Landorus|280/319|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|move|p2a: Terrakion|Stone Edge|p1a: Landorus|[miss]
+|-miss|p2a: Terrakion|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Sigilyph|Sigilyph, M, shiny|285/285
+|move|p1a: Landorus|Earthquake|p2a: Sigilyph
+|-immune|p2a: Sigilyph|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|choice|switch 3|switch 2
+|
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|switch|p2a: Terrakion|Terrakion|283/323
+|-damage|p2a: Terrakion|263/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|choice|switch 3|move closecombat
+|
+|switch|p1a: Landorus|Landorus-Therian, M|280/319
+|-damage|p1a: Landorus|241/319|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|move|p2a: Terrakion|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|13/319
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|choice|move earthquake|move closecombat
+|
+|move|p2a: Terrakion|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Scizor|Scizor, M|343/343
+|-damage|p1a: Scizor|301/343|[from] Stealth Rock
+|turn|25
+|choice|move uturn|switch 2
+|
+|switch|p2a: Sigilyph|Sigilyph, M, shiny|285/285
+|move|p1a: Scizor|U-turn|p2a: Sigilyph
+|-damage|p2a: Sigilyph|36/285
+|choice|switch 3|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|354/404
+|-damage|p1a: Tyranitar|304/404|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|choice|move crunch|move energyball
+|
+|move|p2a: Sigilyph|Energy Ball|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|190/404
+|move|p1a: Tyranitar|Crunch|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|0 fnt
+|faint|p2a: Sigilyph
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Terrakion|Terrakion|263/323
+|-damage|p2a: Terrakion|243/323|[from] Stealth Rock
+|turn|27
+|choice|move crunch|move closecombat
+|
+|move|p2a: Terrakion|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Scizor|Scizor, M|301/343
+|-damage|p1a: Scizor|259/343|[from] Stealth Rock
+|turn|28
+|choice|move bulletpunch|move closecombat
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Hippowdon|Hippowdon, F|349/420
+|-damage|p2a: Hippowdon|323/420|[from] Stealth Rock
+|turn|29
+|choice|move bulletpunch|move icefang
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Hippowdon
+|-damage|p2a: Hippowdon|208/420
+|move|p2a: Hippowdon|Ice Fang|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|233/343
+|-status|p1a: Scizor|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|234/420|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move bulletpunch|move icefang
+|
+|cant|p1a: Scizor|frz
+|move|p2a: Hippowdon|Ice Fang|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|205/343 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|260/420|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move bulletpunch|move earthquake
+|
+|cant|p1a: Scizor|frz
+|move|p2a: Hippowdon|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|78/343 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|286/420|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|switch 6|move earthquake
+|
+|switch|p1a: Xatu|Xatu, F|318/334
+|-damage|p1a: Xatu|235/334|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Xatu
+|-immune|p1a: Xatu|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|215/334|[from] sandstorm
+|-heal|p1a: Xatu|235/334|[from] item: Leftovers
+|-heal|p2a: Hippowdon|312/420|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move heatwave|move icefang
+|
+|move|p1a: Xatu|Heat Wave|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|100/420
+|move|p2a: Hippowdon|Ice Fang|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|121/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|101/334|[from] sandstorm
+|-heal|p1a: Xatu|121/334|[from] item: Leftovers
+|-heal|p2a: Hippowdon|126/420|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move roost|move slackoff
+|
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|288/334
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|336/420
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|268/334|[from] sandstorm
+|-heal|p1a: Xatu|288/334|[from] item: Leftovers
+|-heal|p2a: Hippowdon|362/420|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move heatwave|move icefang
+|
+|move|p1a: Xatu|Heat Wave|p2a: Hippowdon
+|-damage|p2a: Hippowdon|263/420
+|move|p2a: Hippowdon|Ice Fang|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|174/334
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|154/334|[from] sandstorm
+|-heal|p1a: Xatu|174/334|[from] item: Leftovers
+|-heal|p2a: Hippowdon|289/420|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move roost|move icefang
+|
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|334/334
+|move|p2a: Hippowdon|Ice Fang|p1a: Xatu
+|-damage|p1a: Xatu|281/334
+|-status|p1a: Xatu|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|261/334 frz|[from] sandstorm
+|-heal|p1a: Xatu|281/334 frz|[from] item: Leftovers
+|-heal|p2a: Hippowdon|315/420|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move heatwave|move icefang
+|
+|cant|p1a: Xatu|frz
+|move|p2a: Hippowdon|Ice Fang|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|181/334 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|161/334 frz|[from] sandstorm
+|-heal|p1a: Xatu|181/334 frz|[from] item: Leftovers
+|-heal|p2a: Hippowdon|341/420|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move roost|move icefang
+|
+|cant|p1a: Xatu|frz
+|move|p2a: Hippowdon|Ice Fang|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|69/334 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|49/334 frz|[from] sandstorm
+|-heal|p1a: Xatu|69/334 frz|[from] item: Leftovers
+|-heal|p2a: Hippowdon|367/420|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move roost|move icefang
+|
+|cant|p1a: Xatu|frz
+|move|p2a: Hippowdon|Ice Fang|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|393/420|[from] item: Leftovers
+|upkeep
+|c|☆4d61736b6f66496365|gg man
+|c|☆RECO THE BOMBER|ofc
+|c|☆RECO THE BOMBER|do you call this gg
+|c|☆4d61736b6f66496365|yeah of course
+|c|☆RECO THE BOMBER|then fuck yourself
+|c|☆4d61736b6f66496365|you had team advantage
+|-message|RECO THE BOMBER forfeited.
+|
+|win|4d61736b6f66496365
+|player|p1
+|player|p2
+|l|RECO THE BOMBER
+|raw|RECO THE BOMBER's rating: 1471 &rarr; <strong>1448</strong><br />(-23 for losing)
+|raw|4d61736b6f66496365's rating: 1414 &rarr; <strong>1437</strong><br />(+23 for winning)

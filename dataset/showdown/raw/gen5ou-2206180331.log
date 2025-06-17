@@ -1,0 +1,238 @@
+|j|☆TheDetails
+|j|☆CalamityGreed
+|player|p1|TheDetails|170|1323
+|player|p2|CalamityGreed|burglar-gen2|1514
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Keldeo|item
+|poke|p2|Scizor, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Arm and Hammer|Terrakion, shiny|100/100
+|turn|1
+|
+|move|p2a: Arm and Hammer|Stealth Rock|p1a: Rotom
+|-sidestart|p1: TheDetails|move: Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Arm and Hammer
+|-status|p2a: Arm and Hammer|brn
+|
+|-damage|p2a: Arm and Hammer|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Arm and Hammer|Swords Dance|p2a: Arm and Hammer
+|-boost|p2a: Arm and Hammer|atk|2
+|move|p1a: Rotom|Hydro Pump|p2a: Arm and Hammer
+|-supereffective|p2a: Arm and Hammer
+|-damage|p2a: Arm and Hammer|0 fnt
+|faint|p2a: Arm and Hammer
+|
+|upkeep
+|
+|switch|p2a: The Last Sad Song|Latios, M, shiny|100/100
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: The Last Sad Song|Calm Mind|p2a: The Last Sad Song
+|-boost|p2a: The Last Sad Song|spa|1
+|-boost|p2a: The Last Sad Song|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: The Last Sad Song|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p2a: The Last Sad Song|Draco Meteor|p1a: Tyranitar
+|-enditem|p2a: The Last Sad Song|Dragon Gem|[from] gem
+|-damage|p1a: Tyranitar|4/100
+|-unboost|p2a: The Last Sad Song|spa|2
+|move|p1a: Tyranitar|Pursuit|p2a: The Last Sad Song
+|-supereffective|p2a: The Last Sad Song
+|-crit|p2a: The Last Sad Song
+|-damage|p2a: The Last Sad Song|0 fnt
+|faint|p2a: The Last Sad Song
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: King Crimson|Scizor, M|100/100
+|turn|5
+|
+|move|p2a: King Crimson|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|switch|p2a: Start//End|Politoed, F, shiny|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Start//End
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Start//End
+|-resisted|p2a: Start//End
+|-damage|p2a: Start//End|74/100
+|move|p2a: Start//End|Hydro Pump|p1a: Rotom|[miss]
+|-miss|p2a: Start//End|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Start//End|[miss]
+|-miss|p1a: Rotom|p2a: Start//End
+|move|p2a: Start//End|Hydro Pump|p1a: Rotom
+|-enditem|p2a: Start//End|Water Gem|[from] gem
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Godzilla|Thundurus-Therian, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Godzilla
+|-immune|p2a: Godzilla|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Godzilla|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p2a: King Crimson|Scizor, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: King Crimson|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|65/100
+|-damage|p2a: King Crimson|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Godzilla|Thundurus-Therian, M|100/100|[from]move: U-turn
+|move|p1a: Ferrothorn|Knock Off|p2a: Godzilla
+|-damage|p2a: Godzilla|93/100
+|-enditem|p2a: Godzilla|Expert Belt|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Godzilla|atk|1
+|move|p2a: Godzilla|Agility|p2a: Godzilla
+|-boost|p2a: Godzilla|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Godzilla|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|59/100
+|-damage|p1a: Rotom|47/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Godzilla|Thunder|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|71/100
+|-damage|p1a: Ferrothorn|65/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Godzilla|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Godzilla|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|17/100
+|-damage|p1a: Latios|5/100|[from] Stealth Rock
+|turn|17
+|c|☆CalamityGreed|gg
+|c|☆TheDetails|Gg
+|
+|move|p2a: Godzilla|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|win|CalamityGreed
+|raw|TheDetails's rating: 1323 &rarr; <strong>1313</strong><br />(-10 for losing)
+|raw|CalamityGreed's rating: 1514 &rarr; <strong>1524</strong><br />(+10 for winning)

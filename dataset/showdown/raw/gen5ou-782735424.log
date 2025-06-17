@@ -1,0 +1,194 @@
+|j|☆Bidoofy boi
+|j|☆Stonya
+|player|p1|Bidoofy boi|290
+|player|p2|Stonya|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Breloom, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Espeon, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Stealth Rock|p2a: Bron Bron
+|-sidestart|p2: Stonya|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Toxic|p2a: Bron Bron
+|-status|p2a: Bron Bron|tox
+|move|p2a: Bron Bron|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bron Bron|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Bron Bron
+|-damage|p2a: Bron Bron|90/100 tox
+|move|p2a: Bron Bron|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bron Bron|78/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|turn|4
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|-damage|p2a: D.Wade|94/100|[from] Stealth Rock
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: D.Wade|Stone Edge|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|6
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|78/100 tox
+|-damage|p2a: Bron Bron|65/100 tox|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Spore|p2a: Bron Bron
+|-fail|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/100|[from] Sandstorm
+|-damage|p2a: Bron Bron|59/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Bron Bron|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bron Bron|47/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Garchomp|Outrage|p2a: Bron Bron
+|-damage|p2a: Bron Bron|0 fnt
+|faint|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Miller|Scizor, F, shiny|100/100
+|-damage|p2a: Miller|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Miller|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Miller|76/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|94/100
+|turn|10
+|
+|move|p2a: Miller|Bullet Punch|p1a: Breloom
+|-damage|p1a: Breloom|8/100
+|move|p1a: Breloom|Spore|p2a: Miller
+|-status|p2a: Miller|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|2/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-damage|p2a: Pat Riely|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Focus Punch|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|0 fnt
+|-damage|p1a: Breloom|0 fnt|[from] item: Life Orb
+|faint|p2a: Pat Riely
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|switch|p2a: D.Wade|Terrakion|94/100
+|-damage|p2a: D.Wade|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|move|p2a: D.Wade|Stone Edge|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|13
+|
+|move|p2a: D.Wade|Stone Edge|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|Stonya
+|raw|Bidoofy boi's rating: 1347 &rarr; <strong>1325</strong><br />(-22 for losing)
+|raw|Stonya's rating: 1320 &rarr; <strong>1342</strong><br />(+22 for winning)
+|l|☆Bidoofy boi

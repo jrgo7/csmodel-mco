@@ -1,0 +1,573 @@
+|join|Ashiemore
+|join|Muff -
+|player|p1|Ashiemore|168
+|player|p2|Muff -|166
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, F
+|poke|p1|Chansey, F
+|poke|p1|Keldeo-Resolute
+|poke|p1|Scizor, M
+|poke|p1|Landorus-Therian, M
+|poke|p1|Gyarados, M
+|poke|p2|Latias, F
+|poke|p2|Terrakion
+|poke|p2|Hippowdon, M
+|poke|p2|Forretress, M
+|poke|p2|Rotom-Wash
+|poke|p2|Celebi
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|320/320
+|switch|p2a: Hippowdon|Hippowdon, M|420/420
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Hippowdon
+|-unboost|p2a: Hippowdon|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|362/420
+|
+|switch|p1a: Politoed|Politoed, F|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Hippowdon|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Ashiemore|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hippowdon|388/420|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Celebi|Celebi|403/403
+|move|p1a: Politoed|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|175/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|200/403|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Scizor|Scizor, M|344/344
+|-damage|p1a: Scizor|301/344|[from] Stealth Rock
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|402/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|403/403|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|move|p1a: Scizor|U-turn|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|276/354
+|
+|switch|p1a: Keldeo-Resolute|Keldeo-Resolute|323/323
+|-damage|p1a: Keldeo-Resolute|303/323|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|323/323|[from] item: Leftovers
+|-heal|p2a: Forretress|298/354|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Celebi|Celebi|403/403
+|move|p1a: Keldeo-Resolute|Surf|p2a: Celebi
+|-crit|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|194/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|219/403|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Keldeo-Resolute|Substitute|p1a: Keldeo-Resolute
+|-start|p1a: Keldeo-Resolute|Substitute
+|-damage|p1a: Keldeo-Resolute|243/323
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|403/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|263/323|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Keldeo-Resolute|Calm Mind|p1a: Keldeo-Resolute
+|-boost|p1a: Keldeo-Resolute|spa|1
+|-boost|p1a: Keldeo-Resolute|spd|1
+|move|p2a: Celebi|Giga Drain|p1a: Keldeo-Resolute
+|-supereffective|p1a: Keldeo-Resolute
+|-end|p1a: Keldeo-Resolute|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|283/323|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Keldeo-Resolute|Calm Mind|p1a: Keldeo-Resolute
+|-boost|p1a: Keldeo-Resolute|spa|1
+|-boost|p1a: Keldeo-Resolute|spd|1
+|move|p2a: Celebi|Giga Drain|p1a: Keldeo-Resolute
+|-supereffective|p1a: Keldeo-Resolute
+|-damage|p1a: Keldeo-Resolute|193/323
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|213/323|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Keldeo-Resolute|Substitute|p1a: Keldeo-Resolute
+|-start|p1a: Keldeo-Resolute|Substitute
+|-damage|p1a: Keldeo-Resolute|133/323
+|move|p2a: Celebi|Giga Drain|p1a: Keldeo-Resolute
+|-supereffective|p1a: Keldeo-Resolute
+|-end|p1a: Keldeo-Resolute|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|153/323|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Keldeo-Resolute|Calm Mind|p1a: Keldeo-Resolute
+|-boost|p1a: Keldeo-Resolute|spa|1
+|-boost|p1a: Keldeo-Resolute|spd|1
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|switch|p2a: Latias|Latias, F|302/302
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo-Resolute|173/323|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Latias|Psyshock|p1a: Keldeo-Resolute
+|-supereffective|p1a: Keldeo-Resolute
+|-damage|p1a: Keldeo-Resolute|0 fnt
+|-damage|p2a: Latias|272/302|[from] item: Life Orb
+|faint|p1a: Keldeo-Resolute
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Scizor|Scizor, M|301/344
+|-damage|p1a: Scizor|258/344|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Latias|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|24/344
+|-damage|p2a: Latias|242/302|[from] item: Life Orb
+|move|p1a: Scizor|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|320/320
+|-damage|p1a: Landorus-Therian|280/320|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|join|Princess Deluks917
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|303/303
+|turn|13
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|220/303
+|chat|Princess Deluks917|oh hype battle!
+|
+|switch|p1a: Chansey|Chansey, F|704/704
+|-damage|p1a: Chansey|616/704|[from] Stealth Rock
+|move|p2a: Rotom-Wash|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|463/704
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom-Wash|238/303|[from] item: Leftovers
+|turn|14
+|chat|Ashiemore|well
+|chat|Ashiemore|I can't beat muff
+|chat|Ashiemore|he/she is really good
+|
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|405/704
+|
+|switch|p2a: Forretress|Forretress, M|298/354
+|move|p1a: Chansey|Thunder Wave|p2a: Forretress
+|-status|p2a: Forretress|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|320/354 par|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Forretress
+|-damage|p2a: Forretress|220/354 par
+|move|p2a: Forretress|Spikes|p1a: Chansey
+|-sidestart|p1: Ashiemore|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|242/354 par|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Terrakion|Terrakion|323/323
+|move|p1a: Chansey|Stealth Rock|p2a: Terrakion
+|-sidestart|p2: Muff -|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p2a: Terrakion|Hidden Power|p1a: Chansey
+|-damage|p1a: Chansey|379/704
+|move|p1a: Chansey|Thunder Wave|p2a: Terrakion
+|-status|p2a: Terrakion|par
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|280/320
+|-damage|p1a: Landorus-Therian|240/320|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Terrakion
+|-unboost|p2a: Terrakion|atk|1
+|switch|p2a: Forretress|Forretress, M|242/354 par
+|-damage|p2a: Forretress|198/354 par|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|220/354 par|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|188/354 par
+|
+|switch|p1a: Chansey|Chansey, F|379/704
+|-damage|p1a: Chansey|291/704|[from] Spikes
+|-damage|p1a: Chansey|203/704|[from] Stealth Rock
+|move|p2a: Forretress|Rapid Spin|p1a: Chansey
+|-damage|p1a: Chansey|183/704
+|-sideend|p2: Muff -|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|210/354 par|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|535/704
+|move|p2a: Forretress|Spikes|p1a: Chansey
+|-sidestart|p1: Ashiemore|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|232/354 par|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Forretress
+|-damage|p2a: Forretress|132/354 par
+|move|p2a: Forretress|Spikes|p1a: Chansey
+|-sidestart|p1: Ashiemore|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|154/354 par|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Hippowdon|Hippowdon, M|388/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Chansey|Seismic Toss|p2a: Hippowdon
+|-damage|p2a: Hippowdon|288/420
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|491/704|[from] sandstorm
+|-heal|p2a: Hippowdon|314/420|[from] item: Leftovers
+|turn|23
+|
+|switch|p1a: Scizor|Scizor, M|24/344
+|-damage|p1a: Scizor|0 fnt|[from] Spikes
+|faint|p1a: Scizor
+|switch|p2a: Terrakion|Terrakion|323/323 par
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Politoed|Politoed, F|384/384
+|-damage|p1a: Politoed|288/384|[from] Spikes
+|-damage|p1a: Politoed|240/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|24
+|
+|switch|p2a: Celebi|Celebi|403/403
+|move|p1a: Politoed|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|181/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|206/403|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Celebi|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|58/384
+|-heal|p2a: Celebi|297/403|[from] drain|[of] p1a: Politoed
+|move|p1a: Politoed|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|67/403
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|92/403|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Celebi|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-heal|p2a: Celebi|121/403|[from] drain|[of] p1a: Politoed
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|146/403|[from] item: Leftovers
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|240/320
+|-damage|p1a: Landorus-Therian|200/320|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Celebi
+|-unboost|p2a: Celebi|atk|1
+|turn|27
+|
+|switch|p2a: Hippowdon|Hippowdon, M|314/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Landorus-Therian|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|254/420
+|
+|switch|p1a: Gyarados|Gyarados, M|332/332
+|-damage|p1a: Gyarados|249/332|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|229/332|[from] sandstorm
+|-heal|p2a: Hippowdon|280/420|[from] item: Leftovers
+|turn|28
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|238/303
+|move|p1a: Gyarados|Waterfall|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|178/303
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|160/303|[from] sandstorm
+|-damage|p1a: Gyarados|209/332|[from] sandstorm
+|-heal|p2a: Rotom-Wash|178/303|[from] item: Leftovers
+|turn|29
+|
+|switch|p1a: Chansey|Chansey, F|491/704
+|-damage|p1a: Chansey|315/704|[from] Spikes
+|-damage|p1a: Chansey|227/704|[from] Stealth Rock
+|move|p2a: Rotom-Wash|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|169/704
+|
+|switch|p2a: Celebi|Celebi|146/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|121/403|[from] sandstorm
+|-damage|p1a: Chansey|125/704|[from] sandstorm
+|-heal|p2a: Celebi|146/403|[from] item: Leftovers
+|turn|30
+|chat|Muff -|sorry
+|chat|Ashiemore|np
+|
+|move|p2a: Celebi|Giga Drain|p1a: Chansey
+|-damage|p1a: Chansey|62/704
+|-heal|p2a: Celebi|178/403|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Thunder Wave|p2a: Celebi
+|-status|p2a: Celebi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|18/704|[from] sandstorm
+|-damage|p2a: Celebi|153/403 par|[from] sandstorm
+|-heal|p2a: Celebi|178/403 par|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|370/704
+|move|p2a: Celebi|Giga Drain|p1a: Chansey
+|-damage|p1a: Chansey|316/704
+|-heal|p2a: Celebi|205/403 par|[from] drain|[of] p1a: Chansey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|272/704|[from] sandstorm
+|-damage|p2a: Celebi|180/403 par|[from] sandstorm
+|-heal|p2a: Celebi|205/403 par|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Celebi
+|-damage|p2a: Celebi|105/403 par
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|307/403 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|228/704|[from] sandstorm
+|-damage|p2a: Celebi|282/403 par|[from] sandstorm
+|-heal|p2a: Celebi|307/403 par|[from] item: Leftovers
+|turn|33
+|
+|switch|p2a: Hippowdon|Hippowdon, M|280/420
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|580/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|536/704|[from] sandstorm
+|-heal|p2a: Hippowdon|306/420|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Hippowdon
+|-damage|p2a: Hippowdon|206/420
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|416/420
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|492/704|[from] sandstorm
+|-heal|p2a: Hippowdon|420/420|[from] item: Leftovers
+|turn|35
+|
+|move|p1a: Chansey|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: Muff -|move: Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|309/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|265/704|[from] sandstorm
+|turn|36
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|617/704
+|move|p2a: Hippowdon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|434/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|390/704|[from] sandstorm
+|turn|37
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Hippowdon
+|-damage|p2a: Hippowdon|320/420
+|move|p2a: Hippowdon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|230/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|186/704|[from] sandstorm
+|-heal|p2a: Hippowdon|346/420|[from] item: Leftovers
+|turn|38
+|
+|switch|p2a: Terrakion|Terrakion|323/323 par
+|-damage|p2a: Terrakion|303/323 par|[from] Stealth Rock
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|538/704
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|494/704|[from] sandstorm
+|turn|39
+|leave|Princess Deluks917
+|
+|switch|p1a: Gyarados|Gyarados, M|209/332
+|-damage|p1a: Gyarados|126/332|[from] Stealth Rock
+|cant|p2a: Terrakion|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|106/332|[from] sandstorm
+|turn|40
+|
+|switch|p2a: Rotom-Wash|Rotom-Wash|178/303
+|-damage|p2a: Rotom-Wash|141/303|[from] Stealth Rock
+|move|p1a: Gyarados|Waterfall|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|80/303
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|62/303|[from] sandstorm
+|-damage|p1a: Gyarados|86/332|[from] sandstorm
+|-heal|p2a: Rotom-Wash|80/303|[from] item: Leftovers
+|turn|41
+|
+|move|p2a: Rotom-Wash|Will-O-Wisp|p1a: Gyarados
+|-status|p1a: Gyarados|brn
+|-enditem|p1a: Gyarados|Lum Berry|[eat]
+|-curestatus|p1a: Gyarados|brn
+|move|p1a: Gyarados|Waterfall|p2a: Rotom-Wash
+|-resisted|p2a: Rotom-Wash
+|-damage|p2a: Rotom-Wash|16/303
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom-Wash|0 fnt|[from] sandstorm
+|-damage|p1a: Gyarados|66/332|[from] sandstorm
+|faint|p2a: Rotom-Wash
+|
+|switch|p2a: Celebi|Celebi|307/403
+|-damage|p2a: Celebi|257/403|[from] Stealth Rock
+|turn|42
+|
+|move|p2a: Celebi|Giga Drain|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-heal|p2a: Celebi|290/403|[from] drain|[of] p1a: Gyarados
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|265/403|[from] sandstorm
+|-heal|p2a: Celebi|290/403|[from] item: Leftovers
+|
+|switch|p1a: Chansey|Chansey, F|494/704
+|-damage|p1a: Chansey|406/704|[from] Stealth Rock
+|-damage|p1a: Chansey|230/704|[from] Spikes
+|turn|43
+|
+|move|p2a: Celebi|Baton Pass|p2a: Celebi
+|
+|switch|p2a: Terrakion|Terrakion|303/323 par
+|-damage|p2a: Terrakion|283/323 par|[from] Stealth Rock
+|move|p1a: Chansey|Seismic Toss|p2a: Terrakion
+|-damage|p2a: Terrakion|183/323 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|186/704|[from] sandstorm
+|turn|44
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|538/704
+|move|p2a: Terrakion|Close Combat|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|14/704
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|0 fnt|[from] sandstorm
+|faint|p1a: Chansey
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|200/320
+|-damage|p1a: Landorus-Therian|160/320|[from] Stealth Rock
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Terrakion
+|-unboost|p2a: Terrakion|atk|1
+|turn|45
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Hippowdon|Hippowdon, M|346/420
+|-damage|p2a: Hippowdon|320/420|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|199/420
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|409/420
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|420/420|[from] item: Leftovers
+|turn|47
+|-message|Ashiemore forfeited.
+|
+|win|Muff -
+|raw|Ladder updating...
+|raw|Ashiemore's rating: 1517 &rarr; <strong>1501</strong><br />(-16 for losing)
+|raw|Muff -'s rating: 1593 &rarr; <strong>1609</strong><br />(+16 for winning)
+|leave|Ashiemore
+|player|p1
+|leave|Muff -
+|player|p2

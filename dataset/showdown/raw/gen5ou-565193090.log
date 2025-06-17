@@ -1,0 +1,315 @@
+|j|will-i-am2
+|j|Gabyy
+|player|p1|will-i-am2|160
+|player|p2|Gabyy|280
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|50114,16917,32625,62833
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Registeel|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Xatu, F|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Gengar, M|item
+|poke|p2|Haxorus, M, shiny|item
+|poke|p2|Magnezone, shiny|item
+|poke|p2|Forretress, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Keldeo-Resolute|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Slowbro|Slowbro, M|389/389
+|switch|p2a: Forretress|Forretress, M|351/351
+|turn|1
+|choice|switch 3|switch 6
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|323/323
+|switch|p1a: Xatu|Xatu, F|334/334
+|
+|upkeep
+|turn|2
+|choice|switch 3|move hiddenpower
+|
+|switch|p1a: Slowbro|Slowbro, M|389/389
+|move|p2a: Keldeo|Hidden Power|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|71/389
+|
+|-heal|p1a: Slowbro|95/389|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Hydreigon|Hydreigon, F|325/325
+|move|p2a: Keldeo|Hidden Power|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|259/325
+|
+|upkeep
+|turn|4
+|choice|move darkpulse|switch 6
+|
+|switch|p2a: Forretress|Forretress, M|351/351
+|move|p1a: Hydreigon|Dark Pulse|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|174/351
+|
+|upkeep
+|turn|5
+|choice|move darkpulse|move explosion
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|12/351
+|move|p2a: Forretress|Explosion|p1a: Hydreigon
+|-damage|p1a: Hydreigon|5/325
+|faint|p2a: Forretress
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|323/323
+|turn|6
+|choice|switch 2|move hiddenpower
+|
+|switch|p1a: Registeel|Registeel|364/364
+|move|p2a: Keldeo|Hidden Power|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|327/364
+|
+|-heal|p1a: Registeel|349/364|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Magnezone|Magnezone, shiny|311/311
+|move|p1a: Registeel|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: Gabyy|move: Stealth Rock
+|
+|-heal|p1a: Registeel|364/364|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move seismictoss|move substitute
+|
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|234/311
+|move|p1a: Registeel|Seismic Toss|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|
+|-heal|p2a: Magnezone|253/311|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move seismictoss|move chargebeam
+|
+|move|p2a: Magnezone|Charge Beam|p1a: Registeel
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|271/364
+|-boost|p2a: Magnezone|spa|1
+|move|p1a: Registeel|Seismic Toss|p2a: Magnezone
+|-damage|p2a: Magnezone|153/311
+|
+|-heal|p2a: Magnezone|172/311|[from] item: Leftovers
+|-heal|p1a: Registeel|293/364|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move seismictoss|move thunderbolt
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Registeel
+|-damage|p1a: Registeel|160/364
+|move|p1a: Registeel|Seismic Toss|p2a: Magnezone
+|-damage|p2a: Magnezone|72/311
+|
+|-heal|p2a: Magnezone|91/311|[from] item: Leftovers
+|-heal|p1a: Registeel|182/364|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move seismictoss|move thunderbolt
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Registeel
+|-damage|p1a: Registeel|43/364
+|move|p1a: Registeel|Seismic Toss|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Registeel|65/364|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|323/323
+|-damage|p2a: Keldeo|303/323|[from] Stealth Rock
+|turn|12
+|choice|move seismictoss|move scald
+|
+|move|p2a: Keldeo|Scald|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Slowbro|Slowbro, M|224/389
+|turn|13
+|choice|move psychic|move scald
+|
+|move|p2a: Keldeo|Scald|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|106/389
+|-status|p1a: Slowbro|brn
+|move|p1a: Slowbro|Psychic|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-heal|p1a: Slowbro|130/389 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|82/389 brn|[from] brn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|-damage|p2a: Dragonite|243/323|[from] Stealth Rock
+|turn|14
+|choice|switch 3|move dragondance
+|
+|switch|p1a: Xatu|Xatu, F|334/334
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|15
+|choice|move haze|move dragondance
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Xatu|Haze|p1a: Xatu
+|-clearallboost
+|
+|upkeep
+|turn|16
+|choice|move uturn|move dragondance
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Xatu|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|223/323
+|choice|switch 5|
+|
+|switch|p1a: Mamoswine|Mamoswine, M|361/361
+|
+|upkeep
+|turn|17
+|choice|move iceshard|move extremespeed
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Mamoswine
+|-damage|p1a: Mamoswine|159/361
+|move|p1a: Mamoswine|Ice Shard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Haxorus|Haxorus, M, shiny|293/293
+|-damage|p2a: Haxorus|257/293|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|18
+|choice|move iceshard|move outrage
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Gengar|Gengar, M|260/260
+|-damage|p2a: Gengar|228/260|[from] Stealth Rock
+|turn|19
+|choice|move iceshard|move shadowball
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Gengar
+|-damage|p2a: Gengar|63/260
+|move|p2a: Gengar|Shadow Ball|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Slowbro|Slowbro, M|211/389 brn
+|turn|20
+|choice|switch 2|move shadowball
+|
+|switch|p1a: Hydreigon|Hydreigon, F|5/325
+|move|p2a: Gengar|Shadow Ball|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Slowbro|Slowbro, M|340/389 brn
+|turn|21
+|choice|switch 5|move shadowball
+|
+|switch|p1a: Xatu|Xatu, F|334/334
+|move|p2a: Gengar|Shadow Ball|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Gengar|Gengar, M|261/261
+|turn|22
+|choice|move shadowball|move shadowball
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Slowbro|Slowbro, M|389/389 brn
+|turn|23
+|choice|move scald|move shadowball
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|53/389 brn
+|-unboost|p1a: Slowbro|spd|1
+|move|p1a: Slowbro|Scald|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|will-i-am2
+|c|☆will-i-am2|gg
+|raw|will-i-am2's rating: 1348 &rarr; <strong>1369</strong><br />(+21 for winning)
+|raw|Gabyy's rating: 1365 &rarr; <strong>1344</strong><br />(-21 for losing)
+|l|Gabyy

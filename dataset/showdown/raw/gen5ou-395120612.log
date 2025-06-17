@@ -1,0 +1,641 @@
+|j|SubTerraN
+|j|Jimmyo
+|player|p1|SubTerraN|89
+|player|p2|Jimmyo|161
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Staraptor, M|item
+|poke|p1|Hippowdon, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Virizion|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Salamence, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Latios, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Virizion|Virizion|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|choice||
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Latios|Psyshock|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|71/100
+|
+|-heal|p1a: Heatran|78/100|[from] item: Leftovers
+|turn|2
+|choice||
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Heatran|Toxic|p2a: Politoed
+|-status|p2a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|84/100|[from] item: Leftovers
+|-damage|p2a: Politoed|94/100 tox|[from] psn
+|turn|3
+|choice||
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Politoed|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|88/100 tox|[from] psn
+|-damage|p1a: Jellicent|94/100 tox|[from] psn
+|turn|4
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Jirachi
+|-status|p2a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Jirachi|88/100 brn|[from] brn
+|-damage|p1a: Jellicent|88/100 tox|[from] psn
+|turn|5
+|choice||
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Jirachi|Icy Wind|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|72/100
+|-unboost|p1a: Hippowdon|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|94/100 brn|[from] item: Leftovers
+|-heal|p1a: Hippowdon|78/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|82/100 brn|[from] brn
+|turn|6
+|choice||
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Latios
+|-sidestart|p2: Jimmyo|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] sandstorm
+|-heal|p1a: Hippowdon|84/100|[from] item: Leftovers
+|turn|7
+|choice||
+|
+|switch|p1a: Virizion|Virizion|100/100
+|move|p2a: Latios|Trick|p1a: Virizion
+|-activate|p2a: Latios|move: Trick|[of] p1a: Virizion
+|-item|p1a: Virizion|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Life Orb|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|89/100|[from] sandstorm
+|-damage|p1a: Virizion|94/100|[from] sandstorm
+|turn|8
+|choice||
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Latios|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|58/100
+|-enditem|p1a: Excadrill|Air Balloon
+|-damage|p2a: Latios|79/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|73/100|[from] sandstorm
+|turn|9
+|choice||
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|move|p2a: Latios|Surf|p1a: Staraptor
+|-crit|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-damage|p2a: Latios|63/100|[from] item: Life Orb
+|faint|p1a: Staraptor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|57/100|[from] sandstorm
+|c|★SubTerraN|.-.
+|c|★SubTerraN|ez
+|j|raddical
+|c|★Jimmyo|sry
+|choice||
+|
+|switch|p1a: Heatran|Heatran, M|84/100
+|turn|10
+|choice||
+|
+|move|p2a: Latios|Draco Meteor|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|37/100
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|47/100|[from] item: Life Orb
+|move|p1a: Heatran|Toxic|p2a: Latios|[miss]
+|-miss|p1a: Heatran|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|41/100|[from] sandstorm
+|-heal|p1a: Heatran|43/100|[from] item: Leftovers
+|turn|11
+|choice||
+|
+|move|p2a: Latios|Trick|p1a: Heatran
+|-activate|p2a: Latios|move: Trick|[of] p1a: Heatran
+|-item|p1a: Heatran|Life Orb|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Heatran|Hidden Power|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|23/100
+|-damage|p1a: Heatran|33/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|17/100|[from] sandstorm
+|-heal|p2a: Latios|23/100|[from] item: Leftovers
+|turn|12
+|choice||
+|
+|switch|p1a: Excadrill|Excadrill, F|58/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Latios|Surf|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|17/100|[from] sandstorm
+|-heal|p2a: Latios|23/100|[from] item: Leftovers
+|turn|13
+|choice||
+|
+|switch|p1a: Virizion|Virizion|94/100
+|move|p2a: Latios|Surf|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|17/100|[from] sandstorm
+|-damage|p1a: Virizion|80/100|[from] sandstorm
+|-heal|p2a: Latios|23/100|[from] item: Leftovers
+|turn|14
+|choice||
+|
+|move|p2a: Latios|Psyshock|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|26/100
+|move|p1a: Virizion|Hidden Power|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|20/100|[from] sandstorm
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|82/100 brn
+|-damage|p2a: Jirachi|76/100 brn|[from] Stealth Rock
+|turn|15
+|choice||
+|
+|switch|p1a: Hippowdon|Hippowdon, F|84/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|82/100 brn|[from] item: Leftovers
+|-heal|p1a: Hippowdon|90/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|69/100 brn|[from] brn
+|turn|16
+|choice||
+|
+|switch|p2a: Politoed|Politoed, M|88/100 tox
+|-damage|p2a: Politoed|76/100 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Hippowdon|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|46/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|99/100 tox|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Politoed|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Hippowdon|97/100|[from] item: Leftovers
+|-damage|p2a: Politoed|94/100 tox|[from] psn
+|turn|17
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, M|88/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|88/100 tox|[from] psn
+|turn|18
+|choice||
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: SubTerraN|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|82/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|turn|19
+|choice||
+|
+|switch|p1a: Virizion|Virizion|20/100
+|-damage|p1a: Virizion|14/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Virizion|[miss]
+|-miss|p2a: Ferrothorn|p1a: Virizion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|82/100 brn|[from] brn
+|turn|20
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|69/100 brn
+|-damage|p2a: Jirachi|63/100 brn|[from] Stealth Rock
+|move|p1a: Virizion|Focus Blast|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|21
+|choice||
+|
+|switch|p1a: Hippowdon|Hippowdon, F|97/100
+|-damage|p1a: Hippowdon|90/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Salamence|Dragon Claw|p1a: Hippowdon
+|-damage|p1a: Hippowdon|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|70/100|[from] sandstorm
+|-heal|p1a: Hippowdon|75/100|[from] item: Leftovers
+|turn|22
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|82/100 brn
+|-damage|p2a: Ferrothorn|76/100 brn|[from] Stealth Rock
+|switch|p1a: Virizion|Virizion|14/100
+|-damage|p1a: Virizion|7/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|1/100|[from] sandstorm
+|-heal|p2a: Ferrothorn|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|70/100 brn|[from] brn
+|turn|23
+|choice||
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Virizion|Focus Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Virizion|0 fnt|[from] sandstorm
+|-heal|p2a: Ferrothorn|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|63/100 brn|[from] brn
+|faint|p1a: Virizion
+|choice||
+|
+|switch|p1a: Heatran|Heatran, M|33/100
+|-damage|p1a: Heatran|21/100|[from] Stealth Rock
+|turn|24
+|choice||
+|
+|switch|p2a: Politoed|Politoed, M|94/100 tox
+|-damage|p2a: Politoed|82/100 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Heatran|Flamethrower|p2a: Politoed
+|-resisted|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|53/100 tox
+|-damage|p1a: Heatran|11/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Politoed|53/100 tox|[from] psn
+|turn|25
+|c|★SubTerraN|si ese latios no hubiera criteado
+|c|★SubTerraN|no hubiera destrozado medio team
+|choice||
+|
+|move|p1a: Heatran|Hidden Power|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: Heatran|1/100|[from] item: Life Orb
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|c|★SubTerraN|pero bueno
+|choice||
+|
+|switch|p2a: Salamence|Salamence, M|70/100
+|-damage|p2a: Salamence|45/100|[from] Stealth Rock
+|turn|26
+|choice||
+|
+|move|p2a: Salamence|Outrage|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Hippowdon|Hippowdon, F|75/100
+|-damage|p1a: Hippowdon|69/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|27
+|choice||
+|
+|move|p2a: Salamence|Outrage|p1a: Hippowdon|[from]lockedmove
+|-damage|p1a: Hippowdon|21/100
+|-start|p2a: Salamence|confusion|[fatigue]
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|39/100|[from] sandstorm
+|-heal|p1a: Hippowdon|77/100|[from] item: Leftovers
+|turn|28
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|63/100 brn
+|-damage|p2a: Ferrothorn|57/100 brn|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Ferrothorn
+|drag|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|88/100|[from] sandstorm
+|-heal|p1a: Hippowdon|84/100|[from] item: Leftovers
+|turn|29
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|57/100 brn
+|-damage|p2a: Ferrothorn|51/100 brn|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, M|82/100 tox
+|-damage|p1a: Jellicent|70/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|63/100 tox|[from] sandstorm
+|-heal|p1a: Jellicent|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|63/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|45/100 brn|[from] brn
+|turn|30
+|choice||
+|
+|move|p1a: Jellicent|Hex|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|34/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jellicent
+|-start|p1a: Jellicent|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|57/100 tox|[from] sandstorm
+|-heal|p1a: Jellicent|63/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|51/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|54/100 brn|[silent]
+|-damage|p1a: Jellicent|39/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|42/100 brn|[from] brn
+|turn|31
+|choice||
+|
+|switch|p1a: Hippowdon|Hippowdon, F|84/100
+|-damage|p1a: Hippowdon|77/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hippowdon
+|-start|p1a: Hippowdon|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|84/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|71/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|63/100 brn|[silent]
+|-damage|p2a: Ferrothorn|51/100 brn|[from] brn
+|turn|32
+|choice||
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|86/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|73/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|71/100 brn|[silent]
+|-damage|p2a: Ferrothorn|59/100 brn|[from] brn
+|turn|33
+|choice||
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hippowdon
+|-fail|p1a: Hippowdon
+|move|p1a: Hippowdon|Whirlwind|p2a: Ferrothorn
+|drag|p2a: Keldeo|Keldeo-Resolute|88/100
+|-damage|p2a: Keldeo|82/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|76/100|[from] sandstorm
+|-heal|p1a: Hippowdon|80/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|67/100|[from] Leech Seed|[of] p2a: Keldeo
+|-heal|p2a: Keldeo|92/100|[silent]
+|turn|34
+|choice||
+|
+|switch|p1a: Jellicent|Jellicent, M|39/100 tox
+|-damage|p1a: Jellicent|26/100 tox|[from] Stealth Rock
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|19/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|86/100|[from] sandstorm
+|-damage|p1a: Jellicent|12/100 tox|[from] sandstorm
+|-heal|p1a: Jellicent|19/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|12/100 tox|[from] psn
+|turn|35
+|choice||
+|
+|switch|p2a: Salamence|Salamence, M|39/100
+|-damage|p2a: Salamence|14/100|[from] Stealth Rock
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|62/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|8/100|[from] sandstorm
+|-damage|p1a: Jellicent|56/100 tox|[from] sandstorm
+|-heal|p1a: Jellicent|62/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|50/100 tox|[from] psn
+|turn|36
+|choice||
+|
+|switch|p1a: Hippowdon|Hippowdon, F|67/100
+|-damage|p1a: Hippowdon|61/100|[from] Stealth Rock
+|move|p2a: Salamence|Outrage|p1a: Hippowdon
+|-damage|p1a: Hippowdon|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|2/100|[from] sandstorm
+|-heal|p1a: Hippowdon|35/100|[from] item: Leftovers
+|turn|37
+|choice||
+|
+|move|p2a: Salamence|Outrage|p1a: Hippowdon|[from]lockedmove
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|0 fnt|[from] sandstorm
+|faint|p2a: Salamence
+|c|★Jimmyo|thank you damage rolls
+|choice||
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|86/100
+|switch|p1a: Excadrill|Excadrill, F|11/100
+|-damage|p2a: Keldeo|79/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|8/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|38
+|c|★SubTerraN|and crits
+|c|★SubTerraN|pls
+|choice||
+|
+|switch|p1a: Jellicent|Jellicent, M|50/100 tox
+|-damage|p1a: Jellicent|38/100 tox|[from] Stealth Rock
+|move|p2a: Keldeo|Surf|p1a: Jellicent
+|-heal|p1a: Jellicent|63/100 tox|[from] ability: Water Absorb|[of] p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|73/100|[from] sandstorm
+|-damage|p1a: Jellicent|56/100 tox|[from] sandstorm
+|-heal|p1a: Jellicent|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|56/100 tox|[from] psn
+|turn|39
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|59/100 brn
+|-damage|p2a: Ferrothorn|53/100 brn|[from] Stealth Rock
+|switch|p1a: Excadrill|Excadrill, F|8/100
+|-damage|p1a: Excadrill|5/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|47/100 brn|[from] brn
+|turn|40
+|choice||
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|5/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill|[miss]
+|-miss|p2a: Ferrothorn|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|11/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|0 fnt|[from] brn
+|faint|p2a: Ferrothorn
+|c|★Jimmyo|theres your hax back lol
+|choice||
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|73/100
+|-damage|p2a: Keldeo|67/100|[from] Stealth Rock
+|turn|41
+|choice||
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|61/100|[from] sandstorm
+|choice||
+|
+|switch|p1a: Jellicent|Jellicent, M|56/100 tox
+|-damage|p1a: Jellicent|44/100 tox|[from] Stealth Rock
+|turn|42
+|choice||
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|37/100 tox
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Keldeo
+|-status|p2a: Keldeo|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|55/100 brn|[from] sandstorm
+|-damage|p1a: Jellicent|30/100 tox|[from] sandstorm
+|-heal|p1a: Jellicent|37/100 tox|[from] item: Leftovers
+|-damage|p2a: Keldeo|42/100 brn|[from] brn
+|-damage|p1a: Jellicent|30/100 tox|[from] psn
+|turn|43
+|choice||
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|24/100 tox
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|74/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|36/100 brn|[from] sandstorm
+|-damage|p1a: Jellicent|67/100 tox|[from] sandstorm
+|-heal|p1a: Jellicent|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Keldeo|24/100 brn|[from] brn
+|-damage|p1a: Jellicent|61/100 tox|[from] psn
+|turn|44
+|c|★SubTerraN|bg
+|c|★SubTerraN|;)
+|choice||
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|54/100 tox
+|move|p1a: Jellicent|Hex|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|win|SubTerraN
+|player|p1
+|player|p2
+|raw|SubTerraN's rating: 1374 &rarr; <strong>1400</strong><br />(+26 for winning)
+|raw|Jimmyo's rating: 1471 &rarr; <strong>1446</strong><br />(-25 for losing)
+|l|Jimmyo

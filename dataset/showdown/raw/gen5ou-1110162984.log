@@ -1,0 +1,260 @@
+|j|☆DarkInTheStreets
+|j|☆thats so cringe
+|player|p1|DarkInTheStreets|102|1616
+|player|p2|thats so cringe|shelly-gen3|1389
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Skarmory, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Latios, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thats so cringe)
+|
+|move|p1a: Tornadus|Hurricane|p2a: Politoed
+|-damage|p2a: Politoed|44/100
+|move|p2a: Politoed|Scald|p1a: Tornadus
+|-damage|p1a: Tornadus|45/100
+|-status|p1a: Tornadus|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|50/100|[from] item: Leftovers
+|-damage|p1a: Tornadus|33/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Tornadus|Hurricane|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|56/100|[from] item: Leftovers
+|-damage|p1a: Tornadus|21/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Tornadus|Hurricane|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Tornadus|8/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|4
+|
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|49/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: DarkInTheStreets|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|55/100|[from] item: Leftovers
+|-damage|p1a: Tornadus|0 fnt|[from] brn
+|faint|p1a: Tornadus
+|upkeep
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Skarmory|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: thats so cringe|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: DarkInTheStreets|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: thats so cringe|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: DarkInTheStreets|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|76/100|[from] Spikes
+|move|p1a: Skarmory|Taunt|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|87/100
+|-sideend|p2: thats so cringe|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: thats so cringe|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Skarmory|Brave Bird|p2a: Tentacruel
+|-damage|p2a: Tentacruel|38/100
+|-damage|p1a: Skarmory|66/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|44/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|50/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p2a: Tentacruel|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|8/100
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: thats so cringe|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|57/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|63/100|[from] item: Black Sludge
+|-damage|p1a: Skarmory|0 fnt|[from] brn
+|faint|p1a: Skarmory
+|-end|p2a: Tentacruel|move: Taunt
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Tentacruel|Scald|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|69/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|84/100|[from] Spikes
+|-damage|p1a: Keldeo|78/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|53/100
+|move|p2a: Tentacruel|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-activate|p1a: Keldeo|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p1a: Keldeo|59/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Tentacruel|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Keldeo|66/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Keldeo
+|-damage|p2a: Keldeo|24/100
+|move|p2a: Keldeo|Secret Sword|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Latios|Thunder|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|-damage|p1a: Jirachi|78/100|[from] Spikes
+|turn|17
+|
+|move|p2a: Latios|Thunder|p1a: Jirachi
+|-damage|p1a: Jirachi|40/100
+|-status|p1a: Jirachi|par
+|cant|p1a: Jirachi|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|-message|DarkInTheStreets forfeited.
+|
+|win|thats so cringe
+|l|☆DarkInTheStreets
+|raw|DarkInTheStreets's rating: 1623 &rarr; <strong>1591</strong><br />(-32 for losing)
+|raw|thats so cringe's rating: 1389 &rarr; <strong>1421</strong><br />(+32 for winning)

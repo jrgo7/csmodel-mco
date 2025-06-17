@@ -1,0 +1,283 @@
+|j|Smi Letoa D
+|j|MCDTeach
+|player|p1|Smi Letoa D|207
+|teamsize|p1|6
+|player|p2|MCDTeach|#yellow
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|seed|10371,55637,48664,20016
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Politoed, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Celebi|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Smi Letoa D)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Politoed|Politoed, F|376/376
+|switch|p2a: Tentacruel|Tentacruel, M|362/362
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|choice|switch 2|move knockoff
+|
+|switch|p1a: Garchomp|Garchomp, F|411/411
+|move|p2a: Tentacruel|Knock Off|p1a: Garchomp
+|-damage|p1a: Garchomp|400/411
+|-damage|p2a: Tentacruel|317/362|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Tentacruel|257/362|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|279/362|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|301/362|[from] item: Black Sludge
+|upkeep
+|turn|2
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|381/381
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Stealth Rock|p2a: Landorus
+|-sidestart|p2: MCDTeach|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Keldeo|Keldeo|323/323
+|move|p2a: Landorus|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: Smi Letoa D|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Smi Letoa D has 135 seconds left.
+|choice|switch 5|switch 6
+|
+|switch|p1a: Toxicroak|Toxicroak, M|308/308
+|-damage|p1a: Toxicroak|289/308|[from] Stealth Rock
+|switch|p2a: Tentacruel|Tentacruel, M|301/362
+|-damage|p2a: Tentacruel|256/362|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|308/308|[from] ability: Dry Skin
+|-heal|p2a: Tentacruel|278/362|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|300/362|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|move swordsdance|switch 6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|381/381
+|-damage|p2a: Landorus|334/381|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxicroak|atk|1
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|357/381|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move icepunch|move earthquake
+|
+|move|p1a: Toxicroak|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Toxicroak|278/308|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|308/308|[from] ability: Dry Skin
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Kyurem|Kyurem|405/405
+|-damage|p2a: Kyurem|304/405|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|7
+|choice|switch 3|move earthpower
+|
+|switch|p1a: Tornadus|Tornadus, M|299/299
+|-damage|p1a: Tornadus|225/299|[from] Stealth Rock
+|move|p2a: Kyurem|Earth Power|p1a: Tornadus
+|-immune|p1a: Tornadus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|329/405|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|MCDTeach has 135 seconds left.
+|choice|move uturn|switch 5
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|move|p1a: Tornadus|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|312/404
+|choice|switch 4|
+|
+|switch|p1a: Garchomp|Garchomp, F|400/411|[from]move: U-turn
+|-damage|p1a: Garchomp|375/411|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|337/404|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|MCDTeach has 135 seconds left.
+|choice|switch 4|switch 4
+|
+|switch|p1a: Tornadus|Tornadus, M|225/299
+|-damage|p1a: Tornadus|151/299|[from] Stealth Rock
+|switch|p2a: Celebi|Celebi|367/367
+|-damage|p2a: Celebi|322/367|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|344/367|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move uturn|switch 4
+|
+|switch|p2a: Jirachi|Jirachi|337/404
+|-damage|p2a: Jirachi|312/404|[from] Stealth Rock
+|move|p1a: Tornadus|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|247/404
+|choice|switch 6|
+|
+|switch|p1a: Jirachi|Jirachi|404/404|[from]move: U-turn
+|-damage|p1a: Jirachi|379/404|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|-heal|p2a: Jirachi|272/404|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move substitute|move bodyslam
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|303/404
+|move|p2a: Jirachi|Body Slam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|328/404|[from] item: Leftovers
+|-heal|p2a: Jirachi|297/404|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move calmmind|switch 3
+|
+|switch|p2a: Politoed|Politoed, M|321/321
+|-damage|p2a: Politoed|281/321|[from] Stealth Rock
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|353/404|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move thunder|move encore
+|
+|move|p2a: Politoed|Encore|p1a: Jirachi
+|-start|p1a: Jirachi|Encore
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|378/404|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move calmmind|switch 4
+|
+|switch|p2a: Celebi|Celebi|344/367
+|-damage|p2a: Celebi|299/367|[from] Stealth Rock
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|403/404|[from] item: Leftovers
+|-heal|p2a: Celebi|321/367|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move calmmind|move earthpower
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Celebi|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|-heal|p2a: Celebi|343/367|[from] item: Leftovers
+|-end|p1a: Jirachi|Encore
+|upkeep
+|turn|16
+|choice|move flashcannon|move earthpower
+|
+|move|p1a: Jirachi|Flash Cannon|p2a: Celebi
+|-damage|p2a: Celebi|57/367
+|move|p2a: Celebi|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|79/367|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move flashcannon|switch 4
+|
+|switch|p2a: Politoed|Politoed, M|281/321
+|-damage|p2a: Politoed|241/321|[from] Stealth Rock
+|move|p1a: Jirachi|Flash Cannon|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|110/321
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|choice|move flashcannon|move hydropump
+|
+|move|p2a: Politoed|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|313/404
+|move|p1a: Jirachi|Flash Cannon|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|338/404|[from] item: Leftovers
+|upkeep
+|-message|MCDTeach forfeited.
+|
+|win|Smi Letoa D
+|l|MCDTeach
+|raw|Smi Letoa D's rating: 1399 &rarr; <strong>1421</strong><br />(+22 for winning)
+|raw|MCDTeach's rating: 1425 &rarr; <strong>1404</strong><br />(-21 for losing)

@@ -1,0 +1,386 @@
+|j|‽bad big bratt
+|j|☆doughboy
+|player|p1|bad big bratt|137
+|player|p2|doughboy|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Mamoswine, M|item
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Starmie|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bad big bratt)
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Jirachi|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|84/100
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Politoed|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Politoed
+|-sidestart|p1: bad big bratt|move: Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|8/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Garchomp|Outrage|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|31/100
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: doughboy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|38/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|25/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Thundurus
+|-immune|p1a: Thundurus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Thundurus|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|25/100 brn
+|-damage|p1a: Ferrothorn|19/100 brn|[from] Stealth Rock
+|move|p2a: Starmie|Surf|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Starmie|78/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|76/100
+|-damage|p1a: Thundurus|51/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Thundurus|Thunder|p2a: Jirachi
+|-damage|p2a: Jirachi|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|move|p1a: Thundurus|Thunder|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|30/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Breloom|Mach Punch|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|19/100
+|-damage|p2a: Breloom|20/100|[from] item: Life Orb
+|move|p1a: Thundurus|Thunder|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Dragonite|Extreme Speed|p1a: Tentacruel
+|-damage|p1a: Tentacruel|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|50/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|56/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Starmie|Starmie|78/100
+|-damage|p2a: Starmie|66/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Starmie
+|-damage|p2a: Starmie|62/100
+|-sideend|p1: bad big bratt|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|62/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|68/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Tentacruel
+|-damage|p1a: Tentacruel|64/100
+|-sideend|p2: doughboy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|-damage|p2a: Starmie|52/100|[from] item: Life Orb
+|move|p1a: Tentacruel|Scald|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|25/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|70/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|76/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Starmie|Thunderbolt|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|29/100
+|-damage|p2a: Starmie|15/100|[from] item: Life Orb
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Starmie
+|-sidestart|p2: doughboy|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|35/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|41/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-damage|p2a: Starmie|5/100|[from] item: Life Orb
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|19/100
+|turn|18
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p1a: Tornadus|Tornadus, M, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|23/100
+|turn|19
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|move|p2a: Jirachi|Iron Head|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|93/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Dragonite|Dragonite, F|76/100
+|move|p1a: Politoed|Scald|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Dragonite|Outrage|p1a: Politoed
+|-damage|p1a: Politoed|17/100
+|move|p1a: Politoed|Scald|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|34/100
+|-status|p2a: Dragonite|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|23/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|22/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Dragonite|Outrage|p1a: Politoed|[from]lockedmove
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|30/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|9/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Dragonite|Outrage|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|36/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Dragonite
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|-status|p2a: Volcarona|psn
+|-enditem|p2a: Volcarona|Lum Berry|[eat]
+|-curestatus|p2a: Volcarona|psn|[msg]
+|turn|24
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Politoed|Encore|p2a: Volcarona
+|-start|p2a: Volcarona|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|42/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Politoed|Toxic|p2a: Volcarona
+|-status|p2a: Volcarona|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|48/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|94/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Politoed|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|64/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|55/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|51/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Politoed|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|24/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|61/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|5/100 tox|[from] psn
+|-end|p2a: Volcarona|Encore
+|upkeep
+|turn|28
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Volcarona|Giga Drain|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|67/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Volcarona
+|-message|doughboy forfeited.
+|
+|win|bad big bratt
+|l|☆doughboy
+|raw|bad big bratt's rating: 1360 &rarr; <strong>1379</strong><br />(+19 for winning)
+|raw|doughboy's rating: 1348 &rarr; <strong>1329</strong><br />(-19 for losing)

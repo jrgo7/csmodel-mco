@@ -1,0 +1,253 @@
+|j|☆Jayfeetskydd
+|j|☆TheRareCandyDealer
+|player|p1|Jayfeetskydd|dawn|1484
+|player|p2|TheRareCandyDealer|dragontamer|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Latios, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Salamence, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Starmie|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Scrafty, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Hasmalum|Landorus-Therian, M|100/100
+|-ability|p2a: Hasmalum|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|1
+|
+|move|p2a: Hasmalum|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|73/100
+|
+|switch|p2a: Thugnificent|Scrafty, M|100/100|[from]move: U-turn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Thugnificent|[miss]
+|-miss|p1a: Rotom|p2a: Thugnificent
+|
+|-heal|p1a: Rotom|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Volt Switch|p2a: Thugnificent
+|-damage|p2a: Thugnificent|75/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Thugnificent|atk|1
+|move|p2a: Thugnificent|Bulk Up|p2a: Thugnificent
+|-boost|p2a: Thugnificent|atk|1
+|-boost|p2a: Thugnificent|def|1
+|
+|-heal|p2a: Thugnificent|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Landorus|U-turn|p2a: Thugnificent
+|-damage|p2a: Thugnificent|63/100
+|
+|switch|p1a: Terrakion|Terrakion|100/100|[from]move: U-turn
+|move|p2a: Thugnificent|Bulk Up|p2a: Thugnificent
+|-boost|p2a: Thugnificent|atk|1
+|-boost|p2a: Thugnificent|def|1
+|
+|-heal|p2a: Thugnificent|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Hasmalum|Landorus-Therian, M|100/100
+|-ability|p2a: Hasmalum|Intimidate|boost
+|-unboost|p1a: Terrakion|atk|1
+|move|p1a: Terrakion|Close Combat|p2a: Hasmalum
+|-resisted|p2a: Hasmalum
+|-damage|p2a: Hasmalum|65/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hasmalum|atk|1
+|move|p2a: Hasmalum|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|73/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Nigel Thornberry|Ferrothorn, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Nigel Thornberry
+|-damage|p2a: Nigel Thornberry|82/100
+|-damage|p1a: Landorus|61/100|[from] ability: Iron Barbs|[of] p2a: Nigel Thornberry
+|
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|-heal|p2a: Nigel Thornberry|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Magnezone|Hidden Power|p2a: Nigel Thornberry
+|-supereffective|p2a: Nigel Thornberry
+|-damage|p2a: Nigel Thornberry|0 fnt
+|faint|p2a: Nigel Thornberry
+|
+|upkeep
+|j| moscos
+|
+|switch|p2a: Urava|Salamence, F, shiny|100/100
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|61/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Urava|atk|1
+|move|p2a: Urava|Dragon Dance|p2a: Urava
+|-boost|p2a: Urava|atk|1
+|-boost|p2a: Urava|spe|1
+|
+|upkeep
+|turn|9
+|l| moscos
+|
+|move|p2a: Urava|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Urava|91/100|[from] item: Life Orb
+|faint|p1a: Landorus
+|-ability|p2a: Urava|Moxie|boost
+|-boost|p2a: Urava|atk|1
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|10
+|
+|move|p1a: Latios|Draco Meteor|p2a: Urava|[miss]
+|-miss|p1a: Latios|p2a: Urava
+|move|p2a: Urava|Outrage|p1a: Latios|[from]lockedmove
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Urava|81/100|[from] item: Life Orb
+|-start|p2a: Urava|confusion|[fatigue]
+|faint|p1a: Latios
+|-ability|p2a: Urava|Moxie|boost
+|-boost|p2a: Urava|atk|1
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|11
+|
+|-activate|p2a: Urava|confusion
+|move|p2a: Urava|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Urava|71/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|-ability|p2a: Urava|Moxie|boost
+|-boost|p2a: Urava|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urava|65/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|12
+|c|☆Jayfeetskydd|Lol fuck me
+|c|☆TheRareCandyDealer|I'm glad rng is finally favoring me
+|
+|-activate|p2a: Urava|confusion
+|-damage|p2a: Urava|9/100|[from] confusion
+|move|p1a: Magnezone|Volt Switch|p2a: Urava
+|-damage|p2a: Urava|0 fnt
+|faint|p2a: Urava
+|
+|switch|p1a: Terrakion|Terrakion|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Patrick Star|Starmie|100/100
+|turn|13
+|
+|switch|p1a: Rotom|Rotom-Wash|79/100
+|move|p2a: Patrick Star|Hydro Pump|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|-damage|p2a: Patrick Star|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Patrick Star|84/100|[from] Sandstorm
+|-damage|p1a: Rotom|37/100|[from] Sandstorm
+|-heal|p1a: Rotom|44/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Patrick Star|Thunderbolt|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Patrick Star|75/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Patrick Star|68/100|[from] Sandstorm
+|upkeep
+|c|☆Jayfeetskydd|Rofl
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|15
+|
+|move|p2a: Patrick Star|Hydro Pump|p1a: Magnezone
+|-damage|p1a: Magnezone|13/100
+|-damage|p2a: Patrick Star|59/100|[from] item: Life Orb
+|move|p1a: Magnezone|Volt Switch|p2a: Patrick Star
+|-supereffective|p2a: Patrick Star
+|-damage|p2a: Patrick Star|0 fnt
+|faint|p2a: Patrick Star
+|
+|switch|p1a: Terrakion|Terrakion|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hasmalum|Landorus-Therian, M|65/100
+|-ability|p2a: Hasmalum|Intimidate|boost
+|-unboost|p1a: Terrakion|atk|1
+|turn|16
+|c|☆Jayfeetskydd|Horrible
+|
+|move|p2a: Hasmalum|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|Jayfeetskydd forfeited.
+|
+|win|TheRareCandyDealer
+|l|☆Jayfeetskydd
+|raw|Jayfeetskydd's rating: 1484 &rarr; <strong>1457</strong><br />(-27 for losing)
+|raw|TheRareCandyDealer's rating: 1357 &rarr; <strong>1384</strong><br />(+27 for winning)

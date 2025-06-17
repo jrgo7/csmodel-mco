@@ -1,0 +1,700 @@
+|j|☆Hope96
+|j|☆Pilif
+|player|p1|Hope96|265
+|player|p2|Pilif|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Infernape, F|item
+|poke|p1|Breloom, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Dusclops, F|item
+|poke|p1|Bronzong|item
+|poke|p1|Reuniclus, F|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Forretress, M|item
+|teampreview
+|
+|start
+|switch|p1a: Infernape|Infernape, F|100/100
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hope96)
+|
+|move|p1a: Infernape|Fake Out|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|71/100
+|cant|p2a: Tentacruel|flinch
+|
+|-heal|p2a: Tentacruel|77/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Reuniclus
+|-sidestart|p1: Hope96|move: Toxic Spikes
+|
+|-heal|p2a: Tentacruel|83/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Reuniclus
+|-sidestart|p1: Hope96|move: Toxic Spikes
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-heal|p2a: Tentacruel|89/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Reuniclus|Psyshock|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|87/100
+|
+|-heal|p2a: Cresselia|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Reuniclus|Shadow Ball|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|44/100
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|
+|-heal|p2a: Cresselia|50/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-status|p1a: Tyranitar|tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Cresselia|Rest|p2a: Cresselia
+|-status|p2a: Cresselia|slp
+|-heal|p2a: Cresselia|100/100 slp|[silent]
+|-status|p2a: Cresselia|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|94/100 slp|[from] sandstorm
+|-heal|p2a: Cresselia|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|Pilif has 135 seconds left.
+|inactive|Hope96 has 135 seconds left.
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|78/100|[from] sandstorm
+|-heal|p2a: Umbreon|84/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|inactive|Hope96 has 135 seconds left.
+|
+|switch|p1a: Infernape|Infernape, F|100/100
+|-status|p1a: Infernape|tox
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-fail|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|94/100 tox|[from] sandstorm
+|-damage|p2a: Umbreon|78/100|[from] sandstorm
+|-heal|p2a: Umbreon|84/100|[from] item: Leftovers
+|-damage|p1a: Infernape|88/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Infernape|Stealth Rock|p2a: Umbreon
+|-sidestart|p2: Pilif|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|82/100 tox|[from] sandstorm
+|-damage|p2a: Umbreon|78/100|[from] sandstorm
+|-heal|p2a: Umbreon|84/100|[from] item: Leftovers
+|-damage|p1a: Infernape|70/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Infernape|Close Combat|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|70/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|64/100 tox|[from] sandstorm
+|-damage|p1a: Infernape|45/100 tox|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|inactive|Pilif has 135 seconds left.
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Infernape|Fire Blast|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|39/100 tox|[from] sandstorm
+|-damage|p1a: Infernape|14/100 tox|[from] psn
+|-heal|p2a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, M|89/100
+|-damage|p2a: Tentacruel|77/100|[from] Stealth Rock
+|move|p1a: Infernape|Fire Blast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|8/100 tox|[from] sandstorm
+|-damage|p2a: Tentacruel|49/100|[from] sandstorm
+|-heal|p2a: Tentacruel|55/100|[from] item: Black Sludge
+|-damage|p1a: Infernape|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Infernape
+|inactive|Hope96 has 135 seconds left.
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|-status|p1a: Reuniclus|tox
+|turn|13
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Umbreon|Umbreon, M|84/100
+|-damage|p2a: Umbreon|71/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|65/100|[from] sandstorm
+|-heal|p2a: Umbreon|71/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-status|p1a: Breloom|tox
+|move|p2a: Umbreon|Heal Bell|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Heal Bell
+|-curestatus|p2: Cresselia|slp|[msg]
+|-curestatus|p2: Gliscor|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/100 tox|[from] sandstorm
+|-damage|p2a: Umbreon|65/100|[from] sandstorm
+|-heal|p1a: Breloom|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|71/100|[from] item: Leftovers
+|-damage|p1a: Breloom|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|Pilif has 135 seconds left.
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100 tox|[from] sandstorm
+|-damage|p2a: Umbreon|65/100|[from] sandstorm
+|-heal|p1a: Breloom|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|71/100|[from] item: Leftovers
+|-damage|p1a: Breloom|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|Hope96 has 135 seconds left.
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Spore|p2a: Forretress
+|-status|p2a: Forretress|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|76/100 tox|[from] sandstorm
+|-heal|p2a: Forretress|94/100 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|63/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Breloom|Mach Punch|p2a: Forretress
+|-damage|p2a: Forretress|56/100 slp
+|cant|p2a: Forretress|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|57/100 tox|[from] sandstorm
+|-heal|p2a: Forretress|62/100 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|39/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|18
+|
+|move|p1a: Breloom|Mach Punch|p2a: Forretress
+|-damage|p2a: Forretress|27/100 slp
+|-curestatus|p2a: Forretress|slp|[msg]
+|move|p2a: Forretress|Stealth Rock|p1a: Breloom
+|-sidestart|p1: Hope96|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|33/100 tox|[from] sandstorm
+|-heal|p1a: Breloom|39/100 tox|[from] item: Leftovers
+|-heal|p2a: Forretress|33/100|[from] item: Leftovers
+|-damage|p1a: Breloom|8/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Gliscor|Gliscor, M|83/100
+|-damage|p2a: Gliscor|70/100|[from] Stealth Rock
+|move|p1a: Breloom|Mach Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|2/100 tox|[from] sandstorm
+|-heal|p1a: Breloom|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Breloom|0 fnt|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|faint|p1a: Breloom
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|22/100 tox
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Bronzong|Gyro Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|move|p1a: Bronzong|Gyro Ball|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Earthquake|p1a: Bronzong
+|-immune|p1a: Bronzong|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Bronzong|Gyro Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Bronzong|Gyro Ball|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, M|55/100
+|-damage|p2a: Tentacruel|43/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|93/100
+|-sideend|p2: Pilif|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|37/100|[from] sandstorm
+|-heal|p2a: Tentacruel|43/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p2a: Umbreon|Umbreon, M|71/100
+|move|p1a: Bronzong|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|41/100|[from] sandstorm
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Bronzong|Gyro Ball|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|41/100|[from] sandstorm
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Cresselia
+|-damage|p2a: Cresselia|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|62/100|[from] sandstorm
+|-heal|p2a: Cresselia|68/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Hope96 has 135 seconds left.
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Forretress|Forretress, M|33/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|27/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|30
+|
+|move|p2a: Forretress|Counter|p1a: Bronzong
+|-fail|p1a: Bronzong
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|34/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Bronzong|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|17/100
+|move|p2a: Forretress|Counter|p1a: Bronzong
+|-damage|p1a: Bronzong|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|23/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Bronzong|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|6/100
+|move|p2a: Forretress|Counter|p1a: Bronzong
+|-damage|p1a: Bronzong|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|12/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p2a: Cresselia|Cresselia, F|68/100
+|move|p1a: Bronzong|Earthquake|p2a: Cresselia
+|-immune|p2a: Cresselia|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|62/100|[from] sandstorm
+|-heal|p2a: Cresselia|68/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Bronzong|Gyro Ball|p2a: Cresselia
+|-damage|p2a: Cresselia|33/100
+|move|p2a: Cresselia|Rest|p2a: Cresselia
+|-status|p2a: Cresselia|slp
+|-heal|p2a: Cresselia|100/100 slp|[silent]
+|-status|p2a: Cresselia|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|94/100 slp|[from] sandstorm
+|-heal|p2a: Cresselia|100/100 slp|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|35
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bronzong|16/100|[from] hail
+|upkeep
+|turn|36
+|
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1a: Bronzong|Explosion|p2a: Abomasnow
+|-activate|p2a: Abomasnow|move: Protect
+|faint|p1a: Bronzong
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|82/100 tox
+|-damage|p1a: Tyranitar|70/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|37
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Forretress|Forretress, M|12/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|64/100 tox|[from] psn
+|upkeep
+|inactive|Pilif has 135 seconds left.
+|j| Muksu
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p2a: Umbreon|Umbreon, M|47/100
+|turn|38
+|inactive|Hope96 has 135 seconds left.
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100 tox
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-fail|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|41/100|[from] sandstorm
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Reuniclus|Shadow Ball|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|37/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|31/100|[from] sandstorm
+|-heal|p2a: Umbreon|37/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|40
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|31/100|[from] sandstorm
+|-heal|p2a: Umbreon|81/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|87/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|24/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|18/100|[from] sandstorm
+|-heal|p2a: Umbreon|24/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p1a: Dusclops|Dusclops, F|100/100
+|-damage|p1a: Dusclops|88/100|[from] Stealth Rock
+|-status|p1a: Dusclops|tox
+|-ability|p1a: Dusclops|Pressure
+|switch|p2a: Tentacruel|Tentacruel, M|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dusclops|82/100 tox|[from] sandstorm
+|-damage|p2a: Tentacruel|37/100|[from] sandstorm
+|-heal|p2a: Tentacruel|91/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Tentacruel|97/100|[from] item: Black Sludge
+|-damage|p1a: Dusclops|76/100 tox|[from] psn
+|upkeep
+|turn|43
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Umbreon|Umbreon, M|24/100
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Umbreon
+|-status|p2a: Umbreon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dusclops|70/100 tox|[from] sandstorm
+|-damage|p2a: Umbreon|18/100 brn|[from] sandstorm
+|-heal|p2a: Umbreon|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Dusclops|58/100 tox|[from] psn
+|-damage|p2a: Umbreon|11/100 brn|[from] brn
+|upkeep
+|turn|44
+|inactive|Pilif has 135 seconds left.
+|inactive|Hope96 has 135 seconds left.
+|l| Muksu
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Dusclops|Night Shade|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dusclops|52/100 tox|[from] sandstorm
+|-damage|p2a: Umbreon|5/100 brn|[from] sandstorm
+|-heal|p2a: Umbreon|11/100 brn|[from] item: Leftovers
+|-damage|p1a: Dusclops|34/100 tox|[from] psn
+|-damage|p2a: Umbreon|0 fnt|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|faint|p2a: Umbreon
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|45
+|
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dusclops|28/100 tox|[from] hail
+|-damage|p1a: Dusclops|4/100 tox|[from] psn
+|upkeep
+|turn|46
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100 slp
+|move|p1a: Dusclops|Pain Split|p2a: Cresselia
+|-sethp|p2a: Cresselia|52/100 slp|p1a: Dusclops|80/100 tox|[from] move: Pain Split
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dusclops|74/100 tox|[from] hail
+|-damage|p2a: Cresselia|46/100 slp|[from] hail
+|-heal|p2a: Cresselia|52/100 slp|[from] item: Leftovers
+|-damage|p1a: Dusclops|45/100 tox|[from] psn
+|upkeep
+|turn|47
+|inactive|Hope96 has 135 seconds left.
+|inactive|Pilif has 135 seconds left.
+|inactive|Hope96 has 120 seconds left.
+|c|☆Hope96|don't matter who will win, that's a very nice battle bro, gg
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100 tox
+|cant|p2a: Cresselia|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cresselia|46/100 slp|[from] hail
+|-heal|p2a: Cresselia|52/100 slp|[from] item: Leftovers
+|upkeep
+|turn|48
+|c|☆Pilif|yeah gg
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|move|p1a: Reuniclus|Shadow Ball|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|3/100 slp
+|cant|p2a: Cresselia|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cresselia|0 fnt|[from] hail
+|upkeep
+|faint|p2a: Cresselia
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|turn|49
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Abomasnow|[miss]
+|-miss|p1a: Reuniclus|p2a: Abomasnow
+|move|p2a: Abomasnow|Blizzard|p1a: Reuniclus
+|-damage|p1a: Reuniclus|55/100 tox
+|
+|-weather|Hail|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|50
+|
+|move|p2a: Abomasnow|Blizzard|p1a: Reuniclus
+|-damage|p1a: Reuniclus|8/100 tox
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|51
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, M|97/100
+|turn|52
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|win|Hope96
+|raw|Hope96's rating: 1394 &rarr; <strong>1415</strong><br />(+21 for winning)
+|raw|Pilif's rating: 1403 &rarr; <strong>1382</strong><br />(-21 for losing)

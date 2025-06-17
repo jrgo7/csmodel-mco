@@ -1,0 +1,921 @@
+|j|☆porrompompom
+|j|☆vega$ jone$
+|player|p1|porrompompom|2
+|player|p2|vega$ jone$|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Gothitelle, M|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Donphan, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Skarmory, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vega$ jone$)
+|
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|1
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Tornadus|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|97/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Chansey|Seismic Toss|p1a: Politoed
+|-damage|p1a: Politoed|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|vega$ jone$ has 135 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Chansey|Seismic Toss|p1a: Jirachi
+|-damage|p1a: Jirachi|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|move|p1a: Jirachi|U-turn|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|59/100
+|
+|switch|p1a: Politoed|Politoed, F|80/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Politoed|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|85/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|52/100
+|-heal|p2a: Amoonguss|100/100|[from] drain|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Amoonguss|Stun Spore|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Jirachi|Jirachi|82/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|87/100
+|
+|switch|p1a: Politoed|Politoed, F|64/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Politoed
+|-status|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|93/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Amoonguss|Giga Drain|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|99/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|37/100 par
+|-heal|p2a: Amoonguss|100/100|[from] drain|[of] p1a: Politoed
+|move|p1a: Politoed|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|91/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|67/100
+|-heal|p2a: Amoonguss|100/100|[from] drain|[of] p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Chansey|Chansey, F|97/100
+|move|p1a: Tornadus|Hurricane|p2a: Chansey
+|-damage|p2a: Chansey|59/100
+|-start|p2a: Chansey|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Jirachi|Jirachi|81/100
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|58/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Jirachi|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|88/100
+|
+|switch|p1a: Politoed|Politoed, F|43/100 par
+|move|p2a: Amoonguss|Stun Spore|p1a: Politoed|[miss]
+|-miss|p2a: Amoonguss|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|95/100 par|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Amoonguss|Stun Spore|p1a: Politoed
+|-fail|p1a: Politoed|par
+|move|p1a: Politoed|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|85/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Amoonguss|Stun Spore|p1a: Politoed
+|-fail|p1a: Politoed|par
+|move|p1a: Politoed|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|74/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|60/100 par
+|-heal|p2a: Amoonguss|92/100|[from] drain|[of] p1a: Politoed
+|move|p1a: Politoed|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|82/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Jirachi|Jirachi|93/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Jirachi|[miss]
+|-miss|p2a: Amoonguss|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Jirachi|Iron Head|p2a: Amoonguss
+|-damage|p2a: Amoonguss|67/100
+|cant|p2a: Amoonguss|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|74/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Jirachi|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|62/100
+|
+|switch|p1a: Politoed|Politoed, F|66/100 par
+|move|p2a: Amoonguss|Spore|p1a: Politoed
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|68/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|31/100 par
+|-heal|p2a: Amoonguss|87/100|[from] drain|[of] p1a: Politoed
+|move|p1a: Politoed|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|76/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Amoonguss|Stun Spore|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|82/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|97/100
+|-heal|p2a: Amoonguss|84/100|[from] drain|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|90/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Politoed|Politoed, F|43/100 par
+|move|p2a: Amoonguss|Spore|p1a: Politoed
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|96/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|94/100
+|-heal|p2a: Amoonguss|99/100|[from] drain|[of] p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p1a: Jirachi|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|88/100
+|
+|switch|p1a: Politoed|Politoed, F|49/100 par
+|move|p2a: Amoonguss|Stun Spore|p1a: Politoed
+|-fail|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Jirachi|Jirachi|99/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Jirachi|[miss]
+|-miss|p2a: Amoonguss|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|99/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|move|p1a: Jirachi|Iron Head|p2a: Amoonguss
+|-damage|p2a: Amoonguss|81/100
+|cant|p2a: Amoonguss|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|87/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|move|p1a: Jirachi|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|74/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Amoonguss|Spore|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|81/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|switch|p2a: Gothitelle|Gothitelle, M|59/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|move|p2a: Gothitelle|Trick|p1a: Jirachi
+|-activate|p2a: Gothitelle|move: Trick|[of] p1a: Jirachi
+|-item|p1a: Jirachi|Choice Scarf|[from] move: Trick
+|-item|p2a: Gothitelle|Leftovers|[from] move: Trick
+|move|p1a: Jirachi|U-turn|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|20/100
+|
+|switch|p1a: Tornadus|Tornadus, M|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gothitelle|26/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Tornadus|Hurricane|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, F|58/100
+|turn|35
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|
+|switch|p2a: Donphan|Donphan, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Donphan
+|-damage|p2a: Donphan|88/100
+|
+|switch|p1a: Politoed|Politoed, F|55/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|94/100|[from] item: Leftovers
+|-heal|p1a: Politoed|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Politoed|Scald|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|89/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Amoonguss|Spore|p1a: Jirachi
+|-message|Sleep Clause Mod activated.
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|96/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|
+|move|p1a: Jirachi|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|83/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100 slp
+|move|p2a: Amoonguss|Hidden Power|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|90/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|cant|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Jellicent|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|42
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|cant|p1a: Ferrothorn|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|43
+|
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: porrompompom|Spikes
+|-curestatus|p1a: Ferrothorn|slp|[msg]
+|move|p1a: Ferrothorn|Power Whip|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|95/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Ferrothorn|move: Taunt
+|upkeep
+|turn|44
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Tentacruel
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|45
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Tentacruel|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Chansey
+|-damage|p2a: Chansey|98/100
+|-sideend|p1: porrompompom|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|48
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Chansey|Heal Bell|p2a: Chansey
+|-activate|p2a: Chansey|move: Heal Bell
+|-curestatus|p2: Jellicent|tox|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|49
+|
+|switch|p2a: Donphan|Donphan, F|94/100
+|move|p1a: Ferrothorn|Spikes|p2a: Donphan
+|-sidestart|p2: vega$ jone$|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|99/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Donphan|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Donphan|[miss]
+|-miss|p1a: Ferrothorn|p2a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|100/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Donphan|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Donphan|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: vega$ jone$|Spikes|[from] move: Rapid Spin|[of] p2a: Donphan
+|move|p1a: Ferrothorn|Spikes|p2a: Donphan
+|-sidestart|p2: vega$ jone$|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Amoonguss
+|-sidestart|p2: vega$ jone$|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|53
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Amoonguss|Spore|p1a: Jirachi
+|-status|p1a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|54
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|switch|p2a: Donphan|Donphan, F|94/100
+|-damage|p2a: Donphan|78/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p2a: Donphan|84/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p1a: Tentacruel|Toxic|p2a: Donphan
+|-status|p2a: Donphan|tox
+|move|p2a: Donphan|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|90/100 tox|[from] item: Leftovers
+|-damage|p2a: Donphan|84/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F|67/100 par
+|-damage|p1a: Politoed|54/100 par|[from] Stealth Rock
+|turn|56
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|84/100|[from] Spikes
+|move|p1a: Politoed|Toxic|p2a: Amoonguss
+|-immune|p2a: Amoonguss|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|90/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|switch|p2a: Chansey|Chansey, F|98/100
+|-damage|p2a: Chansey|81/100|[from] Spikes
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p2a: Chansey|Heal Bell|p2a: Chansey
+|-activate|p2a: Chansey|move: Heal Bell
+|-curestatus|p2: Donphan|tox|[msg]
+|cant|p1a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Chansey|Seismic Toss|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100
+|-damage|p2a: Chansey|69/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|switch|p2a: Skarmory|Skarmory, F|95/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|83/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|90/100|[silent]
+|upkeep
+|turn|61
+|
+|switch|p1a: Tornadus|Tornadus, M|67/100
+|-damage|p1a: Tornadus|43/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Tornadus
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Skarmory|70/100|[from] Leech Seed|[of] p1a: Tornadus
+|-heal|p1a: Tornadus|56/100|[silent]
+|upkeep
+|turn|62
+|
+|move|p1a: Tornadus|Focus Blast|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, F|69/100
+|-damage|p2a: Chansey|52/100|[from] Spikes
+|turn|63
+|inactive|porrompompom has 135 seconds left.
+|inactive|porrompompom has 120 seconds left.
+|inactive|porrompompom has 105 seconds left.
+|inactive|porrompompom has 90 seconds left.
+|inactive|porrompompom has 75 seconds left.
+|inactive|porrompompom has 60 seconds left.
+|
+|move|p1a: Tornadus|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|7/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|57/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|64
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|move|p1a: Landorus|Hidden Power|p2a: Chansey
+|-damage|p2a: Chansey|94/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|move|p1a: Landorus|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|48/100
+|move|p2a: Chansey|Seismic Toss|p1a: Landorus
+|-damage|p1a: Landorus|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|80/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|inactive|vega$ jone$ has 135 seconds left.
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|84/100|[from] Spikes
+|move|p1a: Landorus|Hidden Power|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|52/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|86/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|59/100|[from] item: Black Sludge
+|upkeep
+|turn|68
+|
+|move|p1a: Landorus|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|42/100
+|
+|switch|p1a: Politoed|Politoed, F|72/100 par
+|-damage|p1a: Politoed|60/100 par|[from] Spikes
+|-damage|p1a: Politoed|48/100 par|[from] Stealth Rock
+|move|p2a: Amoonguss|Hidden Power|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|41/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|49/100|[from] item: Black Sludge
+|-heal|p1a: Politoed|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|switch|p2a: Jellicent|Jellicent, F|88/100
+|-damage|p2a: Jellicent|72/100|[from] Spikes
+|switch|p1a: Landorus|Landorus-Therian, M|86/100
+|-damage|p1a: Landorus|74/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jellicent|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|80/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|78/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: vega$ jone$|move: Stealth Rock
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|86/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|84/100|[from] item: Leftovers
+|-damage|p1a: Landorus|73/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|move|p1a: Landorus|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|79/100
+|
+|switch|p1a: Politoed|Politoed, F|47/100 par
+|-damage|p1a: Politoed|35/100 par|[from] Spikes
+|-damage|p1a: Politoed|22/100 par|[from] Stealth Rock
+|move|p2a: Jellicent|Night Shade|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|90/100
+|-damage|p1a: Ferrothorn|77/100|[from] Spikes
+|-damage|p1a: Ferrothorn|71/100|[from] Stealth Rock
+|turn|72
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Jellicent|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Jellicent
+|-start|p2a: Jellicent|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|92/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|79/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|92/100|[silent]
+|upkeep
+|turn|73
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Power Whip|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|52/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|40/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|switch|p2a: Donphan|Donphan, F|84/100
+|-damage|p2a: Donphan|78/100|[from] Stealth Rock
+|-damage|p2a: Donphan|61/100|[from] Spikes
+|switch|p1a: Tornadus|Tornadus, M|56/100
+|-damage|p1a: Tornadus|32/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|67/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|move|p2a: Donphan|Ice Shard|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|73/100|[from] item: Leftovers
+|upkeep
+|c|☆porrompompom|"g"g?
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|88/100 brn
+|-damage|p1a: Ferrothorn|76/100 brn|[from] Spikes
+|-damage|p1a: Ferrothorn|70/100 brn|[from] Stealth Rock
+|turn|76
+|c|☆vega$ jone$|It seems
+|
+|move|p2a: Donphan|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100 brn
+|-damage|p2a: Donphan|61/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: vega$ jone$|Spikes|[from] move: Rapid Spin|[of] p2a: Donphan
+|-sideend|p2: vega$ jone$|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|move|p1a: Ferrothorn|Power Whip|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Donphan|43/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|62/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|switch|p2a: Chansey|Chansey, F|48/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Chansey
+|-damage|p2a: Chansey|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|56/100 brn|[from] brn
+|upkeep
+|turn|78
+|-message|porrompompom forfeited.
+|
+|win|vega$ jone$
+|l|☆porrompompom
+|raw|porrompompom's rating: 1538 &rarr; <strong>1511</strong><br />(-27 for losing)
+|raw|vega$ jone$'s rating: 1425 &rarr; <strong>1451</strong><br />(+26 for winning)

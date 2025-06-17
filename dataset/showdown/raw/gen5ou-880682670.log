@@ -1,0 +1,238 @@
+|j|☆Nachtaron
+|j|☆refsunpersons()
+|player|p1|Nachtaron|180
+|player|p2|refsunpersons()|bruno-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Salamence, M|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Azelf|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: refsunpersons()|move: Stealth Rock
+|move|p2a: Tyranitar|Crunch|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-enditem|p1a: Azelf|Focus Sash
+|-damage|p1a: Azelf|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azelf|0 fnt|[from] Sandstorm
+|faint|p1a: Azelf
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M, shiny|100/100
+|turn|2
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|move|p1a: Garchomp|Outrage|p2a: Gliscor
+|-enditem|p1a: Garchomp|Dragon Gem|[from] gem|[move] Outrage
+|-damage|p2a: Gliscor|24/100 tox
+|move|p2a: Gliscor|Ice Fang|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Garchomp|Outrage|p2a: Gliscor|[from]lockedmove
+|-activate|p2a: Gliscor|move: Protect
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Gliscor|Ice Fang|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|move|p2a: Gliscor|Taunt|p1a: Scizor
+|-start|p1a: Scizor|move: Taunt
+|cant|p1a: Scizor|move: Taunt|Swords Dance
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|move|p2a: Gliscor|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|54/100
+|move|p1a: Scizor|Acrobatics|p2a: Gliscor
+|-enditem|p1a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p2a: Gliscor|33/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nachtaron)
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|inactive|refsunpersons() has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Salamence|Outrage|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|-heal|p2a: Excadrill|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|refsunpersons() has 120 seconds left.
+|
+|move|p1a: Salamence|Outrage|p2a: Excadrill|[from]lockedmove
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|12/100
+|move|p2a: Excadrill|Rock Slide|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|18/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|54/100
+|turn|11
+|
+|move|p2a: Excadrill|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|12
+|
+|move|p1a: Breloom|Mach Punch|p2a: Excadrill
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Mach Punch
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, F|58/100 tox
+|-damage|p2a: Gliscor|45/100 tox|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Breloom|Bullet Seed|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100|[from] Sandstorm
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|46/100
+|move|p1a: Breloom|Bullet Seed|p2a: Gliscor
+|-damage|p2a: Gliscor|43/100 tox
+|-damage|p2a: Gliscor|28/100 tox
+|-hitcount|p2a: Gliscor|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|40/100|[from] Sandstorm
+|-heal|p2a: Gliscor|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|move|p2a: Gliscor|Ice Fang|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|16
+|
+|move|p2a: Gliscor|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|cant|p1a: Dragonite|move: Taunt|Dragon Dance
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|-message|Nachtaron forfeited.
+|
+|win|refsunpersons()
+|l|☆Nachtaron
+|raw|Nachtaron's rating: 1428 &rarr; <strong>1404</strong><br />(-24 for losing)
+|raw|refsunpersons()'s rating: 1361 &rarr; <strong>1385</strong><br />(+24 for winning)
+|c|☆refsunpersons()|gg wp

@@ -1,0 +1,717 @@
+|join|StrengthOfHeart
+|join|guelobowler
+|player|p1|StrengthOfHeart|238
+|player|p2|guelobowler|220
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Donphan, M
+|poke|p1|Jirachi
+|poke|p1|Rotom-Wash
+|poke|p1|Salamence, F
+|poke|p1|Tangrowth, F, shiny
+|poke|p1|Volcarona, F
+|poke|p2|Hippowdon, F
+|poke|p2|Mandibuzz, F
+|poke|p2|Scizor, F
+|poke|p2|Magnezone
+|poke|p2|Latios, M
+|poke|p2|Haxorus, M, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: SpinCycle|Rotom-Wash|303/303
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|424/424
+|move|p1a: SpinCycle|Will-O-Wisp|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SpinCycle|285/303|[from] sandstorm
+|-heal|p1a: SpinCycle|303/303|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|371/424 brn|[from] brn
+|turn|2
+|
+|move|p1a: SpinCycle|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|251/424 brn
+|
+|switch|p1a: StarPiece|Jirachi|404/404
+|move|p2a: Mandibuzz|U-turn|p1a: StarPiece
+|-damage|p1a: StarPiece|384/404
+|
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|404/404|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: L’Ganjah|Tangrowth, F, shiny|403/403
+|move|p2a: Hippowdon|Stealth Rock|p1a: L’Ganjah
+|-sidestart|p1: StrengthOfHeart|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|378/403|[from] sandstorm
+|-heal|p1a: L’Ganjah|403/403|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|251/424 brn
+|move|p1a: L’Ganjah|Sleep Powder|p2a: Mandibuzz|[miss]
+|-miss|p1a: L’Ganjah|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|378/403|[from] sandstorm
+|-heal|p2a: Mandibuzz|277/424 brn|[from] item: Leftovers
+|-heal|p1a: L’Ganjah|403/403|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|224/424 brn|[from] brn
+|turn|5
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|424/424 brn
+|move|p1a: L’Ganjah|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|417/424 brn
+|-enditem|p2a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p1a: L’Ganjah
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|378/403|[from] sandstorm
+|-heal|p1a: L’Ganjah|403/403|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|364/424 brn|[from] brn
+|turn|6
+|
+|move|p2a: Mandibuzz|Toxic|p1a: L’Ganjah
+|-status|p1a: L’Ganjah|tox
+|move|p1a: L’Ganjah|Sleep Powder|p2a: Mandibuzz
+|-fail|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|378/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|403/403 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|311/424 brn|[from] brn
+|-damage|p1a: L’Ganjah|378/403 tox|[from] psn
+|turn|7
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|424/424 brn
+|move|p1a: L’Ganjah|Sleep Powder|p2a: Mandibuzz|[miss]
+|-miss|p1a: L’Ganjah|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|353/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|378/403 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|371/424 brn|[from] brn
+|-damage|p1a: L’Ganjah|328/403 tox|[from] psn
+|turn|8
+|
+|switch|p1a: StarPiece|Jirachi|404/404
+|-damage|p1a: StarPiece|379/404|[from] Stealth Rock
+|move|p2a: Mandibuzz|Toxic|p1a: StarPiece
+|-fail|p1a: StarPiece
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|404/404|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|318/424 brn|[from] brn
+|turn|9
+|
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|move|p1a: StarPiece|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: guelobowler|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|10
+|
+|switch|p1a: L’Ganjah|Tangrowth, F, shiny|403/403 tox
+|-damage|p1a: L’Ganjah|353/403 tox|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: L’Ganjah
+|-resisted|p1a: L’Ganjah
+|-damage|p1a: L’Ganjah|309/403 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|284/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|309/403 tox|[from] item: Leftovers
+|-damage|p1a: L’Ganjah|284/403 tox|[from] psn
+|turn|11
+|
+|move|p1a: L’Ganjah|Giga Drain|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|180/420
+|-heal|p1a: L’Ganjah|403/403 tox|[from] drain|[of] p2a: Hippowdon
+|move|p2a: Hippowdon|Roar|p1a: L’Ganjah
+|drag|p1a: QingFireball|Salamence, F|331/331
+|-damage|p1a: QingFireball|249/331|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: QingFireball|229/331|[from] sandstorm
+|-heal|p2a: Hippowdon|206/420|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: QingFireball|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|72/420
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|282/420
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: QingFireball|209/331|[from] sandstorm
+|-heal|p2a: Hippowdon|308/420|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: L’Ganjah|Tangrowth, F, shiny|403/403 tox
+|-damage|p1a: L’Ganjah|353/403 tox|[from] Stealth Rock
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|420/420
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|328/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|353/403 tox|[from] item: Leftovers
+|-damage|p1a: L’Ganjah|328/403 tox|[from] psn
+|turn|14
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|318/424 brn
+|-damage|p2a: Mandibuzz|212/424 brn|[from] Stealth Rock
+|move|p1a: L’Ganjah|Sleep Powder|p2a: Mandibuzz
+|-fail|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|303/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|328/403 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|159/424 brn|[from] brn
+|-damage|p1a: L’Ganjah|278/403 tox|[from] psn
+|turn|15
+|
+|switch|p1a: Snuffy|Donphan, M|384/384
+|-damage|p1a: Snuffy|360/384|[from] Stealth Rock
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|371/424 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Snuffy|384/384|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|318/424 brn|[from] brn
+|turn|16
+|
+|move|p2a: Mandibuzz|Toxic|p1a: Snuffy
+|-status|p1a: Snuffy|tox
+|move|p1a: Snuffy|Rapid Spin|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|294/424 brn
+|-sideend|p1: StrengthOfHeart|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Snuffy
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mandibuzz|241/424 brn|[from] brn
+|-damage|p1a: Snuffy|360/384 tox|[from] psn
+|turn|17
+|
+|switch|p1a: SpinCycle|Rotom-Wash|303/303
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|424/424 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SpinCycle|285/303|[from] sandstorm
+|-heal|p1a: SpinCycle|303/303|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|371/424 brn|[from] brn
+|turn|18
+|
+|move|p1a: SpinCycle|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|251/424 brn
+|
+|switch|p1a: StarPiece|Jirachi|404/404
+|move|p2a: Mandibuzz|U-turn|p1a: StarPiece
+|-damage|p1a: StarPiece|383/404
+|
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|-damage|p2a: Hippowdon|394/420|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|404/404|[from] item: Leftovers
+|-heal|p2a: Hippowdon|420/420|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: L’Ganjah|Tangrowth, F, shiny|403/403 tox
+|switch|p2a: Scizor|Scizor, F|344/344
+|-damage|p2a: Scizor|301/344|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|378/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|403/403 tox|[from] item: Leftovers
+|-damage|p1a: L’Ganjah|378/403 tox|[from] psn
+|turn|20
+|
+|move|p2a: Scizor|U-turn|p1a: L’Ganjah
+|-supereffective|p1a: L’Ganjah
+|-damage|p1a: L’Ganjah|106/403 tox
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|251/424 brn
+|-damage|p2a: Mandibuzz|145/424 brn|[from] Stealth Rock
+|move|p1a: L’Ganjah|Sleep Powder|p2a: Mandibuzz|[miss]
+|-miss|p1a: L’Ganjah|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|81/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|106/403 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|92/424 brn|[from] brn
+|-damage|p1a: L’Ganjah|56/403 tox|[from] psn
+|turn|21
+|
+|switch|p1a: Snuffy|Donphan, M|360/384 tox
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|304/424 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Snuffy|384/384 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|251/424 brn|[from] brn
+|-damage|p1a: Snuffy|360/384 tox|[from] psn
+|turn|22
+|
+|move|p1a: Snuffy|Ice Shard|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|49/424 brn
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|261/424 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Snuffy|384/384 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|208/424 brn|[from] brn
+|-damage|p1a: Snuffy|336/384 tox|[from] psn
+|turn|23
+|join|c0smynx
+|
+|switch|p1a: L’Ganjah|Tangrowth, F, shiny|190/403 tox
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|420/424 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|165/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|190/403 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|367/424 brn|[from] brn
+|-damage|p1a: L’Ganjah|165/403 tox|[from] psn
+|turn|24
+|
+|switch|p1a: StarPiece|Jirachi|404/404
+|move|p2a: Mandibuzz|U-turn|p1a: StarPiece
+|-damage|p1a: StarPiece|382/404
+|
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|-damage|p2a: Hippowdon|394/420|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|404/404|[from] item: Leftovers
+|-heal|p2a: Hippowdon|420/420|[from] item: Leftovers
+|turn|25
+|
+|switch|p1a: SpinCycle|Rotom-Wash|303/303
+|move|p2a: Hippowdon|Stealth Rock|p1a: SpinCycle
+|-sidestart|p1: StrengthOfHeart|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SpinCycle|285/303|[from] sandstorm
+|-heal|p1a: SpinCycle|303/303|[from] item: Leftovers
+|turn|26
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|367/424 brn
+|-damage|p2a: Mandibuzz|261/424 brn|[from] Stealth Rock
+|move|p1a: SpinCycle|Hydro Pump|p2a: Mandibuzz|[miss]
+|-miss|p1a: SpinCycle|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SpinCycle|285/303|[from] sandstorm
+|-heal|p1a: SpinCycle|303/303|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|208/424 brn|[from] brn
+|turn|27
+|
+|move|p1a: SpinCycle|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|76/424 brn
+|
+|switch|p1a: Snuffy|Donphan, M|336/384 tox
+|-damage|p1a: Snuffy|312/384 tox|[from] Stealth Rock
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|288/424 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Snuffy|336/384 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|235/424 brn|[from] brn
+|-damage|p1a: Snuffy|312/384 tox|[from] psn
+|turn|28
+|leave|c0smynx
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Snuffy
+|-damage|p1a: Snuffy|294/384 tox
+|
+|switch|p2a: Magnezone|Magnezone|291/291
+|-damage|p2a: Magnezone|273/291|[from] Stealth Rock
+|move|p1a: Snuffy|Rapid Spin|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|261/291
+|-sideend|p1: StrengthOfHeart|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Snuffy
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Snuffy|318/384 tox|[from] item: Leftovers
+|-damage|p1a: Snuffy|270/384 tox|[from] psn
+|turn|29
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Snuffy
+|-damage|p1a: Snuffy|0 fnt
+|faint|p1a: Snuffy
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: SpinCycle|Rotom-Wash|303/303
+|turn|30
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: SpinCycle
+|-resisted|p1a: SpinCycle
+|-damage|p1a: SpinCycle|263/303
+|move|p1a: SpinCycle|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|215/291
+|
+|switch|p1a: StarPiece|Jirachi|404/404
+|
+|-weather|Sandstorm|[upkeep]
+|turn|31
+|
+|switch|p2a: Hippowdon|Hippowdon, F|420/420
+|-damage|p2a: Hippowdon|394/420|[from] Stealth Rock
+|move|p1a: StarPiece|Body Slam|p2a: Hippowdon
+|-damage|p2a: Hippowdon|355/420
+|-status|p2a: Hippowdon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|381/420 par|[from] item: Leftovers
+|turn|32
+|
+|switch|p1a: Vesuvius|Volcarona, F|311/311
+|move|p2a: Hippowdon|Earthquake|p1a: Vesuvius
+|-damage|p1a: Vesuvius|110/311
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vesuvius|91/311|[from] sandstorm
+|-heal|p2a: Hippowdon|407/420 par|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Vesuvius|Giga Drain|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|173/420 par
+|-heal|p1a: Vesuvius|208/311|[from] drain|[of] p2a: Hippowdon
+|move|p2a: Hippowdon|Earthquake|p1a: Vesuvius
+|-damage|p1a: Vesuvius|24/311
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vesuvius|5/311|[from] sandstorm
+|-heal|p2a: Hippowdon|199/420 par|[from] item: Leftovers
+|turn|34
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|235/424 brn
+|-damage|p2a: Mandibuzz|129/424 brn|[from] Stealth Rock
+|move|p1a: Vesuvius|Giga Drain|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|93/424 brn
+|-heal|p1a: Vesuvius|23/311|[from] drain|[of] p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vesuvius|4/311|[from] sandstorm
+|-damage|p2a: Mandibuzz|40/424 brn|[from] brn
+|turn|35
+|
+|move|p1a: Vesuvius|Bug Buzz|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vesuvius|0 fnt|[from] sandstorm
+|faint|p1a: Vesuvius
+|
+|switch|p2a: Magnezone|Magnezone|215/291
+|-damage|p2a: Magnezone|197/291|[from] Stealth Rock
+|switch|p1a: SpinCycle|Rotom-Wash|263/303
+|turn|36
+|
+|move|p2a: Magnezone|Volt Switch|p1a: SpinCycle
+|-damage|p1a: SpinCycle|119/303
+|
+|switch|p2a: Hippowdon|Hippowdon, F|199/420 par
+|-damage|p2a: Hippowdon|173/420 par|[from] Stealth Rock
+|move|p1a: SpinCycle|Will-O-Wisp|p2a: Hippowdon
+|-fail|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SpinCycle|101/303|[from] sandstorm
+|-heal|p1a: SpinCycle|119/303|[from] item: Leftovers
+|-heal|p2a: Hippowdon|199/420 par|[from] item: Leftovers
+|turn|37
+|
+|switch|p2a: Magnezone|Magnezone|197/291
+|-damage|p2a: Magnezone|179/291|[from] Stealth Rock
+|move|p1a: SpinCycle|Hydro Pump|p2a: Magnezone|[miss]
+|-miss|p1a: SpinCycle|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SpinCycle|101/303|[from] sandstorm
+|-heal|p1a: SpinCycle|119/303|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Magnezone|Volt Switch|p1a: SpinCycle
+|-damage|p1a: SpinCycle|0 fnt
+|faint|p1a: SpinCycle
+|
+|switch|p2a: Hippowdon|Hippowdon, F|199/420 par
+|-damage|p2a: Hippowdon|173/420 par|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|199/420 par|[from] item: Leftovers
+|
+|switch|p1a: QingFireball|Salamence, F|209/331
+|turn|39
+|
+|move|p1a: QingFireball|Outrage|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|-boost|p1a: QingFireball|atk|1|[from] ability: Moxie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: QingFireball|189/331|[from] sandstorm
+|
+|switch|p2a: Latios|Latios, M|302/302
+|-damage|p2a: Latios|265/302|[from] Stealth Rock
+|turn|40
+|
+|move|p2a: Latios|Dragon Pulse|p1a: QingFireball
+|-supereffective|p1a: QingFireball
+|-damage|p1a: QingFireball|0 fnt
+|faint|p1a: QingFireball
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|247/302|[from] sandstorm
+|
+|switch|p1a: StarPiece|Jirachi|404/404
+|turn|41
+|
+|switch|p2a: Magnezone|Magnezone|179/291
+|-damage|p2a: Magnezone|161/291|[from] Stealth Rock
+|move|p1a: StarPiece|Body Slam|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|134/291
+|
+|-weather|Sandstorm|[upkeep]
+|turn|42
+|
+|move|p1a: StarPiece|Body Slam|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|104/291
+|-status|p2a: Magnezone|par
+|move|p2a: Magnezone|Thunderbolt|p1a: StarPiece
+|-damage|p1a: StarPiece|197/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|222/404|[from] item: Leftovers
+|turn|43
+|
+|move|p1a: StarPiece|Wish|p1a: StarPiece
+|move|p2a: Magnezone|Thunderbolt|p1a: StarPiece
+|-damage|p1a: StarPiece|5/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|30/404|[from] item: Leftovers
+|turn|44
+|
+|move|p1a: StarPiece|Iron Head|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|61/291 par
+|cant|p2a: Magnezone|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|232/404|[from] move: Wish|[wisher] StarPiece
+|-heal|p1a: StarPiece|257/404|[from] item: Leftovers
+|turn|45
+|
+|move|p1a: StarPiece|Wish|p1a: StarPiece
+|move|p2a: Magnezone|Thunderbolt|p1a: StarPiece
+|-damage|p1a: StarPiece|46/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|71/404|[from] item: Leftovers
+|turn|46
+|
+|move|p1a: StarPiece|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|39/291 par
+|cant|p2a: Magnezone|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|273/404|[from] move: Wish|[wisher] StarPiece
+|-heal|p1a: StarPiece|298/404|[from] item: Leftovers
+|turn|47
+|
+|move|p1a: StarPiece|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|17/291 par
+|cant|p2a: Magnezone|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|323/404|[from] item: Leftovers
+|turn|48
+|
+|move|p1a: StarPiece|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|348/404|[from] item: Leftovers
+|
+|switch|p2a: Haxorus|Haxorus, M, shiny|323/323
+|-damage|p2a: Haxorus|283/323|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|49
+|
+|switch|p1a: L’Ganjah|Tangrowth, F, shiny|299/403 tox
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|263/323|[from] sandstorm
+|-damage|p1a: L’Ganjah|274/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|299/403 tox|[from] item: Leftovers
+|-damage|p1a: L’Ganjah|274/403 tox|[from] psn
+|turn|50
+|
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: L’Ganjah|Hidden Power|p2a: Haxorus
+|-crit|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|249/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|274/403 tox|[from] item: Leftovers
+|-damage|p1a: L’Ganjah|224/403 tox|[from] psn
+|
+|switch|p2a: Scizor|Scizor, F|301/344
+|-damage|p2a: Scizor|258/344|[from] Stealth Rock
+|turn|51
+|
+|switch|p1a: StarPiece|Jirachi|348/404
+|move|p2a: Scizor|U-turn|p1a: StarPiece
+|-damage|p1a: StarPiece|132/404
+|
+|switch|p2a: Latios|Latios, M|247/302
+|-damage|p2a: Latios|210/302|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|192/302|[from] sandstorm
+|-heal|p1a: StarPiece|157/404|[from] item: Leftovers
+|turn|52
+|
+|move|p2a: Latios|Draco Meteor|p1a: StarPiece
+|-resisted|p1a: StarPiece
+|-damage|p1a: StarPiece|64/404
+|-unboost|p2a: Latios|spa|2
+|move|p1a: StarPiece|Body Slam|p2a: Latios
+|-damage|p2a: Latios|110/302
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|92/302|[from] sandstorm
+|-heal|p1a: StarPiece|89/404|[from] item: Leftovers
+|turn|53
+|
+|switch|p2a: Scizor|Scizor, F|258/344
+|-damage|p2a: Scizor|215/344|[from] Stealth Rock
+|move|p1a: StarPiece|Wish|p1a: StarPiece
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: StarPiece|114/404|[from] item: Leftovers
+|turn|54
+|
+|switch|p1a: L’Ganjah|Tangrowth, F, shiny|358/403 tox
+|move|p2a: Scizor|U-turn|p1a: L’Ganjah
+|-supereffective|p1a: L’Ganjah
+|-damage|p1a: L’Ganjah|122/403 tox
+|
+|switch|p2a: Latios|Latios, M|92/302
+|-damage|p2a: Latios|55/302|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|37/302|[from] sandstorm
+|-damage|p1a: L’Ganjah|97/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|299/403 tox|[from] move: Wish|[wisher] StarPiece
+|-heal|p1a: L’Ganjah|324/403 tox|[from] item: Leftovers
+|-damage|p1a: L’Ganjah|299/403 tox|[from] psn
+|turn|55
+|
+|switch|p1a: StarPiece|Jirachi|114/404
+|move|p2a: Latios|Draco Meteor|p1a: StarPiece
+|-resisted|p1a: StarPiece
+|-damage|p1a: StarPiece|20/404
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|19/302|[from] sandstorm
+|-heal|p1a: StarPiece|45/404|[from] item: Leftovers
+|turn|56
+|
+|move|p2a: Latios|Draco Meteor|p1a: StarPiece
+|-resisted|p1a: StarPiece
+|-damage|p1a: StarPiece|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: StarPiece
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|1/302|[from] sandstorm
+|
+|switch|p1a: L’Ganjah|Tangrowth, F, shiny|403/403 tox
+|turn|57
+|
+|move|p2a: Latios|Draco Meteor|p1a: L’Ganjah
+|-damage|p1a: L’Ganjah|273/403 tox
+|-unboost|p2a: Latios|spa|2
+|move|p1a: L’Ganjah|Giga Drain|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-heal|p1a: L’Ganjah|274/403 tox|[from] drain|[of] p2a: Latios
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|249/403 tox|[from] sandstorm
+|-heal|p1a: L’Ganjah|274/403 tox|[from] item: Leftovers
+|-damage|p1a: L’Ganjah|249/403 tox|[from] psn
+|
+|switch|p2a: Scizor|Scizor, F|215/344
+|-damage|p2a: Scizor|172/344|[from] Stealth Rock
+|turn|58
+|
+|move|p2a: Scizor|U-turn|p1a: L’Ganjah
+|-supereffective|p1a: L’Ganjah
+|-damage|p1a: L’Ganjah|3/403 tox
+|move|p1a: L’Ganjah|Sleep Powder|p2a: Scizor|[miss]
+|-miss|p1a: L’Ganjah|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: L’Ganjah|0 fnt|[from] sandstorm
+|faint|p1a: L’Ganjah
+|
+|win|guelobowler
+|raw|Ladder updating...
+|raw|StrengthOfHeart's rating: 1366 &rarr; <strong>1344</strong><br />(-22 for losing)
+|raw|guelobowler's rating: 1331 &rarr; <strong>1353</strong><br />(+22 for winning)
+|chat|guelobowler|gg
+|leave|StrengthOfHeart
+|player|p1

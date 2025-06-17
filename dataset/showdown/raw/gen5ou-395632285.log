@@ -1,0 +1,321 @@
+|j|Eliyne
+|j|Jason Grotle
+|player|p1|Eliyne|52
+|player|p2|Jason Grotle|164
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Gastrodon, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Heatran, M|item
+|poke|p2|Sableye, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Starmie|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|j|fackmagul
+|choice||
+|
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|choice||
+|
+|move|p2a: Landorus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|95/100
+|-enditem|p1a: Heatran|Air Balloon
+|choice||
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Starmie
+|-sidestart|p2: Jason Grotle|move: Stealth Rock
+|
+|turn|2
+|choice||
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Starmie|Rapid Spin|p1a: Gastrodon
+|-damage|p1a: Gastrodon|98/100
+|-sideend|p2: Jason Grotle|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|turn|3
+|choice||
+|
+|switch|p1a: Heatran|Heatran, M|95/100
+|move|p2a: Starmie|Toxic|p1a: Heatran
+|-immune|p1a: Heatran|[msg]
+|
+|turn|4
+|choice||
+|
+|move|p2a: Starmie|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|64/100
+|move|p1a: Heatran|Stealth Rock|p2a: Starmie
+|-sidestart|p2: Jason Grotle|move: Stealth Rock
+|
+|turn|5
+|choice||
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Starmie|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|94/100|[from] sandstorm
+|-heal|p2a: Starmie|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|54/100 brn|[from] brn
+|turn|6
+|choice||
+|
+|move|p2a: Starmie|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|53/100 brn
+|-sideend|p2: Jason Grotle|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Tyranitar|Crunch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|41/100 brn|[from] brn
+|choice||
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|7
+|j|gkhgjtrjrj
+|choice||
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Latias
+|-sidestart|p1: Eliyne|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|95/100|[from] sandstorm
+|turn|8
+|choice||
+|
+|move|p1a: Latias|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|48/100
+|-damage|p1a: Latias|85/100|[from] item: Life Orb
+|move|p2a: Heatran|Lava Plume|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|64/100|[from] sandstorm
+|-heal|p2a: Heatran|54/100|[from] item: Leftovers
+|turn|9
+|choice||
+|
+|switch|p1a: Heatran|Heatran, M|64/100
+|-damage|p1a: Heatran|51/100|[from] Stealth Rock
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-fail|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|60/100|[from] item: Leftovers
+|turn|10
+|choice||
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Heatran|Earth Power|p2a: Latios
+|-immune|p2a: Latios|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|95/100|[from] sandstorm
+|turn|11
+|choice||
+|
+|move|p2a: Latios|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Latios|85/100|[from] item: Life Orb
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|79/100|[from] sandstorm
+|choice||
+|
+|switch|p1a: Tyranitar|Tyranitar, M|41/100 brn
+|-damage|p1a: Tyranitar|28/100 brn|[from] Stealth Rock
+|turn|12
+|choice||
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|73/100|[from] sandstorm
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|turn|13
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Gastrodon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|turn|14
+|choice||
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|78/100
+|-damage|p2a: Ferrothorn|77/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|83/100|[from] item: Leftovers
+|turn|15
+|choice||
+|
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Jason Grotle|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: Eliyne|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|turn|16
+|choice||
+|
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Jason Grotle|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: Eliyne|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|turn|17
+|choice||
+|
+|move|p1a: Skarmory|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Jason Grotle|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Skarmory
+|-sidestart|p1: Eliyne|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|turn|18
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|75/100|[from] Spikes
+|-damage|p1a: Ferrothorn|69/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|75/100|[from] item: Leftovers
+|turn|19
+|choice||
+|
+|switch|p2a: Heatran|Heatran, M|60/100
+|-damage|p2a: Heatran|35/100|[from] Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Heatran
+|-start|p2a: Heatran|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|42/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|-damage|p2a: Heatran|29/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|95/100|[silent]
+|turn|20
+|choice||
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Heatran|Lava Plume|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Heatran|35/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Heatran|23/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|turn|21
+|l|fackmagul
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|75/100|[from] Spikes
+|switch|p1a: Tyranitar|Tyranitar, M|28/100 brn
+|-damage|p1a: Tyranitar|16/100 brn|[from] Stealth Rock
+|-damage|p1a: Tyranitar|0 fnt|[from] Spikes
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|69/100|[from] Spikes
+|turn|22
+|choice||
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|75/100|[from] item: Leftovers
+|turn|23
+|choice||
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn|[msg]
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|turn|24
+|-message|Eliyne forfeited.
+|
+|win|Jason Grotle
+|player|p1
+|player|p2
+|l|Eliyne
+|l|Jason Grotle
+|raw|Eliyne's rating: 1338 &rarr; <strong>1315</strong><br />(-23 for losing)
+|raw|Jason Grotle's rating: 1279 &rarr; <strong>1308</strong><br />(+29 for winning)

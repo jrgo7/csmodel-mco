@@ -1,0 +1,330 @@
+|j|☆da capo if
+|j|☆qeod
+|player|p1|da capo if|266|1470
+|player|p2|qeod|biker-gen2|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Alakazam, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Celebi|item
+|poke|p2|Scrafty, F|item
+|poke|p2|Darmanitan, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Haxorus, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by qeod)
+|c|☆qeod|gl hf
+|inactive|da capo if has 120 seconds left.
+|c|☆da capo if|u2
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: qeod|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|3
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|move|p1a: Keldeo|Surf|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|42/100
+|
+|-heal|p2a: Gyarados|48/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Keldeo|Surf|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|10/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|16/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Keldeo
+|move|p1a: Keldeo|Surf|p2a: Gyarados|[miss]
+|-miss|p1a: Keldeo|p2a: Gyarados
+|
+|-heal|p2a: Gyarados|22/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[from]lockedmove
+|-damage|p1a: Ferrothorn|52/100
+|-status|p1a: Ferrothorn|par
+|-damage|p2a: Gyarados|10/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p2a: Gyarados|16/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Gyarados
+|-start|p2a: Gyarados|move: Leech Seed
+|
+|-heal|p2a: Gyarados|22/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|64/100 par|[from] item: Leftovers
+|-damage|p2a: Gyarados|10/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|77/100 par|[silent]
+|upkeep
+|turn|8
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Gyarados
+|-sidestart|p2: qeod|Spikes
+|
+|-heal|p2a: Gyarados|16/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|83/100 par|[from] item: Leftovers
+|-damage|p2a: Gyarados|4/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|95/100 par|[silent]
+|upkeep
+|turn|9
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[from]lockedmove
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Gyarados|10/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 par|[from] item: Leftovers
+|-damage|p2a: Gyarados|0 fnt|[from] Leech Seed|[of] p1a: Ferrothorn
+|faint|p2a: Gyarados
+|upkeep
+|
+|switch|p2a: Scrafty|Scrafty, F|100/100
+|-damage|p2a: Scrafty|88/100|[from] Spikes
+|-damage|p2a: Scrafty|82/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|
+|-heal|p2a: Scrafty|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Scrafty|Drain Punch|p1a: Keldeo
+|-damage|p1a: Keldeo|52/100
+|-heal|p2a: Scrafty|100/100|[from] drain|[of] p1a: Keldeo
+|move|p1a: Keldeo|Secret Sword|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Keldeo|atk|1
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100 par
+|move|p2a: Landorus|Rock Polish|p2a: Landorus
+|-boost|p2a: Landorus|spe|2
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Landorus
+|-damage|p2a: Landorus|42/100
+|
+|-heal|p2a: Landorus|49/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Landorus|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|45/100
+|
+|-heal|p2a: Landorus|55/100|[from] item: Leftovers
+|-heal|p1a: Celebi|51/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Landorus|Stone Edge|p1a: Celebi|[miss]
+|-miss|p2a: Landorus|p1a: Celebi
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|
+|switch|p1a: Alakazam|Alakazam, F|100/100|[from]move: Baton Pass
+|
+|-heal|p2a: Landorus|61/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Landorus|Earthquake|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|move|p1a: Alakazam|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|88/100|[from] Spikes
+|-damage|p2a: Magnezone|82/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Celebi|Celebi|51/100
+|move|p2a: Magnezone|Volt Switch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|34/100
+|
+|switch|p2a: Darmanitan|Darmanitan, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Darmanitan|76/100|[from] Stealth Rock
+|-damage|p2a: Darmanitan|63/100|[from] Spikes
+|
+|-heal|p1a: Celebi|40/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Darmanitan|U-turn|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|switch|p2a: Magnezone|Magnezone|82/100|[from]move: U-turn
+|-damage|p2a: Magnezone|76/100|[from] Stealth Rock
+|-damage|p2a: Magnezone|63/100|[from] Spikes
+|
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, F|1/100
+|turn|19
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Magnezone|[miss]
+|-miss|p1a: Alakazam|p2a: Magnezone
+|move|p2a: Magnezone|Volt Switch|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p2a: Darmanitan|Darmanitan, F|63/100|[from]move: Volt Switch
+|-damage|p2a: Darmanitan|39/100|[from] Stealth Rock
+|-damage|p2a: Darmanitan|26/100|[from] Spikes
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100 par
+|turn|20
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Darmanitan|14/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Darmanitan|0 fnt|[from] Recoil
+|faint|p1a: Ferrothorn
+|faint|p2a: Darmanitan
+|
+|upkeep
+|
+|switch|p2a: Magnezone|Magnezone|63/100
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-damage|p2a: Magnezone|51/100|[from] Spikes
+|-damage|p2a: Magnezone|45/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Tyranitar|Crunch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|21/100
+|move|p2a: Magnezone|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|75/100
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Haxorus|88/100|[from] Spikes
+|-damage|p2a: Haxorus|76/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|70/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|move|p1a: Tyranitar|Crunch|p2a: Haxorus
+|-damage|p2a: Haxorus|15/100
+|move|p2a: Haxorus|Outrage|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|9/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|52/100
+|turn|23
+|
+|move|p1a: Keldeo|Surf|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|46/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Magnezone|Magnezone|21/100
+|-damage|p2a: Magnezone|9/100|[from] Spikes
+|-damage|p2a: Magnezone|3/100|[from] Stealth Rock
+|turn|24
+|c|☆da capo if|gg
+|c|☆qeod|gg
+|-message|da capo if forfeited.
+|
+|win|qeod
+|l|☆da capo if
+|raw|da capo if's rating: 1470 &rarr; <strong>1444</strong><br />(-26 for losing)
+|raw|qeod's rating: 1362 &rarr; <strong>1388</strong><br />(+26 for winning)

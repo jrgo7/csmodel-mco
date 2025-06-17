@@ -1,0 +1,441 @@
+|join|StrengthOfHeart
+|join|Wüstenfuchs
+|player|p1|StrengthOfHeart|238
+|player|p2|Wüstenfuchs|256
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Donphan, M
+|poke|p1|Jirachi
+|poke|p1|Rotom-Wash
+|poke|p1|Salamence, F
+|poke|p1|Tangrowth, F, shiny
+|poke|p1|Volcarona, M
+|poke|p2|Politoed, M
+|poke|p2|Starmie
+|poke|p2|Landorus-Therian, M
+|poke|p2|Tornadus, M
+|poke|p2|Ferrothorn, F
+|poke|p2|Keldeo
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: SpinCycle|Rotom-Wash|303/303
+|switch|p2a: Politoed|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: SpinCycle|Will-O-Wisp|p2a: Politoed
+|-activate|p2a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: SpinCycle|Volt Switch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|220/384
+|
+|switch|p1a: StarPiece|Jirachi|404/404
+|move|p2a: Politoed|Scald|p1a: StarPiece
+|-damage|p1a: StarPiece|311/404
+|-status|p1a: StarPiece|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: StarPiece|336/404 brn|[from] item: Leftovers
+|-heal|p2a: Politoed|244/384|[from] item: Leftovers
+|-damage|p1a: StarPiece|286/404 brn|[from] brn
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|move|p1a: StarPiece|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Wüstenfuchs|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: StarPiece|311/404 brn|[from] item: Leftovers
+|-damage|p1a: StarPiece|261/404 brn|[from] brn
+|turn|4
+|
+|switch|p1a: Ganjah|Tangrowth, F, shiny|403/403
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ganjah
+|-sidestart|p1: StrengthOfHeart|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Politoed|Politoed, M|244/384
+|-damage|p2a: Politoed|196/384|[from] Stealth Rock
+|move|p1a: Ganjah|Sleep Powder|p2a: Politoed
+|-status|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|220/384 slp|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|-damage|p2a: Ferrothorn|330/352|[from] Stealth Rock
+|switch|p1a: SpinCycle|Rotom-Wash|303/303
+|-damage|p1a: SpinCycle|266/303|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: SpinCycle|284/303|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|352/352|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: SpinCycle|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Thunder Wave|p1a: SpinCycle
+|-status|p1a: SpinCycle|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: SpinCycle|302/303 par|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|308/352 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Snuffy|Donphan, M|384/384
+|-damage|p1a: Snuffy|360/384|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Snuffy|[miss]
+|-miss|p2a: Ferrothorn|p1a: Snuffy
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snuffy|384/384|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|330/352 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|286/352 brn|[from] brn
+|turn|9
+|
+|move|p1a: Snuffy|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|276/352 brn
+|-damage|p1a: Snuffy|336/384|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: StrengthOfHeart|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Snuffy
+|move|p2a: Ferrothorn|Leech Seed|p1a: Snuffy
+|-start|p1a: Snuffy|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snuffy|360/384|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|298/352 brn|[from] item: Leftovers
+|-damage|p1a: Snuffy|312/384|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|346/352 brn|[silent]
+|-damage|p2a: Ferrothorn|302/352 brn|[from] brn
+|turn|10
+|
+|switch|p1a: Vesuvius|Volcarona, M|311/311
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Vesuvius
+|-status|p1a: Vesuvius|par
+|-enditem|p1a: Vesuvius|Lum Berry|[eat]
+|-curestatus|p1a: Vesuvius|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|324/352 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|280/352 brn|[from] brn
+|turn|11
+|
+|switch|p1a: StarPiece|Jirachi|261/404 brn
+|move|p2a: Ferrothorn|Thunder Wave|p1a: StarPiece
+|-fail|p1a: StarPiece
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: StarPiece|286/404 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|302/352 brn|[from] item: Leftovers
+|-damage|p1a: StarPiece|236/404 brn|[from] brn
+|-damage|p2a: Ferrothorn|258/352 brn|[from] brn
+|turn|12
+|
+|move|p1a: StarPiece|Wish|p1a: StarPiece
+|move|p2a: Ferrothorn|Stealth Rock|p1a: StarPiece
+|-sidestart|p1: StrengthOfHeart|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: StarPiece|261/404 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|280/352 brn|[from] item: Leftovers
+|-damage|p1a: StarPiece|211/404 brn|[from] brn
+|-damage|p2a: Ferrothorn|236/352 brn|[from] brn
+|turn|13
+|
+|move|p1a: StarPiece|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|218/352 brn
+|-damage|p1a: StarPiece|161/404 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|cant|p2a: Ferrothorn|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: StarPiece|363/404 brn|[from] move: Wish|[wisher] StarPiece
+|-heal|p1a: StarPiece|388/404 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|240/352 brn|[from] item: Leftovers
+|-damage|p1a: StarPiece|338/404 brn|[from] brn
+|-damage|p2a: Ferrothorn|196/352 brn|[from] brn
+|turn|14
+|
+|switch|p2a: Starmie|Starmie|262/262
+|-damage|p2a: Starmie|230/262|[from] Stealth Rock
+|move|p1a: StarPiece|Wish|p1a: StarPiece
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: StarPiece|363/404 brn|[from] item: Leftovers
+|-damage|p1a: StarPiece|313/404 brn|[from] brn
+|turn|15
+|
+|switch|p1a: SpinCycle|Rotom-Wash|302/303 par
+|-damage|p1a: SpinCycle|265/303 par|[from] Stealth Rock
+|move|p2a: Starmie|Hydro Pump|p1a: SpinCycle
+|-resisted|p1a: SpinCycle
+|-damage|p1a: SpinCycle|172/303 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: SpinCycle|303/303 par|[from] move: Wish|[wisher] StarPiece
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|196/352 brn
+|-damage|p2a: Ferrothorn|174/352 brn|[from] Stealth Rock
+|move|p1a: SpinCycle|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|146/352 brn
+|
+|switch|p1a: Snuffy|Donphan, M|312/384
+|-damage|p1a: Snuffy|288/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snuffy|312/384|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|168/352 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|124/352 brn|[from] brn
+|turn|17
+|
+|move|p1a: Snuffy|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snuffy|336/384|[from] item: Leftovers
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|-damage|p2a: Keldeo|303/323|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Ganjah|Tangrowth, F, shiny|403/403
+|-damage|p1a: Ganjah|353/403|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Ganjah
+|-resisted|p1a: Ganjah
+|-damage|p1a: Ganjah|29/403
+|-damage|p2a: Keldeo|271/323|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ganjah|54/403|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Ganjah
+|-damage|p1a: Ganjah|0 fnt
+|-damage|p2a: Keldeo|239/323|[from] item: Life Orb
+|faint|p1a: Ganjah
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: SpinCycle|Rotom-Wash|303/303 par
+|-damage|p1a: SpinCycle|266/303 par|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: SpinCycle
+|-resisted|p1a: SpinCycle
+|-damage|p1a: SpinCycle|117/303 par
+|-damage|p2a: Keldeo|207/323|[from] item: Life Orb
+|move|p1a: SpinCycle|Volt Switch|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|1/323
+|
+|switch|p1a: Snuffy|Donphan, M|336/384
+|-damage|p1a: Snuffy|312/384|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snuffy|336/384|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Starmie|Starmie|230/262
+|-damage|p2a: Starmie|198/262|[from] Stealth Rock
+|move|p1a: Snuffy|Ice Shard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|169/262
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snuffy|360/384|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Fireball|Salamence, F|331/331
+|-damage|p1a: Fireball|249/331|[from] Stealth Rock
+|move|p2a: Starmie|Hydro Pump|p1a: Fireball
+|-resisted|p1a: Fireball
+|-damage|p1a: Fireball|85/331
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|switch|p2a: Politoed|Politoed, M|220/384 slp
+|-damage|p2a: Politoed|172/384 slp|[from] Stealth Rock
+|move|p1a: Fireball|Outrage|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|-boost|p1a: Fireball|atk|1|[from] ability: Moxie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Landorus-Therian|Landorus-Therian, M|320/320
+|-damage|p2a: Landorus-Therian|280/320|[from] Stealth Rock
+|-ability|p2a: Landorus-Therian|Intimidate|[of] p1a: Fireball
+|-unboost|p1a: Fireball|atk|1
+|turn|24
+|
+|move|p1a: Fireball|Outrage|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|27/320
+|move|p2a: Landorus-Therian|Hidden Power|p1a: Fireball
+|-supereffective|p1a: Fireball
+|-damage|p1a: Fireball|0 fnt
+|faint|p1a: Fireball
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Snuffy|Donphan, M|360/384
+|-damage|p1a: Snuffy|336/384|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Landorus-Therian|Hidden Power|p1a: Snuffy
+|-supereffective|p1a: Snuffy
+|-damage|p1a: Snuffy|158/384
+|move|p1a: Snuffy|Rapid Spin|p2a: Landorus-Therian
+|-damage|p2a: Landorus-Therian|0 fnt
+|-sideend|p1: StrengthOfHeart|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Snuffy
+|faint|p2a: Landorus-Therian
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snuffy|182/384|[from] item: Leftovers
+|
+|switch|p2a: Starmie|Starmie|169/262
+|-damage|p2a: Starmie|137/262|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Starmie|Ice Beam|p1a: Snuffy
+|-supereffective|p1a: Snuffy
+|-damage|p1a: Snuffy|0 fnt
+|faint|p1a: Snuffy
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: StarPiece|Jirachi|313/404 brn
+|turn|27
+|
+|move|p2a: Starmie|Hydro Pump|p1a: StarPiece
+|-damage|p1a: StarPiece|111/404 brn
+|move|p1a: StarPiece|Wish|p1a: StarPiece
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: StarPiece|136/404 brn|[from] item: Leftovers
+|-damage|p1a: StarPiece|86/404 brn|[from] brn
+|turn|28
+|
+|switch|p1a: SpinCycle|Rotom-Wash|117/303 par
+|move|p2a: Starmie|Thunder|p1a: SpinCycle
+|-damage|p1a: SpinCycle|33/303 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: SpinCycle|235/303 par|[from] move: Wish|[wisher] StarPiece
+|-heal|p1a: SpinCycle|253/303 par|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Starmie|Rapid Spin|p1a: SpinCycle
+|-damage|p1a: SpinCycle|242/303 par
+|-sideend|p2: Wüstenfuchs|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: SpinCycle|Volt Switch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p1a: StarPiece|Jirachi|86/404 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: StarPiece|111/404 brn|[from] item: Leftovers
+|-damage|p1a: StarPiece|61/404 brn|[from] brn
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|turn|30
+|
+|move|p2a: Tornadus|U-turn|p1a: StarPiece
+|-damage|p1a: StarPiece|0 fnt
+|faint|p1a: StarPiece
+|
+|switch|p2a: Keldeo|Keldeo|1/323
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Vesuvius|Volcarona, M|311/311
+|turn|31
+|
+|switch|p2a: Tornadus|Tornadus, M|299/299
+|move|p1a: Vesuvius|Giga Drain|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|248/299
+|
+|-weather|RainDance|[upkeep]
+|turn|32
+|
+|move|p2a: Tornadus|Hurricane|p1a: Vesuvius
+|-supereffective|p1a: Vesuvius
+|-damage|p1a: Vesuvius|0 fnt
+|faint|p1a: Vesuvius
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: SpinCycle|Rotom-Wash|242/303 par
+|turn|33
+|
+|move|p2a: Tornadus|Hurricane|p1a: SpinCycle
+|-resisted|p1a: SpinCycle
+|-damage|p1a: SpinCycle|140/303 par
+|move|p1a: SpinCycle|Volt Switch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|30/299
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: SpinCycle|158/303 par|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Tornadus|Hurricane|p1a: SpinCycle
+|-resisted|p1a: SpinCycle
+|-damage|p1a: SpinCycle|46/303 par
+|-start|p1a: SpinCycle|confusion
+|-activate|p1a: SpinCycle|confusion
+|-damage|p1a: SpinCycle|28/303 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: SpinCycle|46/303 par|[from] item: Leftovers
+|turn|35
+|chat|Wüstenfuchs|this washing machine
+|chat|Wüstenfuchs|never got parahaxed
+|chat|StrengthOfHeart|nooooo
+|chat|Wüstenfuchs|at least it got confused
+|chat|StrengthOfHeart|gg
+|chat|Wüstenfuchs|gg
+|
+|move|p2a: Tornadus|Hurricane|p1a: SpinCycle
+|-resisted|p1a: SpinCycle
+|-damage|p1a: SpinCycle|0 fnt
+|faint|p1a: SpinCycle
+|
+|win|Wüstenfuchs
+|raw|Ladder updating...
+|chat|StrengthOfHeart|it was gonna be a tie
+|raw|StrengthOfHeart's rating: 1472 &rarr; <strong>1453</strong><br />(-19 for losing)
+|raw|Wüstenfuchs's rating: 1480 &rarr; <strong>1500</strong><br />(+20 for winning)
+|chat|Wüstenfuchs|maybe
+|chat|StrengthOfHeart|oh well, very gg
+|chat|Wüstenfuchs|yeah
+|chat|Wüstenfuchs|gg
+|leave|StrengthOfHeart
+|player|p1

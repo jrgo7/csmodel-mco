@@ -1,0 +1,716 @@
+|join|Muff -
+|join|Montbreton
+|player|p1|Muff -|166
+|player|p2|Montbreton|123
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M
+|poke|p1|Jirachi
+|poke|p1|Rotom-Wash
+|poke|p1|Amoonguss, F
+|poke|p1|Dragonite, M
+|poke|p1|Starmie
+|poke|p2|Reuniclus, M
+|poke|p2|Landorus-Therian, M
+|poke|p2|Forretress, M
+|poke|p2|Tyranitar, M
+|poke|p2|Rotom-Wash, shiny
+|poke|p2|Keldeo
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|Montbreton|hi
+|chat|Montbreton|gl hf
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|432/432
+|switch|p2a: Ap Tchagui|Rotom-Wash, shiny|304/304
+|turn|1
+|
+|move|p2a: Ap Tchagui|Will-O-Wisp|p1a: Amoonguss
+|-status|p1a: Amoonguss|brn
+|move|p1a: Amoonguss|Spore|p2a: Ap Tchagui
+|-status|p2a: Ap Tchagui|slp
+|
+|-damage|p1a: Amoonguss|378/432 brn|[from] brn
+|turn|2
+|
+|switch|p2a: Nelyeu tchagui|Forretress, M|354/354
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Nelyeu tchagui
+|-unboost|p2a: Nelyeu tchagui|atk|1
+|
+|turn|3
+|
+|move|p1a: Landorus-Therian|Stealth Rock|p2a: Nelyeu tchagui
+|-sidestart|p2: Montbreton|move: Stealth Rock
+|move|p2a: Nelyeu tchagui|Spikes|p1a: Landorus-Therian
+|-sidestart|p1: Muff -|Spikes
+|
+|turn|4
+|
+|move|p1a: Landorus-Therian|U-turn|p2a: Nelyeu tchagui
+|-crit|p2a: Nelyeu tchagui
+|-resisted|p2a: Nelyeu tchagui
+|-damage|p2a: Nelyeu tchagui|311/354
+|
+|switch|p1a: Starmie|Starmie|261/261
+|-damage|p1a: Starmie|229/261|[from] Spikes
+|move|p2a: Nelyeu tchagui|Rapid Spin|p1a: Starmie
+|-damage|p1a: Starmie|217/261
+|-sideend|p2: Montbreton|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Nelyeu tchagui
+|
+|-heal|p2a: Nelyeu tchagui|333/354|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Nelyeu tchagui
+|-damage|p2a: Nelyeu tchagui|0 fnt
+|-damage|p1a: Starmie|191/261|[from] item: Life Orb
+|faint|p2a: Nelyeu tchagui
+|
+|
+|switch|p2a: Mom dolyeu tchagui|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Mom dolyeu tchagui
+|turn|6
+|
+|move|p2a: Mom dolyeu tchagui|Pursuit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|29/261
+|move|p1a: Starmie|Rapid Spin|p2a: Mom dolyeu tchagui
+|-resisted|p2a: Mom dolyeu tchagui
+|-damage|p2a: Mom dolyeu tchagui|335/341
+|-sideend|p1: Muff -|Spikes|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|3/261|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Starmie|0 fnt|[from] sandstorm
+|faint|p1a: Starmie
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|381/381
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Mom dolyeu tchagui
+|-unboost|p2a: Mom dolyeu tchagui|atk|1
+|turn|7
+|
+|switch|p2a: Yop Tchagui|Landorus-Therian, M|381/381
+|-ability|p2a: Yop Tchagui|Intimidate|[of] p1a: Landorus-Therian
+|-unboost|p1a: Landorus-Therian|atk|1
+|move|p1a: Landorus-Therian|Stealth Rock|p2a: Yop Tchagui
+|-sidestart|p2: Montbreton|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|8
+|
+|move|p1a: Landorus-Therian|Hidden Power|p2a: Yop Tchagui
+|-supereffective|p2a: Yop Tchagui
+|-damage|p2a: Yop Tchagui|65/381
+|move|p2a: Yop Tchagui|Hidden Power|p1a: Landorus-Therian
+|-supereffective|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|73/381
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|96/381|[from] item: Leftovers
+|-heal|p2a: Yop Tchagui|88/381|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Mom dolyeu tchagui|Tyranitar, M|335/341
+|-damage|p2a: Mom dolyeu tchagui|293/341|[from] Stealth Rock
+|move|p1a: Landorus-Therian|Hidden Power|p2a: Mom dolyeu tchagui
+|-damage|p2a: Mom dolyeu tchagui|254/341
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|119/381|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Mom dolyeu tchagui|Pursuit|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|52/381
+|move|p1a: Landorus-Therian|U-turn|p2a: Mom dolyeu tchagui
+|-supereffective|p2a: Mom dolyeu tchagui
+|-damage|p2a: Mom dolyeu tchagui|162/341
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|
+|-weather|Sandstorm|[upkeep]
+|turn|11
+|
+|switch|p2a: Duit Tchagui|Reuniclus, M|424/424
+|move|p1a: Jirachi|U-turn|p2a: Duit Tchagui
+|-supereffective|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|328/424
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|52/381
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Duit Tchagui
+|-unboost|p2a: Duit Tchagui|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|75/381|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|354/424|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|-damage|p2a: Keldeo|303/323|[from] Stealth Rock
+|move|p1a: Landorus-Therian|U-turn|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|259/323
+|
+|switch|p1a: Amoonguss|Amoonguss, F|432/432 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|239/323|[from] sandstorm
+|-damage|p1a: Amoonguss|405/432 brn|[from] sandstorm
+|-heal|p1a: Amoonguss|432/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|378/432 brn|[from] brn
+|turn|13
+|
+|switch|p2a: Yop Tchagui|Landorus-Therian, M|88/381
+|-damage|p2a: Yop Tchagui|41/381|[from] Stealth Rock
+|-ability|p2a: Yop Tchagui|Intimidate|[of] p1a: Amoonguss
+|-unboost|p1a: Amoonguss|atk|1
+|move|p1a: Amoonguss|Giga Drain|p2a: Yop Tchagui
+|-damage|p2a: Yop Tchagui|0 fnt
+|-heal|p1a: Amoonguss|399/432 brn|[from] drain|[of] p2a: Yop Tchagui
+|faint|p2a: Yop Tchagui
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|372/432 brn|[from] sandstorm
+|-heal|p1a: Amoonguss|399/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|345/432 brn|[from] brn
+|
+|switch|p2a: Duit Tchagui|Reuniclus, M|354/424
+|turn|14
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|move|p2a: Duit Tchagui|Calm Mind|p2a: Duit Tchagui
+|-boost|p2a: Duit Tchagui|spa|1
+|-boost|p2a: Duit Tchagui|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|380/424|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Jirachi|Thunder Wave|p2a: Duit Tchagui
+|-status|p2a: Duit Tchagui|par
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|406/424 par|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|319/424 par
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|345/424 par|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|260/424 par
+|move|p2a: Duit Tchagui|Focus Blast|p1a: Jirachi
+|-damage|p1a: Jirachi|288/404
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|313/404|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|286/424 par|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Keldeo|Keldeo|239/323
+|-damage|p2a: Keldeo|219/323|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|166/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|146/323|[from] sandstorm
+|-heal|p1a: Jirachi|338/404|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Amoonguss|Amoonguss, F|432/432 brn
+|move|p2a: Keldeo|Secret Sword|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|332/432 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|126/323|[from] sandstorm
+|-damage|p1a: Amoonguss|305/432 brn|[from] sandstorm
+|-heal|p1a: Amoonguss|332/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|278/432 brn|[from] brn
+|turn|20
+|
+|switch|p2a: Duit Tchagui|Reuniclus, M|286/424 par
+|move|p1a: Amoonguss|Giga Drain|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|187/424 par
+|-heal|p1a: Amoonguss|328/432 brn|[from] drain|[of] p2a: Duit Tchagui
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|301/432 brn|[from] sandstorm
+|-heal|p1a: Amoonguss|328/432 brn|[from] item: Black Sludge
+|-heal|p2a: Duit Tchagui|213/424 par|[from] item: Leftovers
+|-damage|p1a: Amoonguss|274/432 brn|[from] brn
+|turn|21
+|
+|switch|p1a: Jirachi|Jirachi|338/404
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|424/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|363/404|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|346/424 par
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|388/404|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|372/424 par|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|285/424 par
+|cant|p2a: Duit Tchagui|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|311/424 par|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|229/424 par
+|move|p2a: Duit Tchagui|Calm Mind|p2a: Duit Tchagui
+|-boost|p2a: Duit Tchagui|spa|1
+|-boost|p2a: Duit Tchagui|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|255/424 par|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|167/424 par
+|cant|p2a: Duit Tchagui|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|193/424 par|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|108/424 par
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|320/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|346/424 par|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|261/424 par
+|move|p2a: Duit Tchagui|Calm Mind|p2a: Duit Tchagui
+|-boost|p2a: Duit Tchagui|spa|1
+|-boost|p2a: Duit Tchagui|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|287/424 par|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|211/424 par
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|423/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|424/424 par|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|339/424 par
+|move|p2a: Duit Tchagui|Calm Mind|p2a: Duit Tchagui
+|-boost|p2a: Duit Tchagui|spa|1
+|-boost|p2a: Duit Tchagui|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|365/424 par|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-crit|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|206/424 par
+|cant|p2a: Duit Tchagui|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|232/424 par|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|156/424 par
+|cant|p2a: Duit Tchagui|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|182/424 par|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|95/424 par
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|307/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|333/424 par|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Jirachi|U-turn|p2a: Duit Tchagui
+|-supereffective|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|233/424 par
+|
+|switch|p1a: Landorus-Therian|Landorus-Therian, M|75/381
+|-ability|p1a: Landorus-Therian|Intimidate|[of] p2a: Duit Tchagui
+|-unboost|p2a: Duit Tchagui|atk|1
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|98/381|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|259/424 par|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|126/424 par
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|338/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus-Therian|121/381|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|364/424 par|[from] item: Leftovers
+|turn|35
+|
+|move|p1a: Landorus-Therian|Earthquake|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|214/424 par
+|move|p2a: Duit Tchagui|Psyshock|p1a: Landorus-Therian
+|-damage|p1a: Landorus-Therian|0 fnt
+|faint|p1a: Landorus-Therian
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|240/424 par|[from] item: Leftovers
+|
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|turn|36
+|
+|switch|p2a: Ap Tchagui|Rotom-Wash, shiny|304/304 slp
+|-damage|p2a: Ap Tchagui|266/304 slp|[from] Stealth Rock
+|move|p1a: Dragonite|Outrage|p2a: Ap Tchagui
+|-damage|p2a: Ap Tchagui|0 fnt
+|faint|p2a: Ap Tchagui
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|303/323|[from] sandstorm
+|
+|switch|p2a: Mom dolyeu tchagui|Tyranitar, M|162/341
+|-damage|p2a: Mom dolyeu tchagui|120/341|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Mom dolyeu tchagui|Stone Edge|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|turn|38
+|
+|move|p2a: Mom dolyeu tchagui|Stone Edge|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|314/404
+|move|p1a: Jirachi|Iron Head|p2a: Mom dolyeu tchagui
+|-supereffective|p2a: Mom dolyeu tchagui
+|-damage|p2a: Mom dolyeu tchagui|0 fnt
+|faint|p2a: Mom dolyeu tchagui
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|339/404|[from] item: Leftovers
+|
+|switch|p2a: Duit Tchagui|Reuniclus, M|240/424 par
+|turn|39
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|164/424 par
+|cant|p2a: Duit Tchagui|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|364/404|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|190/424 par|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|103/424 par
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|315/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|389/404|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|341/424 par|[from] item: Leftovers
+|turn|41
+|chat|Muff -|nooooooo
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|259/424 par
+|cant|p2a: Duit Tchagui|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|404/404|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|285/424 par|[from] item: Leftovers
+|turn|42
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-crit|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|129/424 par
+|cant|p2a: Duit Tchagui|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|155/424 par|[from] item: Leftovers
+|turn|43
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|79/424 par
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|105/424 par|[from] item: Leftovers
+|turn|44
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|20/424 par
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|232/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|258/424 par|[from] item: Leftovers
+|turn|45
+|chat|Muff -|NOOOO
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|176/424 par
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|202/424 par|[from] item: Leftovers
+|turn|46
+|chat|Muff -|t_T
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|118/424 par
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|330/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|356/424 par|[from] item: Leftovers
+|turn|47
+|
+|move|p1a: Jirachi|Iron Head|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|271/424 par
+|move|p2a: Duit Tchagui|Calm Mind|p2a: Duit Tchagui
+|-boost|p2a: Duit Tchagui|spa|1
+|-boost|p2a: Duit Tchagui|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|297/424 par|[from] item: Leftovers
+|turn|48
+|
+|move|p1a: Jirachi|U-turn|p2a: Duit Tchagui
+|-supereffective|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|203/424 par
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|303/303
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|415/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|285/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|303/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|424/424 par|[from] item: Leftovers
+|turn|49
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|300/424 par
+|move|p2a: Duit Tchagui|Calm Mind|p2a: Duit Tchagui
+|-boost|p2a: Duit Tchagui|spa|1
+|-boost|p2a: Duit Tchagui|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|285/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|303/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|326/424 par|[from] item: Leftovers
+|turn|50
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Duit Tchagui|[miss]
+|-miss|p1a: Rotom-Wash|p2a: Duit Tchagui
+|move|p2a: Duit Tchagui|Psyshock|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|93/303
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|75/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|93/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|352/424 par|[from] item: Leftovers
+|turn|51
+|
+|move|p1a: Rotom-Wash|Pain Split|p2a: Duit Tchagui
+|-sethp|p2a: Duit Tchagui|222/424 par|p1a: Rotom-Wash|222/303|[from] move: Pain Split
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|248/424 par|[from] item: Leftovers
+|turn|52
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Duit Tchagui|[miss]
+|-miss|p1a: Rotom-Wash|p2a: Duit Tchagui
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|274/424 par|[from] item: Leftovers
+|turn|53
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|177/424 par
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|203/424 par|[from] item: Leftovers
+|turn|54
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|109/424 par
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|321/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|347/424 par|[from] item: Leftovers
+|turn|55
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|253/424 par
+|move|p2a: Duit Tchagui|Calm Mind|p2a: Duit Tchagui
+|-boost|p2a: Duit Tchagui|spa|1
+|-boost|p2a: Duit Tchagui|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|279/424 par|[from] item: Leftovers
+|turn|56
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|204/424 par
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|230/424 par|[from] item: Leftovers
+|turn|57
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|152/424 par
+|move|p2a: Duit Tchagui|Calm Mind|p2a: Duit Tchagui
+|-boost|p2a: Duit Tchagui|spa|1
+|-boost|p2a: Duit Tchagui|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|178/424 par|[from] item: Leftovers
+|turn|58
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|136/424 par
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|162/424 par|[from] item: Leftovers
+|turn|59
+|
+|move|p1a: Jirachi|U-turn|p2a: Duit Tchagui
+|-supereffective|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|62/424 par
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|222/303
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|88/424 par|[from] item: Leftovers
+|turn|60
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|51/424 par
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|move|p2a: Duit Tchagui|Recover|p2a: Duit Tchagui
+|-heal|p2a: Duit Tchagui|263/424 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Duit Tchagui|289/424 par|[from] item: Leftovers
+|turn|61
+|chat|Muff -|-.-
+|
+|move|p1a: Jirachi|U-turn|p2a: Duit Tchagui
+|-supereffective|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|199/424 par
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|222/303
+|cant|p2a: Duit Tchagui|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom-Wash|204/303|[from] sandstorm
+|-heal|p1a: Rotom-Wash|222/303|[from] item: Leftovers
+|-heal|p2a: Duit Tchagui|225/424 par|[from] item: Leftovers
+|turn|62
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Duit Tchagui
+|-crit|p2a: Duit Tchagui
+|-damage|p2a: Duit Tchagui|0 fnt
+|faint|p2a: Duit Tchagui
+|
+|switch|p1a: Amoonguss|Amoonguss, F|418/432 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|391/432 brn|[from] sandstorm
+|-heal|p1a: Amoonguss|418/432 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|364/432 brn|[from] brn
+|chat|Montbreton|....
+|
+|switch|p2a: Keldeo|Keldeo|126/323
+|-damage|p2a: Keldeo|106/323|[from] Stealth Rock
+|turn|63
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|267/432 brn
+|move|p1a: Amoonguss|Giga Drain|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-heal|p1a: Amoonguss|320/432 brn|[from] drain|[of] p2a: Keldeo
+|faint|p2a: Keldeo
+|
+|win|Muff -
+|raw|Ladder updating...
+|raw|Muff -'s rating: 1568 &rarr; <strong>1578</strong><br />(+10 for winning)
+|raw|Montbreton's rating: 1379 &rarr; <strong>1369</strong><br />(-10 for losing)
+|leave|Muff -
+|player|p1

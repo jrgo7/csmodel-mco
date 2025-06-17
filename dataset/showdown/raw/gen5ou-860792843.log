@@ -1,0 +1,458 @@
+|j|☆Kahan
+|j|☆porrompompom
+|player|p1|Kahan|ethan-gen2
+|player|p2|porrompompom|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Sigilyph, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|start
+|switch|p1a: DRAFOUNITE|Dragonite, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: DRAFOUNITE|Outrage|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|inactive|porrompompom has 120 seconds left.
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|2
+|
+|move|p2a: Latios|Draco Meteor|p1a: DRAFOUNITE
+|-supereffective|p1a: DRAFOUNITE
+|-crit|p1a: DRAFOUNITE
+|-damage|p1a: DRAFOUNITE|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: DRAFOUNITE
+|
+|upkeep
+|
+|switch|p1a: POLIFOU|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: POLIFOU
+|turn|3
+|
+|switch|p1a: KELDEFOU|Keldeo-Resolute|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: KELDEFOU|Secret Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100
+|move|p2a: Ferrothorn|Power Whip|p1a: KELDEFOU
+|-supereffective|p1a: KELDEFOU
+|-damage|p1a: KELDEFOU|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|26/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|porrompompom has 120 seconds left.
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: KELDEFOU|Secret Sword|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|32/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|move|p1a: KELDEFOU|Secret Sword|p2a: Sigilyph
+|-resisted|p2a: Sigilyph
+|-damage|p2a: Sigilyph|82/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|switch|p1a: POLIFOU|Politoed, M|100/100
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|inactive|porrompompom has 120 seconds left.
+|
+|move|p1a: POLIFOU|Encore|p2a: Sigilyph
+|-start|p2a: Sigilyph|Encore
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|inactive|porrompompom has 120 seconds left.
+|
+|switch|p1a: FOURACHI|Jirachi|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: FOURACHI|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p1a: POLIFOU|Politoed, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: POLIFOU
+|-crit|p1a: POLIFOU
+|-damage|p1a: POLIFOU|0 fnt
+|faint|p1a: POLIFOU
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: FOUROTHORN|Ferrothorn, M|100/100
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|32/100
+|move|p1a: FOUROTHORN|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|38/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Ferrothorn|Spikes|p1a: FOUROTHORN
+|-sidestart|p1: Kahan|Spikes
+|move|p1a: FOUROTHORN|Spikes|p2a: Ferrothorn
+|-sidestart|p2: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|44/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: FOURACHI|Jirachi|100/100
+|-damage|p1a: FOURACHI|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: FOURACHI
+|-sidestart|p1: Kahan|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOURACHI|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Spikes
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|move|p1a: FOURACHI|Substitute|p1a: FOURACHI
+|-start|p1a: FOURACHI|Substitute
+|-damage|p1a: FOURACHI|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOURACHI|76/100|[from] item: Leftovers
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: FOURACHI|Calm Mind|p1a: FOURACHI
+|-boost|p1a: FOURACHI|spa|1
+|-boost|p1a: FOURACHI|spd|1
+|move|p2a: Heatran|Taunt|p1a: FOURACHI
+|-start|p1a: FOURACHI|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOURACHI|82/100|[from] item: Leftovers
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: FOURACHI|Thunder|p2a: Heatran
+|-damage|p2a: Heatran|58/100
+|move|p2a: Heatran|Lava Plume|p1a: FOURACHI
+|-supereffective|p1a: FOURACHI
+|-activate|p1a: FOURACHI|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOURACHI|88/100|[from] item: Leftovers
+|-heal|p2a: Heatran|64/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: FOURACHI|Thunder|p2a: Heatran
+|-damage|p2a: Heatran|29/100
+|-status|p2a: Heatran|par
+|cant|p2a: Heatran|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOURACHI|94/100|[from] item: Leftovers
+|-heal|p2a: Heatran|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-immune|p1a: FOURACHI
+|move|p1a: FOURACHI|Thunder|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOURACHI|100/100|[from] item: Leftovers
+|-end|p1a: FOURACHI|move: Taunt
+|upkeep
+|turn|19
+|
+|move|p2a: Landorus|U-turn|p1a: FOURACHI
+|-end|p1a: FOURACHI|Substitute
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: FOURACHI|Water Pulse|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|72/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Latios|Trick|p1a: FOURACHI
+|-activate|p2a: Latios|move: Trick|[of] p1a: FOURACHI
+|-item|p1a: FOURACHI|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: FOURACHI|Thunder|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|47/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: FOURACHI|atk|1
+|switch|p1a: FOUROTHORN|Ferrothorn, M|100/100
+|-damage|p1a: FOUROTHORN|84/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOUROTHORN|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|50/100
+|-damage|p2a: Ferrothorn|38/100|[from] Spikes
+|-damage|p2a: Ferrothorn|32/100|[from] Stealth Rock
+|move|p1a: FOUROTHORN|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|26/100
+|-damage|p1a: FOUROTHORN|78/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|32/100|[from] item: Leftovers
+|-heal|p1a: FOUROTHORN|84/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Ferrothorn|Spikes|p1a: FOUROTHORN
+|-sidestart|p1: Kahan|Spikes
+|move|p1a: FOUROTHORN|Spikes|p2a: Ferrothorn
+|-sidestart|p2: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|38/100|[from] item: Leftovers
+|-heal|p1a: FOUROTHORN|90/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Sigilyph|Sigilyph, F|82/100 brn
+|move|p1a: FOUROTHORN|Spikes|p2a: Sigilyph
+|-sidestart|p2: porrompompom|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOUROTHORN|97/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: FOURACHI|Jirachi|100/100
+|-damage|p1a: FOURACHI|76/100|[from] Spikes
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: FOURACHI|Thunder|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|40/100 brn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|90/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: FOURACHI|Thunder|p2a: Sigilyph
+|-damage|p2a: Sigilyph|66/100 brn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: FOURACHI|Thunder|p2a: Sigilyph
+|-damage|p2a: Sigilyph|78/100 brn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p2a: Sigilyph|Psycho Shift|p1a: FOURACHI
+|-status|p1a: FOURACHI|brn
+|-curestatus|p2a: Sigilyph|brn|[msg]
+|move|p1a: FOURACHI|Thunder|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|35/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: FOURACHI|63/100 brn|[from] brn
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|30
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|85/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: FOURACHI|Thunder|p2a: Sigilyph
+|-damage|p2a: Sigilyph|61/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: FOURACHI|51/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: FOURACHI|Thunder|p2a: Sigilyph
+|-damage|p2a: Sigilyph|76/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: FOURACHI|38/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: FOURACHI|Thunder|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|42/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: FOURACHI|26/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: FOUTACRUEL|Tentacruel, F|100/100
+|-damage|p1a: FOUTACRUEL|76/100|[from] Spikes
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|92/100 brn
+|-singleturn|p2a: Sigilyph|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOUTACRUEL|82/100|[from] ability: Rain Dish
+|-heal|p1a: FOUTACRUEL|88/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: FOUTACRUEL|Rapid Spin|p2a: Sigilyph
+|-damage|p2a: Sigilyph|91/100 brn
+|-sideend|p1: Kahan|Spikes|[from] move: Rapid Spin|[of] p1a: FOUTACRUEL
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: FOUTACRUEL|94/100|[from] ability: Rain Dish
+|-heal|p1a: FOUTACRUEL|99/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|switch|p1a: FOURACHI|Jirachi|26/100 brn
+|move|p2a: Sigilyph|Stored Power|p1a: FOURACHI
+|-resisted|p1a: FOURACHI
+|-damage|p1a: FOURACHI|14/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: FOURACHI|1/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Sigilyph|Stored Power|p1a: FOURACHI
+|-resisted|p1a: FOURACHI
+|-damage|p1a: FOURACHI|0 fnt
+|faint|p1a: FOURACHI
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: KELDEFOU|Keldeo-Resolute|17/100
+|turn|37
+|
+|move|p1a: KELDEFOU|Hydro Pump|p2a: Sigilyph
+|-damage|p2a: Sigilyph|35/100 brn
+|move|p2a: Sigilyph|Stored Power|p1a: KELDEFOU
+|-supereffective|p1a: KELDEFOU
+|-damage|p1a: KELDEFOU|0 fnt
+|faint|p1a: KELDEFOU
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Kahan forfeited.
+|
+|win|porrompompom
+|l|☆Kahan
+|raw|Kahan's rating: 1405 &rarr; <strong>1383</strong><br />(-22 for losing)
+|raw|porrompompom's rating: 1369 &rarr; <strong>1391</strong><br />(+22 for winning)

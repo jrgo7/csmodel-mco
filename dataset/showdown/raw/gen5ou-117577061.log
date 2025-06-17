@@ -1,0 +1,297 @@
+|join|dtw
+|join|Pythagorean Python
+|player|p1|dtw|2
+|player|p2|Pythagorean Python|220
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Dugtrio, M
+|poke|p1|Tyranitar, F
+|poke|p1|Hydreigon, M
+|poke|p1|Skarmory, M
+|poke|p1|Breloom, M
+|poke|p1|Alakazam, M
+|poke|p2|Ninetales, F
+|poke|p2|Darmanitan, M
+|poke|p2|Victreebel, M
+|poke|p2|Shiftry, M
+|poke|p2|Forretress, M
+|poke|p2|Raikou, shiny
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|334/334
+|switch|p2a: Shiftry|Shiftry, M|321/321
+|turn|1
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|move|p1a: Skarmory|Stealth Rock|p2a: Forretress
+|-sidestart|p2: Pythagorean Python|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Skarmory|Taunt|p2a: Forretress
+|-start|p2a: Forretress|move: Taunt
+|cant|p2a: Forretress|move: Taunt|Stealth Rock
+|
+|turn|3
+|
+|switch|p1a: Breloom|Breloom, M|264/264
+|move|p2a: Forretress|Volt Switch|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|235/264
+|
+|switch|p2a: Darmanitan|Darmanitan, M|351/351
+|-damage|p2a: Darmanitan|264/351|[from] Stealth Rock
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|4
+|
+|switch|p1a: Skarmory|Skarmory, M|334/334
+|move|p2a: Darmanitan|Flare Blitz|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-activate|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1/334
+|-damage|p2a: Darmanitan|154/351|[from] recoil|[of] p1a: Skarmory
+|
+|turn|5
+|-enditem|p1a: Skarmory|Custap Berry|[eat]
+|-activate|p1a: Skarmory|Custap Berry
+|
+|move|p1a: Skarmory|Spikes|p2a: Darmanitan
+|-sidestart|p2: Pythagorean Python|Spikes
+|move|p2a: Darmanitan|Flare Blitz|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Darmanitan|153/351|[from] recoil|[of] p1a: Skarmory
+|faint|p1a: Skarmory
+|
+|
+|switch|p1a: Dugtrio|Dugtrio, M|211/211
+|turn|6
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/211
+|-damage|p2a: Darmanitan|84/351|[from] recoil|[of] p1a: Dugtrio
+|move|p1a: Dugtrio|Earthquake|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|
+|switch|p2a: Forretress|Forretress, M|354/354
+|-damage|p2a: Forretress|310/354|[from] Spikes
+|-damage|p2a: Forretress|266/354|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Breloom|Breloom, M|235/264 tox
+|move|p2a: Forretress|Rapid Spin|p1a: Breloom
+|-damage|p1a: Breloom|216/264 tox
+|-sideend|p2: Pythagorean Python|Spikes|[from] move: Rapid Spin|[of] p2a: Forretress
+|-sideend|p2: Pythagorean Python|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-heal|p2a: Forretress|288/354|[from] item: Leftovers
+|-heal|p1a: Breloom|249/264 tox|[from] ability: Poison Heal
+|turn|8
+|
+|move|p1a: Breloom|Spore|p2a: Forretress
+|-status|p2a: Forretress|slp
+|cant|p2a: Forretress|slp
+|
+|-heal|p2a: Forretress|310/354 slp|[from] item: Leftovers
+|-heal|p1a: Breloom|264/264 tox|[from] ability: Poison Heal
+|turn|9
+|
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|198/264 tox
+|-curestatus|p2a: Forretress|slp
+|move|p2a: Forretress|Gyro Ball|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|
+|-heal|p2a: Forretress|332/354|[from] item: Leftovers
+|-heal|p1a: Breloom|231/264 tox|[from] ability: Poison Heal
+|turn|10
+|
+|switch|p2a: Ninetales|Ninetales, F|288/288
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Breloom|Spore|p2a: Ninetales
+|-status|p2a: Ninetales|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Breloom|264/264 tox|[from] ability: Poison Heal
+|turn|11
+|
+|switch|p2a: Forretress|Forretress, M|332/354
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|198/264 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|354/354|[from] item: Leftovers
+|-heal|p1a: Breloom|231/264 tox|[from] ability: Poison Heal
+|turn|12
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Forretress|Gyro Ball|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|move|p1a: Breloom|Focus Punch|p2a: Forretress
+|-damage|p2a: Forretress|188/354
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|210/354|[from] item: Leftovers
+|-heal|p1a: Breloom|264/264 tox|[from] ability: Poison Heal
+|turn|13
+|
+|switch|p1a: Dugtrio|Dugtrio, M|1/211
+|move|p2a: Forretress|Volt Switch|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|232/354|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Dugtrio|Reversal|p2a: Forretress
+|-damage|p2a: Forretress|129/354
+|move|p2a: Forretress|Stealth Rock|p1a: Dugtrio
+|-sidestart|p1: dtw|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|151/354|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|70/354
+|move|p2a: Forretress|Rapid Spin|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Forretress|92/354|[from] item: Leftovers
+|
+|switch|p1a: Hydreigon|Hydreigon, M|325/325
+|-damage|p1a: Hydreigon|285/325|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|-damage|p1a: Hydreigon|253/325|[from] item: Life Orb
+|faint|p2a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Raikou|Raikou, shiny|322/322
+|-ability|p2a: Raikou|Pressure
+|turn|17
+|
+|move|p2a: Raikou|Aura Sphere|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-damage|p2a: Raikou|290/322|[from] item: Life Orb
+|faint|p1a: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Alakazam|Alakazam, M|251/251
+|turn|18
+|
+|move|p1a: Alakazam|Psyshock|p2a: Raikou
+|-damage|p2a: Raikou|118/322
+|move|p2a: Raikou|Weather Ball|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/251
+|-damage|p2a: Raikou|86/322|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|turn|19
+|
+|switch|p2a: Ninetales|Ninetales, F|288/288 slp
+|move|p1a: Alakazam|Signal Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|241/288 slp
+|-start|p2a: Ninetales|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|turn|20
+|
+|move|p1a: Alakazam|Psyshock|p2a: Ninetales
+|-damage|p2a: Ninetales|51/288 slp
+|cant|p2a: Ninetales|slp
+|
+|-weather|SunnyDay|[upkeep]
+|turn|21
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ninetales|[miss]
+|-miss|p1a: Alakazam|p2a: Ninetales
+|-curestatus|p2a: Ninetales|slp
+|-activate|p2a: Ninetales|confusion
+|-damage|p2a: Ninetales|24/288|[from] confusion
+|
+|-weather|SunnyDay|[upkeep]
+|turn|22
+|
+|move|p1a: Alakazam|Signal Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Shiftry|Shiftry, M|321/321
+|turn|23
+|
+|move|p2a: Shiftry|Low Kick|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p2a: Shiftry|289/321|[from] item: Life Orb
+|faint|p1a: Alakazam
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Tyranitar|Tyranitar, F|342/342
+|-damage|p1a: Tyranitar|300/342|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|24
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Shiftry
+|-damage|p2a: Shiftry|9/321
+|move|p2a: Shiftry|Low Kick|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Shiftry|0 fnt|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|faint|p2a: Shiftry
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Raikou|Raikou, shiny|86/322
+|switch|p1a: Breloom|Breloom, M|264/264 tox
+|-damage|p1a: Breloom|248/264 tox|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|25
+|
+|move|p2a: Raikou|Hidden Power|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-damage|p2a: Raikou|54/322|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|win|Pythagorean Python
+|raw|Ladder updating...
+|raw|dtw's rating: 1455 &rarr; <strong>1428</strong><br />(-27 for losing)
+|raw|Pythagorean Python's rating: 1327 &rarr; <strong>1354</strong><br />(+27 for winning)
+|chat|Pythagorean Python|gg
+|leave|dtw
+|player|p1

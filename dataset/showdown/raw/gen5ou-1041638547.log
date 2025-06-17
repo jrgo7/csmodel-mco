@@ -1,0 +1,372 @@
+|j|☆CalamityGreed
+|j|☆Ditto The Hoe
+|player|p1|CalamityGreed|burglar-gen2|1457
+|player|p2|Ditto The Hoe|266|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Azelf|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Scizor, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Salamence, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CalamityGreed)
+|inactive|Ditto The Hoe has 120 seconds left.
+|c|☆Ditto The Hoe|glhf
+|
+|start
+|switch|p1a: Moody Blues|Politoed, M, shiny|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Moody Blues
+|turn|1
+|c|☆CalamityGreed|u2
+|
+|move|p1a: Moody Blues|Surf|p2a: Azelf
+|-enditem|p2a: Azelf|Focus Sash
+|-damage|p2a: Azelf|1/100
+|move|p2a: Azelf|Stealth Rock|p1a: Moody Blues
+|-sidestart|p1: CalamityGreed|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|c|☆Ditto The Hoe|ty :)
+|
+|move|p1a: Moody Blues|Surf|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|3
+|
+|switch|p1a: Aerosmith|Latios, M, shiny|100/100
+|-damage|p1a: Aerosmith|88/100|[from] Stealth Rock
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Aerosmith|Dragon Pulse|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Focus Punch|p1a: Aerosmith
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem|[move] Focus Punch
+|-resisted|p1a: Aerosmith
+|-damage|p1a: Aerosmith|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Breloom|Mach Punch|p1a: Aerosmith
+|-resisted|p1a: Aerosmith
+|-damage|p1a: Aerosmith|0 fnt
+|faint|p1a: Aerosmith
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Chariot Requiem|Jirachi|100/100
+|-damage|p1a: Chariot Requiem|94/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Chariot Requiem|Substitute|p1a: Chariot Requiem
+|-start|p1a: Chariot Requiem|Substitute
+|-damage|p1a: Chariot Requiem|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chariot Requiem|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Garchomp|Earthquake|p1a: Chariot Requiem
+|-supereffective|p1a: Chariot Requiem
+|-end|p1a: Chariot Requiem|Substitute
+|move|p1a: Chariot Requiem|Water Pulse|p2a: Garchomp
+|-damage|p2a: Garchomp|71/100
+|-start|p2a: Garchomp|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chariot Requiem|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: The Grateful Dead|Ferrothorn, F|100/100
+|-damage|p1a: The Grateful Dead|94/100|[from] Stealth Rock
+|-activate|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: The Grateful Dead|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|-activate|p2a: Garchomp|confusion
+|-damage|p2a: Garchomp|32/100|[from] confusion
+|move|p1a: The Grateful Dead|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Ditto The Hoe|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|-activate|p2a: Garchomp|confusion
+|-damage|p2a: Garchomp|17/100|[from] confusion
+|move|p1a: The Grateful Dead|Power Whip|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|-end|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Earthquake|p1a: The Grateful Dead
+|-damage|p1a: The Grateful Dead|60/100
+|move|p1a: The Grateful Dead|Power Whip|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: The Grateful Dead|47/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: The Grateful Dead|53/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: The Grateful Dead|Leech Seed|p2a: Dragonite
+|-start|p2a: Dragonite|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: The Grateful Dead|60/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|63/100|[from] Leech Seed|[of] p1a: The Grateful Dead
+|-heal|p1a: The Grateful Dead|71/100|[silent]
+|upkeep
+|turn|13
+|j| Chango Dou
+|
+|move|p1a: The Grateful Dead|Protect|p1a: The Grateful Dead
+|-singleturn|p1a: The Grateful Dead|Protect
+|move|p2a: Dragonite|Fire Punch|p1a: The Grateful Dead
+|-activate|p1a: The Grateful Dead|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: The Grateful Dead|77/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|51/100|[from] Leech Seed|[of] p1a: The Grateful Dead
+|-heal|p1a: The Grateful Dead|89/100|[silent]
+|upkeep
+|turn|14
+|
+|move|p2a: Dragonite|Fire Punch|p1a: The Grateful Dead
+|-supereffective|p1a: The Grateful Dead
+|-crit|p1a: The Grateful Dead
+|-damage|p1a: The Grateful Dead|0 fnt
+|-damage|p2a: Dragonite|39/100|[from] ability: Iron Barbs|[of] p1a: The Grateful Dead
+|faint|p1a: The Grateful Dead
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Moody Blues|Politoed, M, shiny|100/100
+|-damage|p1a: Moody Blues|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Chariot Requiem|Jirachi|82/100
+|-damage|p1a: Chariot Requiem|75/100|[from] Stealth Rock
+|move|p2a: Dragonite|Extreme Speed|p1a: Chariot Requiem
+|-resisted|p1a: Chariot Requiem
+|-damage|p1a: Chariot Requiem|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chariot Requiem|62/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|26/100|[from] Leech Seed|[of] p1a: Chariot Requiem
+|-heal|p1a: Chariot Requiem|73/100|[silent]
+|upkeep
+|turn|16
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Chariot Requiem
+|-supereffective|p1a: Chariot Requiem
+|-damage|p1a: Chariot Requiem|39/100
+|-status|p1a: Chariot Requiem|brn
+|move|p1a: Chariot Requiem|Water Pulse|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|14/100
+|-start|p2a: Dragonite|confusion
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-end|p2a: Dragonite|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chariot Requiem|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragonite|1/100|[from] Leech Seed|[of] p1a: Chariot Requiem
+|-heal|p1a: Chariot Requiem|55/100 brn|[silent]
+|-damage|p1a: Chariot Requiem|43/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Chariot Requiem
+|-supereffective|p1a: Chariot Requiem
+|-damage|p1a: Chariot Requiem|9/100 brn
+|move|p1a: Chariot Requiem|Thunder|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chariot Requiem|15/100 brn|[from] item: Leftovers
+|-damage|p1a: Chariot Requiem|3/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|76/100
+|-damage|p2a: Breloom|70/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Breloom|Mach Punch|p1a: Chariot Requiem
+|-damage|p1a: Chariot Requiem|0 fnt
+|faint|p1a: Chariot Requiem
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: S#x Pistols|Tentacruel, M|100/100
+|-damage|p1a: S#x Pistols|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Breloom|Bullet Seed|p1a: S#x Pistols
+|-damage|p1a: S#x Pistols|68/100
+|-damage|p1a: S#x Pistols|49/100
+|-hitcount|p1a: S#x Pistols|2
+|move|p1a: S#x Pistols|Rapid Spin|p2a: Breloom
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|60/100
+|-sideend|p1: CalamityGreed|Stealth Rock|[from] move: Rapid Spin|[of] p1a: S#x Pistols
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: S#x Pistols|55/100|[from] ability: Rain Dish
+|-heal|p1a: S#x Pistols|61/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|35/100
+|move|p1a: S#x Pistols|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: S#x Pistols|68/100|[from] ability: Rain Dish
+|-heal|p1a: S#x Pistols|74/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Breloom|Bullet Seed|p1a: S#x Pistols
+|-damage|p1a: S#x Pistols|53/100
+|-damage|p1a: S#x Pistols|34/100
+|-damage|p1a: S#x Pistols|14/100
+|-hitcount|p1a: S#x Pistols|3
+|move|p1a: S#x Pistols|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: S#x Pistols|20/100|[from] ability: Rain Dish
+|-heal|p1a: S#x Pistols|26/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Breloom|Bullet Seed|p1a: S#x Pistols
+|-damage|p1a: S#x Pistols|6/100
+|-damage|p1a: S#x Pistols|0 fnt
+|-hitcount|p1a: S#x Pistols|2
+|faint|p1a: S#x Pistols
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: RainyDayDreamAway|Thundurus-Therian, M|100/100
+|turn|23
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: RainyDayDreamAway|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: RainyDayDreamAway|Substitute|p1a: RainyDayDreamAway
+|-start|p1a: RainyDayDreamAway|Substitute
+|-damage|p1a: RainyDayDreamAway|76/100
+|move|p2a: Scizor|Acrobatics|p1a: RainyDayDreamAway
+|-enditem|p2a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-resisted|p1a: RainyDayDreamAway
+|-end|p1a: RainyDayDreamAway|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: RainyDayDreamAway|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: RainyDayDreamAway|Thunder|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: RainyDayDreamAway|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Salamence|Outrage|p1a: RainyDayDreamAway
+|-damage|p1a: RainyDayDreamAway|4/100
+|move|p1a: RainyDayDreamAway|Hidden Power|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|win|CalamityGreed
+|c|☆Ditto The Hoe|gg
+|raw|CalamityGreed's rating: 1457 &rarr; <strong>1469</strong><br />(+12 for winning)
+|raw|Ditto The Hoe's rating: 1319 &rarr; <strong>1306</strong><br />(-13 for losing)

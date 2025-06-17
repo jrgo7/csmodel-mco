@@ -1,0 +1,422 @@
+|j|Nightanglet
+|j|Snowenn
+|player|p1|Nightanglet|209
+|player|p2|Snowenn|264
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|3556,8675,48130,58678
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Starmie|item
+|poke|p1|Vaporeon, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Walrein, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Mamoswine, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Spikey Moss|Ferrothorn, M|351/351
+|switch|p2a: Abomasnow|Abomasnow, F|384/384
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|choice|move thunderwave|move brickbreak
+|
+|move|p2a: Abomasnow|Brick Break|p1a: Spikey Moss
+|-supereffective|p1a: Spikey Moss
+|-damage|p1a: Spikey Moss|207/351
+|-damage|p2a: Abomasnow|336/384|[from] ability: Iron Barbs|[of] p1a: Spikey Moss
+|move|p1a: Spikey Moss|Thunder Wave|p2a: Abomasnow
+|-status|p2a: Abomasnow|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Spikey Moss|186/351|[from] hail
+|-heal|p1a: Spikey Moss|207/351|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Walrein|Walrein, F|424/424
+|move|p1a: Spikey Moss|Stealth Rock|p2a: Walrein
+|-sidestart|p2: Snowenn|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Spikey Moss|186/351|[from] hail
+|-heal|p1a: Spikey Moss|207/351|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move leechseed|move substitute
+|
+|move|p2a: Walrein|Substitute|p2a: Walrein
+|-start|p2a: Walrein|Substitute
+|-damage|p2a: Walrein|318/424
+|move|p1a: Spikey Moss|Leech Seed|p2a: Walrein
+|-fail|p2a: Walrein
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Walrein|344/424|[from] ability: Ice Body
+|-damage|p1a: Spikey Moss|186/351|[from] hail
+|-heal|p2a: Walrein|370/424|[from] item: Leftovers
+|-heal|p1a: Spikey Moss|207/351|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move powerwhip|move superfang
+|
+|move|p2a: Walrein|Super Fang|p1a: Spikey Moss
+|-damage|p1a: Spikey Moss|104/351
+|-damage|p2a: Walrein|317/424|[from] ability: Iron Barbs|[of] p1a: Spikey Moss
+|move|p1a: Spikey Moss|Power Whip|p2a: Walrein
+|-supereffective|p2a: Walrein
+|-end|p2a: Walrein|Substitute
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Walrein|343/424|[from] ability: Ice Body
+|-damage|p1a: Spikey Moss|83/351|[from] hail
+|-heal|p2a: Walrein|369/424|[from] item: Leftovers
+|-heal|p1a: Spikey Moss|104/351|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move powerwhip|move blizzard
+|
+|move|p2a: Walrein|Blizzard|p1a: Spikey Moss
+|-damage|p1a: Spikey Moss|0 fnt
+|faint|p1a: Spikey Moss
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Walrein|395/424|[from] ability: Ice Body
+|-heal|p2a: Walrein|421/424|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Rain Bringing Toad|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Rain Bringing Toad
+|turn|6
+|choice|move toxic|move substitute
+|
+|move|p1a: Rain Bringing Toad|Toxic|p2a: Walrein
+|-status|p2a: Walrein|tox
+|move|p2a: Walrein|Substitute|p2a: Walrein
+|-start|p2a: Walrein|Substitute
+|-damage|p2a: Walrein|315/424 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Walrein|341/424 tox|[from] item: Leftovers
+|-damage|p2a: Walrein|315/424 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move encore|move superfang
+|
+|move|p1a: Rain Bringing Toad|Encore|p2a: Walrein
+|-start|p2a: Walrein|Encore
+|move|p2a: Walrein|Substitute|p2a: Walrein
+|-fail|p2a: Walrein|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Walrein|341/424 tox|[from] item: Leftovers
+|-damage|p2a: Walrein|289/424 tox|[from] psn
+|upkeep
+|turn|8
+|choice|switch 6|switch 3
+|
+|switch|p1a: Lightning Genie|Thundurus-Therian, M|299/299
+|switch|p2a: Tentacruel|Tentacruel, M|364/364
+|-damage|p2a: Tentacruel|319/364|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|341/364|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|move thunder|switch 4
+|
+|switch|p2a: Abomasnow|Abomasnow, F|336/384 par
+|-damage|p2a: Abomasnow|240/384 par|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Lightning Genie|Thunder|p2a: Abomasnow|[miss]
+|-miss|p1a: Lightning Genie|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lightning Genie|281/299|[from] hail
+|upkeep
+|turn|10
+|choice|switch 6|move woodhammer
+|
+|switch|p1a: Rain Bringing Toad|Politoed, M|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Rain Bringing Toad
+|move|p2a: Abomasnow|Wood Hammer|p1a: Rain Bringing Toad
+|-supereffective|p1a: Rain Bringing Toad
+|-damage|p1a: Rain Bringing Toad|0 fnt
+|-damage|p2a: Abomasnow|113/384 par|[from] recoil|[of] p1a: Rain Bringing Toad
+|faint|p1a: Rain Bringing Toad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Wind Genie|Tornadus, M|299/299
+|turn|11
+|choice|move hurricane|switch 5
+|
+|switch|p2a: Heatran|Heatran, F|323/323
+|-damage|p2a: Heatran|283/323|[from] Stealth Rock
+|move|p1a: Wind Genie|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|158/323
+|-damage|p1a: Wind Genie|270/299|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|178/323|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move focusblast|move stealthrock
+|
+|move|p1a: Wind Genie|Focus Blast|p2a: Heatran|[miss]
+|-miss|p1a: Wind Genie|p2a: Heatran
+|move|p2a: Heatran|Stealth Rock|p1a: Wind Genie
+|-sidestart|p1: Nightanglet|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|198/323|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move focusblast|move lavaplume
+|
+|move|p1a: Wind Genie|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-damage|p1a: Wind Genie|241/299|[from] item: Life Orb
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Abomasnow|Abomasnow, F|113/384 par
+|-damage|p2a: Abomasnow|17/384 par|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|14
+|choice|move hurricane|move iceshard
+|
+|cant|p2a: Abomasnow|par
+|move|p1a: Wind Genie|Hurricane|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-damage|p1a: Wind Genie|212/299|[from] item: Life Orb
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Wind Genie|194/299|[from] hail
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Tentacruel|Tentacruel, M|341/364
+|-damage|p2a: Tentacruel|296/364|[from] Stealth Rock
+|turn|15
+|choice|move hurricane|move rapidspin
+|
+|move|p1a: Wind Genie|Hurricane|p2a: Tentacruel
+|-damage|p2a: Tentacruel|82/364
+|-damage|p1a: Wind Genie|165/299|[from] item: Life Orb
+|move|p2a: Tentacruel|Rapid Spin|p1a: Wind Genie
+|-crit|p1a: Wind Genie
+|-damage|p1a: Wind Genie|138/299
+|-sideend|p2: Snowenn|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Wind Genie|120/299|[from] hail
+|-damage|p2a: Tentacruel|60/364|[from] hail
+|-heal|p2a: Tentacruel|82/364|[from] item: Black Sludge
+|upkeep
+|turn|16
+|j|M0f0
+|choice|move hurricane|move toxicspikes
+|
+|move|p1a: Wind Genie|Hurricane|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-damage|p1a: Wind Genie|91/299|[from] item: Life Orb
+|faint|p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Wind Genie|73/299|[from] hail
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Alakazam|Alakazam, F|251/251
+|turn|17
+|choice|move tailwind|move shadowball
+|
+|move|p1a: Wind Genie|Tailwind|p1a: Wind Genie
+|-sidestart|p1: Nightanglet|move: Tailwind
+|move|p2a: Alakazam|Shadow Ball|p1a: Wind Genie
+|-damage|p1a: Wind Genie|0 fnt
+|faint|p1a: Wind Genie
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Lightning Genie|Thundurus-Therian, M|281/299
+|-damage|p1a: Lightning Genie|207/299|[from] Stealth Rock
+|turn|18
+|choice|move grassknot|move psychic
+|
+|move|p1a: Lightning Genie|Grass Knot|p2a: Alakazam
+|-damage|p2a: Alakazam|156/251
+|move|p2a: Alakazam|Psychic|p1a: Lightning Genie
+|-damage|p1a: Lightning Genie|0 fnt
+|faint|p1a: Lightning Genie
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Starfish|Starmie|261/261
+|-damage|p1a: Starfish|229/261|[from] Stealth Rock
+|turn|19
+|choice|move hydropump|move shadowball
+|
+|move|p1a: Starfish|Hydro Pump|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-damage|p1a: Starfish|203/261|[from] item: Life Orb
+|faint|p2a: Alakazam
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starfish|187/261|[from] hail
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Walrein|Walrein, F|289/424 tox
+|turn|20
+|choice|move rapidspin|move blizzard
+|
+|move|p1a: Starfish|Rapid Spin|p2a: Walrein
+|-damage|p2a: Walrein|279/424 tox
+|-sideend|p1: Nightanglet|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starfish
+|-damage|p1a: Starfish|161/261|[from] item: Life Orb
+|move|p2a: Walrein|Blizzard|p1a: Starfish
+|-resisted|p1a: Starfish
+|-damage|p1a: Starfish|86/261
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starfish|70/261|[from] hail
+|-heal|p2a: Walrein|305/424 tox|[from] ability: Ice Body
+|-heal|p2a: Walrein|331/424 tox|[from] item: Leftovers
+|-damage|p2a: Walrein|305/424 tox|[from] psn
+|-sideend|p1: Nightanglet|move: Tailwind
+|upkeep
+|turn|21
+|choice|move psyshock|move blizzard
+|
+|move|p1a: Starfish|Psyshock|p2a: Walrein
+|-damage|p2a: Walrein|184/424 tox
+|-damage|p1a: Starfish|44/261|[from] item: Life Orb
+|move|p2a: Walrein|Blizzard|p1a: Starfish
+|-resisted|p1a: Starfish
+|-damage|p1a: Starfish|0 fnt
+|faint|p1a: Starfish
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Walrein|210/424 tox|[from] ability: Ice Body
+|-heal|p2a: Walrein|236/424 tox|[from] item: Leftovers
+|-damage|p2a: Walrein|184/424 tox|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: LIQUIDBONES|Vaporeon, M|464/464
+|turn|22
+|choice|move acidarmor|move superfang
+|
+|move|p2a: Walrein|Super Fang|p1a: LIQUIDBONES
+|-damage|p1a: LIQUIDBONES|232/464
+|move|p1a: LIQUIDBONES|Acid Armor|p1a: LIQUIDBONES
+|-boost|p1a: LIQUIDBONES|def|2
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Walrein|210/424 tox|[from] ability: Ice Body
+|-damage|p1a: LIQUIDBONES|203/464|[from] hail
+|-heal|p1a: LIQUIDBONES|232/464|[from] item: Leftovers
+|-heal|p2a: Walrein|236/424 tox|[from] item: Leftovers
+|-damage|p2a: Walrein|158/424 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move rest|move superfang
+|
+|move|p2a: Walrein|Super Fang|p1a: LIQUIDBONES
+|-damage|p1a: LIQUIDBONES|116/464
+|move|p1a: LIQUIDBONES|Rest|p1a: LIQUIDBONES
+|-status|p1a: LIQUIDBONES|slp
+|-heal|p1a: LIQUIDBONES|464/464 slp|[silent]
+|-status|p1a: LIQUIDBONES|slp|[from] move: Rest
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LIQUIDBONES|435/464 slp|[from] hail
+|-heal|p2a: Walrein|184/424 tox|[from] ability: Ice Body
+|-heal|p1a: LIQUIDBONES|464/464 slp|[from] item: Leftovers
+|-heal|p2a: Walrein|210/424 tox|[from] item: Leftovers
+|-damage|p2a: Walrein|106/424 tox|[from] psn
+|upkeep
+|turn|24
+|choice|move acidarmor|move superfang
+|
+|move|p2a: Walrein|Super Fang|p1a: LIQUIDBONES
+|-damage|p1a: LIQUIDBONES|232/464 slp
+|cant|p1a: LIQUIDBONES|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: LIQUIDBONES|203/464 slp|[from] hail
+|-heal|p2a: Walrein|132/424 tox|[from] ability: Ice Body
+|-heal|p1a: LIQUIDBONES|232/464 slp|[from] item: Leftovers
+|-heal|p2a: Walrein|158/424 tox|[from] item: Leftovers
+|-damage|p2a: Walrein|28/424 tox|[from] psn
+|upkeep
+|turn|25
+|choice|move rest|move superfang
+|
+|cant|p1a: LIQUIDBONES|slp
+|move|p2a: Walrein|Super Fang|p1a: LIQUIDBONES
+|-damage|p1a: LIQUIDBONES|116/464 slp
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Walrein|54/424 tox|[from] ability: Ice Body
+|-damage|p1a: LIQUIDBONES|87/464 slp|[from] hail
+|-heal|p1a: LIQUIDBONES|116/464 slp|[from] item: Leftovers
+|-heal|p2a: Walrein|80/424 tox|[from] item: Leftovers
+|-damage|p2a: Walrein|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Walrein
+|c|★Nightanglet|gg
+|choice||switch 6
+|
+|switch|p2a: Mamoswine|Mamoswine, M|361/361
+|turn|26
+|choice|move rest|move earthquake
+|
+|move|p2a: Mamoswine|Earthquake|p1a: LIQUIDBONES
+|-damage|p1a: LIQUIDBONES|0 fnt
+|faint|p1a: LIQUIDBONES
+|
+|win|Snowenn
+|player|p1
+|player|p2
+|c|★Snowenn|gg
+|l|Nightanglet
+|l|M0f0
+|raw|Nightanglet's rating: 1381 &rarr; <strong>1358</strong><br />(-23 for losing)
+|raw|Snowenn's rating: 1332 &rarr; <strong>1355</strong><br />(+23 for winning)

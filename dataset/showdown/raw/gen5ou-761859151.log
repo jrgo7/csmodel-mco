@@ -1,0 +1,711 @@
+|j|☆tetsuotheironman
+|j|☆Pilif
+|player|p1|tetsuotheironman|9
+|player|p2|Pilif|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Salamence, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Heracross, M|item
+|poke|p2|Gothitelle, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Vaporeon, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Ferrothorn, F|item
+|teampreview
+|
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pilif)
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Dragonite|Draco Meteor|p2a: Jirachi
+|-enditem|p1a: Dragonite|Dragon Gem|[from] gem|[move] Draco Meteor
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|71/100
+|-unboost|p1a: Dragonite|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Jirachi|Body Slam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|91/100
+|
+|upkeep
+|turn|3
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: Pilif|move: Stealth Rock
+|move|p2a: Jirachi|Body Slam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|82/100
+|-status|p1a: Jirachi|par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Jirachi|Light Screen|p2a: Jirachi
+|-sidestart|p2: Pilif|move: Light Screen
+|move|p1a: Jirachi|Thunder|p2a: Jirachi|[miss]
+|-miss|p1a: Jirachi|p2a: Jirachi
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Jirachi|Hidden Power|p2a: Hippowdon
+|-damage|p2a: Hippowdon|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Breloom
+|-sidestart|p1: tetsuotheironman|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Breloom|Spore|p2a: Hippowdon
+|-status|p2a: Hippowdon|slp
+|cant|p2a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|-damage|p2a: Gothitelle|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Focus Punch|p2a: Gothitelle
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Focus Punch
+|-resisted|p2a: Gothitelle
+|-damage|p2a: Gothitelle|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gothitelle|0 fnt|[from] Sandstorm
+|-damage|p1a: Breloom|82/100|[from] Sandstorm
+|upkeep
+|faint|p2a: Gothitelle
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|9
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Breloom
+|-status|p1a: Breloom|par
+|cant|p1a: Breloom|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|76/100 par|[from] Sandstorm
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Breloom|Mach Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|62/100
+|-damage|p1a: Breloom|64/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|34/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|28/100 par|[from] Sandstorm
+|-heal|p2a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Pilif has 135 seconds left.
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Ferrothorn|Power Whip|p1a: Breloom|[miss]
+|-miss|p2a: Ferrothorn|p1a: Breloom
+|move|p1a: Breloom|Focus Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Breloom|16/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|10/100 par|[from] Sandstorm
+|-sideend|p2: Pilif|move: Light Screen
+|upkeep
+|c|☆tetsuotheironman|sorry
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Jirachi|Jirachi|71/100
+|-damage|p2a: Jirachi|65/100|[from] Stealth Rock
+|turn|12
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Jirachi|Iron Head|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|turn|13
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100 slp
+|-damage|p2a: Hippowdon|94/100 slp|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|66/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Hippowdon
+|-damage|p2a: Hippowdon|68/100 slp
+|-sideend|p1: tetsuotheironman|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|cant|p2a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|45/100 slp
+|cant|p2a: Hippowdon|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|51/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|19/100 slp
+|-curestatus|p2a: Hippowdon|slp|[msg]
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: tetsuotheironman|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Tornadus|Icy Wind|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|81/100
+|-unboost|p2a: Vaporeon|spe|1
+|-damage|p1a: Tornadus|85/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|79/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|75/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|82/100 par
+|-damage|p1a: Jirachi|76/100 par|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|75/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|81/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|97/100
+|-damage|p1a: Excadrill|94/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|75/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|81/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|tetsuotheironman has 135 seconds left.
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|56/100
+|move|p2a: Vaporeon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|14/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|50/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|99/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Excadrill|Rapid Spin|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Hippowdon|Hippowdon, F|81/100
+|-damage|p2a: Hippowdon|75/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Hippowdon
+|-damage|p2a: Hippowdon|71/100
+|-sideend|p1: tetsuotheironman|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|77/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: tetsuotheironman|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|84/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Fire Blast|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|88/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|71/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|77/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Dragonite|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|39/100
+|-unboost|p1a: Dragonite|spa|2
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|82/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|32/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|39/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Dragonite|Extreme Speed|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|76/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|32/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|82/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|89/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|48/100 par
+|-damage|p1a: Jirachi|41/100 par|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|82/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|89/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p2a: Jirachi|Jirachi|65/100
+|-damage|p2a: Jirachi|59/100|[from] Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|14/100
+|-status|p2a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|72/100 par|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|30
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Jirachi|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|44/100 par
+|move|p2a: Jirachi|Reflect|p2a: Jirachi
+|-sidestart|p2: Pilif|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p2a: Vaporeon|Vaporeon, M|89/100
+|-damage|p2a: Vaporeon|76/100|[from] Stealth Rock
+|cant|p1a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|70/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|76/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Vaporeon|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|14/100 par
+|move|p1a: Jirachi|Thunder|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|28/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|Pilif has 135 seconds left.
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|cant|p1a: Jirachi|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|28/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Vaporeon|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|28/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|78/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|14/100
+|-damage|p1a: Excadrill|11/100|[from] Stealth Rock
+|turn|35
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|70/100
+|move|p2a: Vaporeon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|64/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|70/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus, M|79/100
+|-damage|p1a: Tornadus|54/100|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Tornadus|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|24/100
+|-start|p2a: Vaporeon|confusion
+|-damage|p1a: Tornadus|44/100|[from] item: Life Orb
+|-activate|p2a: Vaporeon|confusion
+|-damage|p2a: Vaporeon|19/100|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|38/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|13/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|19/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Pilif has 135 seconds left.
+|inactive|Pilif has 120 seconds left.
+|
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|move|p1a: Tornadus|Hurricane|p2a: Heracross|[miss]
+|-miss|p1a: Tornadus|p2a: Heracross
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|32/100|[from] Sandstorm
+|-damage|p2a: Heracross|82/100|[from] Sandstorm
+|-heal|p2a: Heracross|88/100|[from] item: Leftovers
+|-sideend|p2: Pilif|Reflect
+|upkeep
+|turn|38
+|
+|move|p1a: Tornadus|Hurricane|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|-damage|p1a: Tornadus|23/100|[from] item: Life Orb
+|faint|p2a: Heracross
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|17/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|44/100 par
+|-damage|p2a: Jirachi|38/100 par|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Tornadus|Focus Blast|p2a: Jirachi
+|-damage|p2a: Jirachi|5/100 par
+|-damage|p1a: Tornadus|7/100|[from] item: Life Orb
+|move|p2a: Jirachi|Light Screen|p2a: Jirachi
+|-sidestart|p2: Pilif|move: Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|1/100|[from] Sandstorm
+|upkeep
+|turn|40
+|inactive|tetsuotheironman has 135 seconds left.
+|
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Tornadus|0 fnt|[from] item: Life Orb
+|faint|p2a: Jirachi
+|faint|p1a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Pilif has 135 seconds left.
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|84/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|-damage|p2a: Hippowdon|77/100|[from] Stealth Rock
+|turn|41
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Salamence|Outrage|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|14/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|70/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|70/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Salamence|Outrage|p2a: Hippowdon|[from]lockedmove
+|-damage|p2a: Hippowdon|38/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|64/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|94/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Salamence|Outrage|p2a: Hippowdon|[from]lockedmove
+|-damage|p2a: Hippowdon|60/100
+|-start|p1a: Salamence|confusion|[fatigue]
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|58/100|[from] Sandstorm
+|upkeep
+|turn|44
+|
+|switch|p1a: Dragonite|Dragonite, M|76/100
+|-damage|p1a: Dragonite|51/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-fail|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|45/100|[from] Sandstorm
+|upkeep
+|turn|45
+|
+|move|p1a: Dragonite|Fire Blast|p2a: Hippowdon|[miss]
+|-miss|p1a: Dragonite|p2a: Hippowdon
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-fail|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|39/100|[from] Sandstorm
+|upkeep
+|turn|46
+|
+|move|p1a: Dragonite|Fire Blast|p2a: Hippowdon|[miss]
+|-miss|p1a: Dragonite|p2a: Hippowdon
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-fail|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|32/100|[from] Sandstorm
+|-sideend|p2: Pilif|move: Light Screen
+|upkeep
+|turn|47
+|
+|switch|p2a: Vaporeon|Vaporeon, M|19/100
+|-damage|p2a: Vaporeon|7/100|[from] Stealth Rock
+|move|p1a: Dragonite|Fire Blast|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|26/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|turn|48
+|
+|move|p1a: Dragonite|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|56/100
+|-status|p2a: Hippowdon|brn
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|20/100|[from] Sandstorm
+|-damage|p2a: Hippowdon|88/100 brn|[from] brn
+|upkeep
+|turn|49
+|inactive|Pilif has 135 seconds left.
+|
+|move|p1a: Dragonite|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|50/100 brn
+|move|p2a: Hippowdon|Roar|p1a: Dragonite
+|drag|p1a: Salamence|Salamence, F|58/100
+|-damage|p1a: Salamence|33/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|27/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Hippowdon|44/100 brn|[from] brn
+|upkeep
+|turn|50
+|inactive|tetsuotheironman has 135 seconds left.
+|
+|move|p1a: Salamence|Fire Blast|p2a: Hippowdon|[miss]
+|-miss|p1a: Salamence|p2a: Hippowdon
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|94/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|21/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Hippowdon|88/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p1a: Salamence|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|58/100 brn
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|15/100|[from] Sandstorm
+|-damage|p2a: Hippowdon|88/100 brn|[from] brn
+|upkeep
+|turn|52
+|c|☆tetsuotheironman|gg
+|c|☆Pilif|gg
+|
+|move|p1a: Salamence|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|57/100 brn
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|9/100|[from] Sandstorm
+|-damage|p2a: Hippowdon|88/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Salamence|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|57/100 brn
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|3/100|[from] Sandstorm
+|-damage|p2a: Hippowdon|88/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Salamence|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|58/100 brn
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|0 fnt|[from] Sandstorm
+|-damage|p2a: Hippowdon|88/100 brn|[from] brn
+|upkeep
+|faint|p1a: Salamence
+|
+|switch|p1a: Dragonite|Dragonite, M|20/100
+|-damage|p1a: Dragonite|0 fnt|[from] Stealth Rock
+|faint|p1a: Dragonite
+|
+|win|Pilif
+|l|☆tetsuotheironman
+|raw|tetsuotheironman's rating: 1347 &rarr; <strong>1325</strong><br />(-22 for losing)
+|raw|Pilif's rating: 1313 &rarr; <strong>1335</strong><br />(+22 for winning)

@@ -1,0 +1,803 @@
+|j|adjourney
+|j|Miha Zarabec
+|player|p1|adjourney|1
+|player|p2|Miha Zarabec|160
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|43747,1522,833,33929
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F, shiny|item
+|poke|p1|Ferrothorn, M, shiny|item
+|poke|p1|Chansey, F|item
+|poke|p1|Gothitelle, M, shiny|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p2|Mew|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Politoed|Politoed, F, shiny|383/383
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|choice|move hypnosis|move stoneedge
+|
+|move|p1a: Politoed|Hypnosis|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Politoed|360/383|[from] sandstorm
+|upkeep
+|turn|2
+|choice|switch 3|move stoneedge
+|
+|switch|p1a: Chansey|Chansey, F|704/704
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Stone Edge|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|352/352
+|turn|3
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Mew|Mew|404/404
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Mew
+|-sidestart|p2: Miha Zarabec|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|379/404|[from] sandstorm
+|-heal|p2a: Mew|404/404|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 4|move willowisp
+|
+|switch|p1a: Gothitelle|Gothitelle, M, shiny|343/343
+|move|p2a: Mew|Will-O-Wisp|p1a: Gothitelle|[miss]
+|-miss|p2a: Mew|p1a: Gothitelle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gothitelle|322/343|[from] sandstorm
+|-damage|p2a: Mew|379/404|[from] sandstorm
+|-heal|p2a: Mew|404/404|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move trick|move icebeam
+|
+|move|p1a: Gothitelle|Trick|p2a: Mew
+|-activate|p1a: Gothitelle|move: Trick|[of] p2a: Mew
+|-item|p2a: Mew|Choice Scarf|[from] move: Trick
+|-item|p1a: Gothitelle|Leftovers|[from] move: Trick
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|258/343
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|379/404|[from] sandstorm
+|-damage|p1a: Gothitelle|237/343|[from] sandstorm
+|-heal|p1a: Gothitelle|258/343|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move rest|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|189/343
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|343/343 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|354/404|[from] sandstorm
+|-damage|p1a: Gothitelle|322/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|343/343 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move psychic|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|275/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|329/404|[from] sandstorm
+|-damage|p1a: Gothitelle|254/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|275/343 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|204/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|304/404|[from] sandstorm
+|-damage|p1a: Gothitelle|183/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|204/343 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move rest|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|135/343 slp
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|343/343 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|279/404|[from] sandstorm
+|-damage|p1a: Gothitelle|322/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|343/343 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|277/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|254/404|[from] sandstorm
+|-damage|p1a: Gothitelle|256/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|277/343 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|204/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|229/404|[from] sandstorm
+|-damage|p1a: Gothitelle|183/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|204/343 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move rest|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|131/343 slp
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|343/343 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|204/404|[from] sandstorm
+|-damage|p1a: Gothitelle|322/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|343/343 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|277/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|179/404|[from] sandstorm
+|-damage|p1a: Gothitelle|256/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|277/343 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|213/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|154/404|[from] sandstorm
+|-damage|p1a: Gothitelle|192/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|213/343 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move rest|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|149/343 slp
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|343/343 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|129/404|[from] sandstorm
+|-damage|p1a: Gothitelle|322/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|343/343 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|270/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|104/404|[from] sandstorm
+|-damage|p1a: Gothitelle|249/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|270/343 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|199/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|79/404|[from] sandstorm
+|-damage|p1a: Gothitelle|178/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|199/343 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move rest|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|129/343 slp
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|343/343 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|54/404|[from] sandstorm
+|-damage|p1a: Gothitelle|322/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|343/343 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Mew|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|269/343 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|29/404|[from] sandstorm
+|-damage|p1a: Gothitelle|248/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|269/343 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|switch 5|move icebeam
+|
+|switch|p1a: Skarmory|Skarmory, F|333/333
+|move|p2a: Mew|Ice Beam|p1a: Skarmory
+|-damage|p1a: Skarmory|248/333
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|4/404|[from] sandstorm
+|-heal|p1a: Skarmory|268/333|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move spikes|move struggle
+|
+|-activate|p2a: Mew|move: Struggle
+|move|p2a: Mew|Struggle|p1a: Skarmory
+|-damage|p1a: Skarmory|247/333
+|-damage|p2a: Mew|0 fnt|[from] recoil
+|faint|p2a: Mew
+|move|p1a: Skarmory|Spikes|p2: Mew
+|-sidestart|p2: Miha Zarabec|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|267/333|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Latios|Latios, M|301/301
+|-damage|p2a: Latios|264/301|[from] Stealth Rock
+|turn|22
+|choice|switch 5|move surf
+|
+|switch|p1a: Gothitelle|Gothitelle, M, shiny|269/343 slp
+|move|p2a: Latios|Surf|p1a: Gothitelle
+|-damage|p1a: Gothitelle|109/343 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|246/301|[from] sandstorm
+|-damage|p1a: Gothitelle|88/343 slp|[from] sandstorm
+|-heal|p1a: Gothitelle|109/343 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|switch 4|move surf
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|352/352
+|move|p2a: Latios|Surf|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|286/352
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|228/301|[from] sandstorm
+|-heal|p1a: Ferrothorn|308/352|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move leechseed|switch 5
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|-damage|p2a: Jirachi|379/404|[from] Stealth Rock
+|-damage|p2a: Jirachi|329/404|[from] Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Jirachi
+|-start|p2a: Jirachi|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|354/404|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|330/352|[from] item: Leftovers
+|-damage|p2a: Jirachi|304/404|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|352/352|[silent]
+|upkeep
+|turn|25
+|choice|switch 3|move wish
+|
+|switch|p1a: Politoed|Politoed, F, shiny|360/383
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|329/404|[from] item: Leftovers
+|-damage|p2a: Jirachi|279/404|[from] Leech Seed|[of] p1a: Politoed
+|-heal|p1a: Politoed|383/383|[silent]
+|upkeep
+|turn|26
+|choice|move hypnosis|switch 5
+|
+|switch|p2a: Latios|Latios, M|228/301
+|-damage|p2a: Latios|191/301|[from] Stealth Rock
+|move|p1a: Politoed|Hypnosis|p2a: Latios
+|-status|p2a: Latios|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|301/301 slp|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|27
+|choice|switch 3|switch 3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|352/352
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|-damage|p2a: Tyranitar|354/404|[from] Stealth Rock
+|-damage|p2a: Tyranitar|304/404|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|choice|move protect|move superpower
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Tyranitar|Superpower|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|choice|switch 6|move superpower
+|
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|move|p2a: Tyranitar|Superpower|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|246/364
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|224/364|[from] sandstorm
+|-heal|p1a: Tentacruel|246/364|[from] item: Black Sludge
+|upkeep
+|turn|30
+|choice|switch 3|switch 5
+|
+|switch|p1a: Politoed|Politoed, F, shiny|383/383
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Jirachi|Jirachi|279/404
+|-damage|p2a: Jirachi|254/404|[from] Stealth Rock
+|-damage|p2a: Jirachi|204/404|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|229/404|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move surf|switch 3
+|
+|switch|p2a: Latios|Latios, M|301/301 slp
+|-damage|p2a: Latios|264/301 slp|[from] Stealth Rock
+|move|p1a: Politoed|Surf|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|198/301 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|choice|switch 6|move trick
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|352/352
+|cant|p2a: Latios|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|choice|move leechseed|move trick
+|
+|cant|p2a: Latios|slp
+|move|p1a: Ferrothorn|Leech Seed|p2a: Latios
+|-start|p2a: Latios|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Latios|161/301 slp|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|34
+|choice|move leechseed|move trick
+|
+|-curestatus|p2a: Latios|slp|[msg]
+|move|p2a: Latios|Trick|p1a: Ferrothorn
+|-activate|p2a: Latios|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Ferrothorn|Leech Seed|p2a: Latios
+|-fail|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|179/301|[from] item: Leftovers
+|-damage|p2a: Latios|142/301|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|35
+|choice|move leechseed|switch 6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|382/382
+|-damage|p2a: Landorus|335/382|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Landorus
+|-start|p2a: Landorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Landorus|288/382|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|36
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Skarmory|Skarmory, F|267/333
+|move|p2a: Landorus|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: adjourney|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|287/333|[from] item: Leftovers
+|-damage|p2a: Landorus|241/382|[from] Leech Seed|[of] p1a: Skarmory
+|-heal|p1a: Skarmory|333/333|[silent]
+|upkeep
+|turn|37
+|choice|move spikes|move uturn
+|
+|move|p2a: Landorus|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|321/333
+|choice||switch 6
+|
+|switch|p2a: Latios|Latios, M|142/301
+|-damage|p2a: Latios|105/301|[from] Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Latios
+|-sidestart|p2: Miha Zarabec|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|123/301|[from] item: Leftovers
+|-heal|p1a: Skarmory|333/333|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|switch 5|move surf
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|352/352
+|-damage|p1a: Ferrothorn|330/352|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|271/352
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Latios|141/301|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move leechseed|switch 6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|241/382
+|-damage|p2a: Landorus|194/382|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Landorus
+|-start|p2a: Landorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Landorus|147/382|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|318/352|[silent]
+|upkeep
+|turn|40
+|choice|move leechseed|move uturn
+|
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|267/352
+|-damage|p2a: Landorus|100/382|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|choice||switch 3
+|
+|switch|p2a: Jirachi|Jirachi|229/404
+|-damage|p2a: Jirachi|162/404|[from] Spikes
+|-damage|p2a: Jirachi|137/404|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Jirachi
+|-start|p2a: Jirachi|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|162/404|[from] item: Leftovers
+|-damage|p2a: Jirachi|112/404|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|317/352|[silent]
+|upkeep
+|turn|41
+|choice|switch 3|move wish
+|
+|switch|p1a: Tentacruel|Tentacruel, F|246/364
+|-damage|p1a: Tentacruel|201/364|[from] Stealth Rock
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|223/364|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|245/364|[from] item: Black Sludge
+|-heal|p2a: Jirachi|137/404|[from] item: Leftovers
+|-damage|p2a: Jirachi|87/404|[from] Leech Seed|[of] p1a: Tentacruel
+|-heal|p1a: Tentacruel|295/364|[silent]
+|upkeep
+|turn|42
+|choice|move toxic|switch 5
+|
+|switch|p2a: Tyranitar|Tyranitar, M|304/404
+|-damage|p2a: Tyranitar|237/404|[from] Spikes
+|-damage|p2a: Tyranitar|187/404|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tentacruel|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|273/364|[from] sandstorm
+|-heal|p2a: Tyranitar|389/404 tox|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Tentacruel|295/364|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|364/404 tox|[from] psn
+|upkeep
+|turn|43
+|choice|move protect|move pursuit
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Tyranitar|Pursuit|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|273/364|[from] sandstorm
+|-heal|p1a: Tentacruel|295/364|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|314/404 tox|[from] psn
+|upkeep
+|turn|44
+|choice|move scald|move pursuit
+|
+|move|p1a: Tentacruel|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|224/404 tox
+|move|p2a: Tyranitar|Pursuit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|180/364
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|158/364|[from] sandstorm
+|-heal|p1a: Tentacruel|180/364|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|149/404 tox|[from] psn
+|upkeep
+|turn|45
+|choice|move rapidspin|switch 6
+|
+|switch|p2a: Latios|Latios, M|141/301
+|-damage|p2a: Latios|104/301|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Latios
+|-damage|p2a: Latios|92/301
+|-sideend|p1: adjourney|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|74/301|[from] sandstorm
+|-damage|p1a: Tentacruel|158/364|[from] sandstorm
+|-heal|p2a: Latios|92/301|[from] item: Leftovers
+|-heal|p1a: Tentacruel|180/364|[from] item: Black Sludge
+|upkeep
+|turn|46
+|choice|move protect|move psyshock
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Latios|Psyshock|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|74/301|[from] sandstorm
+|-damage|p1a: Tentacruel|158/364|[from] sandstorm
+|-heal|p2a: Latios|92/301|[from] item: Leftovers
+|-heal|p1a: Tentacruel|180/364|[from] item: Black Sludge
+|upkeep
+|turn|47
+|choice|switch 3|move dracometeor
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|317/352
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|215/352
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|74/301|[from] sandstorm
+|-heal|p2a: Latios|92/301|[from] item: Leftovers
+|upkeep
+|turn|48
+|choice|switch 6|switch 5
+|
+|switch|p2a: Jirachi|Jirachi|87/404
+|-damage|p2a: Jirachi|20/404|[from] Spikes
+|-damage|p2a: Jirachi|0 fnt|[from] Stealth Rock
+|faint|p2a: Jirachi
+|switch|p1a: Politoed|Politoed, F, shiny|383/383
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Latios|Latios, M|92/301
+|-damage|p2a: Latios|55/301|[from] Stealth Rock
+|turn|49
+|choice|move surf|move dracometeor
+|
+|move|p1a: Politoed|Surf|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|323/323
+|-damage|p2a: Keldeo|270/323|[from] Spikes
+|-damage|p2a: Keldeo|250/323|[from] Stealth Rock
+|turn|50
+|choice|move surf|move scald
+|
+|move|p2a: Keldeo|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|278/383
+|-status|p1a: Politoed|brn
+|move|p1a: Politoed|Surf|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|165/323
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|231/383 brn|[from] brn
+|upkeep
+|turn|51
+|choice|move surf|move scald
+|
+|move|p2a: Keldeo|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|124/383 brn
+|move|p1a: Politoed|Surf|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|80/323
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|77/383 brn|[from] brn
+|upkeep
+|turn|52
+|choice|switch 4|move scald
+|
+|switch|p1a: Gothitelle|Gothitelle, M, shiny|109/343 slp
+|move|p2a: Keldeo|Scald|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Tentacruel|Tentacruel, F|180/364
+|turn|53
+|choice|move scald|switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|149/404 tox
+|-damage|p2a: Tyranitar|99/404 tox|[from] Stealth Rock
+|-damage|p2a: Tyranitar|32/404 tox|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tentacruel|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|158/364|[from] sandstorm
+|-heal|p1a: Tentacruel|180/364|[from] item: Black Sludge
+|upkeep
+|c|☆adjourney|gg noob
+|choice||switch 3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/382
+|-damage|p2a: Landorus|53/382|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tentacruel|atk|1
+|turn|54
+|c|☆Miha Zarabec|uhm
+|c|☆Miha Zarabec|did I do something to you?
+|c|☆adjourney|o.o
+|c|☆Miha Zarabec|I mean, I understand this is the internet and stuff
+|c|☆adjourney|no
+|c|☆adjourney|talking too much
+|c|☆adjourney|its gg
+|c|☆adjourney|u had ur time
+|c|☆adjourney|u cant win
+|c|☆adjourney|0% chance
+|c|☆Miha Zarabec|I realize that
+|c|☆Miha Zarabec|but there's still no need to offend me
+|c|☆adjourney|ok
+|choice|move scald|move earthquake
+|
+|move|p1a: Tentacruel|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|158/364|[from] sandstorm
+|-heal|p1a: Tentacruel|180/364|[from] item: Black Sludge
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|80/323
+|-damage|p2a: Keldeo|60/323|[from] Stealth Rock
+|-damage|p2a: Keldeo|7/323|[from] Spikes
+|turn|55
+|c|☆Miha Zarabec|gg friend
+|choice|move protect|move scald
+|
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Keldeo|Scald|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|0 fnt|[from] sandstorm
+|-damage|p1a: Tentacruel|158/364|[from] sandstorm
+|-heal|p1a: Tentacruel|180/364|[from] item: Black Sludge
+|upkeep
+|faint|p2a: Keldeo
+|
+|win|adjourney
+|raw|adjourney's rating: 1287 &rarr; <strong>1317</strong><br />(+30 for winning)
+|raw|Miha Zarabec's rating: 1356 &rarr; <strong>1332</strong><br />(-24 for losing)
+|l|Miha Zarabec

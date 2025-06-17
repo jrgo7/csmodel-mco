@@ -1,0 +1,561 @@
+|j|☆epiccure7
+|j|☆based carnage
+|player|p1|epiccure7|266
+|player|p2|based carnage|290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Scizor, F|item
+|poke|p1|Politoed, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Keldeo|item
+|poke|p1|Latios, M|item
+|poke|p1|Forretress, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by based carnage)
+|
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|1
+|
+|move|p2a: Tornadus|Hurricane|p1a: Forretress
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|move|p1a: Forretress|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: based carnage|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|-enditem|p1a: Forretress|Custap Berry|[eat]
+|-activate|p1a: Forretress|item: Custap Berry|[consumed]
+|
+|move|p1a: Forretress|Explosion|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p1a: Forretress
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|3
+|inactive|epiccure7 has 120 seconds left.
+|inactive|epiccure7 has 90 seconds left.
+|
+|move|p1a: Latios|Trick|p2a: Ferrothorn
+|-activate|p1a: Latios|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Latios
+|-sidestart|p1: epiccure7|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Latios|Psyshock|p2a: Politoed
+|-damage|p2a: Politoed|42/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|48/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] Stealth Rock
+|move|p1a: Latios|Psyshock|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Scizor
+|-start|p1a: Scizor|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|94/100|[from] item: Leftovers
+|-damage|p1a: Scizor|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|86/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|88/100|[from] item: Leftovers
+|-damage|p1a: Scizor|75/100|[from] Leech Seed|[of] p2a: Gliscor
+|-heal|p2a: Gliscor|99/100|[silent]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|inactive|epiccure7 has 90 seconds left.
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|94/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|86/100
+|-damage|p2a: Ferrothorn|80/100|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|epiccure7 has 90 seconds left.
+|
+|move|p1a: Latios|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Latios
+|-start|p1a: Latios|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|100/100|[from] item: Leftovers
+|-damage|p1a: Latios|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100|[silent]
+|upkeep
+|turn|11
+|inactive|epiccure7 has 90 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|70/100|[silent]
+|upkeep
+|turn|12
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|54/100|[from] ability: Rain Dish
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|60/100|[from] item: Black Sludge
+|-damage|p1a: Jirachi|82/100|[from] Leech Seed|[of] p2a: Tentacruel
+|-heal|p2a: Tentacruel|74/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Latios
+|-damage|p1a: Latios|72/100
+|-sideend|p2: based carnage|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|80/100|[from] ability: Rain Dish
+|-heal|p1a: Latios|78/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|86/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Latios|Psyshock|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|92/100|[from] ability: Rain Dish
+|-heal|p1a: Latios|84/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|98/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p1a: Jirachi|Jirachi|82/100
+|-damage|p1a: Jirachi|76/100|[from] Stealth Rock
+|switch|p2a: Ferrothorn|Ferrothorn, F|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|57/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Jirachi|Flash Cannon|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|8/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|20/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|c|☆based carnage|f
+|inactive|epiccure7 has 120 seconds left.
+|
+|move|p1a: Jirachi|Flash Cannon|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|turn|20
+|
+|move|p1a: Jirachi|Thunder|p2a: Toxicroak
+|-damage|p2a: Toxicroak|46/100
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|59/100|[from] ability: Dry Skin
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|65/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p1a: Scizor|Scizor, F|75/100
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Protect||[still]
+|-fail|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|77/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|84/100|[from] item: Black Sludge
+|-heal|p1a: Scizor|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|44/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-heal|p2a: Toxicroak|76/100|[from] drain|[of] p1a: Scizor
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|88/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|95/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Toxicroak|Protect|p2a: Toxicroak
+|-singleturn|p2a: Toxicroak|Protect
+|move|p1a: Politoed|Psychic|p2a: Toxicroak
+|-activate|p2a: Toxicroak|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|100/100|[from] ability: Dry Skin
+|upkeep
+|turn|24
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|70/100
+|move|p1a: Politoed|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Keldeo
+|-sidestart|p1: epiccure7|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|move|p1a: Keldeo|Secret Sword|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|82/100|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|89/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p1a: Latios|Latios, M|84/100
+|-damage|p1a: Latios|72/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|100/100|[from] ability: Dry Skin
+|-heal|p1a: Latios|78/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, M|88/100
+|-damage|p1a: Politoed|75/100|[from] Stealth Rock
+|-damage|p1a: Politoed|63/100|[from] Spikes
+|turn|29
+|
+|move|p2a: Toxicroak|Protect|p2a: Toxicroak
+|-singleturn|p2a: Toxicroak|Protect
+|move|p1a: Politoed|Psychic|p2a: Toxicroak
+|-activate|p2a: Toxicroak|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|56/100
+|switch|p1a: Jirachi|Jirachi|88/100
+|-damage|p1a: Jirachi|75/100|[from] Spikes
+|-damage|p1a: Jirachi|69/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Jirachi|Thunder|p2a: Toxicroak
+|-damage|p2a: Toxicroak|62/100
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|74/100|[from] ability: Dry Skin
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|81/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|move|p1a: Jirachi|Thunder|p2a: Toxicroak
+|-damage|p2a: Toxicroak|47/100
+|-status|p2a: Toxicroak|par
+|move|p2a: Toxicroak|Drain Punch|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-heal|p2a: Toxicroak|61/100 par|[from] drain|[of] p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|73/100 par|[from] ability: Dry Skin
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|80/100 par|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|44/100
+|cant|p2a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|92/100 par|[from] ability: Dry Skin
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|98/100 par|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Toxicroak|Drain Punch|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-heal|p2a: Toxicroak|100/100 par|[from] drain|[of] p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|56/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|31/100
+|cant|p2a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|38/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆based carnage|f
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Toxicroak|Drain Punch|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|44/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|19/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|25/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Jirachi|Flash Cannon|p2a: Toxicroak
+|-damage|p2a: Toxicroak|31/100 par
+|cant|p2a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|43/100 par|[from] ability: Dry Skin
+|-heal|p1a: Jirachi|31/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|50/100 par|[from] item: Black Sludge
+|upkeep
+|turn|40
+|c|☆based carnage|sigh
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|62/100 par|[from] ability: Dry Skin
+|-heal|p1a: Jirachi|12/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|68/100 par|[from] item: Black Sludge
+|upkeep
+|turn|41
+|
+|move|p2a: Toxicroak|Protect|p2a: Toxicroak
+|-singleturn|p2a: Toxicroak|Protect
+|move|p1a: Jirachi|Flash Cannon|p2a: Toxicroak
+|-activate|p2a: Toxicroak|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|81/100 par|[from] ability: Dry Skin
+|-heal|p1a: Jirachi|19/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|87/100 par|[from] item: Black Sludge
+|upkeep
+|turn|42
+|
+|move|p1a: Jirachi|Flash Cannon|p2a: Toxicroak
+|-damage|p2a: Toxicroak|14/100 par
+|move|p2a: Toxicroak|Drain Punch|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-heal|p2a: Toxicroak|28/100 par|[from] drain|[of] p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|41/100 par|[from] ability: Dry Skin
+|-heal|p1a: Jirachi|25/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|47/100 par|[from] item: Black Sludge
+|upkeep
+|turn|43
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|59/100 par|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|66/100 par|[from] item: Black Sludge
+|upkeep
+|c|☆epiccure7|lol fuc
+|c|☆epiccure7|if only it killed....
+|c|☆epiccure7|i would've won
+|c|☆based carnage|yeah if only you haxed more
+|inactive|epiccure7 has 120 seconds left.
+|c|☆based carnage|lol
+|inactive|epiccure7 has 90 seconds left.
+|inactive|epiccure7 has 60 seconds left.
+|inactive|epiccure7 has 30 seconds left.
+|inactive|epiccure7 has 20 seconds left.
+|inactive|epiccure7 has 15 seconds left.
+|inactive|epiccure7 has 10 seconds left.
+|inactive|epiccure7 has 5 seconds left.
+|c|☆based carnage|gg
+|-message|epiccure7 lost due to inactivity.
+|
+|win|based carnage
+|raw|epiccure7's rating: 1323 &rarr; <strong>1305</strong><br />(-18 for losing)
+|raw|based carnage's rating: 1367 &rarr; <strong>1384</strong><br />(+17 for winning)

@@ -1,0 +1,383 @@
+|j|☆porrompompom
+|j|☆katsuko vlone
+|player|p1|porrompompom|101
+|player|p2|katsuko vlone|#bw2elesa
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Starmie|item
+|poke|p1|Heatran, F|item
+|poke|p1|Virizion|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Slowbro, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|
+|start
+|switch|p1a: Virizion|Virizion|100/100
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Amoonguss|Spore|p1a: Kyurem
+|-status|p1a: Kyurem|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kyurem|atk|1
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Fusion Bolt|p2a: Landorus|[from]Sleep Talk
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|90/100
+|
+|switch|p2a: Slowbro|Slowbro, M, shiny|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Landorus|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|73/100
+|-damage|p1a: Landorus|73/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100 slp
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Slowbro|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|87/100 slp
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Fusion Bolt|p2a: Excadrill|[from]Sleep Talk
+|-immune|p2a: Excadrill
+|
+|upkeep
+|turn|6
+|c|☆porrompompom|s i g h
+|
+|switch|p1a: Virizion|Virizion|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Virizion
+|-damage|p1a: Virizion|40/100
+|
+|-heal|p1a: Virizion|46/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|73/100
+|
+|-heal|p1a: Starmie|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Kyurem|Kyurem-Black|87/100 slp
+|-ability|p1a: Kyurem|Teravolt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|81/100 slp|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Fusion Bolt|p2a: Excadrill|[from]Sleep Talk
+|-immune|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|74/100 slp|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Starmie|Starmie|79/100
+|move|p2a: Excadrill|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|-activate|p2a: Tyranitar|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|79/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|move|p1a: Heatran|Sunny Day|p1a: Heatran
+|-weather|SunnyDay
+|move|p2a: Tyranitar|Pursuit|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|89/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Tyranitar|73/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|move|p1a: Heatran|Solar Beam||[still]
+|-prepare|p1a: Heatran|Solar Beam|p2a: Tyranitar
+|-anim|p1a: Heatran|Solar Beam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|9/100
+|move|p2a: Tyranitar|Crunch|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Tyranitar|3/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|move|p1a: Heatran|Solar Beam||[still]
+|-prepare|p1a: Heatran|Solar Beam|p2a: Tyranitar
+|-anim|p1a: Heatran|Solar Beam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|15
+|
+|switch|p1a: Landorus|Landorus-Therian, M|73/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|move|p2a: Terrakion|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|33/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Slowbro|Slowbro, M, shiny|100/100
+|move|p1a: Landorus|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|72/100
+|-damage|p1a: Landorus|17/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|switch|p1a: Kyurem|Kyurem-Black|74/100 slp
+|-ability|p1a: Kyurem|Teravolt
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Outrage|p2a: Excadrill|[from]Sleep Talk
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|14/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|84/100
+|
+|-heal|p1a: Metagross|90/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|-activate|p2a: Excadrill|move: Pursuit
+|move|p1a: Metagross|Pursuit|p2a: Excadrill|[from]Pursuit
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Metagross|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|turn|20
+|
+|move|p2a: Landorus|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|74/100 slp
+|-ability|p1a: Kyurem|Teravolt
+|turn|21
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Fusion Bolt|p2a: Terrakion|[from]Sleep Talk
+|-damage|p2a: Terrakion|21/100
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Heatran|Heatran, F|68/100
+|move|p2a: Terrakion|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|17/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|turn|23
+|
+|switch|p1a: Kyurem|Kyurem-Black|74/100 slp
+|-ability|p1a: Kyurem|Teravolt
+|switch|p2a: Slowbro|Slowbro, M, shiny|100/100
+|
+|upkeep
+|turn|24
+|
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Ice Beam|p2a: Slowbro|[from]Sleep Talk
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|79/100
+|move|p2a: Slowbro|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|62/100 slp
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kyurem|atk|1
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Ice Beam|p2a: Landorus|[from]Sleep Talk
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|21/100
+|turn|26
+|
+|switch|p1a: Virizion|Virizion|46/100
+|move|p2a: Terrakion|Close Combat|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Virizion
+|
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|17/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|turn|27
+|
+|switch|p1a: Kyurem|Kyurem-Black|62/100 slp
+|-ability|p1a: Kyurem|Teravolt
+|switch|p2a: Slowbro|Slowbro, M, shiny|100/100
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|100/100
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Ice Beam|p2a: Amoonguss|[from]Sleep Talk
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|41/100
+|
+|-heal|p2a: Amoonguss|47/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|switch|p2a: Slowbro|Slowbro, M, shiny|100/100
+|cant|p1a: Kyurem|slp
+|move|p1a: Kyurem|Sleep Talk|p1a: Kyurem
+|move|p1a: Kyurem|Ice Beam|p2a: Slowbro|[from]Sleep Talk
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|80/100
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Landorus|Landorus-Therian, M|17/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|move|p2a: Slowbro|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|-message|porrompompom forfeited.
+|
+|win|katsuko vlone
+|l|☆porrompompom
+|raw|porrompompom's rating: 1474 &rarr; <strong>1445</strong><br />(-29 for losing)
+|raw|katsuko vlone's rating: 1303 &rarr; <strong>1332</strong><br />(+29 for winning)
+|l|☆katsuko vlone
+|j|☆katsuko vlone

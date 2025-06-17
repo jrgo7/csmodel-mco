@@ -1,0 +1,264 @@
+|j|blt3 fml
+|j|BLT2 FINCHINATOR
+|player|p1|blt3 fml|283
+|player|p2|BLT2 FINCHINATOR|162
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M, shiny|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Latios, M|item
+|poke|p1|Metagross|item
+|poke|p1|Magnezone|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Moltres|item
+|poke|p2|Starmie|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Toxicroak, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|j|TaceBreeze
+|c|★BLT2 FINCHINATOR|ay
+|choice||
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M, shiny|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|choice||
+|
+|move|p2a: Politoed|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-enditem|p1a: Garchomp|Yache Berry|[weaken]
+|-damage|p1a: Garchomp|42/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Politoed
+|-sidestart|p2: BLT2 FINCHINATOR|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|choice||
+|
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Politoed|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|88/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|choice||
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|switch|p1a: Garchomp|Garchomp, M, shiny|42/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|turn|4
+|choice||
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Jirachi|Flash Cannon|p1a: Garchomp
+|-damage|p1a: Garchomp|11/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|j|reymaki
+|choice||
+|
+|move|p1a: Garchomp|Outrage|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|56/100
+|move|p2a: Jirachi|Flash Cannon|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|62/100|[from] item: Leftovers
+|j|Neon_Wielder
+|choice||
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|6
+|choice||
+|
+|move|p1a: Kyurem|Earth Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Kyurem|91/100|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|turn|7
+|l|Neon_Wielder
+|choice||
+|
+|switch|p1a: Metagross|Metagross|88/100
+|move|p2a: Politoed|Hypnosis|p1a: Metagross
+|-status|p1a: Metagross|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|choice||
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|switch|p1a: Kyurem|Kyurem-Black|91/100
+|-ability|p1a: Kyurem|Teravolt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|100/100|[from] ability: Dry Skin
+|turn|9
+|choice||
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|10/100
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|move|p1a: Kyurem|Earth Power|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-damage|p1a: Kyurem|0 fnt|[from] item: Life Orb
+|faint|p2a: Toxicroak
+|faint|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Politoed|Politoed, M|88/100
+|-damage|p2a: Politoed|76/100|[from] Stealth Rock
+|turn|10
+|choice||
+|
+|switch|p2a: sh6-0ka|Moltres|100/100
+|-damage|p2a: sh6-0ka|51/100|[from] Stealth Rock
+|-ability|p2a: sh6-0ka|Pressure
+|move|p1a: Latios|Draco Meteor|p2a: sh6-0ka
+|-damage|p2a: sh6-0ka|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: sh6-0ka
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|11
+|choice||
+|
+|move|p1a: Latios|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|28/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Landorus|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|39/100
+|choice||
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|choice||
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Starmie|Ice Beam|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|72/100
+|-damage|p2a: Starmie|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|choice||
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Magnezone|[miss]
+|-miss|p2a: Starmie|p1a: Magnezone
+|move|p1a: Magnezone|Volt Switch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|c|★BLT2 FINCHINATOR|-
+|choice||
+|
+|switch|p2a: Politoed|Politoed, M|76/100
+|-damage|p2a: Politoed|63/100|[from] Stealth Rock
+|turn|14
+|choice||
+|
+|move|p1a: Landorus|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|27/100
+|choice||
+|
+|switch|p1a: Magnezone|Magnezone|72/100
+|move|p2a: Politoed|Hydro Pump|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Politoed|atk|1
+|turn|15
+|l|TaceBreeze
+|choice||
+|
+|move|p1a: Landorus|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|choice||
+|
+|switch|p1a: Latios|Latios, M|39/100
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Landorus|Landorus-Therian, M|28/100
+|-damage|p2a: Landorus|16/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|16
+|c|★BLT2 FINCHINATOR|gg
+|choice||
+|
+|move|p1a: Latios|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|blt3 fml
+|player|p1
+|player|p2
+|raw|blt3 fml's rating: 1336 &rarr; <strong>1361</strong><br />(+25 for winning)
+|raw|BLT2 FINCHINATOR's rating: 1417 &rarr; <strong>1393</strong><br />(-24 for losing)
+|l|blt3 fml

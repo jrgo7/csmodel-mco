@@ -1,0 +1,276 @@
+|j|☆Meloriver ヽ
+|j|☆porrompompom
+|player|p1|Meloriver ヽ|137
+|player|p2|porrompompom|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Heatran, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by porrompompom)
+|inactive|Meloriver ヽ has 135 seconds left.
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|1
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Landorus|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|15/100 tox
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-fail|p2a: Gliscor|move: Substitute|[weak]
+|
+|-heal|p2a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|-heal|p2a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Landorus|Hidden Power|p2a: Skarmory
+|-damage|p2a: Skarmory|79/100
+|
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Landorus|Superpower|p2a: Skarmory
+|-enditem|p1a: Landorus|Fighting Gem|[from] gem|[move] Superpower
+|-damage|p2a: Skarmory|10/100
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|def|1
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|60/100
+|
+|-heal|p2a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Skarmory|Whirlwind|p1a: Rotom
+|drag|p1a: Scizor|Scizor, F|100/100
+|
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Skarmory|Spikes|p1a: Rotom
+|-sidestart|p1: Meloriver ヽ|Spikes
+|
+|-heal|p2a: Skarmory|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|80/100
+|
+|upkeep
+|turn|10
+|inactive|Meloriver ヽ has 135 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|37/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|74/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|-activate|p2a: Latios|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Latios|[from]Pursuit
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, F|40/100 tox
+|turn|12
+|
+|move|p2a: Gliscor|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|turn|13
+|j| xdcxczxczcz
+|
+|switch|p2a: Skarmory|Skarmory, F|79/100
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|l| xdcxczxczcz
+|
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Landorus|Superpower|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|def|1
+|move|p2a: Skarmory|Whirlwind|p1a: Landorus
+|drag|p1a: Rotom|Rotom-Wash|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|7/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Rotom|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Scizor|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|17
+|
+|switch|p2a: Gliscor|Gliscor, F|52/100 tox
+|switch|p1a: Latios|Latios, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Landorus|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|6/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|0 fnt|[from] Sandstorm
+|-damage|p1a: Landorus|88/100 brn|[from] brn
+|upkeep
+|faint|p2a: Jellicent
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|21
+|
+|move|p1a: Landorus|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|def|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Landorus|76/100 brn|[from] brn
+|upkeep
+|-message|porrompompom forfeited.
+|
+|win|Meloriver ヽ
+|l|☆porrompompom
+|c|☆Meloriver ヽ|easy
+|raw|Meloriver ヽ's rating: 1411 &rarr; <strong>1435</strong><br />(+24 for winning)
+|raw|porrompompom's rating: 1476 &rarr; <strong>1452</strong><br />(-24 for losing)

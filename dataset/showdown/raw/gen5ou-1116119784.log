@@ -1,0 +1,280 @@
+|join|PiggK
+|join|Knight2611
+|player|p1|PiggK|32
+|player|p2|Knight2611|266
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Haxorus, F
+|poke|p1|Rotom-Wash
+|poke|p1|Scizor, M
+|poke|p1|Toxicroak, M
+|poke|p1|Politoed, F
+|poke|p1|Garchomp, M
+|poke|p2|Metagross
+|poke|p2|Hydreigon, M
+|poke|p2|Volcarona, F
+|poke|p2|Mamoswine, F
+|poke|p2|Vaporeon, M
+|poke|p2|Conkeldurr, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F|376/376
+|switch|p2a: Mamoswine|Mamoswine, F|361/361
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: Politoed
+|-sidestart|p1: PiggK|move: Stealth Rock
+|move|p1a: Politoed|Hydro Pump|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/361
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Mamoswine|Endeavor|p1a: Politoed
+|-damage|p1a: Politoed|1/376
+|move|p1a: Politoed|Hydro Pump|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|381/381
+|turn|3
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|
+|switch|p1a: Garchomp|Garchomp, M|411/411
+|-damage|p1a: Garchomp|386/411|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: Knight2611|move: Stealth Rock
+|move|p2a: Conkeldurr|Ice Punch|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Conkeldurr|334/381 brn|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Conkeldurr|271/381 brn|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|224/381 brn|[from] brn
+|
+|switch|p1a: Toxicroak|Toxicroak, M|308/308
+|-damage|p1a: Toxicroak|289/308|[from] Stealth Rock
+|turn|5
+|
+|switch|p2a: Hydreigon|Hydreigon, M|326/326
+|-damage|p2a: Hydreigon|286/326|[from] Stealth Rock
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|308/308|[from] ability: Dry Skin
+|turn|6
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|254/326|[from] item: Life Orb
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|241/241
+|-damage|p1a: Rotom-Wash|211/241|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Vaporeon|Vaporeon, M|463/463
+|-damage|p2a: Vaporeon|406/463|[from] Stealth Rock
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|196/463
+|
+|switch|p1a: Haxorus|Haxorus, F|302/302
+|-damage|p1a: Haxorus|265/302|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|224/463|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|252/463|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Haxorus|Earthquake|p2a: Vaporeon
+|-activate|p2a: Vaporeon|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|463/463|[from] move: Wish|[wisher] Vaporeon
+|turn|10
+|
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Vaporeon|Roar|p1a: Haxorus
+|drag|p1a: Rotom-Wash|Rotom-Wash|211/241
+|-damage|p1a: Rotom-Wash|181/241|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|233/463
+|
+|switch|p1a: Haxorus|Haxorus, F|265/302
+|-damage|p1a: Haxorus|228/302|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|261/463|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|130/302
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|463/463|[from] move: Wish|[wisher] Vaporeon
+|turn|13
+|
+|move|p1a: Haxorus|Outrage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|115/463
+|move|p2a: Vaporeon|Roar|p1a: Haxorus
+|drag|p1a: Scizor|Scizor, M|343/343
+|-damage|p1a: Scizor|301/343|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|143/463|[from] item: Leftovers
+|-heal|p1a: Scizor|322/343|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Scizor|U-turn|p2a: Vaporeon
+|-activate|p2a: Vaporeon|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|171/463|[from] item: Leftovers
+|-heal|p1a: Scizor|343/343|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Scizor|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|60/463
+|
+|switch|p1a: Haxorus|Haxorus, F|130/302
+|-damage|p1a: Haxorus|93/302|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|88/463|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Haxorus|Outrage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Metagross|Metagross|364/364
+|-damage|p2a: Metagross|342/364|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Haxorus|Outrage|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|231/364
+|move|p2a: Metagross|Meteor Mash|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Scizor|Scizor, M|343/343
+|-damage|p1a: Scizor|301/343|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|224/381 brn
+|-damage|p2a: Conkeldurr|201/381 brn|[from] Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|322/343|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|154/381 brn|[from] brn
+|turn|19
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|343/343|[from] item: Leftovers
+|
+|switch|p2a: Volcarona|Volcarona, F|311/311
+|-damage|p2a: Volcarona|156/311|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|18/311
+|-status|p1a: Scizor|brn
+|move|p2a: Volcarona|Fire Blast|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|181/241
+|-damage|p1a: Rotom-Wash|151/241|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Rotom-Wash|Hydro Pump|p2a: Volcarona|[miss]
+|-miss|p1a: Rotom-Wash|p2a: Volcarona
+|move|p2a: Volcarona|Giga Drain|p1a: Rotom-Wash
+|-supereffective|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|0 fnt
+|-heal|p2a: Volcarona|94/311|[from] drain|[of] p1a: Rotom-Wash
+|faint|p1a: Rotom-Wash
+|
+|win|Knight2611
+|raw|Ladder updating...
+|raw|PiggK's rating: 1430 &rarr; <strong>1401</strong><br />(-29 for losing)
+|raw|Knight2611's rating: 1268 &rarr; <strong>1304</strong><br />(+36 for winning)
+|chat|PiggK|gg
+|leave|PiggK
+|player|p1

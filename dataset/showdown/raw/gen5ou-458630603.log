@@ -1,0 +1,229 @@
+|j|peakyblinded
+|j|raspberryblueberry
+|player|p1|peakyblinded|23
+|player|p2|raspberryblueberry|205
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Politoed, M|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Starmie|item
+|poke|p2|Latios, M|item
+|poke|p2|Ferrothorn, L50, M, shiny|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Bronzong|item
+|poke|p2|Conkeldurr, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|choice||
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|choice||
+|
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|3
+|choice||
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|choice||
+|
+|move|p1a: Volcarona|Substitute|p1a: Volcarona
+|-start|p1a: Volcarona|Substitute
+|-damage|p1a: Volcarona|76/100
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|82/100|[from] item: Leftovers
+|turn|5
+|choice||
+|
+|move|p2a: Bronzong|Gyro Ball|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-activate|p1a: Volcarona|Substitute|[damage]
+|move|p1a: Volcarona|Bug Buzz|p2a: Bronzong
+|-damage|p2a: Bronzong|37/100
+|-enditem|p2a: Bronzong|Sitrus Berry|[eat]
+|-heal|p2a: Bronzong|62/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|88/100|[from] item: Leftovers
+|turn|6
+|choice||
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|move|p1a: Volcarona|Substitute|p1a: Volcarona
+|-fail|p1a: Volcarona|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|94/100|[from] item: Leftovers
+|turn|7
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Cloyster|Rock Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Cloyster|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|choice||
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|45/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|turn|9
+|choice||
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|-damage|p1a: Ferrothorn|68/100
+|-damage|p1a: Ferrothorn|51/100
+|-damage|p1a: Ferrothorn|36/100
+|-damage|p1a: Ferrothorn|18/100
+|-hitcount|p1a: Ferrothorn|5
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|25/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Starmie|Starmie|100/100
+|turn|10
+|choice||
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Ferrothorn|[miss]
+|-miss|p2a: Starmie|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Starmie
+|-sidestart|p2: raspberryblueberry|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|31/100|[from] item: Leftovers
+|turn|11
+|choice||
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Starmie|91/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Latias|Latias, F|100/100
+|turn|12
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, L50, M, shiny|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|turn|13
+|choice||
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Ferrothorn|Substitute|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Substitute
+|-damage|p2a: Ferrothorn|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|turn|14
+|choice||
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Latias
+|-resisted|p1a: Latias
+|-activate|p1a: Latias|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|turn|15
+|c|★peakyblinded|my condolences
+|choice||
+|
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Latias
+|-resisted|p1a: Latias
+|-activate|p1a: Latias|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|turn|16
+|-message|raspberryblueberry forfeited.
+|
+|win|peakyblinded
+|player|p1
+|player|p2
+|l|raspberryblueberry
+|raw|peakyblinded's rating: 1528 &rarr; <strong>1544</strong><br />(+16 for winning)
+|raw|raspberryblueberry's rating: 1453 &rarr; <strong>1437</strong><br />(-16 for losing)

@@ -1,0 +1,311 @@
+|j|Smallie Bigs34
+|j|Dragon Lords1
+|player|p1|Smallie Bigs34|169
+|player|p2|Dragon Lords1|53
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|36755,12695,644,27917
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Darmanitan, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Donphan, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Keldeo|item
+|poke|p2|Breloom, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Latios, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|350/350
+|switch|p2a: Latios|Latios, M|301/301
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|choice|move willowisp|move psyshock
+|
+|move|p2a: Latios|Psyshock|p1a: Ninetales
+|-damage|p1a: Ninetales|80/350
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Latios
+|-status|p2a: Latios|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|101/350|[from] item: Leftovers
+|-damage|p2a: Latios|264/301 brn|[from] brn
+|turn|2
+|choice|switch 3|move psyshock
+|
+|switch|p1a: Jellicent|Jellicent, M|404/404
+|move|p2a: Latios|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|94/404
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|119/404|[from] item: Leftovers
+|-damage|p2a: Latios|227/301 brn|[from] brn
+|turn|3
+|choice|move shadowball|move psyshock
+|
+|move|p2a: Latios|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Latios|190/301 brn|[from] brn
+|choice|switch 4|
+|
+|switch|p1a: Darmanitan|Darmanitan, M|351/351
+|turn|4
+|choice|move uturn|switch 2
+|
+|switch|p2a: Keldeo|Keldeo|323/323
+|move|p1a: Darmanitan|U-turn|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|276/323
+|choice|switch 6|
+|
+|switch|p1a: Rotom|Rotom-Wash|304/304
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Latios|Latios, M|190/301 brn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Latios
+|-fail|p2a: Latios|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Latios|153/301 brn|[from] brn
+|turn|6
+|choice|move voltswitch|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|46/304
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Rotom|Volt Switch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|112/301 brn
+|choice|switch 2|
+|
+|switch|p1a: Volcarona|Volcarona, M|311/311
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Latios|75/301 brn|[from] brn
+|turn|7
+|choice|move quiverdance|switch 5
+|
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|choice|move hiddenpower|move outrage
+|
+|move|p1a: Volcarona|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Yache Berry|[eat]
+|-enditem|p2a: Garchomp|Yache Berry|[weaken]
+|-damage|p2a: Garchomp|49/357
+|move|p2a: Garchomp|Outrage|p1a: Volcarona
+|-damage|p1a: Volcarona|31/311
+|-enditem|p1a: Volcarona|Sitrus Berry|[eat]
+|-heal|p1a: Volcarona|108/311|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|choice|move fierydance|move outrage
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|choice||switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, F|393/393
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|choice|move bugbuzz|switch 5
+|
+|switch|p2a: Latios|Latios, M|75/301 brn
+|move|p1a: Volcarona|Bug Buzz|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|89/311|[from] Sandstorm
+|choice||switch 2
+|
+|switch|p2a: Keldeo|Keldeo|276/323
+|turn|11
+|choice|move bugbuzz|move surf
+|
+|move|p2a: Keldeo|Surf|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|256/323|[from] Sandstorm
+|choice|switch 2|
+|
+|switch|p1a: Rotom|Rotom-Wash|46/304
+|turn|12
+|choice|move voltswitch|move surf
+|
+|move|p2a: Keldeo|Surf|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|236/323|[from] Sandstorm
+|choice|switch 5|
+|
+|switch|p1a: Donphan|Donphan, M|384/384
+|turn|13
+|choice|move earthquake|switch 4
+|
+|switch|p2a: Scizor|Scizor, M|343/343
+|move|p1a: Donphan|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|171/343
+|
+|-weather|Sandstorm|[upkeep]
+|turn|14
+|choice|move earthquake|move superpower
+|
+|move|p2a: Scizor|Superpower|p1a: Donphan
+|-damage|p1a: Donphan|189/384
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|move|p1a: Donphan|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|213/384|[from] item: Leftovers
+|choice||switch 3
+|
+|switch|p2a: Breloom|Breloom, M|261/261
+|turn|15
+|choice|move stealthrock|move spore
+|
+|move|p2a: Breloom|Spore|p1a: Donphan
+|-status|p1a: Donphan|slp
+|cant|p1a: Donphan|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|245/261|[from] Sandstorm
+|-heal|p1a: Donphan|237/384 slp|[from] item: Leftovers
+|turn|16
+|choice|switch 3|move bulletseed
+|
+|switch|p1a: Ninetales|Ninetales, F|101/350
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Breloom|Bullet Seed|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|56/350
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|11/350
+|-hitcount|p1a: Ninetales|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|32/350|[from] item: Leftovers
+|turn|17
+|choice|move flamethrower|move machpunch
+|
+|move|p2a: Breloom|Mach Punch|p1a: Ninetales
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem|[move] Mach Punch
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|choice|switch 6|
+|
+|switch|p1a: Darmanitan|Darmanitan, M|351/351
+|turn|18
+|choice|move flareblitz|move machpunch
+|
+|move|p2a: Breloom|Mach Punch|p1a: Darmanitan
+|-damage|p1a: Darmanitan|144/351
+|move|p1a: Darmanitan|Flare Blitz|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-damage|p1a: Darmanitan|63/351|[from] recoil|[of] p2a: Breloom
+|faint|p2a: Breloom
+|
+|-weather|SunnyDay|[upkeep]
+|choice||switch 5
+|
+|switch|p2a: Tyranitar|Tyranitar, F|393/393
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|19
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Donphan|Donphan, M|237/384 slp
+|move|p2a: Tyranitar|Stealth Rock|p1a: Donphan
+|-sidestart|p1: Smallie Bigs34|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|261/384 slp|[from] item: Leftovers
+|turn|20
+|choice|move rapidspin|move fireblast
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Donphan|[miss]
+|-miss|p2a: Tyranitar|p1a: Donphan
+|cant|p1a: Donphan|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|285/384 slp|[from] item: Leftovers
+|turn|21
+|choice|move rapidspin|move fireblast
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Donphan
+|-damage|p1a: Donphan|139/384 slp
+|cant|p1a: Donphan|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Donphan|163/384 slp|[from] item: Leftovers
+|turn|22
+|choice|move rapidspin|move fireblast
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|Sandstorm|[upkeep]
+|choice|switch 3|
+|
+|switch|p1a: Darmanitan|Darmanitan, M|63/351
+|-damage|p1a: Darmanitan|0 fnt|[from] Stealth Rock
+|faint|p1a: Darmanitan
+|
+|win|Dragon Lords1
+|player|p1
+|player|p2
+|raw|Smallie Bigs34's rating: 1318 &rarr; <strong>1298</strong><br />(-20 for losing)
+|raw|Dragon Lords1's rating: 1314 &rarr; <strong>1335</strong><br />(+21 for winning)
+|l|Smallie Bigs34

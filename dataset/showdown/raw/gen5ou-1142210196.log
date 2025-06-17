@@ -1,0 +1,770 @@
+|j|☆ismokeherb
+|j|☆koumite
+|player|p1|ismokeherb|200|1322
+|player|p2|koumite|102|1395
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Jolteon, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Vaporeon, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tentacruel, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: 60%|Jirachi|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p1a: A Wall|Ferrothorn, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: A Wall
+|-sidestart|p1: ismokeherb|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: A Wall|Stealth Rock|p2a: Politoed
+|-sidestart|p2: koumite|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Politoed|Scald|p1a: A Wall
+|-resisted|p1a: A Wall
+|-damage|p1a: A Wall|87/100
+|move|p1a: A Wall|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|44/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: A Wall|Power Whip|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|50/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Politoed|Scald|p1a: A Wall
+|-resisted|p1a: A Wall
+|-damage|p1a: A Wall|74/100
+|move|p1a: A Wall|Thunder Wave|p2a: Politoed
+|-status|p2a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Politoed|Scald|p1a: A Wall
+|-resisted|p1a: A Wall
+|-damage|p1a: A Wall|59/100
+|-status|p1a: A Wall|brn
+|move|p1a: A Wall|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|26/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|32/100 par|[from] item: Leftovers
+|-damage|p1a: A Wall|47/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Politoed|Scald|p1a: A Wall
+|-resisted|p1a: A Wall
+|-damage|p1a: A Wall|32/100 brn
+|move|p1a: A Wall|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: A Wall|19/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: A Wall
+|-resisted|p1a: A Wall
+|-damage|p1a: A Wall|18/100 brn
+|-damage|p2a: Tentacruel|76/100|[from] ability: Iron Barbs|[of] p1a: A Wall
+|-damage|p2a: Tentacruel|59/100|[from] item: Rocky Helmet|[of] p1a: A Wall
+|-sideend|p2: koumite|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: A Wall|Thunder Wave|p2a: Tentacruel
+|-status|p2a: Tentacruel|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|65/100 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|71/100 par|[from] item: Black Sludge
+|-damage|p1a: A Wall|6/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|cant|p2a: Tentacruel|par
+|move|p1a: A Wall|Power Whip|p2a: Tentacruel|[miss]
+|-miss|p1a: A Wall|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|77/100 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|83/100 par|[from] item: Black Sludge
+|-damage|p1a: A Wall|0 fnt|[from] brn
+|faint|p1a: A Wall
+|upkeep
+|
+|switch|p1a: Electric Pivot|Jolteon, M|100/100
+|-damage|p1a: Electric Pivot|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|11
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|-status|p2a: Ferrothorn|par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Uh OH! Stinky|Politoed, F|100/100
+|-damage|p1a: Uh OH! Stinky|88/100|[from] Stealth Rock
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Uh OH! Stinky|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|36/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Uh OH! Stinky|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|15
+|c|☆ismokeherb|<3
+|
+|move|p1a: Uh OH! Stinky|Focus Blast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|60/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|41/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Uh OH! Stinky|Focus Blast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|91/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|97/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Uh OH! Stinky|Focus Blast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|56/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|37/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Uh OH! Stinky|Focus Blast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|87/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|93/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Uh OH! Stinky|Focus Blast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|51/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|32/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Uh OH! Stinky|Focus Blast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|82/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆koumite|is that 8 for 8?
+|
+|switch|p1a: Electric Pivot|Jolteon, M|88/100
+|-damage|p1a: Electric Pivot|76/100|[from] Stealth Rock
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|100/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|75/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|56/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆ismokeherb|believe me my rng isnt go godly everywhere
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|100/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|c|☆koumite|no one's is lol
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Hone Claws|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|69/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Hone Claws|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|75/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|57/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Electric Pivot|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|100/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p1a: Uh OH! Stinky|Politoed, F|88/100
+|-damage|p1a: Uh OH! Stinky|76/100|[from] Stealth Rock
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-fail|p2a: Kyurem|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Hone Claws|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|85/100
+|-status|p2a: Kyurem|brn
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|60/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|54/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|100/100 brn
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyurem|88/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|72/100 brn
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|47/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|41/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|91/100 brn
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|97/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|84/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Hone Claws|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|78/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|62/100 brn
+|move|p2a: Kyurem|Hone Claws|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|56/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|41/100 brn
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|91/100 brn
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|85/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|71/100 brn
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|46/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|52/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|40/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|90/100 brn
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|84/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Hone Claws|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|78/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|62/100 brn
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|38/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|31/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|81/100 brn
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|75/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Uh OH! Stinky|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Dragon Tail|p1a: Uh OH! Stinky
+|-damage|p1a: Uh OH! Stinky|0 fnt
+|faint|p1a: Uh OH! Stinky
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|69/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: 60%|Jirachi|100/100
+|-damage|p1a: 60%|94/100|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: 60%|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|21/100 brn
+|move|p2a: Kyurem|Dragon Tail|p1a: 60%
+|-resisted|p1a: 60%
+|-damage|p1a: 60%|62/100
+|drag|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] item: Black Sludge
+|-heal|p2a: Kyurem|27/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|15/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Kyurem
+|-damage|p2a: Kyurem|12/100 brn
+|-sideend|p1: ismokeherb|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|62/100 brn
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p2a: Kyurem|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|56/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|75/100
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|100/100 brn
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|81/100|[from] item: Black Sludge
+|-damage|p2a: Kyurem|88/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Kyurem
+|-damage|p2a: Kyurem|70/100 brn
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|45/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|87/100|[from] item: Black Sludge
+|-heal|p2a: Kyurem|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|39/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|move|p2a: Kyurem|Dragon Tail|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|93/100|[from] item: Black Sludge
+|-heal|p2a: Kyurem|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|33/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|68/100
+|move|p2a: Kyurem|Dragon Tail|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|74/100|[from] item: Black Sludge
+|-heal|p2a: Kyurem|39/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|27/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|49/100
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|77/100 brn
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|55/100|[from] item: Black Sludge
+|-heal|p2a: Kyurem|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|71/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-fail|p1a: Tentacruel|move: Substitute
+|move|p2a: Kyurem|Dragon Tail|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|61/100|[from] item: Black Sludge
+|-heal|p2a: Kyurem|77/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|64/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Dragon Tail|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|58/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: 60%|Jirachi|62/100
+|turn|55
+|
+|move|p1a: 60%|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|5/100 brn
+|move|p2a: Kyurem|Dragon Tail|p1a: 60%
+|-resisted|p1a: 60%
+|-damage|p1a: 60%|30/100
+|drag|p1a: What's STAB|Dragonite, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|11/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|0 fnt|[from] brn
+|faint|p2a: Kyurem
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|turn|56
+|
+|move|p1a: What's STAB|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|71/100
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|77/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p1a: What's STAB|Hurricane|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|15/100
+|move|p2a: Vaporeon|Scald|p1a: What's STAB
+|-resisted|p1a: What's STAB
+|-damage|p1a: What's STAB|88/100
+|-status|p1a: What's STAB|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|22/100|[from] item: Leftovers
+|-damage|p1a: What's STAB|76/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p1a: What's STAB|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: What's STAB|63/100 brn|[from] brn
+|upkeep
+|c|☆ismokeherb|cya
+|c|☆koumite|gg
+|c|☆ismokeherb|l8r
+|c|☆ismokeherb|sk8r
+|-message|koumite forfeited.
+|
+|win|ismokeherb
+|l|☆koumite
+|l|☆ismokeherb
+|raw|ismokeherb's rating: 1323 &rarr; <strong>1347</strong><br />(+24 for winning)
+|raw|koumite's rating: 1395 &rarr; <strong>1371</strong><br />(-24 for losing)
+|j|☆koumite
+|player|p2|koumite|102

@@ -1,0 +1,478 @@
+|j|☆GrogLord
+|j|☆VM_backup
+|player|p1|GrogLord|265|1384
+|player|p2|VM_backup|265|1324
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Togekiss, F|item
+|poke|p1|Uxie|item
+|poke|p1|Keldeo|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Quagsire, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Skarmory, M|item
+|teampreview
+|
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GrogLord)
+|
+|move|p1a: Uxie|Thunder Wave|p2a: Politoed
+|-status|p2a: Politoed|par
+|move|p2a: Politoed|Toxic|p1a: Uxie
+|-status|p1a: Uxie|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Uxie|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Uxie|Stealth Rock|p2a: Politoed
+|-sidestart|p2: VM_backup|move: Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Uxie
+|-damage|p1a: Uxie|67/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Uxie|73/100 tox|[from] item: Leftovers
+|-damage|p1a: Uxie|61/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Uxie|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|92/100 par
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100|[from]move: U-turn
+|cant|p2a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Politoed
+|-damage|p2a: Politoed|95/100 par
+|-enditem|p2a: Politoed|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Politoed|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|91/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Politoed|Scald|p1a: Togekiss
+|-damage|p1a: Togekiss|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Togekiss|Air Slash|p2a: Chansey
+|-damage|p2a: Chansey|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Chansey|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Tentacruel
+|-status|p2a: Tentacruel|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100 par|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p1a: Togekiss|Togekiss, F|83/100
+|move|p2a: Tentacruel|Scald|p1a: Togekiss
+|-damage|p1a: Togekiss|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100 par|[from] ability: Rain Dish
+|-heal|p1a: Togekiss|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Togekiss|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|66/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Togekiss|Air Slash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|78/100 par
+|cant|p2a: Skarmory|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|72/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Chansey|Chansey, F|77/100
+|-damage|p2a: Chansey|65/100|[from] Stealth Rock
+|move|p1a: Togekiss|Air Slash|p2a: Chansey
+|-damage|p2a: Chansey|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Tentacruel|Tentacruel, M|91/100
+|move|p2a: Chansey|Heal Bell|p2a: Chansey
+|-activate|p2a: Chansey|move: Heal Bell
+|-curestatus|p2: Skarmory|par|[msg]
+|-curestatus|p2: Politoed|par|[msg]
+|-curestatus|p2: Tentacruel|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|97/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|51/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Dragonite
+|-sidestart|p2: VM_backup|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Dragonite|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Skarmory|Skarmory, M|84/100
+|-damage|p2a: Skarmory|72/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Skarmory
+|-sidestart|p2: VM_backup|Spikes
+|cant|p2a: Skarmory|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|-sideend|p2: VM_backup|move: Toxic Spikes|[of] p2a: Tentacruel
+|-damage|p2a: Tentacruel|76/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Tentacruel
+|-sidestart|p2: VM_backup|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Tentacruel|75/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: VM_backup|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: VM_backup|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Tentacruel
+|-status|p2a: Tentacruel|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|82/100 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|88/100 par|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Leech Seed
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|99/100 par|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|87/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Tentacruel
+|-sidestart|p2: VM_backup|Spikes
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100 brn
+|-damage|p2a: Tentacruel|75/100 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-end|p2a: Tentacruel|Leech Seed|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: VM_backup|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|81/100 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|93/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|87/100 par|[from] item: Black Sludge
+|-damage|p1a: Ferrothorn|81/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Leech Seed
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|62/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|68/100 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|87/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|74/100 par|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|62/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|99/100 brn|[silent]
+|-damage|p1a: Ferrothorn|87/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Uxie|Uxie|61/100 tox
+|cant|p2a: Tentacruel|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|68/100 par|[from] ability: Rain Dish
+|-heal|p1a: Uxie|67/100 tox|[from] item: Leftovers
+|-heal|p2a: Tentacruel|74/100 par|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|61/100 par|[from] Leech Seed|[of] p1a: Uxie
+|-heal|p1a: Uxie|80/100 tox|[silent]
+|-damage|p1a: Uxie|73/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Uxie|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|move|p2a: Tentacruel|Rapid Spin|p1a: Uxie
+|-damage|p1a: Uxie|72/100 tox
+|-end|p2a: Tentacruel|Leech Seed|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|68/100 par|[from] ability: Rain Dish
+|-heal|p1a: Uxie|78/100 tox|[from] item: Leftovers
+|-heal|p2a: Tentacruel|74/100 par|[from] item: Black Sludge
+|-damage|p1a: Uxie|65/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Uxie|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|89/100
+|
+|switch|p1a: Keldeo|Keldeo|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p2a: Dragonite|Dragonite, M|88/100
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|82/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Keldeo|Scald|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|73/100
+|move|p2a: Dragonite|Hurricane|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Keldeo|88/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|80/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|87/100 brn
+|move|p2a: Dragonite|Hurricane|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|61/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|86/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|54/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p2a: Tentacruel|Tentacruel, M|74/100 par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tentacruel
+|-start|p2a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|80/100 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|60/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|86/100 par|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|73/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|73/100 brn|[silent]
+|-damage|p1a: Ferrothorn|61/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|GrogLord has 120 seconds left.
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Mamoswine
+|-damage|p1a: Mamoswine|97/100
+|-end|p2a: Tentacruel|Leech Seed|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|79/100 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|85/100 par|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|switch|p2a: Skarmory|Skarmory, M|84/100 par
+|move|p1a: Mamoswine|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: VM_backup|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆VM_backup|k
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|52/100
+|move|p2a: Quagsire|Toxic|p1a: Mamoswine
+|-status|p1a: Mamoswine|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quagsire|58/100|[from] item: Leftovers
+|-damage|p1a: Mamoswine|91/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|
+|move|p1a: Tentacruel|Scald|p2a: Quagsire
+|-damage|p2a: Quagsire|57/100
+|move|p2a: Quagsire|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|89/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|95/100|[from] item: Black Sludge
+|-heal|p2a: Quagsire|63/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Tentacruel|Scald|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|c|☆VM_backup|why
+|c|☆VM_backup|this game
+|-message|VM_backup forfeited.
+|
+|win|GrogLord
+|l|☆VM_backup
+|raw|GrogLord's rating: 1384 &rarr; <strong>1401</strong><br />(+17 for winning)
+|raw|VM_backup's rating: 1324 &rarr; <strong>1308</strong><br />(-16 for losing)

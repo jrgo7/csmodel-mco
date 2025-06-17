@@ -1,0 +1,324 @@
+|j|☆doughboy
+|j|‽yuze
+|player|p1|doughboy|170|1469
+|player|p2|yuze|101|1499
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Breloom, M|item
+|poke|p1|Starmie|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Thundurus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|j| HaxerShouldAllDie
+|
+|move|p1a: Dragonite|Outrage|p2a: Politoed
+|-damage|p2a: Politoed|10/100
+|move|p2a: Politoed|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|16/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Dragonite|Outrage|p2a: Politoed|[from]lockedmove
+|-activate|p2a: Politoed|move: Protect
+|-start|p1a: Dragonite|confusion|[fatigue]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|22/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Scizor|Scizor, F, shiny|100/100
+|move|p2a: Politoed|Psychic|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|91/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|28/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Scizor|U-turn|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|34/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Scizor|U-turn|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|56/100
+|
+|switch|p1a: Starmie|Starmie, shiny|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Starmie|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Breloom|Breloom, M, shiny|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Breloom
+|-sidestart|p1: doughboy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|switch|p2a: Volcarona|Volcarona, M|56/100
+|move|p1a: Breloom|Focus Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-damage|p1a: Breloom|91/100|[from] item: Life Orb
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yuze)
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|9
+|
+|switch|p1a: Starmie|Starmie, shiny|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|18/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F, shiny|82/100 tox
+|-damage|p1a: Dragonite|57/100 tox|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|77/100
+|move|p1a: Dragonite|Extreme Speed|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100
+|-damage|p1a: Dragonite|45/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|39/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|yuze has 120 seconds left.
+|
+|switch|p1a: Scizor|Scizor, F, shiny|91/100
+|-damage|p1a: Scizor|79/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Scizor
+|-sidestart|p1: doughboy|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Politoed|Politoed, M|34/100
+|move|p1a: Scizor|Superpower|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|14
+|
+|switch|p1a: Garchomp|Garchomp, M, shiny|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M, shiny|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|-damage|p1a: Volcarona|38/100|[from] Spikes
+|turn|16
+|
+|move|p2a: Thundurus|Thunder|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F, shiny|39/100 tox
+|-damage|p1a: Dragonite|14/100 tox|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Thundurus
+|-damage|p2a: Thundurus|26/100
+|move|p2a: Thundurus|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|32/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F, shiny|79/100
+|-damage|p1a: Scizor|67/100|[from] Spikes
+|-damage|p1a: Scizor|54/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p1a: Breloom|Breloom, M, shiny|91/100
+|-damage|p1a: Breloom|78/100|[from] Spikes
+|-damage|p1a: Breloom|72/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|95/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Tentacruel|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|9/100
+|move|p1a: Breloom|Spore|p2a: Tentacruel
+|-status|p2a: Tentacruel|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|cant|p2a: Tentacruel|slp
+|move|p1a: Breloom|Focus Punch|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|48/100 slp
+|-damage|p1a: Breloom|0 fnt|[from] item: Life Orb
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|54/100 slp|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|60/100 slp|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F, shiny|54/100
+|-damage|p1a: Scizor|42/100|[from] Spikes
+|-damage|p1a: Scizor|30/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|71/100
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|-damage|p1a: Scizor|18/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|41/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|23/100
+|-damage|p1a: Scizor|5/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|3/100
+|-enditem|p1a: Scizor|Choice Band|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Scizor|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100
+|-damage|p1a: Scizor|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Scizor
+|
+|win|yuze
+|raw|doughboy's rating: 1469 &rarr; <strong>1451</strong><br />(-18 for losing)
+|raw|yuze's rating: 1500 &rarr; <strong>1518</strong><br />(+18 for winning)

@@ -1,0 +1,317 @@
+|j|Kartana knightley
+|j|GBlade
+|player|p1|Kartana knightley|266
+|teamsize|p1|6
+|player|p2|GBlade|159
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|15231,64916,2769,50626
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Celebi|item
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Alakazam, F|item
+|poke|p2|Kyurem-Black, shiny|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Salamence, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Garchomp, M, shiny|item
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|319/319
+|switch|p2a: Kyurem|Kyurem-Black, shiny|391/391
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|-ability|p2a: Kyurem|Teravolt
+|turn|1
+|choice|move uturn|move outrage
+|
+|move|p1a: Landorus|U-turn|p2a: Kyurem
+|-damage|p2a: Kyurem|308/391
+|choice|switch 2|
+|
+|switch|p1a: Tentacruel|Tentacruel, F|352/352
+|move|p2a: Kyurem|Outrage|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|turn|2
+|choice|move thunder|move outrage
+|
+|move|p1a: Jirachi|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|250/391
+|-status|p2a: Kyurem|par
+|move|p2a: Kyurem|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|271/404
+|
+|-heal|p1a: Jirachi|296/404|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move substitute|move outrage
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|195/404
+|move|p2a: Kyurem|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-start|p2a: Kyurem|confusion|[fatigue]
+|
+|-heal|p1a: Jirachi|220/404|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move substitute|switch 6
+|
+|switch|p2a: Garchomp|Garchomp, M, shiny|357/357
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|119/404
+|
+|-heal|p1a: Jirachi|144/404|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move waterpulse|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Water Pulse|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|232/357
+|
+|-heal|p1a: Jirachi|169/404|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Celebi|Celebi|402/402
+|move|p2a: Garchomp|Earthquake|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|318/402
+|
+|-heal|p1a: Celebi|343/402|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Kyurem|Kyurem-Black, shiny|250/391 par
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Celebi|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: GBlade|move: Stealth Rock
+|
+|-heal|p1a: Celebi|368/402|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 3|move outrage
+|
+|switch|p1a: Jirachi|Jirachi|169/404
+|cant|p2a: Kyurem|par
+|
+|-heal|p1a: Jirachi|194/404|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move substitute|switch 6
+|
+|switch|p2a: Garchomp|Garchomp, M, shiny|232/357
+|-damage|p2a: Garchomp|210/357|[from] Stealth Rock
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|93/404
+|
+|-heal|p1a: Jirachi|118/404|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move waterpulse|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Water Pulse|p2a: Garchomp
+|-damage|p2a: Garchomp|146/357
+|
+|-heal|p1a: Jirachi|143/404|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|switch 3|switch 6
+|
+|switch|p2a: Kyurem|Kyurem-Black, shiny|250/391 par
+|-damage|p2a: Kyurem|153/391 par|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|switch|p1a: Celebi|Celebi|368/402
+|
+|-heal|p1a: Celebi|393/402|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 3|move outrage
+|
+|switch|p1a: Jirachi|Jirachi|143/404
+|cant|p2a: Kyurem|par
+|
+|-heal|p1a: Jirachi|168/404|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move substitute|move outrage
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|67/404
+|move|p2a: Kyurem|Outrage|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-heal|p1a: Jirachi|92/404|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move waterpulse|move outrage
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|125/391 par
+|-start|p2a: Kyurem|confusion
+|-activate|p2a: Kyurem|confusion
+|move|p2a: Kyurem|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|turn|15
+|choice|move psyshock|move outrage
+|
+|move|p1a: Alakazam|Psyshock|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Garchomp|Garchomp, M, shiny|146/357
+|-damage|p2a: Garchomp|124/357|[from] Stealth Rock
+|turn|16
+|choice|switch 3|move outrage
+|
+|switch|p1a: Celebi|Celebi|393/402
+|move|p2a: Garchomp|Outrage|p1a: Celebi
+|-damage|p1a: Celebi|194/402
+|
+|-heal|p1a: Celebi|219/402|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move recover|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Celebi|[from]lockedmove
+|-damage|p1a: Celebi|20/402
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|221/402
+|
+|-heal|p1a: Celebi|246/402|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move recover|switch 3
+|
+|switch|p2a: Latios|Latios, M|301/301
+|-damage|p2a: Latios|264/301|[from] Stealth Rock
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|402/402
+|
+|upkeep
+|turn|19
+|choice|move recover|move trick
+|
+|move|p2a: Latios|Trick|p1a: Celebi
+|-activate|p2a: Latios|move: Trick|[of] p1a: Celebi
+|-item|p1a: Celebi|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-fail|p1a: Celebi
+|
+|-heal|p2a: Latios|282/301|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|switch 2|move psyshock
+|
+|switch|p1a: Landorus|Landorus-Therian, M|319/319
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|move|p2a: Latios|Psyshock|p1a: Landorus
+|-damage|p1a: Landorus|165/319
+|
+|-heal|p2a: Latios|300/301|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move uturn|switch 3
+|
+|switch|p2a: Garchomp|Garchomp, M, shiny|124/357
+|-damage|p2a: Garchomp|102/357|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|4/357
+|-damage|p1a: Landorus|126/319|[from] ability: Rough Skin|[of] p2a: Garchomp
+|choice|switch 2|
+|
+|switch|p1a: Celebi|Celebi|402/402
+|
+|upkeep
+|turn|22
+|choice|move psychic|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|turn|23
+|choice|move hiddenpower|move outrage
+|
+|move|p2a: Garchomp|Outrage|p1a: Alakazam|[from]lockedmove
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/251
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Alakazam|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|-damage|p2a: Dragonite|243/323|[from] Stealth Rock
+|turn|24
+|-message|Kartana knightley forfeited.
+|
+|win|GBlade
+|l|Kartana knightley
+|raw|Kartana knightley's rating: 1418 &rarr; <strong>1397</strong><br />(-21 for losing)
+|raw|GBlade's rating: 1398 &rarr; <strong>1419</strong><br />(+21 for winning)

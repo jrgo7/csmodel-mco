@@ -1,0 +1,315 @@
+|j|☆CroCoeur
+|j|☆refsunpersons
+|player|p1|CroCoeur|161
+|player|p2|refsunpersons|123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Celebi|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jirachi|item
+|poke|p2|Jirachi|item
+|poke|p2|Haxorus, F|item
+|poke|p2|Porygon2|item
+|poke|p2|Donphan, F|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: SNIPER NG BETLUG|Jirachi|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|
+|move|p1a: Politoed|Hydro Pump|p2a: SNIPER NG BETLUG
+|-damage|p2a: SNIPER NG BETLUG|28/100
+|move|p2a: SNIPER NG BETLUG|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|2
+|j| sagnmp
+|
+|move|p1a: Jirachi|Water Pulse|p2a: SNIPER NG BETLUG
+|-damage|p2a: SNIPER NG BETLUG|6/100
+|-start|p2a: SNIPER NG BETLUG|confusion
+|-activate|p2a: SNIPER NG BETLUG|confusion
+|-damage|p2a: SNIPER NG BETLUG|0 fnt|[from] confusion
+|faint|p2a: SNIPER NG BETLUG
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: BAYAG KILLER|Ninetales, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: BAYAG KILLER
+|-item|p2a: BAYAG KILLER|Air Balloon
+|turn|3
+|
+|move|p2a: BAYAG KILLER|Hidden Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|93/100
+|move|p1a: Jirachi|Thunder|p2a: BAYAG KILLER|[miss]
+|-miss|p1a: Jirachi|p2a: BAYAG KILLER
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: BAYAG KILLER|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|turn|5
+|
+|move|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon|[still]
+|-prepare|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon
+|-anim|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|67/100
+|move|p1a: Vaporeon|Scald|p2a: BAYAG KILLER
+|-supereffective|p2a: BAYAG KILLER
+|-damage|p2a: BAYAG KILLER|62/100
+|-enditem|p2a: BAYAG KILLER|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon|[still]
+|-prepare|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon
+|-anim|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|37/100
+|move|p1a: Vaporeon|Scald|p2a: BAYAG KILLER
+|-supereffective|p2a: BAYAG KILLER
+|-damage|p2a: BAYAG KILLER|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|43/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: BOBBY PACQUIAO|Porygon2|100/100
+|-ability|p2a: BOBBY PACQUIAO|Hydration|[from] ability: Trace|[of] p1a: Vaporeon
+|move|p1a: Vaporeon|Scald|p2a: BOBBY PACQUIAO
+|-damage|p2a: BOBBY PACQUIAO|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|49/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: BOBBY PACQUIAO|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: BAYAG KILLER|Ninetales, F, shiny|26/100
+|move|p1a: Celebi|Perish Song|p1a: Celebi
+|-start|p1a: Celebi|perish3|[silent]
+|-start|p2a: BAYAG KILLER|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|88/100 tox|[from] psn
+|-start|p2a: BAYAG KILLER|perish3
+|-start|p1a: Celebi|perish3
+|upkeep
+|turn|10
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: BAYAG KILLER|Fire Blast|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: BAYAG KILLER|perish2
+|upkeep
+|turn|11
+|
+|switch|p2a: BOBBY PACQUIAO|Porygon2|93/100
+|-ability|p2a: BOBBY PACQUIAO|Levitate|[from] ability: Trace|[of] p1a: Latios
+|move|p1a: Latios|Surf|p2a: BOBBY PACQUIAO
+|-damage|p2a: BOBBY PACQUIAO|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: BAYAG KILLER|Ninetales, F, shiny|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: Vaporeon|Vaporeon, F|49/100
+|move|p2a: BAYAG KILLER|Fire Blast|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|37/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon|[still]
+|-prepare|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon
+|-anim|p2a: BAYAG KILLER|Solar Beam|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|4/100
+|move|p1a: Vaporeon|Scald|p2a: BAYAG KILLER
+|-supereffective|p2a: BAYAG KILLER
+|-damage|p2a: BAYAG KILLER|0 fnt
+|faint|p2a: BAYAG KILLER
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|10/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: EFREN UNBOUND|Volcarona, F|100/100
+|turn|15
+|
+|move|p2a: EFREN UNBOUND|Bug Buzz|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|64/100
+|turn|16
+|
+|switch|p2a: BOBBY PACQUIAO|Porygon2|85/100
+|-ability|p2a: BOBBY PACQUIAO|Levitate|[from] ability: Trace|[of] p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: BOBBY PACQUIAO
+|-damage|p2a: BOBBY PACQUIAO|50/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Latios|Draco Meteor|p2a: BOBBY PACQUIAO
+|-damage|p2a: BOBBY PACQUIAO|31/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: BOBBY PACQUIAO|Recover|p2a: BOBBY PACQUIAO
+|-heal|p2a: BOBBY PACQUIAO|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: EFREN UNBOUND|Volcarona, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: EFREN UNBOUND|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|64/100
+|turn|20
+|
+|switch|p2a: BOBBY PACQUIAO|Porygon2|81/100
+|-ability|p2a: BOBBY PACQUIAO|Levitate|[from] ability: Trace|[of] p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: BOBBY PACQUIAO
+|-damage|p2a: BOBBY PACQUIAO|45/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Celebi|Celebi|88/100
+|move|p2a: BOBBY PACQUIAO|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|88/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Celebi|Psychic|p2a: BOBBY PACQUIAO
+|-damage|p2a: BOBBY PACQUIAO|30/100
+|move|p2a: BOBBY PACQUIAO|Recover|p2a: BOBBY PACQUIAO
+|-heal|p2a: BOBBY PACQUIAO|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p2a: EFREN UNBOUND|Volcarona, F|100/100
+|move|p1a: Celebi|Psychic|p2a: EFREN UNBOUND
+|-damage|p2a: EFREN UNBOUND|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Celebi|70/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Latios|Latios, M|64/100
+|move|p2a: EFREN UNBOUND|Bug Buzz|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|CroCoeur forfeited.
+|
+|win|refsunpersons
+|c|☆refsunpersons|gg
+|l|☆CroCoeur
+|l| sagnmp
+|raw|CroCoeur's rating: 1467 &rarr; <strong>1444</strong><br />(-23 for losing)
+|raw|refsunpersons's rating: 1412 &rarr; <strong>1435</strong><br />(+23 for winning)

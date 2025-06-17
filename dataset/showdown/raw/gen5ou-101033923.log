@@ -1,0 +1,569 @@
+|join|ŝhofư
+|join|JeT´aimeYS
+|player|p1|ŝhofư|102
+|player|p2|JeT´aimeYS|285
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, F
+|poke|p1|Tentacruel, M
+|poke|p1|Skarmory, F
+|poke|p1|Tangrowth, F
+|poke|p1|Chansey, F
+|poke|p1|Celebi
+|poke|p2|Zapdos
+|poke|p2|Jirachi
+|poke|p2|Gliscor, M
+|poke|p2|Forretress, F
+|poke|p2|Tyranitar, F
+|poke|p2|Jellicent, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|JeT´aimeYS|Lol
+|chat|JeT´aimeYS|18w 0l :D
+|chat|JeT´aimeYS|Nice rank
+|
+|start
+|switch|p1a: Politoed|Politoed, F|384/384
+|switch|p2a: Zapdos|Zapdos|383/383
+|-ability|p2a: Zapdos|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Chansey|Chansey, F|704/704
+|move|p2a: Zapdos|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|640/704
+|
+|switch|p2a: Forretress|Forretress, F|354/354
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Skarmory|Skarmory, F|334/334
+|move|p2a: Forretress|Volt Switch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|236/334
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|-ability|p2a: Zapdos|Pressure
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|chat|JeT´aimeYS|the classic rain stall
+|
+|switch|p1a: Tangrowth|Tangrowth, F|404/404
+|move|p2a: Zapdos|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|319/404
+|
+|switch|p2a: Jirachi|Jirachi|404/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tangrowth|344/404|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: ŝhofư|move: Stealth Rock
+|move|p1a: Tangrowth|Sleep Powder|p2a: Jirachi
+|-status|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tangrowth|369/404|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Chansey|Chansey, F|640/704
+|-damage|p1a: Chansey|552/704|[from] Stealth Rock
+|cant|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p2a: Forretress|Forretress, F|354/354
+|move|p1a: Chansey|Stealth Rock|p2a: Forretress
+|-sidestart|p2: JeT´aimeYS|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Forretress
+|-damage|p2a: Forretress|254/354
+|move|p2a: Forretress|Spikes|p1a: Chansey
+|-sidestart|p1: ŝhofư|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|276/354|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Forretress
+|-damage|p2a: Forretress|176/354
+|move|p2a: Forretress|Spikes|p1a: Chansey
+|-sidestart|p1: ŝhofư|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|198/354|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Tentacruel|Tentacruel, M|363/363
+|-damage|p1a: Tentacruel|318/363|[from] Stealth Rock
+|-damage|p1a: Tentacruel|258/363|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|354/354
+|-damage|p2a: Gliscor|310/354|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|280/363|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|302/363|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|turn|10
+|
+|switch|p2a: Jellicent|Jellicent, M|404/404
+|-damage|p2a: Jellicent|354/404|[from] Stealth Rock
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-fail|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|324/363|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|346/363|[from] item: Leftovers
+|-heal|p2a: Jellicent|379/404|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Tentacruel|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|move|p2a: Jellicent|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|295/363
+|-status|p1a: Tentacruel|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|317/363 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|339/363 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|404/404 tox|[from] item: Leftovers
+|-damage|p1a: Tentacruel|294/363 brn|[from] brn
+|-damage|p2a: Jellicent|379/404 tox|[from] psn
+|turn|12
+|
+|switch|p2a: Gliscor|Gliscor, M|310/354 tox
+|-damage|p2a: Gliscor|266/354 tox|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Gliscor
+|-damage|p2a: Gliscor|262/354 tox
+|-sideend|p1: ŝhofư|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: ŝhofư|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|316/363 brn|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|338/363 brn|[from] item: Leftovers
+|-damage|p1a: Tentacruel|293/363 brn|[from] brn
+|-heal|p2a: Gliscor|306/354 tox|[from] ability: Poison Heal
+|turn|13
+|
+|switch|p1a: Skarmory|Skarmory, F|236/334
+|switch|p2a: Forretress|Forretress, F|198/354
+|-damage|p2a: Forretress|154/354|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|176/354|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Skarmory|Taunt|p2a: Forretress
+|-start|p2a: Forretress|move: Taunt
+|move|p2a: Forretress|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|232/334
+|-damage|p2a: Forretress|117/354|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-sideend|p2: JeT´aimeYS|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Forretress|139/354|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Skarmory|Spikes|p2a: Forretress
+|-sidestart|p2: JeT´aimeYS|Spikes
+|move|p2a: Forretress|Volt Switch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|126/334
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|-ability|p2a: Zapdos|Pressure
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|switch|p1a: Tangrowth|Tangrowth, F|404/404
+|move|p2a: Zapdos|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|314/404
+|
+|switch|p2a: Forretress|Forretress, F|139/354
+|-damage|p2a: Forretress|95/354|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tangrowth|339/404|[from] item: Leftovers
+|-heal|p2a: Forretress|117/354|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Tangrowth|Focus Blast|p2a: Forretress|[miss]
+|-miss|p1a: Tangrowth|p2a: Forretress
+|move|p2a: Forretress|Spikes|p1a: Tangrowth
+|-sidestart|p1: ŝhofư|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tangrowth|364/404|[from] item: Leftovers
+|-heal|p2a: Forretress|139/354|[from] item: Leftovers
+|turn|18
+|join|xlover
+|
+|move|p1a: Tangrowth|Focus Blast|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tangrowth|389/404|[from] item: Leftovers
+|
+|switch|p2a: Tyranitar|Tyranitar, F|388/388
+|-damage|p2a: Tyranitar|340/388|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|19
+|
+|move|p2a: Tyranitar|Crunch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|296/404
+|move|p1a: Tangrowth|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|271/404|[from] sandstorm
+|-heal|p1a: Tangrowth|296/404|[from] item: Leftovers
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|-ability|p2a: Zapdos|Pressure
+|turn|20
+|
+|switch|p1a: Celebi|Celebi|401/401
+|-damage|p1a: Celebi|351/401|[from] Spikes
+|move|p2a: Zapdos|Heat Wave|p1a: Celebi
+|-miss|p2a: Zapdos|p1a: Celebi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|360/383|[from] sandstorm
+|-damage|p1a: Celebi|326/401|[from] sandstorm
+|-heal|p2a: Zapdos|383/383|[from] item: Leftovers
+|-heal|p1a: Celebi|351/401|[from] item: Leftovers
+|turn|21
+|
+|switch|p1a: Politoed|Politoed, F|384/384
+|-damage|p1a: Politoed|336/384|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Zapdos|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|150/384
+|
+|switch|p2a: Gliscor|Gliscor, M|306/354 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|174/384|[from] item: Leftovers
+|-heal|p2a: Gliscor|350/354 tox|[from] ability: Poison Heal
+|turn|22
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Politoed|Encore|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|198/384|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Zapdos|Hidden Power|p1a: Politoed
+|-activate|p1a: Politoed|Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|222/384|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: Celebi|Celebi|351/401
+|-damage|p1a: Celebi|301/401|[from] Spikes
+|move|p2a: Zapdos|Volt Switch|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|263/401
+|
+|switch|p2a: Jellicent|Jellicent, M|379/404 tox
+|-damage|p2a: Jellicent|329/404 tox|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Celebi|288/401|[from] item: Leftovers
+|-heal|p2a: Jellicent|354/404 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|329/404 tox|[from] psn
+|turn|25
+|
+|switch|p1a: Chansey|Chansey, F|552/704
+|-damage|p1a: Chansey|464/704|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|350/354 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|354/354 tox|[from] ability: Poison Heal
+|turn|26
+|
+|move|p2a: Gliscor|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|302/704
+|move|p1a: Chansey|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: JeT´aimeYS|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|-damage|p2a: Zapdos|288/383|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|654/704
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|311/383|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|591/704
+|
+|switch|p2a: Gliscor|Gliscor, M|354/354 tox
+|-damage|p2a: Gliscor|310/354 tox|[from] Stealth Rock
+|move|p1a: Chansey|Seismic Toss|p2a: Gliscor
+|-damage|p2a: Gliscor|210/354 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|254/354 tox|[from] ability: Poison Heal
+|turn|29
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Chansey|Aromatherapy|p1a: Chansey
+|-cureteam|p1a: Chansey|[from] move: Aromatherapy
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|298/354 tox|[from] ability: Poison Heal
+|turn|30
+|
+|switch|p2a: Zapdos|Zapdos|311/383
+|-damage|p2a: Zapdos|216/383|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|switch|p1a: Skarmory|Skarmory, F|126/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|239/383|[from] item: Leftovers
+|turn|31
+|
+|switch|p1a: Tangrowth|Tangrowth, F|404/404
+|-damage|p1a: Tangrowth|354/404|[from] Spikes
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|383/383
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tangrowth|379/404|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|295/404
+|
+|switch|p2a: Jirachi|Jirachi|404/404 slp
+|-damage|p2a: Jirachi|354/404 slp|[from] Spikes
+|-damage|p2a: Jirachi|329/404 slp|[from] Stealth Rock
+|move|p1a: Tangrowth|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|300/404 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|325/404 slp|[from] item: Leftovers
+|-heal|p1a: Tangrowth|320/404|[from] item: Leftovers
+|turn|33
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|-damage|p2a: Zapdos|288/383|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Tangrowth|Hidden Power|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|104/383
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|127/383|[from] item: Leftovers
+|-heal|p1a: Tangrowth|345/404|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|319/383
+|move|p1a: Tangrowth|Giga Drain|p2a: Zapdos
+|-damage|p2a: Zapdos|178/383
+|-heal|p1a: Tangrowth|404/404|[from] drain|[of] p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|201/383|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|383/383
+|move|p1a: Tangrowth|Giga Drain|p2a: Zapdos
+|-damage|p2a: Zapdos|230/383
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|253/383|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|383/383
+|move|p1a: Tangrowth|Giga Drain|p2a: Zapdos
+|-damage|p2a: Zapdos|245/383
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|268/383|[from] item: Leftovers
+|turn|37
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|317/404
+|
+|switch|p2a: Jirachi|Jirachi|325/404 slp
+|-damage|p2a: Jirachi|300/404 slp|[from] Stealth Rock
+|-damage|p2a: Jirachi|250/404 slp|[from] Spikes
+|move|p1a: Tangrowth|Hidden Power|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|217/404 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|242/404 slp|[from] item: Leftovers
+|-heal|p1a: Tangrowth|342/404|[from] item: Leftovers
+|turn|38
+|
+|switch|p1a: Tentacruel|Tentacruel, M|293/363
+|-damage|p1a: Tentacruel|248/363|[from] Spikes
+|cant|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|270/363|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|292/363|[from] item: Leftovers
+|-heal|p2a: Jirachi|267/404 slp|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|262/404 slp
+|-sideend|p1: ŝhofư|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|cant|p2a: Jirachi|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|314/363|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|336/363|[from] item: Leftovers
+|-heal|p2a: Jirachi|287/404 slp|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: Tentacruel|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|202/404 slp
+|-curestatus|p2a: Jirachi|slp
+|move|p2a: Jirachi|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|275/363
+|-status|p1a: Tentacruel|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|297/363 par|[from] ability: Rain Dish
+|-heal|p2a: Jirachi|227/404|[from] item: Leftovers
+|-heal|p1a: Tentacruel|319/363 par|[from] item: Leftovers
+|turn|41
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Tentacruel|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|146/404
+|-status|p2a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|341/363 par|[from] ability: Rain Dish
+|-heal|p2a: Jirachi|171/404 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|363/363 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|121/404 brn|[from] brn
+|turn|42
+|
+|move|p2a: Jirachi|Iron Head|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|318/363 par
+|move|p1a: Tentacruel|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|30/404 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|340/363 par|[from] ability: Rain Dish
+|-heal|p2a: Jirachi|232/404 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|257/404 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|362/363 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|207/404 brn|[from] brn
+|turn|43
+|
+|switch|p1a: Skarmory|Skarmory, F|126/334
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|232/404 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|182/404 brn|[from] brn
+|turn|44
+|
+|move|p2a: Jirachi|Iron Head|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|112/334
+|-damage|p2a: Jirachi|115/404 brn|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|279/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|317/404 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|342/404 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|292/404 brn|[from] brn
+|turn|45
+|
+|move|p2a: Jirachi|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|269/334
+|-damage|p2a: Jirachi|225/404 brn|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Taunt|p2a: Jirachi
+|-start|p2a: Jirachi|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|250/404 brn|[from] item: Leftovers
+|-damage|p2a: Jirachi|200/404 brn|[from] brn
+|turn|46
+|
+|switch|p2a: Zapdos|Zapdos|268/383
+|-damage|p2a: Zapdos|173/383|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Skarmory|Spikes|p2a: Zapdos
+|-sidestart|p2: JeT´aimeYS|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|196/383|[from] item: Leftovers
+|turn|47
+|
+|switch|p1a: Chansey|Chansey, F|591/704
+|move|p2a: Zapdos|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|522/704
+|
+|switch|p2a: Jellicent|Jellicent, M|329/404 tox
+|-damage|p2a: Jellicent|262/404 tox|[from] Spikes
+|-damage|p2a: Jellicent|212/404 tox|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jellicent|237/404 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|212/404 tox|[from] psn
+|turn|48
+|chat|JeT´aimeYS|gg
+|-message|JeT´aimeYS forfeited.
+|
+|win|ŝhofư
+|raw|Ladder updating...
+|raw|ŝhofư's rating: 1378 &rarr; <strong>1402</strong><br />(+24 for winning)
+|raw|JeT´aimeYS's rating: 1446 &rarr; <strong>1422</strong><br />(-24 for losing)

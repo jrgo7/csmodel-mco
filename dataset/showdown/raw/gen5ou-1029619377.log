@@ -1,0 +1,362 @@
+|j|☆blackkaiser
+|j|☆Jay Jay_aussiebeef
+|player|p1|blackkaiser|2|1567
+|player|p2|Jay Jay_aussiebeef|red|1382
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Ferrothorn, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Landorus|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|88/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Scizor|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Scizor|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Scizor|59/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|4
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Hippowdon|Earthquake|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|34/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Swampert|Waterfall|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|61/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Swampert
+|-sidestart|p2: Jay Jay_aussiebeef|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|41/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Swampert|Waterfall|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|21/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|47/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Swampert|Waterfall|p1a: Jellicent
+|-immune|p1a: Jellicent|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|-damage|p2a: Espeon|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Espeon
+|move|p2a: Espeon|Will-O-Wisp|p1a: Jellicent|[from]Magic Bounce
+|-status|p1a: Jellicent|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|82/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100 brn|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|44/100 brn
+|-damage|p2a: Espeon|72/100|[from] item: Life Orb
+|move|p1a: Jellicent|Shadow Ball|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|5/100|[from] Sandstorm
+|-damage|p1a: Jellicent|38/100 brn|[from] Sandstorm
+|-heal|p1a: Jellicent|44/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|32/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Espeon|Psychic|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|61/100
+|-damage|p2a: Espeon|0 fnt|[from] item: Life Orb
+|faint|p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|turn|11
+|
+|switch|p1a: Hippowdon|Hippowdon, M|78/100
+|move|p2a: Landorus|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|64/100
+|
+|switch|p2a: Swampert|Swampert, M|53/100|[from]move: U-turn
+|-damage|p2a: Swampert|47/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|53/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Jellicent|Jellicent, M|32/100 brn
+|move|p2a: Swampert|Waterfall|p1a: Jellicent
+|-heal|p1a: Jellicent|57/100 brn|[from] ability: Water Absorb|[of] p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|50/100 brn|[from] Sandstorm
+|-heal|p1a: Jellicent|57/100 brn|[from] item: Leftovers
+|-heal|p2a: Swampert|59/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|44/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Swampert
+|-status|p2a: Swampert|brn
+|move|p2a: Swampert|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|17/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|11/100 brn|[from] Sandstorm
+|-heal|p1a: Jellicent|17/100 brn|[from] item: Leftovers
+|-heal|p2a: Swampert|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|5/100 brn|[from] brn
+|-damage|p2a: Swampert|53/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|55/100 brn
+|move|p2a: Swampert|Earthquake|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|1/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|0 fnt|[from] Sandstorm
+|faint|p1a: Jellicent
+|-heal|p2a: Swampert|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|47/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|15
+|
+|move|p1a: Garchomp|Draco Meteor|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|faint|p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Hippowdon|Hippowdon, M|70/100
+|move|p2a: Latios|Draco Meteor|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|61/100
+|turn|17
+|
+|move|p2a: Latios|Draco Meteor|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|40/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Scizor|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|75/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|turn|18
+|
+|move|p2a: Landorus|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|24/100
+|
+|-activate|p2a: Landorus|move: Pursuit
+|move|p1a: Scizor|Pursuit|p2a: Landorus|[from]Pursuit
+|-damage|p2a: Landorus|40/100
+|switch|p2a: Scizor|Scizor, M|59/100|[from]move: U-turn
+|-damage|p2a: Scizor|47/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|move|p2a: Scizor|Superpower|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|58/100
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|52/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|switch|p1a: Garchomp|Garchomp, M|91/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Garchomp|81/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|40/100
+|-damage|p2a: Landorus|28/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|turn|22
+|
+|switch|p1a: Latios|Latios, M, shiny|52/100
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|46/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|switch|p2a: Scizor|Scizor, M|47/100
+|-damage|p2a: Scizor|34/100|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|40/100|[from] Sandstorm
+|upkeep
+|c|☆Jay Jay_aussiebeef|gg
+|
+|switch|p2a: Landorus|Landorus-Therian, M|28/100
+|-damage|p2a: Landorus|15/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|24
+|
+|move|p2a: Landorus|Stone Edge|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|81/100
+|turn|25
+|
+|move|p2a: Landorus|Stone Edge|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|37/100
+|move|p1a: Garchomp|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|27/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|win|blackkaiser
+|raw|blackkaiser's rating: 1567 &rarr; <strong>1578</strong><br />(+11 for winning)
+|raw|Jay Jay_aussiebeef's rating: 1382 &rarr; <strong>1372</strong><br />(-10 for losing)

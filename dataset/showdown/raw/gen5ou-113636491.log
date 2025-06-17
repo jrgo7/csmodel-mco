@@ -1,0 +1,239 @@
+|join|dtw
+|join|Erica Arborea
+|player|p1|dtw|101
+|player|p2|Erica Arborea|2
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Reuniclus, F
+|poke|p1|Tyranitar, M
+|poke|p1|Forretress, M
+|poke|p1|Breloom, F
+|poke|p1|Hydreigon, F
+|poke|p1|Scizor, M
+|poke|p2|Politoed, F, shiny
+|poke|p2|Garchomp, F
+|poke|p2|Dragonite, M, shiny
+|poke|p2|Volcarona, M
+|poke|p2|Scizor, M
+|poke|p2|Starmie
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Forretress|Forretress, M|354/354
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Scald|p1a: Forretress
+|-damage|p1a: Forretress|185/354
+|-enditem|p1a: Forretress|Red Card|[of] p2a: Politoed
+|drag|p2a: Dragonite|Dragonite, M, shiny|334/334
+|move|p1a: Forretress|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: Erica Arborea|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Dragonite|Hurricane|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Reuniclus|Reuniclus, F|409/409
+|turn|3
+|
+|move|p2a: Dragonite|Waterfall|p1a: Reuniclus
+|-damage|p1a: Reuniclus|265/409
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Reuniclus
+|-damage|p1a: Reuniclus|167/409
+|move|p1a: Reuniclus|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|212/334
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|232/334|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, M|344/344
+|-damage|p2a: Scizor|301/344|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Reuniclus|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|41/344
+|move|p2a: Scizor|Pursuit|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Scizor|Scizor, M|343/343
+|turn|7
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|284/343
+|move|p1a: Scizor|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|switch|p1a: Breloom|Breloom, F|261/261
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Starmie|Starmie|323/323
+|-damage|p2a: Starmie|283/323|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, M|386/386
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Starmie|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|382/386
+|-sideend|p2: Erica Arborea|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Starmie|263/323|[from] sandstorm
+|-heal|p2a: Starmie|283/323|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Starmie|Scald|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|122/386
+|move|p1a: Tyranitar|Crunch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Politoed|Politoed, F, shiny|384/384
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|10
+|
+|switch|p1a: Hydreigon|Hydreigon, F|325/325
+|move|p2a: Politoed|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|141/325
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Politoed|[miss]
+|-miss|p1a: Hydreigon|p2a: Politoed
+|move|p2a: Politoed|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Breloom|Breloom, F|261/261
+|turn|12
+|
+|move|p1a: Breloom|Spore|p2a: Politoed
+|-status|p2a: Politoed|slp
+|cant|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Volcarona|Volcarona, M|311/311
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p1a: Breloom|Mach Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|151/311
+|move|p2a: Volcarona|Hurricane|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-enditem|p1a: Breloom|Focus Sash
+|-damage|p1a: Breloom|1/261
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|170/311|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Breloom|Mach Punch|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|chat|Erica Arborea|damn crit
+|chat|dtw|that makes up for draco meteor
+|chat|dtw|miss
+|chat|Erica Arborea|fair enough :) but my poli would have survived
+|chat|dtw|true :)
+|
+|switch|p2a: Garchomp|Garchomp, F|358/358
+|turn|16
+|
+|move|p1a: Breloom|Mach Punch|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Breloom|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|chat|dtw|ok that's just bad luck
+|
+|switch|p1a: Tyranitar|Tyranitar, M|122/386
+|switch|p2a: Politoed|Politoed, F, shiny|384/384 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|17
+|chat|dtw|althogh it probably wouldn't have mattered in the long run
+|chat|Erica Arborea|oh well idc
+|
+|move|p1a: Tyranitar|Crunch|p2a: Politoed
+|-damage|p2a: Politoed|92/384 slp
+|cant|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|116/384 slp|[from] item: Leftovers
+|turn|18
+|
+|cant|p2a: Politoed|slp
+|move|p1a: Tyranitar|Crunch|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|win|dtw
+|raw|Ladder updating...
+|raw|dtw's rating: 1329 &rarr; <strong>1354</strong><br />(+25 for winning)
+|raw|Erica Arborea's rating: 1423 &rarr; <strong>1398</strong><br />(-25 for losing)
+|chat|Erica Arborea|gg
+|chat|dtw|gg

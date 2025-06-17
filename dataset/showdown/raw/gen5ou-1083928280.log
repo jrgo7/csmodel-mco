@@ -1,0 +1,420 @@
+|j|☆fatgripz
+|j|☆Hematemesis
+|player|p1|fatgripz|fisherman|1351
+|player|p2|Hematemesis|winona|1280
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Forretress, F|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Victini|item
+|poke|p1|Darmanitan, M|item
+|poke|p1|Infernape, M|item
+|poke|p2|Registeel|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Donphan, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|c|☆Hematemesis|bkc
+|c|☆fatgripz|ye u know it
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Registeel|Registeel|100/100
+|turn|1
+|
+|move|p1a: Latios|Trick|p2a: Registeel
+|-activate|p1a: Latios|move: Trick|[of] p2a: Registeel
+|-item|p2a: Registeel|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|move|p2a: Registeel|Stealth Rock|p1a: Latios
+|-sidestart|p1: fatgripz|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Latios|Thunder Wave|p2a: Jellicent
+|-status|p2a: Jellicent|par
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hematemesis)
+|
+|move|p1a: Latios|Draco Meteor|p2a: Jellicent
+|-damage|p2a: Jellicent|54/100 par
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Jellicent|Shadow Ball|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|61/100
+|
+|-heal|p1a: Latios|67/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|-damage|p1a: Darmanitan|76/100|[from] Stealth Rock
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 par
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Darmanitan|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|81/100
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100|[from]move: U-turn
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|82/100|[from] item: Leftovers
+|-heal|p2a: Politoed|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|switch|p2a: Registeel|Registeel|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Registeel|Seismic Toss|p1a: Forretress
+|-damage|p1a: Forretress|60/100
+|move|p1a: Forretress|Stealth Rock|p2a: Registeel
+|-sidestart|p2: Hematemesis|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Registeel|Seismic Toss|p1a: Forretress
+|-damage|p1a: Forretress|32/100
+|move|p1a: Forretress|Rapid Spin|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|99/100
+|-sideend|p1: fatgripz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p1a: Darmanitan|Darmanitan, M|76/100
+|move|p2a: Registeel|Seismic Toss|p1a: Darmanitan
+|-damage|p1a: Darmanitan|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: Politoed|Politoed, F|87/100
+|-damage|p2a: Politoed|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Darmanitan|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|56/100
+|
+|switch|p1a: Ninetales|Ninetales, M|82/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|88/100|[from] item: Leftovers
+|-heal|p2a: Politoed|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Registeel|Registeel|99/100
+|-damage|p2a: Registeel|93/100|[from] Stealth Rock
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Registeel
+|-status|p2a: Registeel|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|94/100|[from] item: Leftovers
+|-damage|p2a: Registeel|81/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Registeel|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: fatgripz|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|99/100|[from] item: Leftovers
+|-damage|p2a: Registeel|68/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|30/100 brn
+|move|p2a: Registeel|Stealth Rock||[still]
+|-fail|p2a: Registeel
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|100/100|[from] item: Leftovers
+|-damage|p2a: Registeel|18/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Hematemesis has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100 par
+|-damage|p2a: Jellicent|88/100 par|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Victini|Victini|100/100
+|-damage|p1a: Victini|76/100|[from] Stealth Rock
+|cant|p2a: Jellicent|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|-damage|p2a: Donphan|94/100|[from] Stealth Rock
+|move|p1a: Victini|V-create|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Donphan
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|62/100
+|-damage|p2a: Politoed|50/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|17
+|
+|switch|p1a: Latios|Latios, M|67/100
+|-damage|p1a: Latios|55/100|[from] Stealth Rock
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Jellicent|Jellicent, M|94/100 par
+|-damage|p2a: Jellicent|82/100 par|[from] Stealth Rock
+|move|p1a: Latios|Thunder Wave|p2a: Jellicent
+|-fail|p2a: Jellicent|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|67/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Jellicent|Shadow Ball|p1a: Ninetales
+|-damage|p1a: Ninetales|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|58/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: Jellicent|Taunt|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|64/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|-damage|p1a: Infernape|88/100|[from] Stealth Rock
+|switch|p2a: Politoed|Politoed, F|50/100
+|-damage|p2a: Politoed|37/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|43/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Infernape|Thunder Punch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Ninetales|Ninetales, M|64/100
+|-damage|p1a: Ninetales|39/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Latios|Psyshock|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Infernape|Infernape, M|88/100
+|-damage|p1a: Infernape|76/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Latios|Psyshock|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|67/100
+|-damage|p1a: Latios|54/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Latios|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|30/100
+|move|p1a: Latios|Draco Meteor|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Latios
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latios|36/100|[from] item: Leftovers
+|upkeep
+|inactive|Hematemesis has 120 seconds left.
+|j| Dog strangler
+|
+|switch|p2a: Keldeo|Keldeo|94/100
+|-damage|p2a: Keldeo|88/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Forretress|Forretress, F|32/100
+|-damage|p1a: Forretress|19/100|[from] Stealth Rock
+|move|p2a: Keldeo|Icy Wind|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|6/100
+|-unboost|p1a: Forretress|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|-enditem|p1a: Forretress|Custap Berry|[eat]
+|-activate|p1a: Forretress|item: Custap Berry|[consumed]
+|
+|move|p1a: Forretress|Rapid Spin|p2a: Keldeo
+|-damage|p2a: Keldeo|83/100
+|-sideend|p1: fatgripz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|move|p2a: Keldeo|Icy Wind|p1a: Forretress
+|-resisted|p1a: Forretress
+|-crit|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|l| Dog strangler
+|
+|switch|p1a: Latios|Latios, M|36/100
+|turn|28
+|
+|move|p1a: Latios|Draco Meteor|p2a: Keldeo
+|-damage|p2a: Keldeo|15/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Keldeo|Icy Wind|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Darmanitan|Darmanitan, M|47/100
+|turn|29
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100 par
+|-damage|p2a: Jellicent|88/100 par|[from] Stealth Rock
+|move|p1a: Darmanitan|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|58/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Victini|Victini|76/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Victini|Bolt Strike|p2a: Jellicent|[miss]
+|-miss|p1a: Victini|p2a: Jellicent
+|move|p2a: Jellicent|Shadow Ball|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jellicent|76/100 par|[from] item: Leftovers
+|upkeep
+|c|☆fatgripz|:)
+|
+|switch|p1a: Darmanitan|Darmanitan, M|47/100
+|turn|32
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|24/100 par
+|-damage|p1a: Darmanitan|27/100|[from] Recoil
+|move|p2a: Jellicent|Shadow Ball|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|win|Hematemesis
+|raw|fatgripz's rating: 1351 &rarr; <strong>1326</strong><br />(-25 for losing)
+|raw|Hematemesis's rating: 1265 &rarr; <strong>1296</strong><br />(+31 for winning)

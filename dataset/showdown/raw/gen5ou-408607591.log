@@ -1,0 +1,300 @@
+|j|BLT2 suicide squad
+|j|BLT2 FINCHINATOR
+|player|p1|BLT2 suicide squad|151
+|player|p2|BLT2 FINCHINATOR|162
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Starmie|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Starmie|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Toxicroak, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|choice||
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Politoed|[miss]
+|-miss|p1a: Starmie|p2a: Politoed
+|move|p2a: Politoed|Hypnosis|p1a: Starmie|[miss]
+|-miss|p2a: Politoed|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|choice||
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|28/100
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|-enditem|p2a: Politoed|Sitrus Berry|[eat]
+|-heal|p2a: Politoed|53/100|[from] item: Sitrus Berry
+|move|p2a: Politoed|Hypnosis|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|choice||
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Politoed|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|c|★BLT2 suicide squad|-
+|choice||
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|4
+|choice||
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Politoed|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|45/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|j|Vagadinina
+|choice||
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|40/100
+|move|p2a: Politoed|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|6
+|choice||
+|
+|move|p1a: Garchomp|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|7
+|choice||
+|
+|move|p2a: Tornadus|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|24/100
+|move|p1a: Garchomp|Outrage|p2a: Tornadus
+|-damage|p2a: Tornadus|9/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|j|Earth
+|choice||
+|
+|move|p2a: Tornadus|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|9
+|choice||
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|move|p1a: Jirachi|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|92/100
+|choice||
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|c|+Earth|http://imgur.com/EpvFa5q
+|c|+Earth|is this true, BLT2 FINCHINATOR.
+|c|★BLT2 FINCHINATOR|yes.
+|choice||
+|
+|switch|p2a: Tornadus|Tornadus, M|9/100
+|move|p1a: Landorus|Rock Polish|p1a: Landorus
+|-boost|p1a: Landorus|spe|2
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|choice||
+|
+|move|p1a: Landorus|Stone Edge|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|12
+|choice||
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: BLT2 suicide squad|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|choice||
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Volcarona
+|-start|p1a: Volcarona|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Volcarona|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|turn|14
+|choice||
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|turn|15
+|choice||
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Toxicroak
+|-damage|p2a: Toxicroak|3/100
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|15/100|[from] ability: Dry Skin
+|-damage|p1a: Volcarona|76/100|[from] Leech Seed|[of] p2a: Toxicroak
+|-heal|p2a: Toxicroak|28/100|[silent]
+|turn|16
+|choice||
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Toxicroak|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-damage|p2a: Toxicroak|18/100 brn|[from] item: Life Orb
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|31/100 brn|[from] ability: Dry Skin
+|-damage|p2a: Toxicroak|18/100 brn|[from] brn
+|choice||
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Toxicroak|atk|1
+|turn|17
+|c|+Earth|Never Lucky
+|choice||
+|
+|move|p2a: Toxicroak|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Toxicroak|9/100 brn|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|21/100 brn|[from] ability: Dry Skin
+|-damage|p2a: Toxicroak|9/100 brn|[from] brn
+|choice||
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|18
+|choice||
+|
+|move|p1a: Jirachi|Iron Head|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p2a: Landorus|Landorus-Therian, M|92/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|19
+|choice||
+|
+|move|p1a: Jirachi|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|63/100
+|cant|p2a: Landorus|flinch
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|choice||
+|
+|move|p1a: Jirachi|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|36/100
+|cant|p2a: Landorus|flinch
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|j|killintime
+|choice||
+|
+|move|p1a: Jirachi|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|6/100
+|move|p2a: Landorus|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|win|BLT2 FINCHINATOR
+|player|p1
+|player|p2
+|l|BLT2 suicide squad
+|raw|BLT2 suicide squad's rating: 1327 &rarr; <strong>1312</strong><br />(-15 for losing)
+|raw|BLT2 FINCHINATOR's rating: 1409 &rarr; <strong>1425</strong><br />(+16 for winning)
+|l|killintime

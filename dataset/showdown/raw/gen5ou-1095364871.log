@@ -1,0 +1,290 @@
+|j|☆Gh0st of Perdition
+|j|☆fit n
+|player|p1|Gh0st of Perdition|guitarist-gen4|1527
+|player|p2|fit n|2|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Mamoswine, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Starmie|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Celebi|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Latias, F|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Rotom
+|-sidestart|p2: fit n|move: Stealth Rock
+|
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100 brn
+|
+|switch|p2a: Politoed|Politoed, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ferrothorn|Spikes|p2a: Politoed
+|-sidestart|p2: fit n|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ferrothorn|66/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Politoed|Focus Blast|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|73/100
+|-unboost|p1a: Latios|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Spikes
+|-damage|p2a: Mamoswine|76/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Mamoswine|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: Gh0st of Perdition|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Mamoswine|Superpower|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-unboost|p1a: Mamoswine|atk|1
+|-unboost|p1a: Mamoswine|def|1
+|faint|p2a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|-damage|p2a: Feraligatr|88/100|[from] Stealth Rock
+|-damage|p2a: Feraligatr|76/100|[from] Spikes
+|turn|7
+|
+|move|p1a: Mamoswine|Superpower|p2a: Feraligatr
+|-damage|p2a: Feraligatr|34/100
+|-unboost|p1a: Mamoswine|atk|1
+|-unboost|p1a: Mamoswine|def|1
+|move|p2a: Feraligatr|Swords Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|66/100 brn
+|-damage|p1a: Ferrothorn|60/100 brn|[from] Stealth Rock
+|move|p2a: Feraligatr|Aqua Jet|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|20/100 brn
+|-damage|p2a: Feraligatr|22/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ferrothorn|8/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Feraligatr|9/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|88/100
+|-damage|p2a: Politoed|76/100|[from] Spikes
+|-damage|p2a: Politoed|64/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|52/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Politoed|Hydro Pump|p2a: Politoed|[miss]
+|-miss|p1a: Politoed|p2a: Politoed
+|move|p2a: Politoed|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|18/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|-enditem|p1a: Politoed|Custap Berry|[eat]
+|-activate|p1a: Politoed|item: Custap Berry|[consumed]
+|
+|move|p1a: Politoed|Endeavor|p2a: Politoed
+|-damage|p2a: Politoed|18/100
+|move|p2a: Politoed|Scald|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|88/100
+|-damage|p1a: Mamoswine|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Mamoswine|Icicle Spear|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|7/100
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-hitcount|p2a: Politoed|2
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|-damage|p2a: Celebi|76/100|[from] Spikes
+|turn|15
+|
+|switch|p1a: Latios|Latios, M|73/100
+|-damage|p1a: Latios|61/100|[from] Stealth Rock
+|move|p2a: Celebi|Leaf Storm|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|28/100
+|-unboost|p2a: Celebi|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Celebi|Leaf Storm|p1a: Latios|[miss]
+|-miss|p2a: Celebi|p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Latias|Psyshock|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Latias|78/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Latias|[miss]
+|-miss|p1a: Starmie|p2a: Latias
+|move|p2a: Latias|Draco Meteor|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-unboost|p2a: Latias|spa|2
+|-damage|p2a: Latias|68/100|[from] item: Life Orb
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Gyarados|Ice Fang|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|12/100
+|move|p2a: Latias|Draco Meteor|p1a: Gyarados
+|-damage|p1a: Gyarados|36/100
+|-unboost|p2a: Latias|spa|2
+|-damage|p2a: Latias|2/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Gyarados|Ice Fang|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|win|Gh0st of Perdition
+|l|☆fit n
+|c|☆Gh0st of Perdition|Gg
+|raw|Gh0st of Perdition's rating: 1527 &rarr; <strong>1536</strong><br />(+9 for winning)
+|raw|fit n's rating: 1319 &rarr; <strong>1310</strong><br />(-9 for losing)

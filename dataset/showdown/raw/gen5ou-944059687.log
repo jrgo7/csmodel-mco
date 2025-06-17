@@ -1,0 +1,785 @@
+|j|☆Vanteline
+|j|☆EigenValue42
+|player|p1|Vanteline|130|
+|player|p2|EigenValue42|165|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Conkeldurr, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Blissey, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|1
+|j| Dayanne or Mavis
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|76/100 tox
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|86/100
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|72/100
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|57/100
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|42/100
+|-hitcount|p2a: Politoed|4
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|48/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|97/100
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|96/100
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|95/100
+|-hitcount|p2a: Ferrothorn|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Heatran|Earth Power|p2a: Blissey
+|-damage|p2a: Blissey|89/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Blissey|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Vanteline|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|95/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: EigenValue42|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Vanteline|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: EigenValue42|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Vanteline|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|76/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Tentacruel
+|-sidestart|p2: EigenValue42|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|l| Dayanne or Mavis
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Tentacruel|75/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: EigenValue42|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: EigenValue42|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Tentacruel
+|-damage|p2a: Tentacruel|67/100
+|-damage|p2a: Tentacruel|58/100
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|40/100
+|-damage|p2a: Tentacruel|32/100
+|-damage|p2a: Tentacruel|24/100
+|-hitcount|p2a: Tentacruel|5
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|30/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|36/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: EigenValue42|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|42/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|48/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Tentacruel
+|-damage|p2a: Tentacruel|39/100
+|-damage|p2a: Tentacruel|30/100
+|-damage|p2a: Tentacruel|22/100
+|-damage|p2a: Tentacruel|13/100
+|-damage|p2a: Tentacruel|4/100
+|-hitcount|p2a: Tentacruel|5
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|10/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|16/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Ferrothorn|Spikes|p2a: Tentacruel
+|-sidestart|p2: EigenValue42|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|22/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|28/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Tentacruel
+|-damage|p2a: Tentacruel|19/100
+|-damage|p2a: Tentacruel|10/100
+|-damage|p2a: Tentacruel|2/100
+|-damage|p2a: Tentacruel|0 fnt
+|-hitcount|p2a: Tentacruel|4
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, F|48/100
+|-damage|p2a: Politoed|35/100|[from] Spikes
+|-damage|p2a: Politoed|23/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Politoed|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|9/100
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-hitcount|p2a: Politoed|2
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|-damage|p2a: Jirachi|82/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|57/100
+|move|p1a: Ferrothorn|Leech Seed||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|63/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-hitcount|p2a: Jirachi|4
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|66/100
+|-hitcount|p2a: Jirachi|5
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|72/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|47/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-hitcount|p2a: Jirachi|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|53/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-hitcount|p2a: Jirachi|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|56/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|52/100
+|-hitcount|p2a: Jirachi|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|58/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|33/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-hitcount|p2a: Jirachi|4
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|40/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Jirachi|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|36/100
+|-hitcount|p2a: Jirachi|4
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|43/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|18/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-hitcount|p2a: Jirachi|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|24/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-hitcount|p2a: Jirachi|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|30/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|27/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|23/100
+|-hitcount|p2a: Jirachi|4
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|29/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|4/100
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-hitcount|p2a: Jirachi|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|11/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|74/100 par
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-activate|p2a: Jirachi|Substitute|[damage]
+|-resisted|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-hitcount|p2a: Jirachi|4
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|17/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EigenValue42)
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58/100 par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Jirachi
+|-start|p2a: Jirachi|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|23/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|64/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|11/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|78/100 par|[silent]
+|upkeep
+|turn|33
+|
+|move|p2a: Jirachi|Thunder|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|44/100 par
+|move|p1a: Ferrothorn|Spikes|p2a: Jirachi
+|-sidestart|p2: EigenValue42|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|17/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|50/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|4/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|64/100 par|[silent]
+|upkeep
+|turn|34
+|inactive|Vanteline has 120 seconds left.
+|c|☆EigenValue42|school must be tough for you
+|inactive|Vanteline has 90 seconds left.
+|
+|move|p2a: Jirachi|Water Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|38/100 par
+|move|p1a: Ferrothorn|Bullet Seed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-hitcount|p2a: Jirachi|1
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|44/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63/100 tox
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|50/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|
+|move|p2a: Gliscor|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|29/100 par
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|35/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|inactive|Vanteline has 90 seconds left.
+|
+|move|p2a: Gliscor|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|10/100 par
+|cant|p1a: Ferrothorn|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|16/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|38
+|c|☆EigenValue42|ah
+|
+|move|p2a: Gliscor|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆EigenValue42|now its paralyzed
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-immune|p2a: Gliscor
+|turn|39
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|95/100
+|-damage|p2a: Ferrothorn|89/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|72/100|[from] Spikes
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|40
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ferrothorn|Power Whip|p1a: Heatran|[miss]
+|-miss|p2a: Ferrothorn|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|c|☆EigenValue42|of course i miss
+|
+|move|p1a: Heatran|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|-damage|p2a: Blissey|71/100|[from] Stealth Rock
+|turn|42
+|inactive|Vanteline has 120 seconds left.
+|
+|move|p1a: Heatran|Fire Blast|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|47/100
+|move|p2a: Blissey|Seismic Toss|p1a: Heatran
+|-damage|p1a: Heatran|57/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|Vanteline has 120 seconds left.
+|
+|move|p1a: Heatran|Fire Blast|p2a: Blissey
+|-damage|p2a: Blissey|42/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Heatran|Earth Power|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|move|p2a: Blissey|Seismic Toss|p1a: Heatran
+|-damage|p1a: Heatran|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Heatran|Fire Blast|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|move|p2a: Blissey|Seismic Toss|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|78/100|[from] Spikes
+|turn|46
+|
+|move|p2a: Blissey|Toxic|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|tox
+|move|p1a: Conkeldurr|Drain Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-heal|p1a: Conkeldurr|100/100 tox|[from] drain|[of] p2a: Blissey
+|-damage|p1a: Conkeldurr|91/100 tox|[from] item: Life Orb
+|faint|p2a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Conkeldurr|85/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63/100 tox
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Conkeldurr|72/100 tox|[from] psn
+|upkeep
+|turn|48
+|c|☆EigenValue42|pretty unhappy that i lost due to luck but what can you do
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Conkeldurr|54/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63/100 tox
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Conkeldurr|29/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Conkeldurr|0 fnt|[from] psn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|76/100
+|-damage|p1a: Gyarados|51/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|turn|51
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Gliscor|Ice Fang|p1a: Gyarados
+|-damage|p1a: Gyarados|39/100
+|-damage|p2a: Gliscor|71/100 tox|[from] item: Rocky Helmet|[of] p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|52
+|
+|move|p1a: Gyarados|Ice Fang|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|4/100 tox
+|move|p2a: Gliscor|Ice Fang|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|2/100
+|-damage|p2a: Gliscor|0 fnt|[from] item: Rocky Helmet|[of] p1a: Gyarados
+|faint|p2a: Gliscor
+|
+|win|Vanteline
+|raw|Vanteline's rating: 1356 &rarr; <strong>1375</strong><br />(+19 for winning)
+|raw|EigenValue42's rating: 1337 &rarr; <strong>1318</strong><br />(-19 for losing)
+|c|☆Vanteline|gg
+|c|☆EigenValue42|better luck next time
+|c|☆EigenValue42|literally

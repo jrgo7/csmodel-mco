@@ -1,0 +1,215 @@
+|join|Vlan
+|join|Sage Hane
+|player|p1|Vlan|102
+|player|p2|Sage Hane|266
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Skarmory, F
+|poke|p1|Gengar, F
+|poke|p1|Keldeo
+|poke|p1|Breloom, M
+|poke|p1|Weavile, F
+|poke|p1|Dragonite, F
+|poke|p2|Chansey, F
+|poke|p2|Wobbuffet, F
+|poke|p2|Cloyster, F
+|poke|p2|Garchomp, F
+|poke|p2|Dragonite, F
+|poke|p2|Forretress, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|Sage Hane|have we met?
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|271/271
+|switch|p2a: Aeralfos|Dragonite, F|336/336
+|turn|1
+|
+|move|p1a: Skarmory|Stealth Rock|p2a: Aeralfos
+|-sidestart|p2: Sage Hane|move: Stealth Rock
+|move|p2a: Aeralfos|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|turn|2
+|
+|switch|p2a: Blue Chu Chu|Wobbuffet, F|528/528
+|-damage|p2a: Blue Chu Chu|462/528|[from] Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Blue Chu Chu
+|-sidestart|p2: Sage Hane|Spikes
+|
+|-heal|p2a: Blue Chu Chu|495/528|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Blue Chu Chu|Encore|p1a: Skarmory
+|-start|p1a: Skarmory|Encore
+|move|p1a: Skarmory|Spikes|p2a: Blue Chu Chu
+|-sidestart|p2: Sage Hane|Spikes
+|
+|-heal|p2a: Blue Chu Chu|528/528|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Shell Blade|Cloyster, F|241/241
+|-damage|p2a: Shell Blade|181/241|[from] Stealth Rock
+|-damage|p2a: Shell Blade|141/241|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Shell Blade
+|-sidestart|p2: Sage Hane|Spikes
+|
+|turn|5
+|
+|switch|p1a: Gengar|Gengar, F|264/264
+|move|p2a: Shell Blade|Icicle Spear|p1a: Gengar
+|-damage|p1a: Gengar|210/264
+|-damage|p1a: Gengar|158/264
+|-damage|p1a: Gengar|104/264
+|-damage|p1a: Gengar|50/264
+|-damage|p1a: Gengar|0 fnt
+|-hitcount|p1a: Gengar|5
+|faint|p1a: Gengar
+|
+|
+|switch|p1a: Breloom|Breloom, M|289/289
+|turn|6
+|
+|switch|p2a: Leever|Forretress, F|354/354
+|-damage|p2a: Leever|310/354|[from] Stealth Rock
+|-damage|p2a: Leever|222/354|[from] Spikes
+|move|p1a: Breloom|Bullet Seed|p2a: Leever
+|-resisted|p2a: Leever
+|-damage|p2a: Leever|212/354
+|-resisted|p2a: Leever
+|-damage|p2a: Leever|202/354
+|-resisted|p2a: Leever
+|-damage|p2a: Leever|193/354
+|-resisted|p2a: Leever
+|-damage|p2a: Leever|182/354
+|-hitcount|p2a: Leever|4
+|
+|-heal|p2a: Leever|204/354|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Breloom|Spore|p2a: Leever
+|-status|p2a: Leever|slp
+|cant|p2a: Leever|slp
+|
+|-heal|p2a: Leever|226/354 slp|[from] item: Leftovers
+|turn|8
+|
+|-singleturn|p1a: Breloom|move: Focus Punch
+|cant|p2a: Leever|slp
+|move|p1a: Breloom|Focus Punch|p2a: Leever
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem|[move] Focus Punch
+|-damage|p2a: Leever|0 fnt
+|faint|p2a: Leever
+|
+|
+|switch|p2a: Aeralfos|Dragonite, F|336/336
+|-damage|p2a: Aeralfos|252/336|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Skarmory|Skarmory, F|271/271 par
+|move|p2a: Aeralfos|Substitute|p2a: Aeralfos
+|-start|p2a: Aeralfos|Substitute
+|-damage|p2a: Aeralfos|168/336
+|
+|-heal|p2a: Aeralfos|189/336|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Skarmory|Brave Bird|p2a: Aeralfos
+|-end|p2a: Aeralfos|Substitute
+|-damage|p1a: Skarmory|243/271 par|[from] recoil|[of] p2a: Aeralfos
+|move|p2a: Aeralfos|Dragon Tail|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|210/271 par
+|drag|p1a: Keldeo|Keldeo|337/337
+|
+|-heal|p2a: Aeralfos|210/336|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Skarmory|Skarmory, F|210/271 par
+|switch|p2a: Weird Egg|Chansey, F|642/642
+|-damage|p2a: Weird Egg|482/642|[from] Spikes
+|-damage|p2a: Weird Egg|402/642|[from] Stealth Rock
+|
+|turn|12
+|
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|move|p2a: Weird Egg|Wish|p2a: Weird Egg
+|
+|turn|13
+|
+|switch|p2a: Blue Chu Chu|Wobbuffet, F|528/528
+|-damage|p2a: Blue Chu Chu|396/528|[from] Spikes
+|-damage|p2a: Blue Chu Chu|330/528|[from] Stealth Rock
+|move|p1a: Dragonite|Outrage|p2a: Blue Chu Chu
+|-damage|p2a: Blue Chu Chu|0 fnt
+|faint|p2a: Blue Chu Chu
+|
+|
+|switch|p2a: Dinolfos|Garchomp, F|359/359
+|-damage|p2a: Dinolfos|337/359|[from] Stealth Rock
+|-damage|p2a: Dinolfos|248/359|[from] Spikes
+|turn|14
+|
+|move|p2a: Dinolfos|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Weavile|Weavile, F|289/289
+|-ability|p1a: Weavile|Pressure
+|turn|15
+|
+|move|p1a: Weavile|Ice Shard|p2a: Dinolfos
+|-supereffective|p2a: Dinolfos
+|-damage|p2a: Dinolfos|0 fnt
+|-damage|p1a: Weavile|261/289|[from] item: Life Orb
+|faint|p2a: Dinolfos
+|
+|
+|switch|p2a: Shell Blade|Cloyster, F|141/241
+|-damage|p2a: Shell Blade|81/241|[from] Spikes
+|-damage|p2a: Shell Blade|21/241|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Weavile|Night Slash|p2a: Shell Blade
+|-damage|p2a: Shell Blade|0 fnt
+|-damage|p1a: Weavile|233/289|[from] item: Life Orb
+|faint|p2a: Shell Blade
+|
+|
+|switch|p2a: Weird Egg|Chansey, F|402/642
+|-damage|p2a: Weird Egg|322/642|[from] Stealth Rock
+|-damage|p2a: Weird Egg|162/642|[from] Spikes
+|turn|17
+|
+|move|p1a: Weavile|Night Slash|p2a: Weird Egg
+|-damage|p2a: Weird Egg|0 fnt
+|-damage|p1a: Weavile|205/289|[from] item: Life Orb
+|faint|p2a: Weird Egg
+|
+|
+|switch|p2a: Aeralfos|Dragonite, F|210/336
+|-damage|p2a: Aeralfos|126/336|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Weavile|Night Slash|p2a: Aeralfos
+|-damage|p2a: Aeralfos|0 fnt
+|-damage|p1a: Weavile|177/289|[from] item: Life Orb
+|faint|p2a: Aeralfos
+|
+|win|Vlan
+|raw|Ladder updating...
+|raw|Vlan's rating: 1513 &rarr; <strong>1526</strong><br />(+13 for winning)
+|raw|Sage Hane's rating: 1391 &rarr; <strong>1378</strong><br />(-13 for losing)
+|chat|Sage Hane|gg

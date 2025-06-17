@@ -1,0 +1,326 @@
+|j|☆kobe_pain
+|j|☆porrompompom
+|player|p1|kobe_pain|dahlia|1376
+|player|p2|porrompompom|169|1527
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Venusaur, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Bisharp, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Lucario, F|item
+|poke|p2|Salamence, M|item
+|poke|p2|Mew|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kobe_pain)
+|j| The Resolute One
+|
+|start
+|switch|p1a: Chansey|Chansey, F|100/100
+|switch|p2a: Dolores|Mew|100/100
+|turn|1
+|
+|move|p2a: Dolores|Stealth Rock|p1a: Chansey
+|-sidestart|p1: kobe_pain|move: Stealth Rock
+|move|p1a: Chansey|Thunder Wave|p2a: Dolores
+|-status|p2a: Dolores|par
+|-activate|p2a: Dolores|ability: Synchronize
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ymir|Lucario, F|100/100
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Ymir|Swords Dance|p2a: Ymir
+|-boost|p2a: Ymir|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Ymir|Close Combat|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-unboost|p2a: Ymir|def|1
+|-unboost|p2a: Ymir|spd|1
+|-damage|p2a: Ymir|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-damage|p2a: Ymir|74/100|[from] item: Life Orb
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p2a: Meraxes|Latios, M|100/100
+|move|p1a: Keldeo|Secret Sword|p2a: Meraxes
+|-resisted|p2a: Meraxes
+|-damage|p2a: Meraxes|69/100
+|
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|move|p2a: Meraxes|Trick|p1a: Chansey
+|-activate|p2a: Meraxes|move: Trick|[of] p1a: Chansey
+|-item|p1a: Chansey|Choice Specs|[from] move: Trick
+|-item|p2a: Meraxes|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Ymir|Lucario, F|74/100
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Meraxes|Latios, M|69/100
+|move|p1a: Keldeo|Secret Sword|p2a: Meraxes
+|-resisted|p2a: Meraxes
+|-damage|p2a: Meraxes|38/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Ymir|Lucario, F|74/100
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Bisharp|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|move|p2a: Ymir|Close Combat|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|58/100
+|-unboost|p2a: Ymir|def|1
+|-unboost|p2a: Ymir|spd|1
+|-damage|p2a: Ymir|64/100|[from] item: Life Orb
+|
+|-heal|p1a: Venusaur|64/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Rehoboam|Magnezone|100/100
+|move|p1a: Venusaur|Hidden Power|p2a: Rehoboam
+|-supereffective|p2a: Rehoboam
+|-damage|p2a: Rehoboam|59/100
+|
+|-heal|p1a: Venusaur|70/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Rehoboam
+|-start|p2a: Rehoboam|move: Leech Seed
+|move|p2a: Rehoboam|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|-heal|p1a: Venusaur|76/100 par|[from] item: Black Sludge
+|-damage|p2a: Rehoboam|47/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|87/100 par|[silent]
+|upkeep
+|turn|13
+|
+|switch|p2a: Dolores|Mew|100/100 par
+|move|p1a: Venusaur|Hidden Power|p2a: Dolores
+|-damage|p2a: Dolores|85/100 par
+|
+|-heal|p1a: Venusaur|93/100 par|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p2a: Ymir|Lucario, F|64/100
+|move|p1a: Venusaur|Leech Seed|p2a: Ymir
+|-start|p2a: Ymir|move: Leech Seed
+|
+|-heal|p1a: Venusaur|99/100 par|[from] item: Black Sludge
+|-damage|p2a: Ymir|52/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|100/100 par|[silent]
+|upkeep
+|turn|15
+|
+|switch|p2a: Dolores|Mew|85/100 par
+|move|p1a: Venusaur|Hidden Power|p2a: Dolores
+|-damage|p2a: Dolores|70/100 par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Dolores|Fire Blast|p1a: Venusaur|[miss]
+|-miss|p2a: Dolores|p1a: Venusaur
+|move|p1a: Venusaur|Leech Seed|p2a: Dolores
+|-start|p2a: Dolores|move: Leech Seed
+|
+|-damage|p2a: Dolores|58/100 par|[from] Leech Seed|[of] p1a: Venusaur
+|upkeep
+|turn|17
+|
+|switch|p2a: Ymir|Lucario, F|52/100
+|switch|p1a: Chansey|Chansey, F|88/100
+|-damage|p1a: Chansey|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100 par
+|-damage|p1a: Venusaur|88/100 par|[from] Stealth Rock
+|move|p2a: Ymir|Close Combat|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|60/100 par
+|-unboost|p2a: Ymir|def|1
+|-unboost|p2a: Ymir|spd|1
+|-damage|p2a: Ymir|42/100|[from] item: Life Orb
+|
+|-heal|p1a: Venusaur|66/100 par|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Dolores|Mew|58/100 par
+|cant|p1a: Venusaur|par
+|
+|-heal|p1a: Venusaur|72/100 par|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Dolores|Fire Blast|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|5/100 par
+|move|p1a: Venusaur|Leech Seed|p2a: Dolores|[miss]
+|-miss|p1a: Venusaur|p2a: Dolores
+|
+|-heal|p1a: Venusaur|11/100 par|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p2a: Dolores|Thunder|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|94/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Bisharp|Night Slash|p2a: Dolores
+|-supereffective|p2a: Dolores
+|-damage|p2a: Dolores|0 fnt
+|faint|p2a: Dolores
+|
+|-heal|p1a: Bisharp|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ymir|Lucario, F|42/100
+|turn|23
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Ymir
+|-resisted|p2a: Ymir
+|-damage|p2a: Ymir|24/100
+|-ability|p2a: Ymir|Justified|boost
+|-boost|p2a: Ymir|atk|1
+|move|p2a: Ymir|Close Combat|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: Ymir|def|1
+|-unboost|p2a: Ymir|spd|1
+|-damage|p2a: Ymir|14/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p2a: Meraxes|Latios, M|38/100
+|move|p1a: Keldeo|Scald|p2a: Meraxes
+|-resisted|p2a: Meraxes
+|-damage|p2a: Meraxes|15/100
+|-status|p2a: Meraxes|brn
+|
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|-damage|p2a: Meraxes|2/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Chansey|Chansey, F|76/100
+|-damage|p1a: Chansey|63/100|[from] Stealth Rock
+|move|p2a: Meraxes|Draco Meteor|p1a: Chansey
+|-damage|p1a: Chansey|28/100
+|-unboost|p2a: Meraxes|spa|2
+|
+|-damage|p2a: Meraxes|0 fnt|[from] brn
+|faint|p2a: Meraxes
+|upkeep
+|
+|switch|p2a: Balerion|Haxorus, M, shiny|100/100
+|-ability|p2a: Balerion|Mold Breaker
+|turn|26
+|
+|move|p2a: Balerion|Taunt|p1a: Chansey
+|-start|p1a: Chansey|move: Taunt
+|cant|p1a: Chansey|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Balerion|Dragon Dance|p2a: Balerion
+|-boost|p2a: Balerion|atk|1
+|-boost|p2a: Balerion|spe|1
+|
+|upkeep
+|turn|28
+|l|☆porrompompom
+|inactive|porrompompom disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|porrompompom has 30 seconds to reconnect!
+|inactive|porrompompom has 20 seconds to reconnect!
+|inactive|porrompompom has 15 seconds to reconnect!
+|inactive|porrompompom has 10 seconds to reconnect!
+|inactive|porrompompom has 5 seconds to reconnect!
+|-message|porrompompom lost due to inactivity.
+|
+|win|kobe_pain
+|raw|kobe_pain's rating: 1376 &rarr; <strong>1404</strong><br />(+28 for winning)
+|raw|porrompompom's rating: 1527 &rarr; <strong>1499</strong><br />(-28 for losing)
+|l|☆kobe_pain
+|l| The Resolute One
+|j|☆porrompompom
+|player|p2|porrompompom|169

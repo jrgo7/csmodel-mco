@@ -1,0 +1,148 @@
+|j|☆neinrehh
+|j|☆ButterfreeUser
+|player|p1|neinrehh|4
+|player|p2|ButterfreeUser|bruno-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Seismitoad, F|item
+|poke|p1|Celebi|item
+|poke|p1|Cobalion|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Suicune|item
+|poke|p2|Butterfree, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Latios, M|item
+|teampreview
+|c|☆ButterfreeUser|gl hf
+|c|☆neinrehh|gl
+|
+|start
+|switch|p1a: Cobalion|Cobalion|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|move|p2a: Jirachi|U-turn|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|96/100
+|
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Cobalion|Focus Blast|p2a: Suicune
+|-damage|p2a: Suicune|45/100
+|
+|-heal|p2a: Suicune|51/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Cobalion|Focus Blast|p2a: Latios|[miss]
+|-miss|p1a: Cobalion|p2a: Latios
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Latios|Surf|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Love Deluxe|Butterfree, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Love Deluxe
+|-sidestart|p2: ButterfreeUser|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Love Deluxe|Quiver Dance|p2a: Love Deluxe
+|-boost|p2a: Love Deluxe|spa|1
+|-boost|p2a: Love Deluxe|spd|1
+|-boost|p2a: Love Deluxe|spe|1
+|move|p1a: Seismitoad|Scald|p2a: Love Deluxe
+|-damage|p2a: Love Deluxe|77/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Love Deluxe|Quiver Dance|p2a: Love Deluxe
+|-boost|p2a: Love Deluxe|spa|1
+|-boost|p2a: Love Deluxe|spd|1
+|-boost|p2a: Love Deluxe|spe|1
+|move|p1a: Seismitoad|Scald|p2a: Love Deluxe
+|-damage|p2a: Love Deluxe|59/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Love Deluxe|Bug Buzz|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-damage|p2a: Love Deluxe|49/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|upkeep
+|c|☆ButterfreeUser|sry
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Love Deluxe|atk|1
+|move|p2a: Love Deluxe|Sleep Powder|p1a: Landorus|[miss]
+|-miss|p2a: Love Deluxe|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Love Deluxe|43/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p2a: Love Deluxe|Bug Buzz|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Love Deluxe|33/100|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Love Deluxe|27/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|10
+|
+|move|p2a: Love Deluxe|Hidden Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Love Deluxe|17/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Love Deluxe|10/100|[from] Sandstorm
+|upkeep
+|-message|neinrehh forfeited.
+|
+|win|ButterfreeUser
+|l|☆neinrehh
+|raw|neinrehh's rating: 1419 &rarr; <strong>1393</strong><br />(-26 for losing)
+|raw|ButterfreeUser's rating: 1315 &rarr; <strong>1341</strong><br />(+26 for winning)

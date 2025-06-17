@@ -1,0 +1,433 @@
+|j|☆starmaster
+|j|☆basco
+|player|p1|starmaster|steven-gen3
+|player|p2|basco|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Terrakion|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Pat Riely|Tyranitar, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pat Riely|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pat Riely
+|turn|1
+|
+|move|p1a: Landorus|Earthquake|p2a: Pat Riely
+|-supereffective|p2a: Pat Riely
+|-damage|p2a: Pat Riely|5/100
+|move|p2a: Pat Riely|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Pat Riely|11/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|2
+|
+|switch|p2a: Bosh|Latios, M, shiny|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Bosh
+|-resisted|p2a: Bosh
+|-damage|p2a: Bosh|88/100
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|82/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p2a: Bosh|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|60/100
+|move|p1a: Tyranitar|Pursuit|p2a: Bosh
+|-supereffective|p2a: Bosh
+|-damage|p2a: Bosh|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|20/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p2a: Bosh|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|24/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Bosh
+|-sidestart|p2: basco|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|14/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p2a: Ray Allen|Magnezone|100/100
+|-damage|p2a: Ray Allen|94/100|[from] Stealth Rock
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|76/100
+|move|p1a: Ferrothorn|Spikes|p2a: Ray Allen
+|-sidestart|p2: basco|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: Ferrothorn|Spikes|p2a: Ray Allen
+|-sidestart|p2: basco|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|81/100
+|move|p1a: Ferrothorn|Spikes|p2a: Ray Allen
+|-sidestart|p2: basco|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|76/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|63/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen|[miss]
+|-miss|p1a: Ferrothorn|p2a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|69/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn|[miss]
+|-miss|p2a: Ray Allen|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|75/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|39/100
+|-boost|p2a: Ray Allen|spa|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|81/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|56/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Ray Allen
+|-resisted|p2a: Ray Allen
+|-activate|p2a: Ray Allen|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|62/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Ray Allen|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|18
+|
+|move|p1a: Latios|Surf|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|move|p2a: Ray Allen|Flash Cannon|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ray Allen|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|100/100
+|turn|19
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|100/100
+|-damage|p2a: Bron Bron|88/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Earthquake|p2a: Bron Bron
+|-immune|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Bron Bron|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|69/100
+|
+|switch|p2a: Bosh|Latios, M, shiny|14/100
+|-damage|p2a: Bosh|2/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bosh|0 fnt|[from] Sandstorm
+|-damage|p1a: Rotom|63/100|[from] Sandstorm
+|faint|p2a: Bosh
+|-heal|p1a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ray Allen|Magnezone|74/100
+|-damage|p2a: Ray Allen|68/100|[from] Stealth Rock
+|-damage|p2a: Ray Allen|44/100|[from] Spikes
+|turn|21
+|
+|move|p2a: Ray Allen|Substitute|p2a: Ray Allen
+|-start|p2a: Ray Allen|Substitute
+|-damage|p2a: Ray Allen|19/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ray Allen
+|-end|p2a: Ray Allen|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|63/100|[from] Sandstorm
+|-heal|p2a: Ray Allen|25/100|[from] item: Leftovers
+|-heal|p1a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Ray Allen|Charge Beam|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ray Allen
+|-damage|p2a: Ray Allen|0 fnt
+|faint|p2a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|41/100|[from] Sandstorm
+|-heal|p1a: Rotom|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|100/100
+|-damage|p2a: D.Wade|94/100|[from] Stealth Rock
+|-damage|p2a: D.Wade|70/100|[from] Spikes
+|turn|23
+|
+|switch|p1a: Tyranitar|Tyranitar, F|24/100
+|move|p2a: D.Wade|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, F, shiny|100/100
+|turn|24
+|
+|switch|p2a: Pat Riely|Tyranitar, M|11/100
+|-damage|p2a: Pat Riely|0 fnt|[from] Spikes
+|faint|p2a: Pat Riely
+|move|p1a: Garchomp|Dual Chop|p2: Pat Riely|[notarget]
+|-fail|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Bron Bron|Landorus-Therian, M|88/100
+|-damage|p2a: Bron Bron|76/100|[from] Stealth Rock
+|-ability|p2a: Bron Bron|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|turn|25
+|
+|move|p1a: Garchomp|Dual Chop|p2a: Bron Bron
+|-damage|p2a: Bron Bron|61/100
+|-damage|p2a: Bron Bron|47/100
+|-hitcount|p2a: Bron Bron|2
+|move|p2a: Bron Bron|Knock Off|p1a: Garchomp
+|-damage|p1a: Garchomp|92/100
+|-damage|p2a: Bron Bron|35/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Choice Scarf|[from] move: Knock Off|[of] p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p1a: Garchomp|Outrage|p2a: Bron Bron
+|-damage|p2a: Bron Bron|0 fnt
+|faint|p2a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Miller|Scizor, M, shiny|100/100
+|-damage|p2a: Miller|88/100|[from] Stealth Rock
+|-damage|p2a: Miller|63/100|[from] Spikes
+|turn|27
+|
+|move|p2a: Miller|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|37/100
+|-damage|p2a: Miller|51/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Outrage|p2a: Miller|[from]lockedmove
+|-resisted|p2a: Miller
+|-damage|p2a: Miller|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p2a: Miller|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Miller|18/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|47/100
+|turn|29
+|
+|move|p2a: Miller|Bullet Punch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|move|p1a: Rotom|Volt Switch|p2a: Miller
+|-damage|p2a: Miller|0 fnt
+|faint|p2a: Miller
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|29/100|[from] Sandstorm
+|-heal|p1a: Rotom|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: D.Wade|Terrakion|70/100
+|-damage|p2a: D.Wade|63/100|[from] Stealth Rock
+|-damage|p2a: D.Wade|39/100|[from] Spikes
+|turn|30
+|
+|move|p2a: D.Wade|Close Combat|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: D.Wade|def|1
+|-unboost|p2a: D.Wade|spd|1
+|faint|p1a: Rotom
+|
+|win|basco
+|l|☆starmaster
+|raw|starmaster's rating: 1474 &rarr; <strong>1448</strong><br />(-26 for losing)
+|raw|basco's rating: 1365 &rarr; <strong>1391</strong><br />(+26 for winning)

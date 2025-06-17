@@ -1,0 +1,243 @@
+|j|☆TheetumThoor
+|j|☆Esurient
+|player|p1|TheetumThoor|265|1443
+|player|p2|Esurient|254|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Garchomp, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Weavile, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Latias, F|item
+|poke|p2|Mamoswine, F|item
+|teampreview
+|
+|start
+|switch|p1a: Keldeo|Keldeo|100/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|1
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Keldeo
+|-enditem|p1a: Keldeo|Fighting Gem|[from] gem|[move] Secret Sword
+|-damage|p2a: Keldeo|25/100
+|move|p2a: Keldeo|Hidden Power|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|23/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|move|p1a: Keldeo|Secret Sword|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|73/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Latios|Surf|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|4
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|25/100
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|76/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|move|p1a: Garchomp|Earthquake|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|6
+|
+|move|p1a: Garchomp|Outrage|p2a: Mamoswine
+|-damage|p2a: Mamoswine|34/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Garchomp
+|-enditem|p2a: Mamoswine|Ice Gem|[from] gem|[move] Icicle Crash
+|-supereffective|p1a: Garchomp
+|-enditem|p1a: Garchomp|Yache Berry|[eat]
+|-enditem|p1a: Garchomp|Yache Berry|[weaken]
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|7
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: Scizor
+|-sidestart|p1: TheetumThoor|move: Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|8
+|
+|move|p2a: Weavile|Low Kick|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Chople Berry|[eat]
+|-enditem|p1a: Tyranitar|Chople Berry|[weaken]
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Latios|Latios, M, shiny|73/100
+|move|p1a: Scizor|Superpower|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|25/100
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|19/100|[from] Sandstorm
+|upkeep
+|turn|10
+|c|☆TheetumThoor|gg nice pay
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|move|p2a: Latios|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|13/100|[from] Sandstorm
+|upkeep
+|c|☆TheetumThoor|play*
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|11
+|
+|switch|p2a: Latias|Latias, F, shiny|100/100
+|move|p1a: Alakazam|Shadow Ball|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|39/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: Latias|Draco Meteor|p1a: Alakazam|[miss]
+|-miss|p2a: Latias|p1a: Alakazam
+|move|p1a: Alakazam|Shadow Ball|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|94/100
+|-ability|p2a: Weavile|Pressure
+|turn|13
+|
+|move|p2a: Weavile|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|move|p1a: Alakazam|Focus Blast|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|turn|14
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Magnezone|[miss]
+|-miss|p1a: Alakazam|p2a: Magnezone
+|move|p2a: Magnezone|Volt Switch|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p2a: Latios|Latios, M, shiny|13/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|7/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|turn|16
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|87/100
+|move|p2a: Magnezone|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|Esurient
+|l|☆TheetumThoor
+|raw|TheetumThoor's rating: 1443 &rarr; <strong>1422</strong><br />(-21 for losing)
+|raw|Esurient's rating: 1420 &rarr; <strong>1442</strong><br />(+22 for winning)

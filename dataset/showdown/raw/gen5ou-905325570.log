@@ -1,0 +1,334 @@
+|j|‽HOffense
+|j|☆HREAM
+|player|p1|HOffense|2
+|player|p2|HREAM|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Skarmory, F|item
+|poke|p1|Gengar, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Breloom, M|item
+|poke|p1|Salamence, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Landorus-Therian, M|item
+|teampreview
+|
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: HOffense|move: Stealth Rock
+|move|p1a: Skarmory|Stealth Rock|p2a: Heatran
+|-sidestart|p2: HREAM|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Heatran|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-ability|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1/100
+|move|p1a: Skarmory|Spikes|p2a: Heatran
+|-sidestart|p2: HREAM|Spikes
+|
+|upkeep
+|turn|3
+|-enditem|p1a: Skarmory|Custap Berry|[eat]
+|-activate|p1a: Skarmory|item: Custap Berry|[consumed]
+|
+|move|p1a: Skarmory|Spikes|p2a: Heatran
+|-sidestart|p2: HREAM|Spikes
+|move|p2a: Heatran|Dragon Pulse|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: Latios|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|move|p2a: Heatran|Dragon Pulse|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|35/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Latios|Light Screen|p1a: Latios
+|-sidestart|p1: HOffense|move: Light Screen
+|move|p2a: Heatran|Dragon Pulse|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|9/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Latios|Reflect|p1a: Latios
+|-sidestart|p1: HOffense|Reflect
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Latios|Thunder Wave|p2a: Reuniclus
+|-status|p2a: Reuniclus|par
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Reuniclus|Shadow Ball|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|72/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Volcarona|Bug Buzz|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|45/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|38/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|84/100|[from] Spikes
+|-damage|p2a: Conkeldurr|78/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|72/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Breloom|Spore|p2a: Conkeldurr
+|-status|p2a: Conkeldurr|slp
+|cant|p2a: Conkeldurr|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|88/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|66/100 slp|[from] Sandstorm
+|-sideend|p1: HOffense|move: Light Screen
+|upkeep
+|turn|13
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Low Sweep|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|49/100
+|-unboost|p2a: Latios|spe|1
+|-damage|p1a: Breloom|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|72/100|[from] Sandstorm
+|-damage|p2a: Latios|43/100|[from] Sandstorm
+|-sideend|p1: HOffense|Reflect
+|upkeep
+|turn|14
+|
+|move|p1a: Breloom|Low Sweep|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Breloom|62/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|56/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100 par
+|turn|15
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Reuniclus
+|-damage|p2a: Reuniclus|77/100 par
+|-damage|p2a: Reuniclus|50/100 par
+|-hitcount|p2a: Reuniclus|2
+|-damage|p1a: Breloom|46/100|[from] item: Life Orb
+|cant|p2a: Reuniclus|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|40/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Reuniclus
+|-damage|p2a: Reuniclus|27/100 par
+|-damage|p2a: Reuniclus|2/100 par
+|-hitcount|p2a: Reuniclus|2
+|-damage|p1a: Breloom|30/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Psyshock|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|turn|18
+|
+|move|p2a: Landorus|Stone Edge|p1a: Gengar|[miss]
+|-miss|p2a: Landorus|p1a: Gengar
+|move|p1a: Gengar|Will-O-Wisp|p2a: Landorus|[miss]
+|-miss|p1a: Gengar|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Heatran|Heatran, F|100/100 par
+|-damage|p2a: Heatran|88/100 par|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Gengar|Will-O-Wisp|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: Gengar|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|14/100 par
+|-enditem|p2a: Heatran|Air Balloon
+|cant|p2a: Heatran|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|turn|22
+|
+|move|p2a: Landorus|Stone Edge|p1a: Gengar
+|-damage|p1a: Gengar|24/100
+|move|p1a: Gengar|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|18/100|[from] Sandstorm
+|-heal|p1a: Gengar|24/100|[from] item: Black Sludge
+|-damage|p2a: Landorus|64/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|66/100 slp
+|-damage|p2a: Conkeldurr|49/100 slp|[from] Spikes
+|-damage|p2a: Conkeldurr|43/100 slp|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|5/100 slp
+|-unboost|p2a: Conkeldurr|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|18/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|0 fnt|[from] Sandstorm
+|faint|p2a: Conkeldurr
+|-heal|p1a: Gengar|24/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|64/100 brn
+|-damage|p2a: Landorus|52/100 brn|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|turn|24
+|
+|move|p2a: Landorus|Hidden Power|p1a: Gengar
+|-damage|p1a: Gengar|1/100
+|move|p1a: Gengar|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|HOffense
+|raw|HOffense's rating: 1345 &rarr; <strong>1365</strong><br />(+20 for winning)
+|raw|HREAM's rating: 1347 &rarr; <strong>1326</strong><br />(-21 for losing)

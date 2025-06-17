@@ -1,0 +1,334 @@
+|j|☆gamerno1
+|j|☆EG THE GOAT
+|player|p1|gamerno1|169
+|player|p2|EG THE GOAT|27
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Salamence, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Lucario, M|item
+|poke|p1|Mew|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Uxie|item
+|poke|p2|Starmie|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: M&A|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: M&A
+|turn|1
+|
+|move|p1a: Mew|Light Screen|p1a: Mew
+|-sidestart|p1: gamerno1|move: Light Screen
+|move|p2a: M&A|Toxic|p1a: Mew
+|-status|p1a: Mew|tox
+|-activate|p1a: Mew|ability: Synchronize
+|-status|p2a: M&A|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mew|94/100 tox|[from] psn
+|-damage|p2a: M&A|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p2a: 1UP|Jirachi|100/100
+|move|p1a: Mew|Stealth Rock|p2a: 1UP
+|-sidestart|p2: EG THE GOAT|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mew|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|Taunt|p2a: 1UP
+|-start|p2a: 1UP|move: Taunt
+|cant|p2a: 1UP|move: Taunt|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mew|63/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Mew|Reflect|p1a: Mew
+|-sidestart|p1: gamerno1|Reflect
+|move|p2a: 1UP|Thunder|p1a: Mew
+|-damage|p1a: Mew|50/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mew|26/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Mew|Taunt|p2a: 1UP
+|-fail|p1a: Mew
+|move|p2a: 1UP|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|19/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mew|0 fnt|[from] psn
+|-end|p2a: 1UP|move: Taunt
+|upkeep
+|faint|p1a: Mew
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|turn|6
+|
+|move|p1a: Salamence|Earthquake|p2a: 1UP
+|-supereffective|p2a: 1UP
+|-damage|p2a: 1UP|44/100
+|move|p2a: 1UP|Thunder|p1a: Salamence
+|-damage|p1a: Salamence|81/100
+|-status|p1a: Salamence|par
+|-enditem|p1a: Salamence|Lum Berry|[eat]
+|-curestatus|p1a: Salamence|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: 1UP|50/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: CX5|Ferrothorn, F|100/100
+|-damage|p2a: CX5|95/100|[from] Stealth Rock
+|move|p1a: Salamence|Earthquake|p2a: CX5
+|-damage|p2a: CX5|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: CX5|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Salamence|Flamethrower|p2a: CX5
+|-supereffective|p2a: CX5
+|-damage|p2a: CX5|40/100
+|move|p2a: CX5|Stealth Rock|p1a: Salamence
+|-sidestart|p1: gamerno1|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: CX5|46/100|[from] item: Leftovers
+|-sideend|p1: gamerno1|move: Light Screen
+|upkeep
+|turn|9
+|
+|move|p1a: Salamence|Flamethrower|p2a: CX5
+|-supereffective|p2a: CX5
+|-damage|p2a: CX5|16/100
+|-status|p2a: CX5|brn
+|move|p2a: CX5|Leech Seed|p1a: Salamence
+|-start|p1a: Salamence|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: CX5|22/100 brn|[from] item: Leftovers
+|-damage|p1a: Salamence|68/100|[from] Leech Seed|[of] p2a: CX5
+|-heal|p2a: CX5|33/100 brn|[silent]
+|-damage|p2a: CX5|21/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: CX5|Spikes|p1a: Salamence
+|-sidestart|p1: gamerno1|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: CX5|27/100 brn|[from] item: Leftovers
+|-damage|p1a: Salamence|56/100|[from] Leech Seed|[of] p2a: CX5
+|-heal|p2a: CX5|39/100 brn|[silent]
+|-damage|p2a: CX5|26/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Salamence|Earthquake|p2a: CX5
+|-damage|p2a: CX5|0 fnt
+|faint|p2a: CX5
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: gamerno1|Reflect
+|upkeep
+|
+|switch|p2a: EOLO|Tornadus, M|100/100
+|-damage|p2a: EOLO|76/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: EOLO|Tailwind|p2a: EOLO
+|-sidestart|p2: EG THE GOAT|move: Tailwind
+|move|p1a: Salamence|Outrage|p2a: EOLO
+|-damage|p2a: EOLO|0 fnt
+|faint|p2a: EOLO
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: ThunderN'Blazes|Garchomp, M|100/100
+|-damage|p2a: ThunderN'Blazes|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: ThunderN'Blazes|Dragon Claw|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Spikes
+|-damage|p1a: Mamoswine|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: ThunderN'Blazes
+|-supereffective|p2a: ThunderN'Blazes
+|-enditem|p2a: ThunderN'Blazes|Yache Berry|[eat]
+|-enditem|p2a: ThunderN'Blazes|Yache Berry|[weaken]
+|-damage|p2a: ThunderN'Blazes|37/100
+|-damage|p1a: Mamoswine|66/100|[from] item: Life Orb
+|move|p2a: ThunderN'Blazes|Aqua Tail|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| Every1 haxed me
+|
+|switch|p1a: Uxie|Uxie|100/100
+|-damage|p1a: Uxie|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: ThunderN'Blazes|Swords Dance|p2a: ThunderN'Blazes
+|-boost|p2a: ThunderN'Blazes|atk|2
+|move|p1a: Uxie|Reflect|p1a: Uxie
+|-sidestart|p1: gamerno1|Reflect
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: EG THE GOAT|move: Tailwind
+|upkeep
+|turn|16
+|
+|move|p2a: ThunderN'Blazes|Dragon Claw|p1a: Uxie
+|-damage|p1a: Uxie|66/100
+|move|p1a: Uxie|Memento|p2a: ThunderN'Blazes
+|-unboost|p2a: ThunderN'Blazes|atk|2
+|-unboost|p2a: ThunderN'Blazes|spa|2
+|faint|p1a: Uxie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: M&A|Politoed, F|94/100 tox
+|-damage|p2a: M&A|82/100 tox|[from] Stealth Rock
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|-heal|p2a: M&A|88/100 tox|[from] item: Leftovers
+|-damage|p2a: M&A|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Gyarados|Bounce|p2a: M&A|[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: M&A
+|move|p2a: M&A|Perish Song|p2a: M&A
+|-start|p1a: Gyarados|perish3|[silent]
+|-start|p2a: M&A|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|88/100|[from] item: Leftovers
+|-heal|p2a: M&A|88/100 tox|[from] item: Leftovers
+|-damage|p2a: M&A|75/100 tox|[from] psn
+|-start|p1a: Gyarados|perish3
+|-start|p2a: M&A|perish3
+|upkeep
+|turn|19
+|
+|move|p2a: M&A|Protect|p2a: M&A
+|-singleturn|p2a: M&A|Protect
+|move|p1a: Gyarados|Bounce|p2a: M&A|[from]lockedmove
+|-activate|p2a: M&A|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|94/100|[from] item: Leftovers
+|-heal|p2a: M&A|82/100 tox|[from] item: Leftovers
+|-damage|p2a: M&A|63/100 tox|[from] psn
+|-start|p1a: Gyarados|perish2
+|-start|p2a: M&A|perish2
+|upkeep
+|turn|20
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|88/100|[from] Spikes
+|-damage|p1a: Lucario|85/100|[from] Stealth Rock
+|move|p2a: M&A|Scald|p1a: Lucario
+|-damage|p1a: Lucario|25/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: M&A|69/100 tox|[from] item: Leftovers
+|-damage|p2a: M&A|44/100 tox|[from] psn
+|-start|p2a: M&A|perish1
+|upkeep
+|turn|21
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: M&A|Scald|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: M&A|50/100 tox|[from] item: Leftovers
+|-damage|p2a: M&A|19/100 tox|[from] psn
+|-start|p2a: M&A|perish0
+|upkeep
+|faint|p2a: M&A
+|c|☆gamerno1|gg
+|
+|switch|p1a: Gyarados|Gyarados, F|94/100
+|switch|p2a: PsychoQueen|Starmie|100/100
+|-damage|p2a: PsychoQueen|88/100|[from] Stealth Rock
+|-damage|p1a: Gyarados|69/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: PsychoQueen|Thunder|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: PsychoQueen|78/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|win|EG THE GOAT
+|raw|gamerno1's rating: 1451 &rarr; <strong>1426</strong><br />(-25 for losing)
+|raw|EG THE GOAT's rating: 1369 &rarr; <strong>1394</strong><br />(+25 for winning)
+|l|☆gamerno1
+|l|☆EG THE GOAT

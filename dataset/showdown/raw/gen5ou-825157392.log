@@ -1,0 +1,436 @@
+|j|☆RawrMX
+|j|☆Prima234
+|player|p1|RawrMX|101
+|player|p2|Prima234|64
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Heatran, F|item
+|poke|p1|Slowking, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Gothitelle, M|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|switch|p2a: MAd|Hydreigon, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: MAd|atk|1
+|turn|1
+|
+|switch|p2a: Should be burn in|Heatran, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Should be burn in
+|-resisted|p2a: Should be burn in
+|-damage|p2a: Should be burn in|94/100
+|
+|switch|p1a: Kyurem|Kyurem-Black, shiny|100/100
+|-ability|p1a: Kyurem|Teravolt
+|
+|-heal|p2a: Should be burn in|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Quack|Toxicroak, F|100/100
+|move|p1a: Kyurem|Earth Power|p2a: Quack
+|-supereffective|p2a: Quack
+|-damage|p2a: Quack|0 fnt
+|faint|p2a: Quack
+|
+|upkeep
+|
+|switch|p2a: MAd|Hydreigon, F|100/100
+|turn|3
+|
+|switch|p1a: Slowking|Slowking, M, shiny|100/100
+|move|p2a: MAd|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|-unboost|p2a: MAd|spa|2
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Thunder Us|Thundurus-Therian, M|100/100
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Thunder Us|atk|1
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Spiky poky|Ferrothorn, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Spiky poky
+|-crit|p2a: Spiky poky
+|-damage|p2a: Spiky poky|71/100
+|-damage|p1a: Landorus|88/100|[from] ability: Iron Barbs|[of] p2a: Spiky poky
+|
+|switch|p1a: Heatran|Heatran, F, shiny|100/100
+|
+|-heal|p2a: Spiky poky|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Should be burn in|Heatran, M|99/100
+|move|p1a: Heatran|Stealth Rock|p2a: Should be burn in
+|-sidestart|p2: Prima234|move: Stealth Rock
+|
+|-heal|p2a: Should be burn in|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Should be burn in|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|27/100
+|move|p1a: Heatran|Earth Power|p2a: Should be burn in
+|-supereffective|p2a: Should be burn in
+|-damage|p2a: Should be burn in|1/100
+|
+|-heal|p2a: Should be burn in|8/100|[from] item: Leftovers
+|-heal|p1a: Heatran|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Kyurem|Kyurem-Black, shiny|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Should be burn in|Earth Power|p1a: Kyurem
+|-damage|p1a: Kyurem|73/100
+|
+|-heal|p2a: Should be burn in|14/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Should be burn in
+|-resisted|p2a: Should be burn in
+|-damage|p2a: Should be burn in|2/100
+|move|p2a: Should be burn in|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: RawrMX|move: Stealth Rock
+|
+|-heal|p2a: Should be burn in|8/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RawrMX)
+|
+|switch|p2a: Spiky poky|Ferrothorn, F|77/100
+|-damage|p2a: Spiky poky|71/100|[from] Stealth Rock
+|move|p1a: Kyurem|Earth Power|p2a: Spiky poky
+|-damage|p2a: Spiky poky|45/100
+|
+|-heal|p2a: Spiky poky|51/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Heatran|Heatran, F, shiny|33/100
+|-damage|p1a: Heatran|21/100|[from] Stealth Rock
+|move|p2a: Spiky poky|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p1a: Heatran|27/100|[from] item: Leftovers
+|-heal|p2a: Spiky poky|57/100|[from] item: Leftovers
+|-damage|p1a: Heatran|14/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|71/100|[silent]
+|upkeep
+|turn|12
+|
+|move|p2a: Spiky poky|Protect|p2a: Spiky poky
+|-singleturn|p2a: Spiky poky|Protect
+|move|p1a: Heatran|Magma Storm|p2a: Spiky poky
+|-activate|p2a: Spiky poky|move: Protect
+|
+|-heal|p1a: Heatran|21/100|[from] item: Leftovers
+|-heal|p2a: Spiky poky|77/100|[from] item: Leftovers
+|-damage|p1a: Heatran|8/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|91/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p2a: Should be burn in|Heatran, M|8/100
+|-damage|p2a: Should be burn in|0 fnt|[from] Stealth Rock
+|faint|p2a: Should be burn in
+|move|p1a: Heatran|Magma Storm|p2: Should be burn in|[notarget]
+|-notarget
+|
+|-heal|p1a: Heatran|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: MAd|Hydreigon, F|100/100
+|-damage|p2a: MAd|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Tentacruel|Tentacruel, M, shiny|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: MAd|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|57/100
+|
+|-heal|p1a: Tentacruel|63/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: MAd|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|32/100
+|move|p1a: Tentacruel|Toxic|p2a: MAd
+|-status|p2a: MAd|tox
+|
+|-heal|p1a: Tentacruel|38/100|[from] item: Black Sludge
+|-damage|p2a: MAd|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: MAd|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|6/100
+|cant|p1a: Tentacruel|flinch
+|
+|-heal|p1a: Tentacruel|12/100|[from] item: Black Sludge
+|-damage|p2a: MAd|70/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: MAd|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-damage|p2a: MAd|51/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: MAd|atk|1
+|turn|18
+|
+|move|p2a: MAd|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|15/100
+|move|p1a: Landorus|U-turn|p2a: MAd
+|-supereffective|p2a: MAd
+|-damage|p2a: MAd|0 fnt
+|faint|p2a: MAd
+|
+|switch|p1a: Slowking|Slowking, M, shiny|80/100
+|-damage|p1a: Slowking|68/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p2a: Thunder Us|Thundurus-Therian, M|100/100
+|-damage|p2a: Thunder Us|76/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Thunder Us|Agility|p2a: Thunder Us
+|-boost|p2a: Thunder Us|spe|2
+|move|p1a: Slowking|Ice Beam|p2a: Thunder Us
+|-supereffective|p2a: Thunder Us
+|-damage|p2a: Thunder Us|0 fnt
+|faint|p2a: Thunder Us
+|
+|upkeep
+|
+|switch|p2a: hahaha|Gothitelle, M|100/100
+|-damage|p2a: hahaha|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: hahaha|Thunderbolt|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|move|p1a: Slowking|Ice Beam|p2a: hahaha
+|-damage|p2a: hahaha|46/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: hahaha|Thunderbolt|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|15/100
+|-damage|p1a: Landorus|2/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: hahaha|atk|1
+|turn|22
+|
+|move|p1a: Landorus|Earthquake|p2a: hahaha
+|-damage|p2a: hahaha|0 fnt
+|faint|p2a: hahaha
+|
+|upkeep
+|
+|switch|p2a: Spiky poky|Ferrothorn, F|91/100
+|-damage|p2a: Spiky poky|85/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Kyurem|Kyurem-Black, shiny|73/100
+|-damage|p1a: Kyurem|48/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Spiky poky|Protect|p2a: Spiky poky
+|-fail|p2a: Spiky poky
+|
+|-heal|p2a: Spiky poky|91/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Spiky poky
+|-damage|p2a: Spiky poky|50/100
+|move|p2a: Spiky poky|Leech Seed|p1a: Kyurem
+|-start|p1a: Kyurem|move: Leech Seed
+|
+|-heal|p2a: Spiky poky|56/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|36/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|70/100|[silent]
+|upkeep
+|turn|25
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Spiky poky
+|-damage|p2a: Spiky poky|30/100
+|move|p2a: Spiky poky|Spikes|p1a: Kyurem
+|-sidestart|p1: RawrMX|Spikes
+|
+|-heal|p2a: Spiky poky|36/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|23/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|50/100|[silent]
+|upkeep
+|turn|26
+|
+|move|p2a: Spiky poky|Protect|p2a: Spiky poky
+|-singleturn|p2a: Spiky poky|Protect
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|73/100
+|
+|-heal|p2a: Spiky poky|56/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|61/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|70/100|[silent]
+|upkeep
+|turn|27
+|
+|move|p1a: Kyurem|Earth Power|p2a: Spiky poky
+|-damage|p2a: Spiky poky|46/100
+|move|p2a: Spiky poky|Spikes|p1a: Kyurem
+|-sidestart|p1: RawrMX|Spikes
+|
+|-heal|p2a: Spiky poky|52/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|49/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|66/100|[silent]
+|upkeep
+|turn|28
+|
+|move|p2a: Spiky poky|Protect|p2a: Spiky poky
+|-singleturn|p2a: Spiky poky|Protect
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|99/100
+|
+|-heal|p2a: Spiky poky|72/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|87/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|86/100|[silent]
+|upkeep
+|turn|29
+|
+|move|p1a: Kyurem|Earth Power|p2a: Spiky poky
+|-damage|p2a: Spiky poky|62/100
+|move|p2a: Spiky poky|Spikes|p1a: Kyurem
+|-sidestart|p1: RawrMX|Spikes
+|
+|-heal|p2a: Spiky poky|68/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|74/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|81/100|[silent]
+|upkeep
+|turn|30
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Spiky poky
+|-damage|p2a: Spiky poky|43/100
+|move|p2a: Spiky poky|Power Whip|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|56/100
+|
+|-heal|p2a: Spiky poky|49/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|44/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|63/100|[silent]
+|upkeep
+|turn|31
+|
+|switch|p1a: Heatran|Heatran, F, shiny|14/100
+|-damage|p1a: Heatran|2/100|[from] Stealth Rock
+|-damage|p1a: Heatran|0 fnt|[from] Spikes
+|faint|p1a: Heatran
+|move|p2a: Spiky poky|Protect|p2a: Spiky poky
+|-fail|p2a: Spiky poky
+|
+|-heal|p2a: Spiky poky|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|32
+|
+|move|p1a: Thundurus|Superpower|p2a: Spiky poky
+|-supereffective|p2a: Spiky poky
+|-damage|p2a: Spiky poky|14/100
+|-damage|p1a: Thundurus|63/100|[from] ability: Iron Barbs|[of] p2a: Spiky poky
+|-unboost|p1a: Thundurus|atk|1
+|-unboost|p1a: Thundurus|def|1
+|-damage|p1a: Thundurus|53/100|[from] item: Life Orb
+|move|p2a: Spiky poky|Leech Seed|p1a: Thundurus
+|-start|p1a: Thundurus|move: Leech Seed
+|
+|-heal|p2a: Spiky poky|20/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|41/100|[from] Leech Seed|[of] p2a: Spiky poky
+|-heal|p2a: Spiky poky|31/100|[silent]
+|upkeep
+|turn|33
+|
+|switch|p1a: Kyurem|Kyurem-Black, shiny|44/100
+|-damage|p1a: Kyurem|19/100|[from] Spikes
+|-damage|p1a: Kyurem|0 fnt|[from] Stealth Rock
+|faint|p1a: Kyurem
+|move|p2a: Spiky poky|Protect|p2a: Spiky poky
+|-fail|p2a: Spiky poky
+|
+|-heal|p2a: Spiky poky|37/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|41/100
+|-damage|p1a: Thundurus|16/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Spiky poky|Protect|p2a: Spiky poky
+|-singleturn|p2a: Spiky poky|Protect
+|move|p1a: Thundurus|Superpower|p2a: Spiky poky
+|-activate|p2a: Spiky poky|move: Protect
+|
+|-heal|p2a: Spiky poky|43/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Spiky poky|Protect|p2a: Spiky poky
+|-singleturn|p2a: Spiky poky|Protect
+|move|p1a: Thundurus|Superpower|p2a: Spiky poky
+|-activate|p2a: Spiky poky|move: Protect
+|
+|-heal|p2a: Spiky poky|49/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|-message|RawrMX forfeited.
+|
+|win|Prima234
+|l|☆RawrMX
+|raw|RawrMX's rating: 1407 &rarr; <strong>1380</strong><br />(-27 for losing)
+|raw|Prima234's rating: 1287 &rarr; <strong>1320</strong><br />(+33 for winning)

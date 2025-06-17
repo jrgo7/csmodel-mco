@@ -1,0 +1,253 @@
+|j|peakyblinded
+|j|edmeades3
+|player|p1|peakyblinded|23
+|player|p2|edmeades3|249
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|seed|
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Politoed, M|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Starmie|item
+|poke|p2|Breloom, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Salamence, M|item
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice||
+|
+|start
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|choice||
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|75/100
+|
+|-heal|p1a: Latias|82/100|[from] item: Leftovers
+|turn|2
+|choice||
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|81/100
+|move|p2a: Scizor|Pursuit|p1a: Latias
+|-supereffective|p1a: Latias
+|-end|p1a: Latias|Substitute
+|
+|-heal|p1a: Latias|88/100|[from] item: Leftovers
+|turn|3
+|choice||
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|62/100
+|move|p2a: Scizor|Pursuit|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|15/100
+|
+|-heal|p1a: Latias|21/100|[from] item: Leftovers
+|turn|4
+|choice||
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|42/100
+|move|p2a: Scizor|Pursuit|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|choice||
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|5
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|choice||
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|choice||
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Heatran
+|-sidestart|p2: edmeades3|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|turn|7
+|choice||
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: peakyblinded|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|choice||
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|99/100
+|-enditem|p2a: Heatran|Air Balloon
+|-sideend|p1: peakyblinded|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Heatran|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|choice||
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|9
+|choice||
+|
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|move|p1a: Volcarona|Substitute|p1a: Volcarona
+|-start|p1a: Volcarona|Substitute
+|-damage|p1a: Volcarona|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|82/100|[from] item: Leftovers
+|turn|10
+|choice||
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-end|p1a: Volcarona|Substitute
+|-damage|p2a: Starmie|78/100|[from] item: Life Orb
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|88/100|[from] item: Leftovers
+|turn|11
+|choice||
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|94/100|[from] item: Leftovers
+|choice||
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|12
+|choice||
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|95/100
+|move|p2a: Rotom|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|69/100|[from] item: Leftovers
+|turn|13
+|choice||
+|
+|switch|p2a: Heatran|Heatran, F|99/100
+|-damage|p2a: Heatran|87/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Heatran
+|-start|p2a: Heatran|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|75/100|[from] item: Leftovers
+|-damage|p2a: Heatran|74/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|86/100|[silent]
+|turn|14
+|choice||
+|
+|switch|p1a: Volcarona|Volcarona, F|94/100
+|move|p2a: Heatran|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: peakyblinded|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|100/100|[from] item: Leftovers
+|-damage|p2a: Heatran|62/100|[from] Leech Seed|[of] p1a: Volcarona
+|turn|15
+|choice||
+|
+|switch|p2a: Rotom|Rotom-Wash|94/100
+|-damage|p2a: Rotom|82/100|[from] Stealth Rock
+|move|p1a: Volcarona|Substitute|p1a: Volcarona
+|-start|p1a: Volcarona|Substitute
+|-damage|p1a: Volcarona|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|82/100|[from] item: Leftovers
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|turn|16
+|choice||
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Rotom|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-end|p1a: Volcarona|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|88/100|[from] item: Leftovers
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|turn|17
+|choice||
+|
+|move|p1a: Volcarona|Hurricane|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|move|p2a: Rotom|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|60/100|[from] item: Leftovers
+|c|★peakyblinded|fucking misclick
+|c|★peakyblinded|lol
+|-message|peakyblinded forfeited.
+|
+|win|edmeades3
+|player|p1
+|player|p2
+|l|peakyblinded
+|raw|peakyblinded's rating: 1541 &rarr; <strong>1507</strong><br />(-34 for losing)
+|raw|edmeades3's rating: 1253 &rarr; <strong>1295</strong><br />(+42 for winning)

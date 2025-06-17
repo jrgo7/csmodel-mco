@@ -1,0 +1,521 @@
+|j|☆porrompompom
+|j|☆Gosu-GoStepUp
+|player|p1|porrompompom|10
+|player|p2|Gosu-GoStepUp|190
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Lilligant, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Jellicent, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gosu-GoStepUp)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: おじさん|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: おじさん|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|1
+|
+|move|p2a: おじさん|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|
+|switch|p2a: もえるゴミ|Ferrothorn, M, shiny|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: もえるゴミ
+|-status|p2a: もえるゴミ|brn
+|
+|-damage|p2a: もえるゴミ|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: もえるゴミ|Spikes|p1a: Excadrill
+|-sidestart|p1: porrompompom|Spikes
+|
+|-heal|p2a: もえるゴミ|94/100 brn|[from] item: Leftovers
+|-damage|p2a: もえるゴミ|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: メロンソーダ|Jellicent, M, shiny|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: メロンソーダ
+|-sidestart|p2: Gosu-GoStepUp|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash|71/100
+|move|p2a: メロンソーダ|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|58/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Hidden Power|p2a: メロンソーダ
+|-resisted|p2a: メロンソーダ
+|-crit|p2a: メロンソーダ
+|-damage|p2a: メロンソーダ|88/100
+|move|p2a: メロンソーダ|Will-O-Wisp|p1a: Rotom|[miss]
+|-miss|p2a: メロンソーダ|p1a: Rotom
+|
+|-heal|p2a: メロンソーダ|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-damage|p1a: Ninetales|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: メロンソーダ|Scald|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|70/100|[from] item: Leftovers
+|-heal|p2a: メロンソーダ|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: ばんちょう|Tyranitar, F, shiny|100/100
+|-damage|p2a: ばんちょう|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: ばんちょう
+|move|p1a: Ninetales|Hypnosis|p2a: ばんちょう
+|-status|p2a: ばんちょう|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|64/100|[from] Sandstorm
+|-heal|p1a: Ninetales|70/100|[from] item: Leftovers
+|-heal|p2a: ばんちょう|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|switch|p2a: おじさん|Landorus-Therian, M, shiny|100/100
+|-damage|p2a: おじさん|88/100|[from] Stealth Rock
+|-ability|p2a: おじさん|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: おじさん|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: porrompompom|move: Stealth Rock
+|move|p1a: Excadrill|Toxic|p2a: おじさん
+|-status|p2a: おじさん|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-damage|p2a: おじさん|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: メロンソーダ|Jellicent, M, shiny|99/100
+|-damage|p2a: メロンソーダ|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Toxic|p2a: メロンソーダ
+|-status|p2a: メロンソーダ|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: メロンソーダ|81/100 tox|[from] Sandstorm
+|-heal|p2a: メロンソーダ|88/100 tox|[from] item: Leftovers
+|-damage|p2a: メロンソーダ|81/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|58/100
+|-damage|p1a: Rotom|45/100|[from] Stealth Rock
+|move|p2a: メロンソーダ|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|28/100|[from] Sandstorm
+|-damage|p2a: メロンソーダ|75/100 tox|[from] Sandstorm
+|-heal|p2a: メロンソーダ|81/100 tox|[from] item: Leftovers
+|-damage|p2a: メロンソーダ|69/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|
+|switch|p2a: もえるゴミ|Ferrothorn, M, shiny|82/100 brn
+|-damage|p2a: もえるゴミ|75/100 brn|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: もえるゴミ
+|-activate|p1a: Rotom|move: Trick|[of] p2a: もえるゴミ
+|-item|p2a: もえるゴミ|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|22/100|[from] Sandstorm
+|-heal|p1a: Rotom|28/100|[from] item: Leftovers
+|-damage|p2a: もえるゴミ|63/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: もえるゴミ
+|-resisted|p2a: もえるゴミ
+|-damage|p2a: もえるゴミ|55/100 brn
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|85/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: もえるゴミ|Spikes|p1a: Excadrill
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|91/100|[from] item: Leftovers
+|-damage|p2a: もえるゴミ|42/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|
+|move|p1a: Excadrill|Earthquake|p2a: もえるゴミ
+|-damage|p2a: もえるゴミ|10/100 brn
+|move|p2a: もえるゴミ|Spikes|p1a: Excadrill
+|-sidestart|p1: porrompompom|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|97/100|[from] item: Leftovers
+|-damage|p2a: もえるゴミ|0 fnt|[from] brn
+|faint|p2a: もえるゴミ
+|upkeep
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|
+|switch|p2a: ガブリus|Garchomp, M, shiny|100/100
+|-damage|p2a: ガブリus|94/100|[from] Stealth Rock
+|turn|15
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|28/100
+|-damage|p1a: Rotom|15/100|[from] Stealth Rock
+|move|p2a: ガブリus|Outrage|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|97/100
+|-damage|p1a: Excadrill|73/100|[from] Spikes
+|-damage|p1a: Excadrill|70/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|
+|move|p2a: ガブリus|Outrage|p1a: Excadrill|[from]lockedmove
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|14/100
+|move|p1a: Excadrill|Rapid Spin|p2a: ガブリus
+|-damage|p2a: ガブリus|88/100
+|-damage|p1a: Excadrill|2/100|[from] ability: Rough Skin|[of] p2a: ガブリus
+|-sideend|p1: porrompompom|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|8/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: ガブリus|Outrage|p1a: Excadrill|[from]lockedmove
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-start|p2a: ガブリus|confusion|[fatigue]
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|18
+|
+|switch|p2a: メロンソーダ|Jellicent, M, shiny|69/100 tox
+|-damage|p2a: メロンソーダ|57/100 tox|[from] Stealth Rock
+|move|p1a: Heatran|Hidden Power|p2a: メロンソーダ
+|-resisted|p2a: メロンソーダ
+|-damage|p2a: メロンソーダ|47/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: メロンソーダ|41/100 tox|[from] Sandstorm
+|-heal|p2a: メロンソーダ|47/100 tox|[from] item: Leftovers
+|-damage|p2a: メロンソーダ|41/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Ninetales|Ninetales, F|70/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: メロンソーダ|Scald|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|53/100|[from] item: Leftovers
+|-heal|p2a: メロンソーダ|47/100 tox|[from] item: Leftovers
+|-damage|p2a: メロンソーダ|34/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|move|p2a: メロンソーダ|Recover|p2a: メロンソーダ
+|-heal|p2a: メロンソーダ|84/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: メロンソーダ|91/100 tox|[from] item: Leftovers
+|-damage|p2a: メロンソーダ|72/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: ばんちょう|Tyranitar, F, shiny|94/100 slp
+|-damage|p2a: ばんちょう|82/100 slp|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: ばんちょう
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|94/100|[from] Sandstorm
+|-heal|p1a: Lilligant|100/100|[from] item: Leftovers
+|-heal|p2a: ばんちょう|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|
+|switch|p2a: 顔が五芒星|Alakazam, F, shiny|100/100
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|94/100|[from] Sandstorm
+|-heal|p1a: Lilligant|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|c|☆porrompompom|u don't have twave do you
+|
+|move|p1a: Lilligant|Giga Drain|p2a: 顔が五芒星
+|-enditem|p2a: 顔が五芒星|Focus Sash
+|-damage|p2a: 顔が五芒星|1/100
+|move|p2a: 顔が五芒星|Thunder Wave|p1a: Lilligant
+|-status|p1a: Lilligant|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|94/100 par|[from] Sandstorm
+|-heal|p1a: Lilligant|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Gosu-GoStepUp has 120 seconds left.
+|inactive|porrompompom has 120 seconds left.
+|inactive|Gosu-GoStepUp has 90 seconds left.
+|
+|move|p2a: 顔が五芒星|Psychic|p1a: Lilligant
+|-damage|p1a: Lilligant|64/100 par
+|move|p1a: Lilligant|Giga Drain|p2a: 顔が五芒星
+|-damage|p2a: 顔が五芒星|0 fnt
+|-heal|p1a: Lilligant|64/100 par|[from] drain|[of] p2a: 顔が五芒星
+|faint|p2a: 顔が五芒星
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|58/100 par|[from] Sandstorm
+|-heal|p1a: Lilligant|64/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: ガブリus|Garchomp, M, shiny|88/100
+|-damage|p2a: ガブリus|82/100|[from] Stealth Rock
+|turn|25
+|inactive|porrompompom has 120 seconds left.
+|
+|move|p2a: ガブリus|Fire Fang|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|26
+|
+|switch|p2a: メロンソーダ|Jellicent, M, shiny|72/100 tox
+|-damage|p2a: メロンソーダ|60/100 tox|[from] Stealth Rock
+|move|p1a: Heatran|Sunny Day|p1a: Heatran
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: メロンソーダ|66/100 tox|[from] item: Leftovers
+|-damage|p2a: メロンソーダ|60/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Heatran|Solar Beam||[still]
+|-prepare|p1a: Heatran|Solar Beam|p2a: メロンソーダ
+|-anim|p1a: Heatran|Solar Beam|p2a: メロンソーダ
+|-supereffective|p2a: メロンソーダ
+|-damage|p2a: メロンソーダ|0 fnt
+|faint|p2a: メロンソーダ
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: おじさん|Landorus-Therian, M, shiny|82/100 tox
+|-damage|p2a: おじさん|69/100 tox|[from] Stealth Rock
+|-ability|p2a: おじさん|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|28
+|
+|switch|p1a: Ninetales|Ninetales, F|53/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: おじさん|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|35/100
+|
+|switch|p2a: ガブリus|Garchomp, M, shiny|82/100
+|-damage|p2a: ガブリus|76/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|41/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Gosu-GoStepUp has 90 seconds left.
+|inactive|Gosu-GoStepUp has 60 seconds left.
+|
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2a: ガブリus|Earthquake|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|47/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: ばんちょう|Tyranitar, F, shiny|88/100 slp
+|-damage|p2a: ばんちょう|76/100 slp|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: ばんちょう
+|move|p1a: Ninetales|Flamethrower|p2a: ばんちょう
+|-resisted|p2a: ばんちょう
+|-damage|p2a: ばんちょう|69/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|41/100|[from] Sandstorm
+|-heal|p1a: Ninetales|47/100|[from] item: Leftovers
+|-heal|p2a: ばんちょう|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Gosu-GoStepUp has 60 seconds left.
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|cant|p2a: ばんちょう|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: ばんちょう|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Heatran|Magma Storm|p2a: ばんちょう|[miss]
+|-miss|p1a: Heatran|p2a: ばんちょう
+|cant|p2a: ばんちょう|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: ばんちょう|87/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Heatran|Magma Storm|p2a: ばんちょう|[miss]
+|-miss|p1a: Heatran|p2a: ばんちょう
+|-curestatus|p2a: ばんちょう|slp|[msg]
+|move|p2a: ばんちょう|Crunch|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|83/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: ばんちょう|93/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: ガブリus|Garchomp, M, shiny|76/100
+|-damage|p2a: ガブリus|69/100|[from] Stealth Rock
+|move|p1a: Heatran|Hidden Power|p2a: ガブリus
+|-supereffective|p2a: ガブリus
+|-damage|p2a: ガブリus|0 fnt
+|faint|p2a: ガブリus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: おじさん|Landorus-Therian, M, shiny|69/100 tox
+|-damage|p2a: おじさん|57/100 tox|[from] Stealth Rock
+|-ability|p2a: おじさん|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|35
+|
+|switch|p1a: Ninetales|Ninetales, F|47/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: おじさん|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: おじさん|50/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|36
+|inactive|Gosu-GoStepUp has 90 seconds left.
+|
+|switch|p2a: ばんちょう|Tyranitar, F, shiny|93/100
+|-damage|p2a: ばんちょう|81/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: ばんちょう
+|move|p1a: Latios|Earthquake|p2a: ばんちょう
+|-supereffective|p2a: ばんちょう
+|-crit|p2a: ばんちょう
+|-damage|p2a: ばんちょう|0 fnt
+|-damage|p1a: Latios|91/100|[from] item: Life Orb
+|faint|p2a: ばんちょう
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|85/100|[from] Sandstorm
+|upkeep
+|inactive|Gosu-GoStepUp has 90 seconds left.
+|-message|Gosu-GoStepUp forfeited.
+|
+|win|porrompompom
+|l|☆Gosu-GoStepUp
+|raw|porrompompom's rating: 1550 &rarr; <strong>1562</strong><br />(+12 for winning)
+|raw|Gosu-GoStepUp's rating: 1409 &rarr; <strong>1396</strong><br />(-13 for losing)

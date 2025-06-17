@@ -1,0 +1,239 @@
+|join|J0ttem
+|join|brawlfest
+|player|p1|J0ttem|231
+|player|p2|brawlfest|97
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Hippowdon, M
+|poke|p1|Gastrodon, F
+|poke|p1|Ferrothorn, M
+|poke|p1|Terrakion
+|poke|p1|Heatran, M
+|poke|p1|Alakazam, M
+|poke|p2|Politoed, F
+|poke|p2|Celebi
+|poke|p2|Dugtrio, M
+|poke|p2|Scizor, F
+|poke|p2|Tentacruel, M
+|poke|p2|Tornadus, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: EA Games|Ferrothorn, M|352/352
+|switch|p2a: Tentacruel|Tentacruel, M|301/301
+|turn|1
+|
+|switch|p2a: Scizor|Scizor, F|281/281
+|switch|p1a: Nickelback|Gastrodon, F|426/426
+|
+|turn|2
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Nickelback|Scald|p2a: Scizor
+|-damage|p2a: Scizor|172/281
+|
+|turn|3
+|
+|switch|p1a: Comic Sans MS|Hippowdon, M|420/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Comic Sans MS
+|move|p2a: Scizor|Acrobatics|p1a: Comic Sans MS
+|-enditem|p2a: Scizor|Flying Gem|[from] gem|[move] Acrobatics
+|-damage|p1a: Comic Sans MS|161/420
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Comic Sans MS|187/420|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Comic Sans MS|Slack Off|p1a: Comic Sans MS
+|-heal|p1a: Comic Sans MS|397/420
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Comic Sans MS|420/420|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Scizor|Acrobatics|p1a: Comic Sans MS
+|-damage|p1a: Comic Sans MS|143/420
+|move|p1a: Comic Sans MS|Whirlwind|p2a: Scizor
+|drag|p2a: Tornadus|Tornadus, M|299/299
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|281/299|[from] sandstorm
+|-heal|p1a: Comic Sans MS|169/420|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Tornadus|Hurricane|p1a: Comic Sans MS
+|-damage|p1a: Comic Sans MS|0 fnt
+|faint|p1a: Comic Sans MS
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|263/299|[from] sandstorm
+|
+|switch|p1a: Internet Explorer|Terrakion|324/324
+|turn|7
+|
+|switch|p2a: Politoed|Politoed, F|323/323
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Internet Explorer|Stone Edge|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dugtrio|Dugtrio, M|201/201
+|turn|8
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Internet Explorer
+|-sidestart|p1: J0ttem|move: Stealth Rock
+|move|p1a: Internet Explorer|Stone Edge|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/201
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p2a: Dugtrio|Reversal|p1a: Internet Explorer
+|-supereffective|p1a: Internet Explorer
+|-damage|p1a: Internet Explorer|0 fnt
+|faint|p1a: Internet Explorer
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: EA Games|Ferrothorn, M|352/352
+|-damage|p1a: EA Games|330/352|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Dugtrio|Reversal|p1a: EA Games
+|-supereffective|p1a: EA Games
+|-damage|p1a: EA Games|104/352
+|-damage|p2a: Dugtrio|0 fnt|[from] ability: Iron Barbs|[of] p1a: EA Games
+|faint|p2a: Dugtrio
+|move|p1a: EA Games|Gyro Ball|p2: Dugtrio|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: EA Games|126/352|[from] item: Leftovers
+|
+|switch|p2a: Scizor|Scizor, F|172/281
+|turn|11
+|
+|move|p2a: Scizor|Superpower|p1a: EA Games
+|-supereffective|p1a: EA Games
+|-damage|p1a: EA Games|0 fnt
+|-damage|p2a: Scizor|137/281|[from] ability: Iron Barbs|[of] p1a: EA Games
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: EA Games
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Nicolas Cage|Heatran, M|323/323
+|-damage|p1a: Nicolas Cage|283/323|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Tentacruel|Tentacruel, M|301/301
+|move|p1a: Nicolas Cage|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|105/301
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|123/301|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|141/301|[from] item: Black Sludge
+|-heal|p1a: Nicolas Cage|303/323|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Nickelback|Gastrodon, F|426/426
+|-damage|p1a: Nickelback|400/426|[from] Stealth Rock
+|move|p2a: Tentacruel|Giga Drain|p1a: Nickelback
+|-supereffective|p1a: Nickelback
+|-damage|p1a: Nickelback|152/426
+|-heal|p2a: Tentacruel|265/301|[from] drain|[of] p1a: Nickelback
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|283/301|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|301/301|[from] item: Black Sludge
+|-heal|p1a: Nickelback|178/426|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Tentacruel|Giga Drain|p1a: Nickelback
+|-supereffective|p1a: Nickelback
+|-damage|p1a: Nickelback|0 fnt
+|faint|p1a: Nickelback
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Lil Wayne|Alakazam, M|252/252
+|turn|15
+|
+|switch|p2a: Scizor|Scizor, F|137/281
+|move|p1a: Lil Wayne|Psyshock|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|62/281
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Lil Wayne
+|-damage|p1a: Lil Wayne|48/252
+|move|p1a: Lil Wayne|Psyshock|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Tornadus|Tornadus, M|263/299
+|turn|17
+|
+|move|p1a: Lil Wayne|Psyshock|p2a: Tornadus
+|-damage|p2a: Tornadus|55/299
+|move|p2a: Tornadus|U-turn|p1a: Lil Wayne
+|-supereffective|p1a: Lil Wayne
+|-damage|p1a: Lil Wayne|0 fnt
+|faint|p1a: Lil Wayne
+|
+|switch|p2a: Tentacruel|Tentacruel, M|301/301
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Nicolas Cage|Heatran, M|303/323
+|-damage|p1a: Nicolas Cage|263/323|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Nicolas Cage|[miss]
+|-miss|p2a: Tentacruel|p1a: Nicolas Cage
+|move|p1a: Nicolas Cage|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|111/301
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|129/301|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|147/301|[from] item: Black Sludge
+|-heal|p1a: Nicolas Cage|283/323|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Nicolas Cage
+|-supereffective|p1a: Nicolas Cage
+|-damage|p1a: Nicolas Cage|0 fnt
+|faint|p1a: Nicolas Cage
+|
+|win|brawlfest
+|raw|Ladder updating...
+|raw|J0ttem's rating: 1363 &rarr; <strong>1339</strong><br />(-24 for losing)
+|raw|brawlfest's rating: 1296 &rarr; <strong>1326</strong><br />(+30 for winning)
+|leave|J0ttem
+|player|p1

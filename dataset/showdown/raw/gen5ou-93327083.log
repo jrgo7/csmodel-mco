@@ -1,0 +1,610 @@
+|join|LawofDeath
+|join|Princess Deluks917
+|player|p1|LawofDeath|144
+|player|p2|Princess Deluks917|23
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Thundurus-Therian, M
+|poke|p1|Politoed, M
+|poke|p1|Ferrothorn, M
+|poke|p1|Toxicroak, M
+|poke|p1|Jirachi
+|poke|p1|Scizor, F
+|poke|p2|Politoed, M
+|poke|p2|Gliscor, M
+|poke|p2|Kyurem
+|poke|p2|Skarmory, M
+|poke|p2|Tentacruel, M
+|poke|p2|Chansey, F
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|chat|Princess Deluks917|gl
+|
+|start
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M|300/300
+|switch|p2a: Chansey|Chansey, F|642/642
+|turn|1
+|chat|LawofDeath|gl prince
+|
+|move|p1a: Thundurus-Therian|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|578/642
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|352/352
+|move|p2a: Chansey|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: LawofDeath|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Skarmory|Skarmory, M|334/334
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Princess Deluks917|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: LawofDeath|Spikes
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|
+|turn|4
+|
+|switch|p1a: Politoed|Politoed, M|384/384
+|-damage|p1a: Politoed|336/384|[from] Spikes
+|-damage|p1a: Politoed|288/384|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|cant|p2a: Skarmory|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|312/384|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Tentacruel|Tentacruel, M|363/363
+|-damage|p2a: Tentacruel|318/363|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|255/363
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|277/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|299/363|[from] item: Leftovers
+|-heal|p1a: Politoed|336/384|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M|300/300
+|-damage|p1a: Thundurus-Therian|225/300|[from] Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Thundurus-Therian
+|-damage|p1a: Thundurus-Therian|213/300
+|-sideend|p2: Princess Deluks917|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|321/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|343/363|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Chansey|Chansey, F|578/642
+|move|p1a: Thundurus-Therian|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|463/642
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Toxicroak|Toxicroak, M|370/370
+|-damage|p1a: Toxicroak|324/370|[from] Spikes
+|-damage|p1a: Toxicroak|301/370|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|642/642
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|347/370|[from] ability: Dry Skin
+|turn|9
+|
+|switch|p2a: Skarmory|Skarmory, M|334/334 par
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|255/370
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|301/370|[from] ability: Dry Skin
+|turn|10
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|131/334 par
+|-heal|p1a: Toxicroak|370/370|[from] drain|[of] p2a: Skarmory
+|-damage|p1a: Toxicroak|333/370|[from] item: Life Orb
+|move|p2a: Skarmory|Brave Bird|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|-damage|p2a: Skarmory|101/334 par|[from] recoil|[of] p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|370/370|[from] ability: Dry Skin
+|turn|11
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Toxicroak|333/370|[from] item: Life Orb
+|faint|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|370/370|[from] ability: Dry Skin
+|
+|switch|p2a: Kyurem|Kyurem|404/404
+|-ability|p2a: Kyurem|Pressure
+|turn|12
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M|213/300
+|-damage|p1a: Thundurus-Therian|138/300|[from] Stealth Rock
+|move|p2a: Kyurem|Earth Power|p1a: Thundurus-Therian
+|-immune|p1a: Thundurus-Therian|[msg]
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Gliscor|Gliscor, M|354/354
+|move|p1a: Thundurus-Therian|Focus Blast|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|142/354
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Gliscor|item: Toxic Orb
+|-status|p2a: Gliscor|tox
+|turn|14
+|
+|move|p1a: Thundurus-Therian|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chansey|Chansey, F|642/642
+|turn|15
+|
+|move|p1a: Thundurus-Therian|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|575/642
+|
+|switch|p1a: Toxicroak|Toxicroak, M|370/370
+|-damage|p1a: Toxicroak|347/370|[from] Stealth Rock
+|-damage|p1a: Toxicroak|301/370|[from] Spikes
+|move|p2a: Chansey|Seismic Toss|p1a: Toxicroak
+|-damage|p1a: Toxicroak|201/370
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|247/370|[from] ability: Dry Skin
+|turn|16
+|
+|switch|p2a: Politoed|Politoed, M|384/384
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|155/370
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|201/370|[from] ability: Dry Skin
+|turn|17
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Politoed
+|-damage|p2a: Politoed|228/384
+|-heal|p1a: Toxicroak|279/370|[from] drain|[of] p2a: Politoed
+|-damage|p1a: Toxicroak|242/370|[from] item: Life Orb
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-fieldactivate|move: Perish Song
+|
+|-start|p1a: Toxicroak|perish3
+|-start|p2a: Politoed|perish3
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|288/370|[from] ability: Dry Skin
+|-heal|p2a: Politoed|252/384|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Tentacruel|Tentacruel, M|343/363
+|move|p1a: Toxicroak|Drain Punch|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|153/363
+|-heal|p1a: Toxicroak|370/370|[from] drain|[of] p2a: Tentacruel
+|-damage|p1a: Toxicroak|333/370|[from] item: Life Orb
+|
+|-start|p1a: Toxicroak|perish2
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|175/363|[from] ability: Rain Dish
+|-heal|p1a: Toxicroak|370/370|[from] ability: Dry Skin
+|-heal|p2a: Tentacruel|197/363|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Toxicroak|Sucker Punch|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|
+|-start|p1a: Toxicroak|perish1
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|219/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|241/363|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|352/352
+|-damage|p1a: Ferrothorn|308/352|[from] Spikes
+|-damage|p1a: Ferrothorn|286/352|[from] Stealth Rock
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Ferrothorn
+|-sidestart|p1: LawofDeath|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|263/363|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|285/363|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|308/352|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|263/352
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Tentacruel
+|-status|p2a: Tentacruel|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|307/363 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|285/352 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|329/363 par|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|241/352 brn|[from] brn
+|turn|22
+|
+|switch|p2a: Kyurem|Kyurem|404/404
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: Princess Deluks917|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|263/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|219/352 brn|[from] brn
+|turn|23
+|
+|switch|p1a: Politoed|Politoed, M|336/384
+|-status|p1a: Politoed|psn
+|-damage|p1a: Politoed|288/384 psn|[from] Stealth Rock
+|-damage|p1a: Politoed|240/384 psn|[from] Spikes
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|303/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|328/404|[from] item: Leftovers
+|-heal|p1a: Politoed|264/384 psn|[from] item: Leftovers
+|-damage|p1a: Politoed|216/384 psn|[from] psn
+|turn|24
+|
+|move|p2a: Kyurem|Earth Power|p1a: Politoed
+|-damage|p1a: Politoed|106/384 psn
+|move|p1a: Politoed|Encore|p2a: Kyurem
+|-start|p2a: Kyurem|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|353/404|[from] item: Leftovers
+|-heal|p1a: Politoed|130/384 psn|[from] item: Leftovers
+|-damage|p1a: Politoed|82/384 psn|[from] psn
+|turn|25
+|
+|switch|p1a: Thundurus-Therian|Thundurus-Therian, M|138/300
+|-damage|p1a: Thundurus-Therian|63/300|[from] Stealth Rock
+|move|p2a: Kyurem|Earth Power|p1a: Thundurus-Therian
+|-immune|p1a: Thundurus-Therian|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|378/404|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Thundurus-Therian|Thunder|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Earth Power|p1a: Thundurus-Therian
+|-immune|p1a: Thundurus-Therian|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|403/404|[from] item: Leftovers
+|turn|27
+|
+|switch|p2a: Chansey|Chansey, F|575/642
+|-damage|p2a: Chansey|495/642|[from] Stealth Rock
+|move|p1a: Thundurus-Therian|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|323/642
+|
+|-weather|RainDance|[upkeep]
+|turn|28
+|
+|move|p1a: Thundurus-Therian|Thunder|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|97/642
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|418/642
+|
+|-weather|RainDance|[upkeep]
+|turn|29
+|
+|move|p1a: Thundurus-Therian|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|309/642
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|630/642 par
+|
+|-weather|RainDance|[upkeep]
+|turn|30
+|
+|move|p1a: Thundurus-Therian|Focus Blast|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|470/642 par
+|move|p2a: Chansey|Seismic Toss|p1a: Thundurus-Therian
+|-damage|p1a: Thundurus-Therian|0 fnt
+|faint|p1a: Thundurus-Therian
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Scizor|Scizor, F|344/344
+|-damage|p1a: Scizor|301/344|[from] Stealth Rock
+|-damage|p1a: Scizor|258/344|[from] Spikes
+|turn|31
+|
+|switch|p2a: Tentacruel|Tentacruel, M|329/363 par
+|-damage|p2a: Tentacruel|284/363 par|[from] Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|306/363 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|328/363 par|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Tentacruel|Scald|p1a: Scizor
+|-damage|p1a: Scizor|108/344
+|-status|p1a: Scizor|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|350/363 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|363/363 par|[from] item: Leftovers
+|-damage|p1a: Scizor|65/344 brn|[from] brn
+|turn|33
+|
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Tentacruel|Rapid Spin|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|60/344 brn
+|-sideend|p2: Princess Deluks917|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Scizor|17/344 brn|[from] brn
+|turn|34
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|219/352 brn
+|-damage|p1a: Ferrothorn|175/352 brn|[from] Spikes
+|-damage|p1a: Ferrothorn|153/352 brn|[from] Stealth Rock
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|175/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|131/352 brn|[from] brn
+|turn|35
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Princess Deluks917|move: Stealth Rock
+|move|p2a: Tentacruel|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/352 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|111/352 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|67/352 brn|[from] brn
+|turn|36
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-fail|p2a: Tentacruel
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|64/352 brn
+|-damage|p2a: Tentacruel|318/363 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Princess Deluks917|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|340/363 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|86/352 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|362/363 par|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|42/352 brn|[from] brn
+|turn|37
+|join|Figufgyu
+|chat|Figufgyu|gen5ou <3333333333333
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Princess Deluks917|move: Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|39/352 brn
+|-damage|p2a: Tentacruel|317/363 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Princess Deluks917|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|339/363 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|61/352 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|361/363 par|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|17/352 brn|[from] brn
+|turn|38
+|chat|Figufgyu|i loved this tier
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Princess Deluks917|move: Stealth Rock
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|14/352 brn
+|-damage|p2a: Tentacruel|316/363 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: Princess Deluks917|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|338/363 par|[from] ability: Rain Dish
+|-heal|p1a: Ferrothorn|36/352 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|360/363 par|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|0 fnt|[from] brn
+|faint|p1a: Ferrothorn
+|join|ScarfRachi
+|
+|switch|p1a: Jirachi|Jirachi|404/404
+|-damage|p1a: Jirachi|379/404|[from] Stealth Rock
+|-damage|p1a: Jirachi|329/404|[from] Spikes
+|turn|39
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Tentacruel|Scald|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|91/404
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|363/363 par|[from] ability: Rain Dish
+|-heal|p1a: Jirachi|116/404|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: Jirachi|Water Pulse|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|324/363 par
+|move|p2a: Tentacruel|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|31/404
+|-status|p1a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|346/363 par|[from] ability: Rain Dish
+|-heal|p1a: Jirachi|56/404 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|363/363 par|[from] item: Leftovers
+|-damage|p1a: Jirachi|6/404 brn|[from] brn
+|turn|41
+|
+|switch|p2a: Chansey|Chansey, F|470/642
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|31/404 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|0 fnt|[from] brn
+|faint|p1a: Jirachi
+|
+|switch|p1a: Toxicroak|Toxicroak, M|370/370
+|-damage|p1a: Toxicroak|324/370|[from] Spikes
+|-sideend|p1: LawofDeath|move: Toxic Spikes|[of] p1a: Toxicroak
+|-damage|p1a: Toxicroak|301/370|[from] Stealth Rock
+|turn|42
+|
+|move|p1a: Toxicroak|Substitute|p1a: Toxicroak
+|-start|p1a: Toxicroak|Substitute
+|-damage|p1a: Toxicroak|209/370
+|move|p2a: Chansey|Seismic Toss|p1a: Toxicroak
+|-end|p1a: Toxicroak|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|255/370|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|370/370|[from] move: Wish|[wisher] Jirachi
+|turn|43
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|46/642
+|-damage|p1a: Toxicroak|333/370|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Toxicroak
+|-damage|p1a: Toxicroak|233/370
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|279/370|[from] ability: Dry Skin
+|turn|44
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-heal|p1a: Toxicroak|302/370|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Toxicroak|265/370|[from] item: Life Orb
+|faint|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|311/370|[from] ability: Dry Skin
+|chat|ScarfRachi|geez start using psychic on chansey
+|
+|switch|p2a: Politoed|Politoed, M|252/384
+|turn|45
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Politoed
+|-damage|p2a: Politoed|119/384
+|-heal|p1a: Toxicroak|370/370|[from] drain|[of] p2a: Politoed
+|-damage|p1a: Toxicroak|333/370|[from] item: Life Orb
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-fieldactivate|move: Perish Song
+|
+|-start|p1a: Toxicroak|perish3
+|-start|p2a: Politoed|perish3
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|370/370|[from] ability: Dry Skin
+|-heal|p2a: Politoed|143/384|[from] item: Leftovers
+|turn|46
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Toxicroak|Drain Punch|p2a: Politoed
+|-activate|p2a: Politoed|Protect
+|
+|-start|p1a: Toxicroak|perish2
+|-start|p2a: Politoed|perish2
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|167/384|[from] item: Leftovers
+|turn|47
+|
+|switch|p2a: Tentacruel|Tentacruel, M|363/363 par
+|move|p1a: Toxicroak|Drain Punch|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|263/363 par
+|-damage|p1a: Toxicroak|333/370|[from] item: Life Orb
+|
+|-start|p1a: Toxicroak|perish1
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|370/370|[from] ability: Dry Skin
+|-heal|p2a: Tentacruel|285/363 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|307/363 par|[from] item: Leftovers
+|turn|48
+|
+|switch|p1a: Scizor|Scizor, F|17/344 brn
+|-damage|p1a: Scizor|0 fnt|[from] Spikes
+|faint|p1a: Scizor
+|switch|p2a: Kyurem|Kyurem|403/404
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|404/404|[from] item: Leftovers
+|
+|switch|p1a: Toxicroak|Toxicroak, M|370/370
+|-damage|p1a: Toxicroak|347/370|[from] Stealth Rock
+|-damage|p1a: Toxicroak|301/370|[from] Spikes
+|turn|49
+|
+|move|p2a: Kyurem|Earth Power|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Politoed|Politoed, M|82/384 psn
+|-damage|p1a: Politoed|34/384 psn|[from] Spikes
+|-damage|p1a: Politoed|0 fnt|[from] Stealth Rock
+|faint|p1a: Politoed
+|
+|win|Princess Deluks917
+|raw|Ladder updating...
+|raw|LawofDeath's rating: 1478 &rarr; <strong>1464</strong><br />(-14 for losing)
+|raw|Princess Deluks917's rating: 1590 &rarr; <strong>1603</strong><br />(+13 for winning)

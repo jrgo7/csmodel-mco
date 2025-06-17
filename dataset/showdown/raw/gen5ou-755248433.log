@@ -1,0 +1,376 @@
+|j|☆GrinchsBankAccount
+|j|☆porrompompom
+|player|p1|GrinchsBankAccount|#zinnia
+|player|p2|porrompompom|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dodrio, M|item
+|poke|p1|Raikou|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Swampert, M|item
+|poke|p1|Gyarados, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Tangrowth, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Tentacruel, M|item
+|teampreview
+|
+|start
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GrinchsBankAccount)
+|inactive|porrompompom has 135 seconds left.
+|inactive|porrompompom has 120 seconds left.
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Politoed|atk|1
+|move|p2a: Politoed|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Gyarados|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Gyarados|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Gyarados|Rest|p1a: Gyarados
+|-status|p1a: Gyarados|slp
+|-heal|p1a: Gyarados|100/100 slp|[silent]
+|-status|p1a: Gyarados|slp|[from] move: Rest
+|-enditem|p1a: Gyarados|Chesto Berry|[eat]
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p2a: Tangrowth|Leaf Storm|p1a: Gyarados|[miss]
+|-miss|p2a: Tangrowth|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|GrinchsBankAccount has 135 seconds left.
+|
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|-fail|p1a: Gyarados
+|move|p2a: Tangrowth|Sleep Powder|p1a: Gyarados
+|-status|p1a: Gyarados|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Rest|p1a: Gyarados|[from]Sleep Talk
+|-fail|p1a: Gyarados
+|move|p2a: Tangrowth|Leaf Storm|p1a: Gyarados
+|-damage|p1a: Gyarados|62/100 slp
+|-unboost|p2a: Tangrowth|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|inactive|GrinchsBankAccount has 135 seconds left.
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|switch|p2a: Politoed|Politoed, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|inactive|porrompompom has 135 seconds left.
+|inactive|porrompompom has 120 seconds left.
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Raikou|Shadow Ball|p2a: Gastrodon
+|-damage|p2a: Gastrodon|75/100
+|-unboost|p2a: Gastrodon|spd|1
+|-heal|p1a: Raikou|80/100|[from] item: Shell Bell|[of] p2a: Gastrodon
+|move|p2a: Gastrodon|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Gyarados|Gyarados, M|62/100 slp
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Gastrodon|atk|1
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Swampert
+|-sidestart|p1: GrinchsBankAccount|move: Stealth Rock
+|move|p1a: Swampert|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: porrompompom|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|move|p1a: Swampert|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Gyarados|Gyarados, M|62/100 slp
+|-damage|p1a: Gyarados|37/100 slp|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Politoed|atk|1
+|move|p2a: Politoed|Toxic|p1a: Gyarados
+|-fail|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|cant|p1a: Gyarados|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|35/100 slp
+|-sideend|p2: porrompompom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p1a: Gyarados|Rest|p1a: Gyarados
+|-status|p1a: Gyarados|slp
+|-heal|p1a: Gyarados|100/100 slp|[silent]
+|-status|p1a: Gyarados|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|16
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Waterfall|p2a: Jirachi|[from]Sleep Talk
+|-damage|p2a: Jirachi|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados|[from]Sleep Talk
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|68/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|porrompompom has 135 seconds left.
+|inactive|porrompompom has 120 seconds left.
+|inactive|porrompompom has 105 seconds left.
+|inactive|porrompompom has 90 seconds left.
+|c|☆GrinchsBankAccount|hurry the hell up jesus
+|inactive|porrompompom has 75 seconds left.
+|inactive|porrompompom has 60 seconds left.
+|
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Jirachi|Thunder|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|13/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|19
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|c|☆GrinchsBankAccount|these freaking lame rain teams.
+|inactive|GrinchsBankAccount has 135 seconds left.
+|
+|switch|p2a: Politoed|Politoed, F|70/100
+|move|p1a: Gyarados|Rest|p1a: Gyarados
+|-status|p1a: Gyarados|slp
+|-heal|p1a: Gyarados|100/100 slp|[silent]
+|-status|p1a: Gyarados|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆porrompompom|is this salt i'm tasting?
+|inactive|porrompompom has 135 seconds left.
+|
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados|[from]Sleep Talk
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Politoed|Encore|p1a: Gyarados
+|-start|p1a: Gyarados|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆GrinchsBankAccount|No duh.
+|c|☆GrinchsBankAccount|You're a genius for noticing the obvious.'
+|inactive|GrinchsBankAccount has 135 seconds left.
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Waterfall|p2a: Politoed|[from]Sleep Talk
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|-fail|p1a: Gyarados
+|move|p2a: Politoed|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|94/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|-fail|p1a: Gyarados
+|move|p2a: Politoed|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|80/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|100/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|68/100 tox|[from] psn
+|-end|p1a: Gyarados|Encore
+|upkeep
+|turn|25
+|inactive|porrompompom has 135 seconds left.
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Gyarados|Waterfall|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Gyarados|50/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p1a: Gyarados|Waterfall|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|52/100
+|move|p2a: Politoed|Encore|p1a: Gyarados
+|-start|p1a: Gyarados|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|58/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|25/100 tox|[from] psn
+|upkeep
+|turn|27
+|inactive|porrompompom has 135 seconds left.
+|
+|switch|p1a: Raikou|Raikou|80/100
+|-damage|p1a: Raikou|67/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|64/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Raikou|Thunderbolt|p2a: Gastrodon
+|-immune|p2a: Gastrodon|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|inactive|GrinchsBankAccount has 135 seconds left.
+|c|☆GrinchsBankAccount|brainless as hell teams.
+|inactive|GrinchsBankAccount has 120 seconds left.
+|-message|GrinchsBankAccount forfeited.
+|
+|win|porrompompom
+|l|☆GrinchsBankAccount
+|raw|GrinchsBankAccount's rating: 1319 &rarr; <strong>1304</strong><br />(-15 for losing)
+|raw|porrompompom's rating: 1421 &rarr; <strong>1436</strong><br />(+15 for winning)

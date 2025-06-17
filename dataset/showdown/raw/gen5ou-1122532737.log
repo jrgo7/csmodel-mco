@@ -1,0 +1,745 @@
+|j|☆porrompompom
+|j|☆LonzoMadeKuz
+|player|p1|porrompompom|170|1541
+|player|p2|LonzoMadeKuz|50|1481
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Ninetales, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Forretress, F|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Seismitoad, F|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Forretress|Forretress, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Abomasnow|Leech Seed|p1a: Ninetales
+|-start|p1a: Ninetales|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ninetales|88/100|[from] Leech Seed|[of] p2a: Abomasnow
+|upkeep
+|turn|2
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LonzoMadeKuz)
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Tentacruel|Scald|p1a: Xatu
+|-damage|p1a: Xatu|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Tentacruel|Scald|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Seismitoad
+|-sidestart|p1: porrompompom|move: Toxic Spikes
+|move|p1a: Seismitoad|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: LonzoMadeKuz|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Seismitoad
+|-damage|p1a: Seismitoad|98/100
+|-sideend|p2: LonzoMadeKuz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Seismitoad|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Seismitoad|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: LonzoMadeKuz|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Cresselia
+|-damage|p1a: Cresselia|71/100
+|move|p1a: Cresselia|Reflect|p1a: Cresselia
+|-sidestart|p1: porrompompom|Reflect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|77/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Kyurem|Ice Beam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|-heal|p1a: Forretress|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Kyurem|Earth Power|p1a: Forretress
+|-damage|p1a: Forretress|61/100
+|move|p1a: Forretress|Rapid Spin|p2a: Kyurem
+|-activate|p2a: Kyurem|Substitute|[damage]
+|-sideend|p1: porrompompom|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|99/100|[from] item: Leftovers
+|-heal|p1a: Forretress|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Kyurem|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Kyurem|Fusion Bolt|p1a: Chansey
+|-damage|p1a: Chansey|75/100
+|move|p1a: Chansey|Seismic Toss|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: porrompompom|Reflect
+|upkeep
+|turn|14
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Seismitoad
+|-damage|p1a: Seismitoad|98/100
+|-sideend|p2: LonzoMadeKuz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Seismitoad
+|-sidestart|p1: porrompompom|move: Toxic Spikes
+|move|p1a: Seismitoad|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: LonzoMadeKuz|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Seismitoad
+|-damage|p1a: Seismitoad|98/100
+|-sideend|p2: LonzoMadeKuz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Seismitoad|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Seismitoad|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|94/100
+|-status|p2a: Kyurem|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|88/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|69/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: LonzoMadeKuz|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|94/100 brn|[from] item: Leftovers
+|-heal|p1a: Seismitoad|75/100|[from] item: Leftovers
+|-damage|p2a: Kyurem|82/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|-status|p1a: Chansey|psn
+|move|p2a: Kyurem|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|89/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|76/100 brn|[from] brn
+|-damage|p1a: Chansey|77/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] item: Black Sludge
+|-damage|p1a: Chansey|88/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Seismitoad|Seismitoad, F|75/100
+|-status|p1a: Seismitoad|psn
+|move|p2a: Tentacruel|Scald|p1a: Seismitoad
+|-heal|p1a: Seismitoad|99/100 psn|[from] ability: Water Absorb|[of] p2a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-heal|p1a: Seismitoad|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|88/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Seismitoad
+|-damage|p1a: Seismitoad|86/100 psn
+|-sideend|p2: LonzoMadeKuz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Seismitoad|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|95/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|-heal|p1a: Seismitoad|92/100 psn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|79/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Seismitoad|Stealth Rock|p2a: Abomasnow
+|-sidestart|p2: LonzoMadeKuz|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Seismitoad|73/100 psn|[from] Hail
+|-heal|p1a: Seismitoad|79/100 psn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|67/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p1a: Forretress|Forretress, F|67/100
+|move|p2a: Abomasnow|Leech Seed|p1a: Forretress
+|-start|p1a: Forretress|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Forretress|61/100|[from] Hail
+|-heal|p1a: Forretress|67/100|[from] item: Leftovers
+|-damage|p1a: Forretress|54/100|[from] Leech Seed|[of] p2a: Abomasnow
+|upkeep
+|turn|26
+|
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1a: Forretress|Rapid Spin|p2a: Abomasnow
+|-activate|p2a: Abomasnow|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Forretress|48/100|[from] Hail
+|-heal|p1a: Forretress|54/100|[from] item: Leftovers
+|-damage|p1a: Forretress|42/100|[from] Leech Seed|[of] p2a: Abomasnow
+|upkeep
+|turn|27
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Forretress|atk|1
+|move|p1a: Forretress|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|-damage|p1a: Forretress|25/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-end|p1a: Forretress|Leech Seed|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: porrompompom|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|80/100|[from] Hail
+|-damage|p1a: Forretress|19/100|[from] Hail
+|-heal|p1a: Forretress|25/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Landorus|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|17/100
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100|[from]move: U-turn
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Forretress|Pain Split|p2a: Tentacruel
+|-sethp|p2a: Tentacruel|52/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Forretress|54/100|[from] move: Pain Split
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|46/100|[from] Hail
+|-damage|p1a: Forretress|48/100|[from] Hail
+|-heal|p2a: Tentacruel|52/100|[from] item: Black Sludge
+|-heal|p1a: Forretress|54/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Seismitoad|Seismitoad, F|67/100 psn
+|move|p2a: Tentacruel|Rapid Spin|p1a: Seismitoad
+|-damage|p1a: Seismitoad|65/100 psn
+|-sideend|p2: LonzoMadeKuz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|46/100|[from] Hail
+|-damage|p1a: Seismitoad|59/100 psn|[from] Hail
+|-heal|p2a: Tentacruel|52/100|[from] item: Black Sludge
+|-heal|p1a: Seismitoad|65/100 psn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|52/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|71/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Scizor|65/100|[from] Hail
+|-damage|p1a: Seismitoad|46/100 psn|[from] Hail
+|-heal|p1a: Seismitoad|52/100 psn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|40/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Ninetales|Ninetales, M|88/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Scizor|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|53/100
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ninetales|47/100|[from] Hail
+|-heal|p1a: Ninetales|53/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Xatu|Xatu, M|85/100
+|switch|p2a: Kyurem|Kyurem-Black|76/100 brn
+|-ability|p2a: Kyurem|Teravolt
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Xatu|79/100|[from] Hail
+|-heal|p2a: Kyurem|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|70/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: Ninetales|Ninetales, M|53/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Kyurem|Ice Beam|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|39/100|[from] item: Leftovers
+|-heal|p2a: Kyurem|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|63/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p1a: Chansey|Chansey, F|88/100
+|move|p2a: Kyurem|Earth Power|p1a: Chansey
+|-damage|p1a: Chansey|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|57/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Chansey|Seismic Toss|p2a: Abomasnow
+|-damage|p2a: Abomasnow|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Chansey|74/100|[from] Hail
+|-heal|p2a: Abomasnow|81/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Abomasnow|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|move|p1a: Chansey|Toxic|p2a: Abomasnow|[miss]
+|-miss|p1a: Chansey|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Chansey|67/100|[from] Hail
+|-heal|p2a: Abomasnow|87/100|[from] item: Leftovers
+|-damage|p1a: Chansey|55/100|[from] Leech Seed|[of] p2a: Abomasnow
+|-heal|p2a: Abomasnow|100/100|[silent]
+|upkeep
+|turn|37
+|
+|switch|p2a: Scizor|Scizor, M|65/100
+|switch|p1a: Forretress|Forretress, F|54/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Scizor|59/100|[from] Hail
+|-damage|p1a: Forretress|48/100|[from] Hail
+|-heal|p1a: Forretress|54/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Scizor|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|31/100
+|
+|switch|p2a: Tentacruel|Tentacruel, F|52/100|[from]move: U-turn
+|move|p1a: Forretress|Pain Split|p2a: Tentacruel
+|-sethp|p2a: Tentacruel|41/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Forretress|42/100|[from] move: Pain Split
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|35/100|[from] Hail
+|-damage|p1a: Forretress|36/100|[from] Hail
+|-heal|p2a: Tentacruel|41/100|[from] item: Black Sludge
+|-heal|p1a: Forretress|42/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Xatu|Xatu, M|79/100
+|move|p2a: Tentacruel|Scald|p1a: Xatu
+|-damage|p1a: Xatu|49/100
+|-status|p1a: Xatu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|35/100|[from] Hail
+|-damage|p1a: Xatu|43/100 brn|[from] Hail
+|-heal|p2a: Tentacruel|41/100|[from] item: Black Sludge
+|-damage|p1a: Xatu|30/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Tentacruel|Scald|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tentacruel|35/100|[from] Hail
+|-heal|p2a: Tentacruel|41/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|40/100 psn
+|turn|41
+|
+|switch|p2a: Kyurem|Kyurem-Black|57/100 brn
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Seismitoad|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: LonzoMadeKuz|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Seismitoad|34/100 psn|[from] Hail
+|-heal|p2a: Kyurem|63/100 brn|[from] item: Leftovers
+|-heal|p1a: Seismitoad|40/100 psn|[from] item: Leftovers
+|-damage|p2a: Kyurem|51/100 brn|[from] brn
+|-damage|p1a: Seismitoad|28/100 psn|[from] psn
+|upkeep
+|turn|42
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Kyurem|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Kyurem|45/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|39/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|43
+|
+|move|p1a: Ninetales|Overheat|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Ninetales|spa|2
+|faint|p2a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|41/100
+|-damage|p2a: Tentacruel|29/100|[from] Stealth Rock
+|turn|44
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Tentacruel|[miss]
+|-miss|p1a: Ninetales|p2a: Tentacruel
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ninetales
+|-damage|p1a: Ninetales|42/100
+|-sideend|p2: LonzoMadeKuz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|48/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|35/100|[from] item: Black Sludge
+|upkeep
+|turn|45
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Tentacruel|[miss]
+|-miss|p1a: Ninetales|p2a: Tentacruel
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Ninetales
+|-sidestart|p1: porrompompom|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|54/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|41/100|[from] item: Black Sludge
+|upkeep
+|turn|46
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Tentacruel|[miss]
+|-miss|p1a: Ninetales|p2a: Tentacruel
+|move|p2a: Tentacruel|Scald|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|39/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|47/100|[from] item: Black Sludge
+|upkeep
+|turn|47
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Reuniclus
+|-status|p2a: Reuniclus|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|45/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p1a: Forretress|Forretress, F|42/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|49/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Forretress|Pain Split|p2a: Reuniclus
+|-sethp|p2a: Reuniclus|71/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Forretress|85/100|[from] move: Pain Split
+|move|p2a: Reuniclus|Focus Blast|p1a: Forretress
+|-damage|p1a: Forretress|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|47/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|77/100 brn|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Forretress|Rapid Spin|p2a: Reuniclus
+|-damage|p2a: Reuniclus|74/100 brn
+|-sideend|p1: porrompompom|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Forretress|53/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|80/100 brn|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p1a: Chansey|Chansey, F|55/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reuniclus|87/100 brn|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|69/100
+|move|p2a: Reuniclus|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reuniclus|93/100 brn|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|73/100
+|move|p2a: Reuniclus|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reuniclus|99/100 brn|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|79/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reuniclus|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|switch|p1a: Cresselia|Cresselia, F|77/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cresselia|83/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p1a: Cresselia|Reflect|p1a: Cresselia
+|-sidestart|p1: porrompompom|Reflect
+|move|p2a: Reuniclus|Psyshock|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cresselia|63/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p1a: Cresselia|Psychic|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|97/100 brn
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cresselia|69/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p1a: Cresselia|Psychic|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|97/100 brn
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cresselia|75/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p1a: Cresselia|Psychic|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|98/100 brn
+|move|p2a: Reuniclus|Psyshock|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cresselia|51/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p1a: Cresselia|Reflect||[still]
+|-fail|p1a: Cresselia
+|move|p2a: Reuniclus|Psyshock|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: porrompompom|Reflect
+|upkeep
+|-message|porrompompom forfeited.
+|
+|win|LonzoMadeKuz
+|l|☆porrompompom
+|raw|porrompompom's rating: 1541 &rarr; <strong>1518</strong><br />(-23 for losing)
+|raw|LonzoMadeKuz's rating: 1481 &rarr; <strong>1505</strong><br />(+24 for winning)

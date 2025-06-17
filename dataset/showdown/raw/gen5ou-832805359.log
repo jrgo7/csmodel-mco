@@ -1,0 +1,593 @@
+|j|☆Suirio
+|j|☆CroCoeur
+|player|p1|Suirio|102
+|player|p2|CroCoeur|161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Gengar, M|item
+|poke|p1|Starmie|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, F|item
+|poke|p1|Breloom, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vaporeon, F|item
+|poke|p2|Celebi|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CroCoeur)
+|inactive|Suirio has 120 seconds left.
+|
+|start
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Gengar|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|35/100
+|move|p2a: Vaporeon|Scald|p1a: Gengar
+|-damage|p1a: Gengar|25/100
+|-status|p1a: Gengar|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|41/100|[from] item: Leftovers
+|-damage|p1a: Gengar|12/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Vaporeon
+|-damage|p2a: Vaporeon|19/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-damage|p1a: Gengar|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Gengar
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|4
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|j| snortlaz
+|
+|move|p1a: Breloom|Stone Edge|p2a: Celebi
+|-damage|p2a: Celebi|65/100
+|-damage|p1a: Breloom|66/100|[from] item: Life Orb
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: Breloom|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|71/100|[from] item: Leftovers
+|-start|p1a: Breloom|perish3
+|-start|p2a: Celebi|perish3
+|upkeep
+|turn|6
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Celebi|perish2
+|upkeep
+|turn|7
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Celebi|Psychic|p1a: Thundurus
+|-damage|p1a: Thundurus|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|69/100|[from] item: Leftovers
+|-start|p2a: Celebi|perish1
+|upkeep
+|turn|8
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Thundurus|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|9
+|
+|move|p2a: Politoed|Ice Beam|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|11/100
+|-status|p1a: Thundurus|frz
+|cant|p1a: Thundurus|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|17/100 frz|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|cant|p1a: Thundurus|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|23/100 frz|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|cant|p1a: Thundurus|frz
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: Suirio|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|29/100 frz|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|cant|p1a: Thundurus|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|35/100 frz|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Politoed|Ice Beam|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Starmie|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Starmie|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Suirio|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Suirio|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Scizor|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|46/100
+|
+|switch|p1a: Starmie|Starmie|82/100
+|-damage|p1a: Starmie|70/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|76/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|52/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|turn|18
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|72/100
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|45/100
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|94/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|21/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|upkeep
+|turn|21
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|72/100
+|move|p2a: Vaporeon|Acid Armor|p2a: Vaporeon
+|-boost|p2a: Vaporeon|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|78/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|48/100
+|move|p2a: Vaporeon|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|65/100
+|-status|p1a: Starmie|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|71/100 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|54/100|[from] item: Leftovers
+|-damage|p1a: Starmie|59/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|22/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|65/100 brn|[from] item: Leftovers
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-damage|p1a: Starmie|53/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|69/100
+|move|p2a: Vaporeon|Scald|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|20/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|27/100 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|75/100|[from] item: Leftovers
+|-damage|p1a: Starmie|14/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|43/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|20/100 brn|[from] item: Leftovers
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-damage|p1a: Starmie|8/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|72/100
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|14/100 brn|[from] item: Leftovers
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-damage|p1a: Starmie|2/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Starmie|Rapid Spin|p2a: Vaporeon
+|-damage|p2a: Vaporeon|99/100
+|-sideend|p1: Suirio|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|100/100 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|8/100 brn|[from] item: Leftovers
+|-activate|p2a: Vaporeon|ability: Hydration
+|-curestatus|p2a: Vaporeon|slp|[msg]
+|-damage|p1a: Starmie|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Starmie
+|inactive|Suirio has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|28
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|35/100
+|move|p2a: Vaporeon|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vaporeon|41/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|81/100
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|87/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Scizor|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|-damage|p1a: Scizor|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Breloom|Breloom, M|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Breloom|Mach Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|8/100
+|-damage|p1a: Breloom|53/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Breloom|43/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Breloom
+|-sidestart|p1: Suirio|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|14/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Breloom|Mach Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Breloom|31/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Breloom|21/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|33
+|
+|move|p1a: Breloom|Mach Punch|p2a: Politoed
+|-damage|p2a: Politoed|42/100
+|-damage|p1a: Breloom|11/100|[from] item: Life Orb
+|move|p2a: Politoed|Ice Beam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-crit|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|75/100
+|-damage|p1a: Rotom|63/100|[from] Stealth Rock
+|turn|34
+|
+|switch|p2a: Celebi|Celebi|87/100
+|move|p1a: Rotom|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|76/100
+|
+|switch|p1a: Scizor|Scizor, F|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|83/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Vaporeon|Vaporeon, F|41/100
+|move|p1a: Scizor|U-turn|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p1a: Rotom|Rotom-Wash|63/100
+|-damage|p1a: Rotom|51/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|CroCoeur has 120 seconds left.
+|
+|switch|p2a: Celebi|Celebi|83/100
+|turn|36
+|inactive|Suirio has 120 seconds left.
+|
+|move|p2a: Celebi|Giga Drain|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-heal|p2a: Celebi|100/100|[from] drain|[of] p1a: Rotom
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|76/100
+|-damage|p1a: Scizor|64/100|[from] Stealth Rock
+|turn|37
+|
+|move|p1a: Scizor|Quick Attack|p2a: Celebi
+|-damage|p2a: Celebi|72/100
+|move|p2a: Celebi|Psychic|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|45/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|78/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|l| snortlaz
+|
+|move|p1a: Scizor|Quick Attack|p2a: Celebi
+|-damage|p2a: Celebi|47/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|97/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|c|☆Suirio|gg
+|
+|move|p1a: Scizor|Quick Attack|p2a: Celebi
+|-damage|p2a: Celebi|70/100
+|move|p2a: Celebi|Perish Song|p2a: Celebi
+|-start|p1a: Scizor|perish3|[silent]
+|-start|p2a: Celebi|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|76/100|[from] item: Leftovers
+|-start|p2a: Celebi|perish3
+|-start|p1a: Scizor|perish3
+|upkeep
+|turn|40
+|c|☆CroCoeur|gg
+|
+|move|p1a: Scizor|Quick Attack|p2a: Celebi
+|-damage|p2a: Celebi|49/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|99/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-start|p2a: Celebi|perish2
+|-start|p1a: Scizor|perish2
+|upkeep
+|turn|41
+|
+|move|p1a: Scizor|Quick Attack|p2a: Celebi
+|-damage|p2a: Celebi|72/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Celebi|perish1
+|-start|p1a: Scizor|perish1
+|upkeep
+|turn|42
+|c|☆CroCoeur|why didn't you select u-turn?
+|
+|move|p1a: Scizor|Quick Attack|p2a: Celebi
+|-damage|p2a: Celebi|74/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Celebi|perish0
+|-start|p1a: Scizor|perish0
+|upkeep
+|faint|p2a: Celebi
+|faint|p1a: Scizor
+|
+|win|CroCoeur
+|raw|Suirio's rating: 1326 &rarr; <strong>1309</strong><br />(-17 for losing)
+|raw|CroCoeur's rating: 1371 &rarr; <strong>1389</strong><br />(+18 for winning)
+|c|☆Suirio|choice band
+|c|☆CroCoeur|yes, exactly
+|c|☆Suirio|i shouldve i just thought poli was scarfed
+|c|☆CroCoeur|It was
+|c|☆CroCoeur|but me missing Hydro Pump was your only shot
+|c|☆Suirio|so id lose to him anyways even if i beat celebi
+|c|☆Suirio|yea true
+|c|☆Suirio|thought youd have surf or cald
+|c|☆CroCoeur|ah
+|c|☆CroCoeur|indeed
+|c|☆Suirio|yea
+|c|☆Suirio|but gg
+|c|☆CroCoeur|wp

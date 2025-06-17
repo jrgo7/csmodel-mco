@@ -1,0 +1,355 @@
+|j|☆CHADBRO
+|j|☆alenpa
+|player|p1|CHADBRO|101
+|player|p2|alenpa|52
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Terrakion|item
+|poke|p1|Latios, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Conkeldurr, F|item
+|poke|p2|Raikou|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Gengar, M|item
+|teampreview
+|
+|start
+|switch|p1a: Pat Riely|Tyranitar, M|403/403
+|switch|p2a: Hydreigon|Hydreigon, M|326/326
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Pat Riely
+|turn|1
+|j| Mouser
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|382/382
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|move|p2a: Hydreigon|Focus Blast|p1a: Bron Bron
+|-resisted|p1a: Bron Bron
+|-damage|p1a: Bron Bron|234/382
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|306/326|[from] Sandstorm
+|upkeep
+|turn|2
+|l| Mouser
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|381/381
+|move|p1a: Bron Bron|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|327/381
+|
+|switch|p1a: Bosh|Latios, M, shiny|301/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|283/301|[from] Sandstorm
+|-damage|p2a: Conkeldurr|304/381|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Jirachi|Jirachi|390/390
+|move|p1a: Bosh|Psyshock|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|352/390
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|265/301|[from] Sandstorm
+|-heal|p2a: Jirachi|376/390|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Ray Allen|Magnezone|283/283
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|279/390
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|303/390|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Ray Allen
+|-supereffective|p1a: Ray Allen
+|-damage|p1a: Ray Allen|145/283
+|move|p1a: Ray Allen|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|327/390|[from] item: Leftovers
+|-heal|p1a: Ray Allen|162/283|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Ray Allen
+|-supereffective|p1a: Ray Allen
+|-damage|p1a: Ray Allen|24/283
+|move|p1a: Ray Allen|Hidden Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|149/390
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|173/390|[from] item: Leftovers
+|-heal|p1a: Ray Allen|41/283|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Jirachi|Fire Punch|p1a: Ray Allen
+|-supereffective|p1a: Ray Allen
+|-damage|p1a: Ray Allen|0 fnt
+|faint|p1a: Ray Allen
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jirachi|197/390|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|234/382
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|turn|8
+|
+|switch|p2a: Gengar|Gengar, M|262/262
+|move|p1a: Bron Bron|U-turn|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|228/262
+|
+|switch|p1a: Miller|Scizor, F, shiny|343/343
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|212/262|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Raikou|Raikou|322/322
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Miller|Bullet Punch|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|200/322
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|180/322|[from] Sandstorm
+|-heal|p2a: Raikou|200/322|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Pat Riely|Tyranitar, M|403/403
+|move|p2a: Raikou|Thunderbolt|p1a: Pat Riely
+|-crit|p1a: Pat Riely
+|-damage|p1a: Pat Riely|244/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|180/322|[from] Sandstorm
+|-heal|p2a: Raikou|200/322|[from] item: Leftovers
+|-heal|p1a: Pat Riely|269/403|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|304/381
+|move|p1a: Pat Riely|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: alenpa|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|281/381|[from] Sandstorm
+|-heal|p1a: Pat Riely|294/403|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Bron Bron|Landorus-Therian, M|234/382
+|-ability|p1a: Bron Bron|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|move|p2a: Conkeldurr|Ice Punch|p1a: Bron Bron
+|-supereffective|p1a: Bron Bron
+|-damage|p1a: Bron Bron|0 fnt
+|faint|p1a: Bron Bron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|258/381|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Bosh|Latios, M, shiny|265/301
+|turn|13
+|
+|switch|p2a: Jirachi|Jirachi|197/390
+|-damage|p2a: Jirachi|173/390|[from] Stealth Rock
+|move|p1a: Bosh|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|54/390
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|247/301|[from] Sandstorm
+|-heal|p2a: Jirachi|78/390|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Bosh|Surf|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|229/301|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Raikou|Raikou|200/322
+|-damage|p2a: Raikou|160/322|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|15
+|
+|move|p2a: Raikou|Hidden Power|p1a: Bosh
+|-supereffective|p1a: Bosh
+|-damage|p1a: Bosh|77/301
+|move|p1a: Bosh|Psyshock|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bosh|59/301|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|212/262
+|-damage|p2a: Gengar|180/262|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Pat Riely|Tyranitar, M|294/403
+|move|p2a: Gengar|Shadow Ball|p1a: Pat Riely
+|-resisted|p1a: Pat Riely
+|-damage|p1a: Pat Riely|261/403
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|164/262|[from] Sandstorm
+|-heal|p1a: Pat Riely|286/403|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Pat Riely
+|-resisted|p1a: Pat Riely
+|-damage|p1a: Pat Riely|252/403
+|move|p1a: Pat Riely|Pursuit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Pat Riely|277/403|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|258/381
+|-damage|p2a: Conkeldurr|235/381|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Pat Riely
+|-supereffective|p1a: Pat Riely
+|-damage|p1a: Pat Riely|0 fnt
+|-heal|p2a: Conkeldurr|374/381|[from] drain|[of] p1a: Pat Riely
+|-damage|p2a: Conkeldurr|336/381|[from] item: Life Orb
+|faint|p1a: Pat Riely
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|313/381|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Bosh|Latios, M, shiny|59/301
+|turn|19
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CHADBRO)
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Bosh
+|-resisted|p1a: Bosh
+|-damage|p1a: Bosh|0 fnt
+|-damage|p2a: Conkeldurr|275/381|[from] item: Life Orb
+|faint|p1a: Bosh
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|252/381|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Miller|Scizor, F, shiny|343/343
+|turn|20
+|
+|move|p1a: Miller|Bullet Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|69/381
+|move|p2a: Conkeldurr|Drain Punch|p1a: Miller
+|-damage|p1a: Miller|135/343
+|-heal|p2a: Conkeldurr|173/381|[from] drain|[of] p1a: Miller
+|-damage|p2a: Conkeldurr|135/381|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|112/381|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|move|p1a: Miller|Bullet Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|306/326
+|-damage|p2a: Hydreigon|266/326|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: D.Wade|Terrakion|323/323
+|move|p2a: Hydreigon|Focus Blast|p1a: D.Wade
+|-supereffective|p1a: D.Wade
+|-damage|p1a: D.Wade|5/323
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|246/326|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|move|p1a: D.Wade|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: D.Wade|def|1
+|-unboost|p1a: D.Wade|spd|1
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|-damage|p2a: Garchomp|335/357|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: D.Wade|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|94/357
+|-damage|p1a: D.Wade|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p1a: D.Wade
+|move|p2a: Garchomp|Earthquake|p1: D.Wade|[notarget]
+|-fail|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Miller|Scizor, F, shiny|135/343
+|turn|25
+|
+|move|p1a: Miller|Bullet Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Miller|93/343|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|win|CHADBRO
+|raw|CHADBRO's rating: 1260 &rarr; <strong>1298</strong><br />(+38 for winning)
+|raw|alenpa's rating: 1444 &rarr; <strong>1414</strong><br />(-30 for losing)
+|c|☆CHADBRO|gg'
+|c|☆alenpa|gg
+|l|☆alenpa

@@ -1,0 +1,357 @@
+|j|☆based carnage
+|j|☆Chotto Matte!!
+|player|p1|based carnage|290
+|player|p2|Chotto Matte!!|103
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Alomomola, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Donphan, M|item
+|poke|p1|Sableye, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Skarmory, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Xatu, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Keldeo-Resolute|item
+|teampreview
+|
+|start
+|switch|p1a: Sableye|Sableye, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sableye|atk|1
+|turn|1
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Xatu
+|move|p2a: Xatu|Will-O-Wisp|p1a: Sableye|[from]Magic Bounce
+|-status|p1a: Sableye|brn
+|
+|-damage|p1a: Sableye|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Xatu|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|78/100 brn
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Sableye|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|98/100
+|-enditem|p2a: Ninetales|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sableye|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Sableye|72/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Ninetales|Flamethrower|p1a: Chansey
+|-damage|p1a: Chansey|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-activate|p1a: Chansey|move: Heal Bell
+|-curestatus|p1: Sableye|brn|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Xatu|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|68/100
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Xatu|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|50/100
+|move|p1a: Chansey|Toxic|p2a: Xatu
+|move|p2a: Xatu|Toxic|p1a: Chansey|[from]Magic Bounce
+|-status|p1a: Chansey|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Chansey|99/100 tox|[from] move: Wish|[wisher] Chansey
+|-damage|p1a: Chansey|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Sableye|Sableye, M|72/100
+|move|p2a: Xatu|Psyshock|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sableye|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Ninetales|Ninetales, M|98/100
+|move|p1a: Sableye|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|92/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sableye|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Chansey|Chansey, F|94/100
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Chansey|[miss]
+|-miss|p2a: Ninetales|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Sableye|Sableye, M|84/100
+|move|p2a: Xatu|Heat Wave|p1a: Sableye
+|-damage|p1a: Sableye|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sableye|100/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|12
+|
+|move|p2a: Xatu|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|89/100
+|
+|switch|p2a: Ninetales|Ninetales, M|92/100
+|move|p1a: Sableye|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sableye|95/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Sableye|Confuse Ray|p2a: Garchomp
+|-start|p2a: Garchomp|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sableye|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|89/100
+|-damage|p1a: Sableye|84/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|-enditem|p2a: Xatu|Rocky Helmet|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sableye|90/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Chansey|Chansey, F|94/100
+|move|p2a: Xatu|Heat Wave|p1a: Chansey|[miss]
+|-miss|p2a: Xatu|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Xatu|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|85/100
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Xatu|Xatu, M|89/100
+|move|p1a: Donphan|Earthquake|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Xatu|Heat Wave|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Alomomola|87/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Xatu|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|81/100
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Alomomola|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|97/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|87/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Keldeo|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|72/100
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Whirlwind|p2a: Keldeo
+|drag|p2a: Garchomp|Garchomp, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Skarmory|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|65/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|faint|p1a: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|24
+|
+|switch|p2a: Xatu|Xatu, M|89/100
+|move|p1a: Alomomola|Toxic|p2a: Xatu
+|move|p2a: Xatu|Toxic|p1a: Alomomola|[from]Magic Bounce
+|-status|p1a: Alomomola|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Alomomola|94/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Xatu|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|88/100 tox
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|82/100
+|move|p1a: Alomomola|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|84/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|66/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|49/100
+|move|p1a: Ferrothorn|Aerial Ace|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|72/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Xatu|Xatu, M|89/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Xatu
+|-resisted|p2a: Xatu
+|-damage|p2a: Xatu|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by based carnage)
+|
+|switch|p1a: Chansey|Chansey, F|85/100
+|move|p2a: Xatu|Heat Wave|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+|
+|move|p2a: Xatu|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|57/100
+|
+|switch|p2a: Jirachi|Jirachi|82/100
+|move|p1a: Chansey|Toxic|p2a: Jirachi|[miss]
+|-miss|p1a: Chansey|p2a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|-message|based carnage forfeited.
+|
+|win|Chotto Matte!!
+|l|☆based carnage
+|raw|based carnage's rating: 1444 &rarr; <strong>1414</strong><br />(-30 for losing)
+|raw|Chotto Matte!!'s rating: 1261 &rarr; <strong>1299</strong><br />(+38 for winning)

@@ -1,0 +1,403 @@
+|j|☆Alv_radio
+|j|☆bonux972
+|player|p1|Alv_radio|burglar-gen1rb|1383
+|player|p2|bonux972|boarder|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Starmie|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Thundurus-Therian, M|item
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|move|p2a: Thundurus|Hidden Power|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|32/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Thundurus|Hidden Power|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|17/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Thundurus
+|-start|p2a: Thundurus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|23/100|[from] item: Leftovers
+|-damage|p2a: Thundurus|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|33/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|32/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Thundurus|Focus Blast|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Thundurus|Focus Blast|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Starmie|Starmie|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|33/100
+|turn|8
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: bonux972|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|40/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|move|p2a: Conkeldurr|Ice Punch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|9/100
+|-damage|p2a: Conkeldurr|88/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Conkeldurr
+|-sidestart|p2: bonux972|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Conkeldurr|64/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|51/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|turn|11
+|
+|move|p1a: Toxicroak|Bulk Up|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|1
+|-boost|p1a: Toxicroak|def|1
+|move|p2a: Conkeldurr|Drain Punch|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|73/100
+|-heal|p2a: Conkeldurr|64/100 brn|[from] drain|[of] p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|86/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|92/100|[from] item: Black Sludge
+|-damage|p2a: Conkeldurr|51/100 brn|[from] brn
+|upkeep
+|turn|12
+|j| dramateur
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|-damage|p2a: Seismitoad|82/100|[from] Spikes
+|move|p1a: Toxicroak|Bulk Up|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|1
+|-boost|p1a: Toxicroak|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|-heal|p2a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|37/100
+|move|p2a: Seismitoad|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|75/100|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|81/100|[from] item: Black Sludge
+|-heal|p2a: Seismitoad|43/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|88/100
+|-damage|p2a: Thundurus|63/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Drain Punch|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|10/100
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|16/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Thundurus|Thunder Wave|p1a: Toxicroak
+|-status|p1a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|22/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Thundurus|Thunder Wave|p1a: Toxicroak
+|-fail|p1a: Toxicroak|par
+|cant|p1a: Toxicroak|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|28/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Toxicroak
+|-damage|p1a: Toxicroak|28/100 par
+|move|p1a: Toxicroak|Drain Punch|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-heal|p1a: Toxicroak|39/100 par|[from] drain|[of] p2a: Thundurus
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|52/100 par|[from] ability: Dry Skin
+|-heal|p1a: Toxicroak|58/100 par|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Spikes
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Heatran|Earth Power|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|19
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Latios|Surf|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Seismitoad|Seismitoad, M|43/100
+|-damage|p2a: Seismitoad|30/100|[from] Spikes
+|-damage|p2a: Seismitoad|24/100|[from] Stealth Rock
+|move|p1a: Latios|Surf|p2a: Seismitoad
+|-heal|p2a: Seismitoad|49/100|[from] ability: Water Absorb|[of] p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|55/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|move|p2a: Seismitoad|Knock Off|p1a: Politoed
+|-damage|p1a: Politoed|95/100
+|-enditem|p1a: Politoed|Choice Scarf|[from] move: Knock Off|[of] p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|61/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Politoed|Encore|p2a: Seismitoad
+|-start|p2a: Seismitoad|Encore
+|move|p2a: Seismitoad|Knock Off|p1a: Politoed
+|-damage|p1a: Politoed|89/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Politoed|Ice Beam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|41/100
+|move|p2a: Seismitoad|Knock Off|p1a: Politoed
+|-damage|p1a: Politoed|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|47/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|51/100 brn
+|-damage|p2a: Conkeldurr|39/100 brn|[from] Spikes
+|-damage|p2a: Conkeldurr|33/100 brn|[from] Stealth Rock
+|move|p1a: Politoed|Ice Beam|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|4/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|0 fnt|[from] brn
+|faint|p2a: Conkeldurr
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|76/100
+|-damage|p2a: Latios|64/100|[from] Stealth Rock
+|turn|25
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bonux972)
+|
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|32/100
+|turn|26
+|
+|switch|p2a: Seismitoad|Seismitoad, M|47/100
+|-damage|p2a: Seismitoad|34/100|[from] Spikes
+|-damage|p2a: Seismitoad|28/100|[from] Stealth Rock
+|move|p1a: Thundurus|Hidden Power|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|64/100
+|-damage|p2a: Latios|52/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Thundurus|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|94/100|[from] Stealth Rock
+|-damage|p2a: Bisharp|82/100|[from] Spikes
+|turn|28
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bisharp|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Latios|Trick|p2a: Bisharp
+|-activate|p1a: Latios|move: Trick|[of] p2a: Bisharp
+|-item|p2a: Bisharp|Choice Specs|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|-activate|p1a: Latios|move: Pursuit
+|move|p2a: Bisharp|Pursuit|p1a: Latios|[from]Pursuit
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|32/100
+|turn|31
+|
+|switch|p2a: Heatran|Heatran, M|88/100
+|-damage|p2a: Heatran|76/100|[from] Spikes
+|-damage|p2a: Heatran|63/100|[from] Stealth Rock
+|move|p1a: Thundurus|Focus Blast|p2a: Heatran|[miss]
+|-miss|p1a: Thundurus|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|69/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|-message|Alv_radio forfeited.
+|
+|win|bonux972
+|l|☆Alv_radio
+|l| dramateur
+|raw|Alv_radio's rating: 1383 &rarr; <strong>1359</strong><br />(-24 for losing)
+|raw|bonux972's rating: 1323 &rarr; <strong>1347</strong><br />(+24 for winning)

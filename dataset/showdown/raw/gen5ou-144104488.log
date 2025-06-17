@@ -1,0 +1,220 @@
+|join|dtw
+|join|Serperiorthanyou
+|player|p1|dtw|1
+|player|p2|Serperiorthanyou|101
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Politoed, M
+|poke|p1|Azumarill, M
+|poke|p1|Breloom, F
+|poke|p1|Scizor, F
+|poke|p1|Rotom-Wash
+|poke|p1|Garchomp, M
+|poke|p2|Politoed, F
+|poke|p2|Toxicroak, M, shiny
+|poke|p2|Donphan, F
+|poke|p2|Sharpedo, M
+|poke|p2|Jirachi
+|poke|p2|Gengar, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, F|261/261
+|switch|p2a: Gengar|Gengar, M|262/262
+|turn|1
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|197/262
+|move|p1a: Breloom|Bullet Seed|p2a: Gengar
+|-resisted|p2a: Gengar
+|-activate|p2a: Gengar|Substitute|[damage]
+|-resisted|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|-hitcount|p2a: Gengar|2
+|
+|turn|2
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|132/262
+|move|p1a: Breloom|Bullet Seed|p2a: Gengar
+|-resisted|p2a: Gengar
+|-activate|p2a: Gengar|Substitute|[damage]
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|-hitcount|p2a: Gengar|2
+|
+|turn|3
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|67/262
+|move|p1a: Breloom|Bullet Seed|p2a: Gengar
+|-resisted|p2a: Gengar
+|-activate|p2a: Gengar|Substitute|[damage]
+|-resisted|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|10/262
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-hitcount|p2a: Gengar|4
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Toxicroak|Toxicroak, M, shiny|368/368
+|turn|4
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|328/368
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|283/368
+|-hitcount|p2a: Toxicroak|2
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|191/368
+|
+|-heal|p2a: Toxicroak|214/368|[from] item: Black Sludge
+|turn|5
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-activate|p2a: Toxicroak|Substitute|[damage]
+|-resisted|p2a: Toxicroak
+|-activate|p2a: Toxicroak|Substitute|[damage]
+|-resisted|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|-hitcount|p2a: Toxicroak|3
+|move|p2a: Toxicroak|Bulk Up|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|1
+|-boost|p2a: Toxicroak|def|1
+|
+|-heal|p2a: Toxicroak|237/368|[from] item: Black Sludge
+|turn|6
+|
+|move|p1a: Breloom|Spore|p2a: Toxicroak
+|-status|p2a: Toxicroak|slp
+|cant|p2a: Toxicroak|slp
+|
+|-heal|p2a: Toxicroak|260/368 slp|[from] item: Black Sludge
+|turn|7
+|
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|cant|p2a: Toxicroak|slp
+|
+|-heal|p2a: Toxicroak|283/368 slp|[from] item: Black Sludge
+|turn|8
+|
+|switch|p2a: Donphan|Donphan, F|384/384
+|move|p1a: Garchomp|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|231/384
+|
+|-heal|p2a: Donphan|255/384|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|304/304
+|move|p2a: Donphan|Stealth Rock|p1a: Rotom-Wash
+|-sidestart|p1: dtw|move: Stealth Rock
+|
+|-heal|p2a: Donphan|279/384|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Toxicroak|Toxicroak, M, shiny|283/368 slp
+|move|p1a: Rotom-Wash|Will-O-Wisp|p2a: Toxicroak
+|-fail|p2a: Toxicroak
+|
+|-heal|p2a: Toxicroak|306/368 slp|[from] item: Black Sludge
+|turn|11
+|
+|cant|p2a: Toxicroak|slp
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|183/368 slp
+|
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|-damage|p1a: Garchomp|335/357|[from] Stealth Rock
+|
+|-heal|p2a: Toxicroak|206/368 slp|[from] item: Black Sludge
+|turn|12
+|
+|switch|p2a: Politoed|Politoed, F|322/322
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Garchomp|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|111/322
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p1a: Garchomp|Earthquake|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Donphan|Donphan, F|279/384
+|turn|14
+|
+|switch|p1a: Rotom-Wash|Rotom-Wash|304/304
+|-damage|p1a: Rotom-Wash|266/304|[from] Stealth Rock
+|move|p2a: Donphan|Ice Shard|p1a: Rotom-Wash
+|-resisted|p1a: Rotom-Wash
+|-damage|p1a: Rotom-Wash|248/304
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom-Wash|267/304|[from] item: Leftovers
+|-heal|p2a: Donphan|303/384|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Toxicroak|Toxicroak, M, shiny|206/368 slp
+|move|p1a: Rotom-Wash|Volt Switch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|83/368 slp
+|
+|switch|p1a: Scizor|Scizor, F|343/343
+|-damage|p1a: Scizor|301/343|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|129/368 slp|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|152/368 slp|[from] item: Black Sludge
+|turn|16
+|
+|cant|p2a: Toxicroak|slp
+|move|p1a: Scizor|U-turn|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|86/368 slp
+|
+|switch|p1a: Garchomp|Garchomp, M|335/357
+|-damage|p1a: Garchomp|313/357|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|132/368 slp|[from] ability: Dry Skin
+|-heal|p2a: Toxicroak|155/368 slp|[from] item: Black Sludge
+|turn|17
+|
+|cant|p2a: Toxicroak|slp
+|move|p1a: Garchomp|Earthquake|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-message|Serperiorthanyou forfeited.
+|
+|win|dtw
+|raw|Ladder updating...
+|leave|Serperiorthanyou
+|player|p2
+|raw|dtw's rating: 1393 &rarr; <strong>1409</strong><br />(+16 for winning)
+|raw|Serperiorthanyou's rating: 1330 &rarr; <strong>1314</strong><br />(-16 for losing)

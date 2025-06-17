@@ -1,0 +1,471 @@
+|j|☆ModuloKiwi
+|j|☆Young snackz
+|player|p1|ModuloKiwi|197
+|player|p2|Young snackz|168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Breloom, F|item
+|poke|p1|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Mew|item
+|poke|p2|Breloom, F|item
+|poke|p2|Starmie|item
+|teampreview
+|
+|start
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|1
+|
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Kyurem|Freeze Shock|p2a: Starmie|[still]
+|-prepare|p1a: Kyurem|Freeze Shock|p2a: Starmie
+|-enditem|p1a: Kyurem|Power Herb
+|-anim|p1a: Kyurem|Freeze Shock|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|43/100
+|-status|p2a: Starmie|par
+|
+|-heal|p2a: Starmie|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|75/100
+|move|p2a: Starmie|Psychic|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p2a: Starmie|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Kyurem|Fusion Bolt|p2a: Heatran
+|-damage|p2a: Heatran|64/100
+|
+|-heal|p2a: Heatran|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Heatran
+|-damage|p2a: Heatran|27/100
+|move|p2a: Heatran|Flamethrower|p1a: Kyurem
+|-damage|p1a: Kyurem|36/100
+|
+|-heal|p2a: Heatran|34/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Kyurem|Outrage|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|40/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Heatran
+|-damage|p2a: Heatran|2/100
+|move|p2a: Heatran|Flamethrower|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-heal|p2a: Heatran|8/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Politoed|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|7
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Politoed|Scald|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|14/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Starmie|Starmie|56/100
+|move|p1a: Politoed|Scald|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Politoed|Scald|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|10
+|
+|move|p1a: Politoed|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|51/100
+|move|p2a: Breloom|Spore|p1a: Politoed
+|-status|p1a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|-singleturn|p2a: Breloom|move: Focus Punch
+|cant|p1a: Politoed|slp
+|move|p2a: Breloom|Focus Punch|p1a: Politoed
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem|[move] Focus Punch
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|12
+|
+|move|p1a: Jirachi|Psychic|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Landorus|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|19/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Young snackz|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Landorus|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|16
+|
+|switch|p2a: Heatran|Heatran, F|14/100
+|-damage|p2a: Heatran|2/100|[from] Stealth Rock
+|move|p1a: Breloom|Spore|p2a: Heatran
+|-status|p2a: Heatran|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|8/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|move|p1a: Breloom|Low Sweep|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|-unboost|p2a: Landorus|spe|1
+|-damage|p1a: Breloom|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Landorus|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|49/100
+|
+|switch|p2a: Heatran|Heatran, F|8/100 slp
+|-damage|p2a: Heatran|0 fnt|[from] Stealth Rock
+|faint|p2a: Heatran
+|move|p1a: Breloom|Bullet Seed|p2: Heatran|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|66/100
+|-damage|p2a: Landorus|53/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Breloom|atk|1
+|turn|19
+|
+|move|p2a: Landorus|Stone Edge|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|17/100
+|move|p1a: Breloom|Bullet Seed|p2a: Landorus
+|-damage|p2a: Landorus|38/100
+|-damage|p2a: Landorus|23/100
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-hitcount|p2a: Landorus|3
+|-damage|p1a: Breloom|7/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Mew|Ice Beam|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|91/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|97/100|[from] item: Leftovers
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Mew|Will-O-Wisp|p1a: Jirachi
+|-status|p1a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Jirachi|Thunder|p2a: Mew
+|-damage|p2a: Mew|67/100
+|move|p2a: Mew|Taunt|p1a: Jirachi
+|-start|p1a: Jirachi|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Mew|73/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Jirachi|Thunder|p2a: Tyranitar|[miss]
+|-miss|p1a: Jirachi|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Jirachi|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|71/100
+|-status|p2a: Tyranitar|par
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|70/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Jirachi|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|54/100 par
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|63/100 brn|[from] brn
+|-end|p1a: Jirachi|move: Taunt
+|upkeep
+|turn|26
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|38/100 brn
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|32/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Jirachi|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|36/100 par
+|move|p2a: Tyranitar|Pursuit|p1a: Jirachi
+|-damage|p1a: Jirachi|18/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|12/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Jirachi|Thunder|p2a: Tyranitar|[miss]
+|-miss|p1a: Jirachi|p2a: Tyranitar
+|move|p2a: Tyranitar|Pursuit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|29
+|
+|move|p1a: Keldeo|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Mew|Mew|73/100
+|-damage|p2a: Mew|60/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Keldeo|Surf|p2a: Mew
+|-damage|p2a: Mew|17/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|-damage|p2a: Mew|61/100|[from] Sandstorm
+|-heal|p2a: Mew|67/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Keldeo|Surf|p2a: Mew
+|-damage|p2a: Mew|23/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|82/100|[from] Sandstorm
+|-damage|p2a: Mew|66/100|[from] Sandstorm
+|-heal|p2a: Mew|73/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Keldeo|Surf|p2a: Mew
+|-damage|p2a: Mew|28/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|76/100|[from] Sandstorm
+|-damage|p2a: Mew|72/100|[from] Sandstorm
+|-heal|p2a: Mew|78/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Keldeo|Surf|p2a: Mew
+|-damage|p2a: Mew|33/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|70/100|[from] Sandstorm
+|-damage|p2a: Mew|77/100|[from] Sandstorm
+|-heal|p2a: Mew|83/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Keldeo|Surf|p2a: Mew
+|-damage|p2a: Mew|42/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|63/100|[from] Sandstorm
+|-damage|p2a: Mew|86/100|[from] Sandstorm
+|-heal|p2a: Mew|92/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Keldeo|Surf|p2a: Mew
+|-damage|p2a: Mew|52/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Keldeo
+|-status|p1a: Keldeo|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|57/100 brn|[from] Sandstorm
+|-damage|p2a: Mew|46/100|[from] Sandstorm
+|-heal|p2a: Mew|52/100|[from] item: Leftovers
+|-damage|p1a: Keldeo|45/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Keldeo|Surf|p2a: Mew
+|-damage|p2a: Mew|10/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|39/100 brn|[from] Sandstorm
+|-damage|p2a: Mew|54/100|[from] Sandstorm
+|-heal|p2a: Mew|60/100|[from] item: Leftovers
+|-damage|p1a: Keldeo|26/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Keldeo|Surf|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|ModuloKiwi
+|raw|ModuloKiwi's rating: 1350 &rarr; <strong>1369</strong><br />(+19 for winning)
+|raw|Young snackz's rating: 1340 &rarr; <strong>1320</strong><br />(-20 for losing)
+|l|☆Young snackz

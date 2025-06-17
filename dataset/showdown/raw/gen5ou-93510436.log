@@ -1,0 +1,612 @@
+|join|Indytotof
+|join|Pkmnredthebest
+|player|p1|Indytotof|267
+|player|p2|Pkmnredthebest|101
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|clearpoke
+|poke|p1|Abomasnow, M
+|poke|p1|Heatran, M
+|poke|p1|Kyurem-Black
+|poke|p1|Tentacruel, F
+|poke|p1|Scizor, M
+|poke|p1|Latias, F
+|poke|p2|Amoonguss, F
+|poke|p2|Slowbro, M
+|poke|p2|Heatran, F
+|poke|p2|Salamence, F
+|poke|p2|Skarmory, M
+|poke|p2|Hitmontop, M
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|teampreview
+|
+|start
+|switch|p1a: Blizzaroi|Abomasnow, M|364/364
+|switch|p2a: Skarmory|Skarmory, M|327/327
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Blizzaroi
+|turn|1
+|
+|move|p1a: Blizzaroi|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|move|p2a: Skarmory|Stealth Rock|p1a: Blizzaroi
+|-sidestart|p1: Indytotof|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|307/327|[from] hail
+|-damage|p2a: Skarmory|267/327|[from] Leech Seed|[of] p1a: Blizzaroi
+|turn|2
+|
+|switch|p1a: Tentacruel|Tentacruel, F|364/364
+|-damage|p1a: Tentacruel|319/364|[from] Stealth Rock
+|switch|p2a: Heatran|Heatran, F|385/385
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|297/364|[from] hail
+|-damage|p2a: Heatran|361/385|[from] hail
+|-heal|p1a: Tentacruel|319/364|[from] item: Black Sludge
+|-heal|p2a: Heatran|385/385|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Amoonguss|Amoonguss, F|432/432
+|move|p1a: Tentacruel|Rapid Spin|p2a: Amoonguss
+|-damage|p2a: Amoonguss|418/432
+|-sideend|p1: Indytotof|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|297/364|[from] hail
+|-damage|p2a: Amoonguss|391/432|[from] hail
+|-heal|p1a: Tentacruel|319/364|[from] item: Black Sludge
+|-heal|p2a: Amoonguss|418/432|[from] item: Black Sludge
+|turn|4
+|
+|move|p1a: Tentacruel|Blizzard|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|276/432
+|move|p2a: Amoonguss|Spore|p1a: Tentacruel
+|-status|p1a: Tentacruel|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|297/364 slp|[from] hail
+|-damage|p2a: Amoonguss|249/432|[from] hail
+|-heal|p1a: Tentacruel|319/364 slp|[from] item: Black Sludge
+|-heal|p2a: Amoonguss|276/432|[from] item: Black Sludge
+|turn|5
+|
+|switch|p1a: Kyurem Noir|Kyurem-Black|405/405
+|-ability|p1a: Kyurem Noir|Teravolt
+|switch|p2a: Slowbro|Slowbro, M|394/394
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowbro|370/394|[from] hail
+|-heal|p2a: Slowbro|394/394|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Kyurem Noir|Substitute|p1a: Kyurem Noir
+|-start|p1a: Kyurem Noir|Substitute
+|-damage|p1a: Kyurem Noir|304/405
+|move|p2a: Slowbro|Thunder Wave|p1a: Kyurem Noir
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowbro|370/394|[from] hail
+|-heal|p1a: Kyurem Noir|329/405|[from] item: Leftovers
+|-heal|p2a: Slowbro|394/394|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Kyurem Noir|Fusion Bolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|200/394
+|move|p2a: Slowbro|Scald|p1a: Kyurem Noir
+|-resisted|p1a: Kyurem Noir
+|-activate|p1a: Kyurem Noir|Substitute|[damage]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowbro|176/394|[from] hail
+|-heal|p1a: Kyurem Noir|354/405|[from] item: Leftovers
+|-heal|p2a: Slowbro|200/394|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Heatran|Heatran, F|385/385
+|move|p1a: Kyurem Noir|Dragon Claw|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|309/385
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|285/385|[from] hail
+|-heal|p1a: Kyurem Noir|379/405|[from] item: Leftovers
+|-heal|p2a: Heatran|309/385|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Kyurem Noir|Fusion Bolt|p2a: Heatran
+|-damage|p2a: Heatran|184/385
+|move|p2a: Heatran|Roar|p1a: Kyurem Noir
+|drag|p1a: Latias|Latias, F|364/364
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|342/364|[from] hail
+|-damage|p2a: Heatran|160/385|[from] hail
+|-heal|p1a: Latias|364/364|[from] item: Leftovers
+|-heal|p2a: Heatran|184/385|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, M|385/385
+|move|p2a: Heatran|Toxic|p1a: Heatran
+|-fail|p1a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|361/385|[from] hail
+|-damage|p2a: Heatran|160/385|[from] hail
+|-heal|p1a: Heatran|385/385|[from] item: Leftovers
+|-heal|p2a: Heatran|184/385|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Slowbro|Slowbro, M|331/394
+|move|p1a: Heatran|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: Pkmnredthebest|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|361/385|[from] hail
+|-damage|p2a: Slowbro|307/394|[from] hail
+|-heal|p1a: Heatran|385/385|[from] item: Leftovers
+|-heal|p2a: Slowbro|331/394|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Slowbro|Thunder Wave|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|361/385|[from] hail
+|-damage|p2a: Slowbro|307/394|[from] hail
+|-heal|p1a: Heatran|385/385|[from] item: Leftovers
+|-heal|p2a: Slowbro|331/394|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Slowbro|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|move|p1a: Heatran|Roar|p2a: Slowbro
+|drag|p2a: Skarmory|Skarmory, M|267/327
+|-damage|p2a: Skarmory|227/327|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|207/327|[from] hail
+|-damage|p1a: Heatran|361/385 par|[from] hail
+|-heal|p1a: Heatran|385/385 par|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Hitmontop|Hitmontop, M|304/304
+|-damage|p2a: Hitmontop|285/304|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|[of] p1a: Heatran
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Lava Plume|p2a: Hitmontop
+|-damage|p2a: Hitmontop|171/304
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hitmontop|152/304|[from] hail
+|-damage|p1a: Heatran|361/385 par|[from] hail
+|-heal|p2a: Hitmontop|171/304|[from] item: Leftovers
+|-heal|p1a: Heatran|385/385 par|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Latias|Latias, F|364/364
+|move|p2a: Hitmontop|Close Combat|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|297/364
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|275/364|[from] hail
+|-damage|p2a: Hitmontop|152/304|[from] hail
+|-heal|p1a: Latias|297/364|[from] item: Leftovers
+|-heal|p2a: Hitmontop|171/304|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Heatran|Heatran, F|184/385
+|-damage|p2a: Heatran|136/385|[from] Stealth Rock
+|move|p1a: Latias|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|95/385
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|275/364|[from] hail
+|-damage|p2a: Heatran|71/385|[from] hail
+|-heal|p1a: Latias|297/364|[from] item: Leftovers
+|-heal|p2a: Heatran|95/385|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|55/385
+|move|p2a: Heatran|Roar|p1a: Latias
+|drag|p1a: Tentacruel|Tentacruel, F|319/364 slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|297/364 slp|[from] hail
+|-damage|p2a: Heatran|31/385|[from] hail
+|-heal|p1a: Tentacruel|319/364 slp|[from] item: Black Sludge
+|-heal|p2a: Heatran|55/385|[from] item: Leftovers
+|turn|18
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: Heatran|Roar|p1a: Tentacruel
+|drag|p1a: Heatran|Heatran, M|385/385 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|31/385|[from] hail
+|-damage|p1a: Heatran|361/385 par|[from] hail
+|-heal|p2a: Heatran|55/385|[from] item: Leftovers
+|-heal|p1a: Heatran|385/385 par|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Heatran|Roar|p2a: Heatran
+|-activate|p2a: Heatran|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|31/385|[from] hail
+|-damage|p1a: Heatran|361/385 par|[from] hail
+|-heal|p2a: Heatran|55/385|[from] item: Leftovers
+|-heal|p1a: Heatran|385/385 par|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Heatran|Roar|p1a: Heatran
+|drag|p1a: Latias|Latias, F|297/364
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|275/364|[from] hail
+|-damage|p2a: Heatran|31/385|[from] hail
+|-heal|p1a: Latias|297/364|[from] item: Leftovers
+|-heal|p2a: Heatran|55/385|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Latias|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|13/385
+|move|p2a: Heatran|Toxic|p1a: Latias
+|-status|p1a: Latias|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|275/364 tox|[from] hail
+|-damage|p2a: Heatran|0 fnt|[from] hail
+|-heal|p1a: Latias|297/364 tox|[from] item: Leftovers
+|-damage|p1a: Latias|275/364 tox|[from] psn
+|faint|p2a: Heatran
+|
+|switch|p2a: Skarmory|Skarmory, M|207/327
+|-damage|p2a: Skarmory|167/327|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Heatran|Heatran, M|385/385 par
+|move|p2a: Skarmory|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Indytotof|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|147/327|[from] hail
+|-damage|p1a: Heatran|361/385 par|[from] hail
+|-heal|p1a: Heatran|385/385 par|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Slowbro|Slowbro, M|394/394
+|-damage|p2a: Slowbro|345/394|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|271/394
+|-status|p2a: Slowbro|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowbro|247/394 brn|[from] hail
+|-damage|p1a: Heatran|361/385 par|[from] hail
+|-heal|p2a: Slowbro|271/394 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|385/385 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|222/394 brn|[from] brn
+|turn|24
+|
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|259/385 par
+|cant|p1a: Heatran|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowbro|198/394 brn|[from] hail
+|-damage|p1a: Heatran|235/385 par|[from] hail
+|-heal|p2a: Slowbro|222/394 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|259/385 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|173/394 brn|[from] brn
+|turn|25
+|
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|131/385 par
+|move|p1a: Heatran|Roar|p2a: Slowbro
+|drag|p2a: Amoonguss|Amoonguss, F|420/432
+|-damage|p2a: Amoonguss|366/432|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Amoonguss|339/432|[from] hail
+|-damage|p1a: Heatran|107/385 par|[from] hail
+|-heal|p2a: Amoonguss|366/432|[from] item: Black Sludge
+|-heal|p1a: Heatran|131/385 par|[from] item: Leftovers
+|turn|26
+|
+|switch|p2a: Slowbro|Slowbro, M|304/394 brn
+|-damage|p2a: Slowbro|255/394 brn|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|188/394 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowbro|164/394 brn|[from] hail
+|-damage|p1a: Heatran|107/385 par|[from] hail
+|-heal|p2a: Slowbro|188/394 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|131/385 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|139/394 brn|[from] brn
+|turn|27
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-activate|p1a: Heatran|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowbro|115/394 brn|[from] hail
+|-damage|p1a: Heatran|107/385 par|[from] hail
+|-heal|p2a: Slowbro|139/394 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|131/385 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|90/394 brn|[from] brn
+|turn|28
+|
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowbro|66/394 brn|[from] hail
+|-heal|p2a: Slowbro|90/394 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|41/394 brn|[from] brn
+|
+|switch|p1a: Blizzaroi|Abomasnow, M|364/364
+|-damage|p1a: Blizzaroi|273/364|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: Skarmory|Skarmory, M|147/327
+|-damage|p2a: Skarmory|107/327|[from] Stealth Rock
+|move|p1a: Blizzaroi|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|87/327|[from] hail
+|-heal|p1a: Blizzaroi|295/364|[from] item: Leftovers
+|-damage|p2a: Skarmory|47/327|[from] Leech Seed|[of] p1a: Blizzaroi
+|-heal|p1a: Blizzaroi|335/364|[silent]
+|turn|30
+|
+|move|p1a: Blizzaroi|Ice Shard|p2a: Skarmory
+|-damage|p2a: Skarmory|10/327
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|174/327
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|154/327|[from] hail
+|-heal|p1a: Blizzaroi|357/364|[from] item: Leftovers
+|-damage|p2a: Skarmory|114/327|[from] Leech Seed|[of] p1a: Blizzaroi
+|-heal|p1a: Blizzaroi|364/364|[silent]
+|turn|31
+|
+|move|p1a: Blizzaroi|Protect|p1a: Blizzaroi
+|-singleturn|p1a: Blizzaroi|Protect
+|move|p2a: Skarmory|Whirlwind|p1a: Blizzaroi
+|-activate|p1a: Blizzaroi|Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|94/327|[from] hail
+|-damage|p2a: Skarmory|54/327|[from] Leech Seed|[of] p1a: Blizzaroi
+|turn|32
+|
+|move|p1a: Blizzaroi|Protect|p1a: Blizzaroi
+|-fail|p1a: Blizzaroi
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|218/327
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|198/327|[from] hail
+|-damage|p2a: Skarmory|158/327|[from] Leech Seed|[of] p1a: Blizzaroi
+|turn|33
+|
+|move|p1a: Blizzaroi|Ice Shard|p2a: Skarmory
+|-damage|p2a: Skarmory|119/327
+|move|p2a: Skarmory|Taunt|p1a: Blizzaroi
+|-start|p1a: Blizzaroi|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|99/327|[from] hail
+|-damage|p2a: Skarmory|59/327|[from] Leech Seed|[of] p1a: Blizzaroi
+|turn|34
+|
+|switch|p2a: Hitmontop|Hitmontop, M|171/304
+|-damage|p2a: Hitmontop|152/304|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|[of] p1a: Blizzaroi
+|-unboost|p1a: Blizzaroi|atk|1
+|move|p1a: Blizzaroi|Ice Shard|p2a: Hitmontop
+|-damage|p2a: Hitmontop|119/304
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hitmontop|100/304|[from] hail
+|-heal|p2a: Hitmontop|119/304|[from] item: Leftovers
+|turn|35
+|
+|switch|p1a: Cizayox|Scizor, M|343/343
+|-damage|p1a: Cizayox|301/343|[from] Stealth Rock
+|move|p2a: Hitmontop|Rapid Spin|p1a: Cizayox
+|-resisted|p1a: Cizayox
+|-damage|p1a: Cizayox|294/343
+|-sideend|p2: Pkmnredthebest|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hitmontop|100/304|[from] hail
+|-damage|p1a: Cizayox|273/343|[from] hail
+|-heal|p2a: Hitmontop|119/304|[from] item: Leftovers
+|-heal|p1a: Cizayox|294/343|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Hitmontop|Close Combat|p1a: Cizayox
+|-damage|p1a: Cizayox|161/343
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|move|p1a: Cizayox|Swords Dance|p1a: Cizayox
+|-boost|p1a: Cizayox|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hitmontop|100/304|[from] hail
+|-damage|p1a: Cizayox|140/343|[from] hail
+|-heal|p2a: Hitmontop|119/304|[from] item: Leftovers
+|-heal|p1a: Cizayox|161/343|[from] item: Leftovers
+|turn|37
+|
+|move|p1a: Cizayox|Bullet Punch|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cizayox|140/343|[from] hail
+|-heal|p1a: Cizayox|161/343|[from] item: Leftovers
+|
+|switch|p2a: Slowbro|Slowbro, M|172/394 brn
+|turn|38
+|
+|move|p1a: Cizayox|Bullet Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|117/394 brn
+|move|p2a: Slowbro|Scald|p1a: Cizayox
+|-damage|p1a: Cizayox|83/343
+|-status|p1a: Cizayox|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cizayox|62/343 brn|[from] hail
+|-damage|p2a: Slowbro|93/394 brn|[from] hail
+|-heal|p1a: Cizayox|83/343 brn|[from] item: Leftovers
+|-heal|p2a: Slowbro|117/394 brn|[from] item: Leftovers
+|-damage|p1a: Cizayox|41/343 brn|[from] brn
+|-damage|p2a: Slowbro|68/394 brn|[from] brn
+|turn|39
+|
+|move|p1a: Cizayox|Roost|p1a: Cizayox
+|-heal|p1a: Cizayox|213/343 brn
+|move|p2a: Slowbro|Scald|p1a: Cizayox
+|-damage|p1a: Cizayox|140/343 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cizayox|119/343 brn|[from] hail
+|-damage|p2a: Slowbro|44/394 brn|[from] hail
+|-heal|p1a: Cizayox|140/343 brn|[from] item: Leftovers
+|-heal|p2a: Slowbro|68/394 brn|[from] item: Leftovers
+|-damage|p1a: Cizayox|98/343 brn|[from] brn
+|-damage|p2a: Slowbro|19/394 brn|[from] brn
+|turn|40
+|
+|move|p1a: Cizayox|Roost|p1a: Cizayox
+|-heal|p1a: Cizayox|270/343 brn
+|move|p2a: Slowbro|Scald|p1a: Cizayox
+|-damage|p1a: Cizayox|191/343 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cizayox|170/343 brn|[from] hail
+|-damage|p2a: Slowbro|0 fnt|[from] hail
+|-heal|p1a: Cizayox|191/343 brn|[from] item: Leftovers
+|-damage|p1a: Cizayox|149/343 brn|[from] brn
+|faint|p2a: Slowbro
+|
+|switch|p2a: Salamence|Salamence, F|331/331
+|turn|41
+|
+|move|p1a: Cizayox|Bullet Punch|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|121/331
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Salamence|101/331|[from] hail
+|-damage|p1a: Cizayox|128/343 brn|[from] hail
+|-heal|p1a: Cizayox|149/343 brn|[from] item: Leftovers
+|-damage|p1a: Cizayox|107/343 brn|[from] brn
+|turn|42
+|
+|move|p1a: Cizayox|Bullet Punch|p2a: Salamence
+|-damage|p2a: Salamence|1/331
+|move|p2a: Salamence|Fire Blast|p1a: Cizayox
+|-supereffective|p1a: Cizayox
+|-damage|p1a: Cizayox|0 fnt
+|faint|p1a: Cizayox
+|-boost|p2a: Salamence|atk|1|[from] ability: Moxie
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Salamence|0 fnt|[from] hail
+|faint|p2a: Salamence
+|
+|switch|p1a: Kyurem Noir|Kyurem-Black|379/405
+|-damage|p1a: Kyurem Noir|278/405|[from] Stealth Rock
+|switch|p2a: Amoonguss|Amoonguss, F|432/432
+|-ability|p1a: Kyurem Noir|Teravolt
+|turn|43
+|
+|move|p1a: Kyurem Noir|Substitute|p1a: Kyurem Noir
+|-start|p1a: Kyurem Noir|Substitute
+|-damage|p1a: Kyurem Noir|177/405
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Kyurem Noir
+|-end|p1a: Kyurem Noir|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Amoonguss|405/432|[from] hail
+|-heal|p1a: Kyurem Noir|202/405|[from] item: Leftovers
+|-heal|p2a: Amoonguss|432/432|[from] item: Black Sludge
+|turn|44
+|
+|move|p1a: Kyurem Noir|Blizzard|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Kyurem Noir|227/405|[from] item: Leftovers
+|
+|switch|p2a: Skarmory|Skarmory, M|59/327
+|turn|45
+|chat|Pkmnredthebest|gg
+|chat|Indytotof|yp
+|
+|move|p1a: Kyurem Noir|Fusion Bolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|win|Indytotof
+|raw|Ladder updating...
+|raw|Indytotof's rating: 1410 &rarr; <strong>1426</strong><br />(+16 for winning)
+|raw|Pkmnredthebest's rating: 1328 &rarr; <strong>1312</strong><br />(-16 for losing)
+|chat|Indytotof|*yp
+|chat|Indytotof|*yep
+|chat|Pkmnredthebest|u got lucky 
+|chat|Pkmnredthebest|with salamance
+|chat|Indytotof|for the crits
+|chat|Indytotof|abomasnow will kill it with ice shard
+|chat|Pkmnredthebest|but i wasnt perfect
+|chat|Pkmnredthebest|true
+|chat|Pkmnredthebest|gg again
+|chat|Indytotof|yep
+|chat|Indytotof|you too
+|leave|Pkmnredthebest
+|player|p2

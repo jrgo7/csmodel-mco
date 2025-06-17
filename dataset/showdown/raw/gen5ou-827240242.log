@@ -1,0 +1,407 @@
+|j|☆Olden Polynice
+|j|☆Nights Blade God
+|player|p1|Olden Polynice|69
+|player|p2|Nights Blade God|263
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Amoonguss, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Gallade, M|item
+|poke|p1|Skarmory, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|
+|start
+|switch|p1a: Gallade|Gallade, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Politoed|Hypnosis|p1a: Amoonguss|[miss]
+|-miss|p2a: Politoed|p1a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Politoed|Hypnosis|p1a: Amoonguss|[miss]
+|-miss|p2a: Politoed|p1a: Amoonguss
+|move|p1a: Amoonguss|Spore|p2a: Politoed
+|-status|p2a: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Olden Polynice)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Olden Polynice|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Politoed|Politoed, F|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Garchomp|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Nights Blade God|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Garchomp|Dragon Tail|p2a: Ferrothorn|[miss]
+|-miss|p1a: Garchomp|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Amoonguss
+|-sidestart|p1: Olden Polynice|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|94/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|-damage|p1a: Gallade|95/100|[from] Stealth Rock
+|-damage|p1a: Gallade|82/100|[from] Spikes
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|inactive|Nights Blade God has 120 seconds left.
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Gallade
+|-damage|p1a: Gallade|78/100
+|-sideend|p2: Nights Blade God|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Gallade|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Gallade|66/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|14
+|
+|move|p1a: Gallade|Shadow Sneak|p2a: Thundurus
+|-damage|p2a: Thundurus|41/100
+|move|p2a: Thundurus|Thunder|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Tentacruel
+|-damage|p2a: Tentacruel|46/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|52/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|58/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tentacruel|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tentacruel|52/100|[from] Sandstorm
+|-heal|p2a: Tentacruel|58/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p1a: Garchomp|82/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Garchomp|Outrage|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|1/100
+|-damage|p2a: Garchomp|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Garchomp|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Nights Blade God|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Garchomp|Outrage|p1a: Skarmory|[from]lockedmove
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Garchomp|Outrage|p1a: Skarmory|[from]lockedmove
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|51/100
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Skarmory|Spikes|p2a: Garchomp
+|-sidestart|p2: Nights Blade God|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Politoed|Politoed, F|100/100 slp
+|-damage|p2a: Politoed|88/100 slp|[from] Stealth Rock
+|-damage|p2a: Politoed|76/100 slp|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Skarmory|Spikes|p2a: Politoed
+|-sidestart|p2: Nights Blade God|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|63/100|[from] item: Leftovers
+|-heal|p2a: Politoed|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Tentacruel|Tentacruel, F|58/100
+|-damage|p2a: Tentacruel|41/100|[from] Spikes
+|-damage|p2a: Tentacruel|29/100|[from] Stealth Rock
+|move|p1a: Skarmory|Whirlwind|p2a: Tentacruel
+|drag|p2a: Politoed|Politoed, F|82/100 slp
+|-damage|p2a: Politoed|70/100 slp|[from] Stealth Rock
+|-damage|p2a: Politoed|53/100 slp|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|69/100|[from] item: Leftovers
+|-heal|p2a: Politoed|59/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|cant|p2a: Politoed|slp
+|move|p1a: Skarmory|Whirlwind|p2a: Politoed
+|drag|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Olden Polynice has 120 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|1/100
+|-damage|p1a: Garchomp|0 fnt|[from] Stealth Rock
+|faint|p1a: Garchomp
+|move|p2a: Tornadus|Focus Blast|p1: Garchomp|[notarget]
+|-notarget
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|75/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Politoed|Politoed, F|59/100 slp
+|-damage|p2a: Politoed|47/100 slp|[from] Stealth Rock
+|-damage|p2a: Politoed|31/100 slp|[from] Spikes
+|move|p1a: Latios|Draco Meteor|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus, M|76/100
+|-damage|p2a: Tornadus|51/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Latios|Draco Meteor|p2a: Tornadus
+|-damage|p2a: Tornadus|5/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Tornadus|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|25/100
+|c|☆Olden Polynice|oh my
+|
+|switch|p2a: Garchomp|Garchomp, M|72/100
+|-damage|p2a: Garchomp|65/100|[from] Stealth Rock
+|-damage|p2a: Garchomp|49/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p1a: Skarmory|Skarmory, M|75/100
+|-damage|p1a: Skarmory|63/100|[from] Stealth Rock
+|move|p2a: Garchomp|Dual Chop|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|56/100
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|49/100
+|-hitcount|p1a: Skarmory|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Tornadus|Tornadus, M|5/100
+|-damage|p2a: Tornadus|0 fnt|[from] Stealth Rock
+|faint|p2a: Tornadus
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|29/100
+|-damage|p2a: Tentacruel|13/100|[from] Spikes
+|-damage|p2a: Tentacruel|0 fnt|[from] Stealth Rock
+|faint|p2a: Tentacruel
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|47/100
+|-damage|p2a: Thundurus|22/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Thundurus|Thunder|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-ability|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1/100
+|-status|p1a: Skarmory|par
+|move|p1a: Skarmory|Whirlwind|p2a: Thundurus
+|drag|p2a: Garchomp|Garchomp, M|49/100
+|-damage|p2a: Garchomp|43/100|[from] Stealth Rock
+|-damage|p2a: Garchomp|26/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Garchomp|Outrage|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|25/100
+|-damage|p1a: Latios|12/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Latios|Draco Meteor|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|22/100
+|-damage|p2a: Thundurus|0 fnt|[from] Stealth Rock
+|faint|p2a: Thundurus
+|
+|win|Olden Polynice
+|l|☆Nights Blade God
+|raw|Olden Polynice's rating: 1398 &rarr; <strong>1426</strong><br />(+28 for winning)
+|raw|Nights Blade God's rating: 1560 &rarr; <strong>1531</strong><br />(-29 for losing)

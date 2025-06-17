@@ -1,0 +1,896 @@
+|j|☆doughboy
+|j|☆ThemGa!nz
+|player|p1|doughboy|170
+|player|p2|ThemGa!nz|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dragonite, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Quagsire, F|item
+|poke|p1|Clefable, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Alakazam, M|item
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|turn|1
+|
+|move|p2a: Jellicent|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|move|p1a: Clefable|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|95/100
+|-enditem|p2a: Jellicent|Leftovers|[from] move: Knock Off|[of] p1a: Clefable
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Politoed
+|-status|p1a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Jellicent|Taunt|p1a: Politoed
+|-start|p1a: Politoed|move: Taunt
+|cant|p1a: Politoed|move: Taunt|Toxic
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Breloom|Spore|p1a: Quagsire
+|-status|p1a: Quagsire|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Breloom|Leech Seed|p1a: Dragonite
+|-start|p1a: Dragonite|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Dragonite|88/100|[from] Leech Seed|[of] p2a: Breloom
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Tyranitar|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|52/100
+|-damage|p2a: Tyranitar|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: ThemGa!nz|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Breloom|Breloom, M|100/100 tox
+|-damage|p2a: Breloom|94/100 tox|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|70/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|64/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|-heal|p2a: Breloom|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|switch|p1a: Politoed|Politoed, F|82/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Breloom|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|75/100 brn|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|91/100 tox|[silent]
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Politoed|63/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Dragonite|Dragonite, M|88/100
+|move|p2a: Breloom|Leech Seed|p1a: Dragonite
+|-start|p1a: Dragonite|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|94/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|82/100|[from] Leech Seed|[of] p2a: Breloom
+|upkeep
+|turn|12
+|
+|switch|p2a: Tyranitar|Tyranitar, F|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragonite|Dragon Claw|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|76/100|[from] Sandstorm
+|-heal|p1a: Dragonite|82/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|69/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|30/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|64/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: doughboy|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Breloom|Breloom, M|100/100 tox
+|-damage|p2a: Breloom|94/100 tox|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Breloom
+|-sidestart|p2: ThemGa!nz|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|88/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|move|p2a: Breloom|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|40/100
+|-damage|p2a: Breloom|88/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Breloom
+|-sidestart|p2: ThemGa!nz|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|82/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|-heal|p2a: Breloom|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|switch|p1a: Politoed|Politoed, F|63/100 brn
+|-damage|p1a: Politoed|50/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Breloom|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|44/100 brn|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|100/100 tox|[silent]
+|-damage|p1a: Politoed|32/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Breloom|Leech Seed|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|88/100|[from] Leech Seed|[of] p2a: Breloom
+|upkeep
+|turn|18
+|
+|switch|p2a: Jellicent|Jellicent, M|95/100
+|-damage|p2a: Jellicent|78/100|[from] Spikes
+|-damage|p2a: Jellicent|66/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|88/100|[from] Leech Seed|[of] p2a: Jellicent
+|-heal|p2a: Jellicent|77/100 tox|[silent]
+|-damage|p2a: Jellicent|71/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|47/100
+|-damage|p1a: Ferrothorn|40/100|[from] Stealth Rock
+|move|p2a: Jellicent|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|59/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Breloom|Breloom, M|100/100 tox
+|-damage|p2a: Breloom|84/100 tox|[from] Spikes
+|-damage|p2a: Breloom|78/100 tox|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|55/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|-heal|p2a: Breloom|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|switch|p1a: Tentacruel|Tentacruel, F|88/100
+|-damage|p1a: Tentacruel|75/100|[from] Stealth Rock
+|move|p2a: Breloom|Drain Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|63/100
+|-heal|p2a: Breloom|75/100 tox|[from] drain|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|69/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|-heal|p2a: Breloom|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|53/100
+|-damage|p1a: Ferrothorn|47/100|[from] Stealth Rock
+|move|p2a: Breloom|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|-heal|p2a: Breloom|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|move|p2a: Breloom|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|15/100
+|-heal|p2a: Breloom|100/100 tox|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Breloom|88/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Breloom
+|-sidestart|p2: ThemGa!nz|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|22/100|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|switch|p1a: Tentacruel|Tentacruel, F|75/100
+|-damage|p1a: Tentacruel|63/100|[from] Stealth Rock
+|move|p2a: Breloom|Drain Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|55/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|61/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|switch|p2a: Jellicent|Jellicent, M|59/100 tox
+|-damage|p2a: Jellicent|34/100 tox|[from] Spikes
+|-damage|p2a: Jellicent|21/100 tox|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jellicent
+|-immune|p2a: Jellicent|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|67/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|73/100|[from] item: Black Sludge
+|-damage|p2a: Jellicent|15/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Politoed|Politoed, F|32/100 brn
+|-damage|p1a: Politoed|19/100 brn|[from] Stealth Rock
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|65/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|53/100 tox|[from] psn
+|-damage|p1a: Politoed|13/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Jellicent|Taunt|p1a: Politoed
+|-start|p1a: Politoed|move: Taunt
+|move|p1a: Politoed|Ice Beam|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|45/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|26/100 tox|[from] psn
+|-damage|p1a: Politoed|7/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|76/100 tox
+|move|p1a: Politoed|Ice Beam|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|67/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|13/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|42/100 tox|[from] psn
+|-damage|p1a: Politoed|0 brn|[from] brn
+|upkeep
+|faint|p1a: Politoed
+|
+|switch|p1a: Dragonite|Dragonite, M|69/100
+|-damage|p1a: Dragonite|45/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: Tyranitar|Tyranitar, F|30/100
+|-damage|p2a: Tyranitar|18/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|0|[from] Spikes
+|faint|p2a: Tyranitar
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|20/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|76/100
+|move|p2a: Skarmory|Spikes|p1a: Dragonite
+|-sidestart|p1: doughboy|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|82/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|move|p2a: Skarmory|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Tentacruel|Tentacruel, F|73/100
+|-damage|p1a: Tentacruel|60/100|[from] Stealth Rock
+|-damage|p1a: Tentacruel|48/100|[from] Spikes
+|move|p2a: Skarmory|Whirlwind|p1a: Tentacruel
+|drag|p1a: Quagsire|Quagsire, F|100/100 slp
+|-damage|p1a: Quagsire|94/100 slp|[from] Stealth Rock
+|-damage|p1a: Quagsire|82/100 slp|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|22/100
+|-damage|p1a: Ferrothorn|15/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|3/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Ferrothorn
+|-sidestart|p1: doughboy|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|9/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Breloom|Breloom, M|100/100 tox
+|-damage|p2a: Breloom|75/100 tox|[from] Spikes
+|-damage|p2a: Breloom|69/100 tox|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Breloom
+|-immune|p2a: Breloom|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|-heal|p2a: Breloom|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|35
+|
+|move|p2a: Breloom|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0
+|-heal|p2a: Breloom|90/100 tox|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Breloom|77/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, F|48/100
+|-damage|p1a: Tentacruel|36/100|[from] Stealth Rock
+|-damage|p1a: Tentacruel|19/100|[from] Spikes
+|turn|36
+|
+|switch|p2a: Jellicent|Jellicent, M|42/100 tox
+|-damage|p2a: Jellicent|17/100 tox|[from] Spikes
+|-damage|p2a: Jellicent|5/100 tox|[from] Stealth Rock
+|move|p1a: Tentacruel|Rapid Spin|p2a: Jellicent
+|-immune|p2a: Jellicent|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|25/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|31/100|[from] item: Black Sludge
+|-damage|p2a: Jellicent|0 tox|[from] psn
+|upkeep
+|faint|p2a: Jellicent
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|37
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|-damage|p1a: Clefable|88/100|[from] Stealth Rock
+|-damage|p1a: Clefable|72/100|[from] Spikes
+|move|p2a: Alakazam|Psyshock|p1a: Clefable
+|-damage|p1a: Clefable|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|27/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Alakazam|Psyshock|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|33/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Alakazam|Psyshock|p1a: Clefable
+|-damage|p1a: Clefable|0
+|faint|p1a: Clefable
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Quagsire|Quagsire, F|88/100 slp
+|-damage|p1a: Quagsire|82/100 slp|[from] Stealth Rock
+|-damage|p1a: Quagsire|65/100 slp|[from] Spikes
+|turn|40
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Quagsire
+|-damage|p1a: Quagsire|33/100 slp
+|cant|p1a: Quagsire|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|39/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Quagsire
+|-crit|p1a: Quagsire
+|-damage|p1a: Quagsire|0 slp
+|faint|p1a: Quagsire
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, F|31/100
+|-damage|p1a: Tentacruel|15/100|[from] Spikes
+|-damage|p1a: Tentacruel|2/100|[from] Stealth Rock
+|turn|42
+|
+|move|p2a: Alakazam|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|43
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|48/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|54/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|move|p2a: Alakazam|Psych Up|p1a: Dragonite
+|-copyboost|p2a: Alakazam|p1a: Dragonite|[from] move: Psych Up
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|45
+|
+|move|p2a: Alakazam|Psyshock|p1a: Dragonite
+|-damage|p1a: Dragonite|82/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|88/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|72/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|69/100
+|move|p2a: Skarmory|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|75/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|82/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Alakazam
+|-damage|p2a: Alakazam|0
+|faint|p2a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, F|78/100
+|-damage|p2a: Skarmory|65/100|[from] Stealth Rock
+|turn|50
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|95/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|94/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-end|p1a: Dragonite|move: Taunt
+|upkeep
+|turn|51
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Skarmory|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|99/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|76/100
+|move|p2a: Skarmory|Spikes|p1a: Dragonite
+|-sidestart|p1: doughboy|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|55/100
+|move|p2a: Skarmory|Spikes|p1a: Dragonite
+|-fail|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|35/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|91/100|[from] item: Leftovers
+|-end|p1a: Dragonite|move: Taunt
+|upkeep
+|turn|55
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Skarmory|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|97/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|move|p2a: Skarmory|Spikes|p1a: Dragonite
+|-fail|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|move|p2a: Skarmory|Whirlwind|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|19/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|75/100|[from] item: Leftovers
+|-end|p1a: Dragonite|move: Taunt
+|upkeep
+|turn|59
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Skarmory|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|81/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|43/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|60/100
+|move|p2a: Skarmory|Whirlwind|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|27/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|83/100|[from] item: Leftovers
+|-end|p1a: Dragonite|move: Taunt
+|upkeep
+|turn|63
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Skarmory|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|48/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|98/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|60/100
+|move|p2a: Skarmory|Spikes|p1a: Dragonite
+|-fail|p2a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|66/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|22/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|78/100|[from] item: Leftovers
+|-end|p1a: Dragonite|move: Taunt
+|upkeep
+|turn|67
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|33/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|46/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|96/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|55/100
+|move|p2a: Skarmory|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|21/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|37/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Skarmory|93/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|55/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Dragonite|move: Taunt
+|upkeep
+|turn|73
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ThemGa!nz)
+|inactive|doughboy has 120 seconds left.
+|inactive|doughboy has 90 seconds left.
+|inactive|doughboy has 60 seconds left.
+|inactive|doughboy has 30 seconds left.
+|inactive|doughboy has 20 seconds left.
+|inactive|doughboy has 15 seconds left.
+|inactive|doughboy has 10 seconds left.
+|inactive|doughboy has 5 seconds left.
+|-message|doughboy lost due to inactivity.
+|
+|win|ThemGa!nz
+|raw|doughboy's rating: 1438 &rarr; <strong>1410</strong><br />(-28 for losing)
+|raw|ThemGa!nz's rating: 1290 &rarr; <strong>1325</strong><br />(+35 for winning)
