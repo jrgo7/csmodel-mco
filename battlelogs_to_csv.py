@@ -15,12 +15,13 @@ def battlelogs_to_csv(file_path: str):
     pokemon_switches = []
     length = 0
     outcome = "Tie"
-
+    encountered_player_info = False
     for line in lines:
-        if "|player|p1|" in line:
+        if "|player|p1|" in line and not encountered_player_info:
             # Get player info
             player_info += line.split("|")
             player_name = player_info[3]
+            encountered_player_info = True
         elif "|poke|p1|" in line:
             # Get pokemon info
             pokemon = (
@@ -65,7 +66,10 @@ def main():
     out = [
         "BattleTag,Name,Elo,Pokemon1,Pokemon2,Pokemon3,Pokemon4,Pokemon5,Pokemon6,LeadPokemon,BattleLength,Outcome"
     ]
-    for file_path in os.listdir("./dataset/showdown/raw"):
+    file_paths = os.listdir("./dataset/showdown/raw")
+    file_count = len(file_paths)
+    for i, file_path in enumerate(file_paths):
+        print(f"Processed {i+1}/{file_count} files")
         out.append(battlelogs_to_csv("./dataset/showdown/raw/" + file_path))
 
     with open("./dataset/showdown/showdown.csv", "w", encoding="utf-8") as file_pointer:
