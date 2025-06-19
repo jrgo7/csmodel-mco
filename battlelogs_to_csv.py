@@ -3,69 +3,111 @@ import textwrap
 import re
 import sys
 import os
-import chardet
 
 
 def battlelogs_to_csv(file_path: str):
     with open(file_path, "r", encoding="utf-8") as file_pointer:
         lines = file_pointer.readlines()
 
-    player_info = []  # ['', 'player', 'p1', username, elo]
-    player_pokemon = []
-    pokemon_switches = []
-    length = 0
-    outcome = "Tie"
-    encountered_player_info = False
-    for line in lines:
-        if "|player|p1|" in line and not encountered_player_info:
-            # Get player info
-            player_info += line.split("|")
-            player_name = player_info[3]
-            encountered_player_info = True
-        elif "|poke|p1|" in line:
-            # Get pokemon info
-            pokemon = (
-                line.removeprefix("|poke|p1|")
-                .split("|")[0]
-                .split(",")[0]
-                .removesuffix("\n")
-            )
-            player_pokemon.append(pokemon)
-        elif "|switch|p1a:" in line:
-            # Get pokemon switching info (1st entry == player lead pokemon)
-            pokemon = line.removeprefix("|switch|p1a: ").split("|")[1].split(",")[0]
-            pokemon_switches.append(pokemon)
-        elif "|turn|" in line:
-            # Increment turn count
-            length += 1
-        elif "|win|" in line:
-            # Determine if winner
-            winner = line.removeprefix("|win|").removesuffix("\n")
-            outcome = "Winner" if winner == player_name else "Loser"
+    lines = map(lambda line: line.removesuffix("\n"), lines)
+    lines = filter(lambda line: line != "|", lines)
 
-    player_elo = player_info[-1].strip("\n")
-    lead_pokemon = (
-        pokemon_switches[0] if len(pokemon_switches) else "None"
-    )  # if lead_pokemon is None, then the battle ended before p1 sent out a Pokemon
+    # Tokenize the lines
+    # (Split them into lists of tokens and ensure these lists and tokens are not empty)
+    tokenized_data = filter(
+        lambda token_list: token_list,
+        map(lambda line: list(filter(lambda token: token, line.split("|"))), lines),
+    )
 
-    # Prints info to file
+    """
+    At this stage, a log like
+    ```
+    |j|☆firelit nights
+    |player|p1|firelit nights|26|1541
+    ```
+    will be stored in tokenized_data as
+    [
+        ['j','☆firelit nights'],
+        ['player','p1','firelit nights','26','1541']
+    ]
+    """
+
+    """
+    Generate a battle dict.
+    We turn each entry [item_x, ...] into {item_x: [[...]]}
+    and any succeeding entry [item_x, ...2] will add onto its corresponding list
+    (i.e. {item_x: [[...], [...]]} )
+    """
+    battle = {}
+    for item in tokenized_data:
+        if item[0] not in battle.keys():
+            battle.update({item[0]: []})
+        battle[item[0]] += [item[1:]]
+
+    """
+    We now clean up the battle dictionary a little bit
+    """
+    CAPTURED_KEYS = ["player", "poke", "win", "switch", "raw", "turn"]
+    [battle.pop(key) for key in battle.keys() - CAPTURED_KEYS]
+
+    battle["tag"] = (
+        file_path.split("/")[-1].removeprefix("gen5ou-").removesuffix(".log")
+    )
+    battle["turncount"] = battle.pop("turn")[-1][0] if "turn" in battle.keys() else "0"
+
+    # Filter only player 1's name and pokemon
+    is_p1 = lambda entry: entry[0] == "p1"
+    battle["player"] = list(filter(is_p1, battle["player"]))[0][1]
+    battle["poke"] = list(
+        map(lambda entry: entry[1].split(",")[0], filter(is_p1, battle["poke"]))
+    )
+
+    """
+    Extract lead Pokemon by getting the first switch in.
+    If None, the battle ended prematurely.
+    """
+    if "switch" in battle.keys():
+        battle["lead"] = battle.pop("switch")[0][1].split(",")[0]
+    else:
+        battle["lead"] = "None"
+
+    # Determine if the player won
+    if "win" in battle.keys():
+        battle["outcome"] = (
+            "win" if battle.pop("win")[0][0] == battle["player"] else "lose"
+        )
+    else:
+        battle["outcome"] = "tie"
+
+    # Extract elo from `raw`
+    battle["raw"] = list(filter(lambda entry: "rating" in entry[0], battle["raw"]))
+    battle["elo"] = battle.pop("raw")[0][0].split(":")[1].split()[0]
+
+    # Finally, we return a line of csv
     return ",".join(
         [
-            os.path.basename(file_path),
-            player_name,
-            player_elo,
-            *player_pokemon,
-            lead_pokemon,
-            str(length),
-            outcome,
+            battle["tag"],
+            battle["player"],
+            battle["elo"],
+            *battle["poke"],
+            battle["lead"],
+            battle["turncount"],
+            battle["outcome"],
         ]
     )
 
 
 def main():
-    out = [
-        "BattleTag,Name,Elo,Pokemon1,Pokemon2,Pokemon3,Pokemon4,Pokemon5,Pokemon6,LeadPokemon,BattleLength,Outcome"
+    headers = [
+        "Tag",
+        "Player",
+        "Elo",
+        *[f"Pokemon {i}" for i in range(1, 7)], # Pokemon 1, 2, 3, ..., 6
+        "LeadPokemon",
+        "TurnCount",
+        "Result",
     ]
+    out = [",".join(headers)]
     file_paths = os.listdir("./dataset/showdown/raw")
     file_count = len(file_paths)
     for i, file_path in enumerate(file_paths):
