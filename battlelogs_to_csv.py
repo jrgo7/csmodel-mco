@@ -81,7 +81,7 @@ def battlelogs_to_csv(file_path: str):
 
     # Extract elo from `raw`
     battle["raw"] = list(filter(lambda entry: "rating" in entry[0], battle["raw"]))
-    battle["elo"] = battle.pop("raw")[0][0].split(":")[1].split()[0]
+    battle["elo"] = battle.pop("raw")[0][0].split("rating: ")[1].split()[0]
 
     # Finally, we return a line of csv
     return ",".join(
