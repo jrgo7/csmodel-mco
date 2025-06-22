@@ -10,8 +10,8 @@ CSMODEL machine project by the Froggers
     1.  Raw Data
         1.  Pokemon Showdown - Battle logs ([Showdown Scraper](https://github.com/jrgo7/showdown-scraper))
             1.  Ties and Forfeit
-        2.  Bulbagarden - Gen 5 Pokemon base stats
-        3.  Smogon - Gen 5 OU usage
+        2.  [Bulbagarden - Gen 5 Pokemon base stats](https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_by_base_stats_in_Generations_II-V)
+        3.  Smogon - Gen 5 OU usage on [2015](https://www.smogon.com/stats/2015-01/gen5ou-0.txt) and [2025](https://www.smogon.com/stats/2025-01/gen5ou-0.txt)
 2.  **Research Questions (EDAs)**
     1.  What is the distribution of base stats among teams, and are they correlated?
     2.  Do people generally pick a certain Pokemon more often than the rest?
