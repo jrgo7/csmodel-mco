@@ -1,2 +1,2 @@
-py ./smogon-to-csv.py -i ./dataset/raw/2025-01-gen1ou-0.txt > ./dataset/2025-01-gen1ou-0.csv
-py ./smogon-to-csv.py -i ./dataset/raw/2016-01-gen1ou-0.txt > ./dataset/2016-01-gen1ou-0.csv
+py ./smogon-to-csv.py -i ./dataset/raw/gen5ou-0_2015-01.txt > ./dataset/gen5ou-0_2015-01-0.csv
+py ./smogon-to-csv.py -i ./dataset/raw/gen5ou-0_2025-01.txt > ./dataset/gen5ou-0_2025-01.csv
