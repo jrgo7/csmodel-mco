@@ -3,6 +3,7 @@ import textwrap
 import re
 import sys
 import os
+from pprint import pprint
 
 
 def battlelogs_to_csv(file_path: str):
@@ -47,7 +48,7 @@ def battlelogs_to_csv(file_path: str):
     """
     We now clean up the battle dictionary a little bit
     """
-    CAPTURED_KEYS = ["player", "poke", "win", "switch", "raw", "turn"]
+    CAPTURED_KEYS = ["player", "poke", "win", "switch", "raw", "turn", "move"]
     [battle.pop(key) for key in battle.keys() - CAPTURED_KEYS]
 
     battle["tag"] = (
@@ -83,8 +84,42 @@ def battlelogs_to_csv(file_path: str):
     battle["raw"] = list(filter(lambda entry: "rating" in entry[0], battle["raw"]))
     battle["elo"] = battle.pop("raw")[0][0].split("rating: ")[1].split()[0]
 
+    # Extract moves
+    try:
+        battle["move"] = set(
+            map(
+                lambda move_entry: (move_entry[0].removeprefix("p1a: "), move_entry[1]),
+                filter(lambda move_entry: "p1a: " in move_entry[0], battle["move"]),
+            )
+        )
+
+        # battle["move"] is a set of tuples (Pokemon, Move)
+        # We turn this into a list since we want the end product to be a dataframe
+        moves = [[] for _ in range(6)]
+        for poke_target, move in battle["move"]:
+            # We manually search instead of using `index` because Landorus-Therian is reported as Landorus
+            for index, poke_name in enumerate(battle["poke"]):
+                if poke_target in poke_name:
+                    moves[index].append(move)
+                    break
+
+        for entry in moves:
+            while len(entry) < 4:
+                entry.append('None')
+            try:
+                assert len(entry) == 4
+            except AssertionError:
+                print(len(entry), battle["tag"], battle["moves"])
+                
+    except KeyError:
+        # No moves, player probably disconnected
+        moves = [["None"] * 4] * 6
+
+    moves = ",".join([",".join(entry) for entry in moves])
+
     # Finally, we return a line of csv
-    return ",".join(
+
+    retval = ",".join(
         [
             battle["tag"],
             battle["player"],
@@ -93,8 +128,9 @@ def battlelogs_to_csv(file_path: str):
             battle["lead"],
             battle["turncount"],
             battle["outcome"],
-        ]
-    )
+        ] + [moves]
+    ) 
+    return retval
 
 
 def main():
@@ -102,17 +138,20 @@ def main():
         "Tag",
         "Player",
         "Elo",
-        *[f"Pokemon {i}" for i in range(1, 7)], # Pokemon 1, 2, 3, ..., 6
+        *[f"Pokemon {i}" for i in range(1, 7)],  # Pokemon 1, 2, 3, ..., 6
         "LeadPokemon",
         "TurnCount",
         "Result",
+        *[f"Pokemon {i} Move {j}" for i in range(1, 7) for j in range (1, 5)],  # Pokemon I Move J
     ]
+    print(headers)
     out = [",".join(headers)]
     file_paths = os.listdir("./dataset/showdown/raw")
     file_count = len(file_paths)
     for i, file_path in enumerate(file_paths):
-        print(f"Processed {i+1}/{file_count} files")
         out.append(battlelogs_to_csv("./dataset/showdown/raw/" + file_path))
+        if i % 1000 == 0:
+            print(f"Processed {i}/{file_count} files")
 
     with open("./dataset/showdown/showdown.csv", "w", encoding="utf-8") as file_pointer:
         file_pointer.write("\n".join(out))
