@@ -5,6 +5,7 @@ import sys
 import os
 from pprint import pprint
 
+
 def battlelogs_to_csv(file_path: str):
     with open(file_path, "r", encoding="utf-8") as file_pointer:
         lines = file_pointer.readlines()
@@ -55,7 +56,6 @@ def battlelogs_to_csv(file_path: str):
         "raw",
         "turn",
         "move",
-        "-weather",
     ]
     [battle.pop(key) for key in battle.keys() - CAPTURED_KEYS]
 
@@ -125,29 +125,21 @@ def battlelogs_to_csv(file_path: str):
 
     moves = ",".join([",".join(entry) for entry in moves])
 
+    # Weather
+    RAIN = 0
+    SAND = 1
+    weather = ["0", "0"]
+    if "Politoed" in battle["poke"] and any(
+        ("Tentacruel" in battle["poke"], "Thundurus-Therian" in battle["poke"])
+    ):
+        weather[SAND] = "1"
+
+    if "Tyranitar" in battle["poke"] and any(
+        ("Alakazam" in battle["poke"], "Landorus-Therian" in battle["poke"])
+    ):
+        weather[RAIN] = "1"
+
     # Finally, we return a line of csv
-
-    if "-weather" in battle.keys():
-        weather_columns = {}
-        weather = battle["-weather"]
-        weather = list(filter(lambda entry: "p1a" in "\t".join(entry), weather))
-        for weather_instance in weather:
-            weather_type = weather_instance[0]
-            if weather_type not in weather_columns.keys():
-                weather_columns.update({weather_type: 1})
-            else:
-                weather_columns[weather_type] += 1
-        weather_final = [
-            (
-                str(weather_columns[weather_type])
-                if weather_type in weather_columns.keys()
-                else "0"
-            )
-            for weather_type in ["Sandstorm", "Hail", "SunnyDay", "RainDance"]
-        ]
-    else:
-        weather_final = ["0"] * 4
-
     retval = ",".join(
         [
             battle["tag"],
@@ -159,7 +151,7 @@ def battlelogs_to_csv(file_path: str):
             battle["outcome"],
         ]
         + [moves]
-        + weather_final
+        + weather
     )
     return retval
 
@@ -176,10 +168,7 @@ def main():
         *[
             f"Pokemon {i} Move {j}" for i in range(1, 7) for j in range(1, 5)
         ],  # Pokemon I Move J
-        *[
-            f"Weather-{weather_type}"
-            for weather_type in ["Sandstorm", "Hail", "SunnyDay", "RainDance"]
-        ],
+        *[f"Weather-{weather_type}" for weather_type in ["Rain", "Sand"]],
     ]
     print(headers)
     out = [",".join(headers)]
