@@ -5,7 +5,6 @@ import sys
 import os
 from pprint import pprint
 
-
 def battlelogs_to_csv(file_path: str):
     with open(file_path, "r", encoding="utf-8") as file_pointer:
         lines = file_pointer.readlines()
@@ -48,7 +47,16 @@ def battlelogs_to_csv(file_path: str):
     """
     We now clean up the battle dictionary a little bit
     """
-    CAPTURED_KEYS = ["player", "poke", "win", "switch", "raw", "turn", "move"]
+    CAPTURED_KEYS = [
+        "player",
+        "poke",
+        "win",
+        "switch",
+        "raw",
+        "turn",
+        "move",
+        "-weather",
+    ]
     [battle.pop(key) for key in battle.keys() - CAPTURED_KEYS]
 
     battle["tag"] = (
@@ -105,12 +113,12 @@ def battlelogs_to_csv(file_path: str):
 
         for entry in moves:
             while len(entry) < 4:
-                entry.append('None')
+                entry.append("None")
             try:
                 assert len(entry) == 4
             except AssertionError:
                 print(len(entry), battle["tag"], battle["moves"])
-                
+
     except KeyError:
         # No moves, player probably disconnected
         moves = [["None"] * 4] * 6
@@ -118,6 +126,27 @@ def battlelogs_to_csv(file_path: str):
     moves = ",".join([",".join(entry) for entry in moves])
 
     # Finally, we return a line of csv
+
+    if "-weather" in battle.keys():
+        weather_columns = {}
+        weather = battle["-weather"]
+        weather = list(filter(lambda entry: "p1a" in "\t".join(entry), weather))
+        for weather_instance in weather:
+            weather_type = weather_instance[0]
+            if weather_type not in weather_columns.keys():
+                weather_columns.update({weather_type: 1})
+            else:
+                weather_columns[weather_type] += 1
+        weather_final = [
+            (
+                str(weather_columns[weather_type])
+                if weather_type in weather_columns.keys()
+                else "0"
+            )
+            for weather_type in ["Sandstorm", "Hail", "SunnyDay", "RainDance"]
+        ]
+    else:
+        weather_final = ["0"] * 4
 
     retval = ",".join(
         [
@@ -128,8 +157,10 @@ def battlelogs_to_csv(file_path: str):
             battle["lead"],
             battle["turncount"],
             battle["outcome"],
-        ] + [moves]
-    ) 
+        ]
+        + [moves]
+        + weather_final
+    )
     return retval
 
 
@@ -142,7 +173,13 @@ def main():
         "LeadPokemon",
         "TurnCount",
         "Result",
-        *[f"Pokemon {i} Move {j}" for i in range(1, 7) for j in range (1, 5)],  # Pokemon I Move J
+        *[
+            f"Pokemon {i} Move {j}" for i in range(1, 7) for j in range(1, 5)
+        ],  # Pokemon I Move J
+        *[
+            f"Weather-{weather_type}"
+            for weather_type in ["Sandstorm", "Hail", "SunnyDay", "RainDance"]
+        ],
     ]
     print(headers)
     out = [",".join(headers)]
